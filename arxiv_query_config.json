@@ -1,0 +1,4 @@
+{
+    "MVS": "(abs:'Multi-View Stereo' OR abs:'Multi View Stereo' OR abs:'Multi-View Depth' OR abs:'Multi View Depth') AND cat:'cs.CV'",
+    "Depth Estimation": "abs:'Depth Estimation' AND cat:'cs.CV'"
+}
