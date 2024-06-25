@@ -1,7 +1,9 @@
-import datetime
-import requests
-import json
 import arxiv
+import json
+import requests
+
+from datetime import datetime, timezone, timedelta
+from tqdm import tqdm
 
 BASE_URL = "https://arxiv.paperswithcode.com/api/v0/papers/"
 cnt = {}
@@ -14,14 +16,14 @@ def get_daily_papers(topic, query, max_results):
             query=query, max_results=max_results, sort_by=arxiv.SortCriterion.SubmittedDate
         )
     )
-    for result in res:
+    for result in tqdm(res):
+        if result.primary_category != 'cs.CV':
+            continue
         paper_id = result.get_short_id()
         comment = result.comment.replace(
             "\n", " ") if result.comment else "None"
         journal_ref = result.journal_ref.replace(
             "\n", " ") if result.journal_ref else "None"
-        if result.primary_category != 'cs.CV':
-            continue
         # eg: 2108.09112v1 -> 2108.09112
         ver_pos = paper_id.find('v')
         if ver_pos == -1:
@@ -30,12 +32,11 @@ def get_daily_papers(topic, query, max_results):
             paper_key = paper_id[0:ver_pos]
         try:
             r = requests.get(BASE_URL + paper_id).json()
-            prefix = f"|**{result.published.date()}**|**{result.title}**|{result.authors[0]} et.al.|[{result.get_short_id()}]({result.entry_id})|{comment}|{journal_ref}"
-            if "official" in r and r["official"]:
-                repo_url = r["official"]["url"]
-                content[paper_key] = prefix + f"|**[link]({repo_url})**|\n"
-            else:
-                content[paper_key] = prefix + "|None|\n"
+            prefix = f"|**{result.published.date()}**|**[{result.title}]({result.entry_id})**|{journal_ref}"
+            suffix = f"{comment}|{result.authors[0]} et.al.|\n"
+            content[paper_key] = prefix + f"|**[link]({r['official']['url']})**|" + \
+                suffix if "official" in r and r["official"] else prefix + \
+                f"|None|" + suffix
         except Exception as e:
             print(f"exception: {e} with id: {paper_key}")
     data = {topic: content}
@@ -73,7 +74,8 @@ def update_json_file(filename, data_all):
 
 
 def json_to_md(filename, md_filename):
-    DateNow = str(datetime.date.today()).replace('-', '.')
+    datenow = str(datetime.now(
+        timezone(timedelta(hours=8))).strftime("%Y-%m-%d"))
     with open(filename, "r", encoding='utf-8') as f:
         content = f.read()
         if not content:
@@ -81,14 +83,14 @@ def json_to_md(filename, md_filename):
         else:
             data = json.loads(content)
     with open(md_filename, "w", encoding='utf-8') as f:
-        f.write("## Updated on " + DateNow + "\n\n")
+        f.write(f"## Updated on {datenow}\n\n")
         for keyword in data.keys():
             day_content = data[keyword]
             if not day_content:
                 continue
             f.write(f"## {keyword}\n\n")
-            f.write("|Published Date|Title|Authors|PDF|Comments|Journal|Code|\n" +
-                    "|---|---|---|---|---|---|---|\n")
+            f.write("|Published Date|Title|Journal|Code|Comments|Authors\n" +
+                    "|---|---|---|---|---|---|\n")
             day_content = {key: value for key, value in sorted(
                 day_content.items(), reverse=True)}
             for _, v in day_content.items():
@@ -104,7 +106,7 @@ if __name__ == "__main__":
     for topic, query in arxiv_filter_config.items():
         print(f"Querying {topic} with {query}")
         query = query.replace("'", '"')
-        data = get_daily_papers(topic, query, max_results=20)
+        data = get_daily_papers(topic, query, max_results=800)
         data_collector.append(data)
     json_file = "cv_arxiv_daily.json"
     md_file = "README.md"
@@ -114,6 +116,7 @@ if __name__ == "__main__":
     with open(cnt_log, "r", encoding='utf-8') as f:
         origin_log = json.load(f)
     with open(cnt_log, "w", encoding='utf-8') as f:
-        origin_log[datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")] = cnt
+        origin_log[datetime.now(timezone(timedelta(hours=8))).strftime(
+            "%Y-%m-%d %H:%M:%S")] = cnt
         json.dump({key: value for key, value in sorted(
             origin_log.items(), reverse=True)}, f, indent=4)
