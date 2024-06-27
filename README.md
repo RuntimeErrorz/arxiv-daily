@@ -1,4 +1,4 @@
-## Updated on 2024-06-26
+## Updated on 2024-06-27
 
 ## MVS
 
@@ -363,7 +363,7 @@
 |**2024-05-19**|**[CRF360D: Monocular 360 Depth Estimation via Spherical Fully-Connected CRFs](http://arxiv.org/abs/2405.11564v1)**|None|None|None|Zidong Cao et.al.|
 |**2024-05-18**|**[Dusk Till Dawn: Self-supervised Nighttime Stereo Depth Estimation using Visual Foundation Models](http://arxiv.org/abs/2405.11158v1)**|None|**[link](https://github.com/madhubabuv/dtd)**|The paper is published at ICRA 2024|Madhu Vankadari et.al.|
 |**2024-05-17**|**[Accurate Training Data for Occupancy Map Prediction in Automated Driving Using Evidence Theory](http://arxiv.org/abs/2405.10575v1)**|None|**[link](https://github.com/boschresearch/evidential-occupancy)**|None|Jonas Kälble et.al.|
-|**2024-05-16**|**[Towards Task-Compatible Compressible Representations](http://arxiv.org/abs/2405.10244v1)**|None|**[link](https://github.com/adeandrade/research)**|To be published in ICME Workshops 2024|Anderson de Andrade et.al.|
+|**2024-05-16**|**[Towards Task-Compatible Compressible Representations](http://arxiv.org/abs/2405.10244v2)**|None|**[link](https://github.com/adeandrade/research)**|To be published in ICME Workshops 2024|Anderson de Andrade et.al.|
 |**2024-05-16**|**[KPNDepth: Depth Estimation of Lane Images under Complex Rainy Environment](http://arxiv.org/abs/2405.09964v1)**|None|None|None|Zhengxu Shi et.al.|
 |**2024-05-14**|**[CLIP with Quality Captions: A Strong Pretraining for Vision Tasks](http://arxiv.org/abs/2405.08911v1)**|None|None|None|Pavan Kumar Anasosalu Vasu et.al.|
 |**2024-05-14**|**[The RoboDrive Challenge: Drive Anytime Anywhere in Any Condition](http://arxiv.org/abs/2405.08816v2)**|None|None|ICRA 2024; 32 pages, 24 figures, 5 tables; Code at   https://robodrive-24.github.io/|Lingdong Kong et.al.|
