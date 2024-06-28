@@ -106,7 +106,7 @@ if __name__ == "__main__":
     for topic, query in arxiv_filter_config.items():
         print(f"Querying {topic} with {query}")
         query = query.replace("'", '"')
-        data = get_daily_papers(topic, query, max_results=800)
+        data = get_daily_papers(topic, query, max_results=10)
         data_collector.append(data)
     json_file = "cv_arxiv_daily.json"
     md_file = "README.md"
