@@ -307,6 +307,8 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-06-27**|**[360 in the Wild: Dataset for Depth Prediction and View Synthesis](http://arxiv.org/abs/2406.18898v1)**|None|None|None|Kibaek Park et.al.|
+|**2024-06-27**|**[Dense Monocular Motion Segmentation Using Optical Flow and Pseudo Depth Map: A Zero-Shot Approach](http://arxiv.org/abs/2406.18837v1)**|Proceedings of the 21st Conference on Robots and Vision (2024)|None|For the offical publication, see https://crv.pubpub.org/pub/iunjzl55|Yuxiang Huang et.al.|
 |**2024-06-25**|**[Depth-Guided Semi-Supervised Instance Segmentation](http://arxiv.org/abs/2406.17413v1)**|None|None|12 pages, 6 figures, 4 tables|Xin Chen et.al.|
 |**2024-06-20**|**[Uncertainty and Self-Supervision in Single-View Depth](http://arxiv.org/abs/2406.14226v1)**|None|None|Doctoral thesis|Javier Rodriguez-Puigvert et.al.|
 |**2024-06-19**|**[WaterMono: Teacher-Guided Anomaly Masking and Enhancement Boosting for Robust Underwater Self-Supervised Monocular Depth Estimation](http://arxiv.org/abs/2406.13344v1)**|None|**[link](https://github.com/oucvisiongroup/watermono)**|None|Yilin Ding et.al.|
