@@ -307,6 +307,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-06-28**|**[Deep Learning-based Depth Estimation Methods from Monocular Image and Videos: A Comprehensive Survey](http://arxiv.org/abs/2406.19675v1)**|None|None|46 pages, 10 figures, The paper has been accepted for publication in   ACM Computing Surveys 2024|Uchitha Rajapaksha et.al.|
 |**2024-06-27**|**[360 in the Wild: Dataset for Depth Prediction and View Synthesis](http://arxiv.org/abs/2406.18898v1)**|None|None|None|Kibaek Park et.al.|
 |**2024-06-27**|**[Dense Monocular Motion Segmentation Using Optical Flow and Pseudo Depth Map: A Zero-Shot Approach](http://arxiv.org/abs/2406.18837v1)**|Proceedings of the 21st Conference on Robots and Vision (2024)|None|For the offical publication, see https://crv.pubpub.org/pub/iunjzl55|Yuxiang Huang et.al.|
 |**2024-06-25**|**[Depth-Guided Semi-Supervised Instance Segmentation](http://arxiv.org/abs/2406.17413v1)**|None|None|12 pages, 6 figures, 4 tables|Xin Chen et.al.|
