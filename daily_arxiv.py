@@ -32,7 +32,7 @@ def get_daily_papers(topic, query, max_results):
             paper_key = paper_id[0:ver_pos]
         try:
             r = requests.get(BASE_URL + paper_id).json()
-            prefix = f"|**{result.published.date()}**|**[{result.title}]({result.entry_id})**|{journal_ref}"
+            prefix = f"|**{result.published.date()}**|**[{result.title}]({result.entry_id[:-2]})**|{journal_ref}"
             suffix = f"{comment}|{result.authors[0]} et.al.|\n"
             content[paper_key] = prefix + f"|**[link]({r['official']['url']})**|" + \
                 suffix if "official" in r and r["official"] else prefix + \
@@ -74,8 +74,8 @@ def update_json_file(filename, data_all):
 
 
 def json_to_md(filename, md_filename):
-    datenow = str(datetime.now(
-        timezone(timedelta(hours=8))).strftime("%Y-%m-%d"))
+    time_now = str(datetime.now(
+        timezone(timedelta(hours=8))).strftime("%Y-%m-%d %H:%M:%S"))
     with open(filename, "r", encoding='utf-8') as f:
         content = f.read()
         if not content:
@@ -83,7 +83,7 @@ def json_to_md(filename, md_filename):
         else:
             data = json.loads(content)
     with open(md_filename, "w", encoding='utf-8') as f:
-        f.write(f"## Updated on {datenow}\n\n")
+        f.write(f"## Updated on {time_now}\n\n")
         for keyword in data.keys():
             day_content = data[keyword]
             if not day_content:
