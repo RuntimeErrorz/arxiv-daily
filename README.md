@@ -6,7 +6,7 @@
 |---|---|---|---|---|---|
 |**2024-06-26**|**[DoubleTake: Geometry Guided Depth Estimation](http://arxiv.org/abs/2406.18387v1)**|None|None|None|Mohamed Sayed et.al.|
 |**2024-06-19**|**[MVSBoost: An Efficient Point Cloud-based 3D Reconstruction](http://arxiv.org/abs/2406.13515v1)**|None|None|The work is under review|Umair Haroon et.al.|
-|**2024-06-01**|**[Topo4D: Topology-Preserving Gaussian Splatting for High-Fidelity 4D Head Capture](http://arxiv.org/abs/2406.00440v1)**|None|None|None|X. Li et.al.|
+|**2024-06-01**|**[Topo4D: Topology-Preserving Gaussian Splatting for High-Fidelity 4D Head Capture](http://arxiv.org/abs/2406.00440v2)**|None|None|None|Xuanchen Li et.al.|
 |**2024-05-27**|**[SDL-MVS: View Space and Depth Deformable Learning Paradigm for Multi-View Stereo Reconstruction in Remote Sensing](http://arxiv.org/abs/2405.17140v1)**|None|None|None|Yong-Qiang Mao et.al.|
 |**2024-05-24**|**[Transparent Object Depth Completion](http://arxiv.org/abs/2405.15299v1)**|None|None|None|Yifan Zhou et.al.|
 |**2024-05-21**|**[Cross-spectral Gated-RGB Stereo Depth Estimation](http://arxiv.org/abs/2405.12759v1)**|None|None|None|Samuel Brucker et.al.|
