@@ -1,4 +1,4 @@
-## Updated on 2024-07-03 08:34:48
+## Updated on 2024-07-03 20:14:00
 
 ## MVS
 
@@ -307,6 +307,8 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-07-02**|**[Camera-LiDAR Cross-modality Gait Recognition](http://arxiv.org/abs/2407.02038)**|None|None|None|Wenxuan Guo et.al.|
+|**2024-06-30**|**[CaFNet: A Confidence-Driven Framework for Radar Camera Depth Estimation](http://arxiv.org/abs/2407.00697)**|None|None|Accepted by IROS 2024|Huawei Sun et.al.|
 |**2024-06-28**|**[Deep Learning-based Depth Estimation Methods from Monocular Image and Videos: A Comprehensive Survey](http://arxiv.org/abs/2406.19675)**|None|None|46 pages, 10 figures, The paper has been accepted for publication in   ACM Computing Surveys 2024|Uchitha Rajapaksha et.al.|
 |**2024-06-27**|**[360 in the Wild: Dataset for Depth Prediction and View Synthesis](http://arxiv.org/abs/2406.18898)**|None|None|None|Kibaek Park et.al.|
 |**2024-06-27**|**[Dense Monocular Motion Segmentation Using Optical Flow and Pseudo Depth Map: A Zero-Shot Approach](http://arxiv.org/abs/2406.18837)**|Proceedings of the 21st Conference on Robots and Vision (2024)|None|For the offical publication, see https://crv.pubpub.org/pub/iunjzl55|Yuxiang Huang et.al.|
