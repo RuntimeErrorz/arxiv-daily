@@ -1,4 +1,4 @@
-## Updated on 2024-07-08 08:36:47
+## Updated at 2024-07-08 20:14:17
 
 ## MVS
 
@@ -307,6 +307,8 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-07-05**|**[A Physical Model-Guided Framework for Underwater Image Enhancement and Depth Estimation](http://arxiv.org/abs/2407.04230)**|None|None|This work has been submitted to the IEEE for possible publication.   Copyright may be transferred without notice, after which this version may no   longer be accessible|Dazhao Du et.al.|
+|**2024-07-04**|**[Towards Cross-View-Consistent Self-Supervised Surround Depth Estimation](http://arxiv.org/abs/2407.04041)**|None|None|None|Laiyan Ding et.al.|
 |**2024-07-02**|**[Camera-LiDAR Cross-modality Gait Recognition](http://arxiv.org/abs/2407.02038)**|None|None|Accepted at ECCV 2024|Wenxuan Guo et.al.|
 |**2024-06-30**|**[CaFNet: A Confidence-Driven Framework for Radar Camera Depth Estimation](http://arxiv.org/abs/2407.00697)**|None|None|Accepted by IROS 2024|Huawei Sun et.al.|
 |**2024-06-28**|**[Deep Learning-based Depth Estimation Methods from Monocular Image and Videos: A Comprehensive Survey](http://arxiv.org/abs/2406.19675)**|None|None|46 pages, 10 figures, The paper has been accepted for publication in   ACM Computing Surveys 2024|Uchitha Rajapaksha et.al.|
