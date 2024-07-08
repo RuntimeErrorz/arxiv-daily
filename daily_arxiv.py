@@ -83,7 +83,7 @@ def json_to_md(filename, md_filename):
         else:
             data = json.loads(content)
     with open(md_filename, "w", encoding='utf-8') as f:
-        f.write(f"## Updated on {time_now}\n\n")
+        f.write(f"## Updated at {time_now}\n\n")
         for keyword in data.keys():
             day_content = data[keyword]
             if not day_content:
