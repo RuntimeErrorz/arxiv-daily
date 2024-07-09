@@ -1,4 +1,4 @@
-## Updated at 2024-07-09 08:35:14
+## Updated at 2024-07-09 20:14:37
 
 ## MVS
 
@@ -10,7 +10,7 @@
 |**2024-05-27**|**[SDL-MVS: View Space and Depth Deformable Learning Paradigm for Multi-View Stereo Reconstruction in Remote Sensing](http://arxiv.org/abs/2405.17140)**|None|None|None|Yong-Qiang Mao et.al.|
 |**2024-05-24**|**[Transparent Object Depth Completion](http://arxiv.org/abs/2405.15299)**|None|None|None|Yifan Zhou et.al.|
 |**2024-05-21**|**[Cross-spectral Gated-RGB Stereo Depth Estimation](http://arxiv.org/abs/2405.12759)**|None|None|None|Samuel Brucker et.al.|
-|**2024-05-20**|**[Fast Generalizable Gaussian Splatting Reconstruction from Multi-View Stereo](http://arxiv.org/abs/2405.12218)**|None|None|Project page: https://mvsgaussian.github.io/|Tianqi Liu et.al.|
+|**2024-05-20**|**[MVSGaussian: Fast Generalizable Gaussian Splatting Reconstruction from Multi-View Stereo](http://arxiv.org/abs/2405.12218)**|None|None|ECCV2024, Project page: https://mvsgaussian.github.io/|Tianqi Liu et.al.|
 |**2024-05-15**|**[RobustMVS: Single Domain Generalized Deep Multi-view Stereo](http://arxiv.org/abs/2405.09131)**|None|**[link](https://github.com/toughstonex/mvs_evaluation_benchmark)**|Accepted to TCSVT. Code will be released at:   https://github.com/ToughStoneX/Robust-MVS. Benchmark will be released at:   https://github.com/ToughStoneX/MVS_Evaluation_Benchmark|Hongbin Xu et.al.|
 |**2024-05-14**|**[The RoboDrive Challenge: Drive Anytime Anywhere in Any Condition](http://arxiv.org/abs/2405.08816)**|None|None|ICRA 2024; 32 pages, 24 figures, 5 tables; Code at   https://robodrive-24.github.io/|Lingdong Kong et.al.|
 |**2024-05-13**|**[SceneFactory: A Workflow-centric and Unified Framework for Incremental Scene Modeling](http://arxiv.org/abs/2405.07847)**|None|None|None|Yijun Yuan et.al.|
@@ -307,10 +307,11 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-07-07**|**[SCIPaD: Incorporating Spatial Clues into Unsupervised Pose-Depth Joint Learning](http://arxiv.org/abs/2407.05283)**|None|**[link](https://github.com/fengyi233/SCIPaD)**|Accepted by IEEE Transactions on Intelligent Vehicles. Code is   available at https://mias.group/SCIPaD|Yi Feng et.al.|
 |**2024-07-05**|**[A Physical Model-Guided Framework for Underwater Image Enhancement and Depth Estimation](http://arxiv.org/abs/2407.04230)**|None|None|This work has been submitted to the IEEE for possible publication.   Copyright may be transferred without notice, after which this version may no   longer be accessible|Dazhao Du et.al.|
 |**2024-07-04**|**[Towards Cross-View-Consistent Self-Supervised Surround Depth Estimation](http://arxiv.org/abs/2407.04041)**|None|None|None|Laiyan Ding et.al.|
 |**2024-07-02**|**[Camera-LiDAR Cross-modality Gait Recognition](http://arxiv.org/abs/2407.02038)**|None|None|Accepted at ECCV 2024|Wenxuan Guo et.al.|
-|**2024-06-30**|**[CaFNet: A Confidence-Driven Framework for Radar Camera Depth Estimation](http://arxiv.org/abs/2407.00697)**|None|None|Accepted by IROS 2024|Huawei Sun et.al.|
+|**2024-06-30**|**[CaFNet: A Confidence-Driven Framework for Radar Camera Depth Estimation](http://arxiv.org/abs/2407.00697)**|None|**[link](https://github.com/harborsarah/cafnet)**|Accepted by IROS 2024|Huawei Sun et.al.|
 |**2024-06-28**|**[Deep Learning-based Depth Estimation Methods from Monocular Image and Videos: A Comprehensive Survey](http://arxiv.org/abs/2406.19675)**|None|None|46 pages, 10 figures, The paper has been accepted for publication in   ACM Computing Surveys 2024|Uchitha Rajapaksha et.al.|
 |**2024-06-27**|**[360 in the Wild: Dataset for Depth Prediction and View Synthesis](http://arxiv.org/abs/2406.18898)**|None|None|None|Kibaek Park et.al.|
 |**2024-06-27**|**[Dense Monocular Motion Segmentation Using Optical Flow and Pseudo Depth Map: A Zero-Shot Approach](http://arxiv.org/abs/2406.18837)**|Proceedings of the 21st Conference on Robots and Vision (2024)|None|For the offical publication, see https://crv.pubpub.org/pub/iunjzl55|Yuxiang Huang et.al.|
