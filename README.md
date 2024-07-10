@@ -1,9 +1,10 @@
-## Updated at 2024-07-10 08:35:38
+## Updated at 2024-07-10 20:14:00
 
 ## MVS
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-07-09**|**[Computer vision tasks for intelligent aerospace missions: An overview](http://arxiv.org/abs/2407.06513)**|None|None|23 pages, 7 figures, journal|Huilin Chen et.al.|
 |**2024-06-26**|**[DoubleTake: Geometry Guided Depth Estimation](http://arxiv.org/abs/2406.18387)**|None|None|None|Mohamed Sayed et.al.|
 |**2024-06-19**|**[MVSBoost: An Efficient Point Cloud-based 3D Reconstruction](http://arxiv.org/abs/2406.13515)**|None|None|The work is under review|Umair Haroon et.al.|
 |**2024-06-01**|**[Topo4D: Topology-Preserving Gaussian Splatting for High-Fidelity 4D Head Capture](http://arxiv.org/abs/2406.00440)**|None|None|None|Xuanchen Li et.al.|
