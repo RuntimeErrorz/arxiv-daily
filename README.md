@@ -1,4 +1,4 @@
-## Updated at 2024-07-15 08:37:00
+## Updated at 2024-07-15 20:14:28
 
 ## MVS
 
@@ -11,7 +11,7 @@
 |**2024-05-27**|**[SDL-MVS: View Space and Depth Deformable Learning Paradigm for Multi-View Stereo Reconstruction in Remote Sensing](http://arxiv.org/abs/2405.17140)**|None|None|None|Yong-Qiang Mao et.al.|
 |**2024-05-24**|**[Transparent Object Depth Completion](http://arxiv.org/abs/2405.15299)**|None|None|None|Yifan Zhou et.al.|
 |**2024-05-21**|**[Cross-spectral Gated-RGB Stereo Depth Estimation](http://arxiv.org/abs/2405.12759)**|None|None|None|Samuel Brucker et.al.|
-|**2024-05-20**|**[MVSGaussian: Fast Generalizable Gaussian Splatting Reconstruction from Multi-View Stereo](http://arxiv.org/abs/2405.12218)**|None|None|ECCV2024, Project page: https://mvsgaussian.github.io/|Tianqi Liu et.al.|
+|**2024-05-20**|**[MVSGaussian: Fast Generalizable Gaussian Splatting Reconstruction from Multi-View Stereo](http://arxiv.org/abs/2405.12218)**|None|**[link](https://github.com/TQTQliu/MVSGaussian)**|ECCV2024, Project page: https://mvsgaussian.github.io/|Tianqi Liu et.al.|
 |**2024-05-15**|**[RobustMVS: Single Domain Generalized Deep Multi-view Stereo](http://arxiv.org/abs/2405.09131)**|None|**[link](https://github.com/toughstonex/mvs_evaluation_benchmark)**|Accepted to TCSVT. Code will be released at:   https://github.com/ToughStoneX/Robust-MVS. Benchmark will be released at:   https://github.com/ToughStoneX/MVS_Evaluation_Benchmark|Hongbin Xu et.al.|
 |**2024-05-14**|**[The RoboDrive Challenge: Drive Anytime Anywhere in Any Condition](http://arxiv.org/abs/2405.08816)**|None|None|ICRA 2024; 32 pages, 24 figures, 5 tables; Code at   https://robodrive-24.github.io/|Lingdong Kong et.al.|
 |**2024-05-13**|**[SceneFactory: A Workflow-centric and Unified Framework for Incremental Scene Modeling](http://arxiv.org/abs/2405.07847)**|None|None|None|Yijun Yuan et.al.|
@@ -308,6 +308,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-07-12**|**[ProDepth: Boosting Self-Supervised Multi-Frame Monocular Depth with Probabilistic Fusion](http://arxiv.org/abs/2407.09303)**|None|**[link](https://github.com/sungmin-woo/ProDepth)**|Accepted by ECCV 2024. Project Page:   https://sungmin-woo.github.io/prodepth/|Sungmin Woo et.al.|
 |**2024-07-11**|**[ScaleDepth: Decomposing Metric Depth Estimation into Scale Prediction and Relative Depth Estimation](http://arxiv.org/abs/2407.08187)**|None|None|14 pages, 11 figure, 13 tables|Ruijie Zhu et.al.|
 |**2024-07-10**|**[Controlling Space and Time with Diffusion Models](http://arxiv.org/abs/2407.07860)**|None|None|None|Daniel Watson et.al.|
 |**2024-07-07**|**[SCIPaD: Incorporating Spatial Clues into Unsupervised Pose-Depth Joint Learning](http://arxiv.org/abs/2407.05283)**|None|**[link](https://github.com/fengyi233/SCIPaD)**|Accepted by IEEE Transactions on Intelligent Vehicles. Code is   available at https://mias.group/SCIPaD|Yi Feng et.al.|
