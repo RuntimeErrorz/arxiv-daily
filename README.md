@@ -1,9 +1,10 @@
-## Updated at 2024-07-17 08:35:51
+## Updated at 2024-07-17 20:14:04
 
 ## MVS
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-07-16**|**[MVG-Splatting: Multi-View Guided Gaussian Splatting with Adaptive Quantile-Based Geometric Consistency Densification](http://arxiv.org/abs/2407.11840)**|None|None|https://mvgsplatting.github.io|Zhuoxiao Li et.al.|
 |**2024-07-13**|**[Self-supervised 3D Point Cloud Completion via Multi-view Adversarial Learning](http://arxiv.org/abs/2407.09786)**|None|**[link](https://github.com/ltwu6/malspc)**|12 pages,8 figures|Lintai Wu et.al.|
 |**2024-07-09**|**[Computer vision tasks for intelligent aerospace missions: An overview](http://arxiv.org/abs/2407.06513)**|None|None|23 pages, 7 figures, journal|Huilin Chen et.al.|
 |**2024-06-26**|**[DoubleTake: Geometry Guided Depth Estimation](http://arxiv.org/abs/2406.18387)**|None|None|ECCV 2024 Version|Mohamed Sayed et.al.|
@@ -309,11 +310,12 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-07-16**|**[Temporally Consistent Stereo Matching](http://arxiv.org/abs/2407.11950)**|None|**[link](https://github.com/jiaxiZeng/Temporally-Consistent-Stereo-Matching)**|ECCV 2024|Jiaxi Zeng et.al.|
 |**2024-07-15**|**[IDOL: Unified Dual-Modal Latent Diffusion for Human-Centric Joint Video-Depth Generation](http://arxiv.org/abs/2407.10937)**|None|**[link](https://github.com/yhZhai/idol)**|ECCV 2024; project page: https://yhzhai.github.io/idol/|Yuanhao Zhai et.al.|
 |**2024-07-15**|**[OPEN: Object-wise Position Embedding for Multi-view 3D Object Detection](http://arxiv.org/abs/2407.10753)**|None|None|Accepted by ECCV 2024|Jinghua Hou et.al.|
 |**2024-07-15**|**[Towards Scale-Aware Full Surround Monodepth with Transformers](http://arxiv.org/abs/2407.10406)**|None|None|None|Yuchen Yang et.al.|
 |**2024-07-12**|**[ProDepth: Boosting Self-Supervised Multi-Frame Monocular Depth with Probabilistic Fusion](http://arxiv.org/abs/2407.09303)**|None|**[link](https://github.com/sungmin-woo/ProDepth)**|Accepted by ECCV 2024. Project Page:   https://sungmin-woo.github.io/prodepth/|Sungmin Woo et.al.|
-|**2024-07-11**|**[ScaleDepth: Decomposing Metric Depth Estimation into Scale Prediction and Relative Depth Estimation](http://arxiv.org/abs/2407.08187)**|None|None|14 pages, 11 figure, 13 tables|Ruijie Zhu et.al.|
+|**2024-07-11**|**[ScaleDepth: Decomposing Metric Depth Estimation into Scale Prediction and Relative Depth Estimation](http://arxiv.org/abs/2407.08187)**|None|**[link](https://github.com/RuijieZhu94/mmdepth/blob/main/projects/ScaleDepth/README.md)**|14 pages, 11 figure, 13 tables|Ruijie Zhu et.al.|
 |**2024-07-10**|**[Controlling Space and Time with Diffusion Models](http://arxiv.org/abs/2407.07860)**|None|None|None|Daniel Watson et.al.|
 |**2024-07-07**|**[SCIPaD: Incorporating Spatial Clues into Unsupervised Pose-Depth Joint Learning](http://arxiv.org/abs/2407.05283)**|None|**[link](https://github.com/fengyi233/SCIPaD)**|Accepted by IEEE Transactions on Intelligent Vehicles. Code is   available at https://mias.group/SCIPaD|Yi Feng et.al.|
 |**2024-07-05**|**[A Physical Model-Guided Framework for Underwater Image Enhancement and Depth Estimation](http://arxiv.org/abs/2407.04230)**|None|None|This work has been submitted to the IEEE for possible publication.   Copyright may be transferred without notice, after which this version may no   longer be accessible|Dazhao Du et.al.|
