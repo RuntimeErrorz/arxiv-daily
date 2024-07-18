@@ -1,4 +1,4 @@
-## Updated at 2024-07-18 08:35:07
+## Updated at 2024-07-18 20:14:23
 
 ## MVS
 
@@ -310,6 +310,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-07-17**|**[Benchmarking Robust Self-Supervised Learning Across Diverse Downstream Tasks](http://arxiv.org/abs/2407.12588)**|None|**[link](https://github.com/layer6ai-labs/ssl-robustness)**|Accepted at the ICML 2024 Workshop on Foundation Models in the Wild|Antoni Kowalczuk et.al.|
 |**2024-07-16**|**[Temporally Consistent Stereo Matching](http://arxiv.org/abs/2407.11950)**|None|**[link](https://github.com/jiaxiZeng/Temporally-Consistent-Stereo-Matching)**|ECCV 2024|Jiaxi Zeng et.al.|
 |**2024-07-15**|**[IDOL: Unified Dual-Modal Latent Diffusion for Human-Centric Joint Video-Depth Generation](http://arxiv.org/abs/2407.10937)**|None|**[link](https://github.com/yhZhai/idol)**|ECCV 2024; project page: https://yhzhai.github.io/idol/|Yuanhao Zhai et.al.|
 |**2024-07-15**|**[OPEN: Object-wise Position Embedding for Multi-view 3D Object Detection](http://arxiv.org/abs/2407.10753)**|None|None|Accepted by ECCV 2024|Jinghua Hou et.al.|
