@@ -1,4 +1,4 @@
-## Updated at 2024-07-18 20:14:23
+## Updated at 2024-07-19 08:35:37
 
 ## MVS
 
@@ -313,7 +313,7 @@
 |**2024-07-17**|**[Benchmarking Robust Self-Supervised Learning Across Diverse Downstream Tasks](http://arxiv.org/abs/2407.12588)**|None|**[link](https://github.com/layer6ai-labs/ssl-robustness)**|Accepted at the ICML 2024 Workshop on Foundation Models in the Wild|Antoni Kowalczuk et.al.|
 |**2024-07-16**|**[Temporally Consistent Stereo Matching](http://arxiv.org/abs/2407.11950)**|None|**[link](https://github.com/jiaxiZeng/Temporally-Consistent-Stereo-Matching)**|ECCV 2024|Jiaxi Zeng et.al.|
 |**2024-07-15**|**[IDOL: Unified Dual-Modal Latent Diffusion for Human-Centric Joint Video-Depth Generation](http://arxiv.org/abs/2407.10937)**|None|**[link](https://github.com/yhZhai/idol)**|ECCV 2024; project page: https://yhzhai.github.io/idol/|Yuanhao Zhai et.al.|
-|**2024-07-15**|**[OPEN: Object-wise Position Embedding for Multi-view 3D Object Detection](http://arxiv.org/abs/2407.10753)**|None|None|Accepted by ECCV 2024|Jinghua Hou et.al.|
+|**2024-07-15**|**[OPEN: Object-wise Position Embedding for Multi-view 3D Object Detection](http://arxiv.org/abs/2407.10753)**|None|**[link](https://github.com/AlmoonYsl/OPEN)**|Accepted by ECCV 2024|Jinghua Hou et.al.|
 |**2024-07-15**|**[Towards Scale-Aware Full Surround Monodepth with Transformers](http://arxiv.org/abs/2407.10406)**|None|None|None|Yuchen Yang et.al.|
 |**2024-07-12**|**[ProDepth: Boosting Self-Supervised Multi-Frame Monocular Depth with Probabilistic Fusion](http://arxiv.org/abs/2407.09303)**|None|**[link](https://github.com/sungmin-woo/ProDepth)**|Accepted by ECCV 2024. Project Page:   https://sungmin-woo.github.io/prodepth/|Sungmin Woo et.al.|
 |**2024-07-11**|**[ScaleDepth: Decomposing Metric Depth Estimation into Scale Prediction and Relative Depth Estimation](http://arxiv.org/abs/2407.08187)**|None|**[link](https://github.com/RuijieZhu94/mmdepth/blob/main/projects/ScaleDepth/README.md)**|14 pages, 11 figure, 13 tables|Ruijie Zhu et.al.|
