@@ -1,9 +1,10 @@
-## Updated at 2024-07-22 09:12:37
+## Updated at 2024-07-22 20:31:04
 
 ## MVS
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-07-19**|**[SparseCraft: Few-Shot Neural Reconstruction through Stereopsis Guided Geometric Linearization](http://arxiv.org/abs/2407.14257)**|None|None|ECCV 2024. Project page: https://sparsecraft.github.io|Mae Younes et.al.|
 |**2024-07-16**|**[MVG-Splatting: Multi-View Guided Gaussian Splatting with Adaptive Quantile-Based Geometric Consistency Densification](http://arxiv.org/abs/2407.11840)**|None|None|https://mvgsplatting.github.io|Zhuoxiao Li et.al.|
 |**2024-07-13**|**[Self-supervised 3D Point Cloud Completion via Multi-view Adversarial Learning](http://arxiv.org/abs/2407.09786)**|None|**[link](https://github.com/ltwu6/malspc)**|12 pages,8 figures|Lintai Wu et.al.|
 |**2024-07-09**|**[Computer vision tasks for intelligent aerospace missions: An overview](http://arxiv.org/abs/2407.06513)**|None|None|23 pages, 7 figures, journal|Huilin Chen et.al.|
@@ -310,6 +311,8 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-07-19**|**[Mono-ViFI: A Unified Learning Framework for Self-supervised Single- and Multi-frame Monocular Depth Estimation](http://arxiv.org/abs/2407.14126)**|None|**[link](https://github.com/liujf1226/mono-vifi)**|27 pages, accepted by ECCV 2024|Jinfeng Liu et.al.|
+|**2024-07-18**|**[Many Perception Tasks are Highly Redundant Functions of their Input Data](http://arxiv.org/abs/2407.13841)**|None|None|None|Rahul Ramesh et.al.|
 |**2024-07-17**|**[Benchmarking Robust Self-Supervised Learning Across Diverse Downstream Tasks](http://arxiv.org/abs/2407.12588)**|None|**[link](https://github.com/layer6ai-labs/ssl-robustness)**|Accepted at the ICML 2024 Workshop on Foundation Models in the Wild|Antoni Kowalczuk et.al.|
 |**2024-07-16**|**[Temporally Consistent Stereo Matching](http://arxiv.org/abs/2407.11950)**|None|**[link](https://github.com/jiaxiZeng/Temporally-Consistent-Stereo-Matching)**|ECCV 2024|Jiaxi Zeng et.al.|
 |**2024-07-15**|**[IDOL: Unified Dual-Modal Latent Diffusion for Human-Centric Joint Video-Depth Generation](http://arxiv.org/abs/2407.10937)**|None|**[link](https://github.com/yhZhai/idol)**|ECCV 2024; project page: https://yhzhai.github.io/idol/|Yuanhao Zhai et.al.|
