@@ -1,4 +1,4 @@
-## Updated at 2024-07-24 09:11:05
+## Updated at 2024-07-24 20:29:51
 
 ## MVS
 
@@ -311,6 +311,8 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-07-23**|**[Diffusion Models for Monocular Depth Estimation: Overcoming Challenging Conditions](http://arxiv.org/abs/2407.16698)**|None|**[link](https://github.com/fabiotosi92/diffusion4robustdepth)**|ECCV 2024. Code: https://github.com/fabiotosi92/Diffusion4RobustDepth   Project page: https://diffusion4robustdepth.github.io/|Fabio Tosi et.al.|
+|**2024-07-23**|**[ToDER: Towards Colonoscopy Depth Estimation and Reconstruction with Geometry Constraint Adaptation](http://arxiv.org/abs/2407.16508)**|None|None|None|Zhenhua Wu et.al.|
 |**2024-07-19**|**[Mono-ViFI: A Unified Learning Framework for Self-supervised Single- and Multi-frame Monocular Depth Estimation](http://arxiv.org/abs/2407.14126)**|None|**[link](https://github.com/liujf1226/mono-vifi)**|27 pages, accepted by ECCV 2024|Jinfeng Liu et.al.|
 |**2024-07-18**|**[Many Perception Tasks are Highly Redundant Functions of their Input Data](http://arxiv.org/abs/2407.13841)**|None|None|None|Rahul Ramesh et.al.|
 |**2024-07-17**|**[Benchmarking Robust Self-Supervised Learning Across Diverse Downstream Tasks](http://arxiv.org/abs/2407.12588)**|None|**[link](https://github.com/layer6ai-labs/ssl-robustness)**|Accepted at the ICML 2024 Workshop on Foundation Models in the Wild|Antoni Kowalczuk et.al.|
