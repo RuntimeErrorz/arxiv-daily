@@ -1,4 +1,4 @@
-## Updated at 2024-07-25 09:10:31
+## Updated at 2024-07-25 20:30:23
 
 ## MVS
 
@@ -311,6 +311,9 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-07-24**|**[DarSwin-Unet: Distortion Aware Encoder-Decoder Architecture](http://arxiv.org/abs/2407.17328)**|None|None|None|Akshaya Athwale et.al.|
+|**2024-07-24**|**[Physical Adversarial Attack on Monocular Depth Estimation via Shape-Varying Patches](http://arxiv.org/abs/2407.17312)**|None|None|None|Chenxing Zhao et.al.|
+|**2024-07-23**|**[SINDER: Repairing the Singular Defects of DINOv2](http://arxiv.org/abs/2407.16826)**|None|**[link](https://github.com/haoqiwang/sinder)**|ECCV 2024|Haoqi Wang et.al.|
 |**2024-07-23**|**[Diffusion Models for Monocular Depth Estimation: Overcoming Challenging Conditions](http://arxiv.org/abs/2407.16698)**|None|**[link](https://github.com/fabiotosi92/diffusion4robustdepth)**|ECCV 2024. Code: https://github.com/fabiotosi92/Diffusion4RobustDepth   Project page: https://diffusion4robustdepth.github.io/|Fabio Tosi et.al.|
 |**2024-07-23**|**[ToDER: Towards Colonoscopy Depth Estimation and Reconstruction with Geometry Constraint Adaptation](http://arxiv.org/abs/2407.16508)**|None|None|None|Zhenhua Wu et.al.|
 |**2024-07-19**|**[Mono-ViFI: A Unified Learning Framework for Self-supervised Single- and Multi-frame Monocular Depth Estimation](http://arxiv.org/abs/2407.14126)**|None|**[link](https://github.com/liujf1226/mono-vifi)**|27 pages, accepted by ECCV 2024|Jinfeng Liu et.al.|
