@@ -1,10 +1,10 @@
-## Updated at 2024-07-28 20:27:44
+## Updated at 2024-07-29 09:12:21
 
 ## MVS
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
-|**2024-07-25**|**[Towards the Spectral bias Alleviation by Normalizations in Coordinate Networks](http://arxiv.org/abs/2407.17834)**|None|None|None|Zhicheng Cai et.al.|
+|**2024-07-25**|**[Towards the Spectral bias Alleviation by Normalizations in Coordinate Networks](http://arxiv.org/abs/2407.17834)**|None|**[link](https://github.com/aiolus-x/norm-inr)**|None|Zhicheng Cai et.al.|
 |**2024-07-19**|**[SparseCraft: Few-Shot Neural Reconstruction through Stereopsis Guided Geometric Linearization](http://arxiv.org/abs/2407.14257)**|None|None|ECCV 2024. Project page: https://sparsecraft.github.io|Mae Younes et.al.|
 |**2024-07-16**|**[MVG-Splatting: Multi-View Guided Gaussian Splatting with Adaptive Quantile-Based Geometric Consistency Densification](http://arxiv.org/abs/2407.11840)**|None|None|https://mvgsplatting.github.io|Zhuoxiao Li et.al.|
 |**2024-07-13**|**[Self-supervised 3D Point Cloud Completion via Multi-view Adversarial Learning](http://arxiv.org/abs/2407.09786)**|None|**[link](https://github.com/ltwu6/malspc)**|12 pages,8 figures|Lintai Wu et.al.|
