@@ -1,4 +1,4 @@
-## Updated at 2024-07-29 09:12:21
+## Updated at 2024-07-29 20:30:50
 
 ## MVS
 
@@ -312,6 +312,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-07-26**|**[HybridDepth: Robust Depth Fusion for Mobile AR by Leveraging Depth from Focus and Single-Image Priors](http://arxiv.org/abs/2407.18443)**|None|**[link](https://github.com/cake-lab/hybriddepth)**|None|Ashkan Ganj et.al.|
 |**2024-07-25**|**[BetterDepth: Plug-and-Play Diffusion Refiner for Zero-Shot Monocular Depth Estimation](http://arxiv.org/abs/2407.17952)**|None|None|None|Xiang Zhang et.al.|
 |**2024-07-25**|**[UMono: Physical Model Informed Hybrid CNN-Transformer Framework for Underwater Monocular Depth Estimation](http://arxiv.org/abs/2407.17838)**|None|None|None|Jian Wang et.al.|
 |**2024-07-24**|**[DarSwin-Unet: Distortion Aware Encoder-Decoder Architecture](http://arxiv.org/abs/2407.17328)**|None|None|None|Akshaya Athwale et.al.|
