@@ -1,9 +1,10 @@
-## Updated at 2024-07-30 09:10:41
+## Updated at 2024-07-30 20:30:23
 
 ## MVS
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-07-27**|**[MSP-MVS: Multi-granularity Segmentation Prior Guided Multi-View Stereo](http://arxiv.org/abs/2407.19323)**|None|None|None|Zhenlong Yuan et.al.|
 |**2024-07-25**|**[Towards the Spectral bias Alleviation by Normalizations in Coordinate Networks](http://arxiv.org/abs/2407.17834)**|None|**[link](https://github.com/aiolus-x/norm-inr)**|None|Zhicheng Cai et.al.|
 |**2024-07-19**|**[SparseCraft: Few-Shot Neural Reconstruction through Stereopsis Guided Geometric Linearization](http://arxiv.org/abs/2407.14257)**|None|None|ECCV 2024. Project page: https://sparsecraft.github.io|Mae Younes et.al.|
 |**2024-07-16**|**[MVG-Splatting: Multi-View Guided Gaussian Splatting with Adaptive Quantile-Based Geometric Consistency Densification](http://arxiv.org/abs/2407.11840)**|None|None|https://mvgsplatting.github.io|Zhuoxiao Li et.al.|
@@ -312,6 +313,9 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-07-29**|**[Improving 2D Feature Representations by 3D-Aware Fine-Tuning](http://arxiv.org/abs/2407.20229)**|None|None|ECCV 2024. Project page: https://ywyue.github.io/FiT3D|Yuanwen Yue et.al.|
+|**2024-07-27**|**[Revisit Self-supervised Depth Estimation with Local Structure-from-Motion](http://arxiv.org/abs/2407.19166)**|None|None|None|Shengjie Zhu et.al.|
+|**2024-07-27**|**[RePLAy: Remove Projective LiDAR Depthmap Artifacts via Exploiting Epipolar Geometry](http://arxiv.org/abs/2407.19154)**|None|None|None|Shengjie Zhu et.al.|
 |**2024-07-26**|**[HybridDepth: Robust Depth Fusion for Mobile AR by Leveraging Depth from Focus and Single-Image Priors](http://arxiv.org/abs/2407.18443)**|None|**[link](https://github.com/cake-lab/hybriddepth)**|None|Ashkan Ganj et.al.|
 |**2024-07-25**|**[BetterDepth: Plug-and-Play Diffusion Refiner for Zero-Shot Monocular Depth Estimation](http://arxiv.org/abs/2407.17952)**|None|None|None|Xiang Zhang et.al.|
 |**2024-07-25**|**[UMono: Physical Model Informed Hybrid CNN-Transformer Framework for Underwater Monocular Depth Estimation](http://arxiv.org/abs/2407.17838)**|None|None|None|Jian Wang et.al.|
