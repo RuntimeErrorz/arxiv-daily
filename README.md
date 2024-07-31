@@ -1,4 +1,4 @@
-## Updated at 2024-07-31 08:59:03
+## Updated at 2024-07-31 20:31:48
 
 ## MVS
 
@@ -313,6 +313,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-07-29**|**[BaseBoostDepth: Exploiting Larger Baselines For Self-supervised Monocular Depth Estimation](http://arxiv.org/abs/2407.20437)**|None|None|None|Kieran Saunders et.al.|
 |**2024-07-29**|**[Improving 2D Feature Representations by 3D-Aware Fine-Tuning](http://arxiv.org/abs/2407.20229)**|None|None|ECCV 2024. Project page: https://ywyue.github.io/FiT3D|Yuanwen Yue et.al.|
 |**2024-07-27**|**[Revisit Self-supervised Depth Estimation with Local Structure-from-Motion](http://arxiv.org/abs/2407.19166)**|None|None|None|Shengjie Zhu et.al.|
 |**2024-07-27**|**[RePLAy: Remove Projective LiDAR Depthmap Artifacts via Exploiting Epipolar Geometry](http://arxiv.org/abs/2407.19154)**|None|None|None|Shengjie Zhu et.al.|
