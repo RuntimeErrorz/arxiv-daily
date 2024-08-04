@@ -1,4 +1,4 @@
-## Updated at 2024-08-04 09:16:09
+## Updated at 2024-08-04 20:27:55
 
 ## MVS
 
@@ -313,6 +313,8 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-08-01**|**[MonoMM: A Multi-scale Mamba-Enhanced Network for Real-time Monocular 3D Object Detection](http://arxiv.org/abs/2408.00438)**|None|None|None|Youjia Fu et.al.|
+|**2024-08-01**|**[High-Precision Self-Supervised Monocular Depth Estimation with Rich-Resource Prior](http://arxiv.org/abs/2408.00361)**|None|None|ECCV2024|Wencheng Han et.al.|
 |**2024-07-31**|**[Unifying Event-based Flow, Stereo and Depth Estimation via Feature Similarity Matching](http://arxiv.org/abs/2407.21735)**|None|None|None|Pengjie Zhang et.al.|
 |**2024-07-29**|**[BaseBoostDepth: Exploiting Larger Baselines For Self-supervised Monocular Depth Estimation](http://arxiv.org/abs/2407.20437)**|None|None|None|Kieran Saunders et.al.|
 |**2024-07-29**|**[Improving 2D Feature Representations by 3D-Aware Fine-Tuning](http://arxiv.org/abs/2407.20229)**|None|None|ECCV 2024. Project page: https://ywyue.github.io/FiT3D|Yuanwen Yue et.al.|
