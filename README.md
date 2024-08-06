@@ -1,9 +1,11 @@
-## Updated at 2024-08-06 09:10:48
+## Updated at 2024-08-06 20:31:04
 
 ## MVS
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-08-04**|**[Improving Neural Surface Reconstruction with Feature Priors from Multi-View Image](http://arxiv.org/abs/2408.02079)**|None|None|ECCV2024|Xinlin Ren et.al.|
+|**2024-08-04**|**[PanicleNeRF: low-cost, high-precision in-field phenotypingof rice panicles with smartphone](http://arxiv.org/abs/2408.02053)**|None|None|None|Xin Yang et.al.|
 |**2024-07-27**|**[MSP-MVS: Multi-granularity Segmentation Prior Guided Multi-View Stereo](http://arxiv.org/abs/2407.19323)**|None|None|None|Zhenlong Yuan et.al.|
 |**2024-07-25**|**[Towards the Spectral bias Alleviation by Normalizations in Coordinate Networks](http://arxiv.org/abs/2407.17834)**|None|**[link](https://github.com/aiolus-x/norm-inr)**|None|Zhicheng Cai et.al.|
 |**2024-07-19**|**[SparseCraft: Few-Shot Neural Reconstruction through Stereopsis Guided Geometric Linearization](http://arxiv.org/abs/2407.14257)**|None|None|ECCV 2024. Project page: https://sparsecraft.github.io|Mae Younes et.al.|
@@ -313,6 +315,9 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-08-05**|**[Lumina-mGPT: Illuminate Flexible Photorealistic Text-to-Image Generation with Multimodal Generative Pretraining](http://arxiv.org/abs/2408.02657)**|None|None|Code available at: https://github.com/Alpha-VLLM/Lumina-mGPT|Dongyang Liu et.al.|
+|**2024-08-03**|**[MCPDepth: Omnidirectional Depth Estimation via Stereo Matching from Multi-Cylindrical Panoramas](http://arxiv.org/abs/2408.01653)**|None|None|None|Feng Qiao et.al.|
+|**2024-08-02**|**[Self-Supervised Depth Estimation Based on Camera Models](http://arxiv.org/abs/2408.01565)**|None|None|None|Jinchang Zhang et.al.|
 |**2024-08-01**|**[MonoMM: A Multi-scale Mamba-Enhanced Network for Real-time Monocular 3D Object Detection](http://arxiv.org/abs/2408.00438)**|None|None|None|Youjia Fu et.al.|
 |**2024-08-01**|**[High-Precision Self-Supervised Monocular Depth Estimation with Rich-Resource Prior](http://arxiv.org/abs/2408.00361)**|None|None|ECCV2024|Wencheng Han et.al.|
 |**2024-07-31**|**[Unifying Event-based Flow, Stereo and Depth Estimation via Feature Similarity Matching](http://arxiv.org/abs/2407.21735)**|None|None|None|Pengjie Zhang et.al.|
