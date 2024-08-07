@@ -1,4 +1,4 @@
-## Updated at 2024-08-07 09:11:51
+## Updated at 2024-08-07 20:31:57
 
 ## MVS
 
@@ -315,6 +315,8 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-08-06**|**[BodySLAM: A Generalized Monocular Visual SLAM Framework for Surgical Applications](http://arxiv.org/abs/2408.03078)**|None|None|15 pages, 7 figures|G. Manni et.al.|
+|**2024-08-05**|**[Gaussian Mixture based Evidential Learning for Stereo Matching](http://arxiv.org/abs/2408.02796)**|None|None|None|Weide Liu et.al.|
 |**2024-08-05**|**[Lumina-mGPT: Illuminate Flexible Photorealistic Text-to-Image Generation with Multimodal Generative Pretraining](http://arxiv.org/abs/2408.02657)**|None|None|Code available at: https://github.com/Alpha-VLLM/Lumina-mGPT|Dongyang Liu et.al.|
 |**2024-08-03**|**[MCPDepth: Omnidirectional Depth Estimation via Stereo Matching from Multi-Cylindrical Panoramas](http://arxiv.org/abs/2408.01653)**|None|None|None|Feng Qiao et.al.|
 |**2024-08-02**|**[Self-Supervised Depth Estimation Based on Camera Models](http://arxiv.org/abs/2408.01565)**|None|None|None|Jinchang Zhang et.al.|
