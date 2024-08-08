@@ -1,9 +1,10 @@
-## Updated at 2024-08-08 09:11:36
+## Updated at 2024-08-08 20:31:35
 
 ## MVS
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-08-07**|**[CLIP-based Point Cloud Classification via Point Cloud to Image Translation](http://arxiv.org/abs/2408.03545)**|None|None|Accepted by ICPR2024|Shuvozit Ghose et.al.|
 |**2024-08-04**|**[Improving Neural Surface Reconstruction with Feature Priors from Multi-View Image](http://arxiv.org/abs/2408.02079)**|None|None|ECCV2024|Xinlin Ren et.al.|
 |**2024-08-04**|**[PanicleNeRF: low-cost, high-precision in-field phenotypingof rice panicles with smartphone](http://arxiv.org/abs/2408.02053)**|None|None|None|Xin Yang et.al.|
 |**2024-07-27**|**[MSP-MVS: Multi-granularity Segmentation Prior Guided Multi-View Stereo](http://arxiv.org/abs/2407.19323)**|None|None|None|Zhenlong Yuan et.al.|
@@ -315,6 +316,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-08-07**|**[Focal Depth Estimation: A Calibration-Free, Subject- and Daytime Invariant Approach](http://arxiv.org/abs/2408.03591)**|None|None|None|Benedikt W. Hosp et.al.|
 |**2024-08-06**|**[BodySLAM: A Generalized Monocular Visual SLAM Framework for Surgical Applications](http://arxiv.org/abs/2408.03078)**|None|None|15 pages, 7 figures|G. Manni et.al.|
 |**2024-08-05**|**[Gaussian Mixture based Evidential Learning for Stereo Matching](http://arxiv.org/abs/2408.02796)**|None|None|None|Weide Liu et.al.|
 |**2024-08-05**|**[Lumina-mGPT: Illuminate Flexible Photorealistic Text-to-Image Generation with Multimodal Generative Pretraining](http://arxiv.org/abs/2408.02657)**|None|**[link](https://github.com/alpha-vllm/lumina-mgpt)**|Code available at: https://github.com/Alpha-VLLM/Lumina-mGPT|Dongyang Liu et.al.|
