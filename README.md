@@ -1,4 +1,4 @@
-## Updated at 2024-08-07 20:31:57
+## Updated at 2024-08-08 09:11:36
 
 ## MVS
 
@@ -317,7 +317,7 @@
 |---|---|---|---|---|---|
 |**2024-08-06**|**[BodySLAM: A Generalized Monocular Visual SLAM Framework for Surgical Applications](http://arxiv.org/abs/2408.03078)**|None|None|15 pages, 7 figures|G. Manni et.al.|
 |**2024-08-05**|**[Gaussian Mixture based Evidential Learning for Stereo Matching](http://arxiv.org/abs/2408.02796)**|None|None|None|Weide Liu et.al.|
-|**2024-08-05**|**[Lumina-mGPT: Illuminate Flexible Photorealistic Text-to-Image Generation with Multimodal Generative Pretraining](http://arxiv.org/abs/2408.02657)**|None|None|Code available at: https://github.com/Alpha-VLLM/Lumina-mGPT|Dongyang Liu et.al.|
+|**2024-08-05**|**[Lumina-mGPT: Illuminate Flexible Photorealistic Text-to-Image Generation with Multimodal Generative Pretraining](http://arxiv.org/abs/2408.02657)**|None|**[link](https://github.com/alpha-vllm/lumina-mgpt)**|Code available at: https://github.com/Alpha-VLLM/Lumina-mGPT|Dongyang Liu et.al.|
 |**2024-08-03**|**[MCPDepth: Omnidirectional Depth Estimation via Stereo Matching from Multi-Cylindrical Panoramas](http://arxiv.org/abs/2408.01653)**|None|None|None|Feng Qiao et.al.|
 |**2024-08-02**|**[Self-Supervised Depth Estimation Based on Camera Models](http://arxiv.org/abs/2408.01565)**|None|None|None|Jinchang Zhang et.al.|
 |**2024-08-01**|**[MonoMM: A Multi-scale Mamba-Enhanced Network for Real-time Monocular 3D Object Detection](http://arxiv.org/abs/2408.00438)**|None|None|None|Youjia Fu et.al.|
