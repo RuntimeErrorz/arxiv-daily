@@ -1,4 +1,4 @@
-## Updated at 2024-08-09 09:12:26
+## Updated at 2024-08-09 20:30:54
 
 ## MVS
 
@@ -316,6 +316,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-08-08**|**[Depth Any Canopy: Leveraging Depth Foundation Models for Canopy Height Estimation](http://arxiv.org/abs/2408.04523)**|None|None|Accepted at ECCV 2024 CV4E Workshop|Daniele Rege Cambrin et.al.|
 |**2024-08-07**|**[Focal Depth Estimation: A Calibration-Free, Subject- and Daytime Invariant Approach](http://arxiv.org/abs/2408.03591)**|None|None|None|Benedikt W. Hosp et.al.|
 |**2024-08-06**|**[BodySLAM: A Generalized Monocular Visual SLAM Framework for Surgical Applications](http://arxiv.org/abs/2408.03078)**|None|**[link](https://github.com/GuidoManni/BodySLAM)**|15 pages, 7 figures|G. Manni et.al.|
 |**2024-08-05**|**[Gaussian Mixture based Evidential Learning for Stereo Matching](http://arxiv.org/abs/2408.02796)**|None|None|None|Weide Liu et.al.|
