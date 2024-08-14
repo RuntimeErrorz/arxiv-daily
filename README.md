@@ -1,9 +1,10 @@
-## Updated at 2024-08-14 09:11:59
+## Updated at 2024-08-14 20:31:22
 
 ## MVS
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-08-13**|**[GeoFormer: Learning Point Cloud Completion with Tri-Plane Integrated Transformer](http://arxiv.org/abs/2408.06596)**|None|**[link](https://github.com/jinpeng-yu/geoformer)**|accepted by the 32nd ACM International Conference on Multimedia   (MM'24)|Jinpeng Yu et.al.|
 |**2024-08-07**|**[CLIP-based Point Cloud Classification via Point Cloud to Image Translation](http://arxiv.org/abs/2408.03545)**|None|None|Accepted by ICPR2024|Shuvozit Ghose et.al.|
 |**2024-08-04**|**[Improving Neural Surface Reconstruction with Feature Priors from Multi-View Image](http://arxiv.org/abs/2408.02079)**|None|None|ECCV2024|Xinlin Ren et.al.|
 |**2024-08-04**|**[PanicleNeRF: low-cost, high-precision in-field phenotypingof rice panicles with smartphone](http://arxiv.org/abs/2408.02053)**|None|None|None|Xin Yang et.al.|
