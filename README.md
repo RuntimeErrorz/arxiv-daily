@@ -1,4 +1,4 @@
-## Updated at 2024-08-15 09:08:48
+## Updated at 2024-08-15 20:31:13
 
 ## MVS
 
@@ -317,6 +317,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-08-14**|**[Enhanced Scale-aware Depth Estimation for Monocular Endoscopic Scenes with Geometric Modeling](http://arxiv.org/abs/2408.07266)**|None|None|None|Ruofeng Wei et.al.|
 |**2024-08-12**|**[Towards Robust Monocular Depth Estimation in Non-Lambertian Surfaces](http://arxiv.org/abs/2408.06083)**|None|None|None|Junrui Zhang et.al.|
 |**2024-08-08**|**[Depth Any Canopy: Leveraging Depth Foundation Models for Canopy Height Estimation](http://arxiv.org/abs/2408.04523)**|None|None|Accepted at ECCV 2024 CV4E Workshop|Daniele Rege Cambrin et.al.|
 |**2024-08-07**|**[Focal Depth Estimation: A Calibration-Free, Subject- and Daytime Invariant Approach](http://arxiv.org/abs/2408.03591)**|None|None|None|Benedikt W. Hosp et.al.|
