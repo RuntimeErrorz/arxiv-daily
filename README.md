@@ -1,4 +1,4 @@
-## Updated at 2024-08-16 20:30:51
+## Updated at 2024-08-17 09:09:38
 
 ## MVS
 
@@ -6,7 +6,7 @@
 |---|---|---|---|---|---|
 |**2024-08-13**|**[GeoFormer: Learning Point Cloud Completion with Tri-Plane Integrated Transformer](http://arxiv.org/abs/2408.06596)**|None|**[link](https://github.com/jinpeng-yu/geoformer)**|accepted by the 32nd ACM International Conference on Multimedia   (MM'24)|Jinpeng Yu et.al.|
 |**2024-08-07**|**[CLIP-based Point Cloud Classification via Point Cloud to Image Translation](http://arxiv.org/abs/2408.03545)**|None|None|Accepted by ICPR2024|Shuvozit Ghose et.al.|
-|**2024-08-04**|**[Improving Neural Surface Reconstruction with Feature Priors from Multi-View Image](http://arxiv.org/abs/2408.02079)**|None|None|ECCV2024|Xinlin Ren et.al.|
+|**2024-08-04**|**[Improving Neural Surface Reconstruction with Feature Priors from Multi-View Image](http://arxiv.org/abs/2408.02079)**|None|**[link](https://github.com/maybeLx/MVS_NeuS)**|ECCV2024|Xinlin Ren et.al.|
 |**2024-08-04**|**[PanicleNeRF: low-cost, high-precision in-field phenotypingof rice panicles with smartphone](http://arxiv.org/abs/2408.02053)**|None|None|None|Xin Yang et.al.|
 |**2024-07-27**|**[MSP-MVS: Multi-granularity Segmentation Prior Guided Multi-View Stereo](http://arxiv.org/abs/2407.19323)**|None|None|None|Zhenlong Yuan et.al.|
 |**2024-07-25**|**[Towards the Spectral bias Alleviation by Normalizations in Coordinate Networks](http://arxiv.org/abs/2407.17834)**|None|**[link](https://github.com/aiolus-x/norm-inr)**|None|Zhicheng Cai et.al.|
@@ -319,7 +319,7 @@
 |---|---|---|---|---|---|
 |**2024-08-14**|**[Enhanced Scale-aware Depth Estimation for Monocular Endoscopic Scenes with Geometric Modeling](http://arxiv.org/abs/2408.07266)**|None|None|None|Ruofeng Wei et.al.|
 |**2024-08-12**|**[Towards Robust Monocular Depth Estimation in Non-Lambertian Surfaces](http://arxiv.org/abs/2408.06083)**|None|None|None|Junrui Zhang et.al.|
-|**2024-08-08**|**[Depth Any Canopy: Leveraging Depth Foundation Models for Canopy Height Estimation](http://arxiv.org/abs/2408.04523)**|None|None|Accepted at ECCV 2024 CV4E Workshop|Daniele Rege Cambrin et.al.|
+|**2024-08-08**|**[Depth Any Canopy: Leveraging Depth Foundation Models for Canopy Height Estimation](http://arxiv.org/abs/2408.04523)**|None|**[link](https://github.com/DarthReca/depth-any-canopy)**|Accepted at ECCV 2024 CV4E Workshop|Daniele Rege Cambrin et.al.|
 |**2024-08-07**|**[Focal Depth Estimation: A Calibration-Free, Subject- and Daytime Invariant Approach](http://arxiv.org/abs/2408.03591)**|None|None|None|Benedikt W. Hosp et.al.|
 |**2024-08-06**|**[BodySLAM: A Generalized Monocular Visual SLAM Framework for Surgical Applications](http://arxiv.org/abs/2408.03078)**|None|**[link](https://github.com/GuidoManni/BodySLAM)**|15 pages, 7 figures|G. Manni et.al.|
 |**2024-08-05**|**[Gaussian Mixture based Evidential Learning for Stereo Matching](http://arxiv.org/abs/2408.02796)**|None|None|None|Weide Liu et.al.|
