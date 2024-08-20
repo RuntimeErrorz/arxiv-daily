@@ -1,4 +1,4 @@
-## Updated at 2024-08-20 09:11:23
+## Updated at 2024-08-20 20:31:40
 
 ## MVS
 
@@ -317,6 +317,9 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-08-19**|**[Structure-preserving Image Translation for Depth Estimation in Colonoscopy Video](http://arxiv.org/abs/2408.10153)**|None|None|12 pages, 7 figures, accepted at MICCAI 2024|Shuxian Wang et.al.|
+|**2024-08-19**|**[SHARP: Segmentation of Hands and Arms by Range using Pseudo-Depth for Enhanced Egocentric 3D Hand Pose Estimation and Action Recognition](http://arxiv.org/abs/2408.10037)**|None|None|Accepted at 27th International Conference on Pattern Recognition   (ICPR)|Wiktor Mucha et.al.|
+|**2024-08-19**|**[P3P: Pseudo-3D Pre-training for Scaling 3D Masked Autoencoders](http://arxiv.org/abs/2408.10007)**|None|None|Under review. Pre-print|Xuechao Chen et.al.|
 |**2024-08-14**|**[Enhanced Scale-aware Depth Estimation for Monocular Endoscopic Scenes with Geometric Modeling](http://arxiv.org/abs/2408.07266)**|None|None|None|Ruofeng Wei et.al.|
 |**2024-08-12**|**[Towards Robust Monocular Depth Estimation in Non-Lambertian Surfaces](http://arxiv.org/abs/2408.06083)**|None|None|None|Junrui Zhang et.al.|
 |**2024-08-08**|**[Depth Any Canopy: Leveraging Depth Foundation Models for Canopy Height Estimation](http://arxiv.org/abs/2408.04523)**|None|**[link](https://github.com/DarthReca/depth-any-canopy)**|Accepted at ECCV 2024 CV4E Workshop|Daniele Rege Cambrin et.al.|
