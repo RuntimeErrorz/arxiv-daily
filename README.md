@@ -1,9 +1,10 @@
-## Updated at 2024-08-21 09:11:20
+## Updated at 2024-08-21 20:30:30
 
 ## MVS
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-08-20**|**[Multi-view Hand Reconstruction with a Point-Embedded Transformer](http://arxiv.org/abs/2408.10581)**|None|None|Generalizable multi-view Hand Mesh Reconstruction (HMR) model.   Extension of the original work at CVPR2023|Lixin Yang et.al.|
 |**2024-08-13**|**[GeoFormer: Learning Point Cloud Completion with Tri-Plane Integrated Transformer](http://arxiv.org/abs/2408.06596)**|None|**[link](https://github.com/jinpeng-yu/geoformer)**|accepted by the 32nd ACM International Conference on Multimedia   (MM'24)|Jinpeng Yu et.al.|
 |**2024-08-07**|**[CLIP-based Point Cloud Classification via Point Cloud to Image Translation](http://arxiv.org/abs/2408.03545)**|None|None|Accepted by ICPR2024|Shuvozit Ghose et.al.|
 |**2024-08-04**|**[Improving Neural Surface Reconstruction with Feature Priors from Multi-View Image](http://arxiv.org/abs/2408.02079)**|None|**[link](https://github.com/maybeLx/MVS_NeuS)**|ECCV2024|Xinlin Ren et.al.|
