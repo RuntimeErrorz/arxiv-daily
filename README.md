@@ -1,10 +1,10 @@
-## Updated at 2024-08-23 09:12:00
+## Updated at 2024-08-23 20:30:59
 
 ## MVS
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
-|**2024-08-20**|**[Multi-view Hand Reconstruction with a Point-Embedded Transformer](http://arxiv.org/abs/2408.10581)**|None|None|Generalizable multi-view Hand Mesh Reconstruction (HMR) model.   Extension of the original work at CVPR2023|Lixin Yang et.al.|
+|**2024-08-20**|**[Multi-view Hand Reconstruction with a Point-Embedded Transformer](http://arxiv.org/abs/2408.10581)**|None|**[link](https://github.com/jubsteven/poem-v2)**|Generalizable multi-view Hand Mesh Reconstruction (HMR) model.   Extension of the original work at CVPR2023|Lixin Yang et.al.|
 |**2024-08-13**|**[GeoFormer: Learning Point Cloud Completion with Tri-Plane Integrated Transformer](http://arxiv.org/abs/2408.06596)**|None|**[link](https://github.com/jinpeng-yu/geoformer)**|accepted by the 32nd ACM International Conference on Multimedia   (MM'24)|Jinpeng Yu et.al.|
 |**2024-08-07**|**[CLIP-based Point Cloud Classification via Point Cloud to Image Translation](http://arxiv.org/abs/2408.03545)**|None|None|Accepted by ICPR2024|Shuvozit Ghose et.al.|
 |**2024-08-04**|**[Improving Neural Surface Reconstruction with Feature Priors from Multi-View Image](http://arxiv.org/abs/2408.02079)**|None|**[link](https://github.com/maybeLx/MVS_NeuS)**|ECCV2024|Xinlin Ren et.al.|
@@ -318,8 +318,9 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-08-22**|**[Sapiens: Foundation for Human Vision Models](http://arxiv.org/abs/2408.12569)**|None|None|ECCV 2024 (Oral)|Rawal Khirodkar et.al.|
 |**2024-08-19**|**[Structure-preserving Image Translation for Depth Estimation in Colonoscopy Video](http://arxiv.org/abs/2408.10153)**|None|None|12 pages, 7 figures, accepted at MICCAI 2024|Shuxian Wang et.al.|
-|**2024-08-19**|**[SHARP: Segmentation of Hands and Arms by Range using Pseudo-Depth for Enhanced Egocentric 3D Hand Pose Estimation and Action Recognition](http://arxiv.org/abs/2408.10037)**|None|None|Accepted at 27th International Conference on Pattern Recognition   (ICPR)|Wiktor Mucha et.al.|
+|**2024-08-19**|**[SHARP: Segmentation of Hands and Arms by Range using Pseudo-Depth for Enhanced Egocentric 3D Hand Pose Estimation and Action Recognition](http://arxiv.org/abs/2408.10037)**|None|**[link](https://github.com/wiktormucha/SHARP)**|Accepted at 27th International Conference on Pattern Recognition   (ICPR)|Wiktor Mucha et.al.|
 |**2024-08-19**|**[P3P: Pseudo-3D Pre-training for Scaling 3D Masked Autoencoders](http://arxiv.org/abs/2408.10007)**|None|None|Under review. Pre-print|Xuechao Chen et.al.|
 |**2024-08-14**|**[Enhanced Scale-aware Depth Estimation for Monocular Endoscopic Scenes with Geometric Modeling](http://arxiv.org/abs/2408.07266)**|None|None|None|Ruofeng Wei et.al.|
 |**2024-08-12**|**[Towards Robust Monocular Depth Estimation in Non-Lambertian Surfaces](http://arxiv.org/abs/2408.06083)**|None|None|None|Junrui Zhang et.al.|
