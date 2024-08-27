@@ -1,4 +1,4 @@
-## Updated at 2024-08-27 09:13:32
+## Updated at 2024-08-27 20:31:26
 
 ## MVS
 
@@ -318,6 +318,10 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-08-26**|**[NimbleD: Enhancing Self-supervised Monocular Depth Estimation with Pseudo-labels and Large-scale Video Pre-training](http://arxiv.org/abs/2408.14177)**|None|None|None|Albert Luginov et.al.|
+|**2024-08-26**|**[Pixel-Aligned Multi-View Generation with Depth Guided Decoder](http://arxiv.org/abs/2408.14016)**|None|None|None|Zhenggang Tang et.al.|
+|**2024-08-25**|**[TranSplat: Generalizable 3D Gaussian Splatting from Sparse Multi-View Images with Transformers](http://arxiv.org/abs/2408.13770)**|None|None|None|Chuanrui Zhang et.al.|
+|**2024-08-25**|**[InSpaceType: Dataset and Benchmark for Reconsidering Cross-Space Type Performance in Indoor Monocular Depth](http://arxiv.org/abs/2408.13708)**|None|None|BMVC 2024. This version supersedes 2309.13516|Cho-Ying Wu et.al.|
 |**2024-08-22**|**[Sapiens: Foundation for Human Vision Models](http://arxiv.org/abs/2408.12569)**|None|None|ECCV 2024 (Oral)|Rawal Khirodkar et.al.|
 |**2024-08-19**|**[Structure-preserving Image Translation for Depth Estimation in Colonoscopy Video](http://arxiv.org/abs/2408.10153)**|None|None|12 pages, 7 figures, accepted at MICCAI 2024|Shuxian Wang et.al.|
 |**2024-08-19**|**[SHARP: Segmentation of Hands and Arms by Range using Pseudo-Depth for Enhanced Egocentric 3D Hand Pose Estimation and Action Recognition](http://arxiv.org/abs/2408.10037)**|None|**[link](https://github.com/wiktormucha/SHARP)**|Accepted at 27th International Conference on Pattern Recognition   (ICPR)|Wiktor Mucha et.al.|
