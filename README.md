@@ -1,9 +1,10 @@
-## Updated at 2024-08-28 09:13:50
+## Updated at 2024-08-28 20:32:33
 
 ## MVS
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-08-27**|**[Learning-based Multi-View Stereo: A Survey](http://arxiv.org/abs/2408.15235)**|None|None|None|Fangjinhua Wang et.al.|
 |**2024-08-20**|**[Multi-view Hand Reconstruction with a Point-Embedded Transformer](http://arxiv.org/abs/2408.10581)**|None|**[link](https://github.com/jubsteven/poem-v2)**|Generalizable multi-view Hand Mesh Reconstruction (HMR) model.   Extension of the original work at CVPR2023|Lixin Yang et.al.|
 |**2024-08-13**|**[GeoFormer: Learning Point Cloud Completion with Tri-Plane Integrated Transformer](http://arxiv.org/abs/2408.06596)**|None|**[link](https://github.com/jinpeng-yu/geoformer)**|accepted by the 32nd ACM International Conference on Multimedia   (MM'24)|Jinpeng Yu et.al.|
 |**2024-08-07**|**[CLIP-based Point Cloud Classification via Point Cloud to Image Translation](http://arxiv.org/abs/2408.03545)**|None|None|Accepted by ICPR2024|Shuvozit Ghose et.al.|
@@ -318,6 +319,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-08-27**|**[Adversarial Manhole: Challenging Monocular Depth Estimation and Semantic Segmentation Models with Patch Attack](http://arxiv.org/abs/2408.14879)**|None|None|Accepted for WISA 2024. Code and dataset:   https://github.com/naufalso/adversarial-manhole|Naufal Suryanto et.al.|
 |**2024-08-26**|**[NimbleD: Enhancing Self-supervised Monocular Depth Estimation with Pseudo-labels and Large-scale Video Pre-training](http://arxiv.org/abs/2408.14177)**|None|None|None|Albert Luginov et.al.|
 |**2024-08-26**|**[Pixel-Aligned Multi-View Generation with Depth Guided Decoder](http://arxiv.org/abs/2408.14016)**|None|None|None|Zhenggang Tang et.al.|
 |**2024-08-25**|**[TranSplat: Generalizable 3D Gaussian Splatting from Sparse Multi-View Images with Transformers](http://arxiv.org/abs/2408.13770)**|None|None|None|Chuanrui Zhang et.al.|
