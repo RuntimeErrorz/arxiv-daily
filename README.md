@@ -1,9 +1,10 @@
-## Updated at 2024-08-30 09:14:47
+## Updated at 2024-08-30 20:31:29
 
 ## MVS
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-08-29**|**[Spurfies: Sparse Surface Reconstruction using Local Geometry Priors](http://arxiv.org/abs/2408.16544)**|None|None|https://geometric-rl.mpi-inf.mpg.de/spurfies/|Kevin Raj et.al.|
 |**2024-08-27**|**[Learning-based Multi-View Stereo: A Survey](http://arxiv.org/abs/2408.15235)**|None|None|None|Fangjinhua Wang et.al.|
 |**2024-08-20**|**[Multi-view Hand Reconstruction with a Point-Embedded Transformer](http://arxiv.org/abs/2408.10581)**|None|**[link](https://github.com/jubsteven/poem-v2)**|Generalizable multi-view Hand Mesh Reconstruction (HMR) model.   Extension of the original work at CVPR2023|Lixin Yang et.al.|
 |**2024-08-13**|**[GeoFormer: Learning Point Cloud Completion with Tri-Plane Integrated Transformer](http://arxiv.org/abs/2408.06596)**|None|**[link](https://github.com/jinpeng-yu/geoformer)**|accepted by the 32nd ACM International Conference on Multimedia   (MM'24)|Jinpeng Yu et.al.|
@@ -319,6 +320,8 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-08-29**|**[EvLight++: Low-Light Video Enhancement with an Event Camera: A Large-Scale Real-World Dataset, Novel Method, and More](http://arxiv.org/abs/2408.16254)**|None|None|Journal extension based on EvLight (arXiv:2404.00834)|Kanghao Chen et.al.|
+|**2024-08-29**|**[Revisiting 360 Depth Estimation with PanoGabor: A New Fusion Perspective](http://arxiv.org/abs/2408.16227)**|None|None|None|Zhijie Shen et.al.|
 |**2024-08-27**|**[Adversarial Manhole: Challenging Monocular Depth Estimation and Semantic Segmentation Models with Patch Attack](http://arxiv.org/abs/2408.14879)**|None|None|Accepted for WISA 2024. Code and dataset:   https://github.com/naufalso/adversarial-manhole|Naufal Suryanto et.al.|
 |**2024-08-26**|**[NimbleD: Enhancing Self-supervised Monocular Depth Estimation with Pseudo-labels and Large-scale Video Pre-training](http://arxiv.org/abs/2408.14177)**|None|None|None|Albert Luginov et.al.|
 |**2024-08-26**|**[Pixel-Aligned Multi-View Generation with Depth Guided Decoder](http://arxiv.org/abs/2408.14016)**|None|None|None|Zhenggang Tang et.al.|
