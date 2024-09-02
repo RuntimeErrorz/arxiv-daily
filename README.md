@@ -1,4 +1,4 @@
-## Updated at 2024-09-01 20:29:55
+## Updated at 2024-09-02 09:16:26
 
 ## MVS
 
@@ -11,7 +11,7 @@
 |**2024-08-07**|**[CLIP-based Point Cloud Classification via Point Cloud to Image Translation](http://arxiv.org/abs/2408.03545)**|None|None|Accepted by ICPR2024|Shuvozit Ghose et.al.|
 |**2024-08-04**|**[Improving Neural Surface Reconstruction with Feature Priors from Multi-View Image](http://arxiv.org/abs/2408.02079)**|None|**[link](https://github.com/maybeLx/MVS_NeuS)**|ECCV2024|Xinlin Ren et.al.|
 |**2024-08-04**|**[PanicleNeRF: low-cost, high-precision in-field phenotypingof rice panicles with smartphone](http://arxiv.org/abs/2408.02053)**|None|None|None|Xin Yang et.al.|
-|**2024-07-27**|**[MSP-MVS: Multi-granularity Segmentation Prior Guided Multi-View Stereo](http://arxiv.org/abs/2407.19323)**|None|None|None|Zhenlong Yuan et.al.|
+|**2024-07-27**|**[MSP-MVS: Multi-granularity Segmentation Prior Guided Multi-View Stereo](http://arxiv.org/abs/2407.19323)**|None|None|arXiv admin note: text overlap with arXiv:2308.09990|Zhenlong Yuan et.al.|
 |**2024-07-25**|**[Towards the Spectral bias Alleviation by Normalizations in Coordinate Networks](http://arxiv.org/abs/2407.17834)**|None|**[link](https://github.com/aiolus-x/norm-inr)**|None|Zhicheng Cai et.al.|
 |**2024-07-19**|**[SparseCraft: Few-Shot Neural Reconstruction through Stereopsis Guided Geometric Linearization](http://arxiv.org/abs/2407.14257)**|None|None|ECCV 2024. Project page: https://sparsecraft.github.io|Mae Younes et.al.|
 |**2024-07-16**|**[MVG-Splatting: Multi-View Guided Gaussian Splatting with Adaptive Quantile-Based Geometric Consistency Densification](http://arxiv.org/abs/2407.11840)**|None|None|https://mvgsplatting.github.io|Zhuoxiao Li et.al.|
