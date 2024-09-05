@@ -1,9 +1,12 @@
-## Updated at 2024-09-05 09:15:23
+## Updated at 2024-09-05 20:33:06
 
 ## MVS
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-09-04**|**[UC-NeRF: Uncertainty-aware Conditional Neural Radiance Fields from Endoscopic Sparse Views](http://arxiv.org/abs/2409.02917)**|None|**[link](https://github.com/wrld/uc-nerf)**|None|Jiaxin Guo et.al.|
+|**2024-09-03**|**[EPRecon: An Efficient Framework for Real-Time Panoptic 3D Reconstruction from Monocular Video](http://arxiv.org/abs/2409.01807)**|None|**[link](https://github.com/zhen6618/eprecon)**|None|Zhen Zhou et.al.|
+|**2024-08-31**|**[3D Gaussian Splatting for Large-scale 3D Surface Reconstruction from Aerial Images](http://arxiv.org/abs/2409.00381)**|None|None|11 pages|YuanZheng Wu et.al.|
 |**2024-08-29**|**[Spurfies: Sparse Surface Reconstruction using Local Geometry Priors](http://arxiv.org/abs/2408.16544)**|None|None|https://geometric-rl.mpi-inf.mpg.de/spurfies/|Kevin Raj et.al.|
 |**2024-08-27**|**[Learning-based Multi-View Stereo: A Survey](http://arxiv.org/abs/2408.15235)**|None|None|None|Fangjinhua Wang et.al.|
 |**2024-08-20**|**[Multi-view Hand Reconstruction with a Point-Embedded Transformer](http://arxiv.org/abs/2408.10581)**|None|**[link](https://github.com/jubsteven/poem-v2)**|Generalizable multi-view Hand Mesh Reconstruction (HMR) model.   Extension of the original work at CVPR2023|Lixin Yang et.al.|
@@ -320,6 +323,16 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-09-04**|**[iConFormer: Dynamic Parameter-Efficient Tuning with Input-Conditioned Adaptation](http://arxiv.org/abs/2409.02838)**|None|None|None|Hayeon Jo et.al.|
+|**2024-09-02**|**[GET-UP: GEomeTric-aware Depth Estimation with Radar Points UPsampling](http://arxiv.org/abs/2409.02720)**|None|None|Accepted by WACV 2025|Huawei Sun et.al.|
+|**2024-09-04**|**[Skip-and-Play: Depth-Driven Pose-Preserved Image Generation for Any Objects](http://arxiv.org/abs/2409.02653)**|None|None|None|Kyungmin Jo et.al.|
+|**2024-09-04**|**[UniTT-Stereo: Unified Training of Transformer for Enhanced Stereo Matching](http://arxiv.org/abs/2409.02545)**|None|None|None|Soomin Kim et.al.|
+|**2024-09-04**|**[SG-MIM: Structured Knowledge Guided Efficient Pre-training for Dense Prediction](http://arxiv.org/abs/2409.02513)**|None|None|None|Sumin Son et.al.|
+|**2024-09-04**|**[Plane2Depth: Hierarchical Adaptive Plane Guidance for Monocular Depth Estimation](http://arxiv.org/abs/2409.02494)**|None|None|14 pages, 12 figures, 8 tables|Li Liu et.al.|
+|**2024-09-04**|**[Boosting Generalizability towards Zero-Shot Cross-Dataset Single-Image Indoor Depth by Meta-Initialization](http://arxiv.org/abs/2409.02486)**|None|None|IROS 2024. The version supersedes 2305.07269. arXiv admin note: text   overlap with arXiv:2305.07269|Cho-Ying Wu et.al.|
+|**2024-09-04**|**[GGS: Generalizable Gaussian Splatting for Lane Switching in Autonomous Driving](http://arxiv.org/abs/2409.02382)**|None|None|None|Huasong Han et.al.|
+|**2024-09-03**|**[DepthCrafter: Generating Consistent Long Depth Sequences for Open-world Videos](http://arxiv.org/abs/2409.02095)**|None|None|Project webpage: https://depthcrafter.github.io|Wenbo Hu et.al.|
+|**2024-09-02**|**[Large Language Models Can Understanding Depth from Monocular Images](http://arxiv.org/abs/2409.01133)**|None|None|None|Zhongyi Xia et.al.|
 |**2024-08-30**|**[DARES: Depth Anything in Robotic Endoscopic Surgery with Self-supervised Vector-LoRA of the Foundation Model](http://arxiv.org/abs/2408.17433)**|None|None|11 pages|Mona Sheikh Zeinoddin et.al.|
 |**2024-08-30**|**[Enhancing Underwater Imaging with 4-D Light Fields: Dataset and Method](http://arxiv.org/abs/2408.17339)**|None|None|14 pages, 14 figures|Yuji Lin et.al.|
 |**2024-08-30**|**[Synthetic Lunar Terrain: A Multimodal Open Dataset for Training and Evaluating Neuromorphic Vision Algorithms](http://arxiv.org/abs/2408.16971)**|None|None|7 pages, 5 figures, to be published at "International Symposium on   Artificial Intelligence, Robotics and Automation in Space, i-SAIRAS, 2024|Marcus Märtens et.al.|
