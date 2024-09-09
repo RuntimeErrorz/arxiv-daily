@@ -1,4 +1,4 @@
-## Updated at 2024-09-09 09:17:38
+## Updated at 2024-09-09 20:33:43
 
 ## MVS
 
@@ -323,6 +323,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-09-06**|**[Introducing a Class-Aware Metric for Monocular Depth Estimation: An Automotive Perspective](http://arxiv.org/abs/2409.04086)**|None|**[link](https://github.com/leisemann/ca_mmde)**|Accepted at the European Conference on Computer Vision (ECCV) 2024   Workshop on Out Of Distribution Generalization in Computer Vision|Tim Bader et.al.|
 |**2024-09-04**|**[iConFormer: Dynamic Parameter-Efficient Tuning with Input-Conditioned Adaptation](http://arxiv.org/abs/2409.02838)**|None|None|None|Hayeon Jo et.al.|
 |**2024-09-02**|**[GET-UP: GEomeTric-aware Depth Estimation with Radar Points UPsampling](http://arxiv.org/abs/2409.02720)**|None|None|Accepted by WACV 2025|Huawei Sun et.al.|
 |**2024-09-04**|**[Skip-and-Play: Depth-Driven Pose-Preserved Image Generation for Any Objects](http://arxiv.org/abs/2409.02653)**|None|None|None|Kyungmin Jo et.al.|
