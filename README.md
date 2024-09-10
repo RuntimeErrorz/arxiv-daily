@@ -1,4 +1,4 @@
-## Updated at 2024-09-10 09:16:18
+## Updated at 2024-09-10 20:34:29
 
 ## MVS
 
@@ -323,6 +323,8 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-09-09**|**[EndoOmni: Zero-Shot Cross-Dataset Depth Estimation in Endoscopy by Robust Self-Learning from Noisy Labels](http://arxiv.org/abs/2409.05442)**|None|None|None|Qingyao Tian et.al.|
+|**2024-09-08**|**[TanDepth: Leveraging Global DEMs for Metric Monocular Depth Estimation in UAVs](http://arxiv.org/abs/2409.05142)**|None|None|None|Horatiu Florea et.al.|
 |**2024-09-06**|**[Introducing a Class-Aware Metric for Monocular Depth Estimation: An Automotive Perspective](http://arxiv.org/abs/2409.04086)**|None|**[link](https://github.com/leisemann/ca_mmde)**|Accepted at the European Conference on Computer Vision (ECCV) 2024   Workshop on Out Of Distribution Generalization in Computer Vision|Tim Bader et.al.|
 |**2024-09-04**|**[iConFormer: Dynamic Parameter-Efficient Tuning with Input-Conditioned Adaptation](http://arxiv.org/abs/2409.02838)**|None|None|None|Hayeon Jo et.al.|
 |**2024-09-02**|**[GET-UP: GEomeTric-aware Depth Estimation with Radar Points UPsampling](http://arxiv.org/abs/2409.02720)**|None|None|Accepted by WACV 2025|Huawei Sun et.al.|
