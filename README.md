@@ -1,4 +1,4 @@
-## Updated at 2024-09-13 09:15:58
+## Updated at 2024-09-13 20:32:04
 
 ## MVS
 
@@ -323,6 +323,11 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-09-12**|**[Depth on Demand: Streaming Dense Depth from a Low Frame Rate Active Sensor](http://arxiv.org/abs/2409.08277)**|None|None|Accepted for publication at the European Conference on Computer   Vision (ECCV) 2024|Andrea Conti et.al.|
+|**2024-09-12**|**[LED: Light Enhanced Depth Estimation at Night](http://arxiv.org/abs/2409.08031)**|None|**[link](https://github.com/simondemoreau/led)**|Preprint. Code and dataset available at   https://github.com/SimondeMoreau/LED|Simon de Moreau et.al.|
+|**2024-09-12**|**[Real-time Multi-view Omnidirectional Depth Estimation System for Robots and Autonomous Driving on Real Scenes](http://arxiv.org/abs/2409.07843)**|None|None|None|Ming Li et.al.|
+|**2024-09-12**|**[Advancing Depth Anything Model for Unsupervised Monocular Depth Estimation in Endoscopy](http://arxiv.org/abs/2409.07723)**|None|None|7 pages, 6 figures|Bojian Li et.al.|
+|**2024-09-12**|**[FIReStereo: Forest InfraRed Stereo Dataset for UAS Depth Perception in Visually Degraded Environments](http://arxiv.org/abs/2409.07715)**|None|None|Under review in RA-L. The first 2 authors contributed equally|Devansh Dhrafani et.al.|
 |**2024-09-10**|**[EDADepth: Enhanced Data Augmentation for Monocular Depth Estimation](http://arxiv.org/abs/2409.06183)**|None|**[link](https://github.com/edadepthmde/edadepth_icmla)**|None|Nischal Khanal et.al.|
 |**2024-09-09**|**[EndoOmni: Zero-Shot Cross-Dataset Depth Estimation in Endoscopy by Robust Self-Learning from Noisy Labels](http://arxiv.org/abs/2409.05442)**|None|None|None|Qingyao Tian et.al.|
 |**2024-09-08**|**[TanDepth: Leveraging Global DEMs for Metric Monocular Depth Estimation in UAVs](http://arxiv.org/abs/2409.05142)**|None|None|None|Horatiu Florea et.al.|
