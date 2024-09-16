@@ -1,4 +1,4 @@
-## Updated at 2024-09-16 09:20:30
+## Updated at 2024-09-16 20:34:40
 
 ## MVS
 
@@ -323,6 +323,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-09-13**|**[Precision Aquaculture: An Integrated Computer Vision and IoT Approach for Optimized Tilapia Feeding](http://arxiv.org/abs/2409.08695)**|None|None|8 pages, 6 figures, 3 tables, 21th International Conference on   Informatics in Control, Automation, and Robotics|Rania Hossam et.al.|
 |**2024-09-12**|**[Depth on Demand: Streaming Dense Depth from a Low Frame Rate Active Sensor](http://arxiv.org/abs/2409.08277)**|None|None|Accepted for publication at the European Conference on Computer   Vision (ECCV) 2024|Andrea Conti et.al.|
 |**2024-09-12**|**[LED: Light Enhanced Depth Estimation at Night](http://arxiv.org/abs/2409.08031)**|None|**[link](https://github.com/simondemoreau/led)**|Preprint. Code and dataset available at   https://github.com/SimondeMoreau/LED|Simon de Moreau et.al.|
 |**2024-09-12**|**[Real-time Multi-view Omnidirectional Depth Estimation System for Robots and Autonomous Driving on Real Scenes](http://arxiv.org/abs/2409.07843)**|None|None|None|Ming Li et.al.|
