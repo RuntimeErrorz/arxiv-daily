@@ -1,4 +1,4 @@
-## Updated at 2024-09-19 09:17:26
+## Updated at 2024-09-19 20:33:30
 
 ## MVS
 
@@ -323,6 +323,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-09-18**|**[Panoptic-Depth Forecasting](http://arxiv.org/abs/2409.12008)**|None|None|None|Juana Valeria Hurtado et.al.|
 |**2024-09-17**|**[Fine-Tuning Image-Conditional Diffusion Models is Easier than You Think](http://arxiv.org/abs/2409.11355)**|None|None|Project page: https://vision.rwth-aachen.de/diffusion-e2e-ft|Gonzalo Martin Garcia et.al.|
 |**2024-09-15**|**[GRIN: Zero-Shot Metric Depth with Pixel-Level Diffusion](http://arxiv.org/abs/2409.09896)**|None|None|None|Vitor Guizilini et.al.|
 |**2024-09-15**|**[Towards Single-Lens Controllable Depth-of-Field Imaging via All-in-Focus Aberration Correction and Monocular Depth Estimation](http://arxiv.org/abs/2409.09754)**|None|**[link](https://github.com/xiaolongqian/dcdi)**|The source code and the established dataset will be publicly   available at https://github.com/XiaolongQian/DCDI|Xiaolong Qian et.al.|
