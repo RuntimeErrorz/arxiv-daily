@@ -1,4 +1,4 @@
-## Updated at 2024-09-21 09:15:48
+## Updated at 2024-09-21 20:30:36
 
 ## MVS
 
@@ -327,7 +327,7 @@
 |**2024-09-17**|**[Fine-Tuning Image-Conditional Diffusion Models is Easier than You Think](http://arxiv.org/abs/2409.11355)**|None|**[link](https://github.com/VisualComputingInstitute/diffusion-e2e-ft)**|Project page: https://vision.rwth-aachen.de/diffusion-e2e-ft|Gonzalo Martin Garcia et.al.|
 |**2024-09-15**|**[GRIN: Zero-Shot Metric Depth with Pixel-Level Diffusion](http://arxiv.org/abs/2409.09896)**|None|None|None|Vitor Guizilini et.al.|
 |**2024-09-15**|**[Towards Single-Lens Controllable Depth-of-Field Imaging via All-in-Focus Aberration Correction and Monocular Depth Estimation](http://arxiv.org/abs/2409.09754)**|None|**[link](https://github.com/xiaolongqian/dcdi)**|The source code and the established dataset will be publicly   available at https://github.com/XiaolongQian/DCDI|Xiaolong Qian et.al.|
-|**2024-09-13**|**[PrimeDepth: Efficient Monocular Depth Estimation with a Stable Diffusion Preimage](http://arxiv.org/abs/2409.09144)**|None|None|None|Denis Zavadski et.al.|
+|**2024-09-13**|**[PrimeDepth: Efficient Monocular Depth Estimation with a Stable Diffusion Preimage](http://arxiv.org/abs/2409.09144)**|None|**[link](https://github.com/vislearn/PrimeDepth)**|None|Denis Zavadski et.al.|
 |**2024-09-13**|**[Precision Aquaculture: An Integrated Computer Vision and IoT Approach for Optimized Tilapia Feeding](http://arxiv.org/abs/2409.08695)**|None|None|8 pages, 6 figures, 3 tables, 21th International Conference on   Informatics in Control, Automation, and Robotics|Rania Hossam et.al.|
 |**2024-09-12**|**[Depth on Demand: Streaming Dense Depth from a Low Frame Rate Active Sensor](http://arxiv.org/abs/2409.08277)**|None|None|Accepted for publication at the European Conference on Computer   Vision (ECCV) 2024|Andrea Conti et.al.|
 |**2024-09-12**|**[LED: Light Enhanced Depth Estimation at Night](http://arxiv.org/abs/2409.08031)**|None|**[link](https://github.com/simondemoreau/led)**|Preprint. Code and dataset available at   https://github.com/SimondeMoreau/LED|Simon de Moreau et.al.|
