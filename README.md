@@ -1,4 +1,4 @@
-## Updated at 2024-09-24 09:19:27
+## Updated at 2024-09-24 20:35:02
 
 ## MVS
 
@@ -6,7 +6,7 @@
 |---|---|---|---|---|---|
 |**2024-09-04**|**[UC-NeRF: Uncertainty-aware Conditional Neural Radiance Fields from Endoscopic Sparse Views](http://arxiv.org/abs/2409.02917)**|None|**[link](https://github.com/wrld/uc-nerf)**|None|Jiaxin Guo et.al.|
 |**2024-09-03**|**[EPRecon: An Efficient Framework for Real-Time Panoptic 3D Reconstruction from Monocular Video](http://arxiv.org/abs/2409.01807)**|None|**[link](https://github.com/zhen6618/eprecon)**|None|Zhen Zhou et.al.|
-|**2024-08-31**|**[3D Gaussian Splatting for Large-scale 3D Surface Reconstruction from Aerial Images](http://arxiv.org/abs/2409.00381)**|None|None|In the writing, some parts of the book were wrong and needed a large   revision|YuanZheng Wu et.al.|
+|**2024-08-31**|**[3D Gaussian Splatting for Large-scale Surface Reconstruction from Aerial Images](http://arxiv.org/abs/2409.00381)**|None|None|12 pages|YuanZheng Wu et.al.|
 |**2024-08-29**|**[Spurfies: Sparse Surface Reconstruction using Local Geometry Priors](http://arxiv.org/abs/2408.16544)**|None|None|https://geometric-rl.mpi-inf.mpg.de/spurfies/|Kevin Raj et.al.|
 |**2024-08-27**|**[Learning-based Multi-View Stereo: A Survey](http://arxiv.org/abs/2408.15235)**|None|None|None|Fangjinhua Wang et.al.|
 |**2024-08-20**|**[Multi-view Hand Reconstruction with a Point-Embedded Transformer](http://arxiv.org/abs/2408.10581)**|None|**[link](https://github.com/jubsteven/poem-v2)**|Generalizable multi-view Hand Mesh Reconstruction (HMR) model.   Extension of the original work at CVPR2023|Lixin Yang et.al.|
