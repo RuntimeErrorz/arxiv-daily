@@ -1,4 +1,4 @@
-## Updated at 2024-09-23 20:34:37
+## Updated at 2024-09-24 09:19:27
 
 ## MVS
 
@@ -328,7 +328,7 @@
 |**2024-09-15**|**[GRIN: Zero-Shot Metric Depth with Pixel-Level Diffusion](http://arxiv.org/abs/2409.09896)**|None|None|None|Vitor Guizilini et.al.|
 |**2024-09-15**|**[Towards Single-Lens Controllable Depth-of-Field Imaging via All-in-Focus Aberration Correction and Monocular Depth Estimation](http://arxiv.org/abs/2409.09754)**|None|**[link](https://github.com/xiaolongqian/dcdi)**|The source code and the established dataset will be publicly   available at https://github.com/XiaolongQian/DCDI|Xiaolong Qian et.al.|
 |**2024-09-13**|**[PrimeDepth: Efficient Monocular Depth Estimation with a Stable Diffusion Preimage](http://arxiv.org/abs/2409.09144)**|None|**[link](https://github.com/vislearn/PrimeDepth)**|None|Denis Zavadski et.al.|
-|**2024-09-13**|**[Precision Aquaculture: An Integrated Computer Vision and IoT Approach for Optimized Tilapia Feeding](http://arxiv.org/abs/2409.08695)**|None|None|8 pages, 6 figures, 3 tables, 21th International Conference on   Informatics in Control, Automation, and Robotics|Rania Hossam et.al.|
+|**2024-09-13**|**[Precision Aquaculture: An Integrated Computer Vision and IoT Approach for Optimized Tilapia Feeding](http://arxiv.org/abs/2409.08695)**|None|**[link](https://github.com/ahmedheakl/fish-counting)**|8 pages, 6 figures, 3 tables, 21th International Conference on   Informatics in Control, Automation, and Robotics|Rania Hossam et.al.|
 |**2024-09-12**|**[Depth on Demand: Streaming Dense Depth from a Low Frame Rate Active Sensor](http://arxiv.org/abs/2409.08277)**|None|None|Accepted for publication at the European Conference on Computer   Vision (ECCV) 2024|Andrea Conti et.al.|
 |**2024-09-12**|**[LED: Light Enhanced Depth Estimation at Night](http://arxiv.org/abs/2409.08031)**|None|**[link](https://github.com/simondemoreau/led)**|Preprint. Code and dataset available at   https://github.com/SimondeMoreau/LED|Simon de Moreau et.al.|
 |**2024-09-12**|**[Real-time Multi-view Omnidirectional Depth Estimation System for Robots and Autonomous Driving on Real Scenes](http://arxiv.org/abs/2409.07843)**|None|None|None|Ming Li et.al.|
