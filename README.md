@@ -1,9 +1,11 @@
-## Updated at 2024-09-25 20:35:11
+## Updated at 2024-09-26 09:18:46
 
 ## MVS
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-09-22**|**[MVPGS: Excavating Multi-view Priors for Gaussian Splatting from Sparse Input Views](http://arxiv.org/abs/2409.14316)**|None|None|Accepted by ECCV 2024, Project page:   https://zezeaaa.github.io/projects/MVPGS/|Wangze Xu et.al.|
+|**2024-09-20**|**[Towards Zero-shot Point Cloud Anomaly Detection: A Multi-View Projection Framework](http://arxiv.org/abs/2409.13162)**|None|None|None|Yuqi Cheng et.al.|
 |**2024-09-04**|**[UC-NeRF: Uncertainty-aware Conditional Neural Radiance Fields from Endoscopic Sparse Views](http://arxiv.org/abs/2409.02917)**|None|**[link](https://github.com/wrld/uc-nerf)**|None|Jiaxin Guo et.al.|
 |**2024-09-03**|**[EPRecon: An Efficient Framework for Real-Time Panoptic 3D Reconstruction from Monocular Video](http://arxiv.org/abs/2409.01807)**|None|**[link](https://github.com/zhen6618/eprecon)**|None|Zhen Zhou et.al.|
 |**2024-08-31**|**[3D Gaussian Splatting for Large-scale Surface Reconstruction from Aerial Images](http://arxiv.org/abs/2409.00381)**|None|None|12 pages|YuanZheng Wu et.al.|
@@ -323,6 +325,16 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-09-24**|**[MIMO: Controllable Character Video Synthesis with Spatial Decomposed Modeling](http://arxiv.org/abs/2409.16160)**|None|None|Project Page: https://menyifang.github.io/projects/MIMO/index.html|Yifang Men et.al.|
+|**2024-09-24**|**[Benchmarking Robustness of Endoscopic Depth Estimation with Synthetically Corrupted Data](http://arxiv.org/abs/2409.16063)**|None|**[link](https://github.com/lofrienger/endodepthbenchmark)**|To appear at the Simulation and Synthesis in Medical Imaging   (SASHIMI) workshop at MICCAI 2024|An Wang et.al.|
+|**2024-09-23**|**[FisheyeDepth: A Real Scale Self-Supervised Depth Estimation Model for Fisheye Camera](http://arxiv.org/abs/2409.15054)**|None|None|None|Guoyang Zhao et.al.|
+|**2024-09-23**|**[DepthART: Monocular Depth Estimation as Autoregressive Refinement Task](http://arxiv.org/abs/2409.15010)**|None|None|None|Bulat Gabdullin et.al.|
+|**2024-09-23**|**[Generalizing monocular colonoscopy image depth estimation by uncertainty-based global and local fusion network](http://arxiv.org/abs/2409.15006)**|None|None|None|Sijia Du et.al.|
+|**2024-09-23**|**[GroCo: Ground Constraint for Metric Self-Supervised Monocular Depth](http://arxiv.org/abs/2409.14850)**|None|None|None|Aurélien Cecille et.al.|
+|**2024-09-23**|**[Robust and Flexible Omnidirectional Depth Estimation with Multiple 360° Cameras](http://arxiv.org/abs/2409.14766)**|None|None|None|Ming Li et.al.|
+|**2024-09-21**|**[@Bench: Benchmarking Vision-Language Models for Human-centered Assistive Technology](http://arxiv.org/abs/2409.14215)**|None|None|Accepted by WACV 2025, project page:   https://junweizheng93.github.io/publications/ATBench/ATBench.html|Xin Jiang et.al.|
+|**2024-09-20**|**[DAP-LED: Learning Degradation-Aware Priors with CLIP for Joint Low-light Enhancement and Deblurring](http://arxiv.org/abs/2409.13496)**|None|None|None|Ling Wang et.al.|
+|**2024-09-20**|**[CVT-Occ: Cost Volume Temporal Fusion for 3D Occupancy Prediction](http://arxiv.org/abs/2409.13430)**|None|**[link](https://github.com/Tsinghua-MARS-Lab/CVT-Occ)**|Accepted to ECCV 2024|Zhangchen Ye et.al.|
 |**2024-09-18**|**[Panoptic-Depth Forecasting](http://arxiv.org/abs/2409.12008)**|None|None|None|Juana Valeria Hurtado et.al.|
 |**2024-09-17**|**[Fine-Tuning Image-Conditional Diffusion Models is Easier than You Think](http://arxiv.org/abs/2409.11355)**|None|**[link](https://github.com/VisualComputingInstitute/diffusion-e2e-ft)**|Project page: https://vision.rwth-aachen.de/diffusion-e2e-ft|Gonzalo Martin Garcia et.al.|
 |**2024-09-15**|**[GRIN: Zero-Shot Metric Depth with Pixel-Level Diffusion](http://arxiv.org/abs/2409.09896)**|None|None|None|Vitor Guizilini et.al.|
