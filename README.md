@@ -1,4 +1,4 @@
-## Updated at 2024-09-26 09:18:46
+## Updated at 2024-09-26 20:35:14
 
 ## MVS
 
@@ -325,9 +325,11 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-09-25**|**[Parameter-efficient Bayesian Neural Networks for Uncertainty-aware Depth Estimation](http://arxiv.org/abs/2409.17085)**|None|None|Presented at UnCV Workshop at ECCV'24|Richard D. Paul et.al.|
+|**2024-09-25**|**[EventHDR: from Event to High-Speed HDR Videos and Beyond](http://arxiv.org/abs/2409.17029)**|None|None|TPAMI 2024|Yunhao Zou et.al.|
 |**2024-09-24**|**[MIMO: Controllable Character Video Synthesis with Spatial Decomposed Modeling](http://arxiv.org/abs/2409.16160)**|None|None|Project Page: https://menyifang.github.io/projects/MIMO/index.html|Yifang Men et.al.|
 |**2024-09-24**|**[Benchmarking Robustness of Endoscopic Depth Estimation with Synthetically Corrupted Data](http://arxiv.org/abs/2409.16063)**|None|**[link](https://github.com/lofrienger/endodepthbenchmark)**|To appear at the Simulation and Synthesis in Medical Imaging   (SASHIMI) workshop at MICCAI 2024|An Wang et.al.|
-|**2024-09-23**|**[FisheyeDepth: A Real Scale Self-Supervised Depth Estimation Model for Fisheye Camera](http://arxiv.org/abs/2409.15054)**|None|None|None|Guoyang Zhao et.al.|
+|**2024-09-23**|**[FisheyeDepth: A Real Scale Self-Supervised Depth Estimation Model for Fisheye Camera](http://arxiv.org/abs/2409.15054)**|None|**[link](https://github.com/guoyangzhao/fisheyedepth)**|None|Guoyang Zhao et.al.|
 |**2024-09-23**|**[DepthART: Monocular Depth Estimation as Autoregressive Refinement Task](http://arxiv.org/abs/2409.15010)**|None|None|None|Bulat Gabdullin et.al.|
 |**2024-09-23**|**[Generalizing monocular colonoscopy image depth estimation by uncertainty-based global and local fusion network](http://arxiv.org/abs/2409.15006)**|None|None|None|Sijia Du et.al.|
 |**2024-09-23**|**[GroCo: Ground Constraint for Metric Self-Supervised Monocular Depth](http://arxiv.org/abs/2409.14850)**|None|None|None|Aurélien Cecille et.al.|
