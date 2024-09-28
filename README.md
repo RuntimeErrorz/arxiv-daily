@@ -1,4 +1,4 @@
-## Updated at 2024-09-27 20:34:45
+## Updated at 2024-09-28 09:19:38
 
 ## MVS
 
@@ -325,6 +325,11 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-09-26**|**[Self-supervised Monocular Depth Estimation with Large Kernel Attention](http://arxiv.org/abs/2409.17895)**|None|None|The paper is under consideration at 2025 IEEE International   Conference on Acoustics, Speech, and Signal Processing (ICASSP 2025)|Xuezhi Xiang et.al.|
+|**2024-09-26**|**[Self-Distilled Depth Refinement with Noisy Poisson Fusion](http://arxiv.org/abs/2409.17880)**|None|None|Accepted by NeurIPS 2024|Jiaqi Li et.al.|
+|**2024-09-26**|**[A New Dataset for Monocular Depth Estimation Under Viewpoint Shifts](http://arxiv.org/abs/2409.17851)**|None|None|17 pages, 5 figures. Accepted at ECCV 2024 2nd Workshop on   Vision-Centric Autonomous Driving (VCAD)|Aurel Pjetri et.al.|
+|**2024-09-26**|**[Event-based Stereo Depth Estimation: A Survey](http://arxiv.org/abs/2409.17680)**|None|None|28 pages, 20 figures, 7 tables|Suman Ghosh et.al.|
+|**2024-09-26**|**[CAMOT: Camera Angle-aware Multi-Object Tracking](http://arxiv.org/abs/2409.17533)**|WACV 2024|None|None|Felix Limanta et.al.|
 |**2024-09-25**|**[Parameter-efficient Bayesian Neural Networks for Uncertainty-aware Depth Estimation](http://arxiv.org/abs/2409.17085)**|None|None|Presented at UnCV Workshop at ECCV'24|Richard D. Paul et.al.|
 |**2024-09-25**|**[EventHDR: from Event to High-Speed HDR Videos and Beyond](http://arxiv.org/abs/2409.17029)**|None|None|TPAMI 2024|Yunhao Zou et.al.|
 |**2024-09-24**|**[MIMO: Controllable Character Video Synthesis with Spatial Decomposed Modeling](http://arxiv.org/abs/2409.16160)**|None|None|Project Page: https://menyifang.github.io/projects/MIMO/index.html|Yifang Men et.al.|
