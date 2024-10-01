@@ -1,4 +1,4 @@
-## Updated at 2024-10-01 09:26:52
+## Updated at 2024-10-01 20:35:26
 
 ## MVS
 
@@ -325,6 +325,9 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-09-30**|**[CCDepth: A Lightweight Self-supervised Depth Estimation Network with Enhanced Interpretability](http://arxiv.org/abs/2409.19933)**|None|None|None|Xi Zhang et.al.|
+|**2024-09-30**|**[EndoDepth: A Benchmark for Assessing Robustness in Endoscopic Depth Prediction](http://arxiv.org/abs/2409.19930)**|None|None|None|Ivan Reyes-Amezcua et.al.|
+|**2024-09-29**|**[fCOP: Focal Length Estimation from Category-level Object Priors](http://arxiv.org/abs/2409.19641)**|None|None|None|Xinyue Zhang et.al.|
 |**2024-09-26**|**[Self-supervised Monocular Depth Estimation with Large Kernel Attention](http://arxiv.org/abs/2409.17895)**|None|None|The paper is under consideration at 2025 IEEE International   Conference on Acoustics, Speech, and Signal Processing (ICASSP 2025)|Xuezhi Xiang et.al.|
 |**2024-09-26**|**[Self-Distilled Depth Refinement with Noisy Poisson Fusion](http://arxiv.org/abs/2409.17880)**|None|None|Accepted by NeurIPS 2024|Jiaqi Li et.al.|
 |**2024-09-26**|**[A New Dataset for Monocular Depth Estimation Under Viewpoint Shifts](http://arxiv.org/abs/2409.17851)**|None|None|17 pages, 5 figures. Accepted at ECCV 2024 2nd Workshop on   Vision-Centric Autonomous Driving (VCAD)|Aurel Pjetri et.al.|
