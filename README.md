@@ -1,11 +1,11 @@
-## Updated at 2024-10-02 20:34:49
+## Updated at 2024-10-03 09:19:50
 
 ## MVS
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
 |**2024-09-22**|**[MVPGS: Excavating Multi-view Priors for Gaussian Splatting from Sparse Input Views](http://arxiv.org/abs/2409.14316)**|None|None|Accepted by ECCV 2024, Project page:   https://zezeaaa.github.io/projects/MVPGS/|Wangze Xu et.al.|
-|**2024-09-20**|**[Towards Zero-shot Point Cloud Anomaly Detection: A Multi-View Projection Framework](http://arxiv.org/abs/2409.13162)**|None|None|None|Yuqi Cheng et.al.|
+|**2024-09-20**|**[Towards Zero-shot Point Cloud Anomaly Detection: A Multi-View Projection Framework](http://arxiv.org/abs/2409.13162)**|None|**[link](https://github.com/hustcyq/mvp-pclip)**|None|Yuqi Cheng et.al.|
 |**2024-09-04**|**[UC-NeRF: Uncertainty-aware Conditional Neural Radiance Fields from Endoscopic Sparse Views](http://arxiv.org/abs/2409.02917)**|None|**[link](https://github.com/wrld/uc-nerf)**|None|Jiaxin Guo et.al.|
 |**2024-09-03**|**[EPRecon: An Efficient Framework for Real-Time Panoptic 3D Reconstruction from Monocular Video](http://arxiv.org/abs/2409.01807)**|None|**[link](https://github.com/zhen6618/eprecon)**|None|Zhen Zhou et.al.|
 |**2024-08-31**|**[3D Gaussian Splatting for Large-scale Surface Reconstruction from Aerial Images](http://arxiv.org/abs/2409.00381)**|None|None|12 pages|YuanZheng Wu et.al.|
@@ -326,7 +326,7 @@
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
 |**2024-09-30**|**[CCDepth: A Lightweight Self-supervised Depth Estimation Network with Enhanced Interpretability](http://arxiv.org/abs/2409.19933)**|None|None|None|Xi Zhang et.al.|
-|**2024-09-30**|**[EndoDepth: A Benchmark for Assessing Robustness in Endoscopic Depth Prediction](http://arxiv.org/abs/2409.19930)**|None|None|None|Ivan Reyes-Amezcua et.al.|
+|**2024-09-30**|**[EndoDepth: A Benchmark for Assessing Robustness in Endoscopic Depth Prediction](http://arxiv.org/abs/2409.19930)**|None|**[link](https://github.com/Ivanrs297/endoscopycorruptions)**|None|Ivan Reyes-Amezcua et.al.|
 |**2024-09-29**|**[fCOP: Focal Length Estimation from Category-level Object Priors](http://arxiv.org/abs/2409.19641)**|None|None|None|Xinyue Zhang et.al.|
 |**2024-09-26**|**[Self-supervised Monocular Depth Estimation with Large Kernel Attention](http://arxiv.org/abs/2409.17895)**|None|None|The paper is under consideration at 2025 IEEE International   Conference on Acoustics, Speech, and Signal Processing (ICASSP 2025)|Xuezhi Xiang et.al.|
 |**2024-09-26**|**[Self-Distilled Depth Refinement with Noisy Poisson Fusion](http://arxiv.org/abs/2409.17880)**|None|None|Accepted by NeurIPS 2024|Jiaqi Li et.al.|
