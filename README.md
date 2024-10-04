@@ -1,4 +1,4 @@
-## Updated at 2024-10-04 09:20:00
+## Updated at 2024-10-04 20:34:15
 
 ## MVS
 
@@ -325,6 +325,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-10-02**|**[Depth Pro: Sharp Monocular Metric Depth in Less Than a Second](http://arxiv.org/abs/2410.02073)**|None|**[link](https://github.com/apple/ml-depth-pro)**|Code and weights available at https://github.com/apple/ml-depth-pro|Aleksei Bochkovskii et.al.|
 |**2024-10-01**|**[Towards Full-parameter and Parameter-efficient Self-learning For Endoscopic Camera Depth Estimation](http://arxiv.org/abs/2410.00979)**|None|None|WiCV @ ECCV 2024|Shuting Zhao et.al.|
 |**2024-10-01**|**[Drone Stereo Vision for Radiata Pine Branch Detection and Distance Measurement: Utilizing Deep Learning and YOLO Integration](http://arxiv.org/abs/2410.00503)**|None|None|None|Yida Lin et.al.|
 |**2024-10-01**|**[Seamless Augmented Reality Integration in Arthroscopy: A Pipeline for Articular Reconstruction and Guidance](http://arxiv.org/abs/2410.00386)**|None|None|8 pages, with 2 additional pages as the supplementary. Accepted by   AE-CAI 2024|Hongchao Shu et.al.|
