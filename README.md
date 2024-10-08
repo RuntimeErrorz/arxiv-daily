@@ -1,4 +1,4 @@
-## Updated at 2024-10-08 09:19:25
+## Updated at 2024-10-08 20:32:27
 
 ## MVS
 
@@ -325,6 +325,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-10-04**|**[Refinement of Monocular Depth Maps via Multi-View Differentiable Rendering](http://arxiv.org/abs/2410.03861)**|None|None|9.5 pages main paper + 3 pages of references + 1.5 pages appendix|Laura Fink et.al.|
 |**2024-10-03**|**[RSA: Resolving Scale Ambiguities in Monocular Depth Estimators through Language Descriptions](http://arxiv.org/abs/2410.02924)**|None|None|None|Ziyao Zeng et.al.|
 |**2024-10-02**|**[Depth Pro: Sharp Monocular Metric Depth in Less Than a Second](http://arxiv.org/abs/2410.02073)**|None|**[link](https://github.com/apple/ml-depth-pro)**|Code and weights available at https://github.com/apple/ml-depth-pro|Aleksei Bochkovskii et.al.|
 |**2024-10-01**|**[Towards Full-parameter and Parameter-efficient Self-learning For Endoscopic Camera Depth Estimation](http://arxiv.org/abs/2410.00979)**|None|None|WiCV @ ECCV 2024|Shuting Zhao et.al.|
