@@ -1,4 +1,4 @@
-## Updated at 2024-10-10 09:18:52
+## Updated at 2024-10-10 20:34:24
 
 ## MVS
 
@@ -325,6 +325,10 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-10-09**|**[Structure-Centric Robust Monocular Depth Estimation via Knowledge Distillation](http://arxiv.org/abs/2410.06982)**|None|None|To be published in Asian Conference on Computer Vision 2024|Runze Chen et.al.|
+|**2024-10-09**|**[Analysis of different disparity estimation techniques on aerial stereo image datasets](http://arxiv.org/abs/2410.06711)**|None|None|None|Ishan Narayan et.al.|
+|**2024-10-08**|**[Vision Transformer based Random Walk for Group Re-Identification](http://arxiv.org/abs/2410.05808)**|None|None|6 pages|Guoqing Zhang et.al.|
+|**2024-10-08**|**[CUBE360: Learning Cubic Field Representation for Monocular 360 Depth Estimation for Virtual Reality](http://arxiv.org/abs/2410.05735)**|None|None|None|Wenjie Chang et.al.|
 |**2024-10-04**|**[Refinement of Monocular Depth Maps via Multi-View Differentiable Rendering](http://arxiv.org/abs/2410.03861)**|None|None|9.5 pages main paper + 3 pages of references + 1.5 pages appendix|Laura Fink et.al.|
 |**2024-10-03**|**[RSA: Resolving Scale Ambiguities in Monocular Depth Estimators through Language Descriptions](http://arxiv.org/abs/2410.02924)**|None|None|None|Ziyao Zeng et.al.|
 |**2024-10-02**|**[Depth Pro: Sharp Monocular Metric Depth in Less Than a Second](http://arxiv.org/abs/2410.02073)**|None|**[link](https://github.com/apple/ml-depth-pro)**|Code and weights available at https://github.com/apple/ml-depth-pro|Aleksei Bochkovskii et.al.|
