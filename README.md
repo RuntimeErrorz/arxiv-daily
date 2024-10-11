@@ -1,4 +1,4 @@
-## Updated at 2024-10-11 09:19:02
+## Updated at 2024-10-11 20:34:03
 
 ## MVS
 
@@ -325,6 +325,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-10-09**|**[Surgical Depth Anything: Depth Estimation for Surgical Scenes using Foundation Models](http://arxiv.org/abs/2410.07434)**|None|None|None|Ange Lou et.al.|
 |**2024-10-09**|**[Structure-Centric Robust Monocular Depth Estimation via Knowledge Distillation](http://arxiv.org/abs/2410.06982)**|None|None|To be published in Asian Conference on Computer Vision 2024|Runze Chen et.al.|
 |**2024-10-09**|**[Analysis of different disparity estimation techniques on aerial stereo image datasets](http://arxiv.org/abs/2410.06711)**|None|None|None|Ishan Narayan et.al.|
 |**2024-10-08**|**[Vision Transformer based Random Walk for Group Re-Identification](http://arxiv.org/abs/2410.05808)**|None|None|6 pages|Guoqing Zhang et.al.|
