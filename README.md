@@ -1,4 +1,4 @@
-## Updated at 2024-10-16 20:35:05
+## Updated at 2024-10-17 09:19:46
 
 ## MVS
 
@@ -327,7 +327,7 @@
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
 |**2024-10-15**|**[Depth Estimation From Monocular Images With Enhanced Encoder-Decoder Architecture](http://arxiv.org/abs/2410.11610)**|None|None|None|Dabbrata Das et.al.|
-|**2024-10-15**|**[CVCP-Fusion: On Implicit Depth Estimation for 3D Bounding Box Prediction](http://arxiv.org/abs/2410.11211)**|None|**[link](https://github.com/safetylab24/FusionCVCP)**|7 pages, 5 figures|Pranav Gupta et.al.|
+|**2024-10-15**|**[CVCP-Fusion: On Implicit Depth Estimation for 3D Bounding Box Prediction](http://arxiv.org/abs/2410.11211)**|Curieux Academic Journal Part 2 Issue 43 (2024), pp. 626-634|**[link](https://github.com/safetylab24/FusionCVCP)**|7 pages, 5 figures. arXiv admin note: text overlap with   arXiv:2205.02833 by other authors|Pranav Gupta et.al.|
 |**2024-10-14**|**[When Does Perceptual Alignment Benefit Vision Representations?](http://arxiv.org/abs/2410.10817)**|None|None|S.S. and S.F. contributed equally. Website: percep-align.github.io|Shobhita Sundaram et.al.|
 |**2024-10-14**|**[Depth Any Video with Scalable Synthetic Data](http://arxiv.org/abs/2410.10815)**|None|None|Project Page: https://depthanyvideo.github.io/|Honghui Yang et.al.|
 |**2024-10-09**|**[Surgical Depth Anything: Depth Estimation for Surgical Scenes using Foundation Models](http://arxiv.org/abs/2410.07434)**|None|None|None|Ange Lou et.al.|
