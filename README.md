@@ -1,9 +1,10 @@
-## Updated at 2024-10-18 09:19:49
+## Updated at 2024-10-18 20:34:20
 
 ## MVS
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-10-17**|**[DepthSplat: Connecting Gaussian Splatting and Depth](http://arxiv.org/abs/2410.13862)**|None|**[link](https://github.com/cvg/depthsplat)**|Project page: https://haofeixu.github.io/depthsplat/|Haofei Xu et.al.|
 |**2024-10-15**|**[MCGS: Multiview Consistency Enhancement for Sparse-View 3D Gaussian Radiance Fields](http://arxiv.org/abs/2410.11394)**|None|None|None|Yuru Xiao et.al.|
 |**2024-09-22**|**[MVPGS: Excavating Multi-view Priors for Gaussian Splatting from Sparse Input Views](http://arxiv.org/abs/2409.14316)**|None|None|Accepted by ECCV 2024, Project page:   https://zezeaaa.github.io/projects/MVPGS/|Wangze Xu et.al.|
 |**2024-09-20**|**[Towards Zero-shot Point Cloud Anomaly Detection: A Multi-View Projection Framework](http://arxiv.org/abs/2409.13162)**|None|**[link](https://github.com/hustcyq/mvp-pclip)**|None|Yuqi Cheng et.al.|
@@ -326,6 +327,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-10-17**|**[DepthSplat: Connecting Gaussian Splatting and Depth](http://arxiv.org/abs/2410.13862)**|None|**[link](https://github.com/cvg/depthsplat)**|Project page: https://haofeixu.github.io/depthsplat/|Haofei Xu et.al.|
 |**2024-10-16**|**[DH-VTON: Deep Text-Driven Virtual Try-On via Hybrid Attention Learning](http://arxiv.org/abs/2410.12501)**|None|None|5 pages, 6 figures, ICASSP2025|Jiabao Wei et.al.|
 |**2024-10-15**|**[Depth Estimation From Monocular Images With Enhanced Encoder-Decoder Architecture](http://arxiv.org/abs/2410.11610)**|None|None|None|Dabbrata Das et.al.|
 |**2024-10-15**|**[CVCP-Fusion: On Implicit Depth Estimation for 3D Bounding Box Prediction](http://arxiv.org/abs/2410.11211)**|Curieux Academic Journal Part 2 Issue 43 (2024), pp. 626-634|**[link](https://github.com/safetylab24/FusionCVCP)**|7 pages, 5 figures. arXiv admin note: text overlap with   arXiv:2205.02833 by other authors|Pranav Gupta et.al.|
