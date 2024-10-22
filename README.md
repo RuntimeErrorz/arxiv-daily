@@ -1,4 +1,4 @@
-## Updated at 2024-10-22 09:20:33
+## Updated at 2024-10-22 20:35:04
 
 ## MVS
 
@@ -327,6 +327,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-10-19**|**[DCDepth: Progressive Monocular Depth Estimation in Discrete Cosine Domain](http://arxiv.org/abs/2410.14980)**|None|**[link](https://github.com/w2kun/dcdepth)**|Accepted by NeurIPS-2024|Kun Wang et.al.|
 |**2024-10-17**|**[DepthSplat: Connecting Gaussian Splatting and Depth](http://arxiv.org/abs/2410.13862)**|None|**[link](https://github.com/cvg/depthsplat)**|Project page: https://haofeixu.github.io/depthsplat/|Haofei Xu et.al.|
 |**2024-10-16**|**[DH-VTON: Deep Text-Driven Virtual Try-On via Hybrid Attention Learning](http://arxiv.org/abs/2410.12501)**|None|None|5 pages, 6 figures, ICASSP2025|Jiabao Wei et.al.|
 |**2024-10-15**|**[Depth Estimation From Monocular Images With Enhanced Encoder-Decoder Architecture](http://arxiv.org/abs/2410.11610)**|None|None|None|Dabbrata Das et.al.|
