@@ -1,4 +1,4 @@
-## Updated at 2024-10-24 09:19:29
+## Updated at 2024-10-24 20:35:01
 
 ## MVS
 
@@ -327,6 +327,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-10-23**|**[UnCLe: Unsupervised Continual Learning of Depth Completion](http://arxiv.org/abs/2410.18074)**|None|None|Preprint|Suchisrit Gangopadhyay et.al.|
 |**2024-10-21**|**[TIPS: Text-Image Pretraining with Spatial Awareness](http://arxiv.org/abs/2410.16512)**|None|None|None|Kevis-Kokitsi Maninis et.al.|
 |**2024-10-19**|**[DCDepth: Progressive Monocular Depth Estimation in Discrete Cosine Domain](http://arxiv.org/abs/2410.14980)**|None|**[link](https://github.com/w2kun/dcdepth)**|Accepted by NeurIPS-2024|Kun Wang et.al.|
 |**2024-10-17**|**[DepthSplat: Connecting Gaussian Splatting and Depth](http://arxiv.org/abs/2410.13862)**|None|**[link](https://github.com/cvg/depthsplat)**|Project page: https://haofeixu.github.io/depthsplat/|Haofei Xu et.al.|
