@@ -1,9 +1,10 @@
-## Updated at 2024-10-25 09:20:14
+## Updated at 2024-10-25 20:34:35
 
 ## MVS
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-10-24**|**[Segmentation-aware Prior Assisted Joint Global Information Aggregated 3D Building Reconstruction](http://arxiv.org/abs/2410.18433)**|None|None|None|Hongxin Peng et.al.|
 |**2024-10-17**|**[DepthSplat: Connecting Gaussian Splatting and Depth](http://arxiv.org/abs/2410.13862)**|None|**[link](https://github.com/cvg/depthsplat)**|Project page: https://haofeixu.github.io/depthsplat/|Haofei Xu et.al.|
 |**2024-10-15**|**[MCGS: Multiview Consistency Enhancement for Sparse-View 3D Gaussian Radiance Fields](http://arxiv.org/abs/2410.11394)**|None|None|None|Yuru Xiao et.al.|
 |**2024-09-22**|**[MVPGS: Excavating Multi-view Priors for Gaussian Splatting from Sparse Input Views](http://arxiv.org/abs/2409.14316)**|None|None|Accepted by ECCV 2024, Project page:   https://zezeaaa.github.io/projects/MVPGS/|Wangze Xu et.al.|
@@ -327,6 +328,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-10-24**|**[Segmentation-aware Prior Assisted Joint Global Information Aggregated 3D Building Reconstruction](http://arxiv.org/abs/2410.18433)**|None|None|None|Hongxin Peng et.al.|
 |**2024-10-23**|**[UnCLe: Unsupervised Continual Learning of Depth Completion](http://arxiv.org/abs/2410.18074)**|None|None|Preprint|Suchisrit Gangopadhyay et.al.|
 |**2024-10-21**|**[TIPS: Text-Image Pretraining with Spatial Awareness](http://arxiv.org/abs/2410.16512)**|None|None|None|Kevis-Kokitsi Maninis et.al.|
 |**2024-10-19**|**[DCDepth: Progressive Monocular Depth Estimation in Discrete Cosine Domain](http://arxiv.org/abs/2410.14980)**|None|**[link](https://github.com/w2kun/dcdepth)**|Accepted by NeurIPS-2024|Kun Wang et.al.|
