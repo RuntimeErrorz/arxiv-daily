@@ -1,4 +1,4 @@
-## Updated at 2024-10-28 09:22:54
+## Updated at 2024-10-28 20:36:01
 
 ## MVS
 
@@ -328,6 +328,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-10-25**|**[MonoDGP: Monocular 3D Object Detection with Decoupled-Query and Geometry-Error Priors](http://arxiv.org/abs/2410.19590)**|None|None|None|Fanqi Pu et.al.|
 |**2024-10-24**|**[Segmentation-aware Prior Assisted Joint Global Information Aggregated 3D Building Reconstruction](http://arxiv.org/abs/2410.18433)**|None|None|None|Hongxin Peng et.al.|
 |**2024-10-23**|**[UnCLe: Unsupervised Continual Learning of Depth Completion](http://arxiv.org/abs/2410.18074)**|None|None|Preprint|Suchisrit Gangopadhyay et.al.|
 |**2024-10-21**|**[TIPS: Text-Image Pretraining with Spatial Awareness](http://arxiv.org/abs/2410.16512)**|None|None|None|Kevis-Kokitsi Maninis et.al.|
