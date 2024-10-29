@@ -1,4 +1,4 @@
-## Updated at 2024-10-29 09:21:22
+## Updated at 2024-10-29 20:35:25
 
 ## MVS
 
@@ -328,6 +328,9 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-10-27**|**[Unlocking Comics: The AI4VA Dataset for Visual Understanding](http://arxiv.org/abs/2410.20459)**|None|**[link](https://github.com/ivrl/ai4va)**|ECCV 2024 Workshop Proceedings|Peter Grönquist et.al.|
+|**2024-10-27**|**[Depth Attention for Robust RGB Tracking](http://arxiv.org/abs/2410.20395)**|None|**[link](https://github.com/liuyuml/depth-attention)**|Oral Acceptance at the Asian Conference on Computer Vision (ACCV)   2024, Hanoi, Vietnam|Yu Liu et.al.|
+|**2024-10-21**|**[YOLO11 and Vision Transformers based 3D Pose Estimation of Immature Green Fruits in Commercial Apple Orchards for Robotic Thinning](http://arxiv.org/abs/2410.19846)**|None|None|24 Pages, 13 Figures, 1 Table|Ranjan Sapkota et.al.|
 |**2024-10-25**|**[MonoDGP: Monocular 3D Object Detection with Decoupled-Query and Geometry-Error Priors](http://arxiv.org/abs/2410.19590)**|None|None|None|Fanqi Pu et.al.|
 |**2024-10-24**|**[Segmentation-aware Prior Assisted Joint Global Information Aggregated 3D Building Reconstruction](http://arxiv.org/abs/2410.18433)**|None|None|None|Hongxin Peng et.al.|
 |**2024-10-23**|**[UnCLe: Unsupervised Continual Learning of Depth Completion](http://arxiv.org/abs/2410.18074)**|None|None|Preprint|Suchisrit Gangopadhyay et.al.|
