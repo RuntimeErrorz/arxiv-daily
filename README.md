@@ -1,4 +1,4 @@
-## Updated at 2024-10-30 09:20:30
+## Updated at 2024-10-30 20:35:13
 
 ## MVS
 
@@ -328,6 +328,8 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-10-29**|**[Active Event Alignment for Monocular Distance Estimation](http://arxiv.org/abs/2410.22280)**|IEEE/CVF Winter Conference on Applications of Computer Vision   (WACV) 2025|None|None|Nan Cai et.al.|
+|**2024-10-29**|**[PF3plat: Pose-Free Feed-Forward 3D Gaussian Splatting](http://arxiv.org/abs/2410.22128)**|None|**[link](https://github.com/cvlab-kaist/PF3plat)**|project page: https://cvlab-kaist.github.io/PF3plat/|Sunghwan Hong et.al.|
 |**2024-10-27**|**[Unlocking Comics: The AI4VA Dataset for Visual Understanding](http://arxiv.org/abs/2410.20459)**|None|**[link](https://github.com/ivrl/ai4va)**|ECCV 2024 Workshop Proceedings|Peter Grönquist et.al.|
 |**2024-10-27**|**[Depth Attention for Robust RGB Tracking](http://arxiv.org/abs/2410.20395)**|None|**[link](https://github.com/liuyuml/depth-attention)**|Oral Acceptance at the Asian Conference on Computer Vision (ACCV)   2024, Hanoi, Vietnam|Yu Liu et.al.|
 |**2024-10-21**|**[YOLO11 and Vision Transformers based 3D Pose Estimation of Immature Green Fruits in Commercial Apple Orchards for Robotic Thinning](http://arxiv.org/abs/2410.19846)**|None|None|24 Pages, 13 Figures, 1 Table|Ranjan Sapkota et.al.|
