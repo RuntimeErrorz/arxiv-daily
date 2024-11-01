@@ -1,4 +1,4 @@
-## Updated at 2024-11-01 09:29:52
+## Updated at 2024-11-01 20:33:38
 
 ## MVS
 
@@ -328,6 +328,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-10-31**|**[ImOV3D: Learning Open-Vocabulary Point Clouds 3D Object Detection from Only 2D Images](http://arxiv.org/abs/2410.24001)**|None|**[link](https://github.com/yangtiming/imov3d)**|Accepted by NeurIPS 2024. Code link   https://github.com/yangtiming/ImOV3D|Timing Yang et.al.|
 |**2024-10-29**|**[Active Event Alignment for Monocular Distance Estimation](http://arxiv.org/abs/2410.22280)**|IEEE/CVF Winter Conference on Applications of Computer Vision   (WACV) 2025|None|None|Nan Cai et.al.|
 |**2024-10-29**|**[PF3plat: Pose-Free Feed-Forward 3D Gaussian Splatting](http://arxiv.org/abs/2410.22128)**|None|**[link](https://github.com/cvlab-kaist/PF3plat)**|project page: https://cvlab-kaist.github.io/PF3plat/|Sunghwan Hong et.al.|
 |**2024-10-27**|**[Unlocking Comics: The AI4VA Dataset for Visual Understanding](http://arxiv.org/abs/2410.20459)**|None|**[link](https://github.com/ivrl/ai4va)**|ECCV 2024 Workshop Proceedings|Peter Grönquist et.al.|
