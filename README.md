@@ -1,9 +1,10 @@
-## Updated at 2024-11-05 09:18:21
+## Updated at 2024-11-05 20:32:52
 
 ## MVS
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-11-04**|**[A Global Depth-Range-Free Multi-View Stereo Transformer Network with Pose Embedding](http://arxiv.org/abs/2411.01893)**|None|None|None|Yitong Dong et.al.|
 |**2024-10-24**|**[Segmentation-aware Prior Assisted Joint Global Information Aggregated 3D Building Reconstruction](http://arxiv.org/abs/2410.18433)**|None|None|None|Hongxin Peng et.al.|
 |**2024-10-17**|**[DepthSplat: Connecting Gaussian Splatting and Depth](http://arxiv.org/abs/2410.13862)**|None|**[link](https://github.com/cvg/depthsplat)**|Project page: https://haofeixu.github.io/depthsplat/|Haofei Xu et.al.|
 |**2024-10-15**|**[MCGS: Multiview Consistency Enhancement for Sparse-View 3D Gaussian Radiance Fields](http://arxiv.org/abs/2410.11394)**|None|None|None|Yuru Xiao et.al.|
@@ -328,6 +329,11 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-11-04**|**[FewViewGS: Gaussian Splatting with Few View Matching and Multi-stage Training](http://arxiv.org/abs/2411.02229)**|None|None|Accepted by NeurIPS2024|Ruihong Yin et.al.|
+|**2024-11-04**|**[Improving Domain Generalization in Self-supervised Monocular Depth Estimation via Stabilized Adversarial Training](http://arxiv.org/abs/2411.02149)**|None|None|None|Yuanqi Yao et.al.|
+|**2024-11-01**|**[MultiDepth: Multi-Sample Priors for Refining Monocular Metric Depth Estimations in Indoor Scenes](http://arxiv.org/abs/2411.01048)**|None|None|None|Sanghyun Byun et.al.|
+|**2024-11-01**|**[On Deep Learning for Geometric and Semantic Scene Understanding Using On-Vehicle 3D LiDAR](http://arxiv.org/abs/2411.00600)**|None|None|PhD thesis (Durham University, Computer Science), 149 pages (the 2024   BMVA Sullivan Doctoral Thesis Prize runner-up). Includes published content   from arXiv:2407.10159 (ECCV 2024 ORAL), arXiv:2303.11203 (CVPR 2023), and   arXiv:2406.10068 (3DV 2021), with minor revisions to the examined version:   https://etheses.dur.ac.uk/15738/|Li Li et.al.|
+|**2024-10-31**|**[Optical Lens Attack on Monocular Depth Estimation for Autonomous Driving](http://arxiv.org/abs/2411.00192)**|None|None|28 pages. arXiv admin note: substantial text overlap with   arXiv:2409.17376|Ce Zhou et.al.|
 |**2024-10-31**|**[ImOV3D: Learning Open-Vocabulary Point Clouds 3D Object Detection from Only 2D Images](http://arxiv.org/abs/2410.24001)**|None|**[link](https://github.com/yangtiming/imov3d)**|Accepted by NeurIPS 2024. Code link   https://github.com/yangtiming/ImOV3D|Timing Yang et.al.|
 |**2024-10-29**|**[Active Event Alignment for Monocular Distance Estimation](http://arxiv.org/abs/2410.22280)**|IEEE/CVF Winter Conference on Applications of Computer Vision   (WACV) 2025|None|None|Nan Cai et.al.|
 |**2024-10-29**|**[PF3plat: Pose-Free Feed-Forward 3D Gaussian Splatting](http://arxiv.org/abs/2410.22128)**|None|**[link](https://github.com/cvlab-kaist/PF3plat)**|project page: https://cvlab-kaist.github.io/PF3plat/|Sunghwan Hong et.al.|
