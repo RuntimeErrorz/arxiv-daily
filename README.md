@@ -1,4 +1,4 @@
-## Updated at 2024-11-06 09:18:11
+## Updated at 2024-11-06 20:34:56
 
 ## MVS
 
@@ -330,7 +330,7 @@
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
 |**2024-11-04**|**[FewViewGS: Gaussian Splatting with Few View Matching and Multi-stage Training](http://arxiv.org/abs/2411.02229)**|None|None|Accepted by NeurIPS2024|Ruihong Yin et.al.|
-|**2024-11-04**|**[Improving Domain Generalization in Self-supervised Monocular Depth Estimation via Stabilized Adversarial Training](http://arxiv.org/abs/2411.02149)**|None|None|None|Yuanqi Yao et.al.|
+|**2024-11-04**|**[Improving Domain Generalization in Self-supervised Monocular Depth Estimation via Stabilized Adversarial Training](http://arxiv.org/abs/2411.02149)**|None|None|Accepted to ECCV 2024|Yuanqi Yao et.al.|
 |**2024-11-01**|**[MultiDepth: Multi-Sample Priors for Refining Monocular Metric Depth Estimations in Indoor Scenes](http://arxiv.org/abs/2411.01048)**|None|None|None|Sanghyun Byun et.al.|
 |**2024-11-01**|**[On Deep Learning for Geometric and Semantic Scene Understanding Using On-Vehicle 3D LiDAR](http://arxiv.org/abs/2411.00600)**|None|**[link](https://github.com/l1997i/DurLAR)**|PhD thesis (Durham University, Computer Science), 149 pages (the 2024   BMVA Sullivan Doctoral Thesis Prize runner-up). Includes published content   from arXiv:2407.10159 (ECCV 2024 ORAL), arXiv:2303.11203 (CVPR 2023), and   arXiv:2406.10068 (3DV 2021), with minor revisions to the examined version:   https://etheses.dur.ac.uk/15738/|Li Li et.al.|
 |**2024-10-31**|**[Optical Lens Attack on Monocular Depth Estimation for Autonomous Driving](http://arxiv.org/abs/2411.00192)**|None|None|28 pages. arXiv admin note: substantial text overlap with   arXiv:2409.17376|Ce Zhou et.al.|
