@@ -1,4 +1,4 @@
-## Updated at 2024-11-07 09:18:36
+## Updated at 2024-11-07 20:33:24
 
 ## MVS
 
@@ -329,6 +329,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-11-06**|**[Adaptive Stereo Depth Estimation with Multi-Spectral Images Across All Lighting Conditions](http://arxiv.org/abs/2411.03638)**|None|None|None|Zihan Qin et.al.|
 |**2024-11-04**|**[FewViewGS: Gaussian Splatting with Few View Matching and Multi-stage Training](http://arxiv.org/abs/2411.02229)**|None|None|Accepted by NeurIPS2024|Ruihong Yin et.al.|
 |**2024-11-04**|**[Improving Domain Generalization in Self-supervised Monocular Depth Estimation via Stabilized Adversarial Training](http://arxiv.org/abs/2411.02149)**|None|None|Accepted to ECCV 2024|Yuanqi Yao et.al.|
 |**2024-11-01**|**[MultiDepth: Multi-Sample Priors for Refining Monocular Metric Depth Estimations in Indoor Scenes](http://arxiv.org/abs/2411.01048)**|None|None|None|Sanghyun Byun et.al.|
