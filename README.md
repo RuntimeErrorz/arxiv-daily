@@ -1,4 +1,4 @@
-## Updated at 2024-11-08 09:18:34
+## Updated at 2024-11-08 20:33:47
 
 ## MVS
 
@@ -329,6 +329,9 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-11-07**|**[D$^3$epth: Self-Supervised Depth Estimation with Dynamic Mask in Dynamic Scenes](http://arxiv.org/abs/2411.04826)**|None|None|Open sourced|Siyu Chen et.al.|
+|**2024-11-06**|**[Revisiting Disparity from Dual-Pixel Images: Physics-Informed Lightweight Depth Estimation](http://arxiv.org/abs/2411.04714)**|None|None|Accepted to IEEE Winter Conference on Applications of Computer Vision   (WACV) 2025|Teppei Kurita et.al.|
+|**2024-11-04**|**[PMPNet: Pixel Movement Prediction Network for Monocular Depth Estimation in Dynamic Scenes](http://arxiv.org/abs/2411.04227)**|None|None|None|Kebin Peng et.al.|
 |**2024-11-06**|**[Adaptive Stereo Depth Estimation with Multi-Spectral Images Across All Lighting Conditions](http://arxiv.org/abs/2411.03638)**|None|None|None|Zihan Qin et.al.|
 |**2024-11-04**|**[FewViewGS: Gaussian Splatting with Few View Matching and Multi-stage Training](http://arxiv.org/abs/2411.02229)**|None|None|Accepted by NeurIPS2024|Ruihong Yin et.al.|
 |**2024-11-04**|**[Improving Domain Generalization in Self-supervised Monocular Depth Estimation via Stabilized Adversarial Training](http://arxiv.org/abs/2411.02149)**|None|None|Accepted to ECCV 2024|Yuanqi Yao et.al.|
