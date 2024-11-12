@@ -1,4 +1,4 @@
-## Updated at 2024-11-12 09:17:36
+## Updated at 2024-11-12 20:34:57
 
 ## MVS
 
@@ -11,7 +11,7 @@
 |**2024-10-15**|**[MCGS: Multiview Consistency Enhancement for Sparse-View 3D Gaussian Radiance Fields](http://arxiv.org/abs/2410.11394)**|None|None|None|Yuru Xiao et.al.|
 |**2024-09-22**|**[MVPGS: Excavating Multi-view Priors for Gaussian Splatting from Sparse Input Views](http://arxiv.org/abs/2409.14316)**|None|None|Accepted by ECCV 2024, Project page:   https://zezeaaa.github.io/projects/MVPGS/|Wangze Xu et.al.|
 |**2024-09-20**|**[Towards Zero-shot Point Cloud Anomaly Detection: A Multi-View Projection Framework](http://arxiv.org/abs/2409.13162)**|None|**[link](https://github.com/hustcyq/mvp-pclip)**|None|Yuqi Cheng et.al.|
-|**2024-09-04**|**[UC-NeRF: Uncertainty-aware Conditional Neural Radiance Fields from Endoscopic Sparse Views](http://arxiv.org/abs/2409.02917)**|None|**[link](https://github.com/wrld/uc-nerf)**|None|Jiaxin Guo et.al.|
+|**2024-09-04**|**[UC-NeRF: Uncertainty-aware Conditional Neural Radiance Fields from Endoscopic Sparse Views](http://arxiv.org/abs/2409.02917)**|None|**[link](https://github.com/wrld/uc-nerf)**|Accepted to IEEE Transactions on Medical Imaging|Jiaxin Guo et.al.|
 |**2024-09-03**|**[EPRecon: An Efficient Framework for Real-Time Panoptic 3D Reconstruction from Monocular Video](http://arxiv.org/abs/2409.01807)**|None|**[link](https://github.com/zhen6618/eprecon)**|None|Zhen Zhou et.al.|
 |**2024-08-31**|**[3D Gaussian Splatting for Large-scale Surface Reconstruction from Aerial Images](http://arxiv.org/abs/2409.00381)**|None|None|12 pages|YuanZheng Wu et.al.|
 |**2024-08-29**|**[Spurfies: Sparse Surface Reconstruction using Local Geometry Priors](http://arxiv.org/abs/2408.16544)**|None|None|https://geometric-rl.mpi-inf.mpg.de/spurfies/|Kevin Raj et.al.|
