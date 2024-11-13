@@ -1,4 +1,4 @@
-## Updated at 2024-11-13 09:19:08
+## Updated at 2024-11-13 20:34:42
 
 ## MVS
 
@@ -330,6 +330,8 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-11-12**|**[Scaling Properties of Diffusion Models for Perceptual Tasks](http://arxiv.org/abs/2411.08034)**|None|None|None|Rahul Ravishankar et.al.|
+|**2024-11-11**|**[$SE(3)$ Equivariant Ray Embeddings for Implicit Multi-View Depth Estimation](http://arxiv.org/abs/2411.07326)**|None|None|Accepted at NeurIPS 2024|Yinshuang Xu et.al.|
 |**2024-11-08**|**[SimpleBEV: Improved LiDAR-Camera Fusion Architecture for 3D Object Detection](http://arxiv.org/abs/2411.05292)**|None|None|None|Yun Zhao et.al.|
 |**2024-11-07**|**[D$^3$epth: Self-Supervised Depth Estimation with Dynamic Mask in Dynamic Scenes](http://arxiv.org/abs/2411.04826)**|None|None|Open sourced|Siyu Chen et.al.|
 |**2024-11-06**|**[Revisiting Disparity from Dual-Pixel Images: Physics-Informed Lightweight Depth Estimation](http://arxiv.org/abs/2411.04714)**|None|None|Accepted to IEEE Winter Conference on Applications of Computer Vision   (WACV) 2025|Teppei Kurita et.al.|
