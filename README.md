@@ -1,4 +1,4 @@
-## Updated at 2024-11-15 09:23:57
+## Updated at 2024-11-15 20:35:33
 
 ## MVS
 
@@ -330,6 +330,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-11-14**|**[Mono2Stereo: Monocular Knowledge Transfer for Enhanced Stereo Matching](http://arxiv.org/abs/2411.09151)**|None|None|8 pages, 6 figures|Yuran Wang et.al.|
 |**2024-11-13**|**[OSMLoc: Single Image-Based Visual Localization in OpenStreetMap with Geometric and Semantic Guidances](http://arxiv.org/abs/2411.08665)**|None|None|15 pages, technical report|Youqi Liao et.al.|
 |**2024-11-12**|**[Scaling Properties of Diffusion Models for Perceptual Tasks](http://arxiv.org/abs/2411.08034)**|None|None|None|Rahul Ravishankar et.al.|
 |**2024-11-11**|**[$SE(3)$ Equivariant Ray Embeddings for Implicit Multi-View Depth Estimation](http://arxiv.org/abs/2411.07326)**|None|None|Accepted at NeurIPS 2024|Yinshuang Xu et.al.|
