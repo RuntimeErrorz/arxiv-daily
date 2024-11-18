@@ -1,4 +1,4 @@
-## Updated at 2024-11-18 09:25:27
+## Updated at 2024-11-18 20:37:46
 
 ## MVS
 
@@ -330,6 +330,8 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-11-15**|**[Efficient Depth Estimation for Unstable Stereo Camera Systems on AR Glasses](http://arxiv.org/abs/2411.10013)**|None|None|None|Yongfan Liu et.al.|
+|**2024-11-14**|**[Architect: Generating Vivid and Interactive 3D Scenes with Hierarchical 2D Inpainting](http://arxiv.org/abs/2411.09823)**|None|None|None|Yian Wang et.al.|
 |**2024-11-14**|**[Mono2Stereo: Monocular Knowledge Transfer for Enhanced Stereo Matching](http://arxiv.org/abs/2411.09151)**|None|None|8 pages, 6 figures|Yuran Wang et.al.|
 |**2024-11-13**|**[OSMLoc: Single Image-Based Visual Localization in OpenStreetMap with Geometric and Semantic Guidances](http://arxiv.org/abs/2411.08665)**|None|None|15 pages, technical report|Youqi Liao et.al.|
 |**2024-11-12**|**[Scaling Properties of Diffusion Models for Perceptual Tasks](http://arxiv.org/abs/2411.08034)**|None|None|None|Rahul Ravishankar et.al.|
