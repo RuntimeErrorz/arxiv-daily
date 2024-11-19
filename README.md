@@ -1,9 +1,10 @@
-## Updated at 2024-11-19 09:23:53
+## Updated at 2024-11-19 20:36:36
 
 ## MVS
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-11-15**|**[The Oxford Spires Dataset: Benchmarking Large-Scale LiDAR-Visual Localisation, Reconstruction and Radiance Field Methods](http://arxiv.org/abs/2411.10546)**|None|None|Website: https://dynamic.robots.ox.ac.uk/datasets/oxford-spires/|Yifu Tao et.al.|
 |**2024-11-08**|**[From Transparent to Opaque: Rethinking Neural Implicit Surfaces with $α$-NeuS](http://arxiv.org/abs/2411.05362)**|NeurIPS 2024|None|None|Haoran Zhang et.al.|
 |**2024-11-04**|**[A Global Depth-Range-Free Multi-View Stereo Transformer Network with Pose Embedding](http://arxiv.org/abs/2411.01893)**|None|None|None|Yitong Dong et.al.|
 |**2024-10-24**|**[Segmentation-aware Prior Assisted Joint Global Information Aggregated 3D Building Reconstruction](http://arxiv.org/abs/2410.18433)**|None|None|None|Hongxin Peng et.al.|
@@ -330,6 +331,13 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-11-18**|**[Towards Degradation-Robust Reconstruction in Generalizable NeRF](http://arxiv.org/abs/2411.11691)**|None|None|None|Chan Ho Park et.al.|
+|**2024-11-18**|**[MGNiceNet: Unified Monocular Geometric Scene Understanding](http://arxiv.org/abs/2411.11466)**|None|None|Accepted for ACCV 2024|Markus Schön et.al.|
+|**2024-11-18**|**[The ADUULM-360 Dataset -- A Multi-Modal Dataset for Depth Estimation in Adverse Weather](http://arxiv.org/abs/2411.11455)**|None|None|2024 IEEE International Conference on Intelligent Transportation   Systems (ITSC)|Markus Schön et.al.|
+|**2024-11-18**|**[GPS-Gaussian+: Generalizable Pixel-wise 3D Gaussian Splatting for Real-Time Human-Scene Rendering from Sparse Views](http://arxiv.org/abs/2411.11363)**|None|None|Journal extension of CVPR 2024,Project   page:https://yaourtb.github.io/GPS-Gaussian+|Boyao Zhou et.al.|
+|**2024-11-18**|**[Scalable Autoregressive Monocular Depth Estimation](http://arxiv.org/abs/2411.11361)**|None|None|None|Jinhong Wang et.al.|
+|**2024-11-16**|**[MetricGold: Leveraging Text-To-Image Latent Diffusion Models for Metric Depth Estimation](http://arxiv.org/abs/2411.10886)**|None|None|arXiv admin note: substantial text overlap with arXiv:2312.02145 by   other authors|Ansh Shah et.al.|
+|**2024-11-16**|**[EVT: Efficient View Transformation for Multi-Modal 3D Object Detection](http://arxiv.org/abs/2411.10715)**|None|None|None|Yongjin Lee et.al.|
 |**2024-11-15**|**[Efficient Depth Estimation for Unstable Stereo Camera Systems on AR Glasses](http://arxiv.org/abs/2411.10013)**|None|None|None|Yongfan Liu et.al.|
 |**2024-11-14**|**[Architect: Generating Vivid and Interactive 3D Scenes with Hierarchical 2D Inpainting](http://arxiv.org/abs/2411.09823)**|None|None|None|Yian Wang et.al.|
 |**2024-11-14**|**[Mono2Stereo: Monocular Knowledge Transfer for Enhanced Stereo Matching](http://arxiv.org/abs/2411.09151)**|None|None|8 pages, 6 figures|Yuran Wang et.al.|
