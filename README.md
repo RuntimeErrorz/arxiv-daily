@@ -1,4 +1,4 @@
-## Updated at 2024-11-20 09:22:56
+## Updated at 2024-11-20 20:36:15
 
 ## MVS
 
@@ -331,6 +331,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-11-15**|**[SPARS3R: Semantic Prior Alignment and Regularization for Sparse 3D Reconstruction](http://arxiv.org/abs/2411.12592)**|None|None|None|Yutao Tang et.al.|
 |**2024-11-18**|**[Towards Degradation-Robust Reconstruction in Generalizable NeRF](http://arxiv.org/abs/2411.11691)**|None|None|None|Chan Ho Park et.al.|
 |**2024-11-18**|**[MGNiceNet: Unified Monocular Geometric Scene Understanding](http://arxiv.org/abs/2411.11466)**|None|None|Accepted for ACCV 2024|Markus Schön et.al.|
 |**2024-11-18**|**[The ADUULM-360 Dataset -- A Multi-Modal Dataset for Depth Estimation in Adverse Weather](http://arxiv.org/abs/2411.11455)**|None|None|2024 IEEE International Conference on Intelligent Transportation   Systems (ITSC)|Markus Schön et.al.|
