@@ -1,4 +1,4 @@
-## Updated at 2024-11-21 09:23:10
+## Updated at 2024-11-21 20:36:47
 
 ## MVS
 
@@ -331,6 +331,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-11-20**|**[DATAP-SfM: Dynamic-Aware Tracking Any Point for Robust Structure from Motion in the Wild](http://arxiv.org/abs/2411.13291)**|None|None|None|Weicai Ye et.al.|
 |**2024-11-15**|**[SPARS3R: Semantic Prior Alignment and Regularization for Sparse 3D Reconstruction](http://arxiv.org/abs/2411.12592)**|None|**[link](https://github.com/snldmt/SPARS3R)**|None|Yutao Tang et.al.|
 |**2024-11-18**|**[Towards Degradation-Robust Reconstruction in Generalizable NeRF](http://arxiv.org/abs/2411.11691)**|None|None|None|Chan Ho Park et.al.|
 |**2024-11-18**|**[MGNiceNet: Unified Monocular Geometric Scene Understanding](http://arxiv.org/abs/2411.11466)**|None|None|Accepted for ACCV 2024|Markus Schön et.al.|
