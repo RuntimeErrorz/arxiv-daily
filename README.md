@@ -1,11 +1,11 @@
-## Updated at 2024-11-22 09:24:13
+## Updated at 2024-11-22 20:36:00
 
 ## MVS
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
 |**2024-11-15**|**[The Oxford Spires Dataset: Benchmarking Large-Scale LiDAR-Visual Localisation, Reconstruction and Radiance Field Methods](http://arxiv.org/abs/2411.10546)**|None|None|Website: https://dynamic.robots.ox.ac.uk/datasets/oxford-spires/|Yifu Tao et.al.|
-|**2024-11-08**|**[From Transparent to Opaque: Rethinking Neural Implicit Surfaces with $α$-NeuS](http://arxiv.org/abs/2411.05362)**|NeurIPS 2024|None|None|Haoran Zhang et.al.|
+|**2024-11-08**|**[From Transparent to Opaque: Rethinking Neural Implicit Surfaces with $α$-NeuS](http://arxiv.org/abs/2411.05362)**|NeurIPS 2024|**[link](https://github.com/728388808/alpha-neus)**|None|Haoran Zhang et.al.|
 |**2024-11-04**|**[A Global Depth-Range-Free Multi-View Stereo Transformer Network with Pose Embedding](http://arxiv.org/abs/2411.01893)**|None|None|None|Yitong Dong et.al.|
 |**2024-10-24**|**[Segmentation-aware Prior Assisted Joint Global Information Aggregated 3D Building Reconstruction](http://arxiv.org/abs/2410.18433)**|None|None|None|Hongxin Peng et.al.|
 |**2024-10-17**|**[DepthSplat: Connecting Gaussian Splatting and Depth](http://arxiv.org/abs/2410.13862)**|None|**[link](https://github.com/cvg/depthsplat)**|Project page: https://haofeixu.github.io/depthsplat/|Haofei Xu et.al.|
@@ -331,6 +331,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-11-21**|**[StereoCrafter-Zero: Zero-Shot Stereo Video Generation with Noisy Restart](http://arxiv.org/abs/2411.14295)**|None|None|None|Jian Shi et.al.|
 |**2024-11-20**|**[DATAP-SfM: Dynamic-Aware Tracking Any Point for Robust Structure from Motion in the Wild](http://arxiv.org/abs/2411.13291)**|None|None|None|Weicai Ye et.al.|
 |**2024-11-15**|**[SPARS3R: Semantic Prior Alignment and Regularization for Sparse 3D Reconstruction](http://arxiv.org/abs/2411.12592)**|None|**[link](https://github.com/snldmt/SPARS3R)**|None|Yutao Tang et.al.|
 |**2024-11-18**|**[Towards Degradation-Robust Reconstruction in Generalizable NeRF](http://arxiv.org/abs/2411.11691)**|None|None|None|Chan Ho Park et.al.|
