@@ -1,4 +1,4 @@
-## Updated at 2024-11-26 09:24:28
+## Updated at 2024-11-26 20:37:13
 
 ## MVS
 
@@ -331,6 +331,9 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-11-25**|**[Generative Omnimatte: Learning to Decompose Video into Layers](http://arxiv.org/abs/2411.16683)**|None|None|Project page: https://gen-omnimatte.github.io/|Yao-Chih Lee et.al.|
+|**2024-11-25**|**[One Diffusion to Generate Them All](http://arxiv.org/abs/2411.16318)**|None|**[link](https://github.com/lehduong/onediffusion)**|two first authors contribute equally|Duong H. Le et.al.|
+|**2024-11-24**|**[Gaussian Scenes: Pose-Free Sparse-View Scene Reconstruction using Depth-Enhanced Diffusion Priors](http://arxiv.org/abs/2411.15966)**|None|None|17 pages, 6 figures, 3 tables|Soumava Paul et.al.|
 |**2024-11-21**|**[StereoCrafter-Zero: Zero-Shot Stereo Video Generation with Noisy Restart](http://arxiv.org/abs/2411.14295)**|None|None|None|Jian Shi et.al.|
 |**2024-11-20**|**[DATAP-SfM: Dynamic-Aware Tracking Any Point for Robust Structure from Motion in the Wild](http://arxiv.org/abs/2411.13291)**|None|None|None|Weicai Ye et.al.|
 |**2024-11-15**|**[SPARS3R: Semantic Prior Alignment and Regularization for Sparse 3D Reconstruction](http://arxiv.org/abs/2411.12592)**|None|**[link](https://github.com/snldmt/SPARS3R)**|None|Yutao Tang et.al.|
