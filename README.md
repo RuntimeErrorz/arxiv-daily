@@ -1,4 +1,4 @@
-## Updated at 2024-11-25 20:37:10
+## Updated at 2024-11-26 09:24:28
 
 ## MVS
 
@@ -8,7 +8,7 @@
 |**2024-11-08**|**[From Transparent to Opaque: Rethinking Neural Implicit Surfaces with $α$-NeuS](http://arxiv.org/abs/2411.05362)**|NeurIPS 2024|**[link](https://github.com/728388808/alpha-neus)**|None|Haoran Zhang et.al.|
 |**2024-11-04**|**[A Global Depth-Range-Free Multi-View Stereo Transformer Network with Pose Embedding](http://arxiv.org/abs/2411.01893)**|None|None|None|Yitong Dong et.al.|
 |**2024-10-24**|**[Segmentation-aware Prior Assisted Joint Global Information Aggregated 3D Building Reconstruction](http://arxiv.org/abs/2410.18433)**|None|None|None|Hongxin Peng et.al.|
-|**2024-10-17**|**[DepthSplat: Connecting Gaussian Splatting and Depth](http://arxiv.org/abs/2410.13862)**|None|**[link](https://github.com/cvg/depthsplat)**|Project page: https://haofeixu.github.io/depthsplat/|Haofei Xu et.al.|
+|**2024-10-17**|**[DepthSplat: Connecting Gaussian Splatting and Depth](http://arxiv.org/abs/2410.13862)**|None|**[link](https://github.com/cvg/depthsplat)**|Project page: https://haofeixu.github.io/depthsplat/ Code:   https://github.com/cvg/depthsplat|Haofei Xu et.al.|
 |**2024-10-15**|**[MCGS: Multiview Consistency Enhancement for Sparse-View 3D Gaussian Radiance Fields](http://arxiv.org/abs/2410.11394)**|None|None|None|Yuru Xiao et.al.|
 |**2024-09-22**|**[MVPGS: Excavating Multi-view Priors for Gaussian Splatting from Sparse Input Views](http://arxiv.org/abs/2409.14316)**|None|None|Accepted by ECCV 2024, Project page:   https://zezeaaa.github.io/projects/MVPGS/|Wangze Xu et.al.|
 |**2024-09-20**|**[Towards Zero-shot Point Cloud Anomaly Detection: A Multi-View Projection Framework](http://arxiv.org/abs/2409.13162)**|None|**[link](https://github.com/hustcyq/mvp-pclip)**|None|Yuqi Cheng et.al.|
