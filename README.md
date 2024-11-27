@@ -1,9 +1,10 @@
-## Updated at 2024-11-27 09:27:39
+## Updated at 2024-11-27 20:37:36
 
 ## MVS
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-11-24**|**[PriorDiffusion: Leverage Language Prior in Diffusion Models for Monocular Depth Estimation](http://arxiv.org/abs/2411.16750)**|None|None|None|Ziyao Zeng et.al.|
 |**2024-11-15**|**[The Oxford Spires Dataset: Benchmarking Large-Scale LiDAR-Visual Localisation, Reconstruction and Radiance Field Methods](http://arxiv.org/abs/2411.10546)**|None|None|Website: https://dynamic.robots.ox.ac.uk/datasets/oxford-spires/|Yifu Tao et.al.|
 |**2024-11-08**|**[From Transparent to Opaque: Rethinking Neural Implicit Surfaces with $α$-NeuS](http://arxiv.org/abs/2411.05362)**|NeurIPS 2024|**[link](https://github.com/728388808/alpha-neus)**|None|Haoran Zhang et.al.|
 |**2024-11-04**|**[A Global Depth-Range-Free Multi-View Stereo Transformer Network with Pose Embedding](http://arxiv.org/abs/2411.01893)**|None|None|None|Yitong Dong et.al.|
@@ -331,6 +332,11 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-11-26**|**[Spatially Visual Perception for End-to-End Robotic Learning](http://arxiv.org/abs/2411.17458)**|None|None|8 pages, 5 figures|Travis Davies et.al.|
+|**2024-11-26**|**[DepthCues: Evaluating Monocular Depth Perception in Large Vision Models](http://arxiv.org/abs/2411.17385)**|None|None|Website: https://danier97.github.io/depthcues/|Duolikun Danier et.al.|
+|**2024-11-26**|**[Boost 3D Reconstruction using Diffusion-based Monocular Camera Calibration](http://arxiv.org/abs/2411.17240)**|None|None|None|Junyuan Deng et.al.|
+|**2024-11-25**|**[G2SDF: Surface Reconstruction from Explicit Gaussians with Implicit SDFs](http://arxiv.org/abs/2411.16898)**|None|None|None|Kunyi Li et.al.|
+|**2024-11-24**|**[PriorDiffusion: Leverage Language Prior in Diffusion Models for Monocular Depth Estimation](http://arxiv.org/abs/2411.16750)**|None|None|None|Ziyao Zeng et.al.|
 |**2024-11-25**|**[Generative Omnimatte: Learning to Decompose Video into Layers](http://arxiv.org/abs/2411.16683)**|None|None|Project page: https://gen-omnimatte.github.io/|Yao-Chih Lee et.al.|
 |**2024-11-25**|**[One Diffusion to Generate Them All](http://arxiv.org/abs/2411.16318)**|None|**[link](https://github.com/lehduong/onediffusion)**|two first authors contribute equally|Duong H. Le et.al.|
 |**2024-11-24**|**[Gaussian Scenes: Pose-Free Sparse-View Scene Reconstruction using Depth-Enhanced Diffusion Priors](http://arxiv.org/abs/2411.15966)**|None|None|17 pages, 6 figures, 3 tables|Soumava Paul et.al.|
