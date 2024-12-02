@@ -1,9 +1,10 @@
-## Updated at 2024-12-02 09:28:01
+## Updated at 2024-12-02 20:38:55
 
 ## MVS
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-11-29**|**[GausSurf: Geometry-Guided 3D Gaussian Splatting for Surface Reconstruction](http://arxiv.org/abs/2411.19454)**|None|None|Project page: https://jiepengwang.github.io/GausSurf/|Jiepeng Wang et.al.|
 |**2024-11-24**|**[PriorDiffusion: Leverage Language Prior in Diffusion Models for Monocular Depth Estimation](http://arxiv.org/abs/2411.16750)**|None|None|None|Ziyao Zeng et.al.|
 |**2024-11-15**|**[The Oxford Spires Dataset: Benchmarking Large-Scale LiDAR-Visual Localisation, Reconstruction and Radiance Field Methods](http://arxiv.org/abs/2411.10546)**|None|None|Website: https://dynamic.robots.ox.ac.uk/datasets/oxford-spires/|Yifu Tao et.al.|
 |**2024-11-08**|**[From Transparent to Opaque: Rethinking Neural Implicit Surfaces with $α$-NeuS](http://arxiv.org/abs/2411.05362)**|NeurIPS 2024|**[link](https://github.com/728388808/alpha-neus)**|None|Haoran Zhang et.al.|
@@ -332,6 +333,12 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-11-29**|**[SpaRC: Sparse Radar-Camera Fusion for 3D Object Detection](http://arxiv.org/abs/2411.19860)**|None|None|18 pages, 11 figures|Philipp Wolters et.al.|
+|**2024-11-29**|**[MonoPP: Metric-Scaled Self-Supervised Monocular Depth Estimation by Planar-Parallax Geometry in Automotive Applications](http://arxiv.org/abs/2411.19717)**|None|None|Accepted at WACV 25, project page: https://mono-pp.github.io/|Gasser Elazab et.al.|
+|**2024-11-29**|**[Gaussian Splashing: Direct Volumetric Rendering Underwater](http://arxiv.org/abs/2411.19588)**|None|None|None|Nir Mualem et.al.|
+|**2024-11-28**|**[AGS-Mesh: Adaptive Gaussian Splatting and Meshing with Geometric Priors for Indoor Room Reconstruction Using Smartphones](http://arxiv.org/abs/2411.19271)**|None|None|None|Xuqian Ren et.al.|
+|**2024-11-28**|**[Video Depth without Video Models](http://arxiv.org/abs/2411.19189)**|None|None|None|Bingxin Ke et.al.|
+|**2024-11-28**|**[360Recon: An Accurate Reconstruction Method Based on Depth Fusion from 360 Images](http://arxiv.org/abs/2411.19102)**|None|None|None|Zhongmiao Yan et.al.|
 |**2024-11-27**|**[Helvipad: A Real-World Dataset for Omnidirectional Stereo Depth Estimation](http://arxiv.org/abs/2411.18335)**|None|**[link](https://github.com/vita-epfl/Helvipad)**|Project page: https://vita-epfl.github.io/Helvipad|Mehdi Zayene et.al.|
 |**2024-11-27**|**[SharpDepth: Sharpening Metric Depth Predictions Using Diffusion Distillation](http://arxiv.org/abs/2411.18229)**|None|None|Uncompressed version can be found in   https://drive.google.com/file/d/1MG4-d_xDERVBCRfLDolNLnMLLuqd7qRz|Duc-Hai Pham et.al.|
 |**2024-11-26**|**[Low-rank Adaptation-based All-Weather Removal for Autonomous Navigation](http://arxiv.org/abs/2411.17814)**|None|None|Project page: https://sudraj2002.github.io/loraapage/|Sudarshan Rajagopalan et.al.|
