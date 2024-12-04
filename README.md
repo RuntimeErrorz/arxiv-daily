@@ -1,9 +1,10 @@
-## Updated at 2024-12-04 09:27:03
+## Updated at 2024-12-04 20:37:53
 
 ## MVS
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-12-02**|**[World-consistent Video Diffusion with Explicit 3D Modeling](http://arxiv.org/abs/2412.01821)**|None|None|16 pages, 10 figures|Qihang Zhang et.al.|
 |**2024-11-29**|**[GausSurf: Geometry-Guided 3D Gaussian Splatting for Surface Reconstruction](http://arxiv.org/abs/2411.19454)**|None|None|Project page: https://jiepengwang.github.io/GausSurf/|Jiepeng Wang et.al.|
 |**2024-11-24**|**[PriorDiffusion: Leverage Language Prior in Diffusion Models for Monocular Depth Estimation](http://arxiv.org/abs/2411.16750)**|None|None|None|Ziyao Zeng et.al.|
 |**2024-11-15**|**[The Oxford Spires Dataset: Benchmarking Large-Scale LiDAR-Visual Localisation, Reconstruction and Radiance Field Methods](http://arxiv.org/abs/2411.10546)**|None|None|Website: https://dynamic.robots.ox.ac.uk/datasets/oxford-spires/|Yifu Tao et.al.|
@@ -333,6 +334,13 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-12-03**|**[Single-Shot Metric Depth from Focused Plenoptic Cameras](http://arxiv.org/abs/2412.02386)**|None|None|8 pages (6 for text + 2 for references), 6 figures, 2 tables.   Submitted to IEEE ICRA 2025|Blanca Lasheras-Hernandez et.al.|
+|**2024-12-03**|**[Dual Exposure Stereo for Extended Dynamic Range 3D Imaging](http://arxiv.org/abs/2412.02351)**|None|None|None|Juhyung Choi et.al.|
+|**2024-12-03**|**[Amodal Depth Anything: Amodal Depth Estimation in the Wild](http://arxiv.org/abs/2412.02336)**|None|None|None|Zhenyu Li et.al.|
+|**2024-12-03**|**[GSGTrack: Gaussian Splatting-Guided Object Pose Tracking from RGB Videos](http://arxiv.org/abs/2412.02267)**|None|None|None|Zhiyuan Chen et.al.|
+|**2024-12-02**|**[Mutli-View 3D Reconstruction using Knowledge Distillation](http://arxiv.org/abs/2412.02039)**|None|None|6 pages, 10 figures|Aditya Dutt et.al.|
+|**2024-12-02**|**[STATIC : Surface Temporal Affine for TIme Consistency in Video Monocular Depth Estimation](http://arxiv.org/abs/2412.01090)**|None|None|None|Sunghun Yang et.al.|
+|**2024-12-01**|**[FiffDepth: Feed-forward Transformation of Diffusion-Based Generators for Detailed Depth Estimation](http://arxiv.org/abs/2412.00671)**|None|None|8 pages, 7 figures|Yunpeng Bai et.al.|
 |**2024-11-29**|**[SpaRC: Sparse Radar-Camera Fusion for 3D Object Detection](http://arxiv.org/abs/2411.19860)**|None|None|18 pages, 11 figures|Philipp Wolters et.al.|
 |**2024-11-29**|**[MonoPP: Metric-Scaled Self-Supervised Monocular Depth Estimation by Planar-Parallax Geometry in Automotive Applications](http://arxiv.org/abs/2411.19717)**|None|None|Accepted at WACV 25, project page: https://mono-pp.github.io/|Gasser Elazab et.al.|
 |**2024-11-29**|**[Gaussian Splashing: Direct Volumetric Rendering Underwater](http://arxiv.org/abs/2411.19588)**|None|None|None|Nir Mualem et.al.|
