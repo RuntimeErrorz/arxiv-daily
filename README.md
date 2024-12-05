@@ -1,4 +1,4 @@
-## Updated at 2024-12-05 09:27:06
+## Updated at 2024-12-05 20:37:54
 
 ## MVS
 
@@ -334,11 +334,15 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-12-04**|**[Perception Tokens Enhance Visual Reasoning in Multimodal Language Models](http://arxiv.org/abs/2412.03548)**|None|None|None|Mahtab Bigverdi et.al.|
+|**2024-12-04**|**[Dense Scene Reconstruction from Light-Field Images Affected by Rolling Shutter](http://arxiv.org/abs/2412.03518)**|None|None|None|Hermes McGriff et.al.|
+|**2024-12-04**|**[MultiGO: Towards Multi-level Geometry Learning for Monocular 3D Textured Human Reconstruction](http://arxiv.org/abs/2412.03103)**|None|None|None|Gangjian Zhang et.al.|
+|**2024-12-04**|**[Align3R: Aligned Monocular Depth Estimation for Dynamic Videos](http://arxiv.org/abs/2412.03079)**|None|None|Project Page: https://igl-hkust.github.io/Align3R.github.io/|Jiahao Lu et.al.|
 |**2024-12-03**|**[Single-Shot Metric Depth from Focused Plenoptic Cameras](http://arxiv.org/abs/2412.02386)**|None|None|8 pages (6 for text + 2 for references), 6 figures, 2 tables.   Submitted to IEEE ICRA 2025|Blanca Lasheras-Hernandez et.al.|
 |**2024-12-03**|**[Dual Exposure Stereo for Extended Dynamic Range 3D Imaging](http://arxiv.org/abs/2412.02351)**|None|None|None|Juhyung Choi et.al.|
 |**2024-12-03**|**[Amodal Depth Anything: Amodal Depth Estimation in the Wild](http://arxiv.org/abs/2412.02336)**|None|None|None|Zhenyu Li et.al.|
 |**2024-12-03**|**[GSGTrack: Gaussian Splatting-Guided Object Pose Tracking from RGB Videos](http://arxiv.org/abs/2412.02267)**|None|None|None|Zhiyuan Chen et.al.|
-|**2024-12-02**|**[Mutli-View 3D Reconstruction using Knowledge Distillation](http://arxiv.org/abs/2412.02039)**|None|None|6 pages, 10 figures|Aditya Dutt et.al.|
+|**2024-12-02**|**[Mutli-View 3D Reconstruction using Knowledge Distillation](http://arxiv.org/abs/2412.02039)**|None|**[link](https://github.com/ishikaalunawat/231aproj)**|6 pages, 10 figures|Aditya Dutt et.al.|
 |**2024-12-02**|**[STATIC : Surface Temporal Affine for TIme Consistency in Video Monocular Depth Estimation](http://arxiv.org/abs/2412.01090)**|None|None|None|Sunghun Yang et.al.|
 |**2024-12-01**|**[FiffDepth: Feed-forward Transformation of Diffusion-Based Generators for Detailed Depth Estimation](http://arxiv.org/abs/2412.00671)**|None|None|8 pages, 7 figures|Yunpeng Bai et.al.|
 |**2024-11-29**|**[SpaRC: Sparse Radar-Camera Fusion for 3D Object Detection](http://arxiv.org/abs/2411.19860)**|None|None|18 pages, 11 figures|Philipp Wolters et.al.|
