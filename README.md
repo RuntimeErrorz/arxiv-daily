@@ -1,4 +1,4 @@
-## Updated at 2024-12-06 09:25:56
+## Updated at 2024-12-06 20:37:04
 
 ## MVS
 
@@ -334,6 +334,8 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-12-05**|**[MegaSaM: Accurate, Fast, and Robust Structure and Motion from Casual Dynamic Videos](http://arxiv.org/abs/2412.04463)**|None|None|None|Zhengqi Li et.al.|
+|**2024-12-05**|**[MT3DNet: Multi-Task learning Network for 3D Surgical Scene Reconstruction](http://arxiv.org/abs/2412.03928)**|None|None|None|Mithun Parab et.al.|
 |**2024-12-04**|**[Perception Tokens Enhance Visual Reasoning in Multimodal Language Models](http://arxiv.org/abs/2412.03548)**|None|None|None|Mahtab Bigverdi et.al.|
 |**2024-12-04**|**[Dense Scene Reconstruction from Light-Field Images Affected by Rolling Shutter](http://arxiv.org/abs/2412.03518)**|None|None|None|Hermes McGriff et.al.|
 |**2024-12-04**|**[MultiGO: Towards Multi-level Geometry Learning for Monocular 3D Textured Human Reconstruction](http://arxiv.org/abs/2412.03103)**|None|None|None|Gangjian Zhang et.al.|
