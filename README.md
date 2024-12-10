@@ -1,4 +1,4 @@
-## Updated at 2024-12-09 20:39:04
+## Updated at 2024-12-10 09:27:53
 
 ## MVS
 
@@ -337,7 +337,7 @@
 |**2024-12-06**|**[SimC3D: A Simple Contrastive 3D Pretraining Framework Using RGB Images](http://arxiv.org/abs/2412.05274)**|None|None|None|Jiahua Dong et.al.|
 |**2024-12-06**|**[PanoDreamer: 3D Panorama Synthesis from a Single Image](http://arxiv.org/abs/2412.04827)**|None|**[link](https://github.com/avinashpaliwal/PanoDreamer)**|Project page: https://people.engr.tamu.edu/nimak/Papers/PanoDreamer,   Code: https://github.com/avinashpaliwal/PanoDreamer|Avinash Paliwal et.al.|
 |**2024-12-05**|**[LAA-Net: A Physical-prior-knowledge Based Network for Robust Nighttime Depth Estimation](http://arxiv.org/abs/2412.04666)**|None|None|None|Kebin Peng et.al.|
-|**2024-12-05**|**[MegaSaM: Accurate, Fast, and Robust Structure and Motion from Casual Dynamic Videos](http://arxiv.org/abs/2412.04463)**|None|None|None|Zhengqi Li et.al.|
+|**2024-12-05**|**[MegaSaM: Accurate, Fast, and Robust Structure and Motion from Casual Dynamic Videos](http://arxiv.org/abs/2412.04463)**|None|None|Project page: https://mega-sam.github.io/|Zhengqi Li et.al.|
 |**2024-12-05**|**[MT3DNet: Multi-Task learning Network for 3D Surgical Scene Reconstruction](http://arxiv.org/abs/2412.03928)**|None|None|None|Mithun Parab et.al.|
 |**2024-12-04**|**[Perception Tokens Enhance Visual Reasoning in Multimodal Language Models](http://arxiv.org/abs/2412.03548)**|None|None|None|Mahtab Bigverdi et.al.|
 |**2024-12-04**|**[Dense Scene Reconstruction from Light-Field Images Affected by Rolling Shutter](http://arxiv.org/abs/2412.03518)**|None|None|None|Hermes McGriff et.al.|
