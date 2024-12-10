@@ -1,9 +1,11 @@
-## Updated at 2024-12-10 09:27:53
+## Updated at 2024-12-10 20:38:42
 
 ## MVS
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-12-08**|**[Lightweight Spatial Embedding for Vision-based 3D Occupancy Prediction](http://arxiv.org/abs/2412.05976)**|None|None|None|Jinqing Zhang et.al.|
+|**2024-12-08**|**[Prism: Semi-Supervised Multi-View Stereo with Monocular Structure Priors](http://arxiv.org/abs/2412.05771)**|None|None|11 pages, 6 figures, 3 tables|Alex Rich et.al.|
 |**2024-12-02**|**[World-consistent Video Diffusion with Explicit 3D Modeling](http://arxiv.org/abs/2412.01821)**|None|None|16 pages, 10 figures|Qihang Zhang et.al.|
 |**2024-11-29**|**[GausSurf: Geometry-Guided 3D Gaussian Splatting for Surface Reconstruction](http://arxiv.org/abs/2411.19454)**|None|None|Project page: https://jiepengwang.github.io/GausSurf/|Jiepeng Wang et.al.|
 |**2024-11-24**|**[PriorDiffusion: Leverage Language Prior in Diffusion Models for Monocular Depth Estimation](http://arxiv.org/abs/2411.16750)**|None|None|None|Ziyao Zeng et.al.|
@@ -334,6 +336,13 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-12-09**|**[Driv3R: Learning Dense 4D Reconstruction for Autonomous Driving](http://arxiv.org/abs/2412.06777)**|None|**[link](https://github.com/barrybarry-smith/driv3r)**|Code is available at: https://github.com/Barrybarry-Smith/Driv3R|Xin Fei et.al.|
+|**2024-12-09**|**[MAtCha Gaussians: Atlas of Charts for High-Quality Geometry and Photorealism From Sparse Views](http://arxiv.org/abs/2412.06767)**|None|None|Project Webpage: https://anttwo.github.io/matcha/|Antoine Guédon et.al.|
+|**2024-12-09**|**[Omni-Scene: Omni-Gaussian Representation for Ego-Centric Sparse-View Scene Reconstruction](http://arxiv.org/abs/2412.06273)**|None|None|Under Review|Dongxu Wei et.al.|
+|**2024-12-09**|**[Event fields: Capturing light fields at high speed, resolution, and dynamic range](http://arxiv.org/abs/2412.06191)**|None|None|None|Ziyuan Qu et.al.|
+|**2024-12-08**|**[GVDepth: Zero-Shot Monocular Depth Estimation for Ground Vehicles based on Probabilistic Cue Fusion](http://arxiv.org/abs/2412.06080)**|None|None|Project website: https://gvdepth.github.io/|Karlo Koledic et.al.|
+|**2024-12-08**|**[Prism: Semi-Supervised Multi-View Stereo with Monocular Structure Priors](http://arxiv.org/abs/2412.05771)**|None|None|11 pages, 6 figures, 3 tables|Alex Rich et.al.|
+|**2024-12-07**|**[TACO: Learning Multi-modal Action Models with Synthetic Chains-of-Thought-and-Action](http://arxiv.org/abs/2412.05479)**|None|None|None|Zixian Ma et.al.|
 |**2024-12-06**|**[SimC3D: A Simple Contrastive 3D Pretraining Framework Using RGB Images](http://arxiv.org/abs/2412.05274)**|None|None|None|Jiahua Dong et.al.|
 |**2024-12-06**|**[PanoDreamer: 3D Panorama Synthesis from a Single Image](http://arxiv.org/abs/2412.04827)**|None|**[link](https://github.com/avinashpaliwal/PanoDreamer)**|Project page: https://people.engr.tamu.edu/nimak/Papers/PanoDreamer,   Code: https://github.com/avinashpaliwal/PanoDreamer|Avinash Paliwal et.al.|
 |**2024-12-05**|**[LAA-Net: A Physical-prior-knowledge Based Network for Robust Nighttime Depth Estimation](http://arxiv.org/abs/2412.04666)**|None|None|None|Kebin Peng et.al.|
