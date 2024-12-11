@@ -1,9 +1,10 @@
-## Updated at 2024-12-11 09:26:50
+## Updated at 2024-12-11 20:38:21
 
 ## MVS
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-12-09**|**[MV-DUSt3R+: Single-Stage Scene Reconstruction from Sparse Views In 2 Seconds](http://arxiv.org/abs/2412.06974)**|None|None|None|Zhenggang Tang et.al.|
 |**2024-12-08**|**[Lightweight Spatial Embedding for Vision-based 3D Occupancy Prediction](http://arxiv.org/abs/2412.05976)**|None|None|None|Jinqing Zhang et.al.|
 |**2024-12-08**|**[Prism: Semi-Supervised Multi-View Stereo with Monocular Structure Priors](http://arxiv.org/abs/2412.05771)**|None|None|11 pages, 6 figures, 3 tables|Alex Rich et.al.|
 |**2024-12-02**|**[World-consistent Video Diffusion with Explicit 3D Modeling](http://arxiv.org/abs/2412.01821)**|None|None|16 pages, 10 figures|Qihang Zhang et.al.|
@@ -336,6 +337,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-12-09**|**[SphereUFormer: A U-Shaped Transformer for Spherical 360 Perception](http://arxiv.org/abs/2412.06968)**|None|None|None|Yaniv Benny et.al.|
 |**2024-12-09**|**[Driv3R: Learning Dense 4D Reconstruction for Autonomous Driving](http://arxiv.org/abs/2412.06777)**|None|**[link](https://github.com/barrybarry-smith/driv3r)**|Code is available at: https://github.com/Barrybarry-Smith/Driv3R|Xin Fei et.al.|
 |**2024-12-09**|**[MAtCha Gaussians: Atlas of Charts for High-Quality Geometry and Photorealism From Sparse Views](http://arxiv.org/abs/2412.06767)**|None|None|Project Webpage: https://anttwo.github.io/matcha/|Antoine Guédon et.al.|
 |**2024-12-09**|**[Omni-Scene: Omni-Gaussian Representation for Ego-Centric Sparse-View Scene Reconstruction](http://arxiv.org/abs/2412.06273)**|None|None|Under Review|Dongxu Wei et.al.|
