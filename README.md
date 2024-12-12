@@ -1,4 +1,4 @@
-## Updated at 2024-12-12 09:26:19
+## Updated at 2024-12-12 20:38:16
 
 ## MVS
 
@@ -337,6 +337,10 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-12-11**|**[Utilizing Multi-step Loss for Single Image Reflection Removal](http://arxiv.org/abs/2412.08582)**|None|None|6 pages, 6 figures, IEEE ICASSP 2024|Abdelrahman Elnenaey et.al.|
+|**2024-12-11**|**[Dense Depth from Event Focal Stack](http://arxiv.org/abs/2412.08120)**|None|None|Accepted at WACV2025|Kenta Horikawa et.al.|
+|**2024-12-10**|**[Diffusion-Based Attention Warping for Consistent 3D Scene Editing](http://arxiv.org/abs/2412.07984)**|None|None|None|Eyal Gomel et.al.|
+|**2024-12-10**|**[Balancing Shared and Task-Specific Representations: A Hybrid Approach to Depth-Aware Video Panoptic Segmentation](http://arxiv.org/abs/2412.07966)**|None|None|Accepted at the IEEE/CVF Winter Conference on Applications of   Computer Vision (WACV) 2025. Code and trained models are available at:   https://research.khws.io/multiformer|Kurt H. W. Stolle et.al.|
 |**2024-12-09**|**[SphereUFormer: A U-Shaped Transformer for Spherical 360 Perception](http://arxiv.org/abs/2412.06968)**|None|None|None|Yaniv Benny et.al.|
 |**2024-12-09**|**[Driv3R: Learning Dense 4D Reconstruction for Autonomous Driving](http://arxiv.org/abs/2412.06777)**|None|**[link](https://github.com/barrybarry-smith/driv3r)**|Code is available at: https://github.com/Barrybarry-Smith/Driv3R|Xin Fei et.al.|
 |**2024-12-09**|**[MAtCha Gaussians: Atlas of Charts for High-Quality Geometry and Photorealism From Sparse Views](http://arxiv.org/abs/2412.06767)**|None|None|Project Webpage: https://anttwo.github.io/matcha/|Antoine Guédon et.al.|
