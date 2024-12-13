@@ -1,4 +1,4 @@
-## Updated at 2024-12-13 09:27:40
+## Updated at 2024-12-13 20:37:01
 
 ## MVS
 
@@ -337,6 +337,9 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-12-12**|**[Stereo4D: Learning How Things Move in 3D from Internet Stereo Videos](http://arxiv.org/abs/2412.09621)**|None|None|None|Linyi Jin et.al.|
+|**2024-12-12**|**[T-SVG: Text-Driven Stereoscopic Video Generation](http://arxiv.org/abs/2412.09323)**|None|None|5 pages, 4 figures|Qiao Jin et.al.|
+|**2024-12-12**|**[Cross-View Completion Models are Zero-shot Correspondence Estimators](http://arxiv.org/abs/2412.09072)**|None|None|Project Page: https://cvlab-kaist.github.io/ZeroCo/|Honggyu An et.al.|
 |**2024-12-11**|**[Utilizing Multi-step Loss for Single Image Reflection Removal](http://arxiv.org/abs/2412.08582)**|None|**[link](https://github.com/AbdelrhmanElnenaey/SIRR_MSloss_RefGAN_RDM)**|6 pages, 6 figures, IEEE ICASSP 2024|Abdelrahman Elnenaey et.al.|
 |**2024-12-11**|**[Dense Depth from Event Focal Stack](http://arxiv.org/abs/2412.08120)**|None|None|Accepted at WACV2025|Kenta Horikawa et.al.|
 |**2024-12-10**|**[Diffusion-Based Attention Warping for Consistent 3D Scene Editing](http://arxiv.org/abs/2412.07984)**|None|None|None|Eyal Gomel et.al.|
