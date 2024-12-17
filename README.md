@@ -1,9 +1,12 @@
-## Updated at 2024-12-17 09:26:38
+## Updated at 2024-12-17 20:38:05
 
 ## MVS
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-12-16**|**[CAP4D: Creating Animatable 4D Portrait Avatars with Morphable Multi-View Diffusion Models](http://arxiv.org/abs/2412.12093)**|None|None|23 pages, 15 figures|Felix Taubner et.al.|
+|**2024-12-16**|**[DVP-MVS: Synergize Depth-Edge and Visibility Prior for Multi-View Stereo](http://arxiv.org/abs/2412.11578)**|None|None|None|Zhenlong Yuan et.al.|
+|**2024-12-16**|**[RoMeO: Robust Metric Visual Odometry](http://arxiv.org/abs/2412.11530)**|None|None|None|Junda Cheng et.al.|
 |**2024-12-09**|**[MV-DUSt3R+: Single-Stage Scene Reconstruction from Sparse Views In 2 Seconds](http://arxiv.org/abs/2412.06974)**|None|None|None|Zhenggang Tang et.al.|
 |**2024-12-08**|**[Lightweight Spatial Embedding for Vision-based 3D Occupancy Prediction](http://arxiv.org/abs/2412.05976)**|None|None|None|Jinqing Zhang et.al.|
 |**2024-12-08**|**[Prism: Semi-Supervised Multi-View Stereo with Monocular Structure Priors](http://arxiv.org/abs/2412.05771)**|None|None|11 pages, 6 figures, 3 tables|Alex Rich et.al.|
@@ -337,6 +340,10 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-12-16**|**[V-MIND: Building Versatile Monocular Indoor 3D Detector with Diverse 2D Annotations](http://arxiv.org/abs/2412.11412)**|None|None|WACV 2025|Jin-Cheng Jhang et.al.|
+|**2024-12-16**|**[Depth-Centric Dehazing and Depth-Estimation from Real-World Hazy Driving Video](http://arxiv.org/abs/2412.11395)**|None|None|Accepted by AAAI 20205, Project page:   https://fanjunkai1.github.io/projectpage/DCL/index.html|Junkai Fan et.al.|
+|**2024-12-15**|**[ViPOcc: Leveraging Visual Priors from Vision Foundation Models for Single-View 3D Occupancy Prediction](http://arxiv.org/abs/2412.11210)**|None|**[link](https://github.com/fengyi233/ViPOcc)**|accepted to AAAI25|Yi Feng et.al.|
+|**2024-12-14**|**[MAL: Cluster-Masked and Multi-Task Pretraining for Enhanced xLSTM Vision Performance](http://arxiv.org/abs/2412.10730)**|None|None|None|Wenjun Huang et.al.|
 |**2024-12-12**|**[Stereo4D: Learning How Things Move in 3D from Internet Stereo Videos](http://arxiv.org/abs/2412.09621)**|None|None|None|Linyi Jin et.al.|
 |**2024-12-12**|**[T-SVG: Text-Driven Stereoscopic Video Generation](http://arxiv.org/abs/2412.09323)**|None|None|5 pages, 4 figures|Qiao Jin et.al.|
 |**2024-12-12**|**[Cross-View Completion Models are Zero-shot Correspondence Estimators](http://arxiv.org/abs/2412.09072)**|None|None|Project Page: https://cvlab-kaist.github.io/ZeroCo/|Honggyu An et.al.|
