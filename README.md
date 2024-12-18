@@ -1,4 +1,4 @@
-## Updated at 2024-12-18 09:23:33
+## Updated at 2024-12-18 20:36:49
 
 ## MVS
 
@@ -340,6 +340,8 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-12-17**|**[Dyn-HaMR: Recovering 4D Interacting Hand Motion from a Dynamic Camera](http://arxiv.org/abs/2412.12861)**|None|None|Project page is available at https://dyn-hamr.github.io/|Zhengdi Yu et.al.|
+|**2024-12-17**|**[PromptDet: A Lightweight 3D Object Detection Framework with LiDAR Prompts](http://arxiv.org/abs/2412.12460)**|None|**[link](https://github.com/lihuashengmax/PromptDet)**|Accepted by AAAI 2025|Kun Guo et.al.|
 |**2024-12-16**|**[V-MIND: Building Versatile Monocular Indoor 3D Detector with Diverse 2D Annotations](http://arxiv.org/abs/2412.11412)**|None|None|WACV 2025|Jin-Cheng Jhang et.al.|
 |**2024-12-16**|**[Depth-Centric Dehazing and Depth-Estimation from Real-World Hazy Driving Video](http://arxiv.org/abs/2412.11395)**|None|None|Accepted by AAAI 20205, Project page:   https://fanjunkai1.github.io/projectpage/DCL/index.html|Junkai Fan et.al.|
 |**2024-12-15**|**[ViPOcc: Leveraging Visual Priors from Vision Foundation Models for Single-View 3D Occupancy Prediction](http://arxiv.org/abs/2412.11210)**|None|**[link](https://github.com/fengyi233/ViPOcc)**|accepted to AAAI25|Yi Feng et.al.|
