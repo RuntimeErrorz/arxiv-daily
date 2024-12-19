@@ -1,4 +1,4 @@
-## Updated at 2024-12-19 09:24:18
+## Updated at 2024-12-19 20:36:32
 
 ## MVS
 
@@ -340,6 +340,9 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-12-18**|**[Foundation Models Meet Low-Cost Sensors: Test-Time Adaptation for Rescaling Disparity for Zero-Shot Metric Depth Estimation](http://arxiv.org/abs/2412.14103)**|None|None|None|Rémi Marsal et.al.|
+|**2024-12-18**|**[Prompting Depth Anything for 4K Resolution Accurate Metric Depth Estimation](http://arxiv.org/abs/2412.14015)**|None|None|Project page: https://PromptDA.github.io/|Haotong Lin et.al.|
+|**2024-12-18**|**[Marigold-DC: Zero-Shot Monocular Depth Completion with Guided Diffusion](http://arxiv.org/abs/2412.13389)**|None|None|None|Massimiliano Viola et.al.|
 |**2024-12-17**|**[Dyn-HaMR: Recovering 4D Interacting Hand Motion from a Dynamic Camera](http://arxiv.org/abs/2412.12861)**|None|None|Project page is available at https://dyn-hamr.github.io/|Zhengdi Yu et.al.|
 |**2024-12-17**|**[PromptDet: A Lightweight 3D Object Detection Framework with LiDAR Prompts](http://arxiv.org/abs/2412.12460)**|None|**[link](https://github.com/lihuashengmax/PromptDet)**|Accepted by AAAI 2025|Kun Guo et.al.|
 |**2024-12-16**|**[V-MIND: Building Versatile Monocular Indoor 3D Detector with Diverse 2D Annotations](http://arxiv.org/abs/2412.11412)**|None|None|WACV 2025|Jin-Cheng Jhang et.al.|
