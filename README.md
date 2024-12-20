@@ -1,9 +1,10 @@
-## Updated at 2024-12-20 09:20:14
+## Updated at 2024-12-20 20:34:18
 
 ## MVS
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-12-19**|**[Improving Geometry in Sparse-View 3DGS via Reprojection-based DoF Separation](http://arxiv.org/abs/2412.14568)**|None|None|11 pages|Yongsung Kim et.al.|
 |**2024-12-16**|**[CAP4D: Creating Animatable 4D Portrait Avatars with Morphable Multi-View Diffusion Models](http://arxiv.org/abs/2412.12093)**|None|None|23 pages, 15 figures|Felix Taubner et.al.|
 |**2024-12-16**|**[DVP-MVS: Synergize Depth-Edge and Visibility Prior for Multi-View Stereo](http://arxiv.org/abs/2412.11578)**|None|None|None|Zhenlong Yuan et.al.|
 |**2024-12-16**|**[RoMeO: Robust Metric Visual Odometry](http://arxiv.org/abs/2412.11530)**|None|None|None|Junda Cheng et.al.|
@@ -340,11 +341,13 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-12-19**|**[Flowing from Words to Pixels: A Framework for Cross-Modality Evolution](http://arxiv.org/abs/2412.15213)**|None|None|Project page: https://cross-flow.github.io/|Qihao Liu et.al.|
+|**2024-12-19**|**[Scaling 4D Representations](http://arxiv.org/abs/2412.15212)**|None|None|None|João Carreira et.al.|
 |**2024-12-18**|**[Foundation Models Meet Low-Cost Sensors: Test-Time Adaptation for Rescaling Disparity for Zero-Shot Metric Depth Estimation](http://arxiv.org/abs/2412.14103)**|None|None|None|Rémi Marsal et.al.|
 |**2024-12-18**|**[Prompting Depth Anything for 4K Resolution Accurate Metric Depth Estimation](http://arxiv.org/abs/2412.14015)**|None|None|Project page: https://PromptDA.github.io/|Haotong Lin et.al.|
 |**2024-12-18**|**[Marigold-DC: Zero-Shot Monocular Depth Completion with Guided Diffusion](http://arxiv.org/abs/2412.13389)**|None|None|None|Massimiliano Viola et.al.|
 |**2024-12-17**|**[Dyn-HaMR: Recovering 4D Interacting Hand Motion from a Dynamic Camera](http://arxiv.org/abs/2412.12861)**|None|None|Project page is available at https://dyn-hamr.github.io/|Zhengdi Yu et.al.|
-|**2024-12-17**|**[PromptDet: A Lightweight 3D Object Detection Framework with LiDAR Prompts](http://arxiv.org/abs/2412.12460)**|None|**[link](https://github.com/lihuashengmax/PromptDet)**|Accepted by AAAI 2025|Kun Guo et.al.|
+|**2024-12-17**|**[PromptDet: A Lightweight 3D Object Detection Framework with LiDAR Prompts](http://arxiv.org/abs/2412.12460)**|None|None|Accepted by AAAI 2025|Kun Guo et.al.|
 |**2024-12-16**|**[V-MIND: Building Versatile Monocular Indoor 3D Detector with Diverse 2D Annotations](http://arxiv.org/abs/2412.11412)**|None|None|WACV 2025|Jin-Cheng Jhang et.al.|
 |**2024-12-16**|**[Depth-Centric Dehazing and Depth-Estimation from Real-World Hazy Driving Video](http://arxiv.org/abs/2412.11395)**|None|None|Accepted by AAAI 20205, Project page:   https://fanjunkai1.github.io/projectpage/DCL/index.html|Junkai Fan et.al.|
 |**2024-12-15**|**[ViPOcc: Leveraging Visual Priors from Vision Foundation Models for Single-View 3D Occupancy Prediction](http://arxiv.org/abs/2412.11210)**|None|**[link](https://github.com/fengyi233/ViPOcc)**|accepted to AAAI25|Yi Feng et.al.|
