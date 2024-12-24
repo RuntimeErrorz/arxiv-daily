@@ -1,4 +1,4 @@
-## Updated at 2024-12-24 09:19:54
+## Updated at 2024-12-24 20:34:20
 
 ## MVS
 
@@ -341,6 +341,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-12-20**|**[LiRCDepth: Lightweight Radar-Camera Depth Estimation via Knowledge Distillation and Uncertainty Guidance](http://arxiv.org/abs/2412.16380)**|None|None|Accepted by ICASSP 2025|Huawei Sun et.al.|
 |**2024-12-19**|**[Flowing from Words to Pixels: A Framework for Cross-Modality Evolution](http://arxiv.org/abs/2412.15213)**|None|None|Project page: https://cross-flow.github.io/|Qihao Liu et.al.|
 |**2024-12-19**|**[Scaling 4D Representations](http://arxiv.org/abs/2412.15212)**|None|None|None|João Carreira et.al.|
 |**2024-12-18**|**[Foundation Models Meet Low-Cost Sensors: Test-Time Adaptation for Rescaling Disparity for Zero-Shot Metric Depth Estimation](http://arxiv.org/abs/2412.14103)**|None|None|None|Rémi Marsal et.al.|
