@@ -1,4 +1,4 @@
-## Updated at 2024-12-25 09:18:56
+## Updated at 2024-12-25 20:33:25
 
 ## MVS
 
@@ -341,6 +341,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-12-24**|**[RSGaussian:3D Gaussian Splatting with LiDAR for Aerial Remote Sensing Novel View Synthesis](http://arxiv.org/abs/2412.18380)**|None|None|None|Yiling Yao et.al.|
 |**2024-12-20**|**[LiRCDepth: Lightweight Radar-Camera Depth Estimation via Knowledge Distillation and Uncertainty Guidance](http://arxiv.org/abs/2412.16380)**|None|None|Accepted by ICASSP 2025|Huawei Sun et.al.|
 |**2024-12-19**|**[Flowing from Words to Pixels: A Framework for Cross-Modality Evolution](http://arxiv.org/abs/2412.15213)**|None|None|Project page: https://cross-flow.github.io/|Qihao Liu et.al.|
 |**2024-12-19**|**[Scaling 4D Representations](http://arxiv.org/abs/2412.15212)**|None|None|None|João Carreira et.al.|
