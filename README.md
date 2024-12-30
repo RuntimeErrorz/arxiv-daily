@@ -1,9 +1,11 @@
-## Updated at 2024-12-30 09:22:06
+## Updated at 2024-12-30 20:34:23
 
 ## MVS
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-12-27**|**[Dust to Tower: Coarse-to-Fine Photo-Realistic Scene Reconstruction from Sparse Uncalibrated Images](http://arxiv.org/abs/2412.19518)**|None|None|None|Xudong Cai et.al.|
+|**2024-12-26**|**[MVS-GS: High-Quality 3D Gaussian Splatting Mapping via Online Multi-View Stereo](http://arxiv.org/abs/2412.19130)**|None|None|7 pages, 6 figures, submitted to IEEE ICRA 2025|Byeonggwon Lee et.al.|
 |**2024-12-19**|**[Improving Geometry in Sparse-View 3DGS via Reprojection-based DoF Separation](http://arxiv.org/abs/2412.14568)**|None|None|11 pages|Yongsung Kim et.al.|
 |**2024-12-16**|**[CAP4D: Creating Animatable 4D Portrait Avatars with Morphable Multi-View Diffusion Models](http://arxiv.org/abs/2412.12093)**|None|None|23 pages, 15 figures|Felix Taubner et.al.|
 |**2024-12-16**|**[DVP-MVS: Synergize Depth-Edge and Visibility Prior for Multi-View Stereo](http://arxiv.org/abs/2412.11578)**|None|None|None|Zhenlong Yuan et.al.|
@@ -341,8 +343,12 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2024-12-26**|**[An End-to-End Depth-Based Pipeline for Selfie Image Rectification](http://arxiv.org/abs/2412.19189)**|None|None|None|Ahmed Alhawwary et.al.|
+|**2024-12-26**|**[Revisiting Monocular 3D Object Detection from Scene-Level Depth Retargeting to Instance-Level Spatial Refinement](http://arxiv.org/abs/2412.19165)**|None|None|None|Qiude Zhang et.al.|
+|**2024-12-26**|**[MVS-GS: High-Quality 3D Gaussian Splatting Mapping via Online Multi-View Stereo](http://arxiv.org/abs/2412.19130)**|None|None|7 pages, 6 figures, submitted to IEEE ICRA 2025|Byeonggwon Lee et.al.|
+|**2024-12-26**|**[Learning Monocular Depth from Events via Egomotion Compensation](http://arxiv.org/abs/2412.19067)**|None|None|9 pages, 3 figures|Haitao Meng et.al.|
 |**2024-12-24**|**[RSGaussian:3D Gaussian Splatting with LiDAR for Aerial Remote Sensing Novel View Synthesis](http://arxiv.org/abs/2412.18380)**|None|None|None|Yiling Yao et.al.|
-|**2024-12-20**|**[LiRCDepth: Lightweight Radar-Camera Depth Estimation via Knowledge Distillation and Uncertainty Guidance](http://arxiv.org/abs/2412.16380)**|None|None|Accepted by ICASSP 2025|Huawei Sun et.al.|
+|**2024-12-20**|**[LiRCDepth: Lightweight Radar-Camera Depth Estimation via Knowledge Distillation and Uncertainty Guidance](http://arxiv.org/abs/2412.16380)**|None|**[link](https://github.com/harborsarah/lircdepth)**|Accepted by ICASSP 2025|Huawei Sun et.al.|
 |**2024-12-19**|**[Flowing from Words to Pixels: A Framework for Cross-Modality Evolution](http://arxiv.org/abs/2412.15213)**|None|None|Project page: https://cross-flow.github.io/|Qihao Liu et.al.|
 |**2024-12-19**|**[Scaling 4D Representations](http://arxiv.org/abs/2412.15212)**|None|None|None|João Carreira et.al.|
 |**2024-12-18**|**[Foundation Models Meet Low-Cost Sensors: Test-Time Adaptation for Rescaling Disparity for Zero-Shot Metric Depth Estimation](http://arxiv.org/abs/2412.14103)**|None|None|None|Rémi Marsal et.al.|
