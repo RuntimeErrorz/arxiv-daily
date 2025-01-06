@@ -1,4 +1,4 @@
-## Updated at 2025-01-06 09:23:24
+## Updated at 2025-01-06 20:35:40
 
 ## MVS
 
@@ -346,6 +346,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-01-03**|**[IGAF: Incremental Guided Attention Fusion for Depth Super-Resolution](http://arxiv.org/abs/2501.01723)**|Sensors 2025, 25, 24|None|None|Athanasios Tragakis et.al.|
 |**2025-01-02**|**[TexAVi: Generating Stereoscopic VR Video Clips from Text Descriptions](http://arxiv.org/abs/2501.01156)**|TexAVi: Generating Stereoscopic VR Video Clips from Text   Descriptions, 2024 IEEE International Conference on Computer Vision and   Machine Intelligence (CVMI), Prayagraj, India, 2024, pp. 1-6|None|6 pages, published in 2024 IEEE International Conference on Computer   Vision and Machine Intelligence (CVMI)|Vriksha Srihari et.al.|
 |**2025-01-02**|**[PatchRefiner V2: Fast and Lightweight Real-Domain High-Resolution Metric Depth Estimation](http://arxiv.org/abs/2501.01121)**|None|None|None|Zhenyu Li et.al.|
 |**2024-12-30**|**[FPGA-based Acceleration of Neural Network for Image Classification using Vitis AI](http://arxiv.org/abs/2412.20974)**|None|None|None|Zhengdong Li et.al.|
