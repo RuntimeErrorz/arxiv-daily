@@ -1,4 +1,4 @@
-## Updated at 2025-01-07 09:20:31
+## Updated at 2025-01-07 20:35:26
 
 ## MVS
 
@@ -346,6 +346,9 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-01-05**|**[DepthMaster: Taming Diffusion Models for Monocular Depth Estimation](http://arxiv.org/abs/2501.02576)**|None|None|11 pages, 6 figures, 6 tables|Ziyang Song et.al.|
+|**2025-01-05**|**[Depth Any Camera: Zero-Shot Metric Depth Estimation from Any Camera](http://arxiv.org/abs/2501.02464)**|None|None|None|Yuliang Guo et.al.|
+|**2025-01-03**|**[SafeAug: Safety-Critical Driving Data Augmentation from Naturalistic Datasets](http://arxiv.org/abs/2501.02143)**|None|None|None|Zhaobin Mo et.al.|
 |**2025-01-03**|**[IGAF: Incremental Guided Attention Fusion for Depth Super-Resolution](http://arxiv.org/abs/2501.01723)**|Sensors 2025, 25, 24|None|None|Athanasios Tragakis et.al.|
 |**2025-01-02**|**[TexAVi: Generating Stereoscopic VR Video Clips from Text Descriptions](http://arxiv.org/abs/2501.01156)**|TexAVi: Generating Stereoscopic VR Video Clips from Text   Descriptions, 2024 IEEE International Conference on Computer Vision and   Machine Intelligence (CVMI), Prayagraj, India, 2024, pp. 1-6|None|6 pages, published in 2024 IEEE International Conference on Computer   Vision and Machine Intelligence (CVMI)|Vriksha Srihari et.al.|
 |**2025-01-02**|**[PatchRefiner V2: Fast and Lightweight Real-Domain High-Resolution Metric Depth Estimation](http://arxiv.org/abs/2501.01121)**|None|None|None|Zhenyu Li et.al.|
