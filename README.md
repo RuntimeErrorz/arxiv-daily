@@ -1,4 +1,4 @@
-## Updated at 2025-01-08 09:20:14
+## Updated at 2025-01-08 20:35:19
 
 ## MVS
 
@@ -346,6 +346,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-01-07**|**[AuxDepthNet: Real-Time Monocular 3D Object Detection with Depth-Sensitive Features](http://arxiv.org/abs/2501.03700)**|None|None|None|Ruochen Zhang et.al.|
 |**2025-01-05**|**[DepthMaster: Taming Diffusion Models for Monocular Depth Estimation](http://arxiv.org/abs/2501.02576)**|None|None|11 pages, 6 figures, 6 tables|Ziyang Song et.al.|
 |**2025-01-05**|**[Depth Any Camera: Zero-Shot Metric Depth Estimation from Any Camera](http://arxiv.org/abs/2501.02464)**|None|None|None|Yuliang Guo et.al.|
 |**2025-01-03**|**[SafeAug: Safety-Critical Driving Data Augmentation from Naturalistic Datasets](http://arxiv.org/abs/2501.02143)**|None|None|None|Zhaobin Mo et.al.|
