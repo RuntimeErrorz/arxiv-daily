@@ -1,4 +1,4 @@
-## Updated at 2025-01-10 09:22:03
+## Updated at 2025-01-10 20:35:06
 
 ## MVS
 
@@ -346,6 +346,9 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-01-09**|**[Relative Pose Estimation through Affine Corrections of Monocular Depth Priors](http://arxiv.org/abs/2501.05446)**|None|None|None|Yifan Yu et.al.|
+|**2025-01-09**|**[$DPF^*$: improved Depth Potential Function for scale-invariant sulcal depth estimation](http://arxiv.org/abs/2501.05436)**|None|None|GA and JL contributed equally to this work|Maxime Dieudonné et.al.|
+|**2025-01-09**|**[A Systematic Literature Review on Deep Learning-based Depth Estimation in Computer Vision](http://arxiv.org/abs/2501.05147)**|None|None|None|Ali Rohan et.al.|
 |**2025-01-07**|**[AuxDepthNet: Real-Time Monocular 3D Object Detection with Depth-Sensitive Features](http://arxiv.org/abs/2501.03700)**|None|None|None|Ruochen Zhang et.al.|
 |**2025-01-05**|**[DepthMaster: Taming Diffusion Models for Monocular Depth Estimation](http://arxiv.org/abs/2501.02576)**|None|None|11 pages, 6 figures, 6 tables|Ziyang Song et.al.|
 |**2025-01-05**|**[Depth Any Camera: Zero-Shot Metric Depth Estimation from Any Camera](http://arxiv.org/abs/2501.02464)**|None|None|None|Yuliang Guo et.al.|
