@@ -1,4 +1,4 @@
-## Updated at 2025-01-15 09:18:21
+## Updated at 2025-01-15 20:34:10
 
 ## MVS
 
@@ -347,6 +347,8 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-01-14**|**[A Critical Synthesis of Uncertainty Quantification and Foundation Models in Monocular Depth Estimation](http://arxiv.org/abs/2501.08188)**|None|None|None|Steven Landgraf et.al.|
+|**2025-01-14**|**[Revisiting Birds Eye View Perception Models with Frozen Foundation Models: DINOv2 and Metric3Dv2](http://arxiv.org/abs/2501.08118)**|None|None|Accepted for publication at the Electronic Imaging - Autonomous   Vehicles and Machines Connference 2025|Seamie Hayes et.al.|
 |**2025-01-13**|**[Matching Free Depth Recovery from Structured Light](http://arxiv.org/abs/2501.07113)**|None|None|10 pages, 8 figures|Zhuohang Yu et.al.|
 |**2025-01-09**|**[Relative Pose Estimation through Affine Corrections of Monocular Depth Priors](http://arxiv.org/abs/2501.05446)**|None|**[link](https://github.com/markyu98/madpose)**|None|Yifan Yu et.al.|
 |**2025-01-09**|**[$DPF^*$: improved Depth Potential Function for scale-invariant sulcal depth estimation](http://arxiv.org/abs/2501.05436)**|None|**[link](https://github.com/maximedieudonne/dpf-star)**|GA and JL contributed equally to this work|Maxime Dieudonné et.al.|
