@@ -1,4 +1,4 @@
-## Updated at 2025-01-16 09:17:48
+## Updated at 2025-01-16 20:33:42
 
 ## MVS
 
@@ -347,6 +347,8 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-01-15**|**[StereoGen: High-quality Stereo Image Generation from a Single Image](http://arxiv.org/abs/2501.08654)**|None|None|None|Xianqi Wang et.al.|
+|**2025-01-15**|**[MonSter: Marry Monodepth to Stereo Unleashes Power](http://arxiv.org/abs/2501.08643)**|None|**[link](https://github.com/junda24/monster)**|None|Junda Cheng et.al.|
 |**2025-01-14**|**[A Critical Synthesis of Uncertainty Quantification and Foundation Models in Monocular Depth Estimation](http://arxiv.org/abs/2501.08188)**|None|None|None|Steven Landgraf et.al.|
 |**2025-01-14**|**[Revisiting Birds Eye View Perception Models with Frozen Foundation Models: DINOv2 and Metric3Dv2](http://arxiv.org/abs/2501.08118)**|None|None|Accepted for publication at the Electronic Imaging - Autonomous   Vehicles and Machines Connference 2025|Seamie Hayes et.al.|
 |**2025-01-13**|**[Matching Free Depth Recovery from Structured Light](http://arxiv.org/abs/2501.07113)**|None|None|10 pages, 8 figures|Zhuohang Yu et.al.|
