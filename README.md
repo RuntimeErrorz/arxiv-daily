@@ -1,4 +1,4 @@
-## Updated at 2025-01-16 20:33:42
+## Updated at 2025-01-17 09:17:17
 
 ## MVS
 
@@ -356,7 +356,7 @@
 |**2025-01-09**|**[$DPF^*$: improved Depth Potential Function for scale-invariant sulcal depth estimation](http://arxiv.org/abs/2501.05436)**|None|**[link](https://github.com/maximedieudonne/dpf-star)**|GA and JL contributed equally to this work|Maxime Dieudonné et.al.|
 |**2025-01-09**|**[A Systematic Literature Review on Deep Learning-based Depth Estimation in Computer Vision](http://arxiv.org/abs/2501.05147)**|None|None|None|Ali Rohan et.al.|
 |**2025-01-07**|**[AuxDepthNet: Real-Time Monocular 3D Object Detection with Depth-Sensitive Features](http://arxiv.org/abs/2501.03700)**|None|None|None|Ruochen Zhang et.al.|
-|**2025-01-05**|**[DepthMaster: Taming Diffusion Models for Monocular Depth Estimation](http://arxiv.org/abs/2501.02576)**|None|None|11 pages, 6 figures, 6 tables|Ziyang Song et.al.|
+|**2025-01-05**|**[DepthMaster: Taming Diffusion Models for Monocular Depth Estimation](http://arxiv.org/abs/2501.02576)**|None|**[link](https://github.com/indu1ge/DepthMaster)**|11 pages, 6 figures, 6 tables|Ziyang Song et.al.|
 |**2025-01-05**|**[Depth Any Camera: Zero-Shot Metric Depth Estimation from Any Camera](http://arxiv.org/abs/2501.02464)**|None|None|None|Yuliang Guo et.al.|
 |**2025-01-03**|**[SafeAug: Safety-Critical Driving Data Augmentation from Naturalistic Datasets](http://arxiv.org/abs/2501.02143)**|None|None|None|Zhaobin Mo et.al.|
 |**2025-01-03**|**[IGAF: Incremental Guided Attention Fusion for Depth Super-Resolution](http://arxiv.org/abs/2501.01723)**|Sensors 2025, 25, 24|None|None|Athanasios Tragakis et.al.|
