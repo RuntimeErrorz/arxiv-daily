@@ -1,4 +1,4 @@
-## Updated at 2025-01-17 09:17:17
+## Updated at 2025-01-17 20:33:17
 
 ## MVS
 
@@ -347,6 +347,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-01-16**|**[DEFOM-Stereo: Depth Foundation Model Based Stereo Matching](http://arxiv.org/abs/2501.09466)**|None|**[link](https://github.com/insta360-research-team/defom-stereo)**|Code: https://github.com/Insta360-Research-Team/DEFOM-Stereo|Hualie Jiang et.al.|
 |**2025-01-15**|**[StereoGen: High-quality Stereo Image Generation from a Single Image](http://arxiv.org/abs/2501.08654)**|None|None|None|Xianqi Wang et.al.|
 |**2025-01-15**|**[MonSter: Marry Monodepth to Stereo Unleashes Power](http://arxiv.org/abs/2501.08643)**|None|**[link](https://github.com/junda24/monster)**|None|Junda Cheng et.al.|
 |**2025-01-14**|**[A Critical Synthesis of Uncertainty Quantification and Foundation Models in Monocular Depth Estimation](http://arxiv.org/abs/2501.08188)**|None|None|None|Steven Landgraf et.al.|
