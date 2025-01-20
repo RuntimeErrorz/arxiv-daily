@@ -1,4 +1,4 @@
-## Updated at 2025-01-20 09:18:57
+## Updated at 2025-01-20 20:34:31
 
 ## MVS
 
@@ -347,6 +347,10 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-01-17**|**[Zero-Shot Monocular Scene Flow Estimation in the Wild](http://arxiv.org/abs/2501.10357)**|None|None|Project Website: https://research.nvidia.com/labs/zero_msf|Yiqing Liang et.al.|
+|**2025-01-17**|**[One-D-Piece: Image Tokenizer Meets Quality-Controllable Compression](http://arxiv.org/abs/2501.10064)**|None|None|Our Project Page:   https://turingmotors.github.io/one-d-piece-tokenizer|Keita Miwa et.al.|
+|**2025-01-17**|**[Multi-Modal Attention Networks for Enhanced Segmentation and Depth Estimation of Subsurface Defects in Pulse Thermography](http://arxiv.org/abs/2501.09994)**|None|**[link](https://github.com/mohammedsalah98/pt_fusion)**|Pulse thermography, infrared thermography, defect segmentation,   multi-modal networks, attention mechanism|Mohammed Salah et.al.|
+|**2025-01-17**|**[FoundationStereo: Zero-Shot Stereo Matching](http://arxiv.org/abs/2501.09898)**|None|None|None|Bowen Wen et.al.|
 |**2025-01-16**|**[DEFOM-Stereo: Depth Foundation Model Based Stereo Matching](http://arxiv.org/abs/2501.09466)**|None|**[link](https://github.com/insta360-research-team/defom-stereo)**|Code: https://github.com/Insta360-Research-Team/DEFOM-Stereo|Hualie Jiang et.al.|
 |**2025-01-15**|**[StereoGen: High-quality Stereo Image Generation from a Single Image](http://arxiv.org/abs/2501.08654)**|None|None|None|Xianqi Wang et.al.|
 |**2025-01-15**|**[MonSter: Marry Monodepth to Stereo Unleashes Power](http://arxiv.org/abs/2501.08643)**|None|**[link](https://github.com/junda24/monster)**|None|Junda Cheng et.al.|
