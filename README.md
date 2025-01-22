@@ -1,9 +1,10 @@
-## Updated at 2025-01-22 09:19:25
+## Updated at 2025-01-22 20:34:21
 
 ## MVS
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-01-21**|**[Fast Underwater Scene Reconstruction using Multi-View Stereo and Physical Imaging](http://arxiv.org/abs/2501.11884)**|None|None|None|Shuyi Hu et.al.|
 |**2025-01-12**|**[CULTURE3D: Cultural Landmarks and Terrain Dataset for 3D Applications](http://arxiv.org/abs/2501.06927)**|None|None|None|Xinyi Zheng et.al.|
 |**2025-01-02**|**[TS-SatMVSNet: Slope Aware Height Estimation for Large-Scale Earth Terrain Multi-view Stereo](http://arxiv.org/abs/2501.01049)**|None|None|None|Song Zhang et.al.|
 |**2024-12-29**|**[Dual-Level Precision Edges Guided Multi-View Stereo with Accurate Planarization](http://arxiv.org/abs/2412.20328)**|None|None|Accepted by AAAI25|Kehua Chen et.al.|
@@ -347,7 +348,12 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
-|**2025-01-17**|**[Zero-Shot Monocular Scene Flow Estimation in the Wild](http://arxiv.org/abs/2501.10357)**|None|None|Project Website: https://research.nvidia.com/labs/zero_msf|Yiqing Liang et.al.|
+|**2025-01-21**|**[Video Depth Anything: Consistent Depth Estimation for Super-Long Videos](http://arxiv.org/abs/2501.12375)**|None|None|None|Sili Chen et.al.|
+|**2025-01-21**|**[Fast Underwater Scene Reconstruction using Multi-View Stereo and Physical Imaging](http://arxiv.org/abs/2501.11884)**|None|None|None|Shuyi Hu et.al.|
+|**2025-01-21**|**[Survey on Monocular Metric Depth Estimation](http://arxiv.org/abs/2501.11841)**|None|None|None|Jiuling Zhang et.al.|
+|**2025-01-19**|**[RDG-GS: Relative Depth Guidance with Gaussian Splatting for Real-time Sparse-View 3D Rendering](http://arxiv.org/abs/2501.11102)**|None|None|24 pages, 12 figures|Chenlu Zhan et.al.|
+|**2025-01-15**|**[BloomScene: Lightweight Structured 3D Gaussian Splatting for Crossmodal Scene Generation](http://arxiv.org/abs/2501.10462)**|None|None|None|Xiaolu Hou et.al.|
+|**2025-01-17**|**[Zero-Shot Monocular Scene Flow Estimation in the Wild](http://arxiv.org/abs/2501.10357)**|None|None|Project Website: https://research.nvidia.com/labs/lpr/zero_msf//|Yiqing Liang et.al.|
 |**2025-01-17**|**[One-D-Piece: Image Tokenizer Meets Quality-Controllable Compression](http://arxiv.org/abs/2501.10064)**|None|None|Our Project Page:   https://turingmotors.github.io/one-d-piece-tokenizer|Keita Miwa et.al.|
 |**2025-01-17**|**[Multi-Modal Attention Networks for Enhanced Segmentation and Depth Estimation of Subsurface Defects in Pulse Thermography](http://arxiv.org/abs/2501.09994)**|None|**[link](https://github.com/mohammedsalah98/pt_fusion)**|Pulse thermography, infrared thermography, defect segmentation,   multi-modal networks, attention mechanism|Mohammed Salah et.al.|
 |**2025-01-17**|**[FoundationStereo: Zero-Shot Stereo Matching](http://arxiv.org/abs/2501.09898)**|None|None|None|Bowen Wen et.al.|
