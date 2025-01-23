@@ -1,4 +1,4 @@
-## Updated at 2025-01-23 09:18:04
+## Updated at 2025-01-23 20:34:31
 
 ## MVS
 
@@ -348,7 +348,8 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
-|**2025-01-21**|**[Video Depth Anything: Consistent Depth Estimation for Super-Long Videos](http://arxiv.org/abs/2501.12375)**|None|None|None|Sili Chen et.al.|
+|**2025-01-22**|**[Enhancing Monocular Depth Estimation with Multi-Source Auxiliary Tasks](http://arxiv.org/abs/2501.12824)**|None|None|Paper accepted at WACV 2025|Alessio Quercia et.al.|
+|**2025-01-21**|**[Video Depth Anything: Consistent Depth Estimation for Super-Long Videos](http://arxiv.org/abs/2501.12375)**|None|None|Project page: https://videodepthanything.github.io/|Sili Chen et.al.|
 |**2025-01-21**|**[Fast Underwater Scene Reconstruction using Multi-View Stereo and Physical Imaging](http://arxiv.org/abs/2501.11884)**|None|None|None|Shuyi Hu et.al.|
 |**2025-01-21**|**[Survey on Monocular Metric Depth Estimation](http://arxiv.org/abs/2501.11841)**|None|None|None|Jiuling Zhang et.al.|
 |**2025-01-19**|**[RDG-GS: Relative Depth Guidance with Gaussian Splatting for Real-time Sparse-View 3D Rendering](http://arxiv.org/abs/2501.11102)**|None|None|24 pages, 12 figures|Chenlu Zhan et.al.|
