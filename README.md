@@ -1,4 +1,4 @@
-## Updated at 2025-01-24 09:18:11
+## Updated at 2025-01-24 20:33:31
 
 ## MVS
 
@@ -348,6 +348,8 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-01-23**|**[IMAGINE-E: Image Generation Intelligence Evaluation of State-of-the-art Text-to-Image Models](http://arxiv.org/abs/2501.13920)**|None|None|75 pages, 73 figures, Evaluation scripts:   https://github.com/jylei16/Imagine-e|Jiayi Lei et.al.|
+|**2025-01-23**|**[PromptMono: Cross Prompting Attention for Self-Supervised Monocular Depth Estimation in Challenging Environments](http://arxiv.org/abs/2501.13796)**|None|None|10 pages|Changhao Wang et.al.|
 |**2025-01-22**|**[Enhancing Monocular Depth Estimation with Multi-Source Auxiliary Tasks](http://arxiv.org/abs/2501.12824)**|None|None|Paper accepted at WACV 2025|Alessio Quercia et.al.|
 |**2025-01-21**|**[Video Depth Anything: Consistent Depth Estimation for Super-Long Videos](http://arxiv.org/abs/2501.12375)**|None|None|Project page: https://videodepthanything.github.io/|Sili Chen et.al.|
 |**2025-01-21**|**[Fast Underwater Scene Reconstruction using Multi-View Stereo and Physical Imaging](http://arxiv.org/abs/2501.11884)**|None|None|None|Shuyi Hu et.al.|
