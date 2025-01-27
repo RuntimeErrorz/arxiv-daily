@@ -1,4 +1,4 @@
-## Updated at 2025-01-27 09:19:17
+## Updated at 2025-01-27 20:34:31
 
 ## MVS
 
@@ -348,6 +348,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-01-24**|**[Rethinking Encoder-Decoder Flow Through Shared Structures](http://arxiv.org/abs/2501.14535)**|None|None|None|Frederik Laboyrie et.al.|
 |**2025-01-23**|**[IMAGINE-E: Image Generation Intelligence Evaluation of State-of-the-art Text-to-Image Models](http://arxiv.org/abs/2501.13920)**|None|None|75 pages, 73 figures, Evaluation scripts:   https://github.com/jylei16/Imagine-e|Jiayi Lei et.al.|
 |**2025-01-23**|**[PromptMono: Cross Prompting Attention for Self-Supervised Monocular Depth Estimation in Challenging Environments](http://arxiv.org/abs/2501.13796)**|None|None|10 pages|Changhao Wang et.al.|
 |**2025-01-22**|**[Enhancing Monocular Depth Estimation with Multi-Source Auxiliary Tasks](http://arxiv.org/abs/2501.12824)**|None|None|Paper accepted at WACV 2025|Alessio Quercia et.al.|
