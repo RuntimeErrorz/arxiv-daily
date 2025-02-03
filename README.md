@@ -1,9 +1,10 @@
-## Updated at 2025-02-03 09:19:20
+## Updated at 2025-02-03 20:34:14
 
 ## MVS
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-01-30**|**[Zero-Shot Novel View and Depth Synthesis with Multi-View Geometric Diffusion](http://arxiv.org/abs/2501.18804)**|None|None|Project page: https://mvgd.github.io|Vitor Guizilini et.al.|
 |**2025-01-21**|**[Fast Underwater Scene Reconstruction using Multi-View Stereo and Physical Imaging](http://arxiv.org/abs/2501.11884)**|None|None|None|Shuyi Hu et.al.|
 |**2025-01-12**|**[CULTURE3D: Cultural Landmarks and Terrain Dataset for 3D Applications](http://arxiv.org/abs/2501.06927)**|None|None|None|Xinyi Zheng et.al.|
 |**2025-01-02**|**[TS-SatMVSNet: Slope Aware Height Estimation for Large-Scale Earth Terrain Multi-view Stereo](http://arxiv.org/abs/2501.01049)**|None|None|None|Song Zhang et.al.|
@@ -348,6 +349,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-01-30**|**[Zero-Shot Novel View and Depth Synthesis with Multi-View Geometric Diffusion](http://arxiv.org/abs/2501.18804)**|None|None|Project page: https://mvgd.github.io|Vitor Guizilini et.al.|
 |**2025-01-25**|**[Snapshot Compressed Imaging Based Single-Measurement Computer Vision for Videos](http://arxiv.org/abs/2501.15122)**|None|None|None|Fengpu Pan et.al.|
 |**2025-01-24**|**[Rethinking Encoder-Decoder Flow Through Shared Structures](http://arxiv.org/abs/2501.14535)**|None|None|None|Frederik Laboyrie et.al.|
 |**2025-01-23**|**[IMAGINE-E: Image Generation Intelligence Evaluation of State-of-the-art Text-to-Image Models](http://arxiv.org/abs/2501.13920)**|None|None|75 pages, 73 figures, Evaluation scripts:   https://github.com/jylei16/Imagine-e|Jiayi Lei et.al.|
