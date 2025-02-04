@@ -1,4 +1,4 @@
-## Updated at 2025-02-04 09:18:16
+## Updated at 2025-02-04 20:34:38
 
 ## MVS
 
@@ -6,7 +6,7 @@
 |---|---|---|---|---|---|
 |**2025-01-30**|**[Zero-Shot Novel View and Depth Synthesis with Multi-View Geometric Diffusion](http://arxiv.org/abs/2501.18804)**|None|None|Project page: https://mvgd.github.io|Vitor Guizilini et.al.|
 |**2025-01-21**|**[Fast Underwater Scene Reconstruction using Multi-View Stereo and Physical Imaging](http://arxiv.org/abs/2501.11884)**|None|None|None|Shuyi Hu et.al.|
-|**2025-01-12**|**[CULTURE3D: Cultural Landmarks and Terrain Dataset for 3D Applications](http://arxiv.org/abs/2501.06927)**|None|None|None|Xinyi Zheng et.al.|
+|**2025-01-12**|**[CULTURE3D: Cultural Landmarks and Terrain Dataset for 3D Applications](http://arxiv.org/abs/2501.06927)**|None|**[link](https://github.com/openinterx/culture3d)**|None|Xinyi Zheng et.al.|
 |**2025-01-02**|**[TS-SatMVSNet: Slope Aware Height Estimation for Large-Scale Earth Terrain Multi-view Stereo](http://arxiv.org/abs/2501.01049)**|None|None|None|Song Zhang et.al.|
 |**2024-12-29**|**[Dual-Level Precision Edges Guided Multi-View Stereo with Accurate Planarization](http://arxiv.org/abs/2412.20328)**|None|**[link](https://github.com/ckh0715/DPE-MVS)**|Accepted by AAAI25|Kehua Chen et.al.|
 |**2024-12-28**|**[DepthMamba with Adaptive Fusion](http://arxiv.org/abs/2412.19964)**|None|None|None|Zelin Meng et.al.|
