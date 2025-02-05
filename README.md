@@ -1,4 +1,4 @@
-## Updated at 2025-02-05 09:19:18
+## Updated at 2025-02-05 20:34:37
 
 ## MVS
 
@@ -349,6 +349,9 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-02-04**|**[DOC-Depth: A novel approach for dense depth ground truth generation](http://arxiv.org/abs/2502.02144)**|None|None|Preprint. Code and dataset available on the project page :   https://simondemoreau.github.io/DOC-Depth/|Simon de Moreau et.al.|
+|**2025-02-01**|**[Leveraging Stable Diffusion for Monocular Depth Estimation via Image Semantic Encoding](http://arxiv.org/abs/2502.01666)**|None|None|None|Jingming Xia et.al.|
+|**2025-02-01**|**[MonoDINO-DETR: Depth-Enhanced Monocular 3D Object Detection Using a Vision Foundation Model](http://arxiv.org/abs/2502.00315)**|None|None|8 pages, 8 figures|Jihyeok Kim et.al.|
 |**2025-01-30**|**[Zero-Shot Novel View and Depth Synthesis with Multi-View Geometric Diffusion](http://arxiv.org/abs/2501.18804)**|None|None|Project page: https://mvgd.github.io|Vitor Guizilini et.al.|
 |**2025-01-25**|**[Snapshot Compressed Imaging Based Single-Measurement Computer Vision for Videos](http://arxiv.org/abs/2501.15122)**|None|None|None|Fengpu Pan et.al.|
 |**2025-01-24**|**[Rethinking Encoder-Decoder Flow Through Shared Structures](http://arxiv.org/abs/2501.14535)**|None|None|None|Frederik Laboyrie et.al.|
