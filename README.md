@@ -1,4 +1,4 @@
-## Updated at 2025-02-11 09:18:56
+## Updated at 2025-02-11 20:34:58
 
 ## MVS
 
@@ -349,6 +349,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-02-09**|**[Revisiting Gradient-based Uncertainty for Monocular Depth Estimation](http://arxiv.org/abs/2502.05964)**|None|None|Accepted to TPAMI|Julia Hornauer et.al.|
 |**2025-02-04**|**[DOC-Depth: A novel approach for dense depth ground truth generation](http://arxiv.org/abs/2502.02144)**|None|None|Preprint. Code and dataset available on the project page :   https://simondemoreau.github.io/DOC-Depth/|Simon de Moreau et.al.|
 |**2025-02-01**|**[Leveraging Stable Diffusion for Monocular Depth Estimation via Image Semantic Encoding](http://arxiv.org/abs/2502.01666)**|None|None|None|Jingming Xia et.al.|
 |**2025-02-01**|**[MonoDINO-DETR: Depth-Enhanced Monocular 3D Object Detection Using a Vision Foundation Model](http://arxiv.org/abs/2502.00315)**|None|None|8 pages, 8 figures|Jihyeok Kim et.al.|
