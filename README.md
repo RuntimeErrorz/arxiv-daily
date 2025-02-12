@@ -1,4 +1,4 @@
-## Updated at 2025-02-12 09:19:18
+## Updated at 2025-02-12 20:34:52
 
 ## MVS
 
@@ -349,6 +349,8 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-02-11**|**[Learning Inverse Laplacian Pyramid for Progressive Depth Completion](http://arxiv.org/abs/2502.07289)**|None|None|None|Kun Wang et.al.|
+|**2025-02-10**|**[From Image to Video: An Empirical Study of Diffusion Representations](http://arxiv.org/abs/2502.07001)**|None|None|None|Pedro Vélez et.al.|
 |**2025-02-09**|**[Revisiting Gradient-based Uncertainty for Monocular Depth Estimation](http://arxiv.org/abs/2502.05964)**|None|None|Accepted to TPAMI|Julia Hornauer et.al.|
 |**2025-02-04**|**[DOC-Depth: A novel approach for dense depth ground truth generation](http://arxiv.org/abs/2502.02144)**|None|None|Preprint. Code and dataset available on the project page :   https://simondemoreau.github.io/DOC-Depth/|Simon de Moreau et.al.|
 |**2025-02-01**|**[Leveraging Stable Diffusion for Monocular Depth Estimation via Image Semantic Encoding](http://arxiv.org/abs/2502.01666)**|None|None|None|Jingming Xia et.al.|
