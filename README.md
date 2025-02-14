@@ -1,4 +1,4 @@
-## Updated at 2025-02-14 09:19:35
+## Updated at 2025-02-14 20:34:25
 
 ## MVS
 
@@ -349,6 +349,8 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-02-13**|**[SteROI-D: System Design and Mapping for Stereo Depth Inference on Regions of Interest](http://arxiv.org/abs/2502.09528)**|None|None|Accepted as a full paper by the 2025 EDGE AI FOUNDATION Austin|Jack Erhardt et.al.|
+|**2025-02-13**|**[CoL3D: Collaborative Learning of Single-view Depth and Camera Intrinsics for Metric 3D Shape Recovery](http://arxiv.org/abs/2502.08902)**|None|None|Accepted at ICRA 2025|Chenghao Zhang et.al.|
 |**2025-02-11**|**[Learning Inverse Laplacian Pyramid for Progressive Depth Completion](http://arxiv.org/abs/2502.07289)**|None|None|None|Kun Wang et.al.|
 |**2025-02-10**|**[From Image to Video: An Empirical Study of Diffusion Representations](http://arxiv.org/abs/2502.07001)**|None|None|None|Pedro Vélez et.al.|
 |**2025-02-09**|**[Revisiting Gradient-based Uncertainty for Monocular Depth Estimation](http://arxiv.org/abs/2502.05964)**|None|None|Accepted to TPAMI|Julia Hornauer et.al.|
