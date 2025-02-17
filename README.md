@@ -1,4 +1,4 @@
-## Updated at 2025-02-17 09:22:13
+## Updated at 2025-02-17 20:35:44
 
 ## MVS
 
@@ -349,6 +349,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-02-14**|**[RealCam-I2V: Real-World Image-to-Video Generation with Interactive Complex Camera Control](http://arxiv.org/abs/2502.10059)**|None|None|None|Teng Li et.al.|
 |**2025-02-13**|**[SteROI-D: System Design and Mapping for Stereo Depth Inference on Regions of Interest](http://arxiv.org/abs/2502.09528)**|None|None|Accepted as a full paper by the 2025 EDGE AI FOUNDATION Austin|Jack Erhardt et.al.|
 |**2025-02-13**|**[CoL3D: Collaborative Learning of Single-view Depth and Camera Intrinsics for Metric 3D Shape Recovery](http://arxiv.org/abs/2502.08902)**|None|None|Accepted at ICRA 2025|Chenghao Zhang et.al.|
 |**2025-02-11**|**[Learning Inverse Laplacian Pyramid for Progressive Depth Completion](http://arxiv.org/abs/2502.07289)**|None|None|None|Kun Wang et.al.|
