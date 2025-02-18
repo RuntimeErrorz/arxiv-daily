@@ -1,4 +1,4 @@
-## Updated at 2025-02-18 09:19:30
+## Updated at 2025-02-18 20:33:48
 
 ## MVS
 
@@ -349,6 +349,8 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-02-17**|**[Deep Neural Networks for Accurate Depth Estimation with Latent Space Features](http://arxiv.org/abs/2502.11777)**|Yasir, S.M.; Ahn, H. Deep Neural Networks for Accurate Depth   Estimation with Latent Space Features. Biomimetics 2024, 9, 747|None|None|Siddiqui Muhammad Yasir et.al.|
+|**2025-02-16**|**[Adjust Your Focus: Defocus Deblurring From Dual-Pixel Images Using Explicit Multi-Scale Cross-Correlation](http://arxiv.org/abs/2502.11002)**|None|None|Accepted in CVIP 2023|Kunal Swami et.al.|
 |**2025-02-14**|**[RealCam-I2V: Real-World Image-to-Video Generation with Interactive Complex Camera Control](http://arxiv.org/abs/2502.10059)**|None|None|None|Teng Li et.al.|
 |**2025-02-13**|**[SteROI-D: System Design and Mapping for Stereo Depth Inference on Regions of Interest](http://arxiv.org/abs/2502.09528)**|None|None|Accepted as a full paper by the 2025 EDGE AI FOUNDATION Austin|Jack Erhardt et.al.|
 |**2025-02-13**|**[CoL3D: Collaborative Learning of Single-view Depth and Camera Intrinsics for Metric 3D Shape Recovery](http://arxiv.org/abs/2502.08902)**|None|None|Accepted at ICRA 2025|Chenghao Zhang et.al.|
