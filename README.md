@@ -1,4 +1,4 @@
-## Updated at 2025-02-19 09:20:17
+## Updated at 2025-02-19 20:32:56
 
 ## MVS
 
@@ -349,6 +349,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-02-18**|**[SHADeS: Self-supervised Monocular Depth Estimation Through Non-Lambertian Image Decomposition](http://arxiv.org/abs/2502.12994)**|None|None|None|Rema Daher et.al.|
 |**2025-02-17**|**[Deep Neural Networks for Accurate Depth Estimation with Latent Space Features](http://arxiv.org/abs/2502.11777)**|Yasir, S.M.; Ahn, H. Deep Neural Networks for Accurate Depth   Estimation with Latent Space Features. Biomimetics 2024, 9, 747|None|None|Siddiqui Muhammad Yasir et.al.|
 |**2025-02-16**|**[Adjust Your Focus: Defocus Deblurring From Dual-Pixel Images Using Explicit Multi-Scale Cross-Correlation](http://arxiv.org/abs/2502.11002)**|None|None|Accepted in CVIP 2023|Kunal Swami et.al.|
 |**2025-02-14**|**[RealCam-I2V: Real-World Image-to-Video Generation with Interactive Complex Camera Control](http://arxiv.org/abs/2502.10059)**|None|None|None|Teng Li et.al.|
