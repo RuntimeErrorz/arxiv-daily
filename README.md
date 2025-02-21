@@ -1,4 +1,4 @@
-## Updated at 2025-02-21 09:20:34
+## Updated at 2025-02-21 20:34:48
 
 ## MVS
 
@@ -349,6 +349,9 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-02-20**|**[Monocular Depth Estimation and Segmentation for Transparent Object with Iterative Semantic and Geometric Fusion](http://arxiv.org/abs/2502.14616)**|None|None|Accepted by ICRA(2025). The code is accessible through:   https://github.com/L-J-Yuan/MODEST|Jiangyuan Liu et.al.|
+|**2025-02-20**|**[Self-supervised Monocular Depth Estimation Robust to Reflective Surface Leveraged by Triplet Mining](http://arxiv.org/abs/2502.14573)**|None|None|Accepted at ICLR 2025|Wonhyeok Choi et.al.|
+|**2025-02-20**|**[OrchardDepth: Precise Metric Depth Estimation of Orchard Scene from Monocular Camera Images](http://arxiv.org/abs/2502.14279)**|None|None|10 pages, 5 figures, Australasian Conference on Robotics and   Automation, ACRA, 2024|Zhichao Zheng et.al.|
 |**2025-02-18**|**[SHADeS: Self-supervised Monocular Depth Estimation Through Non-Lambertian Image Decomposition](http://arxiv.org/abs/2502.12994)**|None|None|None|Rema Daher et.al.|
 |**2025-02-17**|**[Deep Neural Networks for Accurate Depth Estimation with Latent Space Features](http://arxiv.org/abs/2502.11777)**|Yasir, S.M.; Ahn, H. Deep Neural Networks for Accurate Depth   Estimation with Latent Space Features. Biomimetics 2024, 9, 747|None|None|Siddiqui Muhammad Yasir et.al.|
 |**2025-02-16**|**[Adjust Your Focus: Defocus Deblurring From Dual-Pixel Images Using Explicit Multi-Scale Cross-Correlation](http://arxiv.org/abs/2502.11002)**|None|None|Accepted in CVIP 2023|Kunal Swami et.al.|
