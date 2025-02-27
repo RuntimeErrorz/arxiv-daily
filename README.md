@@ -1,4 +1,4 @@
-## Updated at 2025-02-27 09:21:45
+## Updated at 2025-02-27 20:35:52
 
 ## MVS
 
@@ -349,6 +349,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-02-26**|**[Distill Any Depth: Distillation Creates a Stronger Monocular Depth Estimator](http://arxiv.org/abs/2502.19204)**|None|**[link](https://github.com/Westlake-AGI-Lab/Distill-Any-Depth)**|project page: https://distill-any-depth-official.github.io/|Xiankang He et.al.|
 |**2025-02-21**|**[RGB-Only Gaussian Splatting SLAM for Unbounded Outdoor Scenes](http://arxiv.org/abs/2502.15633)**|None|None|ICRA 2025|Sicheng Yu et.al.|
 |**2025-02-20**|**[Monocular Depth Estimation and Segmentation for Transparent Object with Iterative Semantic and Geometric Fusion](http://arxiv.org/abs/2502.14616)**|None|**[link](https://github.com/l-j-yuan/modest)**|Accepted by ICRA(2025). The code is accessible through:   https://github.com/L-J-Yuan/MODEST|Jiangyuan Liu et.al.|
 |**2025-02-20**|**[Self-supervised Monocular Depth Estimation Robust to Reflective Surface Leveraged by Triplet Mining](http://arxiv.org/abs/2502.14573)**|None|None|Accepted at ICLR 2025|Wonhyeok Choi et.al.|
