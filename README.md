@@ -1,4 +1,4 @@
-## Updated at 2025-03-03 09:24:32
+## Updated at 2025-03-03 20:36:15
 
 ## MVS
 
@@ -349,6 +349,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-02-28**|**[EndoPBR: Material and Lighting Estimation for Photorealistic Surgical Simulations via Physically-based Rendering](http://arxiv.org/abs/2502.20669)**|None|None|10 pages, 3 figures|John J. Han et.al.|
 |**2025-02-27**|**[UniDepthV2: Universal Monocular Metric Depth Estimation Made Simpler](http://arxiv.org/abs/2502.20110)**|None|**[link](https://github.com/lpiccinelli-eth/unidepth)**|arXiv admin note: substantial text overlap with arXiv:2403.18913|Luigi Piccinelli et.al.|
 |**2025-02-26**|**[Distill Any Depth: Distillation Creates a Stronger Monocular Depth Estimator](http://arxiv.org/abs/2502.19204)**|None|**[link](https://github.com/Westlake-AGI-Lab/Distill-Any-Depth)**|project page: https://distill-any-depth-official.github.io/|Xiankang He et.al.|
 |**2025-02-21**|**[RGB-Only Gaussian Splatting SLAM for Unbounded Outdoor Scenes](http://arxiv.org/abs/2502.15633)**|None|None|ICRA 2025|Sicheng Yu et.al.|
