@@ -1,9 +1,10 @@
-## Updated at 2025-03-05 09:23:08
+## Updated at 2025-03-05 20:36:24
 
 ## MVS
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-03-03**|**[MUSt3R: Multi-view Network for Stereo 3D Reconstruction](http://arxiv.org/abs/2503.01661)**|None|None|Accepted at CVPR 2025|Yohann Cabon et.al.|
 |**2025-01-30**|**[Zero-Shot Novel View and Depth Synthesis with Multi-View Geometric Diffusion](http://arxiv.org/abs/2501.18804)**|None|None|Project page: https://mvgd.github.io|Vitor Guizilini et.al.|
 |**2025-01-21**|**[Fast Underwater Scene Reconstruction using Multi-View Stereo and Physical Imaging](http://arxiv.org/abs/2501.11884)**|None|None|None|Shuyi Hu et.al.|
 |**2025-01-12**|**[CULTURE3D: Cultural Landmarks and Terrain Dataset for 3D Applications](http://arxiv.org/abs/2501.06927)**|None|**[link](https://github.com/openinterx/culture3d)**|None|Xinyi Zheng et.al.|
@@ -349,6 +350,8 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-03-03**|**[MUSt3R: Multi-view Network for Stereo 3D Reconstruction](http://arxiv.org/abs/2503.01661)**|None|None|Accepted at CVPR 2025|Yohann Cabon et.al.|
+|**2025-03-02**|**[Bridging Spectral-wise and Multi-spectral Depth Estimation via Geometry-guided Contrastive Learning](http://arxiv.org/abs/2503.00793)**|None|None|Accepted at ICRA 2025, Github link:   https://github.com/UkcheolShin/BridgeMultiSpectralDepth|Ukcheol Shin et.al.|
 |**2025-02-28**|**[EndoPBR: Material and Lighting Estimation for Photorealistic Surgical Simulations via Physically-based Rendering](http://arxiv.org/abs/2502.20669)**|None|None|10 pages, 3 figures|John J. Han et.al.|
 |**2025-02-27**|**[UniDepthV2: Universal Monocular Metric Depth Estimation Made Simpler](http://arxiv.org/abs/2502.20110)**|None|**[link](https://github.com/lpiccinelli-eth/unidepth)**|arXiv admin note: substantial text overlap with arXiv:2403.18913|Luigi Piccinelli et.al.|
 |**2025-02-26**|**[Distill Any Depth: Distillation Creates a Stronger Monocular Depth Estimator](http://arxiv.org/abs/2502.19204)**|None|**[link](https://github.com/Westlake-AGI-Lab/Distill-Any-Depth)**|project page: https://distill-any-depth-official.github.io/|Xiankang He et.al.|
