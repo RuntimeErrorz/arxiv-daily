@@ -1,4 +1,4 @@
-## Updated at 2025-03-07 09:24:04
+## Updated at 2025-03-07 20:35:26
 
 ## MVS
 
@@ -350,6 +350,9 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-03-06**|**[A Novel Solution for Drone Photogrammetry with Low-overlap Aerial Images using Monocular Depth Estimation](http://arxiv.org/abs/2503.04513)**|None|None|None|Jiageng Zhong et.al.|
+|**2025-03-06**|**[H3O: Hyper-Efficient 3D Occupancy Prediction with Heterogeneous Supervision](http://arxiv.org/abs/2503.04059)**|None|None|ICRA 2025|Yunxiao Shi et.al.|
+|**2025-03-05**|**[Task-Agnostic Attacks Against Vision Foundation Models](http://arxiv.org/abs/2503.03842)**|None|None|None|Brian Pulfer et.al.|
 |**2025-03-03**|**[MUSt3R: Multi-view Network for Stereo 3D Reconstruction](http://arxiv.org/abs/2503.01661)**|None|None|Accepted at CVPR 2025|Yohann Cabon et.al.|
 |**2025-03-02**|**[Bridging Spectral-wise and Multi-spectral Depth Estimation via Geometry-guided Contrastive Learning](http://arxiv.org/abs/2503.00793)**|None|None|Accepted at ICRA 2025, Github link:   https://github.com/UkcheolShin/BridgeMultiSpectralDepth|Ukcheol Shin et.al.|
 |**2025-02-28**|**[EndoPBR: Material and Lighting Estimation for Photorealistic Surgical Simulations via Physically-based Rendering](http://arxiv.org/abs/2502.20669)**|None|None|10 pages, 3 figures|John J. Han et.al.|
