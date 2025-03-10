@@ -1,4 +1,4 @@
-## Updated at 2025-03-10 09:10:38
+## Updated at 2025-03-10 20:37:18
 
 ## MVS
 
@@ -350,6 +350,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-03-07**|**[TomatoScanner: phenotyping tomato fruit based on only RGB image](http://arxiv.org/abs/2503.05568)**|None|None|12 pages, 37 figures. Codes and datasets are open-sourced in   https://github.com/AlexTraveling/TomatoScanner|Xiaobei Zhao et.al.|
 |**2025-03-06**|**[A Novel Solution for Drone Photogrammetry with Low-overlap Aerial Images using Monocular Depth Estimation](http://arxiv.org/abs/2503.04513)**|None|None|None|Jiageng Zhong et.al.|
 |**2025-03-06**|**[H3O: Hyper-Efficient 3D Occupancy Prediction with Heterogeneous Supervision](http://arxiv.org/abs/2503.04059)**|None|None|ICRA 2025|Yunxiao Shi et.al.|
 |**2025-03-05**|**[Task-Agnostic Attacks Against Vision Foundation Models](http://arxiv.org/abs/2503.03842)**|None|None|None|Brian Pulfer et.al.|
