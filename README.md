@@ -1,4 +1,4 @@
-## Updated at 2025-03-10 20:37:18
+## Updated at 2025-03-11 09:23:43
 
 ## MVS
 
@@ -355,7 +355,7 @@
 |**2025-03-06**|**[H3O: Hyper-Efficient 3D Occupancy Prediction with Heterogeneous Supervision](http://arxiv.org/abs/2503.04059)**|None|None|ICRA 2025|Yunxiao Shi et.al.|
 |**2025-03-05**|**[Task-Agnostic Attacks Against Vision Foundation Models](http://arxiv.org/abs/2503.03842)**|None|None|None|Brian Pulfer et.al.|
 |**2025-03-03**|**[MUSt3R: Multi-view Network for Stereo 3D Reconstruction](http://arxiv.org/abs/2503.01661)**|None|None|Accepted at CVPR 2025|Yohann Cabon et.al.|
-|**2025-03-02**|**[Bridging Spectral-wise and Multi-spectral Depth Estimation via Geometry-guided Contrastive Learning](http://arxiv.org/abs/2503.00793)**|None|None|Accepted at ICRA 2025, Github link:   https://github.com/UkcheolShin/BridgeMultiSpectralDepth|Ukcheol Shin et.al.|
+|**2025-03-02**|**[Bridging Spectral-wise and Multi-spectral Depth Estimation via Geometry-guided Contrastive Learning](http://arxiv.org/abs/2503.00793)**|None|**[link](https://github.com/ukcheolshin/bridgemultispectraldepth)**|Accepted at ICRA 2025, Github link:   https://github.com/UkcheolShin/BridgeMultiSpectralDepth|Ukcheol Shin et.al.|
 |**2025-02-28**|**[EndoPBR: Material and Lighting Estimation for Photorealistic Surgical Simulations via Physically-based Rendering](http://arxiv.org/abs/2502.20669)**|None|None|10 pages, 3 figures|John J. Han et.al.|
 |**2025-02-27**|**[UniDepthV2: Universal Monocular Metric Depth Estimation Made Simpler](http://arxiv.org/abs/2502.20110)**|None|**[link](https://github.com/lpiccinelli-eth/unidepth)**|arXiv admin note: substantial text overlap with arXiv:2403.18913|Luigi Piccinelli et.al.|
 |**2025-02-26**|**[Distill Any Depth: Distillation Creates a Stronger Monocular Depth Estimator](http://arxiv.org/abs/2502.19204)**|None|**[link](https://github.com/Westlake-AGI-Lab/Distill-Any-Depth)**|project page: https://distill-any-depth-official.github.io/|Xiankang He et.al.|
