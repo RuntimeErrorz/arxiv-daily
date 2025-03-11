@@ -1,4 +1,4 @@
-## Updated at 2025-03-11 09:23:43
+## Updated at 2025-03-11 20:37:40
 
 ## MVS
 
@@ -350,6 +350,9 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-03-10**|**[Endo-FASt3r: Endoscopic Foundation model Adaptation for Structure from motion](http://arxiv.org/abs/2503.07204)**|None|None|None|Mona Sheikh Zeinoddin et.al.|
+|**2025-03-09**|**[A Light and Tuning-free Method for Simulating Camera Motion in Video Generation](http://arxiv.org/abs/2503.06508)**|None|None|18 pages in total|Quanjian Song et.al.|
+|**2025-03-08**|**[Towards Ambiguity-Free Spatial Foundation Model: Rethinking and Decoupling Depth Ambiguity](http://arxiv.org/abs/2503.06014)**|None|None|32 pages, 31 figures, github repo:   https://github.com/Xiaohao-Xu/Ambiguity-in-Space|Xiaohao Xu et.al.|
 |**2025-03-07**|**[TomatoScanner: phenotyping tomato fruit based on only RGB image](http://arxiv.org/abs/2503.05568)**|None|None|12 pages, 37 figures. Codes and datasets are open-sourced in   https://github.com/AlexTraveling/TomatoScanner|Xiaobei Zhao et.al.|
 |**2025-03-06**|**[A Novel Solution for Drone Photogrammetry with Low-overlap Aerial Images using Monocular Depth Estimation](http://arxiv.org/abs/2503.04513)**|None|None|None|Jiageng Zhong et.al.|
 |**2025-03-06**|**[H3O: Hyper-Efficient 3D Occupancy Prediction with Heterogeneous Supervision](http://arxiv.org/abs/2503.04059)**|None|None|ICRA 2025|Yunxiao Shi et.al.|
