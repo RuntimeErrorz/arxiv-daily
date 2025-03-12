@@ -1,9 +1,10 @@
-## Updated at 2025-03-12 09:22:43
+## Updated at 2025-03-12 20:37:15
 
 ## MVS
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-03-11**|**[CL-MVSNet: Unsupervised Multi-view Stereo with Dual-level Contrastive Learning](http://arxiv.org/abs/2503.08219)**|None|None|Accpetd by ICCV2023|Kaiqiang Xiong et.al.|
 |**2025-03-03**|**[MUSt3R: Multi-view Network for Stereo 3D Reconstruction](http://arxiv.org/abs/2503.01661)**|None|None|Accepted at CVPR 2025|Yohann Cabon et.al.|
 |**2025-01-30**|**[Zero-Shot Novel View and Depth Synthesis with Multi-View Geometric Diffusion](http://arxiv.org/abs/2501.18804)**|None|None|Project page: https://mvgd.github.io|Vitor Guizilini et.al.|
 |**2025-01-21**|**[Fast Underwater Scene Reconstruction using Multi-View Stereo and Physical Imaging](http://arxiv.org/abs/2501.11884)**|None|None|None|Shuyi Hu et.al.|
@@ -350,6 +351,10 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-03-11**|**[Language-Depth Navigated Thermal and Visible Image Fusion](http://arxiv.org/abs/2503.08676)**|None|None|None|Jinchang Zhang et.al.|
+|**2025-03-11**|**[CL-MVSNet: Unsupervised Multi-view Stereo with Dual-level Contrastive Learning](http://arxiv.org/abs/2503.08219)**|None|None|Accpetd by ICCV2023|Kaiqiang Xiong et.al.|
+|**2025-03-10**|**[SIRE: SE(3) Intrinsic Rigidity Embeddings](http://arxiv.org/abs/2503.07739)**|None|None|None|Cameron Smith et.al.|
+|**2025-03-10**|**[LBM: Latent Bridge Matching for Fast Image-to-Image Translation](http://arxiv.org/abs/2503.07535)**|None|None|None|Clément Chadebec et.al.|
 |**2025-03-10**|**[Endo-FASt3r: Endoscopic Foundation model Adaptation for Structure from motion](http://arxiv.org/abs/2503.07204)**|None|None|None|Mona Sheikh Zeinoddin et.al.|
 |**2025-03-09**|**[LightMotion: A Light and Tuning-free Method for Simulating Camera Motion in Video Generation](http://arxiv.org/abs/2503.06508)**|None|None|18 pages in total|Quanjian Song et.al.|
 |**2025-03-08**|**[Towards Ambiguity-Free Spatial Foundation Model: Rethinking and Decoupling Depth Ambiguity](http://arxiv.org/abs/2503.06014)**|None|None|32 pages, 31 figures, github repo:   https://github.com/Xiaohao-Xu/Ambiguity-in-Space|Xiaohao Xu et.al.|
