@@ -1,4 +1,4 @@
-## Updated at 2025-03-14 09:22:59
+## Updated at 2025-03-14 20:35:20
 
 ## MVS
 
@@ -351,6 +351,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-03-13**|**[Flow-NeRF: Joint Learning of Geometry, Poses, and Dense Flow within Unified Neural Representations](http://arxiv.org/abs/2503.10464)**|None|None|None|Xunzhi Zheng et.al.|
 |**2025-03-12**|**[WonderVerse: Extendable 3D Scene Generation with Video Generative Models](http://arxiv.org/abs/2503.09160)**|None|None|None|Hao Feng et.al.|
 |**2025-03-11**|**[Language-Depth Navigated Thermal and Visible Image Fusion](http://arxiv.org/abs/2503.08676)**|None|None|None|Jinchang Zhang et.al.|
 |**2025-03-11**|**[CL-MVSNet: Unsupervised Multi-view Stereo with Dual-level Contrastive Learning](http://arxiv.org/abs/2503.08219)**|None|None|Accpetd by ICCV2023|Kaiqiang Xiong et.al.|
