@@ -1,9 +1,10 @@
-## Updated at 2025-03-17 09:26:22
+## Updated at 2025-03-17 20:38:03
 
 ## MVS
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-03-14**|**[VGGT: Visual Geometry Grounded Transformer](http://arxiv.org/abs/2503.11651)**|None|None|CVPR 2025, Project Page: https://vgg-t.github.io/|Jianyuan Wang et.al.|
 |**2025-03-11**|**[CL-MVSNet: Unsupervised Multi-view Stereo with Dual-level Contrastive Learning](http://arxiv.org/abs/2503.08219)**|None|None|Accpetd by ICCV2023|Kaiqiang Xiong et.al.|
 |**2025-03-03**|**[MUSt3R: Multi-view Network for Stereo 3D Reconstruction](http://arxiv.org/abs/2503.01661)**|None|None|Accepted at CVPR 2025|Yohann Cabon et.al.|
 |**2025-01-30**|**[Zero-Shot Novel View and Depth Synthesis with Multi-View Geometric Diffusion](http://arxiv.org/abs/2501.18804)**|None|None|Project page: https://mvgd.github.io|Vitor Guizilini et.al.|
@@ -351,6 +352,9 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-03-14**|**[VGGT: Visual Geometry Grounded Transformer](http://arxiv.org/abs/2503.11651)**|None|None|CVPR 2025, Project Page: https://vgg-t.github.io/|Jianyuan Wang et.al.|
+|**2025-03-14**|**[Seeing and Seeing Through the Glass: Real and Synthetic Data for Multi-Layer Depth Estimation](http://arxiv.org/abs/2503.11633)**|None|None|None|Hongyu Wen et.al.|
+|**2025-03-14**|**[Simulating Dual-Pixel Images From Ray Tracing For Depth Estimation](http://arxiv.org/abs/2503.11213)**|None|None|None|Fengchen He et.al.|
 |**2025-03-13**|**[Flow-NeRF: Joint Learning of Geometry, Poses, and Dense Flow within Unified Neural Representations](http://arxiv.org/abs/2503.10464)**|None|None|None|Xunzhi Zheng et.al.|
 |**2025-03-12**|**[WonderVerse: Extendable 3D Scene Generation with Video Generative Models](http://arxiv.org/abs/2503.09160)**|None|None|None|Hao Feng et.al.|
 |**2025-03-11**|**[Language-Depth Navigated Thermal and Visible Image Fusion](http://arxiv.org/abs/2503.08676)**|None|None|None|Jinchang Zhang et.al.|
