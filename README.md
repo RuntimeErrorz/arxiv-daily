@@ -1,9 +1,11 @@
-## Updated at 2025-03-18 09:24:06
+## Updated at 2025-03-18 20:37:24
 
 ## MVS
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-03-17**|**[Scale Efficient Training for Large Datasets](http://arxiv.org/abs/2503.13385)**|None|None|Accepted by CVPR2025|Qing Zhou et.al.|
+|**2025-03-15**|**[3D Gaussian Splatting against Moving Objects for High-Fidelity Street Scene Reconstruction](http://arxiv.org/abs/2503.12001)**|None|None|None|Peizhen Zheng et.al.|
 |**2025-03-14**|**[VGGT: Visual Geometry Grounded Transformer](http://arxiv.org/abs/2503.11651)**|None|None|CVPR 2025, Project Page: https://vgg-t.github.io/|Jianyuan Wang et.al.|
 |**2025-03-11**|**[CL-MVSNet: Unsupervised Multi-view Stereo with Dual-level Contrastive Learning](http://arxiv.org/abs/2503.08219)**|None|None|Accpetd by ICCV2023|Kaiqiang Xiong et.al.|
 |**2025-03-03**|**[MUSt3R: Multi-view Network for Stereo 3D Reconstruction](http://arxiv.org/abs/2503.01661)**|None|None|Accepted at CVPR 2025|Yohann Cabon et.al.|
@@ -352,6 +354,11 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-03-17**|**[FlexWorld: Progressively Expanding 3D Scenes for Flexiable-View Synthesis](http://arxiv.org/abs/2503.13265)**|None|None|None|Luxi Chen et.al.|
+|**2025-03-17**|**[MM-Spatial: Exploring 3D Spatial Understanding in Multimodal LLMs](http://arxiv.org/abs/2503.13111)**|None|None|None|Erik Daxberger et.al.|
+|**2025-03-17**|**[TransDiff: Diffusion-Based Method for Manipulating Transparent Objects Using a Single RGB-D Image](http://arxiv.org/abs/2503.12779)**|None|None|Accepted by ICRA 2025|Haoxiao Wang et.al.|
+|**2025-03-16**|**[UniVG: A Generalist Diffusion Model for Unified Image Generation and Editing](http://arxiv.org/abs/2503.12652)**|None|None|None|Tsu-Jui Fu et.al.|
+|**2025-03-16**|**[Deblur Gaussian Splatting SLAM](http://arxiv.org/abs/2503.12572)**|None|None|None|Francesco Girlanda et.al.|
 |**2025-03-14**|**[VGGT: Visual Geometry Grounded Transformer](http://arxiv.org/abs/2503.11651)**|None|None|CVPR 2025, Project Page: https://vgg-t.github.io/|Jianyuan Wang et.al.|
 |**2025-03-14**|**[Seeing and Seeing Through the Glass: Real and Synthetic Data for Multi-Layer Depth Estimation](http://arxiv.org/abs/2503.11633)**|None|None|None|Hongyu Wen et.al.|
 |**2025-03-14**|**[Simulating Dual-Pixel Images From Ray Tracing For Depth Estimation](http://arxiv.org/abs/2503.11213)**|None|None|None|Fengchen He et.al.|
