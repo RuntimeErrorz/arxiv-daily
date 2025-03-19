@@ -1,9 +1,11 @@
-## Updated at 2025-03-19 09:25:05
+## Updated at 2025-03-19 20:37:14
 
 ## MVS
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-03-17**|**[SED-MVS: Segmentation-Driven and Edge-Aligned Deformation Multi-View Stereo with Depth Restoration and Occlusion Constraint](http://arxiv.org/abs/2503.13721)**|None|None|None|Zhenlong Yuan et.al.|
+|**2025-03-17**|**[Improving Geometric Consistency for 360-Degree Neural Radiance Fields in Indoor Scenarios](http://arxiv.org/abs/2503.13710)**|Proc. VISAPP 2025|None|None|Iryna Repinetska et.al.|
 |**2025-03-17**|**[Scale Efficient Training for Large Datasets](http://arxiv.org/abs/2503.13385)**|None|None|Accepted by CVPR2025|Qing Zhou et.al.|
 |**2025-03-15**|**[3D Gaussian Splatting against Moving Objects for High-Fidelity Street Scene Reconstruction](http://arxiv.org/abs/2503.12001)**|None|None|None|Peizhen Zheng et.al.|
 |**2025-03-14**|**[VGGT: Visual Geometry Grounded Transformer](http://arxiv.org/abs/2503.11651)**|None|None|CVPR 2025, Project Page: https://vgg-t.github.io/|Jianyuan Wang et.al.|
@@ -354,6 +356,11 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-03-18**|**[Multi-view Reconstruction via SfM-guided Monocular Depth Estimation](http://arxiv.org/abs/2503.14483)**|None|None|CVPR 2025. Project page: https://zju3dv.github.io/murre/|Haoyu Guo et.al.|
+|**2025-03-18**|**[DUNE: Distilling a Universal Encoder from Heterogeneous 2D and 3D Teachers](http://arxiv.org/abs/2503.14405)**|None|None|Accepted to CVPR-2025. Project page:   https://europe.naverlabs.com/dune|Mert Bulent Sariyildiz et.al.|
+|**2025-03-18**|**[3D Densification for Multi-Map Monocular VSLAM in Endoscopy](http://arxiv.org/abs/2503.14346)**|None|None|None|X. Anadón et.al.|
+|**2025-03-17**|**[MonoCT: Overcoming Monocular 3D Detection Domain Shift with Consistent Teacher Models](http://arxiv.org/abs/2503.13743)**|None|None|ICRA2025|Johannes Meier et.al.|
+|**2025-03-17**|**[Improving Geometric Consistency for 360-Degree Neural Radiance Fields in Indoor Scenarios](http://arxiv.org/abs/2503.13710)**|Proc. VISAPP 2025|None|None|Iryna Repinetska et.al.|
 |**2025-03-17**|**[FlexWorld: Progressively Expanding 3D Scenes for Flexiable-View Synthesis](http://arxiv.org/abs/2503.13265)**|None|None|None|Luxi Chen et.al.|
 |**2025-03-17**|**[MM-Spatial: Exploring 3D Spatial Understanding in Multimodal LLMs](http://arxiv.org/abs/2503.13111)**|None|None|None|Erik Daxberger et.al.|
 |**2025-03-17**|**[TransDiff: Diffusion-Based Method for Manipulating Transparent Objects Using a Single RGB-D Image](http://arxiv.org/abs/2503.12779)**|None|None|Accepted by ICRA 2025|Haoxiao Wang et.al.|
