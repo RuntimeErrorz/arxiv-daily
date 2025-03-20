@@ -1,4 +1,4 @@
-## Updated at 2025-03-20 09:23:34
+## Updated at 2025-03-20 20:35:50
 
 ## MVS
 
@@ -8,7 +8,7 @@
 |**2025-03-17**|**[Improving Geometric Consistency for 360-Degree Neural Radiance Fields in Indoor Scenarios](http://arxiv.org/abs/2503.13710)**|Proc. VISAPP 2025|None|None|Iryna Repinetska et.al.|
 |**2025-03-17**|**[Scale Efficient Training for Large Datasets](http://arxiv.org/abs/2503.13385)**|None|None|Accepted by CVPR2025|Qing Zhou et.al.|
 |**2025-03-15**|**[3D Gaussian Splatting against Moving Objects for High-Fidelity Street Scene Reconstruction](http://arxiv.org/abs/2503.12001)**|None|None|None|Peizhen Zheng et.al.|
-|**2025-03-14**|**[VGGT: Visual Geometry Grounded Transformer](http://arxiv.org/abs/2503.11651)**|None|None|CVPR 2025, Project Page: https://vgg-t.github.io/|Jianyuan Wang et.al.|
+|**2025-03-14**|**[VGGT: Visual Geometry Grounded Transformer](http://arxiv.org/abs/2503.11651)**|None|**[link](https://github.com/facebookresearch/vggt)**|CVPR 2025, Project Page: https://vgg-t.github.io/|Jianyuan Wang et.al.|
 |**2025-03-11**|**[CL-MVSNet: Unsupervised Multi-view Stereo with Dual-level Contrastive Learning](http://arxiv.org/abs/2503.08219)**|None|None|Accpetd by ICCV2023|Kaiqiang Xiong et.al.|
 |**2025-03-03**|**[MUSt3R: Multi-view Network for Stereo 3D Reconstruction](http://arxiv.org/abs/2503.01661)**|None|None|Accepted at CVPR 2025|Yohann Cabon et.al.|
 |**2025-01-30**|**[Zero-Shot Novel View and Depth Synthesis with Multi-View Geometric Diffusion](http://arxiv.org/abs/2501.18804)**|None|None|Project page: https://mvgd.github.io|Vitor Guizilini et.al.|
@@ -356,6 +356,9 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-03-19**|**[TULIP: Towards Unified Language-Image Pretraining](http://arxiv.org/abs/2503.15485)**|None|None|None|Zineng Tang et.al.|
+|**2025-03-19**|**[EgoDTM: Towards 3D-Aware Egocentric Video-Language Pretraining](http://arxiv.org/abs/2503.15470)**|None|None|Code will be released at: https://github.com/xuboshen/EgoDTM|Boshen Xu et.al.|
+|**2025-03-19**|**[USAM-Net: A U-Net-based Network for Improved Stereo Correspondence and Scene Depth Estimation using Features from a Pre-trained Image Segmentation network](http://arxiv.org/abs/2503.14950)**|None|None|None|Joseph Emmanuel DL Dayo et.al.|
 |**2025-03-18**|**[Multi-view Reconstruction via SfM-guided Monocular Depth Estimation](http://arxiv.org/abs/2503.14483)**|None|None|CVPR 2025. Project page: https://zju3dv.github.io/murre/|Haoyu Guo et.al.|
 |**2025-03-18**|**[DUNE: Distilling a Universal Encoder from Heterogeneous 2D and 3D Teachers](http://arxiv.org/abs/2503.14405)**|None|None|Accepted to CVPR-2025. Project page:   https://europe.naverlabs.com/dune|Mert Bulent Sariyildiz et.al.|
 |**2025-03-18**|**[3D Densification for Multi-Map Monocular VSLAM in Endoscopy](http://arxiv.org/abs/2503.14346)**|None|None|None|X. Anadón et.al.|
