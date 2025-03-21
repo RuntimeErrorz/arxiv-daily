@@ -1,4 +1,4 @@
-## Updated at 2025-03-21 09:25:28
+## Updated at 2025-03-21 20:36:05
 
 ## MVS
 
@@ -356,6 +356,8 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-03-20**|**[Learning to Efficiently Adapt Foundation Models for Self-Supervised Endoscopic 3D Scene Reconstruction from Any Cameras](http://arxiv.org/abs/2503.15917)**|None|None|None|Beilei Cui et.al.|
+|**2025-03-20**|**[Jasmine: Harnessing Diffusion Prior for Self-supervised Depth Estimation](http://arxiv.org/abs/2503.15905)**|None|None|None|Jiyuan Wang et.al.|
 |**2025-03-19**|**[TULIP: Towards Unified Language-Image Pretraining](http://arxiv.org/abs/2503.15485)**|None|None|None|Zineng Tang et.al.|
 |**2025-03-19**|**[EgoDTM: Towards 3D-Aware Egocentric Video-Language Pretraining](http://arxiv.org/abs/2503.15470)**|None|None|Code will be released at: https://github.com/xuboshen/EgoDTM|Boshen Xu et.al.|
 |**2025-03-19**|**[USAM-Net: A U-Net-based Network for Improved Stereo Correspondence and Scene Depth Estimation using Features from a Pre-trained Image Segmentation network](http://arxiv.org/abs/2503.14950)**|None|None|None|Joseph Emmanuel DL Dayo et.al.|
