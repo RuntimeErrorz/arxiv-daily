@@ -1,4 +1,4 @@
-## Updated at 2025-03-22 09:23:20
+## Updated at 2025-03-22 20:33:07
 
 ## MVS
 
@@ -7,7 +7,7 @@
 |**2025-03-17**|**[SED-MVS: Segmentation-Driven and Edge-Aligned Deformation Multi-View Stereo with Depth Restoration and Occlusion Constraint](http://arxiv.org/abs/2503.13721)**|None|None|None|Zhenlong Yuan et.al.|
 |**2025-03-17**|**[Improving Geometric Consistency for 360-Degree Neural Radiance Fields in Indoor Scenarios](http://arxiv.org/abs/2503.13710)**|Proc. VISAPP 2025|None|None|Iryna Repinetska et.al.|
 |**2025-03-17**|**[Scale Efficient Training for Large Datasets](http://arxiv.org/abs/2503.13385)**|None|None|Accepted by CVPR2025|Qing Zhou et.al.|
-|**2025-03-15**|**[3D Gaussian Splatting against Moving Objects for High-Fidelity Street Scene Reconstruction](http://arxiv.org/abs/2503.12001)**|None|None|None|Peizhen Zheng et.al.|
+|**2025-03-15**|**[3D Gaussian Splatting against Moving Objects for High-Fidelity Street Scene Reconstruction](http://arxiv.org/abs/2503.12001)**|None|**[link](https://github.com/thinkxca/3dgs)**|None|Peizhen Zheng et.al.|
 |**2025-03-14**|**[VGGT: Visual Geometry Grounded Transformer](http://arxiv.org/abs/2503.11651)**|None|**[link](https://github.com/facebookresearch/vggt)**|CVPR 2025, Project Page: https://vgg-t.github.io/|Jianyuan Wang et.al.|
 |**2025-03-11**|**[CL-MVSNet: Unsupervised Multi-view Stereo with Dual-level Contrastive Learning](http://arxiv.org/abs/2503.08219)**|None|None|Accpetd by ICCV2023|Kaiqiang Xiong et.al.|
 |**2025-03-03**|**[MUSt3R: Multi-view Network for Stereo 3D Reconstruction](http://arxiv.org/abs/2503.01661)**|None|None|Accepted at CVPR 2025|Yohann Cabon et.al.|
