@@ -1,9 +1,11 @@
-## Updated at 2025-03-24 08:22:57
+## Updated at 2025-03-24 20:09:06
 
 ## MVS
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-03-21**|**[Pow3R: Empowering Unconstrained 3D Reconstruction with Camera and Scene Priors](http://arxiv.org/abs/2503.17316)**|None|None|CVPR 2025|Wonbong Jang et.al.|
+|**2025-03-21**|**[DroneSplat: 3D Gaussian Splatting for Robust 3D Reconstruction from In-the-Wild Drone Imagery](http://arxiv.org/abs/2503.16964)**|None|None|None|Jiadong Tang et.al.|
 |**2025-03-17**|**[SED-MVS: Segmentation-Driven and Edge-Aligned Deformation Multi-View Stereo with Depth Restoration and Occlusion Constraint](http://arxiv.org/abs/2503.13721)**|None|None|None|Zhenlong Yuan et.al.|
 |**2025-03-17**|**[Improving Geometric Consistency for 360-Degree Neural Radiance Fields in Indoor Scenarios](http://arxiv.org/abs/2503.13710)**|Proc. VISAPP 2025|None|None|Iryna Repinetska et.al.|
 |**2025-03-17**|**[Scale Efficient Training for Large Datasets](http://arxiv.org/abs/2503.13385)**|None|None|Accepted by CVPR2025|Qing Zhou et.al.|
@@ -356,6 +358,11 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-03-21**|**[Radar-Guided Polynomial Fitting for Metric Depth Estimation](http://arxiv.org/abs/2503.17182)**|None|None|None|Patrick Rim et.al.|
+|**2025-03-21**|**[AnimatePainter: A Self-Supervised Rendering Framework for Reconstructing Painting Process](http://arxiv.org/abs/2503.17029)**|None|None|None|Junjie Hu et.al.|
+|**2025-03-21**|**[Distilling Monocular Foundation Model for Fine-grained Depth Completion](http://arxiv.org/abs/2503.16970)**|None|None|None|Yingping Liang et.al.|
+|**2025-03-20**|**[QuartDepth: Post-Training Quantization for Real-Time Depth Estimation on the Edge](http://arxiv.org/abs/2503.16709)**|None|None|Accepted by CVPR 2025|Xuan Shen et.al.|
+|**2025-03-20**|**[A Recipe for Generating 3D Worlds From a Single Image](http://arxiv.org/abs/2503.16611)**|None|None|None|Katja Schwarz et.al.|
 |**2025-03-20**|**[Learning to Efficiently Adapt Foundation Models for Self-Supervised Endoscopic 3D Scene Reconstruction from Any Cameras](http://arxiv.org/abs/2503.15917)**|None|None|None|Beilei Cui et.al.|
 |**2025-03-20**|**[Jasmine: Harnessing Diffusion Prior for Self-supervised Depth Estimation](http://arxiv.org/abs/2503.15905)**|None|None|None|Jiyuan Wang et.al.|
 |**2025-03-19**|**[TULIP: Towards Unified Language-Image Pretraining](http://arxiv.org/abs/2503.15485)**|None|None|None|Zineng Tang et.al.|
