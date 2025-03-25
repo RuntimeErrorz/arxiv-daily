@@ -1,4 +1,4 @@
-## Updated at 2025-03-25 08:22:32
+## Updated at 2025-03-25 20:08:47
 
 ## MVS
 
@@ -358,6 +358,8 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-03-24**|**[StableGS: A Floater-Free Framework for 3D Gaussian Splatting](http://arxiv.org/abs/2503.18458)**|None|None|None|Luchao Wang et.al.|
+|**2025-03-24**|**[PDDM: Pseudo Depth Diffusion Model for RGB-PD Semantic Segmentation Based in Complex Indoor Scenes](http://arxiv.org/abs/2503.18393)**|None|None|None|Xinhua Xu et.al.|
 |**2025-03-21**|**[Radar-Guided Polynomial Fitting for Metric Depth Estimation](http://arxiv.org/abs/2503.17182)**|None|None|None|Patrick Rim et.al.|
 |**2025-03-21**|**[AnimatePainter: A Self-Supervised Rendering Framework for Reconstructing Painting Process](http://arxiv.org/abs/2503.17029)**|None|None|None|Junjie Hu et.al.|
 |**2025-03-21**|**[Distilling Monocular Foundation Model for Fine-grained Depth Completion](http://arxiv.org/abs/2503.16970)**|None|None|None|Yingping Liang et.al.|
