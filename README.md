@@ -1,4 +1,4 @@
-## Updated at 2025-03-27 08:21:40
+## Updated at 2025-03-27 20:08:47
 
 ## MVS
 
@@ -358,6 +358,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-03-26**|**[Synthetic-to-Real Self-supervised Robust Depth Estimation via Learning with Motion and Structure Priors](http://arxiv.org/abs/2503.20211)**|None|None|None|Weilong Yan et.al.|
 |**2025-03-25**|**[FUSE: Label-Free Image-Event Joint Monocular Depth Estimation via Frequency-Decoupled Alignment and Degradation-Robust Fusion](http://arxiv.org/abs/2503.19739)**|None|None|8 pages, 6 figures|Pihai Sun et.al.|
 |**2025-03-24**|**[StableGS: A Floater-Free Framework for 3D Gaussian Splatting](http://arxiv.org/abs/2503.18458)**|None|None|None|Luchao Wang et.al.|
 |**2025-03-24**|**[PDDM: Pseudo Depth Diffusion Model for RGB-PD Semantic Segmentation Based in Complex Indoor Scenes](http://arxiv.org/abs/2503.18393)**|None|None|None|Xinhua Xu et.al.|
