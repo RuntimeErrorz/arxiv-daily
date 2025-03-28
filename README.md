@@ -1,9 +1,10 @@
-## Updated at 2025-03-28 08:22:05
+## Updated at 2025-03-28 20:08:23
 
 ## MVS
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-03-27**|**[ICG-MVSNet: Learning Intra-view and Cross-view Relationships for Guidance in Multi-View Stereo](http://arxiv.org/abs/2503.21525)**|None|None|None|Yuxi Hu et.al.|
 |**2025-03-21**|**[Pow3R: Empowering Unconstrained 3D Reconstruction with Camera and Scene Priors](http://arxiv.org/abs/2503.17316)**|None|None|CVPR 2025|Wonbong Jang et.al.|
 |**2025-03-21**|**[DroneSplat: 3D Gaussian Splatting for Robust 3D Reconstruction from In-the-Wild Drone Imagery](http://arxiv.org/abs/2503.16964)**|None|None|None|Jiadong Tang et.al.|
 |**2025-03-17**|**[SED-MVS: Segmentation-Driven and Edge-Aligned Deformation Multi-View Stereo with Depth Restoration and Occlusion Constraint](http://arxiv.org/abs/2503.13721)**|None|None|None|Zhenlong Yuan et.al.|
@@ -358,8 +359,10 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
-|**2025-03-26**|**[Synthetic-to-Real Self-supervised Robust Depth Estimation via Learning with Motion and Structure Priors](http://arxiv.org/abs/2503.20211)**|None|None|None|Weilong Yan et.al.|
-|**2025-03-25**|**[FUSE: Label-Free Image-Event Joint Monocular Depth Estimation via Frequency-Decoupled Alignment and Degradation-Robust Fusion](http://arxiv.org/abs/2503.19739)**|None|None|8 pages, 6 figures|Pihai Sun et.al.|
+|**2025-03-27**|**[A Unified Image-Dense Annotation Generation Model for Underwater Scenes](http://arxiv.org/abs/2503.21771)**|None|None|Accepted by CVPR 2025. The code is available at https:   //github.com/HongkLin/TIDE|Hongkai Lin et.al.|
+|**2025-03-27**|**[ICG-MVSNet: Learning Intra-view and Cross-view Relationships for Guidance in Multi-View Stereo](http://arxiv.org/abs/2503.21525)**|None|None|None|Yuxi Hu et.al.|
+|**2025-03-26**|**[Synthetic-to-Real Self-supervised Robust Depth Estimation via Learning with Motion and Structure Priors](http://arxiv.org/abs/2503.20211)**|None|**[link](https://github.com/davidyan2001/synthetic2real-depth)**|None|Weilong Yan et.al.|
+|**2025-03-25**|**[FUSE: Label-Free Image-Event Joint Monocular Depth Estimation via Frequency-Decoupled Alignment and Degradation-Robust Fusion](http://arxiv.org/abs/2503.19739)**|None|**[link](https://github.com/sunpihai-up/fuse)**|8 pages, 6 figures|Pihai Sun et.al.|
 |**2025-03-24**|**[StableGS: A Floater-Free Framework for 3D Gaussian Splatting](http://arxiv.org/abs/2503.18458)**|None|None|None|Luchao Wang et.al.|
 |**2025-03-24**|**[PDDM: Pseudo Depth Diffusion Model for RGB-PD Semantic Segmentation Based in Complex Indoor Scenes](http://arxiv.org/abs/2503.18393)**|None|None|None|Xinhua Xu et.al.|
 |**2025-03-21**|**[Radar-Guided Polynomial Fitting for Metric Depth Estimation](http://arxiv.org/abs/2503.17182)**|None|None|None|Patrick Rim et.al.|
