@@ -1,4 +1,4 @@
-## Updated at 2025-03-29 08:21:34
+## Updated at 2025-03-29 20:07:26
 
 ## MVS
 
@@ -359,7 +359,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
-|**2025-03-27**|**[A Unified Image-Dense Annotation Generation Model for Underwater Scenes](http://arxiv.org/abs/2503.21771)**|None|None|Accepted by CVPR 2025. The code is available at https:   //github.com/HongkLin/TIDE|Hongkai Lin et.al.|
+|**2025-03-27**|**[A Unified Image-Dense Annotation Generation Model for Underwater Scenes](http://arxiv.org/abs/2503.21771)**|None|**[link](https://github.com/hongklin/tide)**|Accepted by CVPR 2025. The code is available at https:   //github.com/HongkLin/TIDE|Hongkai Lin et.al.|
 |**2025-03-27**|**[ICG-MVSNet: Learning Intra-view and Cross-view Relationships for Guidance in Multi-View Stereo](http://arxiv.org/abs/2503.21525)**|None|None|None|Yuxi Hu et.al.|
 |**2025-03-26**|**[Synthetic-to-Real Self-supervised Robust Depth Estimation via Learning with Motion and Structure Priors](http://arxiv.org/abs/2503.20211)**|None|**[link](https://github.com/davidyan2001/synthetic2real-depth)**|None|Weilong Yan et.al.|
 |**2025-03-25**|**[FUSE: Label-Free Image-Event Joint Monocular Depth Estimation via Frequency-Decoupled Alignment and Degradation-Robust Fusion](http://arxiv.org/abs/2503.19739)**|None|**[link](https://github.com/sunpihai-up/fuse)**|8 pages, 6 figures|Pihai Sun et.al.|
