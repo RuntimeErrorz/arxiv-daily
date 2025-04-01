@@ -1,9 +1,10 @@
-## Updated at 2025-04-01 08:25:33
+## Updated at 2025-04-01 20:08:48
 
 ## MVS
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-03-31**|**[Detail-aware multi-view stereo network for depth estimation](http://arxiv.org/abs/2503.23684)**|None|None|None|Haitao Tian et.al.|
 |**2025-03-28**|**[MVSAnywhere: Zero-Shot Multi-View Stereo](http://arxiv.org/abs/2503.22430)**|None|None|CVPR 2025|Sergio Izquierdo et.al.|
 |**2025-03-27**|**[ICG-MVSNet: Learning Intra-view and Cross-view Relationships for Guidance in Multi-View Stereo](http://arxiv.org/abs/2503.21525)**|None|None|None|Yuxi Hu et.al.|
 |**2025-03-21**|**[Pow3R: Empowering Unconstrained 3D Reconstruction with Camera and Scene Priors](http://arxiv.org/abs/2503.17316)**|None|None|CVPR 2025|Wonbong Jang et.al.|
@@ -360,12 +361,16 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-03-31**|**[ExScene: Free-View 3D Scene Reconstruction with Gaussian Splatting from a Single Image](http://arxiv.org/abs/2503.23881)**|None|None|ICME 2025|Tianyi Gong et.al.|
+|**2025-03-31**|**[Detail-aware multi-view stereo network for depth estimation](http://arxiv.org/abs/2503.23684)**|None|None|None|Haitao Tian et.al.|
+|**2025-03-30**|**[Blurry-Edges: Photon-Limited Depth Estimation from Defocused Boundaries](http://arxiv.org/abs/2503.23606)**|None|None|Accepted to CVPR 2025. Project page: https://blurry-edges.qiguo.org/|Wei Xu et.al.|
+|**2025-03-30**|**[Boosting Omnidirectional Stereo Matching with a Pre-trained Depth Foundation Model](http://arxiv.org/abs/2503.23502)**|None|**[link](https://github.com/vita-epfl/DFI-OmniStereo)**|Project page: https://vita-epfl.github.io/DFI-OmniStereo-website/|Jannik Endres et.al.|
 |**2025-03-28**|**[SemAlign3D: Semantic Correspondence between RGB-Images through Aligning 3D Object-Class Representations](http://arxiv.org/abs/2503.22462)**|None|None|Accepted to CVPR 2025. Poster:   https://cvpr.thecvf.com/virtual/2025/poster/32799|Krispin Wandel et.al.|
 |**2025-03-28**|**[EndoLRMGS: Complete Endoscopic Scene Reconstruction combining Large Reconstruction Modelling and Gaussian Splatting](http://arxiv.org/abs/2503.22437)**|None|**[link](https://github.com/michaelwanggo/endolrmgs)**|None|Xu Wang et.al.|
 |**2025-03-28**|**[MVSAnywhere: Zero-Shot Multi-View Stereo](http://arxiv.org/abs/2503.22430)**|None|None|CVPR 2025|Sergio Izquierdo et.al.|
 |**2025-03-28**|**[One Look is Enough: A Novel Seamless Patchwise Refinement for Zero-Shot Monocular Depth Estimation Models on High-Resolution Images](http://arxiv.org/abs/2503.22351)**|None|None|Please visit our project page this   https://kaist-viclab.github.io/One-Look-is-Enough_site|Byeongjun Kwon et.al.|
 |**2025-03-28**|**[Intrinsic Image Decomposition for Robust Self-supervised Monocular Depth Estimation on Reflective Surfaces](http://arxiv.org/abs/2503.22209)**|None|None|Accepted at AAAI 2025|Wonhyeok Choi et.al.|
-|**2025-03-28**|**[Deep Depth Estimation from Thermal Image: Dataset, Benchmark, and Challenges](http://arxiv.org/abs/2503.22060)**|None|None|MS^2 dataset:   https://sites.google.com/view/multi-spectral-stereo-dataset, Source code:   https://github.com/UkcheolShin/SupDepth4Thermal|Ukcheol Shin et.al.|
+|**2025-03-28**|**[Deep Depth Estimation from Thermal Image: Dataset, Benchmark, and Challenges](http://arxiv.org/abs/2503.22060)**|None|**[link](https://github.com/ukcheolshin/supdepth4thermal)**|MS^2 dataset:   https://sites.google.com/view/multi-spectral-stereo-dataset, Source code:   https://github.com/UkcheolShin/SupDepth4Thermal|Ukcheol Shin et.al.|
 |**2025-03-27**|**[A Unified Image-Dense Annotation Generation Model for Underwater Scenes](http://arxiv.org/abs/2503.21771)**|None|**[link](https://github.com/hongklin/tide)**|Accepted by CVPR 2025. The code is available at https:   //github.com/HongkLin/TIDE|Hongkai Lin et.al.|
 |**2025-03-27**|**[ICG-MVSNet: Learning Intra-view and Cross-view Relationships for Guidance in Multi-View Stereo](http://arxiv.org/abs/2503.21525)**|None|None|None|Yuxi Hu et.al.|
 |**2025-03-26**|**[Synthetic-to-Real Self-supervised Robust Depth Estimation via Learning with Motion and Structure Priors](http://arxiv.org/abs/2503.20211)**|None|**[link](https://github.com/davidyan2001/synthetic2real-depth)**|None|Weilong Yan et.al.|
