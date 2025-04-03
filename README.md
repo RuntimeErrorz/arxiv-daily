@@ -1,4 +1,4 @@
-## Updated at 2025-04-03 08:22:08
+## Updated at 2025-04-03 20:08:37
 
 ## MVS
 
@@ -361,6 +361,9 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-04-02**|**[GaussianLSS -- Toward Real-world BEV Perception: Depth Uncertainty Estimation via Gaussian Splatting](http://arxiv.org/abs/2504.01957)**|None|None|Accepted to CVPR 2025|Shu-Wei Lu et.al.|
+|**2025-04-02**|**[DEPTHOR: Depth Enhancement from a Practical Light-Weight dToF Sensor and RGB Image](http://arxiv.org/abs/2504.01596)**|None|None|10 pages, 8 figures, 7 tables|Jijun Xiang et.al.|
+|**2025-04-01**|**[Monocular and Generalizable Gaussian Talking Head Animation](http://arxiv.org/abs/2504.00665)**|None|None|Accepted by CVPR 2025|Shengjie Gong et.al.|
 |**2025-03-31**|**[ExScene: Free-View 3D Scene Reconstruction with Gaussian Splatting from a Single Image](http://arxiv.org/abs/2503.23881)**|None|None|ICME 2025|Tianyi Gong et.al.|
 |**2025-03-31**|**[Detail-aware multi-view stereo network for depth estimation](http://arxiv.org/abs/2503.23684)**|None|None|None|Haitao Tian et.al.|
 |**2025-03-30**|**[Blurry-Edges: Photon-Limited Depth Estimation from Defocused Boundaries](http://arxiv.org/abs/2503.23606)**|None|None|Accepted to CVPR 2025. Project page: https://blurry-edges.qiguo.org/|Wei Xu et.al.|
