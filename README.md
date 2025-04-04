@@ -1,4 +1,4 @@
-## Updated at 2025-04-04 08:22:18
+## Updated at 2025-04-04 20:08:32
 
 ## MVS
 
@@ -361,7 +361,8 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
-|**2025-04-02**|**[GaussianLSS -- Toward Real-world BEV Perception: Depth Uncertainty Estimation via Gaussian Splatting](http://arxiv.org/abs/2504.01957)**|None|None|Accepted to CVPR 2025|Shu-Wei Lu et.al.|
+|**2025-04-02**|**[FreSca: Unveiling the Scaling Space in Diffusion Models](http://arxiv.org/abs/2504.02154)**|None|None|Project page: https://wikichao.github.io/FreSca/|Chao Huang et.al.|
+|**2025-04-02**|**[Toward Real-world BEV Perception: Depth Uncertainty Estimation via Gaussian Splatting](http://arxiv.org/abs/2504.01957)**|None|None|Accepted to CVPR'25. https://hcis-lab.github.io/GaussianLSS/|Shu-Wei Lu et.al.|
 |**2025-04-02**|**[DEPTHOR: Depth Enhancement from a Practical Light-Weight dToF Sensor and RGB Image](http://arxiv.org/abs/2504.01596)**|None|None|10 pages, 8 figures, 7 tables|Jijun Xiang et.al.|
 |**2025-04-01**|**[Monocular and Generalizable Gaussian Talking Head Animation](http://arxiv.org/abs/2504.00665)**|None|None|Accepted by CVPR 2025|Shengjie Gong et.al.|
 |**2025-03-31**|**[ExScene: Free-View 3D Scene Reconstruction with Gaussian Splatting from a Single Image](http://arxiv.org/abs/2503.23881)**|None|None|ICME 2025|Tianyi Gong et.al.|
