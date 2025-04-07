@@ -1,4 +1,4 @@
-## Updated at 2025-04-07 08:23:21
+## Updated at 2025-04-07 20:09:00
 
 ## MVS
 
@@ -361,6 +361,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-04-04**|**[RingMoE: Mixture-of-Modality-Experts Multi-Modal Foundation Models for Universal Remote Sensing Image Interpretation](http://arxiv.org/abs/2504.03166)**|None|None|None|Hanbo Bi et.al.|
 |**2025-04-02**|**[FreSca: Unveiling the Scaling Space in Diffusion Models](http://arxiv.org/abs/2504.02154)**|None|None|Project page: https://wikichao.github.io/FreSca/|Chao Huang et.al.|
 |**2025-04-02**|**[Toward Real-world BEV Perception: Depth Uncertainty Estimation via Gaussian Splatting](http://arxiv.org/abs/2504.01957)**|None|None|Accepted to CVPR'25. https://hcis-lab.github.io/GaussianLSS/|Shu-Wei Lu et.al.|
 |**2025-04-02**|**[DEPTHOR: Depth Enhancement from a Practical Light-Weight dToF Sensor and RGB Image](http://arxiv.org/abs/2504.01596)**|None|None|10 pages, 8 figures, 7 tables|Jijun Xiang et.al.|
