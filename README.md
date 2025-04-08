@@ -1,4 +1,4 @@
-## Updated at 2025-04-08 08:22:00
+## Updated at 2025-04-08 20:08:56
 
 ## MVS
 
@@ -361,6 +361,8 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-04-07**|**[Stereo-LiDAR Fusion by Semi-Global Matching With Discrete Disparity-Matching Cost and Semidensification](http://arxiv.org/abs/2504.05148)**|in IEEE Robotics and Automation Letters, vol. 10, no. 5, pp.   4548-4555, May 2025|**[link](https://github.com/yshry/libSGM_lidar)**|8 pages, 8 figures, 7 tables|Yasuhiro Yao et.al.|
+|**2025-04-04**|**[3D Scene Understanding Through Local Random Access Sequence Modeling](http://arxiv.org/abs/2504.03875)**|None|None|Project webpage: https://neuroailab.github.io/projects/lras_3d/|Wanhee Lee et.al.|
 |**2025-04-04**|**[RingMoE: Mixture-of-Modality-Experts Multi-Modal Foundation Models for Universal Remote Sensing Image Interpretation](http://arxiv.org/abs/2504.03166)**|None|None|None|Hanbo Bi et.al.|
 |**2025-04-02**|**[FreSca: Unveiling the Scaling Space in Diffusion Models](http://arxiv.org/abs/2504.02154)**|None|None|Project page: https://wikichao.github.io/FreSca/|Chao Huang et.al.|
 |**2025-04-02**|**[Toward Real-world BEV Perception: Depth Uncertainty Estimation via Gaussian Splatting](http://arxiv.org/abs/2504.01957)**|None|None|Accepted to CVPR'25. https://hcis-lab.github.io/GaussianLSS/|Shu-Wei Lu et.al.|
