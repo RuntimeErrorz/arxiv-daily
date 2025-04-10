@@ -1,4 +1,4 @@
-## Updated at 2025-04-10 08:22:12
+## Updated at 2025-04-10 20:08:43
 
 ## MVS
 
@@ -361,6 +361,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-04-09**|**[FlashDepth: Real-time Streaming Video Depth Estimation at 2K Resolution](http://arxiv.org/abs/2504.07093)**|None|None|None|Gene Chou et.al.|
 |**2025-04-07**|**[Stereo-LiDAR Fusion by Semi-Global Matching With Discrete Disparity-Matching Cost and Semidensification](http://arxiv.org/abs/2504.05148)**|in IEEE Robotics and Automation Letters, vol. 10, no. 5, pp.   4548-4555, May 2025|**[link](https://github.com/yshry/libSGM_lidar)**|8 pages, 8 figures, 7 tables|Yasuhiro Yao et.al.|
 |**2025-04-04**|**[3D Scene Understanding Through Local Random Access Sequence Modeling](http://arxiv.org/abs/2504.03875)**|None|None|Project webpage: https://neuroailab.github.io/projects/lras_3d/|Wanhee Lee et.al.|
 |**2025-04-04**|**[RingMoE: Mixture-of-Modality-Experts Multi-Modal Foundation Models for Universal Remote Sensing Image Interpretation](http://arxiv.org/abs/2504.03166)**|None|None|None|Hanbo Bi et.al.|
