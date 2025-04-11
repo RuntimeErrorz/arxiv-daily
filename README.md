@@ -1,4 +1,4 @@
-## Updated at 2025-04-11 08:22:42
+## Updated at 2025-04-11 20:08:48
 
 ## MVS
 
@@ -361,6 +361,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-04-10**|**[Geo4D: Leveraging Video Generators for Geometric 4D Scene Reconstruction](http://arxiv.org/abs/2504.07961)**|None|None|16 pages, 5 figures, Project page: https://geo4d.github.io/|Zeren Jiang et.al.|
 |**2025-04-09**|**[FlashDepth: Real-time Streaming Video Depth Estimation at 2K Resolution](http://arxiv.org/abs/2504.07093)**|None|None|None|Gene Chou et.al.|
 |**2025-04-07**|**[Stereo-LiDAR Fusion by Semi-Global Matching With Discrete Disparity-Matching Cost and Semidensification](http://arxiv.org/abs/2504.05148)**|in IEEE Robotics and Automation Letters, vol. 10, no. 5, pp.   4548-4555, May 2025|**[link](https://github.com/yshry/libSGM_lidar)**|8 pages, 8 figures, 7 tables|Yasuhiro Yao et.al.|
 |**2025-04-04**|**[3D Scene Understanding Through Local Random Access Sequence Modeling](http://arxiv.org/abs/2504.03875)**|None|None|Project webpage: https://neuroailab.github.io/projects/lras_3d/|Wanhee Lee et.al.|
