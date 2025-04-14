@@ -1,4 +1,4 @@
-## Updated at 2025-04-14 08:24:12
+## Updated at 2025-04-14 20:08:58
 
 ## MVS
 
@@ -361,6 +361,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-04-11**|**[Cut-and-Splat: Leveraging Gaussian Splatting for Synthetic Data Generation](http://arxiv.org/abs/2504.08473)**|None|None|Accepted at the International Conference on Robotics, Computer Vision   and Intelligent Systems 2025 (ROBOVIS)|Bram Vanherle et.al.|
 |**2025-04-10**|**[Geo4D: Leveraging Video Generators for Geometric 4D Scene Reconstruction](http://arxiv.org/abs/2504.07961)**|None|None|16 pages, 5 figures, Project page: https://geo4d.github.io/|Zeren Jiang et.al.|
 |**2025-04-09**|**[FlashDepth: Real-time Streaming Video Depth Estimation at 2K Resolution](http://arxiv.org/abs/2504.07093)**|None|None|None|Gene Chou et.al.|
 |**2025-04-07**|**[Stereo-LiDAR Fusion by Semi-Global Matching With Discrete Disparity-Matching Cost and Semidensification](http://arxiv.org/abs/2504.05148)**|in IEEE Robotics and Automation Letters, vol. 10, no. 5, pp.   4548-4555, May 2025|**[link](https://github.com/yshry/libSGM_lidar)**|8 pages, 8 figures, 7 tables|Yasuhiro Yao et.al.|
