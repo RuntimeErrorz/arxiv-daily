@@ -1,9 +1,10 @@
-## Updated at 2025-04-15 08:23:10
+## Updated at 2025-04-15 20:09:25
 
 ## MVS
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-04-14**|**[ESCT3D: Efficient and Selectively Controllable Text-Driven 3D Content Generation with Gaussian Splatting](http://arxiv.org/abs/2504.10316)**|None|None|None|Huiqi Wu et.al.|
 |**2025-03-31**|**[Detail-aware multi-view stereo network for depth estimation](http://arxiv.org/abs/2503.23684)**|None|None|None|Haitao Tian et.al.|
 |**2025-03-28**|**[MVSAnywhere: Zero-Shot Multi-View Stereo](http://arxiv.org/abs/2503.22430)**|None|None|CVPR 2025|Sergio Izquierdo et.al.|
 |**2025-03-27**|**[ICG-MVSNet: Learning Intra-view and Cross-view Relationships for Guidance in Multi-View Stereo](http://arxiv.org/abs/2503.21525)**|None|None|None|Yuxi Hu et.al.|
@@ -361,6 +362,8 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-04-13**|**[TextSplat: Text-Guided Semantic Fusion for Generalizable Gaussian Splatting](http://arxiv.org/abs/2504.09588)**|None|None|None|Zhicong Wu et.al.|
+|**2025-04-12**|**[Text To 3D Object Generation For Scalable Room Assembly](http://arxiv.org/abs/2504.09328)**|None|None|Published at the ICLR 2025 Workshop on Synthetic Data|Sonia Laguna et.al.|
 |**2025-04-11**|**[Cut-and-Splat: Leveraging Gaussian Splatting for Synthetic Data Generation](http://arxiv.org/abs/2504.08473)**|None|None|Accepted at the International Conference on Robotics, Computer Vision   and Intelligent Systems 2025 (ROBOVIS)|Bram Vanherle et.al.|
 |**2025-04-10**|**[Geo4D: Leveraging Video Generators for Geometric 4D Scene Reconstruction](http://arxiv.org/abs/2504.07961)**|None|None|16 pages, 5 figures, Project page: https://geo4d.github.io/|Zeren Jiang et.al.|
 |**2025-04-09**|**[FlashDepth: Real-time Streaming Video Depth Estimation at 2K Resolution](http://arxiv.org/abs/2504.07093)**|None|None|None|Gene Chou et.al.|
