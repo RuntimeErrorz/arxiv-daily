@@ -1,4 +1,4 @@
-## Updated at 2025-04-16 08:23:05
+## Updated at 2025-04-16 20:08:55
 
 ## MVS
 
@@ -362,6 +362,8 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-04-15**|**[Aligning Generative Denoising with Discriminative Objectives Unleashes Diffusion for Visual Perception](http://arxiv.org/abs/2504.11457)**|ICLR 2025|None|ICLR 2025|Ziqi Pang et.al.|
+|**2025-04-15**|**[DeepWheel: Generating a 3D Synthetic Wheel Dataset for Design and Performance Evaluation](http://arxiv.org/abs/2504.11347)**|None|None|28 pages, 18 figures. Not yet submitted to a journal or conference|Soyoung Yoo et.al.|
 |**2025-04-13**|**[TextSplat: Text-Guided Semantic Fusion for Generalizable Gaussian Splatting](http://arxiv.org/abs/2504.09588)**|None|None|None|Zhicong Wu et.al.|
 |**2025-04-12**|**[Text To 3D Object Generation For Scalable Room Assembly](http://arxiv.org/abs/2504.09328)**|None|None|Published at the ICLR 2025 Workshop on Synthetic Data|Sonia Laguna et.al.|
 |**2025-04-11**|**[Cut-and-Splat: Leveraging Gaussian Splatting for Synthetic Data Generation](http://arxiv.org/abs/2504.08473)**|None|**[link](https://github.com/edm-research/cut-and-splat)**|Accepted at the International Conference on Robotics, Computer Vision   and Intelligent Systems 2025 (ROBOVIS)|Bram Vanherle et.al.|
