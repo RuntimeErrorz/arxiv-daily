@@ -1,4 +1,4 @@
-## Updated at 2025-04-15 20:09:25
+## Updated at 2025-04-16 08:23:05
 
 ## MVS
 
@@ -364,7 +364,7 @@
 |---|---|---|---|---|---|
 |**2025-04-13**|**[TextSplat: Text-Guided Semantic Fusion for Generalizable Gaussian Splatting](http://arxiv.org/abs/2504.09588)**|None|None|None|Zhicong Wu et.al.|
 |**2025-04-12**|**[Text To 3D Object Generation For Scalable Room Assembly](http://arxiv.org/abs/2504.09328)**|None|None|Published at the ICLR 2025 Workshop on Synthetic Data|Sonia Laguna et.al.|
-|**2025-04-11**|**[Cut-and-Splat: Leveraging Gaussian Splatting for Synthetic Data Generation](http://arxiv.org/abs/2504.08473)**|None|None|Accepted at the International Conference on Robotics, Computer Vision   and Intelligent Systems 2025 (ROBOVIS)|Bram Vanherle et.al.|
+|**2025-04-11**|**[Cut-and-Splat: Leveraging Gaussian Splatting for Synthetic Data Generation](http://arxiv.org/abs/2504.08473)**|None|**[link](https://github.com/edm-research/cut-and-splat)**|Accepted at the International Conference on Robotics, Computer Vision   and Intelligent Systems 2025 (ROBOVIS)|Bram Vanherle et.al.|
 |**2025-04-10**|**[Geo4D: Leveraging Video Generators for Geometric 4D Scene Reconstruction](http://arxiv.org/abs/2504.07961)**|None|None|16 pages, 5 figures, Project page: https://geo4d.github.io/|Zeren Jiang et.al.|
 |**2025-04-09**|**[FlashDepth: Real-time Streaming Video Depth Estimation at 2K Resolution](http://arxiv.org/abs/2504.07093)**|None|None|None|Gene Chou et.al.|
 |**2025-04-07**|**[Stereo-LiDAR Fusion by Semi-Global Matching With Discrete Disparity-Matching Cost and Semidensification](http://arxiv.org/abs/2504.05148)**|in IEEE Robotics and Automation Letters, vol. 10, no. 5, pp.   4548-4555, May 2025|**[link](https://github.com/yshry/libSGM_lidar)**|8 pages, 8 figures, 7 tables|Yasuhiro Yao et.al.|
