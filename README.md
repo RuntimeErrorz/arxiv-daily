@@ -1,9 +1,10 @@
-## Updated at 2025-04-17 08:22:26
+## Updated at 2025-04-17 20:08:30
 
 ## MVS
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-04-16**|**[Boosting Multi-View Stereo with Depth Foundation Model in the Absence of Real-World Labels](http://arxiv.org/abs/2504.11845)**|None|None|None|Jie Zhu et.al.|
 |**2025-04-14**|**[ESCT3D: Efficient and Selectively Controllable Text-Driven 3D Content Generation with Gaussian Splatting](http://arxiv.org/abs/2504.10316)**|None|None|None|Huiqi Wu et.al.|
 |**2025-03-31**|**[Detail-aware multi-view stereo network for depth estimation](http://arxiv.org/abs/2503.23684)**|None|None|None|Haitao Tian et.al.|
 |**2025-03-28**|**[MVSAnywhere: Zero-Shot Multi-View Stereo](http://arxiv.org/abs/2503.22430)**|None|None|CVPR 2025|Sergio Izquierdo et.al.|
@@ -362,6 +363,8 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-04-16**|**[Metric-Solver: Sliding Anchored Metric Depth Estimation from a Single Image](http://arxiv.org/abs/2504.12103)**|None|None|Our project page: https://tele-ai.github.io/MetricSolver/|Tao Wen et.al.|
+|**2025-04-16**|**[TacoDepth: Towards Efficient Radar-Camera Depth Estimation with One-stage Fusion](http://arxiv.org/abs/2504.11773)**|None|None|Accepted by CVPR 2025 (Oral Presentation)|Yiran Wang et.al.|
 |**2025-04-15**|**[Aligning Generative Denoising with Discriminative Objectives Unleashes Diffusion for Visual Perception](http://arxiv.org/abs/2504.11457)**|ICLR 2025|None|ICLR 2025|Ziqi Pang et.al.|
 |**2025-04-15**|**[DeepWheel: Generating a 3D Synthetic Wheel Dataset for Design and Performance Evaluation](http://arxiv.org/abs/2504.11347)**|None|None|28 pages, 18 figures. Not yet submitted to a journal or conference|Soyoung Yoo et.al.|
 |**2025-04-13**|**[TextSplat: Text-Guided Semantic Fusion for Generalizable Gaussian Splatting](http://arxiv.org/abs/2504.09588)**|None|None|None|Zhicong Wu et.al.|
