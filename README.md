@@ -1,4 +1,4 @@
-## Updated at 2025-04-18 08:22:28
+## Updated at 2025-04-18 20:08:26
 
 ## MVS
 
@@ -363,6 +363,9 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-04-17**|**[Perception Encoder: The best visual embeddings are not at the output of the network](http://arxiv.org/abs/2504.13181)**|None|None|Initial Submission|Daniel Bolya et.al.|
+|**2025-04-17**|**[TSGS: Improving Gaussian Splatting for Transparent Surface Reconstruction via Normal and De-lighting Priors](http://arxiv.org/abs/2504.12799)**|None|None|Project page: https://longxiang-ai.github.io/TSGS/|Mingwei Li et.al.|
+|**2025-04-17**|**[Privacy-Preserving Operating Room Workflow Analysis using Digital Twins](http://arxiv.org/abs/2504.12552)**|None|None|None|Alejandra Perez et.al.|
 |**2025-04-16**|**[Metric-Solver: Sliding Anchored Metric Depth Estimation from a Single Image](http://arxiv.org/abs/2504.12103)**|None|None|Our project page: https://tele-ai.github.io/MetricSolver/|Tao Wen et.al.|
 |**2025-04-16**|**[TacoDepth: Towards Efficient Radar-Camera Depth Estimation with One-stage Fusion](http://arxiv.org/abs/2504.11773)**|None|None|Accepted by CVPR 2025 (Oral Presentation)|Yiran Wang et.al.|
 |**2025-04-15**|**[Aligning Generative Denoising with Discriminative Objectives Unleashes Diffusion for Visual Perception](http://arxiv.org/abs/2504.11457)**|ICLR 2025|None|ICLR 2025|Ziqi Pang et.al.|
