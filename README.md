@@ -1,9 +1,10 @@
-## Updated at 2025-04-23 08:22:35
+## Updated at 2025-04-23 20:08:58
 
 ## MVS
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-04-22**|**[DERD-Net: Learning Depth from Event-based Ray Densities](http://arxiv.org/abs/2504.15863)**|None|None|13 pages, 3 figures, 14 tables. Project page:   https://github.com/tub-rip/DERD-Net|Diego de Oliveira Hitzges et.al.|
 |**2025-04-16**|**[Boosting Multi-View Stereo with Depth Foundation Model in the Absence of Real-World Labels](http://arxiv.org/abs/2504.11845)**|None|None|None|Jie Zhu et.al.|
 |**2025-04-14**|**[ESCT3D: Efficient and Selectively Controllable Text-Driven 3D Content Generation with Gaussian Splatting](http://arxiv.org/abs/2504.10316)**|None|None|None|Huiqi Wu et.al.|
 |**2025-03-31**|**[Detail-aware multi-view stereo network for depth estimation](http://arxiv.org/abs/2503.23684)**|None|None|None|Haitao Tian et.al.|
@@ -363,6 +364,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-04-22**|**[DERD-Net: Learning Depth from Event-based Ray Densities](http://arxiv.org/abs/2504.15863)**|None|None|13 pages, 3 figures, 14 tables. Project page:   https://github.com/tub-rip/DERD-Net|Diego de Oliveira Hitzges et.al.|
 |**2025-04-21**|**[VistaDepth: Frequency Modulation With Bias Reweighting For Enhanced Long-Range Depth Estimation](http://arxiv.org/abs/2504.15095)**|None|None|8 pages, 6 figures, 4 tables|Mingxia Zhan et.al.|
 |**2025-04-20**|**[Seurat: From Moving Points to Depth](http://arxiv.org/abs/2504.14687)**|None|**[link](https://github.com/cvlab-kaist/seurat)**|CVPR 2025 Highlight. Project page: https://seurat-cvpr.github.io|Seokju Cho et.al.|
 |**2025-04-18**|**[Occlusion-Ordered Semantic Instance Segmentation](http://arxiv.org/abs/2504.14054)**|None|None|None|Soroosh Baselizadeh et.al.|
