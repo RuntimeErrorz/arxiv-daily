@@ -1,4 +1,4 @@
-## Updated at 2025-04-22 20:08:41
+## Updated at 2025-04-23 08:22:35
 
 ## MVS
 
@@ -364,7 +364,7 @@
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
 |**2025-04-21**|**[VistaDepth: Frequency Modulation With Bias Reweighting For Enhanced Long-Range Depth Estimation](http://arxiv.org/abs/2504.15095)**|None|None|8 pages, 6 figures, 4 tables|Mingxia Zhan et.al.|
-|**2025-04-20**|**[Seurat: From Moving Points to Depth](http://arxiv.org/abs/2504.14687)**|None|None|CVPR 2025 Highlight. Project page: https://seurat-cvpr.github.io|Seokju Cho et.al.|
+|**2025-04-20**|**[Seurat: From Moving Points to Depth](http://arxiv.org/abs/2504.14687)**|None|**[link](https://github.com/cvlab-kaist/seurat)**|CVPR 2025 Highlight. Project page: https://seurat-cvpr.github.io|Seokju Cho et.al.|
 |**2025-04-18**|**[Occlusion-Ordered Semantic Instance Segmentation](http://arxiv.org/abs/2504.14054)**|None|None|None|Soroosh Baselizadeh et.al.|
 |**2025-04-17**|**[Perception Encoder: The best visual embeddings are not at the output of the network](http://arxiv.org/abs/2504.13181)**|None|None|Initial Submission|Daniel Bolya et.al.|
 |**2025-04-17**|**[TSGS: Improving Gaussian Splatting for Transparent Surface Reconstruction via Normal and De-lighting Priors](http://arxiv.org/abs/2504.12799)**|None|None|Project page: https://longxiang-ai.github.io/TSGS/|Mingwei Li et.al.|
