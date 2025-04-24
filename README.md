@@ -1,4 +1,4 @@
-## Updated at 2025-04-24 08:22:38
+## Updated at 2025-04-24 20:08:54
 
 ## MVS
 
@@ -364,6 +364,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-04-21**|**[MonoTher-Depth: Enhancing Thermal Depth Estimation via Confidence-Aware Distillation](http://arxiv.org/abs/2504.16127)**|IEEE Robotics and Automation Letters (RA-L), 2025|None|8 Pages; The code will be available at   https://github.com/ZuoJiaxing/monother_depth|Xingxing Zuo et.al.|
 |**2025-04-22**|**[DERD-Net: Learning Depth from Event-based Ray Densities](http://arxiv.org/abs/2504.15863)**|None|None|13 pages, 3 figures, 14 tables. Project page:   https://github.com/tub-rip/DERD-Net|Diego de Oliveira Hitzges et.al.|
 |**2025-04-21**|**[VistaDepth: Frequency Modulation With Bias Reweighting For Enhanced Long-Range Depth Estimation](http://arxiv.org/abs/2504.15095)**|None|None|8 pages, 6 figures, 4 tables|Mingxia Zhan et.al.|
 |**2025-04-20**|**[Seurat: From Moving Points to Depth](http://arxiv.org/abs/2504.14687)**|None|**[link](https://github.com/cvlab-kaist/seurat)**|CVPR 2025 Highlight. Project page: https://seurat-cvpr.github.io|Seokju Cho et.al.|
