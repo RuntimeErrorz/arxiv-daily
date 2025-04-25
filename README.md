@@ -1,4 +1,4 @@
-## Updated at 2025-04-25 08:23:27
+## Updated at 2025-04-25 20:08:53
 
 ## MVS
 
@@ -364,6 +364,9 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-04-24**|**[The Fourth Monocular Depth Estimation Challenge](http://arxiv.org/abs/2504.17787)**|None|None|To appear in CVPRW2025|Anton Obukhov et.al.|
+|**2025-04-24**|**[Occlusion-Aware Self-Supervised Monocular Depth Estimation for Weak-Texture Endoscopic Images](http://arxiv.org/abs/2504.17582)**|None|None|None|Zebo Huang et.al.|
+|**2025-04-23**|**[PPS-Ctrl: Controllable Sim-to-Real Translation for Colonoscopy Depth Estimation](http://arxiv.org/abs/2504.17067)**|None|None|None|Xinqi Xiong et.al.|
 |**2025-04-21**|**[MonoTher-Depth: Enhancing Thermal Depth Estimation via Confidence-Aware Distillation](http://arxiv.org/abs/2504.16127)**|IEEE Robotics and Automation Letters (RA-L), 2025|None|8 Pages; The code will be available at   https://github.com/ZuoJiaxing/monother_depth|Xingxing Zuo et.al.|
 |**2025-04-22**|**[DERD-Net: Learning Depth from Event-based Ray Densities](http://arxiv.org/abs/2504.15863)**|None|None|13 pages, 3 figures, 14 tables. Project page:   https://github.com/tub-rip/DERD-Net|Diego de Oliveira Hitzges et.al.|
 |**2025-04-21**|**[VistaDepth: Frequency Modulation With Bias Reweighting For Enhanced Long-Range Depth Estimation](http://arxiv.org/abs/2504.15095)**|None|None|8 pages, 6 figures, 4 tables|Mingxia Zhan et.al.|
