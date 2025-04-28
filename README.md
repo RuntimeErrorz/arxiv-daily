@@ -1,9 +1,10 @@
-## Updated at 2025-04-28 08:24:07
+## Updated at 2025-04-28 20:08:52
 
 ## MVS
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-04-25**|**[Dense Geometry Supervision for Underwater Depth Estimation](http://arxiv.org/abs/2504.18233)**|None|None|None|Wenxiang Gua et.al.|
 |**2025-04-22**|**[DERD-Net: Learning Depth from Event-based Ray Densities](http://arxiv.org/abs/2504.15863)**|None|None|13 pages, 3 figures, 14 tables. Project page:   https://github.com/tub-rip/DERD-Net|Diego de Oliveira Hitzges et.al.|
 |**2025-04-16**|**[Boosting Multi-View Stereo with Depth Foundation Model in the Absence of Real-World Labels](http://arxiv.org/abs/2504.11845)**|None|None|None|Jie Zhu et.al.|
 |**2025-04-14**|**[ESCT3D: Efficient and Selectively Controllable Text-Driven 3D Content Generation with Gaussian Splatting](http://arxiv.org/abs/2504.10316)**|None|None|None|Huiqi Wu et.al.|
@@ -364,6 +365,9 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-04-25**|**[LaRI: Layered Ray Intersections for Single-view 3D Geometric Reasoning](http://arxiv.org/abs/2504.18424)**|None|None|Project page: https://ruili3.github.io/lari|Rui Li et.al.|
+|**2025-04-25**|**[Dense Geometry Supervision for Underwater Depth Estimation](http://arxiv.org/abs/2504.18233)**|None|None|None|Wenxiang Gua et.al.|
+|**2025-04-25**|**[LiDAR-Guided Monocular 3D Object Detection for Long-Range Railway Monitoring](http://arxiv.org/abs/2504.18203)**|None|None|Accepted for the Data-Driven Learning for Intelligent Vehicle   Applications Workshop at the 36th IEEE Intelligent Vehicles Symposium (IV)   2025|Raul David Dominguez Sanchez et.al.|
 |**2025-04-24**|**[The Fourth Monocular Depth Estimation Challenge](http://arxiv.org/abs/2504.17787)**|None|None|To appear in CVPRW2025|Anton Obukhov et.al.|
 |**2025-04-24**|**[Occlusion-Aware Self-Supervised Monocular Depth Estimation for Weak-Texture Endoscopic Images](http://arxiv.org/abs/2504.17582)**|None|None|None|Zebo Huang et.al.|
 |**2025-04-23**|**[PPS-Ctrl: Controllable Sim-to-Real Translation for Colonoscopy Depth Estimation](http://arxiv.org/abs/2504.17067)**|None|None|None|Xinqi Xiong et.al.|
