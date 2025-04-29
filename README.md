@@ -1,4 +1,4 @@
-## Updated at 2025-04-29 08:23:24
+## Updated at 2025-04-29 20:09:32
 
 ## MVS
 
@@ -365,6 +365,9 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-04-28**|**[Joint Optimization of Neural Radiance Fields and Continuous Camera Motion from a Monocular Video](http://arxiv.org/abs/2504.19819)**|None|None|None|Hoang Chuong Nguyen et.al.|
+|**2025-04-27**|**[Leveraging Multi-Modal Saliency and Fusion for Gaze Target Detection](http://arxiv.org/abs/2504.19271)**|None|None|accepted at NeurIPS 2023 Gaze Meets ML Workshop|Athul M. Mathew et.al.|
+|**2025-04-26**|**[Depth as Points: Center Point-based Depth Estimation](http://arxiv.org/abs/2504.18773)**|None|None|Depth Esitimation, Key-points, Virtual Datasets, Autonomous Driving|Zhiheng Tu et.al.|
 |**2025-04-25**|**[LaRI: Layered Ray Intersections for Single-view 3D Geometric Reasoning](http://arxiv.org/abs/2504.18424)**|None|None|Project page: https://ruili3.github.io/lari|Rui Li et.al.|
 |**2025-04-25**|**[Dense Geometry Supervision for Underwater Depth Estimation](http://arxiv.org/abs/2504.18233)**|None|None|None|Wenxiang Gua et.al.|
 |**2025-04-25**|**[LiDAR-Guided Monocular 3D Object Detection for Long-Range Railway Monitoring](http://arxiv.org/abs/2504.18203)**|None|None|Accepted for the Data-Driven Learning for Intelligent Vehicle   Applications Workshop at the 36th IEEE Intelligent Vehicles Symposium (IV)   2025|Raul David Dominguez Sanchez et.al.|
