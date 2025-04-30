@@ -1,9 +1,10 @@
-## Updated at 2025-04-30 08:23:15
+## Updated at 2025-04-30 20:08:42
 
 ## MVS
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-04-29**|**[Sparse2DGS: Geometry-Prioritized Gaussian Splatting for Surface Reconstruction from Sparse Views](http://arxiv.org/abs/2504.20378)**|None|None|CVPR 2025|Jiang Wu et.al.|
 |**2025-04-25**|**[Dense Geometry Supervision for Underwater Depth Estimation](http://arxiv.org/abs/2504.18233)**|None|None|None|Wenxiang Gua et.al.|
 |**2025-04-22**|**[DERD-Net: Learning Depth from Event-based Ray Densities](http://arxiv.org/abs/2504.15863)**|None|None|13 pages, 3 figures, 14 tables. Project page:   https://github.com/tub-rip/DERD-Net|Diego de Oliveira Hitzges et.al.|
 |**2025-04-16**|**[Boosting Multi-View Stereo with Depth Foundation Model in the Absence of Real-World Labels](http://arxiv.org/abs/2504.11845)**|None|None|None|Jie Zhu et.al.|
@@ -365,6 +366,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-04-29**|**[Large-scale visual SLAM for in-the-wild videos](http://arxiv.org/abs/2504.20496)**|None|None|fix the overview figure|Shuo Sun et.al.|
 |**2025-04-28**|**[Joint Optimization of Neural Radiance Fields and Continuous Camera Motion from a Monocular Video](http://arxiv.org/abs/2504.19819)**|None|None|None|Hoang Chuong Nguyen et.al.|
 |**2025-04-27**|**[Leveraging Multi-Modal Saliency and Fusion for Gaze Target Detection](http://arxiv.org/abs/2504.19271)**|None|None|accepted at NeurIPS 2023 Gaze Meets ML Workshop|Athul M. Mathew et.al.|
 |**2025-04-26**|**[Depth as Points: Center Point-based Depth Estimation](http://arxiv.org/abs/2504.18773)**|None|None|Depth Esitimation, Key-points, Virtual Datasets, Autonomous Driving|Zhiheng Tu et.al.|
