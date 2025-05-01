@@ -1,4 +1,4 @@
-## Updated at 2025-05-01 08:25:51
+## Updated at 2025-05-01 20:08:46
 
 ## MVS
 
@@ -366,6 +366,8 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-04-30**|**[HoloTime: Taming Video Diffusion Models for Panoramic 4D Scene Generation](http://arxiv.org/abs/2504.21650)**|None|None|Project homepage: https://zhouhyocean.github.io/holotime/|Haiyang Zhou et.al.|
+|**2025-04-30**|**[eNCApsulate: NCA for Precision Diagnosis on Capsule Endoscopes](http://arxiv.org/abs/2504.21562)**|None|None|None|Henry John Krumb et.al.|
 |**2025-04-29**|**[Large-scale visual SLAM for in-the-wild videos](http://arxiv.org/abs/2504.20496)**|None|None|fix the overview figure|Shuo Sun et.al.|
 |**2025-04-28**|**[Joint Optimization of Neural Radiance Fields and Continuous Camera Motion from a Monocular Video](http://arxiv.org/abs/2504.19819)**|None|None|None|Hoang Chuong Nguyen et.al.|
 |**2025-04-27**|**[Leveraging Multi-Modal Saliency and Fusion for Gaze Target Detection](http://arxiv.org/abs/2504.19271)**|None|None|accepted at NeurIPS 2023 Gaze Meets ML Workshop|Athul M. Mathew et.al.|
