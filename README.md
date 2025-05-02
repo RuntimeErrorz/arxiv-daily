@@ -1,4 +1,4 @@
-## Updated at 2025-05-02 08:23:12
+## Updated at 2025-05-02 20:08:45
 
 ## MVS
 
@@ -366,6 +366,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-05-01**|**[JointDiT: Enhancing RGB-Depth Joint Modeling with Diffusion Transformers](http://arxiv.org/abs/2505.00482)**|None|None|None|Kwon Byung-Ki et.al.|
 |**2025-04-30**|**[HoloTime: Taming Video Diffusion Models for Panoramic 4D Scene Generation](http://arxiv.org/abs/2504.21650)**|None|None|Project homepage: https://zhouhyocean.github.io/holotime/|Haiyang Zhou et.al.|
 |**2025-04-30**|**[eNCApsulate: NCA for Precision Diagnosis on Capsule Endoscopes](http://arxiv.org/abs/2504.21562)**|None|None|None|Henry John Krumb et.al.|
 |**2025-04-29**|**[Large-scale visual SLAM for in-the-wild videos](http://arxiv.org/abs/2504.20496)**|None|None|fix the overview figure|Shuo Sun et.al.|
