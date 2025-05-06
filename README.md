@@ -1,9 +1,11 @@
-## Updated at 2025-05-06 08:23:22
+## Updated at 2025-05-06 20:10:00
 
 ## MVS
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-05-04**|**[SparSplat: Fast Multi-View Reconstruction with Generalizable 2D Gaussian Splatting](http://arxiv.org/abs/2505.02175)**|None|None|Project page : https://shubhendu-jena.github.io/SparSplat/|Shubhendu Jena et.al.|
+|**2025-05-03**|**[AquaGS: Fast Underwater Scene Reconstruction with SfM-Free Gaussian Splatting](http://arxiv.org/abs/2505.01799)**|None|None|None|Junhao Shi et.al.|
 |**2025-04-29**|**[Sparse2DGS: Geometry-Prioritized Gaussian Splatting for Surface Reconstruction from Sparse Views](http://arxiv.org/abs/2504.20378)**|None|None|CVPR 2025|Jiang Wu et.al.|
 |**2025-04-25**|**[Dense Geometry Supervision for Underwater Depth Estimation](http://arxiv.org/abs/2504.18233)**|None|None|None|Wenxiang Gua et.al.|
 |**2025-04-22**|**[DERD-Net: Learning Depth from Event-based Ray Densities](http://arxiv.org/abs/2504.15863)**|None|None|13 pages, 3 figures, 14 tables. Project page:   https://github.com/tub-rip/DERD-Net|Diego de Oliveira Hitzges et.al.|
@@ -366,6 +368,9 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-05-05**|**[Visually-Guided Linguistic Disambiguation for Monocular Depth Scale Recovery](http://arxiv.org/abs/2505.02704)**|None|None|21 pages, conference|Bojin Wu et.al.|
+|**2025-05-05**|**[DELTA: Dense Depth from Events and LiDAR using Transformer's Attention](http://arxiv.org/abs/2505.02593)**|None|None|Accepted for the CVPR 2025 Workshop on Event-based Vision. For the   project page, see https://vbrebion.github.io/DELTA/|Vincent Brebion et.al.|
+|**2025-05-03**|**[PosePilot: Steering Camera Pose for Generative World Models with Self-supervised Depth](http://arxiv.org/abs/2505.01729)**|None|None|8 pages, 3 figures|Bu Jin et.al.|
 |**2025-05-02**|**[LMDepth: Lightweight Mamba-based Monocular Depth Estimation for Real-World Deployment](http://arxiv.org/abs/2505.00980)**|None|None|None|Jiahuan Long et.al.|
 |**2025-05-01**|**[JointDiT: Enhancing RGB-Depth Joint Modeling with Diffusion Transformers](http://arxiv.org/abs/2505.00482)**|None|None|None|Kwon Byung-Ki et.al.|
 |**2025-04-30**|**[HoloTime: Taming Video Diffusion Models for Panoramic 4D Scene Generation](http://arxiv.org/abs/2504.21650)**|None|None|Project homepage: https://zhouhyocean.github.io/holotime/|Haiyang Zhou et.al.|
