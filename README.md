@@ -1,4 +1,4 @@
-## Updated at 2025-05-06 20:10:00
+## Updated at 2025-05-07 08:23:38
 
 ## MVS
 
@@ -368,7 +368,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
-|**2025-05-05**|**[Visually-Guided Linguistic Disambiguation for Monocular Depth Scale Recovery](http://arxiv.org/abs/2505.02704)**|None|None|21 pages, conference|Bojin Wu et.al.|
+|**2025-05-05**|**[VGLD: Visually-Guided Linguistic Disambiguation for Monocular Depth Scale Recovery](http://arxiv.org/abs/2505.02704)**|None|None|21 pages, conference|Bojin Wu et.al.|
 |**2025-05-05**|**[DELTA: Dense Depth from Events and LiDAR using Transformer's Attention](http://arxiv.org/abs/2505.02593)**|None|None|Accepted for the CVPR 2025 Workshop on Event-based Vision. For the   project page, see https://vbrebion.github.io/DELTA/|Vincent Brebion et.al.|
 |**2025-05-03**|**[PosePilot: Steering Camera Pose for Generative World Models with Self-supervised Depth](http://arxiv.org/abs/2505.01729)**|None|None|8 pages, 3 figures|Bu Jin et.al.|
 |**2025-05-02**|**[LMDepth: Lightweight Mamba-based Monocular Depth Estimation for Real-World Deployment](http://arxiv.org/abs/2505.00980)**|None|None|None|Jiahuan Long et.al.|
