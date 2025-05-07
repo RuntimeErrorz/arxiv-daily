@@ -1,9 +1,10 @@
-## Updated at 2025-05-07 08:23:38
+## Updated at 2025-05-07 20:09:33
 
 ## MVS
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-05-06**|**[Blending 3D Geometry and Machine Learning for Multi-View Stereopsis](http://arxiv.org/abs/2505.03470)**|None|**[link](https://github.com/vkvats/GC-MVSNet-PlusPlus)**|A pre-print -- paper under-review. arXiv admin note: substantial text   overlap with arXiv:2310.19583|Vibhas Vats et.al.|
 |**2025-05-04**|**[SparSplat: Fast Multi-View Reconstruction with Generalizable 2D Gaussian Splatting](http://arxiv.org/abs/2505.02175)**|None|None|Project page : https://shubhendu-jena.github.io/SparSplat/|Shubhendu Jena et.al.|
 |**2025-05-03**|**[AquaGS: Fast Underwater Scene Reconstruction with SfM-Free Gaussian Splatting](http://arxiv.org/abs/2505.01799)**|None|None|None|Junhao Shi et.al.|
 |**2025-04-29**|**[Sparse2DGS: Geometry-Prioritized Gaussian Splatting for Surface Reconstruction from Sparse Views](http://arxiv.org/abs/2504.20378)**|None|None|CVPR 2025|Jiang Wu et.al.|
@@ -368,6 +369,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-05-06**|**[LiftFeat: 3D Geometry-Aware Local Feature Matching](http://arxiv.org/abs/2505.03422)**|None|None|Accepted at ICRA 2025|Yepeng Liu et.al.|
 |**2025-05-05**|**[VGLD: Visually-Guided Linguistic Disambiguation for Monocular Depth Scale Recovery](http://arxiv.org/abs/2505.02704)**|None|None|21 pages, conference|Bojin Wu et.al.|
 |**2025-05-05**|**[DELTA: Dense Depth from Events and LiDAR using Transformer's Attention](http://arxiv.org/abs/2505.02593)**|None|None|Accepted for the CVPR 2025 Workshop on Event-based Vision. For the   project page, see https://vbrebion.github.io/DELTA/|Vincent Brebion et.al.|
 |**2025-05-03**|**[PosePilot: Steering Camera Pose for Generative World Models with Self-supervised Depth](http://arxiv.org/abs/2505.01729)**|None|None|8 pages, 3 figures|Bu Jin et.al.|
