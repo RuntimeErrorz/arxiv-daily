@@ -1,4 +1,4 @@
-## Updated at 2025-05-12 08:25:14
+## Updated at 2025-05-12 20:09:19
 
 ## MVS
 
@@ -369,6 +369,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-05-09**|**[Camera-Only Bird's Eye View Perception: A Neural Approach to LiDAR-Free Environmental Mapping for Autonomous Vehicles](http://arxiv.org/abs/2505.06113)**|None|None|None|Anupkumar Bochare et.al.|
 |**2025-05-07**|**[MonoCoP: Chain-of-Prediction for Monocular 3D Object Detection](http://arxiv.org/abs/2505.04594)**|None|None|None|Zhihao Zhang et.al.|
 |**2025-05-06**|**[LiftFeat: 3D Geometry-Aware Local Feature Matching](http://arxiv.org/abs/2505.03422)**|None|**[link](https://github.com/lyp-deeplearning/liftfeat)**|Accepted at ICRA 2025|Yepeng Liu et.al.|
 |**2025-05-05**|**[VGLD: Visually-Guided Linguistic Disambiguation for Monocular Depth Scale Recovery](http://arxiv.org/abs/2505.02704)**|None|**[link](https://github.com/pakinwu/vgld)**|21 pages, conference|Bojin Wu et.al.|
