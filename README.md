@@ -1,9 +1,10 @@
-## Updated at 2025-05-13 08:23:31
+## Updated at 2025-05-13 20:09:19
 
 ## MVS
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-05-11**|**[Enhancing Monocular Height Estimation via Sparse LiDAR-Guided Correction](http://arxiv.org/abs/2505.06905)**|None|None|None|Jian Song et.al.|
 |**2025-05-06**|**[Blending 3D Geometry and Machine Learning for Multi-View Stereopsis](http://arxiv.org/abs/2505.03470)**|None|**[link](https://github.com/vkvats/GC-MVSNet-PlusPlus)**|A pre-print -- paper under-review. arXiv admin note: substantial text   overlap with arXiv:2310.19583|Vibhas Vats et.al.|
 |**2025-05-04**|**[SparSplat: Fast Multi-View Reconstruction with Generalizable 2D Gaussian Splatting](http://arxiv.org/abs/2505.02175)**|None|None|Project page : https://shubhendu-jena.github.io/SparSplat/|Shubhendu Jena et.al.|
 |**2025-05-03**|**[AquaGS: Fast Underwater Scene Reconstruction with SfM-Free Gaussian Splatting](http://arxiv.org/abs/2505.01799)**|None|None|None|Junhao Shi et.al.|
@@ -369,6 +370,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-05-10**|**[ElectricSight: 3D Hazard Monitoring for Power Lines Using Low-Cost Sensors](http://arxiv.org/abs/2505.06573)**|None|None|None|Xingchen Li et.al.|
 |**2025-05-09**|**[Camera-Only Bird's Eye View Perception: A Neural Approach to LiDAR-Free Environmental Mapping for Autonomous Vehicles](http://arxiv.org/abs/2505.06113)**|None|None|None|Anupkumar Bochare et.al.|
 |**2025-05-07**|**[MonoCoP: Chain-of-Prediction for Monocular 3D Object Detection](http://arxiv.org/abs/2505.04594)**|None|None|None|Zhihao Zhang et.al.|
 |**2025-05-06**|**[LiftFeat: 3D Geometry-Aware Local Feature Matching](http://arxiv.org/abs/2505.03422)**|None|**[link](https://github.com/lyp-deeplearning/liftfeat)**|Accepted at ICRA 2025|Yepeng Liu et.al.|
