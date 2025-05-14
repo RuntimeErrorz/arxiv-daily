@@ -1,4 +1,4 @@
-## Updated at 2025-05-14 08:23:54
+## Updated at 2025-05-14 20:09:07
 
 ## MVS
 
@@ -370,6 +370,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-05-13**|**[Boosting Zero-shot Stereo Matching using Large-scale Mixed Images Sources in the Real World](http://arxiv.org/abs/2505.08607)**|None|None|None|Yuran Wang et.al.|
 |**2025-05-10**|**[ElectricSight: 3D Hazard Monitoring for Power Lines Using Low-Cost Sensors](http://arxiv.org/abs/2505.06573)**|None|None|None|Xingchen Li et.al.|
 |**2025-05-09**|**[Camera-Only Bird's Eye View Perception: A Neural Approach to LiDAR-Free Environmental Mapping for Autonomous Vehicles](http://arxiv.org/abs/2505.06113)**|None|None|None|Anupkumar Bochare et.al.|
 |**2025-05-07**|**[MonoCoP: Chain-of-Prediction for Monocular 3D Object Detection](http://arxiv.org/abs/2505.04594)**|None|None|None|Zhihao Zhang et.al.|
