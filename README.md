@@ -1,4 +1,4 @@
-## Updated at 2025-05-15 08:22:45
+## Updated at 2025-05-15 20:09:04
 
 ## MVS
 
@@ -370,6 +370,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-05-14**|**[Marigold: Affordable Adaptation of Diffusion-Based Image Generators for Image Analysis](http://arxiv.org/abs/2505.09358)**|None|None|Journal extension of our CVPR 2024 paper, featuring new tasks,   improved efficiency, high-resolution capabilities, and enhanced accessibility|Bingxin Ke et.al.|
 |**2025-05-13**|**[Boosting Zero-shot Stereo Matching using Large-scale Mixed Images Sources in the Real World](http://arxiv.org/abs/2505.08607)**|None|None|None|Yuran Wang et.al.|
 |**2025-05-10**|**[ElectricSight: 3D Hazard Monitoring for Power Lines Using Low-Cost Sensors](http://arxiv.org/abs/2505.06573)**|None|None|None|Xingchen Li et.al.|
 |**2025-05-09**|**[Camera-Only Bird's Eye View Perception: A Neural Approach to LiDAR-Free Environmental Mapping for Autonomous Vehicles](http://arxiv.org/abs/2505.06113)**|None|None|None|Anupkumar Bochare et.al.|
