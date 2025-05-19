@@ -1,4 +1,4 @@
-## Updated at 2025-05-19 08:25:38
+## Updated at 2025-05-19 20:09:35
 
 ## MVS
 
@@ -370,6 +370,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-05-16**|**[SurgPose: Generalisable Surgical Instrument Pose Estimation using Zero-Shot Learning and Stereo Vision](http://arxiv.org/abs/2505.11439)**|None|None|To be published in 2025 International Conference on Robotics and   Automation (ICRA)|Utsav Rai et.al.|
 |**2025-05-15**|**[Depth Anything with Any Prior](http://arxiv.org/abs/2505.10565)**|None|None|Home page: https://prior-depth-anything.github.io/|Zehan Wang et.al.|
 |**2025-05-14**|**[Marigold: Affordable Adaptation of Diffusion-Based Image Generators for Image Analysis](http://arxiv.org/abs/2505.09358)**|None|**[link](https://github.com/prs-eth/marigold)**|Journal extension of our CVPR 2024 paper, featuring new tasks,   improved efficiency, high-resolution capabilities, and enhanced accessibility|Bingxin Ke et.al.|
 |**2025-05-13**|**[Boosting Zero-shot Stereo Matching using Large-scale Mixed Images Sources in the Real World](http://arxiv.org/abs/2505.08607)**|None|None|None|Yuran Wang et.al.|
