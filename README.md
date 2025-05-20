@@ -1,9 +1,11 @@
-## Updated at 2025-05-20 08:24:30
+## Updated at 2025-05-20 20:09:21
 
 ## MVS
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-05-19**|**[3D Visual Illusion Depth Estimation](http://arxiv.org/abs/2505.13061)**|None|**[link](https://github.com/yaochengtang/3d-visual-illusion-depth-estimation)**|Project:   https://github.com/YaoChengTang/3D-Visual-Illusion-Depth-Estimation|CHengtang Yao et.al.|
+|**2025-05-19**|**[IA-MVS: Instance-Focused Adaptive Depth Sampling for Multi-View Stereo](http://arxiv.org/abs/2505.12714)**|None|None|None|Yinzhe Wang et.al.|
 |**2025-05-11**|**[Enhancing Monocular Height Estimation via Sparse LiDAR-Guided Correction](http://arxiv.org/abs/2505.06905)**|None|None|None|Jian Song et.al.|
 |**2025-05-06**|**[Blending 3D Geometry and Machine Learning for Multi-View Stereopsis](http://arxiv.org/abs/2505.03470)**|None|**[link](https://github.com/vkvats/GC-MVSNet-PlusPlus)**|A pre-print -- paper under-review. arXiv admin note: substantial text   overlap with arXiv:2310.19583|Vibhas Vats et.al.|
 |**2025-05-04**|**[SparSplat: Fast Multi-View Reconstruction with Generalizable 2D Gaussian Splatting](http://arxiv.org/abs/2505.02175)**|None|None|Project page : https://shubhendu-jena.github.io/SparSplat/|Shubhendu Jena et.al.|
@@ -370,6 +372,12 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-05-19**|**[Event-Driven Dynamic Scene Depth Completion](http://arxiv.org/abs/2505.13279)**|None|None|9 pages|Zhiqiang Yan et.al.|
+|**2025-05-19**|**[DB3D-L: Depth-aware BEV Feature Transformation for Accurate 3D Lane Detection](http://arxiv.org/abs/2505.13266)**|None|None|None|Yehao Liu et.al.|
+|**2025-05-19**|**[3D Visual Illusion Depth Estimation](http://arxiv.org/abs/2505.13061)**|None|**[link](https://github.com/yaochengtang/3d-visual-illusion-depth-estimation)**|Project:   https://github.com/YaoChengTang/3D-Visual-Illusion-Depth-Estimation|CHengtang Yao et.al.|
+|**2025-05-19**|**[IA-MVS: Instance-Focused Adaptive Depth Sampling for Multi-View Stereo](http://arxiv.org/abs/2505.12714)**|None|None|None|Yinzhe Wang et.al.|
+|**2025-05-18**|**[Always Clear Depth: Robust Monocular Depth Estimation under Adverse Weather](http://arxiv.org/abs/2505.12199)**|None|**[link](https://github.com/msscao/acdepth)**|None|Kui Jiang et.al.|
+|**2025-05-17**|**[MonoMobility: Zero-Shot 3D Mobility Analysis from Monocular Videos](http://arxiv.org/abs/2505.11868)**|None|None|None|Hongyi Zhou et.al.|
 |**2025-05-16**|**[SurgPose: Generalisable Surgical Instrument Pose Estimation using Zero-Shot Learning and Stereo Vision](http://arxiv.org/abs/2505.11439)**|None|None|To be published in 2025 International Conference on Robotics and   Automation (ICRA)|Utsav Rai et.al.|
 |**2025-05-15**|**[Depth Anything with Any Prior](http://arxiv.org/abs/2505.10565)**|None|None|Home page: https://prior-depth-anything.github.io/|Zehan Wang et.al.|
 |**2025-05-14**|**[Marigold: Affordable Adaptation of Diffusion-Based Image Generators for Image Analysis](http://arxiv.org/abs/2505.09358)**|None|**[link](https://github.com/prs-eth/marigold)**|Journal extension of our CVPR 2024 paper, featuring new tasks,   improved efficiency, high-resolution capabilities, and enhanced accessibility|Bingxin Ke et.al.|
