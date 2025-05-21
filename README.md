@@ -1,10 +1,10 @@
-## Updated at 2025-05-21 08:24:16
+## Updated at 2025-05-21 20:09:25
 
 ## MVS
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
-|**2025-05-19**|**[3D Visual Illusion Depth Estimation](http://arxiv.org/abs/2505.13061)**|None|**[link](https://github.com/yaochengtang/3d-visual-illusion-depth-estimation)**|Project:   https://github.com/YaoChengTang/3D-Visual-Illusion-Depth-Estimation|CHengtang Yao et.al.|
+|**2025-05-19**|**[3D Visual Illusion Depth Estimation](http://arxiv.org/abs/2505.13061)**|None|**[link](https://github.com/yaochengtang/3d-visual-illusion-depth-estimation)**|Project:   https://github.com/YaoChengTang/3D-Visual-Illusion-Depth-Estimation|Chengtang Yao et.al.|
 |**2025-05-19**|**[IA-MVS: Instance-Focused Adaptive Depth Sampling for Multi-View Stereo](http://arxiv.org/abs/2505.12714)**|None|None|None|Yinzhe Wang et.al.|
 |**2025-05-11**|**[Enhancing Monocular Height Estimation via Sparse LiDAR-Guided Correction](http://arxiv.org/abs/2505.06905)**|None|None|None|Jian Song et.al.|
 |**2025-05-06**|**[Blending 3D Geometry and Machine Learning for Multi-View Stereopsis](http://arxiv.org/abs/2505.03470)**|None|**[link](https://github.com/vkvats/GC-MVSNet-PlusPlus)**|A pre-print -- paper under-review. arXiv admin note: substantial text   overlap with arXiv:2310.19583|Vibhas Vats et.al.|
@@ -372,9 +372,11 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-05-20**|**[M3Depth: Wavelet-Enhanced Depth Estimation on Mars via Mutual Boosting of Dual-Modal Data](http://arxiv.org/abs/2505.14159)**|None|None|None|Junjie Li et.al.|
+|**2025-05-20**|**[Multi-Label Stereo Matching for Transparent Scene Depth Estimation](http://arxiv.org/abs/2505.14008)**|None|None|None|Zhidan Liu et.al.|
 |**2025-05-19**|**[Event-Driven Dynamic Scene Depth Completion](http://arxiv.org/abs/2505.13279)**|None|None|9 pages|Zhiqiang Yan et.al.|
 |**2025-05-19**|**[DB3D-L: Depth-aware BEV Feature Transformation for Accurate 3D Lane Detection](http://arxiv.org/abs/2505.13266)**|None|None|None|Yehao Liu et.al.|
-|**2025-05-19**|**[3D Visual Illusion Depth Estimation](http://arxiv.org/abs/2505.13061)**|None|**[link](https://github.com/yaochengtang/3d-visual-illusion-depth-estimation)**|Project:   https://github.com/YaoChengTang/3D-Visual-Illusion-Depth-Estimation|CHengtang Yao et.al.|
+|**2025-05-19**|**[3D Visual Illusion Depth Estimation](http://arxiv.org/abs/2505.13061)**|None|**[link](https://github.com/yaochengtang/3d-visual-illusion-depth-estimation)**|Project:   https://github.com/YaoChengTang/3D-Visual-Illusion-Depth-Estimation|Chengtang Yao et.al.|
 |**2025-05-19**|**[IA-MVS: Instance-Focused Adaptive Depth Sampling for Multi-View Stereo](http://arxiv.org/abs/2505.12714)**|None|None|None|Yinzhe Wang et.al.|
 |**2025-05-18**|**[Always Clear Depth: Robust Monocular Depth Estimation under Adverse Weather](http://arxiv.org/abs/2505.12199)**|None|**[link](https://github.com/msscao/acdepth)**|None|Kui Jiang et.al.|
 |**2025-05-17**|**[MonoMobility: Zero-Shot 3D Mobility Analysis from Monocular Videos](http://arxiv.org/abs/2505.11868)**|None|None|None|Hongyi Zhou et.al.|
