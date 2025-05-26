@@ -1,4 +1,4 @@
-## Updated at 2025-05-26 08:24:29
+## Updated at 2025-05-26 20:09:11
 
 ## MVS
 
@@ -372,6 +372,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-05-23**|**[Repurposing Marigold for Zero-Shot Metric Depth Estimation via Defocus Blur Cues](http://arxiv.org/abs/2505.17358)**|None|None|None|Chinmay Talegaonkar et.al.|
 |**2025-05-22**|**[MEgoHand: Multimodal Egocentric Hand-Object Interaction Motion Generation](http://arxiv.org/abs/2505.16602)**|None|None|None|Bohan Zhou et.al.|
 |**2025-05-22**|**[BadDepth: Backdoor Attacks Against Monocular Depth Estimation in the Physical World](http://arxiv.org/abs/2505.16154)**|None|None|None|Ji Guo et.al.|
 |**2025-05-20**|**[M3Depth: Wavelet-Enhanced Depth Estimation on Mars via Mutual Boosting of Dual-Modal Data](http://arxiv.org/abs/2505.14159)**|None|None|None|Junjie Li et.al.|
