@@ -1,4 +1,4 @@
-## Updated at 2025-05-27 08:23:43
+## Updated at 2025-05-27 20:09:33
 
 ## MVS
 
@@ -372,6 +372,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-05-26**|**[SpikeStereoNet: A Brain-Inspired Framework for Stereo Depth Estimation from Spike Streams](http://arxiv.org/abs/2505.19487)**|None|None|None|Zhuoheng Gao et.al.|
 |**2025-05-23**|**[Repurposing Marigold for Zero-Shot Metric Depth Estimation via Defocus Blur Cues](http://arxiv.org/abs/2505.17358)**|None|None|None|Chinmay Talegaonkar et.al.|
 |**2025-05-22**|**[MEgoHand: Multimodal Egocentric Hand-Object Interaction Motion Generation](http://arxiv.org/abs/2505.16602)**|None|None|None|Bohan Zhou et.al.|
 |**2025-05-22**|**[BadDepth: Backdoor Attacks Against Monocular Depth Estimation in the Physical World](http://arxiv.org/abs/2505.16154)**|None|None|None|Ji Guo et.al.|
