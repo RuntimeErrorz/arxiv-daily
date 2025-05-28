@@ -1,4 +1,4 @@
-## Updated at 2025-05-28 08:24:12
+## Updated at 2025-05-28 20:09:50
 
 ## MVS
 
@@ -372,6 +372,8 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-05-27**|**[Occlusion Boundary and Depth: Mutual Enhancement via Multi-Task Learning](http://arxiv.org/abs/2505.21231)**|None|None|7 pages, 4 tables, 4 figures|Lintao Xu et.al.|
+|**2025-05-27**|**[Robust Video-Based Pothole Detection and Area Estimation for Intelligent Vehicles with Depth Map and Kalman Smoothing](http://arxiv.org/abs/2505.21049)**|None|None|None|Dehao Wang et.al.|
 |**2025-05-26**|**[SpikeStereoNet: A Brain-Inspired Framework for Stereo Depth Estimation from Spike Streams](http://arxiv.org/abs/2505.19487)**|None|None|None|Zhuoheng Gao et.al.|
 |**2025-05-23**|**[Repurposing Marigold for Zero-Shot Metric Depth Estimation via Defocus Blur Cues](http://arxiv.org/abs/2505.17358)**|None|None|None|Chinmay Talegaonkar et.al.|
 |**2025-05-22**|**[MEgoHand: Multimodal Egocentric Hand-Object Interaction Motion Generation](http://arxiv.org/abs/2505.16602)**|None|None|None|Bohan Zhou et.al.|
