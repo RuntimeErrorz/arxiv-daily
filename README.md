@@ -1,4 +1,4 @@
-## Updated at 2025-05-30 08:24:07
+## Updated at 2025-05-30 20:09:09
 
 ## MVS
 
@@ -372,6 +372,8 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-05-29**|**[Bridging Geometric and Semantic Foundation Models for Generalized Monocular Depth Estimation](http://arxiv.org/abs/2505.23400)**|None|None|None|Sanggyun Ma et.al.|
+|**2025-05-29**|**[GeoMan: Temporally Consistent Human Geometry Estimation using Image-to-Video Diffusion](http://arxiv.org/abs/2505.23085)**|None|None|Project page: https://research.nvidia.com/labs/dair/geoman|Gwanghyun Kim et.al.|
 |**2025-05-27**|**[Object Concepts Emerge from Motion](http://arxiv.org/abs/2505.21635)**|None|None|None|Haoqian Liang et.al.|
 |**2025-05-23**|**[EvidenceMoE: A Physics-Guided Mixture-of-Experts with Evidential Critics for Advancing Fluorescence Light Detection and Ranging in Scattering Media](http://arxiv.org/abs/2505.21532)**|None|None|18 pages, 4 figures|Ismail Erbas et.al.|
 |**2025-05-27**|**[Occlusion Boundary and Depth: Mutual Enhancement via Multi-Task Learning](http://arxiv.org/abs/2505.21231)**|None|None|7 pages, 4 tables, 4 figures|Lintao Xu et.al.|
