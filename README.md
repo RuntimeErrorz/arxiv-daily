@@ -1,4 +1,4 @@
-## Updated at 2025-06-02 08:25:34
+## Updated at 2025-06-02 20:09:32
 
 ## MVS
 
@@ -372,6 +372,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-05-30**|**[Harnessing Foundation Models for Robust and Generalizable 6-DOF Bronchoscopy Localization](http://arxiv.org/abs/2505.24249)**|None|None|None|Qingyao Tian et.al.|
 |**2025-05-29**|**[Bridging Geometric and Semantic Foundation Models for Generalized Monocular Depth Estimation](http://arxiv.org/abs/2505.23400)**|None|None|None|Sanggyun Ma et.al.|
 |**2025-05-29**|**[GeoMan: Temporally Consistent Human Geometry Estimation using Image-to-Video Diffusion](http://arxiv.org/abs/2505.23085)**|None|None|Project page: https://research.nvidia.com/labs/dair/geoman|Gwanghyun Kim et.al.|
 |**2025-05-27**|**[Object Concepts Emerge from Motion](http://arxiv.org/abs/2505.21635)**|None|None|None|Haoqian Liang et.al.|
