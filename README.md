@@ -1,9 +1,10 @@
-## Updated at 2025-06-04 08:24:25
+## Updated at 2025-06-04 20:09:34
 
 ## MVS
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-05-31**|**[XYZ-IBD: High-precision Bin-picking Dataset for Object 6D Pose Estimation Capturing Real-world Industrial Complexity](http://arxiv.org/abs/2506.00599)**|None|None|None|Junwen Huang et.al.|
 |**2025-05-19**|**[3D Visual Illusion Depth Estimation](http://arxiv.org/abs/2505.13061)**|None|**[link](https://github.com/yaochengtang/3d-visual-illusion-depth-estimation)**|Project:   https://github.com/YaoChengTang/3D-Visual-Illusion-Depth-Estimation|Chengtang Yao et.al.|
 |**2025-05-19**|**[IA-MVS: Instance-Focused Adaptive Depth Sampling for Multi-View Stereo](http://arxiv.org/abs/2505.12714)**|None|None|None|Yinzhe Wang et.al.|
 |**2025-05-11**|**[Enhancing Monocular Height Estimation via Sparse LiDAR-Guided Correction](http://arxiv.org/abs/2505.06905)**|None|None|None|Jian Song et.al.|
@@ -372,6 +373,9 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-06-02**|**[E3D-Bench: A Benchmark for End-to-End 3D Geometric Foundation Models](http://arxiv.org/abs/2506.01933)**|None|None|Project Page: https://e3dbench.github.io/|Wenyan Cong et.al.|
+|**2025-06-01**|**[Perceptual Inductive Bias Is What You Need Before Contrastive Learning](http://arxiv.org/abs/2506.01201)**|None|None|CVPR 2025. Tianqin Li and Junru Zhao contributed equally to this   work. Due to a formatting error during the CVPR submission, the equal   contribution note was omitted in the official proceedings. This arXiv version   corrects that oversight. The author order follows alphabetical order by last   name|Tianqin Li et.al.|
+|**2025-05-31**|**[XYZ-IBD: High-precision Bin-picking Dataset for Object 6D Pose Estimation Capturing Real-world Industrial Complexity](http://arxiv.org/abs/2506.00599)**|None|None|None|Junwen Huang et.al.|
 |**2025-05-30**|**[Harnessing Foundation Models for Robust and Generalizable 6-DOF Bronchoscopy Localization](http://arxiv.org/abs/2505.24249)**|None|None|None|Qingyao Tian et.al.|
 |**2025-05-29**|**[Bridging Geometric and Semantic Foundation Models for Generalized Monocular Depth Estimation](http://arxiv.org/abs/2505.23400)**|None|None|None|Sanggyun Ma et.al.|
 |**2025-05-29**|**[GeoMan: Temporally Consistent Human Geometry Estimation using Image-to-Video Diffusion](http://arxiv.org/abs/2505.23085)**|None|None|Project page: https://research.nvidia.com/labs/dair/geoman|Gwanghyun Kim et.al.|
