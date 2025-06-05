@@ -1,9 +1,12 @@
-## Updated at 2025-06-05 08:24:00
+## Updated at 2025-06-05 20:09:32
 
 ## MVS
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-06-04**|**[Voyager: Long-Range and World-Consistent Video Diffusion for Explorable 3D Scene Generation](http://arxiv.org/abs/2506.04225)**|None|None|None|Tianyu Huang et.al.|
+|**2025-06-04**|**[Multi-view Surface Reconstruction Using Normal and Reflectance Cues](http://arxiv.org/abs/2506.04115)**|None|None|22 pages, 15 figures, 11 tables. A thorough qualitative and   quantitive study is available in the supplementary material at   https://drive.google.com/file/d/1KDfCKediXNP5Os954TL_QldaUWS0nKcD/view?usp=drive_link|Robin Bruneau et.al.|
+|**2025-06-04**|**[JointSplat: Probabilistic Joint Flow-Depth Optimization for Sparse-View Gaussian Splatting](http://arxiv.org/abs/2506.03872)**|None|None|None|Yang Xiao et.al.|
 |**2025-05-31**|**[XYZ-IBD: High-precision Bin-picking Dataset for Object 6D Pose Estimation Capturing Real-world Industrial Complexity](http://arxiv.org/abs/2506.00599)**|None|None|None|Junwen Huang et.al.|
 |**2025-05-19**|**[3D Visual Illusion Depth Estimation](http://arxiv.org/abs/2505.13061)**|None|**[link](https://github.com/yaochengtang/3d-visual-illusion-depth-estimation)**|Project:   https://github.com/YaoChengTang/3D-Visual-Illusion-Depth-Estimation|Chengtang Yao et.al.|
 |**2025-05-19**|**[IA-MVS: Instance-Focused Adaptive Depth Sampling for Multi-View Stereo](http://arxiv.org/abs/2505.12714)**|None|None|None|Yinzhe Wang et.al.|
@@ -373,6 +376,8 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-06-04**|**[JointSplat: Probabilistic Joint Flow-Depth Optimization for Sparse-View Gaussian Splatting](http://arxiv.org/abs/2506.03872)**|None|None|None|Yang Xiao et.al.|
+|**2025-06-03**|**[ViT-Split: Unleashing the Power of Vision Foundation Models via Efficient Splitting Heads](http://arxiv.org/abs/2506.03433)**|None|None|The project is available:   https://jackyfl.github.io/vitsplit.github.io/|Yifan Li et.al.|
 |**2025-06-02**|**[E3D-Bench: A Benchmark for End-to-End 3D Geometric Foundation Models](http://arxiv.org/abs/2506.01933)**|None|None|Project Page: https://e3dbench.github.io/|Wenyan Cong et.al.|
 |**2025-06-01**|**[Perceptual Inductive Bias Is What You Need Before Contrastive Learning](http://arxiv.org/abs/2506.01201)**|None|None|CVPR 2025. Tianqin Li and Junru Zhao contributed equally to this   work. Due to a formatting error during the CVPR submission, the equal   contribution note was omitted in the official proceedings. This arXiv version   corrects that oversight. The author order follows alphabetical order by last   name|Tianqin Li et.al.|
 |**2025-05-31**|**[XYZ-IBD: High-precision Bin-picking Dataset for Object 6D Pose Estimation Capturing Real-world Industrial Complexity](http://arxiv.org/abs/2506.00599)**|None|None|None|Junwen Huang et.al.|
