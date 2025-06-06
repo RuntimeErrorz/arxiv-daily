@@ -1,4 +1,4 @@
-## Updated at 2025-06-06 08:23:57
+## Updated at 2025-06-06 20:09:13
 
 ## MVS
 
@@ -376,6 +376,9 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-06-05**|**[Structure-Aware Radar-Camera Depth Estimation](http://arxiv.org/abs/2506.05008)**|None|None|None|Fuyi Zhang et.al.|
+|**2025-06-05**|**[Generating Synthetic Stereo Datasets using 3D Gaussian Splatting and Expert Knowledge Transfer](http://arxiv.org/abs/2506.04908)**|None|None|None|Filip Slezak et.al.|
+|**2025-06-05**|**[Toward Better SSIM Loss for Unsupervised Monocular Depth Estimation](http://arxiv.org/abs/2506.04758)**|International Conference on Image and Graphics. Cham: Springer   Nature Switzerland, 2023: 81-92|None|12 pages,4 figures|Yijun Cao et.al.|
 |**2025-06-04**|**[JointSplat: Probabilistic Joint Flow-Depth Optimization for Sparse-View Gaussian Splatting](http://arxiv.org/abs/2506.03872)**|None|None|None|Yang Xiao et.al.|
 |**2025-06-03**|**[ViT-Split: Unleashing the Power of Vision Foundation Models via Efficient Splitting Heads](http://arxiv.org/abs/2506.03433)**|None|None|The project is available:   https://jackyfl.github.io/vitsplit.github.io/|Yifan Li et.al.|
 |**2025-06-02**|**[E3D-Bench: A Benchmark for End-to-End 3D Geometric Foundation Models](http://arxiv.org/abs/2506.01933)**|None|None|Project Page: https://e3dbench.github.io/|Wenyan Cong et.al.|
