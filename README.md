@@ -1,9 +1,10 @@
-## Updated at 2025-06-09 08:25:54
+## Updated at 2025-06-10 08:24:17
 
 ## MVS
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-06-06**|**[Aerial Multi-View Stereo via Adaptive Depth Range Inference and Normal Cues](http://arxiv.org/abs/2506.05655)**|None|None|IEEE TGRS 2025|Yimei Liu et.al.|
 |**2025-06-04**|**[Voyager: Long-Range and World-Consistent Video Diffusion for Explorable 3D Scene Generation](http://arxiv.org/abs/2506.04225)**|None|None|None|Tianyu Huang et.al.|
 |**2025-06-04**|**[Multi-view Surface Reconstruction Using Normal and Reflectance Cues](http://arxiv.org/abs/2506.04115)**|None|None|22 pages, 15 figures, 11 tables. A thorough qualitative and   quantitive study is available in the supplementary material at   https://drive.google.com/file/d/1KDfCKediXNP5Os954TL_QldaUWS0nKcD/view?usp=drive_link|Robin Bruneau et.al.|
 |**2025-06-04**|**[JointSplat: Probabilistic Joint Flow-Depth Optimization for Sparse-View Gaussian Splatting](http://arxiv.org/abs/2506.03872)**|None|None|None|Yang Xiao et.al.|
@@ -376,6 +377,9 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-06-06**|**[NTIRE 2025 Challenge on HR Depth from Images of Specular and Transparent Surfaces](http://arxiv.org/abs/2506.05815)**|None|None|NTIRE Workshop Challenge Report, CVPR 2025|Pierluigi Zama Ramirez et.al.|
+|**2025-06-06**|**[Token Transforming: A Unified and Training-Free Token Compression Framework for Vision Transformer Acceleration](http://arxiv.org/abs/2506.05709)**|None|None|None|Fanhu Zeng et.al.|
+|**2025-06-06**|**[Aerial Multi-View Stereo via Adaptive Depth Range Inference and Normal Cues](http://arxiv.org/abs/2506.05655)**|None|None|IEEE TGRS 2025|Yimei Liu et.al.|
 |**2025-06-05**|**[Structure-Aware Radar-Camera Depth Estimation](http://arxiv.org/abs/2506.05008)**|None|None|None|Fuyi Zhang et.al.|
 |**2025-06-05**|**[Generating Synthetic Stereo Datasets using 3D Gaussian Splatting and Expert Knowledge Transfer](http://arxiv.org/abs/2506.04908)**|None|None|None|Filip Slezak et.al.|
 |**2025-06-05**|**[Toward Better SSIM Loss for Unsupervised Monocular Depth Estimation](http://arxiv.org/abs/2506.04758)**|International Conference on Image and Graphics. Cham: Springer   Nature Switzerland, 2023: 81-92|None|12 pages,4 figures|Yijun Cao et.al.|
