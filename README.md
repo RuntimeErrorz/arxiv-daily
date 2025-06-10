@@ -1,4 +1,4 @@
-## Updated at 2025-06-10 08:24:17
+## Updated at 2025-06-10 20:10:20
 
 ## MVS
 
@@ -377,6 +377,10 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-06-09**|**[Hidden in plain sight: VLMs overlook their visual representations](http://arxiv.org/abs/2506.08008)**|None|None|Project page: https://hidden-plain-sight.github.io/|Stephanie Fu et.al.|
+|**2025-06-09**|**[EgoM2P: Egocentric Multimodal Multitask Pretraining](http://arxiv.org/abs/2506.07886)**|None|None|None|Gen Li et.al.|
+|**2025-06-09**|**[Flow-Anything: Learning Real-World Optical Flow Estimation from Large-Scale Single-view Images](http://arxiv.org/abs/2506.07740)**|None|None|None|Yingping Liang et.al.|
+|**2025-06-07**|**[Dark Channel-Assisted Depth-from-Defocus from a Single Image](http://arxiv.org/abs/2506.06643)**|None|None|None|Moushumi Medhi et.al.|
 |**2025-06-06**|**[NTIRE 2025 Challenge on HR Depth from Images of Specular and Transparent Surfaces](http://arxiv.org/abs/2506.05815)**|None|None|NTIRE Workshop Challenge Report, CVPR 2025|Pierluigi Zama Ramirez et.al.|
 |**2025-06-06**|**[Token Transforming: A Unified and Training-Free Token Compression Framework for Vision Transformer Acceleration](http://arxiv.org/abs/2506.05709)**|None|None|None|Fanhu Zeng et.al.|
 |**2025-06-06**|**[Aerial Multi-View Stereo via Adaptive Depth Range Inference and Normal Cues](http://arxiv.org/abs/2506.05655)**|None|None|IEEE TGRS 2025|Yimei Liu et.al.|
