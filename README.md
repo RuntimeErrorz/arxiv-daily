@@ -1,4 +1,4 @@
-## Updated at 2025-06-11 08:24:36
+## Updated at 2025-06-11 20:09:46
 
 ## MVS
 
@@ -377,6 +377,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-06-09**|**[Jamais Vu: Exposing the Generalization Gap in Supervised Semantic Correspondence](http://arxiv.org/abs/2506.08220)**|None|None|None|Octave Mariotti et.al.|
 |**2025-06-09**|**[Hidden in plain sight: VLMs overlook their visual representations](http://arxiv.org/abs/2506.08008)**|None|None|Project page: https://hidden-plain-sight.github.io/|Stephanie Fu et.al.|
 |**2025-06-09**|**[EgoM2P: Egocentric Multimodal Multitask Pretraining](http://arxiv.org/abs/2506.07886)**|None|None|None|Gen Li et.al.|
 |**2025-06-09**|**[Flow-Anything: Learning Real-World Optical Flow Estimation from Large-Scale Single-view Images](http://arxiv.org/abs/2506.07740)**|None|None|None|Yingping Liang et.al.|
