@@ -1,4 +1,4 @@
-## Updated at 2025-06-11 20:09:46
+## Updated at 2025-06-13 08:24:26
 
 ## MVS
 
@@ -377,6 +377,8 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-06-11**|**[MSSDF: Modality-Shared Self-supervised Distillation for High-Resolution Multi-modal Remote Sensing Image Learning](http://arxiv.org/abs/2506.09327)**|None|None|None|Tong Wang et.al.|
+|**2025-06-10**|**[AVA-Bench: Atomic Visual Ability Benchmark for Vision Foundation Models](http://arxiv.org/abs/2506.09082)**|None|None|First two authors contribute equally|Zheda Mai et.al.|
 |**2025-06-09**|**[Jamais Vu: Exposing the Generalization Gap in Supervised Semantic Correspondence](http://arxiv.org/abs/2506.08220)**|None|None|None|Octave Mariotti et.al.|
 |**2025-06-09**|**[Hidden in plain sight: VLMs overlook their visual representations](http://arxiv.org/abs/2506.08008)**|None|None|Project page: https://hidden-plain-sight.github.io/|Stephanie Fu et.al.|
 |**2025-06-09**|**[EgoM2P: Egocentric Multimodal Multitask Pretraining](http://arxiv.org/abs/2506.07886)**|None|None|None|Gen Li et.al.|
