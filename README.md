@@ -1,4 +1,4 @@
-## Updated at 2025-06-16 20:10:20
+## Updated at 2025-06-17 08:24:11
 
 ## MVS
 
@@ -377,7 +377,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
-|**2025-06-12**|**[Leveraging 6DoF Pose Foundation Models For Mapping Marine Sediment Burial](http://arxiv.org/abs/2506.10386)**|None|None|None|Jerry Yan et.al.|
+|**2025-06-12**|**[Leveraging 6DoF Pose Foundation Models For Mapping Marine Sediment Burial](http://arxiv.org/abs/2506.10386)**|None|**[link](https://github.com/jerukan/barrels)**|None|Jerry Yan et.al.|
 |**2025-06-11**|**[MSSDF: Modality-Shared Self-supervised Distillation for High-Resolution Multi-modal Remote Sensing Image Learning](http://arxiv.org/abs/2506.09327)**|None|None|None|Tong Wang et.al.|
 |**2025-06-10**|**[AVA-Bench: Atomic Visual Ability Benchmark for Vision Foundation Models](http://arxiv.org/abs/2506.09082)**|None|None|First two authors contribute equally|Zheda Mai et.al.|
 |**2025-06-09**|**[Jamais Vu: Exposing the Generalization Gap in Supervised Semantic Correspondence](http://arxiv.org/abs/2506.08220)**|None|None|None|Octave Mariotti et.al.|
