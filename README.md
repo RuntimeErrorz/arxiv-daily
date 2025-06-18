@@ -1,4 +1,4 @@
-## Updated at 2025-06-18 08:24:16
+## Updated at 2025-06-18 20:10:03
 
 ## MVS
 
@@ -379,6 +379,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-06-17**|**[DiFuse-Net: RGB and Dual-Pixel Depth Estimation using Window Bi-directional Parallax Attention and Cross-modal Transfer Learning](http://arxiv.org/abs/2506.14709)**|None|None|Accepted in IROS 2025|Kunal Swami et.al.|
 |**2025-06-16**|**[Test3R: Learning to Reconstruct 3D at Test Time](http://arxiv.org/abs/2506.13750)**|None|None|None|Yuheng Yuan et.al.|
 |**2025-06-16**|**[Multiview Geometric Regularization of Gaussian Splatting for Accurate Radiance Fields](http://arxiv.org/abs/2506.13508)**|None|None|Accepted to Computer Graphics Forum (EGSR 2025)|Jungeon Kim et.al.|
 |**2025-06-16**|**[Self-Supervised Enhancement for Depth from a Lightweight ToF Sensor with Monocular Images](http://arxiv.org/abs/2506.13444)**|None|None|accepted by IROS 2025|Laiyan Ding et.al.|
