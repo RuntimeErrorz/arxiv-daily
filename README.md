@@ -1,4 +1,4 @@
-## Updated at 2025-06-18 20:10:03
+## Updated at 2025-06-19 20:09:50
 
 ## MVS
 
@@ -8,7 +8,7 @@
 |**2025-06-16**|**[DVP-MVS++: Synergize Depth-Normal-Edge and Harmonized Visibility Prior for Multi-View Stereo](http://arxiv.org/abs/2506.13215)**|None|None|None|Zhenlong Yuan et.al.|
 |**2025-06-06**|**[Aerial Multi-View Stereo via Adaptive Depth Range Inference and Normal Cues](http://arxiv.org/abs/2506.05655)**|None|None|IEEE TGRS 2025|Yimei Liu et.al.|
 |**2025-06-04**|**[Voyager: Long-Range and World-Consistent Video Diffusion for Explorable 3D Scene Generation](http://arxiv.org/abs/2506.04225)**|None|None|None|Tianyu Huang et.al.|
-|**2025-06-04**|**[Multi-view Surface Reconstruction Using Normal and Reflectance Cues](http://arxiv.org/abs/2506.04115)**|None|None|22 pages, 15 figures, 11 tables. A thorough qualitative and   quantitive study is available in the supplementary material at   https://drive.google.com/file/d/1KDfCKediXNP5Os954TL_QldaUWS0nKcD/view?usp=drive_link|Robin Bruneau et.al.|
+|**2025-06-04**|**[Multi-view Surface Reconstruction Using Normal and Reflectance Cues](http://arxiv.org/abs/2506.04115)**|None|**[link](https://github.com/robinbruneau/rnb-neus2)**|22 pages, 15 figures, 11 tables. A thorough qualitative and   quantitive study is available in the supplementary material at   https://drive.google.com/file/d/1KDfCKediXNP5Os954TL_QldaUWS0nKcD/view?usp=drive_link|Robin Bruneau et.al.|
 |**2025-06-04**|**[JointSplat: Probabilistic Joint Flow-Depth Optimization for Sparse-View Gaussian Splatting](http://arxiv.org/abs/2506.03872)**|None|None|None|Yang Xiao et.al.|
 |**2025-05-31**|**[XYZ-IBD: A High-precision Bin-picking Dataset for Object 6D Pose Estimation Capturing Real-world Industrial Complexity](http://arxiv.org/abs/2506.00599)**|None|None|None|Junwen Huang et.al.|
 |**2025-05-19**|**[3D Visual Illusion Depth Estimation](http://arxiv.org/abs/2505.13061)**|None|**[link](https://github.com/yaochengtang/3d-visual-illusion-depth-estimation)**|Project:   https://github.com/YaoChengTang/3D-Visual-Illusion-Depth-Estimation|Chengtang Yao et.al.|
@@ -379,6 +379,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-06-18**|**[RaCalNet: Radar Calibration Network for Sparse-Supervised Metric Depth Estimation](http://arxiv.org/abs/2506.15560)**|None|None|9 pages, 7 figures|Xingrui Qin et.al.|
 |**2025-06-17**|**[DiFuse-Net: RGB and Dual-Pixel Depth Estimation using Window Bi-directional Parallax Attention and Cross-modal Transfer Learning](http://arxiv.org/abs/2506.14709)**|None|None|Accepted in IROS 2025|Kunal Swami et.al.|
 |**2025-06-16**|**[Test3R: Learning to Reconstruct 3D at Test Time](http://arxiv.org/abs/2506.13750)**|None|None|None|Yuheng Yuan et.al.|
 |**2025-06-16**|**[Multiview Geometric Regularization of Gaussian Splatting for Accurate Radiance Fields](http://arxiv.org/abs/2506.13508)**|None|None|Accepted to Computer Graphics Forum (EGSR 2025)|Jungeon Kim et.al.|
