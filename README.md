@@ -1,10 +1,10 @@
-## Updated at 2025-06-22 08:27:03
+## Updated at 2025-06-22 20:08:18
 
 ## MVS
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
-|**2025-06-16**|**[Test3R: Learning to Reconstruct 3D at Test Time](http://arxiv.org/abs/2506.13750)**|None|None|None|Yuheng Yuan et.al.|
+|**2025-06-16**|**[Test3R: Learning to Reconstruct 3D at Test Time](http://arxiv.org/abs/2506.13750)**|None|**[link](https://github.com/nopqaq/test3r)**|None|Yuheng Yuan et.al.|
 |**2025-06-16**|**[DVP-MVS++: Synergize Depth-Normal-Edge and Harmonized Visibility Prior for Multi-View Stereo](http://arxiv.org/abs/2506.13215)**|None|None|None|Zhenlong Yuan et.al.|
 |**2025-06-06**|**[Aerial Multi-View Stereo via Adaptive Depth Range Inference and Normal Cues](http://arxiv.org/abs/2506.05655)**|None|None|IEEE TGRS 2025|Yimei Liu et.al.|
 |**2025-06-04**|**[Voyager: Long-Range and World-Consistent Video Diffusion for Explorable 3D Scene Generation](http://arxiv.org/abs/2506.04225)**|None|None|None|Tianyu Huang et.al.|
@@ -381,10 +381,10 @@
 |---|---|---|---|---|---|
 |**2025-06-18**|**[RaCalNet: Radar Calibration Network for Sparse-Supervised Metric Depth Estimation](http://arxiv.org/abs/2506.15560)**|None|None|9 pages, 7 figures|Xingrui Qin et.al.|
 |**2025-06-17**|**[DiFuse-Net: RGB and Dual-Pixel Depth Estimation using Window Bi-directional Parallax Attention and Cross-modal Transfer Learning](http://arxiv.org/abs/2506.14709)**|None|None|Accepted in IROS 2025|Kunal Swami et.al.|
-|**2025-06-16**|**[Test3R: Learning to Reconstruct 3D at Test Time](http://arxiv.org/abs/2506.13750)**|None|None|None|Yuheng Yuan et.al.|
+|**2025-06-16**|**[Test3R: Learning to Reconstruct 3D at Test Time](http://arxiv.org/abs/2506.13750)**|None|**[link](https://github.com/nopqaq/test3r)**|None|Yuheng Yuan et.al.|
 |**2025-06-16**|**[Multiview Geometric Regularization of Gaussian Splatting for Accurate Radiance Fields](http://arxiv.org/abs/2506.13508)**|None|None|Accepted to Computer Graphics Forum (EGSR 2025)|Jungeon Kim et.al.|
 |**2025-06-16**|**[Self-Supervised Enhancement for Depth from a Lightweight ToF Sensor with Monocular Images](http://arxiv.org/abs/2506.13444)**|None|None|accepted by IROS 2025|Laiyan Ding et.al.|
-|**2025-06-16**|**[TR2M: Transferring Monocular Relative Depth to Metric Depth with Language Descriptions and Scale-Oriented Contrast](http://arxiv.org/abs/2506.13387)**|None|None|None|Beilei Cui et.al.|
+|**2025-06-16**|**[TR2M: Transferring Monocular Relative Depth to Metric Depth with Language Descriptions and Scale-Oriented Contrast](http://arxiv.org/abs/2506.13387)**|None|**[link](https://github.com/beileicui/tr2m)**|None|Beilei Cui et.al.|
 |**2025-06-15**|**[3D Hand Mesh-Guided AI-Generated Malformed Hand Refinement with Hand Pose Transformation via Diffusion Model](http://arxiv.org/abs/2506.12680)**|None|None|None|Chen-Bin Feng et.al.|
 |**2025-06-12**|**[Leveraging 6DoF Pose Foundation Models For Mapping Marine Sediment Burial](http://arxiv.org/abs/2506.10386)**|None|**[link](https://github.com/jerukan/barrels)**|None|Jerry Yan et.al.|
 |**2025-06-11**|**[MSSDF: Modality-Shared Self-supervised Distillation for High-Resolution Multi-modal Remote Sensing Image Learning](http://arxiv.org/abs/2506.09327)**|None|None|None|Tong Wang et.al.|
