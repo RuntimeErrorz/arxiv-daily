@@ -1,4 +1,4 @@
-## Updated at 2025-06-23 08:26:17
+## Updated at 2025-06-23 20:09:27
 
 ## MVS
 
@@ -379,6 +379,9 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-06-20**|**[RGBTrack: Fast, Robust Depth-Free 6D Pose Estimation and Tracking](http://arxiv.org/abs/2506.17119)**|None|None|Accepted to IROS 2025|Teng Guo et.al.|
+|**2025-06-20**|**[DepthVanish: Optimizing Adversarial Interval Structures for Stereo-Depth-Invisible Patches](http://arxiv.org/abs/2506.16690)**|None|None|None|Yun Xing et.al.|
+|**2025-06-19**|**[EndoMUST: Monocular Depth Estimation for Robotic Endoscopy via End-to-end Multi-step Self-supervised Training](http://arxiv.org/abs/2506.16017)**|None|None|Accepted by IROS 2025|Liangjing Shao et.al.|
 |**2025-06-18**|**[RaCalNet: Radar Calibration Network for Sparse-Supervised Metric Depth Estimation](http://arxiv.org/abs/2506.15560)**|None|None|9 pages, 7 figures|Xingrui Qin et.al.|
 |**2025-06-17**|**[DiFuse-Net: RGB and Dual-Pixel Depth Estimation using Window Bi-directional Parallax Attention and Cross-modal Transfer Learning](http://arxiv.org/abs/2506.14709)**|None|None|Accepted in IROS 2025|Kunal Swami et.al.|
 |**2025-06-16**|**[Test3R: Learning to Reconstruct 3D at Test Time](http://arxiv.org/abs/2506.13750)**|None|**[link](https://github.com/nopqaq/test3r)**|None|Yuheng Yuan et.al.|
