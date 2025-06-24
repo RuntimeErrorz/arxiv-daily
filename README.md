@@ -1,4 +1,4 @@
-## Updated at 2025-06-24 08:24:20
+## Updated at 2025-06-24 20:09:27
 
 ## MVS
 
@@ -379,6 +379,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-06-21**|**[Optimization-Free Patch Attack on Stereo Depth Estimation](http://arxiv.org/abs/2506.17632)**|None|None|None|Hangcheng Liu et.al.|
 |**2025-06-20**|**[RGBTrack: Fast, Robust Depth-Free 6D Pose Estimation and Tracking](http://arxiv.org/abs/2506.17119)**|None|None|Accepted to IROS 2025|Teng Guo et.al.|
 |**2025-06-20**|**[DepthVanish: Optimizing Adversarial Interval Structures for Stereo-Depth-Invisible Patches](http://arxiv.org/abs/2506.16690)**|None|None|None|Yun Xing et.al.|
 |**2025-06-19**|**[EndoMUST: Monocular Depth Estimation for Robotic Endoscopy via End-to-end Multi-step Self-supervised Training](http://arxiv.org/abs/2506.16017)**|None|None|Accepted by IROS 2025|Liangjing Shao et.al.|
