@@ -1,4 +1,4 @@
-## Updated at 2025-06-27 08:24:44
+## Updated at 2025-06-27 20:09:29
 
 ## MVS
 
@@ -379,6 +379,8 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-06-25**|**[THIRDEYE: Cue-Aware Monocular Depth Estimation via Brain-Inspired Multi-Stage Fusion](http://arxiv.org/abs/2506.20877)**|None|None|None|Calin Teodor Ioan et.al.|
+|**2025-06-25**|**[StereoDiff: Stereo-Diffusion Synergy for Video Depth Estimation](http://arxiv.org/abs/2506.20756)**|None|None|Work done in Nov. 2024. Project page: https://stereodiff.github.io/|Haodong Li et.al.|
 |**2025-06-21**|**[Optimization-Free Patch Attack on Stereo Depth Estimation](http://arxiv.org/abs/2506.17632)**|None|None|None|Hangcheng Liu et.al.|
 |**2025-06-20**|**[RGBTrack: Fast, Robust Depth-Free 6D Pose Estimation and Tracking](http://arxiv.org/abs/2506.17119)**|None|**[link](https://github.com/greatenanoymous/rgbtrack)**|Accepted to IROS 2025|Teng Guo et.al.|
 |**2025-06-20**|**[DepthVanish: Optimizing Adversarial Interval Structures for Stereo-Depth-Invisible Patches](http://arxiv.org/abs/2506.16690)**|None|None|None|Yun Xing et.al.|
