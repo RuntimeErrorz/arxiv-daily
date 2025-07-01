@@ -1,9 +1,10 @@
-## Updated at 2025-07-01 08:28:09
+## Updated at 2025-07-01 20:09:39
 
 ## MVS
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-06-29**|**[BridgeShape: Latent Diffusion Schrödinger Bridge for 3D Shape Completion](http://arxiv.org/abs/2506.23205)**|None|None|None|Dequan Kong et.al.|
 |**2025-06-16**|**[Test3R: Learning to Reconstruct 3D at Test Time](http://arxiv.org/abs/2506.13750)**|None|**[link](https://github.com/nopqaq/test3r)**|None|Yuheng Yuan et.al.|
 |**2025-06-16**|**[DVP-MVS++: Synergize Depth-Normal-Edge and Harmonized Visibility Prior for Multi-View Stereo](http://arxiv.org/abs/2506.13215)**|None|None|None|Zhenlong Yuan et.al.|
 |**2025-06-06**|**[Aerial Multi-View Stereo via Adaptive Depth Range Inference and Normal Cues](http://arxiv.org/abs/2506.05655)**|None|None|IEEE TGRS 2025|Yimei Liu et.al.|
@@ -379,8 +380,9 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-06-30**|**[OcRFDet: Object-Centric Radiance Fields for Multi-View 3D Object Detection in Autonomous Driving](http://arxiv.org/abs/2506.23565)**|None|None|Accepted by ICCV2025|Mingqian Ji et.al.|
 |**2025-06-25**|**[THIRDEYE: Cue-Aware Monocular Depth Estimation via Brain-Inspired Multi-Stage Fusion](http://arxiv.org/abs/2506.20877)**|None|None|None|Calin Teodor Ioan et.al.|
-|**2025-06-25**|**[StereoDiff: Stereo-Diffusion Synergy for Video Depth Estimation](http://arxiv.org/abs/2506.20756)**|None|None|Work done in Nov. 2024. Project page: https://stereodiff.github.io/|Haodong Li et.al.|
+|**2025-06-25**|**[StereoDiff: Stereo-Diffusion Synergy for Video Depth Estimation](http://arxiv.org/abs/2506.20756)**|None|None|Work done in Nov 2024, during an internship at the University of   Pennsylvania. Project page: https://stereodiff.github.io/|Haodong Li et.al.|
 |**2025-06-21**|**[Optimization-Free Patch Attack on Stereo Depth Estimation](http://arxiv.org/abs/2506.17632)**|None|None|None|Hangcheng Liu et.al.|
 |**2025-06-20**|**[RGBTrack: Fast, Robust Depth-Free 6D Pose Estimation and Tracking](http://arxiv.org/abs/2506.17119)**|None|**[link](https://github.com/greatenanoymous/rgbtrack)**|Accepted to IROS 2025|Teng Guo et.al.|
 |**2025-06-20**|**[DepthVanish: Optimizing Adversarial Interval Structures for Stereo-Depth-Invisible Patches](http://arxiv.org/abs/2506.16690)**|None|None|None|Yun Xing et.al.|
