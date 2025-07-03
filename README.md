@@ -1,4 +1,4 @@
-## Updated at 2025-07-03 08:24:44
+## Updated at 2025-07-03 20:09:46
 
 ## MVS
 
@@ -380,6 +380,10 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-07-02**|**[RobuSTereo: Robust Zero-Shot Stereo Matching under Adverse Weather](http://arxiv.org/abs/2507.01653)**|None|None|accepted by ICCV25|Yuran Wang et.al.|
+|**2025-07-02**|**[Depth Anything at Any Condition](http://arxiv.org/abs/2507.01634)**|None|None|None|Boyuan Sun et.al.|
+|**2025-07-02**|**[DepthSync: Diffusion Guidance-Based Depth Synchronization for Scale- and Geometry-Consistent Video Depth Estimation](http://arxiv.org/abs/2507.01603)**|None|None|Accepted by ICCV 2025|Yue-Jiang Dong et.al.|
+|**2025-07-01**|**[Evaluating Robustness of Monocular Depth Estimation with Procedural Scene Perturbations](http://arxiv.org/abs/2507.00981)**|None|None|None|Jack Nugent et.al.|
 |**2025-06-30**|**[OcRFDet: Object-Centric Radiance Fields for Multi-View 3D Object Detection in Autonomous Driving](http://arxiv.org/abs/2506.23565)**|None|None|Accepted by ICCV2025|Mingqian Ji et.al.|
 |**2025-06-25**|**[THIRDEYE: Cue-Aware Monocular Depth Estimation via Brain-Inspired Multi-Stage Fusion](http://arxiv.org/abs/2506.20877)**|None|None|None|Calin Teodor Ioan et.al.|
 |**2025-06-25**|**[StereoDiff: Stereo-Diffusion Synergy for Video Depth Estimation](http://arxiv.org/abs/2506.20756)**|None|None|Work done in Nov 2024, during an internship at the University of   Pennsylvania. Project page: https://stereodiff.github.io/|Haodong Li et.al.|
