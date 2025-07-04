@@ -1,4 +1,4 @@
-## Updated at 2025-07-04 08:24:26
+## Updated at 2025-07-04 20:09:13
 
 ## MVS
 
@@ -380,6 +380,8 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-07-03**|**[From Pixels to Damage Severity: Estimating Earthquake Impacts Using Semantic Segmentation of Social Media Images](http://arxiv.org/abs/2507.02781)**|None|None|None|Danrong Zhang et.al.|
+|**2025-07-02**|**[Underwater Monocular Metric Depth Estimation: Real-World Benchmarks and Synthetic Fine-Tuning](http://arxiv.org/abs/2507.02148)**|None|None|None|Zijie Cai et.al.|
 |**2025-07-02**|**[RobuSTereo: Robust Zero-Shot Stereo Matching under Adverse Weather](http://arxiv.org/abs/2507.01653)**|None|None|accepted by ICCV25|Yuran Wang et.al.|
 |**2025-07-02**|**[Depth Anything at Any Condition](http://arxiv.org/abs/2507.01634)**|None|None|None|Boyuan Sun et.al.|
 |**2025-07-02**|**[DepthSync: Diffusion Guidance-Based Depth Synchronization for Scale- and Geometry-Consistent Video Depth Estimation](http://arxiv.org/abs/2507.01603)**|None|None|Accepted by ICCV 2025|Yue-Jiang Dong et.al.|
