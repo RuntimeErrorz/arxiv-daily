@@ -1,4 +1,4 @@
-## Updated at 2025-07-09 08:25:17
+## Updated at 2025-07-09 20:09:42
 
 ## MVS
 
@@ -380,6 +380,7 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-07-08**|**[Beyond Appearance: Geometric Cues for Robust Video Instance Segmentation](http://arxiv.org/abs/2507.05948)**|None|None|None|Quanzhu Niu et.al.|
 |**2025-07-07**|**[VOTE: Vision-Language-Action Optimization with Trajectory Ensemble Voting](http://arxiv.org/abs/2507.05116)**|None|None|None|Juyi Lin et.al.|
 |**2025-07-07**|**[Estimating Object Physical Properties from RGB-D Vision and Depth Robot Sensors Using Deep Learning](http://arxiv.org/abs/2507.05029)**|None|None|None|Ricardo Cardoso et.al.|
 |**2025-07-06**|**[A View-consistent Sampling Method for Regularized Training of Neural Radiance Fields](http://arxiv.org/abs/2507.04408)**|None|None|ICCV 2025 accepted|Aoxiang Fan et.al.|
