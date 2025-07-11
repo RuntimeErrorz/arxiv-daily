@@ -1,4 +1,4 @@
-## Updated at 2025-07-11 08:25:04
+## Updated at 2025-07-11 20:09:06
 
 ## MVS
 
@@ -380,12 +380,14 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-07-10**|**[Tree-Mamba: A Tree-Aware Mamba for Underwater Monocular Depth Estimation](http://arxiv.org/abs/2507.07687)**|None|None|None|Peixian Zhuang et.al.|
+|**2025-07-10**|**[HOTA: Hierarchical Overlap-Tiling Aggregation for Large-Area 3D Flood Mapping](http://arxiv.org/abs/2507.07585)**|None|None|None|Wenfeng Jia et.al.|
 |**2025-07-08**|**[Beyond Appearance: Geometric Cues for Robust Video Instance Segmentation](http://arxiv.org/abs/2507.05948)**|None|None|None|Quanzhu Niu et.al.|
 |**2025-07-07**|**[VOTE: Vision-Language-Action Optimization with Trajectory Ensemble Voting](http://arxiv.org/abs/2507.05116)**|None|None|None|Juyi Lin et.al.|
 |**2025-07-07**|**[Estimating Object Physical Properties from RGB-D Vision and Depth Robot Sensors Using Deep Learning](http://arxiv.org/abs/2507.05029)**|None|None|None|Ricardo Cardoso et.al.|
 |**2025-07-06**|**[A View-consistent Sampling Method for Regularized Training of Neural Radiance Fields](http://arxiv.org/abs/2507.04408)**|None|None|ICCV 2025 accepted|Aoxiang Fan et.al.|
 |**2025-07-03**|**[From Pixels to Damage Severity: Estimating Earthquake Impacts Using Semantic Segmentation of Social Media Images](http://arxiv.org/abs/2507.02781)**|None|None|None|Danrong Zhang et.al.|
-|**2025-07-02**|**[Underwater Monocular Metric Depth Estimation: Real-World Benchmarks and Synthetic Fine-Tuning](http://arxiv.org/abs/2507.02148)**|None|None|None|Zijie Cai et.al.|
+|**2025-07-02**|**[Underwater Monocular Metric Depth Estimation: Real-World Benchmarks and Synthetic Fine-Tuning with Vision Foundation Models](http://arxiv.org/abs/2507.02148)**|None|None|None|Zijie Cai et.al.|
 |**2025-07-02**|**[RobuSTereo: Robust Zero-Shot Stereo Matching under Adverse Weather](http://arxiv.org/abs/2507.01653)**|None|None|accepted by ICCV25|Yuran Wang et.al.|
 |**2025-07-02**|**[Depth Anything at Any Condition](http://arxiv.org/abs/2507.01634)**|None|None|None|Boyuan Sun et.al.|
 |**2025-07-02**|**[DepthSync: Diffusion Guidance-Based Depth Synchronization for Scale- and Geometry-Consistent Video Depth Estimation](http://arxiv.org/abs/2507.01603)**|None|None|Accepted by ICCV 2025|Yue-Jiang Dong et.al.|
