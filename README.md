@@ -1,9 +1,10 @@
-## Updated at 2025-07-14 08:27:03
+## Updated at 2025-07-14 20:10:05
 
 ## MVS
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-07-11**|**[Review of Feed-forward 3D Reconstruction: From DUSt3R to VGGT](http://arxiv.org/abs/2507.08448)**|None|None|None|Wei Zhang et.al.|
 |**2025-06-29**|**[BridgeShape: Latent Diffusion Schrödinger Bridge for 3D Shape Completion](http://arxiv.org/abs/2506.23205)**|None|None|None|Dequan Kong et.al.|
 |**2025-06-16**|**[Test3R: Learning to Reconstruct 3D at Test Time](http://arxiv.org/abs/2506.13750)**|None|**[link](https://github.com/nopqaq/test3r)**|None|Yuheng Yuan et.al.|
 |**2025-06-16**|**[DVP-MVS++: Synergize Depth-Normal-Edge and Harmonized Visibility Prior for Multi-View Stereo](http://arxiv.org/abs/2506.13215)**|None|None|None|Zhenlong Yuan et.al.|
@@ -380,6 +381,8 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-07-11**|**[ByDeWay: Boost Your multimodal LLM with DEpth prompting in a Training-Free Way](http://arxiv.org/abs/2507.08679)**|None|None|None|Rajarshi Roy et.al.|
+|**2025-07-10**|**[An Embedded Real-time Object Alert System for Visually Impaired: A Monocular Depth Estimation based Approach through Computer Vision](http://arxiv.org/abs/2507.08165)**|None|None|None|Jareen Anjom et.al.|
 |**2025-07-10**|**[Tree-Mamba: A Tree-Aware Mamba for Underwater Monocular Depth Estimation](http://arxiv.org/abs/2507.07687)**|None|None|None|Peixian Zhuang et.al.|
 |**2025-07-10**|**[HOTA: Hierarchical Overlap-Tiling Aggregation for Large-Area 3D Flood Mapping](http://arxiv.org/abs/2507.07585)**|None|None|None|Wenfeng Jia et.al.|
 |**2025-07-08**|**[Beyond Appearance: Geometric Cues for Robust Video Instance Segmentation](http://arxiv.org/abs/2507.05948)**|None|None|None|Quanzhu Niu et.al.|
