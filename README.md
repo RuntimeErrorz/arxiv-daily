@@ -1,9 +1,10 @@
-## Updated at 2025-07-15 08:26:05
+## Updated at 2025-07-15 20:10:09
 
 ## MVS
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-07-14**|**[Kaleidoscopic Background Attack: Disrupting Pose Estimation with Multi-Fold Radial Symmetry Textures](http://arxiv.org/abs/2507.10265)**|None|None|Accepted at ICCV 2025. Project page is available at   https://wakuwu.github.io/KBA|Xinlong Ding et.al.|
 |**2025-07-11**|**[Review of Feed-forward 3D Reconstruction: From DUSt3R to VGGT](http://arxiv.org/abs/2507.08448)**|None|None|None|Wei Zhang et.al.|
 |**2025-06-29**|**[BridgeShape: Latent Diffusion Schrödinger Bridge for 3D Shape Completion](http://arxiv.org/abs/2506.23205)**|None|None|None|Dequan Kong et.al.|
 |**2025-06-16**|**[Test3R: Learning to Reconstruct 3D at Test Time](http://arxiv.org/abs/2506.13750)**|None|**[link](https://github.com/nopqaq/test3r)**|None|Yuheng Yuan et.al.|
@@ -381,11 +382,14 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-07-14**|**[Cameras as Relative Positional Encoding](http://arxiv.org/abs/2507.10496)**|None|None|Project Page: https://www.liruilong.cn/prope/|Ruilong Li et.al.|
+|**2025-07-14**|**[Spatial Lifting for Dense Prediction](http://arxiv.org/abs/2507.10222)**|None|None|Preprint. Under review|Mingzhi Xu et.al.|
+|**2025-07-13**|**[Prompt2DEM: High-Resolution DEMs for Urban and Open Environments from Global Prompts Using a Monocular Foundation Model](http://arxiv.org/abs/2507.09681)**|None|None|18 pages|Osher Rafaeli et.al.|
 |**2025-07-11**|**[ByDeWay: Boost Your multimodal LLM with DEpth prompting in a Training-Free Way](http://arxiv.org/abs/2507.08679)**|None|None|None|Rajarshi Roy et.al.|
 |**2025-07-10**|**[An Embedded Real-time Object Alert System for Visually Impaired: A Monocular Depth Estimation based Approach through Computer Vision](http://arxiv.org/abs/2507.08165)**|None|None|None|Jareen Anjom et.al.|
 |**2025-07-10**|**[Tree-Mamba: A Tree-Aware Mamba for Underwater Monocular Depth Estimation](http://arxiv.org/abs/2507.07687)**|None|None|None|Peixian Zhuang et.al.|
 |**2025-07-10**|**[HOTA: Hierarchical Overlap-Tiling Aggregation for Large-Area 3D Flood Mapping](http://arxiv.org/abs/2507.07585)**|None|None|None|Wenfeng Jia et.al.|
-|**2025-07-08**|**[Beyond Appearance: Geometric Cues for Robust Video Instance Segmentation](http://arxiv.org/abs/2507.05948)**|None|None|None|Quanzhu Niu et.al.|
+|**2025-07-08**|**[Beyond Appearance: Geometric Cues for Robust Video Instance Segmentation](http://arxiv.org/abs/2507.05948)**|None|None|Accepted by ICCV 2025 Workshop LSVOS|Quanzhu Niu et.al.|
 |**2025-07-07**|**[VOTE: Vision-Language-Action Optimization with Trajectory Ensemble Voting](http://arxiv.org/abs/2507.05116)**|None|None|None|Juyi Lin et.al.|
 |**2025-07-07**|**[Estimating Object Physical Properties from RGB-D Vision and Depth Robot Sensors Using Deep Learning](http://arxiv.org/abs/2507.05029)**|None|None|None|Ricardo Cardoso et.al.|
 |**2025-07-06**|**[A View-consistent Sampling Method for Regularized Training of Neural Radiance Fields](http://arxiv.org/abs/2507.04408)**|None|None|ICCV 2025 accepted|Aoxiang Fan et.al.|
