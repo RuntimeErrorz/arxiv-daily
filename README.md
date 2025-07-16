@@ -1,9 +1,10 @@
-## Updated at 2025-07-16 08:25:33
+## Updated at 2025-07-16 20:10:04
 
 ## MVS
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-07-15**|**[MonoMVSNet: Monocular Priors Guided Multi-View Stereo Network](http://arxiv.org/abs/2507.11333)**|None|None|Accepted by ICCV 2025|Jianfei Jiang et.al.|
 |**2025-07-14**|**[Kaleidoscopic Background Attack: Disrupting Pose Estimation with Multi-Fold Radial Symmetry Textures](http://arxiv.org/abs/2507.10265)**|None|None|Accepted at ICCV 2025. Project page is available at   https://wakuwu.github.io/KBA|Xinlong Ding et.al.|
 |**2025-07-11**|**[Review of Feed-forward 3D Reconstruction: From DUSt3R to VGGT](http://arxiv.org/abs/2507.08448)**|None|None|None|Wei Zhang et.al.|
 |**2025-06-29**|**[BridgeShape: Latent Diffusion Schrödinger Bridge for 3D Shape Completion](http://arxiv.org/abs/2506.23205)**|None|None|None|Dequan Kong et.al.|
@@ -382,6 +383,8 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-07-15**|**[Towards Depth Foundation Model: Recent Trends in Vision-Based Depth Estimation](http://arxiv.org/abs/2507.11540)**|None|None|None|Zhen Xu et.al.|
+|**2025-07-15**|**[MonoMVSNet: Monocular Priors Guided Multi-View Stereo Network](http://arxiv.org/abs/2507.11333)**|None|None|Accepted by ICCV 2025|Jianfei Jiang et.al.|
 |**2025-07-14**|**[Cameras as Relative Positional Encoding](http://arxiv.org/abs/2507.10496)**|None|None|Project Page: https://www.liruilong.cn/prope/|Ruilong Li et.al.|
 |**2025-07-14**|**[Spatial Lifting for Dense Prediction](http://arxiv.org/abs/2507.10222)**|None|None|Preprint. Under review|Mingzhi Xu et.al.|
 |**2025-07-13**|**[Prompt2DEM: High-Resolution DEMs for Urban and Open Environments from Global Prompts Using a Monocular Foundation Model](http://arxiv.org/abs/2507.09681)**|None|None|18 pages|Osher Rafaeli et.al.|
