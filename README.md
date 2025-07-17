@@ -1,4 +1,4 @@
-## Updated at 2025-07-17 08:25:53
+## Updated at 2025-07-17 20:09:49
 
 ## MVS
 
@@ -383,6 +383,8 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-07-16**|**[Vision-based Perception for Autonomous Vehicles in Obstacle Avoidance Scenarios](http://arxiv.org/abs/2507.12449)**|None|None|7 pages, 6 figures, 4 tables, HSI 2025|Van-Hoang-Anh Phan et.al.|
+|**2025-07-16**|**[Efficient Calisthenics Skills Classification through Foreground Instance Selection and Depth Estimation](http://arxiv.org/abs/2507.12292)**|None|None|13 pages, 4 figures, In International Conference on Image Analysis   and Processing|Antonio Finocchiaro et.al.|
 |**2025-07-15**|**[Towards Depth Foundation Model: Recent Trends in Vision-Based Depth Estimation](http://arxiv.org/abs/2507.11540)**|None|None|None|Zhen Xu et.al.|
 |**2025-07-15**|**[MonoMVSNet: Monocular Priors Guided Multi-View Stereo Network](http://arxiv.org/abs/2507.11333)**|None|None|Accepted by ICCV 2025|Jianfei Jiang et.al.|
 |**2025-07-14**|**[Cameras as Relative Positional Encoding](http://arxiv.org/abs/2507.10496)**|None|None|Project Page: https://www.liruilong.cn/prope/|Ruilong Li et.al.|
