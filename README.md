@@ -1,9 +1,11 @@
-## Updated at 2025-07-21 08:27:46
+## Updated at 2025-07-21 20:10:28
 
 ## MVS
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-07-18**|**[TimeNeRF: Building Generalizable Neural Radiance Fields across Time from Few-Shot Input Views](http://arxiv.org/abs/2507.13929)**|None|None|Accepted by MM 2024|Hsiang-Hui Hung et.al.|
+|**2025-07-17**|**[Uncertainty Quantification Framework for Aerial and UAV Photogrammetry through Error Propagation](http://arxiv.org/abs/2507.13486)**|None|None|16 pages, 9 figures, this manuscript has been submitted to ISPRS   Journal of Photogrammetry and Remote Sensing for consideration|Debao Huang et.al.|
 |**2025-07-15**|**[MonoMVSNet: Monocular Priors Guided Multi-View Stereo Network](http://arxiv.org/abs/2507.11333)**|None|None|Accepted by ICCV 2025|Jianfei Jiang et.al.|
 |**2025-07-14**|**[Kaleidoscopic Background Attack: Disrupting Pose Estimation with Multi-Fold Radial Symmetry Textures](http://arxiv.org/abs/2507.10265)**|None|None|Accepted at ICCV 2025. Project page is available at   https://wakuwu.github.io/KBA|Xinlong Ding et.al.|
 |**2025-07-11**|**[Review of Feed-forward 3D Reconstruction: From DUSt3R to VGGT](http://arxiv.org/abs/2507.08448)**|None|None|None|Wei Zhang et.al.|
@@ -383,6 +385,8 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-07-18**|**[Depth3DLane: Fusing Monocular 3D Lane Detection with Self-Supervised Monocular Depth Estimation](http://arxiv.org/abs/2507.13857)**|None|None|None|Max van den Hoven et.al.|
+|**2025-07-18**|**[Augmented Reality in Cultural Heritage: A Dual-Model Pipeline for 3D Artwork Reconstruction](http://arxiv.org/abs/2507.13719)**|None|None|None|Daniele Pannone et.al.|
 |**2025-07-17**|**[$π^3$: Scalable Permutation-Equivariant Visual Geometry Learning](http://arxiv.org/abs/2507.13347)**|None|None|Project page: https://yyfz.github.io/pi3/|Yifan Wang et.al.|
 |**2025-07-16**|**[Vision-based Perception for Autonomous Vehicles in Obstacle Avoidance Scenarios](http://arxiv.org/abs/2507.12449)**|None|None|7 pages, 6 figures, 4 tables, HSI 2025|Van-Hoang-Anh Phan et.al.|
 |**2025-07-16**|**[Efficient Calisthenics Skills Classification through Foreground Instance Selection and Depth Estimation](http://arxiv.org/abs/2507.12292)**|None|None|13 pages, 4 figures, In International Conference on Image Analysis   and Processing|Antonio Finocchiaro et.al.|
