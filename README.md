@@ -1,4 +1,4 @@
-## Updated at 2025-07-22 08:25:58
+## Updated at 2025-07-22 20:09:58
 
 ## MVS
 
@@ -385,6 +385,12 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-07-21**|**[DAViD: Data-efficient and Accurate Vision Models from Synthetic Data](http://arxiv.org/abs/2507.15365)**|None|None|Accepted at ICCV 2025|Fatemeh Saleh et.al.|
+|**2025-07-21**|**[BenchDepth: Are We on the Right Way to Evaluate Depth Foundation Models?](http://arxiv.org/abs/2507.15321)**|None|None|Webpage: https://zhyever.github.io/benchdepth|Zhenyu Li et.al.|
+|**2025-07-20**|**[Region-aware Depth Scale Adaptation with Sparse Measurements](http://arxiv.org/abs/2507.14879)**|None|None|None|Rizhao Fan et.al.|
+|**2025-07-20**|**[Training Self-Supervised Depth Completion Using Sparse Measurements and a Single Image](http://arxiv.org/abs/2507.14845)**|None|None|None|Rizhao Fan et.al.|
+|**2025-07-19**|**[DCHM: Depth-Consistent Human Modeling for Multiview Detection](http://arxiv.org/abs/2507.14505)**|ICCV`2025|None|multi-view detection, sparse-view reconstruction|Jiahao Ma et.al.|
+|**2025-07-19**|**[Motion Segmentation and Egomotion Estimation from Event-Based Normal Flow](http://arxiv.org/abs/2507.14500)**|None|None|None|Zhiyuan Hua et.al.|
 |**2025-07-18**|**[Depth3DLane: Fusing Monocular 3D Lane Detection with Self-Supervised Monocular Depth Estimation](http://arxiv.org/abs/2507.13857)**|None|None|None|Max van den Hoven et.al.|
 |**2025-07-18**|**[Augmented Reality in Cultural Heritage: A Dual-Model Pipeline for 3D Artwork Reconstruction](http://arxiv.org/abs/2507.13719)**|None|None|None|Daniele Pannone et.al.|
 |**2025-07-17**|**[$π^3$: Scalable Permutation-Equivariant Visual Geometry Learning](http://arxiv.org/abs/2507.13347)**|None|None|Project page: https://yyfz.github.io/pi3/|Yifan Wang et.al.|
