@@ -1,4 +1,4 @@
-## Updated at 2025-07-24 08:25:57
+## Updated at 2025-07-24 20:10:07
 
 ## MVS
 
@@ -385,6 +385,8 @@
 
 |Published Date|Title|Journal|Code|Comments|Authors
 |---|---|---|---|---|---|
+|**2025-07-23**|**[Monocular Semantic Scene Completion via Masked Recurrent Networks](http://arxiv.org/abs/2507.17661)**|None|None|ICCV 2025; 15 pages, 10 figures, 6 tables; Code at   https://github.com/alanWXZ/MonoMRN|Xuzhi Wang et.al.|
+|**2025-07-22**|**[SDGOCC: Semantic and Depth-Guided Bird's-Eye View Transformation for 3D Multimodal Occupancy Prediction](http://arxiv.org/abs/2507.17083)**|None|None|accepted by CVPR2025|Zaipeng Duan et.al.|
 |**2025-07-21**|**[DAViD: Data-efficient and Accurate Vision Models from Synthetic Data](http://arxiv.org/abs/2507.15365)**|None|None|Accepted at ICCV 2025|Fatemeh Saleh et.al.|
 |**2025-07-21**|**[BenchDepth: Are We on the Right Way to Evaluate Depth Foundation Models?](http://arxiv.org/abs/2507.15321)**|None|None|Webpage: https://zhyever.github.io/benchdepth|Zhenyu Li et.al.|
 |**2025-07-20**|**[Region-aware Depth Scale Adaptation with Sparse Measurements](http://arxiv.org/abs/2507.14879)**|None|None|None|Rizhao Fan et.al.|
