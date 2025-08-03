@@ -1,4 +1,15 @@
 {
-    "MVS": "(abs:'Multi-View Stereo' OR abs:'Multi View Stereo' OR abs:'Multi-View Depth' OR abs:'Multi View Depth') AND cat:'cs.CV'",
-    "Depth Estimation": "abs:'Depth Estimation' AND cat:'cs.CV'"
+    "3DGS Semantic": {
+        "query": "(abs:'Gaussian' OR abs:'Gaussians' OR abs:'GS' OR abs:'3DGS' OR abs:'3D-GS') AND (abs:'open vocabulary' OR abs:'semantic' OR abs:'semantics' OR abs:'language' OR abs:'segmentation' OR abs:'scene understanding' OR abs:'feature field' OR abs:'CLIP' OR abs:'SAM') AND cat:'cs.CV'",
+        "prompt": "该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Splatting）技术，以实现的三维下的语义、实例、场景的理解任务。其方法可能（注意是可能，完全可能有其他方法）涉及从大规模二维预训练模型（如CLIP、SAM等）中提取、蒸馏或集成语义、实例或语言特征到3D高斯表示中。关键是论文的主要应用目标应为三维分割、开放词汇查询、或语言引导的编辑等，而不仅仅是新视角合成或几何重建。",
+        "max_results": 200
+    },
+    "MVS": {
+        "query": "(abs:'Multi-View Stereo' OR abs:'Multi View Stereo' OR abs:'Multi-View Depth' OR abs:'Multi View Depth') AND cat:'cs.CV'",
+        "max_results": 10
+    },
+    "Depth Estimation": {
+        "query": "abs:'Depth Estimation' AND cat:'cs.CV'",
+        "max_results": 10
+    }
 }
