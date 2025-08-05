@@ -10,7 +10,7 @@ from tqdm import tqdm
 ARXIV_PAPERS_JSON = "arxiv_papers.json"
 UPDATE_LOG = "update_log.json"
 ARXIV_QUERY_CONFIG = "arxiv_query_config.json"
-MODEL = "gemini-2.5-flash"
+MODEL = "gemini-2.5-flash-lite"
 
 def setup_gemini():
     api_key = os.getenv('GEMINI_API_KEY')

@@ -1,0 +1,141 @@
+{
+  "refilter_time": "2025-08-06 06:13:01",
+  "total_changes": 19,
+  "topics": {
+    "3DGS Semantic": [
+      {
+        "paper_id": "2505.08124",
+        "title": "SLAG: Scalable Language-Augmented Gaussian Splatting",
+        "original_result": false,
+        "new_result": true,
+        "change_type": "拒绝→通过"
+      },
+      {
+        "paper_id": "2504.06978",
+        "title": "Wheat3DGS: In-field 3D Reconstruction, Instance Segmentation and Phenotyping of Wheat Heads with Gaussian Splatting",
+        "original_result": false,
+        "new_result": true,
+        "change_type": "拒绝→通过"
+      },
+      {
+        "paper_id": "2503.16413",
+        "title": "M3: 3D-Spatial MultiModal Memory",
+        "original_result": true,
+        "new_result": false,
+        "change_type": "通过→拒绝"
+      },
+      {
+        "paper_id": "2503.08485",
+        "title": "TT-Occ: Test-Time Compute for Self-Supervised Occupancy via Spatio-Temporal Gaussian Splatting",
+        "original_result": false,
+        "new_result": true,
+        "change_type": "拒绝→通过"
+      },
+      {
+        "paper_id": "2503.06271",
+        "title": "SplatTalk: 3D VQA with Gaussian Splatting",
+        "original_result": true,
+        "new_result": false,
+        "change_type": "通过→拒绝"
+      },
+      {
+        "paper_id": "2502.19782",
+        "title": "Open-Vocabulary Semantic Part Segmentation of 3D Human",
+        "original_result": false,
+        "new_result": true,
+        "change_type": "拒绝→通过"
+      },
+      {
+        "paper_id": "2501.08982",
+        "title": "CityLoc: 6DoF Pose Distributional Localization for Text Descriptions in Large-Scale Scenes with Gaussian Representation",
+        "original_result": true,
+        "new_result": false,
+        "change_type": "通过→拒绝"
+      },
+      {
+        "paper_id": "2501.00352",
+        "title": "PanoSLAM: Panoptic 3D Scene Reconstruction via Gaussian SLAM",
+        "original_result": false,
+        "new_result": true,
+        "change_type": "拒绝→通过"
+      },
+      {
+        "paper_id": "2412.19142",
+        "title": "CLIP-GS: Unifying Vision-Language Representation with 3D Gaussian Splatting",
+        "original_result": true,
+        "new_result": false,
+        "change_type": "通过→拒绝"
+      },
+      {
+        "paper_id": "2412.16932",
+        "title": "GSemSplat: Generalizable Semantic 3D Gaussian Splatting from Uncalibrated Image Pairs",
+        "original_result": false,
+        "new_result": true,
+        "change_type": "拒绝→通过"
+      },
+      {
+        "paper_id": "2412.05969",
+        "title": "Efficient Semantic Splatting for Remote Sensing Multi-view Segmentation",
+        "original_result": false,
+        "new_result": true,
+        "change_type": "拒绝→通过"
+      },
+      {
+        "paper_id": "2412.00392",
+        "title": "GradiSeg: Gradient-Guided Gaussian Segmentation with Enhanced 3D Boundary Precision",
+        "original_result": false,
+        "new_result": true,
+        "change_type": "拒绝→通过"
+      },
+      {
+        "paper_id": "2411.19322",
+        "title": "SAMa: Material-aware 3D Selection and Segmentation",
+        "original_result": true,
+        "new_result": false,
+        "change_type": "通过→拒绝"
+      },
+      {
+        "paper_id": "2410.17505",
+        "title": "PLGS: Robust Panoptic Lifting with 3D Gaussian Splatting",
+        "original_result": false,
+        "new_result": true,
+        "change_type": "拒绝→通过"
+      },
+      {
+        "paper_id": "2407.11793",
+        "title": "Click-Gaussian: Interactive Segmentation to Any 3D Gaussians",
+        "original_result": false,
+        "new_result": true,
+        "change_type": "拒绝→通过"
+      },
+      {
+        "paper_id": "2407.04504",
+        "title": "Segment Any 4D Gaussians",
+        "original_result": false,
+        "new_result": true,
+        "change_type": "拒绝→通过"
+      },
+      {
+        "paper_id": "2405.18424",
+        "title": "3DitScene: Editing Any Scene via Language-guided Disentangled Gaussian Splatting",
+        "original_result": true,
+        "new_result": false,
+        "change_type": "通过→拒绝"
+      },
+      {
+        "paper_id": "2403.12722",
+        "title": "HUGS: Holistic Urban 3D Scene Understanding via Gaussian Splatting",
+        "original_result": false,
+        "new_result": true,
+        "change_type": "拒绝→通过"
+      },
+      {
+        "paper_id": "2312.16047",
+        "title": "2D-Guided 3D Gaussian Segmentation",
+        "original_result": true,
+        "new_result": false,
+        "change_type": "通过→拒绝"
+      }
+    ]
+  }
+}
