@@ -1,13 +1,18 @@
-## Updated at 2025-08-03 19:49:21
+## Updated at 2025-08-06 14:37:54
 
 ## 3DGS Semantic
 
 Query: (abs:'Gaussian' OR abs:'Gaussians' OR abs:'GS' OR abs:'3DGS' OR abs:'3D-GS') AND (abs:'open vocabulary' OR abs:'semantic' OR abs:'semantics' OR abs:'language' OR abs:'segmentation' OR abs:'scene understanding' OR abs:'feature field' OR abs:'CLIP' OR abs:'SAM') AND cat:'cs.CV'
 
-Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Splatting）技术，以实现高级的三维场景理解任务。其核心方法可能涉及从大规模二维预训练模型（如CLIP、SAM等）中提取、蒸馏或集成语义、实例或语言特征到3D高斯表示中。关键是论文的主要应用目标应为开放词汇查询、三维场景分割、或语言引导的编辑等，而不仅仅是新视角合成或几何重建。
+Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Splatting）技术，以实现的三维下的语义、实例、场景的理解任务。其方法可能（注意是可能，完全可能有其他方法）涉及从大规模二维预训练模型（如CLIP、SAM等）中提取、蒸馏或集成语义、实例或语言特征到3D高斯表示中。关键是论文的主要应用目标应为三维分割、开放词汇查询、或语言引导的编辑等，而不仅仅是新视角合成或几何重建。
 
 |Date|Title|Comments|Journal|Authors|
 |---|---|---|---|---|
+|**2025-08-05**|**[Uni3R: Unified 3D Reconstruction and Semantic Understanding via Generalizable Gaussian Splatting from Unposed Multi-View Images](https://arxiv.org/abs/2508.03643)**|The code is available at https://github.com/HorizonRobotics/Uni3R|None|Xiangyu Sun et al.|
+|**2025-08-05**|**[Trace3D: Consistent Segmentation Lifting via Gaussian Instance Tracing](https://arxiv.org/abs/2508.03227)**|None|None|Hongyu Shen et al.|
+|**2025-08-03**|**[AG$^2$aussian: Anchor-Graph Structured Gaussian Splatting for Instance-Level 3D Scene Understanding and Editing](https://arxiv.org/abs/2508.01740)**|None|None|Zhaonan Wang et al.|
+|**2025-08-02**|**[OpenGS-Fusion: Open-Vocabulary Dense Mapping with Hybrid 3D Gaussian Splatting for Refined Object-Level Understanding](https://arxiv.org/abs/2508.01150)**|IROS2025|None|Dianyi Yang et al.|
+|**2025-07-31**|**[SeqAffordSplat: Scene-level Sequential Affordance Reasoning on 3D Gaussian Splatting](https://arxiv.org/abs/2507.23772)**|None|None|Di Li et al.|
 |**2025-07-10**|**[Seg-Wild: Interactive Segmentation based on 3D Gaussian Splatting for Unconstrained Image Collections](https://arxiv.org/abs/2507.07395)**|None|None|Yongtang Bao et al.|
 |**2025-07-07**|**[Mastering Regional 3DGS: Locating, Initializing, and Editing with Diverse 2D Priors](https://arxiv.org/abs/2507.05426)**|None|None|Lanqing Guo et al.|
 |**2025-07-01**|**[GaussianVLM: Scene-centric 3D Vision-Language Models using Language-aligned Gaussian Splats for Embodied Reasoning and Beyond](https://arxiv.org/abs/2507.00886)**|None|None|Anna-Maria Halacheva et al.|
@@ -16,15 +21,17 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2025-06-10**|**[SceneSplat++: A Large Dataset and Comprehensive Benchmark for Language Gaussian Splatting](https://arxiv.org/abs/2506.08710)**|15 pages, codes, data and benchmark will be released|None|Mengjiao Ma et al.|
 |**2025-06-09**|**[OpenSplat3D: Open-Vocabulary 3D Instance Segmentation using Gaussian Splatting](https://arxiv.org/abs/2506.07697)**|None|None|Jens Piekenbrinck et al.|
 |**2025-06-07**|**[Hi-LSplat: Hierarchical 3D Language Gaussian Splatting](https://arxiv.org/abs/2506.06822)**|None|None|Chenlu Zhan et al.|
-|**2025-06-01**|**[CountingFruit: Real-Time 3D Fruit Counting with Language-Guided Semantic Gaussian Splatting](https://arxiv.org/abs/2506.01109)**|None|None|Fengze Li et al.|
+|**2025-06-01**|**[CountingFruit: Language-Guided 3D Fruit Counting with Semantic Gaussian Splatting](https://arxiv.org/abs/2506.01109)**|None|None|Fengze Li et al.|
 |**2025-05-30**|**[Tackling View-Dependent Semantics in 3D Language Gaussian Splatting](https://arxiv.org/abs/2505.24746)**|ICML 2025 camera ready. Project Page: https://jumpat.github.io/laga-page/|None|Jiazhong Cen et al.|
 |**2025-05-26**|**[CCL-LGS: Contrastive Codebook Learning for 3D Language Gaussian Splatting](https://arxiv.org/abs/2505.20469)**|None|None|Lei Tian et al.|
 |**2025-05-25**|**[FHGS: Feature-Homogenized Gaussian Splatting](https://arxiv.org/abs/2505.19154)**|None|None|Q. G. Duan et al.|
+|**2025-05-12**|**[SLAG: Scalable Language-Augmented Gaussian Splatting](https://arxiv.org/abs/2505.08124)**|None|None|Laszlo Szilagyi et al.|
 |**2025-04-20**|**[NVSMask3D: Hard Visual Prompting with Camera Pose Interpolation for 3D Open Vocabulary Instance Segmentation](https://arxiv.org/abs/2504.14638)**|15 pages, 4 figures, Scandinavian Conference on Image Analysis 2025|None|Junyuan Fang et al.|
 |**2025-04-17**|**[Training-Free Hierarchical Scene Understanding for Gaussian Splatting with Superpoint Graphs](https://arxiv.org/abs/2504.13153)**|None|None|Shaohui Dai et al.|
 |**2025-04-16**|**[CAGS: Open-Vocabulary 3D Scene Understanding with Context-Aware Gaussian Splatting](https://arxiv.org/abs/2504.11893)**|None|None|Wei Sun et al.|
 |**2025-04-13**|**[TextSplat: Text-Guided Semantic Fusion for Generalizable Gaussian Splatting](https://arxiv.org/abs/2504.09588)**|None|None|Zhicong Wu et al.|
 |**2025-04-11**|**[FMLGS: Fast Multilevel Language Embedded Gaussians for Part-level Interactive Agents](https://arxiv.org/abs/2504.08581)**|None|None|Xin Tan et al.|
+|**2025-04-09**|**[Wheat3DGS: In-field 3D Reconstruction, Instance Segmentation and Phenotyping of Wheat Heads with Gaussian Splatting](https://arxiv.org/abs/2504.06978)**|Copyright 2025 IEEE. This is the author's version of the work. It is posted here for your personal use. Not for redistribution. The definitive version is published in the 2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)|None|Daiwei Zhang et al.|
 |**2025-04-08**|**[econSG: Efficient and Multi-view Consistent Open-Vocabulary 3D Semantic Gaussians](https://arxiv.org/abs/2504.06003)**|None|None|Can Zhang, Gim Hee Lee|
 |**2025-03-30**|**[ReasonGrounder: LVLM-Guided Hierarchical Feature Splatting for Open-Vocabulary 3D Visual Grounding and Reasoning](https://arxiv.org/abs/2503.23297)**|None|None|Zhenyang Liu et al.|
 |**2025-03-28**|**[Segment then Splat: A Unified Approach for 3D Open-Vocabulary Segmentation based on Gaussian Splatting](https://arxiv.org/abs/2503.22204)**|Project page: https://vulab-ai.github.io/Segment-then-Splat/|None|Yiren Lu et al.|
@@ -33,37 +40,38 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2025-03-23**|**[PanoGS: Gaussian-based Panoptic Segmentation for 3D Open Vocabulary Scene Understanding](https://arxiv.org/abs/2503.18107)**|CVPR 2025|None|Hongjia Zhai et al.|
 |**2025-03-23**|**[PanopticSplatting: End-to-End Panoptic Gaussian Splatting](https://arxiv.org/abs/2503.18073)**|8 pages, 6 figures|None|Yuxuan Xie et al.|
 |**2025-03-23**|**[SceneSplat: Gaussian Splatting-based Scene Understanding with Vision-Language Pretraining](https://arxiv.org/abs/2503.18052)**|Our code, model, and dataset will be released at https://unique1i.github.io/SceneSplat_webpage/|None|Yue Li et al.|
-|**2025-03-20**|**[M3: 3D-Spatial MultiModal Memory](https://arxiv.org/abs/2503.16413)**|ICLR2025 homepage: https://m3-spatial-memory.github.io code: https://github.com/MaureenZOU/m3-spatial|None|Xueyan Zou et al.|
 |**2025-03-18**|**[Rethinking End-to-End 2D to 3D Scene Segmentation in Gaussian Splatting](https://arxiv.org/abs/2503.14029)**|CVPR 2025. The code is publicly available at this https URL (https://github.com/Runsong123/Unified-Lift)|None|Runsong Zhu et al.|
 |**2025-03-16**|**[SPC-GS: Gaussian Splatting with Semantic-Prompt Consistency for Indoor Open-World Free-view Synthesis from Sparse Inputs](https://arxiv.org/abs/2503.12535)**|Accepted by CVPR2025. The project page is available at https://gbliao.github.io/SPC-GS.github.io/|None|Guibiao Liao et al.|
 |**2025-03-14**|**[EgoSplat: Open-Vocabulary Egocentric Scene Understanding with Language Embedded 3D Gaussian Splatting](https://arxiv.org/abs/2503.11345)**|None|None|Di Li et al.|
 |**2025-03-13**|**[4D LangSplat: 4D Language Gaussian Splatting via Multimodal Large Language Models](https://arxiv.org/abs/2503.10437)**|CVPR 2025. Project Page: https://4d-langsplat.github.io|None|Wanhua Li et al.|
 |**2025-03-11**|**[SAS: Segment Any 3D Scene with Integrated 2D Priors](https://arxiv.org/abs/2503.08512)**|None|None|Zhuoyuan Li et al.|
-|**2025-03-08**|**[SplatTalk: 3D VQA with Gaussian Splatting](https://arxiv.org/abs/2503.06271)**|None|None|Anh Thai et al.|
+|**2025-03-11**|**[TT-Occ: Test-Time Compute for Self-Supervised Occupancy via Spatio-Temporal Gaussian Splatting](https://arxiv.org/abs/2503.08485)**|None|None|Fengyi Zhang et al.|
 |**2025-03-07**|**[Bayesian Fields: Task-driven Open-Set Semantic Gaussian Splatting](https://arxiv.org/abs/2503.05949)**|None|None|Dominic Maggio, Luca Carlone|
 |**2025-03-06**|**[GaussianGraph: 3D Gaussian-based Scene Graph Generation for Open-world Scene Understanding](https://arxiv.org/abs/2503.04034)**|None|None|Xihan Wang et al.|
 |**2025-03-03**|**[OpenGS-SLAM: Open-Set Dense Semantic SLAM with 3D Gaussian Splatting for Object-Level Scene Understanding](https://arxiv.org/abs/2503.01646)**|None|None|Dianyi Yang et al.|
 |**2025-02-27**|**[From Thousands to Billions: 3D Visual Language Grounding via Render-Supervised Distillation from 2D VLMs](https://arxiv.org/abs/2502.20389)**|Project page: https://liftgs.github.io|None|Ang Cao et al.|
+|**2025-02-27**|**[Open-Vocabulary Semantic Part Segmentation of 3D Human](https://arxiv.org/abs/2502.19782)**|3DV 2025|None|Keito Suzuki et al.|
 |**2025-02-25**|**[UniGS: Unified Language-Image-3D Pretraining with Gaussian Splatting](https://arxiv.org/abs/2502.17860)**|ICLR 2025; Corrected citation of Uni3D;|None|Haoyuan Li et al.|
 |**2025-02-23**|**[Dr. Splat: Directly Referring 3D Gaussian Splatting via Direct Language Embedding Registration](https://arxiv.org/abs/2502.16652)**|20 pages|None|Kim Jun-Seong et al.|
 |**2025-02-07**|**[AutoOcc: Automatic Open-Ended Semantic Occupancy Annotation via Vision-Language Guided Gaussian Splatting](https://arxiv.org/abs/2502.04981)**|None|None|Xiaoyu Zhou et al.|
 |**2025-01-31**|**[Lifting by Gaussians: A Simple, Fast and Flexible Method for 3D Instance Segmentation](https://arxiv.org/abs/2502.00173)**|Accepted to WACV 2025|None|Rohan Chacko et al.|
-|**2025-01-15**|**[CityLoc: 6DoF Pose Distributional Localization for Text Descriptions in Large-Scale Scenes with Gaussian Representation](https://arxiv.org/abs/2501.08982)**|None|None|Qi Ma et al.|
 |**2025-01-02**|**[Leverage Cross-Attention for End-to-End Open-Vocabulary Panoptic Reconstruction](https://arxiv.org/abs/2501.01119)**|18 pages, 10 figures|None|Xuan Yu et al.|
+|**2024-12-31**|**[PanoSLAM: Panoptic 3D Scene Reconstruction via Gaussian SLAM](https://arxiv.org/abs/2501.00352)**|None|None|Runnan Chen et al.|
 |**2024-12-31**|**[OVGaussian: Generalizable 3D Gaussian Segmentation with Open Vocabularies](https://arxiv.org/abs/2501.00326)**|None|None|Runnan Chen et al.|
-|**2024-12-26**|**[CLIP-GS: Unifying Vision-Language Representation with 3D Gaussian Splatting](https://arxiv.org/abs/2412.19142)**|None|None|Siyu Jiao et al.|
 |**2024-12-23**|**[LangSurf: Language-Embedded Surface Gaussians for 3D Scene Understanding](https://arxiv.org/abs/2412.17635)**|\url{https://langsurf.github.io}|None|Hao Li et al.|
+|**2024-12-22**|**[GSemSplat: Generalizable Semantic 3D Gaussian Splatting from Uncalibrated Image Pairs](https://arxiv.org/abs/2412.16932)**|None|None|Xingrui Wang et al.|
 |**2024-12-18**|**[GAGS: Granularity-Aware Feature Distillation for Language Gaussian Splatting](https://arxiv.org/abs/2412.13654)**|Project page: https://pz0826.github.io/GAGS-Webpage/|None|Yuning Peng et al.|
 |**2024-12-17**|**[GaussTR: Foundation Model-Aligned Gaussian Transformer for Self-Supervised 3D Spatial Understanding](https://arxiv.org/abs/2412.13193)**|CVPR 2025|None|Haoyi Jiang et al.|
 |**2024-12-14**|**[DCSEG: Decoupled 3D Open-Set Segmentation using Gaussian Splatting](https://arxiv.org/abs/2412.10972)**|To be published in CVPR Workshop on Open-World 3D Scene Understanding with Foundation Models|None|Luis Wiedmann et al.|
 |**2024-12-13**|**[SuperGSeg: Open-Vocabulary 3D Segmentation with Structured Super-Gaussians](https://arxiv.org/abs/2412.10231)**|13 pages, 8 figures|None|Siyun Liang et al.|
 |**2024-12-11**|**[SLGaussian: Fast Language Gaussian Splatting in Sparse Views](https://arxiv.org/abs/2412.08331)**|Accepted by ACM MM 2025. Project page: https://chenkangjie1123.github.io/SLGaussian.github.io/|None|Kangjie Chen et al.|
+|**2024-12-08**|**[Efficient Semantic Splatting for Remote Sensing Multi-view Segmentation](https://arxiv.org/abs/2412.05969)**|None|None|Zipeng Qi et al.|
 |**2024-12-03**|**[SparseLGS: Sparse View Language Embedded Gaussian Splatting](https://arxiv.org/abs/2412.02245)**|Project Page: https://ustc3dv.github.io/SparseLGS|None|Jun Hu et al.|
 |**2024-12-02**|**[Occam's LGS: An Efficient Approach for Language Gaussian Splatting](https://arxiv.org/abs/2412.01807)**|Project Page: https://insait-institute.github.io/OccamLGS/|None|Jiahuan Cheng et al.|
 |**2024-12-02**|**[3DSceneEditor: Controllable 3D Scene Editing with Gaussian Splatting](https://arxiv.org/abs/2412.01583)**|Project Page: https://ziyangyan.github.io/3DSceneEditor|None|Ziyang Yan et al.|
 |**2024-12-01**|**[ChatSplat: 3D Conversational Gaussian Splatting](https://arxiv.org/abs/2412.00734)**|None|None|Hanlin Chen et al.|
+|**2024-11-30**|**[GradiSeg: Gradient-Guided Gaussian Segmentation with Enhanced 3D Boundary Precision](https://arxiv.org/abs/2412.00392)**|None|None|Zehao Li et al.|
 |**2024-11-29**|**[Bootstraping Clustering of Gaussians for View-consistent 3D Scene Understanding](https://arxiv.org/abs/2411.19551)**|Accepted to AAAI25|None|Wenbo Zhang et al.|
-|**2024-11-28**|**[SAMa: Material-aware 3D Selection and Segmentation](https://arxiv.org/abs/2411.19322)**|Project Page: https://mfischer-ucl.github.io/sama|None|Michael Fischer et al.|
 |**2024-11-28**|**[SADG: Segment Any Dynamic Gaussian Without Object Trackers](https://arxiv.org/abs/2411.19290)**|Project page https://yunjinli.github.io/project-sadg|None|Yun-Jin Li et al.|
 |**2024-11-28**|**[InstanceGaussian: Appearance-Semantic Joint Gaussian Representation for 3D Instance-Level Perception](https://arxiv.org/abs/2411.19235)**|14 pages, accepted by CVPR 2025 as poster|None|Haijie Li et al.|
 |**2024-11-27**|**[GLS: Geometry-aware 3D Language Gaussian Splatting](https://arxiv.org/abs/2411.18066)**|Technical Report|None|Jiaxiong Qiu et al.|
@@ -71,17 +79,19 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2024-11-20**|**[FAST-Splat: Fast, Ambiguity-Free Semantics Transfer in Gaussian Splatting](https://arxiv.org/abs/2411.13753)**|None|None|Ola Shorinwa et al.|
 |**2024-11-12**|**[GaussianCut: Interactive segmentation via graph cut for 3D Gaussian Splatting](https://arxiv.org/abs/2411.07555)**|None|None|Umangi Jain et al.|
 |**2024-10-24**|**[Large Spatial Model: End-to-end Unposed Images to Semantic 3D](https://arxiv.org/abs/2410.18956)**|Project Website: https://largespatialmodel.github.io|None|Zhiwen Fan et al.|
+|**2024-10-23**|**[PLGS: Robust Panoptic Lifting with 3D Gaussian Splatting](https://arxiv.org/abs/2410.17505)**|None|None|Yu Wang et al.|
 |**2024-10-18**|**[LUDVIG: Learning-Free Uplifting of 2D Visual Features to Gaussian Splatting Scenes](https://arxiv.org/abs/2410.14462)**|Published at ICCV 2025. Project page: https://juliettemarrie.github.io/ludvig|None|Juliette Marrie et al.|
 |**2024-10-10**|**[3D Vision-Language Gaussian Splatting](https://arxiv.org/abs/2410.07577)**|Accepted at ICLR 2025. Main paper + supplementary material|None|Qucheng Peng et al.|
 |**2024-09-24**|**[Semantics-Controlled Gaussian Splatting for Outdoor Scene Reconstruction and Rendering in Virtual Reality](https://arxiv.org/abs/2409.15959)**|None|None|Hannah Schieber et al.|
 |**2024-09-18**|**[Gradient-Driven 3D Segmentation and Affordance Transfer in Gaussian Splatting Using 2D Masks](https://arxiv.org/abs/2409.11681)**|Preprint, Under review for ICRA 2025|None|Joji Joseph et al.|
 |**2024-08-14**|**[Rethinking Open-Vocabulary Segmentation of Radiance Fields in 3D Space](https://arxiv.org/abs/2408.07416)**|AAAI 2025. Project page: https://hyunji12.github.io/Open3DRF|None|Hyunjee Lee et al.|
 |**2024-08-07**|**[Query3D: LLM-Powered Open-Vocabulary Scene Segmentation with Language Embedded 3D Gaussian](https://arxiv.org/abs/2408.03516)**|None|None|Amirhosein Chahe, Lifeng Zhou|
+|**2024-07-16**|**[Click-Gaussian: Interactive Segmentation to Any 3D Gaussians](https://arxiv.org/abs/2407.11793)**|Accepted to ECCV 2024. The first two authors contributed equally to this work|None|Seokhun Choi et al.|
+|**2024-07-05**|**[Segment Any 4D Gaussians](https://arxiv.org/abs/2407.04504)**|22 pages|None|Shengxiang Ji et al.|
 |**2024-07-01**|**[Fast and Efficient: Mask Neural Fields for 3D Scene Segmentation](https://arxiv.org/abs/2407.01220)**|15 pages, 9 figures, Code:https://github.com/keloee/MaskField|None|Zihan Gao et al.|
 |**2024-06-04**|**[OpenGaussian: Towards Point-Level 3D Gaussian-based Open Vocabulary Understanding](https://arxiv.org/abs/2406.02058)**|NeurIPS2024|None|Yanmin Wu et al.|
 |**2024-06-04**|**[FastLGS: Speeding up Language Embedded Gaussians with Feature Grid Mapping](https://arxiv.org/abs/2406.01916)**|This paper is accepted to AAAI 2025|None|Yuzhou Ji et al.|
 |**2024-05-29**|**[DGD: Dynamic 3D Gaussians Distillation](https://arxiv.org/abs/2405.19321)**|None|None|Isaac Labe et al.|
-|**2024-05-28**|**[3DitScene: Editing Any Scene via Language-guided Disentangled Gaussian Splatting](https://arxiv.org/abs/2405.18424)**|None|None|Qihang Zhang et al.|
 |**2024-05-28**|**[RT-GS2: Real-Time Generalizable Semantic Segmentation for 3D Gaussian Representations of Radiance Fields](https://arxiv.org/abs/2405.18033)**|Accepted paper at BMVC 2024|None|Mihnea-Bogdan Jurca et al.|
 |**2024-05-27**|**[GOI: Find 3D Gaussians of Interest with an Optimizable Open-vocabulary Semantic-space Hyperplane](https://arxiv.org/abs/2405.17596)**|Our project page is available at https://quyans.github.io/GOI-Hyperplane/|None|Yansong Qu et al.|
 |**2024-05-23**|**[TIGER: Text-Instructed 3D Gaussian Retrieval and Coherent Editing](https://arxiv.org/abs/2405.14455)**|None|None|Teng Xu et al.|
@@ -90,12 +100,12 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2024-04-01**|**[Feature Splatting: Language-Driven Physics-Based Scene Synthesis and Editing](https://arxiv.org/abs/2404.01223)**|Project website: https://feature-splatting.github.io/|None|Ri-Zhao Qiu et al.|
 |**2024-03-26**|**[EgoLifter: Open-world 3D Segmentation for Egocentric Perception](https://arxiv.org/abs/2403.18118)**|ECCV 2024 camera ready version. Project page: https://egolifter.github.io/|None|Qiao Gu et al.|
 |**2024-03-22**|**[Semantic Gaussians: Open-Vocabulary Scene Understanding with 3D Gaussian Splatting](https://arxiv.org/abs/2403.15624)**|Project page: see https://semantic-gaussians.github.io|None|Jun Guo et al.|
+|**2024-03-19**|**[HUGS: Holistic Urban 3D Scene Understanding via Gaussian Splatting](https://arxiv.org/abs/2403.12722)**|Our project page is at https://xdimlab.github.io/hugs_website|None|Hongyu Zhou et al.|
 |**2024-02-09**|**[GS-CLIP: Gaussian Splatting for Contrastive Language-Image-3D Pretraining from Real-World Data](https://arxiv.org/abs/2402.06198)**|The content of the technical report needs to be updated and retracted to avoid other impacts|None|Haoyuan Li et al.|
 |**2024-01-31**|**[SAGD: Boundary-Enhanced Segment Anything in 3D Gaussian via Gaussian Decomposition](https://arxiv.org/abs/2401.17857)**|None|None|Xu Hu et al.|
 |**2024-01-11**|**[Learning Segmented 3D Gaussians via Efficient Feature Unprojection for Zero-shot Neural Scene Segmentation](https://arxiv.org/abs/2401.05925)**|16 pages, 9 figures, correct writing details|None|Bin Dou et al.|
 |**2024-01-03**|**[FMGS: Foundation Model Embedded 3D Gaussian Splatting for Holistic 3D Scene Understanding](https://arxiv.org/abs/2401.01970)**|Project page: https://xingxingzuo.github.io/fmgs|None|Xingxing Zuo et al.|
 |**2023-12-26**|**[LangSplat: 3D Language Gaussian Splatting](https://arxiv.org/abs/2312.16084)**|CVPR 2024. Project Page: https://langsplat.github.io|None|Minghan Qin et al.|
-|**2023-12-26**|**[2D-Guided 3D Gaussian Segmentation](https://arxiv.org/abs/2312.16047)**|None|None|Kun Lan et al.|
 |**2023-12-06**|**[Feature 3DGS: Supercharging 3D Gaussian Splatting to Enable Distilled Feature Fields](https://arxiv.org/abs/2312.03203)**|None|None|Shijie Zhou et al.|
 |**2023-12-01**|**[Segment Any 3D Gaussians](https://arxiv.org/abs/2312.00860)**|AAAI-25. Project page: https://jumpat.github.io/SAGA|None|Jiazhong Cen et al.|
 |**2023-12-01**|**[Gaussian Grouping: Segment and Edit Anything in 3D Scenes](https://arxiv.org/abs/2312.00732)**|ECCV 2024. Gaussian Grouping extends Gaussian Splatting to fine-grained open-world 3D scene understanding. Github: https://github.com/lkeab/gaussian-grouping|None|Mingqiao Ye et al.|
@@ -107,6 +117,7 @@ Query: (abs:'Multi-View Stereo' OR abs:'Multi View Stereo' OR abs:'Multi-View De
 
 |Date|Title|Comments|Journal|Authors|
 |---|---|---|---|---|
+|**2025-08-02**|**[Construction of Digital Terrain Maps from Multi-view Satellite Imagery using Neural Volume Rendering](https://arxiv.org/abs/2508.01386)**|None|None|Josef X. Biberstein et al.|
 |**2025-07-24**|**[Unposed 3DGS Reconstruction with Probabilistic Procrustes Mapping](https://arxiv.org/abs/2507.18541)**|None|None|Chong Cheng et al.|
 |**2025-07-18**|**[TimeNeRF: Building Generalizable Neural Radiance Fields across Time from Few-Shot Input Views](https://arxiv.org/abs/2507.13929)**|Accepted by MM 2024|None|Hsiang-Hui Hung et al.|
 |**2025-07-17**|**[Uncertainty Quantification Framework for Aerial and UAV Photogrammetry through Error Propagation](https://arxiv.org/abs/2507.13486)**|16 pages, 9 figures, this manuscript has been submitted to ISPRS Journal of Photogrammetry and Remote Sensing for consideration|None|Debao Huang, Rongjun Qin|
@@ -491,7 +502,13 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Comments|Journal|Authors|
 |---|---|---|---|---|
+|**2025-08-05**|**[Monocular Depth Estimation with Global-Aware Discretization and Local Context Modeling](https://arxiv.org/abs/2508.03186)**|None|None|Heng Wu et al.|
+|**2025-08-04**|**[Elucidating the Role of Feature Normalization in IJEPA](https://arxiv.org/abs/2508.02829)**|None|None|Adam Colton|
+|**2025-08-04**|**[Rethinking Transparent Object Grasping: Depth Completion with Monocular Depth Estimation and Instance Mask](https://arxiv.org/abs/2508.02507)**|None|None|Yaofeng Cheng et al.|
+|**2025-08-02**|**[3DRot: 3D Rotation Augmentation for RGB-Based 3D Tasks](https://arxiv.org/abs/2508.01423)**|None|None|Shitian Yang et al.|
+|**2025-08-02**|**[A Coarse-to-Fine Approach to Multi-Modality 3D Occupancy Grounding](https://arxiv.org/abs/2508.01197)**|IROS 2025 Accepted Paper|None|Zhan Shi et al.|
 |**2025-07-30**|**[UAVScenes: A Multi-Modal Dataset for UAVs](https://arxiv.org/abs/2507.22412)**|Accepted by ICCV 2025|None|Sijie Wang et al.|
+|**2025-07-29**|**[TESPEC: Temporally-Enhanced Self-Supervised Pretraining for Event Cameras](https://arxiv.org/abs/2508.00913)**|Accepted at IEEE/CVF International Conference on Computer Vision (ICCV) 2025|None|Mohammad Mohammadi et al.|
 |**2025-07-29**|**[PanoSplatt3R: Leveraging Perspective Pretraining for Generalized Unposed Wide-Baseline Panorama Reconstruction](https://arxiv.org/abs/2507.21960)**|Accepted to ICCV 2025|None|Jiahui Ren et al.|
 |**2025-07-28**|**[Endoscopic Depth Estimation Based on Deep Learning: A Survey](https://arxiv.org/abs/2507.20881)**|None|None|Ke Niu et al.|
 |**2025-07-26**|**[UniCT Depth: Event-Image Fusion Based Monocular Depth Estimation with Convolution-Compensated ViT Dual SA Block](https://arxiv.org/abs/2507.19948)**|Accepted by IJCAI 2025 (International Joint Conference on Artificial Intelligence)|None|Luoxi Jing et al.|
