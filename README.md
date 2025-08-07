@@ -1,4 +1,4 @@
-## Updated at 2025-08-07 08:19:29
+## Updated at 2025-08-07 20:08:28
 
 ## 3DGS Semantic
 
@@ -117,6 +117,7 @@ Query: (abs:'Multi-View Stereo' OR abs:'Multi View Stereo' OR abs:'Multi-View De
 
 |Date|Title|Comments|Journal|Authors|
 |---|---|---|---|---|
+|**2025-08-06**|**[MuGS: Multi-Baseline Generalizable Gaussian Splatting Reconstruction](https://arxiv.org/abs/2508.04297)**|This work is accepted by ICCV 2025|None|Yaopeng Lou et al.|
 |**2025-08-02**|**[Construction of Digital Terrain Maps from Multi-view Satellite Imagery using Neural Volume Rendering](https://arxiv.org/abs/2508.01386)**|None|None|Josef X. Biberstein et al.|
 |**2025-07-24**|**[Unposed 3DGS Reconstruction with Probabilistic Procrustes Mapping](https://arxiv.org/abs/2507.18541)**|None|None|Chong Cheng et al.|
 |**2025-07-18**|**[TimeNeRF: Building Generalizable Neural Radiance Fields across Time from Few-Shot Input Views](https://arxiv.org/abs/2507.13929)**|Accepted by MM 2024|None|Hsiang-Hui Hung et al.|
@@ -502,6 +503,10 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Comments|Journal|Authors|
 |---|---|---|---|---|
+|**2025-08-06**|**[OmniDepth: Bridging Monocular and Stereo Reasoning with Latent Alignment](https://arxiv.org/abs/2508.04611)**|ICCV 2025 Highlight|None|Tongfan Guan et al.|
+|**2025-08-06**|**[Pseudo Depth Meets Gaussian: A Feed-forward RGB SLAM Baseline](https://arxiv.org/abs/2508.04597)**|IROS 2025|None|Linqing Zhao et al.|
+|**2025-08-06**|**[MuGS: Multi-Baseline Generalizable Gaussian Splatting Reconstruction](https://arxiv.org/abs/2508.04297)**|This work is accepted by ICCV 2025|None|Yaopeng Lou et al.|
+|**2025-08-06**|**[DET-GS: Depth- and Edge-Aware Regularization for High-Fidelity 3D Gaussian Splatting](https://arxiv.org/abs/2508.04099)**|None|None|Zexu Huang et al.|
 |**2025-08-05**|**[Monocular Depth Estimation with Global-Aware Discretization and Local Context Modeling](https://arxiv.org/abs/2508.03186)**|None|None|Heng Wu et al.|
 |**2025-08-04**|**[Elucidating the Role of Feature Normalization in IJEPA](https://arxiv.org/abs/2508.02829)**|None|None|Adam Colton|
 |**2025-08-04**|**[Rethinking Transparent Object Grasping: Depth Completion with Monocular Depth Estimation and Instance Mask](https://arxiv.org/abs/2508.02507)**|None|None|Yaofeng Cheng et al.|
