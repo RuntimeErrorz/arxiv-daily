@@ -1,4 +1,4 @@
-## Updated at 2025-08-08 08:19:29
+## Updated at 2025-08-08 20:07:50
 
 ## 3DGS Semantic
 
@@ -503,7 +503,9 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Comments|Journal|Authors|
 |---|---|---|---|---|
-|**2025-08-06**|**[OmniDepth: Bridging Monocular and Stereo Reasoning with Latent Alignment](https://arxiv.org/abs/2508.04611)**|ICCV 2025 Highlight|None|Tongfan Guan et al.|
+|**2025-08-07**|**[Propagating Sparse Depth via Depth Foundation Model for Out-of-Distribution Depth Completion](https://arxiv.org/abs/2508.04984)**|Accepted by IEEE TIP|None|Shenglun Chen et al.|
+|**2025-08-06**|**[Extending Foundational Monocular Depth Estimators to Fisheye Cameras with Calibration Tokens](https://arxiv.org/abs/2508.04928)**|None|None|Suchisrit Gangopadhyay et al.|
+|**2025-08-06**|**[OmniDepth: Bridging Monocular and Stereo Reasoning with Latent Alignment](https://arxiv.org/abs/2508.04611)**|ICCV 2025 Highlight|IEEE/CVF International Conference on Computer Vision (ICCV), 2025|Tongfan Guan et al.|
 |**2025-08-06**|**[Pseudo Depth Meets Gaussian: A Feed-forward RGB SLAM Baseline](https://arxiv.org/abs/2508.04597)**|IROS 2025|None|Linqing Zhao et al.|
 |**2025-08-06**|**[MuGS: Multi-Baseline Generalizable Gaussian Splatting Reconstruction](https://arxiv.org/abs/2508.04297)**|This work is accepted by ICCV 2025|None|Yaopeng Lou et al.|
 |**2025-08-06**|**[DET-GS: Depth- and Edge-Aware Regularization for High-Fidelity 3D Gaussian Splatting](https://arxiv.org/abs/2508.04099)**|None|None|Zexu Huang et al.|
