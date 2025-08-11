@@ -1,5 +1,45 @@
 {
   "3DGS Semantic": {
+    "2508.06318": {
+      "title": "Mixture of Experts Guided by Gaussian Splatters Matters: A new Approach to Weakly-Supervised Video Anomaly Detection",
+      "authors": [
+        "Giacomo D'Amicantonio",
+        "Snehashis Majhi",
+        "Quan Kong",
+        "Lorenzo Garattoni",
+        "Gianpiero Francesca",
+        "François Bremond",
+        "Egor Bondarev"
+      ],
+      "published": "2025-08-08T13:48:48+00:00",
+      "updated": "2025-08-08T13:48:48+00:00",
+      "summary": "Video Anomaly Detection (VAD) is a challenging task due to the variability of\nanomalous events and the limited availability of labeled data. Under the\nWeakly-Supervised VAD (WSVAD) paradigm, only video-level labels are provided\nduring training, while predictions are made at the frame level. Although\nstate-of-the-art models perform well on simple anomalies (e.g., explosions),\nthey struggle with complex real-world events (e.g., shoplifting). This\ndifficulty stems from two key issues: (1) the inability of current models to\naddress the diversity of anomaly types, as they process all categories with a\nshared model, overlooking category-specific features; and (2) the weak\nsupervision signal, which lacks precise temporal information, limiting the\nability to capture nuanced anomalous patterns blended with normal events. To\naddress these challenges, we propose Gaussian Splatting-guided Mixture of\nExperts (GS-MoE), a novel framework that employs a set of expert models, each\nspecialized in capturing specific anomaly types. These experts are guided by a\ntemporal Gaussian splatting loss, enabling the model to leverage temporal\nconsistency and enhance weak supervision. The Gaussian splatting approach\nencourages a more precise and comprehensive representation of anomalies by\nfocusing on temporal segments most likely to contain abnormal events. The\npredictions from these specialized experts are integrated through a\nmixture-of-experts mechanism to model complex relationships across diverse\nanomaly patterns. Our approach achieves state-of-the-art performance, with a\n91.58% AUC on the UCF-Crime dataset, and demonstrates superior results on\nXD-Violence and MSAD datasets. By leveraging category-specific expertise and\ntemporal guidance, GS-MoE sets a new benchmark for VAD under weak supervision.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2508.06318v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2508.06318v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2508.06318v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2508.06318v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2508.05254": {
       "title": "CF3: Compact and Fast 3D Feature Fields",
       "authors": [
@@ -47710,6 +47750,38 @@
     }
   },
   "Depth Estimation": {
+    "2508.05907": {
+      "title": "Neural Field Representations of Mobile Computational Photography",
+      "authors": [
+        "Ilya Chugunov"
+      ],
+      "published": "2025-08-08T00:03:46+00:00",
+      "updated": "2025-08-08T00:03:46+00:00",
+      "summary": "Over the past two decades, mobile imaging has experienced a profound\ntransformation, with cell phones rapidly eclipsing all other forms of digital\nphotography in popularity. Today's cell phones are equipped with a diverse\nrange of imaging technologies - laser depth ranging, multi-focal camera arrays,\nand split-pixel sensors - alongside non-visual sensors such as gyroscopes,\naccelerometers, and magnetometers. This, combined with on-board integrated\nchips for image and signal processing, makes the cell phone a versatile\npocket-sized computational imaging platform. Parallel to this, we have seen in\nrecent years how neural fields - small neural networks trained to map\ncontinuous spatial input coordinates to output signals - enable the\nreconstruction of complex scenes without explicit data representations such as\npixel arrays or point clouds. In this thesis, I demonstrate how carefully\ndesigned neural field models can compactly represent complex geometry and\nlighting effects. Enabling applications such as depth estimation, layer\nseparation, and image stitching directly from collected in-the-wild mobile\nphotography data. These methods outperform state-of-the-art approaches without\nrelying on complex pre-processing steps, labeled ground truth data, or machine\nlearning priors. Instead, they leverage well-constructed, self-regularized\nmodels that tackle challenging inverse problems through stochastic gradient\ndescent, fitting directly to raw measurements from a smartphone.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2508.05907v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "PhD thesis",
+      "entry_id": "http://arxiv.org/abs/2508.05907v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2508.05907v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2508.05907v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2508.04984": {
       "title": "Propagating Sparse Depth via Depth Foundation Model for Out-of-Distribution Depth Completion",
       "authors": [

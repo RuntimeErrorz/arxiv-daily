@@ -1,4 +1,4 @@
-## Updated at 2025-08-11 08:19:55
+## Updated at 2025-08-11 20:07:55
 
 ## 3DGS Semantic
 
@@ -503,6 +503,7 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Comments|Journal|Authors|
 |---|---|---|---|---|
+|**2025-08-08**|**[Neural Field Representations of Mobile Computational Photography](https://arxiv.org/abs/2508.05907)**|PhD thesis|None|Ilya Chugunov|
 |**2025-08-07**|**[Propagating Sparse Depth via Depth Foundation Model for Out-of-Distribution Depth Completion](https://arxiv.org/abs/2508.04984)**|Accepted by IEEE TIP|None|Shenglun Chen et al.|
 |**2025-08-06**|**[Extending Foundational Monocular Depth Estimators to Fisheye Cameras with Calibration Tokens](https://arxiv.org/abs/2508.04928)**|None|None|Suchisrit Gangopadhyay et al.|
 |**2025-08-06**|**[OmniDepth: Bridging Monocular and Stereo Reasoning with Latent Alignment](https://arxiv.org/abs/2508.04611)**|ICCV 2025 Highlight|IEEE/CVF International Conference on Computer Vision (ICCV), 2025|Tongfan Guan et al.|
