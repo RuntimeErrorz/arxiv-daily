@@ -1,9 +1,9 @@
-name: Update Arxiv Papers Daily
+name: Half Update Venue
 
 on:
   workflow_dispatch:
   schedule:
-    - cron:  "0 */12 * * *"  #'*/60 * * * *'
+    - cron:  "0 2 * * 0"  # 每周日凌晨2点运行
   # Triggers the workflow on push or pull request events but only for the main branch
 #   push:
 #     branches:
@@ -48,8 +48,7 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
-          python update_arxiv.py
-          python search_venue.py --topic "3DGS Semantic" --only-missing
+          python search_venue.py --topic "3DGS Semantic" --half
           python json_to_md.py
           
       - name: Push

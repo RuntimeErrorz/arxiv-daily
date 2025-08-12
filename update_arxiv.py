@@ -26,7 +26,6 @@ def setup_gemini():
         print(f"Gemini初始化失败: {e}")
         return None
 
-
 def evaluate_paper_with_gemini(model, title, abstract, topic_prompt):
     if not model or not topic_prompt:
         return True
@@ -49,11 +48,6 @@ def evaluate_paper_with_gemini(model, title, abstract, topic_prompt):
     except Exception as e:
         print(f"Gemini评估失败: {e}")
         return True  # 出错时默认保留
-
-
-def clean_text(text):
-    return ' '.join(text.split()).strip()
-
 
 def get_daily_papers(topic, query, max_results, config, json_file_name):
     try:
@@ -125,7 +119,6 @@ def get_daily_papers(topic, query, max_results, config, json_file_name):
     data = {topic: content}
     return data
 
-
 def update_json_file(filename, data_all, cnt):
     with open(filename, "r", encoding='utf-8') as f:
         content = f.read()
@@ -176,62 +169,6 @@ def update_json_file(filename, data_all, cnt):
     with open(filename, "w", encoding='utf-8') as f:
         json.dump(ordered_json_data, f, ensure_ascii=False, indent=2)
 
-
-def json_to_md(filename, md_filename, arxiv_query_config):
-    time_now = str(datetime.now(
-        timezone(timedelta(hours=8))).strftime("%Y-%m-%d %H:%M:%S"))
-    with open(filename, "r", encoding='utf-8') as f:
-        content = f.read()
-        if not content:
-            data = {}
-        else:
-            data = json.loads(content)
-
-    with open(md_filename, "w", encoding='utf-8') as f:
-        f.write(f"## Updated at {time_now}\n\n")
-        for topic, papers in data.items():
-            topic_prompt = arxiv_query_config.get(topic, {}).get('prompt', '')
-            f.write(f"## {topic}\n\n")
-            f.write(f'Query: {arxiv_query_config[topic]["query"]}\n\n')
-            if topic_prompt:
-                f.write(f"Prompt: {topic_prompt}\n\n")
-
-            f.write("|Date|Title|Comments|Journal|Authors|\n" +
-                    "|---|---|---|---|---|\n")
-
-            papers_written = 0
-            for paper_id, paper_info in papers.items():
-                # 只显示通过AI筛选的论文（或没有设置筛选的论文）
-                if not paper_info.get('llm_approved', True):
-                    continue
-                    
-                authors = paper_info['authors']
-                published = datetime.fromisoformat(
-                    paper_info['published'].replace('Z', '+00:00')
-                ).strftime('%Y-%m-%d')
-                arxiv_link = f'https://arxiv.org/abs/{paper_id}'
-                
-                cleaned_data = {
-                    'title': clean_text(paper_info['title']),
-                    'journal': clean_text(paper_info.get('journal_ref', 'None') or 'None'),
-                    'comment': clean_text(paper_info.get('comment', 'None') or 'None'),
-                    'author_str': clean_text(f"{authors[0]} et al." if len(authors) > 2 else ', '.join(authors))
-                }
-
-                f.write(
-                    f"|**{published}**|**[{cleaned_data['title']}]({arxiv_link})**|"
-                    f"{cleaned_data['comment']}|{cleaned_data['journal']}|{cleaned_data['author_str']}|\n")
-                papers_written += 1
-
-            if papers_written == 0:
-                f.write("|No relevant papers found||||||\n")
-                
-            f.write(f"\n")
-
-    with open(filename, "w", encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
-
-
 def get_current_paper_count(json_file, topic):
     try:
         with open(json_file, 'r', encoding='utf-8') as f:
@@ -262,7 +199,6 @@ if __name__ == "__main__":
 
     md_file = "README.md"
     update_json_file(ARXIV_PAPERS_JSON, data_collector, cnt)
-    json_to_md(ARXIV_PAPERS_JSON, md_file, arxiv_filter_config)
     with open(UPDATE_LOG, "r", encoding='utf-8') as f:
         origin_log = json.load(f)
     with open(UPDATE_LOG, "w", encoding='utf-8') as f:

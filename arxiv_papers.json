@@ -345,7 +345,15 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2508.03402": {
       "title": "SCFlow: Implicitly Learning Style and Content Disentanglement with Flow Models",
@@ -424,7 +432,15 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2508.03118": {
       "title": "H3R: Hybrid Multi-view Correspondence for Generalizable 3D Reconstruction",
@@ -611,7 +627,15 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2508.01664": {
       "title": "Shape Distribution Matters: Shape-specific Mixture-of-Experts for Amodal Segmentation under Diverse Occlusions",
@@ -726,7 +750,15 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2508.00259": {
       "title": "PointGauss: Point Cloud-Guided Multi-Object Segmentation for Gaussian Splatting",
@@ -806,7 +838,15 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2507.23569": {
       "title": "Gaussian Splatting Feature Fields for Privacy-Preserving Visual Localization",
@@ -1684,7 +1724,15 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2507.06647": {
       "title": "ClipGS: Clippable Gaussian Splatting for Interactive Cinematic Visualization of Volumetric Medical Data",
@@ -1841,7 +1889,15 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2507.05256": {
       "title": "SegmentDreamer: Towards High-fidelity Text-to-3D Synthesis with Segmented Consistency Trajectory Distillation",
@@ -2100,7 +2156,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "arXiv.org",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2507.00789": {
       "title": "OptiPrune: Boosting Prompt-Image Consistency with Attention-Guided Noise and Dynamic Token Selection",
@@ -2718,7 +2781,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "arXiv.org",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2506.09417": {
       "title": "ODG: Occupancy Prediction Using Dual Gaussians",
@@ -2829,7 +2899,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "arXiv.org",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2506.08710": {
       "title": "SceneSplat++: A Large Dataset and Comprehensive Benchmark for Language Gaussian Splatting",
@@ -2874,7 +2951,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "arXiv.org",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2506.07865": {
       "title": "FreeGave: 3D Physics Learning from Dynamic Videos by Gaussian Velocity",
@@ -2952,7 +3036,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "CVPR Workshops",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2506.07338": {
       "title": "Hierarchical Scoring with 3D Gaussian Splatting for Instance Image-Goal Navigation",
@@ -3107,7 +3198,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "arXiv.org",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2506.06517": {
       "title": "GS4: Generalizable Sparse Splatting Semantic SLAM",
@@ -3607,7 +3705,15 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2505.24746": {
       "title": "Tackling View-Dependent Semantics in 3D Language Gaussian Splatting",
@@ -3647,7 +3753,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "arXiv.org",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2505.24608": {
       "title": "GARLIC: GAussian Representation LearnIng for spaCe partitioning",
@@ -3847,7 +3960,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "arXiv.org",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2505.19613": {
       "title": "TESSER: Transfer-Enhancing Adversarial Attacks from Vision Transformers via Spectral and Semantic Regularization",
@@ -3956,7 +4076,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "arXiv.org",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2505.18649": {
       "title": "SuperGS: Consistent and Detailed 3D Super-Resolution Scene Reconstruction via Gaussian Splatting",
@@ -4366,7 +4493,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "IEEE Robotics and Automation Letters",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2505.07396": {
       "title": "TUM2TWIN: Introducing the Large-Scale Multimodal Urban Digital Twin Benchmark Dataset",
@@ -4963,7 +5097,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "Scandinavian Conference on Image Analysis",
+        "pub_type": "JournalArticle,Conference",
+        "publisher": null
+      }
     },
     "2504.13159": {
       "title": "Digital Twin Generation from Visual Data: A Survey",
@@ -5043,7 +5184,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "arXiv.org",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2504.12088": {
       "title": "AttentionDrop: A Novel Regularization Method for Transformer Models",
@@ -5117,7 +5265,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "arXiv.org",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2504.11024": {
       "title": "Easy3D: A Simple Yet Effective Method for 3D Interactive Segmentation",
@@ -5194,7 +5349,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "arXiv.org",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2504.09540": {
       "title": "EmbodiedOcc++: Boosting Embodied 3D Occupancy Prediction with Plane Regularization and Uncertainty Sampler",
@@ -5271,7 +5433,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "arXiv.org",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2504.08473": {
       "title": "Cut-and-Splat: Leveraging Gaussian Splatting for Synthetic Data Generation",
@@ -5348,7 +5517,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "CVPR Workshops",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2504.06003": {
       "title": "econSG: Efficient and Multi-view Consistent Open-Vocabulary 3D Semantic Gaussians",
@@ -5382,7 +5558,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "International Conference on Learning Representations",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2504.05152": {
       "title": "PanoDreamer: Consistent Text to 360-Degree Scene Generation",
@@ -5653,7 +5836,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "Computer Vision and Pattern Recognition",
+        "pub_type": "JournalArticle,Conference",
+        "publisher": null
+      }
     },
     "2503.22676": {
       "title": "TranSplat: Lighting-Consistent Cross-Scene Object Transfer with 3D Gaussian Splatting",
@@ -5767,7 +5957,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "arXiv.org",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2503.21767": {
       "title": "Semantic Consistent Language Gaussian Splatting for Point-Level Open-vocabulary Querying",
@@ -5803,7 +6000,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "arXiv.org",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2503.20776": {
       "title": "Feature4X: Bridging Any Monocular Video to 4D Agentic AI with Versatile Gaussian Feature Fields",
@@ -5846,7 +6050,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "Computer Vision and Pattern Recognition",
+        "pub_type": "JournalArticle,Conference",
+        "publisher": null
+      }
     },
     "2503.19443": {
       "title": "COB-GS: Clear Object Boundaries in 3DGS Segmentation Based on Boundary-Adaptive Gaussian Splitting",
@@ -6108,7 +6319,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "arXiv.org",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2503.18073": {
       "title": "PanopticSplatting: End-to-End Panoptic Gaussian Splatting",
@@ -6149,7 +6367,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "arXiv.org",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2503.18052": {
       "title": "SceneSplat: Gaussian Splatting-based Scene Understanding with Vision-Language Pretraining",
@@ -6194,7 +6419,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "arXiv.org",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2503.17940": {
       "title": "FisherTune: Fisher-Guided Robust Tuning of Vision Foundation Models for Domain Generalized Segmentation",
@@ -6582,7 +6814,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "Computer Vision and Pattern Recognition",
+        "pub_type": "JournalArticle,Conference",
+        "publisher": null
+      }
     },
     "2503.13272": {
       "title": "Generative Gaussian Splatting: Generating 3D Scenes with Video Diffusion Priors",
@@ -6654,7 +6893,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "Computer Vision and Pattern Recognition",
+        "pub_type": "JournalArticle,Conference",
+        "publisher": null
+      }
     },
     "2503.12383": {
       "title": "VRsketch2Gaussian: 3D VR Sketch Guided 3D Object Generation with Gaussian Splatting",
@@ -6850,7 +7096,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "arXiv.org",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2503.10772": {
       "title": "FlowTok: Flowing Seamlessly Across Text and Image Tokens",
@@ -6967,7 +7220,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "Computer Vision and Pattern Recognition",
+        "pub_type": "JournalArticle,Conference",
+        "publisher": null
+      }
     },
     "2503.09941": {
       "title": "TGP: Two-modal occupancy prediction with 3D Gaussian and sparse points for 3D Environment Awareness",
@@ -7047,7 +7307,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "arXiv.org",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2503.08485": {
       "title": "TT-Occ: Test-Time Compute for Self-Supervised Occupancy via Spatio-Temporal Gaussian Splatting",
@@ -7084,7 +7351,15 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2503.08135": {
       "title": "ArticulatedGS: Self-supervised Digital Twin Modeling of Articulated Objects using 3D Gaussian Splatting",
@@ -7535,7 +7810,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "arXiv.org",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2503.05162": {
       "title": "EvolvingGS: High-Fidelity Streamable Volumetric Video via Evolving 3D Gaussian Representation",
@@ -7688,7 +7970,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "arXiv.org",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2503.03148": {
       "title": "Partial Convolution Meets Visual Attention",
@@ -7768,7 +8057,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "arXiv.org",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2503.00442": {
       "title": "Detection of Customer Interested Garments in Surveillance Video using Computer Vision",
@@ -7856,7 +8152,15 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2502.19782": {
       "title": "Open-Vocabulary Semantic Part Segmentation of 3D Human",
@@ -7894,7 +8198,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "arXiv.org",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2502.19700": {
       "title": "Language-Informed Hyperspectral Image Synthesis for Imbalanced-Small Sample Classification via Semi-Supervised Conditional Diffusion Model",
@@ -8024,7 +8335,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "International Conference on Learning Representations",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2502.17160": {
       "title": "A Pragmatic Note on Evaluating Generative Models with Fréchet Inception Distance for Retinal Image Synthesis",
@@ -8178,7 +8496,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "Computer Vision and Pattern Recognition",
+        "pub_type": "JournalArticle,Conference",
+        "publisher": null
+      }
     },
     "2502.16303": {
       "title": "Pointmap Association and Piecewise-Plane Constraint for Consistent and Compact 3D Gaussian Segmentation Field",
@@ -8484,7 +8809,15 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2502.03444": {
       "title": "Masked Autoencoders Are Effective Tokenizers for Diffusion Models",
@@ -8679,7 +9012,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "IEEE Workshop/Winter Conference on Applications of Computer Vision",
+        "pub_type": "JournalArticle,Conference",
+        "publisher": null
+      }
     },
     "2501.17636": {
       "title": "HOMER: Homography-Based Efficient Multi-view 3D Object Removal",
@@ -9482,7 +9822,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "arXiv.org",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2501.00625": {
       "title": "Gaussian Building Mesh (GBM): Extract a Building's 3D Mesh with Google Earth and Gaussian Splatting",
@@ -9607,7 +9954,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "arXiv.org",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2501.00326": {
       "title": "OVGaussian: Generalizable 3D Gaussian Segmentation with Open Vocabularies",
@@ -9651,7 +10005,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "arXiv.org",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2412.21044": {
       "title": "E2ED^2:Direct Mapping from Noise to Data for Enhanced Diffusion Models",
@@ -9923,7 +10284,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "arXiv.org",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2412.17210": {
       "title": "Dual Conditioned Motion Diffusion for Pose-Based Video Anomaly Detection",
@@ -9996,7 +10364,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "arXiv.org",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2412.16253": {
       "title": "Interactive Scene Authoring with Specialized Generative Primitives",
@@ -10109,7 +10484,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "arXiv.org",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2412.13193": {
       "title": "GaussTR: Foundation Model-Aligned Gaussian Transformer for Self-Supervised 3D Spatial Understanding",
@@ -10149,7 +10531,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "Computer Vision and Pattern Recognition",
+        "pub_type": "JournalArticle,Conference",
+        "publisher": null
+      }
     },
     "2412.12906": {
       "title": "CATSplat: Context-Aware Transformer with Spatial Guidance for Generalizable 3D Gaussian Splatting from A Single-View Image",
@@ -10398,7 +10787,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "CVPR Workshops",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2412.10371": {
       "title": "GaussianAD: Gaussian-Centric End-to-End Autonomous Driving",
@@ -10483,7 +10879,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "arXiv.org",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2412.10051": {
       "title": "TSGaussian: Semantic and Depth-Guided Target-Specific Gaussian Splatting from Sparse Views",
@@ -10678,7 +11081,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "arXiv.org",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2412.08169": {
       "title": "Illusory VQA: Benchmarking and Enhancing Multimodal Models on Visual Illusions",
@@ -10753,7 +11163,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "IEEE Transactions on Geoscience and Remote Sensing",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2412.05560": {
       "title": "Text-to-3D Gaussian Splatting with Physics-Grounded Motion Generation",
@@ -11181,7 +11598,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "arXiv.org",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2412.02225": {
       "title": "How to Use Diffusion Priors under Sparse Views?",
@@ -11325,7 +11749,15 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2412.01583": {
       "title": "3DSceneEditor: Controllable 3D Scene Editing with Gaussian Splatting",
@@ -11365,7 +11797,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "arXiv.org",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2412.01217": {
       "title": "RGBDS-SLAM: A RGB-D Semantic Dense SLAM Based on 3D Multi Level Pyramid Gaussian Splatting",
@@ -11437,7 +11876,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "arXiv.org",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2412.00477": {
       "title": "LineGS : 3D Line Segment Representation on 3D Gaussian Splatting",
@@ -11511,7 +11957,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "arXiv.org",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2411.19895": {
       "title": "GuardSplat: Efficient and Robust Watermarking for 3D Gaussian Splatting",
@@ -11627,7 +12080,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "AAAI Conference on Artificial Intelligence",
+        "pub_type": "JournalArticle,Conference",
+        "publisher": null
+      }
     },
     "2412.00155": {
       "title": "T-3DGS: Removing Transient Objects for 3D Scene Reconstruction",
@@ -11741,7 +12201,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "arXiv.org",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2411.19235": {
       "title": "InstanceGaussian: Appearance-Semantic Joint Gaussian Representation for 3D Instance-Level Perception",
@@ -11780,7 +12247,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "Computer Vision and Pattern Recognition",
+        "pub_type": "JournalArticle,Conference",
+        "publisher": null
+      }
     },
     "2411.18667": {
       "title": "Point Cloud Unsupervised Pre-training via 3D Gaussian Splatting",
@@ -11855,7 +12329,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "arXiv.org",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2411.17017": {
       "title": "TED-VITON: Transformer-Empowered Diffusion Models for Virtual Try-On",
@@ -12086,7 +12567,15 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2411.14716": {
       "title": "VisionPAD: A Vision-Centric Pre-training Paradigm for Autonomous Driving",
@@ -12206,7 +12695,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "arXiv.org",
+        "pub_type": "JournalArticle,Review",
+        "publisher": null
+      }
     },
     "2411.15205": {
       "title": "DAGSM: Disentangled Avatar Generation with GS-enhanced Mesh",
@@ -12588,7 +13084,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "Neural Information Processing Systems",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2411.06911": {
       "title": "Gaussian Process Emulators for Few-Shot Segmentation in Cardiac MRI",
@@ -12907,7 +13410,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "Neural Information Processing Systems",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2410.17505": {
       "title": "PLGS: Robust Panoptic Lifting with 3D Gaussian Splatting",
@@ -12943,7 +13453,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "IEEE Transactions on Image Processing",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2410.16485": {
       "title": "GenGMM: Generalized Gaussian-Mixture-based Domain Adaptation Model for Semantic Segmentation",
@@ -13055,7 +13572,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "arXiv.org",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2410.13807": {
       "title": "Improving Consistency in Diffusion Models for Image Super-Resolution",
@@ -13562,7 +14086,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "International Conference on Learning Representations",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2410.05097": {
       "title": "DreamSat: Towards a General 3D Model for Novel View Synthesis of Space Objects",
@@ -13993,7 +14524,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "IEEE Conference on Virtual Reality and 3D User Interfaces",
+        "pub_type": "JournalArticle,Conference",
+        "publisher": null
+      }
     },
     "2409.14060": {
       "title": "Soft Segmented Randomization: Enhancing Domain Generalization in SAR-ATR for Synthetic-to-Measured",
@@ -14220,7 +14758,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "arXiv.org",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2409.11356": {
       "title": "RenderWorld: World Model with Self-Supervised 3D Label",
@@ -15181,7 +15726,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "AAAI Conference on Artificial Intelligence",
+        "pub_type": "JournalArticle,Conference",
+        "publisher": null
+      }
     },
     "2408.06995": {
       "title": "Low-Bitwidth Floating Point Quantization for Efficient High-Quality Diffusion Models",
@@ -15363,7 +15915,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "2025 IEEE/CVF Winter Conference on Applications of Computer Vision Workshops (WACVW)",
+        "pub_type": "JournalArticle,Conference",
+        "publisher": null
+      }
     },
     "2408.02507": {
       "title": "Estimating Pore Location of PBF-LB/M Processes with Segmentation Models",
@@ -15767,7 +16326,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "European Conference on Computer Vision",
+        "pub_type": "JournalArticle,Conference",
+        "publisher": null
+      }
     },
     "2407.11309": {
       "title": "Gaussian Splatting Lucas-Kanade",
@@ -15880,7 +16446,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "arXiv.org",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2407.04265": {
       "title": "Parametric Curve Segment Extraction by Support Regions",
@@ -16001,7 +16574,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "arXiv.org",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2406.19811": {
       "title": "EgoGaussian: Dynamic Scene Understanding from Egocentric Video with 3D Gaussian Splatting",
@@ -16503,7 +17083,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "Neural Information Processing Systems",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2406.01916": {
       "title": "FastLGS: Speeding up Language Embedded Gaussians with Feature Grid Mapping",
@@ -16542,7 +17129,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "AAAI Conference on Artificial Intelligence",
+        "pub_type": "JournalArticle,Conference",
+        "publisher": null
+      }
     },
     "2406.01815": {
       "title": "Deep asymmetric mixture model for unsupervised cell segmentation",
@@ -16649,7 +17243,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "European Conference on Computer Vision",
+        "pub_type": "JournalArticle,Conference",
+        "publisher": null
+      }
     },
     "2405.18426": {
       "title": "GFlow: Recovering 4D World from Monocular Video",
@@ -16839,7 +17440,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "British Machine Vision Conference",
+        "pub_type": "JournalArticle,Conference",
+        "publisher": null
+      }
     },
     "2405.18003": {
       "title": "MAVIN: Multi-Action Video Generation with Diffusion Models via Transition Video Infilling",
@@ -16917,7 +17525,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "ACM Multimedia",
+        "pub_type": "JournalArticle,Book",
+        "publisher": null
+      }
     },
     "2405.17429": {
       "title": "GaussianFormer: Scene as Gaussians for Vision-Based 3D Semantic Occupancy Prediction",
@@ -17186,7 +17801,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "arXiv.org",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2405.14342": {
       "title": "RoGs: Large Scale Road Surface Reconstruction with Meshgrid Gaussian",
@@ -17941,7 +18563,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "ACM Transactions on Multimedia Computing, Communications, and Applications (TOMCCAP)",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2404.12784": {
       "title": "Contrastive Gaussian Clustering: Weakly Supervised 3D Scene Segmentation",
@@ -17978,7 +18607,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "arXiv.org",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2404.12252": {
       "title": "Deep Gaussian mixture model for unsupervised image segmentation",
@@ -18482,7 +19118,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "arXiv.org",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2404.00923": {
       "title": "MM3DGS SLAM: Multi-modal 3D Gaussian Splatting for SLAM Using Vision, Depth, and Inertial Measurements",
@@ -18751,7 +19394,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "European Conference on Computer Vision",
+        "pub_type": "JournalArticle,Conference",
+        "publisher": null
+      }
     },
     "2403.17237": {
       "title": "DreamPolisher: Towards High-Quality Text-to-3D Generation via Geometric Diffusion",
@@ -18904,7 +19554,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "arXiv.org",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2403.14174": {
       "title": "Unified Static and Dynamic Network: Efficient Temporal Filtering for Video Grounding",
@@ -19023,7 +19680,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "Computer Vision and Pattern Recognition",
+        "pub_type": "JournalArticle,Conference",
+        "publisher": null
+      }
     },
     "2403.12042": {
       "title": "Exploring Pre-trained Text-to-Video Diffusion Models for Referring Video Object Segmentation",
@@ -19624,7 +20288,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "arXiv.org",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2402.06149": {
       "title": "HeadStudio: Text to Animatable Head Avatars with 3D Gaussian Splatting",
@@ -19789,7 +20460,15 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2401.14487": {
       "title": "Neighbor-Aware Calibration of Segmentation Networks with Penalty-Based Constraints",
@@ -20064,7 +20743,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "International Conference on Neural Information Processing",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2401.03177": {
       "title": "Text-Video Retrieval via Variational Multi-Modal Hypergraph Networks",
@@ -20260,7 +20946,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "International Journal of Computer Vision",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2401.01598": {
       "title": "Learning Prompt with Distribution-Based Feature Replay for Few-Shot Class-Incremental Learning",
@@ -20462,7 +21155,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "Computer Vision and Pattern Recognition",
+        "pub_type": "JournalArticle,Conference",
+        "publisher": null
+      }
     },
     "2312.16047": {
       "title": "2D-Guided 3D Gaussian Segmentation",
@@ -20721,7 +21421,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "Computer Vision and Pattern Recognition",
+        "pub_type": "JournalArticle,Conference",
+        "publisher": null
+      }
     },
     "2312.02320": {
       "title": "Cable Slack Detection for Arresting Gear Application using Machine Vision",
@@ -20868,7 +21575,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "AAAI Conference on Artificial Intelligence",
+        "pub_type": "JournalArticle,Conference",
+        "publisher": null
+      }
     },
     "2312.00732": {
       "title": "Gaussian Grouping: Segment and Edit Anything in 3D Scenes",
@@ -20905,7 +21619,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "European Conference on Computer Vision",
+        "pub_type": "JournalArticle,Conference",
+        "publisher": null
+      }
     },
     "2401.09603": {
       "title": "Rethinking FID: Towards a Better Evaluation Metric for Image Generation",
@@ -21060,7 +21781,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-12",
+        "venue": "Computer Vision and Pattern Recognition",
+        "pub_type": "JournalArticle,Conference",
+        "publisher": null
+      }
     },
     "2311.17907": {
       "title": "CG3D: Compositional Generation for Text-to-3D via Gaussian Splatting",
