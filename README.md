@@ -1,4 +1,4 @@
-## Updated at 2025-08-12 08:18:00
+## Updated at 2025-08-12 20:07:32
 
 ## 3DGS Semantic
 
@@ -8,6 +8,8 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Comments|Journal|Authors|
 |---|---|---|---|---|
+|**2025-08-11**|**[ReferSplat: Referring Segmentation in 3D Gaussian Splatting](https://arxiv.org/abs/2508.08252)**|ICML 2025 Oral, Code: https://github.com/heshuting555/ReferSplat|None|Shuting He et al.|
+|**2025-08-11**|**[SAGOnline: Segment Any Gaussians Online](https://arxiv.org/abs/2508.08219)**|19 pages, 10 figures|None|Wentao Sun et al.|
 |**2025-08-05**|**[Uni3R: Unified 3D Reconstruction and Semantic Understanding via Generalizable Gaussian Splatting from Unposed Multi-View Images](https://arxiv.org/abs/2508.03643)**|The code is available at https://github.com/HorizonRobotics/Uni3R|None|Xiangyu Sun et al.|
 |**2025-08-05**|**[Trace3D: Consistent Segmentation Lifting via Gaussian Instance Tracing](https://arxiv.org/abs/2508.03227)**|None|None|Hongyu Shen et al.|
 |**2025-08-03**|**[AG$^2$aussian: Anchor-Graph Structured Gaussian Splatting for Instance-Level 3D Scene Understanding and Editing](https://arxiv.org/abs/2508.01740)**|None|None|Zhaonan Wang et al.|
@@ -503,6 +505,11 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Comments|Journal|Authors|
 |---|---|---|---|---|
+|**2025-08-11**|**[GRASPTrack: Geometry-Reasoned Association via Segmentation and Projection for Multi-Object Tracking](https://arxiv.org/abs/2508.08117)**|None|None|Xudong Han et al.|
+|**2025-08-11**|**[TRIDE: A Text-assisted Radar-Image weather-aware fusion network for Depth Estimation](https://arxiv.org/abs/2508.08038)**|Accepted by TMLR (2025.08)|None|Huawei Sun et al.|
+|**2025-08-10**|**[DIP-GS: Deep Image Prior For Gaussian Splatting Sparse View Recovery](https://arxiv.org/abs/2508.07372)**|None|None|Rajaei Khatib, Raja Giryes|
+|**2025-08-10**|**[Similarity Matters: A Novel Depth-guided Network for Image Restoration and A New Dataset](https://arxiv.org/abs/2508.07211)**|12 pages, 10 figures|None|Junyi He et al.|
+|**2025-08-09**|**[AugLift: Boosting Generalization in Lifting-based 3D Human Pose Estimation](https://arxiv.org/abs/2508.07112)**|Preprint. Under review|None|Nikolai Warner et al.|
 |**2025-08-08**|**[Neural Field Representations of Mobile Computational Photography](https://arxiv.org/abs/2508.05907)**|PhD thesis|None|Ilya Chugunov|
 |**2025-08-07**|**[Propagating Sparse Depth via Depth Foundation Model for Out-of-Distribution Depth Completion](https://arxiv.org/abs/2508.04984)**|Accepted by IEEE TIP|None|Shenglun Chen et al.|
 |**2025-08-06**|**[Extending Foundational Monocular Depth Estimators to Fisheye Cameras with Calibration Tokens](https://arxiv.org/abs/2508.04928)**|None|None|Suchisrit Gangopadhyay et al.|

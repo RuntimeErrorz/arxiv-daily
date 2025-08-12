@@ -1,5 +1,121 @@
 {
   "3DGS Semantic": {
+    "2508.08252": {
+      "title": "ReferSplat: Referring Segmentation in 3D Gaussian Splatting",
+      "authors": [
+        "Shuting He",
+        "Guangquan Jie",
+        "Changshuo Wang",
+        "Yun Zhou",
+        "Shuming Hu",
+        "Guanbin Li",
+        "Henghui Ding"
+      ],
+      "published": "2025-08-11T17:59:30+00:00",
+      "updated": "2025-08-11T17:59:30+00:00",
+      "summary": "We introduce Referring 3D Gaussian Splatting Segmentation (R3DGS), a new task\nthat aims to segment target objects in a 3D Gaussian scene based on natural\nlanguage descriptions, which often contain spatial relationships or object\nattributes. This task requires the model to identify newly described objects\nthat may be occluded or not directly visible in a novel view, posing a\nsignificant challenge for 3D multi-modal understanding. Developing this\ncapability is crucial for advancing embodied AI. To support research in this\narea, we construct the first R3DGS dataset, Ref-LERF. Our analysis reveals that\n3D multi-modal understanding and spatial relationship modeling are key\nchallenges for R3DGS. To address these challenges, we propose ReferSplat, a\nframework that explicitly models 3D Gaussian points with natural language\nexpressions in a spatially aware paradigm. ReferSplat achieves state-of-the-art\nperformance on both the newly proposed R3DGS task and 3D open-vocabulary\nsegmentation benchmarks. Dataset and code are available at\nhttps://github.com/heshuting555/ReferSplat.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2508.08252v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "ICML 2025 Oral, Code: https://github.com/heshuting555/ReferSplat",
+      "entry_id": "http://arxiv.org/abs/2508.08252v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2508.08252v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2508.08252v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2508.08219": {
+      "title": "SAGOnline: Segment Any Gaussians Online",
+      "authors": [
+        "Wentao Sun",
+        "Quanyun Wu",
+        "Hanqing Xu",
+        "Kyle Gao",
+        "Zhengsen Xu",
+        "Yiping Chen",
+        "Dedong Zhang",
+        "Lingfei Ma",
+        "John S. Zelek",
+        "Jonathan Li"
+      ],
+      "published": "2025-08-11T17:38:50+00:00",
+      "updated": "2025-08-11T17:38:50+00:00",
+      "summary": "3D Gaussian Splatting (3DGS) has emerged as a powerful paradigm for explicit\n3D scene representation, yet achieving efficient and consistent 3D segmentation\nremains challenging. Current methods suffer from prohibitive computational\ncosts, limited 3D spatial reasoning, and an inability to track multiple objects\nsimultaneously. We present Segment Any Gaussians Online (SAGOnline), a\nlightweight and zero-shot framework for real-time 3D segmentation in Gaussian\nscenes that addresses these limitations through two key innovations: (1) a\ndecoupled strategy that integrates video foundation models (e.g., SAM2) for\nview-consistent 2D mask propagation across synthesized views; and (2) a\nGPU-accelerated 3D mask generation and Gaussian-level instance labeling\nalgorithm that assigns unique identifiers to 3D primitives, enabling lossless\nmulti-object tracking and segmentation across views. SAGOnline achieves\nstate-of-the-art performance on NVOS (92.7% mIoU) and Spin-NeRF (95.2% mIoU)\nbenchmarks, outperforming Feature3DGS, OmniSeg3D-gs, and SA3D by 15--1500 times\nin inference speed (27 ms/frame). Qualitative results demonstrate robust\nmulti-object segmentation and tracking in complex scenes. Our contributions\ninclude: (i) a lightweight and zero-shot framework for 3D segmentation in\nGaussian scenes, (ii) explicit labeling of Gaussian primitives enabling\nsimultaneous segmentation and tracking, and (iii) the effective adaptation of\n2D video foundation models to the 3D domain. This work allows real-time\nrendering and 3D scene understanding, paving the way for practical AR/VR and\nrobotic applications.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2508.08219v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "19 pages, 10 figures",
+      "entry_id": "http://arxiv.org/abs/2508.08219v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2508.08219v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2508.08219v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2508.07355": {
+      "title": "GS4Buildings: Prior-Guided Gaussian Splatting for 3D Building Reconstruction",
+      "authors": [
+        "Qilin Zhang",
+        "Olaf Wysocki",
+        "Boris Jutzi"
+      ],
+      "published": "2025-08-10T14:13:31+00:00",
+      "updated": "2025-08-10T14:13:31+00:00",
+      "summary": "Recent advances in Gaussian Splatting (GS) have demonstrated its\neffectiveness in photo-realistic rendering and 3D reconstruction. Among these,\n2D Gaussian Splatting (2DGS) is particularly suitable for surface\nreconstruction due to its flattened Gaussian representation and integrated\nnormal regularization. However, its performance often degrades in large-scale\nand complex urban scenes with frequent occlusions, leading to incomplete\nbuilding reconstructions. We propose GS4Buildings, a novel prior-guided\nGaussian Splatting method leveraging the ubiquity of semantic 3D building\nmodels for robust and scalable building surface reconstruction. Instead of\nrelying on traditional Structure-from-Motion (SfM) pipelines, GS4Buildings\ninitializes Gaussians directly from low-level Level of Detail (LoD)2 semantic\n3D building models. Moreover, we generate prior depth and normal maps from the\nplanar building geometry and incorporate them into the optimization process,\nproviding strong geometric guidance for surface consistency and structural\naccuracy. We also introduce an optional building-focused mode that limits\nreconstruction to building regions, achieving a 71.8% reduction in Gaussian\nprimitives and enabling a more efficient and compact representation.\nExperiments on urban datasets demonstrate that GS4Buildings improves\nreconstruction completeness by 20.5% and geometric accuracy by 32.8%. These\nresults highlight the potential of semantic building model integration to\nadvance GS-based reconstruction toward real-world urban applications such as\nsmart cities and digital twins. Our project is available:\nhttps://github.com/zqlin0521/GS4Buildings.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2508.07355v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted for presentation at ISPRS 3D GeoInfo & Smart Data, Smart\n  Cities 2025, Kashiwa, Japan. To appear in the ISPRS Annals of the\n  Photogrammetry, Remote Sensing and Spatial Information Sciences",
+      "entry_id": "http://arxiv.org/abs/2508.07355v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2508.07355v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2508.07355v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2508.06318": {
       "title": "Mixture of Experts Guided by Gaussian Splatters Matters: A new Approach to Weakly-Supervised Video Anomaly Detection",
       "authors": [
@@ -192,11 +308,11 @@
       "title": "Uni3R: Unified 3D Reconstruction and Semantic Understanding via Generalizable Gaussian Splatting from Unposed Multi-View Images",
       "authors": [
         "Xiangyu Sun",
-        "Haoyi jiang",
+        "Haoyi Jiang",
         "Liu Liu",
         "Seungtae Nam",
         "Gyeongjin Kang",
-        "Xinjie wang",
+        "Xinjie Wang",
         "Wei Sui",
         "Zhizhong Su",
         "Wenyu Liu",
@@ -204,26 +320,26 @@
         "Eunbyung Park"
       ],
       "published": "2025-08-05T16:54:55+00:00",
-      "updated": "2025-08-06T14:42:59+00:00",
+      "updated": "2025-08-11T03:47:38+00:00",
       "summary": "Reconstructing and semantically interpreting 3D scenes from sparse 2D views\nremains a fundamental challenge in computer vision. Conventional methods often\ndecouple semantic understanding from reconstruction or necessitate costly\nper-scene optimization, thereby restricting their scalability and\ngeneralizability. In this paper, we introduce Uni3R, a novel feed-forward\nframework that jointly reconstructs a unified 3D scene representation enriched\nwith open-vocabulary semantics, directly from unposed multi-view images. Our\napproach leverages a Cross-View Transformer to robustly integrate information\nacross arbitrary multi-view inputs, which then regresses a set of 3D Gaussian\nprimitives endowed with semantic feature fields. This unified representation\nfacilitates high-fidelity novel view synthesis, open-vocabulary 3D semantic\nsegmentation, and depth prediction, all within a single, feed-forward pass.\nExtensive experiments demonstrate that Uni3R establishes a new state-of-the-art\nacross multiple benchmarks, including 25.07 PSNR on RE10K and 55.84 mIoU on\nScanNet. Our work signifies a novel paradigm towards generalizable, unified 3D\nscene reconstruction and understanding. The code is available at\nhttps://github.com/HorizonRobotics/Uni3R.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "http://arxiv.org/pdf/2508.03643v2",
+      "pdf_url": "http://arxiv.org/pdf/2508.03643v3",
       "journal_ref": null,
       "doi": null,
       "comment": "The code is available at https://github.com/HorizonRobotics/Uni3R",
-      "entry_id": "http://arxiv.org/abs/2508.03643v2",
+      "entry_id": "http://arxiv.org/abs/2508.03643v3",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2508.03643v2",
+          "href": "http://arxiv.org/abs/2508.03643v3",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2508.03643v2",
+          "href": "http://arxiv.org/pdf/2508.03643v3",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -815,26 +931,26 @@
         "Yasutomo Kawanishi"
       ],
       "published": "2025-07-26T16:16:52+00:00",
-      "updated": "2025-07-26T16:16:52+00:00",
+      "updated": "2025-08-10T10:36:35+00:00",
       "summary": "The ability to abstract complex 3D environments into simplified and\nstructured representations is crucial across various domains. 3D semantic scene\ngraphs (SSGs) achieve this by representing objects as nodes and their\ninterrelationships as edges, facilitating high-level scene understanding.\nExisting methods for 3D SSG generation, however, face significant challenges,\nincluding high computational demands and non-incremental processing that hinder\ntheir suitability for real-time open-world applications. To address this issue,\nwe propose FROSS (Faster-than-Real-Time Online 3D Semantic Scene Graph\nGeneration), an innovative approach for online and faster-than-real-time 3D SSG\ngeneration that leverages the direct lifting of 2D scene graphs to 3D space and\nrepresents objects as 3D Gaussian distributions. This framework eliminates the\ndependency on precise and computationally-intensive point cloud processing.\nFurthermore, we extend the Replica dataset with inter-object relationship\nannotations, creating the ReplicaSSG dataset for comprehensive evaluation of\nFROSS. The experimental results from evaluations on ReplicaSSG and 3DSSG\ndatasets show that FROSS can achieve superior performance while operating\nsignificantly faster than prior 3D SSG generation methods. Our implementation\nand dataset are publicly available at https://github.com/Howardkhh/FROSS.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "http://arxiv.org/pdf/2507.19993v1",
+      "pdf_url": "http://arxiv.org/pdf/2507.19993v2",
       "journal_ref": null,
       "doi": null,
-      "comment": null,
-      "entry_id": "http://arxiv.org/abs/2507.19993v1",
+      "comment": "International Conference on Computer Vision (ICCV 2025)",
+      "entry_id": "http://arxiv.org/abs/2507.19993v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2507.19993v1",
+          "href": "http://arxiv.org/abs/2507.19993v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2507.19993v1",
+          "href": "http://arxiv.org/pdf/2507.19993v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -47750,6 +47866,190 @@
     }
   },
   "Depth Estimation": {
+    "2508.08117": {
+      "title": "GRASPTrack: Geometry-Reasoned Association via Segmentation and Projection for Multi-Object Tracking",
+      "authors": [
+        "Xudong Han",
+        "Pengcheng Fang",
+        "Yueying Tian",
+        "Jianhui Yu",
+        "Xiaohao Cai",
+        "Daniel Roggen",
+        "Philip Birch"
+      ],
+      "published": "2025-08-11T15:56:21+00:00",
+      "updated": "2025-08-11T15:56:21+00:00",
+      "summary": "Multi-object tracking (MOT) in monocular videos is fundamentally challenged\nby occlusions and depth ambiguity, issues that conventional\ntracking-by-detection (TBD) methods struggle to resolve owing to a lack of\ngeometric awareness. To address these limitations, we introduce GRASPTrack, a\nnovel depth-aware MOT framework that integrates monocular depth estimation and\ninstance segmentation into a standard TBD pipeline to generate high-fidelity 3D\npoint clouds from 2D detections, thereby enabling explicit 3D geometric\nreasoning. These 3D point clouds are then voxelized to enable a precise and\nrobust Voxel-Based 3D Intersection-over-Union (IoU) for spatial association. To\nfurther enhance tracking robustness, our approach incorporates Depth-aware\nAdaptive Noise Compensation, which dynamically adjusts the Kalman filter\nprocess noise based on occlusion severity for more reliable state estimation.\nAdditionally, we propose a Depth-enhanced Observation-Centric Momentum, which\nextends the motion direction consistency from the image plane into 3D space to\nimprove motion-based association cues, particularly for objects with complex\ntrajectories. Extensive experiments on the MOT17, MOT20, and DanceTrack\nbenchmarks demonstrate that our method achieves competitive performance,\nsignificantly improving tracking robustness in complex scenes with frequent\nocclusions and intricate motion patterns.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2508.08117v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2508.08117v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2508.08117v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2508.08117v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2508.08038": {
+      "title": "TRIDE: A Text-assisted Radar-Image weather-aware fusion network for Depth Estimation",
+      "authors": [
+        "Huawei Sun",
+        "Zixu Wang",
+        "Hao Feng",
+        "Julius Ott",
+        "Lorenzo Servadei",
+        "Robert Wille"
+      ],
+      "published": "2025-08-11T14:39:41+00:00",
+      "updated": "2025-08-11T14:39:41+00:00",
+      "summary": "Depth estimation, essential for autonomous driving, seeks to interpret the 3D\nenvironment surrounding vehicles. The development of radar sensors, known for\ntheir cost-efficiency and robustness, has spurred interest in radar-camera\nfusion-based solutions. However, existing algorithms fuse features from these\nmodalities without accounting for weather conditions, despite radars being\nknown to be more robust than cameras under adverse weather. Additionally, while\nVision-Language models have seen rapid advancement, utilizing language\ndescriptions alongside other modalities for depth estimation remains an open\nchallenge. This paper first introduces a text-generation strategy along with\nfeature extraction and fusion techniques that can assist monocular depth\nestimation pipelines, leading to improved accuracy across different algorithms\non the KITTI dataset. Building on this, we propose TRIDE, a radar-camera fusion\nalgorithm that enhances text feature extraction by incorporating radar point\ninformation. To address the impact of weather on sensor performance, we\nintroduce a weather-aware fusion block that adaptively adjusts radar weighting\nbased on current weather conditions. Our method, benchmarked on the nuScenes\ndataset, demonstrates performance gains over the state-of-the-art, achieving a\n12.87% improvement in MAE and a 9.08% improvement in RMSE. Code:\nhttps://github.com/harborsarah/TRIDE",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2508.08038v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted by TMLR (2025.08)",
+      "entry_id": "http://arxiv.org/abs/2508.08038v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2508.08038v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2508.08038v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2508.07372": {
+      "title": "DIP-GS: Deep Image Prior For Gaussian Splatting Sparse View Recovery",
+      "authors": [
+        "Rajaei Khatib",
+        "Raja Giryes"
+      ],
+      "published": "2025-08-10T14:47:32+00:00",
+      "updated": "2025-08-10T14:47:32+00:00",
+      "summary": "3D Gaussian Splatting (3DGS) is a leading 3D scene reconstruction method,\nobtaining high-quality reconstruction with real-time rendering runtime\nperformance. The main idea behind 3DGS is to represent the scene as a\ncollection of 3D gaussians, while learning their parameters to fit the given\nviews of the scene. While achieving superior performance in the presence of\nmany views, 3DGS struggles with sparse view reconstruction, where the input\nviews are sparse and do not fully cover the scene and have low overlaps. In\nthis paper, we propose DIP-GS, a Deep Image Prior (DIP) 3DGS representation. By\nusing the DIP prior, which utilizes internal structure and patterns, with\ncoarse-to-fine manner, DIP-based 3DGS can operate in scenarios where vanilla\n3DGS fails, such as sparse view recovery. Note that our approach does not use\nany pre-trained models such as generative models and depth estimation, but\nrather relies only on the input frames. Among such methods, DIP-GS obtains\nstate-of-the-art (SOTA) competitive results on various sparse-view\nreconstruction tasks, demonstrating its capabilities.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2508.07372v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2508.07372v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2508.07372v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2508.07372v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2508.07211": {
+      "title": "Similarity Matters: A Novel Depth-guided Network for Image Restoration and A New Dataset",
+      "authors": [
+        "Junyi He",
+        "Liuling Chen",
+        "Hongyang Zhou",
+        "Zhang xiaoxing",
+        "Xiaobin Zhu",
+        "Shengxiang Yu",
+        "Jingyan Qin",
+        "Xu-Cheng Yin"
+      ],
+      "published": "2025-08-10T07:17:31+00:00",
+      "updated": "2025-08-10T07:17:31+00:00",
+      "summary": "Image restoration has seen substantial progress in recent years. However,\nexisting methods often neglect depth information, which hurts similarity\nmatching, results in attention distractions in shallow depth-of-field (DoF)\nscenarios, and excessive enhancement of background content in deep DoF\nsettings. To overcome these limitations, we propose a novel Depth-Guided\nNetwork (DGN) for image restoration, together with a novel large-scale\nhigh-resolution dataset. Specifically, the network consists of two interactive\nbranches: a depth estimation branch that provides structural guidance, and an\nimage restoration branch that performs the core restoration task. In addition,\nthe image restoration branch exploits intra-object similarity through\nprogressive window-based self-attention and captures inter-object similarity\nvia sparse non-local attention. Through joint training, depth features\ncontribute to improved restoration quality, while the enhanced visual features\nfrom the restoration branch in turn help refine depth estimation. Notably, we\nalso introduce a new dataset for training and evaluation, consisting of 9,205\nhigh-resolution images from 403 plant species, with diverse depth and texture\nvariations. Extensive experiments show that our method achieves\nstate-of-the-art performance on several standard benchmarks and generalizes\nwell to unseen plant images, demonstrating its effectiveness and robustness.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2508.07211v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "12 pages, 10 figures",
+      "entry_id": "http://arxiv.org/abs/2508.07211v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2508.07211v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2508.07211v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2508.07112": {
+      "title": "AugLift: Boosting Generalization in Lifting-based 3D Human Pose Estimation",
+      "authors": [
+        "Nikolai Warner",
+        "Wenjin Zhang",
+        "Irfan Essa",
+        "Apaar Sadhwani"
+      ],
+      "published": "2025-08-09T22:36:31+00:00",
+      "updated": "2025-08-09T22:36:31+00:00",
+      "summary": "Lifting-based methods for 3D Human Pose Estimation (HPE), which predict 3D\nposes from detected 2D keypoints, often generalize poorly to new datasets and\nreal-world settings. To address this, we propose \\emph{AugLift}, a simple yet\neffective reformulation of the standard lifting pipeline that significantly\nimproves generalization performance without requiring additional data\ncollection or sensors. AugLift sparsely enriches the standard input -- the 2D\nkeypoint coordinates $(x, y)$ -- by augmenting it with a keypoint detection\nconfidence score $c$ and a corresponding depth estimate $d$. These additional\nsignals are computed from the image using off-the-shelf, pre-trained models\n(e.g., for monocular depth estimation), thereby inheriting their strong\ngeneralization capabilities. Importantly, AugLift serves as a modular add-on\nand can be readily integrated into existing lifting architectures.\n  Our extensive experiments across four datasets demonstrate that AugLift\nboosts cross-dataset performance on unseen datasets by an average of $10.1\\%$,\nwhile also improving in-distribution performance by $4.0\\%$. These gains are\nconsistent across various lifting architectures, highlighting the robustness of\nour method. Our analysis suggests that these sparse, keypoint-aligned cues\nprovide robust frame-level context, offering a practical way to significantly\nimprove the generalization of any lifting-based pose estimation model. Code\nwill be made publicly available.",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2508.07112v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Preprint. Under review",
+      "entry_id": "http://arxiv.org/abs/2508.07112v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2508.07112v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2508.07112v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2508.05907": {
       "title": "Neural Field Representations of Mobile Computational Photography",
       "authors": [
