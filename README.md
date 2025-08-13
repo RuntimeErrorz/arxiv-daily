@@ -1,4 +1,4 @@
-## Updated at 2025-08-12 23:53:24
+## Updated at 2025-08-14 04:21:45
 
 ## 3DGS Semantic
 
@@ -505,6 +505,7 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Journal|Authors|
 |---|---|---|---|---|---|
+|**2025-08-12**|**[A Robust Epipolar-Domain Regularization Algorithm for Light Field Depth Estimation](https://arxiv.org/abs/2508.08900)**|N/A|None|None|Noor Islam S. Mohammad|
 |**2025-08-11**|**[GRASPTrack: Geometry-Reasoned Association via Segmentation and Projection for Multi-Object Tracking](https://arxiv.org/abs/2508.08117)**|N/A|None|None|Xudong Han et al.|
 |**2025-08-11**|**[TRIDE: A Text-assisted Radar-Image weather-aware fusion network for Depth Estimation](https://arxiv.org/abs/2508.08038)**|N/A|Accepted by TMLR (2025.08)|None|Huawei Sun et al.|
 |**2025-08-10**|**[DIP-GS: Deep Image Prior For Gaussian Splatting Sparse View Recovery](https://arxiv.org/abs/2508.07372)**|N/A|None|None|Rajaei Khatib, Raja Giryes|

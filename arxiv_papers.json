@@ -37,7 +37,15 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-13",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2508.08219": {
       "title": "SAGOnline: Segment Any Gaussians Online",
@@ -79,7 +87,15 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-13",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2508.07355": {
       "title": "GS4Buildings: Prior-Guided Gaussian Splatting for 3D Building Reconstruction",
@@ -348,7 +364,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-12",
+        "queried_at": "2025-08-13",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -435,7 +451,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-12",
+        "queried_at": "2025-08-13",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -630,7 +646,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-12",
+        "queried_at": "2025-08-13",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -753,7 +769,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-12",
+        "queried_at": "2025-08-13",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -841,7 +857,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-12",
+        "queried_at": "2025-08-13",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -1727,7 +1743,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-12",
+        "queried_at": "2025-08-13",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -1892,7 +1908,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-12",
+        "queried_at": "2025-08-13",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -2159,7 +2175,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-12",
+        "queried_at": "2025-08-13",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -2784,7 +2800,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-12",
+        "queried_at": "2025-08-13",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -2902,7 +2918,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-12",
+        "queried_at": "2025-08-13",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -2954,7 +2970,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-12",
+        "queried_at": "2025-08-13",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -3039,7 +3055,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-12",
+        "queried_at": "2025-08-13",
         "venue": "CVPR Workshops",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -3201,7 +3217,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-12",
+        "queried_at": "2025-08-13",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -3511,32 +3527,32 @@
       "llm_approved": false
     },
     "2506.03926": {
-      "title": "Multiple Stochastic Prompt Tuning for Practical Cross-Domain Few Shot Learning",
+      "title": "Multiple Stochastic Prompt Tuning for Few-shot Adaptation under Extreme Domain Shift",
       "authors": [
         "Debarshi Brahma",
         "Soma Biswas"
       ],
       "published": "2025-06-04T13:18:04+00:00",
-      "updated": "2025-06-04T13:18:04+00:00",
-      "summary": "In this work, we propose a practical cross-domain few-shot learning (pCDFSL)\ntask, where a large-scale pre-trained model like CLIP can be easily deployed on\na target dataset. The goal is to simultaneously classify all unseen classes\nunder extreme domain shifts, by utilizing only a few labeled samples per class.\nThe pCDFSL paradigm is source-free and moves beyond artificially created\nepisodic training and testing regimes followed by existing CDFSL frameworks,\nmaking it more challenging and relevant to real-world applications. Towards\nthat goal, we propose a novel framework, termed MIST (MultIple STochastic\nPrompt tuning), where multiple stochastic prompts are utilized to handle\nsignificant domain and semantic shifts. Specifically, multiple prompts are\nlearnt for each class, effectively capturing multiple peaks in the input data.\nFurthermore, instead of representing the weights of the multiple prompts as\npoint-estimates, we model them as learnable Gaussian distributions with two\ndifferent strategies, encouraging an efficient exploration of the prompt\nparameter space, which mitigate overfitting due to the few labeled training\nsamples. Extensive experiments and comparison with the state-of-the-art methods\non four CDFSL benchmarks adapted to this setting, show the effectiveness of the\nproposed framework.",
+      "updated": "2025-08-12T13:40:29+00:00",
+      "summary": "Foundation Vision-Language Models (VLMs) like CLIP exhibit strong\ngeneralization capabilities due to large-scale pretraining on diverse\nimage-text pairs. However, their performance often degrades when applied to\ntarget datasets with significant distribution shifts in both visual appearance\nand class semantics. Recent few-shot learning approaches adapt CLIP to\ndownstream tasks using limited labeled data via adapter or prompt tuning, but\nare not specifically designed to handle such extreme domain shifts. Conversely,\nsome works addressing cross-domain few-shot learning consider such\ndomain-shifted scenarios but operate in an episodic setting with only a few\nclasses per episode, limiting their applicability to real-world deployment,\nwhere all classes must be handled simultaneously. To address this gap, we\npropose a novel framework, MIST (Multiple Stochastic Prompt Tuning), for\nefficiently adapting CLIP to datasets with extreme distribution shifts using\nonly a few labeled examples, in scenarios involving all classes at once.\nSpecifically, we introduce multiple learnable prompts per class to effectively\ncapture diverse modes in visual representations arising from distribution\nshifts. To further enhance generalization, these prompts are modeled as\nlearnable Gaussian distributions, enabling efficient exploration of the prompt\nparameter space and reducing overfitting caused by limited supervision.\nExtensive experiments and comparisons with state-of-the-art methods demonstrate\nthe effectiveness of the proposed framework.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "http://arxiv.org/pdf/2506.03926v1",
+      "pdf_url": "http://arxiv.org/pdf/2506.03926v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2506.03926v1",
+      "entry_id": "http://arxiv.org/abs/2506.03926v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2506.03926v1",
+          "href": "http://arxiv.org/abs/2506.03926v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2506.03926v1",
+          "href": "http://arxiv.org/pdf/2506.03926v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -3708,7 +3724,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-12",
+        "queried_at": "2025-08-13",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -3756,7 +3772,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-12",
+        "queried_at": "2025-08-13",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -3963,7 +3979,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-12",
+        "queried_at": "2025-08-13",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -4079,7 +4095,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-12",
+        "queried_at": "2025-08-13",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -4496,7 +4512,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-12",
+        "queried_at": "2025-08-13",
         "venue": "IEEE Robotics and Automation Letters",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -5100,7 +5116,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-12",
+        "queried_at": "2025-08-13",
         "venue": "Scandinavian Conference on Image Analysis",
         "pub_type": "JournalArticle,Conference",
         "publisher": null
@@ -5187,7 +5203,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-12",
+        "queried_at": "2025-08-13",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -5268,7 +5284,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-12",
+        "queried_at": "2025-08-13",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -5352,7 +5368,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-12",
+        "queried_at": "2025-08-13",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -5436,7 +5452,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-12",
+        "queried_at": "2025-08-13",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -5520,7 +5536,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-12",
+        "queried_at": "2025-08-13",
         "venue": "CVPR Workshops",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -5561,7 +5577,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-12",
+        "queried_at": "2025-08-13",
         "venue": "International Conference on Learning Representations",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -5839,7 +5855,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-12",
+        "queried_at": "2025-08-13",
         "venue": "Computer Vision and Pattern Recognition",
         "pub_type": "JournalArticle,Conference",
         "publisher": null
@@ -5960,7 +5976,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-12",
+        "queried_at": "2025-08-13",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -6003,7 +6019,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-12",
+        "queried_at": "2025-08-13",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -6053,7 +6069,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-12",
+        "queried_at": "2025-08-13",
         "venue": "Computer Vision and Pattern Recognition",
         "pub_type": "JournalArticle,Conference",
         "publisher": null
@@ -6322,7 +6338,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-12",
+        "queried_at": "2025-08-13",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -6370,7 +6386,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-12",
+        "queried_at": "2025-08-13",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -48594,6 +48610,38 @@
     }
   },
   "Depth Estimation": {
+    "2508.08900": {
+      "title": "A Robust Epipolar-Domain Regularization Algorithm for Light Field Depth Estimation",
+      "authors": [
+        "Noor Islam S. Mohammad"
+      ],
+      "published": "2025-08-12T12:41:47+00:00",
+      "updated": "2025-08-12T12:41:47+00:00",
+      "summary": "Robust depth estimation in light field imaging remains a critical challenge\nfor pattern recognition applications such as augmented reality, biomedical\nimaging, and scene reconstruction. While existing approaches often rely heavily\non deep convolutional neural networks, they tend to incur high computational\ncosts and struggle in noisy real-world environments. This paper proposes a\nnovel lightweight depth estimation pipeline that integrates light field-based\ndisparity information with a directed random walk refinement algorithm. Unlike\ntraditional CNN-based methods, our approach enhances depth map consistency\nwithout requiring extensive training or large-scale datasets. The proposed\nmethod was evaluated on the 4D Light Field Benchmark dataset and a diverse set\nof real-world images. Experimental results indicate that while performance\nslightly declines under uncontrolled conditions, the algorithm consistently\nmaintains low computational complexity and competitive accuracy compared to\nstate-of-the-art deep learning models. These findings highlight the potential\nof our method as a robust and efficient alternative for depth estimation and\nsegmentation in light field imaging. The work provides insights into practical\nalgorithm design for light field-based pattern recognition and opens new\ndirections for integrating probabilistic graph models with depth sensing\nframeworks.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2508.08900v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2508.08900v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2508.08900v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2508.08900v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2508.08117": {
       "title": "GRASPTrack: Geometry-Reasoned Association via Segmentation and Projection for Multi-Object Tracking",
       "authors": [
