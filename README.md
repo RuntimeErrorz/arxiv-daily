@@ -1,4 +1,4 @@
-## Updated at 2025-08-14 08:18:24
+## Updated at 2025-08-14 20:08:26
 
 ## 3DGS Semantic
 
@@ -8,6 +8,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Journal|Authors|
 |---|---|---|---|---|---|
+|**2025-08-13**|**[A Survey on 3D Gaussian Splatting Applications: Segmentation, Editing, and Generation](https://arxiv.org/abs/2508.09977)**|N/A|GitHub Repo: https://github.com/heshuting555/Awesome-3DGS-Applications|None|Shuting He et al.|
 |**2025-08-11**|**[ReferSplat: Referring Segmentation in 3D Gaussian Splatting](https://arxiv.org/abs/2508.08252)**|N/A|ICML 2025 Oral, Code: https://github.com/heshuting555/ReferSplat|None|Shuting He et al.|
 |**2025-08-11**|**[SAGOnline: Segment Any Gaussians Online](https://arxiv.org/abs/2508.08219)**|N/A|19 pages, 10 figures|None|Wentao Sun et al.|
 |**2025-08-05**|**[Uni3R: Unified 3D Reconstruction and Semantic Understanding via Generalizable Gaussian Splatting from Unposed Multi-View Images](https://arxiv.org/abs/2508.03643)**|N/A|The code is available at https://github.com/HorizonRobotics/Uni3R|None|Xiangyu Sun et al.|

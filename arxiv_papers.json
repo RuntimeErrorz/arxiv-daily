@@ -1,5 +1,160 @@
 {
   "3DGS Semantic": {
+    "2508.09977": {
+      "title": "A Survey on 3D Gaussian Splatting Applications: Segmentation, Editing, and Generation",
+      "authors": [
+        "Shuting He",
+        "Peilin Ji",
+        "Yitong Yang",
+        "Changshuo Wang",
+        "Jiayi Ji",
+        "Yinglin Wang",
+        "Henghui Ding"
+      ],
+      "published": "2025-08-13T17:44:39+00:00",
+      "updated": "2025-08-13T17:44:39+00:00",
+      "summary": "3D Gaussian Splatting (3DGS) has recently emerged as a powerful alternative\nto Neural Radiance Fields (NeRF) for 3D scene representation, offering\nhigh-fidelity photorealistic rendering with real-time performance. Beyond novel\nview synthesis, the explicit and compact nature of 3DGS enables a wide range of\ndownstream applications that require geometric and semantic understanding. This\nsurvey provides a comprehensive overview of recent progress in 3DGS\napplications. It first introduces 2D foundation models that support semantic\nunderstanding and control in 3DGS applications, followed by a review of\nNeRF-based methods that inform their 3DGS counterparts. We then categorize 3DGS\napplications into segmentation, editing, generation, and other functional\ntasks. For each, we summarize representative methods, supervision strategies,\nand learning paradigms, highlighting shared design principles and emerging\ntrends. Commonly used datasets and evaluation protocols are also summarized,\nalong with comparative analyses of recent methods across public benchmarks. To\nsupport ongoing research and development, a continually updated repository of\npapers, code, and resources is maintained at\nhttps://github.com/heshuting555/Awesome-3DGS-Applications.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2508.09977v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "GitHub Repo:\n  https://github.com/heshuting555/Awesome-3DGS-Applications",
+      "entry_id": "http://arxiv.org/abs/2508.09977v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2508.09977v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2508.09977v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2508.09667": {
+      "title": "GSFixer: Improving 3D Gaussian Splatting with Reference-Guided Video Diffusion Priors",
+      "authors": [
+        "Xingyilang Yin",
+        "Qi Zhang",
+        "Jiahao Chang",
+        "Ying Feng",
+        "Qingnan Fan",
+        "Xi Yang",
+        "Chi-Man Pun",
+        "Huaqi Zhang",
+        "Xiaodong Cun"
+      ],
+      "published": "2025-08-13T09:56:28+00:00",
+      "updated": "2025-08-13T09:56:28+00:00",
+      "summary": "Reconstructing 3D scenes using 3D Gaussian Splatting (3DGS) from sparse views\nis an ill-posed problem due to insufficient information, often resulting in\nnoticeable artifacts. While recent approaches have sought to leverage\ngenerative priors to complete information for under-constrained regions, they\nstruggle to generate content that remains consistent with input observations.\nTo address this challenge, we propose GSFixer, a novel framework designed to\nimprove the quality of 3DGS representations reconstructed from sparse inputs.\nThe core of our approach is the reference-guided video restoration model, built\nupon a DiT-based video diffusion model trained on paired artifact 3DGS renders\nand clean frames with additional reference-based conditions. Considering the\ninput sparse views as references, our model integrates both 2D semantic\nfeatures and 3D geometric features of reference views extracted from the visual\ngeometry foundation model, enhancing the semantic coherence and 3D consistency\nwhen fixing artifact novel views. Furthermore, considering the lack of suitable\nbenchmarks for 3DGS artifact restoration evaluation, we present DL3DV-Res which\ncontains artifact frames rendered using low-quality 3DGS. Extensive experiments\ndemonstrate our GSFixer outperforms current state-of-the-art methods in 3DGS\nartifact restoration and sparse-view 3D reconstruction. Project page:\nhttps://github.com/GVCLab/GSFixer.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2508.09667v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2508.09667v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2508.09667v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2508.09667v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2508.09626": {
+      "title": "Semantic-aware DropSplat: Adaptive Pruning of Redundant Gaussians for 3D Aerial-View Segmentation",
+      "authors": [
+        "Xu Tang",
+        "Junan Jia",
+        "Yijing Wang",
+        "Jingjing Ma",
+        "Xiangrong Zhang"
+      ],
+      "published": "2025-08-13T08:57:38+00:00",
+      "updated": "2025-08-13T08:57:38+00:00",
+      "summary": "In the task of 3D Aerial-view Scene Semantic Segmentation (3D-AVS-SS),\ntraditional methods struggle to address semantic ambiguity caused by scale\nvariations and structural occlusions in aerial images. This limits their\nsegmentation accuracy and consistency. To tackle these challenges, we propose a\nnovel 3D-AVS-SS approach named SAD-Splat. Our method introduces a Gaussian\npoint drop module, which integrates semantic confidence estimation with a\nlearnable sparsity mechanism based on the Hard Concrete distribution. This\nmodule effectively eliminates redundant and semantically ambiguous Gaussian\npoints, enhancing both segmentation performance and representation compactness.\nFurthermore, SAD-Splat incorporates a high-confidence pseudo-label generation\npipeline. It leverages 2D foundation models to enhance supervision when\nground-truth labels are limited, thereby further improving segmentation\naccuracy. To advance research in this domain, we introduce a challenging\nbenchmark dataset: 3D Aerial Semantic (3D-AS), which encompasses diverse\nreal-world aerial scenes with sparse annotations. Experimental results\ndemonstrate that SAD-Splat achieves an excellent balance between segmentation\naccuracy and representation compactness. It offers an efficient and scalable\nsolution for 3D aerial scene understanding.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2508.09626v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "9 pages, 4 figures, AAAI 2026",
+      "entry_id": "http://arxiv.org/abs/2508.09626v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2508.09626v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2508.09626v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2508.09423": {
+      "title": "Distilling LLM Prior to Flow Model for Generalizable Agent's Imagination in Object Goal Navigation",
+      "authors": [
+        "Badi Li",
+        "Ren-jie Lu",
+        "Yu Zhou",
+        "Jingke Meng",
+        "Wei-shi Zheng"
+      ],
+      "published": "2025-08-13T01:57:48+00:00",
+      "updated": "2025-08-13T01:57:48+00:00",
+      "summary": "The Object Goal Navigation (ObjectNav) task challenges agents to locate a\nspecified object in an unseen environment by imagining unobserved regions of\nthe scene. Prior approaches rely on deterministic and discriminative models to\ncomplete semantic maps, overlooking the inherent uncertainty in indoor layouts\nand limiting their ability to generalize to unseen environments. In this work,\nwe propose GOAL, a generative flow-based framework that models the semantic\ndistribution of indoor environments by bridging observed regions with\nLLM-enriched full-scene semantic maps. During training, spatial priors inferred\nfrom large language models (LLMs) are encoded as two-dimensional Gaussian\nfields and injected into target maps, distilling rich contextual knowledge into\nthe flow model and enabling more generalizable completions. Extensive\nexperiments demonstrate that GOAL achieves state-of-the-art performance on MP3D\nand Gibson, and shows strong generalization in transfer settings to HM3D. Codes\nand pretrained models are available at https://github.com/Badi-Li/GOAL.",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2508.09423v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2508.09423v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2508.09423v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2508.09423v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2508.08252": {
       "title": "ReferSplat: Referring Segmentation in 3D Gaussian Splatting",
       "authors": [
@@ -1563,26 +1718,26 @@
         "Guiguang Ding"
       ],
       "published": "2025-07-13T05:37:33+00:00",
-      "updated": "2025-07-13T05:37:33+00:00",
-      "summary": "Vision-language models (VLMs) exhibit remarkable zero-shot capabilities but\nstruggle with distribution shifts in downstream tasks when labeled data is\nunavailable, which has motivated the development of Test-Time Adaptation (TTA)\nto improve VLMs' performance during inference without annotations. Among\nvarious TTA approaches, cache-based methods show promise by preserving\nhistorical knowledge from low-entropy samples in a dynamic cache and fostering\nefficient adaptation. However, these methods face two critical reliability\nchallenges: (1) entropy often becomes unreliable under distribution shifts,\ncausing error accumulation in the cache and degradation in adaptation\nperformance; (2) the final predictions may be unreliable due to inflexible\ndecision boundaries that fail to accommodate large downstream shifts. To\naddress these challenges, we propose a Reliable Test-time Adaptation (ReTA)\nmethod that integrates two complementary strategies to enhance reliability from\ntwo perspectives. First, to mitigate the unreliability of entropy as a sample\nselection criterion for cache construction, we introduce Consistency-aware\nEntropy Reweighting (CER), which incorporates consistency constraints to weight\nentropy during cache updating. While conventional approaches rely solely on low\nentropy for cache prioritization and risk introducing noise, our method\nleverages predictive consistency to maintain a high-quality cache and\nfacilitate more robust adaptation. Second, we present Diversity-driven\nDistribution Calibration (DDC), which models class-wise text embeddings as\nmultivariate Gaussian distributions, enabling adaptive decision boundaries for\nmore accurate predictions across visually diverse content. Extensive\nexperiments demonstrate that ReTA consistently outperforms state-of-the-art\nmethods, particularly under challenging real-world distribution shifts.",
+      "updated": "2025-08-13T04:24:56+00:00",
+      "summary": "Vision-language models (VLMs) exhibit remarkable zero-shot capabilities but\nstruggle with distribution shifts in downstream tasks when labeled data is\nunavailable, which has motivated the development of Test-Time Adaptation (TTA)\nto improve VLMs' performance during inference without annotations. Among\nvarious TTA approaches, cache-based methods show promise by preserving\nhistorical knowledge from low-entropy samples in a dynamic cache and fostering\nefficient adaptation. However, these methods face two critical reliability\nchallenges: (1) entropy often becomes unreliable under distribution shifts,\ncausing error accumulation in the cache and degradation in adaptation\nperformance; (2) the final predictions may be unreliable due to inflexible\ndecision boundaries that fail to accommodate large downstream shifts. To\naddress these challenges, we propose a Reliable Test-time Adaptation (ReTA)\nmethod that integrates two complementary strategies to enhance reliability from\ntwo perspectives. First, to mitigate the unreliability of entropy as a sample\nselection criterion for cache construction, we introduce Consistency-aware\nEntropy Reweighting (CER), which incorporates consistency constraints to weight\nentropy during cache updating. While conventional approaches rely solely on low\nentropy for cache prioritization and risk introducing noise, our method\nleverages predictive consistency to maintain a high-quality cache and\nfacilitate more robust adaptation. Second, we present Diversity-driven\nDistribution Calibration (DDC), which models class-wise text embeddings as\nmultivariate Gaussian distributions, enabling adaptive decision boundaries for\nmore accurate predictions across visually diverse content. Extensive\nexperiments demonstrate that ReTA consistently outperforms state-of-the-art\nmethods, particularly under real-world distribution shifts. Code:\nhttps://github.com/Evelyn1ywliang/ReTA.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "http://arxiv.org/pdf/2507.09500v1",
+      "pdf_url": "http://arxiv.org/pdf/2507.09500v2",
       "journal_ref": null,
       "doi": null,
       "comment": "Accepted at the 33rd ACM International Conference on Multimedia(ACM\n  MM 2025)",
-      "entry_id": "http://arxiv.org/abs/2507.09500v1",
+      "entry_id": "http://arxiv.org/abs/2507.09500v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2507.09500v1",
+          "href": "http://arxiv.org/abs/2507.09500v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2507.09500v1",
+          "href": "http://arxiv.org/pdf/2507.09500v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
