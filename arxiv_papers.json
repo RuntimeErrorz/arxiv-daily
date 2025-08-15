@@ -98,26 +98,26 @@
         "Xiangrong Zhang"
       ],
       "published": "2025-08-13T08:57:38+00:00",
-      "updated": "2025-08-13T08:57:38+00:00",
+      "updated": "2025-08-14T08:26:32+00:00",
       "summary": "In the task of 3D Aerial-view Scene Semantic Segmentation (3D-AVS-SS),\ntraditional methods struggle to address semantic ambiguity caused by scale\nvariations and structural occlusions in aerial images. This limits their\nsegmentation accuracy and consistency. To tackle these challenges, we propose a\nnovel 3D-AVS-SS approach named SAD-Splat. Our method introduces a Gaussian\npoint drop module, which integrates semantic confidence estimation with a\nlearnable sparsity mechanism based on the Hard Concrete distribution. This\nmodule effectively eliminates redundant and semantically ambiguous Gaussian\npoints, enhancing both segmentation performance and representation compactness.\nFurthermore, SAD-Splat incorporates a high-confidence pseudo-label generation\npipeline. It leverages 2D foundation models to enhance supervision when\nground-truth labels are limited, thereby further improving segmentation\naccuracy. To advance research in this domain, we introduce a challenging\nbenchmark dataset: 3D Aerial Semantic (3D-AS), which encompasses diverse\nreal-world aerial scenes with sparse annotations. Experimental results\ndemonstrate that SAD-Splat achieves an excellent balance between segmentation\naccuracy and representation compactness. It offers an efficient and scalable\nsolution for 3D aerial scene understanding.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "http://arxiv.org/pdf/2508.09626v1",
+      "pdf_url": "http://arxiv.org/pdf/2508.09626v2",
       "journal_ref": null,
       "doi": null,
-      "comment": "9 pages, 4 figures, AAAI 2026",
-      "entry_id": "http://arxiv.org/abs/2508.09626v1",
+      "comment": "9 pages, 4 figures",
+      "entry_id": "http://arxiv.org/abs/2508.09626v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2508.09626v1",
+          "href": "http://arxiv.org/abs/2508.09626v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2508.09626v1",
+          "href": "http://arxiv.org/pdf/2508.09626v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -4103,35 +4103,35 @@
         "Lei Tian",
         "Xiaomin Li",
         "Liqian Ma",
-        "Hefei Huang",
-        "Zirui Zheng",
         "Hao Yin",
+        "Zirui Zheng",
+        "Hefei Huang",
         "Taiqing Li",
         "Huchuan Lu",
         "Xu Jia"
       ],
       "published": "2025-05-26T19:09:33+00:00",
-      "updated": "2025-05-26T19:09:33+00:00",
+      "updated": "2025-08-14T12:29:24+00:00",
       "summary": "Recent advances in 3D reconstruction techniques and vision-language models\nhave fueled significant progress in 3D semantic understanding, a capability\ncritical to robotics, autonomous driving, and virtual/augmented reality.\nHowever, methods that rely on 2D priors are prone to a critical challenge:\ncross-view semantic inconsistencies induced by occlusion, image blur, and\nview-dependent variations. These inconsistencies, when propagated via\nprojection supervision, deteriorate the quality of 3D Gaussian semantic fields\nand introduce artifacts in the rendered outputs. To mitigate this limitation,\nwe propose CCL-LGS, a novel framework that enforces view-consistent semantic\nsupervision by integrating multi-view semantic cues. Specifically, our approach\nfirst employs a zero-shot tracker to align a set of SAM-generated 2D masks and\nreliably identify their corresponding categories. Next, we utilize CLIP to\nextract robust semantic encodings across views. Finally, our Contrastive\nCodebook Learning (CCL) module distills discriminative semantic features by\nenforcing intra-class compactness and inter-class distinctiveness. In contrast\nto previous methods that directly apply CLIP to imperfect masks, our framework\nexplicitly resolves semantic conflicts while preserving category\ndiscriminability. Extensive experiments demonstrate that CCL-LGS outperforms\nprevious state-of-the-art methods. Our project page is available at\nhttps://epsilontl.github.io/CCL-LGS/.",
       "categories": [
         "cs.CV",
         "cs.AI"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "http://arxiv.org/pdf/2505.20469v1",
+      "pdf_url": "http://arxiv.org/pdf/2505.20469v2",
       "journal_ref": null,
       "doi": null,
-      "comment": null,
-      "entry_id": "http://arxiv.org/abs/2505.20469v1",
+      "comment": "ICCV 2025",
+      "entry_id": "http://arxiv.org/abs/2505.20469v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2505.20469v1",
+          "href": "http://arxiv.org/abs/2505.20469v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2505.20469v1",
+          "href": "http://arxiv.org/pdf/2505.20469v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -48771,6 +48771,41 @@
     }
   },
   "Depth Estimation": {
+    "2508.10411": {
+      "title": "SC-Lane: Slope-aware and Consistent Road Height Estimation Framework for 3D Lane Detection",
+      "authors": [
+        "Chaesong Park",
+        "Eunbin Seo",
+        "Jihyeon Hwang",
+        "Jongwoo Lim"
+      ],
+      "published": "2025-08-14T07:34:56+00:00",
+      "updated": "2025-08-14T07:34:56+00:00",
+      "summary": "In this paper, we introduce SC-Lane, a novel slope-aware and temporally\nconsistent heightmap estimation framework for 3D lane detection. Unlike\nprevious approaches that rely on fixed slope anchors, SC-Lane adaptively\ndetermines the fusion of slope-specific height features, improving robustness\nto diverse road geometries. To achieve this, we propose a Slope-Aware Adaptive\nFeature module that dynamically predicts the appropriate weights from image\ncues for integrating multi-slope representations into a unified heightmap.\nAdditionally, a Height Consistency Module enforces temporal coherence, ensuring\nstable and accurate height estimation across consecutive frames, which is\ncrucial for real-world driving scenarios. To evaluate the effectiveness of\nSC-Lane, we employ three standardized metrics-Mean Absolute Error(MAE), Root\nMean Squared Error (RMSE), and threshold-based accuracy-which, although common\nin surface and depth estimation, have been underutilized for road height\nassessment. Using the LiDAR-derived heightmap dataset introduced in prior work\n[20], we benchmark our method under these metrics, thereby establishing a\nrigorous standard for future comparisons. Extensive experiments on the OpenLane\nbenchmark demonstrate that SC-Lane significantly improves both height\nestimation and 3D lane detection, achieving state-of-the-art performance with\nan F-score of 64.3%, outperforming existing methods by a notable margin. For\ndetailed results and a demonstration video, please refer to our project\npage:https://parkchaesong.github.io/sclane/",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2508.10411v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "10 pages, 4 figures, 5 tables",
+      "entry_id": "http://arxiv.org/abs/2508.10411v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2508.10411v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2508.10411v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2508.08900": {
       "title": "A Robust Epipolar-Domain Regularization Algorithm for Light Field Depth Estimation",
       "authors": [

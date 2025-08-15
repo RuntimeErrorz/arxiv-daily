@@ -1,4 +1,4 @@
-## Updated at 2025-08-15 08:19:11
+## Updated at 2025-08-15 20:07:13
 
 ## 3DGS Semantic
 
@@ -26,7 +26,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2025-06-07**|**[Hi-LSplat: Hierarchical 3D Language Gaussian Splatting](https://arxiv.org/abs/2506.06822)**|arXiv.org|None|None|Chenlu Zhan et al.|
 |**2025-06-01**|**[CountingFruit: Language-Guided 3D Fruit Counting with Semantic Gaussian Splatting](https://arxiv.org/abs/2506.01109)**|N/A|None|None|Fengze Li et al.|
 |**2025-05-30**|**[Tackling View-Dependent Semantics in 3D Language Gaussian Splatting](https://arxiv.org/abs/2505.24746)**|arXiv.org|ICML 2025 camera ready. Project Page: https://jumpat.github.io/laga-page/|None|Jiazhong Cen et al.|
-|**2025-05-26**|**[CCL-LGS: Contrastive Codebook Learning for 3D Language Gaussian Splatting](https://arxiv.org/abs/2505.20469)**|arXiv.org|None|None|Lei Tian et al.|
+|**2025-05-26**|**[CCL-LGS: Contrastive Codebook Learning for 3D Language Gaussian Splatting](https://arxiv.org/abs/2505.20469)**|arXiv.org|ICCV 2025|None|Lei Tian et al.|
 |**2025-05-25**|**[FHGS: Feature-Homogenized Gaussian Splatting](https://arxiv.org/abs/2505.19154)**|arXiv.org|None|None|Q. G. Duan et al.|
 |**2025-05-12**|**[SLAG: Scalable Language-Augmented Gaussian Splatting](https://arxiv.org/abs/2505.08124)**|IEEE Robotics and Automation Letters|None|None|Laszlo Szilagyi et al.|
 |**2025-04-20**|**[NVSMask3D: Hard Visual Prompting with Camera Pose Interpolation for 3D Open Vocabulary Instance Segmentation](https://arxiv.org/abs/2504.14638)**|Scandinavian Conference on Image Analysis|15 pages, 4 figures, Scandinavian Conference on Image Analysis 2025|None|Junyuan Fang et al.|
@@ -506,6 +506,7 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Journal|Authors|
 |---|---|---|---|---|---|
+|**2025-08-14**|**[SC-Lane: Slope-aware and Consistent Road Height Estimation Framework for 3D Lane Detection](https://arxiv.org/abs/2508.10411)**|N/A|10 pages, 4 figures, 5 tables|None|Chaesong Park et al.|
 |**2025-08-12**|**[A Robust Epipolar-Domain Regularization Algorithm for Light Field Depth Estimation](https://arxiv.org/abs/2508.08900)**|N/A|None|None|Noor Islam S. Mohammad|
 |**2025-08-11**|**[GRASPTrack: Geometry-Reasoned Association via Segmentation and Projection for Multi-Object Tracking](https://arxiv.org/abs/2508.08117)**|N/A|None|None|Xudong Han et al.|
 |**2025-08-11**|**[TRIDE: A Text-assisted Radar-Image weather-aware fusion network for Depth Estimation](https://arxiv.org/abs/2508.08038)**|N/A|Accepted by TMLR (2025.08)|None|Huawei Sun et al.|
