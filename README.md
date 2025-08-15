@@ -1,4 +1,4 @@
-## Updated at 2025-08-14 20:08:26
+## Updated at 2025-08-15 08:19:11
 
 ## 3DGS Semantic
 
@@ -16,8 +16,8 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2025-08-03**|**[AG$^2$aussian: Anchor-Graph Structured Gaussian Splatting for Instance-Level 3D Scene Understanding and Editing](https://arxiv.org/abs/2508.01740)**|N/A|None|None|Zhaonan Wang et al.|
 |**2025-08-02**|**[OpenGS-Fusion: Open-Vocabulary Dense Mapping with Hybrid 3D Gaussian Splatting for Refined Object-Level Understanding](https://arxiv.org/abs/2508.01150)**|N/A|IROS2025|None|Dianyi Yang et al.|
 |**2025-07-31**|**[SeqAffordSplat: Scene-level Sequential Affordance Reasoning on 3D Gaussian Splatting](https://arxiv.org/abs/2507.23772)**|N/A|None|None|Di Li et al.|
-|**2025-07-10**|**[Seg-Wild: Interactive Segmentation based on 3D Gaussian Splatting for Unconstrained Image Collections](https://arxiv.org/abs/2507.07395)**|N/A|None|None|Yongtang Bao et al.|
-|**2025-07-07**|**[Mastering Regional 3DGS: Locating, Initializing, and Editing with Diverse 2D Priors](https://arxiv.org/abs/2507.05426)**|N/A|None|None|Lanqing Guo et al.|
+|**2025-07-10**|**[Seg-Wild: Interactive Segmentation based on 3D Gaussian Splatting for Unconstrained Image Collections](https://arxiv.org/abs/2507.07395)**|arXiv.org|None|None|Yongtang Bao et al.|
+|**2025-07-07**|**[Mastering Regional 3DGS: Locating, Initializing, and Editing with Diverse 2D Priors](https://arxiv.org/abs/2507.05426)**|arXiv.org|None|None|Lanqing Guo et al.|
 |**2025-07-01**|**[GaussianVLM: Scene-centric 3D Vision-Language Models using Language-aligned Gaussian Splats for Embodied Reasoning and Beyond](https://arxiv.org/abs/2507.00886)**|arXiv.org|None|None|Anna-Maria Halacheva et al.|
 |**2025-06-11**|**[SemanticSplat: Feed-Forward 3D Scene Understanding with Language-Aware Gaussian Fields](https://arxiv.org/abs/2506.09565)**|arXiv.org|None|None|Qijing Li et al.|
 |**2025-06-11**|**[UniForward: Unified 3D Scene and Semantic Field Reconstruction via Feed-Forward Gaussian Splatting from Only Sparse-View Images](https://arxiv.org/abs/2506.09378)**|arXiv.org|None|None|Qijian Tian et al.|

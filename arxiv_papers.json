@@ -37,7 +37,15 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-15",
+        "venue": null,
+        "pub_type": "Review",
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2508.09667": {
       "title": "GSFixer: Improving 3D Gaussian Splatting with Reference-Guided Video Diffusion Priors",
@@ -195,7 +203,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-14",
+        "queried_at": "2025-08-15",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -245,7 +253,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-14",
+        "queried_at": "2025-08-15",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -519,7 +527,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-14",
+        "queried_at": "2025-08-15",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -606,7 +614,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-14",
+        "queried_at": "2025-08-15",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -801,7 +809,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-14",
+        "queried_at": "2025-08-15",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -924,7 +932,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-14",
+        "queried_at": "2025-08-15",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -1012,7 +1020,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-14",
+        "queried_at": "2025-08-15",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -1898,11 +1906,10 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-14",
-        "venue": null,
-        "pub_type": null,
-        "publisher": null,
-        "note": "已查询但未找到venue信息"
+        "queried_at": "2025-08-15",
+        "venue": "arXiv.org",
+        "pub_type": "JournalArticle",
+        "publisher": null
       }
     },
     "2507.06647": {
@@ -2063,11 +2070,10 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-14",
-        "venue": null,
-        "pub_type": null,
-        "publisher": null,
-        "note": "已查询但未找到venue信息"
+        "queried_at": "2025-08-15",
+        "venue": "arXiv.org",
+        "pub_type": "JournalArticle",
+        "publisher": null
       }
     },
     "2507.05256": {
@@ -2330,7 +2336,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-14",
+        "queried_at": "2025-08-15",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -2955,7 +2961,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-14",
+        "queried_at": "2025-08-15",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -3073,7 +3079,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-14",
+        "queried_at": "2025-08-15",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -3125,7 +3131,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-14",
+        "queried_at": "2025-08-15",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -3210,7 +3216,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-14",
+        "queried_at": "2025-08-15",
         "venue": "CVPR Workshops",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -3372,7 +3378,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-14",
+        "queried_at": "2025-08-15",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -3879,7 +3885,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-14",
+        "queried_at": "2025-08-15",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -3927,7 +3933,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-14",
+        "queried_at": "2025-08-15",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -4134,7 +4140,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-14",
+        "queried_at": "2025-08-15",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -4250,7 +4256,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-14",
+        "queried_at": "2025-08-15",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -4667,7 +4673,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-14",
+        "queried_at": "2025-08-15",
         "venue": "IEEE Robotics and Automation Letters",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -5271,7 +5277,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-14",
+        "queried_at": "2025-08-15",
         "venue": "Scandinavian Conference on Image Analysis",
         "pub_type": "JournalArticle,Conference",
         "publisher": null
@@ -5358,7 +5364,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-14",
+        "queried_at": "2025-08-15",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -5439,7 +5445,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-14",
+        "queried_at": "2025-08-15",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -5523,7 +5529,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-14",
+        "queried_at": "2025-08-15",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -5607,7 +5613,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-14",
+        "queried_at": "2025-08-15",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -5691,7 +5697,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-14",
+        "queried_at": "2025-08-15",
         "venue": "CVPR Workshops",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -5732,7 +5738,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-14",
+        "queried_at": "2025-08-15",
         "venue": "International Conference on Learning Representations",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -6010,7 +6016,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-14",
+        "queried_at": "2025-08-15",
         "venue": "Computer Vision and Pattern Recognition",
         "pub_type": "JournalArticle,Conference",
         "publisher": null
@@ -6131,7 +6137,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-14",
+        "queried_at": "2025-08-15",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -6174,7 +6180,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-14",
+        "queried_at": "2025-08-15",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -6224,7 +6230,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-14",
+        "queried_at": "2025-08-15",
         "venue": "Computer Vision and Pattern Recognition",
         "pub_type": "JournalArticle,Conference",
         "publisher": null
