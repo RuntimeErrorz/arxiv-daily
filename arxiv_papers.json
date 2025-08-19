@@ -1,5 +1,148 @@
 {
   "3DGS Semantic": {
+    "2508.11431": {
+      "title": "Remove360: Benchmarking Residuals After Object Removal in 3D Gaussian Splatting",
+      "authors": [
+        "Simona Kocour",
+        "Assia Benbihi",
+        "Torsten Sattler"
+      ],
+      "published": "2025-08-15T12:15:06+00:00",
+      "updated": "2025-08-15T12:15:06+00:00",
+      "summary": "Understanding what semantic information persists after object removal is\ncritical for privacy-preserving 3D reconstruction and editable scene\nrepresentations. In this work, we introduce a novel benchmark and evaluation\nframework to measure semantic residuals, the unintended semantic traces left\nbehind, after object removal in 3D Gaussian Splatting. We conduct experiments\nacross a diverse set of indoor and outdoor scenes, showing that current methods\ncan preserve semantic information despite the absence of visual geometry. We\nalso release Remove360, a dataset of pre/post-removal RGB images and\nobject-level masks captured in real-world environments. While prior datasets\nhave focused on isolated object instances, Remove360 covers a broader and more\ncomplex range of indoor and outdoor scenes, enabling evaluation of object\nremoval in the context of full-scene representations. Given ground truth images\nof a scene before and after object removal, we assess whether we can truly\neliminate semantic presence, and if downstream models can still infer what was\nremoved. Our findings reveal critical limitations in current 3D object removal\ntechniques and underscore the need for more robust solutions capable of\nhandling real-world complexity. The evaluation framework is available at\ngithub.com/spatial-intelligence-ai/Remove360.git. Data are available at\nhuggingface.co/datasets/simkoc/Remove360.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2508.11431v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "arXiv admin note: substantial text overlap with arXiv:2503.17574",
+      "entry_id": "http://arxiv.org/abs/2508.11431v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2508.11431v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2508.11431v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2508.11354": {
+      "title": "Leveraging the RETFound foundation model for optic disc segmentation in retinal images",
+      "authors": [
+        "Zhenyi Zhao",
+        "Muthu Rama Krishnan Mookiah",
+        "Emanuele Trucco"
+      ],
+      "published": "2025-08-15T09:43:49+00:00",
+      "updated": "2025-08-15T09:43:49+00:00",
+      "summary": "RETFound is a well-known foundation model (FM) developed for fundus camera\nand optical coherence tomography images. It has shown promising performance\nacross multiple datasets in diagnosing diseases, both eye-specific and\nsystemic, from retinal images. However, to our best knowledge, it has not been\nused for other tasks. We present the first adaptation of RETFound for optic\ndisc segmentation, a ubiquitous and foundational task in retinal image\nanalysis. The resulting segmentation system outperforms state-of-the-art,\nsegmentation-specific baseline networks after training a head with only a very\nmodest number of task-specific examples. We report and discuss results with\nfour public datasets, IDRID, Drishti-GS, RIM-ONE-r3, and REFUGE, and a private\ndataset, GoDARTS, achieving about 96% Dice consistently across all datasets.\nOverall, our method obtains excellent performance in internal verification,\ndomain generalization and domain adaptation, and exceeds most of the\nstate-of-the-art baseline results. We discuss the results in the framework of\nthe debate about FMs as alternatives to task-specific architectures. The code\nis available at: [link to be added after the paper is accepted]",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2508.11354v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2508.11354v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2508.11354v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2508.11354v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2508.11330": {
+      "title": "Noise Matters: Optimizing Matching Noise for Diffusion Classifiers",
+      "authors": [
+        "Yanghao Wang",
+        "Long Chen"
+      ],
+      "published": "2025-08-15T09:01:03+00:00",
+      "updated": "2025-08-15T09:01:03+00:00",
+      "summary": "Although today's pretrained discriminative vision-language models (e.g.,\nCLIP) have demonstrated strong perception abilities, such as zero-shot image\nclassification, they also suffer from the bag-of-words problem and spurious\nbias. To mitigate these problems, some pioneering studies leverage powerful\ngenerative models (e.g., pretrained diffusion models) to realize generalizable\nimage classification, dubbed Diffusion Classifier (DC). Specifically, by\nrandomly sampling a Gaussian noise, DC utilizes the differences of denoising\neffects with different category conditions to classify categories.\nUnfortunately, an inherent and notorious weakness of existing DCs is noise\ninstability: different random sampled noises lead to significant performance\nchanges. To achieve stable classification performance, existing DCs always\nensemble the results of hundreds of sampled noises, which significantly reduces\nthe classification speed. To this end, we firstly explore the role of noise in\nDC, and conclude that: there are some ``good noises'' that can relieve the\ninstability. Meanwhile, we argue that these good noises should meet two\nprinciples: Frequency Matching and Spatial Matching. Regarding both principles,\nwe propose a novel Noise Optimization method to learn matching (i.e., good)\nnoise for DCs: NoOp. For frequency matching, NoOp first optimizes a\ndataset-specific noise: Given a dataset and a timestep t, optimize one randomly\ninitialized parameterized noise. For Spatial Matching, NoOp trains a\nMeta-Network that adopts an image as input and outputs image-specific noise\noffset. The sum of optimized noise and noise offset will be used in DC to\nreplace random noise. Extensive ablations on various datasets demonstrated the\neffectiveness of NoOp.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2508.11330v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2508.11330v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2508.11330v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2508.11330v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2508.11183": {
+      "title": "Versatile Video Tokenization with Generative 2D Gaussian Splatting",
+      "authors": [
+        "Zhenghao Chen",
+        "Zicong Chen",
+        "Lei Liu",
+        "Yiming Wu",
+        "Dong Xu"
+      ],
+      "published": "2025-08-15T03:16:45+00:00",
+      "updated": "2025-08-15T03:16:45+00:00",
+      "summary": "Video tokenization procedure is critical for a wide range of video processing\ntasks. Most existing approaches directly transform video into fixed-grid and\npatch-wise tokens, which exhibit limited versatility. Spatially, uniformly\nallocating a fixed number of tokens often leads to over-encoding in\nlow-information regions. Temporally, reducing redundancy remains challenging\nwithout explicitly distinguishing between static and dynamic content. In this\nwork, we propose the Gaussian Video Transformer (GVT), a versatile video\ntokenizer built upon a generative 2D Gaussian Splatting (2DGS) strategy. We\nfirst extract latent rigid features from a video clip and represent them with a\nset of 2D Gaussians generated by our proposed Spatio-Temporal Gaussian\nEmbedding (STGE) mechanism in a feed-forward manner. Such generative 2D\nGaussians not only enhance spatial adaptability by assigning higher (resp.,\nlower) rendering weights to regions with higher (resp., lower) information\ncontent during rasterization, but also improve generalization by avoiding\nper-video optimization.To enhance the temporal versatility, we introduce a\nGaussian Set Partitioning (GSP) strategy that separates the 2D Gaussians into\nstatic and dynamic sets, which explicitly model static content shared across\ndifferent time-steps and dynamic content specific to each time-step, enabling a\ncompact representation.We primarily evaluate GVT on the video reconstruction,\nwhile also assessing its performance on action recognition and compression\nusing the UCF101, Kinetics, and DAVIS datasets. Extensive experiments\ndemonstrate that GVT achieves a state-of-the-art video reconstruction quality,\noutperforms the baseline MAGVIT-v2 in action recognition, and delivers\ncomparable compression performance.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2508.11183v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2508.11183v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2508.11183v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2508.11183v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2508.09977": {
       "title": "A Survey on 3D Gaussian Splatting Applications: Segmentation, Editing, and Generation",
       "authors": [
@@ -40,7 +183,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-18",
+        "queried_at": "2025-08-19",
         "venue": null,
         "pub_type": "Review",
         "publisher": null,
@@ -163,6 +306,42 @@
       ],
       "llm_approved": false
     },
+    "2508.10936": {
+      "title": "Vision-Only Gaussian Splatting for Collaborative Semantic Occupancy Prediction",
+      "authors": [
+        "Cheng Chen",
+        "Hao Huang",
+        "Saurabh Bagchi"
+      ],
+      "published": "2025-08-12T19:50:34+00:00",
+      "updated": "2025-08-12T19:50:34+00:00",
+      "summary": "Collaborative perception enables connected vehicles to share information,\novercoming occlusions and extending the limited sensing range inherent in\nsingle-agent (non-collaborative) systems. Existing vision-only methods for 3D\nsemantic occupancy prediction commonly rely on dense 3D voxels, which incur\nhigh communication costs, or 2D planar features, which require accurate depth\nestimation or additional supervision, limiting their applicability to\ncollaborative scenarios. To address these challenges, we propose the first\napproach leveraging sparse 3D semantic Gaussian splatting for collaborative 3D\nsemantic occupancy prediction. By sharing and fusing intermediate Gaussian\nprimitives, our method provides three benefits: a neighborhood-based\ncross-agent fusion that removes duplicates and suppresses noisy or inconsistent\nGaussians; a joint encoding of geometry and semantics in each primitive, which\nreduces reliance on depth supervision and allows simple rigid alignment; and\nsparse, object-centric messages that preserve structural information while\nreducing communication volume. Extensive experiments demonstrate that our\napproach outperforms single-agent perception and baseline collaborative methods\nby +8.42 and +3.28 points in mIoU, and +5.11 and +22.41 points in IoU,\nrespectively. When further reducing the number of transmitted Gaussians, our\nmethod still achieves a +1.9 improvement in mIoU, using only 34.6%\ncommunication volume, highlighting robust performance under limited\ncommunication budgets.",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2508.10936v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2508.10936v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2508.10936v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2508.10936v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2508.08252": {
       "title": "ReferSplat: Referring Segmentation in 3D Gaussian Splatting",
       "authors": [
@@ -203,7 +382,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-18",
+        "queried_at": "2025-08-19",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -253,7 +432,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-18",
+        "queried_at": "2025-08-19",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -527,7 +706,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-18",
+        "queried_at": "2025-08-19",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -614,7 +793,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-18",
+        "queried_at": "2025-08-19",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -809,7 +988,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-18",
+        "queried_at": "2025-08-19",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -932,7 +1111,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-18",
+        "queried_at": "2025-08-19",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -1020,7 +1199,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-18",
+        "queried_at": "2025-08-19",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -1906,7 +2085,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-18",
+        "queried_at": "2025-08-19",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -2070,7 +2249,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-18",
+        "queried_at": "2025-08-19",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -2336,7 +2515,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-18",
+        "queried_at": "2025-08-19",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -2961,7 +3140,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-18",
+        "queried_at": "2025-08-19",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -3079,7 +3258,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-18",
+        "queried_at": "2025-08-19",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -3131,7 +3310,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-18",
+        "queried_at": "2025-08-19",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -3216,7 +3395,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-18",
+        "queried_at": "2025-08-19",
         "venue": "CVPR Workshops",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -3378,7 +3557,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-18",
+        "queried_at": "2025-08-19",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -3885,7 +4064,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-18",
+        "queried_at": "2025-08-19",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -3933,7 +4112,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-18",
+        "queried_at": "2025-08-19",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -4140,7 +4319,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-18",
+        "queried_at": "2025-08-19",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -4256,7 +4435,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-18",
+        "queried_at": "2025-08-19",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -4673,7 +4852,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-18",
+        "queried_at": "2025-08-19",
         "venue": "IEEE Robotics and Automation Letters",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -5277,7 +5456,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-18",
+        "queried_at": "2025-08-19",
         "venue": "Scandinavian Conference on Image Analysis",
         "pub_type": "JournalArticle,Conference",
         "publisher": null
@@ -5364,7 +5543,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-18",
+        "queried_at": "2025-08-19",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -5445,7 +5624,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-18",
+        "queried_at": "2025-08-19",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -5529,7 +5708,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-18",
+        "queried_at": "2025-08-19",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -5613,7 +5792,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-18",
+        "queried_at": "2025-08-19",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -5697,7 +5876,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-18",
+        "queried_at": "2025-08-19",
         "venue": "CVPR Workshops",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -5738,7 +5917,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-18",
+        "queried_at": "2025-08-19",
         "venue": "International Conference on Learning Representations",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -6016,7 +6195,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-18",
+        "queried_at": "2025-08-19",
         "venue": "Computer Vision and Pattern Recognition",
         "pub_type": "JournalArticle,Conference",
         "publisher": null
@@ -6137,7 +6316,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-18",
+        "queried_at": "2025-08-19",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -6180,7 +6359,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-18",
+        "queried_at": "2025-08-19",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -48771,6 +48950,119 @@
     }
   },
   "Depth Estimation": {
+    "2508.11591": {
+      "title": "DashCam Video: A complementary low-cost data stream for on-demand forest-infrastructure system monitoring",
+      "authors": [
+        "Durga Joshi",
+        "Chandi Witharana",
+        "Robert Fahey",
+        "Thomas Worthley",
+        "Zhe Zhu",
+        "Diego Cerrai"
+      ],
+      "published": "2025-08-15T16:55:12+00:00",
+      "updated": "2025-08-15T16:55:12+00:00",
+      "summary": "Our study introduces a novel, low-cost, and reproducible framework for\nreal-time, object-level structural assessment and geolocation of roadside\nvegetation and infrastructure with commonly available but underutilized\ndashboard camera (dashcam) video data. We developed an end-to-end pipeline that\ncombines monocular depth estimation, depth error correction, and geometric\ntriangulation to generate accurate spatial and structural data from\nstreet-level video streams from vehicle-mounted dashcams. Depth maps were first\nestimated using a state-of-the-art monocular depth model, then refined via a\ngradient-boosted regression framework to correct underestimations, particularly\nfor distant objects. The depth correction model achieved strong predictive\nperformance (R2 = 0.92, MAE = 0.31 on transformed scale), significantly\nreducing bias beyond 15 m. Further, object locations were estimated using\nGPS-based triangulation, while object heights were calculated using pin hole\ncamera geometry. Our method was evaluated under varying conditions of camera\nplacement and vehicle speed. Low-speed vehicle with inside camera gave the\nhighest accuracy, with mean geolocation error of 2.83 m, and mean absolute\nerror (MAE) in height estimation of 2.09 m for trees and 0.88 m for poles. To\nthe best of our knowledge, it is the first framework to combine monocular depth\nmodeling, triangulated GPS-based geolocation, and real-time structural\nassessment for urban vegetation and infrastructure using consumer-grade video\ndata. Our approach complements conventional RS methods, such as LiDAR and image\nby offering a fast, real-time, and cost-effective solution for object-level\nmonitoring of vegetation risks and infrastructure exposure, making it\nespecially valuable for utility companies, and urban planners aiming for\nscalable and frequent assessments in dynamic urban environments.",
+      "categories": [
+        "cs.CV",
+        "cs.ET"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2508.11591v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "35 Pages, 15 figures",
+      "entry_id": "http://arxiv.org/abs/2508.11591v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2508.11591v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2508.11591v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2508.11282": {
+      "title": "Unifying Scale-Aware Depth Prediction and Perceptual Priors for Monocular Endoscope Pose Estimation and Tissue Reconstruction",
+      "authors": [
+        "Muzammil Khan",
+        "Enzo Kerkhof",
+        "Matteo Fusaglia",
+        "Koert Kuhlmann",
+        "Theo Ruers",
+        "Françoise J. Siepel"
+      ],
+      "published": "2025-08-15T07:41:17+00:00",
+      "updated": "2025-08-15T07:41:17+00:00",
+      "summary": "Accurate endoscope pose estimation and 3D tissue surface reconstruction\nsignificantly enhances monocular minimally invasive surgical procedures by\nenabling accurate navigation and improved spatial awareness. However, monocular\nendoscope pose estimation and tissue reconstruction face persistent challenges,\nincluding depth ambiguity, physiological tissue deformation, inconsistent\nendoscope motion, limited texture fidelity, and a restricted field of view. To\novercome these limitations, a unified framework for monocular endoscopic tissue\nreconstruction that integrates scale-aware depth prediction with\ntemporally-constrained perceptual refinement is presented. This framework\nincorporates a novel MAPIS-Depth module, which leverages Depth Pro for robust\ninitialisation and Depth Anything for efficient per-frame depth prediction, in\nconjunction with L-BFGS-B optimisation, to generate pseudo-metric depth\nestimates. These estimates are temporally refined by computing pixel\ncorrespondences using RAFT and adaptively blending flow-warped frames based on\nLPIPS perceptual similarity, thereby reducing artefacts arising from\nphysiological tissue deformation and motion. To ensure accurate registration of\nthe synthesised pseudo-RGBD frames from MAPIS-Depth, a novel WEMA-RTDL module\nis integrated, optimising both rotation and translation. Finally, truncated\nsigned distance function-based volumetric fusion and marching cubes are applied\nto extract a comprehensive 3D surface mesh. Evaluations on HEVD and SCARED,\nwith ablation and comparative analyses, demonstrate the framework's robustness\nand superiority over state-of-the-art methods.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2508.11282v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "18 pages, 8 figures, 3 Tables, submitted to IEEE Access for review",
+      "entry_id": "http://arxiv.org/abs/2508.11282v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2508.11282v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2508.11282v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2508.11185": {
+      "title": "CHARM3R: Towards Unseen Camera Height Robust Monocular 3D Detector",
+      "authors": [
+        "Abhinav Kumar",
+        "Yuliang Guo",
+        "Zhihao Zhang",
+        "Xinyu Huang",
+        "Liu Ren",
+        "Xiaoming Liu"
+      ],
+      "published": "2025-08-15T03:27:17+00:00",
+      "updated": "2025-08-15T03:27:17+00:00",
+      "summary": "Monocular 3D object detectors, while effective on data from one ego camera\nheight, struggle with unseen or out-of-distribution camera heights. Existing\nmethods often rely on Plucker embeddings, image transformations or data\naugmentation. This paper takes a step towards this understudied problem by\nfirst investigating the impact of camera height variations on state-of-the-art\n(SoTA) Mono3D models. With a systematic analysis on the extended CARLA dataset\nwith multiple camera heights, we observe that depth estimation is a primary\nfactor influencing performance under height variations. We mathematically prove\nand also empirically observe consistent negative and positive trends in mean\ndepth error of regressed and ground-based depth models, respectively, under\ncamera height changes. To mitigate this, we propose Camera Height Robust\nMonocular 3D Detector (CHARM3R), which averages both depth estimates within the\nmodel. CHARM3R improves generalization to unseen camera heights by more than\n$45\\%$, achieving SoTA performance on the CARLA dataset. Codes and Models at\nhttps://github.com/abhi1kumar/CHARM3R",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2508.11185v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "ICCV 2025",
+      "entry_id": "http://arxiv.org/abs/2508.11185v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2508.11185v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2508.11185v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2508.10411": {
       "title": "SC-Lane: Slope-aware and Consistent Road Height Estimation Framework for 3D Lane Detection",
       "authors": [
@@ -48800,6 +49092,41 @@
         },
         {
           "href": "http://arxiv.org/pdf/2508.10411v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2508.10936": {
+      "title": "Vision-Only Gaussian Splatting for Collaborative Semantic Occupancy Prediction",
+      "authors": [
+        "Cheng Chen",
+        "Hao Huang",
+        "Saurabh Bagchi"
+      ],
+      "published": "2025-08-12T19:50:34+00:00",
+      "updated": "2025-08-12T19:50:34+00:00",
+      "summary": "Collaborative perception enables connected vehicles to share information,\novercoming occlusions and extending the limited sensing range inherent in\nsingle-agent (non-collaborative) systems. Existing vision-only methods for 3D\nsemantic occupancy prediction commonly rely on dense 3D voxels, which incur\nhigh communication costs, or 2D planar features, which require accurate depth\nestimation or additional supervision, limiting their applicability to\ncollaborative scenarios. To address these challenges, we propose the first\napproach leveraging sparse 3D semantic Gaussian splatting for collaborative 3D\nsemantic occupancy prediction. By sharing and fusing intermediate Gaussian\nprimitives, our method provides three benefits: a neighborhood-based\ncross-agent fusion that removes duplicates and suppresses noisy or inconsistent\nGaussians; a joint encoding of geometry and semantics in each primitive, which\nreduces reliance on depth supervision and allows simple rigid alignment; and\nsparse, object-centric messages that preserve structural information while\nreducing communication volume. Extensive experiments demonstrate that our\napproach outperforms single-agent perception and baseline collaborative methods\nby +8.42 and +3.28 points in mIoU, and +5.11 and +22.41 points in IoU,\nrespectively. When further reducing the number of transmitted Gaussians, our\nmethod still achieves a +1.9 improvement in mIoU, using only 34.6%\ncommunication volume, highlighting robust performance under limited\ncommunication budgets.",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2508.10936v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2508.10936v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2508.10936v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2508.10936v1",
           "title": "pdf",
           "rel": "related",
           "content_type": null

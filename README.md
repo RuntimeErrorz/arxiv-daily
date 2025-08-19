@@ -1,4 +1,4 @@
-## Updated at 2025-08-18 08:20:10
+## Updated at 2025-08-19 08:18:43
 
 ## 3DGS Semantic
 
@@ -506,7 +506,11 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Journal|Authors|
 |---|---|---|---|---|---|
+|**2025-08-15**|**[DashCam Video: A complementary low-cost data stream for on-demand forest-infrastructure system monitoring](https://arxiv.org/abs/2508.11591)**|N/A|35 Pages, 15 figures|None|Durga Joshi et al.|
+|**2025-08-15**|**[Unifying Scale-Aware Depth Prediction and Perceptual Priors for Monocular Endoscope Pose Estimation and Tissue Reconstruction](https://arxiv.org/abs/2508.11282)**|N/A|18 pages, 8 figures, 3 Tables, submitted to IEEE Access for review|None|Muzammil Khan et al.|
+|**2025-08-15**|**[CHARM3R: Towards Unseen Camera Height Robust Monocular 3D Detector](https://arxiv.org/abs/2508.11185)**|N/A|ICCV 2025|None|Abhinav Kumar et al.|
 |**2025-08-14**|**[SC-Lane: Slope-aware and Consistent Road Height Estimation Framework for 3D Lane Detection](https://arxiv.org/abs/2508.10411)**|N/A|10 pages, 4 figures, 5 tables|None|Chaesong Park et al.|
+|**2025-08-12**|**[Vision-Only Gaussian Splatting for Collaborative Semantic Occupancy Prediction](https://arxiv.org/abs/2508.10936)**|N/A|None|None|Cheng Chen et al.|
 |**2025-08-12**|**[A Robust Epipolar-Domain Regularization Algorithm for Light Field Depth Estimation](https://arxiv.org/abs/2508.08900)**|N/A|None|None|Noor Islam S. Mohammad|
 |**2025-08-11**|**[GRASPTrack: Geometry-Reasoned Association via Segmentation and Projection for Multi-Object Tracking](https://arxiv.org/abs/2508.08117)**|N/A|None|None|Xudong Han et al.|
 |**2025-08-11**|**[TRIDE: A Text-assisted Radar-Image weather-aware fusion network for Depth Estimation](https://arxiv.org/abs/2508.08038)**|N/A|Accepted by TMLR (2025.08)|None|Huawei Sun et al.|
