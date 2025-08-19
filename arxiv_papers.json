@@ -1,5 +1,160 @@
 {
   "3DGS Semantic": {
+    "2508.13153": {
+      "title": "IGFuse: Interactive 3D Gaussian Scene Reconstruction via Multi-Scans Fusion",
+      "authors": [
+        "Wenhao Hu",
+        "Zesheng Li",
+        "Haonan Zhou",
+        "Liu Liu",
+        "Xuexiang Wen",
+        "Zhizhong Su",
+        "Xi Li",
+        "Gaoang Wang"
+      ],
+      "published": "2025-08-18T17:59:47+00:00",
+      "updated": "2025-08-18T17:59:47+00:00",
+      "summary": "Reconstructing complete and interactive 3D scenes remains a fundamental\nchallenge in computer vision and robotics, particularly due to persistent\nobject occlusions and limited sensor coverage. Multiview observations from a\nsingle scene scan often fail to capture the full structural details. Existing\napproaches typically rely on multi stage pipelines, such as segmentation,\nbackground completion, and inpainting or require per-object dense scanning,\nboth of which are error-prone, and not easily scalable. We propose IGFuse, a\nnovel framework that reconstructs interactive Gaussian scene by fusing\nobservations from multiple scans, where natural object rearrangement between\ncaptures reveal previously occluded regions. Our method constructs segmentation\naware Gaussian fields and enforces bi-directional photometric and semantic\nconsistency across scans. To handle spatial misalignments, we introduce a\npseudo-intermediate scene state for unified alignment, alongside collaborative\nco-pruning strategies to refine geometry. IGFuse enables high fidelity\nrendering and object level scene manipulation without dense observations or\ncomplex pipelines. Extensive experiments validate the framework's strong\ngeneralization to novel scene configurations, demonstrating its effectiveness\nfor real world 3D reconstruction and real-to-simulation transfer. Our project\npage is available online.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2508.13153v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Project page: https://whhu7.github.io/IGFuse",
+      "entry_id": "http://arxiv.org/abs/2508.13153v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2508.13153v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2508.13153v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2508.13043": {
+      "title": "IntelliCap: Intelligent Guidance for Consistent View Sampling",
+      "authors": [
+        "Ayaka Yasunaga",
+        "Hideo Saito",
+        "Dieter Schmalstieg",
+        "Shohei Mori"
+      ],
+      "published": "2025-08-18T16:00:31+00:00",
+      "updated": "2025-08-18T16:00:31+00:00",
+      "summary": "Novel view synthesis from images, for example, with 3D Gaussian splatting,\nhas made great progress. Rendering fidelity and speed are now ready even for\ndemanding virtual reality applications. However, the problem of assisting\nhumans in collecting the input images for these rendering algorithms has\nreceived much less attention. High-quality view synthesis requires uniform and\ndense view sampling. Unfortunately, these requirements are not easily addressed\nby human camera operators, who are in a hurry, impatient, or lack understanding\nof the scene structure and the photographic process. Existing approaches to\nguide humans during image acquisition concentrate on single objects or neglect\nview-dependent material characteristics. We propose a novel situated\nvisualization technique for scanning at multiple scales. During the scanning of\na scene, our method identifies important objects that need extended image\ncoverage to properly represent view-dependent appearance. To this end, we\nleverage semantic segmentation and category identification, ranked by a\nvision-language model. Spherical proxies are generated around highly ranked\nobjects to guide the user during scanning. Our results show superior\nperformance in real scenes compared to conventional view sampling strategies.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2508.13043v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "This work is a pre-print version of a paper that has been accepted to\n  the IEEE International Symposium on Mixed and Augmented Reality for future\n  publication. Project Page:\n  https://mediated-reality.github.io/projects/yasunaga_ismar25/",
+      "entry_id": "http://arxiv.org/abs/2508.13043v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2508.13043v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2508.13043v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2508.12880": {
+      "title": "S^2-Guidance: Stochastic Self Guidance for Training-Free Enhancement of Diffusion Models",
+      "authors": [
+        "Chubin Chen",
+        "Jiashu Zhu",
+        "Xiaokun Feng",
+        "Nisha Huang",
+        "Meiqi Wu",
+        "Fangyuan Mao",
+        "Jiahong Wu",
+        "Xiangxiang Chu",
+        "Xiu Li"
+      ],
+      "published": "2025-08-18T12:31:20+00:00",
+      "updated": "2025-08-18T12:31:20+00:00",
+      "summary": "Classifier-free Guidance (CFG) is a widely used technique in modern diffusion\nmodels for enhancing sample quality and prompt adherence. However, through an\nempirical analysis on Gaussian mixture modeling with a closed-form solution, we\nobserve a discrepancy between the suboptimal results produced by CFG and the\nground truth. The model's excessive reliance on these suboptimal predictions\noften leads to semantic incoherence and low-quality outputs. To address this\nissue, we first empirically demonstrate that the model's suboptimal predictions\ncan be effectively refined using sub-networks of the model itself. Building on\nthis insight, we propose S^2-Guidance, a novel method that leverages stochastic\nblock-dropping during the forward process to construct stochastic sub-networks,\neffectively guiding the model away from potential low-quality predictions and\ntoward high-quality outputs. Extensive qualitative and quantitative experiments\non text-to-image and text-to-video generation tasks demonstrate that\nS^2-Guidance delivers superior performance, consistently surpassing CFG and\nother advanced guidance strategies. Our code will be released.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2508.12880v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2508.12880v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2508.12880v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2508.12880v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2508.12015": {
+      "title": "InstDrive: Instance-Aware 3D Gaussian Splatting for Driving Scenes",
+      "authors": [
+        "Hongyuan Liu",
+        "Haochen Yu",
+        "Jianfei Jiang",
+        "Qiankun Liu",
+        "Jiansheng Chen",
+        "Huimin Ma"
+      ],
+      "published": "2025-08-16T11:17:31+00:00",
+      "updated": "2025-08-16T11:17:31+00:00",
+      "summary": "Reconstructing dynamic driving scenes from dashcam videos has attracted\nincreasing attention due to its significance in autonomous driving and scene\nunderstanding. While recent advances have made impressive progress, most\nmethods still unify all background elements into a single representation,\nhindering both instance-level understanding and flexible scene editing. Some\napproaches attempt to lift 2D segmentation into 3D space, but often rely on\npre-processed instance IDs or complex pipelines to map continuous features to\ndiscrete identities. Moreover, these methods are typically designed for indoor\nscenes with rich viewpoints, making them less applicable to outdoor driving\nscenarios. In this paper, we present InstDrive, an instance-aware 3D Gaussian\nSplatting framework tailored for the interactive reconstruction of dynamic\ndriving scene. We use masks generated by SAM as pseudo ground-truth to guide 2D\nfeature learning via contrastive loss and pseudo-supervised objectives. At the\n3D level, we introduce regularization to implicitly encode instance identities\nand enforce consistency through a voxel-based loss. A lightweight static\ncodebook further bridges continuous features and discrete identities without\nrequiring data pre-processing or complex optimization. Quantitative and\nqualitative experiments demonstrate the effectiveness of InstDrive, and to the\nbest of our knowledge, it is the first framework to achieve 3D instance\nsegmentation in dynamic, open-world driving scenes.More visualizations are\navailable at our project page.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2508.12015v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2508.12015v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2508.12015v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2508.12015v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
     "2508.11431": {
       "title": "Remove360: Benchmarking Residuals After Object Removal in 3D Gaussian Splatting",
       "authors": [
@@ -4822,7 +4977,7 @@
         "Jeannette Bohg"
       ],
       "published": "2025-05-12T23:32:24+00:00",
-      "updated": "2025-05-12T23:32:24+00:00",
+      "updated": "2025-08-17T18:16:21+00:00",
       "summary": "Language-augmented scene representations hold great promise for large-scale\nrobotics applications such as search-and-rescue, smart cities, and mining. Many\nof these scenarios are time-sensitive, requiring rapid scene encoding while\nalso being data-intensive, necessitating scalable solutions. Deploying these\nrepresentations on robots with limited computational resources further adds to\nthe challenge. To address this, we introduce SLAG, a multi-GPU framework for\nlanguage-augmented Gaussian splatting that enhances the speed and scalability\nof embedding large scenes. Our method integrates 2D visual-language model\nfeatures into 3D scenes using SAM and CLIP. Unlike prior approaches, SLAG\neliminates the need for a loss function to compute per-Gaussian language\nembeddings. Instead, it derives embeddings from 3D Gaussian scene parameters\nvia a normalized weighted average, enabling highly parallelized scene encoding.\nAdditionally, we introduce a vector database for efficient embedding storage\nand retrieval. Our experiments show that SLAG achieves an 18 times speedup in\nembedding computation on a 16-GPU setup compared to OpenGaussian, while\npreserving embedding quality on the ScanNet and LERF datasets. For more\ndetails, visit our project website: https://slag-project.github.io/.",
       "categories": [
         "cs.CV",
@@ -4830,20 +4985,20 @@
         "cs.RO"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "http://arxiv.org/pdf/2505.08124v1",
+      "pdf_url": "http://arxiv.org/pdf/2505.08124v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2505.08124v1",
+      "entry_id": "http://arxiv.org/abs/2505.08124v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2505.08124v1",
+          "href": "http://arxiv.org/abs/2505.08124v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2505.08124v1",
+          "href": "http://arxiv.org/pdf/2505.08124v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -48950,6 +49105,41 @@
     }
   },
   "Depth Estimation": {
+    "2508.13091": {
+      "title": "DMS:Diffusion-Based Multi-Baseline Stereo Generation for Improving Self-Supervised Depth Estimation",
+      "authors": [
+        "Zihua Liu",
+        "Yizhou Li",
+        "Songyan Zhang",
+        "Masatoshi Okutomi"
+      ],
+      "published": "2025-08-18T17:05:15+00:00",
+      "updated": "2025-08-18T17:05:15+00:00",
+      "summary": "While supervised stereo matching and monocular depth estimation have advanced\nsignificantly with learning-based algorithms, self-supervised methods using\nstereo images as supervision signals have received relatively less focus and\nrequire further investigation. A primary challenge arises from ambiguity\nintroduced during photometric reconstruction, particularly due to missing\ncorresponding pixels in ill-posed regions of the target view, such as\nocclusions and out-of-frame areas. To address this and establish explicit\nphotometric correspondences, we propose DMS, a model-agnostic approach that\nutilizes geometric priors from diffusion models to synthesize novel views along\nthe epipolar direction, guided by directional prompts. Specifically, we\nfinetune a Stable Diffusion model to simulate perspectives at key positions:\nleft-left view shifted from the left camera, right-right view shifted from the\nright camera, along with an additional novel view between the left and right\ncameras. These synthesized views supplement occluded pixels, enabling explicit\nphotometric reconstruction. Our proposed DMS is a cost-free, ''plug-and-play''\nmethod that seamlessly enhances self-supervised stereo matching and monocular\ndepth estimation, and relies solely on unlabeled stereo image pairs for both\ntraining and synthesizing. Extensive experiments demonstrate the effectiveness\nof our approach, with up to 35% outlier reduction and state-of-the-art\nperformance across multiple benchmark datasets.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2508.13091v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2508.13091v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2508.13091v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2508.13091v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2508.11591": {
       "title": "DashCam Video: A complementary low-cost data stream for on-demand forest-infrastructure system monitoring",
       "authors": [
@@ -49215,26 +49405,26 @@
         "Robert Wille"
       ],
       "published": "2025-08-11T14:39:41+00:00",
-      "updated": "2025-08-11T14:39:41+00:00",
+      "updated": "2025-08-18T12:37:28+00:00",
       "summary": "Depth estimation, essential for autonomous driving, seeks to interpret the 3D\nenvironment surrounding vehicles. The development of radar sensors, known for\ntheir cost-efficiency and robustness, has spurred interest in radar-camera\nfusion-based solutions. However, existing algorithms fuse features from these\nmodalities without accounting for weather conditions, despite radars being\nknown to be more robust than cameras under adverse weather. Additionally, while\nVision-Language models have seen rapid advancement, utilizing language\ndescriptions alongside other modalities for depth estimation remains an open\nchallenge. This paper first introduces a text-generation strategy along with\nfeature extraction and fusion techniques that can assist monocular depth\nestimation pipelines, leading to improved accuracy across different algorithms\non the KITTI dataset. Building on this, we propose TRIDE, a radar-camera fusion\nalgorithm that enhances text feature extraction by incorporating radar point\ninformation. To address the impact of weather on sensor performance, we\nintroduce a weather-aware fusion block that adaptively adjusts radar weighting\nbased on current weather conditions. Our method, benchmarked on the nuScenes\ndataset, demonstrates performance gains over the state-of-the-art, achieving a\n12.87% improvement in MAE and a 9.08% improvement in RMSE. Code:\nhttps://github.com/harborsarah/TRIDE",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "http://arxiv.org/pdf/2508.08038v1",
+      "pdf_url": "http://arxiv.org/pdf/2508.08038v2",
       "journal_ref": null,
       "doi": null,
       "comment": "Accepted by TMLR (2025.08)",
-      "entry_id": "http://arxiv.org/abs/2508.08038v1",
+      "entry_id": "http://arxiv.org/abs/2508.08038v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2508.08038v1",
+          "href": "http://arxiv.org/abs/2508.08038v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2508.08038v1",
+          "href": "http://arxiv.org/pdf/2508.08038v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
