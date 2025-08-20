@@ -1,4 +1,4 @@
-## Updated at 2025-08-20 08:17:22
+## Updated at 2025-08-20 20:07:41
 
 ## 3DGS Semantic
 
@@ -121,6 +121,7 @@ Query: (abs:'Multi-View Stereo' OR abs:'Multi View Stereo' OR abs:'Multi-View De
 
 |Date|Title|Venue|Comments|Journal|Authors|
 |---|---|---|---|---|---|
+|**2025-08-19**|**[Online 3D Gaussian Splatting Modeling with Novel View Selection](https://arxiv.org/abs/2508.14014)**|N/A|None|None|Byeonggwon Lee et al.|
 |**2025-08-06**|**[MuGS: Multi-Baseline Generalizable Gaussian Splatting Reconstruction](https://arxiv.org/abs/2508.04297)**|N/A|This work is accepted by ICCV 2025|None|Yaopeng Lou et al.|
 |**2025-08-02**|**[Construction of Digital Terrain Maps from Multi-view Satellite Imagery using Neural Volume Rendering](https://arxiv.org/abs/2508.01386)**|N/A|None|None|Josef X. Biberstein et al.|
 |**2025-07-24**|**[Unposed 3DGS Reconstruction with Probabilistic Procrustes Mapping](https://arxiv.org/abs/2507.18541)**|N/A|None|None|Chong Cheng et al.|
@@ -507,6 +508,7 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Journal|Authors|
 |---|---|---|---|---|---|
+|**2025-08-19**|**[ROVR-Open-Dataset: A Large-Scale Depth Dataset for Autonomous Driving](https://arxiv.org/abs/2508.13977)**|N/A|None|None|Xianda Guo et al.|
 |**2025-08-18**|**[DMS:Diffusion-Based Multi-Baseline Stereo Generation for Improving Self-Supervised Depth Estimation](https://arxiv.org/abs/2508.13091)**|N/A|None|None|Zihua Liu et al.|
 |**2025-08-15**|**[DashCam Video: A complementary low-cost data stream for on-demand forest-infrastructure system monitoring](https://arxiv.org/abs/2508.11591)**|N/A|35 Pages, 15 figures|None|Durga Joshi et al.|
 |**2025-08-15**|**[Unifying Scale-Aware Depth Prediction and Perceptual Priors for Monocular Endoscope Pose Estimation and Tissue Reconstruction](https://arxiv.org/abs/2508.11282)**|N/A|18 pages, 8 figures, 3 Tables, submitted to IEEE Access for review|None|Muzammil Khan et al.|

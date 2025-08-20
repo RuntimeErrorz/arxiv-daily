@@ -35052,6 +35052,41 @@
     }
   },
   "MVS": {
+    "2508.14014": {
+      "title": "Online 3D Gaussian Splatting Modeling with Novel View Selection",
+      "authors": [
+        "Byeonggwon Lee",
+        "Junkyu Park",
+        "Khang Truong Giang",
+        "Soohwan Song"
+      ],
+      "published": "2025-08-19T17:25:12+00:00",
+      "updated": "2025-08-19T17:25:12+00:00",
+      "summary": "This study addresses the challenge of generating online 3D Gaussian Splatting\n(3DGS) models from RGB-only frames. Previous studies have employed dense SLAM\ntechniques to estimate 3D scenes from keyframes for 3DGS model construction.\nHowever, these methods are limited by their reliance solely on keyframes, which\nare insufficient to capture an entire scene, resulting in incomplete\nreconstructions. Moreover, building a generalizable model requires\nincorporating frames from diverse viewpoints to achieve broader scene coverage.\nHowever, online processing restricts the use of many frames or extensive\ntraining iterations. Therefore, we propose a novel method for high-quality 3DGS\nmodeling that improves model completeness through adaptive view selection. By\nanalyzing reconstruction quality online, our approach selects optimal\nnon-keyframes for additional training. By integrating both keyframes and\nselected non-keyframes, the method refines incomplete regions from diverse\nviewpoints, significantly enhancing completeness. We also present a framework\nthat incorporates an online multi-view stereo approach, ensuring consistency in\n3D information throughout the 3DGS modeling process. Experimental results\ndemonstrate that our method outperforms state-of-the-art methods, delivering\nexceptional performance in complex outdoor scenes.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2508.14014v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2508.14014v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2508.14014v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2508.14014v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2508.04297": {
       "title": "MuGS: Multi-Baseline Generalizable Gaussian Splatting Reconstruction",
       "authors": [
@@ -49113,6 +49148,49 @@
     }
   },
   "Depth Estimation": {
+    "2508.13977": {
+      "title": "ROVR-Open-Dataset: A Large-Scale Depth Dataset for Autonomous Driving",
+      "authors": [
+        "Xianda Guo",
+        "Ruijun Zhang",
+        "Yiqun Duan",
+        "Ruilin Wang",
+        "Keyuan Zhou",
+        "Wenzhao Zheng",
+        "Wenke Huang",
+        "Gangwei Xu",
+        "Mike Horton",
+        "Yuan Si",
+        "Hao Zhao",
+        "Long Chen"
+      ],
+      "published": "2025-08-19T16:13:49+00:00",
+      "updated": "2025-08-19T16:13:49+00:00",
+      "summary": "Depth estimation is a fundamental task for 3D scene understanding in\nautonomous driving, robotics, and augmented reality. Existing depth datasets,\nsuch as KITTI, nuScenes, and DDAD, have advanced the field but suffer from\nlimitations in diversity and scalability. As benchmark performance on these\ndatasets approaches saturation, there is an increasing need for a new\ngeneration of large-scale, diverse, and cost-efficient datasets to support the\nera of foundation models and multi-modal learning. To address these challenges,\nwe introduce a large-scale, diverse, frame-wise continuous dataset for depth\nestimation in dynamic outdoor driving environments, comprising 20K video frames\nto evaluate existing methods. Our lightweight acquisition pipeline ensures\nbroad scene coverage at low cost, while sparse yet statistically sufficient\nground truth enables robust training. Compared to existing datasets, ours\npresents greater diversity in driving scenarios and lower depth density,\ncreating new challenges for generalization. Benchmark experiments with standard\nmonocular depth estimation models validate the dataset's utility and highlight\nsubstantial performance gaps in challenging conditions, establishing a new\nplatform for advancing depth estimation research.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2508.13977v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2508.13977v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2508.13977v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2508.13977v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2508.13091": {
       "title": "DMS:Diffusion-Based Multi-Baseline Stereo Generation for Improving Self-Supervised Depth Estimation",
       "authors": [
