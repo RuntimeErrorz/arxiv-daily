@@ -1,4 +1,4 @@
-## Updated at 2025-08-21 08:16:38
+## Updated at 2025-08-21 20:08:12
 
 ## 3DGS Semantic
 
@@ -8,6 +8,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Journal|Authors|
 |---|---|---|---|---|---|
+|**2025-08-19**|**[GALA: Guided Attention with Language Alignment for Open Vocabulary Gaussian Splatting](https://arxiv.org/abs/2508.14278)**|N/A|None|None|Elena Alegret Regalado et al.|
 |**2025-08-16**|**[InstDrive: Instance-Aware 3D Gaussian Splatting for Driving Scenes](https://arxiv.org/abs/2508.12015)**|N/A|None|None|Hongyuan Liu et al.|
 |**2025-08-13**|**[A Survey on 3D Gaussian Splatting Applications: Segmentation, Editing, and Generation](https://arxiv.org/abs/2508.09977)**|N/A|GitHub Repo: https://github.com/heshuting555/Awesome-3DGS-Applications|None|Shuting He et al.|
 |**2025-08-11**|**[ReferSplat: Referring Segmentation in 3D Gaussian Splatting](https://arxiv.org/abs/2508.08252)**|N/A|ICML 2025 Oral, Code: https://github.com/heshuting555/ReferSplat|None|Shuting He et al.|
@@ -508,6 +509,7 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Journal|Authors|
 |---|---|---|---|---|---|
+|**2025-08-20**|**[FOCUS: Frequency-Optimized Conditioning of DiffUSion Models for mitigating catastrophic forgetting during Test-Time Adaptation](https://arxiv.org/abs/2508.14437)**|N/A|None|None|Gabriel Tjio et al.|
 |**2025-08-19**|**[ROVR-Open-Dataset: A Large-Scale Depth Dataset for Autonomous Driving](https://arxiv.org/abs/2508.13977)**|N/A|None|None|Xianda Guo et al.|
 |**2025-08-18**|**[DMS:Diffusion-Based Multi-Baseline Stereo Generation for Improving Self-Supervised Depth Estimation](https://arxiv.org/abs/2508.13091)**|N/A|None|None|Zihua Liu et al.|
 |**2025-08-15**|**[DashCam Video: A complementary low-cost data stream for on-demand forest-infrastructure system monitoring](https://arxiv.org/abs/2508.11591)**|N/A|35 Pages, 15 figures|None|Durga Joshi et al.|

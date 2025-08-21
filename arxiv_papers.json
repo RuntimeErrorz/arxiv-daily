@@ -1,5 +1,80 @@
 {
   "3DGS Semantic": {
+    "2508.14597": {
+      "title": "Reliable Smoke Detection via Optical Flow-Guided Feature Fusion and Transformer-Based Uncertainty Modeling",
+      "authors": [
+        "Nitish Kumar Mahala",
+        "Muzammil Khan",
+        "Pushpendra Kumar"
+      ],
+      "published": "2025-08-20T10:28:53+00:00",
+      "updated": "2025-08-20T10:28:53+00:00",
+      "summary": "Fire outbreaks pose critical threats to human life and infrastructure,\nnecessitating high-fidelity early-warning systems that detect combustion\nprecursors such as smoke. However, smoke plumes exhibit complex spatiotemporal\ndynamics influenced by illumination variability, flow kinematics, and\nenvironmental noise, undermining the reliability of traditional detectors. To\naddress these challenges without the logistical complexity of multi-sensor\narrays, we propose an information-fusion framework by integrating smoke feature\nrepresentations extracted from monocular imagery. Specifically, a Two-Phase\nUncertainty-Aware Shifted Windows Transformer for robust and reliable smoke\ndetection, leveraging a novel smoke segmentation dataset, constructed via\noptical flow-based motion encoding, is proposed. The optical flow estimation is\nperformed with a four-color-theorem-inspired dual-phase level-set\nfractional-order variational model, which preserves motion discontinuities. The\nresulting color-encoded optical flow maps are fused with appearance cues via a\nGaussian Mixture Model to generate binary segmentation masks of the smoke\nregions. These fused representations are fed into the novel Shifted-Windows\nTransformer, which is augmented with a multi-scale uncertainty estimation head\nand trained under a two-phase learning regimen. First learning phase optimizes\nsmoke detection accuracy, while during the second phase, the model learns to\nestimate plausibility confidence in its predictions by jointly modeling\naleatoric and epistemic uncertainties. Extensive experiments using multiple\nevaluation metrics and comparative analysis with state-of-the-art approaches\ndemonstrate superior generalization and robustness, offering a reliable\nsolution for early fire detection in surveillance, industrial safety, and\nautonomous monitoring applications.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2508.14597v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2508.14597v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2508.14597v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2508.14597v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2508.14278": {
+      "title": "GALA: Guided Attention with Language Alignment for Open Vocabulary Gaussian Splatting",
+      "authors": [
+        "Elena Alegret Regalado",
+        "Kunyi Li",
+        "Sen Wang",
+        "Siyun Liang",
+        "Michael Niemeyer",
+        "Stefano Gasperini",
+        "Nassir Navab",
+        "Federico Tombari"
+      ],
+      "published": "2025-08-19T21:26:49+00:00",
+      "updated": "2025-08-19T21:26:49+00:00",
+      "summary": "3D scene reconstruction and understanding have gained increasing popularity,\nyet existing methods still struggle to capture fine-grained, language-aware 3D\nrepresentations from 2D images. In this paper, we present GALA, a novel\nframework for open-vocabulary 3D scene understanding with 3D Gaussian Splatting\n(3DGS). GALA distills a scene-specific 3D instance feature field via\nself-supervised contrastive learning. To extend to generalized language feature\nfields, we introduce the core contribution of GALA, a cross-attention module\nwith two learnable codebooks that encode view-independent semantic embeddings.\nThis design not only ensures intra-instance feature similarity but also\nsupports seamless 2D and 3D open-vocabulary queries. It reduces memory\nconsumption by avoiding per-Gaussian high-dimensional feature learning.\nExtensive experiments on real-world datasets demonstrate GALA's remarkable\nopen-vocabulary performance on both 2D and 3D.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2508.14278v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2508.14278v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2508.14278v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2508.14278v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
     "2508.13153": {
       "title": "IGFuse: Interactive 3D Gaussian Scene Reconstruction via Multi-Scans Fusion",
       "authors": [
@@ -49148,6 +49223,46 @@
     }
   },
   "Depth Estimation": {
+    "2508.14437": {
+      "title": "FOCUS: Frequency-Optimized Conditioning of DiffUSion Models for mitigating catastrophic forgetting during Test-Time Adaptation",
+      "authors": [
+        "Gabriel Tjio",
+        "Jie Zhang",
+        "Xulei Yang",
+        "Yun Xing",
+        "Nhat Chung",
+        "Xiaofeng Cao",
+        "Ivor W. Tsang",
+        "Chee Keong Kwoh",
+        "Qing Guo"
+      ],
+      "published": "2025-08-20T05:44:29+00:00",
+      "updated": "2025-08-20T05:44:29+00:00",
+      "summary": "Test-time adaptation enables models to adapt to evolving domains. However,\nbalancing the tradeoff between preserving knowledge and adapting to domain\nshifts remains challenging for model adaptation methods, since adapting to\ndomain shifts can induce forgetting of task-relevant knowledge. To address this\nproblem, we propose FOCUS, a novel frequency-based conditioning approach within\na diffusion-driven input-adaptation framework. Utilising learned, spatially\nadaptive frequency priors, our approach conditions the reverse steps during\ndiffusion-driven denoising to preserve task-relevant semantic information for\ndense prediction.\n  FOCUS leverages a trained, lightweight, Y-shaped Frequency Prediction Network\n(Y-FPN) that disentangles high and low frequency information from noisy images.\nThis minimizes the computational costs involved in implementing our approach in\na diffusion-driven framework. We train Y-FPN with FrequencyMix, a novel data\naugmentation method that perturbs the images across diverse frequency bands,\nwhich improves the robustness of our approach to diverse corruptions.\n  We demonstrate the effectiveness of FOCUS for semantic segmentation and\nmonocular depth estimation across 15 corruption types and three datasets,\nachieving state-of-the-art averaged performance. In addition to improving\nstandalone performance, FOCUS complements existing model adaptation methods\nsince we can derive pseudo labels from FOCUS-denoised images for additional\nsupervision. Even under limited, intermittent supervision with the pseudo\nlabels derived from the FOCUS denoised images, we show that FOCUS mitigates\ncatastrophic forgetting for recent model adaptation methods.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2508.14437v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2508.14437v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2508.14437v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2508.14437v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2508.13977": {
       "title": "ROVR-Open-Dataset: A Large-Scale Depth Dataset for Autonomous Driving",
       "authors": [
