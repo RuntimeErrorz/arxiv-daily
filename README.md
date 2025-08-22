@@ -1,4 +1,4 @@
-## Updated at 2025-08-22 08:17:22
+## Updated at 2025-08-22 20:07:28
 
 ## 3DGS Semantic
 
@@ -8,7 +8,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Journal|Authors|
 |---|---|---|---|---|---|
-|**2025-08-19**|**[GALA: Guided Attention with Language Alignment for Open Vocabulary Gaussian Splatting](https://arxiv.org/abs/2508.14278)**|N/A|None|None|Elena Alegret Regalado et al.|
+|**2025-08-19**|**[GALA: Guided Attention with Language Alignment for Open Vocabulary Gaussian Splatting](https://arxiv.org/abs/2508.14278)**|N/A|None|None|Elena Alegret et al.|
 |**2025-08-16**|**[InstDrive: Instance-Aware 3D Gaussian Splatting for Driving Scenes](https://arxiv.org/abs/2508.12015)**|N/A|None|None|Hongyuan Liu et al.|
 |**2025-08-13**|**[A Survey on 3D Gaussian Splatting Applications: Segmentation, Editing, and Generation](https://arxiv.org/abs/2508.09977)**|N/A|GitHub Repo: https://github.com/heshuting555/Awesome-3DGS-Applications|None|Shuting He et al.|
 |**2025-08-11**|**[ReferSplat: Referring Segmentation in 3D Gaussian Splatting](https://arxiv.org/abs/2508.08252)**|N/A|ICML 2025 Oral, Code: https://github.com/heshuting555/ReferSplat|None|Shuting He et al.|

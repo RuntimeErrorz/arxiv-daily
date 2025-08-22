@@ -1,5 +1,44 @@
 {
   "3DGS Semantic": {
+    "2508.15568": {
+      "title": "Backpropagation-Free Test-Time Adaptation via Probabilistic Gaussian Alignment",
+      "authors": [
+        "Youjia Zhang",
+        "Youngeun Kim",
+        "Young-Geun Choi",
+        "Hongyeob Kim",
+        "Huiling Liu",
+        "Sungeun Hong"
+      ],
+      "published": "2025-08-21T13:42:49+00:00",
+      "updated": "2025-08-21T13:42:49+00:00",
+      "summary": "Test-time adaptation (TTA) enhances the zero-shot robustness under\ndistribution shifts by leveraging unlabeled test data during inference. Despite\nnotable advances, several challenges still limit its broader applicability.\nFirst, most methods rely on backpropagation or iterative optimization, which\nlimits scalability and hinders real-time deployment. Second, they lack explicit\nmodeling of class-conditional feature distributions. This modeling is crucial\nfor producing reliable decision boundaries and calibrated predictions, but it\nremains underexplored due to the lack of both source data and supervision at\ntest time. In this paper, we propose ADAPT, an Advanced Distribution-Aware and\nbackPropagation-free Test-time adaptation method. We reframe TTA as a Gaussian\nprobabilistic inference task by modeling class-conditional likelihoods using\ngradually updated class means and a shared covariance matrix. This enables\nclosed-form, training-free inference. To correct potential likelihood bias, we\nintroduce lightweight regularization guided by CLIP priors and a historical\nknowledge bank. ADAPT requires no source data, no gradient updates, and no full\naccess to target data, supporting both online and transductive settings.\nExtensive experiments across diverse benchmarks demonstrate that our method\nachieves state-of-the-art performance under a wide range of distribution shifts\nwith superior scalability and robustness.",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2508.15568v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2508.15568v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2508.15568v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2508.15568v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2508.14597": {
       "title": "Reliable Smoke Detection via Optical Flow-Guided Feature Fusion and Transformer-Based Uncertainty Modeling",
       "authors": [
@@ -38,7 +77,7 @@
     "2508.14278": {
       "title": "GALA: Guided Attention with Language Alignment for Open Vocabulary Gaussian Splatting",
       "authors": [
-        "Elena Alegret Regalado",
+        "Elena Alegret",
         "Kunyi Li",
         "Sen Wang",
         "Siyun Liang",
@@ -48,26 +87,26 @@
         "Federico Tombari"
       ],
       "published": "2025-08-19T21:26:49+00:00",
-      "updated": "2025-08-19T21:26:49+00:00",
+      "updated": "2025-08-21T09:47:52+00:00",
       "summary": "3D scene reconstruction and understanding have gained increasing popularity,\nyet existing methods still struggle to capture fine-grained, language-aware 3D\nrepresentations from 2D images. In this paper, we present GALA, a novel\nframework for open-vocabulary 3D scene understanding with 3D Gaussian Splatting\n(3DGS). GALA distills a scene-specific 3D instance feature field via\nself-supervised contrastive learning. To extend to generalized language feature\nfields, we introduce the core contribution of GALA, a cross-attention module\nwith two learnable codebooks that encode view-independent semantic embeddings.\nThis design not only ensures intra-instance feature similarity but also\nsupports seamless 2D and 3D open-vocabulary queries. It reduces memory\nconsumption by avoiding per-Gaussian high-dimensional feature learning.\nExtensive experiments on real-world datasets demonstrate GALA's remarkable\nopen-vocabulary performance on both 2D and 3D.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "http://arxiv.org/pdf/2508.14278v1",
+      "pdf_url": "http://arxiv.org/pdf/2508.14278v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2508.14278v1",
+      "entry_id": "http://arxiv.org/abs/2508.14278v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2508.14278v1",
+          "href": "http://arxiv.org/abs/2508.14278v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2508.14278v1",
+          "href": "http://arxiv.org/pdf/2508.14278v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -5925,27 +5964,27 @@
         "Liqiang Nie"
       ],
       "published": "2025-04-13T14:14:10+00:00",
-      "updated": "2025-04-13T14:14:10+00:00",
+      "updated": "2025-08-21T07:53:36+00:00",
       "summary": "Recent advancements in Generalizable Gaussian Splatting have enabled robust\n3D reconstruction from sparse input views by utilizing feed-forward Gaussian\nSplatting models, achieving superior cross-scene generalization. However, while\nmany methods focus on geometric consistency, they often neglect the potential\nof text-driven guidance to enhance semantic understanding, which is crucial for\naccurately reconstructing fine-grained details in complex scenes. To address\nthis limitation, we propose TextSplat--the first text-driven Generalizable\nGaussian Splatting framework. By employing a text-guided fusion of diverse\nsemantic cues, our framework learns robust cross-modal feature representations\nthat improve the alignment of geometric and semantic information, producing\nhigh-fidelity 3D reconstructions. Specifically, our framework employs three\nparallel modules to obtain complementary representations: the Diffusion Prior\nDepth Estimator for accurate depth information, the Semantic Aware Segmentation\nNetwork for detailed semantic information, and the Multi-View Interaction\nNetwork for refined cross-view features. Then, in the Text-Guided Semantic\nFusion Module, these representations are integrated via the text-guided and\nattention-based feature aggregation mechanism, resulting in enhanced 3D\nGaussian parameters enriched with detailed semantic cues. Experimental results\non various benchmark datasets demonstrate improved performance compared to\nexisting methods across multiple evaluation metrics, validating the\neffectiveness of our framework. The code will be publicly available.",
       "categories": [
         "cs.CV",
         "cs.AI"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "http://arxiv.org/pdf/2504.09588v1",
+      "pdf_url": "http://arxiv.org/pdf/2504.09588v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2504.09588v1",
+      "entry_id": "http://arxiv.org/abs/2504.09588v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2504.09588v1",
+          "href": "http://arxiv.org/abs/2504.09588v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2504.09588v1",
+          "href": "http://arxiv.org/pdf/2504.09588v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
