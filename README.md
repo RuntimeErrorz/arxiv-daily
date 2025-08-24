@@ -1,4 +1,4 @@
-## Updated at 2025-08-23 20:06:48
+## Updated at 2025-08-24 08:19:21
 
 ## 3DGS Semantic
 
@@ -17,7 +17,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2025-08-05**|**[Trace3D: Consistent Segmentation Lifting via Gaussian Instance Tracing](https://arxiv.org/abs/2508.03227)**|N/A|None|None|Hongyu Shen et al.|
 |**2025-08-03**|**[AG$^2$aussian: Anchor-Graph Structured Gaussian Splatting for Instance-Level 3D Scene Understanding and Editing](https://arxiv.org/abs/2508.01740)**|N/A|None|None|Zhaonan Wang et al.|
 |**2025-08-02**|**[OpenGS-Fusion: Open-Vocabulary Dense Mapping with Hybrid 3D Gaussian Splatting for Refined Object-Level Understanding](https://arxiv.org/abs/2508.01150)**|N/A|IROS2025|None|Dianyi Yang et al.|
-|**2025-07-31**|**[SeqAffordSplat: Scene-level Sequential Affordance Reasoning on 3D Gaussian Splatting](https://arxiv.org/abs/2507.23772)**|N/A|None|None|Di Li et al.|
+|**2025-07-31**|**[SeqAffordSplat: Scene-level Sequential Affordance Reasoning on 3D Gaussian Splatting](https://arxiv.org/abs/2507.23772)**|arXiv.org|None|None|Di Li et al.|
 |**2025-07-10**|**[Seg-Wild: Interactive Segmentation based on 3D Gaussian Splatting for Unconstrained Image Collections](https://arxiv.org/abs/2507.07395)**|arXiv.org|None|None|Yongtang Bao et al.|
 |**2025-07-07**|**[Mastering Regional 3DGS: Locating, Initializing, and Editing with Diverse 2D Priors](https://arxiv.org/abs/2507.05426)**|arXiv.org|None|None|Lanqing Guo et al.|
 |**2025-07-01**|**[GaussianVLM: Scene-centric 3D Vision-Language Models using Language-aligned Gaussian Splats for Embodied Reasoning and Beyond](https://arxiv.org/abs/2507.00886)**|arXiv.org|None|None|Anna-Maria Halacheva et al.|
