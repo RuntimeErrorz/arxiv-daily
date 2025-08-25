@@ -1,4 +1,4 @@
-## Updated at 2025-08-25 08:18:25
+## Updated at 2025-08-25 20:07:28
 
 ## 3DGS Semantic
 
@@ -122,6 +122,7 @@ Query: (abs:'Multi-View Stereo' OR abs:'Multi View Stereo' OR abs:'Multi-View De
 
 |Date|Title|Venue|Comments|Journal|Authors|
 |---|---|---|---|---|---|
+|**2025-08-22**|**[HAMSt3R: Human-Aware Multi-view Stereo 3D Reconstruction](https://arxiv.org/abs/2508.16433)**|N/A|None|None|Sara Rojas et al.|
 |**2025-08-19**|**[Online 3D Gaussian Splatting Modeling with Novel View Selection](https://arxiv.org/abs/2508.14014)**|N/A|None|None|Byeonggwon Lee et al.|
 |**2025-08-06**|**[MuGS: Multi-Baseline Generalizable Gaussian Splatting Reconstruction](https://arxiv.org/abs/2508.04297)**|N/A|This work is accepted by ICCV 2025|None|Yaopeng Lou et al.|
 |**2025-08-02**|**[Construction of Digital Terrain Maps from Multi-view Satellite Imagery using Neural Volume Rendering](https://arxiv.org/abs/2508.01386)**|N/A|None|None|Josef X. Biberstein et al.|

@@ -440,26 +440,26 @@
         "Henghui Ding"
       ],
       "published": "2025-08-13T17:44:39+00:00",
-      "updated": "2025-08-13T17:44:39+00:00",
+      "updated": "2025-08-22T13:22:47+00:00",
       "summary": "3D Gaussian Splatting (3DGS) has recently emerged as a powerful alternative\nto Neural Radiance Fields (NeRF) for 3D scene representation, offering\nhigh-fidelity photorealistic rendering with real-time performance. Beyond novel\nview synthesis, the explicit and compact nature of 3DGS enables a wide range of\ndownstream applications that require geometric and semantic understanding. This\nsurvey provides a comprehensive overview of recent progress in 3DGS\napplications. It first introduces 2D foundation models that support semantic\nunderstanding and control in 3DGS applications, followed by a review of\nNeRF-based methods that inform their 3DGS counterparts. We then categorize 3DGS\napplications into segmentation, editing, generation, and other functional\ntasks. For each, we summarize representative methods, supervision strategies,\nand learning paradigms, highlighting shared design principles and emerging\ntrends. Commonly used datasets and evaluation protocols are also summarized,\nalong with comparative analyses of recent methods across public benchmarks. To\nsupport ongoing research and development, a continually updated repository of\npapers, code, and resources is maintained at\nhttps://github.com/heshuting555/Awesome-3DGS-Applications.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "http://arxiv.org/pdf/2508.09977v1",
+      "pdf_url": "http://arxiv.org/pdf/2508.09977v2",
       "journal_ref": null,
       "doi": null,
       "comment": "GitHub Repo:\n  https://github.com/heshuting555/Awesome-3DGS-Applications",
-      "entry_id": "http://arxiv.org/abs/2508.09977v1",
+      "entry_id": "http://arxiv.org/abs/2508.09977v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2508.09977v1",
+          "href": "http://arxiv.org/abs/2508.09977v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2508.09977v1",
+          "href": "http://arxiv.org/pdf/2508.09977v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -35173,6 +35173,43 @@
     }
   },
   "MVS": {
+    "2508.16433": {
+      "title": "HAMSt3R: Human-Aware Multi-view Stereo 3D Reconstruction",
+      "authors": [
+        "Sara Rojas",
+        "Matthieu Armando",
+        "Bernard Ghamen",
+        "Philippe Weinzaepfel",
+        "Vincent Leroy",
+        "Gregory Rogez"
+      ],
+      "published": "2025-08-22T14:43:18+00:00",
+      "updated": "2025-08-22T14:43:18+00:00",
+      "summary": "Recovering the 3D geometry of a scene from a sparse set of uncalibrated\nimages is a long-standing problem in computer vision. While recent\nlearning-based approaches such as DUSt3R and MASt3R have demonstrated\nimpressive results by directly predicting dense scene geometry, they are\nprimarily trained on outdoor scenes with static environments and struggle to\nhandle human-centric scenarios. In this work, we introduce HAMSt3R, an\nextension of MASt3R for joint human and scene 3D reconstruction from sparse,\nuncalibrated multi-view images. First, we exploit DUNE, a strong image encoder\nobtained by distilling, among others, the encoders from MASt3R and from a\nstate-of-the-art Human Mesh Recovery (HMR) model, multi-HMR, for a better\nunderstanding of scene geometry and human bodies. Our method then incorporates\nadditional network heads to segment people, estimate dense correspondences via\nDensePose, and predict depth in human-centric environments, enabling a more\ncomprehensive 3D reconstruction. By leveraging the outputs of our different\nheads, HAMSt3R produces a dense point map enriched with human semantic\ninformation in 3D. Unlike existing methods that rely on complex optimization\npipelines, our approach is fully feed-forward and efficient, making it suitable\nfor real-world applications. We evaluate our model on EgoHumans and EgoExo4D,\ntwo challenging benchmarks con taining diverse human-centric scenarios.\nAdditionally, we validate its generalization to traditional multi-view stereo\nand multi-view pose regression tasks. Our results demonstrate that our method\ncan reconstruct humans effectively while preserving strong performance in\ngeneral 3D reconstruction tasks, bridging the gap between human and scene\nunderstanding in 3D vision.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2508.16433v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2508.16433v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2508.16433v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2508.16433v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2508.14014": {
       "title": "Online 3D Gaussian Splatting Modeling with Novel View Selection",
       "authors": [
