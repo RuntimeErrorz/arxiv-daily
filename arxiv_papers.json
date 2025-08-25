@@ -11,27 +11,27 @@
         "Sungeun Hong"
       ],
       "published": "2025-08-21T13:42:49+00:00",
-      "updated": "2025-08-21T13:42:49+00:00",
+      "updated": "2025-08-22T05:07:51+00:00",
       "summary": "Test-time adaptation (TTA) enhances the zero-shot robustness under\ndistribution shifts by leveraging unlabeled test data during inference. Despite\nnotable advances, several challenges still limit its broader applicability.\nFirst, most methods rely on backpropagation or iterative optimization, which\nlimits scalability and hinders real-time deployment. Second, they lack explicit\nmodeling of class-conditional feature distributions. This modeling is crucial\nfor producing reliable decision boundaries and calibrated predictions, but it\nremains underexplored due to the lack of both source data and supervision at\ntest time. In this paper, we propose ADAPT, an Advanced Distribution-Aware and\nbackPropagation-free Test-time adaptation method. We reframe TTA as a Gaussian\nprobabilistic inference task by modeling class-conditional likelihoods using\ngradually updated class means and a shared covariance matrix. This enables\nclosed-form, training-free inference. To correct potential likelihood bias, we\nintroduce lightweight regularization guided by CLIP priors and a historical\nknowledge bank. ADAPT requires no source data, no gradient updates, and no full\naccess to target data, supporting both online and transductive settings.\nExtensive experiments across diverse benchmarks demonstrate that our method\nachieves state-of-the-art performance under a wide range of distribution shifts\nwith superior scalability and robustness.",
       "categories": [
         "cs.CV",
         "cs.LG"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "http://arxiv.org/pdf/2508.15568v1",
+      "pdf_url": "http://arxiv.org/pdf/2508.15568v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2508.15568v1",
+      "entry_id": "http://arxiv.org/abs/2508.15568v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2508.15568v1",
+          "href": "http://arxiv.org/abs/2508.15568v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2508.15568v1",
+          "href": "http://arxiv.org/pdf/2508.15568v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -115,7 +115,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-24",
+        "queried_at": "2025-08-25",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -278,7 +278,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-24",
+        "queried_at": "2025-08-25",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -468,7 +468,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-24",
+        "queried_at": "2025-08-25",
         "venue": null,
         "pub_type": "Review",
         "publisher": null,
@@ -667,7 +667,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-24",
+        "queried_at": "2025-08-25",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -717,7 +717,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-24",
+        "queried_at": "2025-08-25",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -991,7 +991,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-24",
+        "queried_at": "2025-08-25",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -1078,7 +1078,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-24",
+        "queried_at": "2025-08-25",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -1273,7 +1273,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-24",
+        "queried_at": "2025-08-25",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -1396,7 +1396,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-24",
+        "queried_at": "2025-08-25",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -1484,7 +1484,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-24",
+        "queried_at": "2025-08-25",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -2369,7 +2369,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-24",
+        "queried_at": "2025-08-25",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -2533,7 +2533,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-24",
+        "queried_at": "2025-08-25",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -2799,7 +2799,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-24",
+        "queried_at": "2025-08-25",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -3424,7 +3424,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-24",
+        "queried_at": "2025-08-25",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -3542,7 +3542,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-24",
+        "queried_at": "2025-08-25",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -3594,7 +3594,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-24",
+        "queried_at": "2025-08-25",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -3679,7 +3679,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-24",
+        "queried_at": "2025-08-25",
         "venue": "CVPR Workshops",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -3841,7 +3841,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-24",
+        "queried_at": "2025-08-25",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -4348,7 +4348,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-24",
+        "queried_at": "2025-08-25",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -4396,7 +4396,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-24",
+        "queried_at": "2025-08-25",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -4603,7 +4603,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-24",
+        "queried_at": "2025-08-25",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -4719,7 +4719,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-24",
+        "queried_at": "2025-08-25",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -5136,7 +5136,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-24",
+        "queried_at": "2025-08-25",
         "venue": "IEEE Robotics and Automation Letters",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -5740,7 +5740,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-24",
+        "queried_at": "2025-08-25",
         "venue": "Scandinavian Conference on Image Analysis",
         "pub_type": "JournalArticle,Conference",
         "publisher": null
@@ -5827,7 +5827,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-24",
+        "queried_at": "2025-08-25",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -5908,7 +5908,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-24",
+        "queried_at": "2025-08-25",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -5992,7 +5992,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-24",
+        "queried_at": "2025-08-25",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -6076,7 +6076,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-24",
+        "queried_at": "2025-08-25",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -6160,7 +6160,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-24",
+        "queried_at": "2025-08-25",
         "venue": "CVPR Workshops",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -6201,7 +6201,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-24",
+        "queried_at": "2025-08-25",
         "venue": "International Conference on Learning Representations",
         "pub_type": "JournalArticle",
         "publisher": null
