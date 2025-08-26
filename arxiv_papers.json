@@ -1,5 +1,48 @@
 {
   "3DGS Semantic": {
+    "2508.16932": {
+      "title": "Align 3D Representation and Text Embedding for 3D Content Personalization",
+      "authors": [
+        "Qi Song",
+        "Ziyuan Luo",
+        "Ka Chun Cheung",
+        "Simon See",
+        "Renjie Wan"
+      ],
+      "published": "2025-08-23T07:43:26+00:00",
+      "updated": "2025-08-23T07:43:26+00:00",
+      "summary": "Recent advances in NeRF and 3DGS have significantly enhanced the efficiency\nand quality of 3D content synthesis. However, efficient personalization of\ngenerated 3D content remains a critical challenge. Current 3D personalization\napproaches predominantly rely on knowledge distillation-based methods, which\nrequire computationally expensive retraining procedures. To address this\nchallenge, we propose \\textbf{Invert3D}, a novel framework for convenient 3D\ncontent personalization. Nowadays, vision-language models such as CLIP enable\ndirect image personalization through aligned vision-text embedding spaces.\nHowever, the inherent structural differences between 3D content and 2D images\npreclude direct application of these techniques to 3D personalization. Our\napproach bridges this gap by establishing alignment between 3D representations\nand text embedding spaces. Specifically, we develop a camera-conditioned\n3D-to-text inverse mechanism that projects 3D contents into a 3D embedding\naligned with text embeddings. This alignment enables efficient manipulation and\npersonalization of 3D content through natural language prompts, eliminating the\nneed for computationally retraining procedures. Extensive experiments\ndemonstrate that Invert3D achieves effective personalization of 3D content. Our\nwork is available at: https://github.com/qsong2001/Invert3D.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2508.16932v1",
+      "journal_ref": null,
+      "doi": "10.1145/3746027.3758145",
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2508.16932v1",
+      "links": [
+        {
+          "href": "http://dx.doi.org/10.1145/3746027.3758145",
+          "title": "doi",
+          "rel": "related",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/abs/2508.16932v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2508.16932v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2508.15568": {
       "title": "Backpropagation-Free Test-Time Adaptation via Probabilistic Gaussian Alignment",
       "authors": [
@@ -32,6 +75,45 @@
         },
         {
           "href": "http://arxiv.org/pdf/2508.15568v2",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2508.17437": {
+      "title": "Pixie: Fast and Generalizable Supervised Learning of 3D Physics from Pixels",
+      "authors": [
+        "Long Le",
+        "Ryan Lucas",
+        "Chen Wang",
+        "Chuhao Chen",
+        "Dinesh Jayaraman",
+        "Eric Eaton",
+        "Lingjie Liu"
+      ],
+      "published": "2025-08-20T19:24:04+00:00",
+      "updated": "2025-08-20T19:24:04+00:00",
+      "summary": "Inferring the physical properties of 3D scenes from visual information is a\ncritical yet challenging task for creating interactive and realistic virtual\nworlds. While humans intuitively grasp material characteristics such as\nelasticity or stiffness, existing methods often rely on slow, per-scene\noptimization, limiting their generalizability and application. To address this\nproblem, we introduce PIXIE, a novel method that trains a generalizable neural\nnetwork to predict physical properties across multiple scenes from 3D visual\nfeatures purely using supervised losses. Once trained, our feed-forward network\ncan perform fast inference of plausible material fields, which coupled with a\nlearned static scene representation like Gaussian Splatting enables realistic\nphysics simulation under external forces. To facilitate this research, we also\ncollected PIXIEVERSE, one of the largest known datasets of paired 3D assets and\nphysic material annotations. Extensive evaluations demonstrate that PIXIE is\nabout 1.46-4.39x better and orders of magnitude faster than test-time\noptimization methods. By leveraging pretrained visual features like CLIP, our\nmethod can also zero-shot generalize to real-world scenes despite only ever\nbeen trained on synthetic data. https://pixie-3d.github.io/",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2508.17437v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Website: https://pixie-3d.github.io/",
+      "entry_id": "http://arxiv.org/abs/2508.17437v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2508.17437v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2508.17437v1",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -49306,6 +49388,78 @@
     }
   },
   "Depth Estimation": {
+    "2508.17916": {
+      "title": "EndoUFM: Utilizing Foundation Models for Monocular depth estimation of endoscopic images",
+      "authors": [
+        "Xinning Yao",
+        "Bo Liu",
+        "Bojian Li",
+        "Jingjing Wang",
+        "Jinghua Yue",
+        "Fugen Zhou"
+      ],
+      "published": "2025-08-25T11:33:05+00:00",
+      "updated": "2025-08-25T11:33:05+00:00",
+      "summary": "Depth estimation is a foundational component for 3D reconstruction in\nminimally invasive endoscopic surgeries. However, existing monocular depth\nestimation techniques often exhibit limited performance to the varying\nillumination and complex textures of the surgical environment. While powerful\nvisual foundation models offer a promising solution, their training on natural\nimages leads to significant domain adaptability limitations and semantic\nperception deficiencies when applied to endoscopy. In this study, we introduce\nEndoUFM, an unsupervised monocular depth estimation framework that innovatively\nintegrating dual foundation models for surgical scenes, which enhance the depth\nestimation performance by leveraging the powerful pre-learned priors. The\nframework features a novel adaptive fine-tuning strategy that incorporates\nRandom Vector Low-Rank Adaptation (RVLoRA) to enhance model adaptability, and a\nResidual block based on Depthwise Separable Convolution (Res-DSC) to improve\nthe capture of fine-grained local features. Furthermore, we design a\nmask-guided smoothness loss to enforce depth consistency within anatomical\ntissue structures. Extensive experiments on the SCARED, Hamlyn, SERV-CT, and\nEndoNeRF datasets confirm that our method achieves state-of-the-art performance\nwhile maintaining an efficient model size. This work contributes to augmenting\nsurgeons' spatial perception during minimally invasive procedures, thereby\nenhancing surgical precision and safety, with crucial implications for\naugmented reality and navigation systems.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2508.17916v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "12 pages",
+      "entry_id": "http://arxiv.org/abs/2508.17916v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2508.17916v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2508.17916v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2508.16973": {
+      "title": "Balanced Sharpness-Aware Minimization for Imbalanced Regression",
+      "authors": [
+        "Yahao Liu",
+        "Qin Wang",
+        "Lixin Duan",
+        "Wen Li"
+      ],
+      "published": "2025-08-23T09:57:07+00:00",
+      "updated": "2025-08-23T09:57:07+00:00",
+      "summary": "Regression is fundamental in computer vision and is widely used in various\ntasks including age estimation, depth estimation, target localization, \\etc\nHowever, real-world data often exhibits imbalanced distribution, making\nregression models perform poorly especially for target values with rare\nobservations~(known as the imbalanced regression problem). In this paper, we\nreframe imbalanced regression as an imbalanced generalization problem. To\ntackle that, we look into the loss sharpness property for measuring the\ngeneralization ability of regression models in the observation space. Namely,\ngiven a certain perturbation on the model parameters, we check how model\nperformance changes according to the loss values of different target\nobservations. We propose a simple yet effective approach called Balanced\nSharpness-Aware Minimization~(BSAM) to enforce the uniform generalization\nability of regression models for the entire observation space. In particular,\nwe start from the traditional sharpness-aware minimization and then introduce a\nnovel targeted reweighting strategy to homogenize the generalization ability\nacross the observation space, which guarantees a theoretical generalization\nbound. Extensive experiments on multiple vision regression tasks, including age\nand depth estimation, demonstrate that our BSAM method consistently outperforms\nexisting approaches. The code is available\n\\href{https://github.com/manmanjun/BSAM_for_Imbalanced_Regression}{here}.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2508.16973v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Tech report",
+      "entry_id": "http://arxiv.org/abs/2508.16973v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2508.16973v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2508.16973v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2508.14437": {
       "title": "FOCUS: Frequency-Optimized Conditioning of DiffUSion Models for mitigating catastrophic forgetting during Test-Time Adaptation",
       "authors": [

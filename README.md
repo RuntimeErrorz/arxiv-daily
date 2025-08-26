@@ -1,4 +1,4 @@
-## Updated at 2025-08-26 08:17:40
+## Updated at 2025-08-26 20:08:09
 
 ## 3DGS Semantic
 
@@ -510,6 +510,8 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Journal|Authors|
 |---|---|---|---|---|---|
+|**2025-08-25**|**[EndoUFM: Utilizing Foundation Models for Monocular depth estimation of endoscopic images](https://arxiv.org/abs/2508.17916)**|N/A|12 pages|None|Xinning Yao et al.|
+|**2025-08-23**|**[Balanced Sharpness-Aware Minimization for Imbalanced Regression](https://arxiv.org/abs/2508.16973)**|N/A|Tech report|None|Yahao Liu et al.|
 |**2025-08-20**|**[FOCUS: Frequency-Optimized Conditioning of DiffUSion Models for mitigating catastrophic forgetting during Test-Time Adaptation](https://arxiv.org/abs/2508.14437)**|N/A|None|None|Gabriel Tjio et al.|
 |**2025-08-19**|**[ROVR-Open-Dataset: A Large-Scale Depth Dataset for Autonomous Driving](https://arxiv.org/abs/2508.13977)**|N/A|None|None|Xianda Guo et al.|
 |**2025-08-18**|**[DMS:Diffusion-Based Multi-Baseline Stereo Generation for Improving Self-Supervised Depth Estimation](https://arxiv.org/abs/2508.13091)**|N/A|None|None|Zihua Liu et al.|
