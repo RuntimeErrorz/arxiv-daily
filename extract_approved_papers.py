@@ -5,6 +5,7 @@ Script to extract title and abstract from arxiv_papers.json for papers with llm_
 """
 
 import json
+import csv
 import os
 from datetime import datetime
 
@@ -52,17 +53,27 @@ def extract_approved_papers(input_file='arxiv_papers.json', output_file='approve
                     paper_data = {
                         'paper_id': paper_id,
                         'category': category,
+                        'primary_category': paper_info.get('primary_category', ''),
                         'title': paper_info.get('title', ''),
                         'abstract': paper_info.get('summary', ''),
                         'venue': paper_info.get('venue_info', {}).get('venue', ''),
                         'authors': paper_info.get('authors', []),
                         'published': paper_info.get('published', ''),
-                        'pdf_url': paper_info.get('pdf_url', '')
+                        'pdf_url': paper_info.get('pdf_url', ''),
+                        'journal_ref': paper_info.get('journal_ref', ''),
+                        'comment': paper_info.get('comment', '')
                     }
                     
                     approved_papers.append(paper_data)
     
     print(f"Found {approved_count} approved papers out of {total_papers} total papers")
+    
+    # Sort papers by published date (ascending order)
+    try:
+        approved_papers.sort(key=lambda x: datetime.fromisoformat(x['published'].replace('Z', '+00:00')))
+        print("Papers sorted by publication date (ascending)")
+    except Exception as e:
+        print(f"Warning: Could not sort papers by date: {e}")
     
     # Prepare output data
     output_data = {
@@ -81,6 +92,40 @@ def extract_approved_papers(input_file='arxiv_papers.json', output_file='approve
         print(f"Error: Failed to save output file: {e}")
         return
     
+    # Create CSV file with only specified fields
+    csv_output_file = output_file.replace('.json', '.csv')
+    try:
+        with open(csv_output_file, 'w', newline='', encoding='utf-8') as csvfile:
+            if approved_papers:
+                fieldnames = ['ArxivID', 'Title', 'Venue', 'Authors', 'Published', 'Category']
+                writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+                
+                writer.writeheader()
+                for paper in approved_papers:
+                    # Format published date as 年/月/日
+                    try:
+                        published_dt = datetime.fromisoformat(paper['published'].replace('Z', '+00:00'))
+                        formatted_date = published_dt.strftime('%Y/%m/%d')
+                    except:
+                        formatted_date = paper['published']
+                    
+                    # Create simplified CSV row with required fields in specified order
+                    csv_row = {
+                        'ArxivID': paper['paper_id'],
+                        'Title': paper['title'],
+                        'Venue': paper['venue'],
+                        'Authors': '; '.join(paper['authors']) if paper['authors'] else '',
+                        'Published': formatted_date,
+                        'Category': paper['primary_category']
+                    }
+                    writer.writerow(csv_row)
+                
+                print(f"Successfully created CSV file: {csv_output_file}")
+            else:
+                print("No approved papers to write to CSV")
+    except Exception as e:
+        print(f"Error: Failed to create CSV file: {e}")
+    
     # Also create a markdown file for better readability
     md_output_file = output_file.replace('.json', '.md')
     try:
@@ -95,9 +140,12 @@ def extract_approved_papers(input_file='arxiv_papers.json', output_file='approve
                 f.write(f"## {i}. {paper['title']}\n\n")
                 f.write(f"**Paper ID:** {paper['paper_id']}\n\n")
                 f.write(f"**Category:** {paper['category']}\n\n")
+                f.write(f"**Primary Category:** {paper['primary_category']}\n\n")
                 f.write(f"**Venue:** {paper['venue']}\n\n")
                 f.write(f"**Authors:** {', '.join(paper['authors'])}\n\n")
                 f.write(f"**Published:** {paper['published']}\n\n")
+                f.write(f"**Journal Ref:** {paper['journal_ref']}\n\n")
+                f.write(f"**Comment:** {paper['comment']}\n\n")
                 f.write(f"**PDF URL:** {paper['pdf_url']}\n\n")
                 f.write(f"**Abstract:**\n{paper['abstract']}\n\n")
                 f.write("---\n\n")

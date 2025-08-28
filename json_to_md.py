@@ -65,9 +65,9 @@ def json_to_md(json_filename, md_filename, config_filename):
                 if topic_prompt:
                     f.write(f"Prompt: {topic_prompt}\n\n")
 
-                # 表头：始终显示venue列
-                f.write("|Date|Title|Venue|Comments|Journal|Authors|\n" +
-                       "|---|---|---|---|---|---|\n")
+                # 表头：始终显示venue列和category列
+                f.write("|Date|Title|Venue|Comments|Category|Journal|Authors|\n" +
+                       "|---|---|---|---|---|---|---|\n")
 
                 papers_written = 0
                 for paper_id, paper_info in papers.items():
@@ -85,22 +85,26 @@ def json_to_md(json_filename, md_filename, config_filename):
                     venue_info = paper_info.get('venue_info', {})
                     venue = venue_info.get('venue') or 'N/A'
                     
+                    # 获取category信息
+                    category = paper_info.get('primary_category', 'N/A')
+                    
                     cleaned_data = {
                         'title': clean_text(paper_info['title']),
                         'journal': clean_text(paper_info.get('journal_ref', 'None') or 'None'),
                         'comment': clean_text(paper_info.get('comment', 'None') or 'None'),
                         'venue': clean_text(str(venue)),
+                        'category': clean_text(str(category)),
                         'author_str': clean_text(f"{authors[0]} et al." if len(authors) > 2 else ', '.join(authors))
                     }
 
-                    # 始终显示venue信息
+                    # 始终显示venue信息和category信息
                     f.write(
                         f"|**{published}**|**[{cleaned_data['title']}]({arxiv_link})**|"
-                        f"{cleaned_data['venue']}|{cleaned_data['comment']}|{cleaned_data['journal']}|{cleaned_data['author_str']}|\n")
+                        f"{cleaned_data['venue']}|{cleaned_data['comment']}|{cleaned_data['category']}|{cleaned_data['journal']}|{cleaned_data['author_str']}|\n")
                     papers_written += 1
 
                 if papers_written == 0:
-                    f.write("|No relevant papers found|||||||\n")
+                    f.write("|No relevant papers found||||||||\n")
                         
                 f.write(f"\n")
                 

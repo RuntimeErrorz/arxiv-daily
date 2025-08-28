@@ -546,12 +546,12 @@ def generate_bibtex_entry(paper_id: str, paper_data: Dict, used_keys: set) -> st
                     f'{{{original_key},', f'{{{bibtex_key},', 1)
 
             # 添加 arXiv 信息（如果没有）
-            if 'eprint' not in bibtex_content.lower():
-                insert_pos = bibtex_content.rfind('}')
-                if insert_pos != -1:
-                    arxiv_fields = f",\n  eprint = {{{arxiv_id}}},\n  archivePrefix = {{arXiv}},\n  primaryClass = {{{paper_data.get('primary_category', 'cs.CV')}}}\n"
-                    bibtex_content = bibtex_content[:insert_pos] + \
-                        arxiv_fields + bibtex_content[insert_pos:]
+            # if 'eprint' not in bibtex_content.lower():
+            #     insert_pos = bibtex_content.rfind('}')
+            #     if insert_pos != -1:
+            #         arxiv_fields = f",\n  eprint = {{{arxiv_id}}},\n  archivePrefix = {{arXiv}},\n  primaryClass = {{{paper_data.get('primary_category', 'cs.CV')}}}\n"
+            #         bibtex_content = bibtex_content[:insert_pos] + \
+            #             arxiv_fields + bibtex_content[insert_pos:]
 
             print(
                 f"[SUCCESS] Found publication via CrossRef search for {arxiv_id}")
@@ -592,12 +592,12 @@ def generate_bibtex_entry(paper_id: str, paper_data: Dict, used_keys: set) -> st
                 f'{{{original_key},', f'{{{bibtex_key},', 1)
 
         # 添加 arXiv 信息（如果没有）
-        if 'eprint' not in bibtex_content.lower():
-            insert_pos = bibtex_content.rfind('}')
-            if insert_pos != -1:
-                arxiv_fields = f",\n  eprint = {{{arxiv_id}}},\n  archivePrefix = {{arXiv}},\n  primaryClass = {{{paper_data.get('primary_category', 'cs.CV')}}}\n"
-                bibtex_content = bibtex_content[:insert_pos] + \
-                    arxiv_fields + bibtex_content[insert_pos:]
+        # if 'eprint' not in bibtex_content.lower():
+        #     insert_pos = bibtex_content.rfind('}')
+        #     if insert_pos != -1:
+        #         arxiv_fields = f",\n  eprint = {{{arxiv_id}}},\n  archivePrefix = {{arXiv}},\n  primaryClass = {{{paper_data.get('primary_category', 'cs.CV')}}}\n"
+        #         bibtex_content = bibtex_content[:insert_pos] + \
+        #             arxiv_fields + bibtex_content[insert_pos:]
 
         print(f"[SUCCESS] Found arXiv publication for {arxiv_id}")
         return bibtex_content

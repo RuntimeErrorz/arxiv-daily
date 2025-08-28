@@ -74,9 +74,6 @@ def get_daily_papers(topic, query, max_results, config, json_file_name):
     )
     
     for result in tqdm(res, desc=f"Processing {topic}"):
-        if result.primary_category != 'cs.CV':
-            continue
-            
         paper_id = result.entry_id.split('/')[-1].split('v')[0]
         
         paper_info = {
@@ -140,10 +137,16 @@ def update_json_file(filename, data_all, cnt):
                     new_papers_count += 1
                     json_data[topic][paper_id] = paper_info
                 else:
+                    # 保留原有的 llm_approved 和 venue_info
                     original_llm_approved = json_data[topic][paper_id].get('llm_approved')
+                    original_venue_info = json_data[topic][paper_id].get('venue_info')
+                    
                     json_data[topic][paper_id] = paper_info
+                    
                     if original_llm_approved is not None:
                         json_data[topic][paper_id]['llm_approved'] = original_llm_approved
+                    if original_venue_info is not None:
+                        json_data[topic][paper_id]['venue_info'] = original_venue_info
             
             if new_papers_count > 0:
                 cnt[topic] = cnt.get(topic, 0) + new_papers_count

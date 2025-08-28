@@ -191,7 +191,7 @@ def main():
     parser.add_argument('--json', type=str, default=ARXIV_PAPERS_JSON, help='arxiv_papers.json 路径')
     parser.add_argument('--only-missing', action='store_true', help='仅在缺失 venue_info 时更新（默认行为）')
     parser.add_argument('--half', action='store_true', help='处理缺失 venue_info 或 venue 为 null 的论文')
-    parser.add_argument('--all', dest='only_missing', action='store_false', help='对所有条目尝试更新（覆盖模式）')
+    parser.add_argument('--all', action='store_true', help='对所有条目尝试更新（覆盖模式）')
     parser.add_argument('--max', type=int, default=0, help='最多处理多少条，0 表示不限制')
     parser.add_argument('--timeout', type=int, default=15, help='HTTP 请求超时时间（秒）')
     parser.add_argument('--proxy', type=str, default=None, help='代理地址，如 http://127.0.0.1:7890 或 127.0.0.1:7890')
@@ -201,7 +201,7 @@ def main():
     args = parser.parse_args()
 
     # 模式互斥检查
-    mode_count = sum([args.only_missing, args.half, not args.only_missing])
+    mode_count = sum([args.only_missing, args.half, args.all])
     if mode_count > 1:
         print("❌ 错误：--only-missing, --half, --all 三个模式只能选择一个")
         sys.exit(1)

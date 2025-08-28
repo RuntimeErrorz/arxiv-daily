@@ -1,4 +1,15 @@
 {
+    "2025-08-28 16:48:40": {
+        "3DGS Semantic": 22
+    },
+    "2025-08-28 16:43:42": {
+        "3DGS Semantic": 53
+    },
+    "2025-08-28 16:32:31": {
+        "3DGS Semantic": 475,
+        "MVS": 1,
+        "Depth Estimation": 2
+    },
     "2025-08-28 08:17:10": {
         "3DGS Semantic": 1,
         "Depth Estimation": 1
