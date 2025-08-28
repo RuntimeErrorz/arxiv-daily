@@ -1,4 +1,4 @@
-## Updated at 2025-08-27 08:17:54
+## Updated at 2025-08-28 08:17:35
 
 ## 3DGS Semantic
 
@@ -510,6 +510,7 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Journal|Authors|
 |---|---|---|---|---|---|
+|**2025-08-26**|**[SoccerNet 2025 Challenges Results](https://arxiv.org/abs/2508.19182)**|N/A|None|None|Silvio Giancola et al.|
 |**2025-08-25**|**[EndoUFM: Utilizing Foundation Models for Monocular depth estimation of endoscopic images](https://arxiv.org/abs/2508.17916)**|N/A|12 pages|None|Xinning Yao et al.|
 |**2025-08-23**|**[Balanced Sharpness-Aware Minimization for Imbalanced Regression](https://arxiv.org/abs/2508.16973)**|N/A|Tech report|None|Yahao Liu et al.|
 |**2025-08-20**|**[FOCUS: Frequency-Optimized Conditioning of DiffUSion Models for mitigating catastrophic forgetting during Test-Time Adaptation](https://arxiv.org/abs/2508.14437)**|N/A|None|None|Gabriel Tjio et al.|

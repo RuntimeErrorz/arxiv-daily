@@ -1,5 +1,43 @@
 {
   "3DGS Semantic": {
+    "2508.18788": {
+      "title": "PseudoMapTrainer: Learning Online Mapping without HD Maps",
+      "authors": [
+        "Christian Löwens",
+        "Thorben Funke",
+        "Jingchao Xie",
+        "Alexandru Paul Condurache"
+      ],
+      "published": "2025-08-26T08:13:30+00:00",
+      "updated": "2025-08-26T08:13:30+00:00",
+      "summary": "Online mapping models show remarkable results in predicting vectorized maps\nfrom multi-view camera images only. However, all existing approaches still rely\non ground-truth high-definition maps during training, which are expensive to\nobtain and often not geographically diverse enough for reliable generalization.\nIn this work, we propose PseudoMapTrainer, a novel approach to online mapping\nthat uses pseudo-labels generated from unlabeled sensor data. We derive those\npseudo-labels by reconstructing the road surface from multi-camera imagery\nusing Gaussian splatting and semantics of a pre-trained 2D segmentation\nnetwork. In addition, we introduce a mask-aware assignment algorithm and loss\nfunction to handle partially masked pseudo-labels, allowing for the first time\nthe training of online mapping models without any ground-truth maps.\nFurthermore, our pseudo-labels can be effectively used to pre-train an online\nmodel in a semi-supervised manner to leverage large-scale unlabeled\ncrowdsourced data. The code is available at\ngithub.com/boschresearch/PseudoMapTrainer.",
+      "categories": [
+        "cs.CV",
+        "cs.LG",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2508.18788v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted at ICCV 2025",
+      "entry_id": "http://arxiv.org/abs/2508.18788v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2508.18788v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2508.18788v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2508.16932": {
       "title": "Align 3D Representation and Text Embedding for 3D Content Personalization",
       "authors": [
@@ -94,26 +132,26 @@
         "Lingjie Liu"
       ],
       "published": "2025-08-20T19:24:04+00:00",
-      "updated": "2025-08-20T19:24:04+00:00",
+      "updated": "2025-08-26T16:57:07+00:00",
       "summary": "Inferring the physical properties of 3D scenes from visual information is a\ncritical yet challenging task for creating interactive and realistic virtual\nworlds. While humans intuitively grasp material characteristics such as\nelasticity or stiffness, existing methods often rely on slow, per-scene\noptimization, limiting their generalizability and application. To address this\nproblem, we introduce PIXIE, a novel method that trains a generalizable neural\nnetwork to predict physical properties across multiple scenes from 3D visual\nfeatures purely using supervised losses. Once trained, our feed-forward network\ncan perform fast inference of plausible material fields, which coupled with a\nlearned static scene representation like Gaussian Splatting enables realistic\nphysics simulation under external forces. To facilitate this research, we also\ncollected PIXIEVERSE, one of the largest known datasets of paired 3D assets and\nphysic material annotations. Extensive evaluations demonstrate that PIXIE is\nabout 1.46-4.39x better and orders of magnitude faster than test-time\noptimization methods. By leveraging pretrained visual features like CLIP, our\nmethod can also zero-shot generalize to real-world scenes despite only ever\nbeen trained on synthetic data. https://pixie-3d.github.io/",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "http://arxiv.org/pdf/2508.17437v1",
+      "pdf_url": "http://arxiv.org/pdf/2508.17437v2",
       "journal_ref": null,
       "doi": null,
       "comment": "Website: https://pixie-3d.github.io/",
-      "entry_id": "http://arxiv.org/abs/2508.17437v1",
+      "entry_id": "http://arxiv.org/abs/2508.17437v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2508.17437v1",
+          "href": "http://arxiv.org/abs/2508.17437v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2508.17437v1",
+          "href": "http://arxiv.org/pdf/2508.17437v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -197,7 +235,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-27",
+        "queried_at": "2025-08-28",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -360,7 +398,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-27",
+        "queried_at": "2025-08-28",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -550,7 +588,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-27",
+        "queried_at": "2025-08-28",
         "venue": null,
         "pub_type": "Review",
         "publisher": null,
@@ -749,7 +787,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-27",
+        "queried_at": "2025-08-28",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -799,7 +837,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-27",
+        "queried_at": "2025-08-28",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -1073,7 +1111,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-27",
+        "queried_at": "2025-08-28",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -1160,7 +1198,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-27",
+        "queried_at": "2025-08-28",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -1355,7 +1393,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-27",
+        "queried_at": "2025-08-28",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -1478,7 +1516,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-27",
+        "queried_at": "2025-08-28",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -1566,7 +1604,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-27",
+        "queried_at": "2025-08-28",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -1580,26 +1618,26 @@
         "Torsten Sattler"
       ],
       "published": "2025-07-31T13:58:15+00:00",
-      "updated": "2025-07-31T13:58:15+00:00",
+      "updated": "2025-08-26T12:04:04+00:00",
       "summary": "Visual localization is the task of estimating a camera pose in a known\nenvironment. In this paper, we utilize 3D Gaussian Splatting (3DGS)-based\nrepresentations for accurate and privacy-preserving visual localization. We\npropose Gaussian Splatting Feature Fields (GSFFs), a scene representation for\nvisual localization that combines an explicit geometry model (3DGS) with an\nimplicit feature field. We leverage the dense geometric information and\ndifferentiable rasterization algorithm from 3DGS to learn robust feature\nrepresentations grounded in 3D. In particular, we align a 3D scale-aware\nfeature field and a 2D feature encoder in a common embedding space through a\ncontrastive framework. Using a 3D structure-informed clustering procedure, we\nfurther regularize the representation learning and seamlessly convert the\nfeatures to segmentations, which can be used for privacy-preserving visual\nlocalization. Pose refinement, which involves aligning either feature maps or\nsegmentations from a query image with those rendered from the GSFFs scene\nrepresentation, is used to achieve localization. The resulting privacy- and\nnon-privacy-preserving localization pipelines, evaluated on multiple real-world\ndatasets, show state-of-the-art performances.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "http://arxiv.org/pdf/2507.23569v1",
+      "pdf_url": "http://arxiv.org/pdf/2507.23569v2",
       "journal_ref": null,
       "doi": null,
       "comment": "CVPR 2025",
-      "entry_id": "http://arxiv.org/abs/2507.23569v1",
+      "entry_id": "http://arxiv.org/abs/2507.23569v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2507.23569v1",
+          "href": "http://arxiv.org/abs/2507.23569v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2507.23569v1",
+          "href": "http://arxiv.org/pdf/2507.23569v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -2451,7 +2489,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-27",
+        "queried_at": "2025-08-28",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -2615,7 +2653,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-27",
+        "queried_at": "2025-08-28",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -2881,7 +2919,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-27",
+        "queried_at": "2025-08-28",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -3506,7 +3544,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-27",
+        "queried_at": "2025-08-28",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -3624,7 +3662,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-27",
+        "queried_at": "2025-08-28",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -3676,7 +3714,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-27",
+        "queried_at": "2025-08-28",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -3761,7 +3799,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-27",
+        "queried_at": "2025-08-28",
         "venue": "CVPR Workshops",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -3923,7 +3961,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-27",
+        "queried_at": "2025-08-28",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -4430,7 +4468,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-27",
+        "queried_at": "2025-08-28",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -4478,7 +4516,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-27",
+        "queried_at": "2025-08-28",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -4685,7 +4723,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-27",
+        "queried_at": "2025-08-28",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -4801,7 +4839,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-27",
+        "queried_at": "2025-08-28",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -5218,7 +5256,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-27",
+        "queried_at": "2025-08-28",
         "venue": "IEEE Robotics and Automation Letters",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -5822,7 +5860,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-27",
+        "queried_at": "2025-08-28",
         "venue": "Scandinavian Conference on Image Analysis",
         "pub_type": "JournalArticle,Conference",
         "publisher": null
@@ -5909,7 +5947,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-27",
+        "queried_at": "2025-08-28",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -5990,7 +6028,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-27",
+        "queried_at": "2025-08-28",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -6074,7 +6112,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-27",
+        "queried_at": "2025-08-28",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -6158,7 +6196,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-27",
+        "queried_at": "2025-08-28",
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -6242,7 +6280,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-27",
+        "queried_at": "2025-08-28",
         "venue": "CVPR Workshops",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -6283,7 +6321,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-08-27",
+        "queried_at": "2025-08-28",
         "venue": "International Conference on Learning Representations",
         "pub_type": "JournalArticle",
         "publisher": null
@@ -49388,6 +49426,155 @@
     }
   },
   "Depth Estimation": {
+    "2508.19182": {
+      "title": "SoccerNet 2025 Challenges Results",
+      "authors": [
+        "Silvio Giancola",
+        "Anthony Cioppa",
+        "Marc Gutiérrez-Pérez",
+        "Jan Held",
+        "Carlos Hinojosa",
+        "Victor Joos",
+        "Arnaud Leduc",
+        "Floriane Magera",
+        "Karen Sanchez",
+        "Vladimir Somers",
+        "Artur Xarles",
+        "Antonio Agudo",
+        "Alexandre Alahi",
+        "Olivier Barnich",
+        "Albert Clapés",
+        "Christophe De Vleeschouwer",
+        "Sergio Escalera",
+        "Bernard Ghanem",
+        "Thomas B. Moeslund",
+        "Marc Van Droogenbroeck",
+        "Tomoki Abe",
+        "Saad Alotaibi",
+        "Faisal Altawijri",
+        "Steven Araujo",
+        "Xiang Bai",
+        "Xiaoyang Bi",
+        "Jiawang Cao",
+        "Vanyi Chao",
+        "Kamil Czarnogórski",
+        "Fabian Deuser",
+        "Mingyang Du",
+        "Tianrui Feng",
+        "Patrick Frenzel",
+        "Mirco Fuchs",
+        "Jorge García",
+        "Konrad Habel",
+        "Takaya Hashiguchi",
+        "Sadao Hirose",
+        "Xinting Hu",
+        "Yewon Hwang",
+        "Ririko Inoue",
+        "Riku Itsuji",
+        "Kazuto Iwai",
+        "Hongwei Ji",
+        "Yangguang Ji",
+        "Licheng Jiao",
+        "Yuto Kageyama",
+        "Yuta Kamikawa",
+        "Yuuki Kanasugi",
+        "Hyungjung Kim",
+        "Jinwook Kim",
+        "Takuya Kurihara",
+        "Bozheng Li",
+        "Lingling Li",
+        "Xian Li",
+        "Youxing Lian",
+        "Dingkang Liang",
+        "Hongkai Lin",
+        "Jiadong Lin",
+        "Jian Liu",
+        "Liang Liu",
+        "Shuaikun Liu",
+        "Zhaohong Liu",
+        "Yi Lu",
+        "Federico Méndez",
+        "Huadong Ma",
+        "Wenping Ma",
+        "Jacek Maksymiuk",
+        "Henry Mantilla",
+        "Ismail Mathkour",
+        "Daniel Matthes",
+        "Ayaha Motomochi",
+        "Amrulloh Robbani Muhammad",
+        "Haruto Nakayama",
+        "Joohyung Oh",
+        "Yin May Oo",
+        "Marcelo Ortega",
+        "Norbert Oswald",
+        "Rintaro Otsubo",
+        "Fabian Perez",
+        "Mengshi Qi",
+        "Cristian Rey",
+        "Abel Reyes-Angulo",
+        "Oliver Rose",
+        "Hoover Rueda-Chacón",
+        "Hideo Saito",
+        "Jose Sarmiento",
+        "Kanta Sawafuji",
+        "Atom Scott",
+        "Xi Shen",
+        "Pragyan Shrestha",
+        "Jae-Young Sim",
+        "Long Sun",
+        "Yuyang Sun",
+        "Tomohiro Suzuki",
+        "Licheng Tang",
+        "Masato Tonouchi",
+        "Ikuma Uchida",
+        "Henry O. Velesaca",
+        "Tiancheng Wang",
+        "Rio Watanabe",
+        "Jay Wu",
+        "Yongliang Wu",
+        "Shunzo Yamagishi",
+        "Di Yang",
+        "Xu Yang",
+        "Yuxin Yang",
+        "Hao Ye",
+        "Xinyu Ye",
+        "Calvin Yeung",
+        "Xuanlong Yu",
+        "Chao Zhang",
+        "Dingyuan Zhang",
+        "Kexing Zhang",
+        "Zhe Zhao",
+        "Xin Zhou",
+        "Wenbo Zhu",
+        "Julian Ziegler"
+      ],
+      "published": "2025-08-26T16:37:07+00:00",
+      "updated": "2025-08-26T16:37:07+00:00",
+      "summary": "The SoccerNet 2025 Challenges mark the fifth annual edition of the SoccerNet\nopen benchmarking effort, dedicated to advancing computer vision research in\nfootball video understanding. This year's challenges span four vision-based\ntasks: (1) Team Ball Action Spotting, focused on detecting ball-related actions\nin football broadcasts and assigning actions to teams; (2) Monocular Depth\nEstimation, targeting the recovery of scene geometry from single-camera\nbroadcast clips through relative depth estimation for each pixel; (3)\nMulti-View Foul Recognition, requiring the analysis of multiple synchronized\ncamera views to classify fouls and their severity; and (4) Game State\nReconstruction, aimed at localizing and identifying all players from a\nbroadcast video to reconstruct the game state on a 2D top-view of the field.\nAcross all tasks, participants were provided with large-scale annotated\ndatasets, unified evaluation protocols, and strong baselines as starting\npoints. This report presents the results of each challenge, highlights the\ntop-performing solutions, and provides insights into the progress made by the\ncommunity. The SoccerNet Challenges continue to serve as a driving force for\nreproducible, open research at the intersection of computer vision, artificial\nintelligence, and sports. Detailed information about the tasks, challenges, and\nleaderboards can be found at https://www.soccer-net.org, with baselines and\ndevelopment kits available at https://github.com/SoccerNet.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2508.19182v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2508.19182v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2508.19182v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2508.19182v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2508.17916": {
       "title": "EndoUFM: Utilizing Foundation Models for Monocular depth estimation of endoscopic images",
       "authors": [
