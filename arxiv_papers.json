@@ -115,7 +115,15 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-08-29",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2508.18788": {
       "title": "PseudoMapTrainer: Learning Online Mapping without HD Maps",
@@ -6650,34 +6658,34 @@
       "llm_approved": false
     },
     "2506.12501": {
-      "title": "Efficient vectorized evaluation of Gaussian AO integrals on modern central processing units",
+      "title": "Implementation of McMurchie-Davidson algorithm for Gaussian AO integrals suited for SIMD processors",
       "authors": [
         "Andrey Asadchev",
         "Edward F. Valeev"
       ],
       "published": "2025-06-14T13:33:08+00:00",
-      "updated": "2025-06-14T13:33:08+00:00",
-      "summary": "We report an implementation of the McMurchie-Davidson evaluation scheme for\n1- and 2-particle Gaussian AO integrals designed for efficient execution on\nmodern central processing units (CPUs) with Single Instruction Multiple Data\n(SIMD) instruction sets. Like in our recent MD implementation for graphical\nprocessing units (GPUs) [J. Chem. Phys. 160, 244109 (2024)], variable-sized\nbatches of shellsets of integrals are evaluated at a time. By optimizing for\nthe floating point instruction throughput rather than minimizing the number of\noperations, this approach achieves up to 50% of the theoretical hardware peak\nFP64 performance for many common SIMD-equipped platforms (AVX2, AVX512, NEON),\nwhich translates to speedups of up to 30 over the state-of-the-art\none-shellset-at-a-time implementation of Obara-Saika-type schemes in Libint for\na variety of primitive and contracted integrals. As with our previous work, we\nrely on the standard C++ programming language -- such as the std::simd standard\nlibrary feature to be included in the 2026 ISO C++ standard -- without any\nexplicit code generation to keep the code base small and portable. The\nimplementation is part of the open source LibintX library freely available at\nhttps://github.com/ValeevGroup/libintx.",
+      "updated": "2025-08-28T04:53:46+00:00",
+      "summary": "We report an implementation of the McMurchie-Davidson evaluation scheme for\n1- and 2-particle Gaussian AO integrals designed for processors with Single\nInstruction Multiple Data (SIMD) instruction sets. Like in our recent MD\nimplementation for graphical processing units (GPUs) [J. Chem. Phys. 160,\n244109 (2024)], variable-sized batches of shellsets of integrals are evaluated\nat a time. By optimizing for the floating point instruction throughput rather\nthan minimizing the number of operations, this approach achieves up to 50% of\nthe theoretical hardware peak FP64 performance for many common SIMD-equipped\nplatforms (AVX2, AVX512, NEON), which translates to speedups of up to 30 over\nthe state-of-the-art one-shellset-at-a-time implementation of Obara-Saika-type\nschemes in Libint for a variety of primitive and contracted integrals. As with\nour previous work, we rely on the standard C++ programming language -- such as\nthe std::simd standard library feature to be included in the 2026 ISO C++\nstandard -- without any explicit code generation to keep the code base small\nand portable. The implementation is part of the open source LibintX library\nfreely available at https://github.com/ValeevGroup/libintx.",
       "categories": [
         "physics.chem-ph",
         "cs.MS",
         "physics.comp-ph"
       ],
       "primary_category": "physics.chem-ph",
-      "pdf_url": "http://arxiv.org/pdf/2506.12501v1",
+      "pdf_url": "http://arxiv.org/pdf/2506.12501v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2506.12501v1",
+      "entry_id": "http://arxiv.org/abs/2506.12501v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2506.12501v1",
+          "href": "http://arxiv.org/abs/2506.12501v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2506.12501v1",
+          "href": "http://arxiv.org/pdf/2506.12501v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
