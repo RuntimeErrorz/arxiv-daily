@@ -1,4 +1,4 @@
-## Updated at 2025-08-29 08:17:10
+## Updated at 2025-08-29 20:07:39
 
 ## 3DGS Semantic
 
@@ -144,6 +144,7 @@ Query: (abs:'Multi-View Stereo' OR abs:'Multi View Stereo' OR abs:'Multi-View De
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-08-28**|**[Multi-View 3D Point Tracking](https://arxiv.org/abs/2508.21060)**|N/A|ICCV 2025, Oral. Project page: https://ethz-vlg.github.io/mvtracker|cs.CV|None|Frano Rajič et al.|
 |**2025-08-27**|**[OpenM3D: Open Vocabulary Multi-view Indoor 3D Object Detection without Human Annotations](https://arxiv.org/abs/2508.20063)**|N/A|ICCV2025|cs.CV|None|Peng-Hao Hsu et al.|
 |**2025-08-22**|**[HAMSt3R: Human-Aware Multi-view Stereo 3D Reconstruction](https://arxiv.org/abs/2508.16433)**|N/A|None|cs.CV|None|Sara Rojas et al.|
 |**2025-08-19**|**[Online 3D Gaussian Splatting Modeling with Novel View Selection](https://arxiv.org/abs/2508.14014)**|N/A|None|cs.CV|None|Byeonggwon Lee et al.|
@@ -533,6 +534,7 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-08-28**|**[Enhancing Pseudo-Boxes via Data-Level LiDAR-Camera Fusion for Unsupervised 3D Object Detection](https://arxiv.org/abs/2508.20530)**|N/A|Accepted by ACM MM 2025|cs.CV|None|Mingqian Ji et al.|
 |**2025-08-27**|**[OpenM3D: Open Vocabulary Multi-view Indoor 3D Object Detection without Human Annotations](https://arxiv.org/abs/2508.20063)**|N/A|ICCV2025|cs.CV|None|Peng-Hao Hsu et al.|
 |**2025-08-26**|**[SoccerNet 2025 Challenges Results](https://arxiv.org/abs/2508.19182)**|N/A|None|cs.CV|None|Silvio Giancola et al.|
 |**2025-08-25**|**[Impact of Target and Tool Visualization on Depth Perception and Usability in Optical See-Through AR](https://arxiv.org/abs/2508.18481)**|N/A|None|cs.HC|None|Yue Yang et al.|

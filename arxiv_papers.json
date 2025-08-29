@@ -1,5 +1,121 @@
 {
   "3DGS Semantic": {
+    "2508.21019": {
+      "title": "POSE: Phased One-Step Adversarial Equilibrium for Video Diffusion Models",
+      "authors": [
+        "Jiaxiang Cheng",
+        "Bing Ma",
+        "Xuhua Ren",
+        "Hongyi Jin",
+        "Kai Yu",
+        "Peng Zhang",
+        "Wenyue Li",
+        "Yuan Zhou",
+        "Tianxiang Zheng",
+        "Qinglin Lu"
+      ],
+      "published": "2025-08-28T17:20:01+00:00",
+      "updated": "2025-08-28T17:20:01+00:00",
+      "summary": "The field of video diffusion generation faces critical bottlenecks in\nsampling efficiency, especially for large-scale models and long sequences.\nExisting video acceleration methods adopt image-based techniques but suffer\nfrom fundamental limitations: they neither model the temporal coherence of\nvideo frames nor provide single-step distillation for large-scale video models.\nTo bridge this gap, we propose POSE (Phased One-Step Equilibrium), a\ndistillation framework that reduces the sampling steps of large-scale video\ndiffusion models, enabling the generation of high-quality videos in a single\nstep. POSE employs a carefully designed two-phase process to distill video\nmodels:(i) stability priming: a warm-up mechanism to stabilize adversarial\ndistillation that adapts the high-quality trajectory of the one-step generator\nfrom high to low signal-to-noise ratio regimes, optimizing the video quality of\nsingle-step mappings near the endpoints of flow trajectories. (ii) unified\nadversarial equilibrium: a flexible self-adversarial distillation mechanism\nthat promotes stable single-step adversarial training towards a Nash\nequilibrium within the Gaussian noise space, generating realistic single-step\nvideos close to real videos. For conditional video generation, we propose (iii)\nconditional adversarial consistency, a method to improve both semantic\nconsistency and frame consistency between conditional frames and generated\nframes. Comprehensive experiments demonstrate that POSE outperforms other\nacceleration methods on VBench-I2V by average 7.15% in semantic alignment,\ntemporal conference and frame quality, reducing the latency of the pre-trained\nmodel by 100$\\times$, from 1000 seconds to 10 seconds, while maintaining\ncompetitive performance.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2508.21019v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Project Page: https://pose-paper.github.io",
+      "entry_id": "http://arxiv.org/abs/2508.21019v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2508.21019v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2508.21019v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2508.20965": {
+      "title": "DrivingGaussian++: Towards Realistic Reconstruction and Editable Simulation for Surrounding Dynamic Driving Scenes",
+      "authors": [
+        "Yajiao Xiong",
+        "Xiaoyu Zhou",
+        "Yongtao Wan",
+        "Deqing Sun",
+        "Ming-Hsuan Yang"
+      ],
+      "published": "2025-08-28T16:22:54+00:00",
+      "updated": "2025-08-28T16:22:54+00:00",
+      "summary": "We present DrivingGaussian++, an efficient and effective framework for\nrealistic reconstructing and controllable editing of surrounding dynamic\nautonomous driving scenes. DrivingGaussian++ models the static background using\nincremental 3D Gaussians and reconstructs moving objects with a composite\ndynamic Gaussian graph, ensuring accurate positions and occlusions. By\nintegrating a LiDAR prior, it achieves detailed and consistent scene\nreconstruction, outperforming existing methods in dynamic scene reconstruction\nand photorealistic surround-view synthesis. DrivingGaussian++ supports\ntraining-free controllable editing for dynamic driving scenes, including\ntexture modification, weather simulation, and object manipulation, leveraging\nmulti-view images and depth priors. By integrating large language models (LLMs)\nand controllable editing, our method can automatically generate dynamic object\nmotion trajectories and enhance their realism during the optimization process.\nDrivingGaussian++ demonstrates consistent and realistic editing results and\ngenerates dynamic multi-view driving scenarios, while significantly enhancing\nscene diversity. More results and code can be found at the project site:\nhttps://xiong-creator.github.io/DrivingGaussian_plus.github.io",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2508.20965v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2508.20965v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2508.20965v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2508.20965v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2508.20763": {
+      "title": "Updated Astrophysical Equation-of-State Constraints on the Color-Superconducting Gap",
+      "authors": [
+        "Aleksi Kurkela",
+        "Krishna Rajagopal",
+        "Rachel Steinhorst"
+      ],
+      "published": "2025-08-28T13:17:59+00:00",
+      "updated": "2025-08-28T13:17:59+00:00",
+      "summary": "We summarize and update using new NICER measurements the results of\narXiv:2401.16253, in which we used various astrophysical neutron-star\nobservations to set an upper bound on the CFL color-superconducting gap in a\nrange of baryon chemical potentials $\\mu_B \\in [2.1,3.2]$, above those reached\nwithin neutron stars. We also corroborate the ``reasonable\" constraint from\narXiv:2401.16253 on the maximum value of the color-superconducting gap by\nperforming a new Bayesian analysis using a prior that extends a two-segment\nGaussian process connecting the whole density range between CEFT and pQCD.",
+      "categories": [
+        "hep-ph",
+        "astro-ph.HE",
+        "nucl-th"
+      ],
+      "primary_category": "hep-ph",
+      "pdf_url": "http://arxiv.org/pdf/2508.20763v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "5 pages, 2 figures, proceedings of Quark Matter 2025",
+      "entry_id": "http://arxiv.org/abs/2508.20763v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2508.20763v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2508.20763v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2508.20020": {
       "title": "GS: Generative Segmentation via Label Diffusion",
       "authors": [
@@ -124,6 +240,43 @@
         "publisher": null,
         "note": "已查询但未找到venue信息"
       }
+    },
+    "2508.20134": {
+      "title": "QAgent: An LLM-based Multi-Agent System for Autonomous OpenQASM programming",
+      "authors": [
+        "Zhenxiao Fu",
+        "Fan Chen",
+        "Lei Jiang"
+      ],
+      "published": "2025-08-26T18:40:02+00:00",
+      "updated": "2025-08-26T18:40:02+00:00",
+      "summary": "Noisy Intermediate-Scale Quantum (NISQ) devices have begun to exhibit early\nquantum advantages on classically intractable problems, spanning physics\nsimulations to Gaussian boson sampling. Yet, realizing these benefits remains\nchallenging for non-experts, primarily due to the complexities of programming\nin Open Quantum Assembly Language (OpenQASM). Although Large Language Model\n(LLM)-based agents have shown promise in automating classical programming\nworkflows, their quantum counterparts have largely been restricted to\nspecialized tasks such as quantum chemistry or error correction. In this paper,\nwe present QAgent, an LLM-powered multi-agent system that fully automates\nOpenQASM programming. By integrating task planning, in-context few-shot\nlearning, retrieval-augmented generation (RAG) for long-term context,\npredefined generation tools, and chain-of-thought (CoT) reasoning, the agents\nsystematically improve both compilation and functional correctness. Our\nevaluations demonstrate substantial improvements: across multiple LLMs of\nvarying sizes, QAgent enhances the accuracy of QASM code generation by 71.6\\%\ncompared to previous static LLM-based approaches. We envision this multi-agent\nsystem as a key enabler for democratizing quantum programming, bridging\nexpertise gaps, and accelerating the practical adoption of quantum computing.",
+      "categories": [
+        "cs.AI",
+        "cs.ET",
+        "quant-ph"
+      ],
+      "primary_category": "cs.AI",
+      "pdf_url": "http://arxiv.org/pdf/2508.20134v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2508.20134v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2508.20134v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2508.20134v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
     },
     "2508.18788": {
       "title": "PseudoMapTrainer: Learning Online Mapping without HD Maps",
@@ -56981,6 +57134,47 @@
     }
   },
   "MVS": {
+    "2508.21060": {
+      "title": "Multi-View 3D Point Tracking",
+      "authors": [
+        "Frano Rajič",
+        "Haofei Xu",
+        "Marko Mihajlovic",
+        "Siyuan Li",
+        "Irem Demir",
+        "Emircan Gündoğdu",
+        "Lei Ke",
+        "Sergey Prokudin",
+        "Marc Pollefeys",
+        "Siyu Tang"
+      ],
+      "published": "2025-08-28T17:58:20+00:00",
+      "updated": "2025-08-28T17:58:20+00:00",
+      "summary": "We introduce the first data-driven multi-view 3D point tracker, designed to\ntrack arbitrary points in dynamic scenes using multiple camera views. Unlike\nexisting monocular trackers, which struggle with depth ambiguities and\nocclusion, or prior multi-camera methods that require over 20 cameras and\ntedious per-sequence optimization, our feed-forward model directly predicts 3D\ncorrespondences using a practical number of cameras (e.g., four), enabling\nrobust and accurate online tracking. Given known camera poses and either\nsensor-based or estimated multi-view depth, our tracker fuses multi-view\nfeatures into a unified point cloud and applies k-nearest-neighbors correlation\nalongside a transformer-based update to reliably estimate long-range 3D\ncorrespondences, even under occlusion. We train on 5K synthetic multi-view\nKubric sequences and evaluate on two real-world benchmarks: Panoptic Studio and\nDexYCB, achieving median trajectory errors of 3.1 cm and 2.0 cm, respectively.\nOur method generalizes well to diverse camera setups of 1-8 views with varying\nvantage points and video lengths of 24-150 frames. By releasing our tracker\nalongside training and evaluation datasets, we aim to set a new standard for\nmulti-view 3D tracking research and provide a practical tool for real-world\napplications. Project page available at https://ethz-vlg.github.io/mvtracker.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2508.21060v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "ICCV 2025, Oral. Project page: https://ethz-vlg.github.io/mvtracker",
+      "entry_id": "http://arxiv.org/abs/2508.21060v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2508.21060v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2508.21060v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2508.20063": {
       "title": "OpenM3D: Open Vocabulary Multi-view Indoor 3D Object Detection without Human Annotations",
       "authors": [
@@ -71154,6 +71348,40 @@
     }
   },
   "Depth Estimation": {
+    "2508.20530": {
+      "title": "Enhancing Pseudo-Boxes via Data-Level LiDAR-Camera Fusion for Unsupervised 3D Object Detection",
+      "authors": [
+        "Mingqian Ji",
+        "Jian Yang",
+        "Shanshan Zhang"
+      ],
+      "published": "2025-08-28T08:15:23+00:00",
+      "updated": "2025-08-28T08:15:23+00:00",
+      "summary": "Existing LiDAR-based 3D object detectors typically rely on manually annotated\nlabels for training to achieve good performance. However, obtaining\nhigh-quality 3D labels is time-consuming and labor-intensive. To address this\nissue, recent works explore unsupervised 3D object detection by introducing RGB\nimages as an auxiliary modal to assist pseudo-box generation. However, these\nmethods simply integrate pseudo-boxes generated by LiDAR point clouds and RGB\nimages. Yet, such a label-level fusion strategy brings limited improvements to\nthe quality of pseudo-boxes, as it overlooks the complementary nature in terms\nof LiDAR and RGB image data. To overcome the above limitations, we propose a\nnovel data-level fusion framework that integrates RGB images and LiDAR data at\nan early stage. Specifically, we utilize vision foundation models for instance\nsegmentation and depth estimation on images and introduce a bi-directional\nfusion method, where real points acquire category labels from the 2D space,\nwhile 2D pixels are projected onto 3D to enhance real point density. To\nmitigate noise from depth and segmentation estimations, we propose a local and\nglobal filtering method, which applies local radius filtering to suppress depth\nestimation errors and global statistical filtering to remove\nsegmentation-induced outliers. Furthermore, we propose a data-level fusion\nbased dynamic self-evolution strategy, which iteratively refines pseudo-boxes\nunder a dense representation, significantly improving localization accuracy.\nExtensive experiments on the nuScenes dataset demonstrate that the detector\ntrained by our method significantly outperforms that trained by previous\nstate-of-the-art methods with 28.4$\\%$ mAP on the nuScenes validation\nbenchmark.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2508.20530v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted by ACM MM 2025",
+      "entry_id": "http://arxiv.org/abs/2508.20530v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2508.20530v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2508.20530v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2508.20063": {
       "title": "OpenM3D: Open Vocabulary Multi-view Indoor 3D Object Detection without Human Annotations",
       "authors": [
