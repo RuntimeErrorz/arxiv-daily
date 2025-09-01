@@ -1,5 +1,41 @@
 {
   "3DGS Semantic": {
+    "2508.21680": {
+      "title": "Towards Interactive Lesion Segmentation in Whole-Body PET/CT with Promptable Models",
+      "authors": [
+        "Maximilian Rokuss",
+        "Yannick Kirchhoff",
+        "Fabian Isensee",
+        "Klaus H. Maier-Hein"
+      ],
+      "published": "2025-08-29T14:49:58+00:00",
+      "updated": "2025-08-29T14:49:58+00:00",
+      "summary": "Whole-body PET/CT is a cornerstone of oncological imaging, yet accurate\nlesion segmentation remains challenging due to tracer heterogeneity,\nphysiological uptake, and multi-center variability. While fully automated\nmethods have advanced substantially, clinical practice benefits from approaches\nthat keep humans in the loop to efficiently refine predicted masks. The\nautoPET/CT IV challenge addresses this need by introducing interactive\nsegmentation tasks based on simulated user prompts. In this work, we present\nour submission to Task 1. Building on the winning autoPET III nnU-Net pipeline,\nwe extend the framework with promptable capabilities by encoding user-provided\nforeground and background clicks as additional input channels. We\nsystematically investigate representations for spatial prompts and demonstrate\nthat Euclidean Distance Transform (EDT) encodings consistently outperform\nGaussian kernels. Furthermore, we propose online simulation of user\ninteractions and a custom point sampling strategy to improve robustness under\nrealistic prompting conditions. Our ensemble of EDT-based models, trained with\nand without external data, achieves the strongest cross-validation performance,\nreducing both false positives and false negatives compared to baseline models.\nThese results highlight the potential of promptable models to enable efficient,\nuser-guided segmentation workflows in multi-tracer, multi-center PET/CT. Code\nis publicly available at https://github.com/MIC-DKFZ/autoPET-interactive",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2508.21680v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "atuoPET4 Team LesionLocator",
+      "entry_id": "http://arxiv.org/abs/2508.21680v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2508.21680v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2508.21680v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2508.21019": {
       "title": "POSE: Phased One-Step Adversarial Equilibrium for Video Diffusion Models",
       "authors": [
