@@ -1721,26 +1721,26 @@
         "Monroe Kennedy III"
       ],
       "published": "2025-08-09T23:38:17+00:00",
-      "updated": "2025-08-09T23:38:17+00:00",
+      "updated": "2025-08-29T22:14:21+00:00",
       "summary": "DexFruit is a robotic manipulation framework that enables gentle, autonomous\nhandling of fragile fruit and precise evaluation of damage. Many fruits are\nfragile and prone to bruising, thus requiring humans to manually harvest them\nwith care. In this work, we demonstrate by using optical tactile sensing,\nautonomous manipulation of fruit with minimal damage can be achieved. We show\nthat our tactile informed diffusion policies outperform baselines in both\nreduced bruising and pick-and-place success rate across three fruits:\nstrawberries, tomatoes, and blackberries. In addition, we introduce FruitSplat,\na novel technique to represent and quantify visual damage in high-resolution 3D\nrepresentation via 3D Gaussian Splatting (3DGS). Existing metrics for measuring\ndamage lack quantitative rigor or require expensive equipment. With FruitSplat,\nwe distill a 2D strawberry mask as well as a 2D bruise segmentation mask into\nthe 3DGS representation. Furthermore, this representation is modular and\ngeneral, compatible with any relevant 2D model. Overall, we demonstrate a 92%\ngrasping policy success rate, up to a 20% reduction in visual bruising, and up\nto an 31% improvement in grasp success rate on challenging fruit compared to\nour baselines across our three tested fruits. We rigorously evaluate this\nresult with over 630 trials. Please checkout our website at\nhttps://dex-fruit.github.io .",
       "categories": [
         "cs.RO"
       ],
       "primary_category": "cs.RO",
-      "pdf_url": "http://arxiv.org/pdf/2508.07118v1",
+      "pdf_url": "http://arxiv.org/pdf/2508.07118v2",
       "journal_ref": null,
       "doi": null,
       "comment": "8 pages, 5 figures",
-      "entry_id": "http://arxiv.org/abs/2508.07118v1",
+      "entry_id": "http://arxiv.org/abs/2508.07118v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2508.07118v1",
+          "href": "http://arxiv.org/abs/2508.07118v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2508.07118v1",
+          "href": "http://arxiv.org/pdf/2508.07118v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
