@@ -1874,27 +1874,27 @@
         "Jaesik Park"
       ],
       "published": "2025-08-07T10:45:08+00:00",
-      "updated": "2025-08-08T03:35:45+00:00",
+      "updated": "2025-09-02T04:41:09+00:00",
       "summary": "3D Gaussian Splatting (3DGS) has begun incorporating rich information from 2D\nfoundation models. However, most approaches rely on a bottom-up optimization\nprocess that treats raw 2D features as ground truth, incurring increased\ncomputational costs. We propose a top-down pipeline for constructing compact\nand fast 3D Gaussian feature fields, namely, CF3. We first perform a fast\nweighted fusion of multi-view 2D features with pre-trained Gaussians. This\napproach enables training a per-Gaussian autoencoder directly on the lifted\nfeatures, instead of training autoencoders in the 2D domain. As a result, the\nautoencoder better aligns with the feature distribution. More importantly, we\nintroduce an adaptive sparsification method that optimizes the Gaussian\nattributes of the feature field while pruning and merging the redundant\nGaussians, constructing an efficient representation with preserved geometric\ndetails. Our approach achieves a competitive 3D feature field using as little\nas 5% of the Gaussians compared to Feature-3DGS.",
       "categories": [
         "cs.CV",
         "cs.AI"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "http://arxiv.org/pdf/2508.05254v2",
+      "pdf_url": "http://arxiv.org/pdf/2508.05254v3",
       "journal_ref": null,
       "doi": null,
-      "comment": "ICCV 2025",
-      "entry_id": "http://arxiv.org/abs/2508.05254v2",
+      "comment": "ICCV 2025, Project Page: https://jjoonii.github.io/cf3-website/",
+      "entry_id": "http://arxiv.org/abs/2508.05254v3",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2508.05254v2",
+          "href": "http://arxiv.org/abs/2508.05254v3",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2508.05254v2",
+          "href": "http://arxiv.org/pdf/2508.05254v3",
           "title": "pdf",
           "rel": "related",
           "content_type": null
