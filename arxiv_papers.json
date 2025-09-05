@@ -1,5 +1,317 @@
 {
   "3DGS Semantic": {
+    "2509.03433": {
+      "title": "Decoding Visual Neural Representations by Multimodal with Dynamic Balancing",
+      "authors": [
+        "Kaili sun",
+        "Xingyu Miao",
+        "Bing Zhai",
+        "Haoran Duan",
+        "Yang Long"
+      ],
+      "published": "2025-09-03T16:03:59+00:00",
+      "updated": "2025-09-03T16:03:59+00:00",
+      "summary": "In this work, we propose an innovative framework that integrates EEG, image,\nand text data, aiming to decode visual neural representations from low\nsignal-to-noise ratio EEG signals. Specifically, we introduce text modality to\nenhance the semantic correspondence between EEG signals and visual content.\nWith the explicit semantic labels provided by text, image and EEG features of\nthe same category can be more closely aligned with the corresponding text\nrepresentations in a shared multimodal space. To fully utilize pre-trained\nvisual and textual representations, we propose an adapter module that\nalleviates the instability of high-dimensional representation while\nfacilitating the alignment and fusion of cross-modal features. Additionally, to\nalleviate the imbalance in multimodal feature contributions introduced by the\ntextual representations, we propose a Modal Consistency Dynamic Balance (MCDB)\nstrategy that dynamically adjusts the contribution weights of each modality. We\nfurther propose a stochastic perturbation regularization (SPR) term to enhance\nthe generalization ability of semantic perturbation-based models by introducing\ndynamic Gaussian noise in the modality optimization process. The evaluation\nresults on the ThingsEEG dataset show that our method surpasses previous\nstate-of-the-art methods in both Top-1 and Top-5 accuracy metrics, improving by\n2.0\\% and 4.7\\% respectively.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.03433v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.03433v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.03433v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.03433v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.03221": {
+      "title": "LGBP-OrgaNet: Learnable Gaussian Band Pass Fusion of CNN and Transformer Features for Robust Organoid Segmentation and Tracking",
+      "authors": [
+        "Jing Zhang",
+        "Siying Tao",
+        "Jiao Li",
+        "Tianhe Wang",
+        "Junchen Wu",
+        "Ruqian Hao",
+        "Xiaohui Du",
+        "Ruirong Tan",
+        "Rui Li"
+      ],
+      "published": "2025-09-03T11:24:23+00:00",
+      "updated": "2025-09-03T11:24:23+00:00",
+      "summary": "Organoids replicate organ structure and function, playing a crucial role in\nfields such as tumor treatment and drug screening. Their shape and size can\nindicate their developmental status, but traditional fluorescence labeling\nmethods risk compromising their structure. Therefore, this paper proposes an\nautomated, non-destructive approach to organoid segmentation and tracking. We\nintroduced the LGBP-OrgaNet, a deep learning-based system proficient in\naccurately segmenting, tracking, and quantifying organoids. The model leverages\ncomplementary information extracted from CNN and Transformer modules and\nintroduces the innovative feature fusion module, Learnable Gaussian Band Pass\nFusion, to merge data from two branches. Additionally, in the decoder, the\nmodel proposes a Bidirectional Cross Fusion Block to fuse multi-scale features,\nand finally completes the decoding through progressive concatenation and\nupsampling. SROrga demonstrates satisfactory segmentation accuracy and\nrobustness on organoids segmentation datasets, providing a potent tool for\norganoid research.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.03221v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.03221v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.03221v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.03221v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.01964": {
+      "title": "2D Gaussian Splatting with Semantic Alignment for Image Inpainting",
+      "authors": [
+        "Hongyu Li",
+        "Chaofeng Chen",
+        "Xiaoming Li",
+        "Guangming Lu"
+      ],
+      "published": "2025-09-02T05:12:52+00:00",
+      "updated": "2025-09-02T05:12:52+00:00",
+      "summary": "Gaussian Splatting (GS), a recent technique for converting discrete points\ninto continuous spatial representations, has shown promising results in 3D\nscene modeling and 2D image super-resolution. In this paper, we explore its\nuntapped potential for image inpainting, which demands both locally coherent\npixel synthesis and globally consistent semantic restoration. We propose the\nfirst image inpainting framework based on 2D Gaussian Splatting, which encodes\nincomplete images into a continuous field of 2D Gaussian splat coefficients and\nreconstructs the final image via a differentiable rasterization process. The\ncontinuous rendering paradigm of GS inherently promotes pixel-level coherence\nin the inpainted results. To improve efficiency and scalability, we introduce a\npatch-wise rasterization strategy that reduces memory overhead and accelerates\ninference. For global semantic consistency, we incorporate features from a\npretrained DINO model. We observe that DINO's global features are naturally\nrobust to small missing regions and can be effectively adapted to guide\nsemantic alignment in large-mask scenarios, ensuring that the inpainted content\nremains contextually consistent with the surrounding scene. Extensive\nexperiments on standard benchmarks demonstrate that our method achieves\ncompetitive performance in both quantitative metrics and perceptual quality,\nestablishing a new direction for applying Gaussian Splatting to 2D image\nprocessing.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.01964v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.01964v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.01964v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.01964v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.01681": {
+      "title": "GaussianGAN: Real-Time Photorealistic controllable Human Avatars",
+      "authors": [
+        "Mohamed Ilyes Lakhal",
+        "Richard Bowden"
+      ],
+      "published": "2025-09-01T18:01:34+00:00",
+      "updated": "2025-09-01T18:01:34+00:00",
+      "summary": "Photorealistic and controllable human avatars have gained popularity in the\nresearch community thanks to rapid advances in neural rendering, providing fast\nand realistic synthesis tools. However, a limitation of current solutions is\nthe presence of noticeable blurring. To solve this problem, we propose\nGaussianGAN, an animatable avatar approach developed for photorealistic\nrendering of people in real-time. We introduce a novel Gaussian splatting\ndensification strategy to build Gaussian points from the surface of cylindrical\nstructures around estimated skeletal limbs. Given the camera calibration, we\nrender an accurate semantic segmentation with our novel view segmentation\nmodule. Finally, a UNet generator uses the rendered Gaussian splatting features\nand the segmentation maps to create photorealistic digital avatars. Our method\nruns in real-time with a rendering speed of 79 FPS. It outperforms previous\nmethods regarding visual perception and quality, achieving a state-of-the-art\nresults in terms of a pixel fidelity of 32.94db on the ZJU Mocap dataset and\n33.39db on the Thuman4 dataset.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.01681v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "IEEE conference series on Automatic Face and Gesture Recognition 2025",
+      "entry_id": "http://arxiv.org/abs/2509.01681v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.01681v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.01681v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.01383": {
+      "title": "Enhancing Partially Relevant Video Retrieval with Robust Alignment Learning",
+      "authors": [
+        "Long Zhang",
+        "Peipei Song",
+        "Jianfeng Dong",
+        "Kun Li",
+        "Xun Yang"
+      ],
+      "published": "2025-09-01T11:30:43+00:00",
+      "updated": "2025-09-01T11:30:43+00:00",
+      "summary": "Partially Relevant Video Retrieval (PRVR) aims to retrieve untrimmed videos\npartially relevant to a given query. The core challenge lies in learning robust\nquery-video alignment against spurious semantic correlations arising from\ninherent data uncertainty: 1) query ambiguity, where the query incompletely\ncharacterizes the target video and often contains uninformative tokens, and 2)\npartial video relevance, where abundant query-irrelevant segments introduce\ncontextual noise in cross-modal alignment. Existing methods often focus on\nenhancing multi-scale clip representations and retrieving the most relevant\nclip. However, the inherent data uncertainty in PRVR renders them vulnerable to\ndistractor videos with spurious similarities, leading to suboptimal\nperformance. To fill this research gap, we propose Robust Alignment Learning\n(RAL) framework, which explicitly models the uncertainty in data. Key\ninnovations include: 1) we pioneer probabilistic modeling for PRVR by encoding\nvideos and queries as multivariate Gaussian distributions. This not only\nquantifies data uncertainty but also enables proxy-level matching to capture\nthe variability in cross-modal correspondences; 2) we consider the\nheterogeneous informativeness of query words and introduce learnable confidence\ngates to dynamically weight similarity. As a plug-and-play solution, RAL can be\nseamlessly integrated into the existing architectures. Extensive experiments\nacross diverse retrieval backbones demonstrate its effectiveness.",
+      "categories": [
+        "cs.CV",
+        "cs.MM"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.01383v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted at EMNLP 2025",
+      "entry_id": "http://arxiv.org/abs/2509.01383v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.01383v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.01383v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.01259": {
+      "title": "ReCap: Event-Aware Image Captioning with Article Retrieval and Semantic Gaussian Normalization",
+      "authors": [
+        "Thinh-Phuc Nguyen",
+        "Thanh-Hai Nguyen",
+        "Gia-Huy Dinh",
+        "Lam-Huy Nguyen",
+        "Minh-Triet Tran",
+        "Trung-Nghia Le"
+      ],
+      "published": "2025-09-01T08:48:33+00:00",
+      "updated": "2025-09-01T08:48:33+00:00",
+      "summary": "Image captioning systems often produce generic descriptions that fail to\ncapture event-level semantics which are crucial for applications like news\nreporting and digital archiving. We present ReCap, a novel pipeline for\nevent-enriched image retrieval and captioning that incorporates broader\ncontextual information from relevant articles to generate narrative-rich,\nfactually grounded captions. Our approach addresses the limitations of standard\nvision-language models that typically focus on visible content while missing\ntemporal, social, and historical contexts. ReCap comprises three integrated\ncomponents: (1) a robust two-stage article retrieval system using DINOv2\nembeddings with global feature similarity for initial candidate selection\nfollowed by patch-level mutual nearest neighbor similarity re-ranking; (2) a\ncontext extraction framework that synthesizes information from article\nsummaries, generic captions, and original source metadata; and (3) a large\nlanguage model-based caption generation system with Semantic Gaussian\nNormalization to enhance fluency and relevance. Evaluated on the OpenEvents V1\ndataset as part of Track 1 in the EVENTA 2025 Grand Challenge, ReCap achieved a\nstrong overall score of 0.54666, ranking 2nd on the private test set. These\nresults highlight ReCap's effectiveness in bridging visual perception with\nreal-world knowledge, offering a practical solution for context-aware image\nunderstanding in high-stakes domains. The code is available at\nhttps://github.com/Noridom1/EVENTA2025-Event-Enriched-Image-Captioning.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.01259v1",
+      "journal_ref": null,
+      "doi": "10.1145/3746027.3762039",
+      "comment": "ACM Multimedia 2025",
+      "entry_id": "http://arxiv.org/abs/2509.01259v1",
+      "links": [
+        {
+          "href": "http://dx.doi.org/10.1145/3746027.3762039",
+          "title": "doi",
+          "rel": "related",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/abs/2509.01259v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.01259v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.00800": {
+      "title": "SWAGSplatting: Semantic-guided Water-scene Augmented Gaussian Splatting",
+      "authors": [
+        "Zhuodong Jiang",
+        "Haoran Wang",
+        "Guoxi Huang",
+        "Brett Seymour",
+        "Nantheera Anantrasirichai"
+      ],
+      "published": "2025-08-31T11:20:02+00:00",
+      "updated": "2025-08-31T11:20:02+00:00",
+      "summary": "Accurate 3D reconstruction in underwater environments remains a complex\nchallenge due to issues such as light distortion, turbidity, and limited\nvisibility. AI-based techniques have been applied to address these issues,\nhowever, existing methods have yet to fully exploit the potential of AI,\nparticularly in integrating language models with visual processing. In this\npaper, we propose a novel framework that leverages multimodal cross-knowledge\nto create semantic-guided 3D Gaussian Splatting for robust and high-fidelity\ndeep-sea scene reconstruction. By embedding an extra semantic feature into each\nGaussian primitive and supervised by the CLIP extracted semantic feature, our\nmethod enforces semantic and structural awareness throughout the training. The\ndedicated semantic consistency loss ensures alignment with high-level scene\nunderstanding. Besides, we propose a novel stage-wise training strategy,\ncombining coarse-to-fine learning with late-stage parameter refinement, to\nfurther enhance both stability and reconstruction quality. Extensive results\nshow that our approach consistently outperforms state-of-the-art methods on\nSeaThru-NeRF and Submerged3D datasets across three metrics, with an improvement\nof up to 3.09 dB on average in terms of PSNR, making it a strong candidate for\napplications in underwater exploration and marine perception.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.00800v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Submitted to SIGGRAPH Asia 2025 Technical Communications",
+      "entry_id": "http://arxiv.org/abs/2509.00800v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.00800v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.00800v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.00757": {
+      "title": "MarkSplatter: Generalizable Watermarking for 3D Gaussian Splatting Model via Splatter Image Structure",
+      "authors": [
+        "Xiufeng Huang",
+        "Ziyuan Luo",
+        "Qi Song",
+        "Ruofei Wang",
+        "Renjie Wan"
+      ],
+      "published": "2025-08-31T09:12:06+00:00",
+      "updated": "2025-08-31T09:12:06+00:00",
+      "summary": "The growing popularity of 3D Gaussian Splatting (3DGS) has intensified the\nneed for effective copyright protection. Current 3DGS watermarking methods rely\non computationally expensive fine-tuning procedures for each predefined\nmessage. We propose the first generalizable watermarking framework that enables\nefficient protection of Splatter Image-based 3DGS models through a single\nforward pass. We introduce GaussianBridge that transforms unstructured 3D\nGaussians into Splatter Image format, enabling direct neural processing for\narbitrary message embedding. To ensure imperceptibility, we design a\nGaussian-Uncertainty-Perceptual heatmap prediction strategy for preserving\nvisual quality. For robust message recovery, we develop a dense\nsegmentation-based extraction mechanism that maintains reliable extraction even\nwhen watermarked objects occupy minimal regions in rendered views. Project\npage: https://kevinhuangxf.github.io/marksplatter.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.00757v1",
+      "journal_ref": null,
+      "doi": "10.1145/3746027.3758144",
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.00757v1",
+      "links": [
+        {
+          "href": "http://dx.doi.org/10.1145/3746027.3758144",
+          "title": "doi",
+          "rel": "related",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/abs/2509.00757v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.00757v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2508.21680": {
       "title": "Towards Interactive Lesion Segmentation in Whole-Body PET/CT with Promptable Models",
       "authors": [
@@ -416,6 +728,44 @@
         },
         {
           "href": "http://arxiv.org/pdf/2508.17382v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.00046": {
+      "title": "Exploring and Reshaping the Weight Distribution in LLM",
+      "authors": [
+        "Chunming Ye",
+        "Songzhou Li",
+        "Xu Xu"
+      ],
+      "published": "2025-08-24T10:27:14+00:00",
+      "updated": "2025-08-24T10:27:14+00:00",
+      "summary": "The performance of Large Language Models is influenced by their\ncharacteristics such as architecture, model sizes, decoding methods and so on.\nDue to differences in structure or function, the weights in different layers of\nlarge models have varying distributions. This paper explores the correlations\nbetween different types of layers in terms of weights distribution and studies\nthe potential impact of these correlations on LoRA training effectiveness.\nFirstly, the study reveals that in the model the cosine distances between\nweights of different layers manifest power-law distribution. We extract\nQuery-projection, down-projection and other weight matrices from the\nself-attention layers and MLP layers, calculate the singular values of the\nmatrices using singular value decomposition, and organize a certain number of\nsingular values into matrices according to projection's type. By analyzing the\nprobability distribution of the cosine distances between these matrices, it is\nfound that the cosine distances values between them have distinct power-law\ndistribution characteristics. Secondly, based on the results of distance\ncalculations and analysis across different layers of model, a qualitative\nmethod is proposed to describe the distribution characteristics of different\nmodels. Next, to construct weights that align with the distribution\ncharacteristics, a data generator is designed using a combination of Gaussian\nprocess and Pareto distribution functions. The generator is used to simulate\nthe generation of data that aligns with specific distribution characteristics.\nFinally, based on the aforementioned distribution characteristics and data\ngeneration method, the weights in LoRA initialization are reshaped for\ntraining. Experimental results indicate that, without altering the model\nstructure or training process, this method achieves a certain improvement in\nthe performance of LoRA training.",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "68T50",
+        "I.2.7"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "http://arxiv.org/pdf/2509.00046v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "19 pages,16 figures",
+      "entry_id": "http://arxiv.org/abs/2509.00046v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.00046v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.00046v1",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -57170,6 +57520,43 @@
     }
   },
   "MVS": {
+    "2509.01469": {
+      "title": "Im2Haircut: Single-view Strand-based Hair Reconstruction for Human Avatars",
+      "authors": [
+        "Vanessa Sklyarova",
+        "Egor Zakharov",
+        "Malte Prinzler",
+        "Giorgio Becherini",
+        "Michael J. Black",
+        "Justus Thies"
+      ],
+      "published": "2025-09-01T13:38:08+00:00",
+      "updated": "2025-09-01T13:38:08+00:00",
+      "summary": "We present a novel approach for 3D hair reconstruction from single\nphotographs based on a global hair prior combined with local optimization.\nCapturing strand-based hair geometry from single photographs is challenging due\nto the variety and geometric complexity of hairstyles and the lack of ground\ntruth training data. Classical reconstruction methods like multi-view stereo\nonly reconstruct the visible hair strands, missing the inner structure of\nhairstyles and hampering realistic hair simulation. To address this, existing\nmethods leverage hairstyle priors trained on synthetic data. Such data,\nhowever, is limited in both quantity and quality since it requires manual work\nfrom skilled artists to model the 3D hairstyles and create near-photorealistic\nrenderings. To address this, we propose a novel approach that uses both, real\nand synthetic data to learn an effective hairstyle prior. Specifically, we\ntrain a transformer-based prior model on synthetic data to obtain knowledge of\nthe internal hairstyle geometry and introduce real data in the learning process\nto model the outer structure. This training scheme is able to model the visible\nhair strands depicted in an input image, while preserving the general 3D\nstructure of hairstyles. We exploit this prior to create a\nGaussian-splatting-based reconstruction method that creates hairstyles from one\nor more images. Qualitative and quantitative comparisons with existing\nreconstruction pipelines demonstrate the effectiveness and superior performance\nof our method for capturing detailed hair orientation, overall silhouette, and\nbackside consistency. For additional results and code, please refer to\nhttps://im2haircut.is.tue.mpg.de.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.01469v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "For more results please refer to the project page\n  https://im2haircut.is.tue.mpg.de",
+      "entry_id": "http://arxiv.org/abs/2509.01469v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.01469v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.01469v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2508.21060": {
       "title": "Multi-View 3D Point Tracking",
       "authors": [
@@ -71384,6 +71771,180 @@
     }
   },
   "Depth Estimation": {
+    "2509.03012": {
+      "title": "Uncertainty-aware Test-Time Training (UT$^3$) for Efficient On-the-fly Domain Adaptive Dense Regression",
+      "authors": [
+        "Uddeshya Upadhyay"
+      ],
+      "published": "2025-09-03T04:41:43+00:00",
+      "updated": "2025-09-03T04:41:43+00:00",
+      "summary": "Deep neural networks (DNNs) are increasingly being used in autonomous\nsystems. However, DNNs do not generalize well to domain shift. Adapting to a\ncontinuously evolving environment is a safety-critical challenge inevitably\nfaced by all autonomous systems deployed to the real world. Recent work on\ntest-time training proposes methods that adapt to a new test distribution on\nthe fly by optimizing the DNN model for each test input using self-supervision.\nHowever, these techniques result in a sharp increase in inference time as\nmultiple forward and backward passes are required for a single test sample (for\ntest-time training) before finally making the prediction based on the\nfine-tuned features. This is undesirable for real-world robotics applications\nwhere these models may be deployed to resource constraint hardware with strong\nlatency requirements. In this work, we propose a new framework (called UT$^3$)\nthat leverages test-time training for improved performance in the presence of\ncontinuous domain shift while also decreasing the inference time, making it\nsuitable for real-world applications. Our method proposes an uncertainty-aware\nself-supervision task for efficient test-time training that leverages the\nquantified uncertainty to selectively apply the training leading to sharp\nimprovements in the inference time while performing comparably to standard\ntest-time training protocol. Our proposed protocol offers a continuous setting\nto identify the selected keyframes, allowing the end-user to control how often\nto apply test-time training. We demonstrate the efficacy of our method on a\ndense regression task - monocular depth estimation.",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "http://arxiv.org/pdf/2509.03012v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.03012v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.03012v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.03012v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2509.02983": {
+      "title": "DUViN: Diffusion-Based Underwater Visual Navigation via Knowledge-Transferred Depth Features",
+      "authors": [
+        "Jinghe Yang",
+        "Minh-Quan Le",
+        "Mingming Gong",
+        "Ye Pu"
+      ],
+      "published": "2025-09-03T03:43:12+00:00",
+      "updated": "2025-09-03T03:43:12+00:00",
+      "summary": "Autonomous underwater navigation remains a challenging problem due to limited\nsensing capabilities and the difficulty of constructing accurate maps in\nunderwater environments. In this paper, we propose a Diffusion-based Underwater\nVisual Navigation policy via knowledge-transferred depth features, named DUViN,\nwhich enables vision-based end-to-end 4-DoF motion control for underwater\nvehicles in unknown environments. DUViN guides the vehicle to avoid obstacles\nand maintain a safe and perception awareness altitude relative to the terrain\nwithout relying on pre-built maps. To address the difficulty of collecting\nlarge-scale underwater navigation datasets, we propose a method that ensures\nrobust generalization under domain shifts from in-air to underwater\nenvironments by leveraging depth features and introducing a novel model\ntransfer strategy. Specifically, our training framework consists of two phases:\nwe first train the diffusion-based visual navigation policy on in-air datasets\nusing a pre-trained depth feature extractor. Secondly, we retrain the extractor\non an underwater depth estimation task and integrate the adapted extractor into\nthe trained navigation policy from the first step. Experiments in both\nsimulated and real-world underwater environments demonstrate the effectiveness\nand generalization of our approach. The experimental videos are available at\nhttps://www.youtube.com/playlist?list=PLqt2s-RyCf1gfXJgFzKjmwIqYhrP4I-7Y.",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "http://arxiv.org/pdf/2509.02983v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.02983v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.02983v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.02983v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2509.01873": {
+      "title": "Doctoral Thesis: Geometric Deep Learning For Camera Pose Prediction, Registration, Depth Estimation, and 3D Reconstruction",
+      "authors": [
+        "Xueyang Kang"
+      ],
+      "published": "2025-09-02T01:35:44+00:00",
+      "updated": "2025-09-02T01:35:44+00:00",
+      "summary": "Modern deep learning developments create new opportunities for 3D mapping\ntechnology, scene reconstruction pipelines, and virtual reality development.\nDespite advances in 3D deep learning technology, direct training of deep\nlearning models on 3D data faces challenges due to the high dimensionality\ninherent in 3D data and the scarcity of labeled datasets. Structure-from-motion\n(SfM) and Simultaneous Localization and Mapping (SLAM) exhibit robust\nperformance when applied to structured indoor environments but often struggle\nwith ambiguous features in unstructured environments. These techniques often\nstruggle to generate detailed geometric representations effective for\ndownstream tasks such as rendering and semantic analysis. Current limitations\nrequire the development of 3D representation methods that combine traditional\ngeometric techniques with deep learning capabilities to generate robust\ngeometry-aware deep learning models.\n  The dissertation provides solutions to the fundamental challenges in 3D\nvision by developing geometric deep learning methods tailored for essential\ntasks such as camera pose estimation, point cloud registration, depth\nprediction, and 3D reconstruction. The integration of geometric priors or\nconstraints, such as including depth information, surface normals, and\nequivariance into deep learning models, enhances both the accuracy and\nrobustness of geometric representations. This study systematically investigates\nkey components of 3D vision, including camera pose estimation, point cloud\nregistration, depth estimation, and high-fidelity 3D reconstruction,\ndemonstrating their effectiveness across real-world applications such as\ndigital cultural heritage preservation and immersive VR/AR environments.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.01873v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "175 pages, 66 figures",
+      "entry_id": "http://arxiv.org/abs/2509.01873v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.01873v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.01873v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2509.01206": {
+      "title": "Generalizable Self-supervised Monocular Depth Estimation with Mixture of Low-Rank Experts for Diverse Endoscopic Scenes",
+      "authors": [
+        "Liangjing Shao",
+        "Benshuang Chen",
+        "Chenkang Du",
+        "Xueli Liu",
+        "Xinrong Chen"
+      ],
+      "published": "2025-09-01T07:45:12+00:00",
+      "updated": "2025-09-01T07:45:12+00:00",
+      "summary": "Self-supervised monocular depth estimation is a significant task for low-cost\nand efficient three-dimensional scene perception in endoscopy. The variety of\nillumination conditions and scene features is still the primary challenge for\ngeneralizable depth estimation in endoscopic scenes. In this work, a\nself-supervised framework is proposed for monocular depth estimation in various\nendoscopy. Firstly, due to various features in endoscopic scenes with different\ntissues, a novel block-wise mixture of dynamic low-rank experts is proposed to\nefficiently finetuning the foundation model for endoscopic depth estimation. In\nthe proposed module, based on the input feature, different experts with a small\namount of trainable parameters are adaptively selected for weighted inference,\nfrom various mixture of low-rank experts which are allocated based on the\ntraining quality of each block. Moreover, a novel self-supervised training\nframework is proposed to jointly cope with the inconsistency of brightness and\nreflectance. The proposed method outperform state-of-the-art works on both\nrealistic and simulated endoscopic datasets. Furthermore, the proposed network\nalso achieves the best generalization based on zero-shot depth estimation on\ndiverse endoscopic scenes. The proposed method could contribute to accurate\nendoscopic perception for minimally invasive measurement and surgery. The code\nwill be released upon acceptance, while the demo video can be found on here:\nhttps://endo-gede.netlify.app/.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.01206v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "20 pages, 11 figures, Under Review",
+      "entry_id": "http://arxiv.org/abs/2509.01206v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.01206v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.01206v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2509.00665": {
+      "title": "ER-LoRA: Effective-Rank Guided Adaptation for Weather-Generalized Depth Estimation",
+      "authors": [
+        "Weilong Yan",
+        "Xin Zhang",
+        "Robby T. Tan"
+      ],
+      "published": "2025-08-31T02:24:00+00:00",
+      "updated": "2025-08-31T02:24:00+00:00",
+      "summary": "Monocular depth estimation under adverse weather conditions (e.g.\\ rain, fog,\nsnow, and nighttime) remains highly challenging due to the lack of reliable\nground truth and the difficulty of learning from unlabeled real-world data.\nExisting methods often rely on synthetic adverse data with pseudo-labels, which\nsuffer from domain gaps, or employ self-supervised learning, which violates\nphotometric assumptions in adverse scenarios. In this work, we propose to\nachieve weather-generalized depth estimation by Parameter-Efficient Fine-Tuning\n(PEFT) of Vision Foundation Models (VFMs), using only a small amount of\nhigh-visibility (normal) data. While PEFT has shown strong performance in\nsemantic tasks such as segmentation, it remains underexplored for geometry --\ncentric tasks like depth estimation -- especially in terms of balancing\neffective adaptation with the preservation of pretrained knowledge. To this\nend, we introduce the Selecting-Tuning-Maintaining (STM) strategy, which\nstructurally decomposes the pretrained weights of VFMs based on two kinds of\neffective ranks (entropy-rank and stable-rank). In the tuning phase, we\nadaptively select the proper rank number as well as the task-aware singular\ndirections for initialization, based on the entropy-rank and full-tuned weight;\nwhile in the maintaining stage, we enforce a principal direction regularization\nbased on the stable-rank. This design guarantees flexible task adaptation while\npreserving the strong generalization capability of the pretrained VFM.\nExtensive experiments on four real-world benchmarks across diverse weather\nconditions demonstrate that STM not only outperforms existing PEFT methods and\nfull fine-tuning but also surpasses methods trained with adverse synthetic\ndata, and even the depth foundation model",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.00665v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.00665v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.00665v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.00665v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2508.20530": {
       "title": "Enhancing Pseudo-Boxes via Data-Level LiDAR-Camera Fusion for Unsupervised 3D Object Detection",
       "authors": [

@@ -1,4 +1,4 @@
-## Updated at 2025-09-04 08:16:00
+## Updated at 2025-09-05 08:17:40
 
 ## 3DGS Semantic
 
@@ -144,6 +144,7 @@ Query: (abs:'Multi-View Stereo' OR abs:'Multi View Stereo' OR abs:'Multi-View De
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-09-01**|**[Im2Haircut: Single-view Strand-based Hair Reconstruction for Human Avatars](https://arxiv.org/abs/2509.01469)**|N/A|For more results please refer to the project page https://im2haircut.is.tue.mpg.de|cs.CV|None|Vanessa Sklyarova et al.|
 |**2025-08-28**|**[Multi-View 3D Point Tracking](https://arxiv.org/abs/2508.21060)**|N/A|ICCV 2025, Oral. Project page: https://ethz-vlg.github.io/mvtracker|cs.CV|None|Frano Rajič et al.|
 |**2025-08-27**|**[OpenM3D: Open Vocabulary Multi-view Indoor 3D Object Detection without Human Annotations](https://arxiv.org/abs/2508.20063)**|N/A|ICCV2025|cs.CV|None|Peng-Hao Hsu et al.|
 |**2025-08-22**|**[HAMSt3R: Human-Aware Multi-view Stereo 3D Reconstruction](https://arxiv.org/abs/2508.16433)**|N/A|None|cs.CV|None|Sara Rojas et al.|
@@ -534,6 +535,11 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-09-03**|**[Uncertainty-aware Test-Time Training (UT$^3$) for Efficient On-the-fly Domain Adaptive Dense Regression](https://arxiv.org/abs/2509.03012)**|N/A|None|cs.RO|None|Uddeshya Upadhyay|
+|**2025-09-03**|**[DUViN: Diffusion-Based Underwater Visual Navigation via Knowledge-Transferred Depth Features](https://arxiv.org/abs/2509.02983)**|N/A|None|cs.RO|None|Jinghe Yang et al.|
+|**2025-09-02**|**[Doctoral Thesis: Geometric Deep Learning For Camera Pose Prediction, Registration, Depth Estimation, and 3D Reconstruction](https://arxiv.org/abs/2509.01873)**|N/A|175 pages, 66 figures|cs.CV|None|Xueyang Kang|
+|**2025-09-01**|**[Generalizable Self-supervised Monocular Depth Estimation with Mixture of Low-Rank Experts for Diverse Endoscopic Scenes](https://arxiv.org/abs/2509.01206)**|N/A|20 pages, 11 figures, Under Review|cs.CV|None|Liangjing Shao et al.|
+|**2025-08-31**|**[ER-LoRA: Effective-Rank Guided Adaptation for Weather-Generalized Depth Estimation](https://arxiv.org/abs/2509.00665)**|N/A|None|cs.CV|None|Weilong Yan et al.|
 |**2025-08-28**|**[Enhancing Pseudo-Boxes via Data-Level LiDAR-Camera Fusion for Unsupervised 3D Object Detection](https://arxiv.org/abs/2508.20530)**|N/A|Accepted by ACM MM 2025|cs.CV|None|Mingqian Ji et al.|
 |**2025-08-27**|**[OpenM3D: Open Vocabulary Multi-view Indoor 3D Object Detection without Human Annotations](https://arxiv.org/abs/2508.20063)**|N/A|ICCV2025|cs.CV|None|Peng-Hao Hsu et al.|
 |**2025-08-26**|**[SoccerNet 2025 Challenges Results](https://arxiv.org/abs/2508.19182)**|N/A|None|cs.CV|None|Silvio Giancola et al.|
