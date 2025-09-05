@@ -1,5 +1,45 @@
 {
   "3DGS Semantic": {
+    "2509.04379": {
+      "title": "SSGaussian: Semantic-Aware and Structure-Preserving 3D Style Transfer",
+      "authors": [
+        "Jimin Xu",
+        "Bosheng Qin",
+        "Tao Jin",
+        "Zhou Zhao",
+        "Zhenhui Ye",
+        "Jun Yu",
+        "Fei Wu"
+      ],
+      "published": "2025-09-04T16:40:44+00:00",
+      "updated": "2025-09-04T16:40:44+00:00",
+      "summary": "Recent advancements in neural representations, such as Neural Radiance Fields\nand 3D Gaussian Splatting, have increased interest in applying style transfer\nto 3D scenes. While existing methods can transfer style patterns onto\n3D-consistent neural representations, they struggle to effectively extract and\ntransfer high-level style semantics from the reference style image.\nAdditionally, the stylized results often lack structural clarity and\nseparation, making it difficult to distinguish between different instances or\nobjects within the 3D scene. To address these limitations, we propose a novel\n3D style transfer pipeline that effectively integrates prior knowledge from\npretrained 2D diffusion models. Our pipeline consists of two key stages: First,\nwe leverage diffusion priors to generate stylized renderings of key viewpoints.\nThen, we transfer the stylized key views onto the 3D representation. This\nprocess incorporates two innovative designs. The first is cross-view style\nalignment, which inserts cross-view attention into the last upsampling block of\nthe UNet, allowing feature interactions across multiple key views. This ensures\nthat the diffusion model generates stylized key views that maintain both style\nfidelity and instance-level consistency. The second is instance-level style\ntransfer, which effectively leverages instance-level consistency across\nstylized key views and transfers it onto the 3D representation. This results in\na more structured, visually coherent, and artistically enriched stylization.\nExtensive qualitative and quantitative experiments demonstrate that our 3D\nstyle transfer pipeline significantly outperforms state-of-the-art methods\nacross a wide range of scenes, from forward-facing to challenging 360-degree\nenvironments. Visit our project page https://jm-xu.github.io/SSGaussian for\nimmersive visualization.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.04379v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.04379v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.04379v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.04379v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2509.03433": {
       "title": "Decoding Visual Neural Representations by Multimodal with Dynamic Balancing",
       "authors": [
