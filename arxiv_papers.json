@@ -57724,26 +57724,26 @@
         "Soohwan Song"
       ],
       "published": "2025-08-19T17:25:12+00:00",
-      "updated": "2025-08-19T17:25:12+00:00",
+      "updated": "2025-09-05T01:14:16+00:00",
       "summary": "This study addresses the challenge of generating online 3D Gaussian Splatting\n(3DGS) models from RGB-only frames. Previous studies have employed dense SLAM\ntechniques to estimate 3D scenes from keyframes for 3DGS model construction.\nHowever, these methods are limited by their reliance solely on keyframes, which\nare insufficient to capture an entire scene, resulting in incomplete\nreconstructions. Moreover, building a generalizable model requires\nincorporating frames from diverse viewpoints to achieve broader scene coverage.\nHowever, online processing restricts the use of many frames or extensive\ntraining iterations. Therefore, we propose a novel method for high-quality 3DGS\nmodeling that improves model completeness through adaptive view selection. By\nanalyzing reconstruction quality online, our approach selects optimal\nnon-keyframes for additional training. By integrating both keyframes and\nselected non-keyframes, the method refines incomplete regions from diverse\nviewpoints, significantly enhancing completeness. We also present a framework\nthat incorporates an online multi-view stereo approach, ensuring consistency in\n3D information throughout the 3DGS modeling process. Experimental results\ndemonstrate that our method outperforms state-of-the-art methods, delivering\nexceptional performance in complex outdoor scenes.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "http://arxiv.org/pdf/2508.14014v1",
+      "pdf_url": "http://arxiv.org/pdf/2508.14014v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2508.14014v1",
+      "entry_id": "http://arxiv.org/abs/2508.14014v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2508.14014v1",
+          "href": "http://arxiv.org/abs/2508.14014v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2508.14014v1",
+          "href": "http://arxiv.org/pdf/2508.14014v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
