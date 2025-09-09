@@ -1,4 +1,4 @@
-## Updated at 2025-09-08 08:17:39
+## Updated at 2025-09-09 08:17:22
 
 ## 3DGS Semantic
 
@@ -535,6 +535,7 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-09-05**|**[FloodVision: Urban Flood Depth Estimation Using Foundation Vision-Language Models and Domain Knowledge Graph](https://arxiv.org/abs/2509.04772)**|N/A|None|cs.CV|None|Zhangding Liu et al.|
 |**2025-09-03**|**[Uncertainty-aware Test-Time Training (UT$^3$) for Efficient On-the-fly Domain Adaptive Dense Regression](https://arxiv.org/abs/2509.03012)**|N/A|None|cs.RO|None|Uddeshya Upadhyay|
 |**2025-09-03**|**[DUViN: Diffusion-Based Underwater Visual Navigation via Knowledge-Transferred Depth Features](https://arxiv.org/abs/2509.02983)**|N/A|None|cs.RO|None|Jinghe Yang et al.|
 |**2025-09-02**|**[Doctoral Thesis: Geometric Deep Learning For Camera Pose Prediction, Registration, Depth Estimation, and 3D Reconstruction](https://arxiv.org/abs/2509.01873)**|N/A|175 pages, 66 figures|cs.CV|None|Xueyang Kang|

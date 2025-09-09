@@ -1,5 +1,119 @@
 {
   "3DGS Semantic": {
+    "2509.04859": {
+      "title": "CoRe-GS: Coarse-to-Refined Gaussian Splatting with Semantic Object Focus",
+      "authors": [
+        "Hannah Schieber",
+        "Dominik Frischmann",
+        "Simon Boche",
+        "Victor Schaack",
+        "Angela Schoellig",
+        "Stefan Leutenegger",
+        "Daniel Roth"
+      ],
+      "published": "2025-09-05T07:21:26+00:00",
+      "updated": "2025-09-05T07:21:26+00:00",
+      "summary": "Mobile reconstruction for autonomous aerial robotics holds strong potential\nfor critical applications such as tele-guidance and disaster response. These\ntasks demand both accurate 3D reconstruction and fast scene processing. Instead\nof reconstructing the entire scene in detail, it is often more efficient to\nfocus on specific objects, i.e., points of interest (PoIs). Mobile robots\nequipped with advanced sensing can usually detect these early during data\nacquisition or preliminary analysis, reducing the need for full-scene\noptimization. Gaussian Splatting (GS) has recently shown promise in delivering\nhigh-quality novel view synthesis and 3D representation by an incremental\nlearning process. Extending GS with scene editing, semantics adds useful\nper-splat features to isolate objects effectively.\n  Semantic 3D Gaussian editing can already be achieved before the full training\ncycle is completed, reducing the overall training time. Moreover, the\nsemantically relevant area, the PoI, is usually already known during capturing.\nTo balance high-quality reconstruction with reduced training time, we propose\nCoRe-GS. We first generate a coarse segmentation-ready scene with semantic GS\nand then refine it for the semantic object using our novel color-based\neffective filtering for effective object isolation. This is speeding up the\ntraining process to be about a quarter less than a full training cycle for\nsemantic GS. We evaluate our approach on two datasets, SCRREAM (real-world,\noutdoor) and NeRDS 360 (synthetic, indoor), showing reduced runtime and higher\nnovel-view-synthesis quality.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.04859v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.04859v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.04859v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.04859v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.04787": {
+      "title": "SREC: Encrypted Semantic Super-Resolution Enhanced Communication",
+      "authors": [
+        "Zhidi Zhang",
+        "Rui Meng",
+        "Song Gao",
+        "Haixiao Gao",
+        "Xiaodong Xu"
+      ],
+      "published": "2025-09-05T03:54:15+00:00",
+      "updated": "2025-09-05T03:54:15+00:00",
+      "summary": "Semantic communication (SemCom), as a typical paradigm of deep integration\nbetween artificial intelligence (AI) and communication technology,\nsignificantly improves communication efficiency and resource utilization\nefficiency. However, the security issues of SemCom are becoming increasingly\nprominent. Semantic features transmitted in plaintext over physical channels\nare easily intercepted by eavesdroppers. To address this issue, this paper\nproposes Encrypted Semantic Super-Resolution Enhanced Communication (SREC) to\nsecure SemCom. SREC uses the modulo-256 encryption method to encrypt semantic\nfeatures, and employs super-resolution reconstruction method to improve the\nreconstruction quality of images. The simulation results show that in the\nadditive Gaussian white noise (AWGN) channel, when different modulation methods\nare used, SREC can not only stably guarantee security, but also achieve better\ntransmission performance under low signal-to-noise ratio (SNR) conditions.",
+      "categories": [
+        "eess.SP"
+      ],
+      "primary_category": "eess.SP",
+      "pdf_url": "http://arxiv.org/pdf/2509.04787v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "7 pages, 6 figures, conference",
+      "entry_id": "http://arxiv.org/abs/2509.04787v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.04787v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.04787v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.04694": {
+      "title": "Unified Representation Learning for Multi-Intent Diversity and Behavioral Uncertainty in Recommender Systems",
+      "authors": [
+        "Wei Xu",
+        "Jiasen Zheng",
+        "Junjiang Lin",
+        "Mingxuan Han",
+        "Junliang Du"
+      ],
+      "published": "2025-09-04T22:53:38+00:00",
+      "updated": "2025-09-04T22:53:38+00:00",
+      "summary": "This paper addresses the challenge of jointly modeling user intent diversity\nand behavioral uncertainty in recommender systems. A unified representation\nlearning framework is proposed. The framework builds a multi-intent\nrepresentation module and an uncertainty modeling mechanism. It extracts\nmulti-granularity interest structures from user behavior sequences. Behavioral\nambiguity and preference fluctuation are captured using Bayesian distribution\nmodeling. In the multi-intent modeling part, the model introduces multiple\nlatent intent vectors. These vectors are weighted and fused using an attention\nmechanism to generate semantically rich representations of long-term user\npreferences. In the uncertainty modeling part, the model learns the mean and\ncovariance of behavior representations through Gaussian distributions. This\nreflects the user's confidence in different behavioral contexts. Next, a\nlearnable fusion strategy is used to combine long-term intent and short-term\nbehavior signals. This produces the final user representation, improving both\nrecommendation accuracy and robustness. The method is evaluated on standard\npublic datasets. Experimental results show that it outperforms existing\nrepresentative models across multiple metrics. It also demonstrates greater\nstability and adaptability under cold-start and behavioral disturbance\nscenarios. The approach alleviates modeling bottlenecks faced by traditional\nmethods when dealing with complex user behavior. These findings confirm the\neffectiveness and practical value of the unified modeling strategy in\nreal-world recommendation tasks.",
+      "categories": [
+        "cs.IR",
+        "cs.LG"
+      ],
+      "primary_category": "cs.IR",
+      "pdf_url": "http://arxiv.org/pdf/2509.04694v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.04694v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.04694v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.04694v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2509.04379": {
       "title": "SSGaussian: Semantic-Aware and Structure-Preserving 3D Style Transfer",
       "authors": [
@@ -71811,6 +71925,41 @@
     }
   },
   "Depth Estimation": {
+    "2509.04772": {
+      "title": "FloodVision: Urban Flood Depth Estimation Using Foundation Vision-Language Models and Domain Knowledge Graph",
+      "authors": [
+        "Zhangding Liu",
+        "Neda Mohammadi",
+        "John E. Taylor"
+      ],
+      "published": "2025-09-05T03:05:18+00:00",
+      "updated": "2025-09-05T03:05:18+00:00",
+      "summary": "Timely and accurate floodwater depth estimation is critical for road\naccessibility and emergency response. While recent computer vision methods have\nenabled flood detection, they suffer from both accuracy limitations and poor\ngeneralization due to dependence on fixed object detectors and task-specific\ntraining. To enable accurate depth estimation that can generalize across\ndiverse flood scenarios, this paper presents FloodVision, a zero-shot framework\nthat combines the semantic reasoning abilities of the foundation\nvision-language model GPT-4o with a structured domain knowledge graph. The\nknowledge graph encodes canonical real-world dimensions for common urban\nobjects including vehicles, people, and infrastructure elements to ground the\nmodel's reasoning in physical reality. FloodVision dynamically identifies\nvisible reference objects in RGB images, retrieves verified heights from the\nknowledge graph to mitigate hallucination, estimates submergence ratios, and\napplies statistical outlier filtering to compute final depth values. Evaluated\non 110 crowdsourced images from MyCoast New York, FloodVision achieves a mean\nabsolute error of 8.17 cm, reducing the GPT-4o baseline 10.28 cm by 20.5% and\nsurpassing prior CNN-based methods. The system generalizes well across varying\nscenes and operates in near real-time, making it suitable for future\nintegration into digital twin platforms and citizen-reporting apps for smart\ncity flood resilience.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.04772v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.04772v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.04772v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.04772v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2509.03012": {
       "title": "Uncertainty-aware Test-Time Training (UT$^3$) for Efficient On-the-fly Domain Adaptive Dense Regression",
       "authors": [
