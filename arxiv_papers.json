@@ -1,5 +1,243 @@
 {
   "3DGS Semantic": {
+    "2509.06685": {
+      "title": "VIM-GS: Visual-Inertial Monocular Gaussian Splatting via Object-level Guidance in Large Scenes",
+      "authors": [
+        "Shengkai Zhang",
+        "Yuhe Liu",
+        "Guanjun Wu",
+        "Jianhua He",
+        "Xinggang Wang",
+        "Mozi Chen",
+        "Kezhong Liu"
+      ],
+      "published": "2025-09-08T13:41:10+00:00",
+      "updated": "2025-09-08T13:41:10+00:00",
+      "summary": "VIM-GS is a Gaussian Splatting (GS) framework using monocular images for\nnovel-view synthesis (NVS) in large scenes. GS typically requires accurate\ndepth to initiate Gaussian ellipsoids using RGB-D/stereo cameras. Their limited\ndepth sensing range makes it difficult for GS to work in large scenes.\nMonocular images, however, lack depth to guide the learning and lead to\ninferior NVS results. Although large foundation models (LFMs) for monocular\ndepth estimation are available, they suffer from cross-frame inconsistency,\ninaccuracy for distant scenes, and ambiguity in deceptive texture cues. This\npaper aims to generate dense, accurate depth images from monocular RGB inputs\nfor high-definite GS rendering. The key idea is to leverage the accurate but\nsparse depth from visual-inertial Structure-from-Motion (SfM) to refine the\ndense but coarse depth from LFMs. To bridge the sparse input and dense output,\nwe propose an object-segmented depth propagation algorithm that renders the\ndepth of pixels of structured objects. Then we develop a dynamic depth\nrefinement module to handle the crippled SfM depth of dynamic objects and\nrefine the coarse LFM depth. Experiments using public and customized datasets\ndemonstrate the superior rendering quality of VIM-GS in large scenes.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.06685v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.06685v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.06685v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.06685v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.06553": {
+      "title": "Impact of Labeling Inaccuracy and Image Noise on Tooth Segmentation in Panoramic Radiographs using Federated, Centralized and Local Learning",
+      "authors": [
+        "Johan Andreas Balle Rubak",
+        "Khuram Naveed",
+        "Sanyam Jain",
+        "Lukas Esterle",
+        "Alexandros Iosifidis",
+        "Ruben Pauwels"
+      ],
+      "published": "2025-09-08T11:07:47+00:00",
+      "updated": "2025-09-08T11:07:47+00:00",
+      "summary": "Objectives: Federated learning (FL) may mitigate privacy constraints,\nheterogeneous data quality, and inconsistent labeling in dental diagnostic AI.\nWe compared FL with centralized (CL) and local learning (LL) for tooth\nsegmentation in panoramic radiographs across multiple data corruption\nscenarios. Methods: An Attention U-Net was trained on 2066 radiographs from six\ninstitutions across four settings: baseline (unaltered data); label\nmanipulation (dilated/missing annotations); image-quality manipulation\n(additive Gaussian noise); and exclusion of a faulty client with corrupted\ndata. FL was implemented via the Flower AI framework. Per-client training- and\nvalidation-loss trajectories were monitored for anomaly detection and a set of\nmetrics (Dice, IoU, HD, HD95 and ASSD) was evaluated on a hold-out test set.\nFrom these metrics significance results were reported through Wilcoxon\nsigned-rank test. CL and LL served as comparators. Results: Baseline: FL\nachieved a median Dice of 0.94889 (ASSD: 1.33229), slightly better than CL at\n0.94706 (ASSD: 1.37074) and LL at 0.93557-0.94026 (ASSD: 1.51910-1.69777).\nLabel manipulation: FL maintained the best median Dice score at 0.94884 (ASSD:\n1.46487) versus CL's 0.94183 (ASSD: 1.75738) and LL's 0.93003-0.94026 (ASSD:\n1.51910-2.11462). Image noise: FL led with Dice at 0.94853 (ASSD: 1.31088); CL\nscored 0.94787 (ASSD: 1.36131); LL ranged from 0.93179-0.94026 (ASSD:\n1.51910-1.77350). Faulty-client exclusion: FL reached Dice at 0.94790 (ASSD:\n1.33113) better than CL's 0.94550 (ASSD: 1.39318). Loss-curve monitoring\nreliably flagged the corrupted site. Conclusions: FL matches or exceeds CL and\noutperforms LL across corruption scenarios while preserving privacy. Per-client\nloss trajectories provide an effective anomaly-detection mechanism and support\nFL as a practical, privacy-preserving approach for scalable clinical AI\ndeployment.",
+      "categories": [
+        "eess.IV",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "primary_category": "eess.IV",
+      "pdf_url": "http://arxiv.org/pdf/2509.06553v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.06553v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.06553v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.06553v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.06264": {
+      "title": "PLRV-O: Advancing Differentially Private Deep Learning via Privacy Loss Random Variable Optimization",
+      "authors": [
+        "Qin Yang",
+        "Nicholas Stout",
+        "Meisam Mohammady",
+        "Han Wang",
+        "Ayesha Samreen",
+        "Christopher J Quinn",
+        "Yan Yan",
+        "Ashish Kundu",
+        "Yuan Hong"
+      ],
+      "published": "2025-09-08T01:06:45+00:00",
+      "updated": "2025-09-08T01:06:45+00:00",
+      "summary": "Differentially Private Stochastic Gradient Descent (DP-SGD) is a standard\nmethod for enforcing privacy in deep learning, typically using the Gaussian\nmechanism to perturb gradient updates. However, conventional mechanisms such as\nGaussian and Laplacian noise are parameterized only by variance or scale. This\nsingle degree of freedom ties the magnitude of noise directly to both privacy\nloss and utility degradation, preventing independent control of these two\nfactors. The problem becomes more pronounced when the number of composition\nrounds T and batch size B vary across tasks, as these variations induce\ntask-dependent shifts in the privacy-utility trade-off, where small changes in\nnoise parameters can disproportionately affect model accuracy. To address this\nlimitation, we introduce PLRV-O, a framework that defines a broad search space\nof parameterized DP-SGD noise distributions, where privacy loss moments are\ntightly characterized yet can be optimized more independently with respect to\nutility loss. This formulation enables systematic adaptation of noise to\ntask-specific requirements, including (i) model size, (ii) training duration,\n(iii) batch sampling strategies, and (iv) clipping thresholds under both\ntraining and fine-tuning settings. Empirical results demonstrate that PLRV-O\nsubstantially improves utility under strict privacy constraints. On CIFAR-10, a\nfine-tuned ViT achieves 94.03% accuracy at epsilon approximately 0.5, compared\nto 83.93% with Gaussian noise. On SST-2, RoBERTa-large reaches 92.20% accuracy\nat epsilon approximately 0.2, versus 50.25% with Gaussian.",
+      "categories": [
+        "cs.CR",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CR",
+      "pdf_url": "http://arxiv.org/pdf/2509.06264v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Source code is available at https://github.com/datasec-lab/plrvo.\n  This is the full version of the paper to appear in CCS'25",
+      "entry_id": "http://arxiv.org/abs/2509.06264v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.06264v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.06264v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.05852": {
+      "title": "Fisher Random Walk: Automatic Debiasing Contextual Preference Inference for Large Language Model Evaluation",
+      "authors": [
+        "Yichi Zhang",
+        "Alexander Belloni",
+        "Ethan X. Fang",
+        "Junwei Lu",
+        "Xiaoan Xu"
+      ],
+      "published": "2025-09-06T22:29:17+00:00",
+      "updated": "2025-09-06T22:29:17+00:00",
+      "summary": "Motivated by the need for rigorous and scalable evaluation of large language\nmodels, we study contextual preference inference for pairwise comparison\nfunctionals of context-dependent preference score functions across domains.\nFocusing on the contextual Bradley-Terry-Luce model, we develop a\nsemiparametric efficient estimator that automates the debiased estimation\nthrough aggregating weighted residual balancing terms across the comparison\ngraph. We show that the efficiency is achieved when the weights are derived\nfrom a novel strategy called Fisher random walk. We also propose a\ncomputationally feasible method to compute the weights by a potential\nrepresentation of nuisance weight functions. We show our inference procedure is\nvalid for general score function estimators accommodating the practitioners'\nneed to implement flexible deep learning methods. We extend the procedure to\nmultiple hypothesis testing using a Gaussian multiplier bootstrap that controls\nfamilywise error and to distributional shift via a cross-fitted\nimportance-sampling adjustment for target-domain inference. Numerical studies,\nincluding language model evaluations under diverse contexts, corroborate the\naccuracy, efficiency, and practical utility of our method.",
+      "categories": [
+        "stat.ML",
+        "cs.LG",
+        "math.ST",
+        "stat.TH"
+      ],
+      "primary_category": "stat.ML",
+      "pdf_url": "http://arxiv.org/pdf/2509.05852v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.05852v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.05852v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.05852v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.05754": {
+      "title": "CardiacFlow: 3D+t Four-Chamber Cardiac Shape Completion and Generation via Flow Matching",
+      "authors": [
+        "Qiang Ma",
+        "Qingjie Meng",
+        "Mengyun Qiao",
+        "Paul M. Matthews",
+        "Declan P. O'Regan",
+        "Wenjia Bai"
+      ],
+      "published": "2025-09-06T15:48:30+00:00",
+      "updated": "2025-09-06T15:48:30+00:00",
+      "summary": "Learning 3D+t shape completion and generation from multi-view cardiac\nmagnetic resonance (CMR) images requires a large amount of high-resolution 3D\nwhole-heart segmentations (WHS) to capture shape priors. In this work, we\nleverage flow matching techniques to learn deep generative flows for\naugmentation, completion, and generation of 3D+t shapes of four cardiac\nchambers represented implicitly by segmentations. Firstly, we introduce a\nlatent rectified flow to generate 3D cardiac shapes for data augmentation,\nlearnt from a limited number of 3D WHS data. Then, a label completion network\nis trained on both real and synthetic data to reconstruct 3D+t shapes from\nsparse multi-view CMR segmentations. Lastly, we propose CardiacFlow, a novel\none-step generative flow model for efficient 3D+t four-chamber cardiac shape\ngeneration, conditioned on the periodic Gaussian kernel encoding of time\nframes. The experiments on the WHS datasets demonstrate that flow-based data\naugmentation reduces geometric errors by 16% in 3D shape completion. The\nevaluation on the UK Biobank dataset validates that CardiacFlow achieves\nsuperior generation quality and periodic consistency compared to existing\nbaselines.",
+      "categories": [
+        "eess.IV"
+      ],
+      "primary_category": "eess.IV",
+      "pdf_url": "http://arxiv.org/pdf/2509.05754v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted by MICCAI 2025 (submitted version)",
+      "entry_id": "http://arxiv.org/abs/2509.05754v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.05754v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.05754v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.05515": {
+      "title": "Visibility-Aware Language Aggregation for Open-Vocabulary Segmentation in 3D Gaussian Splatting",
+      "authors": [
+        "Sen Wang",
+        "Kunyi Li",
+        "Siyun Liang",
+        "Elena Alegret",
+        "Jing Ma",
+        "Nassir Navab",
+        "Stefano Gasperini"
+      ],
+      "published": "2025-09-05T21:56:11+00:00",
+      "updated": "2025-09-05T21:56:11+00:00",
+      "summary": "Recently, distilling open-vocabulary language features from 2D images into 3D\nGaussians has attracted significant attention. Although existing methods\nachieve impressive language-based interactions of 3D scenes, we observe two\nfundamental issues: background Gaussians contributing negligibly to a rendered\npixel get the same feature as the dominant foreground ones, and multi-view\ninconsistencies due to view-specific noise in language embeddings. We introduce\nVisibility-Aware Language Aggregation (VALA), a lightweight yet effective\nmethod that computes marginal contributions for each ray and applies a\nvisibility-aware gate to retain only visible Gaussians. Moreover, we propose a\nstreaming weighted geometric median in cosine space to merge noisy multi-view\nfeatures. Our method yields a robust, view-consistent language feature\nembedding in a fast and memory-efficient manner. VALA improves open-vocabulary\nlocalization and segmentation across reference datasets, consistently\nsurpassing existing works.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.05515v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.05515v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.05515v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.05515v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
     "2509.04859": {
       "title": "CoRe-GS: Coarse-to-Refined Gaussian Splatting with Semantic Object Focus",
       "authors": [
@@ -233,6 +471,44 @@
       ],
       "llm_approved": false
     },
+    "2509.05349": {
+      "title": "How hydrodynamic interactions alter polymer stretching in turbulence",
+      "authors": [
+        "Aditya Ganesh",
+        "Dario Vincenzi",
+        "Ranganathan Prabhakar",
+        "Jason R. Picardo"
+      ],
+      "published": "2025-09-02T17:47:01+00:00",
+      "updated": "2025-09-02T17:47:01+00:00",
+      "summary": "Hydrodynamic interactions (HI) between segments of a polymer have long been\nknown to strongly affect polymer stretching in laminar viscometric flows. Yet\nthe role of HI in fluctuating turbulent flows remains unclear. Using Brownian\ndynamics simulations, we examine the stretching dynamics of bead-spring chains\nwith inter-bead HI, as they are transported in a homogeneous isotropic\nturbulent flow (within the ultra-dilute, one-way coupling regime). We find that\nHI-endowed chains exhibit a steeper coil-stretch transition as the elastic\nrelaxation time is increased, i.e., HI cause less stretching of stiff polymers\nand more stretching of moderately to highly elastic polymers. The probability\ndistribution function of the end-to-end extension is also modified, with HI\nsignificantly limiting the range of extensions over which a power-law range\nappears. On quantifying the repeated stretching and recoiling of chains by\ncomputing persistence time distributions, we find that HI delays migration\nbetween stretched and coiled states. These effects of HI, which are consistent\nwith chains experiencing an effective conformation-dependent drag, are\nsensitive to the level of coarse-graining in the bead-spring model.\nSpecifically, an HI-endowed dumbbell, which cannot form a physical coil, is\nunable to experience the hydrodynamic shielding effect of HI. Our results\nhighlight the importance of incorporating an extension-dependent drag force in\ndumbbell-based simulations of turbulent polymer solutions. To develop and test\nsuch an augmented dumbbell model, we propose the use of a time-correlated\nGaussian random flow, in which the turbulent stretching statistics are shown to\nbe well-approximated.",
+      "categories": [
+        "cond-mat.soft",
+        "cond-mat.stat-mech",
+        "physics.chem-ph"
+      ],
+      "primary_category": "cond-mat.soft",
+      "pdf_url": "http://arxiv.org/pdf/2509.05349v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "19 pages, 8 figures",
+      "entry_id": "http://arxiv.org/abs/2509.05349v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.05349v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.05349v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2509.01964": {
       "title": "2D Gaussian Splatting with Semantic Alignment for Image Inpainting",
       "authors": [
@@ -297,6 +573,47 @@
         },
         {
           "href": "http://arxiv.org/pdf/2509.01681v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.05340": {
+      "title": "Comparative Evaluation of Hard and Soft Clustering for Precise Brain Tumor Segmentation in MR Imaging",
+      "authors": [
+        "Dibya Jyoti Bora",
+        "Mrinal Kanti Mishra"
+      ],
+      "published": "2025-09-01T16:40:08+00:00",
+      "updated": "2025-09-01T16:40:08+00:00",
+      "summary": "Segmentation of brain tumors from Magnetic Resonance Imaging (MRI) remains a\npivotal challenge in medical image analysis due to the heterogeneous nature of\ntumor morphology and intensity distributions. Accurate delineation of tumor\nboundaries is critical for clinical decision-making, radiotherapy planning, and\nlongitudinal disease monitoring. In this study, we perform a comprehensive\ncomparative analysis of two major clustering paradigms applied in MRI tumor\nsegmentation: hard clustering, exemplified by the K-Means algorithm, and soft\nclustering, represented by Fuzzy C-Means (FCM). While K-Means assigns each\npixel strictly to a single cluster, FCM introduces partial memberships, meaning\neach pixel can belong to multiple clusters with varying degrees of association.\nExperimental validation was performed using the BraTS2020 dataset,\nincorporating pre-processing through Gaussian filtering and Contrast Limited\nAdaptive Histogram Equalization (CLAHE). Evaluation metrics included the Dice\nSimilarity Coefficient (DSC) and processing time, which collectively\ndemonstrated that K-Means achieved superior speed with an average runtime of\n0.3s per image, whereas FCM attained higher segmentation accuracy with an\naverage DSC of 0.67 compared to 0.43 for K-Means, albeit at a higher\ncomputational cost (1.3s per image). These results highlight the inherent\ntrade-off between computational efficiency and boundary precision.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.05340v1",
+      "journal_ref": "Journal of Advances in Mathematics and Computer Science 40 (9)\n  2025",
+      "doi": "10.9734/jamcs/2025/v40i92050",
+      "comment": "15 pages, 10 figures",
+      "entry_id": "http://arxiv.org/abs/2509.05340v1",
+      "links": [
+        {
+          "href": "http://dx.doi.org/10.9734/jamcs/2025/v40i92050",
+          "title": "doi",
+          "rel": "related",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/abs/2509.05340v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.05340v1",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -71925,6 +72242,115 @@
     }
   },
   "Depth Estimation": {
+    "2509.06741": {
+      "title": "Event Spectroscopy: Event-based Multispectral and Depth Sensing using Structured Light",
+      "authors": [
+        "Christian Geckeler",
+        "Niklas Neugebauer",
+        "Manasi Muglikar",
+        "Davide Scaramuzza",
+        "Stefano Mintchev"
+      ],
+      "published": "2025-09-08T14:34:55+00:00",
+      "updated": "2025-09-08T14:34:55+00:00",
+      "summary": "Uncrewed aerial vehicles (UAVs) are increasingly deployed in forest\nenvironments for tasks such as environmental monitoring and search and rescue,\nwhich require safe navigation through dense foliage and precise data\ncollection. Traditional sensing approaches, including passive multispectral and\nRGB imaging, suffer from latency, poor depth resolution, and strong dependence\non ambient light - especially under forest canopies. In this work, we present a\nnovel event spectroscopy system that simultaneously enables high-resolution,\nlow-latency depth reconstruction and multispectral imaging using a single\nsensor. Depth is reconstructed using structured light, and by modulating the\nwavelength of the projected structured light, our system captures spectral\ninformation in controlled bands between 650 nm and 850 nm. We demonstrate up to\n$60\\%$ improvement in RMSE over commercial depth sensors and validate the\nspectral accuracy against a reference spectrometer and commercial multispectral\ncameras, demonstrating comparable performance. A portable version limited to\nRGB (3 wavelengths) is used to collect real-world depth and spectral data from\na Masoala Rainforest. We demonstrate the use of this prototype for color image\nreconstruction and material differentiation between leaves and branches using\nspectral and depth data. Our results show that adding depth (available at no\nextra effort with our setup) to material differentiation improves the accuracy\nby over $30\\%$ compared to color-only method. Our system, tested in both lab\nand real-world rainforest environments, shows strong performance in depth\nestimation, RGB reconstruction, and material differentiation - paving the way\nfor lightweight, integrated, and robust UAV perception and data collection in\ncomplex natural environments.",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.06741v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "This work has been submitted to the IEEE for possible publication",
+      "entry_id": "http://arxiv.org/abs/2509.06741v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.06741v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.06741v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2509.06685": {
+      "title": "VIM-GS: Visual-Inertial Monocular Gaussian Splatting via Object-level Guidance in Large Scenes",
+      "authors": [
+        "Shengkai Zhang",
+        "Yuhe Liu",
+        "Guanjun Wu",
+        "Jianhua He",
+        "Xinggang Wang",
+        "Mozi Chen",
+        "Kezhong Liu"
+      ],
+      "published": "2025-09-08T13:41:10+00:00",
+      "updated": "2025-09-08T13:41:10+00:00",
+      "summary": "VIM-GS is a Gaussian Splatting (GS) framework using monocular images for\nnovel-view synthesis (NVS) in large scenes. GS typically requires accurate\ndepth to initiate Gaussian ellipsoids using RGB-D/stereo cameras. Their limited\ndepth sensing range makes it difficult for GS to work in large scenes.\nMonocular images, however, lack depth to guide the learning and lead to\ninferior NVS results. Although large foundation models (LFMs) for monocular\ndepth estimation are available, they suffer from cross-frame inconsistency,\ninaccuracy for distant scenes, and ambiguity in deceptive texture cues. This\npaper aims to generate dense, accurate depth images from monocular RGB inputs\nfor high-definite GS rendering. The key idea is to leverage the accurate but\nsparse depth from visual-inertial Structure-from-Motion (SfM) to refine the\ndense but coarse depth from LFMs. To bridge the sparse input and dense output,\nwe propose an object-segmented depth propagation algorithm that renders the\ndepth of pixels of structured objects. Then we develop a dynamic depth\nrefinement module to handle the crippled SfM depth of dynamic objects and\nrefine the coarse LFM depth. Experiments using public and customized datasets\ndemonstrate the superior rendering quality of VIM-GS in large scenes.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.06685v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.06685v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.06685v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.06685v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2509.05999": {
+      "title": "S-LAM3D: Segmentation-Guided Monocular 3D Object Detection via Feature Space Fusion",
+      "authors": [
+        "Diana-Alexandra Sas",
+        "Florin Oniga"
+      ],
+      "published": "2025-09-07T10:14:56+00:00",
+      "updated": "2025-09-07T10:14:56+00:00",
+      "summary": "Monocular 3D Object Detection represents a challenging Computer Vision task\ndue to the nature of the input used, which is a single 2D image, lacking in any\ndepth cues and placing the depth estimation problem as an ill-posed one.\nExisting solutions leverage the information extracted from the input by using\nConvolutional Neural Networks or Transformer architectures as feature\nextraction backbones, followed by specific detection heads for 3D parameters\nprediction. In this paper, we introduce a decoupled strategy based on injecting\nprecomputed segmentation information priors and fusing them directly into the\nfeature space for guiding the detection, without expanding the detection model\nor jointly learning the priors. The focus is on evaluating the impact of\nadditional segmentation information on existing detection pipelines without\nadding additional prediction branches. The proposed method is evaluated on the\nKITTI 3D Object Detection Benchmark, outperforming the equivalent architecture\nthat relies only on RGB image features for small objects in the scene:\npedestrians and cyclists, and proving that understanding the input data can\nbalance the need for additional sensors or training data.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.05999v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "6 pages. Accepted to MMSP 2025",
+      "entry_id": "http://arxiv.org/abs/2509.05999v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.05999v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.05999v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2509.04772": {
       "title": "FloodVision: Urban Flood Depth Estimation Using Foundation Vision-Language Models and Domain Knowledge Graph",
       "authors": [
@@ -72107,27 +72533,27 @@
         "Robby T. Tan"
       ],
       "published": "2025-08-31T02:24:00+00:00",
-      "updated": "2025-08-31T02:24:00+00:00",
+      "updated": "2025-09-06T16:03:21+00:00",
       "summary": "Monocular depth estimation under adverse weather conditions (e.g.\\ rain, fog,\nsnow, and nighttime) remains highly challenging due to the lack of reliable\nground truth and the difficulty of learning from unlabeled real-world data.\nExisting methods often rely on synthetic adverse data with pseudo-labels, which\nsuffer from domain gaps, or employ self-supervised learning, which violates\nphotometric assumptions in adverse scenarios. In this work, we propose to\nachieve weather-generalized depth estimation by Parameter-Efficient Fine-Tuning\n(PEFT) of Vision Foundation Models (VFMs), using only a small amount of\nhigh-visibility (normal) data. While PEFT has shown strong performance in\nsemantic tasks such as segmentation, it remains underexplored for geometry --\ncentric tasks like depth estimation -- especially in terms of balancing\neffective adaptation with the preservation of pretrained knowledge. To this\nend, we introduce the Selecting-Tuning-Maintaining (STM) strategy, which\nstructurally decomposes the pretrained weights of VFMs based on two kinds of\neffective ranks (entropy-rank and stable-rank). In the tuning phase, we\nadaptively select the proper rank number as well as the task-aware singular\ndirections for initialization, based on the entropy-rank and full-tuned weight;\nwhile in the maintaining stage, we enforce a principal direction regularization\nbased on the stable-rank. This design guarantees flexible task adaptation while\npreserving the strong generalization capability of the pretrained VFM.\nExtensive experiments on four real-world benchmarks across diverse weather\nconditions demonstrate that STM not only outperforms existing PEFT methods and\nfull fine-tuning but also surpasses methods trained with adverse synthetic\ndata, and even the depth foundation model",
       "categories": [
         "cs.CV",
         "cs.RO"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "http://arxiv.org/pdf/2509.00665v1",
+      "pdf_url": "http://arxiv.org/pdf/2509.00665v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2509.00665v1",
+      "entry_id": "http://arxiv.org/abs/2509.00665v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2509.00665v1",
+          "href": "http://arxiv.org/abs/2509.00665v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2509.00665v1",
+          "href": "http://arxiv.org/pdf/2509.00665v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null

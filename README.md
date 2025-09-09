@@ -1,4 +1,4 @@
-## Updated at 2025-09-09 08:17:22
+## Updated at 2025-09-09 20:07:56
 
 ## 3DGS Semantic
 
@@ -8,6 +8,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-09-05**|**[Visibility-Aware Language Aggregation for Open-Vocabulary Segmentation in 3D Gaussian Splatting](https://arxiv.org/abs/2509.05515)**|N/A|None|cs.CV|None|Sen Wang et al.|
 |**2025-08-27**|**[LabelGS: Label-Aware 3D Gaussian Splatting for 3D Scene Segmentation](https://arxiv.org/abs/2508.19699)**|N/A|PRCV 2025|cs.CV|None|Yupeng Zhang et al.|
 |**2025-08-19**|**[GALA: Guided Attention with Language Alignment for Open Vocabulary Gaussian Splatting](https://arxiv.org/abs/2508.14278)**|N/A|None|cs.CV|None|Elena Alegret et al.|
 |**2025-08-16**|**[InstDrive: Instance-Aware 3D Gaussian Splatting for Driving Scenes](https://arxiv.org/abs/2508.12015)**|N/A|None|cs.CV|None|Hongyuan Liu et al.|
@@ -535,6 +536,9 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-09-08**|**[Event Spectroscopy: Event-based Multispectral and Depth Sensing using Structured Light](https://arxiv.org/abs/2509.06741)**|N/A|This work has been submitted to the IEEE for possible publication|cs.CV|None|Christian Geckeler et al.|
+|**2025-09-08**|**[VIM-GS: Visual-Inertial Monocular Gaussian Splatting via Object-level Guidance in Large Scenes](https://arxiv.org/abs/2509.06685)**|N/A|None|cs.CV|None|Shengkai Zhang et al.|
+|**2025-09-07**|**[S-LAM3D: Segmentation-Guided Monocular 3D Object Detection via Feature Space Fusion](https://arxiv.org/abs/2509.05999)**|N/A|6 pages. Accepted to MMSP 2025|cs.CV|None|Diana-Alexandra Sas, Florin Oniga|
 |**2025-09-05**|**[FloodVision: Urban Flood Depth Estimation Using Foundation Vision-Language Models and Domain Knowledge Graph](https://arxiv.org/abs/2509.04772)**|N/A|None|cs.CV|None|Zhangding Liu et al.|
 |**2025-09-03**|**[Uncertainty-aware Test-Time Training (UT$^3$) for Efficient On-the-fly Domain Adaptive Dense Regression](https://arxiv.org/abs/2509.03012)**|N/A|None|cs.RO|None|Uddeshya Upadhyay|
 |**2025-09-03**|**[DUViN: Diffusion-Based Underwater Visual Navigation via Knowledge-Transferred Depth Features](https://arxiv.org/abs/2509.02983)**|N/A|None|cs.RO|None|Jinghe Yang et al.|
