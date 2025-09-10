@@ -1,5 +1,155 @@
 {
   "3DGS Semantic": {
+    "2509.07774": {
+      "title": "HairGS: Hair Strand Reconstruction based on 3D Gaussian Splatting",
+      "authors": [
+        "Yimin Pan",
+        "Matthias Nießner",
+        "Tobias Kirschstein"
+      ],
+      "published": "2025-09-09T14:08:41+00:00",
+      "updated": "2025-09-09T14:08:41+00:00",
+      "summary": "Human hair reconstruction is a challenging problem in computer vision, with\ngrowing importance for applications in virtual reality and digital human\nmodeling. Recent advances in 3D Gaussians Splatting (3DGS) provide efficient\nand explicit scene representations that naturally align with the structure of\nhair strands. In this work, we extend the 3DGS framework to enable strand-level\nhair geometry reconstruction from multi-view images. Our multi-stage pipeline\nfirst reconstructs detailed hair geometry using a differentiable Gaussian\nrasterizer, then merges individual Gaussian segments into coherent strands\nthrough a novel merging scheme, and finally refines and grows the strands under\nphotometric supervision.\n  While existing methods typically evaluate reconstruction quality at the\ngeometric level, they often neglect the connectivity and topology of hair\nstrands. To address this, we propose a new evaluation metric that serves as a\nproxy for assessing topological accuracy in strand reconstruction. Extensive\nexperiments on both synthetic and real-world datasets demonstrate that our\nmethod robustly handles a wide range of hairstyles and achieves efficient\nreconstruction, typically completing within one hour.\n  The project page can be found at: https://yimin-pan.github.io/hair-gs/",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.07774v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "This is the arXiv preprint of the paper \"Hair Strand Reconstruction\n  based on 3D Gaussian Splatting\" published at BMVC 2025. Project website:\n  https://yimin-pan.github.io/hair-gs/",
+      "entry_id": "http://arxiv.org/abs/2509.07774v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.07774v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.07774v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.07500": {
+      "title": "OmniMap: A General Mapping Framework Integrating Optics, Geometry, and Semantics",
+      "authors": [
+        "Yinan Deng",
+        "Yufeng Yue",
+        "Jianyu Dou",
+        "Jingyu Zhao",
+        "Jiahui Wang",
+        "Yujie Tang",
+        "Yi Yang",
+        "Mengyin Fu"
+      ],
+      "published": "2025-09-09T08:26:11+00:00",
+      "updated": "2025-09-09T08:26:11+00:00",
+      "summary": "Robotic systems demand accurate and comprehensive 3D environment perception,\nrequiring simultaneous capture of photo-realistic appearance (optical), precise\nlayout shape (geometric), and open-vocabulary scene understanding (semantic).\nExisting methods typically achieve only partial fulfillment of these\nrequirements while exhibiting optical blurring, geometric irregularities, and\nsemantic ambiguities. To address these challenges, we propose OmniMap. Overall,\nOmniMap represents the first online mapping framework that simultaneously\ncaptures optical, geometric, and semantic scene attributes while maintaining\nreal-time performance and model compactness. At the architectural level,\nOmniMap employs a tightly coupled 3DGS-Voxel hybrid representation that\ncombines fine-grained modeling with structural stability. At the implementation\nlevel, OmniMap identifies key challenges across different modalities and\nintroduces several innovations: adaptive camera modeling for motion blur and\nexposure compensation, hybrid incremental representation with normal\nconstraints, and probabilistic fusion for robust instance-level understanding.\nExtensive experiments show OmniMap's superior performance in rendering\nfidelity, geometric accuracy, and zero-shot semantic segmentation compared to\nstate-of-the-art methods across diverse scenes. The framework's versatility is\nfurther evidenced through a variety of downstream applications, including\nmulti-domain scene Q&A, interactive editing, perception-guided manipulation,\nand map-assisted navigation.",
+      "categories": [
+        "cs.RO"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "http://arxiv.org/pdf/2509.07500v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted by IEEE Transactions on Robotics (TRO), project website:\n  https://omni-map.github.io/",
+      "entry_id": "http://arxiv.org/abs/2509.07500v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.07500v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.07500v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2509.07363": {
+      "title": "Knowledge Distillation Driven Semantic NOMA for Image Transmission with Diffusion Model",
+      "authors": [
+        "Qifei Wang",
+        "Zhen Gao",
+        "Zhijin Qin",
+        "Xiaodong Xu",
+        "Meixia Tao"
+      ],
+      "published": "2025-09-09T03:20:58+00:00",
+      "updated": "2025-09-09T03:20:58+00:00",
+      "summary": "As a promising 6G enabler beyond conventional bit-level transmission,\nsemantic communication can considerably reduce required bandwidth resources,\nwhile its combination with multiple access requires further exploration. This\npaper proposes a knowledge distillation-driven and diffusion-enhanced (KDD)\nsemantic non-orthogonal multiple access (NOMA), named KDD-SemNOMA, for\nmulti-user uplink wireless image transmission. Specifically, to ensure robust\nfeature transmission across diverse transmission conditions, we firstly develop\na ConvNeXt-based deep joint source and channel coding architecture with\nenhanced adaptive feature module. This module incorporates signal-to-noise\nratio and channel state information to dynamically adapt to additive white\nGaussian noise and Rayleigh fading channels. Furthermore, to improve image\nrestoration quality without inference overhead, we introduce a two-stage\nknowledge distillation strategy, i.e., a teacher model, trained on\ninterference-free orthogonal transmission, guides a student model via feature\naffinity distillation and cross-head prediction distillation. Moreover, a\ndiffusion model-based refinement stage leverages generative priors to transform\ninitial SemNOMA outputs into high-fidelity images with enhanced perceptual\nquality. Extensive experiments on CIFAR-10 and FFHQ-256 datasets demonstrate\nsuperior performance over state-of-the-art methods, delivering satisfactory\nreconstruction performance even at extremely poor channel conditions. These\nresults highlight the advantages in both pixel-level accuracy and perceptual\nmetrics, effectively mitigating interference and enabling high-quality image\nrecovery.",
+      "categories": [
+        "cs.IT",
+        "math.IT"
+      ],
+      "primary_category": "cs.IT",
+      "pdf_url": "http://arxiv.org/pdf/2509.07363v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "13 pages, submitted to IEEE for possible publication",
+      "entry_id": "http://arxiv.org/abs/2509.07363v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.07363v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.07363v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.07149": {
+      "title": "Measuring Uncertainty in Transformer Circuits with Effective Information Consistency",
+      "authors": [
+        "Anatoly A. Krasnovsky"
+      ],
+      "published": "2025-09-08T18:54:56+00:00",
+      "updated": "2025-09-08T18:54:56+00:00",
+      "summary": "Mechanistic interpretability has identified functional subgraphs within large\nlanguage models (LLMs), known as Transformer Circuits (TCs), that appear to\nimplement specific algorithms. Yet we lack a formal, single-pass way to\nquantify when an active circuit is behaving coherently and thus likely\ntrustworthy. Building on prior systems-theoretic proposals, we specialize a\nsheaf/cohomology and causal emergence perspective to TCs and introduce the\nEffective-Information Consistency Score (EICS). EICS combines (i) a normalized\nsheaf inconsistency computed from local Jacobians and activations, with (ii) a\nGaussian EI proxy for circuit-level causal emergence derived from the same\nforward state. The construction is white-box, single-pass, and makes units\nexplicit so that the score is dimensionless. We further provide practical\nguidance on score interpretation, computational overhead (with fast and exact\nmodes), and a toy sanity-check analysis. Empirical validation on LLM tasks is\ndeferred.",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL",
+        "cs.IT",
+        "math.IT"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "http://arxiv.org/pdf/2509.07149v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.07149v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.07149v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.07149v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2509.06685": {
       "title": "VIM-GS: Visual-Inertial Monocular Gaussian Splatting via Object-level Guidance in Large Scenes",
       "authors": [
@@ -12,26 +162,26 @@
         "Kezhong Liu"
       ],
       "published": "2025-09-08T13:41:10+00:00",
-      "updated": "2025-09-08T13:41:10+00:00",
+      "updated": "2025-09-09T03:25:57+00:00",
       "summary": "VIM-GS is a Gaussian Splatting (GS) framework using monocular images for\nnovel-view synthesis (NVS) in large scenes. GS typically requires accurate\ndepth to initiate Gaussian ellipsoids using RGB-D/stereo cameras. Their limited\ndepth sensing range makes it difficult for GS to work in large scenes.\nMonocular images, however, lack depth to guide the learning and lead to\ninferior NVS results. Although large foundation models (LFMs) for monocular\ndepth estimation are available, they suffer from cross-frame inconsistency,\ninaccuracy for distant scenes, and ambiguity in deceptive texture cues. This\npaper aims to generate dense, accurate depth images from monocular RGB inputs\nfor high-definite GS rendering. The key idea is to leverage the accurate but\nsparse depth from visual-inertial Structure-from-Motion (SfM) to refine the\ndense but coarse depth from LFMs. To bridge the sparse input and dense output,\nwe propose an object-segmented depth propagation algorithm that renders the\ndepth of pixels of structured objects. Then we develop a dynamic depth\nrefinement module to handle the crippled SfM depth of dynamic objects and\nrefine the coarse LFM depth. Experiments using public and customized datasets\ndemonstrate the superior rendering quality of VIM-GS in large scenes.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "http://arxiv.org/pdf/2509.06685v1",
+      "pdf_url": "http://arxiv.org/pdf/2509.06685v2",
       "journal_ref": null,
       "doi": null,
-      "comment": null,
-      "entry_id": "http://arxiv.org/abs/2509.06685v1",
+      "comment": "Withdrawn due to an error in the author list & incomplete\n  experimental results",
+      "entry_id": "http://arxiv.org/abs/2509.06685v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2509.06685v1",
+          "href": "http://arxiv.org/abs/2509.06685v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2509.06685v1",
+          "href": "http://arxiv.org/pdf/2509.06685v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -72,6 +222,40 @@
         },
         {
           "href": "http://arxiv.org/pdf/2509.06553v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.07036": {
+      "title": "Methodological Insights into Structural Causal Modelling and Uncertainty-Aware Forecasting for Economic Indicators",
+      "authors": [
+        "Federico Cerutti"
+      ],
+      "published": "2025-09-08T04:52:12+00:00",
+      "updated": "2025-09-08T04:52:12+00:00",
+      "summary": "This paper presents a methodological approach to financial time series\nanalysis by combining causal discovery and uncertainty-aware forecasting. As a\ncase study, we focus on four key U.S. macroeconomic indicators -- GDP, economic\ngrowth, inflation, and unemployment -- and we apply the LPCMCI framework with\nGaussian Process Distance Correlation (GPDC) to uncover dynamic causal\nrelationships in quarterly data from 1970 to 2021. Our results reveal a robust\nunidirectional causal link from economic growth to GDP and highlight the\nlimited connectivity of inflation, suggesting the influence of latent factors.\nUnemployment exhibits strong autoregressive dependence, motivating its use as a\ncase study for probabilistic forecasting. Leveraging the Chronos framework, a\nlarge language model trained for time series, we perform zero-shot predictions\non unemployment. This approach delivers accurate forecasts one and two quarters\nahead, without requiring task-specific training. Crucially, the model's\nuncertainty-aware predictions yield 90\\% confidence intervals, enabling\neffective anomaly detection through statistically principled deviation\nanalysis. This study demonstrates the value of combining causal structure\nlearning with probabilistic language models to inform economic policy and\nenhance forecasting robustness.",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "http://arxiv.org/pdf/2509.07036v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted at the 2nd edition of the Workshop in AI and Finance at\n  ECAI-2025",
+      "entry_id": "http://arxiv.org/abs/2509.07036v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.07036v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.07036v1",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -493,7 +677,8 @@
       "categories": [
         "cond-mat.soft",
         "cond-mat.stat-mech",
-        "physics.chem-ph"
+        "physics.chem-ph",
+        "physics.flu-dyn"
       ],
       "primary_category": "cond-mat.soft",
       "pdf_url": "http://arxiv.org/pdf/2509.05349v1",
@@ -72299,26 +72484,26 @@
         "Kezhong Liu"
       ],
       "published": "2025-09-08T13:41:10+00:00",
-      "updated": "2025-09-08T13:41:10+00:00",
+      "updated": "2025-09-09T03:25:57+00:00",
       "summary": "VIM-GS is a Gaussian Splatting (GS) framework using monocular images for\nnovel-view synthesis (NVS) in large scenes. GS typically requires accurate\ndepth to initiate Gaussian ellipsoids using RGB-D/stereo cameras. Their limited\ndepth sensing range makes it difficult for GS to work in large scenes.\nMonocular images, however, lack depth to guide the learning and lead to\ninferior NVS results. Although large foundation models (LFMs) for monocular\ndepth estimation are available, they suffer from cross-frame inconsistency,\ninaccuracy for distant scenes, and ambiguity in deceptive texture cues. This\npaper aims to generate dense, accurate depth images from monocular RGB inputs\nfor high-definite GS rendering. The key idea is to leverage the accurate but\nsparse depth from visual-inertial Structure-from-Motion (SfM) to refine the\ndense but coarse depth from LFMs. To bridge the sparse input and dense output,\nwe propose an object-segmented depth propagation algorithm that renders the\ndepth of pixels of structured objects. Then we develop a dynamic depth\nrefinement module to handle the crippled SfM depth of dynamic objects and\nrefine the coarse LFM depth. Experiments using public and customized datasets\ndemonstrate the superior rendering quality of VIM-GS in large scenes.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "http://arxiv.org/pdf/2509.06685v1",
+      "pdf_url": "http://arxiv.org/pdf/2509.06685v2",
       "journal_ref": null,
       "doi": null,
-      "comment": null,
-      "entry_id": "http://arxiv.org/abs/2509.06685v1",
+      "comment": "Withdrawn due to an error in the author list & incomplete\n  experimental results",
+      "entry_id": "http://arxiv.org/abs/2509.06685v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2509.06685v1",
+          "href": "http://arxiv.org/abs/2509.06685v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2509.06685v1",
+          "href": "http://arxiv.org/pdf/2509.06685v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
