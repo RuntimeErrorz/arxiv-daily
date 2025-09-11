@@ -73,7 +73,15 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-09-11",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2509.07363": {
       "title": "Knowledge Distillation Driven Semantic NOMA for Image Transmission with Diffusion Model",
@@ -162,26 +170,26 @@
         "Kezhong Liu"
       ],
       "published": "2025-09-08T13:41:10+00:00",
-      "updated": "2025-09-09T03:25:57+00:00",
+      "updated": "2025-09-10T01:06:59+00:00",
       "summary": "VIM-GS is a Gaussian Splatting (GS) framework using monocular images for\nnovel-view synthesis (NVS) in large scenes. GS typically requires accurate\ndepth to initiate Gaussian ellipsoids using RGB-D/stereo cameras. Their limited\ndepth sensing range makes it difficult for GS to work in large scenes.\nMonocular images, however, lack depth to guide the learning and lead to\ninferior NVS results. Although large foundation models (LFMs) for monocular\ndepth estimation are available, they suffer from cross-frame inconsistency,\ninaccuracy for distant scenes, and ambiguity in deceptive texture cues. This\npaper aims to generate dense, accurate depth images from monocular RGB inputs\nfor high-definite GS rendering. The key idea is to leverage the accurate but\nsparse depth from visual-inertial Structure-from-Motion (SfM) to refine the\ndense but coarse depth from LFMs. To bridge the sparse input and dense output,\nwe propose an object-segmented depth propagation algorithm that renders the\ndepth of pixels of structured objects. Then we develop a dynamic depth\nrefinement module to handle the crippled SfM depth of dynamic objects and\nrefine the coarse LFM depth. Experiments using public and customized datasets\ndemonstrate the superior rendering quality of VIM-GS in large scenes.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "http://arxiv.org/pdf/2509.06685v2",
+      "pdf_url": "http://arxiv.org/pdf/2509.06685v3",
       "journal_ref": null,
       "doi": null,
       "comment": "Withdrawn due to an error in the author list & incomplete\n  experimental results",
-      "entry_id": "http://arxiv.org/abs/2509.06685v2",
+      "entry_id": "http://arxiv.org/abs/2509.06685v3",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2509.06685v2",
+          "href": "http://arxiv.org/abs/2509.06685v3",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2509.06685v2",
+          "href": "http://arxiv.org/pdf/2509.06685v3",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -4044,27 +4052,27 @@
         "Hai Li"
       ],
       "published": "2025-07-30T19:01:25+00:00",
-      "updated": "2025-08-03T20:01:17+00:00",
+      "updated": "2025-09-09T19:37:20+00:00",
       "summary": "Large language model (LLM) inference poses significant challenges due to its\nintensive memory and computation demands. Weight and activation quantization\n(WAQ) offers a promising solution by reducing both memory footprint and\narithmetic complexity. Traditional WAQ designs rely on uniform integer\nquantization for hardware efficiency, but often suffer from significant model\nperformance degradation at low precision. In contrast, K-Means quantization, a\nnon-uniform technique, achieves higher accuracy by aligning with the\nGaussian-like distributions of weights and activations in LLMs. However, two\nkey challenges prevent the efficient deployment of K-Means-based WAQ designs\nfor LLM inference: (1) The non-uniform structure of K-Means-quantized data\nprecludes direct execution on low-precision compute units, necessitating\ndequantization and floating-point matrix multiplications (MatMuls) during\ninference. (2) Activation outliers hinder effective low-precision quantization.\nOffline thresholding methods for outlier detection degrade model performance\nsubstantially, while existing online detection techniques introduce significant\nruntime overhead. To address the aforementioned challenges and fully unleash\nthe potential of K-Means-based WAQ for LLM inference, in this paper, we propose\nKLLM, an LLM inference accelerator for efficient execution with\nK-Means-quantized weights and activations. KLLM features an index-based\ncomputation scheme for efficient execution of MatMuls and nonlinear operations\non K-Means-quantized data, which avoids most of the dequantization and\nfull-precision computations. Moreover, KLLM incorporates a lightweight outlier\ndetection engine, Orizuru, that efficiently identifies the top-$k$ largest and\nsmallest elements in the activation data stream during online inference.",
       "categories": [
         "cs.LG",
         "cs.AR"
       ],
       "primary_category": "cs.LG",
-      "pdf_url": "http://arxiv.org/pdf/2507.23035v2",
+      "pdf_url": "http://arxiv.org/pdf/2507.23035v3",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2507.23035v2",
+      "entry_id": "http://arxiv.org/abs/2507.23035v3",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2507.23035v2",
+          "href": "http://arxiv.org/abs/2507.23035v3",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2507.23035v2",
+          "href": "http://arxiv.org/pdf/2507.23035v3",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -72484,26 +72492,26 @@
         "Kezhong Liu"
       ],
       "published": "2025-09-08T13:41:10+00:00",
-      "updated": "2025-09-09T03:25:57+00:00",
+      "updated": "2025-09-10T01:06:59+00:00",
       "summary": "VIM-GS is a Gaussian Splatting (GS) framework using monocular images for\nnovel-view synthesis (NVS) in large scenes. GS typically requires accurate\ndepth to initiate Gaussian ellipsoids using RGB-D/stereo cameras. Their limited\ndepth sensing range makes it difficult for GS to work in large scenes.\nMonocular images, however, lack depth to guide the learning and lead to\ninferior NVS results. Although large foundation models (LFMs) for monocular\ndepth estimation are available, they suffer from cross-frame inconsistency,\ninaccuracy for distant scenes, and ambiguity in deceptive texture cues. This\npaper aims to generate dense, accurate depth images from monocular RGB inputs\nfor high-definite GS rendering. The key idea is to leverage the accurate but\nsparse depth from visual-inertial Structure-from-Motion (SfM) to refine the\ndense but coarse depth from LFMs. To bridge the sparse input and dense output,\nwe propose an object-segmented depth propagation algorithm that renders the\ndepth of pixels of structured objects. Then we develop a dynamic depth\nrefinement module to handle the crippled SfM depth of dynamic objects and\nrefine the coarse LFM depth. Experiments using public and customized datasets\ndemonstrate the superior rendering quality of VIM-GS in large scenes.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "http://arxiv.org/pdf/2509.06685v2",
+      "pdf_url": "http://arxiv.org/pdf/2509.06685v3",
       "journal_ref": null,
       "doi": null,
       "comment": "Withdrawn due to an error in the author list & incomplete\n  experimental results",
-      "entry_id": "http://arxiv.org/abs/2509.06685v2",
+      "entry_id": "http://arxiv.org/abs/2509.06685v3",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2509.06685v2",
+          "href": "http://arxiv.org/abs/2509.06685v3",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2509.06685v2",
+          "href": "http://arxiv.org/pdf/2509.06685v3",
           "title": "pdf",
           "rel": "related",
           "content_type": null
