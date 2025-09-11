@@ -1,5 +1,41 @@
 {
   "3DGS Semantic": {
+    "2509.08195": {
+      "title": "Sketched Gaussian Mechanism for Private Federated Learning",
+      "authors": [
+        "Qiaobo Li",
+        "Zhijie Chen",
+        "Arindam Banerjee"
+      ],
+      "published": "2025-09-09T23:59:20+00:00",
+      "updated": "2025-09-09T23:59:20+00:00",
+      "summary": "Communication cost and privacy are two major considerations in federated\nlearning (FL). For communication cost, gradient compression by sketching the\nclients' transmitted model updates is often used for reducing per-round\ncommunication. For privacy, the Gaussian mechanism (GM), which consists of\nclipping updates and adding Gaussian noise, is commonly used to guarantee\nclient-level differential privacy. Existing literature on private FL analyzes\nprivacy of sketching and GM in an isolated manner, illustrating that sketching\nprovides privacy determined by the sketching dimension and that GM has to\nsupply any additional desired privacy.\n  In this paper, we introduce the Sketched Gaussian Mechanism (SGM), which\ndirectly combines sketching and the Gaussian mechanism for privacy. Using\nR\\'enyi-DP tools, we present a joint analysis of SGM's overall privacy\nguarantee, which is significantly more flexible and sharper compared to\nisolated analysis of sketching and GM privacy. In particular, we prove that the\nprivacy level of SGM for a fixed noise magnitude is proportional to\n$1/\\sqrt{b}$, where $b$ is the sketching dimension, indicating that (for\nmoderate $b$) SGM can provide much stronger privacy guarantees than the\noriginal GM under the same noise budget. We demonstrate the application of SGM\nto FL with either gradient descent or adaptive server optimizers, and establish\ntheoretical results on optimization convergence, which exhibits only a\nlogarithmic dependence on the number of parameters $d$. Experimental results\nconfirm that at the same privacy level, SGM based FL is at least competitive\nwith non-sketching private FL variants and outperforms them in some settings.\nMoreover, using adaptive optimization at the server improves empirical\nperformance while maintaining the privacy guarantees.",
+      "categories": [
+        "cs.LG",
+        "cs.DC"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "http://arxiv.org/pdf/2509.08195v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.08195v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.08195v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.08195v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2509.07774": {
       "title": "HairGS: Hair Strand Reconstruction based on 3D Gaussian Splatting",
       "authors": [
@@ -72443,6 +72479,81 @@
     }
   },
   "Depth Estimation": {
+    "2509.08712": {
+      "title": "Computational Imaging for Enhanced Computer Vision",
+      "authors": [
+        "Humera Shaikh",
+        "Kaur Jashanpreet"
+      ],
+      "published": "2025-09-10T16:02:42+00:00",
+      "updated": "2025-09-10T16:02:42+00:00",
+      "summary": "This paper presents a comprehensive survey of computational imaging (CI)\ntechniques and their transformative impact on computer vision (CV)\napplications. Conventional imaging methods often fail to deliver high-fidelity\nvisual data in challenging conditions, such as low light, motion blur, or high\ndynamic range scenes, thereby limiting the performance of state-of-the-art CV\nsystems. Computational imaging techniques, including light field imaging, high\ndynamic range (HDR) imaging, deblurring, high-speed imaging, and glare\nmitigation, address these limitations by enhancing image acquisition and\nreconstruction processes. This survey systematically explores the synergies\nbetween CI techniques and core CV tasks, including object detection, depth\nestimation, optical flow, face recognition, and keypoint detection. By\nanalyzing the relationships between CI methods and their practical\ncontributions to CV applications, this work highlights emerging opportunities,\nchallenges, and future research directions. We emphasize the potential for\ntask-specific, adaptive imaging pipelines that improve robustness, accuracy,\nand efficiency in real-world scenarios, such as autonomous navigation,\nsurveillance, augmented reality, and robotics.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.08712v1",
+      "journal_ref": null,
+      "doi": "10.17577/IJERTV14IS050351",
+      "comment": "International Journal of Engineering Research & Technology, 2025",
+      "entry_id": "http://arxiv.org/abs/2509.08712v1",
+      "links": [
+        {
+          "href": "http://dx.doi.org/10.17577/IJERTV14IS050351",
+          "title": "doi",
+          "rel": "related",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/abs/2509.08712v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.08712v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2509.08027": {
+      "title": "MCTED: A Machine-Learning-Ready Dataset for Digital Elevation Model Generation From Mars Imagery",
+      "authors": [
+        "Rafał Osadnik",
+        "Pablo Gómez",
+        "Eleni Bohacek",
+        "Rickbir Bahia"
+      ],
+      "published": "2025-09-09T13:14:49+00:00",
+      "updated": "2025-09-09T13:14:49+00:00",
+      "summary": "This work presents a new dataset for the Martian digital elevation model\nprediction task, ready for machine learning applications called MCTED. The\ndataset has been generated using a comprehensive pipeline designed to process\nhigh-resolution Mars orthoimage and DEM pairs from Day et al., yielding a\ndataset consisting of 80,898 data samples. The source images are data gathered\nby the Mars Reconnaissance Orbiter using the CTX instrument, providing a very\ndiverse and comprehensive coverage of the Martian surface. Given the complexity\nof the processing pipelines used in large-scale DEMs, there are often artefacts\nand missing data points in the original data, for which we developed tools to\nsolve or mitigate their impact. We divide the processed samples into training\nand validation splits, ensuring samples in both splits cover no mutual areas to\navoid data leakage. Every sample in the dataset is represented by the optical\nimage patch, DEM patch, and two mask patches, indicating values that were\noriginally missing or were altered by us. This allows future users of the\ndataset to handle altered elevation regions as they please. We provide\nstatistical insights of the generated dataset, including the spatial\ndistribution of samples, the distributions of elevation values, slopes and\nmore. Finally, we train a small U-Net architecture on the MCTED dataset and\ncompare its performance to a monocular depth estimation foundation model,\nDepthAnythingV2, on the task of elevation prediction. We find that even a very\nsmall architecture trained on this dataset specifically, beats a zero-shot\nperformance of a depth estimation foundation model like DepthAnythingV2. We\nmake the dataset and code used for its generation completely open source in\npublic repositories.",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.08027v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "22 pages, 21 figures",
+      "entry_id": "http://arxiv.org/abs/2509.08027v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.08027v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.08027v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2509.06741": {
       "title": "Event Spectroscopy: Event-based Multispectral and Depth Sensing using Structured Light",
       "authors": [

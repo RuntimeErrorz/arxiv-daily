@@ -1,4 +1,4 @@
-## Updated at 2025-09-11 08:16:50
+## Updated at 2025-09-11 20:07:58
 
 ## 3DGS Semantic
 
@@ -537,6 +537,8 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-09-10**|**[Computational Imaging for Enhanced Computer Vision](https://arxiv.org/abs/2509.08712)**|N/A|International Journal of Engineering Research & Technology, 2025|cs.CV|None|Humera Shaikh, Kaur Jashanpreet|
+|**2025-09-09**|**[MCTED: A Machine-Learning-Ready Dataset for Digital Elevation Model Generation From Mars Imagery](https://arxiv.org/abs/2509.08027)**|N/A|22 pages, 21 figures|cs.CV|None|Rafał Osadnik et al.|
 |**2025-09-08**|**[Event Spectroscopy: Event-based Multispectral and Depth Sensing using Structured Light](https://arxiv.org/abs/2509.06741)**|N/A|This work has been submitted to the IEEE for possible publication|cs.CV|None|Christian Geckeler et al.|
 |**2025-09-08**|**[VIM-GS: Visual-Inertial Monocular Gaussian Splatting via Object-level Guidance in Large Scenes](https://arxiv.org/abs/2509.06685)**|N/A|Withdrawn due to an error in the author list & incomplete experimental results|cs.CV|None|Shengkai Zhang et al.|
 |**2025-09-07**|**[S-LAM3D: Segmentation-Guided Monocular 3D Object Detection via Feature Space Fusion](https://arxiv.org/abs/2509.05999)**|N/A|6 pages. Accepted to MMSP 2025|cs.CV|None|Diana-Alexandra Sas, Florin Oniga|
