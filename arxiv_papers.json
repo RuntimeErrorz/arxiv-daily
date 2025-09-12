@@ -1,5 +1,199 @@
 {
   "3DGS Semantic": {
+    "2509.09427": {
+      "title": "FS-Diff: Semantic guidance and clarity-aware simultaneous multimodal image fusion and super-resolution",
+      "authors": [
+        "Yuchan Jie",
+        "Yushen Xu",
+        "Xiaosong Li",
+        "Fuqiang Zhou",
+        "Jianming Lv",
+        "Huafeng Li"
+      ],
+      "published": "2025-09-11T13:10:22+00:00",
+      "updated": "2025-09-11T13:10:22+00:00",
+      "summary": "As an influential information fusion and low-level vision technique, image\nfusion integrates complementary information from source images to yield an\ninformative fused image. A few attempts have been made in recent years to\njointly realize image fusion and super-resolution. However, in real-world\napplications such as military reconnaissance and long-range detection missions,\nthe target and background structures in multimodal images are easily corrupted,\nwith low resolution and weak semantic information, which leads to suboptimal\nresults in current fusion techniques. In response, we propose FS-Diff, a\nsemantic guidance and clarity-aware joint image fusion and super-resolution\nmethod. FS-Diff unifies image fusion and super-resolution as a conditional\ngeneration problem. It leverages semantic guidance from the proposed clarity\nsensing mechanism for adaptive low-resolution perception and cross-modal\nfeature extraction. Specifically, we initialize the desired fused result as\npure Gaussian noise and introduce the bidirectional feature Mamba to extract\nthe global features of the multimodal images. Moreover, utilizing the source\nimages and semantics as conditions, we implement a random iterative denoising\nprocess via a modified U-Net network. This network istrained for denoising at\nmultiple noise levels to produce high-resolution fusion results with\ncross-modal features and abundant semantic information. We also construct a\npowerful aerial view multiscene (AVMS) benchmark covering 600 pairs of images.\nExtensive joint image fusion and super-resolution experiments on six public and\nour AVMS datasets demonstrated that FS-Diff outperforms the state-of-the-art\nmethods at multiple magnifications and can recover richer details and semantics\nin the fused images. The code is available at\nhttps://github.com/XylonXu01/FS-Diff.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.09427v1",
+      "journal_ref": "Information Fusion, 2025, 121: 103146",
+      "doi": "10.1016/j.inffus.2025.103146",
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.09427v1",
+      "links": [
+        {
+          "href": "http://dx.doi.org/10.1016/j.inffus.2025.103146",
+          "title": "doi",
+          "rel": "related",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/abs/2509.09427v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.09427v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.09177": {
+      "title": "Clip Your Sequences Fairly: Enforcing Length Fairness for Sequence-Level RL",
+      "authors": [
+        "Hanyi Mao",
+        "Quanjia Xiao",
+        "Lei Pang",
+        "Haixiao Liu"
+      ],
+      "published": "2025-09-11T06:27:10+00:00",
+      "updated": "2025-09-11T06:27:10+00:00",
+      "summary": "We propose FSPO (Fair Sequence Policy Optimization), a sequence-level\nreinforcement learning method for LLMs that enforces length-fair clipping\ndirectly in the importance-sampling (IS) weight space. We revisit\nsequence-level RL methods and identify a mismatch when PPO/GRPO-style clipping\nis transplanted to sequences: a fixed clip range systematically reweights short\nvs. long responses, distorting the effective objective. Theoretically, we\nformalize length fairness via a Length Reweighting Error (LRE) and prove that\nsmall LRE yields a directional cosine guarantee between the clipped and true\nupdates. FSPO introduces a simple, Gaussian-motivated remedy: we clip the\nsequence log-IS ratio with a band that applies a KL-corrected drift term and\nscales as $\\sqrt{L}$. Empirically, FSPO flattens clip rates across length bins,\nstabilizes training, and outperforms all baselines across multiple evaluation\ndatasets.",
+      "categories": [
+        "cs.LG"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "http://arxiv.org/pdf/2509.09177v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.09177v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.09177v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.09177v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.09168": {
+      "title": "Adaptive Pareto-Optimal Token Merging for Edge Transformer Models in Semantic Communication",
+      "authors": [
+        "Omar Erak",
+        "Omar Alhussein",
+        "Hatem Abou-Zeid",
+        "Mehdi Bennis"
+      ],
+      "published": "2025-09-11T06:05:35+00:00",
+      "updated": "2025-09-11T06:05:35+00:00",
+      "summary": "Large-scale transformer models have emerged as a powerful tool for semantic\ncommunication systems, enabling edge devices to extract rich representations\nfor robust inference across noisy wireless channels. However, their substantial\ncomputational demands remain a major barrier to practical deployment in\nresource-constrained 6G networks. In this paper, we present a training-free\nframework for adaptive token merging in pretrained vision transformers to\njointly reduce inference time and transmission resource usage. We formulate the\nselection of per-layer merging proportions as a multi-objective optimization\nproblem to balance accuracy and computational cost. We employ Gaussian\nprocess-based Bayesian optimization to construct a Pareto frontier of optimal\nconfigurations, enabling flexible runtime adaptation to dynamic application\nrequirements and channel conditions. Extensive experiments demonstrate that our\nmethod consistently outperforms other baselines and achieves significant\nreductions in floating-point operations while maintaining competitive accuracy\nacross a wide range of signal-to-noise ratio (SNR) conditions. Additional\nresults highlight the effectiveness of adaptive policies that adjust merging\naggressiveness in response to channel quality, providing a practical mechanism\nto trade off latency and semantic fidelity on demand. These findings establish\na scalable and efficient approach for deploying transformer-based semantic\ncommunication in future edge intelligence systems.",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CV",
+        "eess.IV"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "http://arxiv.org/pdf/2509.09168v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "To appear in IEEE Globecom 2025",
+      "entry_id": "http://arxiv.org/abs/2509.09168v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.09168v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.09168v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.09161": {
+      "title": "Machine Learning Confirms GW231123 is a \"Lite\" Intermediate Mass Black Hole Merger",
+      "authors": [
+        "Chayan Chatterjee",
+        "Kaylah McGowan",
+        "Suyash Deshmukh",
+        "Karan Jani"
+      ],
+      "published": "2025-09-11T05:42:36+00:00",
+      "updated": "2025-09-11T05:42:36+00:00",
+      "summary": "The LIGO-Virgo-KAGRA Collaboration recently reported GW231123, a black hole\nmerger with total mass of around 190-265 solar mass. This event adds to the\ngrowing evidence of \"lite\" intermediate mass black hole (IMBH) discoveries of\npost-merger black holes >100 solar mass. GW231123 posed several data analysis\nchallenges owing to waveform-model systematics and presence of noise artifacts\ncalled glitches. We present the first comprehensive machine learning analysis\nto further validate this event, strengthen its astrophysical inference, and\ncharacterize instrumental noise in its vicinity. Our approach uses a\ncombination of tools tailored for specific analyses: GW-Whisper, an adaptation\nof OpenAI's audio transformer, ArchGEM, a Gaussian mixture model-based soft\nclustering and density approximation software and AWaRe, a convolutional\nautoencoder. We identify the data segment containing the merger with >70%\nconfidence in both detectors and verify its astrophysical origin. We then\ncharacterize the scattered light glitch around the event, providing the first\nphysically interpretable parameters for the glitch. We also reconstruct the\nreal waveforms from the data with slightly better agreement to model-agnostic\nreconstructions than to quasi-circular models, hinting at possible astrophysics\nbeyond current waveform families (such as non-circular orbits or environmental\nimprints). Finally, by demonstrating high-fidelity waveform reconstructions for\nsimulated mergers with total masses between 100-1000 solar mass, we show that\nour method can confidently probe the IMBH regime. Our integrated framework\noffers a powerful complementary tool to traditional pipelines for rapid, robust\nanalysis of massive, glitch-contaminated events.",
+      "categories": [
+        "astro-ph.HE",
+        "gr-qc"
+      ],
+      "primary_category": "astro-ph.HE",
+      "pdf_url": "http://arxiv.org/pdf/2509.09161v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.09161v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.09161v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.09161v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.09097": {
+      "title": "DP-FedLoRA: Privacy-Enhanced Federated Fine-Tuning for On-Device Large Language Models",
+      "authors": [
+        "Honghui Xu",
+        "Shiva Shrestha",
+        "Wei Chen",
+        "Zhiyuan Li",
+        "Zhipeng Cai"
+      ],
+      "published": "2025-09-11T02:16:34+00:00",
+      "updated": "2025-09-11T02:16:34+00:00",
+      "summary": "As on-device large language model (LLM) systems become increasingly\nprevalent, federated fine-tuning enables advanced language understanding and\ngeneration directly on edge devices; however, it also involves processing\nsensitive, user-specific data, raising significant privacy concerns within the\nfederated learning framework. To address these challenges, we propose\nDP-FedLoRA, a privacy-enhanced federated fine-tuning framework that integrates\nLoRA-based adaptation with differential privacy in a communication-efficient\nsetting. Each client locally clips and perturbs its LoRA matrices using\nGaussian noise to satisfy ($\\epsilon$, $\\delta$)-differential privacy. We\nfurther provide a theoretical analysis demonstrating the unbiased nature of the\nupdates and deriving bounds on the variance introduced by noise, offering\npractical guidance for privacy-budget calibration. Experimental results across\nmainstream benchmarks show that DP-FedLoRA delivers competitive performance\nwhile offering strong privacy guarantees, paving the way for scalable and\nprivacy-preserving LLM deployment in on-device environments.",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CR",
+      "pdf_url": "http://arxiv.org/pdf/2509.09097v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.09097v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.09097v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.09097v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2509.08195": {
       "title": "Sketched Gaussian Mechanism for Private Federated Learning",
       "authors": [
@@ -1910,7 +2104,7 @@
       "llm_approved": false
     },
     "2508.12880": {
-      "title": "S^2-Guidance: Stochastic Self Guidance for Training-Free Enhancement of Diffusion Models",
+      "title": "S$^2$-Guidance: Stochastic Self Guidance for Training-Free Enhancement of Diffusion Models",
       "authors": [
         "Chubin Chen",
         "Jiashu Zhu",
@@ -1923,26 +2117,26 @@
         "Xiu Li"
       ],
       "published": "2025-08-18T12:31:20+00:00",
-      "updated": "2025-08-18T12:31:20+00:00",
+      "updated": "2025-09-11T10:04:07+00:00",
       "summary": "Classifier-free Guidance (CFG) is a widely used technique in modern diffusion\nmodels for enhancing sample quality and prompt adherence. However, through an\nempirical analysis on Gaussian mixture modeling with a closed-form solution, we\nobserve a discrepancy between the suboptimal results produced by CFG and the\nground truth. The model's excessive reliance on these suboptimal predictions\noften leads to semantic incoherence and low-quality outputs. To address this\nissue, we first empirically demonstrate that the model's suboptimal predictions\ncan be effectively refined using sub-networks of the model itself. Building on\nthis insight, we propose S^2-Guidance, a novel method that leverages stochastic\nblock-dropping during the forward process to construct stochastic sub-networks,\neffectively guiding the model away from potential low-quality predictions and\ntoward high-quality outputs. Extensive qualitative and quantitative experiments\non text-to-image and text-to-video generation tasks demonstrate that\nS^2-Guidance delivers superior performance, consistently surpassing CFG and\nother advanced guidance strategies. Our code will be released.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "http://arxiv.org/pdf/2508.12880v1",
+      "pdf_url": "http://arxiv.org/pdf/2508.12880v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2508.12880v1",
+      "entry_id": "http://arxiv.org/abs/2508.12880v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2508.12880v1",
+          "href": "http://arxiv.org/abs/2508.12880v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2508.12880v1",
+          "href": "http://arxiv.org/pdf/2508.12880v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
