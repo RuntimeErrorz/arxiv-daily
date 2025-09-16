@@ -1,4 +1,4 @@
-## Updated at 2025-09-15 08:18:12
+## Updated at 2025-09-16 20:09:27
 
 ## 3DGS Semantic
 
@@ -8,6 +8,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-09-14**|**[SPHERE: Semantic-PHysical Engaged REpresentation for 3D Semantic Scene Completion](https://arxiv.org/abs/2509.11171)**|N/A|10 pages, 6 figures|cs.CV|None|Zhiwen Yang, Yuxin Peng|
 |**2025-09-09**|**[OmniMap: A General Mapping Framework Integrating Optics, Geometry, and Semantics](https://arxiv.org/abs/2509.07500)**|N/A|Accepted by IEEE Transactions on Robotics (TRO), project website: https://omni-map.github.io/|cs.RO|None|Yinan Deng et al.|
 |**2025-09-05**|**[Visibility-Aware Language Aggregation for Open-Vocabulary Segmentation in 3D Gaussian Splatting](https://arxiv.org/abs/2509.05515)**|N/A|None|cs.CV|None|Sen Wang et al.|
 |**2025-08-27**|**[LabelGS: Label-Aware 3D Gaussian Splatting for 3D Scene Segmentation](https://arxiv.org/abs/2508.19699)**|N/A|PRCV 2025|cs.CV|None|Yupeng Zhang et al.|
@@ -146,6 +147,8 @@ Query: (abs:'Multi-View Stereo' OR abs:'Multi View Stereo' OR abs:'Multi-View De
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-09-15**|**[Segmentation-Driven Initialization for Sparse-view 3D Gaussian Splatting](https://arxiv.org/abs/2509.11853)**|N/A|None|cs.CV|None|Yi-Hsin Li et al.|
+|**2025-09-14**|**[3DAeroRelief: The first 3D Benchmark UAV Dataset for Post-Disaster Assessment](https://arxiv.org/abs/2509.11097)**|N/A|None|cs.CV|None|Nhut Le et al.|
 |**2025-09-01**|**[Im2Haircut: Single-view Strand-based Hair Reconstruction for Human Avatars](https://arxiv.org/abs/2509.01469)**|N/A|For more results please refer to the project page https://im2haircut.is.tue.mpg.de|cs.CV|None|Vanessa Sklyarova et al.|
 |**2025-08-28**|**[Multi-View 3D Point Tracking](https://arxiv.org/abs/2508.21060)**|N/A|ICCV 2025, Oral. Project page: https://ethz-vlg.github.io/mvtracker|cs.CV|None|Frano Rajič et al.|
 |**2025-08-27**|**[OpenM3D: Open Vocabulary Multi-view Indoor 3D Object Detection without Human Annotations](https://arxiv.org/abs/2508.20063)**|N/A|ICCV2025|cs.CV|None|Peng-Hao Hsu et al.|
@@ -537,6 +540,8 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-09-15**|**[BREA-Depth: Bronchoscopy Realistic Airway-geometric Depth Estimation](https://arxiv.org/abs/2509.11885)**|N/A|The paper has been accepted to MICCAI 2025|cs.CV|None|Francis Xiatian Zhang et al.|
+|**2025-09-14**|**[The System Description of CPS Team for Track on Driving with Language of CVPR 2024 Autonomous Grand Challenge](https://arxiv.org/abs/2509.11071)**|N/A|None|cs.CV|None|Jinghan Peng et al.|
 |**2025-09-10**|**[Computational Imaging for Enhanced Computer Vision](https://arxiv.org/abs/2509.08712)**|N/A|International Journal of Engineering Research & Technology, 2025|cs.CV|None|Humera Shaikh, Kaur Jashanpreet|
 |**2025-09-09**|**[MCTED: A Machine-Learning-Ready Dataset for Digital Elevation Model Generation From Mars Imagery](https://arxiv.org/abs/2509.08027)**|N/A|22 pages, 21 figures|cs.CV|None|Rafał Osadnik et al.|
 |**2025-09-08**|**[Event Spectroscopy: Event-based Multispectral and Depth Sensing using Structured Light](https://arxiv.org/abs/2509.06741)**|N/A|This work has been submitted to the IEEE for possible publication|cs.CV|None|Christian Geckeler et al.|

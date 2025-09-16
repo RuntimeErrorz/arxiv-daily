@@ -1,5 +1,300 @@
 {
   "3DGS Semantic": {
+    "2509.12142": {
+      "title": "Secure Semantic Communication over Wiretap Channels: Rate-Distortion-Equivocation Tradeoff",
+      "authors": [
+        "Denis Kozlov",
+        "Mahtab Mirmohseni",
+        "Rahim Tafazolli"
+      ],
+      "published": "2025-09-15T17:07:29+00:00",
+      "updated": "2025-09-15T17:07:29+00:00",
+      "summary": "This paper investigates an information-theoretic model of secure\nsemantic-aware communication. For this purpose, we consider the lossy joint\nsource-channel coding (JSCC) of a memoryless semantic source transmitted over a\nmemoryless wiretap channel. The source consists of two correlated parts that\nrepresent semantic and observed aspects of the information. Our model assumes\nseparate fidelity and secrecy constraints on each source component and, in\naddition, encompasses two cases for the source output, in order to evaluate the\nperformance gains if the encoder has an extended access to the source.\nSpecifically, in Case 1, the encoder has direct access only to the samples from\na single (observed) source component, while in Case 2 it has additional direct\naccess to the samples of the underlaying semantic information. We derive\nsingle-letter converse and achievability bounds on the\nrate-distortion-equivocation region. The converse bound explicitly contains\nrate-distortion functions, making it easy to evaluate, especially for some\ncommon distributions. The proposed achievability coding scheme involves novel\nstochastic superposition coding with two private parts to enable analysis of\nthe equivocation for each source component, separately. Our results generalise\nsome of the previously established source and source-channel coding problems.\nThe general results are further specialised to Gaussian and Bernoulli sources\ntransmitted over Gaussian and binary wiretap channels, respectively. The\nnumerical evaluations illustrate the derived bounds for these distributions.",
+      "categories": [
+        "cs.IT",
+        "math.IT"
+      ],
+      "primary_category": "cs.IT",
+      "pdf_url": "http://arxiv.org/pdf/2509.12142v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.12142v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.12142v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.12142v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.11964": {
+      "title": "E2-BKI: Evidential Ellipsoidal Bayesian Kernel Inference for Uncertainty-aware Gaussian Semantic Mapping",
+      "authors": [
+        "Junyoung Kim",
+        "Minsik Jeon",
+        "Jihong Min",
+        "Kiho Kwak",
+        "Junwon Seo"
+      ],
+      "published": "2025-09-15T14:17:34+00:00",
+      "updated": "2025-09-15T14:17:34+00:00",
+      "summary": "Semantic mapping aims to construct a 3D semantic representation of the\nenvironment, providing essential knowledge for robots operating in complex\noutdoor settings. While Bayesian Kernel Inference (BKI) addresses\ndiscontinuities of map inference from sparse sensor data, existing semantic\nmapping methods suffer from various sources of uncertainties in challenging\noutdoor environments. To address these issues, we propose an uncertainty-aware\nsemantic mapping framework that handles multiple sources of uncertainties,\nwhich significantly degrade mapping performance. Our method estimates\nuncertainties in semantic predictions using Evidential Deep Learning and\nincorporates them into BKI for robust semantic inference. It further aggregates\nnoisy observations into coherent Gaussian representations to mitigate the\nimpact of unreliable points, while employing geometry-aligned kernels that\nadapt to complex scene structures. These Gaussian primitives effectively fuse\nlocal geometric and semantic information, enabling robust, uncertainty-aware\nmapping in complex outdoor scenarios. Comprehensive evaluation across diverse\noff-road and urban outdoor environments demonstrates consistent improvements in\nmapping quality, uncertainty calibration, representational flexibility, and\nrobustness, while maintaining real-time efficiency.",
+      "categories": [
+        "cs.RO"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "http://arxiv.org/pdf/2509.11964v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Our project website can be found at\n  https://kjyoung.github.io/Homepage/#/Projects/E2-BKI",
+      "entry_id": "http://arxiv.org/abs/2509.11964v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.11964v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.11964v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.11853": {
+      "title": "Segmentation-Driven Initialization for Sparse-view 3D Gaussian Splatting",
+      "authors": [
+        "Yi-Hsin Li",
+        "Thomas Sikora",
+        "Sebastian Knorr",
+        "Måarten Sjöström"
+      ],
+      "published": "2025-09-15T12:31:33+00:00",
+      "updated": "2025-09-15T12:31:33+00:00",
+      "summary": "Sparse-view synthesis remains a challenging problem due to the difficulty of\nrecovering accurate geometry and appearance from limited observations. While\nrecent advances in 3D Gaussian Splatting (3DGS) have enabled real-time\nrendering with competitive quality, existing pipelines often rely on\nStructure-from-Motion (SfM) for camera pose estimation, an approach that\nstruggles in genuinely sparse-view settings. Moreover, several SfM-free methods\nreplace SfM with multi-view stereo (MVS) models, but generate massive numbers\nof 3D Gaussians by back-projecting every pixel into 3D space, leading to high\nmemory costs. We propose Segmentation-Driven Initialization for Gaussian\nSplatting (SDI-GS), a method that mitigates inefficiency by leveraging\nregion-based segmentation to identify and retain only structurally significant\nregions. This enables selective downsampling of the dense point cloud,\npreserving scene fidelity while substantially reducing Gaussian count.\nExperiments across diverse benchmarks show that SDI-GS reduces Gaussian count\nby up to 50% and achieves comparable or superior rendering quality in PSNR and\nSSIM, with only marginal degradation in LPIPS. It further enables faster\ntraining and lower memory footprint, advancing the practicality of 3DGS for\nconstrained-view scenarios.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.11853v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.11853v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.11853v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.11853v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.11711": {
+      "title": "The Quest for Universal Master Key Filters in DS-CNNs",
+      "authors": [
+        "Zahra Babaiee",
+        "Peyman M. Kiassari",
+        "Daniela Rus",
+        "Radu Grosu"
+      ],
+      "published": "2025-09-15T09:10:13+00:00",
+      "updated": "2025-09-15T09:10:13+00:00",
+      "summary": "A recent study has proposed the \"Master Key Filters Hypothesis\" for\nconvolutional neural network filters. This paper extends this hypothesis by\nradically constraining its scope to a single set of just 8 universal filters\nthat depthwise separable convolutional networks inherently converge to. While\nconventional DS-CNNs employ thousands of distinct trained filters, our analysis\nreveals these filters are predominantly linear shifts (ax+b) of our discovered\nuniversal set. Through systematic unsupervised search, we extracted these\nfundamental patterns across different architectures and datasets. Remarkably,\nnetworks initialized with these 8 unique frozen filters achieve over 80%\nImageNet accuracy, and even outperform models with thousands of trainable\nparameters when applied to smaller datasets. The identified master key filters\nclosely match Difference of Gaussians (DoGs), Gaussians, and their derivatives,\nstructures that are not only fundamental to classical image processing but also\nstrikingly similar to receptive fields in mammalian visual systems. Our\nfindings provide compelling evidence that depthwise convolutional layers\nnaturally gravitate toward this fundamental set of spatial operators regardless\nof task or architecture. This work offers new insights for understanding\ngeneralization and transfer learning through the universal language of these\nmaster key filters.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.11711v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.11711v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.11711v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.11711v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.11485": {
+      "title": "Geometric Analysis of Magnetic Labyrinthine Stripe Evolution via U-Net Segmentation",
+      "authors": [
+        "Vinícius Yu Okubo",
+        "Kotaro Shimizu",
+        "B. S. Shivaran",
+        "Gia-Wei Chern",
+        "Hae Yong Kim"
+      ],
+      "published": "2025-09-15T00:23:23+00:00",
+      "updated": "2025-09-15T00:23:23+00:00",
+      "summary": "Labyrinthine stripe patterns are common in many physical systems, yet their\nlack of long-range order makes quantitative characterization challenging. We\ninvestigate the evolution of such patterns in bismuth-doped yttrium iron garnet\n(Bi:YIG) films subjected to a magnetic field annealing protocol. A U-Net deep\nlearning model, trained with synthetic degradations including additive white\nGaussian and Simplex noise, enables robust segmentation of experimental\nmagneto-optical images despite noise and occlusions. Building on this\nsegmentation, we develop a geometric analysis pipeline based on\nskeletonization, graph mapping, and spline fitting, which quantifies local\nstripe propagation through length and curvature measurements. Applying this\nframework to 444 images from 12 annealing protocol trials, we analyze the\ntransition from the \"quenched\" state to a more parallel and coherent \"annealed\"\nstate, and identify two distinct evolution modes (Type A and Type B) linked to\nfield polarity. Our results provide a quantitative analysis of geometric and\ntopological properties in magnetic stripe patterns and offer new insights into\ntheir local structural evolution, and establish a general tool for analyzing\ncomplex labyrinthine systems.",
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "cs.CV"
+      ],
+      "primary_category": "cond-mat.mtrl-sci",
+      "pdf_url": "http://arxiv.org/pdf/2509.11485v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "15 pages, 13 figures. This manuscript has been submitted to IEEE\n  Access for possible publication. It has not yet been peer reviewed or\n  accepted",
+      "entry_id": "http://arxiv.org/abs/2509.11485v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.11485v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.11485v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.11171": {
+      "title": "SPHERE: Semantic-PHysical Engaged REpresentation for 3D Semantic Scene Completion",
+      "authors": [
+        "Zhiwen Yang",
+        "Yuxin Peng"
+      ],
+      "published": "2025-09-14T09:07:41+00:00",
+      "updated": "2025-09-14T09:07:41+00:00",
+      "summary": "Camera-based 3D Semantic Scene Completion (SSC) is a critical task in\nautonomous driving systems, assessing voxel-level geometry and semantics for\nholistic scene perception. While existing voxel-based and plane-based SSC\nmethods have achieved considerable progress, they struggle to capture physical\nregularities for realistic geometric details. On the other hand, neural\nreconstruction methods like NeRF and 3DGS demonstrate superior physical\nawareness, but suffer from high computational cost and slow convergence when\nhandling large-scale, complex autonomous driving scenes, leading to inferior\nsemantic accuracy. To address these issues, we propose the Semantic-PHysical\nEngaged REpresentation (SPHERE) for camera-based SSC, which integrates voxel\nand Gaussian representations for joint exploitation of semantic and physical\ninformation. First, the Semantic-guided Gaussian Initialization (SGI) module\nleverages dual-branch 3D scene representations to locate focal voxels as\nanchors to guide efficient Gaussian initialization. Then, the Physical-aware\nHarmonics Enhancement (PHE) module incorporates semantic spherical harmonics to\nmodel physical-aware contextual details and promote semantic-geometry\nconsistency through focal distribution alignment, generating SSC results with\nrealistic details. Extensive experiments and analyses on the popular\nSemanticKITTI and SSCBench-KITTI-360 benchmarks validate the effectiveness of\nSPHERE. The code is available at\nhttps://github.com/PKU-ICST-MIPL/SPHERE_ACMMM2025.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.11171v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "10 pages, 6 figures",
+      "entry_id": "http://arxiv.org/abs/2509.11171v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.11171v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.11171v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2509.11054": {
+      "title": "Rate-Distortion Limits for Multimodal Retrieval: Theory, Optimal Codes, and Finite-Sample Guarantees",
+      "authors": [
+        "Thomas Y. Chen"
+      ],
+      "published": "2025-09-14T02:45:56+00:00",
+      "updated": "2025-09-14T02:45:56+00:00",
+      "summary": "We establish the first information-theoretic limits for multimodal retrieval.\nCasting ranking as lossy source coding, we derive a single-letter\nrate-distortion function $R(D)$ for reciprocal-rank distortion and prove a\nconverse bound that splits into a modality-balanced term plus a skew penalty\n$\\kappa\\,\\Delta H$ capturing entropy imbalance and cross-modal redundancy. We\nthen construct an explicit entropy-weighted stochastic quantizer with an\nadaptive, per-modality temperature decoder; a Blahut-Arimoto argument shows\nthis scheme achieves distortion within $O(n^{-1})$ of $R(D)$ using $n$ training\ntriples. A VC-type analysis yields the first finite-sample excess-risk bound\nwhose complexity scales sub-linearly in both the number of modalities and the\nentropy gap. Experiments on controlled Gaussian mixtures and Flickr30k confirm\nthat our adaptive codes sit within two percentage points of the theoretical\nfrontier, while fixed-temperature and naive CLIP baselines lag significantly.\nTaken together, our results give a principled answer to \"how many bits per\nquery are necessary\" for high-quality multimodal retrieval and provide design\nguidance for entropy-aware contrastive objectives, continual-learning\nretrievers, and retrieval-augmented generators.",
+      "categories": [
+        "cs.IT",
+        "cs.CV",
+        "math.IT"
+      ],
+      "primary_category": "cs.IT",
+      "pdf_url": "http://arxiv.org/pdf/2509.11054v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "ICCV MRR 2025",
+      "entry_id": "http://arxiv.org/abs/2509.11054v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.11054v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.11054v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.10948": {
+      "title": "ViSTR-GP: Online Cyberattack Detection via Vision-to-State Tensor Regression and Gaussian Processes in Automated Robotic Operations",
+      "authors": [
+        "Navid Aftabi",
+        "Philip Samaha",
+        "Jin Ma",
+        "Long Cheng",
+        "Ramy Harik",
+        "Dan Li"
+      ],
+      "published": "2025-09-13T19:10:35+00:00",
+      "updated": "2025-09-13T19:10:35+00:00",
+      "summary": "Industrial robotic systems are central to automating smart manufacturing\noperations. Connected and automated factories face growing cybersecurity risks\nthat can potentially cause interruptions and damages to physical operations.\nAmong these attacks, data-integrity attacks often involve sophisticated\nexploitation of vulnerabilities that enable an attacker to access and\nmanipulate the operational data and are hence difficult to detect with only\nexisting intrusion detection or model-based detection. This paper addresses the\nchallenges in utilizing existing side-channels to detect data-integrity attacks\nin robotic manufacturing processes by developing an online detection framework,\nViSTR-GP, that cross-checks encoder-reported measurements against a\nvision-based estimate from an overhead camera outside the controller's\nauthority. In this framework, a one-time interactive segmentation initializes\nSAM-Track to generate per-frame masks. A low-rank tensor-regression surrogate\nmaps each mask to measurements, while a matrix-variate Gaussian process models\nnominal residuals, capturing temporal structure and cross-joint correlations. A\nframe-wise test statistic derived from the predictive distribution provides an\nonline detector with interpretable thresholds. We validate the framework on a\nreal-world robotic testbed with synchronized video frame and encoder data,\ncollecting multiple nominal cycles and constructing replay attack scenarios\nwith graded end-effector deviations. Results on the testbed indicate that the\nproposed framework recovers joint angles accurately and detects data-integrity\nattacks earlier with more frequent alarms than all baselines. These\nimprovements are most evident in the most subtle attacks. These results show\nthat plants can detect data-integrity attacks by adding an independent physical\nchannel, bypassing the controller's authority, without needing complex\ninstrumentation.",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CR",
+        "cs.SY",
+        "eess.SY",
+        "math.OC"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "http://arxiv.org/pdf/2509.10948v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.10948v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.10948v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.10948v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2509.09427": {
       "title": "FS-Diff: Semantic guidance and clarity-aware simultaneous multimodal image fusion and super-resolution",
       "authors": [
@@ -56,7 +351,9 @@
       "updated": "2025-09-11T06:27:10+00:00",
       "summary": "We propose FSPO (Fair Sequence Policy Optimization), a sequence-level\nreinforcement learning method for LLMs that enforces length-fair clipping\ndirectly in the importance-sampling (IS) weight space. We revisit\nsequence-level RL methods and identify a mismatch when PPO/GRPO-style clipping\nis transplanted to sequences: a fixed clip range systematically reweights short\nvs. long responses, distorting the effective objective. Theoretically, we\nformalize length fairness via a Length Reweighting Error (LRE) and prove that\nsmall LRE yields a directional cosine guarantee between the clipped and true\nupdates. FSPO introduces a simple, Gaussian-motivated remedy: we clip the\nsequence log-IS ratio with a band that applies a KL-corrected drift term and\nscales as $\\sqrt{L}$. Empirically, FSPO flattens clip rates across length bins,\nstabilizes training, and outperforms all baselines across multiple evaluation\ndatasets.",
       "categories": [
-        "cs.LG"
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
       ],
       "primary_category": "cs.LG",
       "pdf_url": "http://arxiv.org/pdf/2509.09177v1",
@@ -58422,6 +58719,75 @@
     }
   },
   "MVS": {
+    "2509.11853": {
+      "title": "Segmentation-Driven Initialization for Sparse-view 3D Gaussian Splatting",
+      "authors": [
+        "Yi-Hsin Li",
+        "Thomas Sikora",
+        "Sebastian Knorr",
+        "Måarten Sjöström"
+      ],
+      "published": "2025-09-15T12:31:33+00:00",
+      "updated": "2025-09-15T12:31:33+00:00",
+      "summary": "Sparse-view synthesis remains a challenging problem due to the difficulty of\nrecovering accurate geometry and appearance from limited observations. While\nrecent advances in 3D Gaussian Splatting (3DGS) have enabled real-time\nrendering with competitive quality, existing pipelines often rely on\nStructure-from-Motion (SfM) for camera pose estimation, an approach that\nstruggles in genuinely sparse-view settings. Moreover, several SfM-free methods\nreplace SfM with multi-view stereo (MVS) models, but generate massive numbers\nof 3D Gaussians by back-projecting every pixel into 3D space, leading to high\nmemory costs. We propose Segmentation-Driven Initialization for Gaussian\nSplatting (SDI-GS), a method that mitigates inefficiency by leveraging\nregion-based segmentation to identify and retain only structurally significant\nregions. This enables selective downsampling of the dense point cloud,\npreserving scene fidelity while substantially reducing Gaussian count.\nExperiments across diverse benchmarks show that SDI-GS reduces Gaussian count\nby up to 50% and achieves comparable or superior rendering quality in PSNR and\nSSIM, with only marginal degradation in LPIPS. It further enables faster\ntraining and lower memory footprint, advancing the practicality of 3DGS for\nconstrained-view scenarios.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.11853v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.11853v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.11853v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.11853v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2509.11097": {
+      "title": "3DAeroRelief: The first 3D Benchmark UAV Dataset for Post-Disaster Assessment",
+      "authors": [
+        "Nhut Le",
+        "Ehsan Karimi",
+        "Maryam Rahnemoonfar"
+      ],
+      "published": "2025-09-14T05:27:19+00:00",
+      "updated": "2025-09-14T05:27:19+00:00",
+      "summary": "Timely assessment of structural damage is critical for disaster response and\nrecovery. However, most prior work in natural disaster analysis relies on 2D\nimagery, which lacks depth, suffers from occlusions, and provides limited\nspatial context. 3D semantic segmentation offers a richer alternative, but\nexisting 3D benchmarks focus mainly on urban or indoor scenes, with little\nattention to disaster-affected areas. To address this gap, we present\n3DAeroRelief--the first 3D benchmark dataset specifically designed for\npost-disaster assessment. Collected using low-cost unmanned aerial vehicles\n(UAVs) over hurricane-damaged regions, the dataset features dense 3D point\nclouds reconstructed via Structure-from-Motion and Multi-View Stereo\ntechniques. Semantic annotations were produced through manual 2D labeling and\nprojected into 3D space. Unlike existing datasets, 3DAeroRelief captures 3D\nlarge-scale outdoor environments with fine-grained structural damage in\nreal-world disaster contexts. UAVs enable affordable, flexible, and safe data\ncollection in hazardous areas, making them particularly well-suited for\nemergency scenarios. To demonstrate the utility of 3DAeroRelief, we evaluate\nseveral state-of-the-art 3D segmentation models on the dataset to highlight\nboth the challenges and opportunities of 3D scene understanding in disaster\nresponse. Our dataset serves as a valuable resource for advancing robust 3D\nvision systems in real-world applications for post-disaster scenarios.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.11097v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.11097v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.11097v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.11097v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2509.01469": {
       "title": "Im2Haircut: Single-view Strand-based Hair Reconstruction for Human Avatars",
       "authors": [
@@ -72673,6 +73039,80 @@
     }
   },
   "Depth Estimation": {
+    "2509.11885": {
+      "title": "BREA-Depth: Bronchoscopy Realistic Airway-geometric Depth Estimation",
+      "authors": [
+        "Francis Xiatian Zhang",
+        "Emile Mackute",
+        "Mohammadreza Kasaei",
+        "Kevin Dhaliwal",
+        "Robert Thomson",
+        "Mohsen Khadem"
+      ],
+      "published": "2025-09-15T13:02:42+00:00",
+      "updated": "2025-09-15T13:02:42+00:00",
+      "summary": "Monocular depth estimation in bronchoscopy can significantly improve\nreal-time navigation accuracy and enhance the safety of interventions in\ncomplex, branching airways. Recent advances in depth foundation models have\nshown promise for endoscopic scenarios, yet these models often lack anatomical\nawareness in bronchoscopy, overfitting to local textures rather than capturing\nthe global airway structure, particularly under ambiguous depth cues and poor\nlighting. To address this, we propose Brea-Depth, a novel framework that\nintegrates airway-specific geometric priors into foundation model adaptation\nfor bronchoscopic depth estimation. Our method introduces a depth-aware\nCycleGAN, refining the translation between real bronchoscopic images and airway\ngeometries from anatomical data, effectively bridging the domain gap. In\naddition, we introduce an airway structure awareness loss to enforce depth\nconsistency within the airway lumen while preserving smooth transitions and\nstructural integrity. By incorporating anatomical priors, Brea-Depth enhances\nmodel generalization and yields more robust, accurate 3D airway\nreconstructions. To assess anatomical realism, we introduce Airway Depth\nStructure Evaluation, a new metric for structural consistency. We validate\nBREA-Depth on a collected ex vivo human lung dataset and an open bronchoscopic\ndataset, where it outperforms existing methods in anatomical depth\npreservation.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.11885v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "The paper has been accepted to MICCAI 2025",
+      "entry_id": "http://arxiv.org/abs/2509.11885v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.11885v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.11885v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2509.11071": {
+      "title": "The System Description of CPS Team for Track on Driving with Language of CVPR 2024 Autonomous Grand Challenge",
+      "authors": [
+        "Jinghan Peng",
+        "Jingwen Wang",
+        "Xing Yu",
+        "Dehui Du"
+      ],
+      "published": "2025-09-14T03:37:17+00:00",
+      "updated": "2025-09-14T03:37:17+00:00",
+      "summary": "This report outlines our approach using vision language model systems for the\nDriving with Language track of the CVPR 2024 Autonomous Grand Challenge. We\nhave exclusively utilized the DriveLM-nuScenes dataset for training our models.\nOur systems are built on the LLaVA models, which we enhanced through\nfine-tuning with the LoRA and DoRA methods. Additionally, we have integrated\ndepth information from open-source depth estimation models to enrich the\ntraining and inference processes. For inference, particularly with\nmultiple-choice and yes/no questions, we adopted a Chain-of-Thought reasoning\napproach to improve the accuracy of the results. This comprehensive methodology\nenabled us to achieve a top score of 0.7799 on the validation set leaderboard,\nranking 1st on the leaderboard.",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.11071v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.11071v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.11071v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.11071v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2509.08712": {
       "title": "Computational Imaging for Enhanced Computer Vision",
       "authors": [
