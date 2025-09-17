@@ -1,4 +1,4 @@
-## Updated at 2025-09-16 20:09:27
+## Updated at 2025-09-17 20:07:59
 
 ## 3DGS Semantic
 
@@ -8,6 +8,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-09-16**|**[Beyond Averages: Open-Vocabulary 3D Scene Understanding with Gaussian Splatting and Bag of Embeddings](https://arxiv.org/abs/2509.12938)**|N/A|None|cs.CV|None|Abdalla Arafa, Didier Stricker|
 |**2025-09-14**|**[SPHERE: Semantic-PHysical Engaged REpresentation for 3D Semantic Scene Completion](https://arxiv.org/abs/2509.11171)**|N/A|10 pages, 6 figures|cs.CV|None|Zhiwen Yang, Yuxin Peng|
 |**2025-09-09**|**[OmniMap: A General Mapping Framework Integrating Optics, Geometry, and Semantics](https://arxiv.org/abs/2509.07500)**|N/A|Accepted by IEEE Transactions on Robotics (TRO), project website: https://omni-map.github.io/|cs.RO|None|Yinan Deng et al.|
 |**2025-09-05**|**[Visibility-Aware Language Aggregation for Open-Vocabulary Segmentation in 3D Gaussian Splatting](https://arxiv.org/abs/2509.05515)**|N/A|None|cs.CV|None|Sen Wang et al.|

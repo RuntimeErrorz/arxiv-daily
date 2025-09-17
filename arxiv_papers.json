@@ -1,5 +1,114 @@
 {
   "3DGS Semantic": {
+    "2509.13194": {
+      "title": "Distinguishing Majorana bound states from accidental zero-energy modes with a microwave cavity",
+      "authors": [
+        "Sarath Prem",
+        "Olesia Dmytruk",
+        "Mircea Trif"
+      ],
+      "published": "2025-09-16T15:56:58+00:00",
+      "updated": "2025-09-16T15:56:58+00:00",
+      "summary": "Transport measurements of hybrid nanowires often rely on the observation of a\nzero-bias conductance peak as a hallmark of Majorana bound states (MBSs).\nHowever, such signatures can also be produced by trivial zero-energy Andreev\nbound states (ABSs) or by quasi-Majorana bound states (QMBSs), complicating\ntheir unambiguous identification. Here we propose microwave absorption\nvisibility, extracted from parity-dependent cavity-nanowire susceptibility\nmeasurements, as a complementary probe of MBSs nonlocality. We study a Rashba\nspin-orbit nanowire consisting of a proximitized superconducting segment and an\nuncovered quantum-dot region, capacitively coupled to a single-mode microwave\ncavity. We show that true MBSs yield finite visibility only when both MBSs are\nsimultaneously coupled to the cavity, reflecting their intrinsic nonlocality.\nIn contrast, ABSs and QMBSs exhibit visibility extrema even when the cavity\ncouples only locally to part of the nanowire. We further demonstrate that this\ndistinction persists in the presence of Gaussian disorder, which may otherwise\ngenerate trivial subgap states. Motivated by recent experiments, we also\nanalyze ``poor man's\" Majoranas in double-quantum-dot setups, where analytical\nresults confirm the same nonlocal visibility criterion. Finally, we discuss a\ncavity-driven scheme for initializing the electronic system in a given parity\nstate. Our results establish cavity-based visibility as a robust and versatile\nprobe of MBSs, providing a clear route to distinguish them from trivial\nzero-energy states in hybrid superconducting platforms.",
+      "categories": [
+        "cond-mat.mes-hall"
+      ],
+      "primary_category": "cond-mat.mes-hall",
+      "pdf_url": "http://arxiv.org/pdf/2509.13194v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.13194v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.13194v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.13194v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.12938": {
+      "title": "Beyond Averages: Open-Vocabulary 3D Scene Understanding with Gaussian Splatting and Bag of Embeddings",
+      "authors": [
+        "Abdalla Arafa",
+        "Didier Stricker"
+      ],
+      "published": "2025-09-16T10:39:37+00:00",
+      "updated": "2025-09-16T10:39:37+00:00",
+      "summary": "Novel view synthesis has seen significant advancements with 3D Gaussian\nSplatting (3DGS), enabling real-time photorealistic rendering. However, the\ninherent fuzziness of Gaussian Splatting presents challenges for 3D scene\nunderstanding, restricting its broader applications in AR/VR and robotics.\nWhile recent works attempt to learn semantics via 2D foundation model\ndistillation, they inherit fundamental limitations: alpha blending averages\nsemantics across objects, making 3D-level understanding impossible. We propose\na paradigm-shifting alternative that bypasses differentiable rendering for\nsemantics entirely. Our key insight is to leverage predecomposed object-level\nGaussians and represent each object through multiview CLIP feature aggregation,\ncreating comprehensive \"bags of embeddings\" that holistically describe objects.\nThis allows: (1) accurate open-vocabulary object retrieval by comparing text\nqueries to object-level (not Gaussian-level) embeddings, and (2) seamless task\nadaptation: propagating object IDs to pixels for 2D segmentation or to\nGaussians for 3D extraction. Experiments demonstrate that our method\neffectively overcomes the challenges of 3D open-vocabulary object extraction\nwhile remaining comparable to state-of-the-art performance in 2D\nopen-vocabulary segmentation, ensuring minimal compromise.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.12938v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.12938v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.12938v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.12938v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2509.12931": {
+      "title": "4DRadar-GS: Self-Supervised Dynamic Driving Scene Reconstruction with 4D Radar",
+      "authors": [
+        "Xiao Tang",
+        "Guirong Zhuo",
+        "Cong Wang",
+        "Boyuan Zheng",
+        "Minqing Huang",
+        "Lianqing Zheng",
+        "Long Chen",
+        "Shouyi Lu"
+      ],
+      "published": "2025-09-16T10:29:43+00:00",
+      "updated": "2025-09-16T10:29:43+00:00",
+      "summary": "3D reconstruction and novel view synthesis are critical for validating\nautonomous driving systems and training advanced perception models. Recent\nself-supervised methods have gained significant attention due to their\ncost-effectiveness and enhanced generalization in scenarios where annotated\nbounding boxes are unavailable. However, existing approaches, which often rely\non frequency-domain decoupling or optical flow, struggle to accurately\nreconstruct dynamic objects due to imprecise motion estimation and weak\ntemporal consistency, resulting in incomplete or distorted representations of\ndynamic scene elements. To address these challenges, we propose 4DRadar-GS, a\n4D Radar-augmented self-supervised 3D reconstruction framework tailored for\ndynamic driving scenes. Specifically, we first present a 4D Radar-assisted\nGaussian initialization scheme that leverages 4D Radar's velocity and spatial\ninformation to segment dynamic objects and recover monocular depth scale,\ngenerating accurate Gaussian point representations. In addition, we propose a\nVelocity-guided PointTrack (VGPT) model, which is jointly trained with the\nreconstruction pipeline under scene flow supervision, to track fine-grained\ndynamic trajectories and construct temporally consistent representations.\nEvaluated on the OmniHD-Scenes dataset, 4DRadar-GS achieves state-of-the-art\nperformance in dynamic driving scene 3D reconstruction.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.12931v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.12931v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.12931v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.12931v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2509.12142": {
       "title": "Secure Semantic Communication over Wiretap Channels: Rate-Distortion-Equivocation Tradeoff",
       "authors": [
@@ -183,6 +292,40 @@
       ],
       "llm_approved": false
     },
+    "2509.12285": {
+      "title": "Deriving the Scaled-Dot-Function via Maximum Likelihood Estimation and Maximum Entropy Approach",
+      "authors": [
+        "Jiyong Ma"
+      ],
+      "published": "2025-09-14T19:52:32+00:00",
+      "updated": "2025-09-14T19:52:32+00:00",
+      "summary": "In this paper, we present a maximum likelihood estimation approach to\ndetermine the value vector in transformer models. We model the sequence of\nvalue vectors, key vectors, and the query vector as a sequence of Gaussian\ndistributions. The variance in each Gaussian distribution depends on the time\nstep, the corresponding key vector, and the query vector. The mean value in\neach Gaussian distribution depends on the time step, and the corresponding\nvalue vector. This analysis may offer a new explanation of the\nscaled-dot-product function or softmax function used in transformer\narchitectures [1]. Another explanation, inspired by [4], is based on the\nmaximum entropy approach in natural language processing [5]. In this approach,\na query vector and key vectors are used to derive the feature functions for the\nmaximum entropy model.",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "http://arxiv.org/pdf/2509.12285v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.12285v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.12285v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.12285v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2509.11171": {
       "title": "SPHERE: Semantic-PHysical Engaged REpresentation for 3D Semantic Scene Completion",
       "authors": [
@@ -215,7 +358,15 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-09-17",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2509.11054": {
       "title": "Rate-Distortion Limits for Multimodal Retrieval: Theory, Optimal Codes, and Finite-Sample Guarantees",
@@ -970,33 +1121,33 @@
       "authors": [
         "Hannah Schieber",
         "Dominik Frischmann",
-        "Simon Boche",
         "Victor Schaack",
+        "Simon Boche",
         "Angela Schoellig",
         "Stefan Leutenegger",
         "Daniel Roth"
       ],
       "published": "2025-09-05T07:21:26+00:00",
-      "updated": "2025-09-05T07:21:26+00:00",
-      "summary": "Mobile reconstruction for autonomous aerial robotics holds strong potential\nfor critical applications such as tele-guidance and disaster response. These\ntasks demand both accurate 3D reconstruction and fast scene processing. Instead\nof reconstructing the entire scene in detail, it is often more efficient to\nfocus on specific objects, i.e., points of interest (PoIs). Mobile robots\nequipped with advanced sensing can usually detect these early during data\nacquisition or preliminary analysis, reducing the need for full-scene\noptimization. Gaussian Splatting (GS) has recently shown promise in delivering\nhigh-quality novel view synthesis and 3D representation by an incremental\nlearning process. Extending GS with scene editing, semantics adds useful\nper-splat features to isolate objects effectively.\n  Semantic 3D Gaussian editing can already be achieved before the full training\ncycle is completed, reducing the overall training time. Moreover, the\nsemantically relevant area, the PoI, is usually already known during capturing.\nTo balance high-quality reconstruction with reduced training time, we propose\nCoRe-GS. We first generate a coarse segmentation-ready scene with semantic GS\nand then refine it for the semantic object using our novel color-based\neffective filtering for effective object isolation. This is speeding up the\ntraining process to be about a quarter less than a full training cycle for\nsemantic GS. We evaluate our approach on two datasets, SCRREAM (real-world,\noutdoor) and NeRDS 360 (synthetic, indoor), showing reduced runtime and higher\nnovel-view-synthesis quality.",
+      "updated": "2025-09-16T08:36:06+00:00",
+      "summary": "Mobile reconstruction has the potential to support time-critical tasks such\nas tele-guidance and disaster response, where operators must quickly gain an\naccurate understanding of the environment. Full high-fidelity scene\nreconstruction is computationally expensive and often unnecessary when only\nspecific points of interest (POIs) matter for timely decision making. We\naddress this challenge with CoRe-GS, a semantic POI-focused extension of\nGaussian Splatting (GS). Instead of optimizing every scene element uniformly,\nCoRe-GS first produces a fast segmentation-ready GS representation and then\nselectively refines splats belonging to semantically relevant POIs detected\nduring data acquisition. This targeted refinement reduces training time to 25\\%\ncompared to full semantic GS while improving novel view synthesis quality in\nthe areas that matter most. We validate CoRe-GS on both real-world (SCRREAM)\nand synthetic (NeRDS 360) datasets, demonstrating that prioritizing POIs\nenables faster and higher-quality mobile reconstruction tailored to operational\nneeds.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "http://arxiv.org/pdf/2509.04859v1",
+      "pdf_url": "http://arxiv.org/pdf/2509.04859v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2509.04859v1",
+      "entry_id": "http://arxiv.org/abs/2509.04859v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2509.04859v1",
+          "href": "http://arxiv.org/abs/2509.04859v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2509.04859v1",
+          "href": "http://arxiv.org/pdf/2509.04859v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
