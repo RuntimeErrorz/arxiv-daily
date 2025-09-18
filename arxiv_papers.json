@@ -1,5 +1,110 @@
 {
   "3DGS Semantic": {
+    "2509.14063": {
+      "title": "Language Conditioning Improves Accuracy of Aircraft Goal Prediction in Untowered Airspace",
+      "authors": [
+        "Sundhar Vinodh Sangeetha",
+        "Chih-Yuan Chiu",
+        "Sarah H. Q. Li",
+        "Shreyas Kousik"
+      ],
+      "published": "2025-09-17T15:09:12+00:00",
+      "updated": "2025-09-17T15:09:12+00:00",
+      "summary": "Autonomous aircraft must safely operate in untowered airspace, where\ncoordination relies on voice-based communication among human pilots. Safe\noperation requires an aircraft to predict the intent, and corresponding goal\nlocation, of other aircraft. This paper introduces a multimodal framework for\naircraft goal prediction that integrates natural language understanding with\nspatial reasoning to improve autonomous decision-making in such environments.\nWe leverage automatic speech recognition and large language models to\ntranscribe and interpret pilot radio calls, identify aircraft, and extract\ndiscrete intent labels. These intent labels are fused with observed\ntrajectories to condition a temporal convolutional network and Gaussian mixture\nmodel for probabilistic goal prediction. Our method significantly reduces goal\nprediction error compared to baselines that rely solely on motion history,\ndemonstrating that language-conditioned prediction increases prediction\naccuracy. Experiments on a real-world dataset from an untowered airport\nvalidate the approach and highlight its potential to enable socially aware,\nlanguage-conditioned robotic motion planning.",
+      "categories": [
+        "cs.RO"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "http://arxiv.org/pdf/2509.14063v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "The last two authors advised equally. Submitted to the 2026 IEEE\n  International Conference on Robotics and Automation. 8 pages, 6 figures",
+      "entry_id": "http://arxiv.org/abs/2509.14063v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.14063v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.14063v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.13652": {
+      "title": "Gaussian Alignment for Relative Camera Pose Estimation via Single-View Reconstruction",
+      "authors": [
+        "Yumin Li",
+        "Dylan Campbell"
+      ],
+      "published": "2025-09-17T02:57:34+00:00",
+      "updated": "2025-09-17T02:57:34+00:00",
+      "summary": "Estimating metric relative camera pose from a pair of images is of great\nimportance for 3D reconstruction and localisation. However, conventional\ntwo-view pose estimation methods are not metric, with camera translation known\nonly up to a scale, and struggle with wide baselines and textureless or\nreflective surfaces. This paper introduces GARPS, a training-free framework\nthat casts this problem as the direct alignment of two independently\nreconstructed 3D scenes. GARPS leverages a metric monocular depth estimator and\na Gaussian scene reconstructor to obtain a metric 3D Gaussian Mixture Model\n(GMM) for each image. It then refines an initial pose from a feed-forward\ntwo-view pose estimator by optimising a differentiable GMM alignment objective.\nThis objective jointly considers geometric structure, view-independent colour,\nanisotropic covariance, and semantic feature consistency, and is robust to\nocclusions and texture-poor regions without requiring explicit 2D\ncorrespondences. Extensive experiments on the Real\\-Estate10K dataset\ndemonstrate that GARPS outperforms both classical and state-of-the-art\nlearning-based methods, including MASt3R. These results highlight the potential\nof bridging single-view perception with multi-view geometry to achieve robust\nand metric relative pose estimation.",
+      "categories": [
+        "cs.CV",
+        "I.4.8; I.4.5"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.13652v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "12 pages, 4 figures, accepted by AJCAI 2025",
+      "entry_id": "http://arxiv.org/abs/2509.13652v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.13652v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.13652v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.13590": {
+      "title": "Intelligent Healthcare Imaging Platform An VLM-Based Framework for Automated Medical Image Analysis and Clinical Report Generation",
+      "authors": [
+        "Samer Al-Hamadani"
+      ],
+      "published": "2025-09-16T23:15:44+00:00",
+      "updated": "2025-09-16T23:15:44+00:00",
+      "summary": "The rapid advancement of artificial intelligence (AI) in healthcare imaging\nhas revolutionized diagnostic medicine and clinical decision-making processes.\nThis work presents an intelligent multimodal framework for medical image\nanalysis that leverages Vision-Language Models (VLMs) in healthcare\ndiagnostics. The framework integrates Google Gemini 2.5 Flash for automated\ntumor detection and clinical report generation across multiple imaging\nmodalities including CT, MRI, X-ray, and Ultrasound. The system combines visual\nfeature extraction with natural language processing to enable contextual image\ninterpretation, incorporating coordinate verification mechanisms and\nprobabilistic Gaussian modeling for anomaly distribution. Multi-layered\nvisualization techniques generate detailed medical illustrations, overlay\ncomparisons, and statistical representations to enhance clinical confidence,\nwith location measurement achieving 80 pixels average deviation. Result\nprocessing utilizes precise prompt engineering and textual analysis to extract\nstructured clinical information while maintaining interpretability.\nExperimental evaluations demonstrated high performance in anomaly detection\nacross multiple modalities. The system features a user-friendly Gradio\ninterface for clinical workflow integration and demonstrates zero-shot learning\ncapabilities to reduce dependence on large datasets. This framework represents\na significant advancement in automated diagnostic support and radiological\nworkflow efficiency, though clinical validation and multi-center evaluation are\nnecessary prior to widespread adoption.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.13590v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "32 pages, 14 figures, 6 tables",
+      "entry_id": "http://arxiv.org/abs/2509.13590v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.13590v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.13590v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2509.13194": {
       "title": "Distinguishing Majorana bound states from accidental zero-energy modes with a microwave cavity",
       "authors": [
@@ -58878,6 +58983,57 @@
     }
   },
   "MVS": {
+    "2509.13414": {
+      "title": "MapAnything: Universal Feed-Forward Metric 3D Reconstruction",
+      "authors": [
+        "Nikhil Keetha",
+        "Norman Müller",
+        "Johannes Schönberger",
+        "Lorenzo Porzi",
+        "Yuchen Zhang",
+        "Tobias Fischer",
+        "Arno Knapitsch",
+        "Duncan Zauss",
+        "Ethan Weber",
+        "Nelson Antunes",
+        "Jonathon Luiten",
+        "Manuel Lopez-Antequera",
+        "Samuel Rota Bulò",
+        "Christian Richardt",
+        "Deva Ramanan",
+        "Sebastian Scherer",
+        "Peter Kontschieder"
+      ],
+      "published": "2025-09-16T18:00:14+00:00",
+      "updated": "2025-09-16T18:00:14+00:00",
+      "summary": "We introduce MapAnything, a unified transformer-based feed-forward model that\ningests one or more images along with optional geometric inputs such as camera\nintrinsics, poses, depth, or partial reconstructions, and then directly\nregresses the metric 3D scene geometry and cameras. MapAnything leverages a\nfactored representation of multi-view scene geometry, i.e., a collection of\ndepth maps, local ray maps, camera poses, and a metric scale factor that\neffectively upgrades local reconstructions into a globally consistent metric\nframe. Standardizing the supervision and training across diverse datasets,\nalong with flexible input augmentation, enables MapAnything to address a broad\nrange of 3D vision tasks in a single feed-forward pass, including uncalibrated\nstructure-from-motion, calibrated multi-view stereo, monocular depth\nestimation, camera localization, depth completion, and more. We provide\nextensive experimental analyses and model ablations demonstrating that\nMapAnything outperforms or matches specialist feed-forward models while\noffering more efficient joint training behavior, thus paving the way toward a\nuniversal 3D reconstruction backbone.",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.13414v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Project Page: https://map-anything.github.io/",
+      "entry_id": "http://arxiv.org/abs/2509.13414v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.13414v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.13414v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2509.11853": {
       "title": "Segmentation-Driven Initialization for Sparse-view 3D Gaussian Splatting",
       "authors": [
@@ -73198,6 +73354,201 @@
     }
   },
   "Depth Estimation": {
+    "2509.13713": {
+      "title": "UM-Depth : Uncertainty Masked Self-Supervised Monocular Depth Estimation with Visual Odometry",
+      "authors": [
+        "Tae-Wook Um",
+        "Ki-Hyeon Kim",
+        "Hyun-Duck Choi",
+        "Hyo-Sung Ahn"
+      ],
+      "published": "2025-09-17T05:51:07+00:00",
+      "updated": "2025-09-17T05:51:07+00:00",
+      "summary": "Monocular depth estimation has been increasingly adopted in robotics and\nautonomous driving for its ability to infer scene geometry from a single\ncamera. In self-supervised monocular depth estimation frameworks, the network\njointly generates and exploits depth and pose estimates during training,\nthereby eliminating the need for depth labels. However, these methods remain\nchallenged by uncertainty in the input data, such as low-texture or dynamic\nregions, which can cause reduced depth accuracy. To address this, we introduce\nUM-Depth, a framework that combines motion- and uncertainty-aware refinement to\nenhance depth accuracy at dynamic object boundaries and in textureless regions.\nSpecifically, we develop a teacherstudent training strategy that embeds\nuncertainty estimation into both the training pipeline and network\narchitecture, thereby strengthening supervision where photometric signals are\nweak. Unlike prior motion-aware approaches that incur inference-time overhead\nand rely on additional labels or auxiliary networks for real-time generation,\nour method uses optical flow exclusively within the teacher network during\ntraining, which eliminating extra labeling demands and any runtime cost.\nExtensive experiments on the KITTI and Cityscapes datasets demonstrate the\neffectiveness of our uncertainty-aware refinement. Overall, UM-Depth achieves\nstate-of-the-art results in both self-supervised depth and pose estimation on\nthe KITTI datasets.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.13713v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.13713v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.13713v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.13713v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2509.13652": {
+      "title": "Gaussian Alignment for Relative Camera Pose Estimation via Single-View Reconstruction",
+      "authors": [
+        "Yumin Li",
+        "Dylan Campbell"
+      ],
+      "published": "2025-09-17T02:57:34+00:00",
+      "updated": "2025-09-17T02:57:34+00:00",
+      "summary": "Estimating metric relative camera pose from a pair of images is of great\nimportance for 3D reconstruction and localisation. However, conventional\ntwo-view pose estimation methods are not metric, with camera translation known\nonly up to a scale, and struggle with wide baselines and textureless or\nreflective surfaces. This paper introduces GARPS, a training-free framework\nthat casts this problem as the direct alignment of two independently\nreconstructed 3D scenes. GARPS leverages a metric monocular depth estimator and\na Gaussian scene reconstructor to obtain a metric 3D Gaussian Mixture Model\n(GMM) for each image. It then refines an initial pose from a feed-forward\ntwo-view pose estimator by optimising a differentiable GMM alignment objective.\nThis objective jointly considers geometric structure, view-independent colour,\nanisotropic covariance, and semantic feature consistency, and is robust to\nocclusions and texture-poor regions without requiring explicit 2D\ncorrespondences. Extensive experiments on the Real\\-Estate10K dataset\ndemonstrate that GARPS outperforms both classical and state-of-the-art\nlearning-based methods, including MASt3R. These results highlight the potential\nof bridging single-view perception with multi-view geometry to achieve robust\nand metric relative pose estimation.",
+      "categories": [
+        "cs.CV",
+        "I.4.8; I.4.5"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.13652v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "12 pages, 4 figures, accepted by AJCAI 2025",
+      "entry_id": "http://arxiv.org/abs/2509.13652v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.13652v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.13652v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2509.13525": {
+      "title": "ColonCrafter: A Depth Estimation Model for Colonoscopy Videos Using Diffusion Priors",
+      "authors": [
+        "Romain Hardy",
+        "Tyler Berzin",
+        "Pranav Rajpurkar"
+      ],
+      "published": "2025-09-16T20:40:22+00:00",
+      "updated": "2025-09-16T20:40:22+00:00",
+      "summary": "Three-dimensional (3D) scene understanding in colonoscopy presents\nsignificant challenges that necessitate automated methods for accurate depth\nestimation. However, existing depth estimation models for endoscopy struggle\nwith temporal consistency across video sequences, limiting their applicability\nfor 3D reconstruction. We present ColonCrafter, a diffusion-based depth\nestimation model that generates temporally consistent depth maps from monocular\ncolonoscopy videos. Our approach learns robust geometric priors from synthetic\ncolonoscopy sequences to generate temporally consistent depth maps. We also\nintroduce a style transfer technique that preserves geometric structure while\nadapting real clinical videos to match our synthetic training domain.\nColonCrafter achieves state-of-the-art zero-shot performance on the C3VD\ndataset, outperforming both general-purpose and endoscopy-specific approaches.\nAlthough full trajectory 3D reconstruction remains a challenge, we demonstrate\nclinically relevant applications of ColonCrafter, including 3D point cloud\ngeneration and surface coverage assessment.",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.13525v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "12 pages, 8 figures",
+      "entry_id": "http://arxiv.org/abs/2509.13525v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.13525v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.13525v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2509.13484": {
+      "title": "MINGLE: VLMs for Semantically Complex Region Detection in Urban Scenes",
+      "authors": [
+        "Liu Liu",
+        "Alexandra Kudaeva",
+        "Marco Cipriano",
+        "Fatimeh Al Ghannam",
+        "Freya Tan",
+        "Gerard de Melo",
+        "Andres Sevtsuk"
+      ],
+      "published": "2025-09-16T19:31:40+00:00",
+      "updated": "2025-09-16T19:31:40+00:00",
+      "summary": "Understanding group-level social interactions in public spaces is crucial for\nurban planning, informing the design of socially vibrant and inclusive\nenvironments. Detecting such interactions from images involves interpreting\nsubtle visual cues such as relations, proximity, and co-movement - semantically\ncomplex signals that go beyond traditional object detection. To address this\nchallenge, we introduce a social group region detection task, which requires\ninferring and spatially grounding visual regions defined by abstract\ninterpersonal relations. We propose MINGLE (Modeling INterpersonal Group-Level\nEngagement), a modular three-stage pipeline that integrates: (1) off-the-shelf\nhuman detection and depth estimation, (2) VLM-based reasoning to classify\npairwise social affiliation, and (3) a lightweight spatial aggregation\nalgorithm to localize socially connected groups. To support this task and\nencourage future research, we present a new dataset of 100K urban street-view\nimages annotated with bounding boxes and labels for both individuals and\nsocially interacting groups. The annotations combine human-created labels and\noutputs from the MINGLE pipeline, ensuring semantic richness and broad coverage\nof real-world scenarios.",
+      "categories": [
+        "cs.CV",
+        "cs.CY"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.13484v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "13 pages, 4 figures, under review at AAAI 2026",
+      "entry_id": "http://arxiv.org/abs/2509.13484v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.13484v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.13484v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2509.13414": {
+      "title": "MapAnything: Universal Feed-Forward Metric 3D Reconstruction",
+      "authors": [
+        "Nikhil Keetha",
+        "Norman Müller",
+        "Johannes Schönberger",
+        "Lorenzo Porzi",
+        "Yuchen Zhang",
+        "Tobias Fischer",
+        "Arno Knapitsch",
+        "Duncan Zauss",
+        "Ethan Weber",
+        "Nelson Antunes",
+        "Jonathon Luiten",
+        "Manuel Lopez-Antequera",
+        "Samuel Rota Bulò",
+        "Christian Richardt",
+        "Deva Ramanan",
+        "Sebastian Scherer",
+        "Peter Kontschieder"
+      ],
+      "published": "2025-09-16T18:00:14+00:00",
+      "updated": "2025-09-16T18:00:14+00:00",
+      "summary": "We introduce MapAnything, a unified transformer-based feed-forward model that\ningests one or more images along with optional geometric inputs such as camera\nintrinsics, poses, depth, or partial reconstructions, and then directly\nregresses the metric 3D scene geometry and cameras. MapAnything leverages a\nfactored representation of multi-view scene geometry, i.e., a collection of\ndepth maps, local ray maps, camera poses, and a metric scale factor that\neffectively upgrades local reconstructions into a globally consistent metric\nframe. Standardizing the supervision and training across diverse datasets,\nalong with flexible input augmentation, enables MapAnything to address a broad\nrange of 3D vision tasks in a single feed-forward pass, including uncalibrated\nstructure-from-motion, calibrated multi-view stereo, monocular depth\nestimation, camera localization, depth completion, and more. We provide\nextensive experimental analyses and model ablations demonstrating that\nMapAnything outperforms or matches specialist feed-forward models while\noffering more efficient joint training behavior, thus paving the way toward a\nuniversal 3D reconstruction backbone.",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.13414v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Project Page: https://map-anything.github.io/",
+      "entry_id": "http://arxiv.org/abs/2509.13414v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.13414v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.13414v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2509.11885": {
       "title": "BREA-Depth: Bronchoscopy Realistic Airway-geometric Depth Estimation",
       "authors": [

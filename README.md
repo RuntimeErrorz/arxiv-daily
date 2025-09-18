@@ -1,4 +1,4 @@
-## Updated at 2025-09-18 08:16:26
+## Updated at 2025-09-18 20:07:36
 
 ## 3DGS Semantic
 
@@ -148,6 +148,7 @@ Query: (abs:'Multi-View Stereo' OR abs:'Multi View Stereo' OR abs:'Multi-View De
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-09-16**|**[MapAnything: Universal Feed-Forward Metric 3D Reconstruction](https://arxiv.org/abs/2509.13414)**|N/A|Project Page: https://map-anything.github.io/|cs.CV|None|Nikhil Keetha et al.|
 |**2025-09-15**|**[Segmentation-Driven Initialization for Sparse-view 3D Gaussian Splatting](https://arxiv.org/abs/2509.11853)**|N/A|None|cs.CV|None|Yi-Hsin Li et al.|
 |**2025-09-14**|**[3DAeroRelief: The first 3D Benchmark UAV Dataset for Post-Disaster Assessment](https://arxiv.org/abs/2509.11097)**|N/A|None|cs.CV|None|Nhut Le et al.|
 |**2025-09-01**|**[Im2Haircut: Single-view Strand-based Hair Reconstruction for Human Avatars](https://arxiv.org/abs/2509.01469)**|N/A|For more results please refer to the project page https://im2haircut.is.tue.mpg.de|cs.CV|None|Vanessa Sklyarova et al.|
@@ -541,6 +542,11 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-09-17**|**[UM-Depth : Uncertainty Masked Self-Supervised Monocular Depth Estimation with Visual Odometry](https://arxiv.org/abs/2509.13713)**|N/A|None|cs.CV|None|Tae-Wook Um et al.|
+|**2025-09-17**|**[Gaussian Alignment for Relative Camera Pose Estimation via Single-View Reconstruction](https://arxiv.org/abs/2509.13652)**|N/A|12 pages, 4 figures, accepted by AJCAI 2025|cs.CV|None|Yumin Li, Dylan Campbell|
+|**2025-09-16**|**[ColonCrafter: A Depth Estimation Model for Colonoscopy Videos Using Diffusion Priors](https://arxiv.org/abs/2509.13525)**|N/A|12 pages, 8 figures|cs.CV|None|Romain Hardy et al.|
+|**2025-09-16**|**[MINGLE: VLMs for Semantically Complex Region Detection in Urban Scenes](https://arxiv.org/abs/2509.13484)**|N/A|13 pages, 4 figures, under review at AAAI 2026|cs.CV|None|Liu Liu et al.|
+|**2025-09-16**|**[MapAnything: Universal Feed-Forward Metric 3D Reconstruction](https://arxiv.org/abs/2509.13414)**|N/A|Project Page: https://map-anything.github.io/|cs.CV|None|Nikhil Keetha et al.|
 |**2025-09-15**|**[BREA-Depth: Bronchoscopy Realistic Airway-geometric Depth Estimation](https://arxiv.org/abs/2509.11885)**|N/A|The paper has been accepted to MICCAI 2025|cs.CV|None|Francis Xiatian Zhang et al.|
 |**2025-09-14**|**[The System Description of CPS Team for Track on Driving with Language of CVPR 2024 Autonomous Grand Challenge](https://arxiv.org/abs/2509.11071)**|N/A|None|cs.CV|None|Jinghan Peng et al.|
 |**2025-09-10**|**[Computational Imaging for Enhanced Computer Vision](https://arxiv.org/abs/2509.08712)**|N/A|International Journal of Engineering Research & Technology, 2025|cs.CV|None|Humera Shaikh, Kaur Jashanpreet|
