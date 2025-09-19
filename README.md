@@ -1,4 +1,4 @@
-## Updated at 2025-09-19 08:17:02
+## Updated at 2025-09-19 20:07:51
 
 ## 3DGS Semantic
 
@@ -148,6 +148,7 @@ Query: (abs:'Multi-View Stereo' OR abs:'Multi View Stereo' OR abs:'Multi-View De
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-09-18**|**[Lightweight and Accurate Multi-View Stereo with Confidence-Aware Diffusion Model](https://arxiv.org/abs/2509.15220)**|N/A|Accepted to IEEE T-PAMI 2025. Code: https://github.com/cvg/diffmvs|cs.CV|None|Fangjinhua Wang et al.|
 |**2025-09-16**|**[MapAnything: Universal Feed-Forward Metric 3D Reconstruction](https://arxiv.org/abs/2509.13414)**|N/A|Project Page: https://map-anything.github.io/|cs.CV|None|Nikhil Keetha et al.|
 |**2025-09-15**|**[Segmentation-Driven Initialization for Sparse-view 3D Gaussian Splatting](https://arxiv.org/abs/2509.11853)**|N/A|None|cs.CV|None|Yi-Hsin Li et al.|
 |**2025-09-14**|**[3DAeroRelief: The first 3D Benchmark UAV Dataset for Post-Disaster Assessment](https://arxiv.org/abs/2509.11097)**|N/A|None|cs.CV|None|Nhut Le et al.|
@@ -542,10 +543,14 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-09-18**|**[Depth AnyEvent: A Cross-Modal Distillation Paradigm for Event-Based Monocular Depth Estimation](https://arxiv.org/abs/2509.15224)**|N/A|ICCV 2025. Code: https://github.com/bartn8/depthanyevent/ Project Page: https://bartn8.github.io/depthanyevent/|cs.CV|None|Luca Bartolomei et al.|
+|**2025-09-18**|**[Lightweight and Accurate Multi-View Stereo with Confidence-Aware Diffusion Model](https://arxiv.org/abs/2509.15220)**|N/A|Accepted to IEEE T-PAMI 2025. Code: https://github.com/cvg/diffmvs|cs.CV|None|Fangjinhua Wang et al.|
+|**2025-09-18**|**[UCorr: Wire Detection and Depth Estimation for Autonomous Drones](https://arxiv.org/abs/2509.14989)**|N/A|Published in Proceedings of the 4th International Conference on Robotics, Computer Vision and Intelligent Systems (ROBOVIS), 2024|cs.CV|Proceedings of the 4th International Conference on Robotics, Computer Vision and Intelligent Systems (ROBOVIS), 2024|Benedikt Kolbeinsson, Krystian Mikolajczyk|
+|**2025-09-18**|**[MapAnything: Mapping Urban Assets using Single Street-View Images](https://arxiv.org/abs/2509.14839)**|N/A|None|cs.CV|None|Miriam Louise Carnot et al.|
 |**2025-09-17**|**[UM-Depth : Uncertainty Masked Self-Supervised Monocular Depth Estimation with Visual Odometry](https://arxiv.org/abs/2509.13713)**|N/A|None|cs.CV|None|Tae-Wook Um et al.|
 |**2025-09-17**|**[Gaussian Alignment for Relative Camera Pose Estimation via Single-View Reconstruction](https://arxiv.org/abs/2509.13652)**|N/A|12 pages, 4 figures, accepted by AJCAI 2025|cs.CV|None|Yumin Li, Dylan Campbell|
 |**2025-09-16**|**[ColonCrafter: A Depth Estimation Model for Colonoscopy Videos Using Diffusion Priors](https://arxiv.org/abs/2509.13525)**|N/A|12 pages, 8 figures|cs.CV|None|Romain Hardy et al.|
-|**2025-09-16**|**[MINGLE: VLMs for Semantically Complex Region Detection in Urban Scenes](https://arxiv.org/abs/2509.13484)**|N/A|13 pages, 4 figures, under review at AAAI 2026|cs.CV|None|Liu Liu et al.|
+|**2025-09-16**|**[MINGLE: VLMs for Semantically Complex Region Detection in Urban Scenes](https://arxiv.org/abs/2509.13484)**|N/A|13 pages, 4 figures|cs.CV|None|Liu Liu et al.|
 |**2025-09-16**|**[MapAnything: Universal Feed-Forward Metric 3D Reconstruction](https://arxiv.org/abs/2509.13414)**|N/A|Project Page: https://map-anything.github.io/|cs.CV|None|Nikhil Keetha et al.|
 |**2025-09-15**|**[BREA-Depth: Bronchoscopy Realistic Airway-geometric Depth Estimation](https://arxiv.org/abs/2509.11885)**|N/A|The paper has been accepted to MICCAI 2025|cs.CV|None|Francis Xiatian Zhang et al.|
 |**2025-09-14**|**[The System Description of CPS Team for Track on Driving with Language of CVPR 2024 Autonomous Grand Challenge](https://arxiv.org/abs/2509.11071)**|N/A|None|cs.CV|None|Jinghan Peng et al.|

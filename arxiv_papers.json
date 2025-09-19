@@ -1,5 +1,161 @@
 {
   "3DGS Semantic": {
+    "2509.14893": {
+      "title": "Temporally Heterogeneous Graph Contrastive Learning for Multimodal Acoustic event Classification",
+      "authors": [
+        "Yuanjian Chen",
+        "Yang Xiao",
+        "Jinjie Huang"
+      ],
+      "published": "2025-09-18T12:17:19+00:00",
+      "updated": "2025-09-18T12:17:19+00:00",
+      "summary": "Multimodal acoustic event classification plays a key role in audio-visual\nsystems. Although combining audio and visual signals improves recognition, it\nis still difficult to align them over time and to reduce the effect of noise\nacross modalities. Existing methods often treat audio and visual streams\nseparately, fusing features later with contrastive or mutual information\nobjectives. Recent advances explore multimodal graph learning, but most fail to\ndistinguish between intra- and inter-modal temporal dependencies. To address\nthis, we propose Temporally Heterogeneous Graph-based Contrastive Learning\n(THGCL). Our framework constructs a temporal graph for each event, where audio\nand video segments form nodes and their temporal links form edges. We introduce\nGaussian processes for intra-modal smoothness, Hawkes processes for inter-modal\ndecay, and contrastive learning to capture fine-grained relationships.\nExperiments on AudioSet show that THGCL achieves state-of-the-art performance.",
+      "categories": [
+        "cs.SD",
+        "eess.AS"
+      ],
+      "primary_category": "cs.SD",
+      "pdf_url": "http://arxiv.org/pdf/2509.14893v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.14893v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.14893v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.14893v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.14773": {
+      "title": "A Real-Time Multi-Model Parametric Representation of Point Clouds",
+      "authors": [
+        "Yuan Gao",
+        "Wei Dong"
+      ],
+      "published": "2025-09-18T09:23:51+00:00",
+      "updated": "2025-09-18T09:23:51+00:00",
+      "summary": "In recent years, parametric representations of point clouds have been widely\napplied in tasks such as memory-efficient mapping and multi-robot\ncollaboration. Highly adaptive models, like spline surfaces or quadrics, are\ncomputationally expensive in detection or fitting. In contrast, real-time\nmethods, such as Gaussian mixture models or planes, have low degrees of\nfreedom, making high accuracy with few primitives difficult. To tackle this\nproblem, a multi-model parametric representation with real-time surface\ndetection and fitting is proposed. Specifically, the Gaussian mixture model is\nfirst employed to segment the point cloud into multiple clusters. Then, flat\nclusters are selected and merged into planes or curved surfaces. Planes can be\neasily fitted and delimited by a 2D voxel-based boundary description method.\nSurfaces with curvature are fitted by B-spline surfaces and the same boundary\ndescription method is employed. Through evaluations on multiple public\ndatasets, the proposed surface detection exhibits greater robustness than the\nstate-of-the-art approach, with 3.78 times improvement in efficiency.\nMeanwhile, this representation achieves a 2-fold gain in accuracy over Gaussian\nmixture models, operating at 36.4 fps on a low-power onboard computer.",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.14773v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.14773v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.14773v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.14773v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.14739": {
+      "title": "FMGS-Avatar: Mesh-Guided 2D Gaussian Splatting with Foundation Model Priors for 3D Monocular Avatar Reconstruction",
+      "authors": [
+        "Jinlong Fan",
+        "Bingyu Hu",
+        "Xingguang Li",
+        "Yuxiang Yang",
+        "Jing Zhang"
+      ],
+      "published": "2025-09-18T08:41:41+00:00",
+      "updated": "2025-09-18T08:41:41+00:00",
+      "summary": "Reconstructing high-fidelity animatable human avatars from monocular videos\nremains challenging due to insufficient geometric information in single-view\nobservations. While recent 3D Gaussian Splatting methods have shown promise,\nthey struggle with surface detail preservation due to the free-form nature of\n3D Gaussian primitives. To address both the representation limitations and\ninformation scarcity, we propose a novel method, \\textbf{FMGS-Avatar}, that\nintegrates two key innovations. First, we introduce Mesh-Guided 2D Gaussian\nSplatting, where 2D Gaussian primitives are attached directly to template mesh\nfaces with constrained position, rotation, and movement, enabling superior\nsurface alignment and geometric detail preservation. Second, we leverage\nfoundation models trained on large-scale datasets, such as Sapiens, to\ncomplement the limited visual cues from monocular videos. However, when\ndistilling multi-modal prior knowledge from foundation models, conflicting\noptimization objectives can emerge as different modalities exhibit distinct\nparameter sensitivities. We address this through a coordinated training\nstrategy with selective gradient isolation, enabling each loss component to\noptimize its relevant parameters without interference. Through this combination\nof enhanced representation and coordinated information distillation, our\napproach significantly advances 3D monocular human avatar reconstruction.\nExperimental evaluation demonstrates superior reconstruction quality compared\nto existing methods, with notable gains in geometric accuracy and appearance\nfidelity while providing rich semantic information. Additionally, the distilled\nprior knowledge within a shared canonical space naturally enables spatially and\ntemporally consistent rendering under novel views and poses.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.14739v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.14739v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.14739v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.14739v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.14687": {
+      "title": "RealMirror: A Comprehensive, Open-Source Vision-Language-Action Platform for Embodied AI",
+      "authors": [
+        "Cong Tai",
+        "Zhaoyu Zheng",
+        "Haixu Long",
+        "Hansheng Wu",
+        "Haodong Xiang",
+        "Zhengbin Long",
+        "Jun Xiong",
+        "Rong Shi",
+        "Shizhuang Zhang",
+        "Gang Qiu",
+        "He Wang",
+        "Ruifeng Li",
+        "Jun Huang",
+        "Bin Chang",
+        "Shuai Feng",
+        "Tao Shen"
+      ],
+      "published": "2025-09-18T07:27:34+00:00",
+      "updated": "2025-09-18T07:27:34+00:00",
+      "summary": "The emerging field of Vision-Language-Action (VLA) for humanoid robots faces\nseveral fundamental challenges, including the high cost of data acquisition,\nthe lack of a standardized benchmark, and the significant gap between\nsimulation and the real world. To overcome these obstacles, we propose\nRealMirror, a comprehensive, open-source embodied AI VLA platform. RealMirror\nbuilds an efficient, low-cost data collection, model training, and inference\nsystem that enables end-to-end VLA research without requiring a real robot. To\nfacilitate model evolution and fair comparison, we also introduce a dedicated\nVLA benchmark for humanoid robots, featuring multiple scenarios, extensive\ntrajectories, and various VLA models. Furthermore, by integrating generative\nmodels and 3D Gaussian Splatting to reconstruct realistic environments and\nrobot models, we successfully demonstrate zero-shot Sim2Real transfer, where\nmodels trained exclusively on simulation data can perform tasks on a real robot\nseamlessly, without any fine-tuning. In conclusion, with the unification of\nthese critical components, RealMirror provides a robust framework that\nsignificantly accelerates the development of VLA models for humanoid robots.\nProject page: https://terminators2025.github.io/RealMirror.github.io",
+      "categories": [
+        "cs.RO"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "http://arxiv.org/pdf/2509.14687v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.14687v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.14687v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.14687v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2509.14063": {
       "title": "Language Conditioning Improves Accuracy of Aircraft Goal Prediction in Untowered Airspace",
       "authors": [
@@ -58983,6 +59139,47 @@
     }
   },
   "MVS": {
+    "2509.15220": {
+      "title": "Lightweight and Accurate Multi-View Stereo with Confidence-Aware Diffusion Model",
+      "authors": [
+        "Fangjinhua Wang",
+        "Qingshan Xu",
+        "Yew-Soon Ong",
+        "Marc Pollefeys"
+      ],
+      "published": "2025-09-18T17:59:19+00:00",
+      "updated": "2025-09-18T17:59:19+00:00",
+      "summary": "To reconstruct the 3D geometry from calibrated images, learning-based\nmulti-view stereo (MVS) methods typically perform multi-view depth estimation\nand then fuse depth maps into a mesh or point cloud. To improve the\ncomputational efficiency, many methods initialize a coarse depth map and then\ngradually refine it in higher resolutions. Recently, diffusion models achieve\ngreat success in generation tasks. Starting from a random noise, diffusion\nmodels gradually recover the sample with an iterative denoising process. In\nthis paper, we propose a novel MVS framework, which introduces diffusion models\nin MVS. Specifically, we formulate depth refinement as a conditional diffusion\nprocess. Considering the discriminative characteristic of depth estimation, we\ndesign a condition encoder to guide the diffusion process. To improve\nefficiency, we propose a novel diffusion network combining lightweight 2D U-Net\nand convolutional GRU. Moreover, we propose a novel confidence-based sampling\nstrategy to adaptively sample depth hypotheses based on the confidence\nestimated by diffusion model. Based on our novel MVS framework, we propose two\nnovel MVS methods, DiffMVS and CasDiffMVS. DiffMVS achieves competitive\nperformance with state-of-the-art efficiency in run-time and GPU memory.\nCasDiffMVS achieves state-of-the-art performance on DTU, Tanks & Temples and\nETH3D. Code is available at: https://github.com/cvg/diffmvs.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.15220v1",
+      "journal_ref": null,
+      "doi": "10.1109/TPAMI.2025.3597148",
+      "comment": "Accepted to IEEE T-PAMI 2025. Code: https://github.com/cvg/diffmvs",
+      "entry_id": "http://arxiv.org/abs/2509.15220v1",
+      "links": [
+        {
+          "href": "http://dx.doi.org/10.1109/TPAMI.2025.3597148",
+          "title": "doi",
+          "rel": "related",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/abs/2509.15220v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.15220v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2509.13414": {
       "title": "MapAnything: Universal Feed-Forward Metric 3D Reconstruction",
       "authors": [
@@ -73354,6 +73551,159 @@
     }
   },
   "Depth Estimation": {
+    "2509.15224": {
+      "title": "Depth AnyEvent: A Cross-Modal Distillation Paradigm for Event-Based Monocular Depth Estimation",
+      "authors": [
+        "Luca Bartolomei",
+        "Enrico Mannocci",
+        "Fabio Tosi",
+        "Matteo Poggi",
+        "Stefano Mattoccia"
+      ],
+      "published": "2025-09-18T17:59:51+00:00",
+      "updated": "2025-09-18T17:59:51+00:00",
+      "summary": "Event cameras capture sparse, high-temporal-resolution visual information,\nmaking them particularly suitable for challenging environments with high-speed\nmotion and strongly varying lighting conditions. However, the lack of large\ndatasets with dense ground-truth depth annotations hinders learning-based\nmonocular depth estimation from event data. To address this limitation, we\npropose a cross-modal distillation paradigm to generate dense proxy labels\nleveraging a Vision Foundation Model (VFM). Our strategy requires an event\nstream spatially aligned with RGB frames, a simple setup even available\noff-the-shelf, and exploits the robustness of large-scale VFMs. Additionally,\nwe propose to adapt VFMs, either a vanilla one like Depth Anything v2 (DAv2),\nor deriving from it a novel recurrent architecture to infer depth from\nmonocular event cameras. We evaluate our approach with synthetic and real-world\ndatasets, demonstrating that i) our cross-modal paradigm achieves competitive\nperformance compared to fully supervised methods without requiring expensive\ndepth annotations, and ii) our VFM-based models achieve state-of-the-art\nperformance.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.15224v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "ICCV 2025. Code: https://github.com/bartn8/depthanyevent/ Project\n  Page: https://bartn8.github.io/depthanyevent/",
+      "entry_id": "http://arxiv.org/abs/2509.15224v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.15224v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.15224v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2509.15220": {
+      "title": "Lightweight and Accurate Multi-View Stereo with Confidence-Aware Diffusion Model",
+      "authors": [
+        "Fangjinhua Wang",
+        "Qingshan Xu",
+        "Yew-Soon Ong",
+        "Marc Pollefeys"
+      ],
+      "published": "2025-09-18T17:59:19+00:00",
+      "updated": "2025-09-18T17:59:19+00:00",
+      "summary": "To reconstruct the 3D geometry from calibrated images, learning-based\nmulti-view stereo (MVS) methods typically perform multi-view depth estimation\nand then fuse depth maps into a mesh or point cloud. To improve the\ncomputational efficiency, many methods initialize a coarse depth map and then\ngradually refine it in higher resolutions. Recently, diffusion models achieve\ngreat success in generation tasks. Starting from a random noise, diffusion\nmodels gradually recover the sample with an iterative denoising process. In\nthis paper, we propose a novel MVS framework, which introduces diffusion models\nin MVS. Specifically, we formulate depth refinement as a conditional diffusion\nprocess. Considering the discriminative characteristic of depth estimation, we\ndesign a condition encoder to guide the diffusion process. To improve\nefficiency, we propose a novel diffusion network combining lightweight 2D U-Net\nand convolutional GRU. Moreover, we propose a novel confidence-based sampling\nstrategy to adaptively sample depth hypotheses based on the confidence\nestimated by diffusion model. Based on our novel MVS framework, we propose two\nnovel MVS methods, DiffMVS and CasDiffMVS. DiffMVS achieves competitive\nperformance with state-of-the-art efficiency in run-time and GPU memory.\nCasDiffMVS achieves state-of-the-art performance on DTU, Tanks & Temples and\nETH3D. Code is available at: https://github.com/cvg/diffmvs.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.15220v1",
+      "journal_ref": null,
+      "doi": "10.1109/TPAMI.2025.3597148",
+      "comment": "Accepted to IEEE T-PAMI 2025. Code: https://github.com/cvg/diffmvs",
+      "entry_id": "http://arxiv.org/abs/2509.15220v1",
+      "links": [
+        {
+          "href": "http://dx.doi.org/10.1109/TPAMI.2025.3597148",
+          "title": "doi",
+          "rel": "related",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/abs/2509.15220v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.15220v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2509.14989": {
+      "title": "UCorr: Wire Detection and Depth Estimation for Autonomous Drones",
+      "authors": [
+        "Benedikt Kolbeinsson",
+        "Krystian Mikolajczyk"
+      ],
+      "published": "2025-09-18T14:21:52+00:00",
+      "updated": "2025-09-18T14:21:52+00:00",
+      "summary": "In the realm of fully autonomous drones, the accurate detection of obstacles\nis paramount to ensure safe navigation and prevent collisions. Among these\nchallenges, the detection of wires stands out due to their slender profile,\nwhich poses a unique and intricate problem. To address this issue, we present\nan innovative solution in the form of a monocular end-to-end model for wire\nsegmentation and depth estimation. Our approach leverages a temporal\ncorrelation layer trained on synthetic data, providing the model with the\nability to effectively tackle the complex joint task of wire detection and\ndepth estimation. We demonstrate the superiority of our proposed method over\nexisting competitive approaches in the joint task of wire detection and depth\nestimation. Our results underscore the potential of our model to enhance the\nsafety and precision of autonomous drones, shedding light on its promising\napplications in real-world scenarios.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.14989v1",
+      "journal_ref": "Proceedings of the 4th International Conference on Robotics,\n  Computer Vision and Intelligent Systems (ROBOVIS), 2024",
+      "doi": "10.1007/978-3-031-59057-3_12",
+      "comment": "Published in Proceedings of the 4th International Conference on\n  Robotics, Computer Vision and Intelligent Systems (ROBOVIS), 2024",
+      "entry_id": "http://arxiv.org/abs/2509.14989v1",
+      "links": [
+        {
+          "href": "http://dx.doi.org/10.1007/978-3-031-59057-3_12",
+          "title": "doi",
+          "rel": "related",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/abs/2509.14989v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.14989v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2509.14839": {
+      "title": "MapAnything: Mapping Urban Assets using Single Street-View Images",
+      "authors": [
+        "Miriam Louise Carnot",
+        "Jonas Kunze",
+        "Erik Fastermann",
+        "Eric Peukert",
+        "André Ludwig",
+        "Bogdan Franczyk"
+      ],
+      "published": "2025-09-18T11:02:54+00:00",
+      "updated": "2025-09-18T11:02:54+00:00",
+      "summary": "To maintain an overview of urban conditions, city administrations manage\ndatabases of objects like traffic signs and trees, complete with their\ngeocoordinates. Incidents such as graffiti or road damage are also relevant. As\ndigitization increases, so does the need for more data and up-to-date\ndatabases, requiring significant manual effort. This paper introduces\nMapAnything, a module that automatically determines the geocoordinates of\nobjects using individual images. Utilizing advanced Metric Depth Estimation\nmodels, MapAnything calculates geocoordinates based on the object's distance\nfrom the camera, geometric principles, and camera specifications. We detail and\nvalidate the module, providing recommendations for automating urban object and\nincident mapping. Our evaluation measures the accuracy of estimated distances\nagainst LiDAR point clouds in urban environments, analyzing performance across\ndistance intervals and semantic areas like roads and vegetation. The module's\neffectiveness is demonstrated through practical use cases involving traffic\nsigns and road damage.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.14839v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.14839v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.14839v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.14839v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2509.13713": {
       "title": "UM-Depth : Uncertainty Masked Self-Supervised Monocular Depth Estimation with Visual Odometry",
       "authors": [
@@ -73471,27 +73821,27 @@
         "Andres Sevtsuk"
       ],
       "published": "2025-09-16T19:31:40+00:00",
-      "updated": "2025-09-16T19:31:40+00:00",
+      "updated": "2025-09-18T14:03:41+00:00",
       "summary": "Understanding group-level social interactions in public spaces is crucial for\nurban planning, informing the design of socially vibrant and inclusive\nenvironments. Detecting such interactions from images involves interpreting\nsubtle visual cues such as relations, proximity, and co-movement - semantically\ncomplex signals that go beyond traditional object detection. To address this\nchallenge, we introduce a social group region detection task, which requires\ninferring and spatially grounding visual regions defined by abstract\ninterpersonal relations. We propose MINGLE (Modeling INterpersonal Group-Level\nEngagement), a modular three-stage pipeline that integrates: (1) off-the-shelf\nhuman detection and depth estimation, (2) VLM-based reasoning to classify\npairwise social affiliation, and (3) a lightweight spatial aggregation\nalgorithm to localize socially connected groups. To support this task and\nencourage future research, we present a new dataset of 100K urban street-view\nimages annotated with bounding boxes and labels for both individuals and\nsocially interacting groups. The annotations combine human-created labels and\noutputs from the MINGLE pipeline, ensuring semantic richness and broad coverage\nof real-world scenarios.",
       "categories": [
         "cs.CV",
         "cs.CY"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "http://arxiv.org/pdf/2509.13484v1",
+      "pdf_url": "http://arxiv.org/pdf/2509.13484v2",
       "journal_ref": null,
       "doi": null,
-      "comment": "13 pages, 4 figures, under review at AAAI 2026",
-      "entry_id": "http://arxiv.org/abs/2509.13484v1",
+      "comment": "13 pages, 4 figures",
+      "entry_id": "http://arxiv.org/abs/2509.13484v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2509.13484v1",
+          "href": "http://arxiv.org/abs/2509.13484v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2509.13484v1",
+          "href": "http://arxiv.org/pdf/2509.13484v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
