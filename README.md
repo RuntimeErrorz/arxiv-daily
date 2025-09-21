@@ -1,4 +1,4 @@
-## Updated at 2025-09-21 08:18:39
+## Updated at 2025-09-21 10:35:37
 
 ## 3DGS Semantic
 
@@ -13,16 +13,16 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2025-09-09**|**[OmniMap: A General Mapping Framework Integrating Optics, Geometry, and Semantics](https://arxiv.org/abs/2509.07500)**|N/A|Accepted by IEEE Transactions on Robotics (TRO), project website: https://omni-map.github.io/|cs.RO|None|Yinan Deng et al.|
 |**2025-09-05**|**[Visibility-Aware Language Aggregation for Open-Vocabulary Segmentation in 3D Gaussian Splatting](https://arxiv.org/abs/2509.05515)**|N/A|None|cs.CV|None|Sen Wang et al.|
 |**2025-08-27**|**[LabelGS: Label-Aware 3D Gaussian Splatting for 3D Scene Segmentation](https://arxiv.org/abs/2508.19699)**|N/A|PRCV 2025|cs.CV|None|Yupeng Zhang et al.|
-|**2025-08-19**|**[GALA: Guided Attention with Language Alignment for Open Vocabulary Gaussian Splatting](https://arxiv.org/abs/2508.14278)**|N/A|None|cs.CV|None|Elena Alegret et al.|
-|**2025-08-16**|**[InstDrive: Instance-Aware 3D Gaussian Splatting for Driving Scenes](https://arxiv.org/abs/2508.12015)**|N/A|None|cs.CV|None|Hongyuan Liu et al.|
-|**2025-08-13**|**[A Survey on 3D Gaussian Splatting Applications: Segmentation, Editing, and Generation](https://arxiv.org/abs/2508.09977)**|N/A|GitHub Repo: https://github.com/heshuting555/Awesome-3DGS-Applications|cs.CV|None|Shuting He et al.|
-|**2025-08-11**|**[ReferSplat: Referring Segmentation in 3D Gaussian Splatting](https://arxiv.org/abs/2508.08252)**|N/A|ICML 2025 Oral, Code: https://github.com/heshuting555/ReferSplat|cs.CV|None|Shuting He et al.|
-|**2025-08-11**|**[SAGOnline: Segment Any Gaussians Online](https://arxiv.org/abs/2508.08219)**|N/A|19 pages, 10 figures|cs.CV|None|Wentao Sun et al.|
-|**2025-08-05**|**[Uni3R: Unified 3D Reconstruction and Semantic Understanding via Generalizable Gaussian Splatting from Unposed Multi-View Images](https://arxiv.org/abs/2508.03643)**|N/A|The code is available at https://github.com/HorizonRobotics/Uni3R|cs.CV|None|Xiangyu Sun et al.|
-|**2025-08-05**|**[Trace3D: Consistent Segmentation Lifting via Gaussian Instance Tracing](https://arxiv.org/abs/2508.03227)**|N/A|None|cs.CV|None|Hongyu Shen et al.|
-|**2025-08-04**|**[ScrewSplat: An End-to-End Method for Articulated Object Recognition](https://arxiv.org/abs/2508.02146)**|N/A|26 pages, 12 figures, Conference on Robot Learning (CoRL) 2025|cs.RO|None|Seungyeon Kim et al.|
-|**2025-08-03**|**[AG$^2$aussian: Anchor-Graph Structured Gaussian Splatting for Instance-Level 3D Scene Understanding and Editing](https://arxiv.org/abs/2508.01740)**|N/A|None|cs.CV|None|Zhaonan Wang et al.|
-|**2025-08-02**|**[OpenGS-Fusion: Open-Vocabulary Dense Mapping with Hybrid 3D Gaussian Splatting for Refined Object-Level Understanding](https://arxiv.org/abs/2508.01150)**|N/A|IROS2025|cs.CV|None|Dianyi Yang et al.|
+|**2025-08-19**|**[GALA: Guided Attention with Language Alignment for Open Vocabulary Gaussian Splatting](https://arxiv.org/abs/2508.14278)**|arXiv.org|None|cs.CV|None|Elena Alegret et al.|
+|**2025-08-16**|**[InstDrive: Instance-Aware 3D Gaussian Splatting for Driving Scenes](https://arxiv.org/abs/2508.12015)**|arXiv.org|None|cs.CV|None|Hongyuan Liu et al.|
+|**2025-08-13**|**[A Survey on 3D Gaussian Splatting Applications: Segmentation, Editing, and Generation](https://arxiv.org/abs/2508.09977)**|arXiv.org|GitHub Repo: https://github.com/heshuting555/Awesome-3DGS-Applications|cs.CV|None|Shuting He et al.|
+|**2025-08-11**|**[ReferSplat: Referring Segmentation in 3D Gaussian Splatting](https://arxiv.org/abs/2508.08252)**|arXiv.org|ICML 2025 Oral, Code: https://github.com/heshuting555/ReferSplat|cs.CV|None|Shuting He et al.|
+|**2025-08-11**|**[SAGOnline: Segment Any Gaussians Online](https://arxiv.org/abs/2508.08219)**|arXiv.org|19 pages, 10 figures|cs.CV|None|Wentao Sun et al.|
+|**2025-08-05**|**[Uni3R: Unified 3D Reconstruction and Semantic Understanding via Generalizable Gaussian Splatting from Unposed Multi-View Images](https://arxiv.org/abs/2508.03643)**|arXiv.org|The code is available at https://github.com/HorizonRobotics/Uni3R|cs.CV|None|Xiangyu Sun et al.|
+|**2025-08-05**|**[Trace3D: Consistent Segmentation Lifting via Gaussian Instance Tracing](https://arxiv.org/abs/2508.03227)**|arXiv.org|None|cs.CV|None|Hongyu Shen et al.|
+|**2025-08-04**|**[ScrewSplat: An End-to-End Method for Articulated Object Recognition](https://arxiv.org/abs/2508.02146)**|arXiv.org|26 pages, 12 figures, Conference on Robot Learning (CoRL) 2025|cs.RO|None|Seungyeon Kim et al.|
+|**2025-08-03**|**[AG$^2$aussian: Anchor-Graph Structured Gaussian Splatting for Instance-Level 3D Scene Understanding and Editing](https://arxiv.org/abs/2508.01740)**|arXiv.org|None|cs.CV|None|Zhaonan Wang et al.|
+|**2025-08-02**|**[OpenGS-Fusion: Open-Vocabulary Dense Mapping with Hybrid 3D Gaussian Splatting for Refined Object-Level Understanding](https://arxiv.org/abs/2508.01150)**|arXiv.org|IROS2025|cs.CV|None|Dianyi Yang et al.|
 |**2025-07-31**|**[SeqAffordSplat: Scene-level Sequential Affordance Reasoning on 3D Gaussian Splatting](https://arxiv.org/abs/2507.23772)**|arXiv.org|None|cs.CV|None|Di Li et al.|
 |**2025-07-26**|**[Taking Language Embedded 3D Gaussian Splatting into the Wild](https://arxiv.org/abs/2507.19830)**|arXiv.org|Visit our project page at https://yuzewang1998.github.io/takinglangsplatw/|cs.GR|None|Yuze Wang, Yue Qi|
 |**2025-07-21**|**[ObjectGS: Object-aware Scene Reconstruction and Scene Understanding via Gaussian Splatting](https://arxiv.org/abs/2507.15454)**|arXiv.org|Accepted by ICCV 2025|cs.GR|None|Ruijie Zhu et al.|
