@@ -59192,7 +59192,7 @@
         "Peter Kontschieder"
       ],
       "published": "2025-09-16T18:00:14+00:00",
-      "updated": "2025-09-16T18:00:14+00:00",
+      "updated": "2025-09-18T22:34:03+00:00",
       "summary": "We introduce MapAnything, a unified transformer-based feed-forward model that\ningests one or more images along with optional geometric inputs such as camera\nintrinsics, poses, depth, or partial reconstructions, and then directly\nregresses the metric 3D scene geometry and cameras. MapAnything leverages a\nfactored representation of multi-view scene geometry, i.e., a collection of\ndepth maps, local ray maps, camera poses, and a metric scale factor that\neffectively upgrades local reconstructions into a globally consistent metric\nframe. Standardizing the supervision and training across diverse datasets,\nalong with flexible input augmentation, enables MapAnything to address a broad\nrange of 3D vision tasks in a single feed-forward pass, including uncalibrated\nstructure-from-motion, calibrated multi-view stereo, monocular depth\nestimation, camera localization, depth completion, and more. We provide\nextensive experimental analyses and model ablations demonstrating that\nMapAnything outperforms or matches specialist feed-forward models while\noffering more efficient joint training behavior, thus paving the way toward a\nuniversal 3D reconstruction backbone.",
       "categories": [
         "cs.CV",
@@ -59201,20 +59201,20 @@
         "cs.RO"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "http://arxiv.org/pdf/2509.13414v1",
+      "pdf_url": "http://arxiv.org/pdf/2509.13414v2",
       "journal_ref": null,
       "doi": null,
       "comment": "Project Page: https://map-anything.github.io/",
-      "entry_id": "http://arxiv.org/abs/2509.13414v1",
+      "entry_id": "http://arxiv.org/abs/2509.13414v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2509.13414v1",
+          "href": "http://arxiv.org/abs/2509.13414v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2509.13414v1",
+          "href": "http://arxiv.org/pdf/2509.13414v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -73860,7 +73860,7 @@
         "Peter Kontschieder"
       ],
       "published": "2025-09-16T18:00:14+00:00",
-      "updated": "2025-09-16T18:00:14+00:00",
+      "updated": "2025-09-18T22:34:03+00:00",
       "summary": "We introduce MapAnything, a unified transformer-based feed-forward model that\ningests one or more images along with optional geometric inputs such as camera\nintrinsics, poses, depth, or partial reconstructions, and then directly\nregresses the metric 3D scene geometry and cameras. MapAnything leverages a\nfactored representation of multi-view scene geometry, i.e., a collection of\ndepth maps, local ray maps, camera poses, and a metric scale factor that\neffectively upgrades local reconstructions into a globally consistent metric\nframe. Standardizing the supervision and training across diverse datasets,\nalong with flexible input augmentation, enables MapAnything to address a broad\nrange of 3D vision tasks in a single feed-forward pass, including uncalibrated\nstructure-from-motion, calibrated multi-view stereo, monocular depth\nestimation, camera localization, depth completion, and more. We provide\nextensive experimental analyses and model ablations demonstrating that\nMapAnything outperforms or matches specialist feed-forward models while\noffering more efficient joint training behavior, thus paving the way toward a\nuniversal 3D reconstruction backbone.",
       "categories": [
         "cs.CV",
@@ -73869,20 +73869,20 @@
         "cs.RO"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "http://arxiv.org/pdf/2509.13414v1",
+      "pdf_url": "http://arxiv.org/pdf/2509.13414v2",
       "journal_ref": null,
       "doi": null,
       "comment": "Project Page: https://map-anything.github.io/",
-      "entry_id": "http://arxiv.org/abs/2509.13414v1",
+      "entry_id": "http://arxiv.org/abs/2509.13414v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2509.13414v1",
+          "href": "http://arxiv.org/abs/2509.13414v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2509.13414v1",
+          "href": "http://arxiv.org/pdf/2509.13414v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
