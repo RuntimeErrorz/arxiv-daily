@@ -1,4 +1,4 @@
-## Updated at 2025-09-22 08:18:20
+## Updated at 2025-09-22 20:07:54
 
 ## 3DGS Semantic
 
@@ -543,6 +543,9 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-09-19**|**[Towards Sharper Object Boundaries in Self-Supervised Depth Estimation](https://arxiv.org/abs/2509.15987)**|N/A|BMVC 2025 Oral, 10 pages, 6 figures|cs.CV|None|Aurélien Cecille et al.|
+|**2025-09-19**|**[Shedding Light on Depth: Explainability Assessment in Monocular Depth Estimation](https://arxiv.org/abs/2509.15980)**|N/A|8 pages, 3 figures, 2 tables. This paper has been accepted at the International Joint Conference on Neural Networks (IJCNN) 2025|cs.CV|None|Lorenzo Cirillo et al.|
+|**2025-09-19**|**[MS-GS: Multi-Appearance Sparse-View 3D Gaussian Splatting in the Wild](https://arxiv.org/abs/2509.15548)**|N/A|None|cs.CV|None|Deming Li et al.|
 |**2025-09-18**|**[Depth AnyEvent: A Cross-Modal Distillation Paradigm for Event-Based Monocular Depth Estimation](https://arxiv.org/abs/2509.15224)**|N/A|ICCV 2025. Code: https://github.com/bartn8/depthanyevent/ Project Page: https://bartn8.github.io/depthanyevent/|cs.CV|None|Luca Bartolomei et al.|
 |**2025-09-18**|**[Lightweight and Accurate Multi-View Stereo with Confidence-Aware Diffusion Model](https://arxiv.org/abs/2509.15220)**|N/A|Accepted to IEEE T-PAMI 2025. Code: https://github.com/cvg/diffmvs|cs.CV|None|Fangjinhua Wang et al.|
 |**2025-09-18**|**[UCorr: Wire Detection and Depth Estimation for Autonomous Drones](https://arxiv.org/abs/2509.14989)**|N/A|Published in Proceedings of the 4th International Conference on Robotics, Computer Vision and Intelligent Systems (ROBOVIS), 2024|cs.CV|Proceedings of the 4th International Conference on Robotics, Computer Vision and Intelligent Systems (ROBOVIS), 2024|Benedikt Kolbeinsson, Krystian Mikolajczyk|

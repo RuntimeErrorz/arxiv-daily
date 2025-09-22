@@ -1,5 +1,82 @@
 {
   "3DGS Semantic": {
+    "2509.15945": {
+      "title": "Quantum Metric Spaces: Replacing Fuzzy Metrics with the Hilbert Space Structure of Quantum States",
+      "authors": [
+        "Nicola Fabiano"
+      ],
+      "published": "2025-09-19T12:54:21+00:00",
+      "updated": "2025-09-19T12:54:21+00:00",
+      "summary": "Fuzzy metric spaces, grounded in t-norms and membership functions, have been\nwidely proposed to model uncertainty in machine learning, decision systems, and\nartificial intelligence. Yet these frameworks treat uncertainty as an external\nlayer of imprecision imposed upon classical, point-like entities - a conceptual\nmismatch for domains where indeterminacy is intrinsic, such as quantum systems\nor cognitive representations. We argue that fuzzy metrics are unnecessary for\nmodeling such uncertainty: instead, the well-established structure of complex\nHilbert spaces - the foundational language of quantum mechanics for over a\ncentury - provides a natural, rigorous, and non-contradictory metric space\nwhere the ``points'' are quantum states themselves. The distance between states\nis given by the Hilbert norm, which directly encodes state distinguishability\nvia the Born rule. This framework inherently captures the non-classical nature\nof uncertainty without requiring fuzzy logic, t-norms, or membership degrees.\nWe demonstrate its power by modeling AI concepts as Gaussian wavefunctions and\nclassifying ambiguous inputs via quantum overlap integrals. Unlike fuzzy\nmethods, our approach naturally handles interference, distributional shape, and\nconcept compositionality through the geometry of state vectors. We conclude\nthat fuzzy metric spaces, while historically useful, are obsolete for\nrepresenting intrinsic uncertainty - superseded by the more robust, predictive,\nand ontologically coherent framework of quantum state geometry.",
+      "categories": [
+        "quant-ph"
+      ],
+      "primary_category": "quant-ph",
+      "pdf_url": "http://arxiv.org/pdf/2509.15945v1",
+      "journal_ref": null,
+      "doi": "10.5281/zenodo.17154580",
+      "comment": "11 pages, 2 figures",
+      "entry_id": "http://arxiv.org/abs/2509.15945v1",
+      "links": [
+        {
+          "href": "http://dx.doi.org/10.5281/zenodo.17154580",
+          "title": "doi",
+          "rel": "related",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/abs/2509.15945v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.15945v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.15548": {
+      "title": "MS-GS: Multi-Appearance Sparse-View 3D Gaussian Splatting in the Wild",
+      "authors": [
+        "Deming Li",
+        "Kaiwen Jiang",
+        "Yutao Tang",
+        "Ravi Ramamoorthi",
+        "Rama Chellappa",
+        "Cheng Peng"
+      ],
+      "published": "2025-09-19T03:06:49+00:00",
+      "updated": "2025-09-19T03:06:49+00:00",
+      "summary": "In-the-wild photo collections often contain limited volumes of imagery and\nexhibit multiple appearances, e.g., taken at different times of day or seasons,\nposing significant challenges to scene reconstruction and novel view synthesis.\nAlthough recent adaptations of Neural Radiance Field (NeRF) and 3D Gaussian\nSplatting (3DGS) have improved in these areas, they tend to oversmooth and are\nprone to overfitting. In this paper, we present MS-GS, a novel framework\ndesigned with Multi-appearance capabilities in Sparse-view scenarios using\n3DGS. To address the lack of support due to sparse initializations, our\napproach is built on the geometric priors elicited from monocular depth\nestimations. The key lies in extracting and utilizing local semantic regions\nwith a Structure-from-Motion (SfM) points anchored algorithm for reliable\nalignment and geometry cues. Then, to introduce multi-view constraints, we\npropose a series of geometry-guided supervision at virtual views in a\nfine-grained and coarse scheme to encourage 3D consistency and reduce\noverfitting. We also introduce a dataset and an in-the-wild experiment setting\nto set up more realistic benchmarks. We demonstrate that MS-GS achieves\nphotorealistic renderings under various challenging sparse-view and\nmulti-appearance conditions and outperforms existing approaches significantly\nacross different datasets.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.15548v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.15548v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.15548v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.15548v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2509.14893": {
       "title": "Temporally Heterogeneous Graph Contrastive Learning for Multimodal Acoustic event Classification",
       "authors": [
@@ -156,6 +233,45 @@
       ],
       "llm_approved": false
     },
+    "2509.15249": {
+      "title": "Causal Reasoning Elicits Controllable 3D Scene Generation",
+      "authors": [
+        "Shen Chen",
+        "Ruiyu Zhao",
+        "Jiale Zhou",
+        "Zongkai Wu",
+        "Jenq-Neng Hwang",
+        "Lei Li"
+      ],
+      "published": "2025-09-18T01:03:21+00:00",
+      "updated": "2025-09-18T01:03:21+00:00",
+      "summary": "Existing 3D scene generation methods often struggle to model the complex\nlogical dependencies and physical constraints between objects, limiting their\nability to adapt to dynamic and realistic environments. We propose\nCausalStruct, a novel framework that embeds causal reasoning into 3D scene\ngeneration. Utilizing large language models (LLMs), We construct causal graphs\nwhere nodes represent objects and attributes, while edges encode causal\ndependencies and physical constraints. CausalStruct iteratively refines the\nscene layout by enforcing causal order to determine the placement order of\nobjects and applies causal intervention to adjust the spatial configuration\naccording to physics-driven constraints, ensuring consistency with textual\ndescriptions and real-world dynamics. The refined scene causal graph informs\nsubsequent optimization steps, employing a\nProportional-Integral-Derivative(PID) controller to iteratively tune object\nscales and positions. Our method uses text or images to guide object placement\nand layout in 3D scenes, with 3D Gaussian Splatting and Score Distillation\nSampling improving shape accuracy and rendering stability. Extensive\nexperiments show that CausalStruct generates 3D scenes with enhanced logical\ncoherence, realistic spatial interactions, and robust adaptability.",
+      "categories": [
+        "cs.GR",
+        "cs.AI"
+      ],
+      "primary_category": "cs.GR",
+      "pdf_url": "http://arxiv.org/pdf/2509.15249v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.15249v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.15249v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.15249v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2509.14063": {
       "title": "Language Conditioning Improves Accuracy of Aircraft Goal Prediction in Untowered Airspace",
       "authors": [
@@ -236,10 +352,11 @@
       "updated": "2025-09-16T23:15:44+00:00",
       "summary": "The rapid advancement of artificial intelligence (AI) in healthcare imaging\nhas revolutionized diagnostic medicine and clinical decision-making processes.\nThis work presents an intelligent multimodal framework for medical image\nanalysis that leverages Vision-Language Models (VLMs) in healthcare\ndiagnostics. The framework integrates Google Gemini 2.5 Flash for automated\ntumor detection and clinical report generation across multiple imaging\nmodalities including CT, MRI, X-ray, and Ultrasound. The system combines visual\nfeature extraction with natural language processing to enable contextual image\ninterpretation, incorporating coordinate verification mechanisms and\nprobabilistic Gaussian modeling for anomaly distribution. Multi-layered\nvisualization techniques generate detailed medical illustrations, overlay\ncomparisons, and statistical representations to enhance clinical confidence,\nwith location measurement achieving 80 pixels average deviation. Result\nprocessing utilizes precise prompt engineering and textual analysis to extract\nstructured clinical information while maintaining interpretability.\nExperimental evaluations demonstrated high performance in anomaly detection\nacross multiple modalities. The system features a user-friendly Gradio\ninterface for clinical workflow integration and demonstrates zero-shot learning\ncapabilities to reduce dependence on large datasets. This framework represents\na significant advancement in automated diagnostic support and radiological\nworkflow efficiency, though clinical validation and multi-center evaluation are\nnecessary prior to widespread adoption.",
       "categories": [
-        "cs.CV",
-        "cs.AI"
+        "eess.IV",
+        "cs.AI",
+        "cs.CV"
       ],
-      "primary_category": "cs.CV",
+      "primary_category": "eess.IV",
       "pdf_url": "http://arxiv.org/pdf/2509.13590v1",
       "journal_ref": null,
       "doi": null,
@@ -73541,6 +73658,118 @@
     }
   },
   "Depth Estimation": {
+    "2509.15987": {
+      "title": "Towards Sharper Object Boundaries in Self-Supervised Depth Estimation",
+      "authors": [
+        "Aurélien Cecille",
+        "Stefan Duffner",
+        "Franck Davoine",
+        "Rémi Agier",
+        "Thibault Neveu"
+      ],
+      "published": "2025-09-19T13:53:51+00:00",
+      "updated": "2025-09-19T13:53:51+00:00",
+      "summary": "Accurate monocular depth estimation is crucial for 3D scene understanding,\nbut existing methods often blur depth at object boundaries, introducing\nspurious intermediate 3D points. While achieving sharp edges usually requires\nvery fine-grained supervision, our method produces crisp depth discontinuities\nusing only self-supervision. Specifically, we model per-pixel depth as a\nmixture distribution, capturing multiple plausible depths and shifting\nuncertainty from direct regression to the mixture weights. This formulation\nintegrates seamlessly into existing pipelines via variance-aware loss functions\nand uncertainty propagation. Extensive evaluations on KITTI and VKITTIv2 show\nthat our method achieves up to 35% higher boundary sharpness and improves point\ncloud quality compared to state-of-the-art baselines.",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.15987v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "BMVC 2025 Oral, 10 pages, 6 figures",
+      "entry_id": "http://arxiv.org/abs/2509.15987v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.15987v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.15987v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2509.15980": {
+      "title": "Shedding Light on Depth: Explainability Assessment in Monocular Depth Estimation",
+      "authors": [
+        "Lorenzo Cirillo",
+        "Claudio Schiavella",
+        "Lorenzo Papa",
+        "Paolo Russo",
+        "Irene Amerini"
+      ],
+      "published": "2025-09-19T13:45:18+00:00",
+      "updated": "2025-09-19T13:45:18+00:00",
+      "summary": "Explainable artificial intelligence is increasingly employed to understand\nthe decision-making process of deep learning models and create trustworthiness\nin their adoption. However, the explainability of Monocular Depth Estimation\n(MDE) remains largely unexplored despite its wide deployment in real-world\napplications. In this work, we study how to analyze MDE networks to map the\ninput image to the predicted depth map. More in detail, we investigate\nwell-established feature attribution methods, Saliency Maps, Integrated\nGradients, and Attention Rollout on different computationally complex models\nfor MDE: METER, a lightweight network, and PixelFormer, a deep network. We\nassess the quality of the generated visual explanations by selectively\nperturbing the most relevant and irrelevant pixels, as identified by the\nexplainability methods, and analyzing the impact of these perturbations on the\nmodel's output. Moreover, since existing evaluation metrics can have some\nlimitations in measuring the validity of visual explanations for MDE, we\nadditionally introduce the Attribution Fidelity. This metric evaluates the\nreliability of the feature attribution by assessing their consistency with the\npredicted depth map. Experimental results demonstrate that Saliency Maps and\nIntegrated Gradients have good performance in highlighting the most important\ninput features for MDE lightweight and deep models, respectively. Furthermore,\nwe show that Attribution Fidelity effectively identifies whether an\nexplainability method fails to produce reliable visual maps, even in scenarios\nwhere conventional metrics might suggest satisfactory results.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.15980v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "8 pages, 3 figures, 2 tables. This paper has been accepted at the\n  International Joint Conference on Neural Networks (IJCNN) 2025",
+      "entry_id": "http://arxiv.org/abs/2509.15980v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.15980v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.15980v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2509.15548": {
+      "title": "MS-GS: Multi-Appearance Sparse-View 3D Gaussian Splatting in the Wild",
+      "authors": [
+        "Deming Li",
+        "Kaiwen Jiang",
+        "Yutao Tang",
+        "Ravi Ramamoorthi",
+        "Rama Chellappa",
+        "Cheng Peng"
+      ],
+      "published": "2025-09-19T03:06:49+00:00",
+      "updated": "2025-09-19T03:06:49+00:00",
+      "summary": "In-the-wild photo collections often contain limited volumes of imagery and\nexhibit multiple appearances, e.g., taken at different times of day or seasons,\nposing significant challenges to scene reconstruction and novel view synthesis.\nAlthough recent adaptations of Neural Radiance Field (NeRF) and 3D Gaussian\nSplatting (3DGS) have improved in these areas, they tend to oversmooth and are\nprone to overfitting. In this paper, we present MS-GS, a novel framework\ndesigned with Multi-appearance capabilities in Sparse-view scenarios using\n3DGS. To address the lack of support due to sparse initializations, our\napproach is built on the geometric priors elicited from monocular depth\nestimations. The key lies in extracting and utilizing local semantic regions\nwith a Structure-from-Motion (SfM) points anchored algorithm for reliable\nalignment and geometry cues. Then, to introduce multi-view constraints, we\npropose a series of geometry-guided supervision at virtual views in a\nfine-grained and coarse scheme to encourage 3D consistency and reduce\noverfitting. We also introduce a dataset and an in-the-wild experiment setting\nto set up more realistic benchmarks. We demonstrate that MS-GS achieves\nphotorealistic renderings under various challenging sparse-view and\nmulti-appearance conditions and outperforms existing approaches significantly\nacross different datasets.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.15548v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.15548v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.15548v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.15548v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2509.15224": {
       "title": "Depth AnyEvent: A Cross-Modal Distillation Paradigm for Event-Based Monocular Depth Estimation",
       "authors": [
