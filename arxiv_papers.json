@@ -1,5 +1,248 @@
 {
   "3DGS Semantic": {
+    "2509.19212": {
+      "title": "Steering Multimodal Large Language Models Decoding for Context-Aware Safety",
+      "authors": [
+        "Zheyuan Liu",
+        "Zhangchen Xu",
+        "Guangyao Dou",
+        "Xiangchi Yuan",
+        "Zhaoxuan Tan",
+        "Radha Poovendran",
+        "Meng Jiang"
+      ],
+      "published": "2025-09-23T16:32:25+00:00",
+      "updated": "2025-09-23T16:32:25+00:00",
+      "summary": "Multimodal Large Language Models (MLLMs) are increasingly deployed in\nreal-world applications, yet their ability to make context-aware safety\ndecisions remains limited. Existing methods often fail to balance\noversensitivity (unjustified refusals of benign queries) and undersensitivity\n(missed detection of visually grounded risks), leaving a persistent gap in\nsafety alignment. To address this issue, we introduce Safety-aware Contrastive\nDecoding (SafeCoDe), a lightweight and model-agnostic decoding framework that\ndynamically adjusts token generation based on multimodal context. SafeCoDe\noperates in two stages: (1) a contrastive decoding mechanism that highlights\ntokens sensitive to visual context by contrasting real and Gaussian-noised\nimages, and (2) a global-aware token modulation strategy that integrates\nscene-level reasoning with token-level adjustment to adapt refusals according\nto the predicted safety verdict. Extensive experiments across diverse MLLM\narchitectures and safety benchmarks, covering undersensitivity,\noversensitivity, and general safety evaluations, show that SafeCoDe\nconsistently improves context-sensitive refusal behaviors while preserving\nmodel helpfulness.",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CL",
+      "pdf_url": "http://arxiv.org/pdf/2509.19212v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "A lightweight and model-agnostic decoding framework that dynamically\n  adjusts token generation based on multimodal context",
+      "entry_id": "http://arxiv.org/abs/2509.19212v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.19212v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.19212v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.18763": {
+      "title": "Bi-VLM: Pushing Ultra-Low Precision Post-Training Quantization Boundaries in Vision-Language Models",
+      "authors": [
+        "Xijun Wang",
+        "Junyun Huang",
+        "Rayyan Abdalla",
+        "Chengyuan Zhang",
+        "Ruiqi Xian",
+        "Dinesh Manocha"
+      ],
+      "published": "2025-09-23T07:55:48+00:00",
+      "updated": "2025-09-23T07:55:48+00:00",
+      "summary": "We address the critical gap between the computational demands of\nvision-language models and the possible ultra-low-bit weight precision\n(bitwidth $\\leq2$ bits) we can use for higher efficiency. Our work is motivated\nby the substantial computational cost and memory requirements of VLMs, which\nrestrict their applicability in hardware-constrained environments. We propose\nBi-VLM, which separates model weights non-uniformly based on the Gaussian\nquantiles. Our formulation groups the model weights into outlier (salient) and\nmultiple inlier (unsalient) subsets, ensuring that each subset contains a\nproportion of weights corresponding to its quantile in the distribution. We\npropose a saliency-aware hybrid quantization algorithm and use it to quantize\nweights by imposing different constraints on the scaler and binary matrices\nbased on the saliency metric and compression objective. We have evaluated our\napproach on different VLMs. For the language model part of the VLM, our Bi-VLM\noutperforms the SOTA by 3%-47% on the visual question answering task in terms\nof four different benchmarks and three different models. For the overall VLM,\nour Bi-VLM outperforms the SOTA by 4%-45%. We also perform token pruning on the\nquantized models and observe that there is redundancy of image tokens 90% - 99%\nin the quantized models. This helps us to further prune the visual tokens to\nimprove efficiency.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.18763v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.18763v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.18763v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.18763v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.18643": {
+      "title": "WaveDriver: a Laser Guide Star AO System for HWO",
+      "authors": [
+        "Benjamin L. Gerard",
+        "Alex Geringer-Sameth",
+        "Aditya R. Sengupta",
+        "Alexx Perloff",
+        "Michael Messerley",
+        "Dominic F. Sanchez",
+        "P. Waswa",
+        "William Moore",
+        "Matthew Cook",
+        "Eric Strang",
+        "Paul Pax",
+        "Cesar Laguna",
+        "Matthew DeMartino",
+        "Kevin Bundy",
+        "Rebecca Jensen-Clem",
+        "Aaron J. Lemmer",
+        "S. Mark Ammons",
+        "Lisa Poyneer",
+        "Megan Eckart"
+      ],
+      "published": "2025-09-23T04:56:32+00:00",
+      "updated": "2025-09-23T04:56:32+00:00",
+      "summary": "HWO's Tier 1 Contrast Stability Technology Gap presents a key challenge for\ntechnology development in the coming years, requiring to a >100x more stable\nsystem than JWST. WaveDriver is a concept for a laser guide star spacecraft\ncoupled to an adaptive optics (AO) system onboard HWO that would enable HWO to\nreach its picometer-level wavefront stability requirements while relaxing other\nHWO subsystem requirements. At LLNL and UCSC we are revisiting the concept\ninitially proposed by Douglas et al. (2019). We present results from our\nproject's first year, including (1) AO control developments, including with\nLinear Quadratic Gaussian control and machine learning, (2) AO wavefront sensor\n(WFS) trade study simulations, and (3) simulations, fabrication, and testing of\na 133-port photonic lantern WFS/spectrograph. A key finding from our work is\nthat WaveDriver could be needed to enable HWO's primary mirror segment\nstability and/or low order wavefront stability requirements.",
+      "categories": [
+        "astro-ph.IM",
+        "astro-ph.EP"
+      ],
+      "primary_category": "astro-ph.IM",
+      "pdf_url": "http://arxiv.org/pdf/2509.18643v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "submitted as proceeding to HWO25",
+      "entry_id": "http://arxiv.org/abs/2509.18643v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.18643v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.18643v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.18619": {
+      "title": "Prompt-Guided Dual Latent Steering for Inversion Problems",
+      "authors": [
+        "Yichen Wu",
+        "Xu Liu",
+        "Chenxuan Zhao",
+        "Xinyu Wu"
+      ],
+      "published": "2025-09-23T04:11:06+00:00",
+      "updated": "2025-09-23T04:11:06+00:00",
+      "summary": "Inverting corrupted images into the latent space of diffusion models is\nchallenging. Current methods, which encode an image into a single latent\nvector, struggle to balance structural fidelity with semantic accuracy, leading\nto reconstructions with semantic drift, such as blurred details or incorrect\nattributes. To overcome this, we introduce Prompt-Guided Dual Latent Steering\n(PDLS), a novel, training-free framework built upon Rectified Flow models for\ntheir stable inversion paths. PDLS decomposes the inversion process into two\ncomplementary streams: a structural path to preserve source integrity and a\nsemantic path guided by a prompt. We formulate this dual guidance as an optimal\ncontrol problem and derive a closed-form solution via a Linear Quadratic\nRegulator (LQR). This controller dynamically steers the generative trajectory\nat each step, preventing semantic drift while ensuring the preservation of fine\ndetail without costly, per-image optimization. Extensive experiments on FFHQ-1K\nand ImageNet-1K under various inversion tasks, including Gaussian deblurring,\nmotion deblurring, super-resolution and freeform inpainting, demonstrate that\nPDLS produces reconstructions that are both more faithful to the original image\nand better aligned with the semantic information than single-latent baselines.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.18619v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted at DICTA 2025 (oral)",
+      "entry_id": "http://arxiv.org/abs/2509.18619v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.18619v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.18619v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.18610": {
+      "title": "SINGER: An Onboard Generalist Vision-Language Navigation Policy for Drones",
+      "authors": [
+        "Maximilian Adang",
+        "JunEn Low",
+        "Ola Shorinwa",
+        "Mac Schwager"
+      ],
+      "published": "2025-09-23T03:57:34+00:00",
+      "updated": "2025-09-23T03:57:34+00:00",
+      "summary": "Large vision-language models have driven remarkable progress in\nopen-vocabulary robot policies, e.g., generalist robot manipulation policies,\nthat enable robots to complete complex tasks specified in natural language.\nDespite these successes, open-vocabulary autonomous drone navigation remains an\nunsolved challenge due to the scarcity of large-scale demonstrations, real-time\ncontrol demands of drones for stabilization, and lack of reliable external pose\nestimation modules. In this work, we present SINGER for language-guided\nautonomous drone navigation in the open world using only onboard sensing and\ncompute. To train robust, open-vocabulary navigation policies, SINGER leverages\nthree central components: (i) a photorealistic language-embedded flight\nsimulator with minimal sim-to-real gap using Gaussian Splatting for efficient\ndata generation, (ii) an RRT-inspired multi-trajectory generation expert for\ncollision-free navigation demonstrations, and these are used to train (iii) a\nlightweight end-to-end visuomotor policy for real-time closed-loop control.\nThrough extensive hardware flight experiments, we demonstrate superior\nzero-shot sim-to-real transfer of our policy to unseen environments and unseen\nlanguage-conditioned goal objects. When trained on ~700k-1M observation action\npairs of language conditioned visuomotor data and deployed on hardware, SINGER\noutperforms a velocity-controlled semantic guidance baseline by reaching the\nquery 23.33% more on average, and maintains the query in the field of view\n16.67% more on average, with 10% fewer collisions.",
+      "categories": [
+        "cs.RO"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "http://arxiv.org/pdf/2509.18610v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.18610v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.18610v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.18610v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.18566": {
+      "title": "Event-guided 3D Gaussian Splatting for Dynamic Human and Scene Reconstruction",
+      "authors": [
+        "Xiaoting Yin",
+        "Hao Shi",
+        "Kailun Yang",
+        "Jiajun Zhai",
+        "Shangwei Guo",
+        "Lin Wang",
+        "Kaiwei Wang"
+      ],
+      "published": "2025-09-23T02:50:56+00:00",
+      "updated": "2025-09-23T02:50:56+00:00",
+      "summary": "Reconstructing dynamic humans together with static scenes from monocular\nvideos remains difficult, especially under fast motion, where RGB frames suffer\nfrom motion blur. Event cameras exhibit distinct advantages, e.g., microsecond\ntemporal resolution, making them a superior sensing choice for dynamic human\nreconstruction. Accordingly, we present a novel event-guided human-scene\nreconstruction framework that jointly models human and scene from a single\nmonocular event camera via 3D Gaussian Splatting. Specifically, a unified set\nof 3D Gaussians carries a learnable semantic attribute; only Gaussians\nclassified as human undergo deformation for animation, while scene Gaussians\nstay static. To combat blur, we propose an event-guided loss that matches\nsimulated brightness changes between consecutive renderings with the event\nstream, improving local fidelity in fast-moving regions. Our approach removes\nthe need for external human masks and simplifies managing separate Gaussian\nsets. On two benchmark datasets, ZJU-MoCap-Blur and MMHPSD-Blur, it delivers\nstate-of-the-art human-scene reconstruction, with notable gains over strong\nbaselines in PSNR/SSIM and reduced LPIPS, especially for high-speed subjects.",
+      "categories": [
+        "cs.CV",
+        "cs.RO",
+        "eess.IV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.18566v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.18566v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.18566v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.18566v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2509.17998": {
       "title": "Adaptive Kernel Design for Bayesian Optimization Is a Piece of CAKE with LLMs",
       "authors": [
@@ -11,27 +254,27 @@
         "Sergios Theodoridis"
       ],
       "published": "2025-09-22T16:39:12+00:00",
-      "updated": "2025-09-22T16:39:12+00:00",
-      "summary": "The efficiency of Bayesian optimization (BO) relies heavily on the choice of\nthe Gaussian process (GP) kernel, which plays a central role in balancing\nexploration and exploitation under limited evaluation budgets. Traditional BO\nmethods often rely on fixed or heuristic kernel selection strategies, which can\nresult in slow convergence or suboptimal solutions when the chosen kernel is\npoorly suited to the underlying objective function. To address this limitation,\nwe propose a freshly-baked Context-Aware Kernel Evolution (CAKE) to enhance BO\nwith large language models (LLMs). Concretely, CAKE leverages LLMs as the\ncrossover and mutation operators to adaptively generate and refine GP kernels\nbased on the observed data throughout the optimization process. To maximize the\npower of CAKE, we further propose BIC-Acquisition Kernel Ranking (BAKER) to\nselect the most effective kernel through balancing the model fit measured by\nthe Bayesian information criterion (BIC) with the expected improvement at each\niteration of BO. Extensive experiments demonstrate that our fresh CAKE-based BO\nmethod consistently outperforms established baselines across a range of\nreal-world tasks, including hyperparameter optimization, controller tuning, and\nphotonic chip design. Our code is publicly available at\nhttps://github.com/cake4bo/cake.",
+      "updated": "2025-09-23T12:57:08+00:00",
+      "summary": "The efficiency of Bayesian optimization (BO) relies heavily on the choice of\nthe Gaussian process (GP) kernel, which plays a central role in balancing\nexploration and exploitation under limited evaluation budgets. Traditional BO\nmethods often rely on fixed or heuristic kernel selection strategies, which can\nresult in slow convergence or suboptimal solutions when the chosen kernel is\npoorly suited to the underlying objective function. To address this limitation,\nwe propose a freshly-baked Context-Aware Kernel Evolution (CAKE) to enhance BO\nwith large language models (LLMs). Concretely, CAKE leverages LLMs as the\ncrossover and mutation operators to adaptively generate and refine GP kernels\nbased on the observed data throughout the optimization process. To maximize the\npower of CAKE, we further propose BIC-Acquisition Kernel Ranking (BAKER) to\nselect the most effective kernel through balancing the model fit measured by\nthe Bayesian information criterion (BIC) with the expected improvement at each\niteration of BO. Extensive experiments demonstrate that our fresh CAKE-based BO\nmethod consistently outperforms established baselines across a range of\nreal-world tasks, including hyperparameter optimization, controller tuning, and\nphotonic chip design. Our code is publicly available at\nhttps://github.com/richardcsuwandi/cake.",
       "categories": [
         "cs.LG",
         "cs.AI"
       ],
       "primary_category": "cs.LG",
-      "pdf_url": "http://arxiv.org/pdf/2509.17998v1",
+      "pdf_url": "http://arxiv.org/pdf/2509.17998v2",
       "journal_ref": null,
       "doi": null,
       "comment": "Accepted as Poster at NeurIPS 2025",
-      "entry_id": "http://arxiv.org/abs/2509.17998v1",
+      "entry_id": "http://arxiv.org/abs/2509.17998v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2509.17998v1",
+          "href": "http://arxiv.org/abs/2509.17998v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2509.17998v1",
+          "href": "http://arxiv.org/pdf/2509.17998v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -661,6 +904,43 @@
         },
         {
           "href": "http://arxiv.org/pdf/2509.14063v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.18172": {
+      "title": "SBVR: Summation of BitVector Representation for Efficient LLM Quantization",
+      "authors": [
+        "Wonjun Bang",
+        "Jongseok Park",
+        "Hongseung Yu",
+        "Kyungmin Bin",
+        "Kyunghan Lee"
+      ],
+      "published": "2025-09-17T13:51:27+00:00",
+      "updated": "2025-09-17T13:51:27+00:00",
+      "summary": "With the advent of large language models (LLMs), numerous Post-Training\nQuantization (PTQ) strategies have been proposed to alleviate deployment\nbarriers created by their enormous parameter counts. Quantization achieves\ncompression by limiting the number of representable points in the data.\nTherefore, the key to achieving efficient quantization is selecting the optimal\ncombination of representation points, or codes, for the given data. Existing\nPTQ solutions adopt two major approaches to this problem: Round-To-Nearest\n(RTN)-based methods and codebook-based methods. RTN-based methods map LLM\nweights onto uniformly distributed integer grids, failing to account for the\nGaussian-like weight distribution of LLM weights. Codebook-based methods\nmitigate this issue by constructing distribution-aware codebooks; however, they\nsuffer from random and strided memory access patterns, resulting in degraded\ninference speed that is exacerbated by the limited size of GPU L1 cache. To\novercome these limitations, we propose a novel LLM quantization method, SBVR\n(Summation of BitVector Representation), that enables Gaussian-like code\nrepresentation in a hardware-friendly manner for fast inference. SBVR maps\nweight values to non-uniform representation points whose distribution follows\nthe actual distribution of LLM weights, enabling more accurate compression.\nAdditionally, we design a custom CUDA kernel that allows matrix-vector\nmultiplication directly in the SBVR format without decompression, thereby\nenabling high-performance execution of SBVR-compressed models. Our evaluations\nof SBVR on various models demonstrate state-of-the-art perplexity and accuracy\nbenchmark performance while delivering a 2.21x- 3.04x end-to-end\ntoken-generation speedup over naive FP16 models in the 4-bit quantization\nregime.",
+      "categories": [
+        "cs.LG"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "http://arxiv.org/pdf/2509.18172v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "9 pages, 4 figures",
+      "entry_id": "http://arxiv.org/abs/2509.18172v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.18172v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.18172v1",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -4426,7 +4706,7 @@
         "Samuel Yen-Chi Chen"
       ],
       "published": "2025-08-07T05:23:51+00:00",
-      "updated": "2025-08-07T05:23:51+00:00",
+      "updated": "2025-09-23T03:31:38+00:00",
       "summary": "Time series forecasting is vital in domains where data sensitivity is\nparamount, such as finance and energy systems. While Differential Privacy (DP)\nprovides theoretical guarantees to protect individual data contributions, its\nintegration especially via DP-SGD often impairs model performance due to\ninjected noise. In this paper, we propose Q-DPTS, a hybrid quantum-classical\nframework for Quantum Differentially Private Time Series Forecasting. Q-DPTS\ncombines Variational Quantum Circuits (VQCs) with per-sample gradient clipping\nand Gaussian noise injection, ensuring rigorous $(\\epsilon,\n\\delta)$-differential privacy. The expressiveness of quantum models enables\nimproved robustness against the utility loss induced by DP mechanisms. We\nevaluate Q-DPTS on the ETT (Electricity Transformer Temperature) dataset, a\nstandard benchmark for long-term time series forecasting. Our approach is\ncompared against both classical and quantum baselines, including LSTM, QASA,\nQRWKV, and QLSTM. Results demonstrate that Q-DPTS consistently achieves lower\nprediction error under the same privacy budget, indicating a favorable\nprivacy-utility trade-off. This work presents one of the first explorations\ninto quantum-enhanced differentially private forecasting, offering promising\ndirections for secure and accurate time series modeling in privacy-critical\nscenarios.",
       "categories": [
         "quant-ph",
@@ -4435,20 +4715,20 @@
         "eess.SP"
       ],
       "primary_category": "quant-ph",
-      "pdf_url": "http://arxiv.org/pdf/2508.05036v1",
+      "pdf_url": "http://arxiv.org/pdf/2508.05036v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2508.05036v1",
+      "entry_id": "http://arxiv.org/abs/2508.05036v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2508.05036v1",
+          "href": "http://arxiv.org/abs/2508.05036v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2508.05036v1",
+          "href": "http://arxiv.org/pdf/2508.05036v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -5337,6 +5617,44 @@
         "pub_type": "JournalArticle",
         "publisher": null
       }
+    },
+    "2507.23577": {
+      "title": "T-Detect: Tail-Aware Statistical Normalization for Robust Detection of Adversarial Machine-Generated Text",
+      "authors": [
+        "Alva West",
+        "Luodan Zhang",
+        "Liuliu Zhang",
+        "Minjun Zhu",
+        "Yixuan Weng",
+        "Yue Zhang"
+      ],
+      "published": "2025-07-31T14:08:04+00:00",
+      "updated": "2025-09-23T14:22:04+00:00",
+      "summary": "Large language models (LLMs) have shown the capability to generate fluent and\nlogical content, presenting significant challenges to machine-generated text\ndetection, particularly text polished by adversarial perturbations such as\nparaphrasing. Current zero-shot detectors often employ Gaussian distributions\nas statistical measure for computing detection thresholds, which falters when\nconfronted with the heavy-tailed statistical artifacts characteristic of\nadversarial or non-native English texts. In this paper, we introduce T-Detect,\na novel detection method that fundamentally redesigns the curvature-based\ndetectors. Our primary innovation is the replacement of standard Gaussian\nnormalization with a heavy-tailed discrepancy score derived from the Student's\nt-distribution. This approach is theoretically grounded in the empirical\nobservation that adversarial texts exhibit significant leptokurtosis, rendering\ntraditional statistical assumptions inadequate. T-Detect computes a detection\nscore by normalizing the log-likelihood of a passage against the expected\nmoments of a t-distribution, providing superior resilience to statistical\noutliers. We validate our approach on the challenging RAID benchmark for\nadversarial text and the comprehensive HART dataset. Experiments show that\nT-Detect provides a consistent performance uplift over strong baselines,\nimproving AUROC by up to 3.9\\% in targeted domains. When integrated into a\ntwo-dimensional detection framework (CT), our method achieves state-of-the-art\nperformance, with an AUROC of 0.926 on the Books domain of RAID. Our\ncontributions are a new, theoretically-justified statistical foundation for\ntext detection, an ablation-validated method that demonstrates superior\nrobustness, and a comprehensive analysis of its performance under adversarial\nconditions. Ours code are released at https://github.com/ResearAI/t-detect.",
+      "categories": [
+        "cs.CL"
+      ],
+      "primary_category": "cs.CL",
+      "pdf_url": "http://arxiv.org/pdf/2507.23577v2",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2507.23577v2",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2507.23577v2",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2507.23577v2",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
     },
     "2507.23569": {
       "title": "Gaussian Splatting Feature Fields for Privacy-Preserving Visual Localization",
@@ -74018,6 +74336,83 @@
     }
   },
   "Depth Estimation": {
+    "2509.18897": {
+      "title": "RS3DBench: A Comprehensive Benchmark for 3D Spatial Perception in Remote Sensing",
+      "authors": [
+        "Jiayu Wang",
+        "Ruizhi Wang",
+        "Jie Song",
+        "Haofei Zhang",
+        "Mingli Song",
+        "Zunlei Feng",
+        "Li Sun"
+      ],
+      "published": "2025-09-23T11:20:51+00:00",
+      "updated": "2025-09-23T11:20:51+00:00",
+      "summary": "In this paper, we introduce a novel benchmark designed to propel the\nadvancement of general-purpose, large-scale 3D vision models for remote sensing\nimagery. While several datasets have been proposed within the realm of remote\nsensing, many existing collections either lack comprehensive depth information\nor fail to establish precise alignment between depth data and remote sensing\nimages. To address this deficiency, we present a visual Benchmark for 3D\nunderstanding of Remotely Sensed images, dubbed RS3DBench. This dataset\nencompasses 54,951 pairs of remote sensing images and pixel-level aligned depth\nmaps, accompanied by corresponding textual descriptions, spanning a broad array\nof geographical contexts. It serves as a tool for training and assessing 3D\nvisual perception models within remote sensing image spatial understanding\ntasks. Furthermore, we introduce a remotely sensed depth estimation model\nderived from stable diffusion, harnessing its multimodal fusion capabilities,\nthereby delivering state-of-the-art performance on our dataset. Our endeavor\nseeks to make a profound contribution to the evolution of 3D visual perception\nmodels and the advancement of geographic artificial intelligence within the\nremote sensing domain. The dataset, models and code will be accessed on the\nhttps://rs3dbench.github.io.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.18897v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "26 pages, 4 figures",
+      "entry_id": "http://arxiv.org/abs/2509.18897v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.18897v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.18897v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2509.18642": {
+      "title": "Zero-shot Monocular Metric Depth for Endoscopic Images",
+      "authors": [
+        "Nicolas Toussaint",
+        "Emanuele Colleoni",
+        "Ricardo Sanchez-Matilla",
+        "Joshua Sutcliffe",
+        "Vanessa Thompson",
+        "Muhammad Asad",
+        "Imanol Luengo",
+        "Danail Stoyanov"
+      ],
+      "published": "2025-09-23T04:56:25+00:00",
+      "updated": "2025-09-23T04:56:25+00:00",
+      "summary": "Monocular relative and metric depth estimation has seen a tremendous boost in\nthe last few years due to the sharp advancements in foundation models and in\nparticular transformer based networks. As we start to see applications to the\ndomain of endoscopic images, there is still a lack of robust benchmarks and\nhigh-quality datasets in that area. This paper addresses these limitations by\npresenting a comprehensive benchmark of state-of-the-art (metric and relative)\ndepth estimation models evaluated on real, unseen endoscopic images, providing\ncritical insights into their generalisation and performance in clinical\nscenarios. Additionally, we introduce and publish a novel synthetic dataset\n(EndoSynth) of endoscopic surgical instruments paired with ground truth metric\ndepth and segmentation masks, designed to bridge the gap between synthetic and\nreal-world data. We demonstrate that fine-tuning depth foundation models using\nour synthetic dataset boosts accuracy on most unseen real data by a significant\nmargin. By providing both a benchmark and a synthetic dataset, this work\nadvances the field of depth estimation for endoscopic images and serves as an\nimportant resource for future research. Project page, EndoSynth dataset and\ntrained weights are available at https://github.com/TouchSurgery/EndoSynth.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.18642v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted at MICCAI 2025 DEMI Workshop",
+      "entry_id": "http://arxiv.org/abs/2509.18642v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.18642v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.18642v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2509.17650": {
       "title": "Evict3R: Training-Free Token Eviction for Memory-Bounded Streaming Visual Geometry Transformers",
       "authors": [

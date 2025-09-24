@@ -1,4 +1,4 @@
-## Updated at 2025-09-24 08:18:09
+## Updated at 2025-09-24 20:08:36
 
 ## 3DGS Semantic
 
@@ -545,6 +545,8 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-09-23**|**[RS3DBench: A Comprehensive Benchmark for 3D Spatial Perception in Remote Sensing](https://arxiv.org/abs/2509.18897)**|N/A|26 pages, 4 figures|cs.CV|None|Jiayu Wang et al.|
+|**2025-09-23**|**[Zero-shot Monocular Metric Depth for Endoscopic Images](https://arxiv.org/abs/2509.18642)**|N/A|Accepted at MICCAI 2025 DEMI Workshop|cs.CV|None|Nicolas Toussaint et al.|
 |**2025-09-22**|**[Evict3R: Training-Free Token Eviction for Memory-Bounded Streaming Visual Geometry Transformers](https://arxiv.org/abs/2509.17650)**|N/A|None|cs.CV|None|Soroush Mahdi et al.|
 |**2025-09-21**|**[ConfidentSplat: Confidence-Weighted Depth Fusion for Accurate 3D Gaussian Splatting SLAM](https://arxiv.org/abs/2509.16863)**|N/A|None|cs.CV|None|Amanuel T. Dufera, Yuan-Li Cai|
 |**2025-09-19**|**[3D Gaussian Flats: Hybrid 2D/3D Photometric Scene Reconstruction](https://arxiv.org/abs/2509.16423)**|N/A|None|cs.CV|None|Maria Taktasheva et al.|
