@@ -1,4 +1,4 @@
-## Updated at 2025-09-23 08:17:05
+## Updated at 2025-09-24 08:18:09
 
 ## 3DGS Semantic
 
@@ -8,6 +8,8 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-09-22**|**[Distributed Stochastic Optimization under Heavy-Tailed Noise: A Federated Mirror Descent Approach with High Probability Convergence](https://arxiv.org/abs/2509.17659)**|N/A|None|math.OC|None|Zhan Yu et al.|
+|**2025-09-21**|**[SemanticGarment: Semantic-Controlled Generation and Editing of 3D Gaussian Garments](https://arxiv.org/abs/2509.16960)**|N/A|None|cs.GR|None|Ruiyan Wang et al.|
 |**2025-09-16**|**[Beyond Averages: Open-Vocabulary 3D Scene Understanding with Gaussian Splatting and Bag of Embeddings](https://arxiv.org/abs/2509.12938)**|N/A|None|cs.CV|None|Abdalla Arafa, Didier Stricker|
 |**2025-09-14**|**[SPHERE: Semantic-PHysical Engaged REpresentation for 3D Semantic Scene Completion](https://arxiv.org/abs/2509.11171)**|N/A|10 pages, 6 figures|cs.CV|None|Zhiwen Yang, Yuxin Peng|
 |**2025-09-09**|**[OmniMap: A General Mapping Framework Integrating Optics, Geometry, and Semantics](https://arxiv.org/abs/2509.07500)**|N/A|Accepted by IEEE Transactions on Robotics (TRO), project website: https://omni-map.github.io/|cs.RO|None|Yinan Deng et al.|
@@ -543,6 +545,10 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-09-22**|**[Evict3R: Training-Free Token Eviction for Memory-Bounded Streaming Visual Geometry Transformers](https://arxiv.org/abs/2509.17650)**|N/A|None|cs.CV|None|Soroush Mahdi et al.|
+|**2025-09-21**|**[ConfidentSplat: Confidence-Weighted Depth Fusion for Accurate 3D Gaussian Splatting SLAM](https://arxiv.org/abs/2509.16863)**|N/A|None|cs.CV|None|Amanuel T. Dufera, Yuan-Li Cai|
+|**2025-09-19**|**[3D Gaussian Flats: Hybrid 2D/3D Photometric Scene Reconstruction](https://arxiv.org/abs/2509.16423)**|N/A|None|cs.CV|None|Maria Taktasheva et al.|
+|**2025-09-19**|**[StereoAdapter: Adapting Stereo Depth Estimation to Underwater Scenes](https://arxiv.org/abs/2509.16415)**|N/A|None|cs.CV|None|Zhengri Wu et al.|
 |**2025-09-19**|**[Towards Sharper Object Boundaries in Self-Supervised Depth Estimation](https://arxiv.org/abs/2509.15987)**|N/A|BMVC 2025 Oral, 10 pages, 6 figures|cs.CV|None|Aurélien Cecille et al.|
 |**2025-09-19**|**[Shedding Light on Depth: Explainability Assessment in Monocular Depth Estimation](https://arxiv.org/abs/2509.15980)**|N/A|8 pages, 3 figures, 2 tables. This paper has been accepted at the International Joint Conference on Neural Networks (IJCNN) 2025|cs.CV|None|Lorenzo Cirillo et al.|
 |**2025-09-19**|**[MS-GS: Multi-Appearance Sparse-View 3D Gaussian Splatting in the Wild](https://arxiv.org/abs/2509.15548)**|N/A|None|cs.CV|None|Deming Li et al.|

@@ -1,5 +1,365 @@
 {
   "3DGS Semantic": {
+    "2509.17998": {
+      "title": "Adaptive Kernel Design for Bayesian Optimization Is a Piece of CAKE with LLMs",
+      "authors": [
+        "Richard Cornelius Suwandi",
+        "Feng Yin",
+        "Juntao Wang",
+        "Renjie Li",
+        "Tsung-Hui Chang",
+        "Sergios Theodoridis"
+      ],
+      "published": "2025-09-22T16:39:12+00:00",
+      "updated": "2025-09-22T16:39:12+00:00",
+      "summary": "The efficiency of Bayesian optimization (BO) relies heavily on the choice of\nthe Gaussian process (GP) kernel, which plays a central role in balancing\nexploration and exploitation under limited evaluation budgets. Traditional BO\nmethods often rely on fixed or heuristic kernel selection strategies, which can\nresult in slow convergence or suboptimal solutions when the chosen kernel is\npoorly suited to the underlying objective function. To address this limitation,\nwe propose a freshly-baked Context-Aware Kernel Evolution (CAKE) to enhance BO\nwith large language models (LLMs). Concretely, CAKE leverages LLMs as the\ncrossover and mutation operators to adaptively generate and refine GP kernels\nbased on the observed data throughout the optimization process. To maximize the\npower of CAKE, we further propose BIC-Acquisition Kernel Ranking (BAKER) to\nselect the most effective kernel through balancing the model fit measured by\nthe Bayesian information criterion (BIC) with the expected improvement at each\niteration of BO. Extensive experiments demonstrate that our fresh CAKE-based BO\nmethod consistently outperforms established baselines across a range of\nreal-world tasks, including hyperparameter optimization, controller tuning, and\nphotonic chip design. Our code is publicly available at\nhttps://github.com/cake4bo/cake.",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "http://arxiv.org/pdf/2509.17998v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted as Poster at NeurIPS 2025",
+      "entry_id": "http://arxiv.org/abs/2509.17998v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.17998v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.17998v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.17951": {
+      "title": "DragOSM: Extract Building Roofs and Footprints from Aerial Images by Aligning Historical Labels",
+      "authors": [
+        "Kai Li",
+        "Xingxing Weng",
+        "Yupeng Deng",
+        "Yu Meng",
+        "Chao Pang",
+        "Gui-Song Xia",
+        "Xiangyu Zhao"
+      ],
+      "published": "2025-09-22T16:10:13+00:00",
+      "updated": "2025-09-22T16:10:13+00:00",
+      "summary": "Extracting polygonal roofs and footprints from remote sensing images is\ncritical for large-scale urban analysis. Most existing methods rely on\nsegmentation-based models that assume clear semantic boundaries of roofs, but\nthese approaches struggle in off- nadir images, where the roof and footprint\nare significantly displaced, and facade pixels are fused with the roof\nboundary. With the increasing availability of open vector map annotations,\ne.g., OpenStreetMap, utilizing historical labels for off-nadir image annotation\nhas become viable because remote sensing images are georeferenced once\ncaptured. However, these historical labels commonly suffer from significant\npositional discrepancies with new images and only have one annotation (roof or\nfootprint), which fails to describe the correct structures of a building. To\naddress these discrepancies, we first introduce a concept of an alignment\ntoken, which encodes the correction vector to guide the label correction. Based\non this concept, we then propose Drag OpenStreetMap Labels (DragOSM), a novel\nmodel designed to align dislocated historical labels with roofs and footprints.\nSpecifically, DragOSM formulates the label alignment as an interactive\ndenoising process, modeling the positional discrepancy as a Gaussian\ndistribution. During training, it learns to correct these errors by simulating\nmisalignment with random Gaussian perturbations; during inference, it\niteratively refines the positions of input labels. To validate our method, we\nfurther present a new dataset, Repairing Buildings in OSM (ReBO), comprising\n179,265 buildings with both OpenStreetMap and manually corrected annotations\nacross 5,473 images from 41 cities. Experimental results on ReBO demonstrate\nthe effectiveness of DragOSM. Code, dataset, and trained models are publicly\navailable at https://github.com/likaiucas/DragOSM.git.",
+      "categories": [
+        "cs.CV",
+        "I.5.4"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.17951v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "17 Pages",
+      "entry_id": "http://arxiv.org/abs/2509.17951v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.17951v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.17951v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.17762": {
+      "title": "Neural-MMGS: Multi-modal Neural Gaussian Splats for Large-Scale Scene Reconstruction",
+      "authors": [
+        "Sitian Shen",
+        "Georgi Pramatarov",
+        "Yifu Tao",
+        "Daniele De Martini"
+      ],
+      "published": "2025-09-22T13:24:58+00:00",
+      "updated": "2025-09-22T13:24:58+00:00",
+      "summary": "This paper proposes Neural-MMGS, a novel neural 3DGS framework for multimodal\nlarge-scale scene reconstruction that fuses multiple sensing modalities in a\nper-gaussian compact, learnable embedding. While recent works focusing on\nlarge-scale scene reconstruction have incorporated LiDAR data to provide more\naccurate geometric constraints, we argue that LiDAR's rich physical properties\nremain underexplored. Similarly, semantic information has been used for object\nretrieval, but could provide valuable high-level context for scene\nreconstruction. Traditional approaches append these properties to Gaussians as\nseparate parameters, increasing memory usage and limiting information exchange\nacross modalities. Instead, our approach fuses all modalities -- image, LiDAR,\nand semantics -- into a compact, learnable embedding that implicitly encodes\noptical, physical, and semantic features in each Gaussian. We then train\nlightweight neural decoders to map these embeddings to Gaussian parameters,\nenabling the reconstruction of each sensing modality with lower memory overhead\nand improved scalability. We evaluate Neural-MMGS on the Oxford Spires and\nKITTI-360 datasets. On Oxford Spires, we achieve higher-quality\nreconstructions, while on KITTI-360, our method reaches competitive results\nwith less storage consumption compared with current approaches in LiDAR-based\nnovel-view synthesis.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.17762v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.17762v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.17762v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.17762v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.17659": {
+      "title": "Distributed Stochastic Optimization under Heavy-Tailed Noise: A Federated Mirror Descent Approach with High Probability Convergence",
+      "authors": [
+        "Zhan Yu",
+        "Lan Liao",
+        "Deming Yuan",
+        "Daniel W. C. Ho",
+        "Ding-Xuan Zhou"
+      ],
+      "published": "2025-09-22T12:03:19+00:00",
+      "updated": "2025-09-22T12:03:19+00:00",
+      "summary": "We study the distributed stochastic optimization (DSO) problem under a\nheavy-tailed noise condition by utilizing a multi-agent system. Despite the\nextensive research on DSO algorithms used to solve DSO problems under\nlight-tailed noise conditions (such as Gaussian noise), there is a significant\nlack of study of DSO algorithms in the context of heavy-tailed random noise.\nClassical DSO approaches in a heavy-tailed setting may present poor convergence\nbehaviors. Therefore, developing DSO methods in the context of heavy-tailed\nnoises is of importance. This work follows this path and we consider the\nsetting that the gradient noises associated with each agent can be\nheavy-tailed, potentially having unbounded variance. We propose a clipped\nfederated stochastic mirror descent algorithm to solve the DSO problem. We\nrigorously present a convergence theory and show that, under appropriate rules\non the stepsize and the clipping parameter associated with the local noisy\ngradient influenced by the heavy-tailed noise, the algorithm is able to achieve\nsatisfactory high probability convergence.",
+      "categories": [
+        "math.OC"
+      ],
+      "primary_category": "math.OC",
+      "pdf_url": "http://arxiv.org/pdf/2509.17659v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.17659v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.17659v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.17659v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-09-24",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2509.17314": {
+      "title": "Clotho: Measuring Task-Specific Pre-Generation Test Adequacy for LLM Inputs",
+      "authors": [
+        "Juyeon Yoon",
+        "Somin Kim",
+        "Robert Feldt",
+        "Shin Yoo"
+      ],
+      "published": "2025-09-22T02:34:09+00:00",
+      "updated": "2025-09-22T02:34:09+00:00",
+      "summary": "Software increasingly relies on the emergent capabilities of Large Language\nModels (LLMs), from natural language understanding to program analysis and\ngeneration. Yet testing them on specific tasks remains difficult and costly:\nmany prompts lack ground truth, forcing reliance on human judgment, while\nexisting uncertainty and adequacy measures typically require full inference. A\nkey challenge is to assess input adequacy in a way that reflects the demands of\nthe task, ideally before even generating any output. We introduce CLOTHO, a\ntask-specific, pre-generation adequacy measure that estimates input difficulty\ndirectly from hidden LLM states. Given a large pool of unlabelled inputs for a\nspecific task, CLOTHO uses a Gaussian Mixture Model (GMM) to adaptively sample\nthe most informative cases for human labelling. Based on this reference set the\nGMM can then rank unseen inputs by their likelihood of failure. In our\nempirical evaluation across eight benchmark tasks and three open-weight LLMs,\nCLOTHO can predict failures with a ROC-AUC of 0.716, after labelling reference\nsets that are on average only 5.4% of inputs. It does so without generating any\noutputs, thereby reducing costs compared to existing uncertainty measures.\nComparison of CLOTHO and post-generation uncertainty measures shows that the\ntwo approaches complement each other. Crucially, we show that adequacy scores\nlearnt from open-weight LLMs transfer effectively to proprietary models,\nextending the applicability of the approach. When prioritising test inputs for\nproprietary models, CLOTHO increases the average number of failing inputs from\n18.7 to 42.5 out of 100, compared to random prioritisation.",
+      "categories": [
+        "cs.SE",
+        "cs.LG"
+      ],
+      "primary_category": "cs.SE",
+      "pdf_url": "http://arxiv.org/pdf/2509.17314v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.17314v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.17314v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.17314v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.17153": {
+      "title": "Flow-Induced Diagonal Gaussian Processes",
+      "authors": [
+        "Moule Lin",
+        "Andrea Patane",
+        "Weipeng Jing",
+        "Shuhao Guan",
+        "Goetz Botterweck"
+      ],
+      "published": "2025-09-21T16:49:09+00:00",
+      "updated": "2025-09-21T16:49:09+00:00",
+      "summary": "We present Flow-Induced Diagonal Gaussian Processes (FiD-GP), a compression\nframework that incorporates a compact inducing weight matrix to project a\nneural network's weight uncertainty into a lower-dimensional subspace.\nCritically, FiD-GP relies on normalising-flow priors and spectral\nregularisations to augment its expressiveness and align the inducing subspace\nwith feature-gradient geometry through a numerically stable projection\nmechanism objective. Furthermore, we demonstrate how the prediction framework\nin FiD-GP can help to design a single-pass projection for Out-of-Distribution\n(OoD) detection. Our analysis shows that FiD-GP improves uncertainty estimation\nability on various tasks compared with SVGP-based baselines, satisfies tight\nspectral residual bounds with theoretically guaranteed OoD detection, and\nsignificantly compresses the neural network's storage requirements at the cost\nof increased inference computation dependent on the number of inducing weights\nemployed. Specifically, in a comprehensive empirical study spanning regression,\nimage classification, semantic segmentation, and out-of-distribution detection\nbenchmarks, it cuts Bayesian training cost by several orders of magnitude,\ncompresses parameters by roughly 51%, reduces model size by about 75%, and\nmatches state-of-the-art accuracy and uncertainty estimation.",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "http://arxiv.org/pdf/2509.17153v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "15 pages",
+      "entry_id": "http://arxiv.org/abs/2509.17153v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.17153v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.17153v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.16960": {
+      "title": "SemanticGarment: Semantic-Controlled Generation and Editing of 3D Gaussian Garments",
+      "authors": [
+        "Ruiyan Wang",
+        "Zhengxue Cheng",
+        "Zonghao Lin",
+        "Jun Ling",
+        "Yuzhou Liu",
+        "Yanru An",
+        "Rong Xie",
+        "Li Song"
+      ],
+      "published": "2025-09-21T07:46:01+00:00",
+      "updated": "2025-09-21T07:46:01+00:00",
+      "summary": "3D digital garment generation and editing play a pivotal role in fashion\ndesign, virtual try-on, and gaming. Traditional methods struggle to meet the\ngrowing demand due to technical complexity and high resource costs.\nLearning-based approaches offer faster, more diverse garment synthesis based on\nspecific requirements and reduce human efforts and time costs. However, they\nstill face challenges such as inconsistent multi-view geometry or textures and\nheavy reliance on detailed garment topology and manual rigging. We propose\nSemanticGarment, a 3D Gaussian-based method that realizes high-fidelity 3D\ngarment generation from text or image prompts and supports semantic-based\ninteractive editing for flexible user customization. To ensure multi-view\nconsistency and garment fitting, we propose to leverage structural human priors\nfor the generative model by introducing a 3D semantic clothing model, which\ninitializes the geometry structure and lays the groundwork for view-consistent\ngarment generation and editing. Without the need to regenerate or rely on\nexisting mesh templates, our approach allows for rapid and diverse\nmodifications to existing Gaussians, either globally or within a local region.\nTo address the artifacts caused by self-occlusion for garment reconstruction\nbased on single image, we develop a self-occlusion optimization strategy to\nmitigate holes and artifacts that arise when directly animating self-occluded\ngarments. Extensive experiments are conducted to demonstrate our superior\nperformance in 3D garment generation and editing.",
+      "categories": [
+        "cs.GR",
+        "cs.MM"
+      ],
+      "primary_category": "cs.GR",
+      "pdf_url": "http://arxiv.org/pdf/2509.16960v1",
+      "journal_ref": null,
+      "doi": "10.1145/3746027.3755136",
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.16960v1",
+      "links": [
+        {
+          "href": "http://dx.doi.org/10.1145/3746027.3755136",
+          "title": "doi",
+          "rel": "related",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/abs/2509.16960v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.16960v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-09-24",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2509.16752": {
+      "title": "A Collisional Model Approach to Quantum Phase Sensitivity",
+      "authors": [
+        "S. Elham Mousavigharalari",
+        "Deniz Türkpençe"
+      ],
+      "published": "2025-09-20T17:28:22+00:00",
+      "updated": "2025-09-20T17:28:22+00:00",
+      "summary": "We investigate how relative phase information, encoded by a single qubit\n$H\\,\\varphi\\,H$ gate sequence, is reflected in the quantum Fisher information\n(QFI) under noisy dynamics. Within a collision model framework, algorithmically\nprepared reservoir units imprint a $\\varphi$ dependent signature on the steady\nstate of a probe qubit, which permits a closed form evaluation of the QFI. To\ncorroborate this reservoir based prediction, we perform a device level\nsimulation of the same gate sequence using effective two level dynamics with\nparameters motivated by transmon devices. In this description the noisy gate\nsegment is modeled by a Gaussian modulated drive evolving under open system\ndynamics. Across both treatments the resulting QFI profile exhibits the same\nqualitative dependence on the encoded phase, despite the distinct underlying\nmechanisms. Beyond conceptual agreement, the steady state perspective provides\na tomography free metric for phase fragility that can inform biased noise error\ncorrection and guide compiler and pulse choices in near term quantum hardware.",
+      "categories": [
+        "quant-ph"
+      ],
+      "primary_category": "quant-ph",
+      "pdf_url": "http://arxiv.org/pdf/2509.16752v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "10 pages, 4 figures. This work presents an analytic and\n  simulation-based study of phase sensitivity in noisy quantum devices, linking\n  collision models and device-level simulations via quantum Fisher information,\n  and will be of interest to readers in quantum computing and quantum metrology",
+      "entry_id": "http://arxiv.org/abs/2509.16752v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.16752v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.16752v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.16552": {
+      "title": "ST-GS: Vision-Based 3D Semantic Occupancy Prediction with Spatial-Temporal Gaussian Splatting",
+      "authors": [
+        "Xiaoyang Yan",
+        "Muleilan Pei",
+        "Shaojie Shen"
+      ],
+      "published": "2025-09-20T06:36:30+00:00",
+      "updated": "2025-09-20T06:36:30+00:00",
+      "summary": "3D occupancy prediction is critical for comprehensive scene understanding in\nvision-centric autonomous driving. Recent advances have explored utilizing 3D\nsemantic Gaussians to model occupancy while reducing computational overhead,\nbut they remain constrained by insufficient multi-view spatial interaction and\nlimited multi-frame temporal consistency. To overcome these issues, in this\npaper, we propose a novel Spatial-Temporal Gaussian Splatting (ST-GS) framework\nto enhance both spatial and temporal modeling in existing Gaussian-based\npipelines. Specifically, we develop a guidance-informed spatial aggregation\nstrategy within a dual-mode attention mechanism to strengthen spatial\ninteraction in Gaussian representations. Furthermore, we introduce a\ngeometry-aware temporal fusion scheme that effectively leverages historical\ncontext to improve temporal continuity in scene completion. Extensive\nexperiments on the large-scale nuScenes occupancy prediction benchmark showcase\nthat our proposed approach not only achieves state-of-the-art performance but\nalso delivers markedly better temporal consistency compared to existing\nGaussian-based methods.",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.16552v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.16552v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.16552v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.16552v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2509.15945": {
       "title": "Quantum Metric Spaces: Replacing Fuzzy Metrics with the Hilbert Space Structure of Quantum States",
       "authors": [
@@ -50,26 +410,26 @@
         "Cheng Peng"
       ],
       "published": "2025-09-19T03:06:49+00:00",
-      "updated": "2025-09-19T03:06:49+00:00",
+      "updated": "2025-09-22T17:34:24+00:00",
       "summary": "In-the-wild photo collections often contain limited volumes of imagery and\nexhibit multiple appearances, e.g., taken at different times of day or seasons,\nposing significant challenges to scene reconstruction and novel view synthesis.\nAlthough recent adaptations of Neural Radiance Field (NeRF) and 3D Gaussian\nSplatting (3DGS) have improved in these areas, they tend to oversmooth and are\nprone to overfitting. In this paper, we present MS-GS, a novel framework\ndesigned with Multi-appearance capabilities in Sparse-view scenarios using\n3DGS. To address the lack of support due to sparse initializations, our\napproach is built on the geometric priors elicited from monocular depth\nestimations. The key lies in extracting and utilizing local semantic regions\nwith a Structure-from-Motion (SfM) points anchored algorithm for reliable\nalignment and geometry cues. Then, to introduce multi-view constraints, we\npropose a series of geometry-guided supervision at virtual views in a\nfine-grained and coarse scheme to encourage 3D consistency and reduce\noverfitting. We also introduce a dataset and an in-the-wild experiment setting\nto set up more realistic benchmarks. We demonstrate that MS-GS achieves\nphotorealistic renderings under various challenging sparse-view and\nmulti-appearance conditions and outperforms existing approaches significantly\nacross different datasets.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "http://arxiv.org/pdf/2509.15548v1",
+      "pdf_url": "http://arxiv.org/pdf/2509.15548v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2509.15548v1",
+      "entry_id": "http://arxiv.org/abs/2509.15548v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2509.15548v1",
+          "href": "http://arxiv.org/abs/2509.15548v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2509.15548v1",
+          "href": "http://arxiv.org/pdf/2509.15548v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -73658,6 +74018,157 @@
     }
   },
   "Depth Estimation": {
+    "2509.17650": {
+      "title": "Evict3R: Training-Free Token Eviction for Memory-Bounded Streaming Visual Geometry Transformers",
+      "authors": [
+        "Soroush Mahdi",
+        "Fardin Ayar",
+        "Ehsan Javanmardi",
+        "Manabu Tsukada",
+        "Mahdi Javanmardi"
+      ],
+      "published": "2025-09-22T11:54:58+00:00",
+      "updated": "2025-09-22T11:54:58+00:00",
+      "summary": "Streaming visual transformers like StreamVGGT achieve strong 3D perception\nbut suffer from unbounded growth of key value (KV) memory, which limits\nscalability. We propose a training-free, inference-time token eviction policy\nthat bounds memory by discarding redundant tokens while keeping the most\ninformative ones. Our method uses significantly less memory with little to no\ndrop in accuracy: on 7-Scenes with long sequences it reduces peak memory from\n18.63 GB to 9.39 GB while accuracy and completeness drop by only 0.003. Under\nstrict memory budgets, eviction enables denser frame sampling, which improves\nreconstruction accuracy compared to the baseline. Experiments across video\ndepth estimation (Sintel, KITTI), 3D reconstruction (7-Scenes, NRGBD), and\ncamera pose estimation (Sintel, TUM-dynamics) show that our approach closely\nmatches StreamVGGT at a fraction of the memory and makes long-horizon streaming\ninference more practical.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.17650v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.17650v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.17650v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.17650v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2509.16863": {
+      "title": "ConfidentSplat: Confidence-Weighted Depth Fusion for Accurate 3D Gaussian Splatting SLAM",
+      "authors": [
+        "Amanuel T. Dufera",
+        "Yuan-Li Cai"
+      ],
+      "published": "2025-09-21T01:28:03+00:00",
+      "updated": "2025-09-21T01:28:03+00:00",
+      "summary": "We introduce ConfidentSplat, a novel 3D Gaussian Splatting (3DGS)-based SLAM\nsystem for robust, highfidelity RGB-only reconstruction. Addressing geometric\ninaccuracies in existing RGB-only 3DGS SLAM methods that stem from unreliable\ndepth estimation, ConfidentSplat incorporates a core innovation: a\nconfidence-weighted fusion mechanism. This mechanism adaptively integrates\ndepth cues from multiview geometry with learned monocular priors (Omnidata\nViT), dynamically weighting their contributions based on explicit reliability\nestimates-derived predominantly from multi-view geometric consistency-to\ngenerate high-fidelity proxy depth for map supervision. The resulting proxy\ndepth guides the optimization of a deformable 3DGS map, which efficiently\nadapts online to maintain global consistency following pose updates from a\nDROID-SLAM-inspired frontend and backend optimizations (loop closure, global\nbundle adjustment). Extensive validation on standard benchmarks (TUM-RGBD,\nScanNet) and diverse custom mobile datasets demonstrates significant\nimprovements in reconstruction accuracy (L1 depth error) and novel view\nsynthesis fidelity (PSNR, SSIM, LPIPS) over baselines, particularly in\nchallenging conditions. ConfidentSplat underscores the efficacy of principled,\nconfidence-aware sensor fusion for advancing state-of-the-art dense visual\nSLAM.",
+      "categories": [
+        "cs.CV",
+        "68T20, 68U20"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.16863v1",
+      "journal_ref": null,
+      "doi": "10.1109/IEEECONF65522.2025.11137090",
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.16863v1",
+      "links": [
+        {
+          "href": "http://dx.doi.org/10.1109/IEEECONF65522.2025.11137090",
+          "title": "doi",
+          "rel": "related",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/abs/2509.16863v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.16863v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2509.16423": {
+      "title": "3D Gaussian Flats: Hybrid 2D/3D Photometric Scene Reconstruction",
+      "authors": [
+        "Maria Taktasheva",
+        "Lily Goli",
+        "Alessandro Fiorini",
+        "Zhen Li",
+        "Daniel Rebain",
+        "Andrea Tagliasacchi"
+      ],
+      "published": "2025-09-19T21:04:36+00:00",
+      "updated": "2025-09-23T00:47:20+00:00",
+      "summary": "Recent advances in radiance fields and novel view synthesis enable creation\nof realistic digital twins from photographs. However, current methods struggle\nwith flat, texture-less surfaces, creating uneven and semi-transparent\nreconstructions, due to an ill-conditioned photometric reconstruction\nobjective. Surface reconstruction methods solve this issue but sacrifice visual\nquality. We propose a novel hybrid 2D/3D representation that jointly optimizes\nconstrained planar (2D) Gaussians for modeling flat surfaces and freeform (3D)\nGaussians for the rest of the scene. Our end-to-end approach dynamically\ndetects and refines planar regions, improving both visual fidelity and\ngeometric accuracy. It achieves state-of-the-art depth estimation on ScanNet++\nand ScanNetv2, and excels at mesh extraction without overfitting to a specific\ncamera model, showing its effectiveness in producing high-quality\nreconstruction of indoor scenes.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.16423v2",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.16423v2",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.16423v2",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.16423v2",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2509.16415": {
+      "title": "StereoAdapter: Adapting Stereo Depth Estimation to Underwater Scenes",
+      "authors": [
+        "Zhengri Wu",
+        "Yiran Wang",
+        "Yu Wen",
+        "Zeyu Zhang",
+        "Biao Wu",
+        "Hao Tang"
+      ],
+      "published": "2025-09-19T20:57:03+00:00",
+      "updated": "2025-09-19T20:57:03+00:00",
+      "summary": "Underwater stereo depth estimation provides accurate 3D geometry for robotics\ntasks such as navigation, inspection, and mapping, offering metric depth from\nlow-cost passive cameras while avoiding the scale ambiguity of monocular\nmethods. However, existing approaches face two critical challenges: (i)\nparameter-efficiently adapting large vision foundation encoders to the\nunderwater domain without extensive labeled data, and (ii) tightly fusing\nglobally coherent but scale-ambiguous monocular priors with locally metric yet\nphotometrically fragile stereo correspondences. To address these challenges, we\npropose StereoAdapter, a parameter-efficient self-supervised framework that\nintegrates a LoRA-adapted monocular foundation encoder with a recurrent stereo\nrefinement module. We further introduce dynamic LoRA adaptation for efficient\nrank selection and pre-training on the synthetic UW-StereoDepth-40K dataset to\nenhance robustness under diverse underwater conditions. Comprehensive\nevaluations on both simulated and real-world benchmarks show improvements of\n6.11% on TartanAir and 5.12% on SQUID compared to state-of-the-art methods,\nwhile real-world deployment with the BlueROV2 robot further demonstrates the\nconsistent robustness of our approach. Code:\nhttps://github.com/AIGeeksGroup/StereoAdapter. Website:\nhttps://aigeeksgroup.github.io/StereoAdapter.",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.16415v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.16415v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.16415v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.16415v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2509.15987": {
       "title": "Towards Sharper Object Boundaries in Self-Supervised Depth Estimation",
       "authors": [
@@ -73744,26 +74255,26 @@
         "Cheng Peng"
       ],
       "published": "2025-09-19T03:06:49+00:00",
-      "updated": "2025-09-19T03:06:49+00:00",
+      "updated": "2025-09-22T17:34:24+00:00",
       "summary": "In-the-wild photo collections often contain limited volumes of imagery and\nexhibit multiple appearances, e.g., taken at different times of day or seasons,\nposing significant challenges to scene reconstruction and novel view synthesis.\nAlthough recent adaptations of Neural Radiance Field (NeRF) and 3D Gaussian\nSplatting (3DGS) have improved in these areas, they tend to oversmooth and are\nprone to overfitting. In this paper, we present MS-GS, a novel framework\ndesigned with Multi-appearance capabilities in Sparse-view scenarios using\n3DGS. To address the lack of support due to sparse initializations, our\napproach is built on the geometric priors elicited from monocular depth\nestimations. The key lies in extracting and utilizing local semantic regions\nwith a Structure-from-Motion (SfM) points anchored algorithm for reliable\nalignment and geometry cues. Then, to introduce multi-view constraints, we\npropose a series of geometry-guided supervision at virtual views in a\nfine-grained and coarse scheme to encourage 3D consistency and reduce\noverfitting. We also introduce a dataset and an in-the-wild experiment setting\nto set up more realistic benchmarks. We demonstrate that MS-GS achieves\nphotorealistic renderings under various challenging sparse-view and\nmulti-appearance conditions and outperforms existing approaches significantly\nacross different datasets.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "http://arxiv.org/pdf/2509.15548v1",
+      "pdf_url": "http://arxiv.org/pdf/2509.15548v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2509.15548v1",
+      "entry_id": "http://arxiv.org/abs/2509.15548v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2509.15548v1",
+          "href": "http://arxiv.org/abs/2509.15548v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2509.15548v1",
+          "href": "http://arxiv.org/pdf/2509.15548v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
