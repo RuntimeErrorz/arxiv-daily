@@ -1,4 +1,4 @@
-## Updated at 2025-09-24 20:08:36
+## Updated at 2025-09-25 20:08:03
 
 ## 3DGS Semantic
 
@@ -545,6 +545,9 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-09-24**|**[BiTAA: A Bi-Task Adversarial Attack for Object Detection and Depth Estimation via 3D Gaussian Splatting](https://arxiv.org/abs/2509.19793)**|N/A|Intend to submit to RA-L|cs.CV|None|Yixun Zhang et al.|
+|**2025-09-24**|**[VIMD: Monocular Visual-Inertial Motion and Depth Estimation](https://arxiv.org/abs/2509.19713)**|N/A|None|cs.CV|None|Saimouli Katragadda, Guoquan Huang|
+|**2025-09-24**|**[Enhancing Transformer-Based Vision Models: Addressing Feature Map Anomalies Through Novel Optimization Strategies](https://arxiv.org/abs/2509.19687)**|N/A|8 pages, 8 figures, accepted and presented at IEEE BDAI 2025. The final published version will be available on IEEE Xplore|cs.CV|None|Sumit Mamtani|
 |**2025-09-23**|**[RS3DBench: A Comprehensive Benchmark for 3D Spatial Perception in Remote Sensing](https://arxiv.org/abs/2509.18897)**|N/A|26 pages, 4 figures|cs.CV|None|Jiayu Wang et al.|
 |**2025-09-23**|**[Zero-shot Monocular Metric Depth for Endoscopic Images](https://arxiv.org/abs/2509.18642)**|N/A|Accepted at MICCAI 2025 DEMI Workshop|cs.CV|None|Nicolas Toussaint et al.|
 |**2025-09-22**|**[Evict3R: Training-Free Token Eviction for Memory-Bounded Streaming Visual Geometry Transformers](https://arxiv.org/abs/2509.17650)**|N/A|None|cs.CV|None|Soroush Mahdi et al.|

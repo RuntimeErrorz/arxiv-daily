@@ -1,5 +1,167 @@
 {
   "3DGS Semantic": {
+    "2509.20251": {
+      "title": "4D Driving Scene Generation With Stereo Forcing",
+      "authors": [
+        "Hao Lu",
+        "Zhuang Ma",
+        "Guangfeng Jiang",
+        "Wenhang Ge",
+        "Bohan Li",
+        "Yuzhan Cai",
+        "Wenzhao Zheng",
+        "Yunpeng Zhang",
+        "Yingcong Chen"
+      ],
+      "published": "2025-09-24T15:37:17+00:00",
+      "updated": "2025-09-24T15:37:17+00:00",
+      "summary": "Current generative models struggle to synthesize dynamic 4D driving scenes\nthat simultaneously support temporal extrapolation and spatial novel view\nsynthesis (NVS) without per-scene optimization. Bridging generation and novel\nview synthesis remains a major challenge. We present PhiGenesis, a unified\nframework for 4D scene generation that extends video generation techniques with\ngeometric and temporal consistency. Given multi-view image sequences and camera\nparameters, PhiGenesis produces temporally continuous 4D Gaussian splatting\nrepresentations along target 3D trajectories. In its first stage, PhiGenesis\nleverages a pre-trained video VAE with a novel range-view adapter to enable\nfeed-forward 4D reconstruction from multi-view images. This architecture\nsupports single-frame or video inputs and outputs complete 4D scenes including\ngeometry, semantics, and motion. In the second stage, PhiGenesis introduces a\ngeometric-guided video diffusion model, using rendered historical 4D scenes as\npriors to generate future views conditioned on trajectories. To address\ngeometric exposure bias in novel views, we propose Stereo Forcing, a novel\nconditioning strategy that integrates geometric uncertainty during denoising.\nThis method enhances temporal coherence by dynamically adjusting generative\ninfluence based on uncertainty-aware perturbations. Our experimental results\ndemonstrate that our method achieves state-of-the-art performance in both\nappearance and geometric reconstruction, temporal generation and novel view\nsynthesis (NVS) tasks, while simultaneously delivering competitive performance\nin downstream evaluations. Homepage is at\n\\href{https://jiangxb98.github.io/PhiGensis}{PhiGensis}.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.20251v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.20251v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.20251v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.20251v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.20214": {
+      "title": "Q-Palette: Fractional-Bit Quantizers Toward Optimal Bit Allocation for Efficient LLM Deployment",
+      "authors": [
+        "Deokjae Lee",
+        "Hyun Oh Song"
+      ],
+      "published": "2025-09-24T15:10:44+00:00",
+      "updated": "2025-09-24T15:10:44+00:00",
+      "summary": "We study weight-only post-training quantization (PTQ), which quantizes the\nweights of a large language model (LLM) without retraining, using little or no\ncalibration data. Weight-only PTQ is crucial for reducing the memory footprint\nand latency of LLM inference, especially in memory-bound, small-batch inference\nscenarios, such as personalized inference on edge devices. Despite its\nimportance, irregular weight distributions with heavy-tailed outliers in LLMs\ncomplicate quantization, recently motivating rotation-based methods that\ntransform weights into near-Gaussian distributions, which are more regular with\nfewer outliers, thereby reducing quantization error. In this work, we first\nderive the information-theoretically optimal bit allocation for Gaussianized\nweights under given bit budgets, revealing that fine-grained fractional-bit\nquantizers approaching the Gaussian distortion-rate bound are essential to\nachieve near-optimal quantization performance. To bridge this theoretical\ninsight and practical implementation, we introduce Q-Palette, a versatile\ncollection of fractional-bit quantizers that range from trellis-coded\nquantizers offering near-optimal distortion to simpler vector and scalar\nquantizers optimized for faster inference, all efficiently implemented with\noptimized CUDA kernels across various bitwidths. Furthermore, leveraging\nQ-Palette as a foundational component, we propose a novel mixed-scheme\nquantization framework, jointly optimizing quantizer choices and layer fusion\ndecisions given resource constraints. The code is available at\nhttps://github.com/snu-mllab/Q-Palette.",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "http://arxiv.org/pdf/2509.20214v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "NeurIPS 2025",
+      "entry_id": "http://arxiv.org/abs/2509.20214v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.20214v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.20214v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.19752": {
+      "title": "Beyond Human Demonstrations: Diffusion-Based Reinforcement Learning to Generate Data for VLA Training",
+      "authors": [
+        "Rushuai Yang",
+        "Hangxing Wei",
+        "Ran Zhang",
+        "Zhiyuan Feng",
+        "Xiaoyu Chen",
+        "Tong Li",
+        "Chuheng Zhang",
+        "Li Zhao",
+        "Jiang Bian",
+        "Xiu Su",
+        "Yi Chen"
+      ],
+      "published": "2025-09-24T04:08:14+00:00",
+      "updated": "2025-09-24T04:08:14+00:00",
+      "summary": "Vision-language-action (VLA) models have shown strong generalization across\ntasks and embodiments; however, their reliance on large-scale human\ndemonstrations limits their scalability owing to the cost and effort of manual\ndata collection. Reinforcement learning (RL) offers a potential alternative to\ngenerate demonstrations autonomously, yet conventional RL algorithms often\nstruggle on long-horizon manipulation tasks with sparse rewards. In this paper,\nwe propose a modified diffusion policy optimization algorithm to generate\nhigh-quality and low-variance trajectories, which contributes to a diffusion\nRL-powered VLA training pipeline. Our algorithm benefits from not only the high\nexpressiveness of diffusion models to explore complex and diverse behaviors but\nalso the implicit regularization of the iterative denoising process to yield\nsmooth and consistent demonstrations. We evaluate our approach on the LIBERO\nbenchmark, which includes 130 long-horizon manipulation tasks, and show that\nthe generated trajectories are smoother and more consistent than both human\ndemonstrations and those from standard Gaussian RL policies. Further, training\na VLA model exclusively on the diffusion RL-generated data achieves an average\nsuccess rate of 81.9%, which outperforms the model trained on human data by\n+5.3% and that on Gaussian RL-generated data by +12.6%. The results highlight\nour diffusion RL as an effective alternative for generating abundant,\nhigh-quality, and low-variance demonstrations for VLA models.",
+      "categories": [
+        "cs.RO"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "http://arxiv.org/pdf/2509.19752v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.19752v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.19752v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.19752v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.19572": {
+      "title": "Analyzing α-divergence in Gaussian Rate-Distortion-Perception Theory",
+      "authors": [
+        "Martha V. Sourla",
+        "Giuseppe Serra",
+        "Photios A. Stavrou",
+        "Marios Kountouris"
+      ],
+      "published": "2025-09-23T20:56:49+00:00",
+      "updated": "2025-09-23T20:56:49+00:00",
+      "summary": "The problem of estimating the information rate distortion perception function\n(RDPF), which is a relevant information-theoretic quantity in goal-oriented\nlossy compression and semantic information reconstruction, is investigated\nhere. Specifically, we study the RDPF tradeoff for Gaussian sources subject to\na mean-squared error (MSE) distortion and a perception measure that belongs to\nthe family of {\\alpha} divergences. Assuming a jointly Gaussian RDPF, which\nforms a convex optimization problem, we characterize an upper bound for which\nwe find a parametric solution. We show that evaluating the optimal parameters\nof this parametric solution is equivalent to finding the roots of a reduced\nexponential polynomial of degree {\\alpha}. Additionally, we determine which\ndisjoint sets contain each root, which enables us to evaluate them numerically\nusing the well-known bisection method. Finally, we validate our analytical\nfindings with numerical results and establish connections with existing\nresults.",
+      "categories": [
+        "cs.IT",
+        "math.IT"
+      ],
+      "primary_category": "cs.IT",
+      "pdf_url": "http://arxiv.org/pdf/2509.19572v1",
+      "journal_ref": "2024 IEEE 25th International Workshop on Signal Processing\n  Advances in Wireless Communications (SPAWC)",
+      "doi": "10.1109/SPAWC60668.2024.10694296",
+      "comment": "conference, 5 pages, 3 figures",
+      "entry_id": "http://arxiv.org/abs/2509.19572v1",
+      "links": [
+        {
+          "href": "http://dx.doi.org/10.1109/SPAWC60668.2024.10694296",
+          "title": "doi",
+          "rel": "related",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/abs/2509.19572v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.19572v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2509.19212": {
       "title": "Steering Multimodal Large Language Models Decoding for Context-Aware Safety",
       "authors": [
@@ -412,27 +574,27 @@
         "Shin Yoo"
       ],
       "published": "2025-09-22T02:34:09+00:00",
-      "updated": "2025-09-22T02:34:09+00:00",
+      "updated": "2025-09-23T19:15:16+00:00",
       "summary": "Software increasingly relies on the emergent capabilities of Large Language\nModels (LLMs), from natural language understanding to program analysis and\ngeneration. Yet testing them on specific tasks remains difficult and costly:\nmany prompts lack ground truth, forcing reliance on human judgment, while\nexisting uncertainty and adequacy measures typically require full inference. A\nkey challenge is to assess input adequacy in a way that reflects the demands of\nthe task, ideally before even generating any output. We introduce CLOTHO, a\ntask-specific, pre-generation adequacy measure that estimates input difficulty\ndirectly from hidden LLM states. Given a large pool of unlabelled inputs for a\nspecific task, CLOTHO uses a Gaussian Mixture Model (GMM) to adaptively sample\nthe most informative cases for human labelling. Based on this reference set the\nGMM can then rank unseen inputs by their likelihood of failure. In our\nempirical evaluation across eight benchmark tasks and three open-weight LLMs,\nCLOTHO can predict failures with a ROC-AUC of 0.716, after labelling reference\nsets that are on average only 5.4% of inputs. It does so without generating any\noutputs, thereby reducing costs compared to existing uncertainty measures.\nComparison of CLOTHO and post-generation uncertainty measures shows that the\ntwo approaches complement each other. Crucially, we show that adequacy scores\nlearnt from open-weight LLMs transfer effectively to proprietary models,\nextending the applicability of the approach. When prioritising test inputs for\nproprietary models, CLOTHO increases the average number of failing inputs from\n18.7 to 42.5 out of 100, compared to random prioritisation.",
       "categories": [
         "cs.SE",
         "cs.LG"
       ],
       "primary_category": "cs.SE",
-      "pdf_url": "http://arxiv.org/pdf/2509.17314v1",
+      "pdf_url": "http://arxiv.org/pdf/2509.17314v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2509.17314v1",
+      "entry_id": "http://arxiv.org/abs/2509.17314v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2509.17314v1",
+          "href": "http://arxiv.org/abs/2509.17314v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2509.17314v1",
+          "href": "http://arxiv.org/pdf/2509.17314v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -74336,6 +74498,106 @@
     }
   },
   "Depth Estimation": {
+    "2509.19793": {
+      "title": "BiTAA: A Bi-Task Adversarial Attack for Object Detection and Depth Estimation via 3D Gaussian Splatting",
+      "authors": [
+        "Yixun Zhang",
+        "Feng Zhou",
+        "Jianqin Yin"
+      ],
+      "published": "2025-09-24T06:27:15+00:00",
+      "updated": "2025-09-24T06:27:15+00:00",
+      "summary": "Camera-based perception is critical to autonomous driving yet remains\nvulnerable to task-specific adversarial manipulations in object detection and\nmonocular depth estimation. Most existing 2D/3D attacks are developed in task\nsilos, lack mechanisms to induce controllable depth bias, and offer no\nstandardized protocol to quantify cross-task transfer, leaving the interaction\nbetween detection and depth underexplored. We present BiTAA, a bi-task\nadversarial attack built on 3D Gaussian Splatting that yields a single\nperturbation capable of simultaneously degrading detection and biasing\nmonocular depth. Specifically, we introduce a dual-model attack framework that\nsupports both full-image and patch settings and is compatible with common\ndetectors and depth estimators, with optional expectation-over-transformation\n(EOT) for physical reality. In addition, we design a composite loss that\ncouples detection suppression with a signed, magnitude-controlled log-depth\nbias within regions of interest (ROIs) enabling controllable near or far\nmisperception while maintaining stable optimization across tasks. We also\npropose a unified evaluation protocol with cross-task transfer metrics and\nreal-world evaluations, showing consistent cross-task degradation and a clear\nasymmetry between Det to Depth and from Depth to Det transfer. The results\nhighlight practical risks for multi-task camera-only perception and motivate\ncross-task-aware defenses in autonomous driving scenarios.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.19793v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Intend to submit to RA-L",
+      "entry_id": "http://arxiv.org/abs/2509.19793v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.19793v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.19793v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2509.19713": {
+      "title": "VIMD: Monocular Visual-Inertial Motion and Depth Estimation",
+      "authors": [
+        "Saimouli Katragadda",
+        "Guoquan Huang"
+      ],
+      "published": "2025-09-24T02:50:55+00:00",
+      "updated": "2025-09-24T02:50:55+00:00",
+      "summary": "Accurate and efficient dense metric depth estimation is crucial for 3D visual\nperception in robotics and XR. In this paper, we develop a monocular\nvisual-inertial motion and depth (VIMD) learning framework to estimate dense\nmetric depth by leveraging accurate and efficient MSCKF-based monocular\nvisual-inertial motion tracking. At the core the proposed VIMD is to exploit\nmulti-view information to iteratively refine per-pixel scale, instead of\nglobally fitting an invariant affine model as in the prior work. The VIMD\nframework is highly modular, making it compatible with a variety of existing\ndepth estimation backbones. We conduct extensive evaluations on the TartanAir\nand VOID datasets and demonstrate its zero-shot generalization capabilities on\nthe AR Table dataset. Our results show that VIMD achieves exceptional accuracy\nand robustness, even with extremely sparse points as few as 10-20 metric depth\npoints per image. This makes the proposed VIMD a practical solution for\ndeployment in resource constrained settings, while its robust performance and\nstrong generalization capabilities offer significant potential across a wide\nrange of scenarios.",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.19713v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.19713v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.19713v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.19713v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2509.19687": {
+      "title": "Enhancing Transformer-Based Vision Models: Addressing Feature Map Anomalies Through Novel Optimization Strategies",
+      "authors": [
+        "Sumit Mamtani"
+      ],
+      "published": "2025-09-24T01:49:59+00:00",
+      "updated": "2025-09-24T01:49:59+00:00",
+      "summary": "Vision Transformers (ViTs) have demonstrated superior performance across a\nwide range of computer vision tasks. However, structured noise artifacts in\ntheir feature maps hinder downstream applications such as segmentation and\ndepth estimation. We propose two novel and lightweight optimisation techniques-\nStructured Token Augmentation (STA) and Adaptive Noise Filtering (ANF)- to\nimprove interpretability and mitigate these artefacts. STA enhances token\ndiversity through spatial perturbations during tokenisation, while ANF applies\nlearnable inline denoising between transformer layers. These methods are\narchitecture-agnostic and evaluated across standard benchmarks, including\nImageNet, Ade20k, and NYUv2. Experimental results show consistent improvements\nin visual quality and task performance, highlighting the practical\neffectiveness of our approach.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.19687v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "8 pages, 8 figures, accepted and presented at IEEE BDAI 2025. The\n  final published version will be available on IEEE Xplore",
+      "entry_id": "http://arxiv.org/abs/2509.19687v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.19687v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.19687v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2509.18897": {
       "title": "RS3DBench: A Comprehensive Benchmark for 3D Spatial Perception in Remote Sensing",
       "authors": [
