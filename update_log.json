@@ -1,4 +1,9 @@
 {
+    "2025-09-27 08:16:22": {
+        "3DGS Semantic": 2,
+        "MVS": 1,
+        "Depth Estimation": 2
+    },
     "2025-09-25 20:08:00": {
         "3DGS Semantic": 4,
         "Depth Estimation": 3

@@ -1,5 +1,92 @@
 {
   "3DGS Semantic": {
+    "2509.20939": {
+      "title": "Unlocking Noise-Resistant Vision: Key Architectural Secrets for Robust Models",
+      "authors": [
+        "Bum Jun Kim",
+        "Makoto Kawano",
+        "Yusuke Iwasawa",
+        "Yutaka Matsuo"
+      ],
+      "published": "2025-09-25T09:24:49+00:00",
+      "updated": "2025-09-25T09:24:49+00:00",
+      "summary": "While the robustness of vision models is often measured, their dependence on\nspecific architectural design choices is rarely dissected. We investigate why\ncertain vision architectures are inherently more robust to additive Gaussian\nnoise and convert these empirical insights into simple, actionable design\nrules. Specifically, we performed extensive evaluations on 1,174 pretrained\nvision models, empirically identifying four consistent design patterns for\nimproved robustness against Gaussian noise: larger stem kernels, smaller input\nresolutions, average pooling, and supervised vision transformers (ViTs) rather\nthan CLIP ViTs, which yield up to 506 rank improvements and 21.6\\%p accuracy\ngains. We then develop a theoretical analysis that explains these findings,\nconverting observed correlations into causal mechanisms. First, we prove that\nlow-pass stem kernels attenuate noise with a gain that decreases quadratically\nwith kernel size and that anti-aliased downsampling reduces noise energy\nroughly in proportion to the square of the downsampling factor. Second, we\ndemonstrate that average pooling is unbiased and suppresses noise in proportion\nto the pooling window area, whereas max pooling incurs a positive bias that\ngrows slowly with window size and yields a relatively higher mean-squared error\nand greater worst-case sensitivity. Third, we reveal and explain the\nvulnerability of CLIP ViTs via a pixel-space Lipschitz bound: The smaller\nnormalization standard deviations used in CLIP preprocessing amplify worst-case\nsensitivity by up to 1.91 times relative to the Inception-style preprocessing\ncommon in supervised ViTs. Our results collectively disentangle robustness into\ninterpretable modules, provide a theory that explains the observed trends, and\nbuild practical, plug-and-play guidelines for designing vision models more\nrobust against Gaussian noise.",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.20939v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "30 pages, 5 figures",
+      "entry_id": "http://arxiv.org/abs/2509.20939v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.20939v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.20939v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.20707": {
+      "title": "An Automated Retrieval-Augmented Generation LLaMA-4 109B-based System for Evaluating Radiotherapy Treatment Plans",
+      "authors": [
+        "Junjie Cui",
+        "Peilong Wang",
+        "Jason Holmes",
+        "Leshan Sun",
+        "Michael L. Hinni",
+        "Barbara A. Pockaj",
+        "Sujay A. Vora",
+        "Terence T. Sio",
+        "William W. Wong",
+        "Nathan Y. Yu",
+        "Steven E. Schild",
+        "Joshua R. Niska",
+        "Sameer R. Keole",
+        "Jean-Claude M. Rwigema",
+        "Samir H. Patel",
+        "Lisa A. McGee",
+        "Carlos A. Vargas",
+        "Wei Liu"
+      ],
+      "published": "2025-09-25T03:18:31+00:00",
+      "updated": "2025-09-25T03:18:31+00:00",
+      "summary": "Purpose: To develop a retrieval-augmented generation (RAG) system powered by\nLLaMA-4 109B for automated, protocol-aware, and interpretable evaluation of\nradiotherapy treatment plans.\n  Methods and Materials: We curated a multi-protocol dataset of 614\nradiotherapy plans across four disease sites and constructed a knowledge base\ncontaining normalized dose metrics and protocol-defined constraints. The RAG\nsystem integrates three core modules: a retrieval engine optimized across five\nSentenceTransformer backbones, a percentile prediction component based on\ncohort similarity, and a clinical constraint checker. These tools are directed\nby a large language model (LLM) using a multi-step prompt-driven reasoning\npipeline to produce concise, grounded evaluations.\n  Results: Retrieval hyperparameters were optimized using Gaussian Process on a\nscalarized loss function combining root mean squared error (RMSE), mean\nabsolute error (MAE), and clinically motivated accuracy thresholds. The best\nconfiguration, based on all-MiniLM-L6-v2, achieved perfect nearest-neighbor\naccuracy within a 5-percentile-point margin and a sub-2pt MAE. When tested\nend-to-end, the RAG system achieved 100% agreement with the computed values by\nstandalone retrieval and constraint-checking modules on both percentile\nestimates and constraint identification, confirming reliable execution of all\nretrieval, prediction and checking steps.\n  Conclusion: Our findings highlight the feasibility of combining structured\npopulation-based scoring with modular tool-augmented reasoning for transparent,\nscalable plan evaluation in radiation therapy. The system offers traceable\noutputs, minimizes hallucination, and demonstrates robustness across protocols.\nFuture directions include clinician-led validation, and improved domain-adapted\nretrieval models to enhance real-world integration.",
+      "categories": [
+        "cs.AI"
+      ],
+      "primary_category": "cs.AI",
+      "pdf_url": "http://arxiv.org/pdf/2509.20707v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "16 pages, 4 figures. Submitted to npj Digital Medicine",
+      "entry_id": "http://arxiv.org/abs/2509.20707v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.20707v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.20707v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2509.20251": {
       "title": "4D Driving Scene Generation With Stereo Forcing",
       "authors": [
@@ -60086,6 +60173,41 @@
     }
   },
   "MVS": {
+    "2509.20607": {
+      "title": "Reflect3r: Single-View 3D Stereo Reconstruction Aided by Mirror Reflections",
+      "authors": [
+        "Jing Wu",
+        "Zirui Wang",
+        "Iro Laina",
+        "Victor Adrian Prisacariu"
+      ],
+      "published": "2025-09-24T23:00:22+00:00",
+      "updated": "2025-09-24T23:00:22+00:00",
+      "summary": "Mirror reflections are common in everyday environments and can provide stereo\ninformation within a single capture, as the real and reflected virtual views\nare visible simultaneously. We exploit this property by treating the reflection\nas an auxiliary view and designing a transformation that constructs a\nphysically valid virtual camera, allowing direct pixel-domain generation of the\nvirtual view while adhering to the real-world imaging process. This enables a\nmulti-view stereo setup from a single image, simplifying the imaging process,\nmaking it compatible with powerful feed-forward reconstruction models for\ngeneralizable and robust 3D reconstruction. To further exploit the geometric\nsymmetry introduced by mirrors, we propose a symmetric-aware loss to refine\npose estimation. Our framework also naturally extends to dynamic scenes, where\neach frame contains a mirror reflection, enabling efficient per-frame geometry\nrecovery. For quantitative evaluation, we provide a fully customizable\nsynthetic dataset of 16 Blender scenes, each with ground-truth point clouds and\ncamera poses. Extensive experiments on real-world data and synthetic data are\nconducted to illustrate the effectiveness of our method.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.20607v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.20607v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.20607v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.20607v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2509.15220": {
       "title": "Lightweight and Accurate Multi-View Stereo with Confidence-Aware Diffusion Model",
       "authors": [
@@ -74498,6 +74620,80 @@
     }
   },
   "Depth Estimation": {
+    "2509.20906": {
+      "title": "Finding 3D Positions of Distant Objects from Noisy Camera Movement and Semantic Segmentation Sequences",
+      "authors": [
+        "Julius Pesonen",
+        "Arno Solin",
+        "Eija Honkavaara"
+      ],
+      "published": "2025-09-25T08:46:37+00:00",
+      "updated": "2025-09-25T08:46:37+00:00",
+      "summary": "3D object localisation based on a sequence of camera measurements is\nessential for safety-critical surveillance tasks, such as drone-based wildfire\nmonitoring. Localisation of objects detected with a camera can typically be\nsolved with dense depth estimation or 3D scene reconstruction. However, in the\ncontext of distant objects or tasks limited by the amount of available\ncomputational resources, neither solution is feasible. In this paper, we show\nthat the task can be solved using particle filters for both single and multiple\ntarget scenarios. The method was studied using a 3D simulation and a\ndrone-based image segmentation sequence with global navigation satellite system\n(GNSS)-based camera pose estimates. The results showed that a particle filter\ncan be used to solve practical localisation tasks based on camera poses and\nimage segments in these situations where other solutions fail. The particle\nfilter is independent of the detection method, making it flexible for new\ntasks. The study also demonstrates that drone-based wildfire monitoring can be\nconducted using the proposed method paired with a pre-existing image\nsegmentation model.",
+      "categories": [
+        "cs.CV",
+        "cs.RO",
+        "I.4.8; I.4.9"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.20906v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.20906v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.20906v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.20906v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2509.20481": {
+      "title": "Shared Neural Space: Unified Precomputed Feature Encoding for Multi-Task and Cross Domain Vision",
+      "authors": [
+        "Jing Li",
+        "Oskar Bartosz",
+        "Chengyu Wang",
+        "Michal Wnuczynski",
+        "Dilshan Godaliyadda",
+        "Michael Polley"
+      ],
+      "published": "2025-09-24T18:48:58+00:00",
+      "updated": "2025-09-24T18:48:58+00:00",
+      "summary": "The majority of AI models in imaging and vision are customized to perform on\nspecific high-precision task. However, this strategy is inefficient for\napplications with a series of modular tasks, since each requires a mapping into\na disparate latent domain. To address this inefficiency, we proposed a\nuniversal Neural Space (NS), where an encoder-decoder framework pre-computes\nfeatures across vision and imaging tasks. Our encoder learns transformation\naware, generalizable representations, which enable multiple downstream AI\nmodules to share the same feature space. This architecture reduces redundancy,\nimproves generalization across domain shift, and establishes a foundation for\neffecient multi-task vision pipelines. Furthermore, as opposed to larger\ntransformer backbones, our backbone is lightweight and CNN-based, allowing for\nwider across hardware. We furthur demonstrate that imaging and vision modules,\nsuch as demosaicing, denoising, depth estimation and semantic segmentation can\nbe performed efficiently in the NS.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.20481v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.20481v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.20481v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.20481v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2509.19793": {
       "title": "BiTAA: A Bi-Task Adversarial Attack for Object Detection and Depth Estimation via 3D Gaussian Splatting",
       "authors": [

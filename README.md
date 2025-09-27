@@ -1,4 +1,4 @@
-## Updated at 2025-09-25 20:08:03
+## Updated at 2025-09-27 08:16:24
 
 ## 3DGS Semantic
 
@@ -150,6 +150,7 @@ Query: (abs:'Multi-View Stereo' OR abs:'Multi View Stereo' OR abs:'Multi-View De
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-09-24**|**[Reflect3r: Single-View 3D Stereo Reconstruction Aided by Mirror Reflections](https://arxiv.org/abs/2509.20607)**|N/A|None|cs.CV|None|Jing Wu et al.|
 |**2025-09-18**|**[Lightweight and Accurate Multi-View Stereo with Confidence-Aware Diffusion Model](https://arxiv.org/abs/2509.15220)**|N/A|Accepted to IEEE T-PAMI 2025. Code: https://github.com/cvg/diffmvs|cs.CV|None|Fangjinhua Wang et al.|
 |**2025-09-16**|**[MapAnything: Universal Feed-Forward Metric 3D Reconstruction](https://arxiv.org/abs/2509.13414)**|N/A|Project Page: https://map-anything.github.io/|cs.CV|None|Nikhil Keetha et al.|
 |**2025-09-15**|**[Segmentation-Driven Initialization for Sparse-view 3D Gaussian Splatting](https://arxiv.org/abs/2509.11853)**|N/A|None|cs.CV|None|Yi-Hsin Li et al.|
@@ -545,6 +546,8 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-09-25**|**[Finding 3D Positions of Distant Objects from Noisy Camera Movement and Semantic Segmentation Sequences](https://arxiv.org/abs/2509.20906)**|N/A|None|cs.CV|None|Julius Pesonen et al.|
+|**2025-09-24**|**[Shared Neural Space: Unified Precomputed Feature Encoding for Multi-Task and Cross Domain Vision](https://arxiv.org/abs/2509.20481)**|N/A|None|cs.CV|None|Jing Li et al.|
 |**2025-09-24**|**[BiTAA: A Bi-Task Adversarial Attack for Object Detection and Depth Estimation via 3D Gaussian Splatting](https://arxiv.org/abs/2509.19793)**|N/A|Intend to submit to RA-L|cs.CV|None|Yixun Zhang et al.|
 |**2025-09-24**|**[VIMD: Monocular Visual-Inertial Motion and Depth Estimation](https://arxiv.org/abs/2509.19713)**|N/A|None|cs.CV|None|Saimouli Katragadda, Guoquan Huang|
 |**2025-09-24**|**[Enhancing Transformer-Based Vision Models: Addressing Feature Map Anomalies Through Novel Optimization Strategies](https://arxiv.org/abs/2509.19687)**|N/A|8 pages, 8 figures, accepted and presented at IEEE BDAI 2025. The final published version will be available on IEEE Xplore|cs.CV|None|Sumit Mamtani|
