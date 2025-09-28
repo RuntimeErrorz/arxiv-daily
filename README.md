@@ -1,4 +1,4 @@
-## Updated at 2025-09-28 08:18:44
+## Updated at 2025-09-28 10:35:17
 
 ## 3DGS Semantic
 
@@ -14,7 +14,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2025-09-14**|**[SPHERE: Semantic-PHysical Engaged REpresentation for 3D Semantic Scene Completion](https://arxiv.org/abs/2509.11171)**|N/A|10 pages, 6 figures|cs.CV|None|Zhiwen Yang, Yuxin Peng|
 |**2025-09-09**|**[OmniMap: A General Mapping Framework Integrating Optics, Geometry, and Semantics](https://arxiv.org/abs/2509.07500)**|N/A|Accepted by IEEE Transactions on Robotics (TRO), project website: https://omni-map.github.io/|cs.RO|None|Yinan Deng et al.|
 |**2025-09-05**|**[Visibility-Aware Language Aggregation for Open-Vocabulary Segmentation in 3D Gaussian Splatting](https://arxiv.org/abs/2509.05515)**|N/A|None|cs.CV|None|Sen Wang et al.|
-|**2025-08-27**|**[LabelGS: Label-Aware 3D Gaussian Splatting for 3D Scene Segmentation](https://arxiv.org/abs/2508.19699)**|N/A|PRCV 2025|cs.CV|None|Yupeng Zhang et al.|
+|**2025-08-27**|**[LabelGS: Label-Aware 3D Gaussian Splatting for 3D Scene Segmentation](https://arxiv.org/abs/2508.19699)**|arXiv.org|PRCV 2025|cs.CV|None|Yupeng Zhang et al.|
 |**2025-08-19**|**[GALA: Guided Attention with Language Alignment for Open Vocabulary Gaussian Splatting](https://arxiv.org/abs/2508.14278)**|arXiv.org|None|cs.CV|None|Elena Alegret et al.|
 |**2025-08-16**|**[InstDrive: Instance-Aware 3D Gaussian Splatting for Driving Scenes](https://arxiv.org/abs/2508.12015)**|arXiv.org|None|cs.CV|None|Hongyuan Liu et al.|
 |**2025-08-13**|**[A Survey on 3D Gaussian Splatting Applications: Segmentation, Editing, and Generation](https://arxiv.org/abs/2508.09977)**|arXiv.org|GitHub Repo: https://github.com/heshuting555/Awesome-3DGS-Applications|cs.CV|None|Shuting He et al.|
