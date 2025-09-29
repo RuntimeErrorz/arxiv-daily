@@ -1,5 +1,196 @@
 {
   "3DGS Semantic": {
+    "2509.22615": {
+      "title": "Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting",
+      "authors": [
+        "Yasmine Omri",
+        "Connor Ding",
+        "Tsachy Weissman",
+        "Thierry Tambe"
+      ],
+      "published": "2025-09-26T17:41:57+00:00",
+      "updated": "2025-09-26T17:41:57+00:00",
+      "summary": "Modern vision language pipelines are driven by RGB vision encoders trained on\nmassive image text corpora. While these pipelines have enabled impressive zero\nshot capabilities and strong transfer across tasks, they still inherit two\nstructural inefficiencies from the pixel domain: (i) transmitting dense RGB\nimages from edge devices to the cloud is energy intensive and costly, and (ii)\npatch based tokenization explodes sequence length, stressing attention budgets\nand context limits. We explore 2D Gaussian Splatting (2DGS) as an alternative\nvisual substrate for alignment: a compact, spatially adaptive representation\nthat parameterizes images by a set of colored anisotropic Gaussians. We develop\na scalable 2DGS pipeline with structured initialization, luminance aware\npruning, and batched CUDA kernels, achieving over 90x faster fitting and about\n97% GPU utilization compared to prior implementations. We further adapt\ncontrastive language image pretraining (CLIP) to 2DGS by reusing a frozen\nRGB-based transformer backbone with a lightweight splat aware input stem and a\nperceiver resampler, training only about 7% of the total parameters. On large\nDataComp subsets, GS encoders yield meaningful zero shot ImageNet-1K\nperformance while compressing inputs 3 to 20x relative to pixels. While\naccuracy currently trails RGB encoders, our results establish 2DGS as a viable\nmultimodal substrate, pinpoint architectural bottlenecks, and open a path\ntoward representations that are both semantically powerful and transmission\nefficient for edge cloud learning.",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.22615v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.22615v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.22615v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.22615v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.22498": {
+      "title": "HELIOS: Hierarchical Exploration for Language-grounded Interaction in Open Scenes",
+      "authors": [
+        "Katrina Ashton",
+        "Chahyon Ku",
+        "Shrey Shah",
+        "Wen Jiang",
+        "Kostas Daniilidis",
+        "Bernadette Bucher"
+      ],
+      "published": "2025-09-26T15:40:27+00:00",
+      "updated": "2025-09-26T15:40:27+00:00",
+      "summary": "Language-specified mobile manipulation tasks in novel environments\nsimultaneously face challenges interacting with a scene which is only partially\nobserved, grounding semantic information from language instructions to the\npartially observed scene, and actively updating knowledge of the scene with new\nobservations. To address these challenges, we propose HELIOS, a hierarchical\nscene representation and associated search objective to perform language\nspecified pick and place mobile manipulation tasks. We construct 2D maps\ncontaining the relevant semantic and occupancy information for navigation while\nsimultaneously actively constructing 3D Gaussian representations of\ntask-relevant objects. We fuse observations across this multi-layered\nrepresentation while explicitly modeling the multi-view consistency of the\ndetections of each object. In order to efficiently search for the target\nobject, we formulate an objective function balancing exploration of unobserved\nor uncertain regions with exploitation of scene semantic information. We\nevaluate HELIOS on the OVMM benchmark in the Habitat simulator, a pick and\nplace benchmark in which perception is challenging due to large and complex\nscenes with comparatively small target objects. HELIOS achieves\nstate-of-the-art results on OVMM. As our approach is zero-shot, HELIOS can also\ntransfer to the real world without requiring additional data, as we illustrate\nby demonstrating it in a real world office environment on a Spot robot.",
+      "categories": [
+        "cs.RO"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "http://arxiv.org/pdf/2509.22498v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.22498v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.22498v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.22498v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.22225": {
+      "title": "Polysemous Language Gaussian Splatting via Matching-based Mask Lifting",
+      "authors": [
+        "Jiayu Ding",
+        "Xinpeng Liu",
+        "Zhiyi Pan",
+        "Shiqiang Long",
+        "Ge Li"
+      ],
+      "published": "2025-09-26T11:38:05+00:00",
+      "updated": "2025-09-26T11:38:05+00:00",
+      "summary": "Lifting 2D open-vocabulary understanding into 3D Gaussian Splatting (3DGS)\nscenes is a critical challenge. However, mainstream methods suffer from three\nkey flaws: (i) their reliance on costly per-scene retraining prevents\nplug-and-play application; (ii) their restrictive monosemous design fails to\nrepresent complex, multi-concept semantics; and (iii) their vulnerability to\ncross-view semantic inconsistencies corrupts the final semantic representation.\nTo overcome these limitations, we introduce MUSplat, a training-free framework\nthat abandons feature optimization entirely. Leveraging a pre-trained 2D\nsegmentation model, our pipeline generates and lifts multi-granularity 2D masks\ninto 3D, where we estimate a foreground probability for each Gaussian point to\nform initial object groups. We then optimize the ambiguous boundaries of these\ninitial groups using semantic entropy and geometric opacity. Subsequently, by\ninterpreting the object's appearance across its most representative viewpoints,\na Vision-Language Model (VLM) distills robust textual features that reconciles\nvisual inconsistencies, enabling open-vocabulary querying via semantic\nmatching. By eliminating the costly per-scene training process, MUSplat reduces\nscene adaptation time from hours to mere minutes. On benchmark tasks for\nopen-vocabulary 3D object selection and semantic segmentation, MUSplat\noutperforms established training-based frameworks while simultaneously\naddressing their monosemous limitations.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.22225v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.22225v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.22225v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.22225v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2509.22222": {
+      "title": "Rigidity-Aware 3D Gaussian Deformation from a Single Image",
+      "authors": [
+        "Jinhyeok Kim",
+        "Jaehun Bang",
+        "Seunghyun Seo",
+        "Kyungdon Joo"
+      ],
+      "published": "2025-09-26T11:34:55+00:00",
+      "updated": "2025-09-26T11:34:55+00:00",
+      "summary": "Reconstructing object deformation from a single image remains a significant\nchallenge in computer vision and graphics. Existing methods typically rely on\nmulti-view video to recover deformation, limiting their applicability under\nconstrained scenarios. To address this, we propose DeformSplat, a novel\nframework that effectively guides 3D Gaussian deformation from only a single\nimage. Our method introduces two main technical contributions. First, we\npresent Gaussian-to-Pixel Matching which bridges the domain gap between 3D\nGaussian representations and 2D pixel observations. This enables robust\ndeformation guidance from sparse visual cues. Second, we propose Rigid Part\nSegmentation consisting of initialization and refinement. This segmentation\nexplicitly identifies rigid regions, crucial for maintaining geometric\ncoherence during deformation. By combining these two techniques, our approach\ncan reconstruct consistent deformations from a single image. Extensive\nexperiments demonstrate that our approach significantly outperforms existing\nmethods and naturally extends to various applications,such as frame\ninterpolation and interactive object manipulation.",
+      "categories": [
+        "cs.GR",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "primary_category": "cs.GR",
+      "pdf_url": "http://arxiv.org/pdf/2509.22222v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "10 pages, 11 figures, conference",
+      "entry_id": "http://arxiv.org/abs/2509.22222v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.22222v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.22222v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.21739": {
+      "title": "Noise-to-Notes: Diffusion-based Generation and Refinement for Automatic Drum Transcription",
+      "authors": [
+        "Michael Yeung",
+        "Keisuke Toyama",
+        "Toya Teramoto",
+        "Shusuke Takahashi",
+        "Tamaki Kojima"
+      ],
+      "published": "2025-09-26T01:12:43+00:00",
+      "updated": "2025-09-26T01:12:43+00:00",
+      "summary": "Automatic drum transcription (ADT) is traditionally formulated as a\ndiscriminative task to predict drum events from audio spectrograms. In this\nwork, we redefine ADT as a conditional generative task and introduce\nNoise-to-Notes (N2N), a framework leveraging diffusion modeling to transform\naudio-conditioned Gaussian noise into drum events with associated velocities.\nThis generative diffusion approach offers distinct advantages, including a\nflexible speed-accuracy trade-off and strong inpainting capabilities. However,\nthe generation of binary onset and continuous velocity values presents a\nchallenge for diffusion models, and to overcome this, we introduce an Annealed\nPseudo-Huber loss to facilitate effective joint optimization. Finally, to\naugment low-level spectrogram features, we propose incorporating features\nextracted from music foundation models (MFMs), which capture high-level\nsemantic information and enhance robustness to out-of-domain drum audio.\nExperimental results demonstrate that including MFM features significantly\nimproves robustness and N2N establishes a new state-of-the-art performance\nacross multiple ADT benchmarks.",
+      "categories": [
+        "cs.SD",
+        "cs.LG",
+        "eess.AS"
+      ],
+      "primary_category": "cs.SD",
+      "pdf_url": "http://arxiv.org/pdf/2509.21739v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.21739v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.21739v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.21739v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2509.20939": {
       "title": "Unlocking Noise-Resistant Vision: Key Architectural Secrets for Robust Models",
       "authors": [
@@ -80,6 +271,42 @@
         },
         {
           "href": "http://arxiv.org/pdf/2509.20707v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.21403": {
+      "title": "LLMs for Bayesian Optimization in Scientific Domains: Are We There Yet?",
+      "authors": [
+        "Rushil Gupta",
+        "Jason Hartford",
+        "Bang Liu"
+      ],
+      "published": "2025-09-24T15:50:17+00:00",
+      "updated": "2025-09-24T15:50:17+00:00",
+      "summary": "Large language models (LLMs) have recently been proposed as general-purpose\nagents for experimental design, with claims that they can perform in-context\nexperimental design. We evaluate this hypothesis using both open- and\nclosed-source instruction-tuned LLMs applied to genetic perturbation and\nmolecular property discovery tasks. We find that LLM-based agents show no\nsensitivity to experimental feedback: replacing true outcomes with randomly\npermuted labels has no impact on performance. Across benchmarks, classical\nmethods such as linear bandits and Gaussian process optimization consistently\noutperform LLM agents. We further propose a simple hybrid method, LLM-guided\nNearest Neighbour (LLMNN) sampling, that combines LLM prior knowledge with\nnearest-neighbor sampling to guide the design of experiments. LLMNN achieves\ncompetitive or superior performance across domains without requiring\nsignificant in-context adaptation. These results suggest that current open- and\nclosed-source LLMs do not perform in-context experimental design in practice\nand highlight the need for hybrid frameworks that decouple prior-based\nreasoning from batch acquisition with updated posteriors.",
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "http://arxiv.org/pdf/2509.21403v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted to EMNLP 2025",
+      "entry_id": "http://arxiv.org/abs/2509.21403v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.21403v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.21403v1",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -902,26 +1129,26 @@
         "Cheng Peng"
       ],
       "published": "2025-09-19T03:06:49+00:00",
-      "updated": "2025-09-22T17:34:24+00:00",
+      "updated": "2025-09-26T16:42:25+00:00",
       "summary": "In-the-wild photo collections often contain limited volumes of imagery and\nexhibit multiple appearances, e.g., taken at different times of day or seasons,\nposing significant challenges to scene reconstruction and novel view synthesis.\nAlthough recent adaptations of Neural Radiance Field (NeRF) and 3D Gaussian\nSplatting (3DGS) have improved in these areas, they tend to oversmooth and are\nprone to overfitting. In this paper, we present MS-GS, a novel framework\ndesigned with Multi-appearance capabilities in Sparse-view scenarios using\n3DGS. To address the lack of support due to sparse initializations, our\napproach is built on the geometric priors elicited from monocular depth\nestimations. The key lies in extracting and utilizing local semantic regions\nwith a Structure-from-Motion (SfM) points anchored algorithm for reliable\nalignment and geometry cues. Then, to introduce multi-view constraints, we\npropose a series of geometry-guided supervision at virtual views in a\nfine-grained and coarse scheme to encourage 3D consistency and reduce\noverfitting. We also introduce a dataset and an in-the-wild experiment setting\nto set up more realistic benchmarks. We demonstrate that MS-GS achieves\nphotorealistic renderings under various challenging sparse-view and\nmulti-appearance conditions and outperforms existing approaches significantly\nacross different datasets.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "http://arxiv.org/pdf/2509.15548v2",
+      "pdf_url": "http://arxiv.org/pdf/2509.15548v3",
       "journal_ref": null,
       "doi": null,
-      "comment": null,
-      "entry_id": "http://arxiv.org/abs/2509.15548v2",
+      "comment": "fixed typos",
+      "entry_id": "http://arxiv.org/abs/2509.15548v3",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2509.15548v2",
+          "href": "http://arxiv.org/abs/2509.15548v3",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2509.15548v2",
+          "href": "http://arxiv.org/pdf/2509.15548v3",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -5531,6 +5758,42 @@
         "pub_type": "JournalArticle",
         "publisher": null
       }
+    },
+    "2508.02016": {
+      "title": "Dynamic Context Adaptation for Consistent Role-Playing Agents with Retrieval-Augmented Generations",
+      "authors": [
+        "Jeiyoon Park",
+        "Yongshin Han",
+        "Minseop Kim",
+        "Kisu Yang"
+      ],
+      "published": "2025-08-04T03:27:05+00:00",
+      "updated": "2025-09-26T01:28:35+00:00",
+      "summary": "Recent advances in large language models (LLMs) have catalyzed research on\nrole-playing agents (RPAs). However, the process of collecting\ncharacter-specific utterances and continually updating model parameters to\ntrack rapidly changing persona attributes is resource-intensive. Although\nretrieval-augmented generation (RAG) can alleviate this problem, if a persona\ndoes not contain knowledge relevant to a given query, RAG-based RPAs are prone\nto hallucination, making it challenging to generate accurate responses. In this\npaper, we propose Amadeus, a training-free framework that can significantly\nenhance persona consistency even when responding to questions that lie beyond a\ncharacter's knowledge. Amadeus is composed of Adaptive Context-aware Text\nSplitter (ACTS), Guided Selection (GS), and Attribute Extractor (AE). To\nfacilitate effective RAG-based role-playing, ACTS partitions each character's\npersona into optimally sized, overlapping chunks and augments this\nrepresentation with hierarchical contextual information. AE identifies a\ncharacter's general attributes from the chunks retrieved by GS and uses these\nattributes as a final context to maintain robust persona consistency even when\nanswering out-of-knowledge questions. To underpin the development and rigorous\nevaluation of RAG-based RPAs, we manually construct CharacterRAG, a\nrole-playing dataset that consists of persona documents for 15 distinct\nfictional characters totaling 976K written characters, and 450 question-answer\npairs. We find that our proposed method effectively models not only the\nknowledge possessed by characters, but also various attributes such as\npersonality.",
+      "categories": [
+        "cs.AI"
+      ],
+      "primary_category": "cs.AI",
+      "pdf_url": "http://arxiv.org/pdf/2508.02016v2",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "preprint",
+      "entry_id": "http://arxiv.org/abs/2508.02016v2",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2508.02016v2",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2508.02016v2",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
     },
     "2508.01740": {
       "title": "AG$^2$aussian: Anchor-Graph Structured Gaussian Splatting for Instance-Level 3D Scene Understanding and Editing",
@@ -74619,6 +74882,109 @@
     }
   },
   "Depth Estimation": {
+    "2509.22627": {
+      "title": "CCNeXt: An Effective Self-Supervised Stereo Depth Estimation Approach",
+      "authors": [
+        "Alexandre Lopes",
+        "Roberto Souza",
+        "Helio Pedrini"
+      ],
+      "published": "2025-09-26T17:51:28+00:00",
+      "updated": "2025-09-26T17:51:28+00:00",
+      "summary": "Depth Estimation plays a crucial role in recent applications in robotics,\nautonomous vehicles, and augmented reality. These scenarios commonly operate\nunder constraints imposed by computational power. Stereo image pairs offer an\neffective solution for depth estimation since it only needs to estimate the\ndisparity of pixels in image pairs to determine the depth in a known rectified\nsystem. Due to the difficulty in acquiring reliable ground-truth depth data\nacross diverse scenarios, self-supervised techniques emerge as a solution,\nparticularly when large unlabeled datasets are available. We propose a novel\nself-supervised convolutional approach that outperforms existing\nstate-of-the-art Convolutional Neural Networks (CNNs) and Vision Transformers\n(ViTs) while balancing computational cost. The proposed CCNeXt architecture\nemploys a modern CNN feature extractor with a novel windowed epipolar\ncross-attention module in the encoder, complemented by a comprehensive redesign\nof the depth estimation decoder. Our experiments demonstrate that CCNeXt\nachieves competitive metrics on the KITTI Eigen Split test data while being\n10.18$\\times$ faster than the current best model and achieves state-of-the-art\nresults in all metrics in the KITTI Eigen Split Improved Ground Truth and\nDriving Stereo datasets when compared to recently proposed techniques. To\nensure complete reproducibility, our project is accessible at\n\\href{https://github.com/alelopes/CCNext}{\\texttt{https://github.com/alelopes/CCNext}}.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.22627v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.22627v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.22627v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.22627v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2509.22527": {
+      "title": "EfficientDepth: A Fast and Detail-Preserving Monocular Depth Estimation Model",
+      "authors": [
+        "Andrii Litvynchuk",
+        "Ivan Livinsky",
+        "Anand Ravi",
+        "Nima Kalantari",
+        "Andrii Tsarov"
+      ],
+      "published": "2025-09-26T16:05:43+00:00",
+      "updated": "2025-09-26T16:05:43+00:00",
+      "summary": "Monocular depth estimation (MDE) plays a pivotal role in various computer\nvision applications, such as robotics, augmented reality, and autonomous\ndriving. Despite recent advancements, existing methods often fail to meet key\nrequirements for 3D reconstruction and view synthesis, including geometric\nconsistency, fine details, robustness to real-world challenges like reflective\nsurfaces, and efficiency for edge devices. To address these challenges, we\nintroduce a novel MDE system, called EfficientDepth, which combines a\ntransformer architecture with a lightweight convolutional decoder, as well as a\nbimodal density head that allows the network to estimate detailed depth maps.\nWe train our model on a combination of labeled synthetic and real images, as\nwell as pseudo-labeled real images, generated using a high-performing MDE\nmethod. Furthermore, we employ a multi-stage optimization strategy to improve\ntraining efficiency and produce models that emphasize geometric consistency and\nfine detail. Finally, in addition to commonly used objectives, we introduce a\nloss function based on LPIPS to encourage the network to produce detailed depth\nmaps. Experimental results demonstrate that EfficientDepth achieves performance\ncomparable to or better than existing state-of-the-art models, with\nsignificantly reduced computational resources.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.22527v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "12 pages, 7 figures, 5 tables",
+      "entry_id": "http://arxiv.org/abs/2509.22527v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.22527v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.22527v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2509.21992": {
+      "title": "DualFocus: Depth from Focus with Spatio-Focal Dual Variational Constraints",
+      "authors": [
+        "Sungmin Woo",
+        "Sangyoun Lee"
+      ],
+      "published": "2025-09-26T07:15:36+00:00",
+      "updated": "2025-09-26T07:15:36+00:00",
+      "summary": "Depth-from-Focus (DFF) enables precise depth estimation by analyzing focus\ncues across a stack of images captured at varying focal lengths. While recent\nlearning-based approaches have advanced this field, they often struggle in\ncomplex scenes with fine textures or abrupt depth changes, where focus cues may\nbecome ambiguous or misleading. We present DualFocus, a novel DFF framework\nthat leverages the focal stack's unique gradient patterns induced by focus\nvariation, jointly modeling focus changes over spatial and focal dimensions.\nOur approach introduces a variational formulation with dual constraints\ntailored to DFF: spatial constraints exploit gradient pattern changes across\nfocus levels to distinguish true depth edges from texture artifacts, while\nfocal constraints enforce unimodal, monotonic focus probabilities aligned with\nphysical focus behavior. These inductive biases improve robustness and accuracy\nin challenging regions. Comprehensive experiments on four public datasets\ndemonstrate that DualFocus consistently outperforms state-of-the-art methods in\nboth depth accuracy and perceptual quality.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.21992v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted by NeurIPS 2025",
+      "entry_id": "http://arxiv.org/abs/2509.21992v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.21992v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.21992v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2509.20906": {
       "title": "Finding 3D Positions of Distant Objects from Noisy Camera Movement and Semantic Segmentation Sequences",
       "authors": [

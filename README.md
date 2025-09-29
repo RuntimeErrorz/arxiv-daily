@@ -1,4 +1,4 @@
-## Updated at 2025-09-29 08:17:46
+## Updated at 2025-09-29 20:08:24
 
 ## 3DGS Semantic
 
@@ -8,6 +8,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-09-26**|**[Polysemous Language Gaussian Splatting via Matching-based Mask Lifting](https://arxiv.org/abs/2509.22225)**|N/A|None|cs.CV|None|Jiayu Ding et al.|
 |**2025-09-22**|**[Distributed Stochastic Optimization under Heavy-Tailed Noise: A Federated Mirror Descent Approach with High Probability Convergence](https://arxiv.org/abs/2509.17659)**|N/A|None|math.OC|None|Zhan Yu et al.|
 |**2025-09-21**|**[SemanticGarment: Semantic-Controlled Generation and Editing of 3D Gaussian Garments](https://arxiv.org/abs/2509.16960)**|N/A|None|cs.GR|None|Ruiyan Wang et al.|
 |**2025-09-16**|**[Beyond Averages: Open-Vocabulary 3D Scene Understanding with Gaussian Splatting and Bag of Embeddings](https://arxiv.org/abs/2509.12938)**|N/A|None|cs.CV|None|Abdalla Arafa, Didier Stricker|
@@ -546,6 +547,9 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-09-26**|**[CCNeXt: An Effective Self-Supervised Stereo Depth Estimation Approach](https://arxiv.org/abs/2509.22627)**|N/A|None|cs.CV|None|Alexandre Lopes et al.|
+|**2025-09-26**|**[EfficientDepth: A Fast and Detail-Preserving Monocular Depth Estimation Model](https://arxiv.org/abs/2509.22527)**|N/A|12 pages, 7 figures, 5 tables|cs.CV|None|Andrii Litvynchuk et al.|
+|**2025-09-26**|**[DualFocus: Depth from Focus with Spatio-Focal Dual Variational Constraints](https://arxiv.org/abs/2509.21992)**|N/A|Accepted by NeurIPS 2025|cs.CV|None|Sungmin Woo, Sangyoun Lee|
 |**2025-09-25**|**[Finding 3D Positions of Distant Objects from Noisy Camera Movement and Semantic Segmentation Sequences](https://arxiv.org/abs/2509.20906)**|N/A|None|cs.CV|None|Julius Pesonen et al.|
 |**2025-09-24**|**[Shared Neural Space: Unified Precomputed Feature Encoding for Multi-Task and Cross Domain Vision](https://arxiv.org/abs/2509.20481)**|N/A|None|cs.CV|None|Jing Li et al.|
 |**2025-09-24**|**[BiTAA: A Bi-Task Adversarial Attack for Object Detection and Depth Estimation via 3D Gaussian Splatting](https://arxiv.org/abs/2509.19793)**|N/A|Intend to submit to RA-L|cs.CV|None|Yixun Zhang et al.|
