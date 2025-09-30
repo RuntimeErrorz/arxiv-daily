@@ -112,7 +112,15 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-09-30",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2509.22222": {
       "title": "Rigidity-Aware 3D Gaussian Deformation from a Single Image",
@@ -1088,7 +1096,8 @@
       "updated": "2025-09-19T12:54:21+00:00",
       "summary": "Fuzzy metric spaces, grounded in t-norms and membership functions, have been\nwidely proposed to model uncertainty in machine learning, decision systems, and\nartificial intelligence. Yet these frameworks treat uncertainty as an external\nlayer of imprecision imposed upon classical, point-like entities - a conceptual\nmismatch for domains where indeterminacy is intrinsic, such as quantum systems\nor cognitive representations. We argue that fuzzy metrics are unnecessary for\nmodeling such uncertainty: instead, the well-established structure of complex\nHilbert spaces - the foundational language of quantum mechanics for over a\ncentury - provides a natural, rigorous, and non-contradictory metric space\nwhere the ``points'' are quantum states themselves. The distance between states\nis given by the Hilbert norm, which directly encodes state distinguishability\nvia the Born rule. This framework inherently captures the non-classical nature\nof uncertainty without requiring fuzzy logic, t-norms, or membership degrees.\nWe demonstrate its power by modeling AI concepts as Gaussian wavefunctions and\nclassifying ambiguous inputs via quantum overlap integrals. Unlike fuzzy\nmethods, our approach naturally handles interference, distributional shape, and\nconcept compositionality through the geometry of state vectors. We conclude\nthat fuzzy metric spaces, while historically useful, are obsolete for\nrepresenting intrinsic uncertainty - superseded by the more robust, predictive,\nand ontologically coherent framework of quantum state geometry.",
       "categories": [
-        "quant-ph"
+        "quant-ph",
+        "math.FA"
       ],
       "primary_category": "quant-ph",
       "pdf_url": "http://arxiv.org/pdf/2509.15945v1",
