@@ -1,5 +1,207 @@
 {
   "3DGS Semantic": {
+    "2509.24863": {
+      "title": "Vision At Night: Exploring Biologically Inspired Preprocessing For Improved Robustness Via Color And Contrast Transformations",
+      "authors": [
+        "Lorena Stracke",
+        "Lia Nimmermann",
+        "Shashank Agnihotri",
+        "Margret Keuper",
+        "Volker Blanz"
+      ],
+      "published": "2025-09-29T14:48:32+00:00",
+      "updated": "2025-09-29T14:48:32+00:00",
+      "summary": "Inspired by the human visual system's mechanisms for contrast enhancement and\ncolor-opponency, we explore biologically motivated input preprocessing for\nrobust semantic segmentation. By applying Difference-of-Gaussians (DoG)\nfiltering to RGB, grayscale, and opponent-color channels, we enhance local\ncontrast without modifying model architecture or training. Evaluations on\nCityscapes, ACDC, and Dark Zurich show that such preprocessing maintains\nin-distribution performance while improving robustness to adverse conditions\nlike night, fog, and snow. As this processing is model-agnostic and\nlightweight, it holds potential for integration into imaging pipelines,\nenabling imaging systems to deliver task-ready, robust inputs for downstream\nvision models in safety-critical environments.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.24863v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted at the ICCV 2025 Workshop on Responsible Imaging",
+      "entry_id": "http://arxiv.org/abs/2509.24863v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.24863v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.24863v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.23947": {
+      "title": "CrashSplat: 2D to 3D Vehicle Damage Segmentation in Gaussian Splatting",
+      "authors": [
+        "Dragoş-Andrei Chileban",
+        "Andrei-Ştefan Bulzan",
+        "Cosmin Cernǎzanu-Glǎvan"
+      ],
+      "published": "2025-09-28T15:49:33+00:00",
+      "updated": "2025-09-28T15:49:33+00:00",
+      "summary": "Automatic car damage detection has been a topic of significant interest for\nthe auto insurance industry as it promises faster, accurate, and cost-effective\ndamage assessments. However, few works have gone beyond 2D image analysis to\nleverage 3D reconstruction methods, which have the potential to provide a more\ncomprehensive and geometrically accurate representation of the damage.\nMoreover, recent methods employing 3D representations for novel view synthesis,\nparticularly 3D Gaussian Splatting (3D-GS), have demonstrated the ability to\ngenerate accurate and coherent 3D reconstructions from a limited number of\nviews. In this work we introduce an automatic car damage detection pipeline\nthat performs 3D damage segmentation by up-lifting 2D masks. Additionally, we\npropose a simple yet effective learning-free approach for single-view 3D-GS\nsegmentation. Specifically, Gaussians are projected onto the image plane using\ncamera parameters obtained via Structure from Motion (SfM). They are then\nfiltered through an algorithm that utilizes Z-buffering along with a normal\ndistribution model of depth and opacities. Through experiments we found that\nthis method is particularly effective for challenging scenarios like car damage\ndetection, where target objects (e.g., scratches, small dents) may only be\nclearly visible in a single view, making multi-view consistency approaches\nimpractical or impossible. The code is publicly available at:\nhttps://github.com/DragosChileban/CrashSplat.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.23947v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.23947v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.23947v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.23947v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-10-01",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2509.23718": {
+      "title": "Diff-3DCap: Shape Captioning with Diffusion Models",
+      "authors": [
+        "Zhenyu Shu",
+        "Jiawei Wen",
+        "Shiyang Li",
+        "Shiqing Xin",
+        "Ligang Liu"
+      ],
+      "published": "2025-09-28T07:59:22+00:00",
+      "updated": "2025-09-28T07:59:22+00:00",
+      "summary": "The task of 3D shape captioning occupies a significant place within the\ndomain of computer graphics and has garnered considerable interest in recent\nyears. Traditional approaches to this challenge frequently depend on the\nutilization of costly voxel representations or object detection techniques, yet\noften fail to deliver satisfactory outcomes. To address the above challenges,\nin this paper, we introduce Diff-3DCap, which employs a sequence of projected\nviews to represent a 3D object and a continuous diffusion model to facilitate\nthe captioning process. More precisely, our approach utilizes the continuous\ndiffusion model to perturb the embedded captions during the forward phase by\nintroducing Gaussian noise and then predicts the reconstructed annotation\nduring the reverse phase. Embedded within the diffusion framework is a\ncommitment to leveraging a visual embedding obtained from a pre-trained\nvisual-language model, which naturally allows the embedding to serve as a\nguiding signal, eliminating the need for an additional classifier. Extensive\nresults of our experiments indicate that Diff-3DCap can achieve performance\ncomparable to that of the current state-of-the-art methods.",
+      "categories": [
+        "cs.GR",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "primary_category": "cs.GR",
+      "pdf_url": "http://arxiv.org/pdf/2509.23718v1",
+      "journal_ref": "IEEE Transactions on Visualization and Computer Graphics. 2025",
+      "doi": "10.1109/TVCG.2025.3564664",
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.23718v1",
+      "links": [
+        {
+          "href": "http://dx.doi.org/10.1109/TVCG.2025.3564664",
+          "title": "doi",
+          "rel": "related",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/abs/2509.23718v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.23718v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.23602": {
+      "title": "Deep Taxonomic Networks for Unsupervised Hierarchical Prototype Discovery",
+      "authors": [
+        "Zekun Wang",
+        "Ethan Haarer",
+        "Zhiyi Dai",
+        "Tianyi Zhu",
+        "Christopher J. MacLellan"
+      ],
+      "published": "2025-09-28T03:13:32+00:00",
+      "updated": "2025-09-28T03:13:32+00:00",
+      "summary": "Inspired by the human ability to learn and organize knowledge into\nhierarchical taxonomies with prototypes, this paper addresses key limitations\nin current deep hierarchical clustering methods. Existing methods often tie the\nstructure to the number of classes and underutilize the rich prototype\ninformation available at intermediate hierarchical levels. We introduce deep\ntaxonomic networks, a novel deep latent variable approach designed to bridge\nthese gaps. Our method optimizes a large latent taxonomic hierarchy,\nspecifically a complete binary tree structured mixture-of-Gaussian prior within\na variational inference framework, to automatically discover taxonomic\nstructures and associated prototype clusters directly from unlabeled data\nwithout assuming true label sizes. We analytically show that optimizing the\nELBO of our method encourages the discovery of hierarchical relationships among\nprototypes. Empirically, our learned models demonstrate strong hierarchical\nclustering performance, outperforming baselines across diverse image\nclassification datasets using our novel evaluation mechanism that leverages\nprototype clusters discovered at all hierarchical levels. Qualitative results\nfurther reveal that deep taxonomic networks discover rich and interpretable\nhierarchical taxonomies, capturing both coarse-grained semantic categories and\nfine-grained visual distinctions.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.23602v1",
+      "journal_ref": "NeurIPS 2025",
+      "doi": null,
+      "comment": "NeurIPS 2025",
+      "entry_id": "http://arxiv.org/abs/2509.23602v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.23602v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.23602v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.23555": {
+      "title": "From Fields to Splats: A Cross-Domain Survey of Real-Time Neural Scene Representations",
+      "authors": [
+        "Javed Ahmad",
+        "Penggang Gao",
+        "Donatien Delehelle",
+        "Mennuti Canio",
+        "Nikhil Deshpande",
+        "Jesús Ortiz",
+        "Darwin G. Caldwell",
+        "Yonas Teodros Tefera"
+      ],
+      "published": "2025-09-28T01:30:50+00:00",
+      "updated": "2025-09-28T01:30:50+00:00",
+      "summary": "Neural scene representations such as Neural Radiance Fields (NeRF) and 3D\nGaussian Splatting (3DGS) have transformed how 3D environments are modeled,\nrendered, and interpreted. NeRF introduced view-consistent photorealism via\nvolumetric rendering; 3DGS has rapidly emerged as an explicit, efficient\nalternative that supports high-quality rendering, faster optimization, and\nintegration into hybrid pipelines for enhanced photorealism and task-driven\nscene understanding. This survey examines how 3DGS is being adopted across\nSLAM, telepresence and teleoperation, robotic manipulation, and 3D content\ngeneration. Despite their differences, these domains share common goals:\nphotorealistic rendering, meaningful 3D structure, and accurate downstream\ntasks. We organize the review around unified research questions that explain\nwhy 3DGS is increasingly displacing NeRF-based approaches: What technical\nadvantages drive its adoption? How does it adapt to different input modalities\nand domain-specific constraints? What limitations remain? By systematically\ncomparing domain-specific pipelines, we show that 3DGS balances photorealism,\ngeometric fidelity, and computational efficiency. The survey offers a roadmap\nfor leveraging neural rendering not only for image synthesis but also for\nperception, interaction, and content creation across real and virtual\nenvironments.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.23555v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "18 pages",
+      "entry_id": "http://arxiv.org/abs/2509.23555v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.23555v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.23555v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2509.22615": {
       "title": "Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting",
       "authors": [
@@ -259,26 +461,26 @@
         "Wei Liu"
       ],
       "published": "2025-09-25T03:18:31+00:00",
-      "updated": "2025-09-25T03:18:31+00:00",
+      "updated": "2025-09-29T02:04:09+00:00",
       "summary": "Purpose: To develop a retrieval-augmented generation (RAG) system powered by\nLLaMA-4 109B for automated, protocol-aware, and interpretable evaluation of\nradiotherapy treatment plans.\n  Methods and Materials: We curated a multi-protocol dataset of 614\nradiotherapy plans across four disease sites and constructed a knowledge base\ncontaining normalized dose metrics and protocol-defined constraints. The RAG\nsystem integrates three core modules: a retrieval engine optimized across five\nSentenceTransformer backbones, a percentile prediction component based on\ncohort similarity, and a clinical constraint checker. These tools are directed\nby a large language model (LLM) using a multi-step prompt-driven reasoning\npipeline to produce concise, grounded evaluations.\n  Results: Retrieval hyperparameters were optimized using Gaussian Process on a\nscalarized loss function combining root mean squared error (RMSE), mean\nabsolute error (MAE), and clinically motivated accuracy thresholds. The best\nconfiguration, based on all-MiniLM-L6-v2, achieved perfect nearest-neighbor\naccuracy within a 5-percentile-point margin and a sub-2pt MAE. When tested\nend-to-end, the RAG system achieved 100% agreement with the computed values by\nstandalone retrieval and constraint-checking modules on both percentile\nestimates and constraint identification, confirming reliable execution of all\nretrieval, prediction and checking steps.\n  Conclusion: Our findings highlight the feasibility of combining structured\npopulation-based scoring with modular tool-augmented reasoning for transparent,\nscalable plan evaluation in radiation therapy. The system offers traceable\noutputs, minimizes hallucination, and demonstrates robustness across protocols.\nFuture directions include clinician-led validation, and improved domain-adapted\nretrieval models to enhance real-world integration.",
       "categories": [
         "cs.AI"
       ],
       "primary_category": "cs.AI",
-      "pdf_url": "http://arxiv.org/pdf/2509.20707v1",
+      "pdf_url": "http://arxiv.org/pdf/2509.20707v2",
       "journal_ref": null,
       "doi": null,
       "comment": "16 pages, 4 figures. Submitted to npj Digital Medicine",
-      "entry_id": "http://arxiv.org/abs/2509.20707v1",
+      "entry_id": "http://arxiv.org/abs/2509.20707v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2509.20707v1",
+          "href": "http://arxiv.org/abs/2509.20707v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2509.20707v1",
+          "href": "http://arxiv.org/pdf/2509.20707v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -414,26 +616,26 @@
         "Yi Chen"
       ],
       "published": "2025-09-24T04:08:14+00:00",
-      "updated": "2025-09-24T04:08:14+00:00",
+      "updated": "2025-09-29T13:07:24+00:00",
       "summary": "Vision-language-action (VLA) models have shown strong generalization across\ntasks and embodiments; however, their reliance on large-scale human\ndemonstrations limits their scalability owing to the cost and effort of manual\ndata collection. Reinforcement learning (RL) offers a potential alternative to\ngenerate demonstrations autonomously, yet conventional RL algorithms often\nstruggle on long-horizon manipulation tasks with sparse rewards. In this paper,\nwe propose a modified diffusion policy optimization algorithm to generate\nhigh-quality and low-variance trajectories, which contributes to a diffusion\nRL-powered VLA training pipeline. Our algorithm benefits from not only the high\nexpressiveness of diffusion models to explore complex and diverse behaviors but\nalso the implicit regularization of the iterative denoising process to yield\nsmooth and consistent demonstrations. We evaluate our approach on the LIBERO\nbenchmark, which includes 130 long-horizon manipulation tasks, and show that\nthe generated trajectories are smoother and more consistent than both human\ndemonstrations and those from standard Gaussian RL policies. Further, training\na VLA model exclusively on the diffusion RL-generated data achieves an average\nsuccess rate of 81.9%, which outperforms the model trained on human data by\n+5.3% and that on Gaussian RL-generated data by +12.6%. The results highlight\nour diffusion RL as an effective alternative for generating abundant,\nhigh-quality, and low-variance demonstrations for VLA models.",
       "categories": [
         "cs.RO"
       ],
       "primary_category": "cs.RO",
-      "pdf_url": "http://arxiv.org/pdf/2509.19752v1",
+      "pdf_url": "http://arxiv.org/pdf/2509.19752v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2509.19752v1",
+      "entry_id": "http://arxiv.org/abs/2509.19752v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2509.19752v1",
+          "href": "http://arxiv.org/abs/2509.19752v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2509.19752v1",
+          "href": "http://arxiv.org/pdf/2509.19752v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -6221,27 +6423,27 @@
         "Eduard Gorbunov"
       ],
       "published": "2025-07-31T12:48:29+00:00",
-      "updated": "2025-07-31T12:48:29+00:00",
+      "updated": "2025-09-29T11:36:44+00:00",
       "summary": "Gradient clipping is a fundamental tool in Deep Learning, improving the\nhigh-probability convergence of stochastic first-order methods like SGD,\nAdaGrad, and Adam under heavy-tailed noise, which is common in training large\nlanguage models. It is also a crucial component of Differential Privacy (DP)\nmechanisms. However, existing high-probability convergence analyses typically\nrequire the clipping threshold to increase with the number of optimization\nsteps, which is incompatible with standard DP mechanisms like the Gaussian\nmechanism. In this work, we close this gap by providing the first\nhigh-probability convergence analysis for DP-Clipped-SGD with a fixed clipping\nlevel, applicable to both convex and non-convex smooth optimization under\nheavy-tailed noise, characterized by a bounded central $\\alpha$-th moment\nassumption, $\\alpha \\in (1,2]$. Our results show that, with a fixed clipping\nlevel, the method converges to a neighborhood of the optimal solution with a\nfaster rate than the existing ones. The neighborhood can be balanced against\nthe noise introduced by DP, providing a refined trade-off between convergence\nspeed and privacy guarantees.",
       "categories": [
         "cs.LG",
         "math.OC"
       ],
       "primary_category": "cs.LG",
-      "pdf_url": "http://arxiv.org/pdf/2507.23512v1",
+      "pdf_url": "http://arxiv.org/pdf/2507.23512v2",
       "journal_ref": null,
       "doi": null,
       "comment": "60 pages",
-      "entry_id": "http://arxiv.org/abs/2507.23512v1",
+      "entry_id": "http://arxiv.org/abs/2507.23512v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2507.23512v1",
+          "href": "http://arxiv.org/abs/2507.23512v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2507.23512v1",
+          "href": "http://arxiv.org/pdf/2507.23512v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -60444,6 +60646,119 @@
     }
   },
   "MVS": {
+    "2509.23733": {
+      "title": "FastViDAR: Real-Time Omnidirectional Depth Estimation via Alternative Hierarchical Attention",
+      "authors": [
+        "Hangtian Zhao",
+        "Xiang Chen",
+        "Yizhe Li",
+        "Qianhao Wang",
+        "Haibo Lu",
+        "Fei Gao"
+      ],
+      "published": "2025-09-28T08:25:27+00:00",
+      "updated": "2025-09-28T08:25:27+00:00",
+      "summary": "In this paper we propose FastViDAR, a novel framework that takes four fisheye\ncamera inputs and produces a full $360^\\circ$ depth map along with per-camera\ndepth, fusion depth, and confidence estimates. Our main contributions are: (1)\nWe introduce Alternative Hierarchical Attention (AHA) mechanism that\nefficiently fuses features across views through separate intra-frame and\ninter-frame windowed self-attention, achieving cross-view feature mixing with\nreduced overhead. (2) We propose a novel ERP fusion approach that projects\nmulti-view depth estimates to a shared equirectangular coordinate system to\nobtain the final fusion depth. (3) We generate ERP image-depth pairs using HM3D\nand 2D3D-S datasets for comprehensive evaluation, demonstrating competitive\nzero-shot performance on real datasets while achieving up to 20 FPS on NVIDIA\nOrin NX embedded hardware. Project page:\n\\href{https://3f7dfc.github.io/FastVidar/}{https://3f7dfc.github.io/FastVidar/}",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.23733v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.23733v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.23733v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.23733v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2509.23723": {
+      "title": "DiffPCN: Latent Diffusion Model Based on Multi-view Depth Images for Point Cloud Completion",
+      "authors": [
+        "Zijun Li",
+        "Hongyu Yan",
+        "Shijie Li",
+        "Kunming Luo",
+        "Li Lu",
+        "Xulei Yang",
+        "Weisi Lin"
+      ],
+      "published": "2025-09-28T08:05:43+00:00",
+      "updated": "2025-09-28T08:05:43+00:00",
+      "summary": "Latent diffusion models (LDMs) have demonstrated remarkable generative\ncapabilities across various low-level vision tasks. However, their potential\nfor point cloud completion remains underexplored due to the unstructured and\nirregular nature of point clouds. In this work, we propose DiffPCN, a novel\ndiffusion-based coarse-to-fine framework for point cloud completion. Our\napproach comprises two stages: an initial stage for generating coarse point\nclouds, and a refinement stage that improves their quality through point\ndenoising and upsampling. Specifically, we first project the unordered and\nirregular partial point cloud into structured depth images, which serve as\nconditions for a well-designed DepthLDM to synthesize completed multi-view\ndepth images that are used to form coarse point clouds. In this way, our\nDiffPCN can yield high-quality and high-completeness coarse point clouds by\nleveraging LDM' s powerful generation and comprehension capabilities. Then,\nsince LDMs inevitably introduce outliers into the generated depth maps, we\ndesign a Point Denoising Network to remove artifacts from the coarse point\ncloud by predicting a per-point distance score. Finally, we devise an\nAssociation-Aware Point Upsampler, which guides the upsampling process by\nleveraging local association features between the input point cloud and the\ncorresponding coarse points, further yielding a dense and high-fidelity output.\nExperimental results demonstrate that our DiffPCN achieves state-of-the-art\nperformance in geometric accuracy and shape completeness, significantly\nimproving the robustness and consistency of point cloud completion.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.23723v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.23723v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.23723v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.23723v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2509.23258": {
+      "title": "OracleGS: Grounding Generative Priors for Sparse-View Gaussian Splatting",
+      "authors": [
+        "Atakan Topaloglu",
+        "Kunyi Li",
+        "Michael Niemeyer",
+        "Nassir Navab",
+        "A. Murat Tekalp",
+        "Federico Tombari"
+      ],
+      "published": "2025-09-27T11:19:32+00:00",
+      "updated": "2025-09-27T11:19:32+00:00",
+      "summary": "Sparse-view novel view synthesis is fundamentally ill-posed due to severe\ngeometric ambiguity. Current methods are caught in a trade-off: regressive\nmodels are geometrically faithful but incomplete, whereas generative models can\ncomplete scenes but often introduce structural inconsistencies. We propose\nOracleGS, a novel framework that reconciles generative completeness with\nregressive fidelity for sparse view Gaussian Splatting. Instead of using\ngenerative models to patch incomplete reconstructions, our\n\"propose-and-validate\" framework first leverages a pre-trained 3D-aware\ndiffusion model to synthesize novel views to propose a complete scene. We then\nrepurpose a multi-view stereo (MVS) model as a 3D-aware oracle to validate the\n3D uncertainties of generated views, using its attention maps to reveal regions\nwhere the generated views are well-supported by multi-view evidence versus\nwhere they fall into regions of high uncertainty due to occlusion, lack of\ntexture, or direct inconsistency. This uncertainty signal directly guides the\noptimization of a 3D Gaussian Splatting model via an uncertainty-weighted loss.\nOur approach conditions the powerful generative prior on multi-view geometric\nevidence, filtering hallucinatory artifacts while preserving plausible\ncompletions in under-constrained regions, outperforming state-of-the-art\nmethods on datasets including Mip-NeRF 360 and NeRF Synthetic.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.23258v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.23258v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.23258v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.23258v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2509.20607": {
       "title": "Reflect3r: Single-View 3D Stereo Reconstruction Aided by Mirror Reflections",
       "authors": [
@@ -74891,6 +75206,222 @@
     }
   },
   "Depth Estimation": {
+    "2509.25146": {
+      "title": "Fast Feature Field ($\\text{F}^3$): A Predictive Representation of Events",
+      "authors": [
+        "Richeek Das",
+        "Kostas Daniilidis",
+        "Pratik Chaudhari"
+      ],
+      "published": "2025-09-29T17:52:31+00:00",
+      "updated": "2025-09-29T17:52:31+00:00",
+      "summary": "This paper develops a mathematical argument and algorithms for building\nrepresentations of data from event-based cameras, that we call Fast Feature\nField ($\\text{F}^3$). We learn this representation by predicting future events\nfrom past events and show that it preserves scene structure and motion\ninformation. $\\text{F}^3$ exploits the sparsity of event data and is robust to\nnoise and variations in event rates. It can be computed efficiently using ideas\nfrom multi-resolution hash encoding and deep sets - achieving 120 Hz at HD and\n440 Hz at VGA resolutions. $\\text{F}^3$ represents events within a contiguous\nspatiotemporal volume as a multi-channel image, enabling a range of downstream\ntasks. We obtain state-of-the-art performance on optical flow estimation,\nsemantic segmentation, and monocular metric depth estimation, on data from\nthree robotic platforms (a car, a quadruped robot and a flying platform),\nacross different lighting conditions (daytime, nighttime), environments\n(indoors, outdoors, urban, as well as off-road) and dynamic vision sensors\n(resolutions and event rates). Our implementations can predict these tasks at\n25-75 Hz at HD resolution.",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.25146v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "39 pages, 9 figures",
+      "entry_id": "http://arxiv.org/abs/2509.25146v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.25146v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.25146v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2509.25077": {
+      "title": "BRIDGE -- Building Reinforcement-Learning Depth-to-Image Data Generation Engine for Monocular Depth Estimation",
+      "authors": [
+        "Dingning Liu",
+        "Haoyu Guo",
+        "Jingyi Zhou",
+        "Tong He"
+      ],
+      "published": "2025-09-29T17:19:45+00:00",
+      "updated": "2025-09-29T17:19:45+00:00",
+      "summary": "Monocular Depth Estimation (MDE) is a foundational task for computer vision.\nTraditional methods are limited by data scarcity and quality, hindering their\nrobustness. To overcome this, we propose BRIDGE, an RL-optimized depth-to-image\n(D2I) generation framework that synthesizes over 20M realistic and\ngeometrically accurate RGB images, each intrinsically paired with its ground\ntruth depth, from diverse source depth maps. Then we train our depth estimation\nmodel on this dataset, employing a hybrid supervision strategy that integrates\nteacher pseudo-labels with ground truth depth for comprehensive and robust\ntraining. This innovative data generation and training paradigm enables BRIDGE\nto achieve breakthroughs in scale and domain diversity, consistently\noutperforming existing state-of-the-art approaches quantitatively and in\ncomplex scene detail capture, thereby fostering general and robust depth\nfeatures. Code and models are available at\nhttps://dingning-liu.github.io/bridge.github.io/.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.25077v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "20 pages, 7 figures",
+      "entry_id": "http://arxiv.org/abs/2509.25077v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.25077v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.25077v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2509.24893": {
+      "title": "DWGS: Enhancing Sparse-View Gaussian Splatting with Hybrid-Loss Depth Estimation and Bidirectional Warping",
+      "authors": [
+        "Yu Ma",
+        "Guoliang Wei",
+        "Yue Cheng"
+      ],
+      "published": "2025-09-29T15:03:31+00:00",
+      "updated": "2025-09-29T15:03:31+00:00",
+      "summary": "Novel View Synthesis (NVS) from sparse views remains a core challenge in 3D\nreconstruction, typically suffering from overfitting, geometric distortion, and\nincomplete scene recovery due to limited multi-view constraints. Although 3D\nGaussian Splatting (3DGS) enables real-time, high-fidelity rendering, it\nsuffers from floating artifacts and structural inconsistencies under\nsparse-input settings. To address these issues, we propose DWGS, a novel\nunified framework that enhances 3DGS for sparse-view synthesis by integrating\nrobust structural cues, virtual view constraints, and occluded region\ncompletion. Our approach introduces three principal contributions: a\nHybrid-Loss Depth Estimation module that leverages dense matching priors with\nreprojection, point propagation, and smoothness constraints to enforce\nmulti-view consistency; a Bidirectional Warping Virtual View Synthesis method\ngenerates virtual training views to impose stronger geometric and photometric\nconstraints; and an Occlusion-Aware Reconstruction component that utilizes\ndepth-difference mask and a learning-based inpainting model to recover obscured\nregions. Extensive experiments on standard benchmarks (LLFF, Blender, and DTU)\nshow that DWGS achieves a new state-of-the-art, achieving up to 21.13 dB PSNR\nand 0.189 LPIPS, while retaining real-time inference capabilities.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.24893v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "14 pages, 21 figures",
+      "entry_id": "http://arxiv.org/abs/2509.24893v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.24893v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.24893v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2509.23991": {
+      "title": "RPG360: Robust 360 Depth Estimation with Perspective Foundation Models and Graph Optimization",
+      "authors": [
+        "Dongki Jung",
+        "Jaehoon Choi",
+        "Yonghan Lee",
+        "Dinesh Manocha"
+      ],
+      "published": "2025-09-28T17:33:12+00:00",
+      "updated": "2025-09-28T17:33:12+00:00",
+      "summary": "The increasing use of 360 images across various domains has emphasized the\nneed for robust depth estimation techniques tailored for omnidirectional\nimages. However, obtaining large-scale labeled datasets for 360 depth\nestimation remains a significant challenge. In this paper, we propose RPG360, a\ntraining-free robust 360 monocular depth estimation method that leverages\nperspective foundation models and graph optimization. Our approach converts 360\nimages into six-face cubemap representations, where a perspective foundation\nmodel is employed to estimate depth and surface normals. To address depth scale\ninconsistencies across different faces of the cubemap, we introduce a novel\ndepth scale alignment technique using graph-based optimization, which\nparameterizes the predicted depth and normal maps while incorporating an\nadditional per-face scale parameter. This optimization ensures depth scale\nconsistency across the six-face cubemap while preserving 3D structural\nintegrity. Furthermore, as foundation models exhibit inherent robustness in\nzero-shot settings, our method achieves superior performance across diverse\ndatasets, including Matterport3D, Stanford2D3D, and 360Loc. We also demonstrate\nthe versatility of our depth estimation approach by validating its benefits in\ndownstream tasks such as feature matching 3.2 ~ 5.4% and Structure from Motion\n0.2 ~ 9.7% in AUC@5.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.23991v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.23991v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.23991v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.23991v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2509.23733": {
+      "title": "FastViDAR: Real-Time Omnidirectional Depth Estimation via Alternative Hierarchical Attention",
+      "authors": [
+        "Hangtian Zhao",
+        "Xiang Chen",
+        "Yizhe Li",
+        "Qianhao Wang",
+        "Haibo Lu",
+        "Fei Gao"
+      ],
+      "published": "2025-09-28T08:25:27+00:00",
+      "updated": "2025-09-28T08:25:27+00:00",
+      "summary": "In this paper we propose FastViDAR, a novel framework that takes four fisheye\ncamera inputs and produces a full $360^\\circ$ depth map along with per-camera\ndepth, fusion depth, and confidence estimates. Our main contributions are: (1)\nWe introduce Alternative Hierarchical Attention (AHA) mechanism that\nefficiently fuses features across views through separate intra-frame and\ninter-frame windowed self-attention, achieving cross-view feature mixing with\nreduced overhead. (2) We propose a novel ERP fusion approach that projects\nmulti-view depth estimates to a shared equirectangular coordinate system to\nobtain the final fusion depth. (3) We generate ERP image-depth pairs using HM3D\nand 2D3D-S datasets for comprehensive evaluation, demonstrating competitive\nzero-shot performance on real datasets while achieving up to 20 FPS on NVIDIA\nOrin NX embedded hardware. Project page:\n\\href{https://3f7dfc.github.io/FastVidar/}{https://3f7dfc.github.io/FastVidar/}",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.23733v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.23733v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.23733v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.23733v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2509.23626": {
+      "title": "Efficient Domain-Adaptive Multi-Task Dense Prediction with Vision Foundation Models",
+      "authors": [
+        "Beomseok Kang",
+        "Niluthpol Chowdhury Mithun",
+        "Mikhail Sizintsev",
+        "Han-Pang Chiu",
+        "Supun Samarasekera"
+      ],
+      "published": "2025-09-28T04:02:36+00:00",
+      "updated": "2025-09-28T04:02:36+00:00",
+      "summary": "Multi-task dense prediction, which aims to jointly solve tasks like semantic\nsegmentation and depth estimation, is crucial for robotics applications but\nsuffers from domain shift when deploying models in new environments. While\nunsupervised domain adaptation (UDA) addresses this challenge for single tasks,\nexisting multi-task UDA methods primarily rely on adversarial learning\napproaches that are less effective than recent self-training techniques. In\nthis paper, we introduce FAMDA, a simple yet effective UDA framework that\nbridges this gap by leveraging Vision Foundation Models (VFMs) as powerful\nteachers. Our approach integrates Segmentation and Depth foundation models into\na self-training paradigm to generate high-quality pseudo-labels for the target\ndomain, effectively distilling their robust generalization capabilities into a\nsingle, efficient student network. Extensive experiments show that FAMDA\nachieves state-of-the-art (SOTA) performance on standard synthetic-to-real UDA\nmulti-task learning (MTL) benchmarks and a challenging new day-to-night\nadaptation task. Our framework enables the training of highly efficient models;\na lightweight variant achieves SOTA accuracy while being more than 10$\\times$\nsmaller than foundation models, highlighting FAMDA's suitability for creating\ndomain-adaptive and efficient models for resource-constrained robotics\napplications.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.23626v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.23626v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.23626v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.23626v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2509.22627": {
       "title": "CCNeXt: An Effective Self-Supervised Stereo Depth Estimation Approach",
       "authors": [

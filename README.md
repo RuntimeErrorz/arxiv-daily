@@ -1,4 +1,4 @@
-## Updated at 2025-09-30 08:17:13
+## Updated at 2025-10-01 08:20:18
 
 ## 3DGS Semantic
 
@@ -8,6 +8,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-09-28**|**[CrashSplat: 2D to 3D Vehicle Damage Segmentation in Gaussian Splatting](https://arxiv.org/abs/2509.23947)**|N/A|None|cs.CV|None|Dragoş-Andrei Chileban et al.|
 |**2025-09-26**|**[Polysemous Language Gaussian Splatting via Matching-based Mask Lifting](https://arxiv.org/abs/2509.22225)**|N/A|None|cs.CV|None|Jiayu Ding et al.|
 |**2025-09-22**|**[Distributed Stochastic Optimization under Heavy-Tailed Noise: A Federated Mirror Descent Approach with High Probability Convergence](https://arxiv.org/abs/2509.17659)**|N/A|None|math.OC|None|Zhan Yu et al.|
 |**2025-09-21**|**[SemanticGarment: Semantic-Controlled Generation and Editing of 3D Gaussian Garments](https://arxiv.org/abs/2509.16960)**|N/A|None|cs.GR|None|Ruiyan Wang et al.|
@@ -151,6 +152,9 @@ Query: (abs:'Multi-View Stereo' OR abs:'Multi View Stereo' OR abs:'Multi-View De
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-09-28**|**[FastViDAR: Real-Time Omnidirectional Depth Estimation via Alternative Hierarchical Attention](https://arxiv.org/abs/2509.23733)**|N/A|None|cs.CV|None|Hangtian Zhao et al.|
+|**2025-09-28**|**[DiffPCN: Latent Diffusion Model Based on Multi-view Depth Images for Point Cloud Completion](https://arxiv.org/abs/2509.23723)**|N/A|None|cs.CV|None|Zijun Li et al.|
+|**2025-09-27**|**[OracleGS: Grounding Generative Priors for Sparse-View Gaussian Splatting](https://arxiv.org/abs/2509.23258)**|N/A|None|cs.CV|None|Atakan Topaloglu et al.|
 |**2025-09-24**|**[Reflect3r: Single-View 3D Stereo Reconstruction Aided by Mirror Reflections](https://arxiv.org/abs/2509.20607)**|N/A|None|cs.CV|None|Jing Wu et al.|
 |**2025-09-18**|**[Lightweight and Accurate Multi-View Stereo with Confidence-Aware Diffusion Model](https://arxiv.org/abs/2509.15220)**|N/A|Accepted to IEEE T-PAMI 2025. Code: https://github.com/cvg/diffmvs|cs.CV|None|Fangjinhua Wang et al.|
 |**2025-09-16**|**[MapAnything: Universal Feed-Forward Metric 3D Reconstruction](https://arxiv.org/abs/2509.13414)**|N/A|Project Page: https://map-anything.github.io/|cs.CV|None|Nikhil Keetha et al.|
@@ -547,6 +551,12 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-09-29**|**[Fast Feature Field ($\text{F}^3$): A Predictive Representation of Events](https://arxiv.org/abs/2509.25146)**|N/A|39 pages, 9 figures|cs.CV|None|Richeek Das et al.|
+|**2025-09-29**|**[BRIDGE -- Building Reinforcement-Learning Depth-to-Image Data Generation Engine for Monocular Depth Estimation](https://arxiv.org/abs/2509.25077)**|N/A|20 pages, 7 figures|cs.CV|None|Dingning Liu et al.|
+|**2025-09-29**|**[DWGS: Enhancing Sparse-View Gaussian Splatting with Hybrid-Loss Depth Estimation and Bidirectional Warping](https://arxiv.org/abs/2509.24893)**|N/A|14 pages, 21 figures|cs.CV|None|Yu Ma et al.|
+|**2025-09-28**|**[RPG360: Robust 360 Depth Estimation with Perspective Foundation Models and Graph Optimization](https://arxiv.org/abs/2509.23991)**|N/A|None|cs.CV|None|Dongki Jung et al.|
+|**2025-09-28**|**[FastViDAR: Real-Time Omnidirectional Depth Estimation via Alternative Hierarchical Attention](https://arxiv.org/abs/2509.23733)**|N/A|None|cs.CV|None|Hangtian Zhao et al.|
+|**2025-09-28**|**[Efficient Domain-Adaptive Multi-Task Dense Prediction with Vision Foundation Models](https://arxiv.org/abs/2509.23626)**|N/A|None|cs.CV|None|Beomseok Kang et al.|
 |**2025-09-26**|**[CCNeXt: An Effective Self-Supervised Stereo Depth Estimation Approach](https://arxiv.org/abs/2509.22627)**|N/A|None|cs.CV|None|Alexandre Lopes et al.|
 |**2025-09-26**|**[EfficientDepth: A Fast and Detail-Preserving Monocular Depth Estimation Model](https://arxiv.org/abs/2509.22527)**|N/A|12 pages, 7 figures, 5 tables|cs.CV|None|Andrii Litvynchuk et al.|
 |**2025-09-26**|**[DualFocus: Depth from Focus with Spatio-Focal Dual Variational Constraints](https://arxiv.org/abs/2509.21992)**|N/A|Accepted by NeurIPS 2025|cs.CV|None|Sungmin Woo, Sangyoun Lee|
