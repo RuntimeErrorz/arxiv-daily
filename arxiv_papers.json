@@ -75606,26 +75606,26 @@
         "Yangyang Shi"
       ],
       "published": "2025-09-29T19:12:13+00:00",
-      "updated": "2025-09-29T19:12:13+00:00",
+      "updated": "2025-10-01T17:18:15+00:00",
       "summary": "Vision language models (VLMs) can flexibly address various vision tasks\nthrough text interactions. Although successful in semantic understanding,\nstate-of-the-art VLMs including GPT-5 still struggle in understanding 3D from\n2D inputs. On the other hand, expert pure vision models achieve super-human\naccuracy in metric depth estimation, a key 3D understanding task. However, they\nrequire task-specific architectures and losses. Such difference motivates us to\nask: Can VLMs reach expert-level accuracy without architecture or loss change?\nWe take per-pixel metric depth estimation as the representative task and show\nthat the answer is yes! Surprisingly, comprehensive analysis shows that\ntext-based supervised-finetuning with sparse labels is sufficient for VLMs to\nunlock strong 3D understanding, no dense prediction head or complex\nregression/regularization loss is needed. The bottleneck for VLMs lies actually\nin pixel reference and cross-dataset camera ambiguity, which we address through\nvisual prompting and intrinsic-conditioned augmentation. With much smaller\nmodels, our method DepthLM surpasses the accuracy of most advanced VLMs by over\n2x, making VLMs for the first time comparable with pure vision models.\nInterestingly, without explicit enforcement during training, VLMs trained with\nDepthLM naturally avoids over-smoothing, having much fewer flying points at\nboundary regions than pure vision models. The simplicity of DepthLM also\nenables a single VLM to cover various 3D tasks beyond metric depth. Our code\nand model will be released at the link below.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "http://arxiv.org/pdf/2509.25413v1",
+      "pdf_url": "http://arxiv.org/pdf/2509.25413v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2509.25413v1",
+      "entry_id": "http://arxiv.org/abs/2509.25413v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2509.25413v1",
+          "href": "http://arxiv.org/abs/2509.25413v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2509.25413v1",
+          "href": "http://arxiv.org/pdf/2509.25413v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
