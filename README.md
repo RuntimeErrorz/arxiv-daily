@@ -1,4 +1,4 @@
-## Updated at 2025-10-01 08:20:18
+## Updated at 2025-10-02 08:16:36
 
 ## 3DGS Semantic
 
@@ -152,6 +152,7 @@ Query: (abs:'Multi-View Stereo' OR abs:'Multi View Stereo' OR abs:'Multi-View De
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-09-30**|**[PFDepth: Heterogeneous Pinhole-Fisheye Joint Depth Estimation via Distortion-aware Gaussian-Splatted Volumetric Fusion](https://arxiv.org/abs/2509.26008)**|N/A|Accepted by ACM MM 2025 Conference|cs.CV|None|Zhiwei Zhang et al.|
 |**2025-09-28**|**[FastViDAR: Real-Time Omnidirectional Depth Estimation via Alternative Hierarchical Attention](https://arxiv.org/abs/2509.23733)**|N/A|None|cs.CV|None|Hangtian Zhao et al.|
 |**2025-09-28**|**[DiffPCN: Latent Diffusion Model Based on Multi-view Depth Images for Point Cloud Completion](https://arxiv.org/abs/2509.23723)**|N/A|None|cs.CV|None|Zijun Li et al.|
 |**2025-09-27**|**[OracleGS: Grounding Generative Priors for Sparse-View Gaussian Splatting](https://arxiv.org/abs/2509.23258)**|N/A|None|cs.CV|None|Atakan Topaloglu et al.|
@@ -551,6 +552,11 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-09-30**|**[DA$^2$: Depth Anything in Any Direction](https://arxiv.org/abs/2509.26618)**|N/A|Work primarily done during an internship at Tencent Hunyuan. Project page: https://depth-any-in-any-dir.github.io/|cs.CV|None|Haodong Li et al.|
+|**2025-09-30**|**[DEPTHOR++: Robust Depth Enhancement from a Real-World Lightweight dToF and RGB Guidance](https://arxiv.org/abs/2509.26498)**|N/A|15 pages, 16 figures|cs.CV|None|Jijun Xiang et al.|
+|**2025-09-30**|**[EasyOcc: 3D Pseudo-Label Supervision for Fully Self-Supervised Semantic Occupancy Prediction Models](https://arxiv.org/abs/2509.26087)**|N/A|None|cs.CV|None|Seamie Hayes et al.|
+|**2025-09-30**|**[PFDepth: Heterogeneous Pinhole-Fisheye Joint Depth Estimation via Distortion-aware Gaussian-Splatted Volumetric Fusion](https://arxiv.org/abs/2509.26008)**|N/A|Accepted by ACM MM 2025 Conference|cs.CV|None|Zhiwei Zhang et al.|
+|**2025-09-29**|**[DepthLM: Metric Depth From Vision Language Models](https://arxiv.org/abs/2509.25413)**|N/A|None|cs.CV|None|Zhipeng Cai et al.|
 |**2025-09-29**|**[Fast Feature Field ($\text{F}^3$): A Predictive Representation of Events](https://arxiv.org/abs/2509.25146)**|N/A|39 pages, 9 figures|cs.CV|None|Richeek Das et al.|
 |**2025-09-29**|**[BRIDGE -- Building Reinforcement-Learning Depth-to-Image Data Generation Engine for Monocular Depth Estimation](https://arxiv.org/abs/2509.25077)**|N/A|20 pages, 7 figures|cs.CV|None|Dingning Liu et al.|
 |**2025-09-29**|**[DWGS: Enhancing Sparse-View Gaussian Splatting with Hybrid-Loss Depth Estimation and Bidirectional Warping](https://arxiv.org/abs/2509.24893)**|N/A|14 pages, 21 figures|cs.CV|None|Yu Ma et al.|

@@ -1,5 +1,147 @@
 {
   "3DGS Semantic": {
+    "2509.25685": {
+      "title": "Hierarchical Diffusion Motion Planning with Task-Conditioned Uncertainty-Aware Priors",
+      "authors": [
+        "Amelie Minji Kim",
+        "Anqi Wu",
+        "Ye Zhao"
+      ],
+      "published": "2025-09-30T02:43:27+00:00",
+      "updated": "2025-09-30T02:43:27+00:00",
+      "summary": "We propose a novel hierarchical diffusion planner that embeds task and motion\nstructure directly in the noise model. Unlike standard diffusion-based planners\nthat use zero-mean, isotropic Gaussian noise, we employ a family of\ntask-conditioned structured Gaussians whose means and covariances are derived\nfrom Gaussian Process Motion Planning (GPMP): sparse, task-centric key states\nor their associated timings (or both) are treated as noisy observations to\nproduce a prior instance. We first generalize the standard diffusion process to\nbiased, non-isotropic corruption with closed-form forward and posterior\nexpressions. Building on this, our hierarchy separates prior instantiation from\ntrajectory denoising: the upper level instantiates a task-conditioned\nstructured Gaussian (mean and covariance), and the lower level denoises the\nfull trajectory under that fixed prior. Experiments on Maze2D goal-reaching and\nKUKA block stacking show improved success rates, smoother trajectories, and\nstronger task alignment compared to isotropic baselines. Ablation studies\nindicate that explicitly structuring the corruption process offers benefits\nbeyond simply conditioning the neural network. Overall, our method concentrates\nprobability mass of prior near feasible, smooth, and semantically meaningful\ntrajectories while maintaining tractability. Our project page is available at\nhttps://hta-diffusion.github.io.",
+      "categories": [
+        "cs.RO"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "http://arxiv.org/pdf/2509.25685v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.25685v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.25685v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.25685v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.25626": {
+      "title": "LLM-Powered Code Analysis and Optimization for Gaussian Splatting Kernels",
+      "authors": [
+        "Yi Hu",
+        "Huiyang Zhou"
+      ],
+      "published": "2025-09-30T00:37:33+00:00",
+      "updated": "2025-09-30T00:37:33+00:00",
+      "summary": "3D Gaussian splatting (3DGS) is a transformative technique with profound\nimplications on novel view synthesis and real-time rendering. Given its\nimportance, there have been many attempts to improve its performance. However,\nwith the increasing complexity of GPU architectures and the vast search space\nof performance-tuning parameters, it is a challenging task. Although manual\noptimizations have achieved remarkable speedups, they require domain expertise\nand the optimization process can be highly time consuming and error prone. In\nthis paper, we propose to exploit large language models (LLMs) to analyze and\noptimize Gaussian splatting kernels. To our knowledge, this is the first work\nto use LLMs to optimize highly specialized real-world GPU kernels. We reveal\nthe intricacies of using LLMs for code optimization and analyze the code\noptimization techniques from the LLMs. We also propose ways to collaborate with\nLLMs to further leverage their capabilities. For the original 3DGS code on the\nMipNeRF360 datasets, LLMs achieve significant speedups, 19% with Deepseek and\n24% with GPT-5, demonstrating the different capabilities of different LLMs. By\nfeeding additional information from performance profilers, the performance\nimprovement from LLM-optimized code is enhanced to up to 42% and 38% on\naverage. In comparison, our best-effort manually optimized version can achieve\na performance improvement up to 48% and 39% on average, showing that there are\nstill optimizations beyond the capabilities of current LLMs. On the other hand,\neven upon a newly proposed 3DGS framework with algorithmic optimizations,\nSeele, LLMs can still further enhance its performance by 6%, showing that there\nare optimization opportunities missed by domain experts. This highlights the\npotential of collaboration between domain experts and LLMs.",
+      "categories": [
+        "cs.AR"
+      ],
+      "primary_category": "cs.AR",
+      "pdf_url": "http://arxiv.org/pdf/2509.25626v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.25626v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.25626v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.25626v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.25510": {
+      "title": "EEsizer: LLM-Based AI Agent for Sizing of Analog and Mixed Signal Circuit",
+      "authors": [
+        "Chang Liu",
+        "Danial Chitnis"
+      ],
+      "published": "2025-09-29T21:08:23+00:00",
+      "updated": "2025-09-29T21:08:23+00:00",
+      "summary": "The design of Analog and Mixed-Signal (AMS) integrated circuits (ICs) often\ninvolves significant manual effort, especially during the transistor sizing\nprocess. While Machine Learning techniques in Electronic Design Automation\n(EDA) have shown promise in reducing complexity and minimizing human\nintervention, they still face challenges such as numerous iterations and a lack\nof knowledge about AMS circuit design. Recently, Large Language Models (LLMs)\nhave demonstrated significant potential across various fields, showing a\ncertain level of knowledge in circuit design and indicating their potential to\nautomate the transistor sizing process. In this work, we propose EEsizer, an\nLLM-based AI agent that integrates large language models with circuit\nsimulators and custom data analysis functions, enabling fully automated,\nclosed-loop transistor sizing without relying on external knowledge. By\nemploying prompt engineering and Chain-of-Thought reasoning, the agent\niteratively explores design directions, evaluates performance, and refines\nsolutions with minimal human intervention. We first benchmarked 8 LLMs on six\nbasic circuits and selected three high-performing models to optimize a\n20-transistor CMOS operational amplifier, targeting multiple performance\nmetrics, including rail-to-rail operation from 180 nm to 90 nm technology\nnodes. Notably, OpenAI o3 successfully achieved the user-intended target at 90\nnm across three different test groups, with a maximum of 20 iterations,\ndemonstrating adaptability and robustness at advanced nodes. To assess design\nrobustness, we manually designed a bias circuit and performed a variation\nanalysis using Gaussian-distributed variations on transistor dimensions and\nthreshold voltages.",
+      "categories": [
+        "cs.LG",
+        "cs.AR"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "http://arxiv.org/pdf/2509.25510v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.25510v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.25510v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.25510v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.25183": {
+      "title": "PAD3R: Pose-Aware Dynamic 3D Reconstruction from Casual Videos",
+      "authors": [
+        "Ting-Hsuan Liao",
+        "Haowen Liu",
+        "Yiran Xu",
+        "Songwei Ge",
+        "Gengshan Yang",
+        "Jia-Bin Huang"
+      ],
+      "published": "2025-09-29T17:59:33+00:00",
+      "updated": "2025-09-29T17:59:33+00:00",
+      "summary": "We present PAD3R, a method for reconstructing deformable 3D objects from\ncasually captured, unposed monocular videos. Unlike existing approaches, PAD3R\nhandles long video sequences featuring substantial object deformation,\nlarge-scale camera movement, and limited view coverage that typically challenge\nconventional systems. At its core, our approach trains a personalized,\nobject-centric pose estimator, supervised by a pre-trained image-to-3D model.\nThis guides the optimization of deformable 3D Gaussian representation. The\noptimization is further regularized by long-term 2D point tracking over the\nentire input video. By combining generative priors and differentiable\nrendering, PAD3R reconstructs high-fidelity, articulated 3D representations of\nobjects in a category-agnostic way. Extensive qualitative and quantitative\nresults show that PAD3R is robust and generalizes well across challenging\nscenarios, highlighting its potential for dynamic scene understanding and 3D\ncontent creation.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.25183v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "SIGGRAPH Asia 2025. Project page:https://pad3r.github.io/",
+      "entry_id": "http://arxiv.org/abs/2509.25183v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.25183v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.25183v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2509.24863": {
       "title": "Vision At Night: Exploring Biologically Inspired Preprocessing For Improved Robustness Via Color And Contrast Transformations",
       "authors": [
@@ -125,36 +267,75 @@
       ],
       "llm_approved": false
     },
-    "2509.23602": {
-      "title": "Deep Taxonomic Networks for Unsupervised Hierarchical Prototype Discovery",
+    "2509.25265": {
+      "title": "Evaluating the Impact of Radiographic Noise on Chest X-ray Semantic Segmentation and Disease Classification Using a Scalable Noise Injection Framework",
       "authors": [
-        "Zekun Wang",
-        "Ethan Haarer",
-        "Zhiyi Dai",
-        "Tianyi Zhu",
-        "Christopher J. MacLellan"
+        "Derek Jiu",
+        "Kiran Nijjer",
+        "Nishant Chinta",
+        "Ryan Bui",
+        "Ben Liu",
+        "Kevin Zhu"
       ],
-      "published": "2025-09-28T03:13:32+00:00",
-      "updated": "2025-09-28T03:13:32+00:00",
-      "summary": "Inspired by the human ability to learn and organize knowledge into\nhierarchical taxonomies with prototypes, this paper addresses key limitations\nin current deep hierarchical clustering methods. Existing methods often tie the\nstructure to the number of classes and underutilize the rich prototype\ninformation available at intermediate hierarchical levels. We introduce deep\ntaxonomic networks, a novel deep latent variable approach designed to bridge\nthese gaps. Our method optimizes a large latent taxonomic hierarchy,\nspecifically a complete binary tree structured mixture-of-Gaussian prior within\na variational inference framework, to automatically discover taxonomic\nstructures and associated prototype clusters directly from unlabeled data\nwithout assuming true label sizes. We analytically show that optimizing the\nELBO of our method encourages the discovery of hierarchical relationships among\nprototypes. Empirically, our learned models demonstrate strong hierarchical\nclustering performance, outperforming baselines across diverse image\nclassification datasets using our novel evaluation mechanism that leverages\nprototype clusters discovered at all hierarchical levels. Qualitative results\nfurther reveal that deep taxonomic networks discover rich and interpretable\nhierarchical taxonomies, capturing both coarse-grained semantic categories and\nfine-grained visual distinctions.",
+      "published": "2025-09-28T05:09:43+00:00",
+      "updated": "2025-09-28T05:09:43+00:00",
+      "summary": "Deep learning models are increasingly used for radiographic analysis, but\ntheir reliability is challenged by the stochastic noise inherent in clinical\nimaging. A systematic, cross-task understanding of how different noise types\nimpact these models is lacking. Here, we evaluate the robustness of\nstate-of-the-art convolutional neural networks (CNNs) to simulated quantum\n(Poisson) and electronic (Gaussian) noise in two key chest X-ray tasks:\nsemantic segmentation and pulmonary disease classification. Using a novel,\nscalable noise injection framework, we applied controlled, clinically-motivated\nnoise severities to common architectures (UNet, DeepLabV3, FPN; ResNet,\nDenseNet, EfficientNet) on public datasets (Landmark, ChestX-ray14). Our\nresults reveal a stark dichotomy in task robustness. Semantic segmentation\nmodels proved highly vulnerable, with lung segmentation performance collapsing\nunder severe electronic noise (Dice Similarity Coefficient drop of 0.843),\nsignifying a near-total model failure. In contrast, classification tasks\ndemonstrated greater overall resilience, but this robustness was not uniform.\nWe discovered a differential vulnerability: certain tasks, such as\ndistinguishing Pneumothorax from Atelectasis, failed catastrophically under\nquantum noise (AUROC drop of 0.355), while others were more susceptible to\nelectronic noise. These findings demonstrate that while classification models\npossess a degree of inherent robustness, pixel-level segmentation tasks are far\nmore brittle. The task- and noise-specific nature of model failure underscores\nthe critical need for targeted validation and mitigation strategies before the\nsafe clinical deployment of diagnostic AI.",
       "categories": [
-        "cs.CV"
+        "eess.IV",
+        "cs.LG"
       ],
-      "primary_category": "cs.CV",
-      "pdf_url": "http://arxiv.org/pdf/2509.23602v1",
-      "journal_ref": "NeurIPS 2025",
+      "primary_category": "eess.IV",
+      "pdf_url": "http://arxiv.org/pdf/2509.25265v1",
+      "journal_ref": null,
       "doi": null,
-      "comment": "NeurIPS 2025",
-      "entry_id": "http://arxiv.org/abs/2509.23602v1",
+      "comment": "Accepted to ARRS 2026 Annual Meeting",
+      "entry_id": "http://arxiv.org/abs/2509.25265v1",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2509.23602v1",
+          "href": "http://arxiv.org/abs/2509.25265v1",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2509.23602v1",
+          "href": "http://arxiv.org/pdf/2509.25265v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2509.23602": {
+      "title": "Deep Taxonomic Networks for Unsupervised Hierarchical Prototype Discovery",
+      "authors": [
+        "Zekun Wang",
+        "Ethan Haarer",
+        "Tianyi Zhu",
+        "Zhiyi Dai",
+        "Christopher J. MacLellan"
+      ],
+      "published": "2025-09-28T03:13:32+00:00",
+      "updated": "2025-09-30T16:52:17+00:00",
+      "summary": "Inspired by the human ability to learn and organize knowledge into\nhierarchical taxonomies with prototypes, this paper addresses key limitations\nin current deep hierarchical clustering methods. Existing methods often tie the\nstructure to the number of classes and underutilize the rich prototype\ninformation available at intermediate hierarchical levels. We introduce deep\ntaxonomic networks, a novel deep latent variable approach designed to bridge\nthese gaps. Our method optimizes a large latent taxonomic hierarchy,\nspecifically a complete binary tree structured mixture-of-Gaussian prior within\na variational inference framework, to automatically discover taxonomic\nstructures and associated prototype clusters directly from unlabeled data\nwithout assuming true label sizes. We analytically show that optimizing the\nELBO of our method encourages the discovery of hierarchical relationships among\nprototypes. Empirically, our learned models demonstrate strong hierarchical\nclustering performance, outperforming baselines across diverse image\nclassification datasets using our novel evaluation mechanism that leverages\nprototype clusters discovered at all hierarchical levels. Qualitative results\nfurther reveal that deep taxonomic networks discover rich and interpretable\nhierarchical taxonomies, capturing both coarse-grained semantic categories and\nfine-grained visual distinctions.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.23602v2",
+      "journal_ref": "NeurIPS 2025",
+      "doi": null,
+      "comment": "NeurIPS 2025",
+      "entry_id": "http://arxiv.org/abs/2509.23602v2",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.23602v2",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.23602v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -60646,6 +60827,53 @@
     }
   },
   "MVS": {
+    "2509.26008": {
+      "title": "PFDepth: Heterogeneous Pinhole-Fisheye Joint Depth Estimation via Distortion-aware Gaussian-Splatted Volumetric Fusion",
+      "authors": [
+        "Zhiwei Zhang",
+        "Ruikai Xu",
+        "Weijian Zhang",
+        "Zhizhong Zhang",
+        "Xin Tan",
+        "Jingyu Gong",
+        "Yuan Xie",
+        "Lizhuang Ma"
+      ],
+      "published": "2025-09-30T09:38:59+00:00",
+      "updated": "2025-09-30T09:38:59+00:00",
+      "summary": "In this paper, we present the first pinhole-fisheye framework for\nheterogeneous multi-view depth estimation, PFDepth. Our key insight is to\nexploit the complementary characteristics of pinhole and fisheye imagery\n(undistorted vs. distorted, small vs. large FOV, far vs. near field) for joint\noptimization. PFDepth employs a unified architecture capable of processing\narbitrary combinations of pinhole and fisheye cameras with varied intrinsics\nand extrinsics. Within PFDepth, we first explicitly lift 2D features from each\nheterogeneous view into a canonical 3D volumetric space. Then, a core module\ntermed Heterogeneous Spatial Fusion is designed to process and fuse\ndistortion-aware volumetric features across overlapping and non-overlapping\nregions. Additionally, we subtly reformulate the conventional voxel fusion into\na novel 3D Gaussian representation, in which learnable latent Gaussian spheres\ndynamically adapt to local image textures for finer 3D aggregation. Finally,\nfused volume features are rendered into multi-view depth maps. Through\nextensive experiments, we demonstrate that PFDepth sets a state-of-the-art\nperformance on KITTI-360 and RealHet datasets over current mainstream depth\nnetworks. To the best of our knowledge, this is the first systematic study of\nheterogeneous pinhole-fisheye depth estimation, offering both technical novelty\nand valuable empirical insights.",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.CG"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.26008v1",
+      "journal_ref": null,
+      "doi": "10.1145/3746027.3755159",
+      "comment": "Accepted by ACM MM 2025 Conference",
+      "entry_id": "http://arxiv.org/abs/2509.26008v1",
+      "links": [
+        {
+          "href": "http://dx.doi.org/10.1145/3746027.3755159",
+          "title": "doi",
+          "rel": "related",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/abs/2509.26008v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.26008v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2509.23733": {
       "title": "FastViDAR: Real-Time Omnidirectional Depth Estimation via Alternative Hierarchical Attention",
       "authors": [
@@ -75206,6 +75434,204 @@
     }
   },
   "Depth Estimation": {
+    "2509.26618": {
+      "title": "DA$^2$: Depth Anything in Any Direction",
+      "authors": [
+        "Haodong Li",
+        "Wangguangdong Zheng",
+        "Jing He",
+        "Yuhao Liu",
+        "Xin Lin",
+        "Xin Yang",
+        "Ying-Cong Chen",
+        "Chunchao Guo"
+      ],
+      "published": "2025-09-30T17:55:37+00:00",
+      "updated": "2025-09-30T17:55:37+00:00",
+      "summary": "Panorama has a full FoV (360$^\\circ\\times$180$^\\circ$), offering a more\ncomplete visual description than perspective images. Thanks to this\ncharacteristic, panoramic depth estimation is gaining increasing traction in 3D\nvision. However, due to the scarcity of panoramic data, previous methods are\noften restricted to in-domain settings, leading to poor zero-shot\ngeneralization. Furthermore, due to the spherical distortions inherent in\npanoramas, many approaches rely on perspective splitting (e.g., cubemaps),\nwhich leads to suboptimal efficiency. To address these challenges, we propose\n$\\textbf{DA}$$^{\\textbf{2}}$: $\\textbf{D}$epth $\\textbf{A}$nything in\n$\\textbf{A}$ny $\\textbf{D}$irection, an accurate, zero-shot generalizable, and\nfully end-to-end panoramic depth estimator. Specifically, for scaling up\npanoramic data, we introduce a data curation engine for generating high-quality\npanoramic depth data from perspective, and create $\\sim$543K panoramic\nRGB-depth pairs, bringing the total to $\\sim$607K. To further mitigate the\nspherical distortions, we present SphereViT, which explicitly leverages\nspherical coordinates to enforce the spherical geometric consistency in\npanoramic image features, yielding improved performance. A comprehensive\nbenchmark on multiple datasets clearly demonstrates DA$^{2}$'s SoTA\nperformance, with an average 38% improvement on AbsRel over the strongest\nzero-shot baseline. Surprisingly, DA$^{2}$ even outperforms prior in-domain\nmethods, highlighting its superior zero-shot generalization. Moreover, as an\nend-to-end solution, DA$^{2}$ exhibits much higher efficiency over fusion-based\napproaches. Both the code and the curated panoramic data will be released.\nProject page: https://depth-any-in-any-dir.github.io/.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.26618v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Work primarily done during an internship at Tencent Hunyuan. Project\n  page: https://depth-any-in-any-dir.github.io/",
+      "entry_id": "http://arxiv.org/abs/2509.26618v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.26618v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.26618v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2509.26498": {
+      "title": "DEPTHOR++: Robust Depth Enhancement from a Real-World Lightweight dToF and RGB Guidance",
+      "authors": [
+        "Jijun Xiang",
+        "Longliang Liu",
+        "Xuan Zhu",
+        "Xianqi Wang",
+        "Min Lin",
+        "Xin Yang"
+      ],
+      "published": "2025-09-30T16:41:11+00:00",
+      "updated": "2025-09-30T16:41:11+00:00",
+      "summary": "Depth enhancement, which converts raw dToF signals into dense depth maps\nusing RGB guidance, is crucial for improving depth perception in high-precision\ntasks such as 3D reconstruction and SLAM. However, existing methods often\nassume ideal dToF inputs and perfect dToF-RGB alignment, overlooking\ncalibration errors and anomalies, thus limiting real-world applicability. This\nwork systematically analyzes the noise characteristics of real-world\nlightweight dToF sensors and proposes a practical and novel depth completion\nframework, DEPTHOR++, which enhances robustness to noisy dToF inputs from three\nkey aspects. First, we introduce a simulation method based on synthetic\ndatasets to generate realistic training samples for robust model training.\nSecond, we propose a learnable-parameter-free anomaly detection mechanism to\nidentify and remove erroneous dToF measurements, preventing misleading\npropagation during completion. Third, we design a depth completion network\ntailored to noisy dToF inputs, which integrates RGB images and pre-trained\nmonocular depth estimation priors to improve depth recovery in challenging\nregions. On the ZJU-L5 dataset and real-world samples, our training strategy\nsignificantly boosts existing depth completion models, with our model achieving\nstate-of-the-art performance, improving RMSE and Rel by 22% and 11% on average.\nOn the Mirror3D-NYU dataset, by incorporating the anomaly detection method, our\nmodel improves upon the previous SOTA by 37% in mirror regions. On the Hammer\ndataset, using simulated low-cost dToF data from RealSense L515, our method\nsurpasses the L515 measurements with an average gain of 22%, demonstrating its\npotential to enable low-cost sensors to outperform higher-end devices.\nQualitative results across diverse real-world datasets further validate the\neffectiveness and generalizability of our approach.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.26498v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "15 pages, 16 figures",
+      "entry_id": "http://arxiv.org/abs/2509.26498v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.26498v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.26498v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2509.26087": {
+      "title": "EasyOcc: 3D Pseudo-Label Supervision for Fully Self-Supervised Semantic Occupancy Prediction Models",
+      "authors": [
+        "Seamie Hayes",
+        "Ganesh Sistu",
+        "Ciarán Eising"
+      ],
+      "published": "2025-09-30T11:01:32+00:00",
+      "updated": "2025-09-30T11:01:32+00:00",
+      "summary": "Self-supervised models have recently achieved notable advancements,\nparticularly in the domain of semantic occupancy prediction. These models\nutilize sophisticated loss computation strategies to compensate for the absence\nof ground-truth labels. For instance, techniques such as novel view synthesis,\ncross-view rendering, and depth estimation have been explored to address the\nissue of semantic and depth ambiguity. However, such techniques typically incur\nhigh computational costs and memory usage during the training stage, especially\nin the case of novel view synthesis. To mitigate these issues, we propose 3D\npseudo-ground-truth labels generated by the foundation models Grounded-SAM and\nMetric3Dv2, and harness temporal information for label densification. Our 3D\npseudo-labels can be easily integrated into existing models, which yields\nsubstantial performance improvements, with mIoU increasing by 45\\%, from 9.73\nto 14.09, when implemented into the OccNeRF model. This stands in contrast to\nearlier advancements in the field, which are often not readily transferable to\nother architectures. Additionally, we propose a streamlined model, EasyOcc,\nachieving 13.86 mIoU. This model conducts learning solely from our labels,\navoiding complex rendering strategies mentioned previously. Furthermore, our\nmethod enables models to attain state-of-the-art performance when evaluated on\nthe full scene without applying the camera mask, with EasyOcc achieving 7.71\nmIoU, outperforming the previous best model by 31\\%. These findings highlight\nthe critical importance of foundation models, temporal context, and the choice\nof loss computation space in self-supervised learning for comprehensive scene\nunderstanding.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.26087v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.26087v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.26087v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.26087v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2509.26008": {
+      "title": "PFDepth: Heterogeneous Pinhole-Fisheye Joint Depth Estimation via Distortion-aware Gaussian-Splatted Volumetric Fusion",
+      "authors": [
+        "Zhiwei Zhang",
+        "Ruikai Xu",
+        "Weijian Zhang",
+        "Zhizhong Zhang",
+        "Xin Tan",
+        "Jingyu Gong",
+        "Yuan Xie",
+        "Lizhuang Ma"
+      ],
+      "published": "2025-09-30T09:38:59+00:00",
+      "updated": "2025-09-30T09:38:59+00:00",
+      "summary": "In this paper, we present the first pinhole-fisheye framework for\nheterogeneous multi-view depth estimation, PFDepth. Our key insight is to\nexploit the complementary characteristics of pinhole and fisheye imagery\n(undistorted vs. distorted, small vs. large FOV, far vs. near field) for joint\noptimization. PFDepth employs a unified architecture capable of processing\narbitrary combinations of pinhole and fisheye cameras with varied intrinsics\nand extrinsics. Within PFDepth, we first explicitly lift 2D features from each\nheterogeneous view into a canonical 3D volumetric space. Then, a core module\ntermed Heterogeneous Spatial Fusion is designed to process and fuse\ndistortion-aware volumetric features across overlapping and non-overlapping\nregions. Additionally, we subtly reformulate the conventional voxel fusion into\na novel 3D Gaussian representation, in which learnable latent Gaussian spheres\ndynamically adapt to local image textures for finer 3D aggregation. Finally,\nfused volume features are rendered into multi-view depth maps. Through\nextensive experiments, we demonstrate that PFDepth sets a state-of-the-art\nperformance on KITTI-360 and RealHet datasets over current mainstream depth\nnetworks. To the best of our knowledge, this is the first systematic study of\nheterogeneous pinhole-fisheye depth estimation, offering both technical novelty\nand valuable empirical insights.",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.CG"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.26008v1",
+      "journal_ref": null,
+      "doi": "10.1145/3746027.3755159",
+      "comment": "Accepted by ACM MM 2025 Conference",
+      "entry_id": "http://arxiv.org/abs/2509.26008v1",
+      "links": [
+        {
+          "href": "http://dx.doi.org/10.1145/3746027.3755159",
+          "title": "doi",
+          "rel": "related",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/abs/2509.26008v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.26008v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2509.25413": {
+      "title": "DepthLM: Metric Depth From Vision Language Models",
+      "authors": [
+        "Zhipeng Cai",
+        "Ching-Feng Yeh",
+        "Hu Xu",
+        "Zhuang Liu",
+        "Gregory Meyer",
+        "Xinjie Lei",
+        "Changsheng Zhao",
+        "Shang-Wen Li",
+        "Vikas Chandra",
+        "Yangyang Shi"
+      ],
+      "published": "2025-09-29T19:12:13+00:00",
+      "updated": "2025-09-29T19:12:13+00:00",
+      "summary": "Vision language models (VLMs) can flexibly address various vision tasks\nthrough text interactions. Although successful in semantic understanding,\nstate-of-the-art VLMs including GPT-5 still struggle in understanding 3D from\n2D inputs. On the other hand, expert pure vision models achieve super-human\naccuracy in metric depth estimation, a key 3D understanding task. However, they\nrequire task-specific architectures and losses. Such difference motivates us to\nask: Can VLMs reach expert-level accuracy without architecture or loss change?\nWe take per-pixel metric depth estimation as the representative task and show\nthat the answer is yes! Surprisingly, comprehensive analysis shows that\ntext-based supervised-finetuning with sparse labels is sufficient for VLMs to\nunlock strong 3D understanding, no dense prediction head or complex\nregression/regularization loss is needed. The bottleneck for VLMs lies actually\nin pixel reference and cross-dataset camera ambiguity, which we address through\nvisual prompting and intrinsic-conditioned augmentation. With much smaller\nmodels, our method DepthLM surpasses the accuracy of most advanced VLMs by over\n2x, making VLMs for the first time comparable with pure vision models.\nInterestingly, without explicit enforcement during training, VLMs trained with\nDepthLM naturally avoids over-smoothing, having much fewer flying points at\nboundary regions than pure vision models. The simplicity of DepthLM also\nenables a single VLM to cover various 3D tasks beyond metric depth. Our code\nand model will be released at the link below.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2509.25413v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.25413v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.25413v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2509.25413v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2509.25146": {
       "title": "Fast Feature Field ($\\text{F}^3$): A Predictive Representation of Events",
       "authors": [
@@ -75252,27 +75678,27 @@
         "Tong He"
       ],
       "published": "2025-09-29T17:19:45+00:00",
-      "updated": "2025-09-29T17:19:45+00:00",
+      "updated": "2025-09-30T14:38:45+00:00",
       "summary": "Monocular Depth Estimation (MDE) is a foundational task for computer vision.\nTraditional methods are limited by data scarcity and quality, hindering their\nrobustness. To overcome this, we propose BRIDGE, an RL-optimized depth-to-image\n(D2I) generation framework that synthesizes over 20M realistic and\ngeometrically accurate RGB images, each intrinsically paired with its ground\ntruth depth, from diverse source depth maps. Then we train our depth estimation\nmodel on this dataset, employing a hybrid supervision strategy that integrates\nteacher pseudo-labels with ground truth depth for comprehensive and robust\ntraining. This innovative data generation and training paradigm enables BRIDGE\nto achieve breakthroughs in scale and domain diversity, consistently\noutperforming existing state-of-the-art approaches quantitatively and in\ncomplex scene detail capture, thereby fostering general and robust depth\nfeatures. Code and models are available at\nhttps://dingning-liu.github.io/bridge.github.io/.",
       "categories": [
         "cs.CV",
         "cs.AI"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "http://arxiv.org/pdf/2509.25077v1",
+      "pdf_url": "http://arxiv.org/pdf/2509.25077v2",
       "journal_ref": null,
       "doi": null,
       "comment": "20 pages, 7 figures",
-      "entry_id": "http://arxiv.org/abs/2509.25077v1",
+      "entry_id": "http://arxiv.org/abs/2509.25077v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2509.25077v1",
+          "href": "http://arxiv.org/abs/2509.25077v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2509.25077v1",
+          "href": "http://arxiv.org/pdf/2509.25077v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
