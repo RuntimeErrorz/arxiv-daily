@@ -1,5 +1,199 @@
 {
   "3DGS Semantic": {
+    "2510.02174": {
+      "title": "Flatness-Aware Stochastic Gradient Langevin Dynamics",
+      "authors": [
+        "Stefano Bruno",
+        "Youngsik Hwang",
+        "Jaehyeon An",
+        "Sotirios Sabanis",
+        "Dong-Young Lim"
+      ],
+      "published": "2025-10-02T16:24:46+00:00",
+      "updated": "2025-10-02T16:24:46+00:00",
+      "summary": "Generalization in deep learning is closely tied to the pursuit of flat minima\nin the loss landscape, yet classical Stochastic Gradient Langevin Dynamics\n(SGLD) offers no mechanism to bias its dynamics toward such low-curvature\nsolutions. This work introduces Flatness-Aware Stochastic Gradient Langevin\nDynamics (fSGLD), designed to efficiently and provably seek flat minima in\nhigh-dimensional nonconvex optimization problems. At each iteration, fSGLD uses\nthe stochastic gradient evaluated at parameters perturbed by isotropic Gaussian\nnoise, commonly referred to as Random Weight Perturbation (RWP), thereby\noptimizing a randomized-smoothing objective that implicitly captures curvature\ninformation. Leveraging these properties, we prove that the invariant measure\nof fSGLD stays close to a stationary measure concentrated on the global\nminimizers of a loss function regularized by the Hessian trace whenever the\ninverse temperature and the scale of random weight perturbation are properly\ncoupled. This result provides a rigorous theoretical explanation for the\nbenefits of random weight perturbation. In particular, we establish\nnon-asymptotic convergence guarantees in Wasserstein distance with the best\nknown rate and derive an excess-risk bound for the Hessian-trace regularized\nobjective. Extensive experiments on noisy-label and large-scale vision tasks,\nin both training-from-scratch and fine-tuning settings, demonstrate that fSGLD\nachieves superior or comparable generalization and robustness to baseline\nalgorithms while maintaining the computational cost of SGD, about half that of\nSAM. Hessian-spectrum analysis further confirms that fSGLD converges to\nsignificantly flatter minima.",
+      "categories": [
+        "cs.LG",
+        "math.OC",
+        "math.PR",
+        "stat.ML"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "http://arxiv.org/pdf/2510.02174v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.02174v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.02174v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.02174v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.02053": {
+      "title": "The sharpness of the quark-hadron transition and the properties of hybrid stars",
+      "authors": [
+        "M. B. Albino",
+        "R. Fariello",
+        "G. Lugones",
+        "F. S. Navarra"
+      ],
+      "published": "2025-10-02T14:24:41+00:00",
+      "updated": "2025-10-02T14:24:41+00:00",
+      "summary": "We investigate the effects of the sharpness of the phase transition between\nhadronic matter and quark matter on various properties of neutron stars. We\nconstruct hybrid equations of state by combining a hadronic model with a quark\nmodel using a Gaussian function. This approach introduces a smooth transition\ncharacterized by two parameters: one representing the overpressure relative to\nthe first-order phase transition point, and the other related to the range over\nwhich the hybrid region extends in baryon chemical potential. We find that the\nsharpness of the phase transition significantly influences the equation of\nstate, which can deviate by several tens of $\\text{MeV fm}^{-3}$ from the one\nwith a sharp first-order transition. The speed of sound exhibits diverse\nbehaviors, including drastic drops, pronounced peaks, and oscillatory patterns,\ndepending on the sharpness parameters. In terms of stellar structure, while the\nmaximum neutron star mass remains largely unaffected by the sharpness of the\nphase transition, the stellar radii can vary significantly. Smoother\ntransitions lead to a leftward shift (up to 1 km) of the mass-radius curve\nsegment corresponding to hybrid stars. The tidal deformability decreases with\nsmoother transitions, especially for higher-mass stars. Our results are quite\ngeneral and do not qualitatively depend on the specific hadronic and quark\nmatter models employed. In fact, the hybrid equation of state and stellar\nproperties derived from microscopic models of quark-hadron pasta phases display\nthe same behavior as described above.",
+      "categories": [
+        "nucl-th"
+      ],
+      "primary_category": "nucl-th",
+      "pdf_url": "http://arxiv.org/pdf/2510.02053v1",
+      "journal_ref": null,
+      "doi": "10.1142/S0218271825500737",
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.02053v1",
+      "links": [
+        {
+          "href": "http://dx.doi.org/10.1142/S0218271825500737",
+          "title": "doi",
+          "rel": "related",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/abs/2510.02053v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.02053v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.02034": {
+      "title": "GaussianMorphing: Mesh-Guided 3D Gaussians for Semantic-Aware Object Morphing",
+      "authors": [
+        "Mengtian Li",
+        "Yunshu Bai",
+        "Yimin Chu",
+        "Yijun Shen",
+        "Zhongmei Li",
+        "Weifeng Ge",
+        "Zhifeng Xie",
+        "Chaofeng Chen"
+      ],
+      "published": "2025-10-02T14:07:55+00:00",
+      "updated": "2025-10-02T14:07:55+00:00",
+      "summary": "We introduce GaussianMorphing, a novel framework for semantic-aware 3D shape\nand texture morphing from multi-view images. Previous approaches usually rely\non point clouds or require pre-defined homeomorphic mappings for untextured\ndata. Our method overcomes these limitations by leveraging mesh-guided 3D\nGaussian Splatting (3DGS) for high-fidelity geometry and appearance modeling.\nThe core of our framework is a unified deformation strategy that anchors\n3DGaussians to reconstructed mesh patches, ensuring geometrically consistent\ntransformations while preserving texture fidelity through topology-aware\nconstraints. In parallel, our framework establishes unsupervised semantic\ncorrespondence by using the mesh topology as a geometric prior and maintains\nstructural integrity via physically plausible point trajectories. This\nintegrated approach preserves both local detail and global semantic coherence\nthroughout the morphing process with out requiring labeled data. On our\nproposed TexMorph benchmark, GaussianMorphing substantially outperforms prior\n2D/3D methods, reducing color consistency error ($\\Delta E$) by 22.2% and EI by\n26.2%. Project page: https://baiyunshu.github.io/GAUSSIANMORPHING.github.io/",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.02034v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Project page: https://baiyunshu.github.io/GAUSSIANMORPHING.github.io/",
+      "entry_id": "http://arxiv.org/abs/2510.02034v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.02034v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.02034v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.01643": {
+      "title": "Support Basis: Fast Attention Beyond Bounded Entries",
+      "authors": [
+        "Maryam Aliakbarpour",
+        "Vladimir Braverman",
+        "Junze Yin",
+        "Haochen Zhang"
+      ],
+      "published": "2025-10-02T03:51:28+00:00",
+      "updated": "2025-10-02T03:51:28+00:00",
+      "summary": "The quadratic complexity of softmax attention remains a central bottleneck in\nscaling large language models (LLMs). [Alman and Song, NeurIPS 2023] proposed a\nsub-quadratic attention approximation algorithm, but it works only under the\nrestrictive bounded-entry assumption. Since this assumption rarely holds in\npractice, its applicability to modern LLMs is limited.\n  In this paper, we introduce support-basis decomposition, a new framework for\nefficient attention approximation beyond bounded entries. We empirically\ndemonstrate that the entries of the query and key matrices exhibit sub-Gaussian\nbehavior. Our approach uses this property to split large and small entries,\nenabling exact computation on sparse components and polynomial approximation on\ndense components. We establish rigorous theoretical guarantees, proving a\nsub-quadratic runtime, and extend the method to a multi-threshold setting that\neliminates all distributional assumptions. Furthermore, we provide the first\ntheoretical justification for the empirical success of polynomial attention\n[Kacham, Mirrokni, and Zhong, ICML 2024], showing that softmax attention can be\nclosely approximated by a combination of multiple polynomial attentions with\nsketching.",
+      "categories": [
+        "cs.LG"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "http://arxiv.org/pdf/2510.01643v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.01643v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.01643v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.01643v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.00347": {
+      "title": "In-Context Curiosity: Distilling Exploration for Decision-Pretrained Transformers on Bandit Tasks",
+      "authors": [
+        "Huitao Yang",
+        "Guanting Chen"
+      ],
+      "published": "2025-09-30T23:17:18+00:00",
+      "updated": "2025-09-30T23:17:18+00:00",
+      "summary": "As large language models (LLMs) continue to grow in capability, there is\nincreasing interest in incorporating them into decision-making tasks. A common\npipeline for this is Decision-Pretrained Transformers (DPTs). However, existing\ntraining methods for DPTs often struggle to generalize beyond their pretraining\ndata distribution. To explore mitigation of this limitation, we propose\nin-context curiosity -- a lightweight, exploration-inspired regularizer for\noffline pretraining -- and introduce the Prediction-Powered Transformer (PPT)\nframework. PPT augments DPT with an auxiliary reward predictor, using\nprediction error as an intrinsic curiosity signal to encourage broader\nexploration during training. In proof-of-concept experiments on Gaussian\nmulti-armed bandits, PPT shows improved robustness: it moderates the\nperformance degradation observed in DPT when test environments exhibit higher\nvariance in reward, particularly when pretraining data has limited diversity.\nWhile the quality of offline data remain fundamental, our preliminary results\nsuggest that curiosity-driven pretraining offers a promising direction for\nenhancing out-of-distribution generalization in in-context RL agents.",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.MA"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "http://arxiv.org/pdf/2510.00347v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.00347v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.00347v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.00347v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2509.25685": {
       "title": "Hierarchical Diffusion Motion Planning with Task-Conditioned Uncertainty-Aware Priors",
       "authors": [
@@ -3917,26 +4111,26 @@
         "Hang Liu"
       ],
       "published": "2025-08-25T18:13:50+00:00",
-      "updated": "2025-08-25T18:13:50+00:00",
-      "summary": "Large Language Models (LLMs) have shown strong capabilities in document\nre-ranking, a key component in modern Information Retrieval (IR) systems.\nHowever, existing LLM-based approaches face notable limitations, including\nranking uncertainty, unstable top-k recovery, and high token cost due to\ntoken-intensive prompting. To effectively address these limitations, we propose\nREALM, an uncertainty-aware re-ranking framework that models LLM-derived\nrelevance as Gaussian distributions and refines them through recursive Bayesian\nupdates. By explicitly capturing uncertainty and minimizing redundant queries,\nREALM achieves better rankings more efficiently. Experimental results\ndemonstrate that our REALM surpasses state-of-the-art re-rankers while\nsignificantly reducing token usage and latency, promoting it as the\nnext-generation re-ranker for modern IR systems.",
+      "updated": "2025-10-02T15:20:02+00:00",
+      "summary": "Large Language Models (LLMs) have shown strong capabilities in document\nre-ranking, a key component in modern Information Retrieval (IR) systems.\nHowever, existing LLM-based approaches face notable limitations, including\nranking uncertainty, unstable top-k recovery, and high token cost due to\ntoken-intensive prompting. To effectively address these limitations, we propose\nREALM, an uncertainty-aware re-ranking framework that models LLM-derived\nrelevance as Gaussian distributions and refines them through recursive Bayesian\nupdates. By explicitly capturing uncertainty and minimizing redundant queries,\nREALM achieves better rankings more efficiently. Experimental results\ndemonstrate that our REALM surpasses state-of-the-art re-rankers while\nsignificantly reducing token usage and latency, improving NDCG@10 by 0.7-11.9\nand simultaneously reducing the number of LLM inferences by 23.4-84.4%,\npromoting it as the next-generation re-ranker for modern IR systems.",
       "categories": [
         "cs.IR"
       ],
       "primary_category": "cs.IR",
-      "pdf_url": "http://arxiv.org/pdf/2508.18379v1",
+      "pdf_url": "http://arxiv.org/pdf/2508.18379v2",
       "journal_ref": null,
       "doi": null,
-      "comment": "Accepted to EMNLP 2025 (Main Conference). 13 pages, 2 figures",
-      "entry_id": "http://arxiv.org/abs/2508.18379v1",
+      "comment": "EMNLP 2025 (Main Conference, Oral). 15 pages, 3 figures",
+      "entry_id": "http://arxiv.org/abs/2508.18379v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2508.18379v1",
+          "href": "http://arxiv.org/abs/2508.18379v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2508.18379v1",
+          "href": "http://arxiv.org/pdf/2508.18379v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -75434,6 +75628,43 @@
     }
   },
   "Depth Estimation": {
+    "2510.01665": {
+      "title": "Non-Rigid Structure-from-Motion via Differential Geometry with Recoverable Conformal Scale",
+      "authors": [
+        "Yongbo Chen",
+        "Yanhao Zhang",
+        "Shaifali Parashar",
+        "Liang Zhao",
+        "Shoudong Huang"
+      ],
+      "published": "2025-10-02T04:46:46+00:00",
+      "updated": "2025-10-02T04:46:46+00:00",
+      "summary": "Non-rigid structure-from-motion (NRSfM), a promising technique for addressing\nthe mapping challenges in monocular visual deformable simultaneous localization\nand mapping (SLAM), has attracted growing attention. We introduce a novel\nmethod, called Con-NRSfM, for NRSfM under conformal deformations, encompassing\nisometric deformations as a subset. Our approach performs point-wise\nreconstruction using 2D selected image warps optimized through a graph-based\nframework. Unlike existing methods that rely on strict assumptions, such as\nlocally planar surfaces or locally linear deformations, and fail to recover the\nconformal scale, our method eliminates these constraints and accurately\ncomputes the local conformal scale. Additionally, our framework decouples\nconstraints on depth and conformal scale, which are inseparable in other\napproaches, enabling more precise depth estimation. To address the sensitivity\nof the formulated problem, we employ a parallel separable iterative\noptimization strategy. Furthermore, a self-supervised learning framework,\nutilizing an encoder-decoder network, is incorporated to generate dense 3D\npoint clouds with texture. Simulation and experimental results using both\nsynthetic and real datasets demonstrate that our method surpasses existing\napproaches in terms of reconstruction accuracy and robustness. The code for the\nproposed method will be made publicly available on the project website:\nhttps://sites.google.com/view/con-nrsfm.",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.01665v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.01665v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.01665v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.01665v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2509.26618": {
       "title": "DA$^2$: Depth Anything in Any Direction",
       "authors": [

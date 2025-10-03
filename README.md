@@ -1,4 +1,4 @@
-## Updated at 2025-10-03 08:16:09
+## Updated at 2025-10-03 20:07:43
 
 ## 3DGS Semantic
 
@@ -552,6 +552,7 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-10-02**|**[Non-Rigid Structure-from-Motion via Differential Geometry with Recoverable Conformal Scale](https://arxiv.org/abs/2510.01665)**|N/A|None|cs.CV|None|Yongbo Chen et al.|
 |**2025-09-30**|**[DA$^2$: Depth Anything in Any Direction](https://arxiv.org/abs/2509.26618)**|N/A|Work primarily done during an internship at Tencent Hunyuan. Project page: https://depth-any-in-any-dir.github.io/|cs.CV|None|Haodong Li et al.|
 |**2025-09-30**|**[DEPTHOR++: Robust Depth Enhancement from a Real-World Lightweight dToF and RGB Guidance](https://arxiv.org/abs/2509.26498)**|N/A|15 pages, 16 figures|cs.CV|None|Jijun Xiang et al.|
 |**2025-09-30**|**[EasyOcc: 3D Pseudo-Label Supervision for Fully Self-Supervised Semantic Occupancy Prediction Models](https://arxiv.org/abs/2509.26087)**|N/A|None|cs.CV|None|Seamie Hayes et al.|
