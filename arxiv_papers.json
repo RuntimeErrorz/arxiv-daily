@@ -1511,27 +1511,27 @@
         "Goetz Botterweck"
       ],
       "published": "2025-09-21T16:49:09+00:00",
-      "updated": "2025-09-21T16:49:09+00:00",
+      "updated": "2025-10-02T18:17:08+00:00",
       "summary": "We present Flow-Induced Diagonal Gaussian Processes (FiD-GP), a compression\nframework that incorporates a compact inducing weight matrix to project a\nneural network's weight uncertainty into a lower-dimensional subspace.\nCritically, FiD-GP relies on normalising-flow priors and spectral\nregularisations to augment its expressiveness and align the inducing subspace\nwith feature-gradient geometry through a numerically stable projection\nmechanism objective. Furthermore, we demonstrate how the prediction framework\nin FiD-GP can help to design a single-pass projection for Out-of-Distribution\n(OoD) detection. Our analysis shows that FiD-GP improves uncertainty estimation\nability on various tasks compared with SVGP-based baselines, satisfies tight\nspectral residual bounds with theoretically guaranteed OoD detection, and\nsignificantly compresses the neural network's storage requirements at the cost\nof increased inference computation dependent on the number of inducing weights\nemployed. Specifically, in a comprehensive empirical study spanning regression,\nimage classification, semantic segmentation, and out-of-distribution detection\nbenchmarks, it cuts Bayesian training cost by several orders of magnitude,\ncompresses parameters by roughly 51%, reduces model size by about 75%, and\nmatches state-of-the-art accuracy and uncertainty estimation.",
       "categories": [
         "cs.LG",
         "cs.AI"
       ],
       "primary_category": "cs.LG",
-      "pdf_url": "http://arxiv.org/pdf/2509.17153v1",
+      "pdf_url": "http://arxiv.org/pdf/2509.17153v2",
       "journal_ref": null,
       "doi": null,
       "comment": "15 pages",
-      "entry_id": "http://arxiv.org/abs/2509.17153v1",
+      "entry_id": "http://arxiv.org/abs/2509.17153v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2509.17153v1",
+          "href": "http://arxiv.org/abs/2509.17153v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2509.17153v1",
+          "href": "http://arxiv.org/pdf/2509.17153v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
