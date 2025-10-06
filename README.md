@@ -1,4 +1,4 @@
-## Updated at 2025-10-06 08:17:23
+## Updated at 2025-10-06 20:07:50
 
 ## 3DGS Semantic
 
@@ -8,6 +8,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-10-02**|**[SIMSplat: Predictive Driving Scene Editing with Language-aligned 4D Gaussian Splatting](https://arxiv.org/abs/2510.02469)**|N/A|None|cs.RO|None|Sung-Yeon Park et al.|
 |**2025-09-28**|**[CrashSplat: 2D to 3D Vehicle Damage Segmentation in Gaussian Splatting](https://arxiv.org/abs/2509.23947)**|N/A|None|cs.CV|None|Dragoş-Andrei Chileban et al.|
 |**2025-09-26**|**[Polysemous Language Gaussian Splatting via Matching-based Mask Lifting](https://arxiv.org/abs/2509.22225)**|N/A|None|cs.CV|None|Jiayu Ding et al.|
 |**2025-09-22**|**[Distributed Stochastic Optimization under Heavy-Tailed Noise: A Federated Mirror Descent Approach with High Probability Convergence](https://arxiv.org/abs/2509.17659)**|N/A|None|math.OC|None|Zhan Yu et al.|

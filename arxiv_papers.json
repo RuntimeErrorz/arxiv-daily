@@ -1,5 +1,167 @@
 {
   "3DGS Semantic": {
+    "2510.03104": {
+      "title": "Geometry Meets Vision: Revisiting Pretrained Semantics in Distilled Fields",
+      "authors": [
+        "Zhiting Mei",
+        "Ola Shorinwa",
+        "Anirudha Majumdar"
+      ],
+      "published": "2025-10-03T15:32:56+00:00",
+      "updated": "2025-10-03T15:32:56+00:00",
+      "summary": "Semantic distillation in radiance fields has spurred significant advances in\nopen-vocabulary robot policies, e.g., in manipulation and navigation, founded\non pretrained semantics from large vision models. While prior work has\ndemonstrated the effectiveness of visual-only semantic features (e.g., DINO and\nCLIP) in Gaussian Splatting and neural radiance fields, the potential benefit\nof geometry-grounding in distilled fields remains an open question. In\nprinciple, visual-geometry features seem very promising for spatial tasks such\nas pose estimation, prompting the question: Do geometry-grounded semantic\nfeatures offer an edge in distilled fields? Specifically, we ask three critical\nquestions: First, does spatial-grounding produce higher-fidelity geometry-aware\nsemantic features? We find that image features from geometry-grounded backbones\ncontain finer structural details compared to their counterparts. Secondly, does\ngeometry-grounding improve semantic object localization? We observe no\nsignificant difference in this task. Thirdly, does geometry-grounding enable\nhigher-accuracy radiance field inversion? Given the limitations of prior work\nand their lack of semantics integration, we propose a novel framework SPINE for\ninverting radiance fields without an initial guess, consisting of two core\ncomponents: coarse inversion using distilled semantics, and fine inversion\nusing photometric-based optimization. Surprisingly, we find that the pose\nestimation accuracy decreases with geometry-grounded features. Our results\nsuggest that visual-only features offer greater versatility for a broader range\nof downstream tasks, although geometry-grounded features contain more geometric\ndetail. Notably, our findings underscore the necessity of future research on\neffective strategies for geometry-grounding that augment the versatility and\nperformance of pretrained semantic features.",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.03104v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.03104v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.03104v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.03104v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.02850": {
+      "title": "Reward Model Routing in Alignment",
+      "authors": [
+        "Xinle Wu",
+        "Yao Lu"
+      ],
+      "published": "2025-10-03T09:37:59+00:00",
+      "updated": "2025-10-03T09:37:59+00:00",
+      "summary": "Reinforcement learning from human or AI feedback (RLHF / RLAIF) has become\nthe standard paradigm for aligning large language models (LLMs). However, most\npipelines rely on a single reward model (RM), limiting alignment quality and\nrisking overfitting. Recent work explores RM routing--dynamically selecting an\nRM from a candidate pool to exploit complementary strengths while maintaining\n$O(1)$ RM calls--but existing methods suffer from cold-start and insufficient\nexploration. We propose BayesianRouter, a hybrid routing framework that\ncombines offline RM strengths learning with online Bayesian selection. In the\noffline stage, a multi-task router is trained on preference data to estimate\nper-RM reliability. In the online stage, a Bayesian Thompson sampling router\nperforms per-query RM selection, initializing RM-specific weight vectors with\noffline embeddings as Gaussian priors and adaptively updating their posteriors\nwith online rewards to adapt to the evolving policy distribution. Extensive\nexperiments on instruction-following (AlpacaEval-2, Arena-Hard, MT-Bench) and\nreasoning (GSM8K, MMLU) benchmarks show that BayesianRouter consistently\noutperforms individual RMs, RM ensembling, and existing routing methods.",
+      "categories": [
+        "cs.AI"
+      ],
+      "primary_category": "cs.AI",
+      "pdf_url": "http://arxiv.org/pdf/2510.02850v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.02850v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.02850v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.02850v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.02732": {
+      "title": "From Tokens to Nodes: Semantic-Guided Motion Control for Dynamic 3D Gaussian Splatting",
+      "authors": [
+        "Jianing Chen",
+        "Zehao Li",
+        "Yujun Cai",
+        "Hao Jiang",
+        "Shuqin Gao",
+        "Honglong Zhao",
+        "Tianlu Mao",
+        "Yucheng Zhang"
+      ],
+      "published": "2025-10-03T05:33:58+00:00",
+      "updated": "2025-10-03T05:33:58+00:00",
+      "summary": "Dynamic 3D reconstruction from monocular videos remains difficult due to the\nambiguity inferring 3D motion from limited views and computational demands of\nmodeling temporally varying scenes. While recent sparse control methods\nalleviate computation by reducing millions of Gaussians to thousands of control\npoints, they suffer from a critical limitation: they allocate points purely by\ngeometry, leading to static redundancy and dynamic insufficiency. We propose a\nmotion-adaptive framework that aligns control density with motion complexity.\nLeveraging semantic and motion priors from vision foundation models, we\nestablish patch-token-node correspondences and apply motion-adaptive\ncompression to concentrate control points in dynamic regions while suppressing\nredundancy in static backgrounds. Our approach achieves flexible\nrepresentational density adaptation through iterative voxelization and motion\ntendency scoring, directly addressing the fundamental mismatch between control\npoint allocation and motion complexity. To capture temporal evolution, we\nintroduce spline-based trajectory parameterization initialized by 2D tracklets,\nreplacing MLP-based deformation fields to achieve smoother motion\nrepresentation and more stable optimization. Extensive experiments demonstrate\nsignificant improvements in reconstruction quality and efficiency over existing\nstate-of-the-art methods.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.02732v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.02732v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.02732v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.02732v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.02469": {
+      "title": "SIMSplat: Predictive Driving Scene Editing with Language-aligned 4D Gaussian Splatting",
+      "authors": [
+        "Sung-Yeon Park",
+        "Adam Lee",
+        "Juanwu Lu",
+        "Can Cui",
+        "Luyang Jiang",
+        "Rohit Gupta",
+        "Kyungtae Han",
+        "Ahmadreza Moradipari",
+        "Ziran Wang"
+      ],
+      "published": "2025-10-02T18:22:03+00:00",
+      "updated": "2025-10-02T18:22:03+00:00",
+      "summary": "Driving scene manipulation with sensor data is emerging as a promising\nalternative to traditional virtual driving simulators. However, existing\nframeworks struggle to generate realistic scenarios efficiently due to limited\nediting capabilities. To address these challenges, we present SIMSplat, a\npredictive driving scene editor with language-aligned Gaussian splatting. As a\nlanguage-controlled editor, SIMSplat enables intuitive manipulation using\nnatural language prompts. By aligning language with Gaussian-reconstructed\nscenes, it further supports direct querying of road objects, allowing precise\nand flexible editing. Our method provides detailed object-level editing,\nincluding adding new objects and modifying the trajectories of both vehicles\nand pedestrians, while also incorporating predictive path refinement through\nmulti-agent motion prediction to generate realistic interactions among all\nagents in the scene. Experiments on the Waymo dataset demonstrate SIMSplat's\nextensive editing capabilities and adaptability across a wide range of\nscenarios. Project page: https://sungyeonparkk.github.io/simsplat/",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "http://arxiv.org/pdf/2510.02469v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.02469v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.02469v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.02469v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-10-06",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
     "2510.02174": {
       "title": "Flatness-Aware Stochastic Gradient Langevin Dynamics",
       "authors": [
