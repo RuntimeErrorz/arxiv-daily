@@ -1,5 +1,180 @@
 {
   "3DGS Semantic": {
+    "2510.04759": {
+      "title": "Progressive Gaussian Transformer with Anisotropy-aware Sampling for Open Vocabulary Occupancy Prediction",
+      "authors": [
+        "Chi Yan",
+        "Dan Xu"
+      ],
+      "published": "2025-10-06T12:36:07+00:00",
+      "updated": "2025-10-06T12:36:07+00:00",
+      "summary": "The 3D occupancy prediction task has witnessed remarkable progress in recent\nyears, playing a crucial role in vision-based autonomous driving systems. While\ntraditional methods are limited to fixed semantic categories, recent approaches\nhave moved towards predicting text-aligned features to enable open-vocabulary\ntext queries in real-world scenes. However, there exists a trade-off in\ntext-aligned scene modeling: sparse Gaussian representation struggles to\ncapture small objects in the scene, while dense representation incurs\nsignificant computational overhead. To address these limitations, we present\nPG-Occ, an innovative Progressive Gaussian Transformer Framework that enables\nopen-vocabulary 3D occupancy prediction. Our framework employs progressive\nonline densification, a feed-forward strategy that gradually enhances the 3D\nGaussian representation to capture fine-grained scene details. By iteratively\nenhancing the representation, the framework achieves increasingly precise and\ndetailed scene understanding. Another key contribution is the introduction of\nan anisotropy-aware sampling strategy with spatio-temporal fusion, which\nadaptively assigns receptive fields to Gaussians at different scales and\nstages, enabling more effective feature aggregation and richer scene\ninformation capture. Through extensive evaluations, we demonstrate that PG-Occ\nachieves state-of-the-art performance with a relative 14.3% mIoU improvement\nover the previous best performing method. Code and pretrained models will be\nreleased upon publication on our project page:\nhttps://yanchi-3dv.github.io/PG-Occ",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.04759v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Project Page: https://yanchi-3dv.github.io/PG-Occ",
+      "entry_id": "http://arxiv.org/abs/2510.04759v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.04759v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.04759v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2510.04649": {
+      "title": "A Complete Diagrammatic Calculus for Conditional Gaussian Mixtures",
+      "authors": [
+        "Mateo Torres-Ruiz",
+        "Robin Piedeleu",
+        "Alexandra Silva",
+        "Fabio Zanasi"
+      ],
+      "published": "2025-10-06T09:52:25+00:00",
+      "updated": "2025-10-06T09:52:25+00:00",
+      "summary": "We extend the synthetic theories of discrete and Gaussian categorical\nprobability by introducing a diagrammatic calculus for reasoning about hybrid\nprobabilistic models in which continuous random variables, conditioned on\ndiscrete ones, follow a multivariate Gaussian distribution. This setting\nincludes important classes of models such as Gaussian mixture models, where\neach Gaussian component is selected according to a discrete variable. We\ndevelop a string diagrammatic syntax for expressing and combining these models,\ngive it a compositional semantics, and equip it with a sound and complete\nequational theory that characterises when two models represent the same\ndistribution.",
+      "categories": [
+        "cs.LO"
+      ],
+      "primary_category": "cs.LO",
+      "pdf_url": "http://arxiv.org/pdf/2510.04649v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.04649v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.04649v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.04649v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.04384": {
+      "title": "LLM Based Bayesian Optimization for Prompt Search",
+      "authors": [
+        "Adam Ballew",
+        "Jingbo Wang",
+        "Shaogang Ren"
+      ],
+      "published": "2025-10-05T22:32:50+00:00",
+      "updated": "2025-10-05T22:32:50+00:00",
+      "summary": "Bayesian Optimization (BO) has been widely used to efficiently optimize\nexpensive black-box functions with limited evaluations. In this paper, we\ninvestigate the use of BO for prompt engineering to enhance text classification\nwith Large Language Models (LLMs). We employ an LLM-powered Gaussian Process\n(GP) as the surrogate model to estimate the performance of different prompt\ncandidates. These candidates are generated by an LLM through the expansion of a\nset of seed prompts and are subsequently evaluated using an Upper Confidence\nBound (UCB) acquisition function in conjunction with the GP posterior. The\noptimization process iteratively refines the prompts based on a subset of the\ndata, aiming to improve classification accuracy while reducing the number of\nAPI calls by leveraging the prediction uncertainty of the LLM-based GP. The\nproposed BO-LLM algorithm is evaluated on two datasets, and its advantages are\ndiscussed in detail in this paper.",
+      "categories": [
+        "cs.AI"
+      ],
+      "primary_category": "cs.AI",
+      "pdf_url": "http://arxiv.org/pdf/2510.04384v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.04384v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.04384v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.04384v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.03788": {
+      "title": "Lightweight and Data-Efficient MultivariateTime Series Forecasting using Residual-Stacked Gaussian (RS-GLinear) Architecture",
+      "authors": [
+        "Abukar Ali"
+      ],
+      "published": "2025-10-04T11:44:29+00:00",
+      "updated": "2025-10-04T11:44:29+00:00",
+      "summary": "Following the success of Transformer architectures in language modeling,\nparticularly their ability to capture long-range dependencies, researchers have\nexplored how these architectures can be adapted for time-series forecasting.\nTransformer-based models have been proposed to handle both short- and long-term\ndependencies when predicting future values from historical data. However,\nstudies such as those by Zeng et al. (2022) and Rizvi et al. (2025) have\nreported mixed results in long-term forecasting tasks. In this work, we\nevaluate the Gaussian-based Linear architecture introduced by Rizvi et al.\n(2025) and present an enhanced version called the Residual Stacked Gaussian\nLinear (RSGL) model. We also investigate the broader applicability of the RSGL\nmodel in additional domains, including financial time series and\nepidemiological data. Experimental results show that the RSGL model achieves\nimproved prediction accuracy and robustness compared to both the baseline\nGaussian Linear and Transformer-based models.",
+      "categories": [
+        "cs.CE",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CE",
+      "pdf_url": "http://arxiv.org/pdf/2510.03788v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.03788v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.03788v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.03788v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.03677": {
+      "title": "Robust Visual Embodiment: How Robots Discover Their Bodies in Real Environments",
+      "authors": [
+        "Salim Rezvani",
+        "Ammar Jaleel Mahmood",
+        "Robin Chhabra"
+      ],
+      "published": "2025-10-04T05:05:15+00:00",
+      "updated": "2025-10-04T05:05:15+00:00",
+      "summary": "Robots with internal visual self-models promise unprecedented adaptability,\nyet existing autonomous modeling pipelines remain fragile under realistic\nsensing conditions such as noisy imagery and cluttered backgrounds. This paper\npresents the first systematic study quantifying how visual\ndegradations--including blur, salt-and-pepper noise, and Gaussian noise--affect\nrobotic self-modeling. Through both simulation and physical experiments, we\ndemonstrate their impact on morphology prediction, trajectory planning, and\ndamage recovery in state-of-the-art pipelines. To overcome these challenges, we\nintroduce a task-aware denoising framework that couples classical restoration\nwith morphology-preserving constraints, ensuring retention of structural cues\ncritical for self-modeling. In addition, we integrate semantic segmentation to\nrobustly isolate robots from cluttered and colorful scenes. Extensive\nexperiments show that our approach restores near-baseline performance across\nsimulated and physical platforms, while existing pipelines degrade\nsignificantly. These contributions advance the robustness of visual\nself-modeling and establish practical foundations for deploying self-aware\nrobots in unpredictable real-world environments.",
+      "categories": [
+        "cs.RO"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "http://arxiv.org/pdf/2510.03677v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.03677v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.03677v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.03677v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2510.03104": {
       "title": "Geometry Meets Vision: Revisiting Pretrained Semantics in Distilled Fields",
       "authors": [
@@ -195,6 +370,44 @@
         },
         {
           "href": "http://arxiv.org/pdf/2510.02174v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.03346": {
+      "title": "KVComm: Enabling Efficient LLM Communication through Selective KV Sharing",
+      "authors": [
+        "Xiangyu Shi",
+        "Marco Chiesa",
+        "Gerald Q. Maguire Jr.",
+        "Dejan Kostic"
+      ],
+      "published": "2025-10-02T16:01:54+00:00",
+      "updated": "2025-10-02T16:01:54+00:00",
+      "summary": "Large Language Models (LLMs) are increasingly deployed in multi-agent\nsystems, where effective inter-model communication is crucial. Existing\ncommunication protocols either rely on natural language, incurring high\ninference costs and information loss, or on hidden states, which suffer from\ninformation concentration bias and inefficiency. To address these limitations,\nwe propose KVComm, a novel communication framework that enables efficient\ncommunication between LLMs through selective sharing of KV pairs. KVComm\nleverages the rich information encoded in the KV pairs while avoiding the\npitfalls of hidden states. We introduce a KV layer-wise selection strategy\nbased on attention importance scores with a Gaussian prior to identify the most\ninformative KV pairs for communication. Extensive experiments across diverse\ntasks and model pairs demonstrate that KVComm achieves comparable performance\nto the upper-bound method, which directly merges inputs to one model without\nany communication, while transmitting as few as 30\\% of layers' KV pairs. Our\nstudy highlights the potential of KV pairs as an effective medium for inter-LLM\ncommunication, paving the way for scalable and efficient multi-agent systems.",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.MA"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "http://arxiv.org/pdf/2510.03346v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.03346v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.03346v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.03346v1",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -7195,26 +7408,26 @@
         "Chenghua Lin"
       ],
       "published": "2025-07-29T12:31:26+00:00",
-      "updated": "2025-07-29T12:31:26+00:00",
+      "updated": "2025-10-04T21:04:38+00:00",
       "summary": "Pre-trained language models (PLMs) have driven substantial progress in\nnatural language processing but remain vulnerable to adversarial attacks,\nraising concerns about their robustness in real-world applications. Previous\nstudies have sought to mitigate the impact of adversarial attacks by\nintroducing adversarial perturbations into the training process, either\nimplicitly or explicitly. While both strategies enhance robustness, they often\nincur high computational costs. In this work, we propose a simple yet effective\nadd-on module that enhances the adversarial robustness of PLMs by removing\ninstance-level principal components, without relying on conventional\nadversarial defences or perturbing the original training data. Our approach\ntransforms the embedding space to approximate Gaussian properties, thereby\nreducing its susceptibility to adversarial perturbations while preserving\nsemantic relationships. This transformation aligns embedding distributions in a\nway that minimises the impact of adversarial noise on decision boundaries,\nenhancing robustness without requiring adversarial examples or costly\ntraining-time augmentation. Evaluations on eight benchmark datasets show that\nour approach improves adversarial robustness while maintaining comparable\nbefore-attack accuracy to baselines, achieving a balanced trade-off between\nrobustness and generalisation.",
       "categories": [
         "cs.CL"
       ],
       "primary_category": "cs.CL",
-      "pdf_url": "http://arxiv.org/pdf/2507.21750v1",
+      "pdf_url": "http://arxiv.org/pdf/2507.21750v2",
       "journal_ref": null,
       "doi": null,
       "comment": "This paper was accepted with an A-decision to Transactions of the\n  Association for Computational Linguistics. This version is the\n  pre-publication version prior to MIT Press production",
-      "entry_id": "http://arxiv.org/abs/2507.21750v1",
+      "entry_id": "http://arxiv.org/abs/2507.21750v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2507.21750v1",
+          "href": "http://arxiv.org/abs/2507.21750v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2507.21750v1",
+          "href": "http://arxiv.org/pdf/2507.21750v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -61317,26 +61530,26 @@
         "Federico Tombari"
       ],
       "published": "2025-09-27T11:19:32+00:00",
-      "updated": "2025-09-27T11:19:32+00:00",
+      "updated": "2025-10-04T13:25:00+00:00",
       "summary": "Sparse-view novel view synthesis is fundamentally ill-posed due to severe\ngeometric ambiguity. Current methods are caught in a trade-off: regressive\nmodels are geometrically faithful but incomplete, whereas generative models can\ncomplete scenes but often introduce structural inconsistencies. We propose\nOracleGS, a novel framework that reconciles generative completeness with\nregressive fidelity for sparse view Gaussian Splatting. Instead of using\ngenerative models to patch incomplete reconstructions, our\n\"propose-and-validate\" framework first leverages a pre-trained 3D-aware\ndiffusion model to synthesize novel views to propose a complete scene. We then\nrepurpose a multi-view stereo (MVS) model as a 3D-aware oracle to validate the\n3D uncertainties of generated views, using its attention maps to reveal regions\nwhere the generated views are well-supported by multi-view evidence versus\nwhere they fall into regions of high uncertainty due to occlusion, lack of\ntexture, or direct inconsistency. This uncertainty signal directly guides the\noptimization of a 3D Gaussian Splatting model via an uncertainty-weighted loss.\nOur approach conditions the powerful generative prior on multi-view geometric\nevidence, filtering hallucinatory artifacts while preserving plausible\ncompletions in under-constrained regions, outperforming state-of-the-art\nmethods on datasets including Mip-NeRF 360 and NeRF Synthetic.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "http://arxiv.org/pdf/2509.23258v1",
+      "pdf_url": "http://arxiv.org/pdf/2509.23258v2",
       "journal_ref": null,
       "doi": null,
-      "comment": null,
-      "entry_id": "http://arxiv.org/abs/2509.23258v1",
+      "comment": "Project page available at:\n  https://atakan-topaloglu.github.io/oraclegs/",
+      "entry_id": "http://arxiv.org/abs/2509.23258v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2509.23258v1",
+          "href": "http://arxiv.org/abs/2509.23258v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2509.23258v1",
+          "href": "http://arxiv.org/pdf/2509.23258v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -75790,6 +76003,41 @@
     }
   },
   "Depth Estimation": {
+    "2510.04723": {
+      "title": "Benchmark on Monocular Metric Depth Estimation in Wildlife Setting",
+      "authors": [
+        "Niccolò Niccoli",
+        "Lorenzo Seidenari",
+        "Ilaria Greco",
+        "Francesco Rovero"
+      ],
+      "published": "2025-10-06T11:43:34+00:00",
+      "updated": "2025-10-06T11:43:34+00:00",
+      "summary": "Camera traps are widely used for wildlife monitoring, but extracting accurate\ndistance measurements from monocular images remains challenging due to the lack\nof depth information. While monocular depth estimation (MDE) methods have\nadvanced significantly, their performance in natural wildlife environments has\nnot been systematically evaluated. This work introduces the first benchmark for\nmonocular metric depth estimation in wildlife monitoring conditions. We\nevaluate four state-of-the-art MDE methods (Depth Anything V2, ML Depth Pro,\nZoeDepth, and Metric3D) alongside a geometric baseline on 93 camera trap images\nwith ground truth distances obtained using calibrated ChARUCO patterns. Our\nresults demonstrate that Depth Anything V2 achieves the best overall\nperformance with a mean absolute error of 0.454m and correlation of 0.962,\nwhile methods like ZoeDepth show significant degradation in outdoor natural\nenvironments (MAE: 3.087m). We find that median-based depth extraction\nconsistently outperforms mean-based approaches across all deep learning\nmethods. Additionally, we analyze computational efficiency, with ZoeDepth being\nfastest (0.17s per image) but least accurate, while Depth Anything V2 provides\nan optimal balance of accuracy and speed (0.22s per image). This benchmark\nestablishes performance baselines for wildlife applications and provides\npractical guidance for implementing depth estimation in conservation monitoring\nsystems.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.04723v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.04723v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.04723v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.04723v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2510.01665": {
       "title": "Non-Rigid Structure-from-Motion via Differential Geometry with Recoverable Conformal Scale",
       "authors": [

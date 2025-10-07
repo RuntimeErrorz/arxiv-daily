@@ -1,4 +1,4 @@
-## Updated at 2025-10-07 08:17:01
+## Updated at 2025-10-07 20:08:41
 
 ## 3DGS Semantic
 
@@ -8,6 +8,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-10-06**|**[Progressive Gaussian Transformer with Anisotropy-aware Sampling for Open Vocabulary Occupancy Prediction](https://arxiv.org/abs/2510.04759)**|N/A|Project Page: https://yanchi-3dv.github.io/PG-Occ|cs.CV|None|Chi Yan, Dan Xu|
 |**2025-10-02**|**[SIMSplat: Predictive Driving Scene Editing with Language-aligned 4D Gaussian Splatting](https://arxiv.org/abs/2510.02469)**|N/A|None|cs.RO|None|Sung-Yeon Park et al.|
 |**2025-09-28**|**[CrashSplat: 2D to 3D Vehicle Damage Segmentation in Gaussian Splatting](https://arxiv.org/abs/2509.23947)**|N/A|None|cs.CV|None|Dragoş-Andrei Chileban et al.|
 |**2025-09-26**|**[Polysemous Language Gaussian Splatting via Matching-based Mask Lifting](https://arxiv.org/abs/2509.22225)**|N/A|None|cs.CV|None|Jiayu Ding et al.|
@@ -156,7 +157,7 @@ Query: (abs:'Multi-View Stereo' OR abs:'Multi View Stereo' OR abs:'Multi-View De
 |**2025-09-30**|**[PFDepth: Heterogeneous Pinhole-Fisheye Joint Depth Estimation via Distortion-aware Gaussian-Splatted Volumetric Fusion](https://arxiv.org/abs/2509.26008)**|N/A|Accepted by ACM MM 2025 Conference|cs.CV|None|Zhiwei Zhang et al.|
 |**2025-09-28**|**[FastViDAR: Real-Time Omnidirectional Depth Estimation via Alternative Hierarchical Attention](https://arxiv.org/abs/2509.23733)**|N/A|None|cs.CV|None|Hangtian Zhao et al.|
 |**2025-09-28**|**[DiffPCN: Latent Diffusion Model Based on Multi-view Depth Images for Point Cloud Completion](https://arxiv.org/abs/2509.23723)**|N/A|None|cs.CV|None|Zijun Li et al.|
-|**2025-09-27**|**[OracleGS: Grounding Generative Priors for Sparse-View Gaussian Splatting](https://arxiv.org/abs/2509.23258)**|N/A|None|cs.CV|None|Atakan Topaloglu et al.|
+|**2025-09-27**|**[OracleGS: Grounding Generative Priors for Sparse-View Gaussian Splatting](https://arxiv.org/abs/2509.23258)**|N/A|Project page available at: https://atakan-topaloglu.github.io/oraclegs/|cs.CV|None|Atakan Topaloglu et al.|
 |**2025-09-24**|**[Reflect3r: Single-View 3D Stereo Reconstruction Aided by Mirror Reflections](https://arxiv.org/abs/2509.20607)**|N/A|None|cs.CV|None|Jing Wu et al.|
 |**2025-09-18**|**[Lightweight and Accurate Multi-View Stereo with Confidence-Aware Diffusion Model](https://arxiv.org/abs/2509.15220)**|N/A|Accepted to IEEE T-PAMI 2025. Code: https://github.com/cvg/diffmvs|cs.CV|None|Fangjinhua Wang et al.|
 |**2025-09-16**|**[MapAnything: Universal Feed-Forward Metric 3D Reconstruction](https://arxiv.org/abs/2509.13414)**|N/A|Project Page: https://map-anything.github.io/|cs.CV|None|Nikhil Keetha et al.|
@@ -553,6 +554,7 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-10-06**|**[Benchmark on Monocular Metric Depth Estimation in Wildlife Setting](https://arxiv.org/abs/2510.04723)**|N/A|None|cs.CV|None|Niccolò Niccoli et al.|
 |**2025-10-02**|**[Non-Rigid Structure-from-Motion via Differential Geometry with Recoverable Conformal Scale](https://arxiv.org/abs/2510.01665)**|N/A|None|cs.CV|None|Yongbo Chen et al.|
 |**2025-09-30**|**[DA$^2$: Depth Anything in Any Direction](https://arxiv.org/abs/2509.26618)**|N/A|Work primarily done during an internship at Tencent Hunyuan. Project page: https://depth-any-in-any-dir.github.io/|cs.CV|None|Haodong Li et al.|
 |**2025-09-30**|**[DEPTHOR++: Robust Depth Enhancement from a Real-World Lightweight dToF and RGB Guidance](https://arxiv.org/abs/2509.26498)**|N/A|15 pages, 16 figures|cs.CV|None|Jijun Xiang et al.|
