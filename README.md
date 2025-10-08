@@ -1,4 +1,4 @@
-## Updated at 2025-10-08 08:17:10
+## Updated at 2025-10-08 20:08:21
 
 ## 3DGS Semantic
 
@@ -554,6 +554,11 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-10-07**|**[Human3R: Everyone Everywhere All at Once](https://arxiv.org/abs/2510.06219)**|N/A|Page: https://fanegg.github.io/Human3R Code: https://github.com/fanegg/Human3R|cs.CV|None|Yue Chen et al.|
+|**2025-10-07**|**[EgoNight: Towards Egocentric Vision Understanding at Night with a Challenging Benchmark](https://arxiv.org/abs/2510.06218)**|N/A|None|cs.CV|None|Deheng Zhang et al.|
+|**2025-10-07**|**[Dropping the D: RGB-D SLAM Without the Depth Sensor](https://arxiv.org/abs/2510.06216)**|N/A|None|cs.CV|None|Mert Kiray et al.|
+|**2025-10-07**|**[DeLTa: Demonstration and Language-Guided Novel Transparent Object Manipulation](https://arxiv.org/abs/2510.05662)**|N/A|Project page: https://sites.google.com/view/DeLTa25/|cs.RO|None|Taeyeop Lee et al.|
+|**2025-10-07**|**[Human Action Recognition from Point Clouds over Time](https://arxiv.org/abs/2510.05506)**|N/A|None|cs.CV|None|James Dickens|
 |**2025-10-06**|**[Benchmark on Monocular Metric Depth Estimation in Wildlife Setting](https://arxiv.org/abs/2510.04723)**|N/A|None|cs.CV|None|Niccolò Niccoli et al.|
 |**2025-10-02**|**[Non-Rigid Structure-from-Motion via Differential Geometry with Recoverable Conformal Scale](https://arxiv.org/abs/2510.01665)**|N/A|None|cs.CV|None|Yongbo Chen et al.|
 |**2025-09-30**|**[DA$^2$: Depth Anything in Any Direction](https://arxiv.org/abs/2509.26618)**|N/A|Work primarily done during an internship at Tencent Hunyuan. Project page: https://depth-any-in-any-dir.github.io/|cs.CV|None|Haodong Li et al.|

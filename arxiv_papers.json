@@ -1,5 +1,79 @@
 {
   "3DGS Semantic": {
+    "2510.05749": {
+      "title": "MSF-SER: Enriching Acoustic Modeling with Multi-Granularity Semantics for Speech Emotion Recognition",
+      "authors": [
+        "Haoxun Li",
+        "Yuqing Sun",
+        "Hanlei Shi",
+        "Yu Liu",
+        "Leyuan Qu",
+        "Taihao Li"
+      ],
+      "published": "2025-10-07T10:11:50+00:00",
+      "updated": "2025-10-07T10:11:50+00:00",
+      "summary": "Continuous dimensional speech emotion recognition captures affective\nvariation along valence, arousal, and dominance, providing finer-grained\nrepresentations than categorical approaches. Yet most multimodal methods rely\nsolely on global transcripts, leading to two limitations: (1) all words are\ntreated equally, overlooking that emphasis on different parts of a sentence can\nshift emotional meaning; (2) only surface lexical content is represented,\nlacking higher-level interpretive cues. To overcome these issues, we propose\nMSF-SER (Multi-granularity Semantic Fusion for Speech Emotion Recognition),\nwhich augments acoustic features with three complementary levels of textual\nsemantics--Local Emphasized Semantics (LES), Global Semantics (GS), and\nExtended Semantics (ES). These are integrated via an intra-modal gated fusion\nand a cross-modal FiLM-modulated lightweight Mixture-of-Experts (FM-MOE).\nExperiments on MSP-Podcast and IEMOCAP show that MSF-SER consistently improves\ndimensional prediction, demonstrating the effectiveness of enriched semantic\nfusion for SER.",
+      "categories": [
+        "cs.SD"
+      ],
+      "primary_category": "cs.SD",
+      "pdf_url": "http://arxiv.org/pdf/2510.05749v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Under review for ICASSP 2026",
+      "entry_id": "http://arxiv.org/abs/2510.05749v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.05749v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.05749v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.05488": {
+      "title": "ArchitectHead: Continuous Level of Detail Control for 3D Gaussian Head Avatars",
+      "authors": [
+        "Peizhi Yan",
+        "Rabab Ward",
+        "Qiang Tang",
+        "Shan Du"
+      ],
+      "published": "2025-10-07T01:08:28+00:00",
+      "updated": "2025-10-07T01:08:28+00:00",
+      "summary": "3D Gaussian Splatting (3DGS) has enabled photorealistic and real-time\nrendering of 3D head avatars. Existing 3DGS-based avatars typically rely on\ntens of thousands of 3D Gaussian points (Gaussians), with the number of\nGaussians fixed after training. However, many practical applications require\nadjustable levels of detail (LOD) to balance rendering efficiency and visual\nquality. In this work, we propose \"ArchitectHead\", the first framework for\ncreating 3D Gaussian head avatars that support continuous control over LOD. Our\nkey idea is to parameterize the Gaussians in a 2D UV feature space and propose\na UV feature field composed of multi-level learnable feature maps to encode\ntheir latent features. A lightweight neural network-based decoder then\ntransforms these latent features into 3D Gaussian attributes for rendering.\nArchitectHead controls the number of Gaussians by dynamically resampling\nfeature maps from the UV feature field at the desired resolutions. This method\nenables efficient and continuous control of LOD without retraining.\nExperimental results show that ArchitectHead achieves state-of-the-art (SOTA)\nquality in self and cross-identity reenactment tasks at the highest LOD, while\nmaintaining near SOTA performance at lower LODs. At the lowest LOD, our method\nuses only 6.2\\% of the Gaussians while the quality degrades moderately (L1 Loss\n+7.9\\%, PSNR --0.97\\%, SSIM --0.6\\%, LPIPS Loss +24.1\\%), and the rendering\nspeed nearly doubles.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.05488v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.05488v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.05488v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.05488v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2510.04759": {
       "title": "Progressive Gaussian Transformer with Anisotropy-aware Sampling for Open Vocabulary Occupancy Prediction",
       "authors": [
@@ -498,6 +572,43 @@
         },
         {
           "href": "http://arxiv.org/pdf/2510.02034v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.05148": {
+      "title": "Every Step Counts: Decoding Trajectories as Authorship Fingerprints of dLLMs",
+      "authors": [
+        "Qi Li",
+        "Runpeng Yu",
+        "Haiquan Lu",
+        "Xinchao Wang"
+      ],
+      "published": "2025-10-02T06:25:10+00:00",
+      "updated": "2025-10-02T06:25:10+00:00",
+      "summary": "Discrete Diffusion Large Language Models (dLLMs) have recently emerged as a\ncompetitive paradigm for non-autoregressive language modeling. Their\ndistinctive decoding mechanism enables faster inference speed and strong\nperformance in code generation and mathematical tasks. In this work, we show\nthat the decoding mechanism of dLLMs not only enhances model utility but also\ncan be used as a powerful tool for model attribution. A key challenge in this\nproblem lies in the diversity of attribution scenarios, including\ndistinguishing between different models as well as between different\ncheckpoints or backups of the same model. To ensure broad applicability, we\nidentify two fundamental problems: what information to extract from the\ndecoding trajectory, and how to utilize it effectively. We first observe that\nrelying directly on per-step model confidence yields poor performance. This is\nmainly due to the bidirectional decoding nature of dLLMs: each newly decoded\ntoken influences the confidence of other decoded tokens, making model\nconfidence highly redundant and washing out structural signal regarding\ndecoding order or dependencies. To overcome this, we propose a novel\ninformation extraction scheme called the Directed Decoding Map (DDM), which\ncaptures structural relationships between decoding steps and better reveals\nmodel-specific behaviors. Furthermore, to make full use of the extracted\nstructural information during attribution, we propose Gaussian-Trajectory\nAttribution (GTA), where we fit a cell-wise Gaussian distribution at each\ndecoding position for each target model, and define the likelihood of a\ntrajectory as the attribution score: if a trajectory exhibits higher\nlog-likelihood under the distribution of a specific model, it is more likely to\nhave been generated by that model. Extensive experiments under different\nsettings validate the utility of our methods.",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CL",
+      "pdf_url": "http://arxiv.org/pdf/2510.05148v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.05148v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.05148v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.05148v1",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -76011,6 +76122,194 @@
     }
   },
   "Depth Estimation": {
+    "2510.06219": {
+      "title": "Human3R: Everyone Everywhere All at Once",
+      "authors": [
+        "Yue Chen",
+        "Xingyu Chen",
+        "Yuxuan Xue",
+        "Anpei Chen",
+        "Yuliang Xiu",
+        "Gerard Pons-Moll"
+      ],
+      "published": "2025-10-07T17:59:52+00:00",
+      "updated": "2025-10-07T17:59:52+00:00",
+      "summary": "We present Human3R, a unified, feed-forward framework for online 4D\nhuman-scene reconstruction, in the world frame, from casually captured\nmonocular videos. Unlike previous approaches that rely on multi-stage\npipelines, iterative contact-aware refinement between humans and scenes, and\nheavy dependencies, e.g., human detection, depth estimation, and SLAM\npre-processing, Human3R jointly recovers global multi-person SMPL-X bodies\n(\"everyone\"), dense 3D scene (\"everywhere\"), and camera trajectories in a\nsingle forward pass (\"all-at-once\"). Our method builds upon the 4D online\nreconstruction model CUT3R, and uses parameter-efficient visual prompt tuning,\nto strive to preserve CUT3R's rich spatiotemporal priors, while enabling direct\nreadout of multiple SMPL-X bodies. Human3R is a unified model that eliminates\nheavy dependencies and iterative refinement. After being trained on the\nrelatively small-scale synthetic dataset BEDLAM for just one day on one GPU, it\nachieves superior performance with remarkable efficiency: it reconstructs\nmultiple humans in a one-shot manner, along with 3D scenes, in one stage, at\nreal-time speed (15 FPS) with a low memory footprint (8 GB). Extensive\nexperiments demonstrate that Human3R delivers state-of-the-art or competitive\nperformance across tasks, including global human motion estimation, local human\nmesh recovery, video depth estimation, and camera pose estimation, with a\nsingle unified model. We hope that Human3R will serve as a simple yet strong\nbaseline, be easily extended for downstream applications.Code available in\nhttps://fanegg.github.io/Human3R",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.06219v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Page: https://fanegg.github.io/Human3R Code:\n  https://github.com/fanegg/Human3R",
+      "entry_id": "http://arxiv.org/abs/2510.06219v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.06219v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.06219v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2510.06218": {
+      "title": "EgoNight: Towards Egocentric Vision Understanding at Night with a Challenging Benchmark",
+      "authors": [
+        "Deheng Zhang",
+        "Yuqian Fu",
+        "Runyi Yang",
+        "Yang Miao",
+        "Tianwen Qian",
+        "Xu Zheng",
+        "Guolei Sun",
+        "Ajad Chhatkuli",
+        "Xuanjing Huang",
+        "Yu-Gang Jiang",
+        "Luc Van Gool",
+        "Danda Pani Paudel"
+      ],
+      "published": "2025-10-07T17:59:47+00:00",
+      "updated": "2025-10-07T17:59:47+00:00",
+      "summary": "Most existing benchmarks for egocentric vision understanding focus primarily\non daytime scenarios, overlooking the low-light conditions that are inevitable\nin real-world applications. To investigate this gap, we present EgoNight, the\nfirst comprehensive benchmark for nighttime egocentric vision, with visual\nquestion answering (VQA) as the core task. A key feature of EgoNight is the\nintroduction of day-night aligned videos, which enhance night annotation\nquality using the daytime data and reveal clear performance gaps between\nlighting conditions. To achieve this, we collect both synthetic videos rendered\nby Blender and real-world recordings, ensuring that scenes and actions are\nvisually and temporally aligned. Leveraging these paired videos, we construct\nEgoNight-VQA, supported by a novel day-augmented night auto-labeling engine and\nrefinement through extensive human verification. Each QA pair is double-checked\nby annotators for reliability. In total, EgoNight-VQA contains 3658 QA pairs\nacross 90 videos, spanning 12 diverse QA types, with more than 300 hours of\nhuman work. Evaluations of state-of-the-art multimodal large language models\n(MLLMs) reveal substantial performance drops when transferring from day to\nnight, underscoring the challenges of reasoning under low-light conditions.\nBeyond VQA, EgoNight also introduces two auxiliary tasks, day-night\ncorrespondence retrieval and egocentric depth estimation at night, that further\nexplore the boundaries of existing models. We believe EgoNight-VQA provides a\nstrong foundation for advancing application-driven egocentric vision research\nand for developing models that generalize across illumination domains. All the\ndata and code will be made available upon acceptance.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.06218v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.06218v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.06218v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.06218v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2510.06216": {
+      "title": "Dropping the D: RGB-D SLAM Without the Depth Sensor",
+      "authors": [
+        "Mert Kiray",
+        "Alican Karaomer",
+        "Benjamin Busam"
+      ],
+      "published": "2025-10-07T17:59:30+00:00",
+      "updated": "2025-10-07T17:59:30+00:00",
+      "summary": "We present DropD-SLAM, a real-time monocular SLAM system that achieves\nRGB-D-level accuracy without relying on depth sensors. The system replaces\nactive depth input with three pretrained vision modules: a monocular metric\ndepth estimator, a learned keypoint detector, and an instance segmentation\nnetwork. Dynamic objects are suppressed using dilated instance masks, while\nstatic keypoints are assigned predicted depth values and backprojected into 3D\nto form metrically scaled features. These are processed by an unmodified RGB-D\nSLAM back end for tracking and mapping. On the TUM RGB-D benchmark, DropD-SLAM\nattains 7.4 cm mean ATE on static sequences and 1.8 cm on dynamic sequences,\nmatching or surpassing state-of-the-art RGB-D methods while operating at 22 FPS\non a single GPU. These results suggest that modern pretrained vision models can\nreplace active depth sensors as reliable, real-time sources of metric scale,\nmarking a step toward simpler and more cost-effective SLAM systems.",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.06216v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.06216v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.06216v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.06216v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2510.05662": {
+      "title": "DeLTa: Demonstration and Language-Guided Novel Transparent Object Manipulation",
+      "authors": [
+        "Taeyeop Lee",
+        "Gyuree Kang",
+        "Bowen Wen",
+        "Youngho Kim",
+        "Seunghyeok Back",
+        "In So Kweon",
+        "David Hyunchul Shim",
+        "Kuk-Jin Yoon"
+      ],
+      "published": "2025-10-07T08:18:29+00:00",
+      "updated": "2025-10-07T08:18:29+00:00",
+      "summary": "Despite the prevalence of transparent object interactions in human everyday\nlife, transparent robotic manipulation research remains limited to\nshort-horizon tasks and basic grasping capabilities.Although some methods have\npartially addressed these issues, most of them have limitations in\ngeneralizability to novel objects and are insufficient for precise long-horizon\nrobot manipulation. To address this limitation, we propose DeLTa (Demonstration\nand Language-Guided Novel Transparent Object Manipulation), a novel framework\nthat integrates depth estimation, 6D pose estimation, and vision-language\nplanning for precise long-horizon manipulation of transparent objects guided by\nnatural task instructions. A key advantage of our method is its\nsingle-demonstration approach, which generalizes 6D trajectories to novel\ntransparent objects without requiring category-level priors or additional\ntraining. Additionally, we present a task planner that refines the\nVLM-generated plan to account for the constraints of a single-arm, eye-in-hand\nrobot for long-horizon object manipulation tasks. Through comprehensive\nevaluation, we demonstrate that our method significantly outperforms existing\ntransparent object manipulation approaches, particularly in long-horizon\nscenarios requiring precise manipulation capabilities. Project page:\nhttps://sites.google.com/view/DeLTa25/",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "http://arxiv.org/pdf/2510.05662v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Project page: https://sites.google.com/view/DeLTa25/",
+      "entry_id": "http://arxiv.org/abs/2510.05662v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.05662v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.05662v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2510.05506": {
+      "title": "Human Action Recognition from Point Clouds over Time",
+      "authors": [
+        "James Dickens"
+      ],
+      "published": "2025-10-07T01:51:27+00:00",
+      "updated": "2025-10-07T01:51:27+00:00",
+      "summary": "Recent research into human action recognition (HAR) has focused predominantly\non skeletal action recognition and video-based methods. With the increasing\navailability of consumer-grade depth sensors and Lidar instruments, there is a\ngrowing opportunity to leverage dense 3D data for action recognition, to\ndevelop a third way. This paper presents a novel approach for recognizing\nactions from 3D videos by introducing a pipeline that segments human point\nclouds from the background of a scene, tracks individuals over time, and\nperforms body part segmentation. The method supports point clouds from both\ndepth sensors and monocular depth estimation. At the core of the proposed HAR\nframework is a novel backbone for 3D action recognition, which combines\npoint-based techniques with sparse convolutional networks applied to\nvoxel-mapped point cloud sequences. Experiments incorporate auxiliary point\nfeatures including surface normals, color, infrared intensity, and body part\nparsing labels, to enhance recognition accuracy. Evaluation on the NTU RGB- D\n120 dataset demonstrates that the method is competitive with existing skeletal\naction recognition algorithms. Moreover, combining both sensor-based and\nestimated depth inputs in an ensemble setup, this approach achieves 89.3%\naccuracy when different human subjects are considered for training and testing,\noutperforming previous point cloud action recognition methods.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.05506v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.05506v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.05506v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.05506v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2510.04723": {
       "title": "Benchmark on Monocular Metric Depth Estimation in Wildlife Setting",
       "authors": [
