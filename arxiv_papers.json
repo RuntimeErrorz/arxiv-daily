@@ -1,5 +1,149 @@
 {
   "3DGS Semantic": {
+    "2510.07058": {
+      "title": "Concept Retrieval -- What and How?",
+      "authors": [
+        "Ori nizan",
+        "Oren Shrout",
+        "Ayellet Tal"
+      ],
+      "published": "2025-10-08T14:26:18+00:00",
+      "updated": "2025-10-08T14:26:18+00:00",
+      "summary": "A concept may reflect either a concrete or abstract idea. Given an input\nimage, this paper seeks to retrieve other images that share its central\nconcepts, capturing aspects of the underlying narrative. This goes beyond\nconventional retrieval or clustering methods, which emphasize visual or\nsemantic similarity. We formally define the problem, outline key requirements,\nand introduce appropriate evaluation metrics. We propose a novel approach\ngrounded in two key observations: (1) While each neighbor in the embedding\nspace typically shares at least one concept with the query, not all neighbors\nnecessarily share the same concept with one another. (2) Modeling this\nneighborhood with a bimodal Gaussian distribution uncovers meaningful structure\nthat facilitates concept identification. Qualitative, quantitative, and human\nevaluations confirm the effectiveness of our approach. See the package on PyPI:\nhttps://pypi.org/project/coret/",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.07058v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.07058v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.07058v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.07058v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.06868": {
+      "title": "Multi-hop Deep Joint Source-Channel Coding with Deep Hash Distillation for Semantically Aligned Image Retrieval",
+      "authors": [
+        "Didrik Bergström",
+        "Deniz Gündüz",
+        "Onur Günlü"
+      ],
+      "published": "2025-10-08T10:38:24+00:00",
+      "updated": "2025-10-08T10:38:24+00:00",
+      "summary": "We consider image transmission via deep joint source-channel coding\n(DeepJSCC) over multi-hop additive white Gaussian noise (AWGN) channels by\ntraining a DeepJSCC encoder-decoder pair with a pre-trained deep hash\ndistillation (DHD) module to semantically cluster images, facilitating\nsecurity-oriented applications through enhanced semantic consistency and\nimproving the perceptual reconstruction quality. We train the DeepJSCC module\nto both reduce mean square error (MSE) and minimize cosine distance between DHD\nhashes of source and reconstructed images. Significantly improved perceptual\nquality as a result of semantic alignment is illustrated for different\nmulti-hop settings, for which classical DeepJSCC may suffer from noise\naccumulation, measured by the learned perceptual image patch similarity (LPIPS)\nmetric.",
+      "categories": [
+        "cs.IT",
+        "cs.AI",
+        "cs.CR",
+        "cs.LG",
+        "math.IT"
+      ],
+      "primary_category": "cs.IT",
+      "pdf_url": "http://arxiv.org/pdf/2510.06868v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.06868v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.06868v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.06868v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.06694": {
+      "title": "SCas4D: Structural Cascaded Optimization for Boosting Persistent 4D Novel View Synthesis",
+      "authors": [
+        "Jipeng Lyu",
+        "Jiahua Dong",
+        "Yu-Xiong Wang"
+      ],
+      "published": "2025-10-08T06:39:33+00:00",
+      "updated": "2025-10-08T06:39:33+00:00",
+      "summary": "Persistent dynamic scene modeling for tracking and novel-view synthesis\nremains challenging due to the difficulty of capturing accurate deformations\nwhile maintaining computational efficiency. We propose SCas4D, a cascaded\noptimization framework that leverages structural patterns in 3D Gaussian\nSplatting for dynamic scenes. The key idea is that real-world deformations\noften exhibit hierarchical patterns, where groups of Gaussians share similar\ntransformations. By progressively refining deformations from coarse part-level\nto fine point-level, SCas4D achieves convergence within 100 iterations per time\nframe and produces results comparable to existing methods with only\none-twentieth of the training iterations. The approach also demonstrates\neffectiveness in self-supervised articulated object segmentation, novel view\nsynthesis, and dense point tracking tasks.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.06694v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Published in Transactions on Machine Learning Research (06/2025)",
+      "entry_id": "http://arxiv.org/abs/2510.06694v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.06694v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.06694v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.06541": {
+      "title": "Cluster Paths: Navigating Interpretability in Neural Networks",
+      "authors": [
+        "Nicholas M. Kroeger",
+        "Vincent Bindschaedler"
+      ],
+      "published": "2025-10-08T00:41:09+00:00",
+      "updated": "2025-10-08T00:41:09+00:00",
+      "summary": "While modern deep neural networks achieve impressive performance in vision\ntasks, they remain opaque in their decision processes, risking unwarranted\ntrust, undetected biases and unexpected failures. We propose cluster paths, a\npost-hoc interpretability method that clusters activations at selected layers\nand represents each input as its sequence of cluster IDs. To assess these\ncluster paths, we introduce four metrics: path complexity (cognitive load),\nweighted-path purity (class alignment), decision-alignment faithfulness\n(predictive fidelity), and path agreement (stability under perturbations). In a\nspurious-cue CIFAR-10 experiment, cluster paths identify color-based shortcuts\nand collapse when the cue is removed. On a five-class CelebA hair-color task,\nthey achieve 90% faithfulness and maintain 96% agreement under Gaussian noise\nwithout sacrificing accuracy. Scaling to a Vision Transformer pretrained on\nImageNet, we extend cluster paths to concept paths derived from prompting a\nlarge language model on minimal path divergences. Finally, we show that cluster\npaths can serve as an effective out-of-distribution (OOD) detector, reliably\nflagging anomalous samples before the model generates over-confident\npredictions. Cluster paths uncover visual concepts, such as color palettes,\ntextures, or object contexts, at multiple network depths, demonstrating that\ncluster paths scale to large vision models while generating concise and\nhuman-readable explanations.",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.06541v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.06541v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.06541v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.06541v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2510.05749": {
       "title": "MSF-SER: Enriching Acoustic Modeling with Multi-Granularity Semantics for Speech Emotion Recognition",
       "authors": [
@@ -81,27 +225,27 @@
         "Dan Xu"
       ],
       "published": "2025-10-06T12:36:07+00:00",
-      "updated": "2025-10-06T12:36:07+00:00",
+      "updated": "2025-10-08T09:34:48+00:00",
       "summary": "The 3D occupancy prediction task has witnessed remarkable progress in recent\nyears, playing a crucial role in vision-based autonomous driving systems. While\ntraditional methods are limited to fixed semantic categories, recent approaches\nhave moved towards predicting text-aligned features to enable open-vocabulary\ntext queries in real-world scenes. However, there exists a trade-off in\ntext-aligned scene modeling: sparse Gaussian representation struggles to\ncapture small objects in the scene, while dense representation incurs\nsignificant computational overhead. To address these limitations, we present\nPG-Occ, an innovative Progressive Gaussian Transformer Framework that enables\nopen-vocabulary 3D occupancy prediction. Our framework employs progressive\nonline densification, a feed-forward strategy that gradually enhances the 3D\nGaussian representation to capture fine-grained scene details. By iteratively\nenhancing the representation, the framework achieves increasingly precise and\ndetailed scene understanding. Another key contribution is the introduction of\nan anisotropy-aware sampling strategy with spatio-temporal fusion, which\nadaptively assigns receptive fields to Gaussians at different scales and\nstages, enabling more effective feature aggregation and richer scene\ninformation capture. Through extensive evaluations, we demonstrate that PG-Occ\nachieves state-of-the-art performance with a relative 14.3% mIoU improvement\nover the previous best performing method. Code and pretrained models will be\nreleased upon publication on our project page:\nhttps://yanchi-3dv.github.io/PG-Occ",
       "categories": [
         "cs.CV",
         "cs.AI"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "http://arxiv.org/pdf/2510.04759v1",
+      "pdf_url": "http://arxiv.org/pdf/2510.04759v2",
       "journal_ref": null,
       "doi": null,
       "comment": "Project Page: https://yanchi-3dv.github.io/PG-Occ",
-      "entry_id": "http://arxiv.org/abs/2510.04759v1",
+      "entry_id": "http://arxiv.org/abs/2510.04759v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2510.04759v1",
+          "href": "http://arxiv.org/abs/2510.04759v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2510.04759v1",
+          "href": "http://arxiv.org/pdf/2510.04759v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -2540,12 +2684,12 @@
       "llm_approved": false
     },
     "2509.13590": {
-      "title": "Intelligent Healthcare Imaging Platform An VLM-Based Framework for Automated Medical Image Analysis and Clinical Report Generation",
+      "title": "Intelligent Healthcare Imaging Platform: A VLM-Based Framework for Automated Medical Image Analysis and Clinical Report Generation",
       "authors": [
         "Samer Al-Hamadani"
       ],
       "published": "2025-09-16T23:15:44+00:00",
-      "updated": "2025-09-16T23:15:44+00:00",
+      "updated": "2025-10-08T09:41:31+00:00",
       "summary": "The rapid advancement of artificial intelligence (AI) in healthcare imaging\nhas revolutionized diagnostic medicine and clinical decision-making processes.\nThis work presents an intelligent multimodal framework for medical image\nanalysis that leverages Vision-Language Models (VLMs) in healthcare\ndiagnostics. The framework integrates Google Gemini 2.5 Flash for automated\ntumor detection and clinical report generation across multiple imaging\nmodalities including CT, MRI, X-ray, and Ultrasound. The system combines visual\nfeature extraction with natural language processing to enable contextual image\ninterpretation, incorporating coordinate verification mechanisms and\nprobabilistic Gaussian modeling for anomaly distribution. Multi-layered\nvisualization techniques generate detailed medical illustrations, overlay\ncomparisons, and statistical representations to enhance clinical confidence,\nwith location measurement achieving 80 pixels average deviation. Result\nprocessing utilizes precise prompt engineering and textual analysis to extract\nstructured clinical information while maintaining interpretability.\nExperimental evaluations demonstrated high performance in anomaly detection\nacross multiple modalities. The system features a user-friendly Gradio\ninterface for clinical workflow integration and demonstrates zero-shot learning\ncapabilities to reduce dependence on large datasets. This framework represents\na significant advancement in automated diagnostic support and radiological\nworkflow efficiency, though clinical validation and multi-center evaluation are\nnecessary prior to widespread adoption.",
       "categories": [
         "eess.IV",
@@ -2553,20 +2697,20 @@
         "cs.CV"
       ],
       "primary_category": "eess.IV",
-      "pdf_url": "http://arxiv.org/pdf/2509.13590v1",
+      "pdf_url": "http://arxiv.org/pdf/2509.13590v2",
       "journal_ref": null,
       "doi": null,
       "comment": "32 pages, 14 figures, 6 tables",
-      "entry_id": "http://arxiv.org/abs/2509.13590v1",
+      "entry_id": "http://arxiv.org/abs/2509.13590v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2509.13590v1",
+          "href": "http://arxiv.org/abs/2509.13590v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2509.13590v1",
+          "href": "http://arxiv.org/pdf/2509.13590v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -76122,6 +76266,91 @@
     }
   },
   "Depth Estimation": {
+    "2510.07316": {
+      "title": "Pixel-Perfect Depth with Semantics-Prompted Diffusion Transformers",
+      "authors": [
+        "Gangwei Xu",
+        "Haotong Lin",
+        "Hongcheng Luo",
+        "Xianqi Wang",
+        "Jingfeng Yao",
+        "Lianghui Zhu",
+        "Yuechuan Pu",
+        "Cheng Chi",
+        "Haiyang Sun",
+        "Bing Wang",
+        "Guang Chen",
+        "Hangjun Ye",
+        "Sida Peng",
+        "Xin Yang"
+      ],
+      "published": "2025-10-08T17:59:33+00:00",
+      "updated": "2025-10-08T17:59:33+00:00",
+      "summary": "This paper presents Pixel-Perfect Depth, a monocular depth estimation model\nbased on pixel-space diffusion generation that produces high-quality,\nflying-pixel-free point clouds from estimated depth maps. Current generative\ndepth estimation models fine-tune Stable Diffusion and achieve impressive\nperformance. However, they require a VAE to compress depth maps into latent\nspace, which inevitably introduces \\textit{flying pixels} at edges and details.\nOur model addresses this challenge by directly performing diffusion generation\nin the pixel space, avoiding VAE-induced artifacts. To overcome the high\ncomplexity associated with pixel-space generation, we introduce two novel\ndesigns: 1) Semantics-Prompted Diffusion Transformers (SP-DiT), which\nincorporate semantic representations from vision foundation models into DiT to\nprompt the diffusion process, thereby preserving global semantic consistency\nwhile enhancing fine-grained visual details; and 2) Cascade DiT Design that\nprogressively increases the number of tokens to further enhance efficiency and\naccuracy. Our model achieves the best performance among all published\ngenerative models across five benchmarks, and significantly outperforms all\nother models in edge-aware point cloud evaluation.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.07316v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "NeurIPS 2025. Project page: https://pixel-perfect-depth.github.io/",
+      "entry_id": "http://arxiv.org/abs/2510.07316v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.07316v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.07316v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2510.07190": {
+      "title": "MV-Performer: Taming Video Diffusion Model for Faithful and Synchronized Multi-view Performer Synthesis",
+      "authors": [
+        "Yihao Zhi",
+        "Chenghong Li",
+        "Hongjie Liao",
+        "Xihe Yang",
+        "Zhengwentai Sun",
+        "Jiahao Chang",
+        "Xiaodong Cun",
+        "Wensen Feng",
+        "Xiaoguang Han"
+      ],
+      "published": "2025-10-08T16:24:22+00:00",
+      "updated": "2025-10-08T16:24:22+00:00",
+      "summary": "Recent breakthroughs in video generation, powered by large-scale datasets and\ndiffusion techniques, have shown that video diffusion models can function as\nimplicit 4D novel view synthesizers. Nevertheless, current methods primarily\nconcentrate on redirecting camera trajectory within the front view while\nstruggling to generate 360-degree viewpoint changes. In this paper, we focus on\nhuman-centric subdomain and present MV-Performer, an innovative framework for\ncreating synchronized novel view videos from monocular full-body captures. To\nachieve a 360-degree synthesis, we extensively leverage the MVHumanNet dataset\nand incorporate an informative condition signal. Specifically, we use the\ncamera-dependent normal maps rendered from oriented partial point clouds, which\neffectively alleviate the ambiguity between seen and unseen observations. To\nmaintain synchronization in the generated videos, we propose a multi-view\nhuman-centric video diffusion model that fuses information from the reference\nvideo, partial rendering, and different viewpoints. Additionally, we provide a\nrobust inference procedure for in-the-wild video cases, which greatly mitigates\nthe artifacts induced by imperfect monocular depth estimation. Extensive\nexperiments on three datasets demonstrate our MV-Performer's state-of-the-art\neffectiveness and robustness, setting a strong model for human-centric 4D novel\nview synthesis.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.07190v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted by SIGGRAPH Asia 2025 conference track",
+      "entry_id": "http://arxiv.org/abs/2510.07190v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.07190v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.07190v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2510.06219": {
       "title": "Human3R: Everyone Everywhere All at Once",
       "authors": [
@@ -76284,26 +76513,26 @@
         "James Dickens"
       ],
       "published": "2025-10-07T01:51:27+00:00",
-      "updated": "2025-10-07T01:51:27+00:00",
+      "updated": "2025-10-08T16:08:17+00:00",
       "summary": "Recent research into human action recognition (HAR) has focused predominantly\non skeletal action recognition and video-based methods. With the increasing\navailability of consumer-grade depth sensors and Lidar instruments, there is a\ngrowing opportunity to leverage dense 3D data for action recognition, to\ndevelop a third way. This paper presents a novel approach for recognizing\nactions from 3D videos by introducing a pipeline that segments human point\nclouds from the background of a scene, tracks individuals over time, and\nperforms body part segmentation. The method supports point clouds from both\ndepth sensors and monocular depth estimation. At the core of the proposed HAR\nframework is a novel backbone for 3D action recognition, which combines\npoint-based techniques with sparse convolutional networks applied to\nvoxel-mapped point cloud sequences. Experiments incorporate auxiliary point\nfeatures including surface normals, color, infrared intensity, and body part\nparsing labels, to enhance recognition accuracy. Evaluation on the NTU RGB- D\n120 dataset demonstrates that the method is competitive with existing skeletal\naction recognition algorithms. Moreover, combining both sensor-based and\nestimated depth inputs in an ensemble setup, this approach achieves 89.3%\naccuracy when different human subjects are considered for training and testing,\noutperforming previous point cloud action recognition methods.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "http://arxiv.org/pdf/2510.05506v1",
+      "pdf_url": "http://arxiv.org/pdf/2510.05506v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2510.05506v1",
+      "entry_id": "http://arxiv.org/abs/2510.05506v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2510.05506v1",
+          "href": "http://arxiv.org/abs/2510.05506v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2510.05506v1",
+          "href": "http://arxiv.org/pdf/2510.05506v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null

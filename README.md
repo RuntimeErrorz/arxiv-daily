@@ -1,4 +1,4 @@
-## Updated at 2025-10-09 08:16:46
+## Updated at 2025-10-09 20:07:53
 
 ## 3DGS Semantic
 
@@ -554,6 +554,8 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-10-08**|**[Pixel-Perfect Depth with Semantics-Prompted Diffusion Transformers](https://arxiv.org/abs/2510.07316)**|N/A|NeurIPS 2025. Project page: https://pixel-perfect-depth.github.io/|cs.CV|None|Gangwei Xu et al.|
+|**2025-10-08**|**[MV-Performer: Taming Video Diffusion Model for Faithful and Synchronized Multi-view Performer Synthesis](https://arxiv.org/abs/2510.07190)**|N/A|Accepted by SIGGRAPH Asia 2025 conference track|cs.CV|None|Yihao Zhi et al.|
 |**2025-10-07**|**[Human3R: Everyone Everywhere All at Once](https://arxiv.org/abs/2510.06219)**|N/A|Page: https://fanegg.github.io/Human3R Code: https://github.com/fanegg/Human3R|cs.CV|None|Yue Chen et al.|
 |**2025-10-07**|**[EgoNight: Towards Egocentric Vision Understanding at Night with a Challenging Benchmark](https://arxiv.org/abs/2510.06218)**|N/A|None|cs.CV|None|Deheng Zhang et al.|
 |**2025-10-07**|**[Dropping the D: RGB-D SLAM Without the Depth Sensor](https://arxiv.org/abs/2510.06216)**|N/A|None|cs.CV|None|Mert Kiray et al.|
