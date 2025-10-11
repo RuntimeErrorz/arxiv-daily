@@ -1,4 +1,4 @@
-## Updated at 2025-10-10 08:17:15
+## Updated at 2025-10-11 08:16:30
 
 ## 3DGS Semantic
 
@@ -554,6 +554,9 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-10-09**|**[RayFusion: Ray Fusion Enhanced Collaborative Visual Perception](https://arxiv.org/abs/2510.08017)**|N/A|Accepted by NeurIPS2025|cs.CV|None|Shaohong Wang et al.|
+|**2025-10-09**|**[CVD-STORM: Cross-View Video Diffusion with Spatial-Temporal Reconstruction Model for Autonomous Driving](https://arxiv.org/abs/2510.07944)**|N/A|None|cs.CV|None|Tianrui Zhang et al.|
+|**2025-10-09**|**[An End-to-End Room Geometry Constrained Depth Estimation Framework for Indoor Panorama Images](https://arxiv.org/abs/2510.07817)**|N/A|None|cs.CV|None|Kanglin Ning et al.|
 |**2025-10-08**|**[Pixel-Perfect Depth with Semantics-Prompted Diffusion Transformers](https://arxiv.org/abs/2510.07316)**|N/A|NeurIPS 2025. Project page: https://pixel-perfect-depth.github.io/|cs.CV|None|Gangwei Xu et al.|
 |**2025-10-08**|**[MV-Performer: Taming Video Diffusion Model for Faithful and Synchronized Multi-view Performer Synthesis](https://arxiv.org/abs/2510.07190)**|N/A|Accepted by SIGGRAPH Asia 2025 conference track|cs.CV|None|Yihao Zhi et al.|
 |**2025-10-07**|**[Human3R: Everyone Everywhere All at Once](https://arxiv.org/abs/2510.06219)**|N/A|Page: https://fanegg.github.io/Human3R Code: https://github.com/fanegg/Human3R|cs.CV|None|Yue Chen et al.|

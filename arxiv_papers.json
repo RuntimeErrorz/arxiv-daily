@@ -1,5 +1,233 @@
 {
   "3DGS Semantic": {
+    "2510.08425": {
+      "title": "Reinforcing Diffusion Models by Direct Group Preference Optimization",
+      "authors": [
+        "Yihong Luo",
+        "Tianyang Hu",
+        "Jing Tang"
+      ],
+      "published": "2025-10-09T16:40:43+00:00",
+      "updated": "2025-10-09T16:40:43+00:00",
+      "summary": "While reinforcement learning methods such as Group Relative Preference\nOptimization (GRPO) have significantly enhanced Large Language Models, adapting\nthem to diffusion models remains challenging. In particular, GRPO demands a\nstochastic policy, yet the most cost-effective diffusion samplers are based on\ndeterministic ODEs. Recent work addresses this issue by using inefficient\nSDE-based samplers to induce stochasticity, but this reliance on model-agnostic\nGaussian noise leads to slow convergence. To resolve this conflict, we propose\nDirect Group Preference Optimization (DGPO), a new online RL algorithm that\ndispenses with the policy-gradient framework entirely. DGPO learns directly\nfrom group-level preferences, which utilize relative information of samples\nwithin groups. This design eliminates the need for inefficient stochastic\npolicies, unlocking the use of efficient deterministic ODE samplers and faster\ntraining. Extensive results show that DGPO trains around 20 times faster than\nexisting state-of-the-art methods and achieves superior performance on both\nin-domain and out-of-domain reward metrics. Code is available at\nhttps://github.com/Luo-Yihong/DGPO.",
+      "categories": [
+        "cs.LG",
+        "cs.CV"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "http://arxiv.org/pdf/2510.08425v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.08425v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.08425v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.08425v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.08096": {
+      "title": "Efficient Label Refinement for Face Parsing Under Extreme Poses Using 3D Gaussian Splatting",
+      "authors": [
+        "Ankit Gahlawat",
+        "Anirban Mukherjee",
+        "Dinesh Babu Jayagopi"
+      ],
+      "published": "2025-10-09T11:34:55+00:00",
+      "updated": "2025-10-09T11:34:55+00:00",
+      "summary": "Accurate face parsing under extreme viewing angles remains a significant\nchallenge due to limited labeled data in such poses. Manual annotation is\ncostly and often impractical at scale. We propose a novel label refinement\npipeline that leverages 3D Gaussian Splatting (3DGS) to generate accurate\nsegmentation masks from noisy multiview predictions. By jointly fitting two\n3DGS models, one to RGB images and one to their initial segmentation maps, our\nmethod enforces multiview consistency through shared geometry, enabling the\nsynthesis of pose-diverse training data with only minimal post-processing.\nFine-tuning a face parsing model on this refined dataset significantly improves\naccuracy on challenging head poses, while maintaining strong performance on\nstandard views. Extensive experiments, including human evaluations, demonstrate\nthat our approach achieves superior results compared to state-of-the-art\nmethods, despite requiring no ground-truth 3D annotations and using only a\nsmall set of initial images. Our method offers a scalable and effective\nsolution for improving face parsing robustness in real-world settings.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.08096v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted to VCIP 2025 (International Conference on Visual\n  Communications and Image Processing 2025)",
+      "entry_id": "http://arxiv.org/abs/2510.08096v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.08096v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.08096v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.07961": {
+      "title": "Latent Harmony: Synergistic Unified UHD Image Restoration via Latent Space Regularization and Controllable Refinement",
+      "authors": [
+        "Yidi Liu",
+        "Xueyang Fu",
+        "Jie Huang",
+        "Jie Xiao",
+        "Dong Li",
+        "Wenlong Zhang",
+        "Lei Bai",
+        "Zheng-Jun Zha"
+      ],
+      "published": "2025-10-09T08:54:26+00:00",
+      "updated": "2025-10-09T08:54:26+00:00",
+      "summary": "Ultra-High Definition (UHD) image restoration faces a trade-off between\ncomputational efficiency and high-frequency detail retention. While Variational\nAutoencoders (VAEs) improve efficiency via latent-space processing, their\nGaussian constraint often discards degradation-specific high-frequency\ninformation, hurting reconstruction fidelity. To overcome this, we propose\nLatent Harmony, a two-stage framework that redefines VAEs for UHD restoration\nby jointly regularizing the latent space and enforcing high-frequency-aware\nreconstruction.In Stage One, we introduce LH-VAE, which enhances semantic\nrobustness through visual semantic constraints and progressive degradation\nperturbations, while latent equivariance strengthens high-frequency\nreconstruction.Stage Two jointly trains this refined VAE with a restoration\nmodel using High-Frequency Low-Rank Adaptation (HF-LoRA): an encoder LoRA\nguided by a fidelity-oriented high-frequency alignment loss to recover\nauthentic details, and a decoder LoRA driven by a perception-oriented loss to\nsynthesize realistic textures. Both LoRA modules are trained via alternating\noptimization with selective gradient propagation to preserve the pretrained\nlatent structure.At inference, a tunable parameter {\\alpha} enables flexible\nfidelity-perception trade-offs.Experiments show Latent Harmony achieves\nstate-of-the-art performance across UHD and standard-resolution tasks,\neffectively balancing efficiency, perceptual quality, and reconstruction\naccuracy.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.07961v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted by NeurIPS 2025",
+      "entry_id": "http://arxiv.org/abs/2510.07961v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.07961v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.07961v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.07944": {
+      "title": "CVD-STORM: Cross-View Video Diffusion with Spatial-Temporal Reconstruction Model for Autonomous Driving",
+      "authors": [
+        "Tianrui Zhang",
+        "Yichen Liu",
+        "Zilin Guo",
+        "Yuxin Guo",
+        "Jingcheng Ni",
+        "Chenjing Ding",
+        "Dan Xu",
+        "Lewei Lu",
+        "Zehuan Wu"
+      ],
+      "published": "2025-10-09T08:41:58+00:00",
+      "updated": "2025-10-09T08:41:58+00:00",
+      "summary": "Generative models have been widely applied to world modeling for environment\nsimulation and future state prediction. With advancements in autonomous\ndriving, there is a growing demand not only for high-fidelity video generation\nunder various controls, but also for producing diverse and meaningful\ninformation such as depth estimation. To address this, we propose CVD-STORM, a\ncross-view video diffusion model utilizing a spatial-temporal reconstruction\nVariational Autoencoder (VAE) that generates long-term, multi-view videos with\n4D reconstruction capabilities under various control inputs. Our approach first\nfine-tunes the VAE with an auxiliary 4D reconstruction task, enhancing its\nability to encode 3D structures and temporal dynamics. Subsequently, we\nintegrate this VAE into the video diffusion process to significantly improve\ngeneration quality. Experimental results demonstrate that our model achieves\nsubstantial improvements in both FID and FVD metrics. Additionally, the\njointly-trained Gaussian Splatting Decoder effectively reconstructs dynamic\nscenes, providing valuable geometric information for comprehensive scene\nunderstanding.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.07944v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.07944v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.07944v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.07944v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.07745": {
+      "title": "Parallel Test-Time Scaling for Latent Reasoning Models",
+      "authors": [
+        "Runyang You",
+        "Yongqi Li",
+        "Meng Liu",
+        "Wenjie Wang",
+        "Liqiang Nie",
+        "Wenjie Li"
+      ],
+      "published": "2025-10-09T03:33:00+00:00",
+      "updated": "2025-10-09T03:33:00+00:00",
+      "summary": "Parallel test-time scaling (TTS) is a pivotal approach for enhancing large\nlanguage models (LLMs), typically by sampling multiple token-based\nchains-of-thought in parallel and aggregating outcomes through voting or\nsearch. Recent advances in latent reasoning, where intermediate reasoning\nunfolds in continuous vector spaces, offer a more efficient alternative to\nexplicit Chain-of-Thought, yet whether such latent models can similarly benefit\nfrom parallel TTS remains open, mainly due to the absence of sampling\nmechanisms in continuous space, and the lack of probabilistic signals for\nadvanced trajectory aggregation. \\ This work enables parallel TTS for latent\nreasoning models by addressing the above issues. For sampling, we introduce two\nuncertainty-inspired stochastic strategies: Monte Carlo Dropout and Additive\nGaussian Noise. For aggregation, we design a Latent Reward Model (LatentRM)\ntrained with step-wise contrastive objective to score and guide latent\nreasoning. Extensive experiments and visualization analyses show that both\nsampling strategies scale effectively with compute and exhibit distinct\nexploration dynamics, while LatentRM enables effective trajectory selection.\nTogether, our explorations open a new direction for scalable inference in\ncontinuous spaces. Code released at https://github.com/YRYangang/LatentTTS.",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CL",
+      "pdf_url": "http://arxiv.org/pdf/2510.07745v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.07745v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.07745v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.07745v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.07620": {
+      "title": "DGTEN: A Robust Deep Gaussian based Graph Neural Network for Dynamic Trust Evaluation with Uncertainty-Quantification Support",
+      "authors": [
+        "Muhammad Usman",
+        "Yugyung Lee"
+      ],
+      "published": "2025-10-08T23:38:55+00:00",
+      "updated": "2025-10-08T23:38:55+00:00",
+      "summary": "Dynamic trust evaluation in large, rapidly evolving graphs requires models\nthat can capture changing relationships, express calibrated confidence, and\nresist adversarial manipulation. DGTEN (Deep Gaussian-based Trust Evaluation\nNetwork) introduces a unified graph framework that achieves all three by\ncombining uncertainty-aware message passing, expressive temporal modeling, and\nbuilt-in defenses against trust-targeted attacks. It represents nodes and edges\nas Gaussian distributions so that both semantic signals and epistemic\nuncertainty propagate through the graph neural network, enabling risk-aware\ntrust decisions rather than overconfident guesses. To model how trust evolves,\nit employs hybrid Absolute-Gaussian-Hourglass (HAGH) positional encoding with\nKolmogorov-Arnold network-based unbiased multi-head attention, followed by an\nordinary differential equation (ODE)-based residual learning module to jointly\ncapture abrupt shifts and smooth trends. Robust adaptive ensemble coefficient\nanalysis prunes or down-weights suspicious interactions using complementary\ncosine and Jaccard similarity measures, mitigating reputation laundering,\nsabotage, and on/off attacks. On two signed Bitcoin trust networks, DGTEN\ndelivers significant improvements: in single-timeslot prediction on\nBitcoin-Alpha, it improves MCC by 10.77% over the best dynamic baseline; in the\ncold-start scenario, it achieves a 16.41% MCC gain - the largest across all\ntasks and datasets. Under adversarial on/off attacks, it surpasses the baseline\nby up to 11.63% MCC. These results validate the effectiveness of the unified\nDGTEN framework.",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "I.2.6; I.5.1; H.2.8; K.6.5"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "http://arxiv.org/pdf/2510.07620v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "18 pages, 9 figures, 5 tables",
+      "entry_id": "http://arxiv.org/abs/2510.07620v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.07620v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.07620v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2510.07058": {
       "title": "Concept Retrieval -- What and How?",
       "authors": [
@@ -76266,6 +76494,123 @@
     }
   },
   "Depth Estimation": {
+    "2510.08017": {
+      "title": "RayFusion: Ray Fusion Enhanced Collaborative Visual Perception",
+      "authors": [
+        "Shaohong Wang",
+        "Bin Lu",
+        "Xinyu Xiao",
+        "Hanzhi Zhong",
+        "Bowen Pang",
+        "Tong Wang",
+        "Zhiyu Xiang",
+        "Hangguan Shan",
+        "Eryun Liu"
+      ],
+      "published": "2025-10-09T09:54:08+00:00",
+      "updated": "2025-10-09T09:54:08+00:00",
+      "summary": "Collaborative visual perception methods have gained widespread attention in\nthe autonomous driving community in recent years due to their ability to\naddress sensor limitation problems. However, the absence of explicit depth\ninformation often makes it difficult for camera-based perception systems, e.g.,\n3D object detection, to generate accurate predictions. To alleviate the\nambiguity in depth estimation, we propose RayFusion, a ray-based fusion method\nfor collaborative visual perception. Using ray occupancy information from\ncollaborators, RayFusion reduces redundancy and false positive predictions\nalong camera rays, enhancing the detection performance of purely camera-based\ncollaborative perception systems. Comprehensive experiments show that our\nmethod consistently outperforms existing state-of-the-art models, substantially\nadvancing the performance of collaborative visual perception. The code is\navailable at https://github.com/wangsh0111/RayFusion.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.08017v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted by NeurIPS2025",
+      "entry_id": "http://arxiv.org/abs/2510.08017v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.08017v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.08017v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2510.07944": {
+      "title": "CVD-STORM: Cross-View Video Diffusion with Spatial-Temporal Reconstruction Model for Autonomous Driving",
+      "authors": [
+        "Tianrui Zhang",
+        "Yichen Liu",
+        "Zilin Guo",
+        "Yuxin Guo",
+        "Jingcheng Ni",
+        "Chenjing Ding",
+        "Dan Xu",
+        "Lewei Lu",
+        "Zehuan Wu"
+      ],
+      "published": "2025-10-09T08:41:58+00:00",
+      "updated": "2025-10-09T08:41:58+00:00",
+      "summary": "Generative models have been widely applied to world modeling for environment\nsimulation and future state prediction. With advancements in autonomous\ndriving, there is a growing demand not only for high-fidelity video generation\nunder various controls, but also for producing diverse and meaningful\ninformation such as depth estimation. To address this, we propose CVD-STORM, a\ncross-view video diffusion model utilizing a spatial-temporal reconstruction\nVariational Autoencoder (VAE) that generates long-term, multi-view videos with\n4D reconstruction capabilities under various control inputs. Our approach first\nfine-tunes the VAE with an auxiliary 4D reconstruction task, enhancing its\nability to encode 3D structures and temporal dynamics. Subsequently, we\nintegrate this VAE into the video diffusion process to significantly improve\ngeneration quality. Experimental results demonstrate that our model achieves\nsubstantial improvements in both FID and FVD metrics. Additionally, the\njointly-trained Gaussian Splatting Decoder effectively reconstructs dynamic\nscenes, providing valuable geometric information for comprehensive scene\nunderstanding.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.07944v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.07944v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.07944v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.07944v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2510.07817": {
+      "title": "An End-to-End Room Geometry Constrained Depth Estimation Framework for Indoor Panorama Images",
+      "authors": [
+        "Kanglin Ning",
+        "Ruzhao Chen",
+        "Penghong Wang",
+        "Xingtao Wang",
+        "Ruiqin Xiong",
+        "Xiaopeng Fan"
+      ],
+      "published": "2025-10-09T05:52:48+00:00",
+      "updated": "2025-10-09T05:52:48+00:00",
+      "summary": "Predicting spherical pixel depth from monocular $360^{\\circ}$ indoor\npanoramas is critical for many vision applications. However, existing methods\nfocus on pixel-level accuracy, causing oversmoothed room corners and noise\nsensitivity. In this paper, we propose a depth estimation framework based on\nroom geometry constraints, which extracts room geometry information through\nlayout prediction and integrates those information into the depth estimation\nprocess through background segmentation mechanism. At the model level, our\nframework comprises a shared feature encoder followed by task-specific decoders\nfor layout estimation, depth estimation, and background segmentation. The\nshared encoder extracts multi-scale features, which are subsequently processed\nby individual decoders to generate initial predictions: a depth map, a room\nlayout map, and a background segmentation map. Furthermore, our framework\nincorporates two strategies: a room geometry-based background depth resolving\nstrategy and a background-segmentation-guided fusion mechanism. The proposed\nroom-geometry-based background depth resolving strategy leverages the room\nlayout and the depth decoder's output to generate the corresponding background\ndepth map. Then, a background-segmentation-guided fusion strategy derives\nfusion weights for the background and coarse depth maps from the segmentation\ndecoder's predictions. Extensive experimental results on the Stanford2D3D,\nMatterport3D and Structured3D datasets show that our proposed methods can\nachieve significantly superior performance than current open-source methods.\nOur code is available at https://github.com/emiyaning/RGCNet.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.07817v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.07817v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.07817v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.07817v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2510.07316": {
       "title": "Pixel-Perfect Depth with Semantics-Prompted Diffusion Transformers",
       "authors": [
@@ -76513,26 +76858,26 @@
         "James Dickens"
       ],
       "published": "2025-10-07T01:51:27+00:00",
-      "updated": "2025-10-08T16:08:17+00:00",
+      "updated": "2025-10-09T01:21:42+00:00",
       "summary": "Recent research into human action recognition (HAR) has focused predominantly\non skeletal action recognition and video-based methods. With the increasing\navailability of consumer-grade depth sensors and Lidar instruments, there is a\ngrowing opportunity to leverage dense 3D data for action recognition, to\ndevelop a third way. This paper presents a novel approach for recognizing\nactions from 3D videos by introducing a pipeline that segments human point\nclouds from the background of a scene, tracks individuals over time, and\nperforms body part segmentation. The method supports point clouds from both\ndepth sensors and monocular depth estimation. At the core of the proposed HAR\nframework is a novel backbone for 3D action recognition, which combines\npoint-based techniques with sparse convolutional networks applied to\nvoxel-mapped point cloud sequences. Experiments incorporate auxiliary point\nfeatures including surface normals, color, infrared intensity, and body part\nparsing labels, to enhance recognition accuracy. Evaluation on the NTU RGB- D\n120 dataset demonstrates that the method is competitive with existing skeletal\naction recognition algorithms. Moreover, combining both sensor-based and\nestimated depth inputs in an ensemble setup, this approach achieves 89.3%\naccuracy when different human subjects are considered for training and testing,\noutperforming previous point cloud action recognition methods.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "http://arxiv.org/pdf/2510.05506v2",
+      "pdf_url": "http://arxiv.org/pdf/2510.05506v3",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2510.05506v2",
+      "entry_id": "http://arxiv.org/abs/2510.05506v3",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2510.05506v2",
+          "href": "http://arxiv.org/abs/2510.05506v3",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2510.05506v2",
+          "href": "http://arxiv.org/pdf/2510.05506v3",
           "title": "pdf",
           "rel": "related",
           "content_type": null
