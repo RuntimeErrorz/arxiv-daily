@@ -1,4 +1,4 @@
-## Updated at 2025-10-12 08:17:49
+## Updated at 2025-10-12 10:33:22
 
 ## 3DGS Semantic
 
@@ -105,7 +105,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2024-11-28**|**[SADG: Segment Any Dynamic Gaussian Without Object Trackers](https://arxiv.org/abs/2411.19290)**|arXiv.org|Project page https://yunjinli.github.io/project-sadg|cs.CV|None|Yun-Jin Li et al.|
 |**2024-11-28**|**[InstanceGaussian: Appearance-Semantic Joint Gaussian Representation for 3D Instance-Level Perception](https://arxiv.org/abs/2411.19235)**|Computer Vision and Pattern Recognition|14 pages, accepted by CVPR 2025 as poster|cs.CV|None|Haijie Li et al.|
 |**2024-11-27**|**[GLS: Geometry-aware 3D Language Gaussian Splatting](https://arxiv.org/abs/2411.18066)**|arXiv.org|Technical Report|cs.CV|None|Jiaxiong Qiu et al.|
-|**2024-11-22**|**[Open-Vocabulary Online Semantic Mapping for SLAM](https://arxiv.org/abs/2411.15043)**|N/A|None|cs.CV|None|Tomas Berriel Martins et al.|
+|**2024-11-22**|**[Open-Vocabulary Online Semantic Mapping for SLAM](https://arxiv.org/abs/2411.15043)**|IEEE Robotics and Automation Letters|None|cs.CV|None|Tomas Berriel Martins et al.|
 |**2024-11-20**|**[FAST-Splat: Fast, Ambiguity-Free Semantics Transfer in Gaussian Splatting](https://arxiv.org/abs/2411.13753)**|arXiv.org|None|cs.CV|None|Ola Shorinwa et al.|
 |**2024-11-12**|**[GaussianCut: Interactive segmentation via graph cut for 3D Gaussian Splatting](https://arxiv.org/abs/2411.07555)**|Neural Information Processing Systems|None|cs.CV|None|Umangi Jain et al.|
 |**2024-10-24**|**[Large Spatial Model: End-to-end Unposed Images to Semantic 3D](https://arxiv.org/abs/2410.18956)**|Neural Information Processing Systems|Project Website: https://largespatialmodel.github.io|cs.CV|None|Zhiwen Fan et al.|

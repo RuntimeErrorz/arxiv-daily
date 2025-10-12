@@ -482,7 +482,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-10-08",
+        "queried_at": "2025-10-12",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -784,7 +784,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-10-06",
+        "queried_at": "2025-10-12",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -1275,7 +1275,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-10-05",
+        "queried_at": "2025-10-12",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -1558,7 +1558,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-10-05",
+        "queried_at": "2025-10-12",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -2323,7 +2323,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-10-05",
+        "queried_at": "2025-10-12",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -2453,7 +2453,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-10-05",
+        "queried_at": "2025-10-12",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -3016,7 +3016,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-10-05",
+        "queried_at": "2025-10-12",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -3315,7 +3315,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-10-05",
+        "queried_at": "2025-10-12",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -3708,7 +3708,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-10-05",
+        "queried_at": "2025-10-12",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -4063,7 +4063,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-10-05",
+        "queried_at": "2025-10-12",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -13820,7 +13820,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-10-05",
+        "queried_at": "2025-10-12",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -21236,7 +21236,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-10-05",
+        "queried_at": "2025-10-12",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -22528,7 +22528,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-10-05",
+        "queried_at": "2025-10-12",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -23962,7 +23962,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-10-05",
+        "queried_at": "2025-10-12",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -28534,7 +28534,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-10-05",
+        "queried_at": "2025-10-12",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -29569,11 +29569,10 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-10-05",
-        "venue": null,
-        "pub_type": null,
-        "publisher": null,
-        "note": "已查询但未找到venue信息"
+        "queried_at": "2025-10-12",
+        "venue": "IEEE Robotics and Automation Letters",
+        "pub_type": "JournalArticle",
+        "publisher": null
       }
     },
     "2411.14716": {
@@ -45568,7 +45567,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-10-05",
+        "queried_at": "2025-10-12",
         "venue": null,
         "pub_type": null,
         "publisher": null,
