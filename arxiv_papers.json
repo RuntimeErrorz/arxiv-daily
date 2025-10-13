@@ -1,5 +1,75 @@
 {
   "3DGS Semantic": {
+    "2510.09586": {
+      "title": "Vision Language Models: A Survey of 26K Papers",
+      "authors": [
+        "Fengming Lin"
+      ],
+      "published": "2025-10-10T17:43:17+00:00",
+      "updated": "2025-10-10T17:43:17+00:00",
+      "summary": "We present a transparent, reproducible measurement of research trends across\n26,104 accepted papers from CVPR, ICLR, and NeurIPS spanning 2023-2025. Titles\nand abstracts are normalized, phrase-protected, and matched against a\nhand-crafted lexicon to assign up to 35 topical labels and mine fine-grained\ncues about tasks, architectures, training regimes, objectives, datasets, and\nco-mentioned modalities. The analysis quantifies three macro shifts: (1) a\nsharp rise of multimodal vision-language-LLM work, which increasingly reframes\nclassic perception as instruction following and multi-step reasoning; (2)\nsteady expansion of generative methods, with diffusion research consolidating\naround controllability, distillation, and speed; and (3) resilient 3D and video\nactivity, with composition moving from NeRFs to Gaussian splatting and a\ngrowing emphasis on human- and agent-centric understanding. Within VLMs,\nparameter-efficient adaptation like prompting/adapters/LoRA and lightweight\nvision-language bridges dominate; training practice shifts from building\nencoders from scratch to instruction tuning and finetuning strong backbones;\ncontrastive objectives recede relative to cross-entropy/ranking and\ndistillation. Cross-venue comparisons show CVPR has a stronger 3D footprint and\nICLR the highest VLM share, while reliability themes such as efficiency or\nrobustness diffuse across areas. We release the lexicon and methodology to\nenable auditing and extension. Limitations include lexicon recall and\nabstract-only scope, but the longitudinal signals are consistent across venues\nand years.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.09586v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "VLM/LLM Learning Notes",
+      "entry_id": "http://arxiv.org/abs/2510.09586v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.09586v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.09586v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.09438": {
+      "title": "Mono4DEditor: Text-Driven 4D Scene Editing from Monocular Video via Point-Level Localization of Language-Embedded Gaussians",
+      "authors": [
+        "Jin-Chuan Shi",
+        "Chengye Su",
+        "Jiajun Wang",
+        "Ariel Shamir",
+        "Miao Wang"
+      ],
+      "published": "2025-10-10T14:49:49+00:00",
+      "updated": "2025-10-10T14:49:49+00:00",
+      "summary": "Editing 4D scenes reconstructed from monocular videos based on text prompts\nis a valuable yet challenging task with broad applications in content creation\nand virtual environments. The key difficulty lies in achieving semantically\nprecise edits in localized regions of complex, dynamic scenes, while preserving\nthe integrity of unedited content. To address this, we introduce Mono4DEditor,\na novel framework for flexible and accurate text-driven 4D scene editing. Our\nmethod augments 3D Gaussians with quantized CLIP features to form a\nlanguage-embedded dynamic representation, enabling efficient semantic querying\nof arbitrary spatial regions. We further propose a two-stage point-level\nlocalization strategy that first selects candidate Gaussians via CLIP\nsimilarity and then refines their spatial extent to improve accuracy. Finally,\ntargeted edits are performed on localized regions using a diffusion-based video\nediting model, with flow and scribble guidance ensuring spatial fidelity and\ntemporal coherence. Extensive experiments demonstrate that Mono4DEditor enables\nhigh-quality, text-driven edits across diverse scenes and object types, while\npreserving the appearance and geometry of unedited areas and surpassing prior\napproaches in both flexibility and visual fidelity.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.09438v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "19 pages, 9 figures",
+      "entry_id": "http://arxiv.org/abs/2510.09438v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.09438v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.09438v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
     "2510.08425": {
       "title": "Reinforcing Diffusion Models by Direct Group Preference Optimization",
       "authors": [
@@ -221,6 +291,41 @@
         },
         {
           "href": "http://arxiv.org/pdf/2510.07620v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.08631": {
+      "title": "Out-of-Distribution Detection in LiDAR Semantic Segmentation Using Epistemic Uncertainty from Hierarchical GMMs",
+      "authors": [
+        "Hanieh Shojaei Miandashti",
+        "Claus Brenner"
+      ],
+      "published": "2025-10-08T14:40:17+00:00",
+      "updated": "2025-10-08T14:40:17+00:00",
+      "summary": "In addition to accurate scene understanding through precise semantic\nsegmentation of LiDAR point clouds, detecting out-of-distribution (OOD)\nobjects, instances not encountered during training, is essential to prevent the\nincorrect assignment of unknown objects to known classes. While supervised OOD\ndetection methods depend on auxiliary OOD datasets, unsupervised methods avoid\nthis requirement but typically rely on predictive entropy, the entropy of the\npredictive distribution obtained by averaging over an ensemble or multiple\nposterior weight samples. However, these methods often conflate epistemic\n(model) and aleatoric (data) uncertainties, misclassifying ambiguous in\ndistribution regions as OOD. To address this issue, we present an unsupervised\nOOD detection approach that employs epistemic uncertainty derived from\nhierarchical Bayesian modeling of Gaussian Mixture Model (GMM) parameters in\nthe feature space of a deep neural network. Without requiring auxiliary data or\nadditional training stages, our approach outperforms existing uncertainty-based\nmethods on the SemanticKITTI dataset, achieving an 18\\% improvement in AUROC,\n22\\% increase in AUPRC, and 36\\% reduction in FPR95 (from 76\\% to 40\\%),\ncompared to the predictive entropy approach used in prior works.",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.08631v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.08631v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.08631v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.08631v1",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -61886,6 +61991,39 @@
     }
   },
   "MVS": {
+    "2510.09364": {
+      "title": "Visibility-Aware Densification for 3D Gaussian Splatting in Dynamic Urban Scenes",
+      "authors": [
+        "Yikang Zhang",
+        "Rui Fan"
+      ],
+      "published": "2025-10-10T13:22:12+00:00",
+      "updated": "2025-10-10T13:22:12+00:00",
+      "summary": "3D Gaussian splatting (3DGS) has demonstrated impressive performance in\nsynthesizing high-fidelity novel views. Nonetheless, its effectiveness\ncritically depends on the quality of the initialized point cloud. Specifically,\nachieving uniform and complete point coverage over the underlying scene\nstructure requires overlapping observation frustums, an assumption that is\noften violated in unbounded, dynamic urban environments. Training Gaussian\nmodels with partially initialized point clouds often leads to distortions and\nartifacts, as camera rays may fail to intersect valid surfaces, resulting in\nincorrect gradient propagation to Gaussian primitives associated with occluded\nor invisible geometry. Additionally, existing densification strategies simply\nclone and split Gaussian primitives from existing ones, incapable of\nreconstructing missing structures. To address these limitations, we propose\nVAD-GS, a 3DGS framework tailored for geometry recovery in challenging urban\nscenes. Our method identifies unreliable geometry structures via voxel-based\nvisibility reasoning, selects informative supporting views through\ndiversity-aware view selection, and recovers missing structures via patch\nmatching-based multi-view stereo reconstruction. This design enables the\ngeneration of new Gaussian primitives guided by reliable geometric priors, even\nin regions lacking initial points. Extensive experiments on the Waymo and\nnuScenes datasets demonstrate that VAD-GS outperforms state-of-the-art 3DGS\napproaches and significantly improves the quality of reconstructed geometry for\nboth static and dynamic objects. Source code will be released upon publication.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.09364v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.09364v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.09364v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.09364v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2509.26008": {
       "title": "PFDepth: Heterogeneous Pinhole-Fisheye Joint Depth Estimation via Distortion-aware Gaussian-Splatted Volumetric Fusion",
       "authors": [
@@ -76493,6 +76631,83 @@
     }
   },
   "Depth Estimation": {
+    "2510.09320": {
+      "title": "Hybrid-grained Feature Aggregation with Coarse-to-fine Language Guidance for Self-supervised Monocular Depth Estimation",
+      "authors": [
+        "Wenyao Zhang",
+        "Hongsi Liu",
+        "Bohan Li",
+        "Jiawei He",
+        "Zekun Qi",
+        "Yunnan Wang",
+        "Shengyang Zhao",
+        "Xinqiang Yu",
+        "Wenjun Zeng",
+        "Xin Jin"
+      ],
+      "published": "2025-10-10T12:20:19+00:00",
+      "updated": "2025-10-10T12:20:19+00:00",
+      "summary": "Current self-supervised monocular depth estimation (MDE) approaches encounter\nperformance limitations due to insufficient semantic-spatial knowledge\nextraction. To address this challenge, we propose Hybrid-depth, a novel\nframework that systematically integrates foundation models (e.g., CLIP and\nDINO) to extract visual priors and acquire sufficient contextual information\nfor MDE. Our approach introduces a coarse-to-fine progressive learning\nframework: 1) Firstly, we aggregate multi-grained features from CLIP (global\nsemantics) and DINO (local spatial details) under contrastive language\nguidance. A proxy task comparing close-distant image patches is designed to\nenforce depth-aware feature alignment using text prompts; 2) Next, building on\nthe coarse features, we integrate camera pose information and pixel-wise\nlanguage alignment to refine depth predictions. This module seamlessly\nintegrates with existing self-supervised MDE pipelines (e.g., Monodepth2,\nManyDepth) as a plug-and-play depth encoder, enhancing continuous depth\nestimation. By aggregating CLIP's semantic context and DINO's spatial details\nthrough language guidance, our method effectively addresses feature granularity\nmismatches. Extensive experiments on the KITTI benchmark demonstrate that our\nmethod significantly outperforms SOTA methods across all metrics, which also\nindeed benefits downstream tasks like BEV perception. Code is available at\nhttps://github.com/Zhangwenyao1/Hybrid-depth.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.09320v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "ICCV 2025",
+      "entry_id": "http://arxiv.org/abs/2510.09320v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.09320v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.09320v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2510.09182": {
+      "title": "Online Video Depth Anything: Temporally-Consistent Depth Prediction with Low Memory Consumption",
+      "authors": [
+        "Johann-Friedrich Feiden",
+        "Tim Küchler",
+        "Denis Zavadski",
+        "Bogdan Savchynskyy",
+        "Carsten Rother"
+      ],
+      "published": "2025-10-10T09:24:53+00:00",
+      "updated": "2025-10-10T09:24:53+00:00",
+      "summary": "Depth estimation from monocular video has become a key component of many\nreal-world computer vision systems. Recently, Video Depth Anything (VDA) has\ndemonstrated strong performance on long video sequences. However, it relies on\nbatch-processing which prohibits its use in an online setting. In this work, we\novercome this limitation and introduce online VDA (oVDA). The key innovation is\nto employ techniques from Large Language Models (LLMs), namely, caching latent\nfeatures during inference and masking frames at training. Our oVDA method\noutperforms all competing online video depth estimation methods in both\naccuracy and VRAM usage. Low VRAM usage is particularly important for\ndeployment on edge devices. We demonstrate that oVDA runs at 42 FPS on an\nNVIDIA A100 and at 20 FPS on an NVIDIA Jetson edge device. We will release\nboth, code and compilation scripts, making oVDA easy to deploy on low-power\nhardware.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.09182v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.09182v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.09182v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.09182v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2510.08017": {
       "title": "RayFusion: Ray Fusion Enhanced Collaborative Visual Perception",
       "authors": [
@@ -76604,6 +76819,49 @@
         },
         {
           "href": "http://arxiv.org/pdf/2510.07817v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2510.08638": {
+      "title": "Into the Rabbit Hull: From Task-Relevant Concepts in DINO to Minkowski Geometry",
+      "authors": [
+        "Thomas Fel",
+        "Binxu Wang",
+        "Michael A. Lepori",
+        "Matthew Kowal",
+        "Andrew Lee",
+        "Randall Balestriero",
+        "Sonia Joseph",
+        "Ekdeep S. Lubana",
+        "Talia Konkle",
+        "Demba Ba",
+        "Martin Wattenberg"
+      ],
+      "published": "2025-10-08T22:42:20+00:00",
+      "updated": "2025-10-08T22:42:20+00:00",
+      "summary": "DINOv2 is routinely deployed to recognize objects, scenes, and actions; yet\nthe nature of what it perceives remains unknown. As a working baseline, we\nadopt the Linear Representation Hypothesis (LRH) and operationalize it using\nSAEs, producing a 32,000-unit dictionary that serves as the interpretability\nbackbone of our study, which unfolds in three parts.\n  In the first part, we analyze how different downstream tasks recruit concepts\nfrom our learned dictionary, revealing functional specialization:\nclassification exploits \"Elsewhere\" concepts that fire everywhere except on\ntarget objects, implementing learned negations; segmentation relies on boundary\ndetectors forming coherent subspaces; depth estimation draws on three distinct\nmonocular depth cues matching visual neuroscience principles.\n  Following these functional results, we analyze the geometry and statistics of\nthe concepts learned by the SAE. We found that representations are partly dense\nrather than strictly sparse. The dictionary evolves toward greater coherence\nand departs from maximally orthogonal ideals (Grassmannian frames). Within an\nimage, tokens occupy a low dimensional, locally connected set persisting after\nremoving position. These signs suggest representations are organized beyond\nlinear sparsity alone.\n  Synthesizing these observations, we propose a refined view: tokens are formed\nby combining convex mixtures of archetypes (e.g., a rabbit among animals, brown\namong colors, fluffy among textures). This structure is grounded in Gardenfors'\nconceptual spaces and in the model's mechanism as multi-head attention produces\nsums of convex mixtures, defining regions bounded by archetypes. We introduce\nthe Minkowski Representation Hypothesis (MRH) and examine its empirical\nsignatures and implications for interpreting vision-transformer\nrepresentations.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.08638v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.08638v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.08638v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.08638v1",
           "title": "pdf",
           "rel": "related",
           "content_type": null

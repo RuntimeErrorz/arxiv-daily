@@ -1,4 +1,4 @@
-## Updated at 2025-10-13 08:18:42
+## Updated at 2025-10-13 20:07:45
 
 ## 3DGS Semantic
 
@@ -8,6 +8,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-10-10**|**[Mono4DEditor: Text-Driven 4D Scene Editing from Monocular Video via Point-Level Localization of Language-Embedded Gaussians](https://arxiv.org/abs/2510.09438)**|N/A|19 pages, 9 figures|cs.CV|None|Jin-Chuan Shi et al.|
 |**2025-10-06**|**[Progressive Gaussian Transformer with Anisotropy-aware Sampling for Open Vocabulary Occupancy Prediction](https://arxiv.org/abs/2510.04759)**|N/A|Project Page: https://yanchi-3dv.github.io/PG-Occ|cs.CV|None|Chi Yan, Dan Xu|
 |**2025-10-02**|**[SIMSplat: Predictive Driving Scene Editing with Language-aligned 4D Gaussian Splatting](https://arxiv.org/abs/2510.02469)**|N/A|None|cs.RO|None|Sung-Yeon Park et al.|
 |**2025-09-28**|**[CrashSplat: 2D to 3D Vehicle Damage Segmentation in Gaussian Splatting](https://arxiv.org/abs/2509.23947)**|N/A|None|cs.CV|None|Dragoş-Andrei Chileban et al.|
@@ -154,6 +155,7 @@ Query: (abs:'Multi-View Stereo' OR abs:'Multi View Stereo' OR abs:'Multi-View De
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-10-10**|**[Visibility-Aware Densification for 3D Gaussian Splatting in Dynamic Urban Scenes](https://arxiv.org/abs/2510.09364)**|N/A|None|cs.CV|None|Yikang Zhang, Rui Fan|
 |**2025-09-30**|**[PFDepth: Heterogeneous Pinhole-Fisheye Joint Depth Estimation via Distortion-aware Gaussian-Splatted Volumetric Fusion](https://arxiv.org/abs/2509.26008)**|N/A|Accepted by ACM MM 2025 Conference|cs.CV|None|Zhiwei Zhang et al.|
 |**2025-09-28**|**[FastViDAR: Real-Time Omnidirectional Depth Estimation via Alternative Hierarchical Attention](https://arxiv.org/abs/2509.23733)**|N/A|None|cs.CV|None|Hangtian Zhao et al.|
 |**2025-09-28**|**[DiffPCN: Latent Diffusion Model Based on Multi-view Depth Images for Point Cloud Completion](https://arxiv.org/abs/2509.23723)**|N/A|None|cs.CV|None|Zijun Li et al.|
@@ -554,9 +556,12 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-10-10**|**[Hybrid-grained Feature Aggregation with Coarse-to-fine Language Guidance for Self-supervised Monocular Depth Estimation](https://arxiv.org/abs/2510.09320)**|N/A|ICCV 2025|cs.CV|None|Wenyao Zhang et al.|
+|**2025-10-10**|**[Online Video Depth Anything: Temporally-Consistent Depth Prediction with Low Memory Consumption](https://arxiv.org/abs/2510.09182)**|N/A|None|cs.CV|None|Johann-Friedrich Feiden et al.|
 |**2025-10-09**|**[RayFusion: Ray Fusion Enhanced Collaborative Visual Perception](https://arxiv.org/abs/2510.08017)**|N/A|Accepted by NeurIPS2025|cs.CV|None|Shaohong Wang et al.|
 |**2025-10-09**|**[CVD-STORM: Cross-View Video Diffusion with Spatial-Temporal Reconstruction Model for Autonomous Driving](https://arxiv.org/abs/2510.07944)**|N/A|None|cs.CV|None|Tianrui Zhang et al.|
 |**2025-10-09**|**[An End-to-End Room Geometry Constrained Depth Estimation Framework for Indoor Panorama Images](https://arxiv.org/abs/2510.07817)**|N/A|None|cs.CV|None|Kanglin Ning et al.|
+|**2025-10-08**|**[Into the Rabbit Hull: From Task-Relevant Concepts in DINO to Minkowski Geometry](https://arxiv.org/abs/2510.08638)**|N/A|None|cs.CV|None|Thomas Fel et al.|
 |**2025-10-08**|**[Pixel-Perfect Depth with Semantics-Prompted Diffusion Transformers](https://arxiv.org/abs/2510.07316)**|N/A|NeurIPS 2025. Project page: https://pixel-perfect-depth.github.io/|cs.CV|None|Gangwei Xu et al.|
 |**2025-10-08**|**[MV-Performer: Taming Video Diffusion Model for Faithful and Synchronized Multi-view Performer Synthesis](https://arxiv.org/abs/2510.07190)**|N/A|Accepted by SIGGRAPH Asia 2025 conference track|cs.CV|None|Yihao Zhi et al.|
 |**2025-10-07**|**[Human3R: Everyone Everywhere All at Once](https://arxiv.org/abs/2510.06219)**|N/A|Page: https://fanegg.github.io/Human3R Code: https://github.com/fanegg/Human3R|cs.CV|None|Yue Chen et al.|
