@@ -1,4 +1,4 @@
-## Updated at 2025-10-14 08:16:32
+## Updated at 2025-10-14 20:08:12
 
 ## 3DGS Semantic
 
@@ -155,6 +155,7 @@ Query: (abs:'Multi-View Stereo' OR abs:'Multi View Stereo' OR abs:'Multi-View De
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-10-12**|**[WorldMirror: Universal 3D World Reconstruction with Any-Prior Prompting](https://arxiv.org/abs/2510.10726)**|N/A|Project page, code, and models will be publicly available soon|cs.CV|None|Yifan Liu et al.|
 |**2025-10-10**|**[Visibility-Aware Densification for 3D Gaussian Splatting in Dynamic Urban Scenes](https://arxiv.org/abs/2510.09364)**|N/A|None|cs.CV|None|Yikang Zhang, Rui Fan|
 |**2025-09-30**|**[PFDepth: Heterogeneous Pinhole-Fisheye Joint Depth Estimation via Distortion-aware Gaussian-Splatted Volumetric Fusion](https://arxiv.org/abs/2509.26008)**|N/A|Accepted by ACM MM 2025 Conference|cs.CV|None|Zhiwei Zhang et al.|
 |**2025-09-28**|**[FastViDAR: Real-Time Omnidirectional Depth Estimation via Alternative Hierarchical Attention](https://arxiv.org/abs/2509.23733)**|N/A|None|cs.CV|None|Hangtian Zhao et al.|
@@ -556,6 +557,9 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-10-13**|**[Evaluating the effects of preprocessing, method selection, and hyperparameter tuning on SAR-based flood mapping and water depth estimation](https://arxiv.org/abs/2510.11305)**|N/A|None|cs.CV|None|Jean-Paul Travert et al.|
+|**2025-10-11**|**[Gesplat: Robust Pose-Free 3D Reconstruction via Geometry-Guided Gaussian Splatting](https://arxiv.org/abs/2510.10097)**|N/A|None|cs.CV|None|Jiahui Lu et al.|
+|**2025-10-10**|**[Fast Self-Supervised depth and mask aware Association for Multi-Object Tracking](https://arxiv.org/abs/2510.09878)**|N/A|None|cs.CV|None|Milad Khanchi et al.|
 |**2025-10-10**|**[Hybrid-grained Feature Aggregation with Coarse-to-fine Language Guidance for Self-supervised Monocular Depth Estimation](https://arxiv.org/abs/2510.09320)**|N/A|ICCV 2025|cs.CV|None|Wenyao Zhang et al.|
 |**2025-10-10**|**[Online Video Depth Anything: Temporally-Consistent Depth Prediction with Low Memory Consumption](https://arxiv.org/abs/2510.09182)**|N/A|None|cs.CV|None|Johann-Friedrich Feiden et al.|
 |**2025-10-09**|**[RayFusion: Ray Fusion Enhanced Collaborative Visual Perception](https://arxiv.org/abs/2510.08017)**|N/A|Accepted by NeurIPS2025|cs.CV|None|Shaohong Wang et al.|

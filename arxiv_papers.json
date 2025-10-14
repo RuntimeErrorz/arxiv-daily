@@ -1,5 +1,168 @@
 {
   "3DGS Semantic": {
+    "2510.11689": {
+      "title": "Phys2Real: Fusing VLM Priors with Interactive Online Adaptation for Uncertainty-Aware Sim-to-Real Manipulation",
+      "authors": [
+        "Maggie Wang",
+        "Stephen Tian",
+        "Aiden Swann",
+        "Ola Shorinwa",
+        "Jiajun Wu",
+        "Mac Schwager"
+      ],
+      "published": "2025-10-13T17:51:23+00:00",
+      "updated": "2025-10-13T17:51:23+00:00",
+      "summary": "Learning robotic manipulation policies directly in the real world can be\nexpensive and time-consuming. While reinforcement learning (RL) policies\ntrained in simulation present a scalable alternative, effective sim-to-real\ntransfer remains challenging, particularly for tasks that require precise\ndynamics. To address this, we propose Phys2Real, a real-to-sim-to-real RL\npipeline that combines vision-language model (VLM)-inferred physical parameter\nestimates with interactive adaptation through uncertainty-aware fusion. Our\napproach consists of three core components: (1) high-fidelity geometric\nreconstruction with 3D Gaussian splatting, (2) VLM-inferred prior distributions\nover physical parameters, and (3) online physical parameter estimation from\ninteraction data. Phys2Real conditions policies on interpretable physical\nparameters, refining VLM predictions with online estimates via ensemble-based\nuncertainty quantification. On planar pushing tasks of a T-block with varying\ncenter of mass (CoM) and a hammer with an off-center mass distribution,\nPhys2Real achieves substantial improvements over a domain randomization\nbaseline: 100% vs 79% success rate for the bottom-weighted T-block, 57% vs 23%\nin the challenging top-weighted T-block, and 15% faster average task completion\nfor hammer pushing. Ablation studies indicate that the combination of VLM and\ninteraction information is essential for success. Project website:\nhttps://phys2real.github.io/ .",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "http://arxiv.org/pdf/2510.11689v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.11689v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.11689v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.11689v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.10990": {
+      "title": "Secret-Protected Evolution for Differentially Private Synthetic Text Generation",
+      "authors": [
+        "Tianze Wang",
+        "Zhaoyu Chen",
+        "Jian Du",
+        "Yingtai Xiao",
+        "Linjun Zhang",
+        "Qiang Yan"
+      ],
+      "published": "2025-10-13T04:05:42+00:00",
+      "updated": "2025-10-13T04:05:42+00:00",
+      "summary": "Text data has become extremely valuable on large language models (LLMs) and\neven lead to general artificial intelligence (AGI). A lot of high-quality text\nin the real world is private and cannot be freely used due to privacy concerns.\nTherefore, differentially private (DP) synthetic text generation has been\nproposed, aiming to produce high-utility synthetic data while protecting\nsensitive information. However, existing DP synthetic text generation imposes\nuniform guarantees that often overprotect non-sensitive content, resulting in\nsubstantial utility loss and computational overhead. Therefore, we propose\nSecret-Protected Evolution (SecPE), a novel framework that extends private\nevolution with secret-aware protection. Theoretically, we show that SecPE\nsatisfies $(\\mathrm{p}, \\mathrm{r})$-secret protection, constituting a\nrelaxation of Gaussian DP that enables tighter utility-privacy trade-offs,\nwhile also substantially reducing computational complexity relative to baseline\nmethods. Empirically, across the OpenReview, PubMed, and Yelp benchmarks, SecPE\nconsistently achieves lower Fr\\'echet Inception Distance (FID) and higher\ndownstream task accuracy than GDP-based Aug-PE baselines, while requiring less\nnoise to attain the same level of protection. Our results highlight that\nsecret-aware guarantees can unlock more practical and effective\nprivacy-preserving synthetic text generation.",
+      "categories": [
+        "cs.CR",
+        "cs.CL",
+        "cs.NE"
+      ],
+      "primary_category": "cs.CR",
+      "pdf_url": "http://arxiv.org/pdf/2510.10990v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.10990v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.10990v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.10990v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.10713": {
+      "title": "Deep Learning in Astrophysics",
+      "authors": [
+        "Yuan-Sen Ting"
+      ],
+      "published": "2025-10-12T17:31:46+00:00",
+      "updated": "2025-10-12T17:31:46+00:00",
+      "summary": "Deep learning has generated diverse perspectives in astronomy, with ongoing\ndiscussions between proponents and skeptics motivating this review. We examine\nhow neural networks complement classical statistics, extending our data\nanalytical toolkit for modern surveys. Astronomy offers unique opportunities\nthrough encoding physical symmetries, conservation laws, and differential\nequations directly into architectures, creating models that generalize beyond\ntraining data. Yet challenges persist as unlabeled observations number in\nbillions while confirmed examples with known properties remain scarce and\nexpensive. This review demonstrates how deep learning incorporates domain\nknowledge through architectural design, with built-in assumptions guiding\nmodels toward physically meaningful solutions. We evaluate where these methods\noffer genuine advances versus claims requiring careful scrutiny. - Neural\narchitectures overcome trade-offs between scalability, expressivity, and data\nefficiency by encoding physical symmetries and conservation laws into network\nstructure, enabling learning from limited labeled data. - Simulation-based\ninference and anomaly detection extract information from complex, non-Gaussian\ndistributions where analytical likelihoods fail, enabling field-level\ncosmological analysis and systematic discovery of rare phenomena. - Multi-scale\nneural modeling bridges resolution gaps in astronomical simulations, learning\neffective subgrid physics from expensive high-fidelity runs to enhance\nlarge-volume calculations where direct computation remains prohibitive. -\nEmerging paradigms-reinforcement learning for telescope operations, foundation\nmodels learning from minimal examples, and large language model agents for\nresearch automation-show promise though are still developing in astronomical\napplications.",
+      "categories": [
+        "astro-ph.IM",
+        "astro-ph.CO",
+        "astro-ph.EP",
+        "astro-ph.GA",
+        "astro-ph.HE",
+        "cs.AI"
+      ],
+      "primary_category": "astro-ph.IM",
+      "pdf_url": "http://arxiv.org/pdf/2510.10713v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Manuscript submitted to Annual Review of Astronomy and Astrophysics\n  for Volume 64. This is the authors' version. Revisions and the final version\n  will be available at https://www.annualreviews.org/content/journals/astro",
+      "entry_id": "http://arxiv.org/abs/2510.10713v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.10713v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.10713v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.10637": {
+      "title": "High-Fidelity Simulated Data Generation for Real-World Zero-Shot Robotic Manipulation Learning with Gaussian Splatting",
+      "authors": [
+        "Haoyu Zhao",
+        "Cheng Zeng",
+        "Linghao Zhuang",
+        "Yaxi Zhao",
+        "Shengke Xue",
+        "Hao Wang",
+        "Xingyue Zhao",
+        "Zhongyu Li",
+        "Kehan Li",
+        "Siteng Huang",
+        "Mingxiu Chen",
+        "Xin Li",
+        "Deli Zhao",
+        "Hua Zou"
+      ],
+      "published": "2025-10-12T14:42:07+00:00",
+      "updated": "2025-10-12T14:42:07+00:00",
+      "summary": "The scalability of robotic learning is fundamentally bottlenecked by the\nsignificant cost and labor of real-world data collection. While simulated data\noffers a scalable alternative, it often fails to generalize to the real world\ndue to significant gaps in visual appearance, physical properties, and object\ninteractions. To address this, we propose RoboSimGS, a novel Real2Sim2Real\nframework that converts multi-view real-world images into scalable,\nhigh-fidelity, and physically interactive simulation environments for robotic\nmanipulation. Our approach reconstructs scenes using a hybrid representation:\n3D Gaussian Splatting (3DGS) captures the photorealistic appearance of the\nenvironment, while mesh primitives for interactive objects ensure accurate\nphysics simulation. Crucially, we pioneer the use of a Multi-modal Large\nLanguage Model (MLLM) to automate the creation of physically plausible,\narticulated assets. The MLLM analyzes visual data to infer not only physical\nproperties (e.g., density, stiffness) but also complex kinematic structures\n(e.g., hinges, sliding rails) of objects. We demonstrate that policies trained\nentirely on data generated by RoboSimGS achieve successful zero-shot\nsim-to-real transfer across a diverse set of real-world manipulation tasks.\nFurthermore, data from RoboSimGS significantly enhances the performance and\ngeneralization capabilities of SOTA methods. Our results validate RoboSimGS as\na powerful and scalable solution for bridging the sim-to-real gap.",
+      "categories": [
+        "cs.RO"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "http://arxiv.org/pdf/2510.10637v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "13 pages, 6 figures",
+      "entry_id": "http://arxiv.org/abs/2510.10637v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.10637v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.10637v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2510.09586": {
       "title": "Vision Language Models: A Survey of 26K Papers",
       "authors": [
@@ -149,6 +312,42 @@
       ],
       "llm_approved": false
     },
+    "2510.09691": {
+      "title": "Evaluation of Differential Privacy Mechanisms on Federated Learning",
+      "authors": [
+        "Tejash Varsani"
+      ],
+      "published": "2025-10-09T11:32:36+00:00",
+      "updated": "2025-10-09T11:32:36+00:00",
+      "summary": "Federated learning is distributed model training across several clients\nwithout disclosing raw data. Despite advancements in data privacy, risks still\nremain. Differential Privacy (DP) is a technique to protect sensitive data by\nadding noise to model updates, usually controlled by a fixed privacy budget.\nHowever, this approach can introduce excessive noise, particularly when the\nmodel converges, which compromises performance. To address this problem,\nadaptive privacy budgets have been investigated as a potential solution. This\nwork implements DP methods using Laplace and Gaussian mechanisms with an\nadaptive privacy budget, extending the SelecEval simulator. We introduce an\nadaptive clipping approach in the Gaussian mechanism, ensuring that gradients\nof the model are dynamically updated rather than using a fixed sensitivity. We\nconduct extensive experiments with various privacy budgets, IID and non-IID\ndatasets, and different numbers of selected clients per round. While our\nexperiments were limited to 200 training rounds, the results suggest that\nadaptive privacy budgets and adaptive clipping can help maintain model accuracy\nwhile preserving privacy.",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "68T07, 68M14",
+        "I.2.6; I.2.11; K.6.5"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "http://arxiv.org/pdf/2510.09691v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Supervised by Prof. Dr.-Ing. habil. Alois C. Knoll; Advisor:\n  Nagacharan Teja Tangirala, M.Sc",
+      "entry_id": "http://arxiv.org/abs/2510.09691v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.09691v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.09691v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2510.07961": {
       "title": "Latent Harmony: Synergistic Unified UHD Image Restoration via Latent Space Regularization and Controllable Refinement",
       "authors": [
@@ -162,26 +361,26 @@
         "Zheng-Jun Zha"
       ],
       "published": "2025-10-09T08:54:26+00:00",
-      "updated": "2025-10-09T08:54:26+00:00",
+      "updated": "2025-10-13T03:30:40+00:00",
       "summary": "Ultra-High Definition (UHD) image restoration faces a trade-off between\ncomputational efficiency and high-frequency detail retention. While Variational\nAutoencoders (VAEs) improve efficiency via latent-space processing, their\nGaussian constraint often discards degradation-specific high-frequency\ninformation, hurting reconstruction fidelity. To overcome this, we propose\nLatent Harmony, a two-stage framework that redefines VAEs for UHD restoration\nby jointly regularizing the latent space and enforcing high-frequency-aware\nreconstruction.In Stage One, we introduce LH-VAE, which enhances semantic\nrobustness through visual semantic constraints and progressive degradation\nperturbations, while latent equivariance strengthens high-frequency\nreconstruction.Stage Two jointly trains this refined VAE with a restoration\nmodel using High-Frequency Low-Rank Adaptation (HF-LoRA): an encoder LoRA\nguided by a fidelity-oriented high-frequency alignment loss to recover\nauthentic details, and a decoder LoRA driven by a perception-oriented loss to\nsynthesize realistic textures. Both LoRA modules are trained via alternating\noptimization with selective gradient propagation to preserve the pretrained\nlatent structure.At inference, a tunable parameter {\\alpha} enables flexible\nfidelity-perception trade-offs.Experiments show Latent Harmony achieves\nstate-of-the-art performance across UHD and standard-resolution tasks,\neffectively balancing efficiency, perceptual quality, and reconstruction\naccuracy.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "http://arxiv.org/pdf/2510.07961v1",
+      "pdf_url": "http://arxiv.org/pdf/2510.07961v2",
       "journal_ref": null,
       "doi": null,
       "comment": "Accepted by NeurIPS 2025",
-      "entry_id": "http://arxiv.org/abs/2510.07961v1",
+      "entry_id": "http://arxiv.org/abs/2510.07961v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2510.07961v1",
+          "href": "http://arxiv.org/abs/2510.07961v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2510.07961v1",
+          "href": "http://arxiv.org/pdf/2510.07961v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -344,31 +543,31 @@
     "2510.07058": {
       "title": "Concept Retrieval -- What and How?",
       "authors": [
-        "Ori nizan",
+        "Ori Nizan",
         "Oren Shrout",
         "Ayellet Tal"
       ],
       "published": "2025-10-08T14:26:18+00:00",
-      "updated": "2025-10-08T14:26:18+00:00",
+      "updated": "2025-10-12T12:22:04+00:00",
       "summary": "A concept may reflect either a concrete or abstract idea. Given an input\nimage, this paper seeks to retrieve other images that share its central\nconcepts, capturing aspects of the underlying narrative. This goes beyond\nconventional retrieval or clustering methods, which emphasize visual or\nsemantic similarity. We formally define the problem, outline key requirements,\nand introduce appropriate evaluation metrics. We propose a novel approach\ngrounded in two key observations: (1) While each neighbor in the embedding\nspace typically shares at least one concept with the query, not all neighbors\nnecessarily share the same concept with one another. (2) Modeling this\nneighborhood with a bimodal Gaussian distribution uncovers meaningful structure\nthat facilitates concept identification. Qualitative, quantitative, and human\nevaluations confirm the effectiveness of our approach. See the package on PyPI:\nhttps://pypi.org/project/coret/",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "http://arxiv.org/pdf/2510.07058v1",
+      "pdf_url": "http://arxiv.org/pdf/2510.07058v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2510.07058v1",
+      "entry_id": "http://arxiv.org/abs/2510.07058v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2510.07058v1",
+          "href": "http://arxiv.org/abs/2510.07058v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2510.07058v1",
+          "href": "http://arxiv.org/pdf/2510.07058v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -1215,26 +1414,26 @@
         "Huiyang Zhou"
       ],
       "published": "2025-09-30T00:37:33+00:00",
-      "updated": "2025-09-30T00:37:33+00:00",
+      "updated": "2025-10-11T03:03:22+00:00",
       "summary": "3D Gaussian splatting (3DGS) is a transformative technique with profound\nimplications on novel view synthesis and real-time rendering. Given its\nimportance, there have been many attempts to improve its performance. However,\nwith the increasing complexity of GPU architectures and the vast search space\nof performance-tuning parameters, it is a challenging task. Although manual\noptimizations have achieved remarkable speedups, they require domain expertise\nand the optimization process can be highly time consuming and error prone. In\nthis paper, we propose to exploit large language models (LLMs) to analyze and\noptimize Gaussian splatting kernels. To our knowledge, this is the first work\nto use LLMs to optimize highly specialized real-world GPU kernels. We reveal\nthe intricacies of using LLMs for code optimization and analyze the code\noptimization techniques from the LLMs. We also propose ways to collaborate with\nLLMs to further leverage their capabilities. For the original 3DGS code on the\nMipNeRF360 datasets, LLMs achieve significant speedups, 19% with Deepseek and\n24% with GPT-5, demonstrating the different capabilities of different LLMs. By\nfeeding additional information from performance profilers, the performance\nimprovement from LLM-optimized code is enhanced to up to 42% and 38% on\naverage. In comparison, our best-effort manually optimized version can achieve\na performance improvement up to 48% and 39% on average, showing that there are\nstill optimizations beyond the capabilities of current LLMs. On the other hand,\neven upon a newly proposed 3DGS framework with algorithmic optimizations,\nSeele, LLMs can still further enhance its performance by 6%, showing that there\nare optimization opportunities missed by domain experts. This highlights the\npotential of collaboration between domain experts and LLMs.",
       "categories": [
         "cs.AR"
       ],
       "primary_category": "cs.AR",
-      "pdf_url": "http://arxiv.org/pdf/2509.25626v1",
+      "pdf_url": "http://arxiv.org/pdf/2509.25626v2",
       "journal_ref": null,
       "doi": null,
-      "comment": null,
-      "entry_id": "http://arxiv.org/abs/2509.25626v1",
+      "comment": "Updated Figure 12",
+      "entry_id": "http://arxiv.org/abs/2509.25626v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2509.25626v1",
+          "href": "http://arxiv.org/abs/2509.25626v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2509.25626v1",
+          "href": "http://arxiv.org/pdf/2509.25626v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -61999,6 +62198,45 @@
     }
   },
   "MVS": {
+    "2510.10726": {
+      "title": "WorldMirror: Universal 3D World Reconstruction with Any-Prior Prompting",
+      "authors": [
+        "Yifan Liu",
+        "Zhiyuan Min",
+        "Zhenwei Wang",
+        "Junta Wu",
+        "Tengfei Wang",
+        "Yixuan Yuan",
+        "Yawei Luo",
+        "Chunchao Guo"
+      ],
+      "published": "2025-10-12T17:59:09+00:00",
+      "updated": "2025-10-12T17:59:09+00:00",
+      "summary": "We present WorldMirror, an all-in-one, feed-forward model for versatile 3D\ngeometric prediction tasks. Unlike existing methods constrained to image-only\ninputs or customized for a specific task, our framework flexibly integrates\ndiverse geometric priors, including camera poses, intrinsics, and depth maps,\nwhile simultaneously generating multiple 3D representations: dense point\nclouds, multi-view depth maps, camera parameters, surface normals, and 3D\nGaussians. This elegant and unified architecture leverages available prior\ninformation to resolve structural ambiguities and delivers geometrically\nconsistent 3D outputs in a single forward pass. WorldMirror achieves\nstate-of-the-art performance across diverse benchmarks from camera, point map,\ndepth, and surface normal estimation to novel view synthesis, while maintaining\nthe efficiency of feed-forward inference. Code and models will be publicly\navailable soon.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.10726v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Project page, code, and models will be publicly available soon",
+      "entry_id": "http://arxiv.org/abs/2510.10726v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.10726v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.10726v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2510.09364": {
       "title": "Visibility-Aware Densification for 3D Gaussian Splatting in Dynamic Urban Scenes",
       "authors": [
@@ -76639,6 +76877,112 @@
     }
   },
   "Depth Estimation": {
+    "2510.11305": {
+      "title": "Evaluating the effects of preprocessing, method selection, and hyperparameter tuning on SAR-based flood mapping and water depth estimation",
+      "authors": [
+        "Jean-Paul Travert",
+        "Cédric Goeury",
+        "Sébastien Boyaval",
+        "Vito Bacchi",
+        "Fabrice Zaoui"
+      ],
+      "published": "2025-10-13T11:54:42+00:00",
+      "updated": "2025-10-13T11:54:42+00:00",
+      "summary": "Flood mapping and water depth estimation from Synthetic Aperture Radar (SAR)\nimagery are crucial for calibrating and validating hydraulic models. This study\nuses SAR imagery to evaluate various preprocessing (especially speckle noise\nreduction), flood mapping, and water depth estimation methods. The impact of\nthe choice of method at different steps and its hyperparameters is studied by\nconsidering an ensemble of preprocessed images, flood maps, and water depth\nfields. The evaluation is conducted for two flood events on the Garonne River\n(France) in 2019 and 2021, using hydrodynamic simulations and in-situ\nobservations as reference data. Results show that the choice of speckle filter\nalters flood extent estimations with variations of several square kilometers.\nFurthermore, the selection and tuning of flood mapping methods also affect\nperformance. While supervised methods outperformed unsupervised ones, tuned\nunsupervised approaches (such as local thresholding or change detection) can\nachieve comparable results. The compounded uncertainty from preprocessing and\nflood mapping steps also introduces high variability in the water depth field\nestimates. This study highlights the importance of considering the entire\nprocessing pipeline, encompassing preprocessing, flood mapping, and water depth\nestimation methods and their associated hyperparameters. Rather than relying on\na single configuration, adopting an ensemble approach and accounting for\nmethodological uncertainty should be privileged. For flood mapping, the method\nchoice has the most influence. For water depth estimation, the most influential\nprocessing step was the flood map input resulting from the flood mapping step\nand the hyperparameters of the methods.",
+      "categories": [
+        "cs.CV",
+        "physics.geo-ph"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.11305v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.11305v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.11305v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.11305v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2510.10097": {
+      "title": "Gesplat: Robust Pose-Free 3D Reconstruction via Geometry-Guided Gaussian Splatting",
+      "authors": [
+        "Jiahui Lu",
+        "Haihong Xiao",
+        "Xueyan Zhao",
+        "Wenxiong Kang"
+      ],
+      "published": "2025-10-11T08:13:46+00:00",
+      "updated": "2025-10-11T08:13:46+00:00",
+      "summary": "Neural Radiance Fields (NeRF) and 3D Gaussian Splatting (3DGS) have advanced\n3D reconstruction and novel view synthesis, but remain heavily dependent on\naccurate camera poses and dense viewpoint coverage. These requirements limit\ntheir applicability in sparse-view settings, where pose estimation becomes\nunreliable and supervision is insufficient. To overcome these challenges, we\nintroduce Gesplat, a 3DGS-based framework that enables robust novel view\nsynthesis and geometrically consistent reconstruction from unposed sparse\nimages. Unlike prior works that rely on COLMAP for sparse point cloud\ninitialization, we leverage the VGGT foundation model to obtain more reliable\ninitial poses and dense point clouds. Our approach integrates several key\ninnovations: 1) a hybrid Gaussian representation with dual position-shape\noptimization enhanced by inter-view matching consistency; 2) a graph-guided\nattribute refinement module to enhance scene details; and 3) flow-based depth\nregularization that improves depth estimation accuracy for more effective\nsupervision. Comprehensive quantitative and qualitative experiments demonstrate\nthat our approach achieves more robust performance on both forward-facing and\nlarge-scale complex datasets compared to other pose-free methods.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.10097v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.10097v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.10097v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.10097v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2510.09878": {
+      "title": "Fast Self-Supervised depth and mask aware Association for Multi-Object Tracking",
+      "authors": [
+        "Milad Khanchi",
+        "Maria Amer",
+        "Charalambos Poullis"
+      ],
+      "published": "2025-10-10T21:32:24+00:00",
+      "updated": "2025-10-10T21:32:24+00:00",
+      "summary": "Multi-object tracking (MOT) methods often rely on Intersection-over-Union\n(IoU) for association. However, this becomes unreliable when objects are\nsimilar or occluded. Also, computing IoU for segmentation masks is\ncomputationally expensive. In this work, we use segmentation masks to capture\nobject shapes, but we do not compute segmentation IoU. Instead, we fuse depth\nand mask features and pass them through a compact encoder trained\nself-supervised. This encoder produces stable object representations, which we\nuse as an additional similarity cue alongside bounding box IoU and\nre-identification features for matching. We obtain depth maps from a zero-shot\ndepth estimator and object masks from a promptable visual segmentation model to\nobtain fine-grained spatial cues. Our MOT method is the first to use the\nself-supervised encoder to refine segmentation masks without computing masks\nIoU. MOT can be divided into joint detection-ReID (JDR) and\ntracking-by-detection (TBD) models. The latter are computationally more\nefficient. Experiments of our TBD method on challenging benchmarks with\nnon-linear motion, occlusion, and crowded scenes, such as SportsMOT and\nDanceTrack, show that our method outperforms the TBD state-of-the-art on most\nmetrics, while achieving competitive performance on simpler benchmarks with\nlinear motion, such as MOT17.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.09878v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.09878v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.09878v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.09878v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2510.09320": {
       "title": "Hybrid-grained Feature Aggregation with Coarse-to-fine Language Guidance for Self-supervised Monocular Depth Estimation",
       "authors": [
