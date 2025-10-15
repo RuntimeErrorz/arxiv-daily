@@ -1,5 +1,199 @@
 {
   "3DGS Semantic": {
+    "2510.12282": {
+      "title": "PAGS: Priority-Adaptive Gaussian Splatting for Dynamic Driving Scenes",
+      "authors": [
+        "Ying A",
+        "Wenzhang Sun",
+        "Chang Zeng",
+        "Chunfeng Wang",
+        "Hao Li",
+        "Jianxun Cui"
+      ],
+      "published": "2025-10-14T08:36:09+00:00",
+      "updated": "2025-10-14T08:36:09+00:00",
+      "summary": "Reconstructing dynamic 3D urban scenes is crucial for autonomous driving, yet\ncurrent methods face a stark trade-off between fidelity and computational cost.\nThis inefficiency stems from their semantically agnostic design, which\nallocates resources uniformly, treating static backgrounds and safety-critical\nobjects with equal importance. To address this, we introduce Priority-Adaptive\nGaussian Splatting (PAGS), a framework that injects task-aware semantic\npriorities directly into the 3D reconstruction and rendering pipeline. PAGS\nintroduces two core contributions: (1) Semantically-Guided Pruning and\nRegularization strategy, which employs a hybrid importance metric to\naggressively simplify non-critical scene elements while preserving fine-grained\ndetails on objects vital for navigation. (2) Priority-Driven Rendering\npipeline, which employs a priority-based depth pre-pass to aggressively cull\noccluded primitives and accelerate the final shading computations. Extensive\nexperiments on the Waymo and KITTI datasets demonstrate that PAGS achieves\nexceptional reconstruction quality, particularly on safety-critical objects,\nwhile significantly reducing training time and boosting rendering speeds to\nover 350 FPS.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.12282v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.12282v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.12282v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.12282v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.12266": {
+      "title": "HiLoRA: Adaptive Hierarchical LoRA Routing for Training-Free Domain Generalization",
+      "authors": [
+        "Ziyi Han",
+        "Huanyu Wang",
+        "Zeyu Zhang",
+        "Xiangxiang Dai",
+        "Xutong Liu",
+        "John C. S. Lui"
+      ],
+      "published": "2025-10-14T08:19:13+00:00",
+      "updated": "2025-10-14T08:19:13+00:00",
+      "summary": "Low-Rank Adaptation (LoRA) has emerged as a widely used technique for\nadapting large language models (LLMs) to new domains, due to its modular design\nand broad availability on platforms such as HuggingFace. This availability has\nmotivated efforts to reuse existing LoRAs for domain generalization.\n  However, existing methods often rely on explicit task labels or additional\ntraining, which are impractical for deployment. Moreover, they typically\nactivate a fixed number of entire LoRA modules, leading to parameter redundancy\nor insufficiency that degrade performance.\n  In this paper, we propose \\texttt{HiLoRA}, a training-free framework that\nperforms adaptive hierarchical routing over LoRA pools. Drawing on structural\nproperties of LoRA, we define rank-one components (ROCs), in which each rank\nparameter is regarded as an independent unit. For a given input sequence,\n\\texttt{HiLoRA} first adaptively selects a subset of LoRAs and determines their\nROC allocation based on Gaussian likelihoods at the sequence level. At the\ntoken level, it further refines routing by activating only the most informative\nROCs.\n  We further provide theoretical guarantees that \\texttt{HiLoRA} selects the\nmost relevant LoRAs with high probability.\n  Extensive experiments show that \\texttt{HiLoRA} achieves substantial\nimprovements in domain generalization, with accuracy gains of up to {\\small\n$55\\%$} over state-of-the-art baselines, while maintaining comparable inference\nthroughput.",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "http://arxiv.org/pdf/2510.12266v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.12266v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.12266v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.12266v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.12174": {
+      "title": "UniGS: Unified Geometry-Aware Gaussian Splatting for Multimodal Rendering",
+      "authors": [
+        "Yusen Xie",
+        "Zhenmin Huang",
+        "Jianhao Jiao",
+        "Dimitrios Kanoulas",
+        "Jun Ma"
+      ],
+      "published": "2025-10-14T06:07:57+00:00",
+      "updated": "2025-10-14T06:07:57+00:00",
+      "summary": "In this paper, we propose UniGS, a unified map representation and\ndifferentiable framework for high-fidelity multimodal 3D reconstruction based\non 3D Gaussian Splatting. Our framework integrates a CUDA-accelerated\nrasterization pipeline capable of rendering photo-realistic RGB images,\ngeometrically accurate depth maps, consistent surface normals, and semantic\nlogits simultaneously. We redesign the rasterization to render depth via\ndifferentiable ray-ellipsoid intersection rather than using Gaussian centers,\nenabling effective optimization of rotation and scale attribute through\nanalytic depth gradients. Furthermore, we derive the analytic gradient\nformulation for surface normal rendering, ensuring geometric consistency among\nreconstructed 3D scenes. To improve computational and storage efficiency, we\nintroduce a learnable attribute that enables differentiable pruning of\nGaussians with minimal contribution during training. Quantitative and\nqualitative experiments demonstrate state-of-the-art reconstruction accuracy\nacross all modalities, validating the efficacy of our geometry-aware paradigm.\nSource code and multimodal viewer will be available on GitHub.",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.12174v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.12174v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.12174v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.12174v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.12101": {
+      "title": "Gaussian Semantic Field for One-shot LiDAR Global Localization",
+      "authors": [
+        "Pengyu Yin",
+        "Shenghai Yuan",
+        "Haozhi Cao",
+        "Xingyu Ji",
+        "Ruofei Bai",
+        "Siyu Chen",
+        "Lihua Xie"
+      ],
+      "published": "2025-10-14T03:08:02+00:00",
+      "updated": "2025-10-14T03:08:02+00:00",
+      "summary": "We present a one-shot LiDAR global localization algorithm featuring semantic\ndisambiguation ability based on a lightweight tri-layered scene graph. While\nlandmark semantic registration-based methods have shown promising performance\nimprovements in global localization compared with geometric-only methods,\nlandmarks can be repetitive and misleading for correspondence establishment. We\npropose to mitigate this problem by modeling semantic distributions with\ncontinuous functions learned from a population of Gaussian processes. Compared\nwith discrete semantic labels, the continuous functions capture finer-grained\ngeo-semantic information and also provide more detailed metric information for\ncorrespondence establishment. We insert this continuous function as the middle\nlayer between the object layer and the metric-semantic layer, forming a\ntri-layered 3D scene graph, serving as a light-weight yet performant backend\nfor one-shot localization. We term our global localization pipeline Outram-GSF\n(Gaussian semantic field) and conduct a wide range of experiments on publicly\navailable data sets, validating the superior performance against the current\nstate-of-the-art.",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "http://arxiv.org/pdf/2510.12101v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.12101v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.12101v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.12101v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.11953": {
+      "title": "Sculpting Latent Spaces With MMD: Disentanglement With Programmable Priors",
+      "authors": [
+        "Quentin Fruytier",
+        "Akshay Malhotra",
+        "Shahab Hamidi-Rad",
+        "Aditya Sant",
+        "Aryan Mokhtari",
+        "Sujay Sanghavi"
+      ],
+      "published": "2025-10-13T21:26:01+00:00",
+      "updated": "2025-10-13T21:26:01+00:00",
+      "summary": "Learning disentangled representations, where distinct factors of variation\nare captured by independent latent variables, is a central goal in machine\nlearning. The dominant approach has been the Variational Autoencoder (VAE)\nframework, which uses a Kullback-Leibler (KL) divergence penalty to encourage\nthe latent space to match a factorized Gaussian prior. In this work, however,\nwe provide direct evidence that this KL-based regularizer is an unreliable\nmechanism, consistently failing to enforce the target distribution on the\naggregate posterior. We validate this and quantify the resulting entanglement\nusing our novel, unsupervised Latent Predictability Score (LPS). To address\nthis failure, we introduce the Programmable Prior Framework, a method built on\nthe Maximum Mean Discrepancy (MMD). Our framework allows practitioners to\nexplicitly sculpt the latent space, achieving state-of-the-art mutual\nindependence on complex datasets like CIFAR-10 and Tiny ImageNet without the\ncommon reconstruction trade-off. Furthermore, we demonstrate how this\nprogrammability can be used to engineer sophisticated priors that improve\nalignment with semantically meaningful features. Ultimately, our work provides\na foundational tool for representation engineering, opening new avenues for\nmodel identifiability and causal reasoning.",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "http://arxiv.org/pdf/2510.11953v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.11953v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.11953v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.11953v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2510.11689": {
       "title": "Phys2Real: Fusing VLM Priors with Interactive Online Adaptation for Uncertainty-Aware Sim-to-Real Manipulation",
       "authors": [
@@ -76876,6 +77070,43 @@
     }
   },
   "Depth Estimation": {
+    "2510.12753": {
+      "title": "E-MoFlow: Learning Egomotion and Optical Flow from Event Data via Implicit Regularization",
+      "authors": [
+        "Wenpu Li",
+        "Bangyan Liao",
+        "Yi Zhou",
+        "Qi Xu",
+        "Pian Wan",
+        "Peidong Liu"
+      ],
+      "published": "2025-10-14T17:33:44+00:00",
+      "updated": "2025-10-14T17:33:44+00:00",
+      "summary": "The estimation of optical flow and 6-DoF ego-motion, two fundamental tasks in\n3D vision, has typically been addressed independently. For neuromorphic vision\n(e.g., event cameras), however, the lack of robust data association makes\nsolving the two problems separately an ill-posed challenge, especially in the\nabsence of supervision via ground truth. Existing works mitigate this\nill-posedness by either enforcing the smoothness of the flow field via an\nexplicit variational regularizer or leveraging explicit structure-and-motion\npriors in the parametrization to improve event alignment. The former notably\nintroduces bias in results and computational overhead, while the latter, which\nparametrizes the optical flow in terms of the scene depth and the camera\nmotion, often converges to suboptimal local minima. To address these issues, we\npropose an unsupervised framework that jointly optimizes egomotion and optical\nflow via implicit spatial-temporal and geometric regularization. First, by\nmodeling camera's egomotion as a continuous spline and optical flow as an\nimplicit neural representation, our method inherently embeds spatial-temporal\ncoherence through inductive biases. Second, we incorporate structure-and-motion\npriors through differential geometric constraints, bypassing explicit depth\nestimation while maintaining rigorous geometric consistency. As a result, our\nframework (called E-MoFlow) unifies egomotion and optical flow estimation via\nimplicit regularization under a fully unsupervised paradigm. Experiments\ndemonstrate its versatility to general 6-DoF motion scenarios, achieving\nstate-of-the-art performance among unsupervised methods and competitive even\nwith supervised approaches.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.12753v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "The Thirty-Ninth Annual Conference on Neural Information Processing\n  Systems(NeurIPS 2025)",
+      "entry_id": "http://arxiv.org/abs/2510.12753v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.12753v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.12753v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2510.11305": {
       "title": "Evaluating the effects of preprocessing, method selection, and hyperparameter tuning on SAR-based flood mapping and water depth estimation",
       "authors": [
