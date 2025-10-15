@@ -1646,31 +1646,30 @@
         "Kiran Nijjer",
         "Nishant Chinta",
         "Ryan Bui",
-        "Ben Liu",
         "Kevin Zhu"
       ],
       "published": "2025-09-28T05:09:43+00:00",
-      "updated": "2025-09-28T05:09:43+00:00",
+      "updated": "2025-10-07T09:42:24+00:00",
       "summary": "Deep learning models are increasingly used for radiographic analysis, but\ntheir reliability is challenged by the stochastic noise inherent in clinical\nimaging. A systematic, cross-task understanding of how different noise types\nimpact these models is lacking. Here, we evaluate the robustness of\nstate-of-the-art convolutional neural networks (CNNs) to simulated quantum\n(Poisson) and electronic (Gaussian) noise in two key chest X-ray tasks:\nsemantic segmentation and pulmonary disease classification. Using a novel,\nscalable noise injection framework, we applied controlled, clinically-motivated\nnoise severities to common architectures (UNet, DeepLabV3, FPN; ResNet,\nDenseNet, EfficientNet) on public datasets (Landmark, ChestX-ray14). Our\nresults reveal a stark dichotomy in task robustness. Semantic segmentation\nmodels proved highly vulnerable, with lung segmentation performance collapsing\nunder severe electronic noise (Dice Similarity Coefficient drop of 0.843),\nsignifying a near-total model failure. In contrast, classification tasks\ndemonstrated greater overall resilience, but this robustness was not uniform.\nWe discovered a differential vulnerability: certain tasks, such as\ndistinguishing Pneumothorax from Atelectasis, failed catastrophically under\nquantum noise (AUROC drop of 0.355), while others were more susceptible to\nelectronic noise. These findings demonstrate that while classification models\npossess a degree of inherent robustness, pixel-level segmentation tasks are far\nmore brittle. The task- and noise-specific nature of model failure underscores\nthe critical need for targeted validation and mitigation strategies before the\nsafe clinical deployment of diagnostic AI.",
       "categories": [
         "eess.IV",
         "cs.LG"
       ],
       "primary_category": "eess.IV",
-      "pdf_url": "http://arxiv.org/pdf/2509.25265v1",
+      "pdf_url": "http://arxiv.org/pdf/2509.25265v2",
       "journal_ref": null,
       "doi": null,
       "comment": "Accepted to ARRS 2026 Annual Meeting",
-      "entry_id": "http://arxiv.org/abs/2509.25265v1",
+      "entry_id": "http://arxiv.org/abs/2509.25265v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2509.25265v1",
+          "href": "http://arxiv.org/abs/2509.25265v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2509.25265v1",
+          "href": "http://arxiv.org/pdf/2509.25265v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
