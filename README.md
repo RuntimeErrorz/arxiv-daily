@@ -1,4 +1,4 @@
-## Updated at 2025-10-16 08:17:16
+## Updated at 2025-10-16 20:07:58
 
 ## 3DGS Semantic
 
@@ -557,6 +557,8 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-10-15**|**[XD-RCDepth: Lightweight Radar-Camera Depth Estimation with Explainability-Aligned and Distribution-Aware Distillation](https://arxiv.org/abs/2510.13565)**|N/A|Submitted to ICASSP 2026|cs.CV|None|Huawei Sun et al.|
+|**2025-10-15**|**[FlyAwareV2: A Multimodal Cross-Domain UAV Dataset for Urban Scene Understanding](https://arxiv.org/abs/2510.13243)**|N/A|20 pages, 7 figures, 10 tables, data and code available|cs.CV|None|Francesco Barbato et al.|
 |**2025-10-14**|**[E-MoFlow: Learning Egomotion and Optical Flow from Event Data via Implicit Regularization](https://arxiv.org/abs/2510.12753)**|N/A|The Thirty-Ninth Annual Conference on Neural Information Processing Systems(NeurIPS 2025)|cs.CV|None|Wenpu Li et al.|
 |**2025-10-13**|**[Evaluating the effects of preprocessing, method selection, and hyperparameter tuning on SAR-based flood mapping and water depth estimation](https://arxiv.org/abs/2510.11305)**|N/A|None|cs.CV|None|Jean-Paul Travert et al.|
 |**2025-10-11**|**[Gesplat: Robust Pose-Free 3D Reconstruction via Geometry-Guided Gaussian Splatting](https://arxiv.org/abs/2510.10097)**|N/A|None|cs.CV|None|Jiahui Lu et al.|

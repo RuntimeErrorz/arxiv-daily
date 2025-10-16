@@ -1,5 +1,123 @@
 {
   "3DGS Semantic": {
+    "2510.13800": {
+      "title": "Reasoning in Space via Grounding in the World",
+      "authors": [
+        "Yiming Chen",
+        "Zekun Qi",
+        "Wenyao Zhang",
+        "Xin Jin",
+        "Li Zhang",
+        "Peidong Liu"
+      ],
+      "published": "2025-10-15T17:58:08+00:00",
+      "updated": "2025-10-15T17:58:08+00:00",
+      "summary": "In this paper, we claim that 3D visual grounding is the cornerstone of\nspatial reasoning and introduce the Grounded-Spatial Reasoner (GS-Reasoner) to\nexplore the effective spatial representations that bridge the gap between them.\nExisting 3D LLMs suffer from the absence of a unified 3D representation capable\nof jointly capturing semantic and geometric information. This deficiency is\nmanifested either in poor performance on grounding or in an excessive reliance\non external modules, ultimately hindering the seamless integration of grounding\nand spatial reasoning. To address this, we propose a simple yet effective\ndual-path pooling mechanism that tightly aligns geometric features with both\nsemantic and positional cues, constructing a unified image patch-based 3D\nrepresentation that encapsulates all essential information without increasing\nthe number of input tokens. Leveraging this holistic representation,\nGS-Reasoner is the first 3D LLM that achieves autoregressive grounding entirely\nwithout external modules while delivering performance comparable to\nstate-of-the-art models, establishing a unified and self-contained framework\nfor 3D spatial reasoning. To further bridge grounding and spatial reasoning, we\nintroduce the Grounded Chain-of-Thought (GCoT) dataset. This dataset is\nmeticulously curated to include both 3D bounding box annotations for objects\nreferenced in reasoning questions and step-by-step reasoning paths that\nintegrate grounding as a core component of the problem-solving process.\nExtensive experiments demonstrate that GS-Reasoner achieves impressive results\non 3D visual grounding, which in turn significantly enhances its spatial\nreasoning capabilities, leading to state-of-the-art performance.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.13800v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "20 pages, 7 figures",
+      "entry_id": "http://arxiv.org/abs/2510.13800v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.13800v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.13800v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.13557": {
+      "title": "Modeling Cultural Bias in Facial Expression Recognition with Adaptive Agents",
+      "authors": [
+        "David Freire-Obregón",
+        "José Salas-Cáceres",
+        "Javier Lorenzo-Navarro",
+        "Oliverio J. Santana",
+        "Daniel Hernández-Sosa",
+        "Modesto Castrillón-Santana"
+      ],
+      "published": "2025-10-15T13:53:30+00:00",
+      "updated": "2025-10-15T13:53:30+00:00",
+      "summary": "Facial expression recognition (FER) must remain robust under both cultural\nvariation and perceptually degraded visual conditions, yet most existing\nevaluations assume homogeneous data and high-quality imagery. We introduce an\nagent-based, streaming benchmark that reveals how cross-cultural composition\nand progressive blurring interact to shape face recognition robustness. Each\nagent operates in a frozen CLIP feature space with a lightweight residual\nadapter trained online at sigma=0 and fixed during testing. Agents move and\ninteract on a 5x5 lattice, while the environment provides inputs with\nsigma-scheduled Gaussian blur. We examine monocultural populations\n(Western-only, Asian-only) and mixed environments with balanced (5/5) and\nimbalanced (8/2, 2/8) compositions, as well as different spatial contact\nstructures. Results show clear asymmetric degradation curves between cultural\ngroups: JAFFE (Asian) populations maintain higher performance at low blur but\nexhibit sharper drops at intermediate stages, whereas KDEF (Western)\npopulations degrade more uniformly. Mixed populations exhibit intermediate\npatterns, with balanced mixtures mitigating early degradation, but imbalanced\nsettings amplify majority-group weaknesses under high blur. These findings\nquantify how cultural composition and interaction structure influence the\nrobustness of FER as perceptual conditions deteriorate.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.13557v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted for presentation at the International Symposium on Agentic\n  Artificial Intelligence Systems (AAIS 2025)",
+      "entry_id": "http://arxiv.org/abs/2510.13557v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.13557v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.13557v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.13381": {
+      "title": "Leveraging 2D Priors and SDF Guidance for Dynamic Urban Scene Rendering",
+      "authors": [
+        "Siddharth Tourani",
+        "Jayaram Reddy",
+        "Akash Kumbar",
+        "Satyajit Tourani",
+        "Nishant Goyal",
+        "Madhava Krishna",
+        "N. Dinesh Reddy",
+        "Muhammad Haris Khan"
+      ],
+      "published": "2025-10-15T10:21:36+00:00",
+      "updated": "2025-10-15T10:21:36+00:00",
+      "summary": "Dynamic scene rendering and reconstruction play a crucial role in computer\nvision and augmented reality. Recent methods based on 3D Gaussian Splatting\n(3DGS), have enabled accurate modeling of dynamic urban scenes, but for urban\nscenes they require both camera and LiDAR data, ground-truth 3D segmentations\nand motion data in the form of tracklets or pre-defined object templates such\nas SMPL. In this work, we explore whether a combination of 2D object agnostic\npriors in the form of depth and point tracking coupled with a signed distance\nfunction (SDF) representation for dynamic objects can be used to relax some of\nthese requirements. We present a novel approach that integrates Signed Distance\nFunctions (SDFs) with 3D Gaussian Splatting (3DGS) to create a more robust\nobject representation by harnessing the strengths of both methods. Our unified\noptimization framework enhances the geometric accuracy of 3D Gaussian splatting\nand improves deformation modeling within the SDF, resulting in a more adaptable\nand precise representation. We demonstrate that our method achieves\nstate-of-the-art performance in rendering metrics even without LiDAR data on\nurban scenes. When incorporating LiDAR, our approach improved further in\nreconstructing and generating novel views across diverse object categories,\nwithout ground-truth 3D motion annotation. Additionally, our method enables\nvarious scene editing tasks, including scene decomposition, and scene\ncomposition.",
+      "categories": [
+        "cs.CV",
+        "cs.GR"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.13381v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted at ICCV-2025, project page: https://dynamic-ugsdf.github.io/",
+      "entry_id": "http://arxiv.org/abs/2510.13381v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.13381v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.13381v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2510.12282": {
       "title": "PAGS: Priority-Adaptive Gaussian Splatting for Dynamic Driving Scenes",
       "authors": [
@@ -5708,27 +5826,61 @@
         "Sungeun Hong"
       ],
       "published": "2025-08-21T13:42:49+00:00",
-      "updated": "2025-08-22T05:07:51+00:00",
+      "updated": "2025-10-15T10:05:43+00:00",
       "summary": "Test-time adaptation (TTA) enhances the zero-shot robustness under\ndistribution shifts by leveraging unlabeled test data during inference. Despite\nnotable advances, several challenges still limit its broader applicability.\nFirst, most methods rely on backpropagation or iterative optimization, which\nlimits scalability and hinders real-time deployment. Second, they lack explicit\nmodeling of class-conditional feature distributions. This modeling is crucial\nfor producing reliable decision boundaries and calibrated predictions, but it\nremains underexplored due to the lack of both source data and supervision at\ntest time. In this paper, we propose ADAPT, an Advanced Distribution-Aware and\nbackPropagation-free Test-time adaptation method. We reframe TTA as a Gaussian\nprobabilistic inference task by modeling class-conditional likelihoods using\ngradually updated class means and a shared covariance matrix. This enables\nclosed-form, training-free inference. To correct potential likelihood bias, we\nintroduce lightweight regularization guided by CLIP priors and a historical\nknowledge bank. ADAPT requires no source data, no gradient updates, and no full\naccess to target data, supporting both online and transductive settings.\nExtensive experiments across diverse benchmarks demonstrate that our method\nachieves state-of-the-art performance under a wide range of distribution shifts\nwith superior scalability and robustness.",
       "categories": [
         "cs.CV",
         "cs.LG"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "http://arxiv.org/pdf/2508.15568v2",
+      "pdf_url": "http://arxiv.org/pdf/2508.15568v3",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2508.15568v2",
+      "entry_id": "http://arxiv.org/abs/2508.15568v3",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2508.15568v2",
+          "href": "http://arxiv.org/abs/2508.15568v3",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2508.15568v2",
+          "href": "http://arxiv.org/pdf/2508.15568v3",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2508.15387": {
+      "title": "DIO: Refining Mutual Information and Causal Chain to Enhance Machine Abstract Reasoning Ability",
+      "authors": [
+        "Ruizhuo Song",
+        "Beiming Yuan"
+      ],
+      "published": "2025-08-21T09:23:51+00:00",
+      "updated": "2025-10-15T15:24:50+00:00",
+      "summary": "Despite deep learning's broad success, its abstract-reasoning bottleneck\npersists. We tackle Raven's Progressive Matrices (RPM), the benchmark for\npattern, reasoning and problem-solving intelligence. We model the full causal\nchain image $\\rightarrow$ attributes $\\rightarrow$ progressive patterns\n$\\rightarrow$ consistency $\\rightarrow$ answer and build the baseline DIO. Yet\nDIO's mutual-information lower-bound objective does not embed human logic: the\nbound is loose and statistic-based, ignoring causal subject-object links. We\ntherefore present three refinements. 1) Brando introduces trainable negative\noptions to tighten the variational bound. 2) WORLD replaces generation with a\nGaussian-mixture feature model that supplies infinite, weighted negatives,\nfurther tightening the bound. 3) DIEGO adds metadata supervision to rectify the\n\"attributes $\\rightarrow$ patterns\" semantic gap, aligning representations with\nhuman rules. These upgrades substantially boost discriminative RPM accuracy\nand, for the first time, let DIO generate valid answers in open-ended RPM. The\nwork provides causal-driven design guidelines, objective-refinement strategies\nand cross-modal insights for abstract-reasoning research.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2508.15387v5",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "15 pages, 9 figures, 8 tables",
+      "entry_id": "http://arxiv.org/abs/2508.15387v5",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2508.15387v5",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2508.15387v5",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -77070,6 +77222,78 @@
     }
   },
   "Depth Estimation": {
+    "2510.13565": {
+      "title": "XD-RCDepth: Lightweight Radar-Camera Depth Estimation with Explainability-Aligned and Distribution-Aware Distillation",
+      "authors": [
+        "Huawei Sun",
+        "Zixu Wang",
+        "Xiangyuan Peng",
+        "Julius Ott",
+        "Georg Stettinger",
+        "Lorenzo Servadei",
+        "Robert Wille"
+      ],
+      "published": "2025-10-15T14:05:33+00:00",
+      "updated": "2025-10-15T14:05:33+00:00",
+      "summary": "Depth estimation remains central to autonomous driving, and radar-camera\nfusion offers robustness in adverse conditions by providing complementary\ngeometric cues. In this paper, we present XD-RCDepth, a lightweight\narchitecture that reduces the parameters by 29.7% relative to the\nstate-of-the-art lightweight baseline while maintaining comparable accuracy. To\npreserve performance under compression and enhance interpretability, we\nintroduce two knowledge-distillation strategies: an explainability-aligned\ndistillation that transfers the teacher's saliency structure to the student,\nand a depth-distribution distillation that recasts depth regression as soft\nclassification over discretized bins. Together, these components reduce the MAE\ncompared with direct training with 7.97% and deliver competitive accuracy with\nreal-time efficiency on nuScenes and ZJU-4DRadarCam datasets.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.13565v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Submitted to ICASSP 2026",
+      "entry_id": "http://arxiv.org/abs/2510.13565v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.13565v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.13565v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2510.13243": {
+      "title": "FlyAwareV2: A Multimodal Cross-Domain UAV Dataset for Urban Scene Understanding",
+      "authors": [
+        "Francesco Barbato",
+        "Matteo Caligiuri",
+        "Pietro Zanuttigh"
+      ],
+      "published": "2025-10-15T07:44:31+00:00",
+      "updated": "2025-10-15T07:44:31+00:00",
+      "summary": "The development of computer vision algorithms for Unmanned Aerial Vehicle\n(UAV) applications in urban environments heavily relies on the availability of\nlarge-scale datasets with accurate annotations. However, collecting and\nannotating real-world UAV data is extremely challenging and costly. To address\nthis limitation, we present FlyAwareV2, a novel multimodal dataset encompassing\nboth real and synthetic UAV imagery tailored for urban scene understanding\ntasks. Building upon the recently introduced SynDrone and FlyAware datasets,\nFlyAwareV2 introduces several new key contributions: 1) Multimodal data (RGB,\ndepth, semantic labels) across diverse environmental conditions including\nvarying weather and daytime; 2) Depth maps for real samples computed via\nstate-of-the-art monocular depth estimation; 3) Benchmarks for RGB and\nmultimodal semantic segmentation on standard architectures; 4) Studies on\nsynthetic-to-real domain adaptation to assess the generalization capabilities\nof models trained on the synthetic data. With its rich set of annotations and\nenvironmental diversity, FlyAwareV2 provides a valuable resource for research\non UAV-based 3D urban scene understanding.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.13243v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "20 pages, 7 figures, 10 tables, data and code available",
+      "entry_id": "http://arxiv.org/abs/2510.13243v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.13243v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.13243v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2510.12753": {
       "title": "E-MoFlow: Learning Egomotion and Optical Flow from Event Data via Implicit Regularization",
       "authors": [
