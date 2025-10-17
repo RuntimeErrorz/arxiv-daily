@@ -1,5 +1,116 @@
 {
   "3DGS Semantic": {
+    "2510.14925": {
+      "title": "Stable but Miscalibrated: A Kantian View on Overconfidence from Filters to Large Language Models",
+      "authors": [
+        "Akira Okutomi"
+      ],
+      "published": "2025-10-16T17:40:28+00:00",
+      "updated": "2025-10-16T17:40:28+00:00",
+      "summary": "We reinterpret Kant's Critique of Pure Reason as a theory of feedback\nstability, viewing reason as a regulator that keeps inference within the bounds\nof possible experience. We formalize this intuition via a composite instability\nindex (H-Risk) combining spectral margin, conditioning, temporal sensitivity,\nand innovation amplification. In linear-Gaussian simulations, higher H-Risk\npredicts overconfident errors even under formal stability, revealing a gap\nbetween nominal and epistemic stability. Extending to large language models\n(LLMs), we find that fragile internal dynamics correlate with miscalibration\nand hallucination, while critique-style prompts show mixed effects on\ncalibration and hallucination. These results suggest a structural bridge\nbetween Kantian self-limitation and feedback control, offering a principled\nlens for diagnosing -- and selectively reducing -- overconfidence in reasoning\nsystems. This is a preliminary version; supplementary experiments and broader\nreplication will be reported in a future revision.",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "primary_category": "cs.AI",
+      "pdf_url": "http://arxiv.org/pdf/2510.14925v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "19 pages, 2 figures, preliminary version",
+      "entry_id": "http://arxiv.org/abs/2510.14925v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.14925v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.14925v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.14526": {
+      "title": "Noise Projection: Closing the Prompt-Agnostic Gap Behind Text-to-Image Misalignment in Diffusion Models",
+      "authors": [
+        "Yunze Tong",
+        "Didi Zhu",
+        "Zijing Hu",
+        "Jinluan Yang",
+        "Ziyu Zhao"
+      ],
+      "published": "2025-10-16T10:14:34+00:00",
+      "updated": "2025-10-16T10:14:34+00:00",
+      "summary": "In text-to-image generation, different initial noises induce distinct\ndenoising paths with a pretrained Stable Diffusion (SD) model. While this\npattern could output diverse images, some of them may fail to align well with\nthe prompt. Existing methods alleviate this issue either by altering the\ndenoising dynamics or by drawing multiple noises and conducting post-selection.\nIn this paper, we attribute the misalignment to a training-inference mismatch:\nduring training, prompt-conditioned noises lie in a prompt-specific subset of\nthe latent space, whereas at inference the noise is drawn from a\nprompt-agnostic Gaussian prior. To close this gap, we propose a noise projector\nthat applies text-conditioned refinement to the initial noise before denoising.\nConditioned on the prompt embedding, it maps the noise to a prompt-aware\ncounterpart that better matches the distribution observed during SD training,\nwithout modifying the SD model. Our framework consists of these steps: we first\nsample some noises and obtain token-level feedback for their corresponding\nimages from a vision-language model (VLM), then distill these signals into a\nreward model, and finally optimize the noise projector via a quasi-direct\npreference optimization. Our design has two benefits: (i) it requires no\nreference images or handcrafted priors, and (ii) it incurs small inference\ncost, replacing multi-sample selection with a single forward pass. Extensive\nexperiments further show that our prompt-aware noise projection improves\ntext-image alignment across diverse prompts.",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.14526v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Appendix will be appended soon",
+      "entry_id": "http://arxiv.org/abs/2510.14526v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.14526v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.14526v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.14270": {
+      "title": "GauSSmart: Enhanced 3D Reconstruction through 2D Foundation Models and Geometric Filtering",
+      "authors": [
+        "Alexander Valverde",
+        "Brian Xu",
+        "Yuyin Zhou",
+        "Meng Xu",
+        "Hongyun Wang"
+      ],
+      "published": "2025-10-16T03:38:26+00:00",
+      "updated": "2025-10-16T03:38:26+00:00",
+      "summary": "Scene reconstruction has emerged as a central challenge in computer vision,\nwith approaches such as Neural Radiance Fields (NeRF) and Gaussian Splatting\nachieving remarkable progress. While Gaussian Splatting demonstrates strong\nperformance on large-scale datasets, it often struggles to capture fine details\nor maintain realism in regions with sparse coverage, largely due to the\ninherent limitations of sparse 3D training data.\n  In this work, we propose GauSSmart, a hybrid method that effectively bridges\n2D foundational models and 3D Gaussian Splatting reconstruction. Our approach\nintegrates established 2D computer vision techniques, including convex\nfiltering and semantic feature supervision from foundational models such as\nDINO, to enhance Gaussian-based scene reconstruction. By leveraging 2D\nsegmentation priors and high-dimensional feature embeddings, our method guides\nthe densification and refinement of Gaussian splats, improving coverage in\nunderrepresented areas and preserving intricate structural details.\n  We validate our approach across three datasets, where GauSSmart consistently\noutperforms existing Gaussian Splatting in the majority of evaluated scenes.\nOur results demonstrate the significant potential of hybrid 2D-3D approaches,\nhighlighting how the thoughtful combination of 2D foundational models with 3D\nreconstruction pipelines can overcome the limitations inherent in either\napproach alone.",
+      "categories": [
+        "cs.CV",
+        "cs.GR"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.14270v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.14270v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.14270v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.14270v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2510.13800": {
       "title": "Reasoning in Space via Grounding in the World",
       "authors": [
@@ -11,26 +122,26 @@
         "Peidong Liu"
       ],
       "published": "2025-10-15T17:58:08+00:00",
-      "updated": "2025-10-15T17:58:08+00:00",
+      "updated": "2025-10-16T11:18:03+00:00",
       "summary": "In this paper, we claim that 3D visual grounding is the cornerstone of\nspatial reasoning and introduce the Grounded-Spatial Reasoner (GS-Reasoner) to\nexplore the effective spatial representations that bridge the gap between them.\nExisting 3D LLMs suffer from the absence of a unified 3D representation capable\nof jointly capturing semantic and geometric information. This deficiency is\nmanifested either in poor performance on grounding or in an excessive reliance\non external modules, ultimately hindering the seamless integration of grounding\nand spatial reasoning. To address this, we propose a simple yet effective\ndual-path pooling mechanism that tightly aligns geometric features with both\nsemantic and positional cues, constructing a unified image patch-based 3D\nrepresentation that encapsulates all essential information without increasing\nthe number of input tokens. Leveraging this holistic representation,\nGS-Reasoner is the first 3D LLM that achieves autoregressive grounding entirely\nwithout external modules while delivering performance comparable to\nstate-of-the-art models, establishing a unified and self-contained framework\nfor 3D spatial reasoning. To further bridge grounding and spatial reasoning, we\nintroduce the Grounded Chain-of-Thought (GCoT) dataset. This dataset is\nmeticulously curated to include both 3D bounding box annotations for objects\nreferenced in reasoning questions and step-by-step reasoning paths that\nintegrate grounding as a core component of the problem-solving process.\nExtensive experiments demonstrate that GS-Reasoner achieves impressive results\non 3D visual grounding, which in turn significantly enhances its spatial\nreasoning capabilities, leading to state-of-the-art performance.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "http://arxiv.org/pdf/2510.13800v1",
+      "pdf_url": "http://arxiv.org/pdf/2510.13800v2",
       "journal_ref": null,
       "doi": null,
       "comment": "20 pages, 7 figures",
-      "entry_id": "http://arxiv.org/abs/2510.13800v1",
+      "entry_id": "http://arxiv.org/abs/2510.13800v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2510.13800v1",
+          "href": "http://arxiv.org/abs/2510.13800v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2510.13800v1",
+          "href": "http://arxiv.org/pdf/2510.13800v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -714,26 +825,26 @@
         "Zehuan Wu"
       ],
       "published": "2025-10-09T08:41:58+00:00",
-      "updated": "2025-10-09T08:41:58+00:00",
-      "summary": "Generative models have been widely applied to world modeling for environment\nsimulation and future state prediction. With advancements in autonomous\ndriving, there is a growing demand not only for high-fidelity video generation\nunder various controls, but also for producing diverse and meaningful\ninformation such as depth estimation. To address this, we propose CVD-STORM, a\ncross-view video diffusion model utilizing a spatial-temporal reconstruction\nVariational Autoencoder (VAE) that generates long-term, multi-view videos with\n4D reconstruction capabilities under various control inputs. Our approach first\nfine-tunes the VAE with an auxiliary 4D reconstruction task, enhancing its\nability to encode 3D structures and temporal dynamics. Subsequently, we\nintegrate this VAE into the video diffusion process to significantly improve\ngeneration quality. Experimental results demonstrate that our model achieves\nsubstantial improvements in both FID and FVD metrics. Additionally, the\njointly-trained Gaussian Splatting Decoder effectively reconstructs dynamic\nscenes, providing valuable geometric information for comprehensive scene\nunderstanding.",
+      "updated": "2025-10-16T03:14:45+00:00",
+      "summary": "Generative models have been widely applied to world modeling for environment\nsimulation and future state prediction. With advancements in autonomous\ndriving, there is a growing demand not only for high-fidelity video generation\nunder various controls, but also for producing diverse and meaningful\ninformation such as depth estimation. To address this, we propose CVD-STORM, a\ncross-view video diffusion model utilizing a spatial-temporal reconstruction\nVariational Autoencoder (VAE) that generates long-term, multi-view videos with\n4D reconstruction capabilities under various control inputs. Our approach first\nfine-tunes the VAE with an auxiliary 4D reconstruction task, enhancing its\nability to encode 3D structures and temporal dynamics. Subsequently, we\nintegrate this VAE into the video diffusion process to significantly improve\ngeneration quality. Experimental results demonstrate that our model achieves\nsubstantial improvements in both FID and FVD metrics. Additionally, the\njointly-trained Gaussian Splatting Decoder effectively reconstructs dynamic\nscenes, providing valuable geometric information for comprehensive scene\nunderstanding. Our project page is https://sensetime-fvg.github.io/CVD-STORM.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "http://arxiv.org/pdf/2510.07944v1",
+      "pdf_url": "http://arxiv.org/pdf/2510.07944v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2510.07944v1",
+      "entry_id": "http://arxiv.org/abs/2510.07944v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2510.07944v1",
+          "href": "http://arxiv.org/abs/2510.07944v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2510.07944v1",
+          "href": "http://arxiv.org/pdf/2510.07944v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -1157,26 +1268,26 @@
         "Shaogang Ren"
       ],
       "published": "2025-10-05T22:32:50+00:00",
-      "updated": "2025-10-05T22:32:50+00:00",
+      "updated": "2025-10-16T06:37:22+00:00",
       "summary": "Bayesian Optimization (BO) has been widely used to efficiently optimize\nexpensive black-box functions with limited evaluations. In this paper, we\ninvestigate the use of BO for prompt engineering to enhance text classification\nwith Large Language Models (LLMs). We employ an LLM-powered Gaussian Process\n(GP) as the surrogate model to estimate the performance of different prompt\ncandidates. These candidates are generated by an LLM through the expansion of a\nset of seed prompts and are subsequently evaluated using an Upper Confidence\nBound (UCB) acquisition function in conjunction with the GP posterior. The\noptimization process iteratively refines the prompts based on a subset of the\ndata, aiming to improve classification accuracy while reducing the number of\nAPI calls by leveraging the prediction uncertainty of the LLM-based GP. The\nproposed BO-LLM algorithm is evaluated on two datasets, and its advantages are\ndiscussed in detail in this paper.",
       "categories": [
         "cs.AI"
       ],
       "primary_category": "cs.AI",
-      "pdf_url": "http://arxiv.org/pdf/2510.04384v1",
+      "pdf_url": "http://arxiv.org/pdf/2510.04384v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2510.04384v1",
+      "entry_id": "http://arxiv.org/abs/2510.04384v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2510.04384v1",
+          "href": "http://arxiv.org/abs/2510.04384v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2510.04384v1",
+          "href": "http://arxiv.org/pdf/2510.04384v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -5826,27 +5937,27 @@
         "Sungeun Hong"
       ],
       "published": "2025-08-21T13:42:49+00:00",
-      "updated": "2025-10-15T10:05:43+00:00",
+      "updated": "2025-10-16T08:27:41+00:00",
       "summary": "Test-time adaptation (TTA) enhances the zero-shot robustness under\ndistribution shifts by leveraging unlabeled test data during inference. Despite\nnotable advances, several challenges still limit its broader applicability.\nFirst, most methods rely on backpropagation or iterative optimization, which\nlimits scalability and hinders real-time deployment. Second, they lack explicit\nmodeling of class-conditional feature distributions. This modeling is crucial\nfor producing reliable decision boundaries and calibrated predictions, but it\nremains underexplored due to the lack of both source data and supervision at\ntest time. In this paper, we propose ADAPT, an Advanced Distribution-Aware and\nbackPropagation-free Test-time adaptation method. We reframe TTA as a Gaussian\nprobabilistic inference task by modeling class-conditional likelihoods using\ngradually updated class means and a shared covariance matrix. This enables\nclosed-form, training-free inference. To correct potential likelihood bias, we\nintroduce lightweight regularization guided by CLIP priors and a historical\nknowledge bank. ADAPT requires no source data, no gradient updates, and no full\naccess to target data, supporting both online and transductive settings.\nExtensive experiments across diverse benchmarks demonstrate that our method\nachieves state-of-the-art performance under a wide range of distribution shifts\nwith superior scalability and robustness.",
       "categories": [
         "cs.CV",
         "cs.LG"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "http://arxiv.org/pdf/2508.15568v3",
+      "pdf_url": "http://arxiv.org/pdf/2508.15568v4",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2508.15568v3",
+      "entry_id": "http://arxiv.org/abs/2508.15568v4",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2508.15568v3",
+          "href": "http://arxiv.org/abs/2508.15568v4",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2508.15568v3",
+          "href": "http://arxiv.org/pdf/2508.15568v4",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -77222,6 +77333,76 @@
     }
   },
   "Depth Estimation": {
+    "2510.14960": {
+      "title": "C4D: 4D Made from 3D through Dual Correspondences",
+      "authors": [
+        "Shizun Wang",
+        "Zhenxiang Jiang",
+        "Xingyi Yang",
+        "Xinchao Wang"
+      ],
+      "published": "2025-10-16T17:59:06+00:00",
+      "updated": "2025-10-16T17:59:06+00:00",
+      "summary": "Recovering 4D from monocular video, which jointly estimates dynamic geometry\nand camera poses, is an inevitably challenging problem. While recent\npointmap-based 3D reconstruction methods (e.g., DUSt3R) have made great\nprogress in reconstructing static scenes, directly applying them to dynamic\nscenes leads to inaccurate results. This discrepancy arises because moving\nobjects violate multi-view geometric constraints, disrupting the\nreconstruction. To address this, we introduce C4D, a framework that leverages\ntemporal Correspondences to extend existing 3D reconstruction formulation to\n4D. Specifically, apart from predicting pointmaps, C4D captures two types of\ncorrespondences: short-term optical flow and long-term point tracking. We train\na dynamic-aware point tracker that provides additional mobility information,\nfacilitating the estimation of motion masks to separate moving elements from\nthe static background, thus offering more reliable guidance for dynamic scenes.\nFurthermore, we introduce a set of dynamic scene optimization objectives to\nrecover per-frame 3D geometry and camera parameters. Simultaneously, the\ncorrespondences lift 2D trajectories into smooth 3D trajectories, enabling\nfully integrated 4D reconstruction. Experiments show that our framework\nachieves complete 4D recovery and demonstrates strong performance across\nmultiple downstream tasks, including depth estimation, camera pose estimation,\nand point tracking. Project Page: https://littlepure2333.github.io/C4D",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.14960v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted to ICCV 2025",
+      "entry_id": "http://arxiv.org/abs/2510.14960v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.14960v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.14960v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2510.14862": {
+      "title": "Multi-modal video data-pipelines for machine learning with minimal human supervision",
+      "authors": [
+        "Mihai-Cristian Pîrvu",
+        "Marius Leordeanu"
+      ],
+      "published": "2025-10-16T16:36:29+00:00",
+      "updated": "2025-10-16T16:36:29+00:00",
+      "summary": "The real-world is inherently multi-modal at its core. Our tools observe and\ntake snapshots of it, in digital form, such as videos or sounds, however much\nof it is lost. Similarly for actions and information passing between humans,\nlanguages are used as a written form of communication. Traditionally, Machine\nLearning models have been unimodal (i.e. rgb -> semantic or text ->\nsentiment_class). Recent trends go towards bi-modality, where images and text\nare learned together, however, in order to truly understand the world, we need\nto integrate all these independent modalities. In this work we try to combine\nas many visual modalities as we can using little to no human supervision. In\norder to do this, we use pre-trained experts and procedural combinations\nbetween them on top of raw videos using a fully autonomous data-pipeline, which\nwe also open-source. We then make use of PHG-MAE, a model specifically designed\nto leverage multi-modal data. We show that this model which was efficiently\ndistilled into a low-parameter (<1M) can have competitive results compared to\nmodels of ~300M parameters. We deploy this model and analyze the use-case of\nreal-time semantic segmentation from handheld devices or webcams on commodity\nhardware. Finally, we deploy other off-the-shelf models using the same\nframework, such as DPT for near real-time depth estimation.",
+      "categories": [
+        "cs.CV",
+        "cs.DC"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.14862v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.14862v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.14862v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.14862v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2510.13565": {
       "title": "XD-RCDepth: Lightweight Radar-Camera Depth Estimation with Explainability-Aligned and Distribution-Aware Distillation",
       "authors": [
