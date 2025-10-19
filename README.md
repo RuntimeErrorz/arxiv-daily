@@ -1,4 +1,4 @@
-## Updated at 2025-10-19 08:19:09
+## Updated at 2025-10-19 10:37:15
 
 ## 3DGS Semantic
 
@@ -15,10 +15,10 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2025-09-26**|**[Polysemous Language Gaussian Splatting via Matching-based Mask Lifting](https://arxiv.org/abs/2509.22225)**|N/A|None|cs.CV|None|Jiayu Ding et al.|
 |**2025-09-22**|**[Distributed Stochastic Optimization under Heavy-Tailed Noise: A Federated Mirror Descent Approach with High Probability Convergence](https://arxiv.org/abs/2509.17659)**|N/A|None|math.OC|None|Zhan Yu et al.|
 |**2025-09-21**|**[SemanticGarment: Semantic-Controlled Generation and Editing of 3D Gaussian Garments](https://arxiv.org/abs/2509.16960)**|N/A|None|cs.GR|None|Ruiyan Wang et al.|
-|**2025-09-16**|**[Beyond Averages: Open-Vocabulary 3D Scene Understanding with Gaussian Splatting and Bag of Embeddings](https://arxiv.org/abs/2509.12938)**|N/A|None|cs.CV|None|Abdalla Arafa, Didier Stricker|
-|**2025-09-14**|**[SPHERE: Semantic-PHysical Engaged REpresentation for 3D Semantic Scene Completion](https://arxiv.org/abs/2509.11171)**|N/A|10 pages, 6 figures|cs.CV|None|Zhiwen Yang, Yuxin Peng|
-|**2025-09-09**|**[OmniMap: A General Mapping Framework Integrating Optics, Geometry, and Semantics](https://arxiv.org/abs/2509.07500)**|N/A|Accepted by IEEE Transactions on Robotics (TRO), project website: https://omni-map.github.io/|cs.RO|None|Yinan Deng et al.|
-|**2025-09-05**|**[Visibility-Aware Language Aggregation for Open-Vocabulary Segmentation in 3D Gaussian Splatting](https://arxiv.org/abs/2509.05515)**|N/A|None|cs.CV|None|Sen Wang et al.|
+|**2025-09-16**|**[Beyond Averages: Open-Vocabulary 3D Scene Understanding with Gaussian Splatting and Bag of Embeddings](https://arxiv.org/abs/2509.12938)**|arXiv.org|None|cs.CV|None|Abdalla Arafa, Didier Stricker|
+|**2025-09-14**|**[SPHERE: Semantic-PHysical Engaged REpresentation for 3D Semantic Scene Completion](https://arxiv.org/abs/2509.11171)**|arXiv.org|10 pages, 6 figures|cs.CV|None|Zhiwen Yang, Yuxin Peng|
+|**2025-09-09**|**[OmniMap: A General Mapping Framework Integrating Optics, Geometry, and Semantics](https://arxiv.org/abs/2509.07500)**|IEEE Transactions on robotics|Accepted by IEEE Transactions on Robotics (TRO), project website: https://omni-map.github.io/|cs.RO|None|Yinan Deng et al.|
+|**2025-09-05**|**[Visibility-Aware Language Aggregation for Open-Vocabulary Segmentation in 3D Gaussian Splatting](https://arxiv.org/abs/2509.05515)**|arXiv.org|None|cs.CV|None|Sen Wang et al.|
 |**2025-08-27**|**[LabelGS: Label-Aware 3D Gaussian Splatting for 3D Scene Segmentation](https://arxiv.org/abs/2508.19699)**|arXiv.org|PRCV 2025|cs.CV|None|Yupeng Zhang et al.|
 |**2025-08-19**|**[GALA: Guided Attention with Language Alignment for Open Vocabulary Gaussian Splatting](https://arxiv.org/abs/2508.14278)**|arXiv.org|None|cs.CV|None|Elena Alegret et al.|
 |**2025-08-16**|**[InstDrive: Instance-Aware 3D Gaussian Splatting for Driving Scenes](https://arxiv.org/abs/2508.12015)**|arXiv.org|None|cs.CV|None|Hongyuan Liu et al.|
