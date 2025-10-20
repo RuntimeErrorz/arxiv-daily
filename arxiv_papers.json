@@ -1,5 +1,80 @@
 {
   "3DGS Semantic": {
+    "2510.15352": {
+      "title": "GaussGym: An open-source real-to-sim framework for learning locomotion from pixels",
+      "authors": [
+        "Alejandro Escontrela",
+        "Justin Kerr",
+        "Arthur Allshire",
+        "Jonas Frey",
+        "Rocky Duan",
+        "Carmelo Sferrazza",
+        "Pieter Abbeel"
+      ],
+      "published": "2025-10-17T06:34:52+00:00",
+      "updated": "2025-10-17T06:34:52+00:00",
+      "summary": "We present a novel approach for photorealistic robot simulation that\nintegrates 3D Gaussian Splatting as a drop-in renderer within vectorized\nphysics simulators such as IsaacGym. This enables unprecedented speed --\nexceeding 100,000 steps per second on consumer GPUs -- while maintaining high\nvisual fidelity, which we showcase across diverse tasks. We additionally\ndemonstrate its applicability in a sim-to-real robotics setting. Beyond\ndepth-based sensing, our results highlight how rich visual semantics improve\nnavigation and decision-making, such as avoiding undesirable regions. We\nfurther showcase the ease of incorporating thousands of environments from\niPhone scans, large-scale scene datasets (e.g., GrandTour, ARKit), and outputs\nfrom generative video models like Veo, enabling rapid creation of realistic\ntraining worlds. This work bridges high-throughput simulation and high-fidelity\nperception, advancing scalable and generalizable robot learning. All code and\ndata will be open-sourced for the community to build upon. Videos, code, and\ndata available at https://escontrela.me/gauss_gym/.",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.GR"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "http://arxiv.org/pdf/2510.15352v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.15352v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.15352v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.15352v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.15132": {
+      "title": "A Simple Method for PMF Estimation on Large Supports",
+      "authors": [
+        "Alex Shtoff"
+      ],
+      "published": "2025-10-16T20:47:40+00:00",
+      "updated": "2025-10-16T20:47:40+00:00",
+      "summary": "We study nonparametric estimation of a probability mass function (PMF) on a\nlarge discrete support, where the PMF is multi-modal and heavy-tailed. The core\nidea is to treat the empirical PMF as a signal on a line graph and apply a\ndata-dependent low-pass filter. Concretely, we form a symmetric tri-diagonal\noperator, the path graph Laplacian perturbed with a diagonal matrix built from\nthe empirical PMF, then compute the eigenvectors, corresponding to the smallest\nfeq eigenvalues. Projecting the empirical PMF onto this low dimensional\nsubspace produces a smooth, multi-modal estimate that preserves coarse\nstructure while suppressing noise. A light post-processing step of clipping and\nre-normalizing yields a valid PMF.\n  Because we compute the eigenpairs of a symmetric tridiagonal matrix, the\ncomputation is reliable and runs time and memory proportional to the support\ntimes the dimension of the desired low-dimensional supspace. We also provide a\npractical, data-driven rule for selecting the dimension based on an\northogonal-series risk estimate, so the method \"just works\" with minimal\ntuning. On synthetic and real heavy-tailed examples, the approach preserves\ncoarse structure while suppressing sampling noise, compares favorably to\nlogspline and Gaussian-KDE baselines in the intended regimes. However, it has\nknown failure modes (e.g., abrupt discontinuities). The method is short to\nimplement, robust across sample sizes, and suitable for automated pipelines and\nexploratory analysis at scale because of its reliability and speed.",
+      "categories": [
+        "cs.LG",
+        "stat.ML"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "http://arxiv.org/pdf/2510.15132v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.15132v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.15132v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.15132v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2510.14925": {
       "title": "Stable but Miscalibrated: A Kantian View on Overconfidence from Filters to Large Language Models",
       "authors": [
@@ -77329,6 +77404,45 @@
     }
   },
   "Depth Estimation": {
+    "2510.15072": {
+      "title": "SaLon3R: Structure-aware Long-term Generalizable 3D Reconstruction from Unposed Images",
+      "authors": [
+        "Jiaxin Guo",
+        "Tongfan Guan",
+        "Wenzhen Dong",
+        "Wenzhao Zheng",
+        "Wenting Wang",
+        "Yue Wang",
+        "Yeung Yam",
+        "Yun-Hui Liu"
+      ],
+      "published": "2025-10-16T18:37:10+00:00",
+      "updated": "2025-10-16T18:37:10+00:00",
+      "summary": "Recent advances in 3D Gaussian Splatting (3DGS) have enabled generalizable,\non-the-fly reconstruction of sequential input views. However, existing methods\noften predict per-pixel Gaussians and combine Gaussians from all views as the\nscene representation, leading to substantial redundancies and geometric\ninconsistencies in long-duration video sequences. To address this, we propose\nSaLon3R, a novel framework for Structure-aware, Long-term 3DGS Reconstruction.\nTo our best knowledge, SaLon3R is the first online generalizable GS method\ncapable of reconstructing over 50 views in over 10 FPS, with 50% to 90%\nredundancy removal. Our method introduces compact anchor primitives to\neliminate redundancy through differentiable saliency-aware Gaussian\nquantization, coupled with a 3D Point Transformer that refines anchor\nattributes and saliency to resolve cross-frame geometric and photometric\ninconsistencies. Specifically, we first leverage a 3D reconstruction backbone\nto predict dense per-pixel Gaussians and a saliency map encoding regional\ngeometric complexity. Redundant Gaussians are compressed into compact anchors\nby prioritizing high-complexity regions. The 3D Point Transformer then learns\nspatial structural priors in 3D space from training data to refine anchor\nattributes and saliency, enabling regionally adaptive Gaussian decoding for\ngeometric fidelity. Without known camera parameters or test-time optimization,\nour approach effectively resolves artifacts and prunes the redundant 3DGS in a\nsingle feed-forward pass. Experiments on multiple datasets demonstrate our\nstate-of-the-art performance on both novel view synthesis and depth estimation,\ndemonstrating superior efficiency, robustness, and generalization ability for\nlong-term generalizable 3D reconstruction. Project Page:\nhttps://wrld.github.io/SaLon3R/.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.15072v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.15072v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.15072v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.15072v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2510.14960": {
       "title": "C4D: 4D Made from 3D through Dual Correspondences",
       "authors": [

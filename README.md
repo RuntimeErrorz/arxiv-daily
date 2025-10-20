@@ -1,4 +1,4 @@
-## Updated at 2025-10-20 08:28:51
+## Updated at 2025-10-20 20:07:50
 
 ## 3DGS Semantic
 
@@ -557,6 +557,7 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-10-16**|**[SaLon3R: Structure-aware Long-term Generalizable 3D Reconstruction from Unposed Images](https://arxiv.org/abs/2510.15072)**|N/A|None|cs.CV|None|Jiaxin Guo et al.|
 |**2025-10-16**|**[C4D: 4D Made from 3D through Dual Correspondences](https://arxiv.org/abs/2510.14960)**|N/A|Accepted to ICCV 2025|cs.CV|None|Shizun Wang et al.|
 |**2025-10-16**|**[Multi-modal video data-pipelines for machine learning with minimal human supervision](https://arxiv.org/abs/2510.14862)**|N/A|None|cs.CV|None|Mihai-Cristian Pîrvu, Marius Leordeanu|
 |**2025-10-15**|**[XD-RCDepth: Lightweight Radar-Camera Depth Estimation with Explainability-Aligned and Distribution-Aware Distillation](https://arxiv.org/abs/2510.13565)**|N/A|Submitted to ICASSP 2026|cs.CV|None|Huawei Sun et al.|
