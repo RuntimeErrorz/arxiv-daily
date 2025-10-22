@@ -1,5 +1,325 @@
 {
   "3DGS Semantic": {
+    "2510.17783": {
+      "title": "Botany-Bot: Digital Twin Monitoring of Occluded and Underleaf Plant Structures with Gaussian Splats",
+      "authors": [
+        "Simeon Adebola",
+        "Chung Min Kim",
+        "Justin Kerr",
+        "Shuangyu Xie",
+        "Prithvi Akella",
+        "Jose Luis Susa Rincon",
+        "Eugen Solowjow",
+        "Ken Goldberg"
+      ],
+      "published": "2025-10-20T17:42:20+00:00",
+      "updated": "2025-10-20T17:42:20+00:00",
+      "summary": "Commercial plant phenotyping systems using fixed cameras cannot perceive many\nplant details due to leaf occlusion. In this paper, we present Botany-Bot, a\nsystem for building detailed \"annotated digital twins\" of living plants using\ntwo stereo cameras, a digital turntable inside a lightbox, an industrial robot\narm, and 3D segmentated Gaussian Splat models. We also present robot algorithms\nfor manipulating leaves to take high-resolution indexable images of occluded\ndetails such as stem buds and the underside/topside of leaves. Results from\nexperiments suggest that Botany-Bot can segment leaves with 90.8% accuracy,\ndetect leaves with 86.2% accuracy, lift/push leaves with 77.9% accuracy, and\ntake detailed overside/underside images with 77.3% accuracy. Code, videos, and\ndatasets are available at https://berkeleyautomation.github.io/Botany-Bot/.",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "http://arxiv.org/pdf/2510.17783v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "2025 IEEE/RSJ International Conference on Intelligent Robots and\n  Systems (IROS 2025)",
+      "entry_id": "http://arxiv.org/abs/2510.17783v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.17783v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.17783v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.17566": {
+      "title": "WP-CrackNet: A Collaborative Adversarial Learning Framework for End-to-End Weakly-Supervised Road Crack Detection",
+      "authors": [
+        "Nachuan Ma",
+        "Zhengfei Song",
+        "Qiang Hu",
+        "Xiaoyu Tang",
+        "Chengxi Zhang",
+        "Rui Fan",
+        "Lihua Xie"
+      ],
+      "published": "2025-10-20T14:13:26+00:00",
+      "updated": "2025-10-20T14:13:26+00:00",
+      "summary": "Road crack detection is essential for intelligent infrastructure maintenance\nin smart cities. To reduce reliance on costly pixel-level annotations, we\npropose WP-CrackNet, an end-to-end weakly-supervised method that trains with\nonly image-level labels for pixel-wise crack detection. WP-CrackNet integrates\nthree components: a classifier generating class activation maps (CAMs), a\nreconstructor measuring feature inferability, and a detector producing\npixel-wise road crack detection results. During training, the classifier and\nreconstructor alternate in adversarial learning to encourage crack CAMs to\ncover complete crack regions, while the detector learns from pseudo labels\nderived from post-processed crack CAMs. This mutual feedback among the three\ncomponents improves learning stability and detection accuracy. To further boost\ndetection performance, we design a path-aware attention module (PAAM) that\nfuses high-level semantics from the classifier with low-level structural cues\nfrom the reconstructor by modeling spatial and channel-wise dependencies.\nAdditionally, a center-enhanced CAM consistency module (CECCM) is proposed to\nrefine crack CAMs using center Gaussian weighting and consistency constraints,\nenabling better pseudo-label generation. We create three image-level datasets\nand extensive experiments show that WP-CrackNet achieves comparable results to\nsupervised methods and outperforms existing weakly-supervised methods,\nsignificantly advancing scalable road inspection. The source code package and\ndatasets are available at https://mias.group/WP-CrackNet/.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.17566v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.17566v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.17566v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.17566v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.17098": {
+      "title": "Can Transformer Memory Be Corrupted? Investigating Cache-Side Vulnerabilities in Large Language Models",
+      "authors": [
+        "Elias Hossain",
+        "Swayamjit Saha",
+        "Somshubhra Roy",
+        "Ravi Prasad"
+      ],
+      "published": "2025-10-20T02:04:18+00:00",
+      "updated": "2025-10-20T02:04:18+00:00",
+      "summary": "Even when prompts and parameters are secured, transformer language models\nremain vulnerable because their key-value (KV) cache during inference\nconstitutes an overlooked attack surface. This paper introduces Malicious Token\nInjection (MTI), a modular framework that systematically perturbs cached key\nvectors at selected layers and timesteps through controlled magnitude and\nfrequency, using additive Gaussian noise, zeroing, and orthogonal rotations. A\ntheoretical analysis quantifies how these perturbations propagate through\nattention, linking logit deviations to the Frobenius norm of corruption and\nsoftmax Lipschitz dynamics. Empirical results show that MTI significantly\nalters next-token distributions and downstream task performance across GPT-2\nand LLaMA-2/7B, as well as destabilizes retrieval-augmented and agentic\nreasoning pipelines. These findings identify cache integrity as a critical yet\nunderexplored vulnerability in current LLM deployments, positioning cache\ncorruption as a reproducible and theoretically grounded threat model for future\nrobustness and security research.",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CR",
+      "pdf_url": "http://arxiv.org/pdf/2510.17098v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.17098v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.17098v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.17098v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.17095": {
+      "title": "GSPlane: Concise and Accurate Planar Reconstruction via Structured Representation",
+      "authors": [
+        "Ruitong Gan",
+        "Junran Peng",
+        "Yang Liu",
+        "Chuanchen Luo",
+        "Qing Li",
+        "Zhaoxiang Zhang"
+      ],
+      "published": "2025-10-20T01:59:21+00:00",
+      "updated": "2025-10-20T01:59:21+00:00",
+      "summary": "Planes are fundamental primitives of 3D sences, especially in man-made\nenvironments such as indoor spaces and urban streets. Representing these planes\nin a structured and parameterized format facilitates scene editing and physical\nsimulations in downstream applications. Recently, Gaussian Splatting (GS) has\ndemonstrated remarkable effectiveness in the Novel View Synthesis task, with\nextensions showing great potential in accurate surface reconstruction. However,\neven state-of-the-art GS representations often struggle to reconstruct planar\nregions with sufficient smoothness and precision. To address this issue, we\npropose GSPlane, which recovers accurate geometry and produces clean and\nwell-structured mesh connectivity for plane regions in the reconstructed scene.\nBy leveraging off-the-shelf segmentation and normal prediction models, GSPlane\nextracts robust planar priors to establish structured representations for\nplanar Gaussian coordinates, which help guide the training process by enforcing\ngeometric consistency. To further enhance training robustness, a Dynamic\nGaussian Re-classifier is introduced to adaptively reclassify planar Gaussians\nwith persistently high gradients as non-planar, ensuring more reliable\noptimization. Furthermore, we utilize the optimized planar priors to refine the\nmesh layouts, significantly improving topological structure while reducing the\nnumber of vertices and faces. We also explore applications of the structured\nplanar representation, which enable decoupling and flexible manipulation of\nobjects on supportive planes. Extensive experiments demonstrate that, with no\nsacrifice in rendering quality, the introduction of planar priors significantly\nimproves the geometric accuracy of the extracted meshes across various\nbaselines.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.17095v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.17095v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.17095v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.17095v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.16743": {
+      "title": "Zero-Shot Performance Prediction for Probabilistic Scaling Laws",
+      "authors": [
+        "Viktoria Schram",
+        "Markus Hiller",
+        "Daniel Beck",
+        "Trevor Cohn"
+      ],
+      "published": "2025-10-19T07:56:25+00:00",
+      "updated": "2025-10-19T07:56:25+00:00",
+      "summary": "The prediction of learning curves for Natural Language Processing (NLP)\nmodels enables informed decision-making to meet specific performance\nobjectives, while reducing computational overhead and lowering the costs\nassociated with dataset acquisition and curation. In this work, we formulate\nthe prediction task as a multitask learning problem, where each task's data is\nmodelled as being organized within a two-layer hierarchy. To model the shared\ninformation and dependencies across tasks and hierarchical levels, we employ\nlatent variable multi-output Gaussian Processes, enabling to account for task\ncorrelations and supporting zero-shot prediction of learning curves (LCs). We\ndemonstrate that this approach facilitates the development of probabilistic\nscaling laws at lower costs. Applying an active learning strategy, LCs can be\nqueried to reduce predictive uncertainty and provide predictions close to\nground truth scaling laws. We validate our framework on three small-scale NLP\ndatasets with up to $30$ LCs. These are obtained from nanoGPT models, from\nbilingual translation using mBART and Transformer models, and from multilingual\ntranslation using M2M100 models of varying sizes.",
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "http://arxiv.org/pdf/2510.16743v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted to NeurIPS 2025",
+      "entry_id": "http://arxiv.org/abs/2510.16743v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.16743v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.16743v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.16463": {
+      "title": "HGC-Avatar: Hierarchical Gaussian Compression for Streamable Dynamic 3D Avatars",
+      "authors": [
+        "Haocheng Tang",
+        "Ruoke Yan",
+        "Xinhui Yin",
+        "Qi Zhang",
+        "Xinfeng Zhang",
+        "Siwei Ma",
+        "Wen Gao",
+        "Chuanmin Jia"
+      ],
+      "published": "2025-10-18T12:03:26+00:00",
+      "updated": "2025-10-18T12:03:26+00:00",
+      "summary": "Recent advances in 3D Gaussian Splatting (3DGS) have enabled fast,\nphotorealistic rendering of dynamic 3D scenes, showing strong potential in\nimmersive communication. However, in digital human encoding and transmission,\nthe compression methods based on general 3DGS representations are limited by\nthe lack of human priors, resulting in suboptimal bitrate efficiency and\nreconstruction quality at the decoder side, which hinders their application in\nstreamable 3D avatar systems. We propose HGC-Avatar, a novel Hierarchical\nGaussian Compression framework designed for efficient transmission and\nhigh-quality rendering of dynamic avatars. Our method disentangles the Gaussian\nrepresentation into a structural layer, which maps poses to Gaussians via a\nStyleUNet-based generator, and a motion layer, which leverages the SMPL-X model\nto represent temporal pose variations compactly and semantically. This\nhierarchical design supports layer-wise compression, progressive decoding, and\ncontrollable rendering from diverse pose inputs such as video sequences or\ntext. Since people are most concerned with facial realism, we incorporate a\nfacial attention mechanism during StyleUNet training to preserve identity and\nexpression details under low-bitrate constraints. Experimental results\ndemonstrate that HGC-Avatar provides a streamable solution for rapid 3D avatar\nrendering, while significantly outperforming prior methods in both visual\nquality and compression efficiency.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.16463v1",
+      "journal_ref": null,
+      "doi": "10.1145/3746027.3755317",
+      "comment": "ACM International Conference on Multimedia 2025",
+      "entry_id": "http://arxiv.org/abs/2510.16463v1",
+      "links": [
+        {
+          "href": "http://dx.doi.org/10.1145/3746027.3755317",
+          "title": "doi",
+          "rel": "related",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/abs/2510.16463v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.16463v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.16410": {
+      "title": "REALM: An MLLM-Agent Framework for Open World 3D Reasoning Segmentation and Editing on Gaussian Splatting",
+      "authors": [
+        "Changyue Shi",
+        "Minghao Chen",
+        "Yiping Mao",
+        "Chuxiao Yang",
+        "Xinyuan Hu",
+        "Jiajun Ding",
+        "Zhou Yu"
+      ],
+      "published": "2025-10-18T08:53:08+00:00",
+      "updated": "2025-10-18T08:53:08+00:00",
+      "summary": "Bridging the gap between complex human instructions and precise 3D object\ngrounding remains a significant challenge in vision and robotics. Existing 3D\nsegmentation methods often struggle to interpret ambiguous, reasoning-based\ninstructions, while 2D vision-language models that excel at such reasoning lack\nintrinsic 3D spatial understanding. In this paper, we introduce REALM, an\ninnovative MLLM-agent framework that enables open-world reasoning-based\nsegmentation without requiring extensive 3D-specific post-training. We perform\nsegmentation directly on 3D Gaussian Splatting representations, capitalizing on\ntheir ability to render photorealistic novel views that are highly suitable for\nMLLM comprehension. As directly feeding one or more rendered views to the MLLM\ncan lead to high sensitivity to viewpoint selection, we propose a novel\nGlobal-to-Local Spatial Grounding strategy. Specifically, multiple global views\nare first fed into the MLLM agent in parallel for coarse-level localization,\naggregating responses to robustly identify the target object. Then, several\nclose-up novel views of the object are synthesized to perform fine-grained\nlocal segmentation, yielding accurate and consistent 3D masks. Extensive\nexperiments show that REALM achieves remarkable performance in interpreting\nboth explicit and implicit instructions across LERF, 3D-OVS, and our newly\nintroduced REALM3D benchmarks. Furthermore, our agent framework seamlessly\nsupports a range of 3D interaction tasks, including object removal,\nreplacement, and style transfer, demonstrating its practical utility and\nversatility. Project page: https://ChangyueShi.github.io/REALM.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.16410v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.16410v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.16410v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.16410v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-10-22",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2510.16205": {
+      "title": "VAR-SLAM: Visual Adaptive and Robust SLAM for Dynamic Environments",
+      "authors": [
+        "João Carlos Virgolino Soares",
+        "Gabriel Fischer Abati",
+        "Claudio Semini"
+      ],
+      "published": "2025-10-17T20:36:49+00:00",
+      "updated": "2025-10-17T20:36:49+00:00",
+      "summary": "Visual SLAM in dynamic environments remains challenging, as several existing\nmethods rely on semantic filtering that only handles known object classes, or\nuse fixed robust kernels that cannot adapt to unknown moving objects, leading\nto degraded accuracy when they appear in the scene. We present VAR-SLAM (Visual\nAdaptive and Robust SLAM), an ORB-SLAM3-based system that combines a\nlightweight semantic keypoint filter to deal with known moving objects, with\nBarron's adaptive robust loss to handle unknown ones. The shape parameter of\nthe robust kernel is estimated online from residuals, allowing the system to\nautomatically adjust between Gaussian and heavy-tailed behavior. We evaluate\nVAR-SLAM on the TUM RGB-D, Bonn RGB-D Dynamic, and OpenLORIS datasets, which\ninclude both known and unknown moving objects. Results show improved trajectory\naccuracy and robustness over state-of-the-art baselines, achieving up to 25%\nlower ATE RMSE than NGD-SLAM on challenging sequences, while maintaining\nperformance at 27 FPS on average.",
+      "categories": [
+        "cs.RO"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "http://arxiv.org/pdf/2510.16205v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Code available at https://github.com/iit-DLSLab/VAR-SLAM",
+      "entry_id": "http://arxiv.org/abs/2510.16205v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.16205v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.16205v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2510.15352": {
       "title": "GaussGym: An open-source real-to-sim framework for learning locomotion from pixels",
       "authors": [
@@ -77404,6 +77724,150 @@
     }
   },
   "Depth Estimation": {
+    "2510.17568": {
+      "title": "PAGE-4D: Disentangled Pose and Geometry Estimation for 4D Perception",
+      "authors": [
+        "Kaichen Zhou",
+        "Yuhan Wang",
+        "Grace Chen",
+        "Xinhai Chang",
+        "Gaspard Beaudouin",
+        "Fangneng Zhan",
+        "Paul Pu Liang",
+        "Mengyu Wang"
+      ],
+      "published": "2025-10-20T14:17:16+00:00",
+      "updated": "2025-10-20T14:17:16+00:00",
+      "summary": "Recent 3D feed-forward models, such as the Visual Geometry Grounded\nTransformer (VGGT), have shown strong capability in inferring 3D attributes of\nstatic scenes. However, since they are typically trained on static datasets,\nthese models often struggle in real-world scenarios involving complex dynamic\nelements, such as moving humans or deformable objects like umbrellas. To\naddress this limitation, we introduce PAGE-4D, a feedforward model that extends\nVGGT to dynamic scenes, enabling camera pose estimation, depth prediction, and\npoint cloud reconstruction -- all without post-processing. A central challenge\nin multi-task 4D reconstruction is the inherent conflict between tasks:\naccurate camera pose estimation requires suppressing dynamic regions, while\ngeometry reconstruction requires modeling them. To resolve this tension, we\npropose a dynamics-aware aggregator that disentangles static and dynamic\ninformation by predicting a dynamics-aware mask -- suppressing motion cues for\npose estimation while amplifying them for geometry reconstruction. Extensive\nexperiments show that PAGE-4D consistently outperforms the original VGGT in\ndynamic scenarios, achieving superior results in camera pose estimation,\nmonocular and video depth estimation, and dense point map reconstruction.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.17568v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.17568v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.17568v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.17568v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2510.17051": {
+      "title": "How Universal Are SAM2 Features?",
+      "authors": [
+        "Masoud Khairi Atani",
+        "Alon Harell",
+        "Hyomin Choi",
+        "Runyu Yang",
+        "Fabien Racape",
+        "Ivan V. Bajic"
+      ],
+      "published": "2025-10-19T23:31:37+00:00",
+      "updated": "2025-10-19T23:31:37+00:00",
+      "summary": "The trade-off between general-purpose foundation vision models and their\nspecialized counterparts is critical for efficient feature coding design and is\nnot yet fully understood. We investigate this trade-off by comparing the\nfeature versatility of the general-purpose Hiera encoder against the\nsegmentation-specialized Segment Anything Model 2 (SAM2). Using a lightweight,\ntrainable neck to probe the adaptability of their frozen features, we quantify\nthe information-theoretic cost of specialization. Our results reveal that while\nSAM2's specialization is highly effective for spatially-related tasks like\ndepth estimation, it comes at a cost. The specialized SAM2 encoder\nunderperforms its generalist predecessor, Hiera, on conceptually distant tasks\nsuch as pose estimation and image captioning, demonstrating a measurable loss\nof broader semantic information. A novel cross-neck analysis on SAM2 reveals\nthat each level of adaptation creates a further representational bottleneck.\nOur analysis illuminates these trade-offs in feature universality, providing a\nquantitative foundation for designing efficient feature coding and adaptation\nstrategies for diverse downstream applications.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.17051v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "This work has been accepted for publication in IEEE Picture Coding\n  Symposium (PCS) 2025",
+      "entry_id": "http://arxiv.org/abs/2510.17051v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.17051v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.17051v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2510.16624": {
+      "title": "Self-Supervised Learning to Fly using Efficient Semantic Segmentation and Metric Depth Estimation for Low-Cost Autonomous UAVs",
+      "authors": [
+        "Sebastian Mocanu",
+        "Emil Slusanschi",
+        "Marius Leordeanu"
+      ],
+      "published": "2025-10-18T19:35:17+00:00",
+      "updated": "2025-10-18T19:35:17+00:00",
+      "summary": "This paper presents a vision-only autonomous flight system for small UAVs\noperating in controlled indoor environments. The system combines semantic\nsegmentation with monocular depth estimation to enable obstacle avoidance,\nscene exploration, and autonomous safe landing operations without requiring GPS\nor expensive sensors such as LiDAR. A key innovation is an adaptive scale\nfactor algorithm that converts non-metric monocular depth predictions into\naccurate metric distance measurements by leveraging semantic ground plane\ndetection and camera intrinsic parameters, achieving a mean distance error of\n14.4 cm. The approach uses a knowledge distillation framework where a\ncolor-based Support Vector Machine (SVM) teacher generates training data for a\nlightweight U-Net student network (1.6M parameters) capable of real-time\nsemantic segmentation. For more complex environments, the SVM teacher can be\nreplaced with a state-of-the-art segmentation model. Testing was conducted in a\ncontrolled 5x4 meter laboratory environment with eight cardboard obstacles\nsimulating urban structures. Extensive validation across 30 flight tests in a\nreal-world environment and 100 flight tests in a digital-twin environment\ndemonstrates that the combined segmentation and depth approach increases the\ndistance traveled during surveillance and reduces mission time while\nmaintaining 100% success rates. The system is further optimized through\nend-to-end learning, where a compact student neural network learns complete\nflight policies from demonstration data generated by our best-performing\nmethod, achieving an 87.5% autonomous mission success rate. This work advances\npractical vision-based drone navigation in structured environments,\ndemonstrating solutions for metric depth estimation and computational\nefficiency challenges that enable deployment on resource-constrained platforms.",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.16624v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.16624v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.16624v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.16624v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2510.16508": {
+      "title": "OOS-DSD: Improving Out-of-stock Detection in Retail Images using Auxiliary Tasks",
+      "authors": [
+        "Franko Šikić",
+        "Sven Lončarić"
+      ],
+      "published": "2025-10-18T13:48:58+00:00",
+      "updated": "2025-10-18T13:48:58+00:00",
+      "summary": "Out-of-stock (OOS) detection is a very important retail verification process\nthat aims to infer the unavailability of products in their designated areas on\nthe shelf. In this paper, we introduce OOS-DSD, a novel deep learning-based\nmethod that advances OOS detection through auxiliary learning. In particular,\nwe extend a well-established YOLOv8 object detection architecture with\nadditional convolutional branches to simultaneously detect OOS, segment\nproducts, and estimate scene depth. While OOS detection and product\nsegmentation branches are trained using ground truth data, the depth estimation\nbranch is trained using pseudo-labeled annotations produced by the\nstate-of-the-art (SOTA) depth estimation model Depth Anything V2. Furthermore,\nsince the aforementioned pseudo-labeled depth estimates display relative depth,\nwe propose an appropriate depth normalization procedure that stabilizes the\ntraining process. The experimental results show that the proposed method\nsurpassed the performance of the SOTA OOS detection methods by 1.8% of the mean\naverage precision (mAP). In addition, ablation studies confirm the\neffectiveness of auxiliary learning and the proposed depth normalization\nprocedure, with the former increasing mAP by 3.7% and the latter by 4.2%.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.16508v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.16508v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.16508v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.16508v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2510.15072": {
       "title": "SaLon3R: Structure-aware Long-term Generalizable 3D Reconstruction from Unposed Images",
       "authors": [

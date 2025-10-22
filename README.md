@@ -1,4 +1,4 @@
-## Updated at 2025-10-21 08:17:37
+## Updated at 2025-10-22 08:18:35
 
 ## 3DGS Semantic
 
@@ -8,6 +8,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-10-18**|**[REALM: An MLLM-Agent Framework for Open World 3D Reasoning Segmentation and Editing on Gaussian Splatting](https://arxiv.org/abs/2510.16410)**|N/A|None|cs.CV|None|Changyue Shi et al.|
 |**2025-10-10**|**[Mono4DEditor: Text-Driven 4D Scene Editing from Monocular Video via Point-Level Localization of Language-Embedded Gaussians](https://arxiv.org/abs/2510.09438)**|N/A|19 pages, 9 figures|cs.CV|None|Jin-Chuan Shi et al.|
 |**2025-10-06**|**[Progressive Gaussian Transformer with Anisotropy-aware Sampling for Open Vocabulary Occupancy Prediction](https://arxiv.org/abs/2510.04759)**|N/A|Project Page: https://yanchi-3dv.github.io/PG-Occ|cs.CV|None|Chi Yan, Dan Xu|
 |**2025-10-02**|**[SIMSplat: Predictive Driving Scene Editing with Language-aligned 4D Gaussian Splatting](https://arxiv.org/abs/2510.02469)**|N/A|None|cs.RO|None|Sung-Yeon Park et al.|
@@ -557,6 +558,10 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-10-20**|**[PAGE-4D: Disentangled Pose and Geometry Estimation for 4D Perception](https://arxiv.org/abs/2510.17568)**|N/A|None|cs.CV|None|Kaichen Zhou et al.|
+|**2025-10-19**|**[How Universal Are SAM2 Features?](https://arxiv.org/abs/2510.17051)**|N/A|This work has been accepted for publication in IEEE Picture Coding Symposium (PCS) 2025|cs.CV|None|Masoud Khairi Atani et al.|
+|**2025-10-18**|**[Self-Supervised Learning to Fly using Efficient Semantic Segmentation and Metric Depth Estimation for Low-Cost Autonomous UAVs](https://arxiv.org/abs/2510.16624)**|N/A|None|cs.CV|None|Sebastian Mocanu et al.|
+|**2025-10-18**|**[OOS-DSD: Improving Out-of-stock Detection in Retail Images using Auxiliary Tasks](https://arxiv.org/abs/2510.16508)**|N/A|None|cs.CV|None|Franko Šikić, Sven Lončarić|
 |**2025-10-16**|**[SaLon3R: Structure-aware Long-term Generalizable 3D Reconstruction from Unposed Images](https://arxiv.org/abs/2510.15072)**|N/A|None|cs.CV|None|Jiaxin Guo et al.|
 |**2025-10-16**|**[C4D: 4D Made from 3D through Dual Correspondences](https://arxiv.org/abs/2510.14960)**|N/A|Accepted to ICCV 2025|cs.CV|None|Shizun Wang et al.|
 |**2025-10-16**|**[Multi-modal video data-pipelines for machine learning with minimal human supervision](https://arxiv.org/abs/2510.14862)**|N/A|None|cs.CV|None|Mihai-Cristian Pîrvu, Marius Leordeanu|
