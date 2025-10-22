@@ -1,4 +1,4 @@
-## Updated at 2025-10-22 08:18:35
+## Updated at 2025-10-22 20:08:25
 
 ## 3DGS Semantic
 
@@ -8,6 +8,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-10-21**|**[OpenInsGaussian: Open-vocabulary Instance Gaussian Segmentation with Context-aware Cross-view Fusion](https://arxiv.org/abs/2510.18253)**|N/A|None|cs.CV|None|Tianyu Huang et al.|
 |**2025-10-18**|**[REALM: An MLLM-Agent Framework for Open World 3D Reasoning Segmentation and Editing on Gaussian Splatting](https://arxiv.org/abs/2510.16410)**|N/A|None|cs.CV|None|Changyue Shi et al.|
 |**2025-10-10**|**[Mono4DEditor: Text-Driven 4D Scene Editing from Monocular Video via Point-Level Localization of Language-Embedded Gaussians](https://arxiv.org/abs/2510.09438)**|N/A|19 pages, 9 figures|cs.CV|None|Jin-Chuan Shi et al.|
 |**2025-10-06**|**[Progressive Gaussian Transformer with Anisotropy-aware Sampling for Open Vocabulary Occupancy Prediction](https://arxiv.org/abs/2510.04759)**|N/A|Project Page: https://yanchi-3dv.github.io/PG-Occ|cs.CV|None|Chi Yan, Dan Xu|
@@ -558,6 +559,8 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-10-21**|**[PLANA3R: Zero-shot Metric Planar 3D Reconstruction via Feed-Forward Planar Splatting](https://arxiv.org/abs/2510.18714)**|N/A|39th Conference on Neural Information Processing Systems (NeurIPS 2025). The project page is available at: https://lck666666.github.io/plana3r|cs.CV|None|Changkun Liu et al.|
+|**2025-10-21**|**[GeoDiff: Geometry-Guided Diffusion for Metric Depth Estimation](https://arxiv.org/abs/2510.18291)**|N/A|Accepted to ICCV Findings 2025. The first two authors contributed equally. The last two authors share co-corresponding authorship|cs.CV|None|Tuan Pham et al.|
 |**2025-10-20**|**[PAGE-4D: Disentangled Pose and Geometry Estimation for 4D Perception](https://arxiv.org/abs/2510.17568)**|N/A|None|cs.CV|None|Kaichen Zhou et al.|
 |**2025-10-19**|**[How Universal Are SAM2 Features?](https://arxiv.org/abs/2510.17051)**|N/A|This work has been accepted for publication in IEEE Picture Coding Symposium (PCS) 2025|cs.CV|None|Masoud Khairi Atani et al.|
 |**2025-10-18**|**[Self-Supervised Learning to Fly using Efficient Semantic Segmentation and Metric Depth Estimation for Low-Cost Autonomous UAVs](https://arxiv.org/abs/2510.16624)**|N/A|None|cs.CV|None|Sebastian Mocanu et al.|

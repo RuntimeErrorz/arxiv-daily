@@ -1,5 +1,154 @@
 {
   "3DGS Semantic": {
+    "2510.18729": {
+      "title": "mSQUID: Model-Based Leanred Modulo Recovery at Low Sampling Rates",
+      "authors": [
+        "Yhonatan Kvich",
+        "Rotem Arie",
+        "Hana Hasan",
+        "Shaik Basheeruddin Shah",
+        "Yonina C. Eldar"
+      ],
+      "published": "2025-10-21T15:29:59+00:00",
+      "updated": "2025-10-21T15:29:59+00:00",
+      "summary": "Modulo sampling enables acquisition of signals with unlimited dynamic range\nby folding the input into a bounded interval prior to sampling, thus\neliminating the risk of signal clipping and preserving information without\nrequiring highresolution ADCs. While this enables low-cost hardware, the\nnonlinear distortion introduced by folding presents recovery challenges,\nparticularly under noise and quantization. We propose a model-based deep\nunfolding network tailored to this setting, combining the interpretability of\nclassical compress sensing (CS) solvers with the flexibility of learning. A key\ninnovation is a soft-quantization module that encodes the modulo prior by\nguiding the solution toward discrete multiples of the folding range in a\ndifferentiable and learnable way. Our method, modulo soft-quantized unfolded\niterative decoder (mSQUID), achieves superior reconstruction performance at low\nsampling rates under additive Gaussian noise. We further demonstrate its\nutility in a challenging case where signals with vastly different amplitudes\nand disjoint frequency bands are acquired simultaneously and quantized. In this\nscenario, classical sampling often struggles due to weak signal distortion or\nstrong signal clipping, while our approach is able to recover the input\nsignals. Our method also offers significantly reduced runtimes, making it\nsuitable for real-time, resource-limited systems.",
+      "categories": [
+        "eess.SP"
+      ],
+      "primary_category": "eess.SP",
+      "pdf_url": "http://arxiv.org/pdf/2510.18729v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.18729v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.18729v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.18729v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.18637": {
+      "title": "ε-Seg: Sparsely Supervised Semantic Segmentation of Microscopy Data",
+      "authors": [
+        "Sheida Rahnamai Kordasiabi",
+        "Damian Dalle Nogare",
+        "Florian Jug"
+      ],
+      "published": "2025-10-21T13:41:07+00:00",
+      "updated": "2025-10-21T13:41:07+00:00",
+      "summary": "Semantic segmentation of electron microscopy (EM) images of biological\nsamples remains a challenge in the life sciences. EM data captures details of\nbiological structures, sometimes with such complexity that even human observers\ncan find it overwhelming. We introduce {\\epsilon}-Seg, a method based on\nhierarchical variational autoencoders (HVAEs), employing center-region masking,\nsparse label contrastive learning (CL), a Gaussian mixture model (GMM) prior,\nand clustering-free label prediction. Center-region masking and the inpainting\nloss encourage the model to learn robust and representative embeddings to\ndistinguish the desired classes, even if training labels are sparse (0.05% of\nthe total image data or less). For optimal performance, we employ CL and a GMM\nprior to shape the latent space of the HVAE such that encoded input patches\ntend to cluster wrt. the semantic classes we wish to distinguish. Finally,\ninstead of clustering latent embeddings for semantic segmentation, we propose a\nMLP semantic segmentation head to directly predict class labels from latent\nembeddings. We show empirical results of {\\epsilon}-Seg and baseline methods on\n2 dense EM datasets of biological tissues and demonstrate the applicability of\nour method also on fluorescence microscopy data. Our results show that\n{\\epsilon}-Seg is capable of achieving competitive sparsely-supervised\nsegmentation results on complex biological image data, even if only limited\namounts of training labels are available.",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.18637v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "10 pages main text, 17 pages total",
+      "entry_id": "http://arxiv.org/abs/2510.18637v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.18637v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.18637v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.18253": {
+      "title": "OpenInsGaussian: Open-vocabulary Instance Gaussian Segmentation with Context-aware Cross-view Fusion",
+      "authors": [
+        "Tianyu Huang",
+        "Runnan Chen",
+        "Dongting Hu",
+        "Fengming Huang",
+        "Mingming Gong",
+        "Tongliang Liu"
+      ],
+      "published": "2025-10-21T03:24:12+00:00",
+      "updated": "2025-10-21T03:24:12+00:00",
+      "summary": "Understanding 3D scenes is pivotal for autonomous driving, robotics, and\naugmented reality. Recent semantic Gaussian Splatting approaches leverage\nlarge-scale 2D vision models to project 2D semantic features onto 3D scenes.\nHowever, they suffer from two major limitations: (1) insufficient contextual\ncues for individual masks during preprocessing and (2) inconsistencies and\nmissing details when fusing multi-view features from these 2D models. In this\npaper, we introduce \\textbf{OpenInsGaussian}, an \\textbf{Open}-vocabulary\n\\textbf{Ins}tance \\textbf{Gaussian} segmentation framework with Context-aware\nCross-view Fusion. Our method consists of two modules: Context-Aware Feature\nExtraction, which augments each mask with rich semantic context, and\nAttention-Driven Feature Aggregation, which selectively fuses multi-view\nfeatures to mitigate alignment errors and incompleteness. Through extensive\nexperiments on benchmark datasets, OpenInsGaussian achieves state-of-the-art\nresults in open-vocabulary 3D Gaussian segmentation, outperforming existing\nbaselines by a large margin. These findings underscore the robustness and\ngenerality of our proposed approach, marking a significant step forward in 3D\nscene understanding and its practical deployment across diverse real-world\nscenarios.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.18253v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.18253v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.18253v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.18253v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2510.18054": {
+      "title": "HouseTour: A Virtual Real Estate A(I)gent",
+      "authors": [
+        "Ata Çelen",
+        "Marc Pollefeys",
+        "Daniel Barath",
+        "Iro Armeni"
+      ],
+      "published": "2025-10-20T19:47:35+00:00",
+      "updated": "2025-10-20T19:47:35+00:00",
+      "summary": "We introduce HouseTour, a method for spatially-aware 3D camera trajectory and\nnatural language summary generation from a collection of images depicting an\nexisting 3D space. Unlike existing vision-language models (VLMs), which\nstruggle with geometric reasoning, our approach generates smooth video\ntrajectories via a diffusion process constrained by known camera poses and\nintegrates this information into the VLM for 3D-grounded descriptions. We\nsynthesize the final video using 3D Gaussian splatting to render novel views\nalong the trajectory. To support this task, we present the HouseTour dataset,\nwhich includes over 1,200 house-tour videos with camera poses, 3D\nreconstructions, and real estate descriptions. Experiments demonstrate that\nincorporating 3D camera trajectories into the text generation process improves\nperformance over methods handling each task independently. We evaluate both\nindividual and end-to-end performance, introducing a new joint metric. Our work\nenables automated, professional-quality video creation for real estate and\ntouristic applications without requiring specialized expertise or equipment.",
+      "categories": [
+        "cs.CV",
+        "cs.CL"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.18054v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Published on ICCV 2025",
+      "entry_id": "http://arxiv.org/abs/2510.18054v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.18054v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.18054v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2510.17783": {
       "title": "Botany-Bot: Digital Twin Monitoring of Occluded and Underleaf Plant Structures with Gaussian Splats",
       "authors": [
@@ -7206,27 +7355,27 @@
         "Wei-shi Zheng"
       ],
       "published": "2025-08-13T01:57:48+00:00",
-      "updated": "2025-08-13T01:57:48+00:00",
+      "updated": "2025-10-21T03:50:12+00:00",
       "summary": "The Object Goal Navigation (ObjectNav) task challenges agents to locate a\nspecified object in an unseen environment by imagining unobserved regions of\nthe scene. Prior approaches rely on deterministic and discriminative models to\ncomplete semantic maps, overlooking the inherent uncertainty in indoor layouts\nand limiting their ability to generalize to unseen environments. In this work,\nwe propose GOAL, a generative flow-based framework that models the semantic\ndistribution of indoor environments by bridging observed regions with\nLLM-enriched full-scene semantic maps. During training, spatial priors inferred\nfrom large language models (LLMs) are encoded as two-dimensional Gaussian\nfields and injected into target maps, distilling rich contextual knowledge into\nthe flow model and enabling more generalizable completions. Extensive\nexperiments demonstrate that GOAL achieves state-of-the-art performance on MP3D\nand Gibson, and shows strong generalization in transfer settings to HM3D. Codes\nand pretrained models are available at https://github.com/Badi-Li/GOAL.",
       "categories": [
         "cs.CV",
         "cs.RO"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "http://arxiv.org/pdf/2508.09423v1",
+      "pdf_url": "http://arxiv.org/pdf/2508.09423v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2508.09423v1",
+      "entry_id": "http://arxiv.org/abs/2508.09423v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2508.09423v1",
+          "href": "http://arxiv.org/abs/2508.09423v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2508.09423v1",
+          "href": "http://arxiv.org/pdf/2508.09423v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -77724,6 +77873,81 @@
     }
   },
   "Depth Estimation": {
+    "2510.18714": {
+      "title": "PLANA3R: Zero-shot Metric Planar 3D Reconstruction via Feed-Forward Planar Splatting",
+      "authors": [
+        "Changkun Liu",
+        "Bin Tan",
+        "Zeran Ke",
+        "Shangzhan Zhang",
+        "Jiachen Liu",
+        "Ming Qian",
+        "Nan Xue",
+        "Yujun Shen",
+        "Tristan Braud"
+      ],
+      "published": "2025-10-21T15:15:33+00:00",
+      "updated": "2025-10-21T15:15:33+00:00",
+      "summary": "This paper addresses metric 3D reconstruction of indoor scenes by exploiting\ntheir inherent geometric regularities with compact representations. Using\nplanar 3D primitives - a well-suited representation for man-made environments -\nwe introduce PLANA3R, a pose-free framework for metric Planar 3D Reconstruction\nfrom unposed two-view images. Our approach employs Vision Transformers to\nextract a set of sparse planar primitives, estimate relative camera poses, and\nsupervise geometry learning via planar splatting, where gradients are\npropagated through high-resolution rendered depth and normal maps of\nprimitives. Unlike prior feedforward methods that require 3D plane annotations\nduring training, PLANA3R learns planar 3D structures without explicit plane\nsupervision, enabling scalable training on large-scale stereo datasets using\nonly depth and normal annotations. We validate PLANA3R on multiple indoor-scene\ndatasets with metric supervision and demonstrate strong generalization to\nout-of-domain indoor environments across diverse tasks under metric evaluation\nprotocols, including 3D surface reconstruction, depth estimation, and relative\npose estimation. Furthermore, by formulating with planar 3D representation, our\nmethod emerges with the ability for accurate plane segmentation. The project\npage is available at https://lck666666.github.io/plana3r",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.18714v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "39th Conference on Neural Information Processing Systems (NeurIPS\n  2025). The project page is available at: https://lck666666.github.io/plana3r",
+      "entry_id": "http://arxiv.org/abs/2510.18714v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.18714v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.18714v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2510.18291": {
+      "title": "GeoDiff: Geometry-Guided Diffusion for Metric Depth Estimation",
+      "authors": [
+        "Tuan Pham",
+        "Thanh-Tung Le",
+        "Xiaohui Xie",
+        "Stephan Mandt"
+      ],
+      "published": "2025-10-21T04:47:36+00:00",
+      "updated": "2025-10-21T04:47:36+00:00",
+      "summary": "We introduce a novel framework for metric depth estimation that enhances\npretrained diffusion-based monocular depth estimation (DB-MDE) models with\nstereo vision guidance. While existing DB-MDE methods excel at predicting\nrelative depth, estimating absolute metric depth remains challenging due to\nscale ambiguities in single-image scenarios. To address this, we reframe depth\nestimation as an inverse problem, leveraging pretrained latent diffusion models\n(LDMs) conditioned on RGB images, combined with stereo-based geometric\nconstraints, to learn scale and shift for accurate depth recovery. Our\ntraining-free solution seamlessly integrates into existing DB-MDE frameworks\nand generalizes across indoor, outdoor, and complex environments. Extensive\nexperiments demonstrate that our approach matches or surpasses state-of-the-art\nmethods, particularly in challenging scenarios involving translucent and\nspecular surfaces, all without requiring retraining.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.18291v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted to ICCV Findings 2025. The first two authors contributed\n  equally. The last two authors share co-corresponding authorship",
+      "entry_id": "http://arxiv.org/abs/2510.18291v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.18291v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.18291v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2510.17568": {
       "title": "PAGE-4D: Disentangled Pose and Geometry Estimation for 4D Perception",
       "authors": [
