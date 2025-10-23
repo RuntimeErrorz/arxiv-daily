@@ -1,4 +1,4 @@
-## Updated at 2025-10-22 20:08:25
+## Updated at 2025-10-23 20:08:14
 
 ## 3DGS Semantic
 
@@ -559,6 +559,7 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-10-22**|**[How to Evaluate Monocular Depth Estimation?](https://arxiv.org/abs/2510.19814)**|N/A|None|cs.CV|None|Siyang Wu et al.|
 |**2025-10-21**|**[PLANA3R: Zero-shot Metric Planar 3D Reconstruction via Feed-Forward Planar Splatting](https://arxiv.org/abs/2510.18714)**|N/A|39th Conference on Neural Information Processing Systems (NeurIPS 2025). The project page is available at: https://lck666666.github.io/plana3r|cs.CV|None|Changkun Liu et al.|
 |**2025-10-21**|**[GeoDiff: Geometry-Guided Diffusion for Metric Depth Estimation](https://arxiv.org/abs/2510.18291)**|N/A|Accepted to ICCV Findings 2025. The first two authors contributed equally. The last two authors share co-corresponding authorship|cs.CV|None|Tuan Pham et al.|
 |**2025-10-20**|**[PAGE-4D: Disentangled Pose and Geometry Estimation for 4D Perception](https://arxiv.org/abs/2510.17568)**|N/A|None|cs.CV|None|Kaichen Zhou et al.|

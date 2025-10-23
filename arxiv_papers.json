@@ -1,5 +1,121 @@
 {
   "3DGS Semantic": {
+    "2510.19578": {
+      "title": "VGD: Visual Geometry Gaussian Splatting for Feed-Forward Surround-view Driving Reconstruction",
+      "authors": [
+        "Junhong Lin",
+        "Kangli Wang",
+        "Shunzhou Wang",
+        "Songlin Fan",
+        "Ge Li",
+        "Wei Gao"
+      ],
+      "published": "2025-10-22T13:28:49+00:00",
+      "updated": "2025-10-22T13:28:49+00:00",
+      "summary": "Feed-forward surround-view autonomous driving scene reconstruction offers\nfast, generalizable inference ability, which faces the core challenge of\nensuring generalization while elevating novel view quality. Due to the\nsurround-view with minimal overlap regions, existing methods typically fail to\nensure geometric consistency and reconstruction quality for novel views. To\ntackle this tension, we claim that geometric information must be learned\nexplicitly, and the resulting features should be leveraged to guide the\nelevating of semantic quality in novel views. In this paper, we introduce\n\\textbf{Visual Gaussian Driving (VGD)}, a novel feed-forward end-to-end\nlearning framework designed to address this challenge. To achieve generalizable\ngeometric estimation, we design a lightweight variant of the VGGT architecture\nto efficiently distill its geometric priors from the pre-trained VGGT to the\ngeometry branch. Furthermore, we design a Gaussian Head that fuses multi-scale\ngeometry tokens to predict Gaussian parameters for novel view rendering, which\nshares the same patch backbone as the geometry branch. Finally, we integrate\nmulti-scale features from both geometry and Gaussian head branches to jointly\nsupervise a semantic refinement model, optimizing rendering quality through\nfeature-consistent learning. Experiments on nuScenes demonstrate that our\napproach significantly outperforms state-of-the-art methods in both objective\nmetrics and subjective quality under various settings, which validates VGD's\nscalability and high-fidelity surround-view reconstruction.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.19578v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "10 pages, 7 figures",
+      "entry_id": "http://arxiv.org/abs/2510.19578v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.19578v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.19578v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.19290": {
+      "title": "Knowledge Distillation of Uncertainty using Deep Latent Factor Model",
+      "authors": [
+        "Sehyun Park",
+        "Jongjin Lee",
+        "Yunseop Shin",
+        "Ilsang Ohn",
+        "Yongdai Kim"
+      ],
+      "published": "2025-10-22T06:46:59+00:00",
+      "updated": "2025-10-22T06:46:59+00:00",
+      "summary": "Deep ensembles deliver state-of-the-art, reliable uncertainty quantification,\nbut their heavy computational and memory requirements hinder their practical\ndeployments to real applications such as on-device AI. Knowledge distillation\ncompresses an ensemble into small student models, but existing techniques\nstruggle to preserve uncertainty partly because reducing the size of DNNs\ntypically results in variation reduction. To resolve this limitation, we\nintroduce a new method of distribution distillation (i.e. compressing a teacher\nensemble into a student distribution instead of a student ensemble) called\nGaussian distillation, which estimates the distribution of a teacher ensemble\nthrough a special Gaussian process called the deep latent factor model (DLF) by\ntreating each member of the teacher ensemble as a realization of a certain\nstochastic process. The mean and covariance functions in the DLF model are\nestimated stably by using the expectation-maximization (EM) algorithm. By using\nmultiple benchmark datasets, we demonstrate that the proposed Gaussian\ndistillation outperforms existing baselines. In addition, we illustrate that\nGaussian distillation works well for fine-tuning of language models and\ndistribution shift problems.",
+      "categories": [
+        "cs.LG",
+        "stat.ME"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "http://arxiv.org/pdf/2510.19290v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.19290v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.19290v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.19290v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.19255": {
+      "title": "Advances in 4D Representation: Geometry, Motion, and Interaction",
+      "authors": [
+        "Mingrui Zhao",
+        "Sauradip Nag",
+        "Kai Wang",
+        "Aditya Vora",
+        "Guangda Ji",
+        "Peter Chun",
+        "Ali Mahdavi-Amiri",
+        "Hao Zhang"
+      ],
+      "published": "2025-10-22T05:22:20+00:00",
+      "updated": "2025-10-22T05:22:20+00:00",
+      "summary": "We present a survey on 4D generation and reconstruction, a fast-evolving\nsubfield of computer graphics whose developments have been propelled by recent\nadvances in neural fields, geometric and motion deep learning, as well 3D\ngenerative artificial intelligence (GenAI). While our survey is not the first\nof its kind, we build our coverage of the domain from a unique and distinctive\nperspective of 4D representations\\/}, to model 3D geometry evolving over time\nwhile exhibiting motion and interaction. Specifically, instead of offering an\nexhaustive enumeration of many works, we take a more selective approach by\nfocusing on representative works to highlight both the desirable properties and\nensuing challenges of each representation under different computation,\napplication, and data scenarios. The main take-away message we aim to convey to\nthe readers is on how to select and then customize the appropriate 4D\nrepresentations for their tasks. Organizationally, we separate the 4D\nrepresentations based on three key pillars: geometry, motion, and interaction.\nOur discourse will not only encompass the most popular representations of\ntoday, such as neural radiance fields (NeRFs) and 3D Gaussian Splatting (3DGS),\nbut also bring attention to relatively under-explored representations in the 4D\ncontext, such as structured models and long-range motions. Throughout our\nsurvey, we will reprise the role of large language models (LLMs) and video\nfoundational models (VFMs) in a variety of 4D applications, while steering our\ndiscussion towards their current limitations and how they can be addressed. We\nalso provide a dedicated coverage on what 4D datasets are currently available,\nas well as what is lacking, in driving the subfield forward. Project\npage:https://mingrui-zhao.github.io/4DRep-GMI/",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.19255v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "21 pages. Project Page: https://mingrui-zhao.github.io/4DRep-GMI/",
+      "entry_id": "http://arxiv.org/abs/2510.19255v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.19255v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.19255v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2510.18729": {
       "title": "mSQUID: Model-Based Leanred Modulo Recovery at Low Sampling Rates",
       "authors": [
@@ -110,7 +226,15 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-10-23",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2510.18054": {
       "title": "HouseTour: A Virtual Real Estate A(I)gent",
@@ -3091,27 +3215,27 @@
         "Hyun Oh Song"
       ],
       "published": "2025-09-24T15:10:44+00:00",
-      "updated": "2025-09-24T15:10:44+00:00",
+      "updated": "2025-10-22T06:33:03+00:00",
       "summary": "We study weight-only post-training quantization (PTQ), which quantizes the\nweights of a large language model (LLM) without retraining, using little or no\ncalibration data. Weight-only PTQ is crucial for reducing the memory footprint\nand latency of LLM inference, especially in memory-bound, small-batch inference\nscenarios, such as personalized inference on edge devices. Despite its\nimportance, irregular weight distributions with heavy-tailed outliers in LLMs\ncomplicate quantization, recently motivating rotation-based methods that\ntransform weights into near-Gaussian distributions, which are more regular with\nfewer outliers, thereby reducing quantization error. In this work, we first\nderive the information-theoretically optimal bit allocation for Gaussianized\nweights under given bit budgets, revealing that fine-grained fractional-bit\nquantizers approaching the Gaussian distortion-rate bound are essential to\nachieve near-optimal quantization performance. To bridge this theoretical\ninsight and practical implementation, we introduce Q-Palette, a versatile\ncollection of fractional-bit quantizers that range from trellis-coded\nquantizers offering near-optimal distortion to simpler vector and scalar\nquantizers optimized for faster inference, all efficiently implemented with\noptimized CUDA kernels across various bitwidths. Furthermore, leveraging\nQ-Palette as a foundational component, we propose a novel mixed-scheme\nquantization framework, jointly optimizing quantizer choices and layer fusion\ndecisions given resource constraints. The code is available at\nhttps://github.com/snu-mllab/Q-Palette.",
       "categories": [
         "cs.LG",
         "cs.AI"
       ],
       "primary_category": "cs.LG",
-      "pdf_url": "http://arxiv.org/pdf/2509.20214v1",
+      "pdf_url": "http://arxiv.org/pdf/2509.20214v2",
       "journal_ref": null,
       "doi": null,
       "comment": "NeurIPS 2025",
-      "entry_id": "http://arxiv.org/abs/2509.20214v1",
+      "entry_id": "http://arxiv.org/abs/2509.20214v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2509.20214v1",
+          "href": "http://arxiv.org/abs/2509.20214v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2509.20214v1",
+          "href": "http://arxiv.org/pdf/2509.20214v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -6477,27 +6601,27 @@
         "Sungeun Hong"
       ],
       "published": "2025-08-21T13:42:49+00:00",
-      "updated": "2025-10-16T08:27:41+00:00",
+      "updated": "2025-10-22T12:05:11+00:00",
       "summary": "Test-time adaptation (TTA) enhances the zero-shot robustness under\ndistribution shifts by leveraging unlabeled test data during inference. Despite\nnotable advances, several challenges still limit its broader applicability.\nFirst, most methods rely on backpropagation or iterative optimization, which\nlimits scalability and hinders real-time deployment. Second, they lack explicit\nmodeling of class-conditional feature distributions. This modeling is crucial\nfor producing reliable decision boundaries and calibrated predictions, but it\nremains underexplored due to the lack of both source data and supervision at\ntest time. In this paper, we propose ADAPT, an Advanced Distribution-Aware and\nbackPropagation-free Test-time adaptation method. We reframe TTA as a Gaussian\nprobabilistic inference task by modeling class-conditional likelihoods using\ngradually updated class means and a shared covariance matrix. This enables\nclosed-form, training-free inference. To correct potential likelihood bias, we\nintroduce lightweight regularization guided by CLIP priors and a historical\nknowledge bank. ADAPT requires no source data, no gradient updates, and no full\naccess to target data, supporting both online and transductive settings.\nExtensive experiments across diverse benchmarks demonstrate that our method\nachieves state-of-the-art performance under a wide range of distribution shifts\nwith superior scalability and robustness.",
       "categories": [
         "cs.CV",
         "cs.LG"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "http://arxiv.org/pdf/2508.15568v4",
+      "pdf_url": "http://arxiv.org/pdf/2508.15568v5",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2508.15568v4",
+      "entry_id": "http://arxiv.org/abs/2508.15568v5",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2508.15568v4",
+          "href": "http://arxiv.org/abs/2508.15568v5",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2508.15568v4",
+          "href": "http://arxiv.org/pdf/2508.15568v5",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -77873,6 +77997,41 @@
     }
   },
   "Depth Estimation": {
+    "2510.19814": {
+      "title": "How to Evaluate Monocular Depth Estimation?",
+      "authors": [
+        "Siyang Wu",
+        "Jack Nugent",
+        "Willow Yang",
+        "Jia Deng"
+      ],
+      "published": "2025-10-22T17:51:24+00:00",
+      "updated": "2025-10-22T17:51:24+00:00",
+      "summary": "Monocular depth estimation is an important task with rapid progress, but how\nto evaluate it remains an open question, as evidenced by a lack of\nstandardization in existing literature and a large selection of evaluation\nmetrics whose trade-offs and behaviors are not well understood. This paper\ncontributes a novel, quantitative analysis of existing metrics in terms of\ntheir sensitivity to various types of perturbations of ground truth,\nemphasizing comparison to human judgment. Our analysis reveals that existing\nmetrics are severely under-sensitive to curvature perturbation such as making\nflat surfaces wavy. To remedy this, we introduce a new metric based on relative\nsurface normals, along with new depth visualization tools and a principled\nmethod to create composite metrics with better human alignment. Code and data\nare available at: https://github.com/princeton-vl/evalmde.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.19814v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.19814v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.19814v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.19814v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2510.18714": {
       "title": "PLANA3R: Zero-shot Metric Planar 3D Reconstruction via Feed-Forward Planar Splatting",
       "authors": [
@@ -77961,26 +78120,26 @@
         "Mengyu Wang"
       ],
       "published": "2025-10-20T14:17:16+00:00",
-      "updated": "2025-10-20T14:17:16+00:00",
+      "updated": "2025-10-21T18:59:28+00:00",
       "summary": "Recent 3D feed-forward models, such as the Visual Geometry Grounded\nTransformer (VGGT), have shown strong capability in inferring 3D attributes of\nstatic scenes. However, since they are typically trained on static datasets,\nthese models often struggle in real-world scenarios involving complex dynamic\nelements, such as moving humans or deformable objects like umbrellas. To\naddress this limitation, we introduce PAGE-4D, a feedforward model that extends\nVGGT to dynamic scenes, enabling camera pose estimation, depth prediction, and\npoint cloud reconstruction -- all without post-processing. A central challenge\nin multi-task 4D reconstruction is the inherent conflict between tasks:\naccurate camera pose estimation requires suppressing dynamic regions, while\ngeometry reconstruction requires modeling them. To resolve this tension, we\npropose a dynamics-aware aggregator that disentangles static and dynamic\ninformation by predicting a dynamics-aware mask -- suppressing motion cues for\npose estimation while amplifying them for geometry reconstruction. Extensive\nexperiments show that PAGE-4D consistently outperforms the original VGGT in\ndynamic scenarios, achieving superior results in camera pose estimation,\nmonocular and video depth estimation, and dense point map reconstruction.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "http://arxiv.org/pdf/2510.17568v1",
+      "pdf_url": "http://arxiv.org/pdf/2510.17568v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2510.17568v1",
+      "entry_id": "http://arxiv.org/abs/2510.17568v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2510.17568v1",
+          "href": "http://arxiv.org/abs/2510.17568v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2510.17568v1",
+          "href": "http://arxiv.org/pdf/2510.17568v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
