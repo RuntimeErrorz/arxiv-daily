@@ -1,4 +1,4 @@
-## Updated at 2025-10-24 08:15:39
+## Updated at 2025-10-24 20:08:10
 
 ## 3DGS Semantic
 
@@ -8,6 +8,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-10-23**|**[COS3D: Collaborative Open-Vocabulary 3D Segmentation](https://arxiv.org/abs/2510.20238)**|N/A|NeurIPS 2025. The code is publicly available at \href{https://github.com/Runsong123/COS3D}{https://github.com/Runsong123/COS3D}|cs.CV|None|Runsong Zhu et al.|
 |**2025-10-21**|**[OpenInsGaussian: Open-vocabulary Instance Gaussian Segmentation with Context-aware Cross-view Fusion](https://arxiv.org/abs/2510.18253)**|N/A|None|cs.CV|None|Tianyu Huang et al.|
 |**2025-10-18**|**[REALM: An MLLM-Agent Framework for Open World 3D Reasoning Segmentation and Editing on Gaussian Splatting](https://arxiv.org/abs/2510.16410)**|N/A|None|cs.CV|None|Changyue Shi et al.|
 |**2025-10-10**|**[Mono4DEditor: Text-Driven 4D Scene Editing from Monocular Video via Point-Level Localization of Language-Embedded Gaussians](https://arxiv.org/abs/2510.09438)**|N/A|19 pages, 9 figures|cs.CV|None|Jin-Chuan Shi et al.|
@@ -559,6 +560,7 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-10-23**|**[PPMStereo: Pick-and-Play Memory Construction for Consistent Dynamic Stereo Matching](https://arxiv.org/abs/2510.20178)**|N/A|None|cs.CV|NeurIPS 2025|Yun Wang et al.|
 |**2025-10-22**|**[How to Evaluate Monocular Depth Estimation?](https://arxiv.org/abs/2510.19814)**|N/A|None|cs.CV|None|Siyang Wu et al.|
 |**2025-10-21**|**[PLANA3R: Zero-shot Metric Planar 3D Reconstruction via Feed-Forward Planar Splatting](https://arxiv.org/abs/2510.18714)**|N/A|39th Conference on Neural Information Processing Systems (NeurIPS 2025). The project page is available at: https://lck666666.github.io/plana3r|cs.CV|None|Changkun Liu et al.|
 |**2025-10-21**|**[GeoDiff: Geometry-Guided Diffusion for Metric Depth Estimation](https://arxiv.org/abs/2510.18291)**|N/A|Accepted to ICCV Findings 2025. The first two authors contributed equally. The last two authors share co-corresponding authorship|cs.CV|None|Tuan Pham et al.|

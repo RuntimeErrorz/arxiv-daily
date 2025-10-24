@@ -1,5 +1,118 @@
 {
   "3DGS Semantic": {
+    "2510.20819": {
+      "title": "Towards General Modality Translation with Contrastive and Predictive Latent Diffusion Bridge",
+      "authors": [
+        "Nimrod Berman",
+        "Omkar Joglekar",
+        "Eitan Kosman",
+        "Dotan Di Castro",
+        "Omri Azencot"
+      ],
+      "published": "2025-10-23T17:59:54+00:00",
+      "updated": "2025-10-23T17:59:54+00:00",
+      "summary": "Recent advances in generative modeling have positioned diffusion models as\nstate-of-the-art tools for sampling from complex data distributions. While\nthese models have shown remarkable success across single-modality domains such\nas images and audio, extending their capabilities to Modality Translation (MT),\ntranslating information across different sensory modalities, remains an open\nchallenge. Existing approaches often rely on restrictive assumptions, including\nshared dimensionality, Gaussian source priors, and modality-specific\narchitectures, which limit their generality and theoretical grounding. In this\nwork, we propose the Latent Denoising Diffusion Bridge Model (LDDBM), a\ngeneral-purpose framework for modality translation based on a latent-variable\nextension of Denoising Diffusion Bridge Models. By operating in a shared latent\nspace, our method learns a bridge between arbitrary modalities without\nrequiring aligned dimensions. We introduce a contrastive alignment loss to\nenforce semantic consistency between paired samples and design a\ndomain-agnostic encoder-decoder architecture tailored for noise prediction in\nlatent space. Additionally, we propose a predictive loss to guide training\ntoward accurate cross-domain translation and explore several training\nstrategies to improve stability. Our approach supports arbitrary modality pairs\nand performs strongly on diverse MT tasks, including multi-view to 3D shape\ngeneration, image super-resolution, and multi-view scene synthesis.\nComprehensive experiments and ablations validate the effectiveness of our\nframework, establishing a new strong baseline in general modality translation.\nFor more information, see our project page:\nhttps://sites.google.com/view/lddbm/home.",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.20819v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.20819v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.20819v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.20819v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.20516": {
+      "title": "Separation and cut edge in macroscopic clusters for metric graph Gaussian free fields",
+      "authors": [
+        "Zhenhao Cai",
+        "Jian Ding"
+      ],
+      "published": "2025-10-23T12:59:48+00:00",
+      "updated": "2025-10-23T12:59:48+00:00",
+      "summary": "We prove that for the Gaussian free field (GFF) on the metric graph of\n$\\mathbb{Z}^d$ (for all $d\\ge 3$ except the critical dimension $d_c=6$), with\nuniformly positive probability there exist two distinct sign clusters of\ndiameter at least $cN$ within a box of size $N$ such that their graph distance\nis less than $N^{-[(d-2)\\vee (2d-8)]}$. This phenomenon contrasts sharply with\nthe two-dimensional case, where the distance between two macroscopic clusters\nis typically on the order of their diameters, following from the basic property\nof the scaling limit ``conformal loop ensembles'' $\\mathrm{CLE}_4$\n(Sheffield-Werner'2001).\n  As a byproduct, we derive that the number of pivotal edges for the one-arm\nevent (i.e., the sign cluster containing the origin has diameter at least $N$)\nis typically of order $N^{(\\frac{d}{2}-1)\\land 2}$. This immediately implies\nthat for the incipient infinite cluster (IIC) of the metric graph GFF, the\ndimension of cut edges (i.e., edges whose removal leads to disconnection of the\nIIC) equals $(\\frac{d}{2}-1)\\land 2$. Translated in the language of critical\nloop soups (whose clusters by the isomorphism theorem, have the same\ndistribution as GFF sign clusters), this leads to the analogous estimates where\nthe counterpart of a pivotal edge is a pivotal loop at scale $1$. This result\nhints at the new and possibly surprising idea that already in dimension $3$,\nmicroscopic loops (even those at scale $1$) play a crucial role in the\nconstruction of macroscopic loop clusters.",
+      "categories": [
+        "math.PR"
+      ],
+      "primary_category": "math.PR",
+      "pdf_url": "http://arxiv.org/pdf/2510.20516v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.20516v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.20516v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.20516v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.20238": {
+      "title": "COS3D: Collaborative Open-Vocabulary 3D Segmentation",
+      "authors": [
+        "Runsong Zhu",
+        "Ka-Hei Hui",
+        "Zhengzhe Liu",
+        "Qianyi Wu",
+        "Weiliang Tang",
+        "Shi Qiu",
+        "Pheng-Ann Heng",
+        "Chi-Wing Fu"
+      ],
+      "published": "2025-10-23T05:45:15+00:00",
+      "updated": "2025-10-23T05:45:15+00:00",
+      "summary": "Open-vocabulary 3D segmentation is a fundamental yet challenging task,\nrequiring a mutual understanding of both segmentation and language. However,\nexisting Gaussian-splatting-based methods rely either on a single 3D language\nfield, leading to inferior segmentation, or on pre-computed class-agnostic\nsegmentations, suffering from error accumulation. To address these limitations,\nwe present COS3D, a new collaborative prompt-segmentation framework that\ncontributes to effectively integrating complementary language and segmentation\ncues throughout its entire pipeline. We first introduce the new concept of\ncollaborative field, comprising an instance field and a language field, as the\ncornerstone for collaboration. During training, to effectively construct the\ncollaborative field, our key idea is to capture the intrinsic relationship\nbetween the instance field and language field, through a novel\ninstance-to-language feature mapping and designing an efficient two-stage\ntraining strategy. During inference, to bridge distinct characteristics of the\ntwo fields, we further design an adaptive language-to-instance prompt\nrefinement, promoting high-quality prompt-segmentation inference. Extensive\nexperiments not only demonstrate COS3D's leading performance over existing\nmethods on two widely-used benchmarks but also show its high potential to\nvarious applications,~\\ie, novel image-based 3D segmentation, hierarchical\nsegmentation, and robotics. The code is publicly available at\n\\href{https://github.com/Runsong123/COS3D}{https://github.com/Runsong123/COS3D}.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.20238v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "NeurIPS 2025. The code is publicly available at\n  \\href{https://github.com/Runsong123/COS3D}{https://github.com/Runsong123/COS3D}",
+      "entry_id": "http://arxiv.org/abs/2510.20238v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.20238v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.20238v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
     "2510.19578": {
       "title": "VGD: Visual Geometry Gaussian Splatting for Feed-Forward Surround-view Driving Reconstruction",
       "authors": [
@@ -77997,6 +78110,45 @@
     }
   },
   "Depth Estimation": {
+    "2510.20178": {
+      "title": "PPMStereo: Pick-and-Play Memory Construction for Consistent Dynamic Stereo Matching",
+      "authors": [
+        "Yun Wang",
+        "Junjie Hu",
+        "Qiaole Dong",
+        "Yongjian Zhang",
+        "Yanwei Fu",
+        "Tin Lun Lam",
+        "Dapeng Wu"
+      ],
+      "published": "2025-10-23T03:52:39+00:00",
+      "updated": "2025-10-23T03:52:39+00:00",
+      "summary": "Temporally consistent depth estimation from stereo video is critical for\nreal-world applications such as augmented reality, where inconsistent depth\nestimation disrupts the immersion of users. Despite its importance, this task\nremains challenging due to the difficulty in modeling long-term temporal\nconsistency in a computationally efficient manner. Previous methods attempt to\naddress this by aggregating spatio-temporal information but face a fundamental\ntrade-off: limited temporal modeling provides only modest gains, whereas\ncapturing long-range dependencies significantly increases computational cost.\nTo address this limitation, we introduce a memory buffer for modeling\nlong-range spatio-temporal consistency while achieving efficient dynamic stereo\nmatching. Inspired by the two-stage decision-making process in humans, we\npropose a \\textbf{P}ick-and-\\textbf{P}lay \\textbf{M}emory (PPM) construction\nmodule for dynamic \\textbf{Stereo} matching, dubbed as \\textbf{PPMStereo}. PPM\nconsists of a `pick' process that identifies the most relevant frames and a\n`play' process that weights the selected frames adaptively for spatio-temporal\naggregation. This two-stage collaborative process maintains a compact yet\nhighly informative memory buffer while achieving temporally consistent\ninformation aggregation. Extensive experiments validate the effectiveness of\nPPMStereo, demonstrating state-of-the-art performance in both accuracy and\ntemporal consistency. % Notably, PPMStereo achieves 0.62/1.11 TEPE on the\nSintel clean/final (17.3\\% \\& 9.02\\% improvements over BiDAStereo) with fewer\ncomputational costs. Codes are available at\n\\textcolor{blue}{https://github.com/cocowy1/PPMStereo}.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.20178v1",
+      "journal_ref": "NeurIPS 2025",
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.20178v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.20178v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.20178v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2510.19814": {
       "title": "How to Evaluate Monocular Depth Estimation?",
       "authors": [
