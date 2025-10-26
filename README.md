@@ -1,4 +1,4 @@
-## Updated at 2025-10-25 20:06:47
+## Updated at 2025-10-26 10:35:30
 
 ## 3DGS Semantic
 
@@ -14,10 +14,10 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2025-10-10**|**[Mono4DEditor: Text-Driven 4D Scene Editing from Monocular Video via Point-Level Localization of Language-Embedded Gaussians](https://arxiv.org/abs/2510.09438)**|N/A|19 pages, 9 figures|cs.CV|None|Jin-Chuan Shi et al.|
 |**2025-10-06**|**[Progressive Gaussian Transformer with Anisotropy-aware Sampling for Open Vocabulary Occupancy Prediction](https://arxiv.org/abs/2510.04759)**|N/A|Project Page: https://yanchi-3dv.github.io/PG-Occ|cs.CV|None|Chi Yan, Dan Xu|
 |**2025-10-02**|**[SIMSplat: Predictive Driving Scene Editing with Language-aligned 4D Gaussian Splatting](https://arxiv.org/abs/2510.02469)**|N/A|None|cs.RO|None|Sung-Yeon Park et al.|
-|**2025-09-28**|**[CrashSplat: 2D to 3D Vehicle Damage Segmentation in Gaussian Splatting](https://arxiv.org/abs/2509.23947)**|N/A|None|cs.CV|None|Dragoş-Andrei Chileban et al.|
-|**2025-09-26**|**[Polysemous Language Gaussian Splatting via Matching-based Mask Lifting](https://arxiv.org/abs/2509.22225)**|N/A|None|cs.CV|None|Jiayu Ding et al.|
+|**2025-09-28**|**[CrashSplat: 2D to 3D Vehicle Damage Segmentation in Gaussian Splatting](https://arxiv.org/abs/2509.23947)**|arXiv.org|None|cs.CV|None|Dragoş-Andrei Chileban et al.|
+|**2025-09-26**|**[Polysemous Language Gaussian Splatting via Matching-based Mask Lifting](https://arxiv.org/abs/2509.22225)**|arXiv.org|None|cs.CV|None|Jiayu Ding et al.|
 |**2025-09-22**|**[Distributed Stochastic Optimization under Heavy-Tailed Noise: A Federated Mirror Descent Approach with High Probability Convergence](https://arxiv.org/abs/2509.17659)**|N/A|None|math.OC|None|Zhan Yu et al.|
-|**2025-09-21**|**[SemanticGarment: Semantic-Controlled Generation and Editing of 3D Gaussian Garments](https://arxiv.org/abs/2509.16960)**|N/A|None|cs.GR|None|Ruiyan Wang et al.|
+|**2025-09-21**|**[SemanticGarment: Semantic-Controlled Generation and Editing of 3D Gaussian Garments](https://arxiv.org/abs/2509.16960)**|arXiv.org|None|cs.GR|None|Ruiyan Wang et al.|
 |**2025-09-16**|**[Beyond Averages: Open-Vocabulary 3D Scene Understanding with Gaussian Splatting and Bag of Embeddings](https://arxiv.org/abs/2509.12938)**|arXiv.org|None|cs.CV|None|Abdalla Arafa, Didier Stricker|
 |**2025-09-14**|**[SPHERE: Semantic-PHysical Engaged REpresentation for 3D Semantic Scene Completion](https://arxiv.org/abs/2509.11171)**|arXiv.org|10 pages, 6 figures|cs.CV|None|Zhiwen Yang, Yuxin Peng|
 |**2025-09-09**|**[OmniMap: A General Mapping Framework Integrating Optics, Geometry, and Semantics](https://arxiv.org/abs/2509.07500)**|IEEE Transactions on robotics|Accepted by IEEE Transactions on Robotics (TRO), project website: https://omni-map.github.io/|cs.RO|None|Yinan Deng et al.|
