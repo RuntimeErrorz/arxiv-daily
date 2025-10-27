@@ -169,27 +169,27 @@
         "Yongdai Kim"
       ],
       "published": "2025-10-22T06:46:59+00:00",
-      "updated": "2025-10-22T06:46:59+00:00",
+      "updated": "2025-10-24T01:47:27+00:00",
       "summary": "Deep ensembles deliver state-of-the-art, reliable uncertainty quantification,\nbut their heavy computational and memory requirements hinder their practical\ndeployments to real applications such as on-device AI. Knowledge distillation\ncompresses an ensemble into small student models, but existing techniques\nstruggle to preserve uncertainty partly because reducing the size of DNNs\ntypically results in variation reduction. To resolve this limitation, we\nintroduce a new method of distribution distillation (i.e. compressing a teacher\nensemble into a student distribution instead of a student ensemble) called\nGaussian distillation, which estimates the distribution of a teacher ensemble\nthrough a special Gaussian process called the deep latent factor model (DLF) by\ntreating each member of the teacher ensemble as a realization of a certain\nstochastic process. The mean and covariance functions in the DLF model are\nestimated stably by using the expectation-maximization (EM) algorithm. By using\nmultiple benchmark datasets, we demonstrate that the proposed Gaussian\ndistillation outperforms existing baselines. In addition, we illustrate that\nGaussian distillation works well for fine-tuning of language models and\ndistribution shift problems.",
       "categories": [
         "cs.LG",
         "stat.ME"
       ],
       "primary_category": "cs.LG",
-      "pdf_url": "http://arxiv.org/pdf/2510.19290v1",
+      "pdf_url": "http://arxiv.org/pdf/2510.19290v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2510.19290v1",
+      "entry_id": "http://arxiv.org/abs/2510.19290v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2510.19290v1",
+          "href": "http://arxiv.org/abs/2510.19290v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2510.19290v1",
+          "href": "http://arxiv.org/pdf/2510.19290v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -4101,26 +4101,26 @@
         "Cheng Peng"
       ],
       "published": "2025-09-19T03:06:49+00:00",
-      "updated": "2025-09-26T16:42:25+00:00",
-      "summary": "In-the-wild photo collections often contain limited volumes of imagery and\nexhibit multiple appearances, e.g., taken at different times of day or seasons,\nposing significant challenges to scene reconstruction and novel view synthesis.\nAlthough recent adaptations of Neural Radiance Field (NeRF) and 3D Gaussian\nSplatting (3DGS) have improved in these areas, they tend to oversmooth and are\nprone to overfitting. In this paper, we present MS-GS, a novel framework\ndesigned with Multi-appearance capabilities in Sparse-view scenarios using\n3DGS. To address the lack of support due to sparse initializations, our\napproach is built on the geometric priors elicited from monocular depth\nestimations. The key lies in extracting and utilizing local semantic regions\nwith a Structure-from-Motion (SfM) points anchored algorithm for reliable\nalignment and geometry cues. Then, to introduce multi-view constraints, we\npropose a series of geometry-guided supervision at virtual views in a\nfine-grained and coarse scheme to encourage 3D consistency and reduce\noverfitting. We also introduce a dataset and an in-the-wild experiment setting\nto set up more realistic benchmarks. We demonstrate that MS-GS achieves\nphotorealistic renderings under various challenging sparse-view and\nmulti-appearance conditions and outperforms existing approaches significantly\nacross different datasets.",
+      "updated": "2025-10-24T02:17:58+00:00",
+      "summary": "In-the-wild photo collections often contain limited volumes of imagery and\nexhibit multiple appearances, e.g., taken at different times of day or seasons,\nposing significant challenges to scene reconstruction and novel view synthesis.\nAlthough recent adaptations of Neural Radiance Field (NeRF) and 3D Gaussian\nSplatting (3DGS) have improved in these areas, they tend to oversmooth and are\nprone to overfitting. In this paper, we present MS-GS, a novel framework\ndesigned with Multi-appearance capabilities in Sparse-view scenarios using\n3DGS. To address the lack of support due to sparse initializations, our\napproach is built on the geometric priors elicited from monocular depth\nestimations. The key lies in extracting and utilizing local semantic regions\nwith a Structure-from-Motion (SfM) points anchored algorithm for reliable\nalignment and geometry cues. Then, to introduce multi-view constraints, we\npropose a series of geometry-guided supervision steps at virtual views in pixel\nand feature levels to encourage 3D consistency and reduce overfitting. We also\nintroduce a dataset and an in-the-wild experiment setting to set up more\nrealistic benchmarks. We demonstrate that MS-GS achieves photorealistic\nrenderings under various challenging sparse-view and multi-appearance\nconditions, and outperforms existing approaches significantly across different\ndatasets.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "http://arxiv.org/pdf/2509.15548v3",
+      "pdf_url": "http://arxiv.org/pdf/2509.15548v4",
       "journal_ref": null,
       "doi": null,
-      "comment": "fixed typos",
-      "entry_id": "http://arxiv.org/abs/2509.15548v3",
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2509.15548v4",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2509.15548v3",
+          "href": "http://arxiv.org/abs/2509.15548v4",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2509.15548v3",
+          "href": "http://arxiv.org/pdf/2509.15548v4",
           "title": "pdf",
           "rel": "related",
           "content_type": null
