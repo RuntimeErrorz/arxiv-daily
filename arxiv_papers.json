@@ -1,5 +1,521 @@
 {
   "3DGS Semantic": {
+    "2510.23521": {
+      "title": "Explicit Memory through Online 3D Gaussian Splatting Improves Class-Agnostic Video Segmentation",
+      "authors": [
+        "Anthony Opipari",
+        "Aravindhan K Krishnan",
+        "Shreekant Gayaka",
+        "Min Sun",
+        "Cheng-Hao Kuo",
+        "Arnie Sen",
+        "Odest Chadwicke Jenkins"
+      ],
+      "published": "2025-10-27T17:00:27+00:00",
+      "updated": "2025-10-27T17:00:27+00:00",
+      "summary": "Remembering where object segments were predicted in the past is useful for\nimproving the accuracy and consistency of class-agnostic video segmentation\nalgorithms. Existing video segmentation algorithms typically use either no\nobject-level memory (e.g. FastSAM) or they use implicit memories in the form of\nrecurrent neural network features (e.g. SAM2). In this paper, we augment both\ntypes of segmentation models using an explicit 3D memory and show that the\nresulting models have more accurate and consistent predictions. For this, we\ndevelop an online 3D Gaussian Splatting (3DGS) technique to store predicted\nobject-level segments generated throughout the duration of a video. Based on\nthis 3DGS representation, a set of fusion techniques are developed, named\nFastSAM-Splat and SAM2-Splat, that use the explicit 3DGS memory to improve\ntheir respective foundation models' predictions. Ablation experiments are used\nto validate the proposed techniques' design and hyperparameter settings.\nResults from both real-world and simulated benchmarking experiments show that\nmodels which use explicit 3D memories result in more accurate and consistent\npredictions than those which use no memory or only implicit neural network\nmemories. Project Page: https://topipari.com/projects/FastSAM-Splat/",
+      "categories": [
+        "cs.RO"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "http://arxiv.org/pdf/2510.23521v1",
+      "journal_ref": null,
+      "doi": "10.1109/LRA.2025.3619783",
+      "comment": "Accepted in IEEE Robotics and Automation Letters September 2025",
+      "entry_id": "http://arxiv.org/abs/2510.23521v1",
+      "links": [
+        {
+          "href": "http://dx.doi.org/10.1109/LRA.2025.3619783",
+          "title": "doi",
+          "rel": "related",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/abs/2510.23521v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.23521v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.23494": {
+      "title": "Yesnt: Are Diffusion Relighting Models Ready for Capture Stage Compositing? A Hybrid Alternative to Bridge the Gap",
+      "authors": [
+        "Elisabeth Jüttner",
+        "Leona Krath",
+        "Stefan Korfhage",
+        "Hannah Dröge",
+        "Matthias B. Hullin",
+        "Markus Plack"
+      ],
+      "published": "2025-10-27T16:28:55+00:00",
+      "updated": "2025-10-27T16:28:55+00:00",
+      "summary": "Volumetric video relighting is essential for bringing captured performances\ninto virtual worlds, but current approaches struggle to deliver temporally\nstable, production-ready results. Diffusion-based intrinsic decomposition\nmethods show promise for single frames, yet suffer from stochastic noise and\ninstability when extended to sequences, while video diffusion models remain\nconstrained by memory and scale. We propose a hybrid relighting framework that\ncombines diffusion-derived material priors with temporal regularization and\nphysically motivated rendering. Our method aggregates multiple stochastic\nestimates of per-frame material properties into temporally consistent shading\ncomponents, using optical-flow-guided regularization. For indirect effects such\nas shadows and reflections, we extract a mesh proxy from Gaussian Opacity\nFields and render it within a standard graphics pipeline. Experiments on real\nand synthetic captures show that this hybrid strategy achieves substantially\nmore stable relighting across sequences than diffusion-only baselines, while\nscaling beyond the clip lengths feasible for video diffusion. These results\nindicate that hybrid approaches, which balance learned priors with physically\ngrounded constraints, are a practical step toward production-ready volumetric\nvideo relighting.",
+      "categories": [
+        "cs.CV",
+        "cs.GR"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.23494v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.23494v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.23494v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.23494v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.23274": {
+      "title": "Privacy-Preserving Semantic Communication over Wiretap Channels with Learnable Differential Privacy",
+      "authors": [
+        "Weixuan Chen",
+        "Qianqian Yang",
+        "Shuo Shao",
+        "Shunpu Tang",
+        "Zhiguo Shi",
+        "Shui Yu"
+      ],
+      "published": "2025-10-27T12:34:20+00:00",
+      "updated": "2025-10-27T12:34:20+00:00",
+      "summary": "While semantic communication (SemCom) improves transmission efficiency by\nfocusing on task-relevant information, it also raises critical privacy\nconcerns. Many existing secure SemCom approaches rely on restrictive or\nimpractical assumptions, such as favorable channel conditions for the\nlegitimate user or prior knowledge of the eavesdropper's model. To address\nthese limitations, this paper proposes a novel secure SemCom framework for\nimage transmission over wiretap channels, leveraging differential privacy (DP)\nto provide approximate privacy guarantees. Specifically, our approach first\nextracts disentangled semantic representations from source images using\ngenerative adversarial network (GAN) inversion method, and then selectively\nperturbs private semantic representations with approximate DP noise. Distinct\nfrom conventional DP-based protection methods, we introduce DP noise with\nlearnable pattern, instead of traditional white Gaussian or Laplace noise,\nachieved through adversarial training of neural networks (NNs). This design\nmitigates the inherent non-invertibility of DP while effectively protecting\nprivate information. Moreover, it enables explicitly controllable security\nlevels by adjusting the privacy budget according to specific security\nrequirements, which is not achieved in most existing secure SemCom approaches.\nExperimental results demonstrate that, compared with the previous DP-based\nmethod and direct transmission, the proposed method significantly degrades the\nreconstruction quality for the eavesdropper, while introducing only slight\ndegradation in task performance. Under comparable security levels, our approach\nachieves an LPIPS advantage of 0.06-0.29 and an FPPSR advantage of 0.10-0.86\nfor the legitimate user compared with the previous DP-based method.",
+      "categories": [
+        "cs.CR",
+        "eess.IV"
+      ],
+      "primary_category": "cs.CR",
+      "pdf_url": "http://arxiv.org/pdf/2510.23274v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.23274v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.23274v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.23274v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.22973": {
+      "title": "Scaling Up Occupancy-centric Driving Scene Generation: Dataset and Method",
+      "authors": [
+        "Bohan Li",
+        "Xin Jin",
+        "Hu Zhu",
+        "Hongsi Liu",
+        "Ruikai Li",
+        "Jiazhe Guo",
+        "Kaiwen Cai",
+        "Chao Ma",
+        "Yueming Jin",
+        "Hao Zhao",
+        "Xiaokang Yang",
+        "Wenjun Zeng"
+      ],
+      "published": "2025-10-27T03:52:45+00:00",
+      "updated": "2025-10-27T03:52:45+00:00",
+      "summary": "Driving scene generation is a critical domain for autonomous driving,\nenabling downstream applications, including perception and planning evaluation.\nOccupancy-centric methods have recently achieved state-of-the-art results by\noffering consistent conditioning across frames and modalities; however, their\nperformance heavily depends on annotated occupancy data, which still remains\nscarce. To overcome this limitation, we curate Nuplan-Occ, the largest semantic\noccupancy dataset to date, constructed from the widely used Nuplan benchmark.\nIts scale and diversity facilitate not only large-scale generative modeling but\nalso autonomous driving downstream applications. Based on this dataset, we\ndevelop a unified framework that jointly synthesizes high-quality semantic\noccupancy, multi-view videos, and LiDAR point clouds. Our approach incorporates\na spatio-temporal disentangled architecture to support high-fidelity spatial\nexpansion and temporal forecasting of 4D dynamic occupancy. To bridge modal\ngaps, we further propose two novel techniques: a Gaussian splatting-based\nsparse point map rendering strategy that enhances multi-view video generation,\nand a sensor-aware embedding strategy that explicitly models LiDAR sensor\nproperties for realistic multi-LiDAR simulation. Extensive experiments\ndemonstrate that our method achieves superior generation fidelity and\nscalability compared to existing approaches, and validates its practical value\nin downstream tasks. Repo:\nhttps://github.com/Arlo0o/UniScene-Unified-Occupancy-centric-Driving-Scene-Generation/tree/v2",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.22973v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "https://github.com/Arlo0o/UniScene-Unified-Occupancy-centric-Driving-Scene-Generation/tree/v2",
+      "entry_id": "http://arxiv.org/abs/2510.22973v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.22973v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.22973v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.22930": {
+      "title": "Gen-LangSplat: Generalized Language Gaussian Splatting with Pre-Trained Feature Compression",
+      "authors": [
+        "Pranav Saxena"
+      ],
+      "published": "2025-10-27T02:13:38+00:00",
+      "updated": "2025-10-27T02:13:38+00:00",
+      "summary": "Modeling open-vocabulary language fields in 3D is essential for intuitive\nhuman-AI interaction and querying within physical environments.\nState-of-the-art approaches, such as LangSplat, leverage 3D Gaussian Splatting\nto efficiently construct these language fields, encoding features distilled\nfrom high-dimensional models like CLIP. However, this efficiency is currently\noffset by the requirement to train a scene-specific language autoencoder for\nfeature compression, introducing a costly, per-scene optimization bottleneck\nthat hinders deployment scalability. In this work, we introduce Gen-LangSplat,\nthat eliminates this requirement by replacing the scene-wise autoencoder with a\ngeneralized autoencoder, pre-trained extensively on the large-scale ScanNet\ndataset. This architectural shift enables the use of a fixed, compact latent\nspace for language features across any new scene without any scene-specific\ntraining. By removing this dependency, our entire language field construction\nprocess achieves a efficiency boost while delivering querying performance\ncomparable to, or exceeding, the original LangSplat method. To validate our\ndesign choice, we perform a thorough ablation study empirically determining the\noptimal latent embedding dimension and quantifying representational fidelity\nusing Mean Squared Error and cosine similarity between the original and\nreprojected 512-dimensional CLIP embeddings. Our results demonstrate that\ngeneralized embeddings can efficiently and accurately support open-vocabulary\nquerying in novel 3D scenes, paving the way for scalable, real-time interactive\n3D AI applications.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.22930v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.22930v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.22930v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.22930v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-10-29",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2510.22669": {
+      "title": "LVD-GS: Gaussian Splatting SLAM for Dynamic Scenes via Hierarchical Explicit-Implicit Representation Collaboration Rendering",
+      "authors": [
+        "Wenkai Zhu",
+        "Xu Li",
+        "Qimin Xu",
+        "Benwu Wang",
+        "Kun Wei",
+        "Yiming Peng",
+        "Zihang Wang"
+      ],
+      "published": "2025-10-26T13:16:39+00:00",
+      "updated": "2025-10-26T13:16:39+00:00",
+      "summary": "3D Gaussian Splatting SLAM has emerged as a widely used technique for\nhigh-fidelity mapping in spatial intelligence. However, existing methods often\nrely on a single representation scheme, which limits their performance in\nlarge-scale dynamic outdoor scenes and leads to cumulative pose errors and\nscale ambiguity. To address these challenges, we propose \\textbf{LVD-GS}, a\nnovel LiDAR-Visual 3D Gaussian Splatting SLAM system. Motivated by the human\nchain-of-thought process for information seeking, we introduce a hierarchical\ncollaborative representation module that facilitates mutual reinforcement for\nmapping optimization, effectively mitigating scale drift and enhancing\nreconstruction robustness. Furthermore, to effectively eliminate the influence\nof dynamic objects, we propose a joint dynamic modeling module that generates\nfine-grained dynamic masks by fusing open-world segmentation with implicit\nresidual constraints, guided by uncertainty estimates from DINO-Depth features.\nExtensive evaluations on KITTI, nuScenes, and self-collected datasets\ndemonstrate that our approach achieves state-of-the-art performance compared to\nexisting methods.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.22669v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.22669v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.22669v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.22669v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.22600": {
+      "title": "RoGER-SLAM: A Robust Gaussian Splatting SLAM System for Noisy and Low-light Environment Resilience",
+      "authors": [
+        "Huilin Yin",
+        "Zhaolin Yang",
+        "Linchuan Zhang",
+        "Gerhard Rigoll",
+        "Johannes Betz"
+      ],
+      "published": "2025-10-26T09:32:43+00:00",
+      "updated": "2025-10-26T09:32:43+00:00",
+      "summary": "The reliability of Simultaneous Localization and Mapping (SLAM) is severely\nconstrained in environments where visual inputs suffer from noise and low\nillumination. Although recent 3D Gaussian Splatting (3DGS) based SLAM\nframeworks achieve high-fidelity mapping under clean conditions, they remain\nvulnerable to compounded degradations that degrade mapping and tracking\nperformance. A key observation underlying our work is that the original 3DGS\nrendering pipeline inherently behaves as an implicit low-pass filter,\nattenuating high-frequency noise but also risking over-smoothing. Building on\nthis insight, we propose RoGER-SLAM, a robust 3DGS SLAM system tailored for\nnoise and low-light resilience. The framework integrates three innovations: a\nStructure-Preserving Robust Fusion (SP-RoFusion) mechanism that couples\nrendered appearance, depth, and edge cues; an adaptive tracking objective with\nresidual balancing regularization; and a Contrastive Language-Image Pretraining\n(CLIP)-based enhancement module, selectively activated under compounded\ndegradations to restore semantic and structural fidelity. Comprehensive\nexperiments on Replica, TUM, and real-world sequences show that RoGER-SLAM\nconsistently improves trajectory accuracy and reconstruction quality compared\nwith other 3DGS-SLAM systems, especially under adverse imaging conditions.",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "http://arxiv.org/pdf/2510.22600v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "13 pages, 11 figures, under review",
+      "entry_id": "http://arxiv.org/abs/2510.22600v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.22600v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.22600v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.22387": {
+      "title": "Privacy-Aware Federated nnU-Net for ECG Page Digitization",
+      "authors": [
+        "Nader Nemati"
+      ],
+      "published": "2025-10-25T18:10:05+00:00",
+      "updated": "2025-10-25T18:10:05+00:00",
+      "summary": "Deep neural networks can convert ECG page images into analyzable waveforms,\nyet centralized training often conflicts with cross-institutional privacy and\ndeployment constraints. A cross-silo federated digitization framework is\npresented that trains a full-model nnU-Net segmentation backbone without\nsharing images and aggregates updates across sites under realistic non-IID\nheterogeneity (layout, grid style, scanner profile, noise).\n  The protocol integrates three standard server-side aggregators--FedAvg,\nFedProx, and FedAdam--and couples secure aggregation with central, user-level\ndifferential privacy to align utility with formal guarantees. Key features\ninclude: (i) end-to-end full-model training and synchronization across clients;\n(ii) secure aggregation so the server only observes a clipped, weighted sum\nonce a participation threshold is met; (iii) central Gaussian DP with Renyi\naccounting applied post-aggregation for auditable user-level privacy; and (iv)\na calibration-aware digitization pipeline comprising page normalization, trace\nsegmentation, grid-leakage suppression, and vectorization to twelve-lead\nsignals.\n  Experiments on ECG pages rendered from PTB-XL show consistently faster\nconvergence and higher late-round plateaus with adaptive server updates\n(FedAdam) relative to FedAvg and FedProx, while approaching centralized\nperformance. The privacy mechanism maintains competitive accuracy while\npreventing exposure of raw images or per-client updates, yielding deployable,\nauditable guarantees suitable for multi-institution settings.",
+      "categories": [
+        "cs.CR",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CR",
+      "pdf_url": "http://arxiv.org/pdf/2510.22387v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.22387v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.22387v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.22387v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.22213": {
+      "title": "DynamicTree: Interactive Real Tree Animation via Sparse Voxel Spectrum",
+      "authors": [
+        "Yaokun Li",
+        "Lihe Ding",
+        "Xiao Chen",
+        "Guang Tan",
+        "Tianfan Xue"
+      ],
+      "published": "2025-10-25T08:21:40+00:00",
+      "updated": "2025-10-25T08:21:40+00:00",
+      "summary": "Generating dynamic and interactive 3D objects, such as trees, has wide\napplications in virtual reality, games, and world simulation. Nevertheless,\nexisting methods still face various challenges in generating realistic 4D\nmotion for complex real trees. In this paper, we propose DynamicTree, the first\nframework that can generate long-term, interactive animation of 3D Gaussian\nSplatting trees. Unlike prior optimization-based methods, our approach\ngenerates dynamics in a fast feed-forward manner. The key success of our\napproach is the use of a compact sparse voxel spectrum to represent the tree\nmovement. Given a 3D tree from Gaussian Splatting reconstruction, our pipeline\nfirst generates mesh motion using the sparse voxel spectrum and then binds\nGaussians to deform the mesh. Additionally, the proposed sparse voxel spectrum\ncan also serve as a basis for fast modal analysis under external forces,\nallowing real-time interactive responses. To train our model, we also introduce\n4DTree, the first large-scale synthetic 4D tree dataset containing 8,786\nanimated tree meshes with semantic labels and 100-frame motion sequences.\nExtensive experiments demonstrate that our method achieves realistic and\nresponsive tree animations, significantly outperforming existing approaches in\nboth visual quality and computational efficiency.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.22213v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Project Page:\n  https://dynamictree-dev.github.io/DynamicTree.github.io/",
+      "entry_id": "http://arxiv.org/abs/2510.22213v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.22213v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.22213v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.22056": {
+      "title": "Human-Centric Anomaly Detection in Surveillance Videos Using YOLO-World and Spatio-Temporal Deep Learning",
+      "authors": [
+        "Mohammad Ali Etemadi Naeen",
+        "Hoda Mohammadzade",
+        "Saeed Bagheri Shouraki"
+      ],
+      "published": "2025-10-24T22:38:17+00:00",
+      "updated": "2025-10-24T22:38:17+00:00",
+      "summary": "Anomaly detection in surveillance videos remains a challenging task due to\nthe diversity of abnormal events, class imbalance, and scene-dependent visual\nclutter. To address these issues, we propose a robust deep learning framework\nthat integrates human-centric preprocessing with spatio-temporal modeling for\nmulti-class anomaly classification. Our pipeline begins by applying YOLO-World\n- an open-vocabulary vision-language detector - to identify human instances in\nraw video clips, followed by ByteTrack for consistent identity-aware tracking.\nBackground regions outside detected bounding boxes are suppressed via Gaussian\nblurring, effectively reducing scene-specific distractions and focusing the\nmodel on behaviorally relevant foreground content. The refined frames are then\nprocessed by an ImageNet-pretrained InceptionV3 network for spatial feature\nextraction, and temporal dynamics are captured using a bidirectional LSTM\n(BiLSTM) for sequence-level classification. Evaluated on a five-class subset of\nthe UCF-Crime dataset (Normal, Burglary, Fighting, Arson, Explosion), our\nmethod achieves a mean test accuracy of 92.41% across three independent trials,\nwith per-class F1-scores consistently exceeding 0.85. Comprehensive evaluation\nmetrics - including confusion matrices, ROC curves, and macro/weighted averages\n- demonstrate strong generalization and resilience to class imbalance. The\nresults confirm that foreground-focused preprocessing significantly enhances\nanomaly discrimination in real-world surveillance scenarios.",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "I.2.10; I.4.9; I.2.6"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.22056v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.22056v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.22056v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.22056v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.22023": {
+      "title": "Multimodal Item Scoring for Natural Language Recommendation via Gaussian Process Regression with LLM Relevance Judgments",
+      "authors": [
+        "Yifan Liu",
+        "Qianfeng Wen",
+        "Jiazhou Liang",
+        "Mark Zhao",
+        "Justin Cui",
+        "Anton Korikov",
+        "Armin Torogh",
+        "Junyoung Kim",
+        "Scott Sanner"
+      ],
+      "published": "2025-10-24T21:03:20+00:00",
+      "updated": "2025-10-24T21:03:20+00:00",
+      "summary": "Natural Language Recommendation (NLRec) generates item suggestions based on\nthe relevance between user-issued NL requests and NL item description passages.\nExisting NLRec approaches often use Dense Retrieval (DR) to compute item\nrelevance scores from aggregation of inner products between user request\nembeddings and relevant passage embeddings. However, DR views the request as\nthe sole relevance label, thus leading to a unimodal scoring function centered\non the query embedding that is often a weak proxy for query relevance. To\nbetter capture the potential multimodal distribution of the relevance scoring\nfunction that may arise from complex NLRec data, we propose GPR-LLM that uses\nGaussian Process Regression (GPR) with LLM relevance judgments for a subset of\ncandidate passages. Experiments on four NLRec datasets and two LLM backbones\ndemonstrate that GPR-LLM with an RBF kernel, capable of modeling multimodal\nrelevance scoring functions, consistently outperforms simpler unimodal kernels\n(dot product, cosine similarity), as well as baseline methods including DR,\ncross-encoder, and pointwise LLM-based relevance scoring by up to 65%. Overall,\nGPR-LLM provides an efficient and effective approach to NLRec within a minimal\nLLM labeling budget.",
+      "categories": [
+        "cs.IR"
+      ],
+      "primary_category": "cs.IR",
+      "pdf_url": "http://arxiv.org/pdf/2510.22023v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "16 pages,20 figures",
+      "entry_id": "http://arxiv.org/abs/2510.22023v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.22023v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.22023v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.21307": {
+      "title": "Towards Physically Executable 3D Gaussian for Embodied Navigation",
+      "authors": [
+        "Bingchen Miao",
+        "Rong Wei",
+        "Zhiqi Ge",
+        "Xiaoquan sun",
+        "Shiqi Gao",
+        "Jingzhe Zhu",
+        "Renhan Wang",
+        "Siliang Tang",
+        "Jun Xiao",
+        "Rui Tang",
+        "Juncheng Li"
+      ],
+      "published": "2025-10-24T10:05:00+00:00",
+      "updated": "2025-10-24T10:05:00+00:00",
+      "summary": "3D Gaussian Splatting (3DGS), a 3D representation method with photorealistic\nreal-time rendering capabilities, is regarded as an effective tool for\nnarrowing the sim-to-real gap. However, it lacks fine-grained semantics and\nphysical executability for Visual-Language Navigation (VLN). To address this,\nwe propose SAGE-3D (Semantically and Physically Aligned Gaussian Environments\nfor 3D Navigation), a new paradigm that upgrades 3DGS into an executable,\nsemantically and physically aligned environment. It comprises two components:\n(1) Object-Centric Semantic Grounding, which adds object-level fine-grained\nannotations to 3DGS; and (2) Physics-Aware Execution Jointing, which embeds\ncollision objects into 3DGS and constructs rich physical interfaces. We release\nInteriorGS, containing 1K object-annotated 3DGS indoor scene data, and\nintroduce SAGE-Bench, the first 3DGS-based VLN benchmark with 2M VLN data.\nExperiments show that 3DGS scene data is more difficult to converge, while\nexhibiting strong generalizability, improving baseline performance by 31% on\nthe VLN-CE Unseen task. The data and code will be available soon.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.21307v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Download link of InteriorGS:\n  https://huggingface.co/datasets/spatialverse/InteriorGS",
+      "entry_id": "http://arxiv.org/abs/2510.21307v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.21307v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.21307v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.21122": {
+      "title": "NoisyGRPO: Incentivizing Multimodal CoT Reasoning via Noise Injection and Bayesian Estimation",
+      "authors": [
+        "Longtian Qiu",
+        "Shan Ning",
+        "Jiaxuan Sun",
+        "Xuming He"
+      ],
+      "published": "2025-10-24T03:23:34+00:00",
+      "updated": "2025-10-24T03:23:34+00:00",
+      "summary": "Reinforcement learning (RL) has shown promise in enhancing the general\nChain-of-Thought (CoT) reasoning capabilities of multimodal large language\nmodels (MLLMs). However, when applied to improve general CoT reasoning,\nexisting RL frameworks often struggle to generalize beyond the training\ndistribution. To address this, we propose NoisyGRPO, a systematic multimodal RL\nframework that introduces controllable noise into visual inputs for enhanced\nexploration and explicitly models the advantage estimation process via a\nBayesian framework. Specifically, NoisyGRPO improves RL training by: (1)\n\\textbf{Noise-Injected Exploration Policy}: Perturbing visual inputs with\nGaussian noise to encourage exploration across a wider range of visual\nscenarios; and (2) \\textbf{Bayesian Advantage Estimation}: Formulating\nadvantage estimation as a principled Bayesian inference problem, where the\ninjected noise level serves as a prior and the observed trajectory reward as\nthe likelihood. This Bayesian modeling fuses both sources of information to\ncompute a robust posterior estimate of trajectory advantage, effectively\nguiding MLLMs to prefer visually grounded trajectories over noisy ones.\nExperiments on standard CoT quality, general capability, and hallucination\nbenchmarks demonstrate that NoisyGRPO substantially improves generalization and\nrobustness, especially in RL settings with small-scale MLLMs such as Qwen2.5-VL\n3B. The project page is available at\n\\href{https://artanic30.github.io/project_pages/NoisyGRPO/}{\\texttt{https://artanic30.github.io/project\\_pages/NoisyGRPO}}.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.21122v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted by Neurips2025, Project page at at\n  https://artanic30.github.io/project_pages/NoisyGRPO/",
+      "entry_id": "http://arxiv.org/abs/2510.21122v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.21122v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.21122v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2510.20819": {
       "title": "Towards General Modality Translation with Contrastive and Predictive Latent Diffusion Bridge",
       "authors": [
@@ -10,7 +526,7 @@
         "Omri Azencot"
       ],
       "published": "2025-10-23T17:59:54+00:00",
-      "updated": "2025-10-23T17:59:54+00:00",
+      "updated": "2025-10-26T09:13:56+00:00",
       "summary": "Recent advances in generative modeling have positioned diffusion models as\nstate-of-the-art tools for sampling from complex data distributions. While\nthese models have shown remarkable success across single-modality domains such\nas images and audio, extending their capabilities to Modality Translation (MT),\ntranslating information across different sensory modalities, remains an open\nchallenge. Existing approaches often rely on restrictive assumptions, including\nshared dimensionality, Gaussian source priors, and modality-specific\narchitectures, which limit their generality and theoretical grounding. In this\nwork, we propose the Latent Denoising Diffusion Bridge Model (LDDBM), a\ngeneral-purpose framework for modality translation based on a latent-variable\nextension of Denoising Diffusion Bridge Models. By operating in a shared latent\nspace, our method learns a bridge between arbitrary modalities without\nrequiring aligned dimensions. We introduce a contrastive alignment loss to\nenforce semantic consistency between paired samples and design a\ndomain-agnostic encoder-decoder architecture tailored for noise prediction in\nlatent space. Additionally, we propose a predictive loss to guide training\ntoward accurate cross-domain translation and explore several training\nstrategies to improve stability. Our approach supports arbitrary modality pairs\nand performs strongly on diverse MT tasks, including multi-view to 3D shape\ngeneration, image super-resolution, and multi-view scene synthesis.\nComprehensive experiments and ablations validate the effectiveness of our\nframework, establishing a new strong baseline in general modality translation.\nFor more information, see our project page:\nhttps://sites.google.com/view/lddbm/home.",
       "categories": [
         "cs.CV",
@@ -18,20 +534,20 @@
         "cs.LG"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "http://arxiv.org/pdf/2510.20819v1",
+      "pdf_url": "http://arxiv.org/pdf/2510.20819v2",
       "journal_ref": null,
       "doi": null,
-      "comment": null,
-      "entry_id": "http://arxiv.org/abs/2510.20819v1",
+      "comment": "Accepted as a poster at NeurIPS 2025",
+      "entry_id": "http://arxiv.org/abs/2510.20819v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2510.20819v1",
+          "href": "http://arxiv.org/abs/2510.20819v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2510.20819v1",
+          "href": "http://arxiv.org/pdf/2510.20819v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -1573,26 +2089,26 @@
         "Zheng-Jun Zha"
       ],
       "published": "2025-10-09T08:54:26+00:00",
-      "updated": "2025-10-13T03:30:40+00:00",
+      "updated": "2025-10-24T05:01:58+00:00",
       "summary": "Ultra-High Definition (UHD) image restoration faces a trade-off between\ncomputational efficiency and high-frequency detail retention. While Variational\nAutoencoders (VAEs) improve efficiency via latent-space processing, their\nGaussian constraint often discards degradation-specific high-frequency\ninformation, hurting reconstruction fidelity. To overcome this, we propose\nLatent Harmony, a two-stage framework that redefines VAEs for UHD restoration\nby jointly regularizing the latent space and enforcing high-frequency-aware\nreconstruction.In Stage One, we introduce LH-VAE, which enhances semantic\nrobustness through visual semantic constraints and progressive degradation\nperturbations, while latent equivariance strengthens high-frequency\nreconstruction.Stage Two jointly trains this refined VAE with a restoration\nmodel using High-Frequency Low-Rank Adaptation (HF-LoRA): an encoder LoRA\nguided by a fidelity-oriented high-frequency alignment loss to recover\nauthentic details, and a decoder LoRA driven by a perception-oriented loss to\nsynthesize realistic textures. Both LoRA modules are trained via alternating\noptimization with selective gradient propagation to preserve the pretrained\nlatent structure.At inference, a tunable parameter {\\alpha} enables flexible\nfidelity-perception trade-offs.Experiments show Latent Harmony achieves\nstate-of-the-art performance across UHD and standard-resolution tasks,\neffectively balancing efficiency, perceptual quality, and reconstruction\naccuracy.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "http://arxiv.org/pdf/2510.07961v2",
+      "pdf_url": "http://arxiv.org/pdf/2510.07961v3",
       "journal_ref": null,
       "doi": null,
       "comment": "Accepted by NeurIPS 2025",
-      "entry_id": "http://arxiv.org/abs/2510.07961v2",
+      "entry_id": "http://arxiv.org/abs/2510.07961v3",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2510.07961v2",
+          "href": "http://arxiv.org/abs/2510.07961v3",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2510.07961v2",
+          "href": "http://arxiv.org/pdf/2510.07961v3",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -5392,27 +5908,27 @@
         "Federico Cerutti"
       ],
       "published": "2025-09-08T04:52:12+00:00",
-      "updated": "2025-09-08T04:52:12+00:00",
+      "updated": "2025-10-24T04:25:23+00:00",
       "summary": "This paper presents a methodological approach to financial time series\nanalysis by combining causal discovery and uncertainty-aware forecasting. As a\ncase study, we focus on four key U.S. macroeconomic indicators -- GDP, economic\ngrowth, inflation, and unemployment -- and we apply the LPCMCI framework with\nGaussian Process Distance Correlation (GPDC) to uncover dynamic causal\nrelationships in quarterly data from 1970 to 2021. Our results reveal a robust\nunidirectional causal link from economic growth to GDP and highlight the\nlimited connectivity of inflation, suggesting the influence of latent factors.\nUnemployment exhibits strong autoregressive dependence, motivating its use as a\ncase study for probabilistic forecasting. Leveraging the Chronos framework, a\nlarge language model trained for time series, we perform zero-shot predictions\non unemployment. This approach delivers accurate forecasts one and two quarters\nahead, without requiring task-specific training. Crucially, the model's\nuncertainty-aware predictions yield 90\\% confidence intervals, enabling\neffective anomaly detection through statistically principled deviation\nanalysis. This study demonstrates the value of combining causal structure\nlearning with probabilistic language models to inform economic policy and\nenhance forecasting robustness.",
       "categories": [
         "cs.LG",
         "cs.AI"
       ],
       "primary_category": "cs.LG",
-      "pdf_url": "http://arxiv.org/pdf/2509.07036v1",
+      "pdf_url": "http://arxiv.org/pdf/2509.07036v2",
       "journal_ref": null,
       "doi": null,
       "comment": "Accepted at the 2nd edition of the Workshop in AI and Finance at\n  ECAI-2025",
-      "entry_id": "http://arxiv.org/abs/2509.07036v1",
+      "entry_id": "http://arxiv.org/abs/2509.07036v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2509.07036v1",
+          "href": "http://arxiv.org/abs/2509.07036v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2509.07036v1",
+          "href": "http://arxiv.org/pdf/2509.07036v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -6754,26 +7270,26 @@
         "Beiming Yuan"
       ],
       "published": "2025-08-21T09:23:51+00:00",
-      "updated": "2025-10-15T15:24:50+00:00",
+      "updated": "2025-10-25T09:55:01+00:00",
       "summary": "Despite deep learning's broad success, its abstract-reasoning bottleneck\npersists. We tackle Raven's Progressive Matrices (RPM), the benchmark for\npattern, reasoning and problem-solving intelligence. We model the full causal\nchain image $\\rightarrow$ attributes $\\rightarrow$ progressive patterns\n$\\rightarrow$ consistency $\\rightarrow$ answer and build the baseline DIO. Yet\nDIO's mutual-information lower-bound objective does not embed human logic: the\nbound is loose and statistic-based, ignoring causal subject-object links. We\ntherefore present three refinements. 1) Brando introduces trainable negative\noptions to tighten the variational bound. 2) WORLD replaces generation with a\nGaussian-mixture feature model that supplies infinite, weighted negatives,\nfurther tightening the bound. 3) DIEGO adds metadata supervision to rectify the\n\"attributes $\\rightarrow$ patterns\" semantic gap, aligning representations with\nhuman rules. These upgrades substantially boost discriminative RPM accuracy\nand, for the first time, let DIO generate valid answers in open-ended RPM. The\nwork provides causal-driven design guidelines, objective-refinement strategies\nand cross-modal insights for abstract-reasoning research.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "http://arxiv.org/pdf/2508.15387v5",
+      "pdf_url": "http://arxiv.org/pdf/2508.15387v6",
       "journal_ref": null,
       "doi": null,
       "comment": "15 pages, 9 figures, 8 tables",
-      "entry_id": "http://arxiv.org/abs/2508.15387v5",
+      "entry_id": "http://arxiv.org/abs/2508.15387v6",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2508.15387v5",
+          "href": "http://arxiv.org/abs/2508.15387v6",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2508.15387v5",
+          "href": "http://arxiv.org/pdf/2508.15387v6",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -78115,6 +78631,113 @@
     }
   },
   "Depth Estimation": {
+    "2510.23574": {
+      "title": "More Than Generation: Unifying Generation and Depth Estimation via Text-to-Image Diffusion Models",
+      "authors": [
+        "Hongkai Lin",
+        "Dingkang Liang",
+        "Mingyang Du",
+        "Xin Zhou",
+        "Xiang Bai"
+      ],
+      "published": "2025-10-27T17:44:56+00:00",
+      "updated": "2025-10-27T17:44:56+00:00",
+      "summary": "Generative depth estimation methods leverage the rich visual priors stored in\npre-trained text-to-image diffusion models, demonstrating astonishing zero-shot\ncapability. However, parameter updates during training lead to catastrophic\ndegradation in the image generation capability of the pre-trained model. We\nintroduce MERGE, a unified model for image generation and depth estimation,\nstarting from a fixed pre-trained text-to-image model. MERGE demonstrates that\nthe pre-trained text-to-image model can do more than image generation, but also\nexpand to depth estimation effortlessly. Specifically, MERGE introduces a\nplay-and-plug framework that enables seamless switching between image\ngeneration and depth estimation modes through simple and pluggable converters.\nMeanwhile, we propose a Group Reuse Mechanism to encourage parameter reuse and\nimprove the utilization of the additional learnable parameters. MERGE unleashes\nthe powerful depth estimation capability of the pre-trained text-to-image model\nwhile preserving its original image generation ability. Compared to other\nunified models for image generation and depth estimation, MERGE achieves\nstate-of-the-art performance across multiple depth estimation benchmarks. The\ncode will be made available at https://github.com/H-EmbodVis/MERGE",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.23574v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted by NeurIPS 2025. The code will be made available at\n  https://github.com/H-EmbodVis/MERGE",
+      "entry_id": "http://arxiv.org/abs/2510.23574v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.23574v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.23574v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2510.23057": {
+      "title": "Seq-DeepIPC: Sequential Sensing for End-to-End Control in Legged Robot Navigation",
+      "authors": [
+        "Oskar Natan",
+        "Jun Miura"
+      ],
+      "published": "2025-10-27T06:39:57+00:00",
+      "updated": "2025-10-27T06:39:57+00:00",
+      "summary": "We present Seq-DeepIPC, a sequential end-to-end perception-to-control model\nfor legged robot navigation in realworld environments. Seq-DeepIPC advances\nintelligent sensing for autonomous legged navigation by tightly integrating\nmulti-modal perception (RGB-D + GNSS) with temporal fusion and control. The\nmodel jointly predicts semantic segmentation and depth estimation, giving\nricher spatial features for planning and control. For efficient deployment on\nedge devices, we use EfficientNet-B0 as the encoder, reducing computation while\nmaintaining accuracy. Heading estimation is simplified by removing the noisy\nIMU and instead computing the bearing angle directly from consecutive GNSS\npositions. We collected a larger and more diverse dataset that includes both\nroad and grass terrains, and validated Seq-DeepIPC on a robot dog. Comparative\nand ablation studies show that sequential inputs improve perception and control\nin our models, while other baselines do not benefit. Seq-DeepIPC achieves\ncompetitive or better results with reasonable model size; although GNSS-only\nheading is less reliable near tall buildings, it is robust in open areas.\nOverall, Seq-DeepIPC extends end-to-end navigation beyond wheeled robots to\nmore versatile and temporally-aware systems. To support future research, we\nwill release the codes to our GitHub repository at\nhttps://github.com/oskarnatan/Seq-DeepIPC.",
+      "categories": [
+        "cs.RO",
+        "cs.CV",
+        "cs.SY",
+        "eess.IV",
+        "eess.SY"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "http://arxiv.org/pdf/2510.23057v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Preprint notice, this manuscript has been submitted to IEEE sensors\n  journal for possible publication",
+      "entry_id": "http://arxiv.org/abs/2510.23057v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.23057v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.23057v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2510.22359": {
+      "title": "EndoSfM3D: Learning to 3D Reconstruct Any Endoscopic Surgery Scene using Self-supervised Foundation Model",
+      "authors": [
+        "Changhao Zhang",
+        "Matthew J. Clarkson",
+        "Mobarak I. Hoque"
+      ],
+      "published": "2025-10-25T16:39:04+00:00",
+      "updated": "2025-10-25T16:39:04+00:00",
+      "summary": "3D reconstruction of endoscopic surgery scenes plays a vital role in\nenhancing scene perception, enabling AR visualization, and supporting\ncontext-aware decision-making in image-guided surgery. A critical yet\nchallenging step in this process is the accurate estimation of the endoscope's\nintrinsic parameters. In real surgical settings, intrinsic calibration is\nhindered by sterility constraints and the use of specialized endoscopes with\ncontinuous zoom and telescope rotation. Most existing methods for endoscopic 3D\nreconstruction do not estimate intrinsic parameters, limiting their\neffectiveness for accurate and reliable reconstruction. In this paper, we\nintegrate intrinsic parameter estimation into a self-supervised monocular depth\nestimation framework by adapting the Depth Anything V2 (DA2) model for joint\ndepth, pose, and intrinsics prediction. We introduce an attention-based pose\nnetwork and a Weight-Decomposed Low-Rank Adaptation (DoRA) strategy for\nefficient fine-tuning of DA2. Our method is validated on the SCARED and C3VD\npublic datasets, demonstrating superior performance compared to recent\nstate-of-the-art approaches in self-supervised monocular depth estimation and\n3D reconstruction. Code and model weights can be found in project repository:\nhttps://github.com/MOYF-beta/EndoSfM3D.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.22359v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "11 pages",
+      "entry_id": "http://arxiv.org/abs/2510.22359v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.22359v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.22359v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2510.20178": {
       "title": "PPMStereo: Pick-and-Play Memory Construction for Consistent Dynamic Stereo Matching",
       "authors": [
