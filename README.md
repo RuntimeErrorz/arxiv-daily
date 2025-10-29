@@ -1,4 +1,4 @@
-## Updated at 2025-10-29 08:19:27
+## Updated at 2025-10-29 20:08:18
 
 ## 3DGS Semantic
 
@@ -8,6 +8,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-10-28**|**[LagMemo: Language 3D Gaussian Splatting Memory for Multi-modal Open-vocabulary Multi-goal Visual Navigation](https://arxiv.org/abs/2510.24118)**|N/A|None|cs.RO|None|Haotian Zhou et al.|
 |**2025-10-27**|**[Gen-LangSplat: Generalized Language Gaussian Splatting with Pre-Trained Feature Compression](https://arxiv.org/abs/2510.22930)**|N/A|None|cs.CV|None|Pranav Saxena|
 |**2025-10-23**|**[COS3D: Collaborative Open-Vocabulary 3D Segmentation](https://arxiv.org/abs/2510.20238)**|N/A|NeurIPS 2025. The code is publicly available at \href{https://github.com/Runsong123/COS3D}{https://github.com/Runsong123/COS3D}|cs.CV|None|Runsong Zhu et al.|
 |**2025-10-21**|**[OpenInsGaussian: Open-vocabulary Instance Gaussian Segmentation with Context-aware Cross-view Fusion](https://arxiv.org/abs/2510.18253)**|N/A|None|cs.CV|None|Tianyu Huang et al.|
