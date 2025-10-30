@@ -1,4 +1,4 @@
-## Updated at 2025-10-30 08:18:19
+## Updated at 2025-10-30 20:08:23
 
 ## 3DGS Semantic
 
@@ -8,6 +8,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-10-29**|**[EA3D: Online Open-World 3D Object Extraction from Streaming Videos](https://arxiv.org/abs/2510.25146)**|N/A|The Thirty-Ninth Annual Conference on Neural Information Processing Systems(NeurIPS 2025)|cs.CV|None|Xiaoyu Zhou et al.|
 |**2025-10-28**|**[LagMemo: Language 3D Gaussian Splatting Memory for Multi-modal Open-vocabulary Multi-goal Visual Navigation](https://arxiv.org/abs/2510.24118)**|N/A|None|cs.RO|None|Haotian Zhou et al.|
 |**2025-10-27**|**[Gen-LangSplat: Generalized Language Gaussian Splatting with Pre-Trained Feature Compression](https://arxiv.org/abs/2510.22930)**|N/A|None|cs.CV|None|Pranav Saxena|
 |**2025-10-23**|**[COS3D: Collaborative Open-Vocabulary 3D Segmentation](https://arxiv.org/abs/2510.20238)**|N/A|NeurIPS 2025. The code is publicly available at \href{https://github.com/Runsong123/COS3D}{https://github.com/Runsong123/COS3D}|cs.CV|None|Runsong Zhu et al.|
@@ -562,6 +563,8 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-10-29**|**[SPADE: Sparsity Adaptive Depth Estimator for Zero-Shot, Real-Time, Monocular Depth Estimation in Underwater Environments](https://arxiv.org/abs/2510.25463)**|N/A|None|cs.CV|None|Hongjie Zhang et al.|
+|**2025-10-29**|**[Seeing Clearly and Deeply: An RGBD Imaging Approach with a Bio-inspired Monocentric Design](https://arxiv.org/abs/2510.25314)**|N/A|The source code will be publicly available at https://github.com/ZongxiYu-ZJU/BMI|cs.CV|None|Zongxi Yu et al.|
 |**2025-10-27**|**[More Than Generation: Unifying Generation and Depth Estimation via Text-to-Image Diffusion Models](https://arxiv.org/abs/2510.23574)**|N/A|Accepted by NeurIPS 2025. The code will be made available at https://github.com/H-EmbodVis/MERGE|cs.CV|None|Hongkai Lin et al.|
 |**2025-10-27**|**[Seq-DeepIPC: Sequential Sensing for End-to-End Control in Legged Robot Navigation](https://arxiv.org/abs/2510.23057)**|N/A|Preprint notice, this manuscript has been submitted to IEEE sensors journal for possible publication|cs.RO|None|Oskar Natan, Jun Miura|
 |**2025-10-25**|**[EndoSfM3D: Learning to 3D Reconstruct Any Endoscopic Surgery Scene using Self-supervised Foundation Model](https://arxiv.org/abs/2510.22359)**|N/A|11 pages|cs.CV|None|Changhao Zhang et al.|

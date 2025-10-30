@@ -1,5 +1,154 @@
 {
   "3DGS Semantic": {
+    "2510.25753": {
+      "title": "How Data Mixing Shapes In-Context Learning: Asymptotic Equivalence for Transformers with MLPs",
+      "authors": [
+        "Samet Demir",
+        "Zafer Dogan"
+      ],
+      "published": "2025-10-29T17:51:57+00:00",
+      "updated": "2025-10-29T17:51:57+00:00",
+      "summary": "Pretrained Transformers demonstrate remarkable in-context learning (ICL)\ncapabilities, enabling them to adapt to new tasks from demonstrations without\nparameter updates. However, theoretical studies often rely on simplified\narchitectures (e.g., omitting MLPs), data models (e.g., linear regression with\nisotropic inputs), and single-source training, limiting their relevance to\nrealistic settings. In this work, we study ICL in pretrained Transformers with\nnonlinear MLP heads on nonlinear tasks drawn from multiple data sources with\nheterogeneous input, task, and noise distributions. We analyze a model where\nthe MLP comprises two layers, with the first layer trained via a single\ngradient step and the second layer fully optimized. Under high-dimensional\nasymptotics, we prove that such models are equivalent in ICL error to\nstructured polynomial predictors, leveraging results from the theory of\nGaussian universality and orthogonal polynomials. This equivalence reveals that\nnonlinear MLPs meaningfully enhance ICL performance, particularly on nonlinear\ntasks, compared to linear baselines. It also enables a precise analysis of data\nmixing effects: we identify key properties of high-quality data sources (low\nnoise, structured covariances) and show that feature learning emerges only when\nthe task covariance exhibits sufficient structure. These results are validated\nempirically across various activation functions, model sizes, and data\ndistributions. Finally, we experiment with a real-world scenario involving\nmultilingual sentiment analysis where each language is treated as a different\nsource. Our experimental results for this case exemplify how our findings\nextend to real-world cases. Overall, our work advances the theoretical\nfoundations of ICL in Transformers and provides actionable insight into the\nrole of architecture and data in ICL.",
+      "categories": [
+        "stat.ML",
+        "cs.LG"
+      ],
+      "primary_category": "stat.ML",
+      "pdf_url": "http://arxiv.org/pdf/2510.25753v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "NeurIPS 2025, 24 pages, 6 figures",
+      "entry_id": "http://arxiv.org/abs/2510.25753v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.25753v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.25753v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.25146": {
+      "title": "EA3D: Online Open-World 3D Object Extraction from Streaming Videos",
+      "authors": [
+        "Xiaoyu Zhou",
+        "Jingqi Wang",
+        "Yuang Jia",
+        "Yongtao Wang",
+        "Deqing Sun",
+        "Ming-Hsuan Yang"
+      ],
+      "published": "2025-10-29T03:56:41+00:00",
+      "updated": "2025-10-29T03:56:41+00:00",
+      "summary": "Current 3D scene understanding methods are limited by offline-collected\nmulti-view data or pre-constructed 3D geometry. In this paper, we present\nExtractAnything3D (EA3D), a unified online framework for open-world 3D object\nextraction that enables simultaneous geometric reconstruction and holistic\nscene understanding. Given a streaming video, EA3D dynamically interprets each\nframe using vision-language and 2D vision foundation encoders to extract\nobject-level knowledge. This knowledge is integrated and embedded into a\nGaussian feature map via a feed-forward online update strategy. We then\niteratively estimate visual odometry from historical frames and incrementally\nupdate online Gaussian features with new observations. A recurrent joint\noptimization module directs the model's attention to regions of interest,\nsimultaneously enhancing both geometric reconstruction and semantic\nunderstanding. Extensive experiments across diverse benchmarks and tasks,\nincluding photo-realistic rendering, semantic and instance segmentation, 3D\nbounding box and semantic occupancy estimation, and 3D mesh generation,\ndemonstrate the effectiveness of EA3D. Our method establishes a unified and\nefficient framework for joint online 3D reconstruction and holistic scene\nunderstanding, enabling a broad range of downstream tasks.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.25146v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "The Thirty-Ninth Annual Conference on Neural Information Processing\n  Systems(NeurIPS 2025)",
+      "entry_id": "http://arxiv.org/abs/2510.25146v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.25146v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.25146v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2510.25129": {
+      "title": "AtlasGS: Atlanta-world Guided Surface Reconstruction with Implicit Structured Gaussians",
+      "authors": [
+        "Xiyu Zhang",
+        "Chong Bao",
+        "Yipeng Chen",
+        "Hongjia Zhai",
+        "Yitong Dong",
+        "Hujun Bao",
+        "Zhaopeng Cui",
+        "Guofeng Zhang"
+      ],
+      "published": "2025-10-29T03:17:58+00:00",
+      "updated": "2025-10-29T03:17:58+00:00",
+      "summary": "3D reconstruction of indoor and urban environments is a prominent research\ntopic with various downstream applications. However, existing geometric priors\nfor addressing low-texture regions in indoor and urban settings often lack\nglobal consistency. Moreover, Gaussian Splatting and implicit SDF fields often\nsuffer from discontinuities or exhibit computational inefficiencies, resulting\nin a loss of detail. To address these issues, we propose an Atlanta-world\nguided implicit-structured Gaussian Splatting that achieves smooth indoor and\nurban scene reconstruction while preserving high-frequency details and\nrendering efficiency. By leveraging the Atlanta-world model, we ensure the\naccurate surface reconstruction for low-texture regions, while the proposed\nnovel implicit-structured GS representations provide smoothness without\nsacrificing efficiency and high-frequency details. Specifically, we propose a\nsemantic GS representation to predict the probability of all semantic regions\nand deploy a structure plane regularization with learnable plane indicators for\nglobal accurate surface reconstruction. Extensive experiments demonstrate that\nour method outperforms state-of-the-art approaches in both indoor and urban\nscenes, delivering superior surface reconstruction quality.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.25129v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "18 pages, 11 figures. NeurIPS 2025; Project page:\n  https://zju3dv.github.io/AtlasGS/",
+      "entry_id": "http://arxiv.org/abs/2510.25129v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.25129v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.25129v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.25094": {
+      "title": "Visual Diversity and Region-aware Prompt Learning for Zero-shot HOI Detection",
+      "authors": [
+        "Chanhyeong Yang",
+        "Taehoon Song",
+        "Jihwan Park",
+        "Hyunwoo J. Kim"
+      ],
+      "published": "2025-10-29T01:58:35+00:00",
+      "updated": "2025-10-29T01:58:35+00:00",
+      "summary": "Zero-shot Human-Object Interaction detection aims to localize humans and\nobjects in an image and recognize their interaction, even when specific\nverb-object pairs are unseen during training. Recent works have shown promising\nresults using prompt learning with pretrained vision-language models such as\nCLIP, which align natural language prompts with visual features in a shared\nembedding space. However, existing approaches still fail to handle the visual\ncomplexity of interaction, including (1) intra-class visual diversity, where\ninstances of the same verb appear in diverse poses and contexts, and (2)\ninter-class visual entanglement, where distinct verbs yield visually similar\npatterns. To address these challenges, we propose VDRP, a framework for Visual\nDiversity and Region-aware Prompt learning. First, we introduce a visual\ndiversity-aware prompt learning strategy that injects group-wise visual\nvariance into the context embedding. We further apply Gaussian perturbation to\nencourage the prompts to capture diverse visual variations of a verb. Second,\nwe retrieve region-specific concepts from the human, object, and union regions.\nThese are used to augment the diversity-aware prompt embeddings, yielding\nregion-aware prompts that enhance verb-level discrimination. Experiments on the\nHICO-DET benchmark demonstrate that our method achieves state-of-the-art\nperformance under four zero-shot evaluation settings, effectively addressing\nboth intra-class diversity and inter-class visual entanglement. Code is\navailable at https://github.com/mlvlab/VDRP.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.25094v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted by NeurIPS 2025",
+      "entry_id": "http://arxiv.org/abs/2510.25094v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.25094v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.25094v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2510.24372": {
       "title": "Bayesian Speech synthesizers Can Learn from Multiple Teachers",
       "authors": [
@@ -690,26 +839,26 @@
         "Xuming He"
       ],
       "published": "2025-10-24T03:23:34+00:00",
-      "updated": "2025-10-24T03:23:34+00:00",
-      "summary": "Reinforcement learning (RL) has shown promise in enhancing the general\nChain-of-Thought (CoT) reasoning capabilities of multimodal large language\nmodels (MLLMs). However, when applied to improve general CoT reasoning,\nexisting RL frameworks often struggle to generalize beyond the training\ndistribution. To address this, we propose NoisyGRPO, a systematic multimodal RL\nframework that introduces controllable noise into visual inputs for enhanced\nexploration and explicitly models the advantage estimation process via a\nBayesian framework. Specifically, NoisyGRPO improves RL training by: (1)\n\\textbf{Noise-Injected Exploration Policy}: Perturbing visual inputs with\nGaussian noise to encourage exploration across a wider range of visual\nscenarios; and (2) \\textbf{Bayesian Advantage Estimation}: Formulating\nadvantage estimation as a principled Bayesian inference problem, where the\ninjected noise level serves as a prior and the observed trajectory reward as\nthe likelihood. This Bayesian modeling fuses both sources of information to\ncompute a robust posterior estimate of trajectory advantage, effectively\nguiding MLLMs to prefer visually grounded trajectories over noisy ones.\nExperiments on standard CoT quality, general capability, and hallucination\nbenchmarks demonstrate that NoisyGRPO substantially improves generalization and\nrobustness, especially in RL settings with small-scale MLLMs such as Qwen2.5-VL\n3B. The project page is available at\n\\href{https://artanic30.github.io/project_pages/NoisyGRPO/}{\\texttt{https://artanic30.github.io/project\\_pages/NoisyGRPO}}.",
+      "updated": "2025-10-29T07:06:34+00:00",
+      "summary": "Reinforcement learning (RL) has shown promise in enhancing the general\nChain-of-Thought (CoT) reasoning capabilities of multimodal large language\nmodels (MLLMs). However, when applied to improve general CoT reasoning,\nexisting RL frameworks often struggle to generalize beyond the training\ndistribution. To address this, we propose NoisyGRPO, a systematic multimodal RL\nframework that introduces controllable noise into visual inputs for enhanced\nexploration and explicitly models the advantage estimation process via a\nBayesian framework. Specifically, NoisyGRPO improves RL training by: (1)\nNoise-Injected Exploration Policy: Perturbing visual inputs with Gaussian noise\nto encourage exploration across a wider range of visual scenarios; and (2)\nBayesian Advantage Estimation: Formulating advantage estimation as a principled\nBayesian inference problem, where the injected noise level serves as a prior\nand the observed trajectory reward as the likelihood. This Bayesian modeling\nfuses both sources of information to compute a robust posterior estimate of\ntrajectory advantage, effectively guiding MLLMs to prefer visually grounded\ntrajectories over noisy ones. Experiments on standard CoT quality, general\ncapability, and hallucination benchmarks demonstrate that NoisyGRPO\nsubstantially improves generalization and robustness, especially in RL settings\nwith small-scale MLLMs such as Qwen2.5-VL 3B. The project page is available at\nhttps://artanic30.github.io/project_pages/NoisyGRPO/.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "http://arxiv.org/pdf/2510.21122v1",
+      "pdf_url": "http://arxiv.org/pdf/2510.21122v2",
       "journal_ref": null,
       "doi": null,
       "comment": "Accepted by Neurips2025, Project page at at\n  https://artanic30.github.io/project_pages/NoisyGRPO/",
-      "entry_id": "http://arxiv.org/abs/2510.21122v1",
+      "entry_id": "http://arxiv.org/abs/2510.21122v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2510.21122v1",
+          "href": "http://arxiv.org/abs/2510.21122v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2510.21122v1",
+          "href": "http://arxiv.org/pdf/2510.21122v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -78832,6 +78981,82 @@
     }
   },
   "Depth Estimation": {
+    "2510.25463": {
+      "title": "SPADE: Sparsity Adaptive Depth Estimator for Zero-Shot, Real-Time, Monocular Depth Estimation in Underwater Environments",
+      "authors": [
+        "Hongjie Zhang",
+        "Gideon Billings",
+        "Stefan B. Williams"
+      ],
+      "published": "2025-10-29T12:37:34+00:00",
+      "updated": "2025-10-29T12:37:34+00:00",
+      "summary": "Underwater infrastructure requires frequent inspection and maintenance due to\nharsh marine conditions. Current reliance on human divers or remotely operated\nvehicles is limited by perceptual and operational challenges, especially around\ncomplex structures or in turbid water. Enhancing the spatial awareness of\nunderwater vehicles is key to reducing piloting risks and enabling greater\nautonomy. To address these challenges, we present SPADE: SParsity Adaptive\nDepth Estimator, a monocular depth estimation pipeline that combines\npre-trained relative depth estimator with sparse depth priors to produce dense,\nmetric scale depth maps. Our two-stage approach first scales the relative depth\nmap with the sparse depth points, then refines the final metric prediction with\nour proposed Cascade Conv-Deformable Transformer blocks. Our approach achieves\nimproved accuracy and generalisation over state-of-the-art baselines and runs\nefficiently at over 15 FPS on embedded hardware, promising to support practical\nunderwater inspection and intervention. This work has been submitted to IEEE\nJournal of Oceanic Engineering Special Issue of AUV 2026.",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.25463v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.25463v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.25463v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.25463v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2510.25314": {
+      "title": "Seeing Clearly and Deeply: An RGBD Imaging Approach with a Bio-inspired Monocentric Design",
+      "authors": [
+        "Zongxi Yu",
+        "Xiaolong Qian",
+        "Shaohua Gao",
+        "Qi Jiang",
+        "Yao Gao",
+        "Kailun Yang",
+        "Kaiwei Wang"
+      ],
+      "published": "2025-10-29T09:27:38+00:00",
+      "updated": "2025-10-29T09:27:38+00:00",
+      "summary": "Achieving high-fidelity, compact RGBD imaging presents a dual challenge:\nconventional compact optics struggle with RGB sharpness across the entire\ndepth-of-field, while software-only Monocular Depth Estimation (MDE) is an\nill-posed problem reliant on unreliable semantic priors. While deep optics with\nelements like DOEs can encode depth, they introduce trade-offs in fabrication\ncomplexity and chromatic aberrations, compromising simplicity. To address this,\nwe first introduce a novel bio-inspired all-spherical monocentric lens, around\nwhich we build the Bionic Monocentric Imaging (BMI) framework, a holistic\nco-design. This optical design naturally encodes depth into its depth-varying\nPoint Spread Functions (PSFs) without requiring complex diffractive or freeform\nelements. We establish a rigorous physically-based forward model to generate a\nsynthetic dataset by precisely simulating the optical degradation process. This\nsimulation pipeline is co-designed with a dual-head, multi-scale reconstruction\nnetwork that employs a shared encoder to jointly recover a high-fidelity\nAll-in-Focus (AiF) image and a precise depth map from a single coded capture.\nExtensive experiments validate the state-of-the-art performance of the proposed\nframework. In depth estimation, the method attains an Abs Rel of 0.026 and an\nRMSE of 0.130, markedly outperforming leading software-only approaches and\nother deep optics systems. For image restoration, the system achieves an SSIM\nof 0.960 and a perceptual LPIPS score of 0.082, thereby confirming a superior\nbalance between image fidelity and depth accuracy. This study illustrates that\nthe integration of bio-inspired, fully spherical optics with a joint\nreconstruction algorithm constitutes an effective strategy for addressing the\nintrinsic challenges in high-performance compact RGBD imaging. Source code will\nbe publicly available at https://github.com/ZongxiYu-ZJU/BMI.",
+      "categories": [
+        "cs.CV",
+        "cs.RO",
+        "eess.IV",
+        "physics.optics"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.25314v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "The source code will be publicly available at\n  https://github.com/ZongxiYu-ZJU/BMI",
+      "entry_id": "http://arxiv.org/abs/2510.25314v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.25314v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.25314v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2510.23574": {
       "title": "More Than Generation: Unifying Generation and Depth Estimation via Text-to-Image Diffusion Models",
       "authors": [
