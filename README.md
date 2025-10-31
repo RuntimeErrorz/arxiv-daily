@@ -1,4 +1,4 @@
-## Updated at 2025-10-31 08:17:43
+## Updated at 2025-10-31 20:08:57
 
 ## 3DGS Semantic
 
@@ -8,6 +8,9 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-10-30**|**[AgriGS-SLAM: Orchard Mapping Across Seasons via Multi-View Gaussian Splatting SLAM](https://arxiv.org/abs/2510.26358)**|N/A|None|cs.RO|None|Mirko Usuelli et al.|
+|**2025-10-30**|**[Model Inversion with Layer-Specific Modeling and Alignment for Data-Free Continual Learning](https://arxiv.org/abs/2510.26311)**|N/A|Accepted in NeurIPS 2025|cs.LG|None|Ruilin Tong et al.|
+|**2025-10-30**|**[Test-Time Alignment of LLMs via Sampling-Based Optimal Control in pre-logit space](https://arxiv.org/abs/2510.26219)**|N/A|21 pages, 8 figures|cs.LG|None|Sekitoshi Kanai et al.|
 |**2025-10-29**|**[EA3D: Online Open-World 3D Object Extraction from Streaming Videos](https://arxiv.org/abs/2510.25146)**|N/A|The Thirty-Ninth Annual Conference on Neural Information Processing Systems(NeurIPS 2025)|cs.CV|None|Xiaoyu Zhou et al.|
 |**2025-10-28**|**[LagMemo: Language 3D Gaussian Splatting Memory for Multi-modal Open-vocabulary Multi-goal Visual Navigation](https://arxiv.org/abs/2510.24118)**|N/A|None|cs.RO|None|Haotian Zhou et al.|
 |**2025-10-27**|**[Gen-LangSplat: Generalized Language Gaussian Splatting with Pre-Trained Feature Compression](https://arxiv.org/abs/2510.22930)**|N/A|None|cs.CV|None|Pranav Saxena|

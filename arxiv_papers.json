@@ -1,5 +1,187 @@
 {
   "3DGS Semantic": {
+    "2510.26610": {
+      "title": "A DRL-Empowered Multi-Level Jamming Approach for Secure Semantic Communication",
+      "authors": [
+        "Weixuan Chen",
+        "Qianqian Yang"
+      ],
+      "published": "2025-10-30T15:38:27+00:00",
+      "updated": "2025-10-30T15:38:27+00:00",
+      "summary": "Semantic communication (SemCom) aims to transmit only task-relevant\ninformation, thereby improving communication efficiency but also exposing\nsemantic information to potential eavesdropping. In this paper, we propose a\ndeep reinforcement learning (DRL)-empowered multi-level jamming approach to\nenhance the security of SemCom systems over MIMO fading wiretap channels. This\napproach combines semantic layer jamming, achieved by encoding task-irrelevant\ntext, and physical layer jamming, achieved by encoding random Gaussian noise.\nThese two-level jamming signals are superposed with task-relevant semantic\ninformation to protect the transmitted semantics from eavesdropping. A deep\ndeterministic policy gradient (DDPG) algorithm is further introduced to\ndynamically design and optimize the precoding matrices for both taskrelevant\nsemantic information and multi-level jamming signals, aiming to enhance the\nlegitimate user's image reconstruction while degrading the eavesdropper's\nperformance. To jointly train the SemCom model and the DDPG agent, we propose\nan alternating optimization strategy where the two modules are updated\niteratively. Experimental results demonstrate that, compared with both the\nencryption-based (ESCS) and encoded jammer-based (EJ) benchmarks, our method\nachieves comparable security while improving the legitimate user's peak\nsignalto-noise ratio (PSNR) by up to approximately 0.6 dB.",
+      "categories": [
+        "cs.CR"
+      ],
+      "primary_category": "cs.CR",
+      "pdf_url": "http://arxiv.org/pdf/2510.26610v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.26610v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.26610v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.26610v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.26358": {
+      "title": "AgriGS-SLAM: Orchard Mapping Across Seasons via Multi-View Gaussian Splatting SLAM",
+      "authors": [
+        "Mirko Usuelli",
+        "David Rapado-Rincon",
+        "Gert Kootstra",
+        "Matteo Matteucci"
+      ],
+      "published": "2025-10-30T11:08:23+00:00",
+      "updated": "2025-10-30T11:08:23+00:00",
+      "summary": "Autonomous robots in orchards require real-time 3D scene understanding\ndespite repetitive row geometry, seasonal appearance changes, and wind-driven\nfoliage motion. We present AgriGS-SLAM, a Visual--LiDAR SLAM framework that\ncouples direct LiDAR odometry and loop closures with multi-camera 3D Gaussian\nSplatting (3DGS) rendering. Batch rasterization across complementary viewpoints\nrecovers orchard structure under occlusions, while a unified gradient-driven\nmap lifecycle executed between keyframes preserves fine details and bounds\nmemory. Pose refinement is guided by a probabilistic LiDAR-based depth\nconsistency term, back-propagated through the camera projection to tighten\ngeometry-appearance coupling. We deploy the system on a field platform in apple\nand pear orchards across dormancy, flowering, and harvesting, using a\nstandardized trajectory protocol that evaluates both training-view and\nnovel-view synthesis to reduce 3DGS overfitting in evaluation. Across seasons\nand sites, AgriGS-SLAM delivers sharper, more stable reconstructions and\nsteadier trajectories than recent state-of-the-art 3DGS-SLAM baselines while\nmaintaining real-time performance on-tractor. While demonstrated in orchard\nmonitoring, the approach can be applied to other outdoor domains requiring\nrobust multimodal perception.",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "http://arxiv.org/pdf/2510.26358v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.26358v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.26358v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.26358v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2510.26311": {
+      "title": "Model Inversion with Layer-Specific Modeling and Alignment for Data-Free Continual Learning",
+      "authors": [
+        "Ruilin Tong",
+        "Haodong Lu",
+        "Yuhang Liu",
+        "Dong Gong"
+      ],
+      "published": "2025-10-30T09:58:48+00:00",
+      "updated": "2025-10-30T09:58:48+00:00",
+      "summary": "Continual learning (CL) aims to incrementally train a model on a sequence of\ntasks while retaining performance on prior ones. However, storing and replaying\ndata is often infeasible due to privacy or security constraints and impractical\nfor arbitrary pre-trained models. Data-free CL seeks to update models without\naccess to previous data. Beyond regularization, we employ model inversion to\nsynthesize data from the trained model, enabling replay without storing\nsamples. Yet, model inversion in predictive models faces two challenges: (1)\ngenerating inputs solely from compressed output labels causes drift between\nsynthetic and real data, and replaying such data can erode prior knowledge; (2)\ninversion is computationally expensive since each step backpropagates through\nthe full model. These issues are amplified in large pre-trained models such as\nCLIP. To improve efficiency, we propose Per-layer Model Inversion (PMI),\ninspired by faster convergence in single-layer optimization. PMI provides\nstrong initialization for full-model inversion, substantially reducing\niterations. To mitigate feature shift, we model class-wise features via\nGaussian distributions and contrastive model, ensuring alignment between\nsynthetic and real features. Combining PMI and feature modeling, our approach\nenables continual learning of new classes by generating pseudo-images from\nsemantic-aware projected features, achieving strong effectiveness and\ncompatibility across multiple CL settings.",
+      "categories": [
+        "cs.LG"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "http://arxiv.org/pdf/2510.26311v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted in NeurIPS 2025",
+      "entry_id": "http://arxiv.org/abs/2510.26311v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.26311v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.26311v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2510.26219": {
+      "title": "Test-Time Alignment of LLMs via Sampling-Based Optimal Control in pre-logit space",
+      "authors": [
+        "Sekitoshi Kanai",
+        "Tsukasa Yoshida",
+        "Hiroshi Takahashi",
+        "Haru Kuroki",
+        "Kazumune Hashimoto"
+      ],
+      "published": "2025-10-30T07:52:14+00:00",
+      "updated": "2025-10-30T07:52:14+00:00",
+      "summary": "Test-time alignment of large language models (LLMs) attracts attention\nbecause fine-tuning LLMs requires high computational costs. In this paper, we\npropose a new test-time alignment method called adaptive importance sampling on\npre-logits (AISP) on the basis of the sampling-based model predictive control\nwith the stochastic control input. AISP applies the Gaussian perturbation into\npre-logits, which are outputs of the penultimate layer, so as to maximize\nexpected rewards with respect to the mean of the perturbation. We demonstrate\nthat the optimal mean is obtained by importance sampling with sampled rewards.\nAISP outperforms best-of-n sampling in terms of rewards over the number of used\nsamples and achieves higher rewards than other reward-based test-time alignment\nmethods.",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "http://arxiv.org/pdf/2510.26219v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "21 pages, 8 figures",
+      "entry_id": "http://arxiv.org/abs/2510.26219v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.26219v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.26219v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2510.26097": {
+      "title": "Robust Super-Capacity SRS Channel Inpainting via Diffusion Models",
+      "authors": [
+        "Usman Akram",
+        "Fan Zhang",
+        "Yang Li",
+        "Haris Vikalo"
+      ],
+      "published": "2025-10-30T03:22:13+00:00",
+      "updated": "2025-10-30T03:22:13+00:00",
+      "summary": "Accurate channel state information (CSI) is essential for reliable multiuser\nMIMO operation. In 5G NR, reciprocity-based beamforming via uplink Sounding\nReference Signals (SRS) face resource and coverage constraints, motivating\nsparse non-uniform SRS allocation. Prior masked-autoencoder (MAE) approaches\nimprove coverage but overfit to training masks and degrade under unseen\ndistortions (e.g., additional masking, interference, clipping, non-Gaussian\nnoise). We propose a diffusion-based channel inpainting framework that\nintegrates system-model knowledge at inference via a likelihood-gradient term,\nenabling a single trained model to adapt across mismatched conditions. On\nstandardized CDL channels, the score-based diffusion variant consistently\noutperforms a UNet score-model baseline and the one-step MAE under distribution\nshift, with improvements up to 14 dB NMSE in challenging settings (e.g.,\nLaplace noise, user interference), while retaining competitive accuracy under\nmatched conditions. These results demonstrate that diffusion-guided inpainting\nis a robust and generalizable approach for super-capacity SRS design in 5G NR\nsystems.",
+      "categories": [
+        "eess.SP",
+        "cs.LG"
+      ],
+      "primary_category": "eess.SP",
+      "pdf_url": "http://arxiv.org/pdf/2510.26097v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.26097v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.26097v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.26097v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2510.25753": {
       "title": "How Data Mixing Shapes In-Context Learning: Asymptotic Equivalence for Transformers with MLPs",
       "authors": [
