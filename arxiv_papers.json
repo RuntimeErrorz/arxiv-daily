@@ -335,7 +335,15 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-11-04",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2510.25129": {
       "title": "AtlasGS: Atlanta-world Guided Surface Reconstruction with Implicit Structured Gaussians",
@@ -1019,31 +1027,31 @@
         "Mark Zhao",
         "Justin Cui",
         "Anton Korikov",
-        "Armin Torogh",
+        "Armin Toroghi",
         "Junyoung Kim",
         "Scott Sanner"
       ],
       "published": "2025-10-24T21:03:20+00:00",
-      "updated": "2025-10-24T21:03:20+00:00",
+      "updated": "2025-10-31T20:44:50+00:00",
       "summary": "Natural Language Recommendation (NLRec) generates item suggestions based on\nthe relevance between user-issued NL requests and NL item description passages.\nExisting NLRec approaches often use Dense Retrieval (DR) to compute item\nrelevance scores from aggregation of inner products between user request\nembeddings and relevant passage embeddings. However, DR views the request as\nthe sole relevance label, thus leading to a unimodal scoring function centered\non the query embedding that is often a weak proxy for query relevance. To\nbetter capture the potential multimodal distribution of the relevance scoring\nfunction that may arise from complex NLRec data, we propose GPR-LLM that uses\nGaussian Process Regression (GPR) with LLM relevance judgments for a subset of\ncandidate passages. Experiments on four NLRec datasets and two LLM backbones\ndemonstrate that GPR-LLM with an RBF kernel, capable of modeling multimodal\nrelevance scoring functions, consistently outperforms simpler unimodal kernels\n(dot product, cosine similarity), as well as baseline methods including DR,\ncross-encoder, and pointwise LLM-based relevance scoring by up to 65%. Overall,\nGPR-LLM provides an efficient and effective approach to NLRec within a minimal\nLLM labeling budget.",
       "categories": [
         "cs.IR"
       ],
       "primary_category": "cs.IR",
-      "pdf_url": "http://arxiv.org/pdf/2510.22023v1",
+      "pdf_url": "http://arxiv.org/pdf/2510.22023v2",
       "journal_ref": null,
       "doi": null,
       "comment": "16 pages,20 figures",
-      "entry_id": "http://arxiv.org/abs/2510.22023v1",
+      "entry_id": "http://arxiv.org/abs/2510.22023v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2510.22023v1",
+          "href": "http://arxiv.org/abs/2510.22023v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2510.22023v1",
+          "href": "http://arxiv.org/pdf/2510.22023v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -1925,28 +1933,28 @@
         "Akira Okutomi"
       ],
       "published": "2025-10-16T17:40:28+00:00",
-      "updated": "2025-10-16T17:40:28+00:00",
-      "summary": "We reinterpret Kant's Critique of Pure Reason as a theory of feedback\nstability, viewing reason as a regulator that keeps inference within the bounds\nof possible experience. We formalize this intuition via a composite instability\nindex (H-Risk) combining spectral margin, conditioning, temporal sensitivity,\nand innovation amplification. In linear-Gaussian simulations, higher H-Risk\npredicts overconfident errors even under formal stability, revealing a gap\nbetween nominal and epistemic stability. Extending to large language models\n(LLMs), we find that fragile internal dynamics correlate with miscalibration\nand hallucination, while critique-style prompts show mixed effects on\ncalibration and hallucination. These results suggest a structural bridge\nbetween Kantian self-limitation and feedback control, offering a principled\nlens for diagnosing -- and selectively reducing -- overconfidence in reasoning\nsystems. This is a preliminary version; supplementary experiments and broader\nreplication will be reported in a future revision.",
+      "updated": "2025-11-03T12:53:06+00:00",
+      "summary": "We reinterpret Kant's Critique of Pure Reason as a theory of feedback\nstability, viewing reason as a regulator that keeps inference within the bounds\nof possible experience. We formalize this intuition via a composite instability\nindex (H-Risk) combining spectral margin, conditioning, temporal sensitivity,\nand innovation amplification. In linear-Gaussian simulations, higher H-Risk\npredicts overconfident errors even under formal stability, revealing a gap\nbetween nominal and epistemic stability. Extending to large language models\n(LLMs), we observe preliminary correlations between internal fragility and\nmiscalibration or hallucination (confabulation), and find that lightweight\ncritique prompts may modestly improve or worsen calibration in small-scale\ntests. These results suggest a structural bridge between Kantian\nself-limitation and feedback control, offering a principled lens to diagnose\nand potentially mitigate overconfidence in reasoning systems.",
       "categories": [
         "cs.AI",
         "cs.CL",
         "cs.LG"
       ],
       "primary_category": "cs.AI",
-      "pdf_url": "http://arxiv.org/pdf/2510.14925v1",
+      "pdf_url": "http://arxiv.org/pdf/2510.14925v2",
       "journal_ref": null,
       "doi": null,
-      "comment": "19 pages, 2 figures, preliminary version",
-      "entry_id": "http://arxiv.org/abs/2510.14925v1",
+      "comment": "21 pages, 2 figures, preliminary version",
+      "entry_id": "http://arxiv.org/abs/2510.14925v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2510.14925v1",
+          "href": "http://arxiv.org/abs/2510.14925v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2510.14925v1",
+          "href": "http://arxiv.org/pdf/2510.14925v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -2002,27 +2010,27 @@
         "Hongyun Wang"
       ],
       "published": "2025-10-16T03:38:26+00:00",
-      "updated": "2025-10-16T03:38:26+00:00",
+      "updated": "2025-11-03T14:19:02+00:00",
       "summary": "Scene reconstruction has emerged as a central challenge in computer vision,\nwith approaches such as Neural Radiance Fields (NeRF) and Gaussian Splatting\nachieving remarkable progress. While Gaussian Splatting demonstrates strong\nperformance on large-scale datasets, it often struggles to capture fine details\nor maintain realism in regions with sparse coverage, largely due to the\ninherent limitations of sparse 3D training data.\n  In this work, we propose GauSSmart, a hybrid method that effectively bridges\n2D foundational models and 3D Gaussian Splatting reconstruction. Our approach\nintegrates established 2D computer vision techniques, including convex\nfiltering and semantic feature supervision from foundational models such as\nDINO, to enhance Gaussian-based scene reconstruction. By leveraging 2D\nsegmentation priors and high-dimensional feature embeddings, our method guides\nthe densification and refinement of Gaussian splats, improving coverage in\nunderrepresented areas and preserving intricate structural details.\n  We validate our approach across three datasets, where GauSSmart consistently\noutperforms existing Gaussian Splatting in the majority of evaluated scenes.\nOur results demonstrate the significant potential of hybrid 2D-3D approaches,\nhighlighting how the thoughtful combination of 2D foundational models with 3D\nreconstruction pipelines can overcome the limitations inherent in either\napproach alone.",
       "categories": [
         "cs.CV",
         "cs.GR"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "http://arxiv.org/pdf/2510.14270v1",
+      "pdf_url": "http://arxiv.org/pdf/2510.14270v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2510.14270v1",
+      "entry_id": "http://arxiv.org/abs/2510.14270v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2510.14270v1",
+          "href": "http://arxiv.org/abs/2510.14270v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2510.14270v1",
+          "href": "http://arxiv.org/pdf/2510.14270v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
