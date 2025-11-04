@@ -1,5 +1,48 @@
 {
   "3DGS Semantic": {
+    "2510.27266": {
+      "title": "HyperClick: Advancing Reliable GUI Grounding via Uncertainty Calibration",
+      "authors": [
+        "Shaojie Zhang",
+        "Pei Fu",
+        "Ruoceng Zhang",
+        "Jiahui Yang",
+        "Anan Du",
+        "Xiuwen Xi",
+        "Shaokang Wang",
+        "Ying Huang",
+        "Bin Qin",
+        "Zhenbo Luo",
+        "Jian Luan"
+      ],
+      "published": "2025-10-31T08:07:02+00:00",
+      "updated": "2025-10-31T08:07:02+00:00",
+      "summary": "Autonomous Graphical User Interface (GUI) agents rely on accurate GUI\ngrounding, which maps language instructions to on-screen coordinates, to\nexecute user commands. However, current models, whether trained via supervised\nfine-tuning (SFT) or reinforcement fine-tuning (RFT), lack self-awareness of\ntheir capability boundaries, leading to overconfidence and unreliable\npredictions. We first systematically evaluate probabilistic and verbalized\nconfidence in general and GUI-specific models, revealing a misalignment between\nconfidence and actual accuracy, which is particularly critical in dynamic GUI\nautomation tasks, where single errors can cause task failure. To address this,\nwe propose HyperClick, a novel framework that enhances reliable GUI grounding\nthrough uncertainty calibration. HyperClick introduces a dual reward mechanism,\ncombining a binary reward for correct actions with a truncated Gaussian-based\nspatial confidence modeling, calibrated using the Brier score. This approach\njointly optimizes grounding accuracy and confidence reliability, fostering\nintrospective self-criticism. Extensive experiments on seven challenge\nbenchmarks show that HyperClick achieves state-of-the-art performance while\nproviding well-calibrated confidence. By enabling explicit confidence\ncalibration and introspective self-criticism, HyperClick reduces overconfidence\nand supports more reliable GUI automation.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2510.27266v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.27266v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.27266v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.27266v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2510.26610": {
       "title": "A DRL-Empowered Multi-Level Jamming Approach for Secure Semantic Communication",
       "authors": [
@@ -210,6 +253,45 @@
         },
         {
           "href": "http://arxiv.org/pdf/2510.25753v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2510.26830": {
+      "title": "SmoothGuard: Defending Multimodal Large Language Models with Noise Perturbation and Clustering Aggregation",
+      "authors": [
+        "Guangzhi Su",
+        "Shuchang Huang",
+        "Yutong Ke",
+        "Zhuohang Liu",
+        "Long Qian",
+        "Kaizhu Huang"
+      ],
+      "published": "2025-10-29T14:56:27+00:00",
+      "updated": "2025-10-29T14:56:27+00:00",
+      "summary": "Multimodal large language models (MLLMs) have achieved impressive performance\nacross diverse tasks by jointly reasoning over textual and visual inputs.\nDespite their success, these models remain highly vulnerable to adversarial\nmanipulations, raising concerns about their safety and reliability in\ndeployment. In this work, we first generalize an approach for generating\nadversarial images within the HuggingFace ecosystem and then introduce\nSmoothGuard, a lightweight and model-agnostic defense framework that enhances\nthe robustness of MLLMs through randomized noise injection and clustering-based\nprediction aggregation. Our method perturbs continuous modalities (e.g., images\nand audio) with Gaussian noise, generates multiple candidate outputs, and\napplies embedding-based clustering to filter out adversarially influenced\npredictions. The final answer is selected from the majority cluster, ensuring\nstable responses even under malicious perturbations. Extensive experiments on\nPOPE, LLaVA-Bench (In-the-Wild), and MM-SafetyBench demonstrate that\nSmoothGuard improves resilience to adversarial attacks while maintaining\ncompetitive utility. Ablation studies further identify an optimal noise range\n(0.1-0.2) that balances robustness and utility.",
+      "categories": [
+        "cs.LG",
+        "cs.CR"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "http://arxiv.org/pdf/2510.26830v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2510.26830v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2510.26830v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2510.26830v1",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -1330,7 +1412,7 @@
         "Florian Jug"
       ],
       "published": "2025-10-21T13:41:07+00:00",
-      "updated": "2025-10-21T13:41:07+00:00",
+      "updated": "2025-10-30T18:38:06+00:00",
       "summary": "Semantic segmentation of electron microscopy (EM) images of biological\nsamples remains a challenge in the life sciences. EM data captures details of\nbiological structures, sometimes with such complexity that even human observers\ncan find it overwhelming. We introduce {\\epsilon}-Seg, a method based on\nhierarchical variational autoencoders (HVAEs), employing center-region masking,\nsparse label contrastive learning (CL), a Gaussian mixture model (GMM) prior,\nand clustering-free label prediction. Center-region masking and the inpainting\nloss encourage the model to learn robust and representative embeddings to\ndistinguish the desired classes, even if training labels are sparse (0.05% of\nthe total image data or less). For optimal performance, we employ CL and a GMM\nprior to shape the latent space of the HVAE such that encoded input patches\ntend to cluster wrt. the semantic classes we wish to distinguish. Finally,\ninstead of clustering latent embeddings for semantic segmentation, we propose a\nMLP semantic segmentation head to directly predict class labels from latent\nembeddings. We show empirical results of {\\epsilon}-Seg and baseline methods on\n2 dense EM datasets of biological tissues and demonstrate the applicability of\nour method also on fluorescence microscopy data. Our results show that\n{\\epsilon}-Seg is capable of achieving competitive sparsely-supervised\nsegmentation results on complex biological image data, even if only limited\namounts of training labels are available.",
       "categories": [
         "cs.CV",
@@ -1338,20 +1420,20 @@
         "cs.LG"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "http://arxiv.org/pdf/2510.18637v1",
+      "pdf_url": "http://arxiv.org/pdf/2510.18637v2",
       "journal_ref": null,
       "doi": null,
       "comment": "10 pages main text, 17 pages total",
-      "entry_id": "http://arxiv.org/abs/2510.18637v1",
+      "entry_id": "http://arxiv.org/abs/2510.18637v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2510.18637v1",
+          "href": "http://arxiv.org/abs/2510.18637v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2510.18637v1",
+          "href": "http://arxiv.org/pdf/2510.18637v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -79386,7 +79468,7 @@
       ]
     },
     "2510.19814": {
-      "title": "How to Evaluate Monocular Depth Estimation?",
+      "title": "How Should One Evaluate Monocular Depth Estimation?",
       "authors": [
         "Siyang Wu",
         "Jack Nugent",
@@ -79394,26 +79476,26 @@
         "Jia Deng"
       ],
       "published": "2025-10-22T17:51:24+00:00",
-      "updated": "2025-10-22T17:51:24+00:00",
+      "updated": "2025-10-30T19:33:49+00:00",
       "summary": "Monocular depth estimation is an important task with rapid progress, but how\nto evaluate it remains an open question, as evidenced by a lack of\nstandardization in existing literature and a large selection of evaluation\nmetrics whose trade-offs and behaviors are not well understood. This paper\ncontributes a novel, quantitative analysis of existing metrics in terms of\ntheir sensitivity to various types of perturbations of ground truth,\nemphasizing comparison to human judgment. Our analysis reveals that existing\nmetrics are severely under-sensitive to curvature perturbation such as making\nflat surfaces wavy. To remedy this, we introduce a new metric based on relative\nsurface normals, along with new depth visualization tools and a principled\nmethod to create composite metrics with better human alignment. Code and data\nare available at: https://github.com/princeton-vl/evalmde.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "http://arxiv.org/pdf/2510.19814v1",
+      "pdf_url": "http://arxiv.org/pdf/2510.19814v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2510.19814v1",
+      "entry_id": "http://arxiv.org/abs/2510.19814v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2510.19814v1",
+          "href": "http://arxiv.org/abs/2510.19814v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2510.19814v1",
+          "href": "http://arxiv.org/pdf/2510.19814v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null

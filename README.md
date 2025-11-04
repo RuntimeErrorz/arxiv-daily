@@ -1,4 +1,4 @@
-## Updated at 2025-11-03 08:18:53
+## Updated at 2025-11-04 08:17:42
 
 ## 3DGS Semantic
 
@@ -572,7 +572,7 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 |**2025-10-27**|**[Seq-DeepIPC: Sequential Sensing for End-to-End Control in Legged Robot Navigation](https://arxiv.org/abs/2510.23057)**|N/A|Preprint notice, this manuscript has been submitted to IEEE sensors journal for possible publication|cs.RO|None|Oskar Natan, Jun Miura|
 |**2025-10-25**|**[EndoSfM3D: Learning to 3D Reconstruct Any Endoscopic Surgery Scene using Self-supervised Foundation Model](https://arxiv.org/abs/2510.22359)**|N/A|11 pages|cs.CV|None|Changhao Zhang et al.|
 |**2025-10-23**|**[PPMStereo: Pick-and-Play Memory Construction for Consistent Dynamic Stereo Matching](https://arxiv.org/abs/2510.20178)**|N/A|None|cs.CV|NeurIPS 2025|Yun Wang et al.|
-|**2025-10-22**|**[How to Evaluate Monocular Depth Estimation?](https://arxiv.org/abs/2510.19814)**|N/A|None|cs.CV|None|Siyang Wu et al.|
+|**2025-10-22**|**[How Should One Evaluate Monocular Depth Estimation?](https://arxiv.org/abs/2510.19814)**|N/A|None|cs.CV|None|Siyang Wu et al.|
 |**2025-10-21**|**[PLANA3R: Zero-shot Metric Planar 3D Reconstruction via Feed-Forward Planar Splatting](https://arxiv.org/abs/2510.18714)**|N/A|39th Conference on Neural Information Processing Systems (NeurIPS 2025). The project page is available at: https://lck666666.github.io/plana3r|cs.CV|None|Changkun Liu et al.|
 |**2025-10-21**|**[GeoDiff: Geometry-Guided Diffusion for Metric Depth Estimation](https://arxiv.org/abs/2510.18291)**|N/A|Accepted to ICCV Findings 2025. The first two authors contributed equally. The last two authors share co-corresponding authorship|cs.CV|None|Tuan Pham et al.|
 |**2025-10-20**|**[PAGE-4D: Disentangled Pose and Geometry Estimation for 4D Perception](https://arxiv.org/abs/2510.17568)**|N/A|None|cs.CV|None|Kaichen Zhou et al.|
