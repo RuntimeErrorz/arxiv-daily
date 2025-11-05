@@ -1,4 +1,4 @@
-## Updated at 2025-11-05 08:18:20
+## Updated at 2025-11-05 20:08:30
 
 ## 3DGS Semantic
 
@@ -8,6 +8,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-11-04**|**[PercHead: Perceptual Head Model for Single-Image 3D Head Reconstruction & Editing](https://arxiv.org/abs/2511.02777)**|N/A|Project Page: https://antoniooroz.github.io/PercHead/ Video: https://www.youtube.com/watch?v=4hFybgTk4kE|cs.CV|None|Antonio Oroz et al.|
 |**2025-10-30**|**[AgriGS-SLAM: Orchard Mapping Across Seasons via Multi-View Gaussian Splatting SLAM](https://arxiv.org/abs/2510.26358)**|N/A|None|cs.RO|None|Mirko Usuelli et al.|
 |**2025-10-30**|**[Model Inversion with Layer-Specific Modeling and Alignment for Data-Free Continual Learning](https://arxiv.org/abs/2510.26311)**|N/A|Accepted in NeurIPS 2025|cs.LG|None|Ruilin Tong et al.|
 |**2025-10-30**|**[Test-Time Alignment of LLMs via Sampling-Based Optimal Control in pre-logit space](https://arxiv.org/abs/2510.26219)**|N/A|21 pages, 8 figures|cs.LG|None|Sekitoshi Kanai et al.|
@@ -164,6 +165,7 @@ Query: (abs:'Multi-View Stereo' OR abs:'Multi View Stereo' OR abs:'Multi-View De
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-11-03**|**[MVSMamba: Multi-View Stereo with State Space Model](https://arxiv.org/abs/2511.01315)**|N/A|Accepted by NeurIPS 2025|cs.CV|None|Jianfei Jiang et al.|
 |**2025-10-12**|**[WorldMirror: Universal 3D World Reconstruction with Any-Prior Prompting](https://arxiv.org/abs/2510.10726)**|N/A|Project page, code, and models will be publicly available soon|cs.CV|None|Yifan Liu et al.|
 |**2025-10-10**|**[Visibility-Aware Densification for 3D Gaussian Splatting in Dynamic Urban Scenes](https://arxiv.org/abs/2510.09364)**|N/A|None|cs.CV|None|Yikang Zhang, Rui Fan|
 |**2025-09-30**|**[PFDepth: Heterogeneous Pinhole-Fisheye Joint Depth Estimation via Distortion-aware Gaussian-Splatted Volumetric Fusion](https://arxiv.org/abs/2509.26008)**|N/A|Accepted by ACM MM 2025 Conference|cs.CV|None|Zhiwei Zhang et al.|
@@ -566,6 +568,8 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-11-04**|**[Monocular absolute depth estimation from endoscopy via domain-invariant feature learning and latent consistency](https://arxiv.org/abs/2511.02247)**|N/A|None|cs.CV|None|Hao Li et al.|
+|**2025-11-03**|**[Opto-Electronic Convolutional Neural Network Design Via Direct Kernel Optimization](https://arxiv.org/abs/2511.02065)**|N/A|None|eess.IV|None|Ali Almuallem et al.|
 |**2025-10-29**|**[SPADE: Sparsity Adaptive Depth Estimator for Zero-Shot, Real-Time, Monocular Depth Estimation in Underwater Environments](https://arxiv.org/abs/2510.25463)**|N/A|None|cs.CV|None|Hongjie Zhang et al.|
 |**2025-10-29**|**[Seeing Clearly and Deeply: An RGBD Imaging Approach with a Bio-inspired Monocentric Design](https://arxiv.org/abs/2510.25314)**|N/A|The source code will be publicly available at https://github.com/ZongxiYu-ZJU/BMI|cs.CV|None|Zongxi Yu et al.|
 |**2025-10-27**|**[More Than Generation: Unifying Generation and Depth Estimation via Text-to-Image Diffusion Models](https://arxiv.org/abs/2510.23574)**|N/A|Accepted by NeurIPS 2025. The code will be made available at https://github.com/H-EmbodVis/MERGE|cs.CV|None|Hongkai Lin et al.|

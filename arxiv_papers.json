@@ -1,5 +1,231 @@
 {
   "3DGS Semantic": {
+    "2511.02777": {
+      "title": "PercHead: Perceptual Head Model for Single-Image 3D Head Reconstruction & Editing",
+      "authors": [
+        "Antonio Oroz",
+        "Matthias Nießner",
+        "Tobias Kirschstein"
+      ],
+      "published": "2025-11-04T17:59:15+00:00",
+      "updated": "2025-11-04T17:59:15+00:00",
+      "summary": "We present PercHead, a method for single-image 3D head reconstruction and\nsemantic 3D editing - two tasks that are inherently challenging due to severe\nview occlusions, weak perceptual supervision, and the ambiguity of editing in\n3D space. We develop a unified base model for reconstructing view-consistent 3D\nheads from a single input image. The model employs a dual-branch encoder\nfollowed by a ViT-based decoder that lifts 2D features into 3D space through\niterative cross-attention. Rendering is performed using Gaussian Splatting. At\nthe heart of our approach is a novel perceptual supervision strategy based on\nDINOv2 and SAM2.1, which provides rich, generalized signals for both geometric\nand appearance fidelity. Our model achieves state-of-the-art performance in\nnovel-view synthesis and, furthermore, exhibits exceptional robustness to\nextreme viewing angles compared to established baselines. Furthermore, this\nbase model can be seamlessly extended for semantic 3D editing by swapping the\nencoder and finetuning the network. In this variant, we disentangle geometry\nand style through two distinct input modalities: a segmentation map to control\ngeometry and either a text prompt or a reference image to specify appearance.\nWe highlight the intuitive and powerful 3D editing capabilities of our model\nthrough a lightweight, interactive GUI, where users can effortlessly sculpt\ngeometry by drawing segmentation maps and stylize appearance via natural\nlanguage or image prompts.\n  Project Page: https://antoniooroz.github.io/PercHead Video:\nhttps://www.youtube.com/watch?v=4hFybgTk4kE",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2511.02777v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Project Page: https://antoniooroz.github.io/PercHead/ Video:\n  https://www.youtube.com/watch?v=4hFybgTk4kE",
+      "entry_id": "http://arxiv.org/abs/2511.02777v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2511.02777v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2511.02777v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2511.02207": {
+      "title": "Object-Centric 3D Gaussian Splatting for Strawberry Plant Reconstruction and Phenotyping",
+      "authors": [
+        "Jiajia Li",
+        "Keyi Zhu",
+        "Qianwen Zhang",
+        "Dong Chen",
+        "Qi Sun",
+        "Zhaojian Li"
+      ],
+      "published": "2025-11-04T02:55:46+00:00",
+      "updated": "2025-11-04T02:55:46+00:00",
+      "summary": "Strawberries are among the most economically significant fruits in the United\nStates, generating over $2 billion in annual farm-gate sales and accounting for\napproximately 13% of the total fruit production value. Plant phenotyping plays\na vital role in selecting superior cultivars by characterizing plant traits\nsuch as morphology, canopy structure, and growth dynamics. However, traditional\nplant phenotyping methods are time-consuming, labor-intensive, and often\ndestructive. Recently, neural rendering techniques, notably Neural Radiance\nFields (NeRF) and 3D Gaussian Splatting (3DGS), have emerged as powerful\nframeworks for high-fidelity 3D reconstruction. By capturing a sequence of\nmulti-view images or videos around a target plant, these methods enable\nnon-destructive reconstruction of complex plant architectures. Despite their\npromise, most current applications of 3DGS in agricultural domains reconstruct\nthe entire scene, including background elements, which introduces noise,\nincreases computational costs, and complicates downstream trait analysis. To\naddress this limitation, we propose a novel object-centric 3D reconstruction\nframework incorporating a preprocessing pipeline that leverages the Segment\nAnything Model v2 (SAM-2) and alpha channel background masking to achieve clean\nstrawberry plant reconstructions. This approach produces more accurate\ngeometric representations while substantially reducing computational time. With\na background-free reconstruction, our algorithm can automatically estimate\nimportant plant traits, such as plant height and canopy width, using DBSCAN\nclustering and Principal Component Analysis (PCA). Experimental results show\nthat our method outperforms conventional pipelines in both accuracy and\nefficiency, offering a scalable and non-destructive solution for strawberry\nplant phenotyping.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2511.02207v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "11 pages, 4 figures, 3 tables",
+      "entry_id": "http://arxiv.org/abs/2511.02207v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2511.02207v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2511.02207v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.01659": {
+      "title": "Theoretical analysis of phase-rectified signal averaging (PRSA) algorithm",
+      "authors": [
+        "Jiro Akahori",
+        "Joseph Najnudel",
+        "Hau-Tieng Wu",
+        "Ju-Yi Yen"
+      ],
+      "published": "2025-11-03T15:22:34+00:00",
+      "updated": "2025-11-03T15:22:34+00:00",
+      "summary": "Phase-rectified signal averaging (PRSA) is a widely used algorithm to analyze\nnonstationary biomedical time series. The method operates by identifying hinge\npoints in the time series according to prescribed rules, extracting segments\ncentered at these points (with overlap permitted), and then averaging the\nsegments. The resulting output is intended to capture the underlying\nquasi-oscillatory pattern of the signal, which can subsequently serve as input\nfor further scientific analysis. However, a theoretical analysis of PRSA is\nlacking. In this paper, we investigate PRSA under two settings. First, when the\ninput consists of a superposition of two oscillatory components, $\\cos(2\\pi\nt)+A\\cos(2\\pi (\\xi t+\\phi))$, where $A>0$, $\\xi\\in (0,1)$ and $\\phi\\in [0,1)$,\nwe show that, asymptotically when the sample size $n\\to \\infty$, the PRSA\noutput takes the form $A'\\sin(2\\pi t)+B'\\sin(2\\pi \\xi t)$, where $A',B'\\neq 0$.\nSecond, when the input is a stationary Gaussian random process, we establish a\ncentral limit theorem: under mild regularity conditions, the averaged vector\nproduced by PRSA converges in distribution to a Gaussian random vector as $n\\to\n\\infty$ with mean determined by the covariance structure of the random process.\nThese results indicate that caution is warranted when interpreting PRSA outputs\nfor scientific applications.",
+      "categories": [
+        "math.ST",
+        "stat.TH"
+      ],
+      "primary_category": "math.ST",
+      "pdf_url": "http://arxiv.org/pdf/2511.01659v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.01659v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2511.01659v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2511.01659v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.00998": {
+      "title": "GauDP: Reinventing Multi-Agent Collaboration through Gaussian-Image Synergy in Diffusion Policies",
+      "authors": [
+        "Ziye Wang",
+        "Li Kang",
+        "Yiran Qin",
+        "Jiahua Ma",
+        "Zhanglin Peng",
+        "Lei Bai",
+        "Ruimao Zhang"
+      ],
+      "published": "2025-11-02T16:19:43+00:00",
+      "updated": "2025-11-02T16:19:43+00:00",
+      "summary": "Recently, effective coordination in embodied multi-agent systems has remained\na fundamental challenge, particularly in scenarios where agents must balance\nindividual perspectives with global environmental awareness. Existing\napproaches often struggle to balance fine-grained local control with\ncomprehensive scene understanding, resulting in limited scalability and\ncompromised collaboration quality. In this paper, we present GauDP, a novel\nGaussian-image synergistic representation that facilitates scalable,\nperception-aware imitation learning in multi-agent collaborative systems.\nSpecifically, GauDP constructs a globally consistent 3D Gaussian field from\ndecentralized RGB observations, then dynamically redistributes 3D Gaussian\nattributes to each agent's local perspective. This enables all agents to\nadaptively query task-critical features from the shared scene representation\nwhile maintaining their individual viewpoints. This design facilitates both\nfine-grained control and globally coherent behavior without requiring\nadditional sensing modalities (e.g., 3D point cloud). We evaluate GauDP on the\nRoboFactory benchmark, which includes diverse multi-arm manipulation tasks. Our\nmethod achieves superior performance over existing image-based methods and\napproaches the effectiveness of point-cloud-driven methods, while maintaining\nstrong scalability as the number of agents increases.",
+      "categories": [
+        "cs.RO"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "http://arxiv.org/pdf/2511.00998v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted by NeurIPS 2025. Project page:\n  https://ziyeeee.github.io/gaudp.io/",
+      "entry_id": "http://arxiv.org/abs/2511.00998v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2511.00998v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2511.00998v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.00449": {
+      "title": "Towards Reliable Pediatric Brain Tumor Segmentation: Task-Specific nnU-Net Enhancements",
+      "authors": [
+        "Xiaolong Li",
+        "Zhi-Qin John Xu",
+        "Yan Ren",
+        "Tianming Qiu",
+        "Xiaowen Wang"
+      ],
+      "published": "2025-11-01T08:33:21+00:00",
+      "updated": "2025-11-01T08:33:21+00:00",
+      "summary": "Accurate segmentation of pediatric brain tumors in multi-parametric magnetic\nresonance imaging (mpMRI) is critical for diagnosis, treatment planning, and\nmonitoring, yet faces unique challenges due to limited data, high anatomical\nvariability, and heterogeneous imaging across institutions. In this work, we\npresent an advanced nnU-Net framework tailored for BraTS 2025 Task-6 (PED), the\nlargest public dataset of pre-treatment pediatric high-grade gliomas. Our\ncontributions include: (1) a widened residual encoder with\nsqueeze-and-excitation (SE) attention; (2) 3D depthwise separable convolutions;\n(3) a specificity-driven regularization term; and (4) small-scale Gaussian\nweight initialization. We further refine predictions with two postprocessing\nsteps. Our models achieved first place on the Task-6 validation leaderboard,\nattaining lesion-wise Dice scores of 0.759 (CC), 0.967 (ED), 0.826 (ET), 0.910\n(NET), 0.928 (TC) and 0.928 (WT).",
+      "categories": [
+        "eess.IV",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "primary_category": "eess.IV",
+      "pdf_url": "http://arxiv.org/pdf/2511.00449v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.00449v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2511.00449v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2511.00449v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.00248": {
+      "title": "Object-Aware 4D Human Motion Generation",
+      "authors": [
+        "Shurui Gui",
+        "Deep Anil Patel",
+        "Xiner Li",
+        "Martin Renqiang Min"
+      ],
+      "published": "2025-10-31T20:40:17+00:00",
+      "updated": "2025-10-31T20:40:17+00:00",
+      "summary": "Recent advances in video diffusion models have enabled the generation of\nhigh-quality videos. However, these videos still suffer from unrealistic\ndeformations, semantic violations, and physical inconsistencies that are\nlargely rooted in the absence of 3D physical priors. To address these\nchallenges, we propose an object-aware 4D human motion generation framework\ngrounded in 3D Gaussian representations and motion diffusion priors. With\npre-generated 3D humans and objects, our method, Motion Score Distilled\nInteraction (MSDI), employs the spatial and prompt semantic information in\nlarge language models (LLMs) and motion priors through the proposed Motion\nDiffusion Score Distillation Sampling (MSDS). The combination of MSDS and LLMs\nenables our spatial-aware motion optimization, which distills score gradients\nfrom pre-trained motion diffusion models, to refine human motion while\nrespecting object and semantic constraints. Unlike prior methods requiring\njoint training on limited interaction datasets, our zero-shot approach avoids\nretraining and generalizes to out-of-distribution object aware human motions.\nExperiments demonstrate that our framework produces natural and physically\nplausible human motions that respect 3D spatial context, offering a scalable\nsolution for realistic 4D generation.",
+      "categories": [
+        "cs.CV",
+        "cs.GR"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2511.00248v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.00248v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2511.00248v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2511.00248v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2510.27266": {
       "title": "HyperClick: Advancing Reliable GUI Grounding via Uncertainty Calibration",
       "authors": [
@@ -36,6 +262,41 @@
         },
         {
           "href": "http://arxiv.org/pdf/2510.27266v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.01900": {
+      "title": "Dirac - von Neumann axioms in the setting of Continuous Model Theory",
+      "authors": [
+        "Boris Zilber"
+      ],
+      "published": "2025-10-30T19:15:18+00:00",
+      "updated": "2025-10-30T19:15:18+00:00",
+      "summary": "We recast the well-known axiom system of quantum mechanics used by physicists\n(the Dirac calculus) in the language of Continuous Logic. For the basic version\nof the axiomatic system we prove that along with the canonical continuous model\nthe axioms have approximate finite models of large sizes, in fact the\ncontinuous model is isomorphic to an ultraproduct of finite models. We analyse\nthe continuous logic quantifier corresponding to Dirac integration and show\nthat in finite context it has two versions, local and global, which coincide on\nGaussian wave-functions.",
+      "categories": [
+        "math.LO",
+        "quant-ph",
+        "81P10, 03C66"
+      ],
+      "primary_category": "math.LO",
+      "pdf_url": "http://arxiv.org/pdf/2511.01900v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.01900v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2511.01900v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2511.01900v1",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -112,7 +373,15 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-11-05",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2510.26311": {
       "title": "Model Inversion with Layer-Specific Modeling and Alignment for Data-Free Continual Learning",
@@ -148,7 +417,15 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-11-05",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2510.26219": {
       "title": "Test-Time Alignment of LLMs via Sampling-Based Optimal Control in pre-logit space",
@@ -186,7 +463,15 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-11-05",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2510.26097": {
       "title": "Robust Super-Capacity SRS Channel Inpainting via Diffusion Models",
@@ -292,6 +577,44 @@
         },
         {
           "href": "http://arxiv.org/pdf/2510.26830v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.01894": {
+      "title": "LGCC: Enhancing Flow Matching Based Text-Guided Image Editing with Local Gaussian Coupling and Context Consistency",
+      "authors": [
+        "Fangbing Liu",
+        "Pengfei Duan",
+        "Wen Li",
+        "Yi He"
+      ],
+      "published": "2025-10-29T08:12:32+00:00",
+      "updated": "2025-10-29T08:12:32+00:00",
+      "summary": "Recent advancements have demonstrated the great potential of flow\nmatching-based Multimodal Large Language Models (MLLMs) in image editing.\nHowever, state-of-the-art works like BAGEL face limitations, including detail\ndegradation, content inconsistency, and inefficiency due to their reliance on\nrandom noise initialization. To address these issues, we propose LGCC, a novel\nframework with two key components: Local Gaussian Noise Coupling (LGNC) and\nContent Consistency Loss (CCL). LGNC preserves spatial details by modeling\ntarget image embeddings and their locally perturbed counterparts as coupled\npairs, while CCL ensures semantic alignment between edit instructions and image\nmodifications, preventing unintended content removal. By integrating LGCC with\nthe BAGEL pre-trained model via curriculum learning, we significantly reduce\ninference steps, improving local detail scores on I2EBench by 1.60% and overall\nscores by 0.53%. LGCC achieves 3x -- 5x speedup for lightweight editing and 2x\nfor universal editing, requiring only 40% -- 50% of the inference time of BAGEL\nor Flux. These results demonstrate LGCC's ability to preserve detail, maintain\ncontextual integrity, and enhance inference speed, offering a cost-efficient\nsolution without compromising editing quality.",
+      "categories": [
+        "cs.GR",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "primary_category": "cs.GR",
+      "pdf_url": "http://arxiv.org/pdf/2511.01894v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.01894v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2511.01894v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2511.01894v1",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -1170,6 +1493,45 @@
         },
         {
           "href": "http://arxiv.org/pdf/2510.20819v2",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.01882": {
+      "title": "Design of an M-ary Chaos Shift Keying System Using Combined Chaotic Systems",
+      "authors": [
+        "Tingting Huang",
+        "Jundong Chen",
+        "Huanqiang Zeng",
+        "Guofa Cai",
+        "Haoyu Zhou"
+      ],
+      "published": "2025-10-23T13:49:16+00:00",
+      "updated": "2025-10-23T13:49:16+00:00",
+      "summary": "In traditional chaos shift keying (CSK) communication systems, implementing\nchaotic synchronization techniques is costly but practically unattainable in a\nnoisy environment. This paper proposes a combined chaotic sequences-based\n$M$-ary CSK (CCS-$M$-CSK) system that eliminates the need for chaotic\nsynchronization. At the transmitter, the chaotic sequence is constructed by\ncombining two chaotic segments of different lengths, where each is generated\nfrom distinct chaotic systems and only one kind of chaotic segment modulates\nthe information signal. At the receiver, a deep learning unit with binary\nclassification is meticulously designed to recover information symbols. The\nsymbol error rate (SER) performance of the proposed system is evaluated over\nadditive white Gaussian noise (AWGN) and multipath Rayleigh fading channels.\nSpecifically, the impact of varying misalignment lengths on the SER performance\nof the system is analyzed when the received sequence is misaligned.\nFurthermore, the proposed system demonstrates significant performance\nadvantages over existing CSK-based systems in multipath Rayleigh fading\nchannels. These features establish CCS-$M$-CSK as a promising candidate for\nvarious applications, including Vehicle-to-Everything (V2X).",
+      "categories": [
+        "eess.SP",
+        "cs.IT",
+        "math.IT"
+      ],
+      "primary_category": "eess.SP",
+      "pdf_url": "http://arxiv.org/pdf/2511.01882v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.01882v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2511.01882v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2511.01882v1",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -6186,27 +6548,27 @@
         "Karan Jani"
       ],
       "published": "2025-09-11T05:42:36+00:00",
-      "updated": "2025-09-11T05:42:36+00:00",
+      "updated": "2025-11-04T01:33:45+00:00",
       "summary": "The LIGO-Virgo-KAGRA Collaboration recently reported GW231123, a black hole\nmerger with total mass of around 190-265 solar mass. This event adds to the\ngrowing evidence of \"lite\" intermediate mass black hole (IMBH) discoveries of\npost-merger black holes >100 solar mass. GW231123 posed several data analysis\nchallenges owing to waveform-model systematics and presence of noise artifacts\ncalled glitches. We present the first comprehensive machine learning analysis\nto further validate this event, strengthen its astrophysical inference, and\ncharacterize instrumental noise in its vicinity. Our approach uses a\ncombination of tools tailored for specific analyses: GW-Whisper, an adaptation\nof OpenAI's audio transformer, ArchGEM, a Gaussian mixture model-based soft\nclustering and density approximation software and AWaRe, a convolutional\nautoencoder. We identify the data segment containing the merger with >70%\nconfidence in both detectors and verify its astrophysical origin. We then\ncharacterize the scattered light glitch around the event, providing the first\nphysically interpretable parameters for the glitch. We also reconstruct the\nreal waveforms from the data with slightly better agreement to model-agnostic\nreconstructions than to quasi-circular models, hinting at possible astrophysics\nbeyond current waveform families (such as non-circular orbits or environmental\nimprints). Finally, by demonstrating high-fidelity waveform reconstructions for\nsimulated mergers with total masses between 100-1000 solar mass, we show that\nour method can confidently probe the IMBH regime. Our integrated framework\noffers a powerful complementary tool to traditional pipelines for rapid, robust\nanalysis of massive, glitch-contaminated events.",
       "categories": [
         "astro-ph.HE",
         "gr-qc"
       ],
       "primary_category": "astro-ph.HE",
-      "pdf_url": "http://arxiv.org/pdf/2509.09161v1",
+      "pdf_url": "http://arxiv.org/pdf/2509.09161v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2509.09161v1",
+      "entry_id": "http://arxiv.org/abs/2509.09161v2",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2509.09161v1",
+          "href": "http://arxiv.org/abs/2509.09161v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2509.09161v1",
+          "href": "http://arxiv.org/pdf/2509.09161v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -64574,6 +64936,44 @@
     }
   },
   "MVS": {
+    "2511.01315": {
+      "title": "MVSMamba: Multi-View Stereo with State Space Model",
+      "authors": [
+        "Jianfei Jiang",
+        "Qiankun Liu",
+        "Hongyuan Liu",
+        "Haochen Yu",
+        "Liyong Wang",
+        "Jiansheng Chen",
+        "Huimin Ma"
+      ],
+      "published": "2025-11-03T07:59:07+00:00",
+      "updated": "2025-11-03T07:59:07+00:00",
+      "summary": "Robust feature representations are essential for learning-based Multi-View\nStereo (MVS), which relies on accurate feature matching. Recent MVS methods\nleverage Transformers to capture long-range dependencies based on local\nfeatures extracted by conventional feature pyramid networks. However, the\nquadratic complexity of Transformer-based MVS methods poses challenges to\nbalance performance and efficiency. Motivated by the global modeling capability\nand linear complexity of the Mamba architecture, we propose MVSMamba, the first\nMamba-based MVS network. MVSMamba enables efficient global feature aggregation\nwith minimal computational overhead. To fully exploit Mamba's potential in MVS,\nwe propose a Dynamic Mamba module (DM-module) based on a novel\nreference-centered dynamic scanning strategy, which enables: (1) Efficient\nintra- and inter-view feature interaction from the reference to source views,\n(2) Omnidirectional multi-view feature representations, and (3) Multi-scale\nglobal feature aggregation. Extensive experimental results demonstrate MVSMamba\noutperforms state-of-the-art MVS methods on the DTU dataset and the\nTanks-and-Temples benchmark with both superior performance and efficiency. The\nsource code is available at https://github.com/JianfeiJ/MVSMamba.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2511.01315v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted by NeurIPS 2025",
+      "entry_id": "http://arxiv.org/abs/2511.01315v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2511.01315v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2511.01315v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2510.10726": {
       "title": "WorldMirror: Universal 3D World Reconstruction with Any-Prior Prompting",
       "authors": [
@@ -79253,6 +79653,88 @@
     }
   },
   "Depth Estimation": {
+    "2511.02247": {
+      "title": "Monocular absolute depth estimation from endoscopy via domain-invariant feature learning and latent consistency",
+      "authors": [
+        "Hao Li",
+        "Daiwei Lu",
+        "Jesse d'Almeida",
+        "Dilara Isik",
+        "Ehsan Khodapanah Aghdam",
+        "Nick DiSanto",
+        "Ayberk Acar",
+        "Susheela Sharma",
+        "Jie Ying Wu",
+        "Robert J. Webster III",
+        "Ipek Oguz"
+      ],
+      "published": "2025-11-04T04:25:15+00:00",
+      "updated": "2025-11-04T04:25:15+00:00",
+      "summary": "Monocular depth estimation (MDE) is a critical task to guide autonomous\nmedical robots. However, obtaining absolute (metric) depth from an endoscopy\ncamera in surgical scenes is difficult, which limits supervised learning of\ndepth on real endoscopic images. Current image-level unsupervised domain\nadaptation methods translate synthetic images with known depth maps into the\nstyle of real endoscopic frames and train depth networks using these translated\nimages with their corresponding depth maps. However a domain gap often remains\nbetween real and translated synthetic images. In this paper, we present a\nlatent feature alignment method to improve absolute depth estimation by\nreducing this domain gap in the context of endoscopic videos of the central\nairway. Our methods are agnostic to the image translation process and focus on\nthe depth estimation itself. Specifically, the depth network takes translated\nsynthetic and real endoscopic frames as input and learns latent\ndomain-invariant features via adversarial learning and directional feature\nconsistency. The evaluation is conducted on endoscopic videos of central airway\nphantoms with manually aligned absolute depth maps. Compared to\nstate-of-the-art MDE methods, our approach achieves superior performance on\nboth absolute and relative depth metrics, and consistently improves results\nacross various backbones and pretrained weights. Our code is available at\nhttps://github.com/MedICL-VU/MDE.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2511.02247v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.02247v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2511.02247v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2511.02247v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2511.02065": {
+      "title": "Opto-Electronic Convolutional Neural Network Design Via Direct Kernel Optimization",
+      "authors": [
+        "Ali Almuallem",
+        "Harshana Weligampola",
+        "Abhiram Gnanasambandam",
+        "Wei Xu",
+        "Dilshan Godaliyadda",
+        "Hamid R. Sheikh",
+        "Stanley H. Chan",
+        "Qi Guo"
+      ],
+      "published": "2025-11-03T21:01:41+00:00",
+      "updated": "2025-11-03T21:01:41+00:00",
+      "summary": "Opto-electronic neural networks integrate optical front-ends with electronic\nback-ends to enable fast and energy-efficient vision. However, conventional\nend-to-end optimization of both the optical and electronic modules is limited\nby costly simulations and large parameter spaces. We introduce a two-stage\nstrategy for designing opto-electronic convolutional neural networks (CNNs):\nfirst, train a standard electronic CNN, then realize the optical front-end\nimplemented as a metasurface array through direct kernel optimization of its\nfirst convolutional layer. This approach reduces computational and memory\ndemands by hundreds of times and improves training stability compared to\nend-to-end optimization. On monocular depth estimation, the proposed two-stage\ndesign achieves twice the accuracy of end-to-end training under the same\ntraining time and resource constraints.",
+      "categories": [
+        "eess.IV",
+        "cs.CV"
+      ],
+      "primary_category": "eess.IV",
+      "pdf_url": "http://arxiv.org/pdf/2511.02065v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.02065v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2511.02065v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2511.02065v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2510.25463": {
       "title": "SPADE: Sparsity Adaptive Depth Estimator for Zero-Shot, Real-Time, Monocular Depth Estimation in Underwater Environments",
       "authors": [
