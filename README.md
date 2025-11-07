@@ -1,4 +1,4 @@
-## Updated at 2025-11-07 08:18:32
+## Updated at 2025-11-07 20:07:32
 
 ## 3DGS Semantic
 
@@ -8,6 +8,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-11-06**|**[CaRF: Enhancing Multi-View Consistency in Referring 3D Gaussian Splatting Segmentation](https://arxiv.org/abs/2511.03992)**|N/A|None|cs.CV|None|Yuwen Tao et al.|
 |**2025-11-04**|**[PercHead: Perceptual Head Model for Single-Image 3D Head Reconstruction & Editing](https://arxiv.org/abs/2511.02777)**|N/A|Project Page: https://antoniooroz.github.io/PercHead/ Video: https://www.youtube.com/watch?v=4hFybgTk4kE|cs.CV|None|Antonio Oroz et al.|
 |**2025-10-30**|**[AgriGS-SLAM: Orchard Mapping Across Seasons via Multi-View Gaussian Splatting SLAM](https://arxiv.org/abs/2510.26358)**|N/A|None|cs.RO|None|Mirko Usuelli et al.|
 |**2025-10-30**|**[Model Inversion with Layer-Specific Modeling and Alignment for Data-Free Continual Learning](https://arxiv.org/abs/2510.26311)**|N/A|Accepted in NeurIPS 2025|cs.LG|None|Ruilin Tong et al.|
@@ -165,6 +166,7 @@ Query: (abs:'Multi-View Stereo' OR abs:'Multi View Stereo' OR abs:'Multi-View De
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-11-06**|**[Improving Multi-View Reconstruction via Texture-Guided Gaussian-Mesh Joint Optimization](https://arxiv.org/abs/2511.03950)**|N/A|10 pages|cs.CV|None|Zhejia Cai et al.|
 |**2025-11-03**|**[MVSMamba: Multi-View Stereo with State Space Model](https://arxiv.org/abs/2511.01315)**|N/A|Accepted by NeurIPS 2025|cs.CV|None|Jianfei Jiang et al.|
 |**2025-10-12**|**[WorldMirror: Universal 3D World Reconstruction with Any-Prior Prompting](https://arxiv.org/abs/2510.10726)**|N/A|Project page, code, and models will be publicly available soon|cs.CV|None|Yifan Liu et al.|
 |**2025-10-10**|**[Visibility-Aware Densification for 3D Gaussian Splatting in Dynamic Urban Scenes](https://arxiv.org/abs/2510.09364)**|N/A|None|cs.CV|None|Yikang Zhang, Rui Fan|
@@ -568,6 +570,8 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-11-06**|**[BoRe-Depth: Self-supervised Monocular Depth Estimation with Boundary Refinement for Embedded Systems](https://arxiv.org/abs/2511.04388)**|N/A|8 pages, 5 figures, published to IROS 2025|cs.CV|None|Chang Liu et al.|
+|**2025-11-06**|**[Simple 3D Pose Features Support Human and Machine Social Scene Understanding](https://arxiv.org/abs/2511.03988)**|N/A|28 pages, 6 figures|cs.CV|None|Wenshuo Qin, Leyla Isik|
 |**2025-11-04**|**[EvtSlowTV -- A Large and Diverse Dataset for Event-Based Depth Estimation](https://arxiv.org/abs/2511.02953)**|N/A|None|cs.CV|None|Sadiq Layi Macaulay et al.|
 |**2025-11-04**|**[Monocular absolute depth estimation from endoscopy via domain-invariant feature learning and latent consistency](https://arxiv.org/abs/2511.02247)**|N/A|None|cs.CV|None|Hao Li et al.|
 |**2025-11-03**|**[Opto-Electronic Convolutional Neural Network Design Via Direct Kernel Optimization](https://arxiv.org/abs/2511.02065)**|N/A|None|eess.IV|None|Ali Almuallem et al.|

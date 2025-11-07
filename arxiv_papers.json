@@ -1,5 +1,80 @@
 {
   "3DGS Semantic": {
+    "2511.04595": {
+      "title": "UniSplat: Unified Spatio-Temporal Fusion via 3D Latent Scaffolds for Dynamic Driving Scene Reconstruction",
+      "authors": [
+        "Chen Shi",
+        "Shaoshuai Shi",
+        "Xiaoyang Lyu",
+        "Chunyang Liu",
+        "Kehua Sheng",
+        "Bo Zhang",
+        "Li Jiang"
+      ],
+      "published": "2025-11-06T17:49:39+00:00",
+      "updated": "2025-11-06T17:49:39+00:00",
+      "summary": "Feed-forward 3D reconstruction for autonomous driving has advanced rapidly,\nyet existing methods struggle with the joint challenges of sparse,\nnon-overlapping camera views and complex scene dynamics. We present UniSplat, a\ngeneral feed-forward framework that learns robust dynamic scene reconstruction\nthrough unified latent spatio-temporal fusion. UniSplat constructs a 3D latent\nscaffold, a structured representation that captures geometric and semantic\nscene context by leveraging pretrained foundation models. To effectively\nintegrate information across spatial views and temporal frames, we introduce an\nefficient fusion mechanism that operates directly within the 3D scaffold,\nenabling consistent spatio-temporal alignment. To ensure complete and detailed\nreconstructions, we design a dual-branch decoder that generates dynamic-aware\nGaussians from the fused scaffold by combining point-anchored refinement with\nvoxel-based generation, and maintain a persistent memory of static Gaussians to\nenable streaming scene completion beyond current camera coverage. Extensive\nexperiments on real-world datasets demonstrate that UniSplat achieves\nstate-of-the-art performance in novel view synthesis, while providing robust\nand high-quality renderings even for viewpoints outside the original camera\ncoverage.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2511.04595v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.04595v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2511.04595v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2511.04595v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.03992": {
+      "title": "CaRF: Enhancing Multi-View Consistency in Referring 3D Gaussian Splatting Segmentation",
+      "authors": [
+        "Yuwen Tao",
+        "Kanglei Zhou",
+        "Xin Tan",
+        "Yuan Xie"
+      ],
+      "published": "2025-11-06T02:24:04+00:00",
+      "updated": "2025-11-06T02:24:04+00:00",
+      "summary": "Referring 3D Gaussian Splatting Segmentation (R3DGS) aims to interpret\nfree-form language expressions and localize the corresponding 3D regions in\nGaussian fields. While recent advances have introduced cross-modal alignment\nbetween language and 3D geometry, existing pipelines still struggle with\ncross-view consistency due to their reliance on 2D rendered pseudo supervision\nand view specific feature learning. In this work, we present Camera Aware\nReferring Field (CaRF), a fully differentiable framework that operates directly\nin the 3D Gaussian space and achieves multi view consistency. Specifically,\nCaRF introduces Gaussian Field Camera Encoding (GFCE), which incorporates\ncamera geometry into Gaussian text interactions to explicitly model view\ndependent variations and enhance geometric reasoning. Building on this, In\nTraining Paired View Supervision (ITPVS) is proposed to align per Gaussian\nlogits across calibrated views during training, effectively mitigating single\nview overfitting and exposing inter view discrepancies for optimization.\nExtensive experiments on three representative benchmarks demonstrate that CaRF\nachieves average improvements of 16.8%, 4.3%, and 2.0% in mIoU over state of\nthe art methods on the Ref LERF, LERF OVS, and 3D OVS datasets, respectively.\nMoreover, this work promotes more reliable and view consistent 3D scene\nunderstanding, with potential benefits for embodied AI, AR/VR interaction, and\nautonomous perception.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2511.03992v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.03992v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2511.03992v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2511.03992v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
     "2511.03044": {
       "title": "New sampling approaches for Shrinkage Inverse-Wishart distribution",
       "authors": [
@@ -67,7 +142,15 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-11-07",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2511.02207": {
       "title": "Object-Centric 3D Gaussian Splatting for Strawberry Plant Reconstruction and Phenotyping",
@@ -64970,6 +65053,43 @@
     }
   },
   "MVS": {
+    "2511.03950": {
+      "title": "Improving Multi-View Reconstruction via Texture-Guided Gaussian-Mesh Joint Optimization",
+      "authors": [
+        "Zhejia Cai",
+        "Puhua Jiang",
+        "Shiwei Mao",
+        "Hongkun Cao",
+        "Ruqi Huang"
+      ],
+      "published": "2025-11-06T01:05:08+00:00",
+      "updated": "2025-11-06T01:05:08+00:00",
+      "summary": "Reconstructing real-world objects from multi-view images is essential for\napplications in 3D editing, AR/VR, and digital content creation. Existing\nmethods typically prioritize either geometric accuracy (Multi-View Stereo) or\nphotorealistic rendering (Novel View Synthesis), often decoupling geometry and\nappearance optimization, which hinders downstream editing tasks. This paper\nadvocates an unified treatment on geometry and appearance optimization for\nseamless Gaussian-mesh joint optimization. More specifically, we propose a\nnovel framework that simultaneously optimizes mesh geometry (vertex positions\nand faces) and vertex colors via Gaussian-guided mesh differentiable rendering,\nleveraging photometric consistency from input images and geometric\nregularization from normal and depth maps. The obtained high-quality 3D\nreconstruction can be further exploit in down-stream editing tasks, such as\nrelighting and shape deformation. The code will be publicly available upon\nacceptance.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2511.03950v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "10 pages",
+      "entry_id": "http://arxiv.org/abs/2511.03950v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2511.03950v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2511.03950v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2511.01315": {
       "title": "MVSMamba: Multi-View Stereo with State Space Model",
       "authors": [
@@ -79687,6 +79807,78 @@
     }
   },
   "Depth Estimation": {
+    "2511.04388": {
+      "title": "BoRe-Depth: Self-supervised Monocular Depth Estimation with Boundary Refinement for Embedded Systems",
+      "authors": [
+        "Chang Liu",
+        "Juan Li",
+        "Sheng Zhang",
+        "Chang Liu",
+        "Jie Li",
+        "Xu Zhang"
+      ],
+      "published": "2025-11-06T14:17:33+00:00",
+      "updated": "2025-11-06T14:17:33+00:00",
+      "summary": "Depth estimation is one of the key technologies for realizing 3D perception\nin unmanned systems. Monocular depth estimation has been widely researched\nbecause of its low-cost advantage, but the existing methods face the challenges\nof poor depth estimation performance and blurred object boundaries on embedded\nsystems. In this paper, we propose a novel monocular depth estimation model,\nBoRe-Depth, which contains only 8.7M parameters. It can accurately estimate\ndepth maps on embedded systems and significantly improves boundary quality.\nFirstly, we design an Enhanced Feature Adaptive Fusion Module (EFAF) which\nadaptively fuses depth features to enhance boundary detail representation.\nSecondly, we integrate semantic knowledge into the encoder to improve the\nobject recognition and boundary perception capabilities. Finally, BoRe-Depth is\ndeployed on NVIDIA Jetson Orin, and runs efficiently at 50.7 FPS. We\ndemonstrate that the proposed model significantly outperforms previous\nlightweight models on multiple challenging datasets, and we provide detailed\nablation studies for the proposed methods. The code is available at\nhttps://github.com/liangxiansheng093/BoRe-Depth.",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2511.04388v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "8 pages, 5 figures, published to IROS 2025",
+      "entry_id": "http://arxiv.org/abs/2511.04388v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2511.04388v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2511.04388v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2511.03988": {
+      "title": "Simple 3D Pose Features Support Human and Machine Social Scene Understanding",
+      "authors": [
+        "Wenshuo Qin",
+        "Leyla Isik"
+      ],
+      "published": "2025-11-06T02:19:26+00:00",
+      "updated": "2025-11-06T02:19:26+00:00",
+      "summary": "Humans can quickly and effortlessly extract a variety of information about\nothers' social interactions from visual input, ranging from visuospatial cues\nlike whether two people are facing each other to higher-level information. Yet,\nthe computations supporting these abilities remain poorly understood, and\nsocial interaction recognition continues to challenge even the most advanced AI\nvision systems. Here, we hypothesized that humans rely on 3D visuospatial pose\ninformation to make social interaction judgments, which is absent in most AI\nvision models. To test this, we combined state-of-the-art pose and depth\nestimation algorithms to extract 3D joint positions of people in short video\nclips depicting everyday human actions and compared their ability to predict\nhuman social interaction judgments with current AI vision models. Strikingly,\n3D joint positions outperformed most current AI vision models, revealing that\nkey social information is available in explicit body position but not in the\nlearned features of most vision models, including even the layer-wise\nembeddings of the pose models used to extract joint positions. To uncover the\ncritical pose features humans use to make social judgments, we derived a\ncompact set of 3D social pose features describing only the 3D position and\ndirection of faces in the videos. We found that these minimal descriptors\nmatched the predictive strength of the full set of 3D joints and significantly\nimproved the performance of off-the-shelf AI vision models when combined with\ntheir embeddings. Moreover, the degree to which 3D social pose features were\nrepresented in each off-the-shelf AI vision model predicted the model's ability\nto match human social judgments. Together, our findings provide strong evidence\nthat human social scene understanding relies on explicit representations of 3D\npose and can be supported by simple, structured visuospatial primitives.",
+      "categories": [
+        "cs.CV",
+        "q-bio.NC"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2511.03988v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "28 pages, 6 figures",
+      "entry_id": "http://arxiv.org/abs/2511.03988v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2511.03988v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2511.03988v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2511.02953": {
       "title": "EvtSlowTV -- A Large and Diverse Dataset for Event-Based Depth Estimation",
       "authors": [
