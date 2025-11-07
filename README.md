@@ -1,4 +1,4 @@
-## Updated at 2025-11-06 08:17:58
+## Updated at 2025-11-07 08:18:32
 
 ## 3DGS Semantic
 
@@ -568,6 +568,7 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-11-04**|**[EvtSlowTV -- A Large and Diverse Dataset for Event-Based Depth Estimation](https://arxiv.org/abs/2511.02953)**|N/A|None|cs.CV|None|Sadiq Layi Macaulay et al.|
 |**2025-11-04**|**[Monocular absolute depth estimation from endoscopy via domain-invariant feature learning and latent consistency](https://arxiv.org/abs/2511.02247)**|N/A|None|cs.CV|None|Hao Li et al.|
 |**2025-11-03**|**[Opto-Electronic Convolutional Neural Network Design Via Direct Kernel Optimization](https://arxiv.org/abs/2511.02065)**|N/A|None|eess.IV|None|Ali Almuallem et al.|
 |**2025-10-29**|**[SPADE: Sparsity Adaptive Depth Estimator for Zero-Shot, Real-Time, Monocular Depth Estimation in Underwater Environments](https://arxiv.org/abs/2510.25463)**|N/A|None|cs.CV|None|Hongjie Zhang et al.|

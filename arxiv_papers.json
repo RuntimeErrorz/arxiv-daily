@@ -1,5 +1,39 @@
 {
   "3DGS Semantic": {
+    "2511.03044": {
+      "title": "New sampling approaches for Shrinkage Inverse-Wishart distribution",
+      "authors": [
+        "Yiye Jiang"
+      ],
+      "published": "2025-11-04T22:42:48+00:00",
+      "updated": "2025-11-04T22:42:48+00:00",
+      "summary": "In this paper, we propose new sampling approaches for the Shrinkage\nInverse-Wishart (SIW) distribution, a generalized family of the Inverse-Wishart\ndistribution originally proposed by Berger et al. (2020, Annals of Statistics).\nIt offers a flexible prior for covariance matrices and remains conjugate to the\nGaussian likelihood, similar to the classical Inverse-Wishart. Despite these\nadvantages, sampling from SIW remains challenging. The existing algorithm\nrelies on a nested Gibbs sampler, which is slow and lacks rigorous theoretical\nanalysis of its convergence. We propose a new algorithm based on the Sampling\nImportance Resampling (SIR) method, which is significantly faster and comes\nwith theoretical guarantees on convergence rates. A known issue with SIR\nmethods is the large discrepancy in importance weights, which occurs when the\nproposal distribution has thinner tails than the target. In the case of SIW,\ncertain parameter settings can lead to such discrepancies, reducing the\nrobustness of the output samples. To sample from such SIW distributions, we\nrobustify the proposed algorithm by including a clipping step to the SIR\nframework which transforms large importance weights. We provide theoretical\nresults on the convergence behavior in terms of the clipping size, and discuss\nstrategies for choosing this parameter via simulation studies. The robustified\nversion retains the computational efficiency of the original algorithm.",
+      "categories": [
+        "stat.ME",
+        "stat.CO"
+      ],
+      "primary_category": "stat.ME",
+      "pdf_url": "http://arxiv.org/pdf/2511.03044v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.03044v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2511.03044v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2511.03044v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2511.02777": {
       "title": "PercHead: Perceptual Head Model for Single-Image 3D Head Reconstruction & Editing",
       "authors": [
@@ -79653,6 +79687,43 @@
     }
   },
   "Depth Estimation": {
+    "2511.02953": {
+      "title": "EvtSlowTV -- A Large and Diverse Dataset for Event-Based Depth Estimation",
+      "authors": [
+        "Sadiq Layi Macaulay",
+        "Nimet Kaygusuz",
+        "Simon Hadfield"
+      ],
+      "published": "2025-11-04T19:56:26+00:00",
+      "updated": "2025-11-04T19:56:26+00:00",
+      "summary": "Event cameras, with their high dynamic range (HDR) and low latency, offer a\npromising alternative for robust depth estimation in challenging environments.\nHowever, many event-based depth estimation approaches are constrained by\nsmall-scale annotated datasets, limiting their generalizability to real-world\nscenarios. To bridge this gap, we introduce EvtSlowTV, a large-scale event\ncamera dataset curated from publicly available YouTube footage, which contains\nmore than 13B events across various environmental conditions and motions,\nincluding seasonal hiking, flying, scenic driving, and underwater exploration.\nEvtSlowTV is an order of magnitude larger than existing event datasets,\nproviding an unconstrained, naturalistic setting for event-based depth\nlearning. This work shows the suitability of EvtSlowTV for a self-supervised\nlearning framework to capitalise on the HDR potential of raw event streams. We\nfurther demonstrate that training with EvtSlowTV enhances the model's ability\nto generalise to complex scenes and motions. Our approach removes the need for\nframe-based annotations and preserves the asynchronous nature of event data.",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2511.02953v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.02953v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2511.02953v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2511.02953v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2511.02247": {
       "title": "Monocular absolute depth estimation from endoscopy via domain-invariant feature learning and latent consistency",
       "authors": [
