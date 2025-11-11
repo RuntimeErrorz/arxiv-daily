@@ -1,5 +1,79 @@
 {
   "3DGS Semantic": {
+    "2511.05229": {
+      "title": "4D3R: Motion-Aware Neural Reconstruction and Rendering of Dynamic Scenes from Monocular Videos",
+      "authors": [
+        "Mengqi Guo",
+        "Bo Xu",
+        "Yanyan Li",
+        "Gim Hee Lee"
+      ],
+      "published": "2025-11-07T13:25:50+00:00",
+      "updated": "2025-11-07T13:25:50+00:00",
+      "summary": "Novel view synthesis from monocular videos of dynamic scenes with unknown\ncamera poses remains a fundamental challenge in computer vision and graphics.\nWhile recent advances in 3D representations such as Neural Radiance Fields\n(NeRF) and 3D Gaussian Splatting (3DGS) have shown promising results for static\nscenes, they struggle with dynamic content and typically rely on pre-computed\ncamera poses. We present 4D3R, a pose-free dynamic neural rendering framework\nthat decouples static and dynamic components through a two-stage approach. Our\nmethod first leverages 3D foundational models for initial pose and geometry\nestimation, followed by motion-aware refinement. 4D3R introduces two key\ntechnical innovations: (1) a motion-aware bundle adjustment (MA-BA) module that\ncombines transformer-based learned priors with SAM2 for robust dynamic object\nsegmentation, enabling more accurate camera pose refinement; and (2) an\nefficient Motion-Aware Gaussian Splatting (MA-GS) representation that uses\ncontrol points with a deformation field MLP and linear blend skinning to model\ndynamic motion, significantly reducing computational cost while maintaining\nhigh-quality reconstruction. Extensive experiments on real-world dynamic\ndatasets demonstrate that our approach achieves up to 1.8dB PSNR improvement\nover state-of-the-art methods, particularly in challenging scenarios with large\ndynamic objects, while reducing computational requirements by 5x compared to\nprevious dynamic scene representations.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2511.05229v1",
+      "journal_ref": "NeurIPS 2025",
+      "doi": null,
+      "comment": "17 pages, 5 figures",
+      "entry_id": "http://arxiv.org/abs/2511.05229v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2511.05229v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2511.05229v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.05152": {
+      "title": "Splatography: Sparse multi-view dynamic Gaussian Splatting for filmmaking challenges",
+      "authors": [
+        "Adrian Azzarelli",
+        "Nantheera Anantrasirichai",
+        "David R Bull"
+      ],
+      "published": "2025-11-07T11:07:34+00:00",
+      "updated": "2025-11-07T11:07:34+00:00",
+      "summary": "Deformable Gaussian Splatting (GS) accomplishes photorealistic dynamic 3-D\nreconstruction from dense multi-view video (MVV) by learning to deform a\ncanonical GS representation. However, in filmmaking, tight budgets can result\nin sparse camera configurations, which limits state-of-the-art (SotA) methods\nwhen capturing complex dynamic features. To address this issue, we introduce an\napproach that splits the canonical Gaussians and deformation field into\nforeground and background components using a sparse set of masks for frames at\nt=0. Each representation is separately trained on different loss functions\nduring canonical pre-training. Then, during dynamic training, different\nparameters are modeled for each deformation field following common filmmaking\npractices. The foreground stage contains diverse dynamic features so changes in\ncolor, position and rotation are learned. While, the background containing\nfilm-crew and equipment, is typically dimmer and less dynamic so only changes\nin point position are learned. Experiments on 3-D and 2.5-D entertainment\ndatasets show that our method produces SotA qualitative and quantitative\nresults; up to 3 PSNR higher with half the model size on 3-D scenes. Unlike the\nSotA and without the need for dense mask supervision, our method also produces\nsegmented dynamic reconstructions including transparent and dynamic textures.\nCode and video comparisons are available online:\nhttps://interims-git.github.io/",
+      "categories": [
+        "cs.CV",
+        "cs.GR",
+        "cs.MM"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2511.05152v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.05152v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2511.05152v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2511.05152v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2511.04595": {
       "title": "UniSplat: Unified Spatio-Temporal Fusion via 3D Latent Scaffolds for Dynamic Driving Scene Reconstruction",
       "authors": [
@@ -79815,6 +79889,43 @@
     }
   },
   "Depth Estimation": {
+    "2511.05055": {
+      "title": "No Pose Estimation? No Problem: Pose-Agnostic and Instance-Aware Test-Time Adaptation for Monocular Depth Estimation",
+      "authors": [
+        "Mingyu Sung",
+        "Hyeonmin Choe",
+        "Il-Min Kim",
+        "Sangseok Yun",
+        "Jae Mo Kang"
+      ],
+      "published": "2025-11-07T07:55:02+00:00",
+      "updated": "2025-11-07T07:55:02+00:00",
+      "summary": "Monocular depth estimation (MDE), inferring pixel-level depths in single RGB\nimages from a monocular camera, plays a crucial and pivotal role in a variety\nof AI applications demanding a three-dimensional (3D) topographical scene. In\nthe real-world scenarios, MDE models often need to be deployed in environments\nwith different conditions from those for training. Test-time (domain)\nadaptation (TTA) is one of the compelling and practical approaches to address\nthe issue. Although there have been notable advancements in TTA for MDE,\nparticularly in a self-supervised manner, existing methods are still\nineffective and problematic when applied to diverse and dynamic environments.\nTo break through this challenge, we propose a novel and high-performing TTA\nframework for MDE, named PITTA. Our approach incorporates two key innovative\nstrategies: (i) pose-agnostic TTA paradigm for MDE and (ii) instance-aware\nimage masking. Specifically, PITTA enables highly effective TTA on a pretrained\nMDE network in a pose-agnostic manner without resorting to any camera pose\ninformation. Besides, our instance-aware masking strategy extracts\ninstance-wise masks for dynamic objects (e.g., vehicles, pedestrians, etc.)\nfrom a segmentation mask produced by a pretrained panoptic segmentation\nnetwork, by removing static objects including background components. To further\nboost performance, we also present a simple yet effective edge extraction\nmethodology for the input image (i.e., a single monocular image) and depth map.\nExtensive experimental evaluations on DrivingStereo and Waymo datasets with\nvarying environmental conditions demonstrate that our proposed framework,\nPITTA, surpasses the existing state-of-the-art techniques with remarkable\nperformance improvements in MDE during TTA.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2511.05055v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.05055v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2511.05055v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2511.05055v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2511.04388": {
       "title": "BoRe-Depth: Self-supervised Monocular Depth Estimation with Boundary Refinement for Embedded Systems",
       "authors": [
