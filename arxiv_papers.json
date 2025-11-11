@@ -1,5 +1,303 @@
 {
   "3DGS Semantic": {
+    "2511.07409": {
+      "title": "DIMO: Diverse 3D Motion Generation for Arbitrary Objects",
+      "authors": [
+        "Linzhan Mou",
+        "Jiahui Lei",
+        "Chen Wang",
+        "Lingjie Liu",
+        "Kostas Daniilidis"
+      ],
+      "published": "2025-11-10T18:56:49+00:00",
+      "updated": "2025-11-10T18:56:49+00:00",
+      "summary": "We present DIMO, a generative approach capable of generating diverse 3D\nmotions for arbitrary objects from a single image. The core idea of our work is\nto leverage the rich priors in well-trained video models to extract the common\nmotion patterns and then embed them into a shared low-dimensional latent space.\nSpecifically, we first generate multiple videos of the same object with diverse\nmotions. We then embed each motion into a latent vector and train a shared\nmotion decoder to learn the distribution of motions represented by a structured\nand compact motion representation, i.e., neural key point trajectories. The\ncanonical 3D Gaussians are then driven by these key points and fused to model\nthe geometry and appearance. During inference time with learned latent space,\nwe can instantly sample diverse 3D motions in a single-forward pass and support\nseveral interesting applications including 3D motion interpolation and\nlanguage-guided motion generation. Our project page is available at\nhttps://linzhanm.github.io/dimo.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2511.07409v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Published in ICCV 2025, project page https://linzhanm.github.io/dimo",
+      "entry_id": "http://arxiv.org/abs/2511.07409v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2511.07409v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2511.07409v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.07233": {
+      "title": "Noise & pattern: identity-anchored Tikhonov regularization for robust structural anomaly detection",
+      "authors": [
+        "Alexander Bauer",
+        "Klaus-Robert Müller"
+      ],
+      "published": "2025-11-10T15:48:50+00:00",
+      "updated": "2025-11-10T15:48:50+00:00",
+      "summary": "Anomaly detection plays a pivotal role in automated industrial inspection,\naiming to identify subtle or rare defects in otherwise uniform visual patterns.\nAs collecting representative examples of all possible anomalies is infeasible,\nwe tackle structural anomaly detection using a self-supervised autoencoder that\nlearns to repair corrupted inputs. To this end, we introduce a corruption model\nthat injects artificial disruptions into training images to mimic structural\ndefects. While reminiscent of denoising autoencoders, our approach differs in\ntwo key aspects. First, instead of unstructured i.i.d.\\ noise, we apply\nstructured, spatially coherent perturbations that make the task a hybrid of\nsegmentation and inpainting. Second, and counterintuitively, we add and\npreserve Gaussian noise on top of the occlusions, which acts as a Tikhonov\nregularizer anchoring the Jacobian of the reconstruction function toward\nidentity. This identity-anchored regularization stabilizes reconstruction and\nfurther improves both detection and segmentation accuracy. On the MVTec AD\nbenchmark, our method achieves state-of-the-art results (I/P-AUROC: 99.9/99.4),\nsupporting our theoretical framework and demonstrating its practical relevance\nfor automatic inspection.",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2511.07233v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.07233v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2511.07233v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2511.07233v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.06946": {
+      "title": "Learning to Focus: Prioritizing Informative Histories with Structured Attention Mechanisms in Partially Observable Reinforcement Learning",
+      "authors": [
+        "Daniel De Dios Allegue",
+        "Jinke He",
+        "Frans A. Oliehoek"
+      ],
+      "published": "2025-11-10T10:53:16+00:00",
+      "updated": "2025-11-10T10:53:16+00:00",
+      "summary": "Transformers have shown strong ability to model long-term dependencies and\nare increasingly adopted as world models in model-based reinforcement learning\n(RL) under partial observability. However, unlike natural language corpora, RL\ntrajectories are sparse and reward-driven, making standard self-attention\ninefficient because it distributes weight uniformly across all past tokens\nrather than emphasizing the few transitions critical for control. To address\nthis, we introduce structured inductive priors into the self-attention\nmechanism of the dynamics head: (i) per-head memory-length priors that\nconstrain attention to task-specific windows, and (ii) distributional priors\nthat learn smooth Gaussian weightings over past state-action pairs. We\nintegrate these mechanisms into UniZero, a model-based RL agent with a\nTransformer-based world model that supports planning under partial\nobservability. Experiments on the Atari 100k benchmark show that most\nefficiency gains arise from the Gaussian prior, which smoothly allocates\nattention to informative transitions, while memory-length priors often truncate\nuseful signals with overly restrictive cut-offs. In particular, Gaussian\nAttention achieves a 77% relative improvement in mean human-normalized scores\nover UniZero. These findings suggest that in partially observable RL domains\nwith non-stationary temporal dependencies, discrete memory windows are\ndifficult to learn reliably, whereas smooth distributional priors flexibly\nadapt across horizons and yield more robust data efficiency. Overall, our\nresults demonstrate that encoding structured temporal priors directly into\nself-attention improves the prioritization of informative histories for\ndynamics modeling under partial observability.",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "http://arxiv.org/pdf/2511.06946v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted to Embodied World Models for Decision Making (EWM) Workshop\n  at NeurIPS 2025",
+      "entry_id": "http://arxiv.org/abs/2511.06946v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2511.06946v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2511.06946v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.06902": {
+      "title": "A Closer Look at Knowledge Distillation in Spiking Neural Network Training",
+      "authors": [
+        "Xu Liu",
+        "Na Xia",
+        "Jinxing Zhou",
+        "Jingyuan Xu",
+        "Dan Guo"
+      ],
+      "published": "2025-11-10T09:51:31+00:00",
+      "updated": "2025-11-10T09:51:31+00:00",
+      "summary": "Spiking Neural Networks (SNNs) become popular due to excellent energy\nefficiency, yet facing challenges for effective model training. Recent works\nimprove this by introducing knowledge distillation (KD) techniques, with the\npre-trained artificial neural networks (ANNs) used as teachers and the target\nSNNs as students. This is commonly accomplished through a straightforward\nelement-wise alignment of intermediate features and prediction logits from ANNs\nand SNNs, often neglecting the intrinsic differences between their\narchitectures. Specifically, ANN's outputs exhibit a continuous distribution,\nwhereas SNN's outputs are characterized by sparsity and discreteness. To\nmitigate this issue, we introduce two innovative KD strategies. Firstly, we\npropose the Saliency-scaled Activation Map Distillation (SAMD), which aligns\nthe spike activation map of the student SNN with the class-aware activation map\nof the teacher ANN. Rather than performing KD directly on the raw %and distinct\nfeatures of ANN and SNN, our SAMD directs the student to learn from saliency\nactivation maps that exhibit greater semantic and distribution consistency.\nAdditionally, we propose a Noise-smoothed Logits Distillation (NLD), which\nutilizes Gaussian noise to smooth the sparse logits of student SNN,\nfacilitating the alignment with continuous logits from teacher ANN. Extensive\nexperiments on multiple datasets demonstrate the effectiveness of our methods.\nCode is available~\\footnote{https://github.com/SinoLeu/CKDSNN.git}.",
+      "categories": [
+        "cs.LG"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "http://arxiv.org/pdf/2511.06902v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted by AAAI 2026",
+      "entry_id": "http://arxiv.org/abs/2511.06902v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2511.06902v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2511.06902v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.06857": {
+      "title": "Ambiguity-aware Truncated Flow Matching for Ambiguous Medical Image Segmentation",
+      "authors": [
+        "Fanding Li",
+        "Xiangyu Li",
+        "Xianghe Su",
+        "Xingyu Qiu",
+        "Suyu Dong",
+        "Wei Wang",
+        "Kuanquan Wang",
+        "Gongning Luo",
+        "Shuo Li"
+      ],
+      "published": "2025-11-10T08:57:06+00:00",
+      "updated": "2025-11-10T08:57:06+00:00",
+      "summary": "A simultaneous enhancement of accuracy and diversity of predictions remains a\nchallenge in ambiguous medical image segmentation (AMIS) due to the inherent\ntrade-offs. While truncated diffusion probabilistic models (TDPMs) hold strong\npotential with a paradigm optimization, existing TDPMs suffer from entangled\naccuracy and diversity of predictions with insufficient fidelity and\nplausibility. To address the aforementioned challenges, we propose\nAmbiguity-aware Truncated Flow Matching (ATFM), which introduces a novel\ninference paradigm and dedicated model components. Firstly, we propose\nData-Hierarchical Inference, a redefinition of AMIS-specific inference\nparadigm, which enhances accuracy and diversity at data-distribution and\ndata-sample level, respectively, for an effective disentanglement. Secondly,\nGaussian Truncation Representation (GTR) is introduced to enhance both fidelity\nof predictions and reliability of truncation distribution, by explicitly\nmodeling it as a Gaussian distribution at $T_{\\text{trunc}}$ instead of using\nsampling-based approximations.Thirdly, Segmentation Flow Matching (SFM) is\nproposed to enhance the plausibility of diverse predictions by extending\nsemantic-aware flow transformation in Flow Matching (FM). Comprehensive\nevaluations on LIDC and ISIC3 datasets demonstrate that ATFM outperforms SOTA\nmethods and simultaneously achieves a more efficient inference. ATFM improves\nGED and HM-IoU by up to $12\\%$ and $7.3\\%$ compared to advanced methods.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2511.06857v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "13 pages, 10 figures, extended version of AAAI-26 paper",
+      "entry_id": "http://arxiv.org/abs/2511.06857v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2511.06857v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2511.06857v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.06457": {
+      "title": "Inpaint360GS: Efficient Object-Aware 3D Inpainting via Gaussian Splatting for 360° Scenes",
+      "authors": [
+        "Shaoxiang Wang",
+        "Shihong Zhang",
+        "Christen Millerdurai",
+        "Rüdiger Westermann",
+        "Didier Stricker",
+        "Alain Pagani"
+      ],
+      "published": "2025-11-09T16:47:30+00:00",
+      "updated": "2025-11-09T16:47:30+00:00",
+      "summary": "Despite recent advances in single-object front-facing inpainting using NeRF\nand 3D Gaussian Splatting (3DGS), inpainting in complex 360{\\deg} scenes\nremains largely underexplored. This is primarily due to three key challenges:\n(i) identifying target objects in the 3D field of 360{\\deg} environments, (ii)\ndealing with severe occlusions in multi-object scenes, which makes it hard to\ndefine regions to inpaint, and (iii) maintaining consistent and high-quality\nappearance across views effectively. To tackle these challenges, we propose\nInpaint360GS, a flexible 360{\\deg} editing framework based on 3DGS that\nsupports multi-object removal and high-fidelity inpainting in 3D space. By\ndistilling 2D segmentation into 3D and leveraging virtual camera views for\ncontextual guidance, our method enables accurate object-level editing and\nconsistent scene completion. We further introduce a new dataset tailored for\n360{\\deg} inpainting, addressing the lack of ground truth object-free scenes.\nExperiments demonstrate that Inpaint360GS outperforms existing baselines and\nachieves state-of-the-art performance. Project page:\nhttps://dfki-av.github.io/inpaint360gs/",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2511.06457v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "WACV 2026, project page: https://dfki-av.github.io/inpaint360gs/",
+      "entry_id": "http://arxiv.org/abs/2511.06457v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2511.06457v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2511.06457v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.06298": {
+      "title": "SFFR: Spatial-Frequency Feature Reconstruction for Multispectral Aerial Object Detection",
+      "authors": [
+        "Xin Zuo",
+        "Yuchen Qu",
+        "Haibo Zhan",
+        "Jifeng Shen",
+        "Wankou Yang"
+      ],
+      "published": "2025-11-09T09:34:10+00:00",
+      "updated": "2025-11-09T09:34:10+00:00",
+      "summary": "Recent multispectral object detection methods have primarily focused on\nspatial-domain feature fusion based on CNNs or Transformers, while the\npotential of frequency-domain feature remains underexplored. In this work, we\npropose a novel Spatial and Frequency Feature Reconstruction method (SFFR)\nmethod, which leverages the spatial-frequency feature representation mechanisms\nof the Kolmogorov-Arnold Network (KAN) to reconstruct complementary\nrepresentations in both spatial and frequency domains prior to feature fusion.\nThe core components of SFFR are the proposed Frequency Component Exchange KAN\n(FCEKAN) module and Multi-Scale Gaussian KAN (MSGKAN) module. The FCEKAN\nintroduces an innovative selective frequency component exchange strategy that\neffectively enhances the complementarity and consistency of cross-modal\nfeatures based on the frequency feature of RGB and IR images. The MSGKAN module\ndemonstrates excellent nonlinear feature modeling capability in the spatial\ndomain. By leveraging multi-scale Gaussian basis functions, it effectively\ncaptures the feature variations caused by scale changes at different UAV flight\naltitudes, significantly enhancing the model's adaptability and robustness to\nscale variations. It is experimentally validated that our proposed FCEKAN and\nMSGKAN modules are complementary and can effectively capture the frequency and\nspatial semantic features respectively for better feature fusion. Extensive\nexperiments on the SeaDroneSee, DroneVehicle and DVTOD datasets demonstrate the\nsuperior performance and significant advantages of the proposed method in UAV\nmultispectral object perception task. Code will be available at\nhttps://github.com/qchenyu1027/SFFR.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2511.06298v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "11 pages,8 figures, accepted by IEEE TGRS",
+      "entry_id": "http://arxiv.org/abs/2511.06298v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2511.06298v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2511.06298v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.05747": {
+      "title": "CoT-X: An Adaptive Framework for Cross-Model Chain-of-Thought Transfer and Optimization",
+      "authors": [
+        "Ziqian Bi",
+        "Kaijie Chen",
+        "Tianyang Wang",
+        "Junfeng Hao",
+        "Xinyuan Song"
+      ],
+      "published": "2025-11-07T22:35:31+00:00",
+      "updated": "2025-11-07T22:35:31+00:00",
+      "summary": "Chain-of-Thought (CoT) reasoning enhances the problem-solving ability of\nlarge language models (LLMs) but leads to substantial inference overhead,\nlimiting deployment in resource-constrained settings. This paper investigates\nefficient CoT transfer across models of different scales and architectures\nthrough an adaptive reasoning summarization framework. The proposed method\ncompresses reasoning traces via semantic segmentation with importance scoring,\nbudget-aware dynamic compression, and coherence reconstruction, preserving\ncritical reasoning steps while significantly reducing token usage. Experiments\non 7{,}501 medical examination questions across 10 specialties show up to 40%\nhigher accuracy than truncation under the same token budgets. Evaluations on 64\nmodel pairs from eight LLMs (1.5B-32B parameters, including DeepSeek-R1 and\nQwen3) confirm strong cross-model transferability. Furthermore, a Gaussian\nProcess-based Bayesian optimization module reduces evaluation cost by 84% and\nreveals a power-law relationship between model size and cross-domain\nrobustness. These results demonstrate that reasoning summarization provides a\npractical path toward efficient CoT transfer, enabling advanced reasoning under\ntight computational constraints. Code will be released upon publication.",
+      "categories": [
+        "cs.AI"
+      ],
+      "primary_category": "cs.AI",
+      "pdf_url": "http://arxiv.org/pdf/2511.05747v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "TKDD 2025",
+      "entry_id": "http://arxiv.org/abs/2511.05747v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2511.05747v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2511.05747v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2511.05229": {
       "title": "4D3R: Motion-Aware Neural Reconstruction and Rendering of Dynamic Scenes from Monocular Videos",
       "authors": [
@@ -737,6 +1035,46 @@
         },
         {
           "href": "http://arxiv.org/pdf/2510.25753v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.05536": {
+      "title": "Gravity-Awareness: Deep Learning Models and LLM Simulation of Human Awareness in Altered Gravity",
+      "authors": [
+        "Bakytzhan Alibekov",
+        "Alina Gutoreva",
+        "Elisa Raffaella-Ferre"
+      ],
+      "published": "2025-10-29T17:41:07+00:00",
+      "updated": "2025-10-29T17:41:07+00:00",
+      "summary": "Earth's gravity has fundamentally shaped human development by guiding the\nbrain's integration of vestibular, visual, and proprioceptive inputs into an\ninternal model of gravity: a dynamic neural representation enabling prediction\nand interpretation of gravitational forces. This work presents a dual\ncomputational framework to quantitatively model these adaptations. The first\ncomponent is a lightweight Multi-Layer Perceptron (MLP) that predicts\ng-load-dependent changes in key electroencephalographic (EEG) frequency bands,\nrepresenting the brain's cortical state. The second component utilizes a suite\nof independent Gaussian Processes (GPs) to model the body's broader\nphysiological state, including Heart Rate Variability (HRV), Electrodermal\nActivity (EDA), and motor behavior. Both models were trained on data derived\nfrom a comprehensive review of parabolic flight literature, using published\nfindings as anchor points to construct robust, continuous functions. To\ncomplement this quantitative analysis, we simulated subjective human experience\nunder different gravitational loads, ranging from microgravity (0g) and partial\ngravity (Moon 0.17g, Mars 0.38g) to hypergravity associated with spacecraft\nlaunch and re-entry (1.8g), using a large language model (Claude 3.5 Sonnet).\nThe model was prompted with physiological parameters to generate introspective\nnarratives of alertness and self-awareness, which closely aligned with the\nquantitative findings from both the EEG and physiological models. This combined\nframework integrates quantitative physiological modeling with generative\ncognitive simulation, offering a novel approach to understanding and predicting\nhuman performance in altered gravity",
+      "categories": [
+        "q-bio.NC",
+        "cs.AI",
+        "cs.LG",
+        "eess.SP",
+        "68T07 (Primary) 92C20, 62M30, 92-10, 68T50 (Secondary)",
+        "G.3; I.2.0; I.6.6; I.6.4; I.6.5; J.4; J.3"
+      ],
+      "primary_category": "q-bio.NC",
+      "pdf_url": "http://arxiv.org/pdf/2511.05536v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "64 pages, 8 figures, 2 datasets, 1 protocol",
+      "entry_id": "http://arxiv.org/abs/2511.05536v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2511.05536v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2511.05536v1",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -2571,27 +2909,27 @@
         "Hongyun Wang"
       ],
       "published": "2025-10-16T03:38:26+00:00",
-      "updated": "2025-11-03T14:19:02+00:00",
+      "updated": "2025-11-10T16:16:00+00:00",
       "summary": "Scene reconstruction has emerged as a central challenge in computer vision,\nwith approaches such as Neural Radiance Fields (NeRF) and Gaussian Splatting\nachieving remarkable progress. While Gaussian Splatting demonstrates strong\nperformance on large-scale datasets, it often struggles to capture fine details\nor maintain realism in regions with sparse coverage, largely due to the\ninherent limitations of sparse 3D training data.\n  In this work, we propose GauSSmart, a hybrid method that effectively bridges\n2D foundational models and 3D Gaussian Splatting reconstruction. Our approach\nintegrates established 2D computer vision techniques, including convex\nfiltering and semantic feature supervision from foundational models such as\nDINO, to enhance Gaussian-based scene reconstruction. By leveraging 2D\nsegmentation priors and high-dimensional feature embeddings, our method guides\nthe densification and refinement of Gaussian splats, improving coverage in\nunderrepresented areas and preserving intricate structural details.\n  We validate our approach across three datasets, where GauSSmart consistently\noutperforms existing Gaussian Splatting in the majority of evaluated scenes.\nOur results demonstrate the significant potential of hybrid 2D-3D approaches,\nhighlighting how the thoughtful combination of 2D foundational models with 3D\nreconstruction pipelines can overcome the limitations inherent in either\napproach alone.",
       "categories": [
         "cs.CV",
         "cs.GR"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "http://arxiv.org/pdf/2510.14270v2",
+      "pdf_url": "http://arxiv.org/pdf/2510.14270v3",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2510.14270v2",
+      "entry_id": "http://arxiv.org/abs/2510.14270v3",
       "links": [
         {
-          "href": "http://arxiv.org/abs/2510.14270v2",
+          "href": "http://arxiv.org/abs/2510.14270v3",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "http://arxiv.org/pdf/2510.14270v2",
+          "href": "http://arxiv.org/pdf/2510.14270v3",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -79889,6 +80227,80 @@
     }
   },
   "Depth Estimation": {
+    "2511.06238": {
+      "title": "Temporal-Guided Visual Foundation Models for Event-Based Vision",
+      "authors": [
+        "Ruihao Xia",
+        "Junhong Cai",
+        "Luziwei Leng",
+        "Liuyi Wang",
+        "Chengju Liu",
+        "Ran Cheng",
+        "Yang Tang",
+        "Pan Zhou"
+      ],
+      "published": "2025-11-09T05:45:25+00:00",
+      "updated": "2025-11-09T05:45:25+00:00",
+      "summary": "Event cameras offer unique advantages for vision tasks in challenging\nenvironments, yet processing asynchronous event streams remains an open\nchallenge. While existing methods rely on specialized architectures or\nresource-intensive training, the potential of leveraging modern Visual\nFoundation Models (VFMs) pretrained on image data remains under-explored for\nevent-based vision. To address this, we propose Temporal-Guided VFM (TGVFM), a\nnovel framework that integrates VFMs with our temporal context fusion block\nseamlessly to bridge this gap. Our temporal block introduces three key\ncomponents: (1) Long-Range Temporal Attention to model global temporal\ndependencies, (2) Dual Spatiotemporal Attention for multi-scale frame\ncorrelation, and (3) Deep Feature Guidance Mechanism to fuse semantic-temporal\nfeatures. By retraining event-to-video models on real-world data and leveraging\ntransformer-based VFMs, TGVFM preserves spatiotemporal dynamics while\nharnessing pretrained representations. Experiments demonstrate SoTA performance\nacross semantic segmentation, depth estimation, and object detection, with\nimprovements of 16%, 21%, and 16% over existing methods, respectively. Overall,\nthis work unlocks the cross-modality potential of image-based VFMs for\nevent-based vision with temporal reasoning. Code is available at\nhttps://github.com/XiaRho/TGVFM.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2511.06238v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.06238v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2511.06238v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2511.06238v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2511.05866": {
+      "title": "Light-Field Dataset for Disparity Based Depth Estimation",
+      "authors": [
+        "Suresh Nehra",
+        "Aupendu Kar",
+        "Jayanta Mukhopadhyay",
+        "Prabir Kumar Biswas"
+      ],
+      "published": "2025-11-08T05:39:05+00:00",
+      "updated": "2025-11-08T05:39:05+00:00",
+      "summary": "A Light Field (LF) camera consists of an additional two-dimensional array of\nmicro-lenses placed between the main lens and sensor, compared to a\nconventional camera. The sensor pixels under each micro-lens receive light from\na sub-aperture of the main lens. This enables the image sensor to capture both\nspatial information and the angular resolution of a scene point. This\nadditional angular information is used to estimate the depth of a 3-D scene.\nThe continuum of virtual viewpoints in light field data enables efficient depth\nestimation using Epipolar Line Images (EPIs) with robust occlusion handling.\nHowever, the trade-off between angular information and spatial information is\nvery critical and depends on the focal position of the camera. To design,\ndevelop, implement, and test novel disparity-based light field depth estimation\nalgorithms, the availability of suitable light field image datasets is\nessential. In this paper, a publicly available light field image dataset is\nintroduced and thoroughly described. We have also demonstrated the effect of\nfocal position on the disparity of a 3-D point as well as the shortcomings of\nthe currently available light field dataset. The proposed dataset contains 285\nlight field images captured using a Lytro Illum LF camera and 13 synthetic LF\nimages. The proposed dataset also comprises a synthetic dataset with similar\ndisparity characteristics to those of a real light field camera. A real and\nsynthetic stereo light field dataset is also created by using a mechanical\ngantry system and Blender. The dataset is available at\nhttps://github.com/aupendu/light-field-dataset.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "http://arxiv.org/pdf/2511.05866v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "This paper has been accepted to ACM ICVGIP 2025",
+      "entry_id": "http://arxiv.org/abs/2511.05866v1",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2511.05866v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "http://arxiv.org/pdf/2511.05866v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2511.05055": {
       "title": "No Pose Estimation? No Problem: Pose-Agnostic and Instance-Aware Test-Time Adaptation for Monocular Depth Estimation",
       "authors": [

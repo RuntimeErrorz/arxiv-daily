@@ -1,4 +1,4 @@
-## Updated at 2025-11-11 08:18:34
+## Updated at 2025-11-11 20:08:13
 
 ## 3DGS Semantic
 
@@ -570,6 +570,8 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-11-09**|**[Temporal-Guided Visual Foundation Models for Event-Based Vision](https://arxiv.org/abs/2511.06238)**|N/A|None|cs.CV|None|Ruihao Xia et al.|
+|**2025-11-08**|**[Light-Field Dataset for Disparity Based Depth Estimation](https://arxiv.org/abs/2511.05866)**|N/A|This paper has been accepted to ACM ICVGIP 2025|cs.CV|None|Suresh Nehra et al.|
 |**2025-11-07**|**[No Pose Estimation? No Problem: Pose-Agnostic and Instance-Aware Test-Time Adaptation for Monocular Depth Estimation](https://arxiv.org/abs/2511.05055)**|N/A|None|cs.CV|None|Mingyu Sung et al.|
 |**2025-11-06**|**[BoRe-Depth: Self-supervised Monocular Depth Estimation with Boundary Refinement for Embedded Systems](https://arxiv.org/abs/2511.04388)**|N/A|8 pages, 5 figures, published to IROS 2025|cs.CV|None|Chang Liu et al.|
 |**2025-11-06**|**[Simple 3D Pose Features Support Human and Machine Social Scene Understanding](https://arxiv.org/abs/2511.03988)**|N/A|28 pages, 6 figures|cs.CV|None|Wenshuo Qin, Leyla Isik|
