@@ -1,4 +1,4 @@
-## Updated at 2025-11-11 20:08:13
+## Updated at 2025-11-12 08:20:02
 
 ## 3DGS Semantic
 
@@ -46,7 +46,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2025-07-21**|**[ObjectGS: Object-aware Scene Reconstruction and Scene Understanding via Gaussian Splatting](https://arxiv.org/abs/2507.15454)**|arXiv.org|Accepted by ICCV 2025|cs.GR|None|Ruijie Zhu et al.|
 |**2025-07-16**|**[NLI4VolVis: Natural Language Interaction for Volume Visualization via LLM Multi-Agents and Editable 3D Gaussian Splatting](https://arxiv.org/abs/2507.12621)**|arXiv.org|IEEE VIS 2025. Project Page: https://nli4volvis.github.io/|cs.HC|IEEE Transactions on Visualization and Computer Graphics (TVCG), vol. 32, no. 1, 2026|Kuangshi Ai et al.|
 |**2025-07-10**|**[Seg-Wild: Interactive Segmentation based on 3D Gaussian Splatting for Unconstrained Image Collections](https://arxiv.org/abs/2507.07395)**|arXiv.org|None|cs.CV|None|Yongtang Bao et al.|
-|**2025-07-09**|**[LangSplatV2: High-dimensional 3D Language Gaussian Splatting with 450+ FPS](https://arxiv.org/abs/2507.07136)**|arXiv.org|Project Page: https://langsplat-v2.github.io|cs.GR|None|Wanhua Li et al.|
+|**2025-07-09**|**[LangSplatV2: High-dimensional 3D Language Gaussian Splatting with 450+ FPS](https://arxiv.org/abs/2507.07136)**|arXiv.org|Accepted by NeurIPS 2025. Project Page: https://langsplat-v2.github.io|cs.CV|None|Wanhua Li et al.|
 |**2025-07-07**|**[Mastering Regional 3DGS: Locating, Initializing, and Editing with Diverse 2D Priors](https://arxiv.org/abs/2507.05426)**|arXiv.org|None|cs.CV|None|Lanqing Guo et al.|
 |**2025-07-01**|**[VISTA: Open-Vocabulary, Task-Relevant Robot Exploration with Online Semantic Gaussian Splatting](https://arxiv.org/abs/2507.01125)**|arXiv.org|9 pages, 4 figures|cs.RO|None|Keiko Nagami et al.|
 |**2025-07-01**|**[GaussianVLM: Scene-centric 3D Vision-Language Models using Language-aligned Gaussian Splats for Embodied Reasoning and Beyond](https://arxiv.org/abs/2507.00886)**|arXiv.org|None|cs.CV|None|Anna-Maria Halacheva et al.|
@@ -72,7 +72,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2025-04-09**|**[Wheat3DGS: In-field 3D Reconstruction, Instance Segmentation and Phenotyping of Wheat Heads with Gaussian Splatting](https://arxiv.org/abs/2504.06978)**|CVPR Workshops|Copyright 2025 IEEE. This is the author's version of the work. It is posted here for your personal use. Not for redistribution. The definitive version is published in the 2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)|cs.CV|None|Daiwei Zhang et al.|
 |**2025-04-08**|**[econSG: Efficient and Multi-view Consistent Open-Vocabulary 3D Semantic Gaussians](https://arxiv.org/abs/2504.06003)**|International Conference on Learning Representations|None|cs.CV|None|Can Zhang, Gim Hee Lee|
 |**2025-03-30**|**[ReasonGrounder: LVLM-Guided Hierarchical Feature Splatting for Open-Vocabulary 3D Visual Grounding and Reasoning](https://arxiv.org/abs/2503.23297)**|Computer Vision and Pattern Recognition|None|cs.CV|None|Zhenyang Liu et al.|
-|**2025-03-28**|**[Segment then Splat: A Unified Approach for 3D Open-Vocabulary Segmentation based on Gaussian Splatting](https://arxiv.org/abs/2503.22204)**|arXiv.org|Project page: https://vulab-ai.github.io/Segment-then-Splat/|cs.CV|None|Yiren Lu et al.|
+|**2025-03-28**|**[Segment then Splat: Unified 3D Open-Vocabulary Segmentation via Gaussian Splatting](https://arxiv.org/abs/2503.22204)**|arXiv.org|NeurIPS 2025. Project page: https://vulab-ai.github.io/Segment-then-Splat/|cs.CV|None|Yiren Lu et al.|
 |**2025-03-27**|**[Semantic Consistent Language Gaussian Splatting for Point-Level Open-vocabulary Querying](https://arxiv.org/abs/2503.21767)**|arXiv.org|None|cs.CV|None|Hairong Yin et al.|
 |**2025-03-26**|**[Feature4X: Bridging Any Monocular Video to 4D Agentic AI with Versatile Gaussian Feature Fields](https://arxiv.org/abs/2503.20776)**|Computer Vision and Pattern Recognition|None|cs.CV|None|Shijie Zhou et al.|
 |**2025-03-23**|**[PanoGS: Gaussian-based Panoptic Segmentation for 3D Open Vocabulary Scene Understanding](https://arxiv.org/abs/2503.18107)**|Computer Vision and Pattern Recognition|CVPR 2025|cs.CV|None|Hongjia Zhai et al.|
@@ -117,7 +117,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2024-11-28**|**[SADG: Segment Any Dynamic Gaussian Without Object Trackers](https://arxiv.org/abs/2411.19290)**|arXiv.org|Project page https://yunjinli.github.io/project-sadg|cs.CV|None|Yun-Jin Li et al.|
 |**2024-11-28**|**[InstanceGaussian: Appearance-Semantic Joint Gaussian Representation for 3D Instance-Level Perception](https://arxiv.org/abs/2411.19235)**|Computer Vision and Pattern Recognition|14 pages, accepted by CVPR 2025 as poster|cs.CV|None|Haijie Li et al.|
 |**2024-11-27**|**[GLS: Geometry-aware 3D Language Gaussian Splatting](https://arxiv.org/abs/2411.18066)**|arXiv.org|Technical Report|cs.CV|None|Jiaxiong Qiu et al.|
-|**2024-11-22**|**[Open-Vocabulary Online Semantic Mapping for SLAM](https://arxiv.org/abs/2411.15043)**|IEEE Robotics and Automation Letters|None|cs.CV|None|Tomas Berriel Martins et al.|
+|**2024-11-22**|**[Open-Vocabulary Online Semantic Mapping for SLAM](https://arxiv.org/abs/2411.15043)**|IEEE Robotics and Automation Letters|Accepted for IEEE Robotics and Automation Letters|cs.CV|None|Tomas Berriel Martins et al.|
 |**2024-11-20**|**[FAST-Splat: Fast, Ambiguity-Free Semantics Transfer in Gaussian Splatting](https://arxiv.org/abs/2411.13753)**|arXiv.org|None|cs.CV|None|Ola Shorinwa et al.|
 |**2024-11-12**|**[GaussianCut: Interactive segmentation via graph cut for 3D Gaussian Splatting](https://arxiv.org/abs/2411.07555)**|Neural Information Processing Systems|None|cs.CV|None|Umangi Jain et al.|
 |**2024-10-24**|**[Large Spatial Model: End-to-end Unposed Images to Semantic 3D](https://arxiv.org/abs/2410.18956)**|Neural Information Processing Systems|Project Website: https://largespatialmodel.github.io|cs.CV|None|Zhiwen Fan et al.|
@@ -225,6 +225,7 @@ Query: (abs:'Multi-View Stereo' OR abs:'Multi View Stereo' OR abs:'Multi-View De
 |**2025-03-03**|**[MUSt3R: Multi-view Network for Stereo 3D Reconstruction](https://arxiv.org/abs/2503.01661)**|N/A|Accepted at CVPR 2025|cs.CV|None|Yohann Cabon et al.|
 |**2025-01-30**|**[Zero-Shot Novel View and Depth Synthesis with Multi-View Geometric Diffusion](https://arxiv.org/abs/2501.18804)**|N/A|Project page: https://mvgd.github.io|cs.CV|None|Vitor Guizilini et al.|
 |**2025-01-21**|**[Fast Underwater Scene Reconstruction using Multi-View Stereo and Physical Imaging](https://arxiv.org/abs/2501.11884)**|N/A|None|cs.CV|None|Shuyi Hu, Qi Liu|
+|**2025-01-15**|**[MonSter++: Unified Stereo Matching, Multi-view Stereo, and Real-time Stereo with Monodepth Priors](https://arxiv.org/abs/2501.08643)**|N/A|MonSter++: Unified Stereo Matching, Multi-view Stereo, and Real-time Stereo with Monodepth Priors, is the extended journal version of our earlier conference paper (arXiv:2501.08643) accepted to CVPR 2025|cs.CV|None|Junda Cheng et al.|
 |**2025-01-12**|**[CULTURE3D: A Large-Scale and Diverse Dataset of Cultural Landmarks and Terrains for Gaussian-Based Scene Rendering](https://arxiv.org/abs/2501.06927)**|N/A|None|cs.CV|None|Xinyi Zheng et al.|
 |**2025-01-02**|**[TS-SatMVSNet: Slope Aware Height Estimation for Large-Scale Earth Terrain Multi-view Stereo](https://arxiv.org/abs/2501.01049)**|N/A|None|cs.CV|None|Song Zhang et al.|
 |**2024-12-29**|**[Dual-Level Precision Edges Guided Multi-View Stereo with Accurate Planarization](https://arxiv.org/abs/2412.20328)**|N/A|Accepted by AAAI25|cs.CV|None|Kehua Chen et al.|
@@ -1946,4 +1947,8 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 |**2022-02-26**|**[Uncertainty-Aware Deep Multi-View Photometric Stereo](https://arxiv.org/abs/2202.13071)**|N/A|Accepted for publication in IEEE/CVF CVPR 2022. (11 Pages, 6 Figures, 3 Tables)|cs.CV|None|Berk Kaya et al.|
 |**2022-02-26**|**[Deep Depth from Focal Stack with Defocus Model for Camera-Setting Invariance](https://arxiv.org/abs/2202.13055)**|N/A|13 pages|cs.CV|None|Yuki Fujimura et al.|
 |**2022-02-24**|**[Light Robust Monocular Depth Estimation For Outdoor Environment Via Monochrome And Color Camera Fusion](https://arxiv.org/abs/2202.12108)**|N/A|None|cs.CV|None|Hyeonsoo Jang et al.|
+|**2022-01-12**|**[Depth Estimation from Single-shot Monocular Endoscope Image Using Image Domain Adaptation And Edge-Aware Depth Estimation](https://arxiv.org/abs/2201.04485)**|N/A|Accepted paper as an oral presentation at Joint MICCAI workshop 2021, AE-CAI/CARE/OR2.0|eess.IV|Computer Methods in Biomechanics and Biomedical Engineering: Imaging & Visualization, 2021|Masahiro Oda et al.|
+|**2021-09-23**|**[Weakly-Supervised Monocular Depth Estimationwith Resolution-Mismatched Data](https://arxiv.org/abs/2109.11573)**|N/A|None|cs.CV|None|Jialei Xu et al.|
+|**2020-11-24**|**[Variational Monocular Depth Estimation for Reliability Prediction](https://arxiv.org/abs/2011.11912)**|N/A|17 pages, 11 figures, 7 tables|cs.CV|None|Noriaki Hirose et al.|
+|**2017-08-09**|**[SPLODE: Semi-Probabilistic Point and Line Odometry with Depth Estimation from RGB-D Camera Motion](https://arxiv.org/abs/1708.02837)**|N/A|IROS 2017|cs.RO|None|Pedro F. Proença, Yang Gao|
 
