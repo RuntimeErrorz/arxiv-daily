@@ -15,7 +15,7 @@
         "cs.AI"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2511.08248v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -350,7 +350,7 @@
         "cs.AI"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2511.05229v1",
       "journal_ref": "NeurIPS 2025",
       "doi": null,
       "comment": "17 pages, 5 figures",
@@ -1212,7 +1212,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2510.25146v1",
       "journal_ref": null,
       "doi": null,
       "comment": "The Thirty-Ninth Annual Conference on Neural Information Processing Systems(NeurIPS 2025)",
@@ -1260,7 +1260,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2510.25129v1",
       "journal_ref": null,
       "doi": null,
       "comment": "18 pages, 11 figures. NeurIPS 2025; Project page: https://zju3dv.github.io/AtlasGS/",
@@ -1698,7 +1698,7 @@
         "cs.AI"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2510.22930v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -1977,7 +1977,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2510.21307v1",
       "journal_ref": null,
       "doi": null,
       "comment": "Download link of InteriorGS: https://huggingface.co/datasets/spatialverse/InteriorGS",
@@ -2401,7 +2401,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2510.18253v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -2601,7 +2601,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2510.17095v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -2990,7 +2990,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2510.13800v2",
       "journal_ref": null,
       "doi": null,
       "comment": "20 pages, 7 figures",
@@ -4057,7 +4057,7 @@
         "cs.AI"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2510.04759v2",
       "journal_ref": null,
       "doi": null,
       "comment": "Project Page: https://yanchi-3dv.github.io/PG-Occ",
@@ -4241,7 +4241,7 @@
         "cs.RO"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2510.03104v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -4850,7 +4850,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2509.23947v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -5131,7 +5131,7 @@
         "cs.AI"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2509.22225v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -6102,7 +6102,7 @@
         "cs.RO"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2509.16552v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -6180,7 +6180,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2509.15548v4",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -6587,7 +6587,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2509.12938v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -6634,7 +6634,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2509.12931v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -6743,7 +6743,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2509.11853v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -7237,7 +7237,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2509.07774v1",
       "journal_ref": null,
       "doi": null,
       "comment": "This is the arXiv preprint of the paper \"Hair Strand Reconstruction based on 3D Gaussian Splatting\" published at BMVC 2025. Project website: https://yimin-pan.github.io/hair-gs/",
@@ -7277,7 +7277,7 @@
         "cs.RO"
       ],
       "primary_category": "cs.RO",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2509.07500v1",
       "journal_ref": null,
       "doi": null,
       "comment": "Accepted by IEEE Transactions on Robotics (TRO), project website: https://omni-map.github.io/",
@@ -7677,7 +7677,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2509.04859v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -7947,7 +7947,7 @@
         "cs.AI"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2509.01964v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -8141,7 +8141,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2509.00800v1",
       "journal_ref": null,
       "doi": null,
       "comment": "Submitted to SIGGRAPH Asia 2025 Technical Communications",
@@ -8453,7 +8453,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2508.19699v1",
       "journal_ref": null,
       "doi": null,
       "comment": "PRCV 2025",
@@ -8946,7 +8946,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2508.14443v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -9023,7 +9023,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2508.14278v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -9521,7 +9521,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2508.09977v2",
       "journal_ref": null,
       "doi": null,
       "comment": "GitHub Repo: https://github.com/heshuting555/Awesome-3DGS-Applications",
@@ -9644,7 +9644,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2508.09626v2",
       "journal_ref": null,
       "doi": null,
       "comment": "9 pages, 4 figures",
@@ -9791,7 +9791,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2508.08252v1",
       "journal_ref": null,
       "doi": null,
       "comment": "ICML 2025 Oral, Code: https://github.com/heshuting555/ReferSplat",
@@ -9840,7 +9840,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2508.08219v1",
       "journal_ref": null,
       "doi": null,
       "comment": "19 pages, 10 figures",
@@ -9960,7 +9960,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2508.07355v1",
       "journal_ref": null,
       "doi": null,
       "comment": "Accepted for presentation at ISPRS 3D GeoInfo & Smart Data, Smart Cities 2025, Kashiwa, Japan. To appear in the ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences",
@@ -10230,7 +10230,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.GR",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2508.05064v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -10340,7 +10340,7 @@
         "cs.AI"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2508.04099v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -10458,7 +10458,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2508.03643v3",
       "journal_ref": null,
       "doi": null,
       "comment": "The code is available at https://github.com/HorizonRobotics/Uni3R",
@@ -10732,7 +10732,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2508.02831v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -10843,7 +10843,7 @@
         "cs.MM"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2508.02172v1",
       "journal_ref": null,
       "doi": null,
       "comment": "14 pages, 8 figures, accepted by MM'25",
@@ -10959,7 +10959,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2508.01740v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -11081,7 +11081,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2508.01150v1",
       "journal_ref": null,
       "doi": null,
       "comment": "IROS2025",
@@ -11251,7 +11251,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2507.23772v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -11409,7 +11409,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2507.23374v1",
       "journal_ref": null,
       "doi": null,
       "comment": "Accepted by ICCV",
@@ -11801,7 +11801,7 @@
         "cs.AI"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2507.19856v3",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -11836,7 +11836,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.GR",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2507.19830v2",
       "journal_ref": null,
       "doi": null,
       "comment": "Visit our project page at https://yuzewang1998.github.io/takinglangsplatw/",
@@ -12058,7 +12058,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2507.18371v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -12481,7 +12481,7 @@
         "cs.HC"
       ],
       "primary_category": "cs.GR",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2507.15454v1",
       "journal_ref": null,
       "doi": null,
       "comment": "Accepted by ICCV 2025",
@@ -12562,7 +12562,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2507.13891v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -12714,7 +12714,7 @@
         "cs.MA"
       ],
       "primary_category": "cs.HC",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2507.12621v1",
       "journal_ref": "IEEE Transactions on Visualization and Computer Graphics (TVCG), vol. 32, no. 1, 2026",
       "doi": null,
       "comment": "IEEE VIS 2025. Project Page: https://nli4volvis.github.io/",
@@ -13257,7 +13257,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2507.07519v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -13455,7 +13455,7 @@
         "cs.GR"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2507.07136v2",
       "journal_ref": null,
       "doi": null,
       "comment": "Accepted by NeurIPS 2025. Project Page: https://langsplat-v2.github.io",
@@ -14127,7 +14127,7 @@
         "cs.CV"
       ],
       "primary_category": "eess.IV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2506.23309v2",
       "journal_ref": null,
       "doi": null,
       "comment": "MICCAI 2025. Project Page: https://lastbasket.github.io/MICCAI-2025-SurgTPGS/",
@@ -14211,7 +14211,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2506.22800v3",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -14252,7 +14252,7 @@
         "cs.LG"
       ],
       "primary_category": "cs.GR",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2506.22799v1",
       "journal_ref": null,
       "doi": null,
       "comment": "Accepted to ICCV 2025",
@@ -15741,7 +15741,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2506.09565v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -15900,7 +15900,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2506.09378v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -16267,7 +16267,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2506.08710v1",
       "journal_ref": null,
       "doi": null,
       "comment": "15 pages, codes, data and benchmark will be released",
@@ -16387,7 +16387,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2506.07697v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -16626,7 +16626,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2506.06846v1",
       "journal_ref": "Proceedings of the AAAI Conference on Artificial Intelligence, 39(5), 5289-5297 (2025)",
       "doi": "10.1609/aaai.v39i5.32562",
       "comment": "AAAI 2025",
@@ -16669,7 +16669,7 @@
         "cs.AI"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2506.06822v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -16751,7 +16751,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2506.06517v2",
       "journal_ref": null,
       "doi": null,
       "comment": "17 pages, 6 figures",
@@ -17017,7 +17017,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2506.05204v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -17575,7 +17575,7 @@
         "cs.MM"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2506.01109v3",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -17743,7 +17743,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.RO",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2506.00225v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -17822,7 +17822,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2505.24746v1",
       "journal_ref": null,
       "doi": null,
       "comment": "ICML 2025 camera ready. Project Page: https://jumpat.github.io/laga-page/",
@@ -18518,7 +18518,7 @@
         "cs.AI"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2505.20469v2",
       "journal_ref": null,
       "doi": null,
       "comment": "ICCV 2025",
@@ -18805,7 +18805,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2505.19154v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -18849,7 +18849,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2505.19138v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -19000,7 +19000,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2505.18649v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -19112,7 +19112,7 @@
         "eess.IV"
       ],
       "primary_category": "cs.GR",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2505.17402v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -19267,7 +19267,7 @@
         "cs.LG"
       ],
       "primary_category": "cs.RO",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2505.14938v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -20140,7 +20140,7 @@
         "cs.RO"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2505.09915v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -20693,7 +20693,7 @@
         "cs.GR"
       ],
       "primary_category": "cs.GR",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2505.04659v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -21266,7 +21266,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2504.15281v1",
       "journal_ref": null,
       "doi": null,
       "comment": "16 pages; Project page: https://styleme3d.github.io/",
@@ -21468,7 +21468,7 @@
         "cs.RO"
       ],
       "primary_category": "cs.RO",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2504.14604v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -21548,7 +21548,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2504.13153v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -21705,7 +21705,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2504.11893v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -21824,7 +21824,7 @@
         "cs.AI"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2504.09588v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -21908,7 +21908,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2504.08581v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -22175,7 +22175,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2504.06003v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -22479,7 +22479,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2504.04190v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -22821,7 +22821,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2503.23297v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -23026,7 +23026,7 @@
         "eess.IV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2503.22218v1",
       "journal_ref": null,
       "doi": null,
       "comment": "10 pages, 14 figures",
@@ -23066,7 +23066,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2503.22204v2",
       "journal_ref": null,
       "doi": null,
       "comment": "NeurIPS 2025. Project page: https://vulab-ai.github.io/Segment-then-Splat/",
@@ -23109,7 +23109,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2503.21767v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -23153,7 +23153,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.RO",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2503.21425v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -23277,7 +23277,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2503.19443v2",
       "journal_ref": null,
       "doi": null,
       "comment": "Accepted by CVPR 2025",
@@ -23502,7 +23502,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2503.18107v1",
       "journal_ref": null,
       "doi": null,
       "comment": "CVPR 2025",
@@ -23587,7 +23587,7 @@
         "cs.RO"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2503.18073v1",
       "journal_ref": null,
       "doi": null,
       "comment": "8 pages, 6 figures",
@@ -23639,7 +23639,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2503.18052v2",
       "journal_ref": null,
       "doi": null,
       "comment": "Our code, model, and dataset will be released at https://unique1i.github.io/SceneSplat_webpage/",
@@ -23870,7 +23870,7 @@
         "cs.MM"
       ],
       "primary_category": "cs.GR",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2503.16747v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -24372,7 +24372,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2503.12535v1",
       "journal_ref": null,
       "doi": null,
       "comment": "Accepted by CVPR2025. The project page is available at https://gbliao.github.io/SPC-GS.github.io/",
@@ -24651,7 +24651,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2503.11345v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -24695,7 +24695,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2503.11172v1",
       "journal_ref": null,
       "doi": null,
       "comment": "12 pages, 8 figures",
@@ -24811,7 +24811,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2503.10604v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -24851,7 +24851,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2503.10437v2",
       "journal_ref": null,
       "doi": null,
       "comment": "CVPR 2025. Project Page: https://4d-langsplat.github.io",
@@ -24978,7 +24978,7 @@
         "cs.RO"
       ],
       "primary_category": "cs.AI",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2503.09447v3",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -25105,7 +25105,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2503.08485v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -25151,7 +25151,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2503.08135v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -25612,7 +25612,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2503.06179v3",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -25649,7 +25649,7 @@
         "cs.AI"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2503.06161v1",
       "journal_ref": null,
       "doi": null,
       "comment": "14 pages, 5 figures",
@@ -26001,7 +26001,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2503.04034v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -26225,7 +26225,7 @@
         "cs.AI"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2503.01646v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -26271,7 +26271,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2503.00746v3",
       "journal_ref": null,
       "doi": null,
       "comment": "CVPR 2025",
@@ -26436,7 +26436,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2502.20389v2",
       "journal_ref": null,
       "doi": null,
       "comment": "Project page: https://liftgs.github.io",
@@ -26569,7 +26569,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2502.19782v1",
       "journal_ref": null,
       "doi": null,
       "comment": "3DV 2025",
@@ -26739,7 +26739,7 @@
         "cs.RO"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2502.18041v6",
       "journal_ref": null,
       "doi": null,
       "comment": "20 pages, 11 figures",
@@ -26940,7 +26940,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2502.16652v1",
       "journal_ref": null,
       "doi": null,
       "comment": "20 pages",
@@ -27130,7 +27130,7 @@
         "cs.RO"
       ],
       "primary_category": "cs.RO",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2502.15309v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -27213,7 +27213,7 @@
         "cs.RO"
       ],
       "primary_category": "cs.RO",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2502.14931v2",
       "journal_ref": null,
       "doi": null,
       "comment": "18 pages. Under review",
@@ -28416,7 +28416,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2502.00173v1",
       "journal_ref": null,
       "doi": null,
       "comment": "Accepted to WACV 2025",
@@ -28647,7 +28647,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2501.15096v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -28725,7 +28725,7 @@
         "cs.RO"
       ],
       "primary_category": "cs.RO",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2501.14147v2",
       "journal_ref": null,
       "doi": "10.1109/LRA.2025.3575235",
       "comment": null,
@@ -29411,7 +29411,7 @@
         "cs.AI"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2501.03229v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -29647,7 +29647,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2501.01677v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -29687,7 +29687,7 @@
         "cs.RO"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2501.01119v1",
       "journal_ref": null,
       "doi": null,
       "comment": "18 pages, 10 figures",
@@ -29819,7 +29819,7 @@
         "cs.RO"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2501.00352v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -29870,7 +29870,7 @@
         "cs.LG"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2501.00326v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -30102,7 +30102,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2412.19142v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -30255,7 +30255,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2412.17635v2",
       "journal_ref": null,
       "doi": null,
       "comment": "\\url{https://langsurf.github.io}",
@@ -30375,7 +30375,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2412.16932v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -30423,7 +30423,7 @@
         "math.GT"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2412.16619v4",
       "journal_ref": null,
       "doi": null,
       "comment": "18 pages, 12 figures, includes appendix. Accepted as oral presentation at AAAI 2025 (Conference on Artificial Intelligence). Official conference version: 10 pages, 6 figures. ISBN (Print): 978-1-57735-897-8. Conference website: https://aaai.org/conference/aaai/aaai-25/",
@@ -30540,7 +30540,7 @@
         "cs.RO"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2412.15447v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -30615,7 +30615,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2412.13654v2",
       "journal_ref": null,
       "doi": null,
       "comment": "Project page: https://pz0826.github.io/GAGS-Webpage/",
@@ -30735,7 +30735,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2412.13193v2",
       "journal_ref": null,
       "doi": null,
       "comment": "CVPR 2025",
@@ -31036,7 +31036,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2412.10972v2",
       "journal_ref": null,
       "doi": null,
       "comment": "To be published in CVPR Workshop on Open-World 3D Scene Understanding with Foundation Models",
@@ -31167,7 +31167,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2412.10231v1",
       "journal_ref": null,
       "doi": null,
       "comment": "13 pages, 8 figures",
@@ -31451,7 +31451,7 @@
         "cs.HC"
       ],
       "primary_category": "cs.HC",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2412.09176v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -31490,7 +31490,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2412.08331v3",
       "journal_ref": null,
       "doi": null,
       "comment": "Accepted by ACM MM 2025. Project page: https://chenkangjie1123.github.io/SLGaussian.github.io/",
@@ -32288,7 +32288,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.RO",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2412.02249v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -32325,7 +32325,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2412.02245v2",
       "journal_ref": null,
       "doi": null,
       "comment": "Project Page: https://ustc3dv.github.io/SparseLGS",
@@ -32447,7 +32447,7 @@
         "cs.LG"
       ],
       "primary_category": "cs.RO",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2412.02140v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -32520,7 +32520,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2412.01807v2",
       "journal_ref": null,
       "doi": null,
       "comment": "Project Page: https://insait-institute.github.io/OccamLGS/",
@@ -32612,7 +32612,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2412.01217v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -32689,7 +32689,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2412.00734v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -32770,7 +32770,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2412.00392v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -32893,7 +32893,7 @@
         "cs.LG"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2411.19551v2",
       "journal_ref": null,
       "doi": null,
       "comment": "Accepted to AAAI25",
@@ -33014,7 +33014,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2411.19290v1",
       "journal_ref": null,
       "doi": null,
       "comment": "Project page https://yunjinli.github.io/project-sadg",
@@ -33060,7 +33060,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2411.19235v2",
       "journal_ref": null,
       "doi": null,
       "comment": "14 pages, accepted by CVPR 2025 as poster",
@@ -33104,7 +33104,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2411.18667v1",
       "journal_ref": null,
       "doi": null,
       "comment": "14 pages, 4 figures, 15 tables",
@@ -33142,7 +33142,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2411.18066v2",
       "journal_ref": null,
       "doi": null,
       "comment": "Technical Report",
@@ -33555,7 +33555,7 @@
         "cs.RO"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2411.15043v3",
       "journal_ref": null,
       "doi": "10.1109/LRA.2025.3617736",
       "comment": "Accepted for IEEE Robotics and Automation Letters",
@@ -33727,7 +33727,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2411.13753v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -33882,7 +33882,7 @@
         "cs.RO"
       ],
       "primary_category": "cs.RO",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2411.12185v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -33919,7 +33919,7 @@
         "cs.GR"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2411.12168v2",
       "journal_ref": null,
       "doi": null,
       "comment": "10 pages, 9 figures, project page: https://tianhaoxie.github.io/project/gs_deform/",
@@ -34614,7 +34614,7 @@
         "cs.AI"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2411.03807v3",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -34772,7 +34772,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.RO",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2411.02547v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -35150,7 +35150,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2410.20723v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -35363,7 +35363,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2410.18956v2",
       "journal_ref": null,
       "doi": null,
       "comment": "Project Website: https://largespatialmodel.github.io",
@@ -35482,7 +35482,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2410.17505v2",
       "journal_ref": null,
       "doi": "10.1109/TIP.2025.3573524",
       "comment": null,
@@ -35570,7 +35570,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.GR",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2410.16978v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -35810,7 +35810,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2410.14462v5",
       "journal_ref": null,
       "doi": null,
       "comment": "Published at ICCV 2025. Project page: https://juliettemarrie.github.io/ludvig",
@@ -36714,7 +36714,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2410.07577v2",
       "journal_ref": null,
       "doi": null,
       "comment": "Accepted at ICLR 2025. Main paper + supplementary material",
@@ -37036,7 +37036,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.RO",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2410.04680v4",
       "journal_ref": null,
       "doi": null,
       "comment": "To appear in International Conference on Robotics and Automation (ICRA) 2025",
@@ -37852,7 +37852,7 @@
         "cs.RO"
       ],
       "primary_category": "cs.RO",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2409.18108v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -37973,7 +37973,7 @@
         "cs.GR"
       ],
       "primary_category": "cs.RO",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2409.16944v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -38137,7 +38137,7 @@
         "cs.GR"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2409.15959v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -38812,7 +38812,7 @@
         "cs.MM"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2409.08270v1",
       "journal_ref": null,
       "doi": null,
       "comment": "ECCV'2024",
@@ -38971,7 +38971,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2409.04963v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -39121,7 +39121,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2409.03213v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -39931,7 +39931,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2409.05868v1",
       "journal_ref": null,
       "doi": "10.1145/3664647.3681059",
       "comment": "9 pages,6 figures, 5 tables, ACM Multimedia 2024",
@@ -40138,7 +40138,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2408.10906v2",
       "journal_ref": null,
       "doi": null,
       "comment": "Accepted as 3DV'25 Oral, project page: https://unique1i.github.io/ShapeSplat_webpage/",
@@ -40295,7 +40295,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2408.09665v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -40332,7 +40332,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2408.07416v3",
       "journal_ref": null,
       "doi": null,
       "comment": "AAAI 2025. Project page: https://hyunji12.github.io/Open3DRF",
@@ -40454,7 +40454,7 @@
         "cs.GR"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2408.06975v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -40638,7 +40638,7 @@
         "cs.RO"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2408.03516v3",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -40755,7 +40755,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2408.01269v1",
       "journal_ref": "ACM MM 2024",
       "doi": null,
       "comment": null,
@@ -41762,7 +41762,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2407.05254v1",
       "journal_ref": null,
       "doi": null,
       "comment": "ECCV 2024",
@@ -41802,7 +41802,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2407.04504v2",
       "journal_ref": null,
       "doi": null,
       "comment": "22 pages",
@@ -42007,7 +42007,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2407.01220v3",
       "journal_ref": null,
       "doi": null,
       "comment": "15 pages, 9 figures, Code:https://github.com/keloee/MaskField",
@@ -42253,7 +42253,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2406.16073v1",
       "journal_ref": null,
       "doi": null,
       "comment": "Accepted by MICCAI 2024. Project page: https://lgs-endo.github.io/",
@@ -42520,7 +42520,7 @@
         "cs.GR"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2406.10373v1",
       "journal_ref": null,
       "doi": null,
       "comment": "15 pages, 7 figures",
@@ -43080,7 +43080,7 @@
         "cs.RO"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2406.02058v2",
       "journal_ref": null,
       "doi": null,
       "comment": "NeurIPS2024",
@@ -43170,7 +43170,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2406.01916v4",
       "journal_ref": null,
       "doi": null,
       "comment": "This paper is accepted to AAAI 2025",
@@ -43727,7 +43727,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2405.18033v2",
       "journal_ref": null,
       "doi": null,
       "comment": "Accepted paper at BMVC 2024",
@@ -43808,7 +43808,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2405.17891v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -43847,7 +43847,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2405.17596v2",
       "journal_ref": null,
       "doi": null,
       "comment": "Our project page is available at https://quyans.github.io/GOI-Hyperplane/",
@@ -44047,7 +44047,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2405.16923v2",
       "journal_ref": null,
       "doi": null,
       "comment": "Might need more comparison, will be add later",
@@ -44276,7 +44276,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2405.15118v2",
       "journal_ref": null,
       "doi": null,
       "comment": "Accepted by NeurIPS 2024, 3DGS steganography",
@@ -44353,7 +44353,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2405.14455v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -44617,7 +44617,7 @@
         "cs.IT"
       ],
       "primary_category": "cs.IT",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2405.12155v2",
       "journal_ref": null,
       "doi": null,
       "comment": "16 pages,7 figures",
@@ -45198,7 +45198,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.RO",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2405.04378v4",
       "journal_ref": null,
       "doi": null,
       "comment": "https://splatmover.github.io",
@@ -45817,7 +45817,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2404.14249v2",
       "journal_ref": null,
       "doi": null,
       "comment": "ACM TOMM 2025",
@@ -46124,7 +46124,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2404.08966v2",
       "journal_ref": null,
       "doi": null,
       "comment": "10 pages",
@@ -47258,7 +47258,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2403.15704v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -47295,7 +47295,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2403.15624v2",
       "journal_ref": null,
       "doi": null,
       "comment": "Project page: see https://semantic-gaussians.github.io",
@@ -47735,7 +47735,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2403.11273v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -48144,7 +48144,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.RO",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2403.07494v4",
       "journal_ref": null,
       "doi": null,
       "comment": "IROS 2025",
@@ -49346,7 +49346,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2402.06390v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -49383,7 +49383,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2402.06198v2",
       "journal_ref": null,
       "doi": null,
       "comment": "The content of the technical report needs to be updated and retracted to avoid other impacts",
@@ -49737,7 +49737,7 @@
         "cs.RO"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2402.03246v6",
       "journal_ref": "European Conference on Computer Vision (ECCV) 2024",
       "doi": "10.1007/978-3-031-72751-1_10",
       "comment": null,
@@ -49822,7 +49822,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2401.17857v4",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -49989,7 +49989,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.HC",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2401.16663v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -50566,7 +50566,7 @@
         "cs.AI"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2401.05925v4",
       "journal_ref": null,
       "doi": null,
       "comment": "16 pages, 9 figures, correct writing details",
@@ -50681,7 +50681,7 @@
         "cs.MM"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2401.03890v8",
       "journal_ref": null,
       "doi": null,
       "comment": "Ongoing project; Paper list: https://github.com/guikunchen/Awesome3DGS ; Benchmark: https://github.com/guikunchen/3DGS-Benchmarks",
@@ -50912,7 +50912,7 @@
         "cs.AI"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2401.01970v2",
       "journal_ref": null,
       "doi": null,
       "comment": "Project page: https://xingxingzuo.github.io/fmgs",
@@ -51310,7 +51310,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2312.16084v2",
       "journal_ref": null,
       "doi": null,
       "comment": "CVPR 2024. Project Page: https://langsplat.github.io",
@@ -51356,7 +51356,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2312.16047v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -52040,7 +52040,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2312.03203v3",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -52194,7 +52194,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2312.00860v3",
       "journal_ref": null,
       "doi": null,
       "comment": "AAAI-25. Project page: https://jumpat.github.io/SAGA",
@@ -52238,7 +52238,7 @@
         "cs.AI"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2312.00732v2",
       "journal_ref": null,
       "doi": null,
       "comment": "ECCV 2024. Gaussian Grouping extends Gaussian Splatting to fine-grained open-world 3D scene understanding. Github: https://github.com/lkeab/gaussian-grouping",
@@ -52400,7 +52400,7 @@
         "cs.GR"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2311.18482v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -52596,7 +52596,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2311.14521v4",
       "journal_ref": null,
       "doi": null,
       "comment": "Project Page: https://buaacyw.github.io/gaussian-editor/ Code: https://github.com/buaacyw/GaussianEditor",
@@ -67951,7 +67951,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2503.22430v1",
       "journal_ref": null,
       "doi": null,
       "comment": "CVPR 2025",
@@ -68442,7 +68442,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2501.08643v2",
       "journal_ref": null,
       "doi": null,
       "comment": "MonSter++: Unified Stereo Matching, Multi-view Stereo, and Real-time Stereo with Monodepth Priors, is the extended journal version of our earlier conference paper (arXiv:2501.08643) accepted to CVPR 2025",
@@ -70084,7 +70084,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2405.17140v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -70533,7 +70533,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2404.13541v1",
       "journal_ref": null,
       "doi": null,
       "comment": "Accepted to CVPR 2024. Project page URL: https://jinwonjoon.github.io/stereonerf/",
@@ -70756,7 +70756,7 @@
         "cs.AI"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2404.02225v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -73675,7 +73675,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2210.11467v1",
       "journal_ref": null,
       "doi": null,
       "comment": "IROS 2022. First two authors contributed equally. Project page: https://github.com/andreaconti/multi-view-guided-multi-view-stereo",
@@ -77475,7 +77475,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2011.14761v1",
       "journal_ref": null,
       "doi": null,
       "comment": "7 pages, 6 figures, 1 table. Accepted to ICMV 2020",
@@ -78713,7 +78713,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/1912.11744v1",
       "journal_ref": null,
       "doi": null,
       "comment": "Accepted by AAAI-2020",
@@ -78934,7 +78934,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/1911.10444v3",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -79476,7 +79476,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/1904.08103v1",
       "journal_ref": null,
       "doi": null,
       "comment": "Accepted by CVPR2019",
@@ -96947,7 +96947,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2412.03079v2",
       "journal_ref": null,
       "doi": null,
       "comment": "Project Page: https://igl-hkust.github.io/Align3R.github.io/",
@@ -106554,7 +106554,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2404.14908v1",
       "journal_ref": null,
       "doi": null,
       "comment": "Accepted to CVPR2024",
@@ -115134,7 +115134,7 @@
         "eess.IV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2310.00011v1",
       "journal_ref": null,
       "doi": "10.1007/s11063-023-11325-x",
       "comment": null,
@@ -122332,7 +122332,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2212.11741v1",
       "journal_ref": null,
       "doi": null,
       "comment": "10 pages, 13 figures",
@@ -125849,7 +125849,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2208.12653v2",
       "journal_ref": null,
       "doi": null,
       "comment": "18 pages, 11 figures",
@@ -129342,7 +129342,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2205.01399v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -131739,7 +131739,7 @@
         "cs.CV"
       ],
       "primary_category": "eess.IV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2201.04485v1",
       "journal_ref": "Computer Methods in Biomechanics and Biomedical Engineering: Imaging & Visualization, 2021",
       "doi": "10.1080/21681163.2021.2012835",
       "comment": "Accepted paper as an oral presentation at Joint MICCAI workshop 2021, AE-CAI/CARE/OR2.0",
@@ -131781,7 +131781,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2109.11573v1",
       "journal_ref": null,
       "doi": null,
       "comment": null,
@@ -131816,7 +131816,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/2011.11912v1",
       "journal_ref": null,
       "doi": null,
       "comment": "17 pages, 11 figures, 7 tables",
@@ -131850,7 +131850,7 @@
         "cs.CV"
       ],
       "primary_category": "cs.RO",
-      "pdf_url": null,
+      "pdf_url": "https://arxiv.org/pdf/1708.02837v1",
       "journal_ref": null,
       "doi": null,
       "comment": "IROS 2017",
