@@ -1,4 +1,4 @@
-## Updated at 2025-11-14 08:18:11
+## Updated at 2025-11-15 08:21:08
 
 ## 3DGS Semantic
 
@@ -166,7 +166,15 @@ Query: (abs:'Multi-View Stereo' OR abs:'Multi View Stereo' OR abs:'Multi-View De
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-11-13**|**[Depth Anything 3: Recovering the Visual Space from Any Views](https://arxiv.org/abs/2511.10647)**|N/A|https://depth-anything-3.github.io/|cs.CV|None|Haotong Lin et al.|
+|**2025-11-13**|**[OmniVGGT: Omni-Modality Driven Visual Geometry Grounded](https://arxiv.org/abs/2511.10560)**|N/A|Project Page: https://livioni.github.io/OmniVGGT-offcial/|cs.CV|None|Haosong Peng et al.|
+|**2025-11-13**|**[Depth-Consistent 3D Gaussian Splatting via Physical Defocus Modeling and Multi-View Geometric Supervision](https://arxiv.org/abs/2511.10316)**|N/A|None|cs.CV|None|Yu Deng et al.|
+|**2025-11-12**|**[Lumos3D: A Single-Forward Framework for Low-Light 3D Scene Restoration](https://arxiv.org/abs/2511.09818)**|N/A|None|cs.CV|None|Hanzhou Liu et al.|
+|**2025-11-11**|**[RAPTR: Radar-based 3D Pose Estimation using Transformer](https://arxiv.org/abs/2511.08387)**|N/A|26 pages, Accepted to NeurIPS 2025|cs.CV|None|Sorachi Kato et al.|
+|**2025-11-11**|**[WarpGAN: Warping-Guided 3D GAN Inversion with Style-Based Novel View Inpainting](https://arxiv.org/abs/2511.08178)**|N/A|None|cs.CV|None|Kaitao Huang et al.|
+|**2025-11-10**|**[TwinOR: Photorealistic Digital Twins of Dynamic Operating Rooms for Embodied AI Research](https://arxiv.org/abs/2511.07412)**|N/A|None|cs.CV|None|Han Zhang et al.|
 |**2025-11-06**|**[Improving Multi-View Reconstruction via Texture-Guided Gaussian-Mesh Joint Optimization](https://arxiv.org/abs/2511.03950)**|N/A|10 pages|cs.CV|None|Zhejia Cai et al.|
+|**2025-11-05**|**[DentalSplat: Dental Occlusion Novel View Synthesis from Sparse Intra-Oral Photographs](https://arxiv.org/abs/2511.03099)**|N/A|None|cs.CV|None|Yiyi Miao et al.|
 |**2025-11-03**|**[MVSMamba: Multi-View Stereo with State Space Model](https://arxiv.org/abs/2511.01315)**|N/A|Accepted by NeurIPS 2025|cs.CV|None|Jianfei Jiang et al.|
 |**2025-10-12**|**[WorldMirror: Universal 3D World Reconstruction with Any-Prior Prompting](https://arxiv.org/abs/2510.10726)**|N/A|Project page, code, and models will be publicly available soon|cs.CV|None|Yifan Liu et al.|
 |**2025-10-10**|**[Visibility-Aware Densification for 3D Gaussian Splatting in Dynamic Urban Scenes](https://arxiv.org/abs/2510.09364)**|N/A|None|cs.CV|None|Yikang Zhang, Rui Fan|
@@ -571,6 +579,16 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-11-13**|**[Depth Anything 3: Recovering the Visual Space from Any Views](https://arxiv.org/abs/2511.10647)**|N/A|https://depth-anything-3.github.io/|cs.CV|None|Haotong Lin et al.|
+|**2025-11-13**|**[OmniVGGT: Omni-Modality Driven Visual Geometry Grounded](https://arxiv.org/abs/2511.10560)**|N/A|Project Page: https://livioni.github.io/OmniVGGT-offcial/|cs.CV|None|Haosong Peng et al.|
+|**2025-11-13**|**[Depth-Consistent 3D Gaussian Splatting via Physical Defocus Modeling and Multi-View Geometric Supervision](https://arxiv.org/abs/2511.10316)**|N/A|None|cs.CV|None|Yu Deng et al.|
+|**2025-11-13**|**[RobIA: Robust Instance-aware Continual Test-time Adaptation for Deep Stereo](https://arxiv.org/abs/2511.10107)**|N/A|Accepted by Neural Information Processing Systems (NeurIPS) 2025|cs.CV|None|Jueun Ko et al.|
+|**2025-11-12**|**[PALMS+: Modular Image-Based Floor Plan Localization Leveraging Depth Foundation Model](https://arxiv.org/abs/2511.09724)**|N/A|Accepted to IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2026, Application Track. Main paper: 8 pages, 5 figures. Supplementary material included|cs.CV|None|Yunqian Cheng et al.|
+|**2025-11-12**|**[PIFF: A Physics-Informed Generative Flow Model for Real-Time Flood Depth Mapping](https://arxiv.org/abs/2511.09130)**|N/A|None|cs.CV|None|ChunLiang Wu et al.|
+|**2025-11-11**|**[Adaptive graph Kolmogorov-Arnold network for 3D human pose estimation](https://arxiv.org/abs/2511.08809)**|N/A|None|cs.CV|None|Abu Taib Mohammed Shahjahan, A. Ben Hamza|
+|**2025-11-11**|**[RAPTR: Radar-based 3D Pose Estimation using Transformer](https://arxiv.org/abs/2511.08387)**|N/A|26 pages, Accepted to NeurIPS 2025|cs.CV|None|Sorachi Kato et al.|
+|**2025-11-11**|**[Top2Ground: A Height-Aware Dual Conditioning Diffusion Model for Robust Aerial-to-Ground View Generation](https://arxiv.org/abs/2511.08258)**|N/A|None|cs.CV|None|Jae Joong Lee, Bedrich Benes|
+|**2025-11-11**|**[WEDepth: Efficient Adaptation of World Knowledge for Monocular Depth Estimation](https://arxiv.org/abs/2511.08036)**|N/A|None|cs.CV|None|Gongshu Wang et al.|
 |**2025-11-09**|**[Temporal-Guided Visual Foundation Models for Event-Based Vision](https://arxiv.org/abs/2511.06238)**|N/A|None|cs.CV|None|Ruihao Xia et al.|
 |**2025-11-08**|**[Light-Field Dataset for Disparity Based Depth Estimation](https://arxiv.org/abs/2511.05866)**|N/A|This paper has been accepted to ACM ICVGIP 2025|cs.CV|None|Suresh Nehra et al.|
 |**2025-11-07**|**[No Pose Estimation? No Problem: Pose-Agnostic and Instance-Aware Test-Time Adaptation for Monocular Depth Estimation](https://arxiv.org/abs/2511.05055)**|N/A|None|cs.CV|None|Mingyu Sung et al.|
