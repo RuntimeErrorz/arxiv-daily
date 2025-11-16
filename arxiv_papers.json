@@ -1399,7 +1399,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-11-09",
+        "queried_at": "2025-11-16",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -1512,7 +1512,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-11-09",
+        "queried_at": "2025-11-16",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -1858,7 +1858,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-11-09",
+        "queried_at": "2025-11-16",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -1902,7 +1902,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-11-09",
+        "queried_at": "2025-11-16",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -1948,7 +1948,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-11-09",
+        "queried_at": "2025-11-16",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -2181,7 +2181,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-11-09",
+        "queried_at": "2025-11-16",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -2384,7 +2384,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-11-09",
+        "queried_at": "2025-11-16",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -2736,7 +2736,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-11-09",
+        "queried_at": "2025-11-16",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -3239,7 +3239,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-11-09",
+        "queried_at": "2025-11-16",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -3475,7 +3475,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-11-09",
+        "queried_at": "2025-11-16",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -3797,7 +3797,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-11-09",
+        "queried_at": "2025-11-16",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -4681,11 +4681,10 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-11-09",
-        "venue": null,
-        "pub_type": null,
-        "publisher": null,
-        "note": "已查询但未找到venue信息"
+        "queried_at": "2025-11-16",
+        "venue": "arXiv.org",
+        "pub_type": "JournalArticle",
+        "publisher": null
       }
     },
     "2510.08425": {
@@ -5456,11 +5455,10 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-11-09",
-        "venue": null,
-        "pub_type": null,
-        "publisher": null,
-        "note": "已查询但未找到venue信息"
+        "queried_at": "2025-11-16",
+        "venue": "arXiv.org",
+        "pub_type": "JournalArticle",
+        "publisher": null
       }
     },
     "2510.04649": {
@@ -5758,11 +5756,10 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-11-09",
-        "venue": null,
-        "pub_type": null,
-        "publisher": null,
-        "note": "已查询但未找到venue信息"
+        "queried_at": "2025-11-16",
+        "venue": "arXiv.org",
+        "pub_type": "JournalArticle",
+        "publisher": null
       }
     },
     "2510.02174": {
@@ -7672,7 +7669,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-11-09",
+        "queried_at": "2025-11-16",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -19352,7 +19349,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-11-09",
+        "queried_at": "2025-11-16",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -26882,7 +26879,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-11-09",
+        "queried_at": "2025-11-16",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -28213,7 +28210,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-11-09",
+        "queried_at": "2025-11-16",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -29647,7 +29644,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-11-09",
+        "queried_at": "2025-11-16",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -34297,7 +34294,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-11-09",
+        "queried_at": "2025-11-16",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -51599,7 +51596,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-11-09",
+        "queried_at": "2025-11-16",
         "venue": null,
         "pub_type": null,
         "publisher": null,

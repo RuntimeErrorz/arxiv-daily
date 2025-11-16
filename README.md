@@ -1,4 +1,4 @@
-## Updated at 2025-11-16 08:19:25
+## Updated at 2025-11-16 10:38:34
 
 ## 3DGS Semantic
 
@@ -19,9 +19,9 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2025-10-23**|**[COS3D: Collaborative Open-Vocabulary 3D Segmentation](https://arxiv.org/abs/2510.20238)**|N/A|NeurIPS 2025. The code is publicly available at \href{https://github.com/Runsong123/COS3D}{https://github.com/Runsong123/COS3D}|cs.CV|None|Runsong Zhu et al.|
 |**2025-10-21**|**[OpenInsGaussian: Open-vocabulary Instance Gaussian Segmentation with Context-aware Cross-view Fusion](https://arxiv.org/abs/2510.18253)**|N/A|None|cs.CV|None|Tianyu Huang et al.|
 |**2025-10-18**|**[REALM: An MLLM-Agent Framework for Open World 3D Reasoning Segmentation and Editing on Gaussian Splatting](https://arxiv.org/abs/2510.16410)**|N/A|None|cs.CV|None|Changyue Shi et al.|
-|**2025-10-10**|**[Mono4DEditor: Text-Driven 4D Scene Editing from Monocular Video via Point-Level Localization of Language-Embedded Gaussians](https://arxiv.org/abs/2510.09438)**|N/A|19 pages, 9 figures|cs.CV|None|Jin-Chuan Shi et al.|
-|**2025-10-06**|**[Progressive Gaussian Transformer with Anisotropy-aware Sampling for Open Vocabulary Occupancy Prediction](https://arxiv.org/abs/2510.04759)**|N/A|Project Page: https://yanchi-3dv.github.io/PG-Occ|cs.CV|None|Chi Yan, Dan Xu|
-|**2025-10-02**|**[SIMSplat: Predictive Driving Scene Editing with Language-aligned 4D Gaussian Splatting](https://arxiv.org/abs/2510.02469)**|N/A|None|cs.RO|None|Sung-Yeon Park et al.|
+|**2025-10-10**|**[Mono4DEditor: Text-Driven 4D Scene Editing from Monocular Video via Point-Level Localization of Language-Embedded Gaussians](https://arxiv.org/abs/2510.09438)**|arXiv.org|19 pages, 9 figures|cs.CV|None|Jin-Chuan Shi et al.|
+|**2025-10-06**|**[Progressive Gaussian Transformer with Anisotropy-aware Sampling for Open Vocabulary Occupancy Prediction](https://arxiv.org/abs/2510.04759)**|arXiv.org|Project Page: https://yanchi-3dv.github.io/PG-Occ|cs.CV|None|Chi Yan, Dan Xu|
+|**2025-10-02**|**[SIMSplat: Predictive Driving Scene Editing with Language-aligned 4D Gaussian Splatting](https://arxiv.org/abs/2510.02469)**|arXiv.org|None|cs.RO|None|Sung-Yeon Park et al.|
 |**2025-09-28**|**[CrashSplat: 2D to 3D Vehicle Damage Segmentation in Gaussian Splatting](https://arxiv.org/abs/2509.23947)**|arXiv.org|None|cs.CV|None|Dragoş-Andrei Chileban et al.|
 |**2025-09-26**|**[Polysemous Language Gaussian Splatting via Matching-based Mask Lifting](https://arxiv.org/abs/2509.22225)**|arXiv.org|None|cs.CV|None|Jiayu Ding et al.|
 |**2025-09-22**|**[Distributed Stochastic Optimization under Heavy-Tailed Noise: A Federated Mirror Descent Approach with High Probability Convergence](https://arxiv.org/abs/2509.17659)**|N/A|None|math.OC|None|Zhan Yu et al.|
