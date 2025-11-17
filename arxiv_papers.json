@@ -1,5 +1,115 @@
 {
   "3DGS Semantic": {
+    "2511.11213": {
+      "title": "RealisticDreamer: Guidance Score Distillation for Few-shot Gaussian Splatting",
+      "authors": [
+        "Ruocheng Wu",
+        "Haolan He",
+        "Yufei Wang",
+        "Zhihao Li",
+        "Bihan Wen"
+      ],
+      "published": "2025-11-14T12:11:23+00:00",
+      "updated": "2025-11-14T12:11:23+00:00",
+      "summary": "3D Gaussian Splatting (3DGS) has recently gained great attention in the 3D scene representation for its high-quality real-time rendering capabilities. However, when the input comprises sparse training views, 3DGS is prone to overfitting, primarily due to the lack of intermediate-view supervision. Inspired by the recent success of Video Diffusion Models (VDM), we propose a framework called Guidance Score Distillation (GSD) to extract the rich multi-view consistency priors from pretrained VDMs. Building on the insights from Score Distillation Sampling (SDS), GSD supervises rendered images from multiple neighboring views, guiding the Gaussian splatting representation towards the generative direction of VDM. However, the generative direction often involves object motion and random camera trajectories, making it challenging for direct supervision in the optimization process. To address this problem, we introduce an unified guidance form to correct the noise prediction result of VDM. Specifically, we incorporate both a depth warp guidance based on real depth maps and a guidance based on semantic image features, ensuring that the score update direction from VDM aligns with the correct camera pose and accurate geometry. Experimental results show that our method outperforms existing approaches across multiple datasets.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.11213v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.11213v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.11213v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.11213v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.10993": {
+      "title": "CLUE: Controllable Latent space of Unprompted Embeddings for Diversity Management in Text-to-Image Synthesis",
+      "authors": [
+        "Keunwoo Park",
+        "Jihye Chae",
+        "Joong Ho Ahn",
+        "Jihoon Kweon"
+      ],
+      "published": "2025-11-14T06:30:58+00:00",
+      "updated": "2025-11-14T06:30:58+00:00",
+      "summary": "Text-to-image synthesis models require the ability to generate diverse images while maintaining stability. To overcome this challenge, a number of methods have been proposed, including the collection of prompt-image datasets and the integration of additional data modalities during training. Although these methods have shown promising results in general domains, they face limitations when applied to specialized fields such as medicine, where only limited types and insufficient amounts of data are available. We present CLUE (Controllable Latent space of Unprompted Embeddings), a generative model framework that achieves diverse generation while maintaining stability through fixed-format prompts without requiring any additional data. Based on the Stable Diffusion architecture, CLUE employs a Style Encoder that processes images and prompts to generate style embeddings, which are subsequently fed into a new second attention layer of the U-Net architecture. Through Kullback-Leibler divergence, the latent space achieves continuous representation of image features within Gaussian regions, independent of prompts. Performance was assessed on otitis media dataset. CLUE reduced FID to 9.30 (vs. 46.81) and improved recall to 70.29% (vs. 49.60%). A classifier trained on synthetic-only data at 1000% scale achieved an F1 score of 83.21% (vs. 73.83%). Combining synthetic data with equal amounts of real data achieved an F1 score of 94.76%, higher than when using only real data. On an external dataset, synthetic-only training achieved an F1 score of 76.77% (vs. 60.61%) at 1000% scale. The combined approach achieved an F1 score of 85.78%, higher than when using only the internal dataset. These results demonstrate that CLUE enables diverse yet stable image generation from limited datasets and serves as an effective data augmentation method for domain-specific applications.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.10993v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.10993v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.10993v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.10993v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.10974": {
+      "title": "Preserving Cross-Modal Consistency for CLIP-based Class-Incremental Learning",
+      "authors": [
+        "Haoran Chen",
+        "Houze Xu",
+        "Micah Goldblum",
+        "Daoguo Dong",
+        "Zuxuan Wu"
+      ],
+      "published": "2025-11-14T05:36:36+00:00",
+      "updated": "2025-11-14T05:36:36+00:00",
+      "summary": "Class-incremental learning (CIL) enables models to continuously learn new categories from sequential tasks without forgetting previously acquired knowledge. While recent advances in vision-language models such as CLIP have demonstrated strong generalization across domains, extending them to continual settings remains challenging. In particular, learning task-specific soft prompts for newly introduced classes often leads to severe classifier bias, as the text prototypes overfit to recent categories when prior data are unavailable. In this paper, we propose DMC, a simple yet effective two-stage framework for CLIP-based CIL that decouples the adaptation of the vision encoder and the optimization of textual soft prompts. Each stage is trained with the other frozen, allowing one modality to act as a stable semantic anchor for the other to preserve cross-modal alignment. Furthermore, current CLIP-based CIL approaches typically store class-wise Gaussian statistics for generative replay, yet they overlook the distributional drift that arises when the vision encoder is updated over time. To address this issue, we introduce DMC-OT, an enhanced version of DMC that incorporates an optimal-transport guided calibration strategy to align memory statistics across evolving encoders, along with a task-specific prompting design that enhances inter-task separability. Extensive experiments on CIFAR-100, Imagenet-R, CUB-200, and UCF-101 demonstrate that both DMC and DMC-OT achieve state-of-the-art performance, with DMC-OT further improving accuracy by an average of 1.80%.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.10974v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.10974v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.10974v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.10974v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2511.10316": {
       "title": "Depth-Consistent 3D Gaussian Splatting via Physical Defocus Modeling and Multi-View Geometric Supervision",
       "authors": [
@@ -859,26 +969,26 @@
         "Dan Guo"
       ],
       "published": "2025-11-10T09:51:31+00:00",
-      "updated": "2025-11-10T09:51:31+00:00",
+      "updated": "2025-11-14T07:58:32+00:00",
       "summary": "Spiking Neural Networks (SNNs) become popular due to excellent energy efficiency, yet facing challenges for effective model training. Recent works improve this by introducing knowledge distillation (KD) techniques, with the pre-trained artificial neural networks (ANNs) used as teachers and the target SNNs as students. This is commonly accomplished through a straightforward element-wise alignment of intermediate features and prediction logits from ANNs and SNNs, often neglecting the intrinsic differences between their architectures. Specifically, ANN's outputs exhibit a continuous distribution, whereas SNN's outputs are characterized by sparsity and discreteness. To mitigate this issue, we introduce two innovative KD strategies. Firstly, we propose the Saliency-scaled Activation Map Distillation (SAMD), which aligns the spike activation map of the student SNN with the class-aware activation map of the teacher ANN. Rather than performing KD directly on the raw %and distinct features of ANN and SNN, our SAMD directs the student to learn from saliency activation maps that exhibit greater semantic and distribution consistency. Additionally, we propose a Noise-smoothed Logits Distillation (NLD), which utilizes Gaussian noise to smooth the sparse logits of student SNN, facilitating the alignment with continuous logits from teacher ANN. Extensive experiments on multiple datasets demonstrate the effectiveness of our methods. Code is available~\\footnote{https://github.com/SinoLeu/CKDSNN.git}.",
       "categories": [
         "cs.LG"
       ],
       "primary_category": "cs.LG",
-      "pdf_url": "https://arxiv.org/pdf/2511.06902v1",
+      "pdf_url": "https://arxiv.org/pdf/2511.06902v2",
       "journal_ref": null,
       "doi": null,
       "comment": "Accepted by AAAI 2026",
-      "entry_id": "http://arxiv.org/abs/2511.06902v1",
+      "entry_id": "http://arxiv.org/abs/2511.06902v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2511.06902v1",
+          "href": "https://arxiv.org/abs/2511.06902v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2511.06902v1",
+          "href": "https://arxiv.org/pdf/2511.06902v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -5104,26 +5214,26 @@
         "Ayellet Tal"
       ],
       "published": "2025-10-08T14:26:18+00:00",
-      "updated": "2025-10-12T12:22:04+00:00",
+      "updated": "2025-11-14T09:09:16+00:00",
       "summary": "A concept may reflect either a concrete or abstract idea. Given an input image, this paper seeks to retrieve other images that share its central concepts, capturing aspects of the underlying narrative. This goes beyond conventional retrieval or clustering methods, which emphasize visual or semantic similarity. We formally define the problem, outline key requirements, and introduce appropriate evaluation metrics. We propose a novel approach grounded in two key observations: (1) While each neighbor in the embedding space typically shares at least one concept with the query, not all neighbors necessarily share the same concept with one another. (2) Modeling this neighborhood with a bimodal Gaussian distribution uncovers meaningful structure that facilitates concept identification. Qualitative, quantitative, and human evaluations confirm the effectiveness of our approach. See the package on PyPI: https://pypi.org/project/coret/",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2510.07058v2",
+      "pdf_url": "https://arxiv.org/pdf/2510.07058v3",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2510.07058v2",
+      "entry_id": "http://arxiv.org/abs/2510.07058v3",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2510.07058v2",
+          "href": "https://arxiv.org/abs/2510.07058v3",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2510.07058v2",
+          "href": "https://arxiv.org/pdf/2510.07058v3",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -67952,6 +68062,79 @@
     }
   },
   "MVS": {
+    "2511.11563": {
+      "title": "LARM: A Large Articulated-Object Reconstruction Model",
+      "authors": [
+        "Sylvia Yuan",
+        "Ruoxi Shi",
+        "Xinyue Wei",
+        "Xiaoshuai Zhang",
+        "Hao Su",
+        "Minghua Liu"
+      ],
+      "published": "2025-11-14T18:55:27+00:00",
+      "updated": "2025-11-14T18:55:27+00:00",
+      "summary": "Modeling 3D articulated objects with realistic geometry, textures, and kinematics is essential for a wide range of applications. However, existing optimization-based reconstruction methods often require dense multi-view inputs and expensive per-instance optimization, limiting their scalability. Recent feedforward approaches offer faster alternatives but frequently produce coarse geometry, lack texture reconstruction, and rely on brittle, complex multi-stage pipelines. We introduce LARM, a unified feedforward framework that reconstructs 3D articulated objects from sparse-view images by jointly recovering detailed geometry, realistic textures, and accurate joint structures. LARM extends LVSM a recent novel view synthesis (NVS) approach for static 3D objects into the articulated setting by jointly reasoning over camera pose and articulation variation using a transformer-based architecture, enabling scalable and accurate novel view synthesis. In addition, LARM generates auxiliary outputs such as depth maps and part masks to facilitate explicit 3D mesh extraction and joint estimation. Our pipeline eliminates the need for dense supervision and supports high-fidelity reconstruction across diverse object categories. Extensive experiments demonstrate that LARM outperforms state-of-the-art methods in both novel view and state synthesis as well as 3D articulated object reconstruction, generating high-quality meshes that closely adhere to the input images. project page: https://sylviayuan-sy.github.io/larm-site/",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.11563v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "project page: https://sylviayuan-sy.github.io/larm-site/",
+      "entry_id": "http://arxiv.org/abs/2511.11563v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.11563v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.11563v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2511.11213": {
+      "title": "RealisticDreamer: Guidance Score Distillation for Few-shot Gaussian Splatting",
+      "authors": [
+        "Ruocheng Wu",
+        "Haolan He",
+        "Yufei Wang",
+        "Zhihao Li",
+        "Bihan Wen"
+      ],
+      "published": "2025-11-14T12:11:23+00:00",
+      "updated": "2025-11-14T12:11:23+00:00",
+      "summary": "3D Gaussian Splatting (3DGS) has recently gained great attention in the 3D scene representation for its high-quality real-time rendering capabilities. However, when the input comprises sparse training views, 3DGS is prone to overfitting, primarily due to the lack of intermediate-view supervision. Inspired by the recent success of Video Diffusion Models (VDM), we propose a framework called Guidance Score Distillation (GSD) to extract the rich multi-view consistency priors from pretrained VDMs. Building on the insights from Score Distillation Sampling (SDS), GSD supervises rendered images from multiple neighboring views, guiding the Gaussian splatting representation towards the generative direction of VDM. However, the generative direction often involves object motion and random camera trajectories, making it challenging for direct supervision in the optimization process. To address this problem, we introduce an unified guidance form to correct the noise prediction result of VDM. Specifically, we incorporate both a depth warp guidance based on real depth maps and a guidance based on semantic image features, ensuring that the score update direction from VDM aligns with the correct camera pose and accurate geometry. Experimental results show that our method outperforms existing approaches across multiple datasets.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.11213v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.11213v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.11213v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.11213v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2511.10647": {
       "title": "Depth Anything 3: Recovering the Visual Space from Any Views",
       "authors": [
@@ -67992,7 +68175,7 @@
       ]
     },
     "2511.10560": {
-      "title": "OmniVGGT: Omni-Modality Driven Visual Geometry Grounded",
+      "title": "OmniVGGT: Omni-Modality Driven Visual Geometry Grounded Transformer",
       "authors": [
         "Haosong Peng",
         "Hao Li",
@@ -68007,26 +68190,26 @@
         "Ziwei Liu"
       ],
       "published": "2025-11-13T17:59:01+00:00",
-      "updated": "2025-11-13T17:59:01+00:00",
+      "updated": "2025-11-14T04:11:26+00:00",
       "summary": "General 3D foundation models have started to lead the trend of unifying diverse vision tasks, yet most assume RGB-only inputs and ignore readily available geometric cues (e.g., camera intrinsics, poses, and depth maps). To address this issue, we introduce OmniVGGT, a novel framework that can effectively benefit from an arbitrary number of auxiliary geometric modalities during both training and inference. In our framework, a GeoAdapter is proposed to encode depth and camera intrinsics/extrinsics into a spatial foundation model. It employs zero-initialized convolutions to progressively inject geometric information without disrupting the foundation model's representation space. This design ensures stable optimization with negligible overhead, maintaining inference speed comparable to VGGT even with multiple additional inputs. Additionally, a stochastic multimodal fusion regimen is proposed, which randomly samples modality subsets per instance during training. This enables an arbitrary number of modality inputs during testing and promotes learning robust spatial representations instead of overfitting to auxiliary cues. Comprehensive experiments on monocular/multi-view depth estimation, multi-view stereo, and camera pose estimation demonstrate that OmniVGGT outperforms prior methods with auxiliary inputs and achieves state-of-the-art results even with RGB-only input. To further highlight its practical utility, we integrated OmniVGGT into vision-language-action (VLA) models. The enhanced VLA model by OmniVGGT not only outperforms the vanilla point-cloud-based baseline on mainstream benchmarks, but also effectively leverages accessible auxiliary inputs to achieve consistent gains on robotic tasks.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2511.10560v1",
+      "pdf_url": "https://arxiv.org/pdf/2511.10560v2",
       "journal_ref": null,
       "doi": null,
-      "comment": "Project Page: https://livioni.github.io/OmniVGGT-offcial/",
-      "entry_id": "http://arxiv.org/abs/2511.10560v1",
+      "comment": "Project Page: https://livioni.github.io/OmniVGGT-official/",
+      "entry_id": "http://arxiv.org/abs/2511.10560v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2511.10560v1",
+          "href": "https://arxiv.org/abs/2511.10560v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2511.10560v1",
+          "href": "https://arxiv.org/pdf/2511.10560v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -68099,6 +68282,48 @@
         },
         {
           "href": "https://arxiv.org/pdf/2511.09818v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2511.10699": {
+      "title": "DualVision ArthroNav: Investigating Opportunities to Enhance Localization and Reconstruction in Image-based Arthroscopy Navigation via External Cameras",
+      "authors": [
+        "Hongchao Shu",
+        "Lalithkumar Seenivasan",
+        "Mingxu Liu",
+        "Yunseo Hwang",
+        "Yu-Chun Ku",
+        "Jonathan Knopf",
+        "Alejandro Martin-Gomez",
+        "Mehran Armand",
+        "Mathias Unberath"
+      ],
+      "published": "2025-11-12T16:02:34+00:00",
+      "updated": "2025-11-12T16:02:34+00:00",
+      "summary": "Arthroscopic procedures can greatly benefit from navigation systems that enhance spatial awareness, depth perception, and field of view. However, existing optical tracking solutions impose strict workspace constraints and disrupt surgical workflow. Vision-based alternatives, though less invasive, often rely solely on the monocular arthroscope camera, making them prone to drift, scale ambiguity, and sensitivity to rapid motion or occlusion. We propose DualVision ArthroNav, a multi-camera arthroscopy navigation system that integrates an external camera rigidly mounted on the arthroscope. The external camera provides stable visual odometry and absolute localization, while the monocular arthroscope video enables dense scene reconstruction. By combining these complementary views, our system resolves the scale ambiguity and long-term drift inherent in monocular SLAM and ensures robust relocalization. Experiments demonstrate that our system effectively compensates for calibration errors, achieving an average absolute trajectory error of 1.09 mm. The reconstructed scenes reach an average target registration error of 2.16 mm, with high visual fidelity (SSIM = 0.69, PSNR = 22.19). These results indicate that our system provides a practical and cost-efficient solution for arthroscopic navigation, bridging the gap between optical tracking and purely vision-based systems, and paving the way toward clinically deployable, fully vision-based arthroscopic guidance.",
+      "categories": [
+        "eess.IV",
+        "cs.CV",
+        "cs.RO"
+      ],
+      "primary_category": "eess.IV",
+      "pdf_url": "https://arxiv.org/pdf/2511.10699v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.10699v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.10699v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.10699v1",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -83063,6 +83288,80 @@
     }
   },
   "Depth Estimation": {
+    "2511.11563": {
+      "title": "LARM: A Large Articulated-Object Reconstruction Model",
+      "authors": [
+        "Sylvia Yuan",
+        "Ruoxi Shi",
+        "Xinyue Wei",
+        "Xiaoshuai Zhang",
+        "Hao Su",
+        "Minghua Liu"
+      ],
+      "published": "2025-11-14T18:55:27+00:00",
+      "updated": "2025-11-14T18:55:27+00:00",
+      "summary": "Modeling 3D articulated objects with realistic geometry, textures, and kinematics is essential for a wide range of applications. However, existing optimization-based reconstruction methods often require dense multi-view inputs and expensive per-instance optimization, limiting their scalability. Recent feedforward approaches offer faster alternatives but frequently produce coarse geometry, lack texture reconstruction, and rely on brittle, complex multi-stage pipelines. We introduce LARM, a unified feedforward framework that reconstructs 3D articulated objects from sparse-view images by jointly recovering detailed geometry, realistic textures, and accurate joint structures. LARM extends LVSM a recent novel view synthesis (NVS) approach for static 3D objects into the articulated setting by jointly reasoning over camera pose and articulation variation using a transformer-based architecture, enabling scalable and accurate novel view synthesis. In addition, LARM generates auxiliary outputs such as depth maps and part masks to facilitate explicit 3D mesh extraction and joint estimation. Our pipeline eliminates the need for dense supervision and supports high-fidelity reconstruction across diverse object categories. Extensive experiments demonstrate that LARM outperforms state-of-the-art methods in both novel view and state synthesis as well as 3D articulated object reconstruction, generating high-quality meshes that closely adhere to the input images. project page: https://sylviayuan-sy.github.io/larm-site/",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.11563v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "project page: https://sylviayuan-sy.github.io/larm-site/",
+      "entry_id": "http://arxiv.org/abs/2511.11563v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.11563v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.11563v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2511.10991": {
+      "title": "Rethinking Autoregressive Models for Lossless Image Compression via Hierarchical Parallelism and Progressive Adaptation",
+      "authors": [
+        "Daxin Li",
+        "Yuanchao Bai",
+        "Kai Wang",
+        "Wenbo Zhao",
+        "Junjun Jiang",
+        "Xianming Liu"
+      ],
+      "published": "2025-11-14T06:27:58+00:00",
+      "updated": "2025-11-14T06:27:58+00:00",
+      "summary": "Autoregressive (AR) models, the theoretical performance benchmark for learned lossless image compression, are often dismissed as impractical due to prohibitive computational cost. This work re-thinks this paradigm, introducing a framework built on hierarchical parallelism and progressive adaptation that re-establishes pure autoregression as a top-performing and practical solution. Our approach is embodied in the Hierarchical Parallel Autoregressive ConvNet (HPAC), an ultra-lightweight pre-trained model using a hierarchical factorized structure and content-aware convolutional gating to efficiently capture spatial dependencies. We introduce two key optimizations for practicality: Cache-then-Select Inference (CSI), which accelerates coding by eliminating redundant computations, and Adaptive Focus Coding (AFC), which efficiently extends the framework to high bit-depth images. Building on this efficient foundation, our progressive adaptation strategy is realized by Spatially-Aware Rate-Guided Progressive Fine-tuning (SARP-FT). This instance-level strategy fine-tunes the model for each test image by optimizing low-rank adapters on progressively larger, spatially-continuous regions selected via estimated information density. Experiments on diverse datasets (natural, satellite, medical) validate that our method achieves new state-of-the-art compression. Notably, our approach sets a new benchmark in learned lossless compression, showing a carefully designed AR framework can offer significant gains over existing methods with a small parameter count and competitive coding speeds.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.10991v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "15 pages",
+      "entry_id": "http://arxiv.org/abs/2511.10991v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.10991v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.10991v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2511.10647": {
       "title": "Depth Anything 3: Recovering the Visual Space from Any Views",
       "authors": [
@@ -83103,7 +83402,7 @@
       ]
     },
     "2511.10560": {
-      "title": "OmniVGGT: Omni-Modality Driven Visual Geometry Grounded",
+      "title": "OmniVGGT: Omni-Modality Driven Visual Geometry Grounded Transformer",
       "authors": [
         "Haosong Peng",
         "Hao Li",
@@ -83118,26 +83417,26 @@
         "Ziwei Liu"
       ],
       "published": "2025-11-13T17:59:01+00:00",
-      "updated": "2025-11-13T17:59:01+00:00",
+      "updated": "2025-11-14T04:11:26+00:00",
       "summary": "General 3D foundation models have started to lead the trend of unifying diverse vision tasks, yet most assume RGB-only inputs and ignore readily available geometric cues (e.g., camera intrinsics, poses, and depth maps). To address this issue, we introduce OmniVGGT, a novel framework that can effectively benefit from an arbitrary number of auxiliary geometric modalities during both training and inference. In our framework, a GeoAdapter is proposed to encode depth and camera intrinsics/extrinsics into a spatial foundation model. It employs zero-initialized convolutions to progressively inject geometric information without disrupting the foundation model's representation space. This design ensures stable optimization with negligible overhead, maintaining inference speed comparable to VGGT even with multiple additional inputs. Additionally, a stochastic multimodal fusion regimen is proposed, which randomly samples modality subsets per instance during training. This enables an arbitrary number of modality inputs during testing and promotes learning robust spatial representations instead of overfitting to auxiliary cues. Comprehensive experiments on monocular/multi-view depth estimation, multi-view stereo, and camera pose estimation demonstrate that OmniVGGT outperforms prior methods with auxiliary inputs and achieves state-of-the-art results even with RGB-only input. To further highlight its practical utility, we integrated OmniVGGT into vision-language-action (VLA) models. The enhanced VLA model by OmniVGGT not only outperforms the vanilla point-cloud-based baseline on mainstream benchmarks, but also effectively leverages accessible auxiliary inputs to achieve consistent gains on robotic tasks.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2511.10560v1",
+      "pdf_url": "https://arxiv.org/pdf/2511.10560v2",
       "journal_ref": null,
       "doi": null,
-      "comment": "Project Page: https://livioni.github.io/OmniVGGT-offcial/",
-      "entry_id": "http://arxiv.org/abs/2511.10560v1",
+      "comment": "Project Page: https://livioni.github.io/OmniVGGT-official/",
+      "entry_id": "http://arxiv.org/abs/2511.10560v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2511.10560v1",
+          "href": "https://arxiv.org/abs/2511.10560v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2511.10560v1",
+          "href": "https://arxiv.org/pdf/2511.10560v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null

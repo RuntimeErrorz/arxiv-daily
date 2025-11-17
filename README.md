@@ -1,4 +1,4 @@
-## Updated at 2025-11-17 08:18:25
+## Updated at 2025-11-17 20:07:53
 
 ## 3DGS Semantic
 
@@ -166,10 +166,13 @@ Query: (abs:'Multi-View Stereo' OR abs:'Multi View Stereo' OR abs:'Multi-View De
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-11-14**|**[LARM: A Large Articulated-Object Reconstruction Model](https://arxiv.org/abs/2511.11563)**|N/A|project page: https://sylviayuan-sy.github.io/larm-site/|cs.CV|None|Sylvia Yuan et al.|
+|**2025-11-14**|**[RealisticDreamer: Guidance Score Distillation for Few-shot Gaussian Splatting](https://arxiv.org/abs/2511.11213)**|N/A|None|cs.CV|None|Ruocheng Wu et al.|
 |**2025-11-13**|**[Depth Anything 3: Recovering the Visual Space from Any Views](https://arxiv.org/abs/2511.10647)**|N/A|https://depth-anything-3.github.io/|cs.CV|None|Haotong Lin et al.|
-|**2025-11-13**|**[OmniVGGT: Omni-Modality Driven Visual Geometry Grounded](https://arxiv.org/abs/2511.10560)**|N/A|Project Page: https://livioni.github.io/OmniVGGT-offcial/|cs.CV|None|Haosong Peng et al.|
+|**2025-11-13**|**[OmniVGGT: Omni-Modality Driven Visual Geometry Grounded Transformer](https://arxiv.org/abs/2511.10560)**|N/A|Project Page: https://livioni.github.io/OmniVGGT-official/|cs.CV|None|Haosong Peng et al.|
 |**2025-11-13**|**[Depth-Consistent 3D Gaussian Splatting via Physical Defocus Modeling and Multi-View Geometric Supervision](https://arxiv.org/abs/2511.10316)**|N/A|None|cs.CV|None|Yu Deng et al.|
 |**2025-11-12**|**[Lumos3D: A Single-Forward Framework for Low-Light 3D Scene Restoration](https://arxiv.org/abs/2511.09818)**|N/A|None|cs.CV|None|Hanzhou Liu et al.|
+|**2025-11-12**|**[DualVision ArthroNav: Investigating Opportunities to Enhance Localization and Reconstruction in Image-based Arthroscopy Navigation via External Cameras](https://arxiv.org/abs/2511.10699)**|N/A|None|eess.IV|None|Hongchao Shu et al.|
 |**2025-11-11**|**[RAPTR: Radar-based 3D Pose Estimation using Transformer](https://arxiv.org/abs/2511.08387)**|N/A|26 pages, Accepted to NeurIPS 2025|cs.CV|None|Sorachi Kato et al.|
 |**2025-11-11**|**[WarpGAN: Warping-Guided 3D GAN Inversion with Style-Based Novel View Inpainting](https://arxiv.org/abs/2511.08178)**|N/A|None|cs.CV|None|Kaitao Huang et al.|
 |**2025-11-10**|**[TwinOR: Photorealistic Digital Twins of Dynamic Operating Rooms for Embodied AI Research](https://arxiv.org/abs/2511.07412)**|N/A|None|cs.CV|None|Han Zhang et al.|
@@ -579,8 +582,10 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-11-14**|**[LARM: A Large Articulated-Object Reconstruction Model](https://arxiv.org/abs/2511.11563)**|N/A|project page: https://sylviayuan-sy.github.io/larm-site/|cs.CV|None|Sylvia Yuan et al.|
+|**2025-11-14**|**[Rethinking Autoregressive Models for Lossless Image Compression via Hierarchical Parallelism and Progressive Adaptation](https://arxiv.org/abs/2511.10991)**|N/A|15 pages|cs.CV|None|Daxin Li et al.|
 |**2025-11-13**|**[Depth Anything 3: Recovering the Visual Space from Any Views](https://arxiv.org/abs/2511.10647)**|N/A|https://depth-anything-3.github.io/|cs.CV|None|Haotong Lin et al.|
-|**2025-11-13**|**[OmniVGGT: Omni-Modality Driven Visual Geometry Grounded](https://arxiv.org/abs/2511.10560)**|N/A|Project Page: https://livioni.github.io/OmniVGGT-offcial/|cs.CV|None|Haosong Peng et al.|
+|**2025-11-13**|**[OmniVGGT: Omni-Modality Driven Visual Geometry Grounded Transformer](https://arxiv.org/abs/2511.10560)**|N/A|Project Page: https://livioni.github.io/OmniVGGT-official/|cs.CV|None|Haosong Peng et al.|
 |**2025-11-13**|**[Depth-Consistent 3D Gaussian Splatting via Physical Defocus Modeling and Multi-View Geometric Supervision](https://arxiv.org/abs/2511.10316)**|N/A|None|cs.CV|None|Yu Deng et al.|
 |**2025-11-13**|**[RobIA: Robust Instance-aware Continual Test-time Adaptation for Deep Stereo](https://arxiv.org/abs/2511.10107)**|N/A|Accepted by Neural Information Processing Systems (NeurIPS) 2025|cs.CV|None|Jueun Ko et al.|
 |**2025-11-12**|**[PALMS+: Modular Image-Based Floor Plan Localization Leveraging Depth Foundation Model](https://arxiv.org/abs/2511.09724)**|N/A|Accepted to IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2026, Application Track. Main paper: 8 pages, 5 figures. Supplementary material included|cs.CV|None|Yunqian Cheng et al.|
