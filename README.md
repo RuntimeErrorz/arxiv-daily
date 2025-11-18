@@ -1,4 +1,4 @@
-## Updated at 2025-11-18 08:18:13
+## Updated at 2025-11-18 20:08:41
 
 ## 3DGS Semantic
 
@@ -166,6 +166,11 @@ Query: (abs:'Multi-View Stereo' OR abs:'Multi View Stereo' OR abs:'Multi-View De
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-11-17**|**[Training-Free Multi-View Extension of IC-Light for Textual Position-Aware Scene Relighting](https://arxiv.org/abs/2511.13684)**|N/A|Submitting for Neurocomputing|cs.CV|None|Jiangnan Ye et al.|
+|**2025-11-17**|**[SF-Recon: Simplification-Free Lightweight Building Reconstruction via 3D Gaussian Splatting](https://arxiv.org/abs/2511.13278)**|N/A|None|cs.CV|None|Zihan Li et al.|
+|**2025-11-17**|**[Geometry Meets Light: Leveraging Geometric Priors for Universal Photometric Stereo under Limited Multi-Illumination Cues](https://arxiv.org/abs/2511.13015)**|N/A|Accepted by AAAI 2026 (Oral)|cs.CV|None|King-Man Tam et al.|
+|**2025-11-15**|**[CrossVid: A Comprehensive Benchmark for Evaluating Cross-Video Reasoning in Multimodal Large Language Models](https://arxiv.org/abs/2511.12263)**|N/A|30 pages, 28 figures|cs.CV|None|Jingyao Li et al.|
+|**2025-11-15**|**[GeoMVD: Geometry-Enhanced Multi-View Generation Model Based on Geometric Information Extraction](https://arxiv.org/abs/2511.12204)**|N/A|None|cs.CV|None|Jiaqi Wu et al.|
 |**2025-11-14**|**[LARM: A Large Articulated-Object Reconstruction Model](https://arxiv.org/abs/2511.11563)**|N/A|project page: https://sylviayuan-sy.github.io/larm-site/|cs.CV|None|Sylvia Yuan et al.|
 |**2025-11-14**|**[RealisticDreamer: Guidance Score Distillation for Few-shot Gaussian Splatting](https://arxiv.org/abs/2511.11213)**|N/A|None|cs.CV|None|Ruocheng Wu et al.|
 |**2025-11-13**|**[Depth Anything 3: Recovering the Visual Space from Any Views](https://arxiv.org/abs/2511.10647)**|N/A|https://depth-anything-3.github.io/|cs.CV|None|Haotong Lin et al.|
@@ -582,6 +587,9 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-11-17**|**[Training-Free Multi-View Extension of IC-Light for Textual Position-Aware Scene Relighting](https://arxiv.org/abs/2511.13684)**|N/A|Submitting for Neurocomputing|cs.CV|None|Jiangnan Ye et al.|
+|**2025-11-17**|**[Towards Metric-Aware Multi-Person Mesh Recovery by Jointly Optimizing Human Crowd in Camera Space](https://arxiv.org/abs/2511.13282)**|N/A|None|cs.CV|None|Kaiwen Wang et al.|
+|**2025-11-17**|**[Difficulty-Aware Label-Guided Denoising for Monocular 3D Object Detection](https://arxiv.org/abs/2511.13195)**|N/A|AAAI 2026 accepted|cs.CV|None|Soyul Lee et al.|
 |**2025-11-14**|**[LARM: A Large Articulated-Object Reconstruction Model](https://arxiv.org/abs/2511.11563)**|N/A|project page: https://sylviayuan-sy.github.io/larm-site/|cs.CV|None|Sylvia Yuan et al.|
 |**2025-11-14**|**[Rethinking Autoregressive Models for Lossless Image Compression via Hierarchical Parallelism and Progressive Adaptation](https://arxiv.org/abs/2511.10991)**|N/A|15 pages|cs.CV|None|Daxin Li et al.|
 |**2025-11-13**|**[Depth Anything 3: Recovering the Visual Space from Any Views](https://arxiv.org/abs/2511.10647)**|N/A|https://depth-anything-3.github.io/|cs.CV|None|Haotong Lin et al.|

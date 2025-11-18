@@ -1,5 +1,496 @@
 {
   "3DGS Semantic": {
+    "2511.13684": {
+      "title": "Training-Free Multi-View Extension of IC-Light for Textual Position-Aware Scene Relighting",
+      "authors": [
+        "Jiangnan Ye",
+        "Jiedong Zhuang",
+        "Lianrui Mu",
+        "Wenjie Zheng",
+        "Jiaqi Hu",
+        "Xingze Zou",
+        "Jing Wang",
+        "Haoji Hu"
+      ],
+      "published": "2025-11-17T18:37:41+00:00",
+      "updated": "2025-11-17T18:37:41+00:00",
+      "summary": "We introduce GS-Light, an efficient, textual position-aware pipeline for text-guided relighting of 3D scenes represented via Gaussian Splatting (3DGS). GS-Light implements a training-free extension of a single-input diffusion model to handle multi-view inputs. Given a user prompt that may specify lighting direction, color, intensity, or reference objects, we employ a large vision-language model (LVLM) to parse the prompt into lighting priors. Using off-the-shelf estimators for geometry and semantics (depth, surface normals, and semantic segmentation), we fuse these lighting priors with view-geometry constraints to compute illumination maps and generate initial latent codes for each view. These meticulously derived init latents guide the diffusion model to generate relighting outputs that more accurately reflect user expectations, especially in terms of lighting direction. By feeding multi-view rendered images, along with the init latents, into our multi-view relighting model, we produce high-fidelity, artistically relit images. Finally, we fine-tune the 3DGS scene with the relit appearance to obtain a fully relit 3D scene. We evaluate GS-Light on both indoor and outdoor scenes, comparing it to state-of-the-art baselines including per-view relighting, video relighting, and scene editing methods. Using quantitative metrics (multi-view consistency, imaging quality, aesthetic score, semantic similarity, etc.) and qualitative assessment (user studies), GS-Light demonstrates consistent improvements over baselines. Code and assets will be made available upon publication.",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.13684v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Submitting for Neurocomputing",
+      "entry_id": "http://arxiv.org/abs/2511.13684v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.13684v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.13684v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.13502": {
+      "title": "Tight and Practical Privacy Auditing for Differentially Private In-Context Learning",
+      "authors": [
+        "Yuyang Xia",
+        "Ruixuan Liu",
+        "Li Xiong"
+      ],
+      "published": "2025-11-17T15:39:54+00:00",
+      "updated": "2025-11-17T15:39:54+00:00",
+      "summary": "Large language models (LLMs) perform in-context learning (ICL) by adapting to tasks from prompt demonstrations, which in practice often contain private or proprietary data. Although differential privacy (DP) with private voting is a pragmatic mitigation, DP-ICL implementations are error-prone, and worst-case DP bounds may substantially overestimate actual leakage, calling for practical auditing tools. We present a tight and efficient privacy auditing framework for DP-ICL systems that runs membership inference attacks and translates their success rates into empirical privacy guarantees using Gaussian DP. Our analysis of the private voting mechanism identifies vote configurations that maximize the auditing signal, guiding the design of audit queries that reliably reveal whether a canary demonstration is present in the context. The framework supports both black-box (API-only) and white-box (internal vote) threat models, and unifies auditing for classification and generation by reducing both to a binary decision problem. Experiments on standard text classification and generation benchmarks show that our empirical leakage estimates closely match theoretical DP budgets on classification tasks and are consistently lower on generation tasks due to conservative embedding-sensitivity bounds, making our framework a practical privacy auditor and verifier for real-world DP-ICL deployments.",
+      "categories": [
+        "cs.CR"
+      ],
+      "primary_category": "cs.CR",
+      "pdf_url": "https://arxiv.org/pdf/2511.13502v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.13502v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.13502v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.13502v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.13476": {
+      "title": "Multi-Agent Multimodal Large Language Model Framework for Automated Interpretation of Fuel Efficiency Analytics in Public Transportation",
+      "authors": [
+        "Zhipeng Ma",
+        "Ali Rida Bahja",
+        "Andreas Burgdorf",
+        "André Pomp",
+        "Tobias Meisen",
+        "Bo Nørregaard Jørgensen",
+        "Zheng Grace Ma"
+      ],
+      "published": "2025-11-17T15:14:17+00:00",
+      "updated": "2025-11-17T15:14:17+00:00",
+      "summary": "Enhancing fuel efficiency in public transportation requires the integration of complex multimodal data into interpretable, decision-relevant insights. However, traditional analytics and visualization methods often yield fragmented outputs that demand extensive human interpretation, limiting scalability and consistency. This study presents a multi-agent framework that leverages multimodal large language models (LLMs) to automate data narration and energy insight generation. The framework coordinates three specialized agents, including a data narration agent, an LLM-as-a-judge agent, and an optional human-in-the-loop evaluator, to iteratively transform analytical artifacts into coherent, stakeholder-oriented reports. The system is validated through a real-world case study on public bus transportation in Northern Jutland, Denmark, where fuel efficiency data from 4006 trips are analyzed using Gaussian Mixture Model clustering. Comparative experiments across five state-of-the-art LLMs and three prompting paradigms identify GPT-4.1 mini with Chain-of-Thought prompting as the optimal configuration, achieving 97.3% narrative accuracy while balancing interpretability and computational cost. The findings demonstrate that multi-agent orchestration significantly enhances factual precision, coherence, and scalability in LLM-based reporting. The proposed framework establishes a replicable and domain-adaptive methodology for AI-driven narrative generation and decision support in energy informatics.",
+      "categories": [
+        "cs.AI"
+      ],
+      "primary_category": "cs.AI",
+      "pdf_url": "https://arxiv.org/pdf/2511.13476v1",
+      "journal_ref": "Applied Sciences, 2025, 15(21), 11619",
+      "doi": "10.3390/app152111619",
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.13476v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.13476v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.13476v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        },
+        {
+          "href": "https://doi.org/10.3390/app152111619",
+          "title": "doi",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.13358": {
+      "title": "Statistical field theory for a passive vector model with spatially linear advection",
+      "authors": [
+        "Lukas Bentkamp",
+        "Michael Wilczek"
+      ],
+      "published": "2025-11-17T13:25:04+00:00",
+      "updated": "2025-11-17T13:25:04+00:00",
+      "summary": "One challenge in developing a statistical field theory of turbulence is the analysis of the functional equations that govern the complete statistics of the flow field. Simplified models of turbulence may help to develop such a statistical framework. Here, we consider the advection and stretching of an incompressible passive vector field by a spatially linear stochastic field as a model for small-scale turbulence. The model encompasses non-Gaussian statistics due to an intermittent energy flux from large scales to small scales, thereby displaying hallmark features of turbulence. We explore this model using the Hopf functional formalism, which naturally leads to a decomposition of the complex non-Gaussian statistics into Gaussian sub-ensembles based on different realizations of the advecting field. We then characterize intermittency of the model using a numerical implementation, which takes advantage of this statistical decomposition.",
+      "categories": [
+        "physics.flu-dyn"
+      ],
+      "primary_category": "physics.flu-dyn",
+      "pdf_url": "https://arxiv.org/pdf/2511.13358v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.13358v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.13358v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.13358v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.13241": {
+      "title": "Dynamical Networking of Polymer Networks with Dedicated Cross-linker Particles",
+      "authors": [
+        "Nadine du Toit",
+        "Kristian K. Muller-Nedebock",
+        "Giuseppe Pellicane"
+      ],
+      "published": "2025-11-17T11:04:09+00:00",
+      "updated": "2025-11-17T11:04:09+00:00",
+      "summary": "This paper extends a field-theoretical dynamical networking formalism for mesoscopic polymer dynamics to explicitly include dedicated cross-linker particles. Cross-linkers are represented within a Martin-Siggia-Rose generating functional and reversibly coupled to polymers through Gaussian networking fields, enabling an approximation scheme that reduces their degrees of freedom while remaining compatible with polymer dynamics. The framework is applied to a two-species polymer system in which intra- and inter-species cross-linking are assigned different statistical advantages. Effective networking potentials are derived and used to calculate correlation functions and dynamic structure factors. To validate these results, molecular dynamics simulations of semi-flexible polymers with reversible intra- and inter-species cross-linking are performed. Simulations show that cross-linking decreases polymer persistence lengths and local alignment, and the resulting trajectories yield dynamic structure factors consistent with theoretical predictions. In both approaches, cross-linking broadens the diffusive peaks and enhances the high-frequency tails of the structure factors. Together, theory and simulation provide complementary insights into the dynamics of cross-linked polymers, establishing a tractable framework that captures essential features observed in experiments and offering a basis for exploring more complex synthetic and biological networks.",
+      "categories": [
+        "cond-mat.soft"
+      ],
+      "primary_category": "cond-mat.soft",
+      "pdf_url": "https://arxiv.org/pdf/2511.13241v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "21 pages, 12 figures; supplementary information: 8 pages, 7 figures",
+      "entry_id": "http://arxiv.org/abs/2511.13241v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.13241v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.13241v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.13055": {
+      "title": "Monocular 3D Lane Detection via Structure Uncertainty-Aware Network with Curve-Point Queries",
+      "authors": [
+        "Ruixin Liu",
+        "Zejian Yuan"
+      ],
+      "published": "2025-11-17T07:01:10+00:00",
+      "updated": "2025-11-17T07:01:10+00:00",
+      "summary": "Monocular 3D lane detection is challenged by aleatoric uncertainty arising from inherent observation noise. Existing methods rely on simplified geometric assumptions, such as independent point predictions or global planar modeling, failing to capture structural variations and aleatoric uncertainty in real-world scenarios. In this paper, we propose MonoUnc, a bird's-eye view (BEV)-free 3D lane detector that explicitly models aleatoric uncertainty informed by local lane structures. Specifically, 3D lanes are projected onto the front-view (FV) space and approximated by parametric curves. Guided by curve predictions, curve-point query embeddings are dynamically generated for lane point predictions in 3D space. Each segment formed by two adjacent points is modeled as a 3D Gaussian, parameterized by the local structure and uncertainty estimations. Accordingly, a novel 3D Gaussian matching loss is designed to constrain these parameters jointly. Experiments on the ONCE-3DLanes and OpenLane datasets demonstrate that MonoUnc outperforms previous state-of-the-art (SoTA) methods across all benchmarks under stricter evaluation criteria. Additionally, we propose two comprehensive evaluation metrics for ONCE-3DLanes, calculating the average and maximum bidirectional Chamfer distances to quantify global and local errors. Codes are released at https://github.com/lrx02/MonoUnc.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.13055v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.13055v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.13055v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.13055v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.12972": {
+      "title": "SplatSearch: Instance Image Goal Navigation for Mobile Robots using 3D Gaussian Splatting and Diffusion Models",
+      "authors": [
+        "Siddarth Narasimhan",
+        "Matthew Lisondra",
+        "Haitong Wang",
+        "Goldie Nejat"
+      ],
+      "published": "2025-11-17T04:49:28+00:00",
+      "updated": "2025-11-17T04:49:28+00:00",
+      "summary": "The Instance Image Goal Navigation (IIN) problem requires mobile robots deployed in unknown environments to search for specific objects or people of interest using only a single reference goal image of the target. This problem can be especially challenging when: 1) the reference image is captured from an arbitrary viewpoint, and 2) the robot must operate with sparse-view scene reconstructions. In this paper, we address the IIN problem, by introducing SplatSearch, a novel architecture that leverages sparse-view 3D Gaussian Splatting (3DGS) reconstructions. SplatSearch renders multiple viewpoints around candidate objects using a sparse online 3DGS map, and uses a multi-view diffusion model to complete missing regions of the rendered images, enabling robust feature matching against the goal image. A novel frontier exploration policy is introduced which uses visual context from the synthesized viewpoints with semantic context from the goal image to evaluate frontier locations, allowing the robot to prioritize frontiers that are semantically and visually relevant to the goal image. Extensive experiments in photorealistic home and real-world environments validate the higher performance of SplatSearch against current state-of-the-art methods in terms of Success Rate and Success Path Length. An ablation study confirms the design choices of SplatSearch.",
+      "categories": [
+        "cs.RO"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2511.12972v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Project Page: https://splat-search.github.io/",
+      "entry_id": "http://arxiv.org/abs/2511.12972v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.12972v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.12972v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.12418": {
+      "title": "Examining Turbulence in Galactic Molecular Clouds - II: Continuity of Turbulence Cascading in a Portion of the Local Arm",
+      "authors": [
+        "Yuehui Ma",
+        "Miaomiao Zhang",
+        "Hongchi Wang",
+        "Xuepeng Chen",
+        "Zhenyi Yue",
+        "Suziye He",
+        "Xiangyu Ou",
+        "Li Sun"
+      ],
+      "published": "2025-11-16T02:15:51+00:00",
+      "updated": "2025-11-16T02:15:51+00:00",
+      "summary": "We use $^{12}$CO (J=1-0) MWISP data to study turbulence in a segment of the Local Arm. Velocity slices at different kinematic distances show similar spatial power spectra (SPSs) and structure functions (SFs), demonstrating that the entire region forms a single turbulent field with a cascade extending from $\\sim 400$ pc to sub-parsec scales. The SPS slopes of both the intensity and velocity fields exhibit a systematic scale dependence that approaches the values expected from turbulence models. Cloud-to-cloud VSFs follow similar trends to the pixel-by-pixel VSFs in the extended self-similarity (ESS) scaling, indicating that velocity differences among clouds arise from large-scale turbulent motions. Velocity- and intensity-increment maps reveal filamentary, intermittent structures. The PDFs of the velocity increments display strong non-Gaussianity and are well fitted by the normal inverse gaussian (NIG) distribution, whereas the intensity increments show much weaker tails. A simple energetic estimate suggests that Galactic differential rotation is able to supply the large-scale shear required to maintain the observed turbulence.",
+      "categories": [
+        "astro-ph.GA"
+      ],
+      "primary_category": "astro-ph.GA",
+      "pdf_url": "https://arxiv.org/pdf/2511.12418v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "12 pages and 7 Figures",
+      "entry_id": "http://arxiv.org/abs/2511.12418v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.12418v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.12418v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.12040": {
+      "title": "SRSplat: Feed-Forward Super-Resolution Gaussian Splatting from Sparse Multi-View Images",
+      "authors": [
+        "Xinyuan Hu",
+        "Changyue Shi",
+        "Chuxiao Yang",
+        "Minghao Chen",
+        "Jiajun Ding",
+        "Tao Wei",
+        "Chen Wei",
+        "Zhou Yu",
+        "Min Tan"
+      ],
+      "published": "2025-11-15T05:17:44+00:00",
+      "updated": "2025-11-15T05:17:44+00:00",
+      "summary": "Feed-forward 3D reconstruction from sparse, low-resolution (LR) images is a crucial capability for real-world applications, such as autonomous driving and embodied AI. However, existing methods often fail to recover fine texture details. This limitation stems from the inherent lack of high-frequency information in LR inputs. To address this, we propose \\textbf{SRSplat}, a feed-forward framework that reconstructs high-resolution 3D scenes from only a few LR views. Our main insight is to compensate for the deficiency of texture information by jointly leveraging external high-quality reference images and internal texture cues. We first construct a scene-specific reference gallery, generated for each scene using Multimodal Large Language Models (MLLMs) and diffusion models. To integrate this external information, we introduce the \\textit{Reference-Guided Feature Enhancement (RGFE)} module, which aligns and fuses features from the LR input images and their reference twin image. Subsequently, we train a decoder to predict the Gaussian primitives using the multi-view fused feature obtained from \\textit{RGFE}. To further refine predicted Gaussian primitives, we introduce \\textit{Texture-Aware Density Control (TADC)}, which adaptively adjusts Gaussian density based on the internal texture richness of the LR inputs. Extensive experiments demonstrate that our SRSplat outperforms existing methods on various datasets, including RealEstate10K, ACID, and DTU, and exhibits strong cross-dataset and cross-resolution generalization capabilities.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.12040v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "AAAI2026-Oral. Project Page: https://xinyuanhu66.github.io/SRSplat/",
+      "entry_id": "http://arxiv.org/abs/2511.12040v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.12040v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.12040v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.11971": {
+      "title": "Channel Ordering for Fairness in Elastic Optical Networks via a LLM-Guided Bottleneck TSP Solver",
+      "authors": [
+        "Liangshun Wu",
+        "Wen Chen",
+        "Qingqing Wu"
+      ],
+      "published": "2025-11-15T00:57:42+00:00",
+      "updated": "2025-11-15T00:57:42+00:00",
+      "summary": "In flexible-grid elastic optical networks (EONs), the ordering of frequency channels plays a crucial role in managing inter-channel interference and ensuring signal quality. We address the Channel Ordering Problem (COP) by reformulating it as a Bottleneck Traveling Salesman Problem (BTSP), where interference among channels is represented as edge weights in a graph structure. To tackle this challenge efficiently, we develop a scalable approach that integrates statistical exploration with guidance from large language models (LLMs). Extensive simulations using both the Gaussian Noise (GN) model and the split-step Fourier method demonstrate that our method achieves near-optimal signal-to-noise ratio (SNR) performance and offers robust scalability across diverse network settings, making it well-suited for practical deployment in large-scale optical communication systems.",
+      "categories": [
+        "physics.optics"
+      ],
+      "primary_category": "physics.optics",
+      "pdf_url": "https://arxiv.org/pdf/2511.11971v1",
+      "journal_ref": null,
+      "doi": "10.1109/LCOMM.2025.3633941",
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.11971v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.11971v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.11971v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        },
+        {
+          "href": "https://doi.org/10.1109/LCOMM.2025.3633941",
+          "title": "doi",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.11959": {
+      "title": "Evaluation of Attention Mechanisms in U-Net Architectures for Semantic Segmentation of Brazilian Rock Art Petroglyphs",
+      "authors": [
+        "Leonardi Melo",
+        "Luís Gustavo",
+        "Dimmy Magalhães",
+        "Lucciani Vieira",
+        "Mauro Araújo"
+      ],
+      "published": "2025-11-15T00:12:51+00:00",
+      "updated": "2025-11-15T00:12:51+00:00",
+      "summary": "This study presents a comparative analysis of three U-Net-based architectures for semantic segmentation of rock art petroglyphs from Brazilian archaeological sites. The investigated architectures were: (1) BEGL-UNet with Border-Enhanced Gaussian Loss function; (2) Attention-Residual BEGL-UNet, incorporating residual blocks and gated attention mechanisms; and (3) Spatial Channel Attention BEGL-UNet, which employs spatial-channel attention modules based on Convolutional Block Attention Module. All implementations employed the BEGL loss function combining binary cross-entropy with Gaussian edge enhancement. Experiments were conducted on images from the Poço da Bebidinha Archaeological Complex, Piauí, Brazil, using 5-fold cross-validation. Among the architectures, Attention-Residual BEGL-UNet achieved the best overall performance with Dice Score of 0.710, validation loss of 0.067, and highest recall of 0.854. Spatial Channel Attention BEGL-UNet obtained comparable performance with DSC of 0.707 and recall of 0.857. The baseline BEGL-UNet registered DSC of 0.690. These results demonstrate the effectiveness of attention mechanisms for archaeological heritage digital preservation, with Dice Score improvements of 2.5-2.9% over the baseline.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.11959v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "14 pages, 8 figures. Preprint submitted to arXiv",
+      "entry_id": "http://arxiv.org/abs/2511.11959v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.11959v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.11959v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.11913": {
+      "title": "SarcGraph for High-Throughput Regional Analysis of Sarcomere Organization and Contractile Function in 2D Cardiac Muscle Bundles",
+      "authors": [
+        "Saeed Mohammadzadeh",
+        "Yao-Chang Tsan",
+        "Aaron Renberg",
+        "Hiba Kobeissi",
+        "Adam Helms",
+        "Emma Lejeune"
+      ],
+      "published": "2025-11-14T22:46:38+00:00",
+      "updated": "2025-11-14T22:46:38+00:00",
+      "summary": "Timelapse images of human induced pluripotent stem cell-derived cardiomyocytes (hiPSC-CMs) provide rich information on cell structure and contractile function. However, it is challenging to reproducibly generate tissue samples and conduct scalable experiments with these cells. The two-dimensional cardiac muscle bundle (2DMB) platform helps address these limitations by standardizing tissue geometry, resulting in physiologic, uniaxial contractions of discrete tissues on an elastomeric substrate with stiffness similar to the heart. 2DMBs are highly conducive to sarcomere imaging using fluorescent reporters, but, due to their larger and more physiologic sarcomere displacements and velocities, prior sarcomere-tracking pipelines have been unreliable. Here, we present adaptations to SarcGraph, an open-source Python package for sarcomere detection and tracking, that enable automated analysis of high-frame-rate 2DMB recordings. Key modifications to the pipeline include: 1) switching to a frame-by-frame sarcomere detection approach and automating tissue segmentation with spatial partitioning, 2) performing Gaussian Process Regression for signal denoising, and 3) incorporating an automatic contractile phase detection pipeline. These enhancements enable the extraction of structural organization and functional contractility metrics for both the whole 2DMB tissue and distinct tissue regions, both in a fully automated manner. We complement this software release with a dataset of 130 example movies of baseline and drug-treated samples disseminated through the Harvard Dataverse. By providing open-source tools and datasets, we aim to enable high-throughput analysis of engineered cardiac tissues and advance collective progress within the hiPSC-CM research community.",
+      "categories": [
+        "q-bio.QM"
+      ],
+      "primary_category": "q-bio.QM",
+      "pdf_url": "https://arxiv.org/pdf/2511.11913v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "10 pages, 1 figure",
+      "entry_id": "http://arxiv.org/abs/2511.11913v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.11913v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.11913v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.11788": {
+      "title": "MALBO: Optimizing LLM-Based Multi-Agent Teams via Multi-Objective Bayesian Optimization",
+      "authors": [
+        "Antonio Sabbatella"
+      ],
+      "published": "2025-11-14T18:01:08+00:00",
+      "updated": "2025-11-14T18:01:08+00:00",
+      "summary": "The optimal assignment of Large Language Models (LLMs) to specialized roles in multi-agent systems is a significant challenge, defined by a vast combinatorial search space, expensive black-box evaluations, and an inherent trade-off between performance and cost. Current optimization methods focus on single-agent settings and lack a principled framework for this multi-agent, multi-objective problem.\n  This thesis introduces MALBO (Multi-Agent LLM Bayesian Optimization), a systematic framework designed to automate the efficient composition of LLM-based agent teams. We formalize the assignment challenge as a multi-objective optimization problem, aiming to identify the Pareto front of configurations between task accuracy and inference cost. The methodology employs multi-objective Bayesian Optimization (MOBO) with independent Gaussian Process surrogate models. By searching over a continuous feature-space representation of the LLMs, this approach performs a sample-efficient exploration guided by the expected hypervolume improvement.\n  The primary contribution is a principled and automated methodology that yields a Pareto front of optimal team configurations. Our results demonstrate that the Bayesian optimization phase, compared to an initial random search, maintained a comparable average performance while reducing the average configuration cost by over 45%. Furthermore, MALBO identified specialized, heterogeneous teams that achieve cost reductions of up to 65.8% compared to homogeneous baselines, all while maintaining maximum performance. The framework thus provides a data-driven tool for deploying cost-effective and highly specialized multi-agent AI systems.",
+      "categories": [
+        "cs.MA",
+        "cs.AI"
+      ],
+      "primary_category": "cs.MA",
+      "pdf_url": "https://arxiv.org/pdf/2511.11788v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Master's Thesis, University of Milano-Bicocca, 2025",
+      "entry_id": "http://arxiv.org/abs/2511.11788v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.11788v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.11788v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2511.11213": {
       "title": "RealisticDreamer: Guidance Score Distillation for Few-shot Gaussian Splatting",
       "authors": [
@@ -158,26 +649,26 @@
         "Cheng Jin"
       ],
       "published": "2025-11-13T11:32:08+00:00",
-      "updated": "2025-11-13T11:32:08+00:00",
+      "updated": "2025-11-17T05:54:02+00:00",
       "summary": "Black-box tuning is an emerging paradigm for adapting large language models (LLMs) to better achieve desired behaviors, particularly when direct access to model parameters is unavailable. Current strategies, however, often present a dilemma of suboptimal extremes: either separately train a small proxy model and then use it to shift the predictions of the foundation model, offering notable efficiency but often yielding limited improvement; or making API calls in each tuning iteration to the foundation model, which entails prohibitive computational costs. Therefore, we propose a novel advanced black-box tuning method for LLMs with limited API calls. Our core strategy involves training a Gaussian Process (GP) surrogate model with \"LogitMap Pairs\" derived from querying the foundation model on a minimal but highly informative training subset. This surrogate can approximate the outputs of the foundation model to guide the training of the proxy model, thereby effectively reducing the need for direct queries to the foundation model. Extensive experiments verify that our approach elevates pre-trained language model accuracy from 55.92% to 86.85%, reducing the frequency of API queries to merely 1.38%. This significantly outperforms offline approaches that operate entirely without API access. Notably, our method also achieves comparable or superior accuracy to query-intensive approaches, while significantly reducing API costs. This offers a robust and high-efficiency paradigm for language model adaptation.",
       "categories": [
         "cs.AI"
       ],
       "primary_category": "cs.AI",
-      "pdf_url": "https://arxiv.org/pdf/2511.10210v1",
+      "pdf_url": "https://arxiv.org/pdf/2511.10210v2",
       "journal_ref": null,
       "doi": null,
       "comment": "15 pages, 6 figures",
-      "entry_id": "http://arxiv.org/abs/2511.10210v1",
+      "entry_id": "http://arxiv.org/abs/2511.10210v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2511.10210v1",
+          "href": "https://arxiv.org/abs/2511.10210v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2511.10210v1",
+          "href": "https://arxiv.org/pdf/2511.10210v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -1079,32 +1570,32 @@
       "title": "SFFR: Spatial-Frequency Feature Reconstruction for Multispectral Aerial Object Detection",
       "authors": [
         "Xin Zuo",
-        "Yuchen Qu",
+        "Chenyu Qu",
         "Haibo Zhan",
         "Jifeng Shen",
         "Wankou Yang"
       ],
       "published": "2025-11-09T09:34:10+00:00",
-      "updated": "2025-11-12T02:52:54+00:00",
+      "updated": "2025-11-17T01:08:49+00:00",
       "summary": "Recent multispectral object detection methods have primarily focused on spatial-domain feature fusion based on CNNs or Transformers, while the potential of frequency-domain feature remains underexplored. In this work, we propose a novel Spatial and Frequency Feature Reconstruction method (SFFR) method, which leverages the spatial-frequency feature representation mechanisms of the Kolmogorov-Arnold Network (KAN) to reconstruct complementary representations in both spatial and frequency domains prior to feature fusion. The core components of SFFR are the proposed Frequency Component Exchange KAN (FCEKAN) module and Multi-Scale Gaussian KAN (MSGKAN) module. The FCEKAN introduces an innovative selective frequency component exchange strategy that effectively enhances the complementarity and consistency of cross-modal features based on the frequency feature of RGB and IR images. The MSGKAN module demonstrates excellent nonlinear feature modeling capability in the spatial domain. By leveraging multi-scale Gaussian basis functions, it effectively captures the feature variations caused by scale changes at different UAV flight altitudes, significantly enhancing the model's adaptability and robustness to scale variations. It is experimentally validated that our proposed FCEKAN and MSGKAN modules are complementary and can effectively capture the frequency and spatial semantic features respectively for better feature fusion. Extensive experiments on the SeaDroneSee, DroneVehicle and DVTOD datasets demonstrate the superior performance and significant advantages of the proposed method in UAV multispectral object perception task. Code will be available at https://github.com/qchenyu1027/SFFR.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2511.06298v2",
+      "pdf_url": "https://arxiv.org/pdf/2511.06298v3",
       "journal_ref": null,
       "doi": null,
       "comment": "11 pages,8 figures, accepted by IEEE TGRS",
-      "entry_id": "http://arxiv.org/abs/2511.06298v2",
+      "entry_id": "http://arxiv.org/abs/2511.06298v3",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2511.06298v2",
+          "href": "https://arxiv.org/abs/2511.06298v3",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2511.06298v2",
+          "href": "https://arxiv.org/pdf/2511.06298v3",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -3879,26 +4370,26 @@
         "Zhou Yu"
       ],
       "published": "2025-10-18T08:53:08+00:00",
-      "updated": "2025-10-18T08:53:08+00:00",
+      "updated": "2025-11-15T05:10:19+00:00",
       "summary": "Bridging the gap between complex human instructions and precise 3D object grounding remains a significant challenge in vision and robotics. Existing 3D segmentation methods often struggle to interpret ambiguous, reasoning-based instructions, while 2D vision-language models that excel at such reasoning lack intrinsic 3D spatial understanding. In this paper, we introduce REALM, an innovative MLLM-agent framework that enables open-world reasoning-based segmentation without requiring extensive 3D-specific post-training. We perform segmentation directly on 3D Gaussian Splatting representations, capitalizing on their ability to render photorealistic novel views that are highly suitable for MLLM comprehension. As directly feeding one or more rendered views to the MLLM can lead to high sensitivity to viewpoint selection, we propose a novel Global-to-Local Spatial Grounding strategy. Specifically, multiple global views are first fed into the MLLM agent in parallel for coarse-level localization, aggregating responses to robustly identify the target object. Then, several close-up novel views of the object are synthesized to perform fine-grained local segmentation, yielding accurate and consistent 3D masks. Extensive experiments show that REALM achieves remarkable performance in interpreting both explicit and implicit instructions across LERF, 3D-OVS, and our newly introduced REALM3D benchmarks. Furthermore, our agent framework seamlessly supports a range of 3D interaction tasks, including object removal, replacement, and style transfer, demonstrating its practical utility and versatility. Project page: https://ChangyueShi.github.io/REALM.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2510.16410v1",
+      "pdf_url": "https://arxiv.org/pdf/2510.16410v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2510.16410v1",
+      "entry_id": "http://arxiv.org/abs/2510.16410v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2510.16410v1",
+          "href": "https://arxiv.org/abs/2510.16410v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2510.16410v1",
+          "href": "https://arxiv.org/pdf/2510.16410v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -68062,6 +68553,194 @@
     }
   },
   "MVS": {
+    "2511.13684": {
+      "title": "Training-Free Multi-View Extension of IC-Light for Textual Position-Aware Scene Relighting",
+      "authors": [
+        "Jiangnan Ye",
+        "Jiedong Zhuang",
+        "Lianrui Mu",
+        "Wenjie Zheng",
+        "Jiaqi Hu",
+        "Xingze Zou",
+        "Jing Wang",
+        "Haoji Hu"
+      ],
+      "published": "2025-11-17T18:37:41+00:00",
+      "updated": "2025-11-17T18:37:41+00:00",
+      "summary": "We introduce GS-Light, an efficient, textual position-aware pipeline for text-guided relighting of 3D scenes represented via Gaussian Splatting (3DGS). GS-Light implements a training-free extension of a single-input diffusion model to handle multi-view inputs. Given a user prompt that may specify lighting direction, color, intensity, or reference objects, we employ a large vision-language model (LVLM) to parse the prompt into lighting priors. Using off-the-shelf estimators for geometry and semantics (depth, surface normals, and semantic segmentation), we fuse these lighting priors with view-geometry constraints to compute illumination maps and generate initial latent codes for each view. These meticulously derived init latents guide the diffusion model to generate relighting outputs that more accurately reflect user expectations, especially in terms of lighting direction. By feeding multi-view rendered images, along with the init latents, into our multi-view relighting model, we produce high-fidelity, artistically relit images. Finally, we fine-tune the 3DGS scene with the relit appearance to obtain a fully relit 3D scene. We evaluate GS-Light on both indoor and outdoor scenes, comparing it to state-of-the-art baselines including per-view relighting, video relighting, and scene editing methods. Using quantitative metrics (multi-view consistency, imaging quality, aesthetic score, semantic similarity, etc.) and qualitative assessment (user studies), GS-Light demonstrates consistent improvements over baselines. Code and assets will be made available upon publication.",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.13684v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Submitting for Neurocomputing",
+      "entry_id": "http://arxiv.org/abs/2511.13684v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.13684v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.13684v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2511.13278": {
+      "title": "SF-Recon: Simplification-Free Lightweight Building Reconstruction via 3D Gaussian Splatting",
+      "authors": [
+        "Zihan Li",
+        "Tengfei Wang",
+        "Wentian Gan",
+        "Hao Zhan",
+        "Xin Wang",
+        "Zongqian Zhan"
+      ],
+      "published": "2025-11-17T11:50:52+00:00",
+      "updated": "2025-11-17T11:50:52+00:00",
+      "summary": "Lightweight building surface models are crucial for digital city, navigation, and fast geospatial analytics, yet conventional multi-view geometry pipelines remain cumbersome and quality-sensitive due to their reliance on dense reconstruction, meshing, and subsequent simplification. This work presents SF-Recon, a method that directly reconstructs lightweight building surfaces from multi-view images without post-hoc mesh simplification. We first train an initial 3D Gaussian Splatting (3DGS) field to obtain a view-consistent representation. Building structure is then distilled by a normal-gradient-guided Gaussian optimization that selects primitives aligned with roof and wall boundaries, followed by multi-view edge-consistency pruning to enhance structural sharpness and suppress non-structural artifacts without external supervision. Finally, a multi-view depth-constrained Delaunay triangulation converts the structured Gaussian field into a lightweight, structurally faithful building mesh. Based on a proposed SF dataset, the experimental results demonstrate that our SF-Recon can directly reconstruct lightweight building models from multi-view imagery, achieving substantially fewer faces and vertices while maintaining computational efficiency. Website:https://lzh282140127-cell.github.io/SF-Recon-project/",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.13278v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.13278v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.13278v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.13278v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2511.13015": {
+      "title": "Geometry Meets Light: Leveraging Geometric Priors for Universal Photometric Stereo under Limited Multi-Illumination Cues",
+      "authors": [
+        "King-Man Tam",
+        "Satoshi Ikehata",
+        "Yuta Asano",
+        "Zhaoyi An",
+        "Rei Kawakami"
+      ],
+      "published": "2025-11-17T06:14:38+00:00",
+      "updated": "2025-11-17T06:14:38+00:00",
+      "summary": "Universal Photometric Stereo is a promising approach for recovering surface normals without strict lighting assumptions. However, it struggles when multi-illumination cues are unreliable, such as under biased lighting or in shadows or self-occluded regions of complex in-the-wild scenes. We propose GeoUniPS, a universal photometric stereo network that integrates synthetic supervision with high-level geometric priors from large-scale 3D reconstruction models pretrained on massive in-the-wild data. Our key insight is that these 3D reconstruction models serve as visual-geometry foundation models, inherently encoding rich geometric knowledge of real scenes. To leverage this, we design a Light-Geometry Dual-Branch Encoder that extracts both multi-illumination cues and geometric priors from the frozen 3D reconstruction model. We also address the limitations of the conventional orthographic projection assumption by introducing the PS-Perp dataset with realistic perspective projection to enable learning of spatially varying view directions. Extensive experiments demonstrate that GeoUniPS delivers state-of-the-arts performance across multiple datasets, both quantitatively and qualitatively, especially in the complex in-the-wild scenes.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.13015v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted by AAAI 2026 (Oral)",
+      "entry_id": "http://arxiv.org/abs/2511.13015v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.13015v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.13015v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2511.12263": {
+      "title": "CrossVid: A Comprehensive Benchmark for Evaluating Cross-Video Reasoning in Multimodal Large Language Models",
+      "authors": [
+        "Jingyao Li",
+        "Jingyun Wang",
+        "Molin Tan",
+        "Haochen Wang",
+        "Cilin Yan",
+        "Likun Shi",
+        "Jiayin Cai",
+        "Xiaolong Jiang",
+        "Yao Hu"
+      ],
+      "published": "2025-11-15T15:41:38+00:00",
+      "updated": "2025-11-15T15:41:38+00:00",
+      "summary": "Cross-Video Reasoning (CVR) presents a significant challenge in video understanding, which requires simultaneous understanding of multiple videos to aggregate and compare information across groups of videos. Most existing video understanding benchmarks focus on single-video analysis, failing to assess the ability of multimodal large language models (MLLMs) to simultaneously reason over various videos. Recent benchmarks evaluate MLLMs' capabilities on multi-view videos that capture different perspectives of the same scene. However, their limited tasks hinder a thorough assessment of MLLMs in diverse real-world CVR scenarios. To this end, we introduce CrossVid, the first benchmark designed to comprehensively evaluate MLLMs' spatial-temporal reasoning ability in cross-video contexts. Firstly, CrossVid encompasses a wide spectrum of hierarchical tasks, comprising four high-level dimensions and ten specific tasks, thereby closely reflecting the complex and varied nature of real-world video understanding. Secondly, CrossVid provides 5,331 videos, along with 9,015 challenging question-answering pairs, spanning single-choice, multiple-choice, and open-ended question formats. Through extensive experiments on various open-source and closed-source MLLMs, we observe that Gemini-2.5-Pro performs best on CrossVid, achieving an average accuracy of 50.4%. Notably, our in-depth case study demonstrates that most current MLLMs struggle with CVR tasks, primarily due to their inability to integrate or compare evidence distributed across multiple videos for reasoning. These insights highlight the potential of CrossVid to guide future advancements in enhancing MLLMs' CVR capabilities.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.12263v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "30 pages, 28 figures",
+      "entry_id": "http://arxiv.org/abs/2511.12263v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.12263v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.12263v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2511.12204": {
+      "title": "GeoMVD: Geometry-Enhanced Multi-View Generation Model Based on Geometric Information Extraction",
+      "authors": [
+        "Jiaqi Wu",
+        "Yaosen Chen",
+        "Shuyuan Zhu"
+      ],
+      "published": "2025-11-15T13:17:18+00:00",
+      "updated": "2025-11-15T13:17:18+00:00",
+      "summary": "Multi-view image generation holds significant application value in computer vision, particularly in domains like 3D reconstruction, virtual reality, and augmented reality. Most existing methods, which rely on extending single images, face notable computational challenges in maintaining cross-view consistency and generating high-resolution outputs. To address these issues, we propose the Geometry-guided Multi-View Diffusion Model, which incorporates mechanisms for extracting multi-view geometric information and adjusting the intensity of geometric features to generate images that are both consistent across views and rich in detail. Specifically, we design a multi-view geometry information extraction module that leverages depth maps, normal maps, and foreground segmentation masks to construct a shared geometric structure, ensuring shape and structural consistency across different views. To enhance consistency and detail restoration during generation, we develop a decoupled geometry-enhanced attention mechanism that strengthens feature focus on key geometric details, thereby improving overall image quality and detail preservation. Furthermore, we apply an adaptive learning strategy that fine-tunes the model to better capture spatial relationships and visual coherence between the generated views, ensuring realistic results. Our model also incorporates an iterative refinement process that progressively improves the output quality through multiple stages of image generation. Finally, a dynamic geometry information intensity adjustment mechanism is proposed to adaptively regulate the influence of geometric data, optimizing overall quality while ensuring the naturalness of generated images. More details can be found on the project page: https://github.com/SobeyMIL/GeoMVD.com.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.12204v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.12204v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.12204v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.12204v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2511.11563": {
       "title": "LARM: A Large Articulated-Object Reconstruction Model",
       "authors": [
@@ -83288,6 +83967,116 @@
     }
   },
   "Depth Estimation": {
+    "2511.13684": {
+      "title": "Training-Free Multi-View Extension of IC-Light for Textual Position-Aware Scene Relighting",
+      "authors": [
+        "Jiangnan Ye",
+        "Jiedong Zhuang",
+        "Lianrui Mu",
+        "Wenjie Zheng",
+        "Jiaqi Hu",
+        "Xingze Zou",
+        "Jing Wang",
+        "Haoji Hu"
+      ],
+      "published": "2025-11-17T18:37:41+00:00",
+      "updated": "2025-11-17T18:37:41+00:00",
+      "summary": "We introduce GS-Light, an efficient, textual position-aware pipeline for text-guided relighting of 3D scenes represented via Gaussian Splatting (3DGS). GS-Light implements a training-free extension of a single-input diffusion model to handle multi-view inputs. Given a user prompt that may specify lighting direction, color, intensity, or reference objects, we employ a large vision-language model (LVLM) to parse the prompt into lighting priors. Using off-the-shelf estimators for geometry and semantics (depth, surface normals, and semantic segmentation), we fuse these lighting priors with view-geometry constraints to compute illumination maps and generate initial latent codes for each view. These meticulously derived init latents guide the diffusion model to generate relighting outputs that more accurately reflect user expectations, especially in terms of lighting direction. By feeding multi-view rendered images, along with the init latents, into our multi-view relighting model, we produce high-fidelity, artistically relit images. Finally, we fine-tune the 3DGS scene with the relit appearance to obtain a fully relit 3D scene. We evaluate GS-Light on both indoor and outdoor scenes, comparing it to state-of-the-art baselines including per-view relighting, video relighting, and scene editing methods. Using quantitative metrics (multi-view consistency, imaging quality, aesthetic score, semantic similarity, etc.) and qualitative assessment (user studies), GS-Light demonstrates consistent improvements over baselines. Code and assets will be made available upon publication.",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.13684v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Submitting for Neurocomputing",
+      "entry_id": "http://arxiv.org/abs/2511.13684v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.13684v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.13684v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2511.13282": {
+      "title": "Towards Metric-Aware Multi-Person Mesh Recovery by Jointly Optimizing Human Crowd in Camera Space",
+      "authors": [
+        "Kaiwen Wang",
+        "Kaili Zheng",
+        "Yiming Shi",
+        "Chenyi Guo",
+        "Ji Wu"
+      ],
+      "published": "2025-11-17T12:00:13+00:00",
+      "updated": "2025-11-17T12:00:13+00:00",
+      "summary": "Multi-person human mesh recovery from a single image is a challenging task, hindered by the scarcity of in-the-wild training data. Prevailing in-the-wild human mesh pseudo-ground-truth (pGT) generation pipelines are single-person-centric, where each human is processed individually without joint optimization. This oversight leads to a lack of scene-level consistency, producing individuals with conflicting depths and scales within the same image. To address this, we introduce Depth-conditioned Translation Optimization (DTO), a novel optimization-based method that jointly refines the camera-space translations of all individuals in a crowd. By leveraging anthropometric priors on human height and depth cues from a monocular depth estimator, DTO solves for a scene-consistent placement of all subjects within a principled Maximum a posteriori (MAP) framework. Applying DTO to the 4D-Humans dataset, we construct DTO-Humans, a new large-scale pGT dataset of 0.56M high-quality, scene-consistent multi-person images, featuring dense crowds with an average of 4.8 persons per image. Furthermore, we propose Metric-Aware HMR, an end-to-end network that directly estimates human mesh and camera parameters in metric scale. This is enabled by a camera branch and a novel relative metric loss that enforces plausible relative scales. Extensive experiments demonstrate that our method achieves state-of-the-art performance on relative depth reasoning and human mesh recovery. Code and data will be released publicly.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.13282v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.13282v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.13282v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.13282v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2511.13195": {
+      "title": "Difficulty-Aware Label-Guided Denoising for Monocular 3D Object Detection",
+      "authors": [
+        "Soyul Lee",
+        "Seungmin Baek",
+        "Dongbo Min"
+      ],
+      "published": "2025-11-17T10:02:18+00:00",
+      "updated": "2025-11-17T10:02:18+00:00",
+      "summary": "Monocular 3D object detection is a cost-effective solution for applications like autonomous driving and robotics, but remains fundamentally ill-posed due to inherently ambiguous depth cues. Recent DETR-based methods attempt to mitigate this through global attention and auxiliary depth prediction, yet they still struggle with inaccurate depth estimates. Moreover, these methods often overlook instance-level detection difficulty, such as occlusion, distance, and truncation, leading to suboptimal detection performance. We propose MonoDLGD, a novel Difficulty-Aware Label-Guided Denoising framework that adaptively perturbs and reconstructs ground-truth labels based on detection uncertainty. Specifically, MonoDLGD applies stronger perturbations to easier instances and weaker ones into harder cases, and then reconstructs them to effectively provide explicit geometric supervision. By jointly optimizing label reconstruction and 3D object detection, MonoDLGD encourages geometry-aware representation learning and improves robustness to varying levels of object complexity. Extensive experiments on the KITTI benchmark demonstrate that MonoDLGD achieves state-of-the-art performance across all difficulty levels.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.13195v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "AAAI 2026 accepted",
+      "entry_id": "http://arxiv.org/abs/2511.13195v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.13195v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.13195v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2511.11563": {
       "title": "LARM: A Large Articulated-Object Reconstruction Model",
       "authors": [
