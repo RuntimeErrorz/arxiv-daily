@@ -1,4 +1,4 @@
-## Updated at 2025-11-19 08:18:13
+## Updated at 2025-11-19 20:08:01
 
 ## 3DGS Semantic
 
@@ -166,6 +166,7 @@ Query: (abs:'Multi-View Stereo' OR abs:'Multi View Stereo' OR abs:'Multi-View De
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-11-18**|**[SparseSurf: Sparse-View 3D Gaussian Splatting for Surface Reconstruction](https://arxiv.org/abs/2511.14633)**|N/A|Accepted at AAAI 2026. Project page: https://miya-oi.github.io/SparseSurf-project|cs.CV|None|Meiying Gu et al.|
 |**2025-11-17**|**[Training-Free Multi-View Extension of IC-Light for Textual Position-Aware Scene Relighting](https://arxiv.org/abs/2511.13684)**|N/A|Submitting for Neurocomputing|cs.CV|None|Jiangnan Ye et al.|
 |**2025-11-17**|**[SF-Recon: Simplification-Free Lightweight Building Reconstruction via 3D Gaussian Splatting](https://arxiv.org/abs/2511.13278)**|N/A|None|cs.CV|None|Zihan Li et al.|
 |**2025-11-17**|**[Geometry Meets Light: Leveraging Geometric Priors for Universal Photometric Stereo under Limited Multi-Illumination Cues](https://arxiv.org/abs/2511.13015)**|N/A|Accepted by AAAI 2026 (Oral)|cs.CV|None|King-Man Tam et al.|
@@ -587,6 +588,12 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-11-18**|**[Zero-shot Synthetic Video Realism Enhancement via Structure-aware Denoising](https://arxiv.org/abs/2511.14719)**|N/A|Project Page: https://wyf0824.github.io/Video_Realism_Enhancement/|cs.CV|None|Yifan Wang et al.|
+|**2025-11-18**|**[SparseSurf: Sparse-View 3D Gaussian Splatting for Surface Reconstruction](https://arxiv.org/abs/2511.14633)**|N/A|Accepted at AAAI 2026. Project page: https://miya-oi.github.io/SparseSurf-project|cs.CV|None|Meiying Gu et al.|
+|**2025-11-18**|**[Cheating Stereo Matching in Full-scale: Physical Adversarial Attack against Binocular Depth Estimation in Autonomous Driving](https://arxiv.org/abs/2511.14386)**|N/A|None|cs.CV|None|Kangqiao Zhao et al.|
+|**2025-11-18**|**[Enhancing Generalization of Depth Estimation Foundation Model via Weakly-Supervised Adaptation with Regularization](https://arxiv.org/abs/2511.14238)**|N/A|Accepted by AAAI 2026|cs.CV|None|Yan Huang et al.|
+|**2025-11-18**|**[RTS-Mono: A Real-Time Self-Supervised Monocular Depth Estimation Method for Real-World Deployment](https://arxiv.org/abs/2511.14107)**|N/A|14 pages, 10 figures|cs.CV|None|Zeyu Cheng et al.|
+|**2025-11-18**|**[ELiC: Efficient LiDAR Geometry Compression via Cross-Bit-depth Feature Propagation and Bag-of-Encoders](https://arxiv.org/abs/2511.14070)**|N/A|None|eess.IV|None|Junsik Kim et al.|
 |**2025-11-17**|**[Training-Free Multi-View Extension of IC-Light for Textual Position-Aware Scene Relighting](https://arxiv.org/abs/2511.13684)**|N/A|Submitting for Neurocomputing|cs.CV|None|Jiangnan Ye et al.|
 |**2025-11-17**|**[Towards Metric-Aware Multi-Person Mesh Recovery by Jointly Optimizing Human Crowd in Camera Space](https://arxiv.org/abs/2511.13282)**|N/A|None|cs.CV|None|Kaiwen Wang et al.|
 |**2025-11-17**|**[Difficulty-Aware Label-Guided Denoising for Monocular 3D Object Detection](https://arxiv.org/abs/2511.13195)**|N/A|AAAI 2026 accepted|cs.CV|None|Soyul Lee et al.|

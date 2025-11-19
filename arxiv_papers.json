@@ -1,5 +1,114 @@
 {
   "3DGS Semantic": {
+    "2511.14717": {
+      "title": "A Unified Compositional View of Attack Tree Metrics",
+      "authors": [
+        "Benedikt Peterseim",
+        "Milan Lopuhaä-Zwakenberg"
+      ],
+      "published": "2025-11-18T17:59:44+00:00",
+      "updated": "2025-11-18T17:59:44+00:00",
+      "summary": "Attack trees (ATs) are popular graphical models for reasoning about the security of complex systems, allowing for the quantification of risk through so-called AT metrics. A large variety of different such AT metrics have been proposed, and despite their wide-spread practical use, no systematic treatment of attack tree metrics so far is fully satisfactory. Existing approaches either fail to include important metrics, or they are too general to provide a useful systematic way for defining concrete AT metrics, giving only an abstract characterisation of their behaviour. We solve this problem by developing a compositional theory of ATs and their functorial semantics based on gs-monoidal categories. Viewing attack trees as string diagrams, we show that components of ATs form a channel category, a particular type of gs-monoidal category. AT metrics then correspond to functors of channel categories. This characterisation is both general enough to include all common AT metrics, and concrete enough to define AT metrics by their logical structure.",
+      "categories": [
+        "cs.CR"
+      ],
+      "primary_category": "cs.CR",
+      "pdf_url": "https://arxiv.org/pdf/2511.14717v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.14717v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.14717v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.14717v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.14161": {
+      "title": "RoboTidy : A 3D Gaussian Splatting Household Tidying Benchmark for Embodied Navigation and Action",
+      "authors": [
+        "Xiaoquan Sun",
+        "Ruijian Zhang",
+        "Kang Pang",
+        "Bingchen Miao",
+        "Yuxiang Tan",
+        "Zhen Yang",
+        "Ming Li",
+        "Jiayu Chen"
+      ],
+      "published": "2025-11-18T05:54:05+00:00",
+      "updated": "2025-11-18T05:54:05+00:00",
+      "summary": "Household tidying is an important application area, yet current benchmarks neither model user preferences nor support mobility, and they generalize poorly, making it hard to comprehensively assess integrated language-to-action capabilities. To address this, we propose RoboTidy, a unified benchmark for language-guided household tidying that supports Vision-Language-Action (VLA) and Vision-Language-Navigation (VLN) training and evaluation. RoboTidy provides 500 photorealistic 3D Gaussian Splatting (3DGS) household scenes (covering 500 objects and containers) with collisions, formulates tidying as an \"Action (Object, Container)\" list, and supplies 6.4k high-quality manipulation demonstration trajectories and 1.5k naviagtion trajectories to support both few-shot and large-scale training. We also deploy RoboTidy in the real world for object tidying, establishing an end-to-end benchmark for household tidying. RoboTidy offers a scalable platform and bridges a key gap in embodied AI by enabling holistic and realistic evaluation of language-guided robots.",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2511.14161v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.14161v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.14161v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.14161v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.13985": {
+      "title": "LIO-MARS: Non-uniform Continuous-time Trajectories for Real-time LiDAR-Inertial-Odometry",
+      "authors": [
+        "Jan Quenzel",
+        "Sven Behnke"
+      ],
+      "published": "2025-11-17T23:35:07+00:00",
+      "updated": "2025-11-17T23:35:07+00:00",
+      "summary": "Autonomous robotic systems heavily rely on environment knowledge to safely navigate. For search & rescue, a flying robot requires robust real-time perception, enabled by complementary sensors. IMU data constrains acceleration and rotation, whereas LiDAR measures accurate distances around the robot. Building upon the LiDAR odometry MARS, our LiDAR-inertial odometry (LIO) jointly aligns multi-resolution surfel maps with a Gaussian mixture model (GMM) using a continuous-time B-spline trajectory. Our new scan window uses non-uniform temporal knot placement to ensure continuity over the whole trajectory without additional scan delay. Moreover, we accelerate essential covariance and GMM computations with Kronecker sums and products by a factor of 3.3. An unscented transform de-skews surfels, while a splitting into intra-scan segments facilitates motion compensation during spline optimization. Complementary soft constraints on relative poses and preintegrated IMU pseudo-measurements further improve robustness and accuracy. Extensive evaluation showcases the state-of-the-art quality of our LIO-MARS w.r.t. recent LIO systems on various handheld, ground and aerial vehicle-based datasets.",
+      "categories": [
+        "cs.RO"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2511.13985v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "submitted to T-RO, 19 pages",
+      "entry_id": "http://arxiv.org/abs/2511.13985v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.13985v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.13985v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2511.13684": {
       "title": "Training-Free Multi-View Extension of IC-Light for Textual Position-Aware Scene Relighting",
       "authors": [
@@ -217,6 +326,46 @@
         },
         {
           "href": "https://arxiv.org/pdf/2511.13055v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.13795": {
+      "title": "A Trajectory-free Crash Detection Framework with Generative Approach and Segment Map Diffusion",
+      "authors": [
+        "Weiying Shen",
+        "Hao Yu",
+        "Yu Dong",
+        "Pan Liu",
+        "Yu Han",
+        "Xin Wen"
+      ],
+      "published": "2025-11-17T05:50:00+00:00",
+      "updated": "2025-11-17T05:50:00+00:00",
+      "summary": "Real-time crash detection is essential for developing proactive safety management strategy and enhancing overall traffic efficiency. To address the limitations associated with trajectory acquisition and vehicle tracking, road segment maps recording the individual-level traffic dynamic data were directly served in crash detection. A novel two-stage trajectory-free crash detection framework, was present to generate the rational future road segment map and identify crashes. The first-stage diffusion-based segment map generation model, Mapfusion, conducts a noisy-to-normal process that progressively adds noise to the road segment map until the map is corrupted to pure Gaussian noise. The denoising process is guided by sequential embedding components capturing the temporal dynamics of segment map sequences. Furthermore, the generation model is designed to incorporate background context through ControlNet to enhance generation control. Crash detection is achieved by comparing the monitored segment map with the generations from diffusion model in second stage. Trained on non-crash vehicle motion data, Mapfusion successfully generates realistic road segment evolution maps based on learned motion patterns and remains robust across different sampling intervals. Experiments on real-world crashes indicate the effectiveness of the proposed two-stage method in accurately detecting crashes.",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.13795v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "To be presented at TRB 2026 (TRBAM-26-01711) and a revised version will be submitted to Transportation Research Part C: Emerging Technologies",
+      "entry_id": "http://arxiv.org/abs/2511.13795v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.13795v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.13795v1",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -68553,6 +68702,44 @@
     }
   },
   "MVS": {
+    "2511.14633": {
+      "title": "SparseSurf: Sparse-View 3D Gaussian Splatting for Surface Reconstruction",
+      "authors": [
+        "Meiying Gu",
+        "Jiawei Zhang",
+        "Jiahe Li",
+        "Xiaohan Yu",
+        "Haonan Luo",
+        "Jin Zheng",
+        "Xiao Bai"
+      ],
+      "published": "2025-11-18T16:24:37+00:00",
+      "updated": "2025-11-18T16:24:37+00:00",
+      "summary": "Recent advances in optimizing Gaussian Splatting for scene geometry have enabled efficient reconstruction of detailed surfaces from images. However, when input views are sparse, such optimization is prone to overfitting, leading to suboptimal reconstruction quality. Existing approaches address this challenge by employing flattened Gaussian primitives to better fit surface geometry, combined with depth regularization to alleviate geometric ambiguities under limited viewpoints. Nevertheless, the increased anisotropy inherent in flattened Gaussians exacerbates overfitting in sparse-view scenarios, hindering accurate surface fitting and degrading novel view synthesis performance. In this paper, we propose \\net{}, a method that reconstructs more accurate and detailed surfaces while preserving high-quality novel view rendering. Our key insight is to introduce Stereo Geometry-Texture Alignment, which bridges rendering quality and geometry estimation, thereby jointly enhancing both surface reconstruction and view synthesis. In addition, we present a Pseudo-Feature Enhanced Geometry Consistency that enforces multi-view geometric consistency by incorporating both training and unseen views, effectively mitigating overfitting caused by sparse supervision. Extensive experiments on the DTU, BlendedMVS, and Mip-NeRF360 datasets demonstrate that our method achieves the state-of-the-art performance.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.14633v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted at AAAI 2026. Project page: https://miya-oi.github.io/SparseSurf-project",
+      "entry_id": "http://arxiv.org/abs/2511.14633v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.14633v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.14633v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2511.13684": {
       "title": "Training-Free Multi-View Extension of IC-Light for Textual Position-Aware Scene Relighting",
       "authors": [
@@ -68640,26 +68827,26 @@
         "Rei Kawakami"
       ],
       "published": "2025-11-17T06:14:38+00:00",
-      "updated": "2025-11-17T06:14:38+00:00",
+      "updated": "2025-11-18T10:05:51+00:00",
       "summary": "Universal Photometric Stereo is a promising approach for recovering surface normals without strict lighting assumptions. However, it struggles when multi-illumination cues are unreliable, such as under biased lighting or in shadows or self-occluded regions of complex in-the-wild scenes. We propose GeoUniPS, a universal photometric stereo network that integrates synthetic supervision with high-level geometric priors from large-scale 3D reconstruction models pretrained on massive in-the-wild data. Our key insight is that these 3D reconstruction models serve as visual-geometry foundation models, inherently encoding rich geometric knowledge of real scenes. To leverage this, we design a Light-Geometry Dual-Branch Encoder that extracts both multi-illumination cues and geometric priors from the frozen 3D reconstruction model. We also address the limitations of the conventional orthographic projection assumption by introducing the PS-Perp dataset with realistic perspective projection to enable learning of spatially varying view directions. Extensive experiments demonstrate that GeoUniPS delivers state-of-the-arts performance across multiple datasets, both quantitatively and qualitatively, especially in the complex in-the-wild scenes.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2511.13015v1",
+      "pdf_url": "https://arxiv.org/pdf/2511.13015v2",
       "journal_ref": null,
       "doi": null,
       "comment": "Accepted by AAAI 2026 (Oral)",
-      "entry_id": "http://arxiv.org/abs/2511.13015v1",
+      "entry_id": "http://arxiv.org/abs/2511.13015v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2511.13015v1",
+          "href": "https://arxiv.org/abs/2511.13015v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2511.13015v1",
+          "href": "https://arxiv.org/pdf/2511.13015v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -68715,26 +68902,26 @@
         "Shuyuan Zhu"
       ],
       "published": "2025-11-15T13:17:18+00:00",
-      "updated": "2025-11-15T13:17:18+00:00",
-      "summary": "Multi-view image generation holds significant application value in computer vision, particularly in domains like 3D reconstruction, virtual reality, and augmented reality. Most existing methods, which rely on extending single images, face notable computational challenges in maintaining cross-view consistency and generating high-resolution outputs. To address these issues, we propose the Geometry-guided Multi-View Diffusion Model, which incorporates mechanisms for extracting multi-view geometric information and adjusting the intensity of geometric features to generate images that are both consistent across views and rich in detail. Specifically, we design a multi-view geometry information extraction module that leverages depth maps, normal maps, and foreground segmentation masks to construct a shared geometric structure, ensuring shape and structural consistency across different views. To enhance consistency and detail restoration during generation, we develop a decoupled geometry-enhanced attention mechanism that strengthens feature focus on key geometric details, thereby improving overall image quality and detail preservation. Furthermore, we apply an adaptive learning strategy that fine-tunes the model to better capture spatial relationships and visual coherence between the generated views, ensuring realistic results. Our model also incorporates an iterative refinement process that progressively improves the output quality through multiple stages of image generation. Finally, a dynamic geometry information intensity adjustment mechanism is proposed to adaptively regulate the influence of geometric data, optimizing overall quality while ensuring the naturalness of generated images. More details can be found on the project page: https://github.com/SobeyMIL/GeoMVD.com.",
+      "updated": "2025-11-18T12:09:26+00:00",
+      "summary": "Multi-view image generation holds significant application value in computer vision, particularly in domains like 3D reconstruction, virtual reality, and augmented reality. Most existing methods, which rely on extending single images, face notable computational challenges in maintaining cross-view consistency and generating high-resolution outputs. To address these issues, we propose the Geometry-guided Multi-View Diffusion Model, which incorporates mechanisms for extracting multi-view geometric information and adjusting the intensity of geometric features to generate images that are both consistent across views and rich in detail. Specifically, we design a multi-view geometry information extraction module that leverages depth maps, normal maps, and foreground segmentation masks to construct a shared geometric structure, ensuring shape and structural consistency across different views. To enhance consistency and detail restoration during generation, we develop a decoupled geometry-enhanced attention mechanism that strengthens feature focus on key geometric details, thereby improving overall image quality and detail preservation. Furthermore, we apply an adaptive learning strategy that fine-tunes the model to better capture spatial relationships and visual coherence between the generated views, ensuring realistic results. Our model also incorporates an iterative refinement process that progressively improves the output quality through multiple stages of image generation. Finally, a dynamic geometry information intensity adjustment mechanism is proposed to adaptively regulate the influence of geometric data, optimizing overall quality while ensuring the naturalness of generated images. More details can be found on the project page: https://sobeymil.github.io/GeoMVD.com.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2511.12204v1",
+      "pdf_url": "https://arxiv.org/pdf/2511.12204v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2511.12204v1",
+      "entry_id": "http://arxiv.org/abs/2511.12204v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2511.12204v1",
+          "href": "https://arxiv.org/abs/2511.12204v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2511.12204v1",
+          "href": "https://arxiv.org/pdf/2511.12204v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -83967,6 +84154,227 @@
     }
   },
   "Depth Estimation": {
+    "2511.14719": {
+      "title": "Zero-shot Synthetic Video Realism Enhancement via Structure-aware Denoising",
+      "authors": [
+        "Yifan Wang",
+        "Liya Ji",
+        "Zhanghan Ke",
+        "Harry Yang",
+        "Ser-Nam Lim",
+        "Qifeng Chen"
+      ],
+      "published": "2025-11-18T18:06:29+00:00",
+      "updated": "2025-11-18T18:06:29+00:00",
+      "summary": "We propose an approach to enhancing synthetic video realism, which can re-render synthetic videos from a simulator in photorealistic fashion. Our realism enhancement approach is a zero-shot framework that focuses on preserving the multi-level structures from synthetic videos into the enhanced one in both spatial and temporal domains, built upon a diffusion video foundational model without further fine-tuning. Specifically, we incorporate an effective modification to have the generation/denoising process conditioned on estimated structure-aware information from the synthetic video, such as depth maps, semantic maps, and edge maps, by an auxiliary model, rather than extracting the information from a simulator. This guidance ensures that the enhanced videos are consistent with the original synthetic video at both the structural and semantic levels. Our approach is a simple yet general and powerful approach to enhancing synthetic video realism: we show that our approach outperforms existing baselines in structural consistency with the original video while maintaining state-of-the-art photorealism quality in our experiments.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.14719v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Project Page: https://wyf0824.github.io/Video_Realism_Enhancement/",
+      "entry_id": "http://arxiv.org/abs/2511.14719v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.14719v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.14719v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2511.14633": {
+      "title": "SparseSurf: Sparse-View 3D Gaussian Splatting for Surface Reconstruction",
+      "authors": [
+        "Meiying Gu",
+        "Jiawei Zhang",
+        "Jiahe Li",
+        "Xiaohan Yu",
+        "Haonan Luo",
+        "Jin Zheng",
+        "Xiao Bai"
+      ],
+      "published": "2025-11-18T16:24:37+00:00",
+      "updated": "2025-11-18T16:24:37+00:00",
+      "summary": "Recent advances in optimizing Gaussian Splatting for scene geometry have enabled efficient reconstruction of detailed surfaces from images. However, when input views are sparse, such optimization is prone to overfitting, leading to suboptimal reconstruction quality. Existing approaches address this challenge by employing flattened Gaussian primitives to better fit surface geometry, combined with depth regularization to alleviate geometric ambiguities under limited viewpoints. Nevertheless, the increased anisotropy inherent in flattened Gaussians exacerbates overfitting in sparse-view scenarios, hindering accurate surface fitting and degrading novel view synthesis performance. In this paper, we propose \\net{}, a method that reconstructs more accurate and detailed surfaces while preserving high-quality novel view rendering. Our key insight is to introduce Stereo Geometry-Texture Alignment, which bridges rendering quality and geometry estimation, thereby jointly enhancing both surface reconstruction and view synthesis. In addition, we present a Pseudo-Feature Enhanced Geometry Consistency that enforces multi-view geometric consistency by incorporating both training and unseen views, effectively mitigating overfitting caused by sparse supervision. Extensive experiments on the DTU, BlendedMVS, and Mip-NeRF360 datasets demonstrate that our method achieves the state-of-the-art performance.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.14633v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted at AAAI 2026. Project page: https://miya-oi.github.io/SparseSurf-project",
+      "entry_id": "http://arxiv.org/abs/2511.14633v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.14633v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.14633v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2511.14386": {
+      "title": "Cheating Stereo Matching in Full-scale: Physical Adversarial Attack against Binocular Depth Estimation in Autonomous Driving",
+      "authors": [
+        "Kangqiao Zhao",
+        "Shuo Huai",
+        "Xurui Song",
+        "Jun Luo"
+      ],
+      "published": "2025-11-18T11:45:46+00:00",
+      "updated": "2025-11-18T11:45:46+00:00",
+      "summary": "Though deep neural models adopted to realize the perception of autonomous driving have proven vulnerable to adversarial examples, known attacks often leverage 2D patches and target mostly monocular perception. Therefore, the effectiveness of Physical Adversarial Examples (PAEs) on stereo-based binocular depth estimation remains largely unexplored. To this end, we propose the first texture-enabled physical adversarial attack against stereo matching models in the context of autonomous driving. Our method employs a 3D PAE with global camouflage texture rather than a local 2D patch-based one, ensuring both visual consistency and attack effectiveness across different viewpoints of stereo cameras. To cope with the disparity effect of these cameras, we also propose a new 3D stereo matching rendering module that allows the PAE to be aligned with real-world positions and headings in binocular vision. We further propose a novel merging attack that seamlessly blends the target into the environment through fine-grained PAE optimization. It has significantly enhanced stealth and lethality upon existing hiding attacks that fail to get seamlessly merged into the background. Extensive evaluations show that our PAEs can successfully fool the stereo models into producing erroneous depth information.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.14386v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.14386v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.14386v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.14386v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2511.14238": {
+      "title": "Enhancing Generalization of Depth Estimation Foundation Model via Weakly-Supervised Adaptation with Regularization",
+      "authors": [
+        "Yan Huang",
+        "Yongyi Su",
+        "Xin Lin",
+        "Le Zhang",
+        "Xun Xu"
+      ],
+      "published": "2025-11-18T08:16:16+00:00",
+      "updated": "2025-11-18T08:16:16+00:00",
+      "summary": "The emergence of foundation models has substantially advanced zero-shot generalization in monocular depth estimation (MDE), as exemplified by the Depth Anything series. However, given access to some data from downstream tasks, a natural question arises: can the performance of these models be further improved? To this end, we propose WeSTAR, a parameter-efficient framework that performs Weakly supervised Self-Training Adaptation with Regularization, designed to enhance the robustness of MDE foundation models in unseen and diverse domains. We first adopt a dense self-training objective as the primary source of structural self-supervision. To further improve robustness, we introduce semantically-aware hierarchical normalization, which exploits instance-level segmentation maps to perform more stable and multi-scale structural normalization. Beyond dense supervision, we introduce a cost-efficient weak supervision in the form of pairwise ordinal depth annotations to further guide the adaptation process, which enforces informative ordinal constraints to mitigate local topological errors. Finally, a weight regularization loss is employed to anchor the LoRA updates, ensuring training stability and preserving the model's generalizable knowledge. Extensive experiments on both realistic and corrupted out-of-distribution datasets under diverse and challenging scenarios demonstrate that WeSTAR consistently improves generalization and achieves state-of-the-art performance across a wide range of benchmarks.",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.14238v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted by AAAI 2026",
+      "entry_id": "http://arxiv.org/abs/2511.14238v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.14238v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.14238v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2511.14107": {
+      "title": "RTS-Mono: A Real-Time Self-Supervised Monocular Depth Estimation Method for Real-World Deployment",
+      "authors": [
+        "Zeyu Cheng",
+        "Tongfei Liu",
+        "Tao Lei",
+        "Xiang Hua",
+        "Yi Zhang",
+        "Chengkai Tang"
+      ],
+      "published": "2025-11-18T03:47:04+00:00",
+      "updated": "2025-11-18T03:47:04+00:00",
+      "summary": "Depth information is crucial for autonomous driving and intelligent robot navigation. The simplicity and flexibility of self-supervised monocular depth estimation are conducive to its role in these fields. However, most existing monocular depth estimation models consume many computing resources. Although some methods have reduced the model's size and improved computing efficiency, the performance deteriorates, seriously hindering the real-world deployment of self-supervised monocular depth estimation models in the real world. To address this problem, we proposed a real-time self-supervised monocular depth estimation method and implemented it in the real world. It is called RTS-Mono, which is a lightweight and efficient encoder-decoder architecture. The encoder is based on Lite-Encoder, and the decoder is designed with a multi-scale sparse fusion framework to minimize redundancy, ensure performance, and improve inference speed. RTS-Mono achieved state-of-the-art (SoTA) performance in high and low resolutions with extremely low parameter counts (3 M) in experiments based on the KITTI dataset. Compared with lightweight methods, RTS-Mono improved Abs Rel and Sq Rel by 5.6% and 9.8% at low resolution and improved Sq Rel and RMSE by 6.1% and 1.9% at high resolution. In real-world deployment experiments, RTS-Mono has extremely high accuracy and can perform real-time inference on Nvidia Jetson Orin at a speed of 49 FPS. Source code is available at https://github.com/ZYCheng777/RTS-Mono.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.14107v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "14 pages, 10 figures",
+      "entry_id": "http://arxiv.org/abs/2511.14107v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.14107v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.14107v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2511.14070": {
+      "title": "ELiC: Efficient LiDAR Geometry Compression via Cross-Bit-depth Feature Propagation and Bag-of-Encoders",
+      "authors": [
+        "Junsik Kim",
+        "Gun Bang",
+        "Soowoong Kim"
+      ],
+      "published": "2025-11-18T02:58:16+00:00",
+      "updated": "2025-11-18T02:58:16+00:00",
+      "summary": "Hierarchical LiDAR geometry compression encodes voxel occupancies from low to high bit-depths, yet prior methods treat each depth independently and re-estimate local context from coordinates at every level, limiting compression efficiency. We present ELiC, a real-time framework that combines cross-bit-depth feature propagation, a Bag-of-Encoders (BoE) selection scheme, and a Morton-order-preserving hierarchy. Cross-bit-depth propagation reuses features extracted at denser, lower depths to support prediction at sparser, higher depths. BoE selects, per depth, the most suitable coding network from a small pool, adapting capacity to observed occupancy statistics without training a separate model for each level. The Morton hierarchy maintains global Z-order across depth transitions, eliminating per-level sorting and reducing latency. Together these components improve entropy modeling and computation efficiency, yielding state-of-the-art compression at real-time throughput on Ford and SemanticKITTI. Code and models will be released upon publication.",
+      "categories": [
+        "eess.IV",
+        "cs.CV"
+      ],
+      "primary_category": "eess.IV",
+      "pdf_url": "https://arxiv.org/pdf/2511.14070v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.14070v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.14070v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.14070v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2511.13684": {
       "title": "Training-Free Multi-View Extension of IC-Light for Textual Position-Aware Scene Relighting",
       "authors": [
