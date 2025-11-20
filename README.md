@@ -1,4 +1,4 @@
-## Updated at 2025-11-20 08:17:55
+## Updated at 2025-11-20 20:08:10
 
 ## 3DGS Semantic
 
@@ -588,6 +588,9 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-11-19**|**[ShelfOcc: Native 3D Supervision beyond LiDAR for Vision-Based Occupancy Estimation](https://arxiv.org/abs/2511.15396)**|N/A|None|cs.CV|None|Simon Boeder et al.|
+|**2025-11-19**|**[Learning Depth from Past Selves: Self-Evolution Contrast for Robust Depth Estimation](https://arxiv.org/abs/2511.15167)**|N/A|None|cs.CV|None|Jing Cao et al.|
+|**2025-11-18**|**[EGSA-PT:Edge-Guided Spatial Attention with Progressive Training for Monocular Depth Estimation and Segmentation of Transparent Objects](https://arxiv.org/abs/2511.14970)**|N/A|None|cs.CV|None|Gbenga Omotara et al.|
 |**2025-11-18**|**[Zero-shot Synthetic Video Realism Enhancement via Structure-aware Denoising](https://arxiv.org/abs/2511.14719)**|N/A|Project Page: https://wyf0824.github.io/Video_Realism_Enhancement/|cs.CV|None|Yifan Wang et al.|
 |**2025-11-18**|**[SparseSurf: Sparse-View 3D Gaussian Splatting for Surface Reconstruction](https://arxiv.org/abs/2511.14633)**|N/A|Accepted at AAAI 2026. Project page: https://miya-oi.github.io/SparseSurf-project|cs.CV|None|Meiying Gu et al.|
 |**2025-11-18**|**[Cheating Stereo Matching in Full-scale: Physical Adversarial Attack against Binocular Depth Estimation in Autonomous Driving](https://arxiv.org/abs/2511.14386)**|N/A|None|cs.CV|None|Kangqiao Zhao et al.|

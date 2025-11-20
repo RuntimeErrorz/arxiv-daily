@@ -1,5 +1,74 @@
 {
   "3DGS Semantic": {
+    "2511.15172": {
+      "title": "Complex variational autoencoders admit Kähler structure",
+      "authors": [
+        "Andrew Gracyk"
+      ],
+      "published": "2025-11-19T06:51:03+00:00",
+      "updated": "2025-11-19T06:51:03+00:00",
+      "summary": "It has been discovered that latent-Euclidean variational autoencoders (VAEs) admit, in various capacities, Riemannian structure. We adapt these arguments but for complex VAEs with a complex latent stage. We show that complex VAEs reveal to some level Kähler geometric structure. Our methods will be tailored for decoder geometry. We derive the Fisher information metric in the complex case under a latent complex Gaussian regularization with trivial relation matrix. It is well known from statistical information theory that the Fisher information coincides with the Hessian of the Kullback-Leibler (KL) divergence. Thus, the metric Kähler potential relation is exactly achieved under relative entropy. We propose a Kähler potential derivative of complex Gaussian mixtures that has rough equivalence to the Fisher information metric while still being faithful to the underlying Kähler geometry. Computation of the metric via this potential is efficient, and through our potential, valid as a plurisubharmonic (PSH) function, large scale computational burden of automatic differentiation is displaced to small scale. We show that we can regularize the latent space with decoder geometry, and that we can sample in accordance with a weighted complex volume element. We demonstrate these strategies, at the exchange of sample variation, yield consistently smoother representations and fewer semantic outliers.",
+      "categories": [
+        "cs.LG"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2511.15172v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "First version",
+      "entry_id": "http://arxiv.org/abs/2511.15172v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.15172v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.15172v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.14848": {
+      "title": "Gaussian See, Gaussian Do: Semantic 3D Motion Transfer from Multiview Video",
+      "authors": [
+        "Yarin Bekor",
+        "Gal Michael Harari",
+        "Or Perel",
+        "Or Litany"
+      ],
+      "published": "2025-11-18T19:02:50+00:00",
+      "updated": "2025-11-18T19:02:50+00:00",
+      "summary": "We present Gaussian See, Gaussian Do, a novel approach for semantic 3D motion transfer from multiview video. Our method enables rig-free, cross-category motion transfer between objects with semantically meaningful correspondence. Building on implicit motion transfer techniques, we extract motion embeddings from source videos via condition inversion, apply them to rendered frames of static target shapes, and use the resulting videos to supervise dynamic 3D Gaussian Splatting reconstruction. Our approach introduces an anchor-based view-aware motion embedding mechanism, ensuring cross-view consistency and accelerating convergence, along with a robust 4D reconstruction pipeline that consolidates noisy supervision videos. We establish the first benchmark for semantic 3D motion transfer and demonstrate superior motion fidelity and structural consistency compared to adapted baselines. Code and data for this paper available at https://gsgd-motiontransfer.github.io/",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.14848v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "SIGGRAPH Asia 2025",
+      "entry_id": "http://arxiv.org/abs/2511.14848v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.14848v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.14848v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2511.14717": {
       "title": "A Unified Compositional View of Attack Tree Metrics",
       "authors": [
@@ -47,27 +116,27 @@
         "Jiayu Chen"
       ],
       "published": "2025-11-18T05:54:05+00:00",
-      "updated": "2025-11-18T05:54:05+00:00",
+      "updated": "2025-11-19T04:44:17+00:00",
       "summary": "Household tidying is an important application area, yet current benchmarks neither model user preferences nor support mobility, and they generalize poorly, making it hard to comprehensively assess integrated language-to-action capabilities. To address this, we propose RoboTidy, a unified benchmark for language-guided household tidying that supports Vision-Language-Action (VLA) and Vision-Language-Navigation (VLN) training and evaluation. RoboTidy provides 500 photorealistic 3D Gaussian Splatting (3DGS) household scenes (covering 500 objects and containers) with collisions, formulates tidying as an \"Action (Object, Container)\" list, and supplies 6.4k high-quality manipulation demonstration trajectories and 1.5k naviagtion trajectories to support both few-shot and large-scale training. We also deploy RoboTidy in the real world for object tidying, establishing an end-to-end benchmark for household tidying. RoboTidy offers a scalable platform and bridges a key gap in embodied AI by enabling holistic and realistic evaluation of language-guided robots.",
       "categories": [
         "cs.RO",
         "cs.CV"
       ],
       "primary_category": "cs.RO",
-      "pdf_url": "https://arxiv.org/pdf/2511.14161v1",
+      "pdf_url": "https://arxiv.org/pdf/2511.14161v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2511.14161v1",
+      "entry_id": "http://arxiv.org/abs/2511.14161v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2511.14161v1",
+          "href": "https://arxiv.org/abs/2511.14161v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2511.14161v1",
+          "href": "https://arxiv.org/pdf/2511.14161v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -1454,7 +1523,7 @@
       "llm_approved": false
     },
     "2511.07710": {
-      "title": "Cross Modal Fine-grained Alignment via Granularity-aware and Region-uncertain Modeling",
+      "title": "Cross Modal Fine-Grained Alignment via Granularity-Aware and Region-Uncertain Modeling",
       "authors": [
         "Jiale Liu",
         "Haoming Zhou",
@@ -1463,27 +1532,27 @@
         "Yuncheng Jiang"
       ],
       "published": "2025-11-11T00:28:11+00:00",
-      "updated": "2025-11-11T00:28:11+00:00",
+      "updated": "2025-11-19T08:39:44+00:00",
       "summary": "Fine-grained image-text alignment is a pivotal challenge in multimodal learning, underpinning key applications such as visual question answering, image captioning, and vision-language navigation. Unlike global alignment, fine-grained alignment requires precise correspondence between localized visual regions and textual tokens, often hindered by noisy attention mechanisms and oversimplified modeling of cross-modal relationships. In this work, we identify two fundamental limitations of existing approaches: the lack of robust intra-modal mechanisms to assess the significance of visual and textual tokens, leading to poor generalization in complex scenes; and the absence of fine-grained uncertainty modeling, which fails to capture the one-to-many and many-to-one nature of region-word correspondences. To address these issues, we propose a unified approach that incorporates significance-aware and granularity-aware modeling and region-level uncertainty modeling. Our method leverages modality-specific biases to identify salient features without relying on brittle cross-modal attention, and represents region features as a mixture of Gaussian distributions to capture fine-grained uncertainty. Extensive experiments on Flickr30K and MS-COCO demonstrate that our approach achieves state-of-the-art performance across various backbone architectures, significantly enhancing the robustness and interpretability of fine-grained image-text alignment.",
       "categories": [
         "cs.CV",
         "cs.MM"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2511.07710v1",
+      "pdf_url": "https://arxiv.org/pdf/2511.07710v2",
       "journal_ref": null,
       "doi": null,
       "comment": "10 pages, 6 figures, accepted by AAAI 2026",
-      "entry_id": "http://arxiv.org/abs/2511.07710v1",
+      "entry_id": "http://arxiv.org/abs/2511.07710v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2511.07710v1",
+          "href": "https://arxiv.org/abs/2511.07710v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2511.07710v1",
+          "href": "https://arxiv.org/pdf/2511.07710v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -68902,26 +68971,26 @@
         "Shuyuan Zhu"
       ],
       "published": "2025-11-15T13:17:18+00:00",
-      "updated": "2025-11-18T12:09:26+00:00",
+      "updated": "2025-11-19T08:17:25+00:00",
       "summary": "Multi-view image generation holds significant application value in computer vision, particularly in domains like 3D reconstruction, virtual reality, and augmented reality. Most existing methods, which rely on extending single images, face notable computational challenges in maintaining cross-view consistency and generating high-resolution outputs. To address these issues, we propose the Geometry-guided Multi-View Diffusion Model, which incorporates mechanisms for extracting multi-view geometric information and adjusting the intensity of geometric features to generate images that are both consistent across views and rich in detail. Specifically, we design a multi-view geometry information extraction module that leverages depth maps, normal maps, and foreground segmentation masks to construct a shared geometric structure, ensuring shape and structural consistency across different views. To enhance consistency and detail restoration during generation, we develop a decoupled geometry-enhanced attention mechanism that strengthens feature focus on key geometric details, thereby improving overall image quality and detail preservation. Furthermore, we apply an adaptive learning strategy that fine-tunes the model to better capture spatial relationships and visual coherence between the generated views, ensuring realistic results. Our model also incorporates an iterative refinement process that progressively improves the output quality through multiple stages of image generation. Finally, a dynamic geometry information intensity adjustment mechanism is proposed to adaptively regulate the influence of geometric data, optimizing overall quality while ensuring the naturalness of generated images. More details can be found on the project page: https://sobeymil.github.io/GeoMVD.com.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2511.12204v2",
+      "pdf_url": "https://arxiv.org/pdf/2511.12204v3",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2511.12204v2",
+      "entry_id": "http://arxiv.org/abs/2511.12204v3",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2511.12204v2",
+          "href": "https://arxiv.org/abs/2511.12204v3",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2511.12204v2",
+          "href": "https://arxiv.org/pdf/2511.12204v3",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -84154,6 +84223,116 @@
     }
   },
   "Depth Estimation": {
+    "2511.15396": {
+      "title": "ShelfOcc: Native 3D Supervision beyond LiDAR for Vision-Based Occupancy Estimation",
+      "authors": [
+        "Simon Boeder",
+        "Fabian Gigengack",
+        "Simon Roesler",
+        "Holger Caesar",
+        "Benjamin Risse"
+      ],
+      "published": "2025-11-19T12:44:13+00:00",
+      "updated": "2025-11-19T12:44:13+00:00",
+      "summary": "Recent progress in self- and weakly supervised occupancy estimation has largely relied on 2D projection or rendering-based supervision, which suffers from geometric inconsistencies and severe depth bleeding. We thus introduce ShelfOcc, a vision-only method that overcomes these limitations without relying on LiDAR. ShelfOcc brings supervision into native 3D space by generating metrically consistent semantic voxel labels from video, enabling true 3D supervision without any additional sensors or manual 3D annotations. While recent vision-based 3D geometry foundation models provide a promising source of prior knowledge, they do not work out of the box as a prediction due to sparse or noisy and inconsistent geometry, especially in dynamic driving scenes. Our method introduces a dedicated framework that mitigates these issues by filtering and accumulating static geometry consistently across frames, handling dynamic content and propagating semantic information into a stable voxel representation. This data-centric shift in supervision for weakly/shelf-supervised occupancy estimation allows the use of essentially any SOTA occupancy model architecture without relying on LiDAR data. We argue that such high-quality supervision is essential for robust occupancy learning and constitutes an important complementary avenue to architectural innovation. On the Occ3D-nuScenes benchmark, ShelfOcc substantially outperforms all previous weakly/shelf-supervised methods (up to a 34% relative improvement), establishing a new data-driven direction for LiDAR-free 3D scene understanding.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.15396v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.15396v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.15396v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.15396v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2511.15167": {
+      "title": "Learning Depth from Past Selves: Self-Evolution Contrast for Robust Depth Estimation",
+      "authors": [
+        "Jing Cao",
+        "Kui Jiang",
+        "Shenyi Li",
+        "Xiaocheng Feng",
+        "Yong Huang"
+      ],
+      "published": "2025-11-19T06:42:40+00:00",
+      "updated": "2025-11-19T06:42:40+00:00",
+      "summary": "Self-supervised depth estimation has gained significant attention in autonomous driving and robotics. However, existing methods exhibit substantial performance degradation under adverse weather conditions such as rain and fog, where reduced visibility critically impairs depth prediction. To address this issue, we propose a novel self-evolution contrastive learning framework called SEC-Depth for self-supervised robust depth estimation tasks. Our approach leverages intermediate parameters generated during training to construct temporally evolving latency models. Using these, we design a self-evolution contrastive scheme to mitigate performance loss under challenging conditions. Concretely, we first design a dynamic update strategy of latency models for the depth estimation task to capture optimization states across training stages. To effectively leverage latency models, we introduce a self-evolution contrastive Loss (SECL) that treats outputs from historical latency models as negative samples. This mechanism adaptively adjusts learning objectives while implicitly sensing weather degradation severity, reducing the needs for manual intervention. Experiments show that our method integrates seamlessly into diverse baseline models and significantly enhances robustness in zero-shot evaluations.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.15167v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.15167v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.15167v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.15167v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2511.14970": {
+      "title": "EGSA-PT:Edge-Guided Spatial Attention with Progressive Training for Monocular Depth Estimation and Segmentation of Transparent Objects",
+      "authors": [
+        "Gbenga Omotara",
+        "Ramy Farag",
+        "Seyed Mohamad Ali Tousi",
+        "G. N. DeSouza"
+      ],
+      "published": "2025-11-18T23:29:20+00:00",
+      "updated": "2025-11-18T23:29:20+00:00",
+      "summary": "Transparent object perception remains a major challenge in computer vision research, as transparency confounds both depth estimation and semantic segmentation. Recent work has explored multi-task learning frameworks to improve robustness, yet negative cross-task interactions often hinder performance. In this work, we introduce Edge-Guided Spatial Attention (EGSA), a fusion mechanism designed to mitigate destructive interactions by incorporating boundary information into the fusion between semantic and geometric features. On both Syn-TODD and ClearPose benchmarks, EGSA consistently improved depth accuracy over the current state of the art method (MODEST), while preserving competitive segmentation performance, with the largest improvements appearing in transparent regions. Besides our fusion design, our second contribution is a multi-modal progressive training strategy, where learning transitions from edges derived from RGB images to edges derived from predicted depth images. This approach allows the system to bootstrap learning from the rich textures contained in RGB images, and then switch to more relevant geometric content in depth maps, while it eliminates the need for ground-truth depth at training time. Together, these contributions highlight edge-guided fusion as a robust approach capable of improving transparent object perception.",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.14970v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.14970v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.14970v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.14970v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2511.14719": {
       "title": "Zero-shot Synthetic Video Realism Enhancement via Structure-aware Denoising",
       "authors": [
@@ -84239,27 +84418,27 @@
         "Jun Luo"
       ],
       "published": "2025-11-18T11:45:46+00:00",
-      "updated": "2025-11-18T11:45:46+00:00",
+      "updated": "2025-11-19T08:01:31+00:00",
       "summary": "Though deep neural models adopted to realize the perception of autonomous driving have proven vulnerable to adversarial examples, known attacks often leverage 2D patches and target mostly monocular perception. Therefore, the effectiveness of Physical Adversarial Examples (PAEs) on stereo-based binocular depth estimation remains largely unexplored. To this end, we propose the first texture-enabled physical adversarial attack against stereo matching models in the context of autonomous driving. Our method employs a 3D PAE with global camouflage texture rather than a local 2D patch-based one, ensuring both visual consistency and attack effectiveness across different viewpoints of stereo cameras. To cope with the disparity effect of these cameras, we also propose a new 3D stereo matching rendering module that allows the PAE to be aligned with real-world positions and headings in binocular vision. We further propose a novel merging attack that seamlessly blends the target into the environment through fine-grained PAE optimization. It has significantly enhanced stealth and lethality upon existing hiding attacks that fail to get seamlessly merged into the background. Extensive evaluations show that our PAEs can successfully fool the stereo models into producing erroneous depth information.",
       "categories": [
         "cs.CV",
         "cs.AI"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2511.14386v1",
+      "pdf_url": "https://arxiv.org/pdf/2511.14386v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2511.14386v1",
+      "entry_id": "http://arxiv.org/abs/2511.14386v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2511.14386v1",
+          "href": "https://arxiv.org/abs/2511.14386v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2511.14386v1",
+          "href": "https://arxiv.org/pdf/2511.14386v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
