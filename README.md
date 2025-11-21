@@ -1,4 +1,4 @@
-## Updated at 2025-11-21 08:18:01
+## Updated at 2025-11-21 20:07:20
 
 ## 3DGS Semantic
 
@@ -8,6 +8,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-11-20**|**[LEGO-SLAM: Language-Embedded Gaussian Optimization SLAM](https://arxiv.org/abs/2511.16144)**|N/A|18 pages|cs.CV|None|Sibaek Lee et al.|
 |**2025-11-06**|**[CaRF: Enhancing Multi-View Consistency in Referring 3D Gaussian Splatting Segmentation](https://arxiv.org/abs/2511.03992)**|N/A|None|cs.CV|None|Yuwen Tao et al.|
 |**2025-11-04**|**[PercHead: Perceptual Head Model for Single-Image 3D Head Reconstruction & Editing](https://arxiv.org/abs/2511.02777)**|N/A|Project Page: https://antoniooroz.github.io/PercHead/ Video: https://www.youtube.com/watch?v=4hFybgTk4kE|cs.CV|None|Antonio Oroz et al.|
 |**2025-10-30**|**[AgriGS-SLAM: Orchard Mapping Across Seasons via Multi-View Gaussian Splatting SLAM](https://arxiv.org/abs/2510.26358)**|N/A|None|cs.RO|None|Mirko Usuelli et al.|
@@ -166,6 +167,9 @@ Query: (abs:'Multi-View Stereo' OR abs:'Multi View Stereo' OR abs:'Multi-View De
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-11-20**|**[CylinderDepth: Cylindrical Spatial Attention for Multi-View Consistent Self-Supervised Surround Depth Estimation](https://arxiv.org/abs/2511.16428)**|N/A|None|cs.CV|None|Samer Abualhanud et al.|
+|**2025-11-20**|**[How Robot Dogs See the Unseeable](https://arxiv.org/abs/2511.16262)**|N/A|None|cs.RO|None|Oliver Bimber et al.|
+|**2025-11-20**|**[CuriGS: Curriculum-Guided Gaussian Splatting for Sparse View Synthesis](https://arxiv.org/abs/2511.16030)**|N/A|None|cs.CV|None|Zijian Wu et al.|
 |**2025-11-18**|**[SparseSurf: Sparse-View 3D Gaussian Splatting for Surface Reconstruction](https://arxiv.org/abs/2511.14633)**|N/A|Accepted at AAAI 2026. Project page: https://miya-oi.github.io/SparseSurf-project|cs.CV|None|Meiying Gu et al.|
 |**2025-11-17**|**[Training-Free Multi-View Extension of IC-Light for Textual Position-Aware Scene Relighting](https://arxiv.org/abs/2511.13684)**|N/A|Submitting for Neurocomputing|cs.CV|None|Jiangnan Ye et al.|
 |**2025-11-17**|**[SF-Recon: Simplification-Free Lightweight Building Reconstruction via 3D Gaussian Splatting](https://arxiv.org/abs/2511.13278)**|N/A|None|cs.CV|None|Zihan Li et al.|
@@ -588,6 +592,12 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-11-20**|**[Lite Any Stereo: Efficient Zero-Shot Stereo Matching](https://arxiv.org/abs/2511.16555)**|N/A|None|cs.CV|None|Junpeng Jing et al.|
+|**2025-11-20**|**[Physics-Informed Machine Learning for Efficient Sim-to-Real Data Augmentation in Micro-Object Pose Estimation](https://arxiv.org/abs/2511.16494)**|N/A|None|cs.CV|None|Zongcai Tan et al.|
+|**2025-11-20**|**[CylinderDepth: Cylindrical Spatial Attention for Multi-View Consistent Self-Supervised Surround Depth Estimation](https://arxiv.org/abs/2511.16428)**|N/A|None|cs.CV|None|Samer Abualhanud et al.|
+|**2025-11-20**|**[Upsample Anything: A Simple and Hard to Beat Baseline for Feature Upsampling](https://arxiv.org/abs/2511.16301)**|N/A|15 pages, 12 figures|cs.CV|None|Minseok Seo et al.|
+|**2025-11-20**|**[How Robot Dogs See the Unseeable](https://arxiv.org/abs/2511.16262)**|N/A|None|cs.RO|None|Oliver Bimber et al.|
+|**2025-11-19**|**[Box6D : Zero-shot Category-level 6D Pose Estimation of Warehouse Boxes](https://arxiv.org/abs/2511.15884)**|N/A|None|cs.CV|None|Yintao Ma et al.|
 |**2025-11-19**|**[ShelfOcc: Native 3D Supervision beyond LiDAR for Vision-Based Occupancy Estimation](https://arxiv.org/abs/2511.15396)**|N/A|None|cs.CV|None|Simon Boeder et al.|
 |**2025-11-19**|**[Learning Depth from Past Selves: Self-Evolution Contrast for Robust Depth Estimation](https://arxiv.org/abs/2511.15167)**|N/A|None|cs.CV|None|Jing Cao et al.|
 |**2025-11-18**|**[EGSA-PT:Edge-Guided Spatial Attention with Progressive Training for Monocular Depth Estimation and Segmentation of Transparent Objects](https://arxiv.org/abs/2511.14970)**|N/A|None|cs.CV|None|Gbenga Omotara et al.|

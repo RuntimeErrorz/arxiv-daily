@@ -1,31 +1,105 @@
 {
   "3DGS Semantic": {
+    "2511.16301": {
+      "title": "Upsample Anything: A Simple and Hard to Beat Baseline for Feature Upsampling",
+      "authors": [
+        "Minseok Seo",
+        "Mark Hamilton",
+        "Changick Kim"
+      ],
+      "published": "2025-11-20T12:27:53+00:00",
+      "updated": "2025-11-20T12:27:53+00:00",
+      "summary": "We present \\textbf{Upsample Anything}, a lightweight test-time optimization (TTO) framework that restores low-resolution features to high-resolution, pixel-wise outputs without any training. Although Vision Foundation Models demonstrate strong generalization across diverse downstream tasks, their representations are typically downsampled by 14x/16x (e.g., ViT), which limits their direct use in pixel-level applications. Existing feature upsampling approaches depend on dataset-specific retraining or heavy implicit optimization, restricting scalability and generalization. Upsample Anything addresses these issues through a simple per-image optimization that learns an anisotropic Gaussian kernel combining spatial and range cues, effectively bridging Gaussian Splatting and Joint Bilateral Upsampling. The learned kernel acts as a universal, edge-aware operator that transfers seamlessly across architectures and modalities, enabling precise high-resolution reconstruction of features, depth, or probability maps. It runs in only $\\approx0.419 \\text{s}$ per 224x224 image and achieves state-of-the-art performance on semantic segmentation, depth estimation, and both depth and probability map upsampling.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.16301v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "15 pages, 12 figures",
+      "entry_id": "http://arxiv.org/abs/2511.16301v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.16301v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.16301v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.16144": {
+      "title": "LEGO-SLAM: Language-Embedded Gaussian Optimization SLAM",
+      "authors": [
+        "Sibaek Lee",
+        "Seongbo Ha",
+        "Kyeongsu Kang",
+        "Joonyeol Choi",
+        "Seungjun Tak",
+        "Hyeonwoo Yu"
+      ],
+      "published": "2025-11-20T08:31:34+00:00",
+      "updated": "2025-11-20T08:31:34+00:00",
+      "summary": "Recent advances in 3D Gaussian Splatting (3DGS) have enabled Simultaneous Localization and Mapping (SLAM) systems to build photorealistic maps. However, these maps lack the open-vocabulary semantic understanding required for advanced robotic interaction. Integrating language features into SLAM remains a significant challenge, as storing high-dimensional features demands excessive memory and rendering overhead, while existing methods with static models lack adaptability for novel environments. To address these limitations, we propose LEGO-SLAM (Language-Embedded Gaussian Optimization SLAM), the first framework to achieve real-time, open-vocabulary mapping within a 3DGS-based SLAM system. At the core of our method is a scene-adaptive encoder-decoder that distills high-dimensional language embeddings into a compact 16-dimensional feature space. This design reduces the memory per Gaussian and accelerates rendering, enabling real-time performance. Unlike static approaches, our encoder adapts online to unseen scenes. These compact features also enable a language-guided pruning strategy that identifies semantic redundancy, reducing the map's Gaussian count by over 60\\% while maintaining rendering quality. Furthermore, we introduce a language-based loop detection approach that reuses these mapping features, eliminating the need for a separate detection model. Extensive experiments demonstrate that LEGO-SLAM achieves competitive mapping quality and tracking accuracy, all while providing open-vocabulary capabilities at 15 FPS.",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.16144v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "18 pages",
+      "entry_id": "http://arxiv.org/abs/2511.16144v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.16144v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.16144v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
     "2511.15172": {
       "title": "Complex variational autoencoders admit Kähler structure",
       "authors": [
         "Andrew Gracyk"
       ],
       "published": "2025-11-19T06:51:03+00:00",
-      "updated": "2025-11-19T06:51:03+00:00",
+      "updated": "2025-11-20T17:51:33+00:00",
       "summary": "It has been discovered that latent-Euclidean variational autoencoders (VAEs) admit, in various capacities, Riemannian structure. We adapt these arguments but for complex VAEs with a complex latent stage. We show that complex VAEs reveal to some level Kähler geometric structure. Our methods will be tailored for decoder geometry. We derive the Fisher information metric in the complex case under a latent complex Gaussian regularization with trivial relation matrix. It is well known from statistical information theory that the Fisher information coincides with the Hessian of the Kullback-Leibler (KL) divergence. Thus, the metric Kähler potential relation is exactly achieved under relative entropy. We propose a Kähler potential derivative of complex Gaussian mixtures that has rough equivalence to the Fisher information metric while still being faithful to the underlying Kähler geometry. Computation of the metric via this potential is efficient, and through our potential, valid as a plurisubharmonic (PSH) function, large scale computational burden of automatic differentiation is displaced to small scale. We show that we can regularize the latent space with decoder geometry, and that we can sample in accordance with a weighted complex volume element. We demonstrate these strategies, at the exchange of sample variation, yield consistently smoother representations and fewer semantic outliers.",
       "categories": [
         "cs.LG"
       ],
       "primary_category": "cs.LG",
-      "pdf_url": "https://arxiv.org/pdf/2511.15172v1",
+      "pdf_url": "https://arxiv.org/pdf/2511.15172v2",
       "journal_ref": null,
       "doi": null,
-      "comment": "First version",
-      "entry_id": "http://arxiv.org/abs/2511.15172v1",
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.15172v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2511.15172v1",
+          "href": "https://arxiv.org/abs/2511.15172v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2511.15172v1",
+          "href": "https://arxiv.org/pdf/2511.15172v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -68771,6 +68845,120 @@
     }
   },
   "MVS": {
+    "2511.16428": {
+      "title": "CylinderDepth: Cylindrical Spatial Attention for Multi-View Consistent Self-Supervised Surround Depth Estimation",
+      "authors": [
+        "Samer Abualhanud",
+        "Christian Grannemann",
+        "Max Mehltretter"
+      ],
+      "published": "2025-11-20T14:55:28+00:00",
+      "updated": "2025-11-20T14:55:28+00:00",
+      "summary": "Self-supervised surround-view depth estimation enables dense, low-cost 3D perception with a 360° field of view from multiple minimally overlapping images. Yet, most existing methods suffer from depth estimates that are inconsistent between overlapping images. Addressing this limitation, we propose a novel geometry-guided method for calibrated, time-synchronized multi-camera rigs that predicts dense, metric, and cross-view-consistent depth. Given the intrinsic and relative orientation parameters, a first depth map is predicted per image and the so-derived 3D points from all images are projected onto a shared unit cylinder, establishing neighborhood relations across different images. This produces a 2D position map for every image, where each pixel is assigned its projected position on the cylinder. Based on these position maps, we apply an explicit, non-learned spatial attention that aggregates features among pixels across images according to their distances on the cylinder, to predict a final depth map per image. Evaluated on the DDAD and nuScenes datasets, our approach improves the consistency of depth estimates across images and the overall depth compared to state-of-the-art methods.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.16428v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.16428v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.16428v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.16428v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2511.16262": {
+      "title": "How Robot Dogs See the Unseeable",
+      "authors": [
+        "Oliver Bimber",
+        "Karl Dietrich von Ellenrieder",
+        "Michael Haller",
+        "Rakesh John Amala Arokia Nathan",
+        "Gianni Lunardi",
+        "Marco Camurri",
+        "Mohamed Youssef",
+        "Santos Miguel Orozco Soto",
+        "Jeremy E. Niven"
+      ],
+      "published": "2025-11-20T11:41:48+00:00",
+      "updated": "2025-11-20T11:41:48+00:00",
+      "summary": "Peering, a side-to-side motion used by animals to estimate distance through motion parallax, offers a powerful bio-inspired strategy to overcome a fundamental limitation in robotic vision: partial occlusion. Conventional robot cameras, with their small apertures and large depth of field, render both foreground obstacles and background objects in sharp focus, causing occluders to obscure critical scene information. This work establishes a formal connection between animal peering and synthetic aperture (SA) sensing from optical imaging. By having a robot execute a peering motion, its camera describes a wide synthetic aperture. Computational integration of the captured images synthesizes an image with an extremely shallow depth of field, effectively blurring out occluding elements while bringing the background into sharp focus. This efficient, wavelength-independent technique enables real-time, high-resolution perception across various spectral bands. We demonstrate that this approach not only restores basic scene understanding but also empowers advanced visual reasoning in large multimodal models, which fail with conventionally occluded imagery. Unlike feature-dependent multi-view 3D vision methods or active sensors like LiDAR, SA sensing via peering is robust to occlusion, computationally efficient, and immediately deployable on any mobile robot. This research bridges animal behavior and robotics, suggesting that peering motions for synthetic aperture sensing are a key to advanced scene understanding in complex, cluttered environments.",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2511.16262v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.16262v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.16262v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.16262v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2511.16030": {
+      "title": "CuriGS: Curriculum-Guided Gaussian Splatting for Sparse View Synthesis",
+      "authors": [
+        "Zijian Wu",
+        "Mingfeng Jiang",
+        "Zidian Lin",
+        "Ying Song",
+        "Hanjie Ma",
+        "Qun Wu",
+        "Dongping Zhang",
+        "Guiyang Pu"
+      ],
+      "published": "2025-11-20T04:22:01+00:00",
+      "updated": "2025-11-20T04:22:01+00:00",
+      "summary": "3D Gaussian Splatting (3DGS) has recently emerged as an efficient, high-fidelity representation for real-time scene reconstruction and rendering. However, extending 3DGS to sparse-view settings remains challenging because of supervision scarcity and overfitting caused by limited viewpoint coverage. In this paper, we present CuriGS, a curriculum-guided framework for sparse-view 3D reconstruction using 3DGS. CuriGS addresses the core challenge of sparse-view synthesis by introducing student views: pseudo-views sampled around ground-truth poses (teacher). For each teacher, we generate multiple groups of student views with different perturbation levels. During training, we follow a curriculum schedule that gradually unlocks higher perturbation level, randomly sampling candidate students from the active level to assist training. Each sampled student is regularized via depth-correlation and co-regularization, and evaluated using a multi-signal metric that combines SSIM, LPIPS, and an image-quality measure. For every teacher and perturbation level, we periodically retain the best-performing students and promote those that satisfy a predefined quality threshold to the training set, resulting in a stable augmentation of sparse training views. Experimental results show that CuriGS outperforms state-of-the-art baselines in both rendering fidelity and geometric consistency across various synthetic and real sparse-view scenes. Project page: https://zijian1026.github.io/CuriGS/",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.16030v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.16030v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.16030v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.16030v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2511.14633": {
       "title": "SparseSurf: Sparse-View 3D Gaussian Splatting for Surface Reconstruction",
       "authors": [
@@ -84223,6 +84411,222 @@
     }
   },
   "Depth Estimation": {
+    "2511.16555": {
+      "title": "Lite Any Stereo: Efficient Zero-Shot Stereo Matching",
+      "authors": [
+        "Junpeng Jing",
+        "Weixun Luo",
+        "Ye Mao",
+        "Krystian Mikolajczyk"
+      ],
+      "published": "2025-11-20T17:07:06+00:00",
+      "updated": "2025-11-20T17:07:06+00:00",
+      "summary": "Recent advances in stereo matching have focused on accuracy, often at the cost of significantly increased model size. Traditionally, the community has regarded efficient models as incapable of zero-shot ability due to their limited capacity. In this paper, we introduce Lite Any Stereo, a stereo depth estimation framework that achieves strong zero-shot generalization while remaining highly efficient. To this end, we design a compact yet expressive backbone to ensure scalability, along with a carefully crafted hybrid cost aggregation module. We further propose a three-stage training strategy on million-scale data to effectively bridge the sim-to-real gap. Together, these components demonstrate that an ultra-light model can deliver strong generalization, ranking 1st across four widely used real-world benchmarks. Remarkably, our model attains accuracy comparable to or exceeding state-of-the-art non-prior-based accurate methods while requiring less than 1% computational cost, setting a new standard for efficient stereo matching.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.16555v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.16555v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.16555v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.16555v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2511.16494": {
+      "title": "Physics-Informed Machine Learning for Efficient Sim-to-Real Data Augmentation in Micro-Object Pose Estimation",
+      "authors": [
+        "Zongcai Tan",
+        "Lan Wei",
+        "Dandan Zhang"
+      ],
+      "published": "2025-11-20T16:10:53+00:00",
+      "updated": "2025-11-20T16:10:53+00:00",
+      "summary": "Precise pose estimation of optical microrobots is essential for enabling high-precision object tracking and autonomous biological studies. However, current methods rely heavily on large, high-quality microscope image datasets, which are difficult and costly to acquire due to the complexity of microrobot fabrication and the labour-intensive labelling. Digital twin systems offer a promising path for sim-to-real data augmentation, yet existing techniques struggle to replicate complex optical microscopy phenomena, such as diffraction artifacts and depth-dependent imaging.This work proposes a novel physics-informed deep generative learning framework that, for the first time, integrates wave optics-based physical rendering and depth alignment into a generative adversarial network (GAN), to synthesise high-fidelity microscope images for microrobot pose estimation efficiently. Our method improves the structural similarity index (SSIM) by 35.6% compared to purely AI-driven methods, while maintaining real-time rendering speeds (0.022 s/frame).The pose estimator (CNN backbone) trained on our synthetic data achieves 93.9%/91.9% (pitch/roll) accuracy, just 5.0%/5.4% (pitch/roll) below that of an estimator trained exclusively on real data. Furthermore, our framework generalises to unseen poses, enabling data augmentation and robust pose estimation for novel microrobot configurations without additional training data.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.16494v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.16494v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.16494v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.16494v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2511.16428": {
+      "title": "CylinderDepth: Cylindrical Spatial Attention for Multi-View Consistent Self-Supervised Surround Depth Estimation",
+      "authors": [
+        "Samer Abualhanud",
+        "Christian Grannemann",
+        "Max Mehltretter"
+      ],
+      "published": "2025-11-20T14:55:28+00:00",
+      "updated": "2025-11-20T14:55:28+00:00",
+      "summary": "Self-supervised surround-view depth estimation enables dense, low-cost 3D perception with a 360° field of view from multiple minimally overlapping images. Yet, most existing methods suffer from depth estimates that are inconsistent between overlapping images. Addressing this limitation, we propose a novel geometry-guided method for calibrated, time-synchronized multi-camera rigs that predicts dense, metric, and cross-view-consistent depth. Given the intrinsic and relative orientation parameters, a first depth map is predicted per image and the so-derived 3D points from all images are projected onto a shared unit cylinder, establishing neighborhood relations across different images. This produces a 2D position map for every image, where each pixel is assigned its projected position on the cylinder. Based on these position maps, we apply an explicit, non-learned spatial attention that aggregates features among pixels across images according to their distances on the cylinder, to predict a final depth map per image. Evaluated on the DDAD and nuScenes datasets, our approach improves the consistency of depth estimates across images and the overall depth compared to state-of-the-art methods.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.16428v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.16428v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.16428v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.16428v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2511.16301": {
+      "title": "Upsample Anything: A Simple and Hard to Beat Baseline for Feature Upsampling",
+      "authors": [
+        "Minseok Seo",
+        "Mark Hamilton",
+        "Changick Kim"
+      ],
+      "published": "2025-11-20T12:27:53+00:00",
+      "updated": "2025-11-20T12:27:53+00:00",
+      "summary": "We present \\textbf{Upsample Anything}, a lightweight test-time optimization (TTO) framework that restores low-resolution features to high-resolution, pixel-wise outputs without any training. Although Vision Foundation Models demonstrate strong generalization across diverse downstream tasks, their representations are typically downsampled by 14x/16x (e.g., ViT), which limits their direct use in pixel-level applications. Existing feature upsampling approaches depend on dataset-specific retraining or heavy implicit optimization, restricting scalability and generalization. Upsample Anything addresses these issues through a simple per-image optimization that learns an anisotropic Gaussian kernel combining spatial and range cues, effectively bridging Gaussian Splatting and Joint Bilateral Upsampling. The learned kernel acts as a universal, edge-aware operator that transfers seamlessly across architectures and modalities, enabling precise high-resolution reconstruction of features, depth, or probability maps. It runs in only $\\approx0.419 \\text{s}$ per 224x224 image and achieves state-of-the-art performance on semantic segmentation, depth estimation, and both depth and probability map upsampling.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.16301v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "15 pages, 12 figures",
+      "entry_id": "http://arxiv.org/abs/2511.16301v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.16301v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.16301v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2511.16262": {
+      "title": "How Robot Dogs See the Unseeable",
+      "authors": [
+        "Oliver Bimber",
+        "Karl Dietrich von Ellenrieder",
+        "Michael Haller",
+        "Rakesh John Amala Arokia Nathan",
+        "Gianni Lunardi",
+        "Marco Camurri",
+        "Mohamed Youssef",
+        "Santos Miguel Orozco Soto",
+        "Jeremy E. Niven"
+      ],
+      "published": "2025-11-20T11:41:48+00:00",
+      "updated": "2025-11-20T11:41:48+00:00",
+      "summary": "Peering, a side-to-side motion used by animals to estimate distance through motion parallax, offers a powerful bio-inspired strategy to overcome a fundamental limitation in robotic vision: partial occlusion. Conventional robot cameras, with their small apertures and large depth of field, render both foreground obstacles and background objects in sharp focus, causing occluders to obscure critical scene information. This work establishes a formal connection between animal peering and synthetic aperture (SA) sensing from optical imaging. By having a robot execute a peering motion, its camera describes a wide synthetic aperture. Computational integration of the captured images synthesizes an image with an extremely shallow depth of field, effectively blurring out occluding elements while bringing the background into sharp focus. This efficient, wavelength-independent technique enables real-time, high-resolution perception across various spectral bands. We demonstrate that this approach not only restores basic scene understanding but also empowers advanced visual reasoning in large multimodal models, which fail with conventionally occluded imagery. Unlike feature-dependent multi-view 3D vision methods or active sensors like LiDAR, SA sensing via peering is robust to occlusion, computationally efficient, and immediately deployable on any mobile robot. This research bridges animal behavior and robotics, suggesting that peering motions for synthetic aperture sensing are a key to advanced scene understanding in complex, cluttered environments.",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2511.16262v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.16262v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.16262v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.16262v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2511.15884": {
+      "title": "Box6D : Zero-shot Category-level 6D Pose Estimation of Warehouse Boxes",
+      "authors": [
+        "Yintao Ma",
+        "Sajjad Pakdamansavoji",
+        "Amir Rasouli",
+        "Tongtong Cao"
+      ],
+      "published": "2025-11-19T21:22:08+00:00",
+      "updated": "2025-11-19T21:22:08+00:00",
+      "summary": "Accurate and efficient 6D pose estimation of novel objects under clutter and occlusion is critical for robotic manipulation across warehouse automation, bin picking, logistics, and e-commerce fulfillment. There are three main approaches in this domain; Model-based methods assume an exact CAD model at inference but require high-resolution meshes and transfer poorly to new environments; Model-free methods that rely on a few reference images or videos are more flexible, however often fail under challenging conditions; Category-level approaches aim to balance flexibility and accuracy but many are overly general and ignore environment and object priors, limiting their practicality in industrial settings.\n  To this end, we propose Box6d, a category-level 6D pose estimation method tailored for storage boxes in the warehouse context. From a single RGB-D observation, Box6D infers the dimensions of the boxes via a fast binary search and estimates poses using a category CAD template rather than instance-specific models. Suing a depth-based plausibility filter and early-stopping strategy, Box6D then rejects implausible hypotheses, lowering computational cost. We conduct evaluations on real-world storage scenarios and public benchmarks, and show that our approach delivers competitive or superior 6D pose precision while reducing inference time by approximately 76%.",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.15884v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.15884v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.15884v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.15884v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2511.15396": {
       "title": "ShelfOcc: Native 3D Supervision beyond LiDAR for Vision-Based Occupancy Estimation",
       "authors": [
