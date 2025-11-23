@@ -1,4 +1,4 @@
-## Updated at 2025-11-23 08:20:41
+## Updated at 2025-11-23 10:44:06
 
 ## 3DGS Semantic
 
@@ -11,15 +11,15 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2025-11-20**|**[LEGO-SLAM: Language-Embedded Gaussian Optimization SLAM](https://arxiv.org/abs/2511.16144)**|N/A|18 pages|cs.CV|None|Sibaek Lee et al.|
 |**2025-11-06**|**[CaRF: Enhancing Multi-View Consistency in Referring 3D Gaussian Splatting Segmentation](https://arxiv.org/abs/2511.03992)**|N/A|None|cs.CV|None|Yuwen Tao et al.|
 |**2025-11-04**|**[PercHead: Perceptual Head Model for Single-Image 3D Head Reconstruction & Editing](https://arxiv.org/abs/2511.02777)**|N/A|Project Page: https://antoniooroz.github.io/PercHead/ Video: https://www.youtube.com/watch?v=4hFybgTk4kE|cs.CV|None|Antonio Oroz et al.|
-|**2025-10-30**|**[AgriGS-SLAM: Orchard Mapping Across Seasons via Multi-View Gaussian Splatting SLAM](https://arxiv.org/abs/2510.26358)**|N/A|None|cs.RO|None|Mirko Usuelli et al.|
-|**2025-10-30**|**[Model Inversion with Layer-Specific Modeling and Alignment for Data-Free Continual Learning](https://arxiv.org/abs/2510.26311)**|N/A|Accepted in NeurIPS 2025|cs.LG|None|Ruilin Tong et al.|
-|**2025-10-30**|**[Test-Time Alignment of LLMs via Sampling-Based Optimal Control in pre-logit space](https://arxiv.org/abs/2510.26219)**|N/A|21 pages, 8 figures|cs.LG|None|Sekitoshi Kanai et al.|
-|**2025-10-29**|**[EA3D: Online Open-World 3D Object Extraction from Streaming Videos](https://arxiv.org/abs/2510.25146)**|N/A|The Thirty-Ninth Annual Conference on Neural Information Processing Systems(NeurIPS 2025)|cs.CV|None|Xiaoyu Zhou et al.|
-|**2025-10-28**|**[LagMemo: Language 3D Gaussian Splatting Memory for Multi-modal Open-vocabulary Multi-goal Visual Navigation](https://arxiv.org/abs/2510.24118)**|N/A|None|cs.RO|None|Haotian Zhou et al.|
-|**2025-10-27**|**[Gen-LangSplat: Generalized Language Gaussian Splatting with Pre-Trained Feature Compression](https://arxiv.org/abs/2510.22930)**|N/A|None|cs.CV|None|Pranav Saxena|
-|**2025-10-23**|**[COS3D: Collaborative Open-Vocabulary 3D Segmentation](https://arxiv.org/abs/2510.20238)**|N/A|NeurIPS 2025. The code is publicly available at \href{https://github.com/Runsong123/COS3D}{https://github.com/Runsong123/COS3D}|cs.CV|None|Runsong Zhu et al.|
-|**2025-10-21**|**[OpenInsGaussian: Open-vocabulary Instance Gaussian Segmentation with Context-aware Cross-view Fusion](https://arxiv.org/abs/2510.18253)**|N/A|None|cs.CV|None|Tianyu Huang et al.|
-|**2025-10-18**|**[REALM: An MLLM-Agent Framework for Open World 3D Reasoning Segmentation and Editing on Gaussian Splatting](https://arxiv.org/abs/2510.16410)**|N/A|None|cs.CV|None|Changyue Shi et al.|
+|**2025-10-30**|**[AgriGS-SLAM: Orchard Mapping Across Seasons via Multi-View Gaussian Splatting SLAM](https://arxiv.org/abs/2510.26358)**|arXiv.org|None|cs.RO|None|Mirko Usuelli et al.|
+|**2025-10-30**|**[Model Inversion with Layer-Specific Modeling and Alignment for Data-Free Continual Learning](https://arxiv.org/abs/2510.26311)**|arXiv.org|Accepted in NeurIPS 2025|cs.LG|None|Ruilin Tong et al.|
+|**2025-10-30**|**[Test-Time Alignment of LLMs via Sampling-Based Optimal Control in pre-logit space](https://arxiv.org/abs/2510.26219)**|arXiv.org|21 pages, 8 figures|cs.LG|None|Sekitoshi Kanai et al.|
+|**2025-10-29**|**[EA3D: Online Open-World 3D Object Extraction from Streaming Videos](https://arxiv.org/abs/2510.25146)**|arXiv.org|The Thirty-Ninth Annual Conference on Neural Information Processing Systems(NeurIPS 2025)|cs.CV|None|Xiaoyu Zhou et al.|
+|**2025-10-28**|**[LagMemo: Language 3D Gaussian Splatting Memory for Multi-modal Open-vocabulary Multi-goal Visual Navigation](https://arxiv.org/abs/2510.24118)**|arXiv.org|None|cs.RO|None|Haotian Zhou et al.|
+|**2025-10-27**|**[Gen-LangSplat: Generalized Language Gaussian Splatting with Pre-Trained Feature Compression](https://arxiv.org/abs/2510.22930)**|arXiv.org|None|cs.CV|None|Pranav Saxena|
+|**2025-10-23**|**[COS3D: Collaborative Open-Vocabulary 3D Segmentation](https://arxiv.org/abs/2510.20238)**|arXiv.org|NeurIPS 2025. The code is publicly available at \href{https://github.com/Runsong123/COS3D}{https://github.com/Runsong123/COS3D}|cs.CV|None|Runsong Zhu et al.|
+|**2025-10-21**|**[OpenInsGaussian: Open-vocabulary Instance Gaussian Segmentation with Context-aware Cross-view Fusion](https://arxiv.org/abs/2510.18253)**|arXiv.org|None|cs.CV|None|Tianyu Huang et al.|
+|**2025-10-18**|**[REALM: An MLLM-Agent Framework for Open World 3D Reasoning Segmentation and Editing on Gaussian Splatting](https://arxiv.org/abs/2510.16410)**|arXiv.org|None|cs.CV|None|Changyue Shi et al.|
 |**2025-10-10**|**[Mono4DEditor: Text-Driven 4D Scene Editing from Monocular Video via Point-Level Localization of Language-Embedded Gaussians](https://arxiv.org/abs/2510.09438)**|arXiv.org|19 pages, 9 figures|cs.CV|None|Jin-Chuan Shi et al.|
 |**2025-10-06**|**[Progressive Gaussian Transformer with Anisotropy-aware Sampling for Open Vocabulary Occupancy Prediction](https://arxiv.org/abs/2510.04759)**|arXiv.org|Project Page: https://yanchi-3dv.github.io/PG-Occ|cs.CV|None|Chi Yan, Dan Xu|
 |**2025-10-02**|**[SIMSplat: Predictive Driving Scene Editing with Language-aligned 4D Gaussian Splatting](https://arxiv.org/abs/2510.02469)**|arXiv.org|None|cs.RO|None|Sung-Yeon Park et al.|
