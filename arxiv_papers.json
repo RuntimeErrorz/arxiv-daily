@@ -1,5 +1,231 @@
 {
   "3DGS Semantic": {
+    "2511.17392": {
+      "title": "MorphSeek: Fine-grained Latent Representation-Level Policy Optimization for Deformable Image Registration",
+      "authors": [
+        "Runxun Zhang",
+        "Yizhou Liu",
+        "Li Dongrui",
+        "Bo XU",
+        "Jingwei Wei"
+      ],
+      "published": "2025-11-21T16:52:20+00:00",
+      "updated": "2025-11-21T16:52:20+00:00",
+      "summary": "Deformable image registration (DIR) remains a fundamental yet challenging problem in medical image analysis, largely due to the prohibitively high-dimensional deformation space of dense displacement fields and the scarcity of voxel-level supervision. Existing reinforcement learning frameworks often project this space into coarse, low-dimensional representations, limiting their ability to capture spatially variant deformations. We propose MorphSeek, a fine-grained representation-level policy optimization paradigm that reformulates DIR as a spatially continuous optimization process in the latent feature space. MorphSeek introduces a stochastic Gaussian policy head atop the encoder to model a distribution over latent features, facilitating efficient exploration and coarse-to-fine refinement. The framework integrates unsupervised warm-up with weakly supervised fine-tuning through Group Relative Policy Optimization, where multi-trajectory sampling stabilizes training and improves label efficiency. Across three 3D registration benchmarks (OASIS brain MRI, LiTS liver CT, and Abdomen MR-CT), MorphSeek achieves consistent Dice improvements over competitive baselines while maintaining high label efficiency with minimal parameter cost and low step-level latency overhead. Beyond optimizer specifics, MorphSeek advances a representation-level policy learning paradigm that achieves spatially coherent and data-efficient deformation optimization, offering a principled, backbone-agnostic, and optimizer-agnostic solution for scalable visual alignment in high-dimensional settings.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.17392v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.17392v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.17392v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.17392v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.17361": {
+      "title": "SuperQuadricOcc: Multi-Layer Gaussian Approximation of Superquadrics for Real-Time Self-Supervised Occupancy Estimation",
+      "authors": [
+        "Seamie Hayes",
+        "Reenu Mohandas",
+        "Tim Brophy",
+        "Alexandre Boulch",
+        "Ganesh Sistu",
+        "Ciaran Eising"
+      ],
+      "published": "2025-11-21T16:26:31+00:00",
+      "updated": "2025-11-21T16:26:31+00:00",
+      "summary": "Semantic occupancy estimation enables comprehensive scene understanding for automated driving, providing dense spatial and semantic information essential for perception and planning. While Gaussian representations have been widely adopted in self-supervised occupancy estimation, the deployment of a large number of Gaussian primitives drastically increases memory requirements and is not suitable for real-time inference. In contrast, superquadrics permit reduced primitive count and lower memory requirements due to their diverse shape set. However, implementation into a self-supervised occupancy model is nontrivial due to the absence of a superquadric rasterizer to enable model supervision. Our proposed method, SuperQuadricOcc, employs a superquadric-based scene representation. By leveraging a multi-layer icosphere-tessellated Gaussian approximation of superquadrics, we enable Gaussian rasterization for supervision during training. On the Occ3D dataset, SuperQuadricOcc achieves a 75\\% reduction in memory footprint, 124\\% faster inference, and a 5.9\\% improvement in mIoU compared to previous Gaussian-based methods, without the use of temporal labels. To our knowledge, this is the first occupancy model to enable real-time inference while maintaining competitive performance. The use of superquadrics reduces the number of primitives required for scene modeling by 84\\% relative to Gaussian-based approaches. Finally, evaluation against prior methods is facilitated by our fast superquadric voxelization module. The code will be released as open source.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.17361v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.17361v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.17361v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.17361v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.17210": {
+      "title": "FisheyeGaussianLift: BEV Feature Lifting for Surround-View Fisheye Camera Perception",
+      "authors": [
+        "Shubham Sonarghare",
+        "Prasad Deshpande",
+        "Ciaran Hogan",
+        "Deepika-Rani Kaliappan-Mahalingam",
+        "Ganesh Sistu"
+      ],
+      "published": "2025-11-21T12:42:07+00:00",
+      "updated": "2025-11-21T12:42:07+00:00",
+      "summary": "Accurate BEV semantic segmentation from fisheye imagery remains challenging due to extreme non-linear distortion, occlusion, and depth ambiguity inherent to wide-angle projections. We present a distortion-aware BEV segmentation framework that directly processes multi-camera high-resolution fisheye images,utilizing calibrated geometric unprojection and per-pixel depth distribution estimation. Each image pixel is lifted into 3D space via Gaussian parameterization, predicting spatial means and anisotropic covariances to explicitly model geometric uncertainty. The projected 3D Gaussians are fused into a BEV representation via differentiable splatting, producing continuous, uncertainty-aware semantic maps without requiring undistortion or perspective rectification. Extensive experiments demonstrate strong segmentation performance on complex parking and urban driving scenarios, achieving IoU scores of 87.75% for drivable regions and 57.26% for vehicles under severe fisheye distortion and diverse environmental conditions.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.17210v1",
+      "journal_ref": "Proceedings of the Irish Machine Vision and Image Processing Conference 2025 1 to 3 September 2025 Ulster University Derry Londonderry pages 50 to 57 ISBN 97800993420795",
+      "doi": null,
+      "comment": "8 pages, 3 figures, published in IMVIP 2025 conference",
+      "entry_id": "http://arxiv.org/abs/2511.17210v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.17210v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.17210v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.17111": {
+      "title": "Towards Generative Design Using Optimal Transport for Shape Exploration and Solution Field Interpolation",
+      "authors": [
+        "Sergio Torregrosa",
+        "David Munoz",
+        "Hector Navarro",
+        "Charbel Farhat",
+        "Francisco Chinesta"
+      ],
+      "published": "2025-11-21T10:21:17+00:00",
+      "updated": "2025-11-21T10:21:17+00:00",
+      "summary": "Generative Design (GD) combines artificial intelligence (AI), physics-based modeling, and multi-objective optimization to autonomously explore and refine engineering designs. Despite its promise in aerospace, automotive, and other high-performance applications, current GD methods face critical challenges: AI approaches require large datasets and often struggle to generalize; topology optimization is computationally intensive and difficult to extend to multiphysics problems; and model order reduction for evolving geometries remains underdeveloped. To address these challenges, we introduce a unified, structure-preserving framework for GD based on optimal transport (OT), enabling simultaneous interpolation of complex geometries and their associated physical solution fields across evolving design spaces, even with non-matching meshes and substantial shape changes. This capability leverages Gaussian splatting to provide a continuous, mesh-independent representation of the solution and Wasserstein barycenters to enable smooth, mathematically ''mass''-preserving blending of geometries, offering a major advance over surrogate models tied to static meshes. Our framework efficiently interpolates positive scalar fields across arbitrarily shaped, evolving geometries without requiring identical mesh topology or dimensionality. OT also naturally preserves localized physical features -- such as stress concentrations or sharp gradients -- by conserving the spatial distribution of quantities, interpreted as ''mass'' in a mathematical sense, rather than averaging them, avoiding artificial smoothing. Preliminary extensions to signed and vector fields are presented. Representative test cases demonstrate enhanced efficiency, adaptability, and physical fidelity, establishing a foundation for future foundation-model-powered generative design workflows.",
+      "categories": [
+        "cs.CE"
+      ],
+      "primary_category": "cs.CE",
+      "pdf_url": "https://arxiv.org/pdf/2511.17111v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.17111v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.17111v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.17111v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.17092": {
+      "title": "SPAGS: Sparse-View Articulated Object Reconstruction from Single State via Planar Gaussian Splatting",
+      "authors": [
+        "Di Wu",
+        "Liu Liu",
+        "Xueyu Yuan",
+        "Qiaoyu Jun",
+        "Wenxiao Chen",
+        "Ruilong Yan",
+        "Yiming Tang",
+        "Liangtu Song"
+      ],
+      "published": "2025-11-21T09:49:53+00:00",
+      "updated": "2025-11-21T09:49:53+00:00",
+      "summary": "Articulated objects are ubiquitous in daily environments, and their 3D reconstruction holds great significance across various fields. However, existing articulated object reconstruction methods typically require costly inputs such as multi-stage and multi-view observations. To address the limitations, we propose a category-agnostic articulated object reconstruction framework via planar Gaussian Splatting, which only uses sparse-view RGB images from a single state. Specifically, we first introduce a Gaussian information field to perceive the optimal sparse viewpoints from candidate camera poses. Then we compress 3D Gaussians into planar Gaussians to facilitate accurate estimation of normal and depth. The planar Gaussians are optimized in a coarse-to-fine manner through depth smooth regularization and few-shot diffusion. Moreover, we introduce a part segmentation probability for each Gaussian primitive and update them by back-projecting part segmentation masks of renderings. Extensive experimental results demonstrate that our method achieves higher-fidelity part-level surface reconstruction on both synthetic and real-world data than existing methods. Codes will be made publicly available.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.17092v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "10 pages, 7 figures",
+      "entry_id": "http://arxiv.org/abs/2511.17092v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.17092v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.17092v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.17048": {
+      "title": "RoomPlanner: Explicit Layout Planner for Easier LLM-Driven 3D Room Generation",
+      "authors": [
+        "Wenzhuo Sun",
+        "Mingjian Liang",
+        "Wenxuan Song",
+        "Xuelian Cheng",
+        "Zongyuan Ge"
+      ],
+      "published": "2025-11-21T08:47:32+00:00",
+      "updated": "2025-11-21T08:47:32+00:00",
+      "summary": "In this paper, we propose RoomPlanner, the first fully automatic 3D room generation framework for painlessly creating realistic indoor scenes with only short text as input. Without any manual layout design or panoramic image guidance, our framework can generate explicit layout criteria for rational spatial placement. We begin by introducing a hierarchical structure of language-driven agent planners that can automatically parse short and ambiguous prompts into detailed scene descriptions. These descriptions include raw spatial and semantic attributes for each object and the background, which are then used to initialize 3D point clouds. To position objects within bounded environments, we implement two arrangement constraints that iteratively optimize spatial arrangements, ensuring a collision-free and accessible layout solution. In the final rendering stage, we propose a novel AnyReach Sampling strategy for camera trajectory, along with the Interval Timestep Flow Sampling (ITFS) strategy, to efficiently optimize the coarse 3D Gaussian scene representation. These approaches help reduce the total generation time to under 30 minutes. Extensive experiments demonstrate that our method can produce geometrically rational 3D indoor scenes, surpassing prior approaches in both rendering speed and visual quality while preserving editability. The code will be available soon.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.17048v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.17048v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.17048v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.17048v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2511.16301": {
       "title": "Upsample Anything: A Simple and Hard to Beat Baseline for Feature Upsampling",
       "authors": [
@@ -68844,6 +69070,84 @@
     }
   },
   "MVS": {
+    "2511.17092": {
+      "title": "SPAGS: Sparse-View Articulated Object Reconstruction from Single State via Planar Gaussian Splatting",
+      "authors": [
+        "Di Wu",
+        "Liu Liu",
+        "Xueyu Yuan",
+        "Qiaoyu Jun",
+        "Wenxiao Chen",
+        "Ruilong Yan",
+        "Yiming Tang",
+        "Liangtu Song"
+      ],
+      "published": "2025-11-21T09:49:53+00:00",
+      "updated": "2025-11-21T09:49:53+00:00",
+      "summary": "Articulated objects are ubiquitous in daily environments, and their 3D reconstruction holds great significance across various fields. However, existing articulated object reconstruction methods typically require costly inputs such as multi-stage and multi-view observations. To address the limitations, we propose a category-agnostic articulated object reconstruction framework via planar Gaussian Splatting, which only uses sparse-view RGB images from a single state. Specifically, we first introduce a Gaussian information field to perceive the optimal sparse viewpoints from candidate camera poses. Then we compress 3D Gaussians into planar Gaussians to facilitate accurate estimation of normal and depth. The planar Gaussians are optimized in a coarse-to-fine manner through depth smooth regularization and few-shot diffusion. Moreover, we introduce a part segmentation probability for each Gaussian primitive and update them by back-projecting part segmentation masks of renderings. Extensive experimental results demonstrate that our method achieves higher-fidelity part-level surface reconstruction on both synthetic and real-world data than existing methods. Codes will be made publicly available.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.17092v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "10 pages, 7 figures",
+      "entry_id": "http://arxiv.org/abs/2511.17092v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.17092v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.17092v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2511.17059": {
+      "title": "REArtGS++: Generalizable Articulation Reconstruction with Temporal Geometry Constraint via Planar Gaussian Splatting",
+      "authors": [
+        "Di Wu",
+        "Liu Liu",
+        "Anran Huang",
+        "Yuyan Liu",
+        "Qiaoyu Jun",
+        "Shaofan Liu",
+        "Liangtu Song",
+        "Cewu Lu"
+      ],
+      "published": "2025-11-21T09:07:56+00:00",
+      "updated": "2025-11-21T09:07:56+00:00",
+      "summary": "Articulated objects are pervasive in daily environments, such as drawers and refrigerators. Towards their part-level surface reconstruction and joint parameter estimation, REArtGS~\\cite{wu2025reartgs} introduces a category-agnostic approach using multi-view RGB images at two different states. However, we observe that REArtGS still struggles with screw-joint or multi-part objects and lacks geometric constraints for unseen states. In this paper, we propose REArtGS++, a novel method towards generalizable articulated object reconstruction with temporal geometry constraint and planar Gaussian splatting. We first model a decoupled screw motion for each joint without type prior, and jointly optimize part-aware Gaussians with joint parameters through part motion blending. To introduce time-continuous geometric constraint for articulated modeling, we encourage Gaussians to be planar and propose a temporally consistent regularization between planar normal and depth through Taylor first-order expansion. Extensive experiments on both synthetic and real-world articulated objects demonstrate our superiority in generalizable part-level surface reconstruction and joint parameter estimation, compared to existing approaches. Project Site: https://sites.google.com/view/reartgs2/home.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.17059v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "10 pages, 7 figures",
+      "entry_id": "http://arxiv.org/abs/2511.17059v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.17059v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.17059v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2511.16428": {
       "title": "CylinderDepth: Cylindrical Spatial Attention for Multi-View Consistent Self-Supervised Surround Depth Estimation",
       "authors": [
@@ -69047,26 +69351,26 @@
         "Zongqian Zhan"
       ],
       "published": "2025-11-17T11:50:52+00:00",
-      "updated": "2025-11-17T11:50:52+00:00",
+      "updated": "2025-11-21T09:21:15+00:00",
       "summary": "Lightweight building surface models are crucial for digital city, navigation, and fast geospatial analytics, yet conventional multi-view geometry pipelines remain cumbersome and quality-sensitive due to their reliance on dense reconstruction, meshing, and subsequent simplification. This work presents SF-Recon, a method that directly reconstructs lightweight building surfaces from multi-view images without post-hoc mesh simplification. We first train an initial 3D Gaussian Splatting (3DGS) field to obtain a view-consistent representation. Building structure is then distilled by a normal-gradient-guided Gaussian optimization that selects primitives aligned with roof and wall boundaries, followed by multi-view edge-consistency pruning to enhance structural sharpness and suppress non-structural artifacts without external supervision. Finally, a multi-view depth-constrained Delaunay triangulation converts the structured Gaussian field into a lightweight, structurally faithful building mesh. Based on a proposed SF dataset, the experimental results demonstrate that our SF-Recon can directly reconstruct lightweight building models from multi-view imagery, achieving substantially fewer faces and vertices while maintaining computational efficiency. Website:https://lzh282140127-cell.github.io/SF-Recon-project/",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2511.13278v1",
+      "pdf_url": "https://arxiv.org/pdf/2511.13278v2",
       "journal_ref": null,
       "doi": null,
-      "comment": null,
-      "entry_id": "http://arxiv.org/abs/2511.13278v1",
+      "comment": "This paper has been submitted to the 2026 ISPRS Congress",
+      "entry_id": "http://arxiv.org/abs/2511.13278v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2511.13278v1",
+          "href": "https://arxiv.org/abs/2511.13278v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2511.13278v1",
+          "href": "https://arxiv.org/pdf/2511.13278v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -84410,6 +84714,279 @@
     }
   },
   "Depth Estimation": {
+    "2511.17353": {
+      "title": "Learning Latent Transmission and Glare Maps for Lens Veiling Glare Removal",
+      "authors": [
+        "Xiaolong Qian",
+        "Qi Jiang",
+        "Lei Sun",
+        "Zongxi Yu",
+        "Kailun Yang",
+        "Peixuan Wu",
+        "Jiacheng Zhou",
+        "Yao Gao",
+        "Yaoguang Ma",
+        "Ming-Hsuan Yang",
+        "Kaiwei Wang"
+      ],
+      "published": "2025-11-21T16:16:30+00:00",
+      "updated": "2025-11-21T16:16:30+00:00",
+      "summary": "Beyond the commonly recognized optical aberrations, the imaging performance of compact optical systems-including single-lens and metalens designs-is often further degraded by veiling glare caused by stray-light scattering from non-ideal optical surfaces and coatings, particularly in complex real-world environments. This compound degradation undermines traditional lens aberration correction yet remains underexplored. A major challenge is that conventional scattering models (e.g., for dehazing) fail to fit veiling glare due to its spatial-varying and depth-independent nature. Consequently, paired high-quality data are difficult to prepare via simulation, hindering application of data-driven veiling glare removal models. To this end, we propose VeilGen, a generative model that learns to simulate veiling glare by estimating its underlying optical transmission and glare maps in an unsupervised manner from target images, regularized by Stable Diffusion (SD)-based priors. VeilGen enables paired dataset generation with realistic compound degradation of optical aberrations and veiling glare, while also providing the estimated latent optical transmission and glare maps to guide the veiling glare removal process. We further introduce DeVeiler, a restoration network trained with a reversibility constraint, which utilizes the predicted latent maps to guide an inverse process of the learned scattering model. Extensive experiments on challenging compact optical systems demonstrate that our approach delivers superior restoration quality and physical fidelity compared with existing methods. These suggest that VeilGen reliably synthesizes realistic veiling glare, and its learned latent maps effectively guide the restoration process in DeVeiler. All code and datasets will be publicly released at https://github.com/XiaolongQian/DeVeiler.",
+      "categories": [
+        "eess.IV",
+        "cs.CV",
+        "physics.optics"
+      ],
+      "primary_category": "eess.IV",
+      "pdf_url": "https://arxiv.org/pdf/2511.17353v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "All code and datasets will be publicly released at https://github.com/XiaolongQian/DeVeiler",
+      "entry_id": "http://arxiv.org/abs/2511.17353v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.17353v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.17353v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2511.17210": {
+      "title": "FisheyeGaussianLift: BEV Feature Lifting for Surround-View Fisheye Camera Perception",
+      "authors": [
+        "Shubham Sonarghare",
+        "Prasad Deshpande",
+        "Ciaran Hogan",
+        "Deepika-Rani Kaliappan-Mahalingam",
+        "Ganesh Sistu"
+      ],
+      "published": "2025-11-21T12:42:07+00:00",
+      "updated": "2025-11-21T12:42:07+00:00",
+      "summary": "Accurate BEV semantic segmentation from fisheye imagery remains challenging due to extreme non-linear distortion, occlusion, and depth ambiguity inherent to wide-angle projections. We present a distortion-aware BEV segmentation framework that directly processes multi-camera high-resolution fisheye images,utilizing calibrated geometric unprojection and per-pixel depth distribution estimation. Each image pixel is lifted into 3D space via Gaussian parameterization, predicting spatial means and anisotropic covariances to explicitly model geometric uncertainty. The projected 3D Gaussians are fused into a BEV representation via differentiable splatting, producing continuous, uncertainty-aware semantic maps without requiring undistortion or perspective rectification. Extensive experiments demonstrate strong segmentation performance on complex parking and urban driving scenarios, achieving IoU scores of 87.75% for drivable regions and 57.26% for vehicles under severe fisheye distortion and diverse environmental conditions.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.17210v1",
+      "journal_ref": "Proceedings of the Irish Machine Vision and Image Processing Conference 2025 1 to 3 September 2025 Ulster University Derry Londonderry pages 50 to 57 ISBN 97800993420795",
+      "doi": null,
+      "comment": "8 pages, 3 figures, published in IMVIP 2025 conference",
+      "entry_id": "http://arxiv.org/abs/2511.17210v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.17210v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.17210v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2511.17092": {
+      "title": "SPAGS: Sparse-View Articulated Object Reconstruction from Single State via Planar Gaussian Splatting",
+      "authors": [
+        "Di Wu",
+        "Liu Liu",
+        "Xueyu Yuan",
+        "Qiaoyu Jun",
+        "Wenxiao Chen",
+        "Ruilong Yan",
+        "Yiming Tang",
+        "Liangtu Song"
+      ],
+      "published": "2025-11-21T09:49:53+00:00",
+      "updated": "2025-11-21T09:49:53+00:00",
+      "summary": "Articulated objects are ubiquitous in daily environments, and their 3D reconstruction holds great significance across various fields. However, existing articulated object reconstruction methods typically require costly inputs such as multi-stage and multi-view observations. To address the limitations, we propose a category-agnostic articulated object reconstruction framework via planar Gaussian Splatting, which only uses sparse-view RGB images from a single state. Specifically, we first introduce a Gaussian information field to perceive the optimal sparse viewpoints from candidate camera poses. Then we compress 3D Gaussians into planar Gaussians to facilitate accurate estimation of normal and depth. The planar Gaussians are optimized in a coarse-to-fine manner through depth smooth regularization and few-shot diffusion. Moreover, we introduce a part segmentation probability for each Gaussian primitive and update them by back-projecting part segmentation masks of renderings. Extensive experimental results demonstrate that our method achieves higher-fidelity part-level surface reconstruction on both synthetic and real-world data than existing methods. Codes will be made publicly available.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.17092v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "10 pages, 7 figures",
+      "entry_id": "http://arxiv.org/abs/2511.17092v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.17092v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.17092v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2511.17059": {
+      "title": "REArtGS++: Generalizable Articulation Reconstruction with Temporal Geometry Constraint via Planar Gaussian Splatting",
+      "authors": [
+        "Di Wu",
+        "Liu Liu",
+        "Anran Huang",
+        "Yuyan Liu",
+        "Qiaoyu Jun",
+        "Shaofan Liu",
+        "Liangtu Song",
+        "Cewu Lu"
+      ],
+      "published": "2025-11-21T09:07:56+00:00",
+      "updated": "2025-11-21T09:07:56+00:00",
+      "summary": "Articulated objects are pervasive in daily environments, such as drawers and refrigerators. Towards their part-level surface reconstruction and joint parameter estimation, REArtGS~\\cite{wu2025reartgs} introduces a category-agnostic approach using multi-view RGB images at two different states. However, we observe that REArtGS still struggles with screw-joint or multi-part objects and lacks geometric constraints for unseen states. In this paper, we propose REArtGS++, a novel method towards generalizable articulated object reconstruction with temporal geometry constraint and planar Gaussian splatting. We first model a decoupled screw motion for each joint without type prior, and jointly optimize part-aware Gaussians with joint parameters through part motion blending. To introduce time-continuous geometric constraint for articulated modeling, we encourage Gaussians to be planar and propose a temporally consistent regularization between planar normal and depth through Taylor first-order expansion. Extensive experiments on both synthetic and real-world articulated objects demonstrate our superiority in generalizable part-level surface reconstruction and joint parameter estimation, compared to existing approaches. Project Site: https://sites.google.com/view/reartgs2/home.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.17059v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "10 pages, 7 figures",
+      "entry_id": "http://arxiv.org/abs/2511.17059v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.17059v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.17059v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2511.17014": {
+      "title": "Parameter-Free Neural Lens Blur Rendering for High-Fidelity Composites",
+      "authors": [
+        "Lingyan Ruan",
+        "Bin Chen",
+        "Taehyun Rhee"
+      ],
+      "published": "2025-11-21T07:32:05+00:00",
+      "updated": "2025-11-21T07:32:05+00:00",
+      "summary": "Consistent and natural camera lens blur is important for seamlessly blending 3D virtual objects into photographed real-scenes. Since lens blur typically varies with scene depth, the placement of virtual objects and their corresponding blur levels significantly affect the visual fidelity of mixed reality compositions. Existing pipelines often rely on camera parameters (e.g., focal length, focus distance, aperture size) and scene depth to compute the circle of confusion (CoC) for realistic lens blur rendering. However, such information is often unavailable to ordinary users, limiting the accessibility and generalizability of these methods. In this work, we propose a novel compositing approach that directly estimates the CoC map from RGB images, bypassing the need for scene depth or camera metadata. The CoC values for virtual objects are inferred through a linear relationship between its signed CoC map and depth, and realistic lens blur is rendered using a neural reblurring network. Our method provides flexible and practical solution for real-world applications. Experimental results demonstrate that our method achieves high-fidelity compositing with realistic defocus effects, outperforming state-of-the-art techniques in both qualitative and quantitative evaluations.",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.GR",
+        "eess.IV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.17014v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted by ISMAR 2025 with oral presentation. 10 pages, 11 figures",
+      "entry_id": "http://arxiv.org/abs/2511.17014v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.17014v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.17014v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2511.16993": {
+      "title": "DepthFocus: Controllable Depth Estimation for See-Through Scenes",
+      "authors": [
+        "Junhong Min",
+        "Jimin Kim",
+        "Cheol-Hui Min",
+        "Minwook Kim",
+        "Youngpil Jeon",
+        "Minyong Choi"
+      ],
+      "published": "2025-11-21T06:59:54+00:00",
+      "updated": "2025-11-21T06:59:54+00:00",
+      "summary": "Depth in the real world is rarely singular. Transmissive materials create layered ambiguities that confound conventional perception systems. Existing models remain passive, attempting to estimate static depth maps anchored to the nearest surface, while humans actively shift focus to perceive a desired depth. We introduce DepthFocus, a steerable Vision Transformer that redefines stereo depth estimation as intent-driven control. Conditioned on a scalar depth preference, the model dynamically adapts its computation to focus on the intended depth, enabling selective perception within complex scenes. The training primarily leverages our newly constructed 500k multi-layered synthetic dataset, designed to capture diverse see-through effects. DepthFocus not only achieves state-of-the-art performance on conventional single-depth benchmarks like BOOSTER, a dataset notably rich in transparent and reflective objects, but also quantitatively demonstrates intent-aligned estimation on our newly proposed real and synthetic multi-depth datasets. Moreover, it exhibits strong generalization capabilities on unseen see-through scenes, underscoring its robustness as a significant step toward active and human-like 3D perception.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.16993v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "8pages, 6 figures, 5 tables",
+      "entry_id": "http://arxiv.org/abs/2511.16993v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.16993v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.16993v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2511.16857": {
+      "title": "BOP-ASK: Object-Interaction Reasoning for Vision-Language Models",
+      "authors": [
+        "Vineet Bhat",
+        "Sungsu Kim",
+        "Valts Blukis",
+        "Greg Heinrich",
+        "Prashanth Krishnamurthy",
+        "Ramesh Karri",
+        "Stan Birchfield",
+        "Farshad Khorrami",
+        "Jonathan Tremblay"
+      ],
+      "published": "2025-11-20T23:54:15+00:00",
+      "updated": "2025-11-20T23:54:15+00:00",
+      "summary": "Vision Language Models (VLMs) have achieved impressive performance on spatial reasoning benchmarks, yet these evaluations mask critical weaknesses in understanding object interactions. Current benchmarks test high level relationships ('left of,' 'behind', etc.) but ignore fine-grained spatial understanding needed for real world applications: precise 3D localization, physical compatibility between objects, object affordances and multi step spatial planning. In this work, we present BOP-ASK, a novel large scale dataset for object interaction reasoning for both training and benchmarking. Our data generation pipeline leverages 6D object poses from the Benchmark for Object Pose Estimation (BOP) datasets from which we derive fine grained annotations such as grasp poses, referred object poses, path planning trajectories, relative spatial and depth relationships, and object-to-object relationships. BOP-ASK comprises over 150k images and 33M question answer pairs spanning six tasks (four novel), providing a rich resource for training and evaluating VLMs. We evaluate proprietary and open sourced VLMs, and conduct human evaluations on BOP-ASK-core, a contributed test benchmark. We also release BOP-ASK-lab, an out-of-distribution benchmark with images not sourced from BOP, enabling testing of generalization. Our experiments demonstrate that models trained on BOP-ASK outperform baselines and exhibit emergent capabilities such as precise object and grasp pose estimation, trajectory planning, and fine-grained object-centric spatial reasoning in cluttered environments. We will publicly release our datasets and dataset generation pipeline.",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.16857v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.16857v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.16857v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.16857v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2511.16555": {
       "title": "Lite Any Stereo: Efficient Zero-Shot Stereo Matching",
       "authors": [

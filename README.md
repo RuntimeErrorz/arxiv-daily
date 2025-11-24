@@ -1,4 +1,4 @@
-## Updated at 2025-11-24 08:19:16
+## Updated at 2025-11-24 20:08:11
 
 ## 3DGS Semantic
 
@@ -167,12 +167,14 @@ Query: (abs:'Multi-View Stereo' OR abs:'Multi View Stereo' OR abs:'Multi-View De
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-11-21**|**[SPAGS: Sparse-View Articulated Object Reconstruction from Single State via Planar Gaussian Splatting](https://arxiv.org/abs/2511.17092)**|N/A|10 pages, 7 figures|cs.CV|None|Di Wu et al.|
+|**2025-11-21**|**[REArtGS++: Generalizable Articulation Reconstruction with Temporal Geometry Constraint via Planar Gaussian Splatting](https://arxiv.org/abs/2511.17059)**|N/A|10 pages, 7 figures|cs.CV|None|Di Wu et al.|
 |**2025-11-20**|**[CylinderDepth: Cylindrical Spatial Attention for Multi-View Consistent Self-Supervised Surround Depth Estimation](https://arxiv.org/abs/2511.16428)**|N/A|None|cs.CV|None|Samer Abualhanud et al.|
 |**2025-11-20**|**[How Robot Dogs See the Unseeable](https://arxiv.org/abs/2511.16262)**|N/A|None|cs.RO|None|Oliver Bimber et al.|
 |**2025-11-20**|**[CuriGS: Curriculum-Guided Gaussian Splatting for Sparse View Synthesis](https://arxiv.org/abs/2511.16030)**|N/A|None|cs.CV|None|Zijian Wu et al.|
 |**2025-11-18**|**[SparseSurf: Sparse-View 3D Gaussian Splatting for Surface Reconstruction](https://arxiv.org/abs/2511.14633)**|N/A|Accepted at AAAI 2026. Project page: https://miya-oi.github.io/SparseSurf-project|cs.CV|None|Meiying Gu et al.|
 |**2025-11-17**|**[Training-Free Multi-View Extension of IC-Light for Textual Position-Aware Scene Relighting](https://arxiv.org/abs/2511.13684)**|N/A|Submitting for Neurocomputing|cs.CV|None|Jiangnan Ye et al.|
-|**2025-11-17**|**[SF-Recon: Simplification-Free Lightweight Building Reconstruction via 3D Gaussian Splatting](https://arxiv.org/abs/2511.13278)**|N/A|None|cs.CV|None|Zihan Li et al.|
+|**2025-11-17**|**[SF-Recon: Simplification-Free Lightweight Building Reconstruction via 3D Gaussian Splatting](https://arxiv.org/abs/2511.13278)**|N/A|This paper has been submitted to the 2026 ISPRS Congress|cs.CV|None|Zihan Li et al.|
 |**2025-11-17**|**[Geometry Meets Light: Leveraging Geometric Priors for Universal Photometric Stereo under Limited Multi-Illumination Cues](https://arxiv.org/abs/2511.13015)**|N/A|Accepted by AAAI 2026 (Oral)|cs.CV|None|King-Man Tam et al.|
 |**2025-11-15**|**[CrossVid: A Comprehensive Benchmark for Evaluating Cross-Video Reasoning in Multimodal Large Language Models](https://arxiv.org/abs/2511.12263)**|N/A|30 pages, 28 figures|cs.CV|None|Jingyao Li et al.|
 |**2025-11-15**|**[GeoMVD: Geometry-Enhanced Multi-View Generation Model Based on Geometric Information Extraction](https://arxiv.org/abs/2511.12204)**|N/A|None|cs.CV|None|Jiaqi Wu et al.|
@@ -592,6 +594,13 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-11-21**|**[Learning Latent Transmission and Glare Maps for Lens Veiling Glare Removal](https://arxiv.org/abs/2511.17353)**|N/A|All code and datasets will be publicly released at https://github.com/XiaolongQian/DeVeiler|eess.IV|None|Xiaolong Qian et al.|
+|**2025-11-21**|**[FisheyeGaussianLift: BEV Feature Lifting for Surround-View Fisheye Camera Perception](https://arxiv.org/abs/2511.17210)**|N/A|8 pages, 3 figures, published in IMVIP 2025 conference|cs.CV|Proceedings of the Irish Machine Vision and Image Processing Conference 2025 1 to 3 September 2025 Ulster University Derry Londonderry pages 50 to 57 ISBN 97800993420795|Shubham Sonarghare et al.|
+|**2025-11-21**|**[SPAGS: Sparse-View Articulated Object Reconstruction from Single State via Planar Gaussian Splatting](https://arxiv.org/abs/2511.17092)**|N/A|10 pages, 7 figures|cs.CV|None|Di Wu et al.|
+|**2025-11-21**|**[REArtGS++: Generalizable Articulation Reconstruction with Temporal Geometry Constraint via Planar Gaussian Splatting](https://arxiv.org/abs/2511.17059)**|N/A|10 pages, 7 figures|cs.CV|None|Di Wu et al.|
+|**2025-11-21**|**[Parameter-Free Neural Lens Blur Rendering for High-Fidelity Composites](https://arxiv.org/abs/2511.17014)**|N/A|Accepted by ISMAR 2025 with oral presentation. 10 pages, 11 figures|cs.CV|None|Lingyan Ruan et al.|
+|**2025-11-21**|**[DepthFocus: Controllable Depth Estimation for See-Through Scenes](https://arxiv.org/abs/2511.16993)**|N/A|8pages, 6 figures, 5 tables|cs.CV|None|Junhong Min et al.|
+|**2025-11-20**|**[BOP-ASK: Object-Interaction Reasoning for Vision-Language Models](https://arxiv.org/abs/2511.16857)**|N/A|None|cs.CV|None|Vineet Bhat et al.|
 |**2025-11-20**|**[Lite Any Stereo: Efficient Zero-Shot Stereo Matching](https://arxiv.org/abs/2511.16555)**|N/A|None|cs.CV|None|Junpeng Jing et al.|
 |**2025-11-20**|**[Physics-Informed Machine Learning for Efficient Sim-to-Real Data Augmentation in Micro-Object Pose Estimation](https://arxiv.org/abs/2511.16494)**|N/A|None|cs.CV|None|Zongcai Tan et al.|
 |**2025-11-20**|**[CylinderDepth: Cylindrical Spatial Attention for Multi-View Consistent Self-Supervised Surround Depth Estimation](https://arxiv.org/abs/2511.16428)**|N/A|None|cs.CV|None|Samer Abualhanud et al.|
