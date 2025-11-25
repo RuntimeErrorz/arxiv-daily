@@ -1,5 +1,455 @@
 {
   "3DGS Semantic": {
+    "2511.19294": {
+      "title": "DensifyBeforehand: LiDAR-assisted Content-aware Densification for Efficient and Quality 3D Gaussian Splatting",
+      "authors": [
+        "Phurtivilai Patt",
+        "Leyang Huang",
+        "Yinqiang Zhang",
+        "Yang Lei"
+      ],
+      "published": "2025-11-24T16:39:13+00:00",
+      "updated": "2025-11-24T16:39:13+00:00",
+      "summary": "This paper addresses the limitations of existing 3D Gaussian Splatting (3DGS) methods, particularly their reliance on adaptive density control, which can lead to floating artifacts and inefficient resource usage. We propose a novel densify beforehand approach that enhances the initialization of 3D scenes by combining sparse LiDAR data with monocular depth estimation from corresponding RGB images. Our ROI-aware sampling scheme prioritizes semantically and geometrically important regions, yielding a dense point cloud that improves visual fidelity and computational efficiency. This densify beforehand approach bypasses the adaptive density control that may introduce redundant Gaussians in the original pipeline, allowing the optimization to focus on the other attributes of 3D Gaussian primitives, reducing overlap while enhancing visual quality. Our method achieves comparable results to state-of-the-art techniques while significantly lowering resource consumption and training time. We validate our approach through extensive comparisons and ablation studies on four newly collected datasets, showcasing its effectiveness in preserving regions of interest in complex scenes.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.19294v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.19294v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.19294v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.19294v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.19235": {
+      "title": "IDSplat: Instance-Decomposed 3D Gaussian Splatting for Driving Scenes",
+      "authors": [
+        "Carl Lindström",
+        "Mahan Rafidashti",
+        "Maryam Fatemi",
+        "Lars Hammarstrand",
+        "Martin R. Oswald",
+        "Lennart Svensson"
+      ],
+      "published": "2025-11-24T15:48:08+00:00",
+      "updated": "2025-11-24T15:48:08+00:00",
+      "summary": "Reconstructing dynamic driving scenes is essential for developing autonomous systems through sensor-realistic simulation. Although recent methods achieve high-fidelity reconstructions, they either rely on costly human annotations for object trajectories or use time-varying representations without explicit object-level decomposition, leading to intertwined static and dynamic elements that hinder scene separation. We present IDSplat, a self-supervised 3D Gaussian Splatting framework that reconstructs dynamic scenes with explicit instance decomposition and learnable motion trajectories, without requiring human annotations. Our key insight is to model dynamic objects as coherent instances undergoing rigid transformations, rather than unstructured time-varying primitives. For instance decomposition, we employ zero-shot, language-grounded video tracking anchored to 3D using lidar, and estimate consistent poses via feature correspondences. We introduce a coordinated-turn smoothing scheme to obtain temporally and physically consistent motion trajectories, mitigating pose misalignments and tracking failures, followed by joint optimization of object poses and Gaussian parameters. Experiments on the Waymo Open Dataset demonstrate that our method achieves competitive reconstruction quality while maintaining instance-level decomposition and generalizes across diverse sequences and view densities without retraining, making it practical for large-scale autonomous driving applications. Code will be released.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.19235v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.19235v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.19235v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.19235v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.19218": {
+      "title": "Adversarial Attack-Defense Co-Evolution for LLM Safety Alignment via Tree-Group Dual-Aware Search and Optimization",
+      "authors": [
+        "Xurui Li",
+        "Kaisong Song",
+        "Rui Zhu",
+        "Pin-Yu Chen",
+        "Haixu Tang"
+      ],
+      "published": "2025-11-24T15:23:41+00:00",
+      "updated": "2025-11-24T15:23:41+00:00",
+      "summary": "Large Language Models (LLMs) have developed rapidly in web services, delivering unprecedented capabilities while amplifying societal risks. Existing works tend to focus on either isolated jailbreak attacks or static defenses, neglecting the dynamic interplay between evolving threats and safeguards in real-world web contexts. To mitigate these challenges, we propose ACE-Safety (Adversarial Co-Evolution for LLM Safety), a novel framework that jointly optimize attack and defense models by seamlessly integrating two key innovative procedures: (1) Group-aware Strategy-guided Monte Carlo Tree Search (GS-MCTS), which efficiently explores jailbreak strategies to uncover vulnerabilities and generate diverse adversarial samples; (2) Adversarial Curriculum Tree-aware Group Policy Optimization (AC-TGPO), which jointly trains attack and defense LLMs with challenging samples via curriculum reinforcement learning, enabling robust mutual improvement. Evaluations across multiple benchmarks demonstrate that our method outperforms existing attack and defense approaches, and provides a feasible pathway for developing LLMs that can sustainably support responsible AI ecosystems.",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CR",
+      "pdf_url": "https://arxiv.org/pdf/2511.19218v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.19218v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.19218v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.19218v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.18740": {
+      "title": "Multimodal Large Language Models with Adaptive Preference Optimization for Sequential Recommendation",
+      "authors": [
+        "Yu Wang",
+        "Yonghui Yang",
+        "Le Wu",
+        "Yi Zhang",
+        "Richang Hong"
+      ],
+      "published": "2025-11-24T04:10:46+00:00",
+      "updated": "2025-11-24T04:10:46+00:00",
+      "summary": "Recent advances in Large Language Models (LLMs) have opened new avenues for sequential recommendation by enabling natural language reasoning over user behavior sequences. A common approach formulates recommendation as a language modeling task, where interaction histories are transformed into prompts and user preferences are learned via supervised fine-tuning. However, these methods operate solely in the textual modality and often miss users' fine-grained interests, especially when shaped by rich visual signals such as product images or movie posters. Multimodal Large Language Models (MLLMs) offer a promising alternative by aligning text and vision in a shared semantic space. A prevalent training paradigm applies Supervised Fine-Tuning (SFT) followed by Direct Preference Optimization (DPO) to model user preferences. Yet, two core challenges remain: 1) Imbalanced sample hardness, where random negative sampling causes overfitting on easy examples and under-training on hard ones; 2) Cross-modal semantic bias, where the fixed reference model in DPO prevents the policy model from correcting modality misalignments--especially over long sequences. To address these issues, we propose a Multimodal LLM framework that integrates Hardness-aware and Noise-regularized preference optimization for Recommendation (HaNoRec). Specifically, HaNoRec dynamically adjusts optimization weights based on both the estimated hardness of each training sample and the policy model's real-time responsiveness, prioritizing harder examples. It further introduces Gaussian-perturbed distribution optimization on output logits to enhance cross-modal semantic consistency and reduce modality bias inherited from the reference model.",
+      "categories": [
+        "cs.IR"
+      ],
+      "primary_category": "cs.IR",
+      "pdf_url": "https://arxiv.org/pdf/2511.18740v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "11 pages,6 figures",
+      "entry_id": "http://arxiv.org/abs/2511.18740v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.18740v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.18740v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.18570": {
+      "title": "PhysGS: Bayesian-Inferred Gaussian Splatting for Physical Property Estimation",
+      "authors": [
+        "Samarth Chopra",
+        "Jing Liang",
+        "Gershom Seneviratne",
+        "Dinesh Manocha"
+      ],
+      "published": "2025-11-23T18:29:20+00:00",
+      "updated": "2025-11-23T18:29:20+00:00",
+      "summary": "Understanding physical properties such as friction, stiffness, hardness, and material composition is essential for enabling robots to interact safely and effectively with their surroundings. However, existing 3D reconstruction methods focus on geometry and appearance and cannot infer these underlying physical properties. We present PhysGS, a Bayesian-inferred extension of 3D Gaussian Splatting that estimates dense, per-point physical properties from visual cues and vision--language priors. We formulate property estimation as Bayesian inference over Gaussian splats, where material and property beliefs are iteratively refined as new observations arrive. PhysGS also models aleatoric and epistemic uncertainties, enabling uncertainty-aware object and scene interpretation. Across object-scale (ABO-500), indoor, and outdoor real-world datasets, PhysGS improves accuracy of the mass estimation by up to 22.8%, reduces Shore hardness error by up to 61.2%, and lowers kinetic friction error by up to 18.1% compared to deterministic baselines. Our results demonstrate that PhysGS unifies 3D reconstruction, uncertainty modeling, and physical reasoning in a single, spatially continuous framework for dense physical property estimation. Additional results are available at https://samchopra2003.github.io/physgs.",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.18570v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Submitted to CVPR 2026",
+      "entry_id": "http://arxiv.org/abs/2511.18570v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.18570v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.18570v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.18525": {
+      "title": "Splatblox: Traversability-Aware Gaussian Splatting for Outdoor Robot Navigation",
+      "authors": [
+        "Samarth Chopra",
+        "Jing Liang",
+        "Gershom Seneviratne",
+        "Yonghan Lee",
+        "Jaehoon Choi",
+        "Jianyu An",
+        "Stephen Cheng",
+        "Dinesh Manocha"
+      ],
+      "published": "2025-11-23T16:35:51+00:00",
+      "updated": "2025-11-23T16:35:51+00:00",
+      "summary": "We present Splatblox, a real-time system for autonomous navigation in outdoor environments with dense vegetation, irregular obstacles, and complex terrain. Our method fuses segmented RGB images and LiDAR point clouds using Gaussian Splatting to construct a traversability-aware Euclidean Signed Distance Field (ESDF) that jointly encodes geometry and semantics. Updated online, this field enables semantic reasoning to distinguish traversable vegetation (e.g., tall grass) from rigid obstacles (e.g., trees), while LiDAR ensures 360-degree geometric coverage for extended planning horizons. We validate Splatblox on a quadruped robot and demonstrate transfer to a wheeled platform. In field trials across vegetation-rich scenarios, it outperforms state-of-the-art methods with over 50% higher success rate, 40% fewer freezing incidents, 5% shorter paths, and up to 13% faster time to goal, while supporting long-range missions up to 100 meters. Experiment videos and more details can be found on our project page: https://splatblox.github.io",
+      "categories": [
+        "cs.RO"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2511.18525v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Submitted to ICRA 2026",
+      "entry_id": "http://arxiv.org/abs/2511.18525v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.18525v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.18525v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.18386": {
+      "title": "SegSplat: Feed-forward Gaussian Splatting and Open-Set Semantic Segmentation",
+      "authors": [
+        "Peter Siegel",
+        "Federico Tombari",
+        "Marc Pollefeys",
+        "Daniel Barath"
+      ],
+      "published": "2025-11-23T10:26:38+00:00",
+      "updated": "2025-11-23T10:26:38+00:00",
+      "summary": "We have introduced SegSplat, a novel framework designed to bridge the gap between rapid, feed-forward 3D reconstruction and rich, open-vocabulary semantic understanding. By constructing a compact semantic memory bank from multi-view 2D foundation model features and predicting discrete semantic indices alongside geometric and appearance attributes for each 3D Gaussian in a single pass, SegSplat efficiently imbues scenes with queryable semantics. Our experiments demonstrate that SegSplat achieves geometric fidelity comparable to state-of-the-art feed-forward 3D Gaussian Splatting methods while simultaneously enabling robust open-set semantic segmentation, crucially \\textit{without} requiring any per-scene optimization for semantic feature integration. This work represents a significant step towards practical, on-the-fly generation of semantically aware 3D environments, vital for advancing robotic interaction, augmented reality, and other intelligent systems.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.18386v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.18386v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.18386v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.18386v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2511.18378": {
+      "title": "Synthetic Curriculum Reinforces Compositional Text-to-Image Generation",
+      "authors": [
+        "Shijian Wang",
+        "Runhao Fu",
+        "Siyi Zhao",
+        "Qingqin Zhan",
+        "Xingjian Wang",
+        "Jiarui Jin",
+        "Yuan Lu",
+        "Hanqian Wu",
+        "Cunjian Chen"
+      ],
+      "published": "2025-11-23T09:56:24+00:00",
+      "updated": "2025-11-23T09:56:24+00:00",
+      "summary": "Text-to-Image (T2I) generation has long been an open problem, with compositional synthesis remaining particularly challenging. This task requires accurate rendering of complex scenes containing multiple objects that exhibit diverse attributes as well as intricate spatial and semantic relationships, demanding both precise object placement and coherent inter-object interactions. In this paper, we propose a novel compositional curriculum reinforcement learning framework named CompGen that addresses compositional weakness in existing T2I models. Specifically, we leverage scene graphs to establish a novel difficulty criterion for compositional ability and develop a corresponding adaptive Markov Chain Monte Carlo graph sampling algorithm. This difficulty-aware approach enables the synthesis of training curriculum data that progressively optimize T2I models through reinforcement learning. We integrate our curriculum learning approach into Group Relative Policy Optimization (GRPO) and investigate different curriculum scheduling strategies. Our experiments reveal that CompGen exhibits distinct scaling curves under different curriculum scheduling strategies, with easy-to-hard and Gaussian sampling strategies yielding superior scaling performance compared to random sampling. Extensive experiments demonstrate that CompGen significantly enhances compositional generation capabilities for both diffusion-based and auto-regressive T2I models, highlighting its effectiveness in improving the compositional T2I generation systems.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.18378v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.18378v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.18378v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.18378v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.18191": {
+      "title": "Accelerating Time Series Foundation Models with Speculative Decoding",
+      "authors": [
+        "Pranav Subbaraman",
+        "Fang Sun",
+        "Yue Yao",
+        "Huacong Tang",
+        "Xiao Luo",
+        "Yizhou Sun"
+      ],
+      "published": "2025-11-22T21:04:57+00:00",
+      "updated": "2025-11-22T21:04:57+00:00",
+      "summary": "Modern web applications--from real-time content recommendation and dynamic pricing to CDN optimization--increasingly rely on time-series forecasting to deliver personalized experiences to billions of users. Large-scale Transformer-based models have achieved state-of-the-art performance in time-series forecasting but suffer from high computational costs, limiting their deployment in latency-sensitive web applications. To address this challenge, we propose a general inference acceleration framework that adapts speculative decoding to autoregressive time-series models. Our approach employs a smaller \"draft\" model to propose future time-series patches, which are then verified in parallel by a larger \"target\" model, reducing the number of sequential forward passes required. We address key technical challenges in adapting this technique from discrete language tokens to continuous time-series distributions, including the design of acceptance criteria for multivariate Gaussian patches and practical variants that balance efficiency with accuracy. Through experiments on time series forecasting benchmarks relevant to web applications, we demonstrate significant inference speedups while maintaining competitive accuracy. The framework requires no architectural modifications to existing foundation models, making it immediately applicable to accelerate deployed time-series forecasting systems. Our implementation can be found at https://github.com/PranavSubbaraman/STRIDE",
+      "categories": [
+        "cs.LG"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2511.18191v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "14 pages, 7 figures",
+      "entry_id": "http://arxiv.org/abs/2511.18191v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.18191v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.18191v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.17942": {
+      "title": "The Asymptotic Distribution for a Single Joinpoint Changepoint Model",
+      "authors": [
+        "Xueheng Shi",
+        "Robert Lund"
+      ],
+      "published": "2025-11-22T06:51:42+00:00",
+      "updated": "2025-11-22T06:51:42+00:00",
+      "summary": "A single joinpoint changepoint model partitions a time series into two segments, joined at the changepoint time by constraining the estimated piecewise linear regression responses to be continuous. This manuscript derives the exact asymptotic distribution of the changepoint existence test statistic gauging whether or not a second segment is necessary. The identified asymptotic distribution, a supremum of a Gaussian process over the unit interval, is rather unwieldy. The work presented here provides the result and its derivation; quantiles of the asymptotic distribution are presented for the user. This addresses a subtle gap in the changepoint literature.",
+      "categories": [
+        "stat.ME"
+      ],
+      "primary_category": "stat.ME",
+      "pdf_url": "https://arxiv.org/pdf/2511.17942v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.17942v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.17942v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.17942v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.17918": {
+      "title": "Frequency-Adaptive Sharpness Regularization for Improving 3D Gaussian Splatting Generalization",
+      "authors": [
+        "Youngsik Yun",
+        "Dongjun Gu",
+        "Youngjung Uh"
+      ],
+      "published": "2025-11-22T05:04:46+00:00",
+      "updated": "2025-11-22T05:04:46+00:00",
+      "summary": "Despite 3D Gaussian Splatting (3DGS) excelling in most configurations, it lacks generalization across novel viewpoints in a few-shot scenario because it overfits to the sparse observations. We revisit 3DGS optimization from a machine learning perspective, framing novel view synthesis as a generalization problem to unseen viewpoints-an underexplored direction. We propose Frequency-Adaptive Sharpness Regularization (FASR), which reformulates the 3DGS training objective, thereby guiding 3DGS to converge toward a better generalization solution. Although Sharpness-Aware Minimization (SAM) similarly reduces the sharpness of the loss landscape to improve generalization of classification models, directly employing it to 3DGS is suboptimal due to the discrepancy between the tasks. Specifically, it hinders reconstructing high-frequency details due to excessive regularization, while reducing its strength leads to under-penalizing sharpness. To address this, we reflect the local frequency of images to set the regularization weight and the neighborhood radius when estimating the local sharpness. It prevents floater artifacts in novel viewpoints and reconstructs fine details that SAM tends to oversmooth. Across datasets with various configurations, our method consistently improves a wide range of baselines. Code will be available at https://bbangsik13.github.io/FASR.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.17918v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Project page: https://bbangsik13.github.io/FASR",
+      "entry_id": "http://arxiv.org/abs/2511.17918v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.17918v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.17918v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.17904": {
+      "title": "CUS-GS: A Compact Unified Structured Gaussian Splatting Framework for Multimodal Scene Representation",
+      "authors": [
+        "Yuhang Ming",
+        "Chenxin Fang",
+        "Xingyuan Yu",
+        "Fan Zhang",
+        "Weichen Dai",
+        "Wanzeng Kong",
+        "Guofeng Zhang"
+      ],
+      "published": "2025-11-22T03:42:49+00:00",
+      "updated": "2025-11-22T03:42:49+00:00",
+      "summary": "Recent advances in Gaussian Splatting based 3D scene representation have shown two major trends: semantics-oriented approaches that focus on high-level understanding but lack explicit 3D geometry modeling, and structure-oriented approaches that capture spatial structures yet provide limited semantic abstraction. To bridge this gap, we present CUS-GS, a compact unified structured Gaussian Splatting representation, which connects multimodal semantic features with structured 3D geometry. Specifically, we design a voxelized anchor structure that constructs a spatial scaffold, while extracting multimodal semantic features from a set of foundation models (e.g., CLIP, DINOv2, SEEM). Moreover, we introduce a multimodal latent feature allocation mechanism to unify appearance, geometry, and semantics across heterogeneous feature spaces, ensuring a consistent representation across multiple foundation models. Finally, we propose a feature-aware significance evaluation strategy to dynamically guide anchor growing and pruning, effectively removing redundant or invalid anchors while maintaining semantic integrity. Extensive experiments show that CUS-GS achieves competitive performance compared to state-of-the-art methods using as few as 6M parameters - an order of magnitude smaller than the closest rival at 35M - highlighting the excellent trade off between performance and model efficiency of the proposed framework.",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.17904v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "15 pages, 8 figures, 4 tables",
+      "entry_id": "http://arxiv.org/abs/2511.17904v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.17904v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.17904v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
     "2511.17392": {
       "title": "MorphSeek: Fine-grained Latent Representation-Level Policy Optimization for Deformable Image Registration",
       "authors": [
@@ -155,33 +605,33 @@
         "Di Wu",
         "Liu Liu",
         "Xueyu Yuan",
-        "Qiaoyu Jun",
+        "Qiaojun Yu",
         "Wenxiao Chen",
         "Ruilong Yan",
         "Yiming Tang",
         "Liangtu Song"
       ],
       "published": "2025-11-21T09:49:53+00:00",
-      "updated": "2025-11-21T09:49:53+00:00",
+      "updated": "2025-11-24T05:04:41+00:00",
       "summary": "Articulated objects are ubiquitous in daily environments, and their 3D reconstruction holds great significance across various fields. However, existing articulated object reconstruction methods typically require costly inputs such as multi-stage and multi-view observations. To address the limitations, we propose a category-agnostic articulated object reconstruction framework via planar Gaussian Splatting, which only uses sparse-view RGB images from a single state. Specifically, we first introduce a Gaussian information field to perceive the optimal sparse viewpoints from candidate camera poses. Then we compress 3D Gaussians into planar Gaussians to facilitate accurate estimation of normal and depth. The planar Gaussians are optimized in a coarse-to-fine manner through depth smooth regularization and few-shot diffusion. Moreover, we introduce a part segmentation probability for each Gaussian primitive and update them by back-projecting part segmentation masks of renderings. Extensive experimental results demonstrate that our method achieves higher-fidelity part-level surface reconstruction on both synthetic and real-world data than existing methods. Codes will be made publicly available.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2511.17092v1",
+      "pdf_url": "https://arxiv.org/pdf/2511.17092v2",
       "journal_ref": null,
       "doi": null,
       "comment": "10 pages, 7 figures",
-      "entry_id": "http://arxiv.org/abs/2511.17092v1",
+      "entry_id": "http://arxiv.org/abs/2511.17092v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2511.17092v1",
+          "href": "https://arxiv.org/abs/2511.17092v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2511.17092v1",
+          "href": "https://arxiv.org/pdf/2511.17092v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -234,26 +684,26 @@
         "Changick Kim"
       ],
       "published": "2025-11-20T12:27:53+00:00",
-      "updated": "2025-11-20T12:27:53+00:00",
-      "summary": "We present \\textbf{Upsample Anything}, a lightweight test-time optimization (TTO) framework that restores low-resolution features to high-resolution, pixel-wise outputs without any training. Although Vision Foundation Models demonstrate strong generalization across diverse downstream tasks, their representations are typically downsampled by 14x/16x (e.g., ViT), which limits their direct use in pixel-level applications. Existing feature upsampling approaches depend on dataset-specific retraining or heavy implicit optimization, restricting scalability and generalization. Upsample Anything addresses these issues through a simple per-image optimization that learns an anisotropic Gaussian kernel combining spatial and range cues, effectively bridging Gaussian Splatting and Joint Bilateral Upsampling. The learned kernel acts as a universal, edge-aware operator that transfers seamlessly across architectures and modalities, enabling precise high-resolution reconstruction of features, depth, or probability maps. It runs in only $\\approx0.419 \\text{s}$ per 224x224 image and achieves state-of-the-art performance on semantic segmentation, depth estimation, and both depth and probability map upsampling.",
+      "updated": "2025-11-24T11:32:47+00:00",
+      "summary": "We present \\textbf{Upsample Anything}, a lightweight test-time optimization (TTO) framework that restores low-resolution features to high-resolution, pixel-wise outputs without any training. Although Vision Foundation Models demonstrate strong generalization across diverse downstream tasks, their representations are typically downsampled by 14x/16x (e.g., ViT), which limits their direct use in pixel-level applications. Existing feature upsampling approaches depend on dataset-specific retraining or heavy implicit optimization, restricting scalability and generalization. Upsample Anything addresses these issues through a simple per-image optimization that learns an anisotropic Gaussian kernel combining spatial and range cues, effectively bridging Gaussian Splatting and Joint Bilateral Upsampling. The learned kernel acts as a universal, edge-aware operator that transfers seamlessly across architectures and modalities, enabling precise high-resolution reconstruction of features, depth, or probability maps. It runs in only $\\approx0.419 \\text{s}$ per 224x224 image and achieves state-of-the-art performance on semantic segmentation, depth estimation, and both depth and probability map upsampling. \\textbf{Project page:} \\href{https://seominseok0429.github.io/Upsample-Anything/}{https://seominseok0429.github.io/Upsample-Anything/}",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2511.16301v1",
+      "pdf_url": "https://arxiv.org/pdf/2511.16301v2",
       "journal_ref": null,
       "doi": null,
       "comment": "15 pages, 12 figures",
-      "entry_id": "http://arxiv.org/abs/2511.16301v1",
+      "entry_id": "http://arxiv.org/abs/2511.16301v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2511.16301v1",
+          "href": "https://arxiv.org/abs/2511.16301v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2511.16301v1",
+          "href": "https://arxiv.org/pdf/2511.16301v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -1300,7 +1750,7 @@
       ],
       "primary_category": "cs.RO",
       "pdf_url": "https://arxiv.org/pdf/2511.09141v1",
-      "journal_ref": null,
+      "journal_ref": "Proceedings of the AAAI conference on artificial intelligence, 2026",
       "doi": null,
       "comment": null,
       "entry_id": "http://arxiv.org/abs/2511.09141v1",
@@ -2920,26 +3370,26 @@
         "Qianqian Yang"
       ],
       "published": "2025-10-30T15:38:27+00:00",
-      "updated": "2025-10-30T15:38:27+00:00",
+      "updated": "2025-11-24T13:00:48+00:00",
       "summary": "Semantic communication (SemCom) aims to transmit only task-relevant information, thereby improving communication efficiency but also exposing semantic information to potential eavesdropping. In this paper, we propose a deep reinforcement learning (DRL)-empowered multi-level jamming approach to enhance the security of SemCom systems over MIMO fading wiretap channels. This approach combines semantic layer jamming, achieved by encoding task-irrelevant text, and physical layer jamming, achieved by encoding random Gaussian noise. These two-level jamming signals are superposed with task-relevant semantic information to protect the transmitted semantics from eavesdropping. A deep deterministic policy gradient (DDPG) algorithm is further introduced to dynamically design and optimize the precoding matrices for both taskrelevant semantic information and multi-level jamming signals, aiming to enhance the legitimate user's image reconstruction while degrading the eavesdropper's performance. To jointly train the SemCom model and the DDPG agent, we propose an alternating optimization strategy where the two modules are updated iteratively. Experimental results demonstrate that, compared with both the encryption-based (ESCS) and encoded jammer-based (EJ) benchmarks, our method achieves comparable security while improving the legitimate user's peak signalto-noise ratio (PSNR) by up to approximately 0.6 dB.",
       "categories": [
         "cs.CR"
       ],
       "primary_category": "cs.CR",
-      "pdf_url": "https://arxiv.org/pdf/2510.26610v1",
+      "pdf_url": "https://arxiv.org/pdf/2510.26610v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2510.26610v1",
+      "entry_id": "http://arxiv.org/abs/2510.26610v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2510.26610v1",
+          "href": "https://arxiv.org/abs/2510.26610v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2510.26610v1",
+          "href": "https://arxiv.org/pdf/2510.26610v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -69070,39 +69520,116 @@
     }
   },
   "MVS": {
+    "2511.19172": {
+      "title": "MetroGS: Efficient and Stable Reconstruction of Geometrically Accurate High-Fidelity Large-Scale Scenes",
+      "authors": [
+        "Kehua Chen",
+        "Tianlu Mao",
+        "Zhuxin Ma",
+        "Hao Jiang",
+        "Zehao Li",
+        "Zihan Liu",
+        "Shuqi Gao",
+        "Honglong Zhao",
+        "Feng Dai",
+        "Yucheng Zhang",
+        "Zhaoqi Wang"
+      ],
+      "published": "2025-11-24T14:34:19+00:00",
+      "updated": "2025-11-24T14:34:19+00:00",
+      "summary": "Recently, 3D Gaussian Splatting and its derivatives have achieved significant breakthroughs in large-scale scene reconstruction. However, how to efficiently and stably achieve high-quality geometric fidelity remains a core challenge. To address this issue, we introduce MetroGS, a novel Gaussian Splatting framework for efficient and robust reconstruction in complex urban environments. Our method is built upon a distributed 2D Gaussian Splatting representation as the core foundation, serving as a unified backbone for subsequent modules. To handle potential sparse regions in complex scenes, we propose a structured dense enhancement scheme that utilizes SfM priors and a pointmap model to achieve a denser initialization, while incorporating a sparsity compensation mechanism to improve reconstruction completeness. Furthermore, we design a progressive hybrid geometric optimization strategy that organically integrates monocular and multi-view optimization to achieve efficient and accurate geometric refinement. Finally, to address the appearance inconsistency commonly observed in large-scale scenes, we introduce a depth-guided appearance modeling approach that learns spatial features with 3D consistency, facilitating effective decoupling between geometry and appearance and further enhancing reconstruction stability. Experiments on large-scale urban datasets demonstrate that MetroGS achieves superior geometric accuracy, rendering quality, offering a unified solution for high-fidelity large-scale scene reconstruction.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.19172v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Project page: https://m3phist0.github.io/MetroGS",
+      "entry_id": "http://arxiv.org/abs/2511.19172v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.19172v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.19172v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2511.18120": {
+      "title": "MVS-TTA: Test-Time Adaptation for Multi-View Stereo via Meta-Auxiliary Learning",
+      "authors": [
+        "Hannuo Zhang",
+        "Zhixiang Chi",
+        "Yang Wang",
+        "Xinxin Zuo"
+      ],
+      "published": "2025-11-22T16:52:47+00:00",
+      "updated": "2025-11-22T16:52:47+00:00",
+      "summary": "Recent learning-based multi-view stereo (MVS) methods are data-driven and have achieved remarkable progress due to large-scale training data and advanced architectures. However, their generalization remains sub-optimal due to fixed model parameters trained on limited training data distributions. In contrast, optimization-based methods enable scene-specific adaptation but lack scalability and require costly per-scene optimization. In this paper, we propose MVS-TTA, an efficient test-time adaptation (TTA) framework that enhances the adaptability of learning-based MVS methods by bridging these two paradigms. Specifically, MVS-TTA employs a self-supervised, cross-view consistency loss as an auxiliary task to guide inference-time adaptation. We introduce a meta-auxiliary learning strategy to train the model to benefit from auxiliary-task-based updates explicitly. Our framework is model-agnostic and can be applied to a wide range of MVS methods with minimal architectural changes. Extensive experiments on standard datasets (DTU, BlendedMVS) and a challenging cross-dataset generalization setting demonstrate that MVS-TTA consistently improves performance, even when applied to state-of-the-art MVS models. To our knowledge, this is the first attempt to integrate optimization-based test-time adaptation into learning-based MVS using meta-learning. The code will be available at https://github.com/mart87987-svg/MVS-TTA.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.18120v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "8 pages, 7 figures",
+      "entry_id": "http://arxiv.org/abs/2511.18120v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.18120v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.18120v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2511.17092": {
       "title": "SPAGS: Sparse-View Articulated Object Reconstruction from Single State via Planar Gaussian Splatting",
       "authors": [
         "Di Wu",
         "Liu Liu",
         "Xueyu Yuan",
-        "Qiaoyu Jun",
+        "Qiaojun Yu",
         "Wenxiao Chen",
         "Ruilong Yan",
         "Yiming Tang",
         "Liangtu Song"
       ],
       "published": "2025-11-21T09:49:53+00:00",
-      "updated": "2025-11-21T09:49:53+00:00",
+      "updated": "2025-11-24T05:04:41+00:00",
       "summary": "Articulated objects are ubiquitous in daily environments, and their 3D reconstruction holds great significance across various fields. However, existing articulated object reconstruction methods typically require costly inputs such as multi-stage and multi-view observations. To address the limitations, we propose a category-agnostic articulated object reconstruction framework via planar Gaussian Splatting, which only uses sparse-view RGB images from a single state. Specifically, we first introduce a Gaussian information field to perceive the optimal sparse viewpoints from candidate camera poses. Then we compress 3D Gaussians into planar Gaussians to facilitate accurate estimation of normal and depth. The planar Gaussians are optimized in a coarse-to-fine manner through depth smooth regularization and few-shot diffusion. Moreover, we introduce a part segmentation probability for each Gaussian primitive and update them by back-projecting part segmentation masks of renderings. Extensive experimental results demonstrate that our method achieves higher-fidelity part-level surface reconstruction on both synthetic and real-world data than existing methods. Codes will be made publicly available.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2511.17092v1",
+      "pdf_url": "https://arxiv.org/pdf/2511.17092v2",
       "journal_ref": null,
       "doi": null,
       "comment": "10 pages, 7 figures",
-      "entry_id": "http://arxiv.org/abs/2511.17092v1",
+      "entry_id": "http://arxiv.org/abs/2511.17092v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2511.17092v1",
+          "href": "https://arxiv.org/abs/2511.17092v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2511.17092v1",
+          "href": "https://arxiv.org/pdf/2511.17092v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -69116,32 +69643,32 @@
         "Liu Liu",
         "Anran Huang",
         "Yuyan Liu",
-        "Qiaoyu Jun",
+        "Qiaojun Yu",
         "Shaofan Liu",
         "Liangtu Song",
         "Cewu Lu"
       ],
       "published": "2025-11-21T09:07:56+00:00",
-      "updated": "2025-11-21T09:07:56+00:00",
-      "summary": "Articulated objects are pervasive in daily environments, such as drawers and refrigerators. Towards their part-level surface reconstruction and joint parameter estimation, REArtGS~\\cite{wu2025reartgs} introduces a category-agnostic approach using multi-view RGB images at two different states. However, we observe that REArtGS still struggles with screw-joint or multi-part objects and lacks geometric constraints for unseen states. In this paper, we propose REArtGS++, a novel method towards generalizable articulated object reconstruction with temporal geometry constraint and planar Gaussian splatting. We first model a decoupled screw motion for each joint without type prior, and jointly optimize part-aware Gaussians with joint parameters through part motion blending. To introduce time-continuous geometric constraint for articulated modeling, we encourage Gaussians to be planar and propose a temporally consistent regularization between planar normal and depth through Taylor first-order expansion. Extensive experiments on both synthetic and real-world articulated objects demonstrate our superiority in generalizable part-level surface reconstruction and joint parameter estimation, compared to existing approaches. Project Site: https://sites.google.com/view/reartgs2/home.",
+      "updated": "2025-11-24T04:58:36+00:00",
+      "summary": "Articulated objects are pervasive in daily environments, such as drawers and refrigerators. Towards their part-level surface reconstruction and joint parameter estimation, REArtGS introduces a category-agnostic approach using multi-view RGB images at two different states. However, we observe that REArtGS still struggles with screw-joint or multi-part objects and lacks geometric constraints for unseen states. In this paper, we propose REArtGS++, a novel method towards generalizable articulated object reconstruction with temporal geometry constraint and planar Gaussian splatting. We first model a decoupled screw motion for each joint without type prior, and jointly optimize part-aware Gaussians with joint parameters through part motion blending. To introduce time-continuous geometric constraint for articulated modeling, we encourage Gaussians to be planar and propose a temporally consistent regularization between planar normal and depth through Taylor first-order expansion. Extensive experiments on both synthetic and real-world articulated objects demonstrate our superiority in generalizable part-level surface reconstruction and joint parameter estimation, compared to existing approaches. Project Site: https://sites.google.com/view/reartgs2/home.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2511.17059v1",
+      "pdf_url": "https://arxiv.org/pdf/2511.17059v2",
       "journal_ref": null,
       "doi": null,
       "comment": "10 pages, 7 figures",
-      "entry_id": "http://arxiv.org/abs/2511.17059v1",
+      "entry_id": "http://arxiv.org/abs/2511.17059v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2511.17059v1",
+          "href": "https://arxiv.org/abs/2511.17059v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2511.17059v1",
+          "href": "https://arxiv.org/pdf/2511.17059v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -84714,6 +85241,187 @@
     }
   },
   "Depth Estimation": {
+    "2511.19396": {
+      "title": "Real-Time Object Tracking with On-Device Deep Learning for Adaptive Beamforming in Dynamic Acoustic Environments",
+      "authors": [
+        "Jorge Ortigoso-Narro",
+        "Jose A. Belloch",
+        "Adrian Amor-Martin",
+        "Sandra Roger",
+        "Maximo Cobos"
+      ],
+      "published": "2025-11-24T18:33:50+00:00",
+      "updated": "2025-11-24T18:33:50+00:00",
+      "summary": "Advances in object tracking and acoustic beamforming are driving new capabilities in surveillance, human-computer interaction, and robotics. This work presents an embedded system that integrates deep learning-based tracking with beamforming to achieve precise sound source localization and directional audio capture in dynamic environments. The approach combines single-camera depth estimation and stereo vision to enable accurate 3D localization of moving objects. A planar concentric circular microphone array constructed with MEMS microphones provides a compact, energy-efficient platform supporting 2D beam steering across azimuth and elevation. Real-time tracking outputs continuously adapt the array's focus, synchronizing the acoustic response with the target's position. By uniting learned spatial awareness with dynamic steering, the system maintains robust performance in the presence of multiple or moving sources. Experimental evaluation demonstrates significant gains in signal-to-interference ratio, making the design well-suited for teleconferencing, smart home devices, and assistive technologies.",
+      "categories": [
+        "cs.SD",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "primary_category": "cs.SD",
+      "pdf_url": "https://arxiv.org/pdf/2511.19396v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.19396v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.19396v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.19396v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2511.19294": {
+      "title": "DensifyBeforehand: LiDAR-assisted Content-aware Densification for Efficient and Quality 3D Gaussian Splatting",
+      "authors": [
+        "Phurtivilai Patt",
+        "Leyang Huang",
+        "Yinqiang Zhang",
+        "Yang Lei"
+      ],
+      "published": "2025-11-24T16:39:13+00:00",
+      "updated": "2025-11-24T16:39:13+00:00",
+      "summary": "This paper addresses the limitations of existing 3D Gaussian Splatting (3DGS) methods, particularly their reliance on adaptive density control, which can lead to floating artifacts and inefficient resource usage. We propose a novel densify beforehand approach that enhances the initialization of 3D scenes by combining sparse LiDAR data with monocular depth estimation from corresponding RGB images. Our ROI-aware sampling scheme prioritizes semantically and geometrically important regions, yielding a dense point cloud that improves visual fidelity and computational efficiency. This densify beforehand approach bypasses the adaptive density control that may introduce redundant Gaussians in the original pipeline, allowing the optimization to focus on the other attributes of 3D Gaussian primitives, reducing overlap while enhancing visual quality. Our method achieves comparable results to state-of-the-art techniques while significantly lowering resource consumption and training time. We validate our approach through extensive comparisons and ablation studies on four newly collected datasets, showcasing its effectiveness in preserving regions of interest in complex scenes.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.19294v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.19294v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.19294v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.19294v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2511.18787": {
+      "title": "Understanding Task Transfer in Vision-Language Models",
+      "authors": [
+        "Bhuvan Sachdeva",
+        "Karan Uppal",
+        "Abhinav Java",
+        "Vineeth N. Balasubramanian"
+      ],
+      "published": "2025-11-24T05:37:52+00:00",
+      "updated": "2025-11-24T05:37:52+00:00",
+      "summary": "Vision-Language Models (VLMs) perform well on multimodal benchmarks but lag behind humans and specialized models on visual perception tasks like depth estimation or object counting. Finetuning on one task can unpredictably affect performance on others, making task-specific finetuning challenging. In this paper, we address this challenge through a systematic study of task transferability. We examine how finetuning a VLM on one perception task affects its zero-shot performance on others. To quantify these effects, we introduce Perfection Gap Factor (PGF), a metric that captures both the breadth and magnitude of transfer. Using three open-weight VLMs evaluated across 13 perception tasks, we construct a task-transfer graph that reveals previously unobserved relationships among perception tasks. Our analysis uncovers patterns of positive and negative transfer, identifies groups of tasks that mutually influence each other, organizes tasks into personas based on their transfer behavior and demonstrates how PGF can guide data selection for more efficient training. These findings highlight both opportunities for positive transfer and risks of negative interference, offering actionable guidance for advancing VLMs.",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.18787v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.18787v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.18787v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.18787v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2511.18716": {
+      "title": "GRIT-LP: Graph Transformer with Long-Range Skip Connection and Partitioned Spatial Graphs for Accurate Ice Layer Thickness Prediction",
+      "authors": [
+        "Zesheng Liu",
+        "Maryam Rahnemoonfar"
+      ],
+      "published": "2025-11-24T03:14:55+00:00",
+      "updated": "2025-11-24T03:14:55+00:00",
+      "summary": "Graph transformers have demonstrated remarkable capability on complex spatio-temporal tasks, yet their depth is often limited by oversmoothing and weak long-range dependency modeling. To address these challenges, we introduce GRIT-LP, a graph transformer explicitly designed for polar ice-layer thickness estimation from polar radar imagery. Accurately estimating ice layer thickness is critical for understanding snow accumulation, reconstructing past climate patterns and reducing uncertainties in projections of future ice sheet evolution and sea level rise. GRIT-LP combines an inductive geometric graph learning framework with self-attention mechanism, and introduces two major innovations that jointly address challenges in modeling the spatio-temporal patterns of ice layers: a partitioned spatial graph construction strategy that forms overlapping, fully connected local neighborhoods to preserve spatial coherence and suppress noise from irrelevant long-range links, and a long-range skip connection mechanism within the transformer that improves information flow and mitigates oversmoothing in deeper attention layers. We conducted extensive experiments, demonstrating that GRIT-LP outperforms current state-of-the-art methods with a 24.92\\% improvement in root mean squared error. These results highlight the effectiveness of graph transformers in modeling spatiotemporal patterns by capturing both localized structural features and long-range dependencies across internal ice layers, and demonstrate their potential to advance data-driven understanding of cryospheric processes.",
+      "categories": [
+        "cs.LG",
+        "cs.CV"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2511.18716v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.18716v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.18716v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.18716v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2511.18105": {
+      "title": "AdaPerceiver: Transformers with Adaptive Width, Depth, and Tokens",
+      "authors": [
+        "Purvish Jajal",
+        "Nick John Eliopoulos",
+        "Benjamin Shiue-Hal Chou",
+        "George K. Thiruvathukal",
+        "Yung-Hsiang Lu",
+        "James C. Davis"
+      ],
+      "published": "2025-11-22T16:09:14+00:00",
+      "updated": "2025-11-22T16:09:14+00:00",
+      "summary": "Modern transformer architectures achieve remarkable performance across tasks and domains but remain rigid in how they allocate computation at inference time. Real-world deployment often requires models to adapt to diverse hardware and latency constraints, yet most approaches to dynamic computation focus on a single axis -- such as reducing the number of tokens. We present a novel capability: AdaPerceiver, the first transformer architecture with unified adaptivity across depth, width, and tokens within a single model. We propose an architecture that supports adaptivity along these axes. We couple this with an efficient joint training regime that ensures the model maintains performance across its various configurations. We evaluate AdaPerceiver on image classification, semantic segmentation, and depth estimation tasks. On image classification, AdaPerceiver expands the accuracy-throughput Pareto front. It achieves 85.4% accuracy while yielding 36% higher throughput than FlexiViT-L. On dense prediction, AdaPerceiver matches ViT-H/14 while having $\\sim$26x fewer encoder FLOPs (floating-point operations) on semantic segmentation and depth estimation. Finally, we show how AdaPerceiver equipped with a policy can maintain ImageNet1K accuracy ($\\pm0.1$ percentage points) while reducing FLOPs by $24-33$%.",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.18105v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.18105v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.18105v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.18105v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2511.17353": {
       "title": "Learning Latent Transmission and Glare Maps for Lens Veiling Glare Removal",
       "authors": [
@@ -84800,33 +85508,33 @@
         "Di Wu",
         "Liu Liu",
         "Xueyu Yuan",
-        "Qiaoyu Jun",
+        "Qiaojun Yu",
         "Wenxiao Chen",
         "Ruilong Yan",
         "Yiming Tang",
         "Liangtu Song"
       ],
       "published": "2025-11-21T09:49:53+00:00",
-      "updated": "2025-11-21T09:49:53+00:00",
+      "updated": "2025-11-24T05:04:41+00:00",
       "summary": "Articulated objects are ubiquitous in daily environments, and their 3D reconstruction holds great significance across various fields. However, existing articulated object reconstruction methods typically require costly inputs such as multi-stage and multi-view observations. To address the limitations, we propose a category-agnostic articulated object reconstruction framework via planar Gaussian Splatting, which only uses sparse-view RGB images from a single state. Specifically, we first introduce a Gaussian information field to perceive the optimal sparse viewpoints from candidate camera poses. Then we compress 3D Gaussians into planar Gaussians to facilitate accurate estimation of normal and depth. The planar Gaussians are optimized in a coarse-to-fine manner through depth smooth regularization and few-shot diffusion. Moreover, we introduce a part segmentation probability for each Gaussian primitive and update them by back-projecting part segmentation masks of renderings. Extensive experimental results demonstrate that our method achieves higher-fidelity part-level surface reconstruction on both synthetic and real-world data than existing methods. Codes will be made publicly available.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2511.17092v1",
+      "pdf_url": "https://arxiv.org/pdf/2511.17092v2",
       "journal_ref": null,
       "doi": null,
       "comment": "10 pages, 7 figures",
-      "entry_id": "http://arxiv.org/abs/2511.17092v1",
+      "entry_id": "http://arxiv.org/abs/2511.17092v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2511.17092v1",
+          "href": "https://arxiv.org/abs/2511.17092v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2511.17092v1",
+          "href": "https://arxiv.org/pdf/2511.17092v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -84840,32 +85548,32 @@
         "Liu Liu",
         "Anran Huang",
         "Yuyan Liu",
-        "Qiaoyu Jun",
+        "Qiaojun Yu",
         "Shaofan Liu",
         "Liangtu Song",
         "Cewu Lu"
       ],
       "published": "2025-11-21T09:07:56+00:00",
-      "updated": "2025-11-21T09:07:56+00:00",
-      "summary": "Articulated objects are pervasive in daily environments, such as drawers and refrigerators. Towards their part-level surface reconstruction and joint parameter estimation, REArtGS~\\cite{wu2025reartgs} introduces a category-agnostic approach using multi-view RGB images at two different states. However, we observe that REArtGS still struggles with screw-joint or multi-part objects and lacks geometric constraints for unseen states. In this paper, we propose REArtGS++, a novel method towards generalizable articulated object reconstruction with temporal geometry constraint and planar Gaussian splatting. We first model a decoupled screw motion for each joint without type prior, and jointly optimize part-aware Gaussians with joint parameters through part motion blending. To introduce time-continuous geometric constraint for articulated modeling, we encourage Gaussians to be planar and propose a temporally consistent regularization between planar normal and depth through Taylor first-order expansion. Extensive experiments on both synthetic and real-world articulated objects demonstrate our superiority in generalizable part-level surface reconstruction and joint parameter estimation, compared to existing approaches. Project Site: https://sites.google.com/view/reartgs2/home.",
+      "updated": "2025-11-24T04:58:36+00:00",
+      "summary": "Articulated objects are pervasive in daily environments, such as drawers and refrigerators. Towards their part-level surface reconstruction and joint parameter estimation, REArtGS introduces a category-agnostic approach using multi-view RGB images at two different states. However, we observe that REArtGS still struggles with screw-joint or multi-part objects and lacks geometric constraints for unseen states. In this paper, we propose REArtGS++, a novel method towards generalizable articulated object reconstruction with temporal geometry constraint and planar Gaussian splatting. We first model a decoupled screw motion for each joint without type prior, and jointly optimize part-aware Gaussians with joint parameters through part motion blending. To introduce time-continuous geometric constraint for articulated modeling, we encourage Gaussians to be planar and propose a temporally consistent regularization between planar normal and depth through Taylor first-order expansion. Extensive experiments on both synthetic and real-world articulated objects demonstrate our superiority in generalizable part-level surface reconstruction and joint parameter estimation, compared to existing approaches. Project Site: https://sites.google.com/view/reartgs2/home.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2511.17059v1",
+      "pdf_url": "https://arxiv.org/pdf/2511.17059v2",
       "journal_ref": null,
       "doi": null,
       "comment": "10 pages, 7 figures",
-      "entry_id": "http://arxiv.org/abs/2511.17059v1",
+      "entry_id": "http://arxiv.org/abs/2511.17059v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2511.17059v1",
+          "href": "https://arxiv.org/abs/2511.17059v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2511.17059v1",
+          "href": "https://arxiv.org/pdf/2511.17059v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null

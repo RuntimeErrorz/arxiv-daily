@@ -1,4 +1,4 @@
-## Updated at 2025-11-25 08:16:44
+## Updated at 2025-11-25 20:09:25
 
 ## 3DGS Semantic
 
@@ -8,6 +8,8 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-11-23**|**[SegSplat: Feed-forward Gaussian Splatting and Open-Set Semantic Segmentation](https://arxiv.org/abs/2511.18386)**|N/A|None|cs.CV|None|Peter Siegel et al.|
+|**2025-11-22**|**[CUS-GS: A Compact Unified Structured Gaussian Splatting Framework for Multimodal Scene Representation](https://arxiv.org/abs/2511.17904)**|N/A|15 pages, 8 figures, 4 tables|cs.CV|None|Yuhang Ming et al.|
 |**2025-11-20**|**[LEGO-SLAM: Language-Embedded Gaussian Optimization SLAM](https://arxiv.org/abs/2511.16144)**|N/A|18 pages|cs.CV|None|Sibaek Lee et al.|
 |**2025-11-06**|**[CaRF: Enhancing Multi-View Consistency in Referring 3D Gaussian Splatting Segmentation](https://arxiv.org/abs/2511.03992)**|N/A|None|cs.CV|None|Yuwen Tao et al.|
 |**2025-11-04**|**[PercHead: Perceptual Head Model for Single-Image 3D Head Reconstruction & Editing](https://arxiv.org/abs/2511.02777)**|N/A|Project Page: https://antoniooroz.github.io/PercHead/ Video: https://www.youtube.com/watch?v=4hFybgTk4kE|cs.CV|None|Antonio Oroz et al.|
@@ -167,6 +169,8 @@ Query: (abs:'Multi-View Stereo' OR abs:'Multi View Stereo' OR abs:'Multi-View De
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-11-24**|**[MetroGS: Efficient and Stable Reconstruction of Geometrically Accurate High-Fidelity Large-Scale Scenes](https://arxiv.org/abs/2511.19172)**|N/A|Project page: https://m3phist0.github.io/MetroGS|cs.CV|None|Kehua Chen et al.|
+|**2025-11-22**|**[MVS-TTA: Test-Time Adaptation for Multi-View Stereo via Meta-Auxiliary Learning](https://arxiv.org/abs/2511.18120)**|N/A|8 pages, 7 figures|cs.CV|None|Hannuo Zhang et al.|
 |**2025-11-21**|**[SPAGS: Sparse-View Articulated Object Reconstruction from Single State via Planar Gaussian Splatting](https://arxiv.org/abs/2511.17092)**|N/A|10 pages, 7 figures|cs.CV|None|Di Wu et al.|
 |**2025-11-21**|**[REArtGS++: Generalizable Articulation Reconstruction with Temporal Geometry Constraint via Planar Gaussian Splatting](https://arxiv.org/abs/2511.17059)**|N/A|10 pages, 7 figures|cs.CV|None|Di Wu et al.|
 |**2025-11-20**|**[CylinderDepth: Cylindrical Spatial Attention for Multi-View Consistent Self-Supervised Surround Depth Estimation](https://arxiv.org/abs/2511.16428)**|N/A|None|cs.CV|None|Samer Abualhanud et al.|
@@ -594,6 +598,11 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-11-24**|**[Real-Time Object Tracking with On-Device Deep Learning for Adaptive Beamforming in Dynamic Acoustic Environments](https://arxiv.org/abs/2511.19396)**|N/A|None|cs.SD|None|Jorge Ortigoso-Narro et al.|
+|**2025-11-24**|**[DensifyBeforehand: LiDAR-assisted Content-aware Densification for Efficient and Quality 3D Gaussian Splatting](https://arxiv.org/abs/2511.19294)**|N/A|None|cs.CV|None|Phurtivilai Patt et al.|
+|**2025-11-24**|**[Understanding Task Transfer in Vision-Language Models](https://arxiv.org/abs/2511.18787)**|N/A|None|cs.CV|None|Bhuvan Sachdeva et al.|
+|**2025-11-24**|**[GRIT-LP: Graph Transformer with Long-Range Skip Connection and Partitioned Spatial Graphs for Accurate Ice Layer Thickness Prediction](https://arxiv.org/abs/2511.18716)**|N/A|None|cs.LG|None|Zesheng Liu, Maryam Rahnemoonfar|
+|**2025-11-22**|**[AdaPerceiver: Transformers with Adaptive Width, Depth, and Tokens](https://arxiv.org/abs/2511.18105)**|N/A|None|cs.CV|None|Purvish Jajal et al.|
 |**2025-11-21**|**[Learning Latent Transmission and Glare Maps for Lens Veiling Glare Removal](https://arxiv.org/abs/2511.17353)**|N/A|All code and datasets will be publicly released at https://github.com/XiaolongQian/DeVeiler|eess.IV|None|Xiaolong Qian et al.|
 |**2025-11-21**|**[FisheyeGaussianLift: BEV Feature Lifting for Surround-View Fisheye Camera Perception](https://arxiv.org/abs/2511.17210)**|N/A|8 pages, 3 figures, published in IMVIP 2025 conference|cs.CV|Proceedings of the Irish Machine Vision and Image Processing Conference 2025 1 to 3 September 2025 Ulster University Derry Londonderry pages 50 to 57 ISBN 97800993420795|Shubham Sonarghare et al.|
 |**2025-11-21**|**[SPAGS: Sparse-View Articulated Object Reconstruction from Single State via Planar Gaussian Splatting](https://arxiv.org/abs/2511.17092)**|N/A|10 pages, 7 figures|cs.CV|None|Di Wu et al.|
