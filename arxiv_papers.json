@@ -1,5 +1,218 @@
 {
   "3DGS Semantic": {
+    "2511.20348": {
+      "title": "Material-informed Gaussian Splatting for 3D World Reconstruction in a Digital Twin",
+      "authors": [
+        "João Malheiro Silva",
+        "Andy Huynh",
+        "Tong Duy Son",
+        "Holger Caesar"
+      ],
+      "published": "2025-11-25T14:25:19+00:00",
+      "updated": "2025-11-25T14:25:19+00:00",
+      "summary": "3D reconstruction for Digital Twins often relies on LiDAR-based methods, which provide accurate geometry but lack the semantics and textures naturally captured by cameras. Traditional LiDAR-camera fusion approaches require complex calibration and still struggle with certain materials like glass, which are visible in images but poorly represented in point clouds. We propose a camera-only pipeline that reconstructs scenes using 3D Gaussian Splatting from multi-view images, extracts semantic material masks via vision models, converts Gaussian representations to mesh surfaces with projected material labels, and assigns physics-based material properties for accurate sensor simulation in modern graphics engines and simulators. This approach combines photorealistic reconstruction with physics-based material assignment, providing sensor simulation fidelity comparable to LiDAR-camera fusion while eliminating hardware complexity and calibration requirements. We validate our camera-only method using an internal dataset from an instrumented test vehicle, leveraging LiDAR as ground truth for reflectivity validation alongside image similarity metrics.",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.20348v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "8 pages, 5 figures. Submitted to IEEE Intelligent Vehicles Symposium (IV) 2026 for possible publication",
+      "entry_id": "http://arxiv.org/abs/2511.20348v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.20348v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.20348v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.20251": {
+      "title": "PromptMoG: Enhancing Diversity in Long-Prompt Image Generation via Prompt Embedding Mixture-of-Gaussian Sampling",
+      "authors": [
+        "Bo-Kai Ruan",
+        "Teng-Fang Hsiao",
+        "Ling Lo",
+        "Yi-Lun Wu",
+        "Hong-Han Shuai"
+      ],
+      "published": "2025-11-25T12:25:41+00:00",
+      "updated": "2025-11-25T12:25:41+00:00",
+      "summary": "Recent advances in text-to-image (T2I) generation have achieved remarkable visual outcomes through large-scale rectified flow models. However, how these models behave under long prompts remains underexplored. Long prompts encode rich content, spatial, and stylistic information that enhances fidelity but often suppresses diversity, leading to repetitive and less creative outputs. In this work, we systematically study this fidelity-diversity dilemma and reveal that state-of-the-art models exhibit a clear drop in diversity as prompt length increases. To enable consistent evaluation, we introduce LPD-Bench, a benchmark designed for assessing both fidelity and diversity in long-prompt generation. Building on our analysis, we develop a theoretical framework that increases sampling entropy through prompt reformulation and propose a training-free method, PromptMoG, which samples prompt embeddings from a Mixture-of-Gaussians in the embedding space to enhance diversity while preserving semantics. Extensive experiments on four state-of-the-art models, SD3.5-Large, Flux.1-Krea-Dev, CogView4, and Qwen-Image, demonstrate that PromptMoG consistently improves long-prompt generation diversity without semantic drifting.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.20251v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Technical Report",
+      "entry_id": "http://arxiv.org/abs/2511.20251v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.20251v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.20251v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.20224": {
+      "title": "DUO-TOK: Dual-Track Semantic Music Tokenizer for Vocal-Accompaniment Generation",
+      "authors": [
+        "Rui Lin",
+        "Zhiyue Wu",
+        "Jiahe Le",
+        "Kangdi Wang",
+        "Weixiong Chen",
+        "Junyu Dai",
+        "Tao Jiang"
+      ],
+      "published": "2025-11-25T11:53:57+00:00",
+      "updated": "2025-11-25T11:53:57+00:00",
+      "summary": "Duo-Tok is a source-aware dual-codebook tokenizer for vocal-accompaniment music that targets the growing tension between reconstruction quality and language-model (LM) learnability in modern lyrics-to-song systems. Existing codecs either prioritize high-fidelity reconstruction with difficult-to-model acoustic tokens or compress aggressively into semantic tokens that are LM-friendly but lossy, and they rarely make the tokenizer itself aware of dual-track structure. Duo-Tok follows a four-stage, SSL-centered pipeline: we first pretrain a BEST-RQ-style encoder on large-scale audio, then stabilize and factorize the representation with Gaussian replacement noise and multi-task supervision, before freezing the encoder to learn SimVQ-based dual codebooks with hard routing for vocals and accompaniment, and finally training latent diffusion decoders on top of the discrete tokens. Duo-Tok at 0.75 kbps shifts the empirical reconstruction-generation Pareto frontier, achieving the best music-tagging AP and the lowest vocabulary-normalized LM perplexity among compared codecs while maintaining reconstruction quality comparable to state-of-the-art music tokenizers.",
+      "categories": [
+        "cs.SD",
+        "cs.AI"
+      ],
+      "primary_category": "cs.SD",
+      "pdf_url": "https://arxiv.org/pdf/2511.20224v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "17 pages, 5 figures, 8 tables. Project page: https://eps-acoustic-revolution-lab.github.io/DUO_TOK/",
+      "entry_id": "http://arxiv.org/abs/2511.20224v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.20224v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.20224v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.19912": {
+      "title": "Reasoning-VLA: A Fast and General Vision-Language-Action Reasoning Model for Autonomous Driving",
+      "authors": [
+        "Dapeng Zhang",
+        "Zhenlong Yuan",
+        "Zhangquan Chen",
+        "Chih-Ting Liao",
+        "Yinda Chen",
+        "Fei Shen",
+        "Qingguo Zhou",
+        "Tat-Seng Chua"
+      ],
+      "published": "2025-11-25T04:40:11+00:00",
+      "updated": "2025-11-25T04:40:11+00:00",
+      "summary": "Vision-Language-Action (VLA) models have recently shown strong decision-making capabilities in autonomous driving. However, existing VLAs often struggle with achieving efficient inference and generalizing to novel autonomous vehicle configurations and driving scenarios. In this paper, we propose Reasoning-VLA, a general and fast action-generation VLA framework. The proposed model employs a set of learnable action queries, initialized via Gaussian sampling from ground-truth trajectories within the training corpus. These learnable queries interact with reasoning-enhanced vision-language features to generate continuous action trajectories in parallel. To promote robust generalization, we consolidate eight publicly available autonomous driving datasets into a standardized, Chain-of-Thought reasoning-based, and easy-to-use data format for model training. Leveraging both supervised learning and reinforcement learning fine-tuning, extensive empirical evaluations across multiple benchmarks demonstrate that Reasoning-VLA achieves state-of-the-art performance, superior generalization capability, and the excellent inference speed reported to date.",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.19912v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.19912v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.19912v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.19912v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.19861": {
+      "title": "GigaWorld-0: World Models as Data Engine to Empower Embodied AI",
+      "authors": [
+        "GigaWorld Team",
+        "Angen Ye",
+        "Boyuan Wang",
+        "Chaojun Ni",
+        "Guan Huang",
+        "Guosheng Zhao",
+        "Haoyun Li",
+        "Jiagang Zhu",
+        "Kerui Li",
+        "Mengyuan Xu",
+        "Qiuping Deng",
+        "Siting Wang",
+        "Wenkang Qin",
+        "Xinze Chen",
+        "Xiaofeng Wang",
+        "Yankai Wang",
+        "Yu Cao",
+        "Yifan Chang",
+        "Yuan Xu",
+        "Yun Ye",
+        "Yang Wang",
+        "Yukun Zhou",
+        "Zhengyuan Zhang",
+        "Zhehao Dong",
+        "Zheng Zhu"
+      ],
+      "published": "2025-11-25T03:00:42+00:00",
+      "updated": "2025-11-25T03:00:42+00:00",
+      "summary": "World models are emerging as a foundational paradigm for scalable, data-efficient embodied AI. In this work, we present GigaWorld-0, a unified world model framework designed explicitly as a data engine for Vision-Language-Action (VLA) learning. GigaWorld-0 integrates two synergistic components: GigaWorld-0-Video, which leverages large-scale video generation to produce diverse, texture-rich, and temporally coherent embodied sequences under fine-grained control of appearance, camera viewpoint, and action semantics; and GigaWorld-0-3D, which combines 3D generative modeling, 3D Gaussian Splatting reconstruction, physically differentiable system identification, and executable motion planning to ensure geometric consistency and physical realism. Their joint optimization enables the scalable synthesis of embodied interaction data that is visually compelling, spatially coherent, physically plausible, and instruction-aligned. Training at scale is made feasible through our efficient GigaTrain framework, which exploits FP8-precision and sparse attention to drastically reduce memory and compute requirements. We conduct comprehensive evaluations showing that GigaWorld-0 generates high-quality, diverse, and controllable data across multiple dimensions. Critically, VLA model (e.g., GigaBrain-0) trained on GigaWorld-0-generated data achieve strong real-world performance, significantly improving generalization and task success on physical robots without any real-world interaction during training.",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.19861v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Project Page: https://gigaworld0.github.io/",
+      "entry_id": "http://arxiv.org/abs/2511.19861v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.19861v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.19861v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2511.19294": {
       "title": "DensifyBeforehand: LiDAR-assisted Content-aware Densification for Efficient and Quality 3D Gaussian Splatting",
       "authors": [
@@ -202,7 +415,8 @@
       "updated": "2025-11-23T16:35:51+00:00",
       "summary": "We present Splatblox, a real-time system for autonomous navigation in outdoor environments with dense vegetation, irregular obstacles, and complex terrain. Our method fuses segmented RGB images and LiDAR point clouds using Gaussian Splatting to construct a traversability-aware Euclidean Signed Distance Field (ESDF) that jointly encodes geometry and semantics. Updated online, this field enables semantic reasoning to distinguish traversable vegetation (e.g., tall grass) from rigid obstacles (e.g., trees), while LiDAR ensures 360-degree geometric coverage for extended planning horizons. We validate Splatblox on a quadruped robot and demonstrate transfer to a wheeled platform. In field trials across vegetation-rich scenarios, it outperforms state-of-the-art methods with over 50% higher success rate, 40% fewer freezing incidents, 5% shorter paths, and up to 13% faster time to goal, while supporting long-range missions up to 100 meters. Experiment videos and more details can be found on our project page: https://splatblox.github.io",
       "categories": [
-        "cs.RO"
+        "cs.RO",
+        "cs.CV"
       ],
       "primary_category": "cs.RO",
       "pdf_url": "https://arxiv.org/pdf/2511.18525v1",
@@ -356,26 +570,26 @@
         "Robert Lund"
       ],
       "published": "2025-11-22T06:51:42+00:00",
-      "updated": "2025-11-22T06:51:42+00:00",
+      "updated": "2025-11-25T08:17:26+00:00",
       "summary": "A single joinpoint changepoint model partitions a time series into two segments, joined at the changepoint time by constraining the estimated piecewise linear regression responses to be continuous. This manuscript derives the exact asymptotic distribution of the changepoint existence test statistic gauging whether or not a second segment is necessary. The identified asymptotic distribution, a supremum of a Gaussian process over the unit interval, is rather unwieldy. The work presented here provides the result and its derivation; quantiles of the asymptotic distribution are presented for the user. This addresses a subtle gap in the changepoint literature.",
       "categories": [
         "stat.ME"
       ],
       "primary_category": "stat.ME",
-      "pdf_url": "https://arxiv.org/pdf/2511.17942v1",
+      "pdf_url": "https://arxiv.org/pdf/2511.17942v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2511.17942v1",
+      "entry_id": "http://arxiv.org/abs/2511.17942v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2511.17942v1",
+          "href": "https://arxiv.org/abs/2511.17942v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2511.17942v1",
+          "href": "https://arxiv.org/pdf/2511.17942v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -514,26 +728,26 @@
         "Ciaran Eising"
       ],
       "published": "2025-11-21T16:26:31+00:00",
-      "updated": "2025-11-21T16:26:31+00:00",
-      "summary": "Semantic occupancy estimation enables comprehensive scene understanding for automated driving, providing dense spatial and semantic information essential for perception and planning. While Gaussian representations have been widely adopted in self-supervised occupancy estimation, the deployment of a large number of Gaussian primitives drastically increases memory requirements and is not suitable for real-time inference. In contrast, superquadrics permit reduced primitive count and lower memory requirements due to their diverse shape set. However, implementation into a self-supervised occupancy model is nontrivial due to the absence of a superquadric rasterizer to enable model supervision. Our proposed method, SuperQuadricOcc, employs a superquadric-based scene representation. By leveraging a multi-layer icosphere-tessellated Gaussian approximation of superquadrics, we enable Gaussian rasterization for supervision during training. On the Occ3D dataset, SuperQuadricOcc achieves a 75\\% reduction in memory footprint, 124\\% faster inference, and a 5.9\\% improvement in mIoU compared to previous Gaussian-based methods, without the use of temporal labels. To our knowledge, this is the first occupancy model to enable real-time inference while maintaining competitive performance. The use of superquadrics reduces the number of primitives required for scene modeling by 84\\% relative to Gaussian-based approaches. Finally, evaluation against prior methods is facilitated by our fast superquadric voxelization module. The code will be released as open source.",
+      "updated": "2025-11-25T10:31:55+00:00",
+      "summary": "Semantic occupancy estimation enables comprehensive scene understanding for automated driving, providing dense spatial and semantic information essential for perception and planning. While Gaussian representations have been widely adopted in self-supervised occupancy estimation, the deployment of a large number of Gaussian primitives drastically increases memory requirements and is not suitable for real-time inference. In contrast, superquadrics permit reduced primitive count and lower memory requirements due to their diverse shape set. However, implementation into a self-supervised occupancy model is nontrivial due to the absence of a superquadric rasterizer to enable model supervision. Our proposed method, SuperQuadricOcc, employs a superquadric-based scene representation. By leveraging a multi-layer icosphere-tessellated Gaussian approximation of superquadrics, we enable Gaussian rasterization for supervision during training. On the Occ3D dataset, SuperQuadricOcc achieves a 75% reduction in memory footprint, 124% faster inference, and a 5.9% improvement in mIoU compared to previous Gaussian-based methods, without the use of temporal labels. To our knowledge, this is the first occupancy model to enable real-time inference while maintaining competitive performance. The use of superquadrics reduces the number of primitives required for scene modeling by 84% relative to Gaussian-based approaches. Finally, evaluation against prior methods is facilitated by our fast superquadric voxelization module. The code will be made available at https://github.com/seamie6/SuperQuadricOcc.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2511.17361v1",
+      "pdf_url": "https://arxiv.org/pdf/2511.17361v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2511.17361v1",
+      "entry_id": "http://arxiv.org/abs/2511.17361v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2511.17361v1",
+          "href": "https://arxiv.org/abs/2511.17361v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2511.17361v1",
+          "href": "https://arxiv.org/pdf/2511.17361v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -69536,6 +69750,74 @@
     }
   },
   "MVS": {
+    "2511.20646": {
+      "title": "3D-Aware Multi-Task Learning with Cross-View Correlations for Dense Scene Understanding",
+      "authors": [
+        "Xiaoye Wang",
+        "Chen Tang",
+        "Xiangyu Yue",
+        "Wei-Hong Li"
+      ],
+      "published": "2025-11-25T18:59:34+00:00",
+      "updated": "2025-11-25T18:59:34+00:00",
+      "summary": "This paper addresses the challenge of training a single network to jointly perform multiple dense prediction tasks, such as segmentation and depth estimation, i.e., multi-task learning (MTL). Current approaches mainly capture cross-task relations in the 2D image space, often leading to unstructured features lacking 3D-awareness. We argue that 3D-awareness is vital for modeling cross-task correlations essential for comprehensive scene understanding. We propose to address this problem by integrating correlations across views, i.e., cost volume, as geometric consistency in the MTL network. Specifically, we introduce a lightweight Cross-view Module (CvM), shared across tasks, to exchange information across views and capture cross-view correlations, integrated with a feature from MTL encoder for multi-task predictions. This module is architecture-agnostic and can be applied to both single and multi-view data. Extensive results on NYUv2 and PASCAL-Context demonstrate that our method effectively injects geometric consistency into existing MTL methods to improve performance.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.20646v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "3D-aware Multi-task Learning, Cross-view Correlations, Code will be available at https://github.com/WeiHongLee/CrossView3DMTL",
+      "entry_id": "http://arxiv.org/abs/2511.20646v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.20646v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.20646v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2511.20343": {
+      "title": "AMB3R: Accurate Feed-forward Metric-scale 3D Reconstruction with Backend",
+      "authors": [
+        "Hengyi Wang",
+        "Lourdes Agapito"
+      ],
+      "published": "2025-11-25T14:23:04+00:00",
+      "updated": "2025-11-25T14:23:04+00:00",
+      "summary": "We present AMB3R, a multi-view feed-forward model for dense 3D reconstruction on a metric-scale that addresses diverse 3D vision tasks. The key idea is to leverage a sparse, yet compact, volumetric scene representation as our backend, enabling geometric reasoning with spatial compactness. Although trained solely for multi-view reconstruction, we demonstrate that AMB3R can be seamlessly extended to uncalibrated visual odometry (online) or large-scale structure from motion without the need for task-specific fine-tuning or test-time optimization. Compared to prior pointmap-based models, our approach achieves state-of-the-art performance in camera pose, depth, and metric-scale estimation, 3D reconstruction, and even surpasses optimization-based SLAM and SfM methods with dense reconstruction priors on common benchmarks.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.20343v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Project page: https://hengyiwang.github.io/projects/amber",
+      "entry_id": "http://arxiv.org/abs/2511.20343v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.20343v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.20343v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2511.19172": {
       "title": "MetroGS: Efficient and Stable Reconstruction of Geometrically Accurate High-Fidelity Large-Scale Scenes",
       "authors": [
@@ -85257,6 +85539,152 @@
     }
   },
   "Depth Estimation": {
+    "2511.20646": {
+      "title": "3D-Aware Multi-Task Learning with Cross-View Correlations for Dense Scene Understanding",
+      "authors": [
+        "Xiaoye Wang",
+        "Chen Tang",
+        "Xiangyu Yue",
+        "Wei-Hong Li"
+      ],
+      "published": "2025-11-25T18:59:34+00:00",
+      "updated": "2025-11-25T18:59:34+00:00",
+      "summary": "This paper addresses the challenge of training a single network to jointly perform multiple dense prediction tasks, such as segmentation and depth estimation, i.e., multi-task learning (MTL). Current approaches mainly capture cross-task relations in the 2D image space, often leading to unstructured features lacking 3D-awareness. We argue that 3D-awareness is vital for modeling cross-task correlations essential for comprehensive scene understanding. We propose to address this problem by integrating correlations across views, i.e., cost volume, as geometric consistency in the MTL network. Specifically, we introduce a lightweight Cross-view Module (CvM), shared across tasks, to exchange information across views and capture cross-view correlations, integrated with a feature from MTL encoder for multi-task predictions. This module is architecture-agnostic and can be applied to both single and multi-view data. Extensive results on NYUv2 and PASCAL-Context demonstrate that our method effectively injects geometric consistency into existing MTL methods to improve performance.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.20646v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "3D-aware Multi-task Learning, Cross-view Correlations, Code will be available at https://github.com/WeiHongLee/CrossView3DMTL",
+      "entry_id": "http://arxiv.org/abs/2511.20646v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.20646v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.20646v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2511.20343": {
+      "title": "AMB3R: Accurate Feed-forward Metric-scale 3D Reconstruction with Backend",
+      "authors": [
+        "Hengyi Wang",
+        "Lourdes Agapito"
+      ],
+      "published": "2025-11-25T14:23:04+00:00",
+      "updated": "2025-11-25T14:23:04+00:00",
+      "summary": "We present AMB3R, a multi-view feed-forward model for dense 3D reconstruction on a metric-scale that addresses diverse 3D vision tasks. The key idea is to leverage a sparse, yet compact, volumetric scene representation as our backend, enabling geometric reasoning with spatial compactness. Although trained solely for multi-view reconstruction, we demonstrate that AMB3R can be seamlessly extended to uncalibrated visual odometry (online) or large-scale structure from motion without the need for task-specific fine-tuning or test-time optimization. Compared to prior pointmap-based models, our approach achieves state-of-the-art performance in camera pose, depth, and metric-scale estimation, 3D reconstruction, and even surpasses optimization-based SLAM and SfM methods with dense reconstruction priors on common benchmarks.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.20343v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Project page: https://hengyiwang.github.io/projects/amber",
+      "entry_id": "http://arxiv.org/abs/2511.20343v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.20343v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.20343v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2511.20157": {
+      "title": "SKEL-CF: Coarse-to-Fine Biomechanical Skeleton and Surface Mesh Recovery",
+      "authors": [
+        "Da Li",
+        "Ji-Ping Jin",
+        "Xuanlong Yu",
+        "Wei Liu",
+        "Xiaodong Cun",
+        "Kai Chen",
+        "Rui Fan",
+        "Jiangang Kong",
+        "Shen Xi"
+      ],
+      "published": "2025-11-25T10:33:17+00:00",
+      "updated": "2025-11-25T10:33:17+00:00",
+      "summary": "Parametric 3D human models such as SMPL have driven significant advances in human pose and shape estimation, yet their simplified kinematics limit biomechanical realism. The recently proposed SKEL model addresses this limitation by re-rigging SMPL with an anatomically accurate skeleton. However, estimating SKEL parameters directly remains challenging due to limited training data, perspective ambiguities, and the inherent complexity of human articulation. We introduce SKEL-CF, a coarse-to-fine framework for SKEL parameter estimation. SKEL-CF employs a transformer-based encoder-decoder architecture, where the encoder predicts coarse camera and SKEL parameters, and the decoder progressively refines them in successive layers. To ensure anatomically consistent supervision, we convert the existing SMPL-based dataset 4DHuman into a SKEL-aligned version, 4DHuman-SKEL, providing high-quality training data for SKEL estimation. In addition, to mitigate depth and scale ambiguities, we explicitly incorporate camera modeling into the SKEL-CF pipeline and demonstrate its importance across diverse viewpoints. Extensive experiments validate the effectiveness of the proposed design. On the challenging MOYO dataset, SKEL-CF achieves 85.0 MPJPE / 51.4 PA-MPJPE, significantly outperforming the previous SKEL-based state-of-the-art HSMR (104.5 / 79.6). These results establish SKEL-CF as a scalable and anatomically faithful framework for human motion analysis, bridging the gap between computer vision and biomechanics. Our implementation is available on the project page: https://pokerman8.github.io/SKEL-CF/.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.20157v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "15 pages, 10 figures",
+      "entry_id": "http://arxiv.org/abs/2511.20157v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.20157v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.20157v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2511.20058": {
+      "title": "DeLightMono: Enhancing Self-Supervised Monocular Depth Estimation in Endoscopy by Decoupling Uneven Illumination",
+      "authors": [
+        "Mingyang Ou",
+        "Haojin Li",
+        "Yifeng Zhang",
+        "Ke Niu",
+        "Zhongxi Qiu",
+        "Heng Li",
+        "Jiang Liu"
+      ],
+      "published": "2025-11-25T08:29:03+00:00",
+      "updated": "2025-11-25T08:29:03+00:00",
+      "summary": "Self-supervised monocular depth estimation serves as a key task in the development of endoscopic navigation systems. However, performance degradation persists due to uneven illumination inherent in endoscopic images, particularly in low-intensity regions. Existing low-light enhancement techniques fail to effectively guide the depth network. Furthermore, solutions from other fields, like autonomous driving, require well-lit images, making them unsuitable and increasing data collection burdens. To this end, we present DeLight-Mono - a novel self-supervised monocular depth estimation framework with illumination decoupling. Specifically, endoscopic images are represented by a designed illumination-reflectance-depth model, and are decomposed with auxiliary networks. Moreover, a self-supervised joint-optimizing framework with novel losses leveraging the decoupled components is proposed to mitigate the effects of uneven illumination on depth estimation. The effectiveness of the proposed methods was rigorously verified through extensive comparisons and an ablation study performed on two public datasets.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.20058v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.20058v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.20058v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.20058v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2511.19396": {
       "title": "Real-Time Object Tracking with On-Device Deep Learning for Adaptive Beamforming in Dynamic Acoustic Environments",
       "authors": [
