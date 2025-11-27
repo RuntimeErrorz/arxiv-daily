@@ -1,4 +1,4 @@
-## Updated at 2025-11-27 08:17:39
+## Updated at 2025-11-27 20:07:43
 
 ## 3DGS Semantic
 
@@ -169,6 +169,9 @@ Query: (abs:'Multi-View Stereo' OR abs:'Multi View Stereo' OR abs:'Multi-View De
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-11-26**|**[UAVLight: A Benchmark for Illumination-Robust 3D Reconstruction in Unmanned Aerial Vehicle (UAV) Scenes](https://arxiv.org/abs/2511.21565)**|N/A|10 pages, 6 figures|cs.CV|None|Kang Du et al.|
+|**2025-11-26**|**[HTTM: Head-wise Temporal Token Merging for Faster VGGT](https://arxiv.org/abs/2511.21317)**|N/A|None|cs.CV|None|Weitian Wang et al.|
+|**2025-11-25**|**[MODEST: Multi-Optics Depth-of-Field Stereo Dataset](https://arxiv.org/abs/2511.20853)**|N/A|None|cs.CV|None|Nisarg K. Trivedi et al.|
 |**2025-11-25**|**[3D-Aware Multi-Task Learning with Cross-View Correlations for Dense Scene Understanding](https://arxiv.org/abs/2511.20646)**|N/A|3D-aware Multi-task Learning, Cross-view Correlations, Code will be available at https://github.com/WeiHongLee/CrossView3DMTL|cs.CV|None|Xiaoye Wang et al.|
 |**2025-11-25**|**[AMB3R: Accurate Feed-forward Metric-scale 3D Reconstruction with Backend](https://arxiv.org/abs/2511.20343)**|N/A|Project page: https://hengyiwang.github.io/projects/amber|cs.CV|None|Hengyi Wang, Lourdes Agapito|
 |**2025-11-24**|**[MetroGS: Efficient and Stable Reconstruction of Geometrically Accurate High-Fidelity Large-Scale Scenes](https://arxiv.org/abs/2511.19172)**|N/A|Project page: https://m3phist0.github.io/MetroGS|cs.CV|None|Kehua Chen et al.|
@@ -600,9 +603,11 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-11-25**|**[Estimating Fog Parameters from a Sequence of Stereo Images](https://arxiv.org/abs/2511.20865)**|N/A|None|cs.CV|None|Yining Ding et al.|
+|**2025-11-25**|**[MODEST: Multi-Optics Depth-of-Field Stereo Dataset](https://arxiv.org/abs/2511.20853)**|N/A|None|cs.CV|None|Nisarg K. Trivedi et al.|
 |**2025-11-25**|**[3D-Aware Multi-Task Learning with Cross-View Correlations for Dense Scene Understanding](https://arxiv.org/abs/2511.20646)**|N/A|3D-aware Multi-task Learning, Cross-view Correlations, Code will be available at https://github.com/WeiHongLee/CrossView3DMTL|cs.CV|None|Xiaoye Wang et al.|
 |**2025-11-25**|**[AMB3R: Accurate Feed-forward Metric-scale 3D Reconstruction with Backend](https://arxiv.org/abs/2511.20343)**|N/A|Project page: https://hengyiwang.github.io/projects/amber|cs.CV|None|Hengyi Wang, Lourdes Agapito|
-|**2025-11-25**|**[SKEL-CF: Coarse-to-Fine Biomechanical Skeleton and Surface Mesh Recovery](https://arxiv.org/abs/2511.20157)**|N/A|15 pages, 10 figures|cs.CV|None|Da Li et al.|
+|**2025-11-25**|**[SKEL-CF: Coarse-to-Fine Biomechanical Skeleton and Surface Mesh Recovery](https://arxiv.org/abs/2511.20157)**|N/A|Project page: https://pokerman8.github.io/SKEL-CF/|cs.CV|None|Da Li et al.|
 |**2025-11-25**|**[DeLightMono: Enhancing Self-Supervised Monocular Depth Estimation in Endoscopy by Decoupling Uneven Illumination](https://arxiv.org/abs/2511.20058)**|N/A|None|cs.CV|None|Mingyang Ou et al.|
 |**2025-11-24**|**[Real-Time Object Tracking with On-Device Deep Learning for Adaptive Beamforming in Dynamic Acoustic Environments](https://arxiv.org/abs/2511.19396)**|N/A|None|cs.SD|None|Jorge Ortigoso-Narro et al.|
 |**2025-11-24**|**[DensifyBeforehand: LiDAR-assisted Content-aware Densification for Efficient and Quality 3D Gaussian Splatting](https://arxiv.org/abs/2511.19294)**|N/A|None|cs.CV|None|Phurtivilai Patt et al.|

@@ -1,5 +1,75 @@
 {
   "3DGS Semantic": {
+    "2511.21670": {
+      "title": "Intensity doubling for Brownian loop-soups in high dimensions",
+      "authors": [
+        "Titus Lupu",
+        "Wendelin Werner"
+      ],
+      "published": "2025-11-26T18:50:19+00:00",
+      "updated": "2025-11-26T18:50:19+00:00",
+      "summary": "We derive an intensity doubling feature of critical Brownian loop-soups on the cable-graphs of ${\\mathbb Z}^d$ for $d \\ge 7$ that can be described as follows: In the box $[-N, N]^d$ (and with a probability that goes to $1$ as $N$ goes to infinity), the set of all clusters of Brownian loops that do contain proper self-avoiding cycles of diameter comparable to $N$ can be decomposed into two identically distributed families: (a) The collection of clusters that do contain a large Brownian loop from the loop-soup (and therefore do automatically contain such a large cycle) (b) The collection of clusters that contain no macroscopic loop from the loop-soup (more specifically, no loop of diameter greater than $N^β$ when $β> 4/ (d-2)$ is fixed) but nevertheless contain a large cycle. In particular, due to the fact that these two families are asymptotically identically distributed, large cycles formed in case (b) by chains of small Brownian loops (i.e., all of diameter much smaller than $N$) will look like large Brownian loops themselves, and form a second independent \"ghost\" critical loop-soup in the scaling limit. Reformulated in terms of the Gaussian free field on such cable-graphs, this shows that large cycles in the collection of its sign clusters will converge in the scaling limit to a Brownian loop-soup with twice the usual critical intensity. This result had been conjectured by the first author in arXiv:2209.07901 [math.PR] ; our proof builds heavily on the second author's switching property for such loop-soups from arXiv:2502.06754 [math.PR] .",
+      "categories": [
+        "math.PR",
+        "math-ph"
+      ],
+      "primary_category": "math.PR",
+      "pdf_url": "https://arxiv.org/pdf/2511.21670v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.21670v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.21670v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.21670v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.21436": {
+      "title": "Dynamics of a tracer trapped in a correlated medium in the presence of a wall",
+      "authors": [
+        "Marcin Piotr Pruszczyk",
+        "Andrea Gambassi"
+      ],
+      "published": "2025-11-26T14:27:00+00:00",
+      "updated": "2025-11-26T14:27:00+00:00",
+      "summary": "We describe the random motion of a particle immersed in a thermally fluctuating medium and harmonically trapped at a certain distance from a wall. The medium, modeled by a Gaussian field with a tunable correlation length $ξ$, is linearly coupled to the particle and evolves according to dissipative relaxational dynamics. Dirichlet boundary conditions imposed on the field at the wall give rise to a repulsive fluctuation-induced force acting on the particle, causing a shift in its average position and a renormalization of the strength of the harmonic trap. We describe the effective overdamped dynamics of the particle, which features a nonlinear memory term depending on the wall-particle separation. We show that the two-time correlation function of the particle position features a memory-induced term that depends on the distance of the particle from the wall. At the critical point, this term decays algebraically upon increasing time and it displays a crossover from the behavior observed in the bulk to that corresponding to having the particle at the wall.",
+      "categories": [
+        "cond-mat.stat-mech",
+        "cond-mat.soft"
+      ],
+      "primary_category": "cond-mat.stat-mech",
+      "pdf_url": "https://arxiv.org/pdf/2511.21436v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.21436v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.21436v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.21436v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2511.20348": {
       "title": "Material-informed Gaussian Splatting for 3D World Reconstruction in a Digital Twin",
       "authors": [
@@ -297,27 +367,27 @@
         "Haixu Tang"
       ],
       "published": "2025-11-24T15:23:41+00:00",
-      "updated": "2025-11-24T15:23:41+00:00",
+      "updated": "2025-11-26T15:12:18+00:00",
       "summary": "Large Language Models (LLMs) have developed rapidly in web services, delivering unprecedented capabilities while amplifying societal risks. Existing works tend to focus on either isolated jailbreak attacks or static defenses, neglecting the dynamic interplay between evolving threats and safeguards in real-world web contexts. To mitigate these challenges, we propose ACE-Safety (Adversarial Co-Evolution for LLM Safety), a novel framework that jointly optimize attack and defense models by seamlessly integrating two key innovative procedures: (1) Group-aware Strategy-guided Monte Carlo Tree Search (GS-MCTS), which efficiently explores jailbreak strategies to uncover vulnerabilities and generate diverse adversarial samples; (2) Adversarial Curriculum Tree-aware Group Policy Optimization (AC-TGPO), which jointly trains attack and defense LLMs with challenging samples via curriculum reinforcement learning, enabling robust mutual improvement. Evaluations across multiple benchmarks demonstrate that our method outperforms existing attack and defense approaches, and provides a feasible pathway for developing LLMs that can sustainably support responsible AI ecosystems.",
       "categories": [
         "cs.CR",
         "cs.AI"
       ],
       "primary_category": "cs.CR",
-      "pdf_url": "https://arxiv.org/pdf/2511.19218v1",
+      "pdf_url": "https://arxiv.org/pdf/2511.19218v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2511.19218v1",
+      "entry_id": "http://arxiv.org/abs/2511.19218v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2511.19218v1",
+          "href": "https://arxiv.org/abs/2511.19218v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2511.19218v1",
+          "href": "https://arxiv.org/pdf/2511.19218v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -69750,6 +69820,121 @@
     }
   },
   "MVS": {
+    "2511.21565": {
+      "title": "UAVLight: A Benchmark for Illumination-Robust 3D Reconstruction in Unmanned Aerial Vehicle (UAV) Scenes",
+      "authors": [
+        "Kang Du",
+        "Xue Liao",
+        "Junpeng Xia",
+        "Chaozheng Guo",
+        "Yi Gu",
+        "Yirui Guan",
+        "Duotun Wang",
+        "ShengHuang",
+        "Zeyu Wang"
+      ],
+      "published": "2025-11-26T16:38:29+00:00",
+      "updated": "2025-11-26T16:38:29+00:00",
+      "summary": "Illumination inconsistency is a fundamental challenge in multi-view 3D reconstruction. Variations in sunlight direction, cloud cover, and shadows break the constant-lighting assumption underlying both classical multi-view stereo (MVS) and structure from motion (SfM) pipelines and recent neural rendering methods, leading to geometry drift, color inconsistency, and shadow imprinting. This issue is especially critical in UAV-based reconstruction, where long flight durations and outdoor environments make lighting changes unavoidable. However, existing datasets either restrict capture to short time windows, thus lacking meaningful illumination diversity, or span months and seasons, where geometric and semantic changes confound the isolated study of lighting robustness. We introduce UAVLight, a controlled-yet-real benchmark for illumination-robust 3D reconstruction. Each scene is captured along repeatable, geo-referenced flight paths at multiple fixed times of day, producing natural lighting variation under consistent geometry, calibration, and viewpoints. With standardized evaluation protocols across lighting conditions, UAVLight provides a reliable foundation for developing and benchmarking reconstruction methods that are consistent, faithful, and relightable in real outdoor environments.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.21565v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "10 pages, 6 figures",
+      "entry_id": "http://arxiv.org/abs/2511.21565v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.21565v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.21565v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2511.21317": {
+      "title": "HTTM: Head-wise Temporal Token Merging for Faster VGGT",
+      "authors": [
+        "Weitian Wang",
+        "Lukas Meiner",
+        "Rai Shubham",
+        "Cecilia De La Parra",
+        "Akash Kumar"
+      ],
+      "published": "2025-11-26T12:04:03+00:00",
+      "updated": "2025-11-26T12:04:03+00:00",
+      "summary": "The Visual Geometry Grounded Transformer (VGGT) marks a significant leap forward in 3D scene reconstruction, as it is the first model that directly infers all key 3D attributes (camera poses, depths, and dense geometry) jointly in one pass. However, this joint inference mechanism requires global attention layers that perform all-to-all attention computation on tokens from all views. For reconstruction of large scenes with long-sequence inputs, this causes a significant latency bottleneck. In this paper, we propose head-wise temporal merging (HTTM), a training-free 3D token merging method for accelerating VGGT. Existing merging techniques merge tokens uniformly across different attention heads, resulting in identical tokens in the layers' output, which hinders the model's representational ability. HTTM tackles this problem by merging tokens in multi-head granularity, which preserves the uniqueness of feature tokens after head concatenation. Additionally, this enables HTTM to leverage the spatial locality and temporal correspondence observed at the head level to achieve higher merging ratios with lower merging costs compared to existing methods. Thus, HTTM achieves up to 7x acceleration with negligible performance drops in a GPU-based inference.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.21317v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.21317v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.21317v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.21317v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2511.20853": {
+      "title": "MODEST: Multi-Optics Depth-of-Field Stereo Dataset",
+      "authors": [
+        "Nisarg K. Trivedi",
+        "Vinayak A. Belludi",
+        "Li-Yun Wang",
+        "Pardis Taghavi",
+        "Dante Lok"
+      ],
+      "published": "2025-11-25T20:59:47+00:00",
+      "updated": "2025-11-25T20:59:47+00:00",
+      "summary": "Reliable depth estimation under real optical conditions remains a core challenge for camera vision in systems such as autonomous robotics and augmented reality. Despite recent progress in depth estimation and depth-of-field rendering, research remains constrained by the lack of large-scale, high-fidelity, real stereo DSLR datasets, limiting real-world generalization and evaluation of models trained on synthetic data as shown extensively in literature. We present the first high-resolution (5472$\\times$3648px) stereo DSLR dataset with 18000 images, systematically varying focal length and aperture across complex real scenes and capturing the optical realism and complexity of professional camera systems. For 9 scenes with varying scene complexity, lighting and background, images are captured with two identical camera assemblies at 10 focal lengths (28-70mm) and 5 apertures (f/2.8-f/22), spanning 50 optical configurations in 2000 images per scene. This full-range optics coverage enables controlled analysis of geometric and optical effects for monocular and stereo depth estimation, shallow depth-of-field rendering, deblurring, 3D scene reconstruction and novel view synthesis. Each focal configuration has a dedicated calibration image set, supporting evaluation of classical and learning based methods for intrinsic and extrinsic calibration. The dataset features challenging visual elements such as multi-scale optical illusions, reflective surfaces, mirrors, transparent glass walls, fine-grained details, and natural / artificial ambient light variations. This work attempts to bridge the realism gap between synthetic training data and real camera optics, and demonstrates challenges with the current state-of-the-art monocular, stereo depth and depth-of-field methods. We release the dataset, calibration files, and evaluation code to support reproducible research on real-world optical generalization.",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG",
+        "eess.IV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.20853v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.20853v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.20853v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.20853v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2511.20646": {
       "title": "3D-Aware Multi-Task Learning with Cross-View Correlations for Dense Scene Understanding",
       "authors": [
@@ -85539,6 +85724,86 @@
     }
   },
   "Depth Estimation": {
+    "2511.20865": {
+      "title": "Estimating Fog Parameters from a Sequence of Stereo Images",
+      "authors": [
+        "Yining Ding",
+        "João F. C. Mota",
+        "Andrew M. Wallace",
+        "Sen Wang"
+      ],
+      "published": "2025-11-25T21:25:41+00:00",
+      "updated": "2025-11-25T21:25:41+00:00",
+      "summary": "We propose a method which, given a sequence of stereo foggy images, estimates the parameters of a fog model and updates them dynamically. In contrast with previous approaches, which estimate the parameters sequentially and thus are prone to error propagation, our algorithm estimates all the parameters simultaneously by solving a novel optimisation problem. By assuming that fog is only locally homogeneous, our method effectively handles real-world fog, which is often globally inhomogeneous. The proposed algorithm can be easily used as an add-on module in existing visual Simultaneous Localisation and Mapping (SLAM) or odometry systems in the presence of fog. In order to assess our method, we also created a new dataset, the Stereo Driving In Real Fog (SDIRF), consisting of high-quality, consecutive stereo frames of real, foggy road scenes under a variety of visibility conditions, totalling over 40 minutes and 34k frames. As a first-of-its-kind, SDIRF contains the camera's photometric parameters calibrated in a lab environment, which is a prerequisite for correctly applying the atmospheric scattering model to foggy images. The dataset also includes the counterpart clear data of the same routes recorded in overcast weather, which is useful for companion work in image defogging and depth reconstruction. We conducted extensive experiments using both synthetic foggy data and real foggy sequences from SDIRF to demonstrate the superiority of the proposed algorithm over prior methods. Our method not only produces the most accurate estimates on synthetic data, but also adapts better to real fog. We make our code and SDIRF publicly available\\footnote{https://github.com/SenseRoboticsLab/estimating-fog-parameters} to the community with the aim of advancing the research on visual perception in fog.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.20865v1",
+      "journal_ref": null,
+      "doi": "10.1109/TPAMI.2025.3626275",
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.20865v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.20865v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.20865v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        },
+        {
+          "href": "https://doi.org/10.1109/TPAMI.2025.3626275",
+          "title": "doi",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2511.20853": {
+      "title": "MODEST: Multi-Optics Depth-of-Field Stereo Dataset",
+      "authors": [
+        "Nisarg K. Trivedi",
+        "Vinayak A. Belludi",
+        "Li-Yun Wang",
+        "Pardis Taghavi",
+        "Dante Lok"
+      ],
+      "published": "2025-11-25T20:59:47+00:00",
+      "updated": "2025-11-25T20:59:47+00:00",
+      "summary": "Reliable depth estimation under real optical conditions remains a core challenge for camera vision in systems such as autonomous robotics and augmented reality. Despite recent progress in depth estimation and depth-of-field rendering, research remains constrained by the lack of large-scale, high-fidelity, real stereo DSLR datasets, limiting real-world generalization and evaluation of models trained on synthetic data as shown extensively in literature. We present the first high-resolution (5472$\\times$3648px) stereo DSLR dataset with 18000 images, systematically varying focal length and aperture across complex real scenes and capturing the optical realism and complexity of professional camera systems. For 9 scenes with varying scene complexity, lighting and background, images are captured with two identical camera assemblies at 10 focal lengths (28-70mm) and 5 apertures (f/2.8-f/22), spanning 50 optical configurations in 2000 images per scene. This full-range optics coverage enables controlled analysis of geometric and optical effects for monocular and stereo depth estimation, shallow depth-of-field rendering, deblurring, 3D scene reconstruction and novel view synthesis. Each focal configuration has a dedicated calibration image set, supporting evaluation of classical and learning based methods for intrinsic and extrinsic calibration. The dataset features challenging visual elements such as multi-scale optical illusions, reflective surfaces, mirrors, transparent glass walls, fine-grained details, and natural / artificial ambient light variations. This work attempts to bridge the realism gap between synthetic training data and real camera optics, and demonstrates challenges with the current state-of-the-art monocular, stereo depth and depth-of-field methods. We release the dataset, calibration files, and evaluation code to support reproducible research on real-world optical generalization.",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG",
+        "eess.IV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.20853v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.20853v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.20853v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.20853v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2511.20646": {
       "title": "3D-Aware Multi-Task Learning with Cross-View Correlations for Dense Scene Understanding",
       "authors": [
@@ -85611,36 +85876,36 @@
       "title": "SKEL-CF: Coarse-to-Fine Biomechanical Skeleton and Surface Mesh Recovery",
       "authors": [
         "Da Li",
-        "Ji-Ping Jin",
+        "Jiping Jin",
         "Xuanlong Yu",
         "Wei Liu",
         "Xiaodong Cun",
         "Kai Chen",
         "Rui Fan",
         "Jiangang Kong",
-        "Shen Xi"
+        "Xi Shen"
       ],
       "published": "2025-11-25T10:33:17+00:00",
-      "updated": "2025-11-25T10:33:17+00:00",
+      "updated": "2025-11-26T13:56:04+00:00",
       "summary": "Parametric 3D human models such as SMPL have driven significant advances in human pose and shape estimation, yet their simplified kinematics limit biomechanical realism. The recently proposed SKEL model addresses this limitation by re-rigging SMPL with an anatomically accurate skeleton. However, estimating SKEL parameters directly remains challenging due to limited training data, perspective ambiguities, and the inherent complexity of human articulation. We introduce SKEL-CF, a coarse-to-fine framework for SKEL parameter estimation. SKEL-CF employs a transformer-based encoder-decoder architecture, where the encoder predicts coarse camera and SKEL parameters, and the decoder progressively refines them in successive layers. To ensure anatomically consistent supervision, we convert the existing SMPL-based dataset 4DHuman into a SKEL-aligned version, 4DHuman-SKEL, providing high-quality training data for SKEL estimation. In addition, to mitigate depth and scale ambiguities, we explicitly incorporate camera modeling into the SKEL-CF pipeline and demonstrate its importance across diverse viewpoints. Extensive experiments validate the effectiveness of the proposed design. On the challenging MOYO dataset, SKEL-CF achieves 85.0 MPJPE / 51.4 PA-MPJPE, significantly outperforming the previous SKEL-based state-of-the-art HSMR (104.5 / 79.6). These results establish SKEL-CF as a scalable and anatomically faithful framework for human motion analysis, bridging the gap between computer vision and biomechanics. Our implementation is available on the project page: https://pokerman8.github.io/SKEL-CF/.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2511.20157v1",
+      "pdf_url": "https://arxiv.org/pdf/2511.20157v2",
       "journal_ref": null,
       "doi": null,
-      "comment": "15 pages, 10 figures",
-      "entry_id": "http://arxiv.org/abs/2511.20157v1",
+      "comment": "Project page: https://pokerman8.github.io/SKEL-CF/",
+      "entry_id": "http://arxiv.org/abs/2511.20157v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2511.20157v1",
+          "href": "https://arxiv.org/abs/2511.20157v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2511.20157v1",
+          "href": "https://arxiv.org/pdf/2511.20157v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
