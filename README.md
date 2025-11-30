@@ -1,4 +1,4 @@
-## Updated at 2025-11-30 08:20:33
+## Updated at 2025-11-30 10:43:01
 
 ## 3DGS Semantic
 
@@ -11,8 +11,8 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2025-11-23**|**[SegSplat: Feed-forward Gaussian Splatting and Open-Set Semantic Segmentation](https://arxiv.org/abs/2511.18386)**|N/A|None|cs.CV|None|Peter Siegel et al.|
 |**2025-11-22**|**[CUS-GS: A Compact Unified Structured Gaussian Splatting Framework for Multimodal Scene Representation](https://arxiv.org/abs/2511.17904)**|N/A|15 pages, 8 figures, 4 tables|cs.CV|None|Yuhang Ming et al.|
 |**2025-11-20**|**[LEGO-SLAM: Language-Embedded Gaussian Optimization SLAM](https://arxiv.org/abs/2511.16144)**|N/A|18 pages|cs.CV|None|Sibaek Lee et al.|
-|**2025-11-06**|**[CaRF: Enhancing Multi-View Consistency in Referring 3D Gaussian Splatting Segmentation](https://arxiv.org/abs/2511.03992)**|N/A|None|cs.CV|None|Yuwen Tao et al.|
-|**2025-11-04**|**[PercHead: Perceptual Head Model for Single-Image 3D Head Reconstruction & Editing](https://arxiv.org/abs/2511.02777)**|N/A|Project Page: https://antoniooroz.github.io/PercHead/ Video: https://www.youtube.com/watch?v=4hFybgTk4kE|cs.CV|None|Antonio Oroz et al.|
+|**2025-11-06**|**[CaRF: Enhancing Multi-View Consistency in Referring 3D Gaussian Splatting Segmentation](https://arxiv.org/abs/2511.03992)**|arXiv.org|None|cs.CV|None|Yuwen Tao et al.|
+|**2025-11-04**|**[PercHead: Perceptual Head Model for Single-Image 3D Head Reconstruction & Editing](https://arxiv.org/abs/2511.02777)**|arXiv.org|Project Page: https://antoniooroz.github.io/PercHead/ Video: https://www.youtube.com/watch?v=4hFybgTk4kE|cs.CV|None|Antonio Oroz et al.|
 |**2025-10-30**|**[AgriGS-SLAM: Orchard Mapping Across Seasons via Multi-View Gaussian Splatting SLAM](https://arxiv.org/abs/2510.26358)**|arXiv.org|None|cs.RO|None|Mirko Usuelli et al.|
 |**2025-10-30**|**[Model Inversion with Layer-Specific Modeling and Alignment for Data-Free Continual Learning](https://arxiv.org/abs/2510.26311)**|arXiv.org|Accepted in NeurIPS 2025|cs.LG|None|Ruilin Tong et al.|
 |**2025-10-30**|**[Test-Time Alignment of LLMs via Sampling-Based Optimal Control in pre-logit space](https://arxiv.org/abs/2510.26219)**|arXiv.org|21 pages, 8 figures|cs.LG|None|Sekitoshi Kanai et al.|
