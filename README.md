@@ -1,4 +1,4 @@
-## Updated at 2025-12-01 08:22:25
+## Updated at 2025-12-01 20:08:29
 
 ## 3DGS Semantic
 
@@ -169,6 +169,14 @@ Query: (abs:'Multi-View Stereo' OR abs:'Multi View Stereo' OR abs:'Multi-View De
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-11-28**|**[GOATex: Geometry & Occlusion-Aware Texturing](https://arxiv.org/abs/2511.23051)**|N/A|Accepted to NeurIPS 2025; Project Page: https://goatex3d.github.io/|cs.CV|None|Hyunjin Kim et al.|
+|**2025-11-28**|**[Geometry-Consistent 4D Gaussian Splatting for Sparse-Input Dynamic View Synthesis](https://arxiv.org/abs/2511.23044)**|N/A|None|cs.CV|None|Yiwei Li et al.|
+|**2025-11-28**|**[MrGS: Multi-modal Radiance Fields with 3D Gaussian Splatting for RGB-Thermal Novel View Synthesis](https://arxiv.org/abs/2511.22997)**|N/A|Accepted at Thermal Infrared in Robotics (TIRO) Workshop, ICRA 2025 (Best Poster Award)|cs.CV|None|Minseong Kweon et al.|
+|**2025-11-27**|**[Splat-SAP: Feed-Forward Gaussian Splatting for Human-Centered Scene with Scale-Aware Point Map Reconstruction](https://arxiv.org/abs/2511.22704)**|N/A|Accepted by AAAI 2026. Project page: https://yaourtb.github.io/Splat-SAP|cs.CV|None|Boyao Zhou et al.|
+|**2025-11-27**|**[Gaussians on Fire: High-Frequency Reconstruction of Flames](https://arxiv.org/abs/2511.22459)**|N/A|18 pages, 9 figures|cs.CV|None|Jakob Nazarenus et al.|
+|**2025-11-27**|**[Fin3R: Fine-tuning Feed-forward 3D Reconstruction Models via Monocular Knowledge Distillation](https://arxiv.org/abs/2511.22429)**|N/A|NeurIPS 2025|cs.CV|None|Weining Ren et al.|
+|**2025-11-27**|**[IE-SRGS: An Internal-External Knowledge Fusion Framework for High-Fidelity 3D Gaussian Splatting Super-Resolution](https://arxiv.org/abs/2511.22233)**|N/A|AAAI 2026|cs.CV|None|Xiang Feng et al.|
+|**2025-11-26**|**[AmodalGen3D: Generative Amodal 3D Object Reconstruction from Sparse Unposed Views](https://arxiv.org/abs/2511.21945)**|N/A|18 pages, 14 figures|cs.CV|None|Junwei Zhou, Yu-Wing Tai|
 |**2025-11-26**|**[UAVLight: A Benchmark for Illumination-Robust 3D Reconstruction in Unmanned Aerial Vehicle (UAV) Scenes](https://arxiv.org/abs/2511.21565)**|N/A|10 pages, 6 figures|cs.CV|None|Kang Du et al.|
 |**2025-11-26**|**[HTTM: Head-wise Temporal Token Merging for Faster VGGT](https://arxiv.org/abs/2511.21317)**|N/A|None|cs.CV|None|Weitian Wang et al.|
 |**2025-11-25**|**[MODEST: Multi-Optics Depth-of-Field Stereo Dataset](https://arxiv.org/abs/2511.20853)**|N/A|None|cs.CV|None|Nisarg K. Trivedi et al.|
@@ -603,6 +611,11 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-11-28**|**[Geometry-Consistent 4D Gaussian Splatting for Sparse-Input Dynamic View Synthesis](https://arxiv.org/abs/2511.23044)**|N/A|None|cs.CV|None|Yiwei Li et al.|
+|**2025-11-28**|**[MARVO: Marine-Adaptive Radiance-aware Visual Odometry](https://arxiv.org/abs/2511.22860)**|N/A|10 pages, 5 figures, 3 tables, Submitted to CVPR2026|cs.RO|None|Sacchin Sundar et al.|
+|**2025-11-27**|**[Emergent Extreme-View Geometry in 3D Foundation Models](https://arxiv.org/abs/2511.22686)**|N/A|Project page is at https://ext-3dfms.github.io/|cs.CV|None|Yiwen Zhang et al.|
+|**2025-11-27**|**[ColonAdapter: Geometry Estimation Through Foundation Model Adaptation for Colonoscopy](https://arxiv.org/abs/2511.22250)**|N/A|None|eess.IV|None|Zhiyi Jiang et al.|
+|**2025-11-27**|**[IE-SRGS: An Internal-External Knowledge Fusion Framework for High-Fidelity 3D Gaussian Splatting Super-Resolution](https://arxiv.org/abs/2511.22233)**|N/A|AAAI 2026|cs.CV|None|Xiang Feng et al.|
 |**2025-11-25**|**[Estimating Fog Parameters from a Sequence of Stereo Images](https://arxiv.org/abs/2511.20865)**|N/A|None|cs.CV|None|Yining Ding et al.|
 |**2025-11-25**|**[MODEST: Multi-Optics Depth-of-Field Stereo Dataset](https://arxiv.org/abs/2511.20853)**|N/A|None|cs.CV|None|Nisarg K. Trivedi et al.|
 |**2025-11-25**|**[3D-Aware Multi-Task Learning with Cross-View Correlations for Dense Scene Understanding](https://arxiv.org/abs/2511.20646)**|N/A|3D-aware Multi-task Learning, Cross-view Correlations, Code will be available at https://github.com/WeiHongLee/CrossView3DMTL|cs.CV|None|Xiaoye Wang et al.|

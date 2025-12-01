@@ -1,5 +1,266 @@
 {
   "3DGS Semantic": {
+    "2511.23389": {
+      "title": "Multipartite entanglement features of primordial non-gaussianities",
+      "authors": [
+        "Alessio Belfiglio",
+        "Roberto Franzosi",
+        "Orlando Luongo"
+      ],
+      "published": "2025-11-28T17:31:19+00:00",
+      "updated": "2025-11-28T17:31:19+00:00",
+      "summary": "We discuss some entanglement features associated with cubic non-Gaussian perturbations in single-field inflationary scenarios. We adopt standard momentum-space techniques to show how multipartite entanglement arises for inflationary perturbation modes, focusing on the dynamics of the comoving curvature perturbation. In particular, we quantify entanglement generation via the recently proposed Entanglement Distance, which introduces a geometric interpretation of quantum correlations in terms of the Fubini-Study metric. In the continuum limit, we show that the Entanglement Distance arising from displacement transformations is proportional to the total number of excitations in the quantum state for cubic perturbations, thus providing an upper bound on the von Neumann entanglement entropy of any reduced state compatible with such excitations. Within the interaction picture, we further observe that the quantum correlations arising from cubic gravitational interactions are typically much larger than the standard squeezing contribution, in agreement with previous studies focusing on von Neumann entropy generation across the Hubble horizon. We further show how the inflationary parameters affect the total amount of such correlations, highlighting in particular their dependence on the inflationary energy scales and the number of e-foldings during slow-roll.",
+      "categories": [
+        "gr-qc",
+        "astro-ph.CO",
+        "hep-th",
+        "quant-ph"
+      ],
+      "primary_category": "gr-qc",
+      "pdf_url": "https://arxiv.org/pdf/2511.23389v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "8 pages, 1 table, 1 figure",
+      "entry_id": "http://arxiv.org/abs/2511.23389v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.23389v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.23389v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.22997": {
+      "title": "MrGS: Multi-modal Radiance Fields with 3D Gaussian Splatting for RGB-Thermal Novel View Synthesis",
+      "authors": [
+        "Minseong Kweon",
+        "Janghyun Kim",
+        "Ukcheol Shin",
+        "Jinsun Park"
+      ],
+      "published": "2025-11-28T09:01:36+00:00",
+      "updated": "2025-11-28T09:01:36+00:00",
+      "summary": "Recent advances in Neural Radiance Fields (NeRFs) and 3D Gaussian Splatting (3DGS) have achieved considerable performance in RGB scene reconstruction. However, multi-modal rendering that incorporates thermal infrared imagery remains largely underexplored. Existing approaches tend to neglect distinctive thermal characteristics, such as heat conduction and the Lambertian property. In this study, we introduce MrGS, a multi-modal radiance field based on 3DGS that simultaneously reconstructs both RGB and thermal 3D scenes. Specifically, MrGS derives RGB- and thermal-related information from a single appearance feature through orthogonal feature extraction and employs view-dependent or view-independent embedding strategies depending on the degree of Lambertian reflectance exhibited by each modality. Furthermore, we leverage two physics-based principles to effectively model thermal-domain phenomena. First, we integrate Fourier's law of heat conduction prior to alpha blending to model intensity interpolation caused by thermal conduction between neighboring Gaussians. Second, we apply the Stefan-Boltzmann law and the inverse-square law to formulate a depth-aware thermal radiation map that imposes additional geometric constraints on thermal rendering. Experimental results demonstrate that the proposed MrGS achieves high-fidelity RGB-T scene reconstruction while reducing the number of Gaussians.",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.22997v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted at Thermal Infrared in Robotics (TIRO) Workshop, ICRA 2025 (Best Poster Award)",
+      "entry_id": "http://arxiv.org/abs/2511.22997v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.22997v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.22997v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.22983": {
+      "title": "Convolutional Feature Noise Reduction for 2D Cardiac MR Image Segmentation",
+      "authors": [
+        "Hong Zheng",
+        "Nan Mu",
+        "Han Su",
+        "Lin Feng",
+        "Xiaoning Li"
+      ],
+      "published": "2025-11-28T08:44:50+00:00",
+      "updated": "2025-11-28T08:44:50+00:00",
+      "summary": "Noise reduction constitutes a crucial operation within Digital Signal Processing. Regrettably, it frequently remains neglected when dealing with the processing of convolutional features in segmentation networks. This oversight could trigger the butterfly effect, impairing the subsequent outcomes within the entire feature system. To complete this void, we consider convolutional features following Gaussian distributions as feature signal matrices and then present a simple and effective feature filter in this study. The proposed filter is fundamentally a low-amplitude pass filter primarily aimed at minimizing noise in feature signal inputs and is named Convolutional Feature Filter (CFF). We conducted experiments on two established 2D segmentation networks and two public cardiac MR image datasets to validate the effectiveness of the CFF, and the experimental findings demonstrated a decrease in noise within the feature signal matrices. To enable a numerical observation and analysis of this reduction, we developed a binarization equation to calculate the information entropy of feature signals.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.22983v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.22983v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.22983v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.22983v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.22968": {
+      "title": "Taming the Light: Illumination-Invariant Semantic 3DGS-SLAM",
+      "authors": [
+        "Shouhe Zhang",
+        "Dayong Ren",
+        "Sensen Song",
+        "Yurong Qian",
+        "Zhenhong Jia"
+      ],
+      "published": "2025-11-28T08:19:40+00:00",
+      "updated": "2025-11-28T08:19:40+00:00",
+      "summary": "Extreme exposure degrades both the 3D map reconstruction and semantic segmentation accuracy, which is particularly detrimental to tightly-coupled systems. To achieve illumination invariance, we propose a novel semantic SLAM framework with two designs. First, the Intrinsic Appearance Normalization (IAN) module proactively disentangles the scene's intrinsic properties, such as albedo, from transient lighting. By learning a standardized, illumination-invariant appearance model, it assigns a stable and consistent color representation to each Gaussian primitive. Second, the Dynamic Radiance Balancing Loss (DRB-Loss) reactively handles frames with extreme exposure. It activates only when an image's exposure is poor, operating directly on the radiance field to guide targeted optimization. This prevents error accumulation from extreme lighting without compromising performance under normal conditions. The synergy between IAN's proactive invariance and DRB-Loss's reactive correction endows our system with unprecedented robustness. Evaluations on public datasets demonstrate state-of-the-art performance in camera tracking, map quality, and semantic and geometric accuracy.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.22968v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.22968v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.22968v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.22968v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.22851": {
+      "title": "The Shear-to-Cosmology Paradigm I: Hybrid Field-Level and Simulation-Based Framework for Weak Lensing Surveys",
+      "authors": [
+        "Jiacheng Ding",
+        "Chen Su",
+        "Ji Yao",
+        "Le Zhang",
+        "Huanyuan Shan"
+      ],
+      "published": "2025-11-28T03:09:48+00:00",
+      "updated": "2025-11-28T03:09:48+00:00",
+      "summary": "Precise cosmological inference from next-generation weak lensing surveys requires extracting non-Gaussian information beyond standard two-point statistics. We present a hybrid machine-learning (ML) framework that integrates field-level inference (FLI) with simulation-based inference (SBI) to map observed shear fields directly to cosmological parameters, eliminating the need for convergence reconstruction. The FLI network extracts rich non-Gaussian information from the shear field to produce informative features, which are then used by SBI to model the resulting complex posteriors. To mitigate noise from intrinsic galaxy shapes, we develop a blind, training-free, PCA-based shear denoising method. Tests on CSST-like mock catalogs reveal significant performance gains. The shear-based inference achieves approximately twice the cosmological constraining power in Figure of Merit (FoM) compared to the conventional convergence-based approach. Moreover, the combination of PCA denoising and ML compression can deliver a 36.4% improvement in FoM over standard shear two-point statistics. This work establishes a scalable and robust pathway for cosmological inference, unlocking the full potential of Stage-IV weak-lensing surveys.",
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "primary_category": "astro-ph.CO",
+      "pdf_url": "https://arxiv.org/pdf/2511.22851v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "15 pages, 11 figures",
+      "entry_id": "http://arxiv.org/abs/2511.22851v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.22851v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.22851v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.22459": {
+      "title": "Gaussians on Fire: High-Frequency Reconstruction of Flames",
+      "authors": [
+        "Jakob Nazarenus",
+        "Dominik Michels",
+        "Wojtek Palubicki",
+        "Simin Kou",
+        "Fang-Lue Zhang",
+        "Soren Pirk",
+        "Reinhard Koch"
+      ],
+      "published": "2025-11-27T13:48:27+00:00",
+      "updated": "2025-11-27T13:48:27+00:00",
+      "summary": "We propose a method to reconstruct dynamic fire in 3D from a limited set of camera views with a Gaussian-based spatiotemporal representation. Capturing and reconstructing fire and its dynamics is highly challenging due to its volatile nature, transparent quality, and multitude of high-frequency features. Despite these challenges, we aim to reconstruct fire from only three views, which consequently requires solving for under-constrained geometry. We solve this by separating the static background from the dynamic fire region by combining dense multi-view stereo images with monocular depth priors. The fire is initialized as a 3D flow field, obtained by fusing per-view dense optical flow projections. To capture the high frequency features of fire, each 3D Gaussian encodes a lifetime and linear velocity to match the dense optical flow. To ensure sub-frame temporal alignment across cameras we employ a custom hardware synchronization pattern -- allowing us to reconstruct fire with affordable commodity hardware. Our quantitative and qualitative validations across numerous reconstruction experiments demonstrate robust performance for diverse and challenging real fire scenarios.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.22459v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "18 pages, 9 figures",
+      "entry_id": "http://arxiv.org/abs/2511.22459v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.22459v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.22459v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.22019": {
+      "title": "Intra-Class Probabilistic Embeddings for Uncertainty Estimation in Vision-Language Models",
+      "authors": [
+        "Zhenxiang Lin",
+        "Maryam Haghighat",
+        "Will Browne",
+        "Dimity Miller"
+      ],
+      "published": "2025-11-27T01:48:27+00:00",
+      "updated": "2025-11-27T01:48:27+00:00",
+      "summary": "Vision-language models (VLMs), such as CLIP, have gained popularity for their strong open vocabulary classification performance, but they are prone to assigning high confidence scores to misclassifications, limiting their reliability in safety-critical applications. We introduce a training-free, post-hoc uncertainty estimation method for contrastive VLMs that can be used to detect erroneous predictions. The key to our approach is to measure visual feature consistency within a class, using feature projection combined with multivariate Gaussians to create class-specific probabilistic embeddings. Our method is VLM-agnostic, requires no fine-tuning, demonstrates robustness to distribution shift, and works effectively with as few as 10 training images per class. Extensive experiments on ImageNet, Flowers102, Food101, EuroSAT and DTD show state-of-the-art error detection performance, significantly outperforming both deterministic and probabilistic VLM baselines. Code is available at https://github.com/zhenxianglin/ICPE.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.22019v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.22019v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.22019v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.22019v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2511.21670": {
       "title": "Intensity doubling for Brownian loop-soups in high dimensions",
       "authors": [
@@ -73,33 +334,33 @@
     "2511.20348": {
       "title": "Material-informed Gaussian Splatting for 3D World Reconstruction in a Digital Twin",
       "authors": [
-        "João Malheiro Silva",
         "Andy Huynh",
-        "Tong Duy Son",
-        "Holger Caesar"
+        "João Malheiro Silva",
+        "Holger Caesar",
+        "Tong Duy Son"
       ],
       "published": "2025-11-25T14:25:19+00:00",
-      "updated": "2025-11-25T14:25:19+00:00",
+      "updated": "2025-11-28T16:12:54+00:00",
       "summary": "3D reconstruction for Digital Twins often relies on LiDAR-based methods, which provide accurate geometry but lack the semantics and textures naturally captured by cameras. Traditional LiDAR-camera fusion approaches require complex calibration and still struggle with certain materials like glass, which are visible in images but poorly represented in point clouds. We propose a camera-only pipeline that reconstructs scenes using 3D Gaussian Splatting from multi-view images, extracts semantic material masks via vision models, converts Gaussian representations to mesh surfaces with projected material labels, and assigns physics-based material properties for accurate sensor simulation in modern graphics engines and simulators. This approach combines photorealistic reconstruction with physics-based material assignment, providing sensor simulation fidelity comparable to LiDAR-camera fusion while eliminating hardware complexity and calibration requirements. We validate our camera-only method using an internal dataset from an instrumented test vehicle, leveraging LiDAR as ground truth for reflectivity validation alongside image similarity metrics.",
       "categories": [
         "cs.CV",
         "cs.RO"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2511.20348v1",
+      "pdf_url": "https://arxiv.org/pdf/2511.20348v2",
       "journal_ref": null,
       "doi": null,
-      "comment": "8 pages, 5 figures. Submitted to IEEE Intelligent Vehicles Symposium (IV) 2026 for possible publication",
-      "entry_id": "http://arxiv.org/abs/2511.20348v1",
+      "comment": "8 pages, 5 figures. Submitted to IEEE Intelligent Vehicles Symposium (IV) 2026 for possible publication. Revised version (v2) to correct author order",
+      "entry_id": "http://arxiv.org/abs/2511.20348v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2511.20348v1",
+          "href": "https://arxiv.org/abs/2511.20348v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2511.20348v1",
+          "href": "https://arxiv.org/pdf/2511.20348v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -2777,26 +3038,26 @@
         "Shuo Li"
       ],
       "published": "2025-11-10T08:57:06+00:00",
-      "updated": "2025-11-10T08:57:06+00:00",
-      "summary": "A simultaneous enhancement of accuracy and diversity of predictions remains a challenge in ambiguous medical image segmentation (AMIS) due to the inherent trade-offs. While truncated diffusion probabilistic models (TDPMs) hold strong potential with a paradigm optimization, existing TDPMs suffer from entangled accuracy and diversity of predictions with insufficient fidelity and plausibility. To address the aforementioned challenges, we propose Ambiguity-aware Truncated Flow Matching (ATFM), which introduces a novel inference paradigm and dedicated model components. Firstly, we propose Data-Hierarchical Inference, a redefinition of AMIS-specific inference paradigm, which enhances accuracy and diversity at data-distribution and data-sample level, respectively, for an effective disentanglement. Secondly, Gaussian Truncation Representation (GTR) is introduced to enhance both fidelity of predictions and reliability of truncation distribution, by explicitly modeling it as a Gaussian distribution at $T_{\\text{trunc}}$ instead of using sampling-based approximations.Thirdly, Segmentation Flow Matching (SFM) is proposed to enhance the plausibility of diverse predictions by extending semantic-aware flow transformation in Flow Matching (FM). Comprehensive evaluations on LIDC and ISIC3 datasets demonstrate that ATFM outperforms SOTA methods and simultaneously achieves a more efficient inference. ATFM improves GED and HM-IoU by up to $12\\%$ and $7.3\\%$ compared to advanced methods.",
+      "updated": "2025-11-27T02:58:34+00:00",
+      "summary": "A simultaneous enhancement of accuracy and diversity of predictions remains a challenge in ambiguous medical image segmentation (AMIS) due to the inherent trade-offs. While truncated diffusion probabilistic models (TDPMs) hold strong potential with a paradigm optimization, existing TDPMs suffer from entangled accuracy and diversity of predictions with insufficient fidelity and plausibility. To address the aforementioned challenges, we propose Ambiguity-aware Truncated Flow Matching (ATFM), which introduces a novel inference paradigm and dedicated model components. Firstly, we propose Data-Hierarchical Inference, a redefinition of AMIS-specific inference paradigm, which enhances accuracy and diversity at data-distribution and data-sample level, respectively, for an effective disentanglement. Secondly, Gaussian Truncation Representation (GTR) is introduced to enhance both fidelity of predictions and reliability of truncation distribution, by explicitly modeling it as a Gaussian distribution at $T_{\\text{trunc}}$ instead of using sampling-based approximations. Thirdly, Segmentation Flow Matching (SFM) is proposed to enhance the plausibility of diverse predictions by extending semantic-aware flow transformation in Flow Matching (FM). Comprehensive evaluations on LIDC and ISIC3 datasets demonstrate that ATFM outperforms SOTA methods and simultaneously achieves a more efficient inference. ATFM improves GED and HM-IoU by up to $12\\%$ and $7.3\\%$ compared to advanced methods.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2511.06857v1",
+      "pdf_url": "https://arxiv.org/pdf/2511.06857v2",
       "journal_ref": null,
       "doi": null,
       "comment": "13 pages, 10 figures, extended version of AAAI-26 paper",
-      "entry_id": "http://arxiv.org/abs/2511.06857v1",
+      "entry_id": "http://arxiv.org/abs/2511.06857v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2511.06857v1",
+          "href": "https://arxiv.org/abs/2511.06857v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2511.06857v1",
+          "href": "https://arxiv.org/pdf/2511.06857v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -69818,6 +70079,299 @@
     }
   },
   "MVS": {
+    "2511.23051": {
+      "title": "GOATex: Geometry & Occlusion-Aware Texturing",
+      "authors": [
+        "Hyunjin Kim",
+        "Kunho Kim",
+        "Adam Lee",
+        "Wonkwang Lee"
+      ],
+      "published": "2025-11-28T10:23:00+00:00",
+      "updated": "2025-11-28T10:23:00+00:00",
+      "summary": "We present GOATex, a diffusion-based method for 3D mesh texturing that generates high-quality textures for both exterior and interior surfaces. While existing methods perform well on visible regions, they inherently lack mechanisms to handle occluded interiors, resulting in incomplete textures and visible seams. To address this, we introduce an occlusion-aware texturing framework based on the concept of hit levels, which quantify the relative depth of mesh faces via multi-view ray casting. This allows us to partition mesh faces into ordered visibility layers, from outermost to innermost. We then apply a two-stage visibility control strategy that progressively reveals interior regions with structural coherence, followed by texturing each layer using a pretrained diffusion model. To seamlessly merge textures obtained across layers, we propose a soft UV-space blending technique that weighs each texture's contribution based on view-dependent visibility confidence. Empirical results demonstrate that GOATex consistently outperforms existing methods, producing seamless, high-fidelity textures across both visible and occluded surfaces. Unlike prior works, GOATex operates entirely without costly fine-tuning of a pretrained diffusion model and allows separate prompting for exterior and interior mesh regions, enabling fine-grained control over layered appearances. For more qualitative results, please visit our project page: https://goatex3d.github.io/.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.23051v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted to NeurIPS 2025; Project Page: https://goatex3d.github.io/",
+      "entry_id": "http://arxiv.org/abs/2511.23051v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.23051v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.23051v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2511.23044": {
+      "title": "Geometry-Consistent 4D Gaussian Splatting for Sparse-Input Dynamic View Synthesis",
+      "authors": [
+        "Yiwei Li",
+        "Jiannong Cao",
+        "Penghui Ruan",
+        "Divya Saxena",
+        "Songye Zhu",
+        "Yinfeng Cao"
+      ],
+      "published": "2025-11-28T10:11:48+00:00",
+      "updated": "2025-11-28T10:11:48+00:00",
+      "summary": "Gaussian Splatting has been considered as a novel way for view synthesis of dynamic scenes, which shows great potential in AIoT applications such as digital twins. However, recent dynamic Gaussian Splatting methods significantly degrade when only sparse input views are available, limiting their applicability in practice. The issue arises from the incoherent learning of 4D geometry as input views decrease. This paper presents GC-4DGS, a novel framework that infuses geometric consistency into 4D Gaussian Splatting (4DGS), offering real-time and high-quality dynamic scene rendering from sparse input views. While learning-based Multi-View Stereo (MVS) and monocular depth estimators (MDEs) provide geometry priors, directly integrating these with 4DGS yields suboptimal results due to the ill-posed nature of sparse-input 4D geometric optimization. To address these problems, we introduce a dynamic consistency checking strategy to reduce estimation uncertainties of MVS across spacetime. Furthermore, we propose a global-local depth regularization approach to distill spatiotemporal-consistent geometric information from monocular depths, thereby enhancing the coherent geometry and appearance learning within the 4D volume. Extensive experiments on the popular N3DV and Technicolor datasets validate the effectiveness of GC-4DGS in rendering quality without sacrificing efficiency. Notably, our method outperforms RF-DeRF, the latest dynamic radiance field tailored for sparse-input dynamic view synthesis, and the original 4DGS by 2.62dB and 1.58dB in PSNR, respectively, with seamless deployability on resource-constrained IoT edge devices.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.23044v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.23044v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.23044v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.23044v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2511.22997": {
+      "title": "MrGS: Multi-modal Radiance Fields with 3D Gaussian Splatting for RGB-Thermal Novel View Synthesis",
+      "authors": [
+        "Minseong Kweon",
+        "Janghyun Kim",
+        "Ukcheol Shin",
+        "Jinsun Park"
+      ],
+      "published": "2025-11-28T09:01:36+00:00",
+      "updated": "2025-11-28T09:01:36+00:00",
+      "summary": "Recent advances in Neural Radiance Fields (NeRFs) and 3D Gaussian Splatting (3DGS) have achieved considerable performance in RGB scene reconstruction. However, multi-modal rendering that incorporates thermal infrared imagery remains largely underexplored. Existing approaches tend to neglect distinctive thermal characteristics, such as heat conduction and the Lambertian property. In this study, we introduce MrGS, a multi-modal radiance field based on 3DGS that simultaneously reconstructs both RGB and thermal 3D scenes. Specifically, MrGS derives RGB- and thermal-related information from a single appearance feature through orthogonal feature extraction and employs view-dependent or view-independent embedding strategies depending on the degree of Lambertian reflectance exhibited by each modality. Furthermore, we leverage two physics-based principles to effectively model thermal-domain phenomena. First, we integrate Fourier's law of heat conduction prior to alpha blending to model intensity interpolation caused by thermal conduction between neighboring Gaussians. Second, we apply the Stefan-Boltzmann law and the inverse-square law to formulate a depth-aware thermal radiation map that imposes additional geometric constraints on thermal rendering. Experimental results demonstrate that the proposed MrGS achieves high-fidelity RGB-T scene reconstruction while reducing the number of Gaussians.",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.22997v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted at Thermal Infrared in Robotics (TIRO) Workshop, ICRA 2025 (Best Poster Award)",
+      "entry_id": "http://arxiv.org/abs/2511.22997v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.22997v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.22997v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2511.22704": {
+      "title": "Splat-SAP: Feed-Forward Gaussian Splatting for Human-Centered Scene with Scale-Aware Point Map Reconstruction",
+      "authors": [
+        "Boyao Zhou",
+        "Shunyuan Zheng",
+        "Zhanfeng Liao",
+        "Zihan Ma",
+        "Hanzhang Tu",
+        "Boning Liu",
+        "Yebin Liu"
+      ],
+      "published": "2025-11-27T18:58:54+00:00",
+      "updated": "2025-11-27T18:58:54+00:00",
+      "summary": "We present Splat-SAP, a feed-forward approach to render novel views of human-centered scenes from binocular cameras with large sparsity. Gaussian Splatting has shown its promising potential in rendering tasks, but it typically necessitates per-scene optimization with dense input views. Although some recent approaches achieve feed-forward Gaussian Splatting rendering through geometry priors obtained by multi-view stereo, such approaches still require largely overlapped input views to establish the geometry prior. To bridge this gap, we leverage pixel-wise point map reconstruction to represent geometry which is robust to large sparsity for its independent view modeling. In general, we propose a two-stage learning strategy. In stage 1, we transform the point map into real space via an iterative affinity learning process, which facilitates camera control in the following. In stage 2, we project point maps of two input views onto the target view plane and refine such geometry via stereo matching. Furthermore, we anchor Gaussian primitives on this refined plane in order to render high-quality images. As a metric representation, the scale-aware point map in stage 1 is trained in a self-supervised manner without 3D supervision and stage 2 is supervised with photo-metric loss. We collect multi-view human-centered data and demonstrate that our method improves both the stability of point map reconstruction and the visual quality of free-viewpoint rendering.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.22704v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted by AAAI 2026. Project page: https://yaourtb.github.io/Splat-SAP",
+      "entry_id": "http://arxiv.org/abs/2511.22704v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.22704v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.22704v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2511.22459": {
+      "title": "Gaussians on Fire: High-Frequency Reconstruction of Flames",
+      "authors": [
+        "Jakob Nazarenus",
+        "Dominik Michels",
+        "Wojtek Palubicki",
+        "Simin Kou",
+        "Fang-Lue Zhang",
+        "Soren Pirk",
+        "Reinhard Koch"
+      ],
+      "published": "2025-11-27T13:48:27+00:00",
+      "updated": "2025-11-27T13:48:27+00:00",
+      "summary": "We propose a method to reconstruct dynamic fire in 3D from a limited set of camera views with a Gaussian-based spatiotemporal representation. Capturing and reconstructing fire and its dynamics is highly challenging due to its volatile nature, transparent quality, and multitude of high-frequency features. Despite these challenges, we aim to reconstruct fire from only three views, which consequently requires solving for under-constrained geometry. We solve this by separating the static background from the dynamic fire region by combining dense multi-view stereo images with monocular depth priors. The fire is initialized as a 3D flow field, obtained by fusing per-view dense optical flow projections. To capture the high frequency features of fire, each 3D Gaussian encodes a lifetime and linear velocity to match the dense optical flow. To ensure sub-frame temporal alignment across cameras we employ a custom hardware synchronization pattern -- allowing us to reconstruct fire with affordable commodity hardware. Our quantitative and qualitative validations across numerous reconstruction experiments demonstrate robust performance for diverse and challenging real fire scenarios.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.22459v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "18 pages, 9 figures",
+      "entry_id": "http://arxiv.org/abs/2511.22459v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.22459v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.22459v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2511.22429": {
+      "title": "Fin3R: Fine-tuning Feed-forward 3D Reconstruction Models via Monocular Knowledge Distillation",
+      "authors": [
+        "Weining Ren",
+        "Hongjun Wang",
+        "Xiao Tan",
+        "Kai Han"
+      ],
+      "published": "2025-11-27T13:10:19+00:00",
+      "updated": "2025-11-27T13:10:19+00:00",
+      "summary": "We present Fin3R, a simple, effective, and general fine-tuning method for feed-forward 3D reconstruction models. The family of feed-forward reconstruction model regresses pointmap of all input images to a reference frame coordinate system, along with other auxiliary outputs, in a single forward pass. However, we find that current models struggle with fine geometry and robustness due to (\\textit{i}) the scarcity of high-fidelity depth and pose supervision and (\\textit{ii}) the inherent geometric misalignment from multi-view pointmap regression. Fin3R jointly tackles two issues with an extra lightweight fine-tuning step. We freeze the decoder, which handles view matching, and fine-tune only the image encoder-the component dedicated to feature extraction. The encoder is enriched with fine geometric details distilled from a strong monocular teacher model on large, unlabeled datasets, using a custom, lightweight LoRA adapter. We validate our method on a wide range of models, including DUSt3R, MASt3R, CUT3R, and VGGT. The fine-tuned models consistently deliver sharper boundaries, recover complex structures, and achieve higher geometric accuracy in both single- and multi-view settings, while adding only the tiny LoRA weights, which leave test-time memory and latency virtually unchanged. Project page: \\href{http://visual-ai.github.io/fin3r}{https://visual-ai.github.io/fin3r}",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.22429v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "NeurIPS 2025",
+      "entry_id": "http://arxiv.org/abs/2511.22429v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.22429v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.22429v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2511.22233": {
+      "title": "IE-SRGS: An Internal-External Knowledge Fusion Framework for High-Fidelity 3D Gaussian Splatting Super-Resolution",
+      "authors": [
+        "Xiang Feng",
+        "Tieshi Zhong",
+        "Shuo Chang",
+        "Weiliu Wang",
+        "Chengkai Wang",
+        "Yifei Chen",
+        "Yuhe Wang",
+        "Zhenzhong Kuang",
+        "Xuefei Yin",
+        "Yanming Zhu"
+      ],
+      "published": "2025-11-27T08:57:42+00:00",
+      "updated": "2025-11-27T08:57:42+00:00",
+      "summary": "Reconstructing high-resolution (HR) 3D Gaussian Splatting (3DGS) models from low-resolution (LR) inputs remains challenging due to the lack of fine-grained textures and geometry. Existing methods typically rely on pre-trained 2D super-resolution (2DSR) models to enhance textures, but suffer from 3D Gaussian ambiguity arising from cross-view inconsistencies and domain gaps inherent in 2DSR models. We propose IE-SRGS, a novel 3DGS SR paradigm that addresses this issue by jointly leveraging the complementary strengths of external 2DSR priors and internal 3DGS features. Specifically, we use 2DSR and depth estimation models to generate HR images and depth maps as external knowledge, and employ multi-scale 3DGS models to produce cross-view consistent, domain-adaptive counterparts as internal knowledge. A mask-guided fusion strategy is introduced to integrate these two sources and synergistically exploit their complementary strengths, effectively guiding the 3D Gaussian optimization toward high-fidelity reconstruction. Extensive experiments on both synthetic and real-world benchmarks show that IE-SRGS consistently outperforms state-of-the-art methods in both quantitative accuracy and visual fidelity.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.22233v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "AAAI 2026",
+      "entry_id": "http://arxiv.org/abs/2511.22233v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.22233v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.22233v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2511.21945": {
+      "title": "AmodalGen3D: Generative Amodal 3D Object Reconstruction from Sparse Unposed Views",
+      "authors": [
+        "Junwei Zhou",
+        "Yu-Wing Tai"
+      ],
+      "published": "2025-11-26T22:11:56+00:00",
+      "updated": "2025-11-26T22:11:56+00:00",
+      "summary": "Reconstructing 3D objects from a few unposed and partially occluded views is a common yet challenging problem in real-world scenarios, where many object surfaces are never directly observed. Traditional multi-view or inpainting-based approaches struggle under such conditions, often yielding incomplete or geometrically inconsistent reconstructions. We introduce AmodalGen3D, a generative framework for amodal 3D object reconstruction that infers complete, occlusion-free geometry and appearance from arbitrary sparse inputs. The model integrates 2D amodal completion priors with multi-view stereo geometry conditioning, supported by a View-Wise Cross Attention mechanism for sparse-view feature fusion and a Stereo-Conditioned Cross Attention module for unobserved structure inference. By jointly modeling visible and hidden regions, AmodalGen3D faithfully reconstructs 3D objects that are consistent with sparse-view constraints while plausibly hallucinating unseen parts. Experiments on both synthetic and real-world datasets demonstrate that AmodalGen3D achieves superior fidelity and completeness under occlusion-heavy sparse-view settings, addressing a pressing need for object-level 3D scene reconstruction in robotics, AR/VR, and embodied AI applications.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.21945v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "18 pages, 14 figures",
+      "entry_id": "http://arxiv.org/abs/2511.21945v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.21945v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.21945v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2511.21565": {
       "title": "UAVLight: A Benchmark for Illumination-Robust 3D Reconstruction in Unmanned Aerial Vehicle (UAV) Scenes",
       "authors": [
@@ -85722,6 +86276,200 @@
     }
   },
   "Depth Estimation": {
+    "2511.23044": {
+      "title": "Geometry-Consistent 4D Gaussian Splatting for Sparse-Input Dynamic View Synthesis",
+      "authors": [
+        "Yiwei Li",
+        "Jiannong Cao",
+        "Penghui Ruan",
+        "Divya Saxena",
+        "Songye Zhu",
+        "Yinfeng Cao"
+      ],
+      "published": "2025-11-28T10:11:48+00:00",
+      "updated": "2025-11-28T10:11:48+00:00",
+      "summary": "Gaussian Splatting has been considered as a novel way for view synthesis of dynamic scenes, which shows great potential in AIoT applications such as digital twins. However, recent dynamic Gaussian Splatting methods significantly degrade when only sparse input views are available, limiting their applicability in practice. The issue arises from the incoherent learning of 4D geometry as input views decrease. This paper presents GC-4DGS, a novel framework that infuses geometric consistency into 4D Gaussian Splatting (4DGS), offering real-time and high-quality dynamic scene rendering from sparse input views. While learning-based Multi-View Stereo (MVS) and monocular depth estimators (MDEs) provide geometry priors, directly integrating these with 4DGS yields suboptimal results due to the ill-posed nature of sparse-input 4D geometric optimization. To address these problems, we introduce a dynamic consistency checking strategy to reduce estimation uncertainties of MVS across spacetime. Furthermore, we propose a global-local depth regularization approach to distill spatiotemporal-consistent geometric information from monocular depths, thereby enhancing the coherent geometry and appearance learning within the 4D volume. Extensive experiments on the popular N3DV and Technicolor datasets validate the effectiveness of GC-4DGS in rendering quality without sacrificing efficiency. Notably, our method outperforms RF-DeRF, the latest dynamic radiance field tailored for sparse-input dynamic view synthesis, and the original 4DGS by 2.62dB and 1.58dB in PSNR, respectively, with seamless deployability on resource-constrained IoT edge devices.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.23044v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.23044v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.23044v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.23044v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2511.22860": {
+      "title": "MARVO: Marine-Adaptive Radiance-aware Visual Odometry",
+      "authors": [
+        "Sacchin Sundar",
+        "Atman Kikani",
+        "Aaliya Alam",
+        "Sumukh Shrote",
+        "A. Nayeemulla Khan",
+        "A. Shahina"
+      ],
+      "published": "2025-11-28T03:31:40+00:00",
+      "updated": "2025-11-28T03:31:40+00:00",
+      "summary": "Underwater visual localization remains challenging due to wavelength-dependent attenuation, poor texture, and non-Gaussian sensor noise. We introduce MARVO, a physics-aware, learning-integrated odometry framework that fuses underwater image formation modeling, differentiable matching, and reinforcement-learning optimization. At the front-end, we extend transformer-based feature matcher with a Physics Aware Radiance Adapter that compensates for color channel attenuation and contrast loss, yielding geometrically consistent feature correspondences under turbidity. These semi dense matches are combined with inertial and pressure measurements inside a factor-graph backend, where we formulate a keyframe-based visual-inertial-barometric estimator using GTSAM library. Each keyframe introduces (i) Pre-integrated IMU motion factors, (ii) MARVO-derived visual pose factors, and (iii) barometric depth priors, giving a full-state MAP estimate in real time. Lastly, we introduce a Reinforcement-Learningbased Pose-Graph Optimizer that refines global trajectories beyond local minima of classical least-squares solvers by learning optimal retraction actions on SE(2).",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2511.22860v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "10 pages, 5 figures, 3 tables, Submitted to CVPR2026",
+      "entry_id": "http://arxiv.org/abs/2511.22860v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.22860v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.22860v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2511.22686": {
+      "title": "Emergent Extreme-View Geometry in 3D Foundation Models",
+      "authors": [
+        "Yiwen Zhang",
+        "Joseph Tung",
+        "Ruojin Cai",
+        "David Fouhey",
+        "Hadar Averbuch-Elor"
+      ],
+      "published": "2025-11-27T18:40:03+00:00",
+      "updated": "2025-11-27T18:40:03+00:00",
+      "summary": "3D foundation models (3DFMs) have recently transformed 3D vision, enabling joint prediction of depths, poses, and point maps directly from images. Yet their ability to reason under extreme, non-overlapping views remains largely unexplored. In this work, we study their internal representations and find that 3DFMs exhibit an emergent understanding of extreme-view geometry, despite never being trained for such conditions. To further enhance these capabilities, we introduce a lightweight alignment scheme that refines their internal 3D representation by tuning only a small subset of backbone bias terms, leaving all decoder heads frozen. This targeted adaptation substantially improves relative pose estimation under extreme viewpoints without degrading per-image depth or point quality. Additionally, we contribute MegaUnScene, a new benchmark of Internet scenes unseen by existing 3DFMs, with dedicated test splits for both relative pose estimation and dense 3D reconstruction. All code and data will be released.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.22686v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Project page is at https://ext-3dfms.github.io/",
+      "entry_id": "http://arxiv.org/abs/2511.22686v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.22686v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.22686v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2511.22250": {
+      "title": "ColonAdapter: Geometry Estimation Through Foundation Model Adaptation for Colonoscopy",
+      "authors": [
+        "Zhiyi Jiang",
+        "Yifu Wang",
+        "Xuelian Cheng",
+        "Zongyuan Ge"
+      ],
+      "published": "2025-11-27T09:21:11+00:00",
+      "updated": "2025-11-27T09:21:11+00:00",
+      "summary": "Estimating 3D geometry from monocular colonoscopy images is challenging due to non-Lambertian surfaces, moving light sources, and large textureless regions. While recent 3D geometric foundation models eliminate the need for multi-stage pipelines, their performance deteriorates in clinical scenes. These models are primarily trained on natural scene datasets and struggle with specularity and homogeneous textures typical in colonoscopy, leading to inaccurate geometry estimation. In this paper, we present ColonAdapter, a self-supervised fine-tuning framework that adapts geometric foundation models for colonoscopy geometry estimation. Our method leverages pretrained geometric priors while tailoring them to clinical data. To improve performance in low-texture regions and ensure scale consistency, we introduce a Detail Restoration Module (DRM) and a geometry consistency loss. Furthermore, a confidence-weighted photometric loss enhances training stability in clinical environments. Experiments on both synthetic and real datasets demonstrate that our approach achieves state-of-the-art performance in camera pose estimation, monocular depth prediction, and dense 3D point map reconstruction, without requiring ground-truth intrinsic parameters.",
+      "categories": [
+        "eess.IV",
+        "cs.CV"
+      ],
+      "primary_category": "eess.IV",
+      "pdf_url": "https://arxiv.org/pdf/2511.22250v1",
+      "journal_ref": null,
+      "doi": "10.1109/LRA.2025.3623938",
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.22250v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.22250v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.22250v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        },
+        {
+          "href": "https://doi.org/10.1109/LRA.2025.3623938",
+          "title": "doi",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2511.22233": {
+      "title": "IE-SRGS: An Internal-External Knowledge Fusion Framework for High-Fidelity 3D Gaussian Splatting Super-Resolution",
+      "authors": [
+        "Xiang Feng",
+        "Tieshi Zhong",
+        "Shuo Chang",
+        "Weiliu Wang",
+        "Chengkai Wang",
+        "Yifei Chen",
+        "Yuhe Wang",
+        "Zhenzhong Kuang",
+        "Xuefei Yin",
+        "Yanming Zhu"
+      ],
+      "published": "2025-11-27T08:57:42+00:00",
+      "updated": "2025-11-27T08:57:42+00:00",
+      "summary": "Reconstructing high-resolution (HR) 3D Gaussian Splatting (3DGS) models from low-resolution (LR) inputs remains challenging due to the lack of fine-grained textures and geometry. Existing methods typically rely on pre-trained 2D super-resolution (2DSR) models to enhance textures, but suffer from 3D Gaussian ambiguity arising from cross-view inconsistencies and domain gaps inherent in 2DSR models. We propose IE-SRGS, a novel 3DGS SR paradigm that addresses this issue by jointly leveraging the complementary strengths of external 2DSR priors and internal 3DGS features. Specifically, we use 2DSR and depth estimation models to generate HR images and depth maps as external knowledge, and employ multi-scale 3DGS models to produce cross-view consistent, domain-adaptive counterparts as internal knowledge. A mask-guided fusion strategy is introduced to integrate these two sources and synergistically exploit their complementary strengths, effectively guiding the 3D Gaussian optimization toward high-fidelity reconstruction. Extensive experiments on both synthetic and real-world benchmarks show that IE-SRGS consistently outperforms state-of-the-art methods in both quantitative accuracy and visual fidelity.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.22233v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "AAAI 2026",
+      "entry_id": "http://arxiv.org/abs/2511.22233v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.22233v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.22233v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2511.20865": {
       "title": "Estimating Fog Parameters from a Sequence of Stereo Images",
       "authors": [
@@ -85884,26 +86632,26 @@
         "Xi Shen"
       ],
       "published": "2025-11-25T10:33:17+00:00",
-      "updated": "2025-11-26T13:56:04+00:00",
+      "updated": "2025-11-27T03:22:40+00:00",
       "summary": "Parametric 3D human models such as SMPL have driven significant advances in human pose and shape estimation, yet their simplified kinematics limit biomechanical realism. The recently proposed SKEL model addresses this limitation by re-rigging SMPL with an anatomically accurate skeleton. However, estimating SKEL parameters directly remains challenging due to limited training data, perspective ambiguities, and the inherent complexity of human articulation. We introduce SKEL-CF, a coarse-to-fine framework for SKEL parameter estimation. SKEL-CF employs a transformer-based encoder-decoder architecture, where the encoder predicts coarse camera and SKEL parameters, and the decoder progressively refines them in successive layers. To ensure anatomically consistent supervision, we convert the existing SMPL-based dataset 4DHuman into a SKEL-aligned version, 4DHuman-SKEL, providing high-quality training data for SKEL estimation. In addition, to mitigate depth and scale ambiguities, we explicitly incorporate camera modeling into the SKEL-CF pipeline and demonstrate its importance across diverse viewpoints. Extensive experiments validate the effectiveness of the proposed design. On the challenging MOYO dataset, SKEL-CF achieves 85.0 MPJPE / 51.4 PA-MPJPE, significantly outperforming the previous SKEL-based state-of-the-art HSMR (104.5 / 79.6). These results establish SKEL-CF as a scalable and anatomically faithful framework for human motion analysis, bridging the gap between computer vision and biomechanics. Our implementation is available on the project page: https://pokerman8.github.io/SKEL-CF/.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2511.20157v2",
+      "pdf_url": "https://arxiv.org/pdf/2511.20157v3",
       "journal_ref": null,
       "doi": null,
       "comment": "Project page: https://pokerman8.github.io/SKEL-CF/",
-      "entry_id": "http://arxiv.org/abs/2511.20157v2",
+      "entry_id": "http://arxiv.org/abs/2511.20157v3",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2511.20157v2",
+          "href": "https://arxiv.org/abs/2511.20157v3",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2511.20157v2",
+          "href": "https://arxiv.org/pdf/2511.20157v3",
           "title": "pdf",
           "rel": "related",
           "content_type": null
