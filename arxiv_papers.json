@@ -1,5 +1,544 @@
 {
   "3DGS Semantic": {
+    "2512.02013": {
+      "title": "ManualVLA: A Unified VLA Model for Chain-of-Thought Manual Generation and Robotic Manipulation",
+      "authors": [
+        "Chenyang Gu",
+        "Jiaming Liu",
+        "Hao Chen",
+        "Runzhong Huang",
+        "Qingpo Wuwu",
+        "Zhuoyang Liu",
+        "Xiaoqi Li",
+        "Ying Li",
+        "Renrui Zhang",
+        "Peng Jia",
+        "Pheng-Ann Heng",
+        "Shanghang Zhang"
+      ],
+      "published": "2025-12-01T18:59:50+00:00",
+      "updated": "2025-12-01T18:59:50+00:00",
+      "summary": "Vision-Language-Action (VLA) models have recently emerged, demonstrating strong generalization in robotic scene understanding and manipulation. However, when confronted with long-horizon tasks that require defined goal states, such as LEGO assembly or object rearrangement, existing VLA models still face challenges in coordinating high-level planning with precise manipulation. Therefore, we aim to endow a VLA model with the capability to infer the \"how\" process from the \"what\" outcomes, transforming goal states into executable procedures. In this paper, we introduce ManualVLA, a unified VLA framework built upon a Mixture-of-Transformers (MoT) architecture, enabling coherent collaboration between multimodal manual generation and action execution. Unlike prior VLA models that directly map sensory inputs to actions, we first equip ManualVLA with a planning expert that generates intermediate manuals consisting of images, position prompts, and textual instructions. Building upon these multimodal manuals, we design a Manual Chain-of-Thought (ManualCoT) reasoning process that feeds them into the action expert, where each manual step provides explicit control conditions, while its latent representation offers implicit guidance for accurate manipulation. To alleviate the burden of data collection, we develop a high-fidelity digital-twin toolkit based on 3D Gaussian Splatting, which automatically generates manual data for planning expert training. ManualVLA demonstrates strong real-world performance, achieving an average success rate 32% higher than the previous hierarchical SOTA baseline on LEGO assembly and object rearrangement tasks.",
+      "categories": [
+        "cs.RO"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2512.02013v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.02013v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.02013v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.02013v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.01930": {
+      "title": "SVRG and Beyond via Posterior Correction",
+      "authors": [
+        "Nico Daheim",
+        "Thomas Möllenhoff",
+        "Ming Liang Ang",
+        "Mohammad Emtiyaz Khan"
+      ],
+      "published": "2025-12-01T17:45:30+00:00",
+      "updated": "2025-12-01T17:45:30+00:00",
+      "summary": "Stochastic Variance Reduced Gradient (SVRG) and its variants aim to speed-up training by using gradient corrections, but have seen limited success in deep learning. Here, we show surprising new foundational connections of SVRG to a recently proposed Bayesian method called posterior correction. Specifically, we show that SVRG is recovered as a special case of posterior correction over the isotropic-Gaussian family, while novel extensions are automatically obtained by using more flexible exponential families. We derive two new SVRG variants by using Gaussian families: First, a Newton-like variant that employs novel Hessian corrections, and second, an Adam-like extension that improves pretraining and finetuning of Transformer language models. This is the first work to connect SVRG to Bayes and use it to boost variational training for deep networks.",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2512.01930v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Preprint. Under review",
+      "entry_id": "http://arxiv.org/abs/2512.01930v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.01930v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.01930v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.01788": {
+      "title": "Learned Image Compression for Earth Observation: Implications for Downstream Segmentation Tasks",
+      "authors": [
+        "Christian Mollière",
+        "Iker Cumplido",
+        "Marco Zeulner",
+        "Lukas Liesenhoff",
+        "Matthias Schubert",
+        "Julia Gottfriedsen"
+      ],
+      "published": "2025-12-01T15:27:33+00:00",
+      "updated": "2025-12-01T15:27:33+00:00",
+      "summary": "The rapid growth of data from satellite-based Earth observation (EO) systems poses significant challenges in data transmission and storage. We evaluate the potential of task-specific learned compression algorithms in this context to reduce data volumes while retaining crucial information. In detail, we compare traditional compression (JPEG 2000) versus a learned compression approach (Discretized Mixed Gaussian Likelihood) on three EO segmentation tasks: Fire, cloud, and building detection. Learned compression notably outperforms JPEG 2000 for large-scale, multi-channel optical imagery in both reconstruction quality (PSNR) and segmentation accuracy. However, traditional codecs remain competitive on smaller, single-channel thermal infrared datasets due to limited data and architectural constraints. Additionally, joint end-to-end optimization of compression and segmentation models does not improve performance over standalone optimization.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.01788v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.01788v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.01788v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.01788v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.01761": {
+      "title": "A novel sequential method for building upper and lower bounds of moments of distributions",
+      "authors": [
+        "Solal Martin",
+        "Emilie Chouzenoux",
+        "Victor Elvira"
+      ],
+      "published": "2025-12-01T15:05:33+00:00",
+      "updated": "2025-12-01T15:05:33+00:00",
+      "summary": "Approximating integrals is a fundamental task in probability theory and statistical inference, and their applied fields of signal processing, and Bayesian learning, as soon as expectations over probability distributions must be computed efficiently and accurately. When these integrals lack closed-form expressions, numerical methods must be used, from the Newton-Cotes formulas and Gaussian quadrature, to Monte Carlo and variational approximation techniques. Despite these numerous tools, few are guaranteed to preserve majoration/minoration inequalities, while this feature is fundamental in certain applications in statistics. In this paper, we focus on the integration problem arising in the estimation of moments of scalar, unnormalized, distributions. We introduce a sequential method for constructing upper and lower bounds on the sought integral. Our approach leverages the majorization-minimization framework to iteratively refine these bounds, in an enveloped principle. The method has proven convergence, and controlled accuracy, under mild conditions. We demonstrate its effectiveness through a detailed numerical example of the estimation of a Monte-Carlo sampler variance in a Bayesian inference problem.",
+      "categories": [
+        "math.ST",
+        "math.OC",
+        "stat.ME"
+      ],
+      "primary_category": "math.ST",
+      "pdf_url": "https://arxiv.org/pdf/2512.01761v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.01761v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.01761v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.01761v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.01334": {
+      "title": "AlignVid: Training-Free Attention Scaling for Semantic Fidelity in Text-Guided Image-to-Video Generation",
+      "authors": [
+        "Yexin Liu",
+        "Wen-Jie Shu",
+        "Zile Huang",
+        "Haoze Zheng",
+        "Yueze Wang",
+        "Manyuan Zhang",
+        "Ser-Nam Lim",
+        "Harry Yang"
+      ],
+      "published": "2025-12-01T06:53:48+00:00",
+      "updated": "2025-12-01T06:53:48+00:00",
+      "summary": "Text-guided image-to-video (TI2V) generation has recently achieved remarkable progress, particularly in maintaining subject consistency and temporal coherence. However, existing methods still struggle to adhere to fine-grained prompt semantics, especially when prompts entail substantial transformations of the input image (e.g., object addition, deletion, or modification), a shortcoming we term semantic negligence. In a pilot study, we find that applying a Gaussian blur to the input image improves semantic adherence. Analyzing attention maps, we observe clearer foreground-background separation. From an energy perspective, this corresponds to a lower-entropy cross-attention distribution. Motivated by this, we introduce AlignVid, a training-free framework with two components: (i) Attention Scaling Modulation (ASM), which directly reweights attention via lightweight Q or K scaling, and (ii) Guidance Scheduling (GS), which applies ASM selectively across transformer blocks and denoising steps to reduce visual quality degradation. This minimal intervention improves prompt adherence while limiting aesthetic degradation. In addition, we introduce OmitI2V to evaluate semantic negligence in TI2V generation, comprising 367 human-annotated samples that span addition, deletion, and modification scenarios. Extensive experiments demonstrate that AlignVid can enhance semantic fidelity.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.01334v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.01334v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.01334v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.01334v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.01296": {
+      "title": "EGG-Fusion: Efficient 3D Reconstruction with Geometry-aware Gaussian Surfel on the Fly",
+      "authors": [
+        "Xiaokun Pan",
+        "Zhenzhe Li",
+        "Zhichao Ye",
+        "Hongjia Zhai",
+        "Guofeng Zhang"
+      ],
+      "published": "2025-12-01T05:32:17+00:00",
+      "updated": "2025-12-01T05:32:17+00:00",
+      "summary": "Real-time 3D reconstruction is a fundamental task in computer graphics. Recently, differentiable-rendering-based SLAM system has demonstrated significant potential, enabling photorealistic scene rendering through learnable scene representations such as Neural Radiance Fields (NeRF) and 3D Gaussian Splatting (3DGS). Current differentiable rendering methods face dual challenges in real-time computation and sensor noise sensitivity, leading to degraded geometric fidelity in scene reconstruction and limited practicality. To address these challenges, we propose a novel real-time system EGG-Fusion, featuring robust sparse-to-dense camera tracking and a geometry-aware Gaussian surfel mapping module, introducing an information filter-based fusion method that explicitly accounts for sensor noise to achieve high-precision surface reconstruction. The proposed differentiable Gaussian surfel mapping effectively models multi-view consistent surfaces while enabling efficient parameter optimization. Extensive experimental results demonstrate that the proposed system achieves a surface reconstruction error of 0.6\\textit{cm} on standardized benchmark datasets including Replica and ScanNet++, representing over 20\\% improvement in accuracy compared to state-of-the-art (SOTA) GS-based methods. Notably, the system maintains real-time processing capabilities at 24 FPS, establishing it as one of the most accurate differentiable-rendering-based real-time reconstruction systems. Project Page: https://zju3dv.github.io/eggfusion/",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.01296v1",
+      "journal_ref": null,
+      "doi": "10.1145/3757377.3763878",
+      "comment": "SIGGRAPH ASIA 2025",
+      "entry_id": "http://arxiv.org/abs/2512.01296v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.01296v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.01296v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        },
+        {
+          "href": "https://doi.org/10.1145/3757377.3763878",
+          "title": "doi",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.01088": {
+      "title": "Physical-Layer Analysis of LoRa Robustness in the Presence of Narrowband Interference",
+      "authors": [
+        "Jingxiang Huang",
+        "Samer Lahoud"
+      ],
+      "published": "2025-11-30T21:16:49+00:00",
+      "updated": "2025-11-30T21:16:49+00:00",
+      "summary": "With the rapid development of Internet of Things (IoT) technologies, the sub-GHz unlicensed spectrum is increasingly being shared by protocols such as Long Range (LoRa), Sigfox, and Long-Range Frequency-Hopping Spread Spectrum (LR-FHSS). These protocols must coexist within the same frequency bands, leading to mutual interference. This paper investigates the physical-layer impact of two types of narrowband signals (BPSK and GMSK) on LoRa demodulation. We employ symbol-level Monte Carlo simulations to analyse how the interference-to-noise ratio (INR) affects the symbol error rate (SER) at a given signal-to-noise ratio (SNR) and noise floor, and then compare the results with those for additive white Gaussian noise (AWGN) of equal power. We demonstrate that modelling narrowband interference as additive white Gaussian noise (AWGN) systematically overestimates the SER of Chirp Spread Spectrum (CSS) demodulation. We also clarify the distinct impairment levels induced by AWGN and two types of narrowband interferers, and provide physical insight into the underlying mechanisms. Finally, we fit a two-segment function for the maximum INR that ensures correct demodulation across SNRs, with one segment for low SNR and the other for high SNR.",
+      "categories": [
+        "cs.NI"
+      ],
+      "primary_category": "cs.NI",
+      "pdf_url": "https://arxiv.org/pdf/2512.01088v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.01088v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.01088v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.01088v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.01008": {
+      "title": "LISA-3D: Lifting Language-Image Segmentation to 3D via Multi-View Consistency",
+      "authors": [
+        "Zhongbin Guo",
+        "Jiahe Liu",
+        "Wenyu Gao",
+        "Yushan Li",
+        "Chengzhi Li",
+        "Ping Jian"
+      ],
+      "published": "2025-11-30T18:02:14+00:00",
+      "updated": "2025-11-30T18:02:14+00:00",
+      "summary": "Text-driven 3D reconstruction demands a mask generator that simultaneously understands open-vocabulary instructions and remains consistent across viewpoints. We present LISA-3D, a two-stage framework that lifts language-image segmentation into 3D by retrofitting the instruction-following model LISA with geometry-aware Low-Rank Adaptation (LoRA) layers and reusing a frozen SAM-3D reconstructor. During training we exploit off-the-shelf RGB-D sequences and their camera poses to build a differentiable reprojection loss that enforces cross-view agreement without requiring any additional 3D-text supervision. The resulting masks are concatenated with RGB images to form RGBA prompts for SAM-3D, which outputs Gaussian splats or textured meshes without retraining. Across ScanRefer and Nr3D, LISA-3D improves language-to-3D accuracy by up to +15.6 points over single-view baselines while adapting only 11.6M parameters. The system is modular, data-efficient, and supports zero-shot deployment on unseen categories, providing a practical recipe for language-guided 3D content creation. Our code will be available at https://github.com/binisalegend/LISA-3D.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.01008v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.01008v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.01008v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.01008v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2512.00944": {
+      "title": "Binary-Gaussian: Compact and Progressive Representation for 3D Gaussian Segmentation",
+      "authors": [
+        "An Yang",
+        "Chenyu Liu",
+        "Jun Du",
+        "Jianqing Gao",
+        "Jia Pan",
+        "Jinshui Hu",
+        "Baocai Yin",
+        "Bing Yin",
+        "Cong Liu"
+      ],
+      "published": "2025-11-30T15:51:30+00:00",
+      "updated": "2025-11-30T15:51:30+00:00",
+      "summary": "3D Gaussian Splatting (3D-GS) has emerged as an efficient 3D representation and a promising foundation for semantic tasks like segmentation. However, existing 3D-GS-based segmentation methods typically rely on high-dimensional category features, which introduce substantial memory overhead. Moreover, fine-grained segmentation remains challenging due to label space congestion and the lack of stable multi-granularity control mechanisms. To address these limitations, we propose a coarse-to-fine binary encoding scheme for per-Gaussian category representation, which compresses each feature into a single integer via the binary-to-decimal mapping, drastically reducing memory usage. We further design a progressive training strategy that decomposes panoptic segmentation into a series of independent sub-tasks, reducing inter-class conflicts and thereby enhancing fine-grained segmentation capability. Additionally, we fine-tune opacity during segmentation training to address the incompatibility between photometric rendering and semantic segmentation, which often leads to foreground-background confusion. Extensive experiments on multiple benchmarks demonstrate that our method achieves state-of-the-art segmentation performance while significantly reducing memory consumption and accelerating inference.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.00944v1",
+      "journal_ref": "AAAI2026",
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.00944v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.00944v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.00944v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.00877": {
+      "title": "Feed-Forward 3D Gaussian Splatting Compression with Long-Context Modeling",
+      "authors": [
+        "Zhening Liu",
+        "Rui Song",
+        "Yushi Huang",
+        "Yingdong Hu",
+        "Xinjie Zhang",
+        "Jiawei Shao",
+        "Zehong Lin",
+        "Jun Zhang"
+      ],
+      "published": "2025-11-30T12:51:43+00:00",
+      "updated": "2025-11-30T12:51:43+00:00",
+      "summary": "3D Gaussian Splatting (3DGS) has emerged as a revolutionary 3D representation. However, its substantial data size poses a major barrier to widespread adoption. While feed-forward 3DGS compression offers a practical alternative to costly per-scene per-train compressors, existing methods struggle to model long-range spatial dependencies, due to the limited receptive field of transform coding networks and the inadequate context capacity in entropy models. In this work, we propose a novel feed-forward 3DGS compression framework that effectively models long-range correlations to enable highly compact and generalizable 3D representations. Central to our approach is a large-scale context structure that comprises thousands of Gaussians based on Morton serialization. We then design a fine-grained space-channel auto-regressive entropy model to fully leverage this expansive context. Furthermore, we develop an attention-based transform coding model to extract informative latent priors by aggregating features from a wide range of neighboring Gaussians. Our method yields a $20\\times$ compression ratio for 3DGS in a feed-forward inference and achieves state-of-the-art performance among generalizable codecs.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.00877v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.00877v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.00877v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.00877v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.00850": {
+      "title": "Smol-GS: Compact Representations for Abstract 3D Gaussian Splatting",
+      "authors": [
+        "Haishan Wang",
+        "Mohammad Hassan Vali",
+        "Arno Solin"
+      ],
+      "published": "2025-11-30T11:42:00+00:00",
+      "updated": "2025-11-30T11:42:00+00:00",
+      "summary": "We present Smol-GS, a novel method for learning compact representations for 3D Gaussian Splatting (3DGS). Our approach learns highly efficient encodings in 3D space that integrate both spatial and semantic information. The model captures the coordinates of the splats through a recursive voxel hierarchy, while splat-wise features store abstracted cues, including color, opacity, transformation, and material properties. This design allows the model to compress 3D scenes by orders of magnitude without loss of flexibility. Smol-GS achieves state-of-the-art compression on standard benchmarks while maintaining high rendering quality. Beyond visual fidelity, the discrete representations could potentially serve as a foundation for downstream tasks such as navigation, planning, and broader 3D scene understanding.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.00850v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.00850v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.00850v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.00850v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.00547": {
+      "title": "Asset-Driven Sematic Reconstruction of Dynamic Scene with Multi-Human-Object Interactions",
+      "authors": [
+        "Sandika Biswas",
+        "Qianyi Wu",
+        "Biplab Banerjee",
+        "Hamid Rezatofighi"
+      ],
+      "published": "2025-11-29T16:36:22+00:00",
+      "updated": "2025-11-29T16:36:22+00:00",
+      "summary": "Real-world human-built environments are highly dynamic, involving multiple humans and their complex interactions with surrounding objects. While 3D geometry modeling of such scenes is crucial for applications like AR/VR, gaming, and embodied AI, it remains underexplored due to challenges like diverse motion patterns and frequent occlusions. Beyond novel view rendering, 3D Gaussian Splatting (GS) has demonstrated remarkable progress in producing detailed, high-quality surface geometry with fast optimization of the underlying structure. However, very few GS-based methods address multihuman, multiobject scenarios, primarily due to the above-mentioned inherent challenges. In a monocular setup, these challenges are further amplified, as maintaining structural consistency under severe occlusion becomes difficult when the scene is optimized solely based on GS-based rendering loss. To tackle the challenges of such a multihuman, multiobject dynamic scene, we propose a hybrid approach that effectively combines the advantages of 1) 3D generative models for generating high-fidelity meshes of the scene elements, 2) Semantic-aware deformation, \\ie rigid transformation of the rigid objects and LBS-based deformation of the humans, and mapping of the deformed high-fidelity meshes in the dynamic scene, and 3) GS-based optimization of the individual elements for further refining their alignments in the scene. Such a hybrid approach helps maintain the object structures even under severe occlusion and can produce multiview and temporally consistent geometry. We choose HOI-M3 for evaluation, as, to the best of our knowledge, this is the only dataset featuring multihuman, multiobject interactions in a dynamic scene. Our method outperforms the state-of-the-art method in producing better surface reconstruction of such scenes.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.00547v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.00547v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.00547v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.00547v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.00413": {
+      "title": "SplatFont3D: Structure-Aware Text-to-3D Artistic Font Generation with Part-Level Style Control",
+      "authors": [
+        "Ji Gan",
+        "Lingxu Chen",
+        "Jiaxu Leng",
+        "Xinbo Gao"
+      ],
+      "published": "2025-11-29T09:46:37+00:00",
+      "updated": "2025-11-29T09:46:37+00:00",
+      "summary": "Artistic font generation (AFG) can assist human designers in creating innovative artistic fonts. However, most previous studies primarily focus on 2D artistic fonts in flat design, leaving personalized 3D-AFG largely underexplored. 3D-AFG not only enables applications in immersive 3D environments such as video games and animations, but also may enhance 2D-AFG by rendering 2D fonts of novel views. Moreover, unlike general 3D objects, 3D fonts exhibit precise semantics with strong structural constraints and also demand fine-grained part-level style control. To address these challenges, we propose SplatFont3D, a novel structure-aware text-to-3D AFG framework with 3D Gaussian splatting, which enables the creation of 3D artistic fonts from diverse style text prompts with precise part-level style control. Specifically, we first introduce a Glyph2Cloud module, which progressively enhances both the shapes and styles of 2D glyphs (or components) and produces their corresponding 3D point clouds for Gaussian initialization. The initialized 3D Gaussians are further optimized through interaction with a pretrained 2D diffusion model using score distillation sampling. To enable part-level control, we present a dynamic component assignment strategy that exploits the geometric priors of 3D Gaussians to partition components, while alleviating drift-induced entanglement during 3D Gaussian optimization. Our SplatFont3D provides more explicit and effective part-level style control than NeRF, attaining faster rendering efficiency. Experiments show that our SplatFont3D outperforms existing 3D models for 3D-AFG in style-text consistency, visual quality, and rendering efficiency.",
+      "categories": [
+        "cs.CV",
+        "cs.GR"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.00413v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.00413v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.00413v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.00413v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.00300": {
+      "title": "TGSFormer: Scalable Temporal Gaussian Splatting for Embodied Semantic Scene Completion",
+      "authors": [
+        "Rui Qian",
+        "Haozhi Cao",
+        "Tianchen Deng",
+        "Tianxin Hu",
+        "Weixiang Guo",
+        "Shenghai Yuan",
+        "Lihua Xie"
+      ],
+      "published": "2025-11-29T03:47:14+00:00",
+      "updated": "2025-11-29T03:47:14+00:00",
+      "summary": "Embodied 3D Semantic Scene Completion (SSC) infers dense geometry and semantics from continuous egocentric observations. Most existing Gaussian-based methods rely on random initialization of many primitives within predefined spatial bounds, resulting in redundancy and poor scalability to unbounded scenes. Recent depth-guided approach alleviates this issue but remains local, suffering from latency and memory overhead as scale increases. To overcome these challenges, we propose TGSFormer, a scalable Temporal Gaussian Splatting framework for embodied SSC. It maintains a persistent Gaussian memory for temporal prediction, without relying on image coherence or frame caches. For temporal fusion, a Dual Temporal Encoder jointly processes current and historical Gaussian features through confidence-aware cross-attention. Subsequently, a Confidence-aware Voxel Fusion module merges overlapping primitives into voxel-aligned representations, regulating density and maintaining compactness. Extensive experiments demonstrate that TGSFormer achieves state-of-the-art results on both local and embodied SSC benchmarks, offering superior accuracy and scalability with significantly fewer primitives while maintaining consistent long-term scene integrity. The code will be released upon acceptance.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.00300v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "14 pages, 10 figures",
+      "entry_id": "http://arxiv.org/abs/2512.00300v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.00300v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.00300v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2511.23389": {
       "title": "Multipartite entanglement features of primordial non-gaussianities",
       "authors": [
@@ -516,27 +1055,27 @@
         "Zheng Zhu"
       ],
       "published": "2025-11-25T03:00:42+00:00",
-      "updated": "2025-11-25T03:00:42+00:00",
+      "updated": "2025-11-30T11:53:27+00:00",
       "summary": "World models are emerging as a foundational paradigm for scalable, data-efficient embodied AI. In this work, we present GigaWorld-0, a unified world model framework designed explicitly as a data engine for Vision-Language-Action (VLA) learning. GigaWorld-0 integrates two synergistic components: GigaWorld-0-Video, which leverages large-scale video generation to produce diverse, texture-rich, and temporally coherent embodied sequences under fine-grained control of appearance, camera viewpoint, and action semantics; and GigaWorld-0-3D, which combines 3D generative modeling, 3D Gaussian Splatting reconstruction, physically differentiable system identification, and executable motion planning to ensure geometric consistency and physical realism. Their joint optimization enables the scalable synthesis of embodied interaction data that is visually compelling, spatially coherent, physically plausible, and instruction-aligned. Training at scale is made feasible through our efficient GigaTrain framework, which exploits FP8-precision and sparse attention to drastically reduce memory and compute requirements. We conduct comprehensive evaluations showing that GigaWorld-0 generates high-quality, diverse, and controllable data across multiple dimensions. Critically, VLA model (e.g., GigaBrain-0) trained on GigaWorld-0-generated data achieve strong real-world performance, significantly improving generalization and task success on physical robots without any real-world interaction during training.",
       "categories": [
         "cs.CV",
         "cs.RO"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2511.19861v1",
+      "pdf_url": "https://arxiv.org/pdf/2511.19861v2",
       "journal_ref": null,
       "doi": null,
-      "comment": "Project Page: https://gigaworld0.github.io/",
-      "entry_id": "http://arxiv.org/abs/2511.19861v1",
+      "comment": "Project Page: https://giga-world-0.github.io/",
+      "entry_id": "http://arxiv.org/abs/2511.19861v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2511.19861v1",
+          "href": "https://arxiv.org/abs/2511.19861v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2511.19861v1",
+          "href": "https://arxiv.org/pdf/2511.19861v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -2222,27 +2761,27 @@
         "Alper Yilmaz"
       ],
       "published": "2025-11-13T08:01:58+00:00",
-      "updated": "2025-11-13T08:01:58+00:00",
-      "summary": "Fine-grained action evaluation in medical vision faces unique challenges due to the unavailability of comprehensive datasets, stringent precision requirements, and insufficient spatiotemporal dynamic modeling of very rapid actions. To support development and evaluation, we introduce CPREval-6k, a multi-view, multi-label medical action benchmark containing 6,372 expert-annotated videos with 22 clinical labels. Using this dataset, we present GaussMedAct, a multivariate Gaussian encoding framework, to advance medical motion analysis through adaptive spatiotemporal representation learning. Multivariate Gaussian Representation projects the joint motions to a temporally scaled multi-dimensional space, and decomposes actions into adaptive 3D Gaussians that serve as tokens. These tokens preserve motion semantics through anisotropic covariance modeling while maintaining robustness to spatiotemporal noise. Hybrid Spatial Encoding, employing a Cartesian and Vector dual-stream strategy, effectively utilizes skeletal information in the form of joint and bone features. The proposed method achieves 92.1% Top-1 accuracy with real-time inference on the benchmark, outperforming the ST-GCN baseline by +5.9% accuracy with only 10% FLOPs. Cross-dataset experiments confirm the superiority of our method in robustness.",
+      "updated": "2025-12-01T03:50:51+00:00",
+      "summary": "Fine-grained action evaluation in medical vision faces unique challenges due to the unavailability of comprehensive datasets, stringent precision requirements, and insufficient spatiotemporal dynamic modeling of very rapid actions. To support development and evaluation, we introduce CPREval-6k, a multi-view, multi-label medical action benchmark containing 6,372 expert-annotated videos with 22 clinical labels. Using this dataset, we present GaussMedAct, a multivariate Gaussian encoding framework, to advance medical motion analysis through adaptive spatiotemporal representation learning. Multivariate Gaussian Representation projects the joint motions to a temporally scaled multi-dimensional space, and decomposes actions into adaptive 3D Gaussians that serve as tokens. These tokens preserve motion semantics through anisotropic covariance modeling while maintaining robustness to spatiotemporal noise. Hybrid Spatial Encoding, employing a Cartesian and Vector dual-stream strategy, effectively utilizes skeletal information in the form of joint and bone features. The proposed method achieves 92.1% Top-1 accuracy with real-time inference on the benchmark, outperforming baseline by +5.9% accuracy with only 10% FLOPs. Cross-dataset experiments confirm the superiority of our method in robustness.",
       "categories": [
         "cs.CV",
         "cs.AI"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2511.10060v1",
+      "pdf_url": "https://arxiv.org/pdf/2511.10060v2",
       "journal_ref": null,
       "doi": null,
       "comment": "Accepted to AAAI 2026",
-      "entry_id": "http://arxiv.org/abs/2511.10060v1",
+      "entry_id": "http://arxiv.org/abs/2511.10060v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2511.10060v1",
+          "href": "https://arxiv.org/abs/2511.10060v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2511.10060v1",
+          "href": "https://arxiv.org/pdf/2511.10060v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -2846,32 +3385,32 @@
       "authors": [
         "Jiale Liu",
         "Haoming Zhou",
-        "Yishu Zhu",
+        "Yishu Liu",
         "Bingzhi Chen",
         "Yuncheng Jiang"
       ],
       "published": "2025-11-11T00:28:11+00:00",
-      "updated": "2025-11-19T08:39:44+00:00",
+      "updated": "2025-11-29T03:35:23+00:00",
       "summary": "Fine-grained image-text alignment is a pivotal challenge in multimodal learning, underpinning key applications such as visual question answering, image captioning, and vision-language navigation. Unlike global alignment, fine-grained alignment requires precise correspondence between localized visual regions and textual tokens, often hindered by noisy attention mechanisms and oversimplified modeling of cross-modal relationships. In this work, we identify two fundamental limitations of existing approaches: the lack of robust intra-modal mechanisms to assess the significance of visual and textual tokens, leading to poor generalization in complex scenes; and the absence of fine-grained uncertainty modeling, which fails to capture the one-to-many and many-to-one nature of region-word correspondences. To address these issues, we propose a unified approach that incorporates significance-aware and granularity-aware modeling and region-level uncertainty modeling. Our method leverages modality-specific biases to identify salient features without relying on brittle cross-modal attention, and represents region features as a mixture of Gaussian distributions to capture fine-grained uncertainty. Extensive experiments on Flickr30K and MS-COCO demonstrate that our approach achieves state-of-the-art performance across various backbone architectures, significantly enhancing the robustness and interpretability of fine-grained image-text alignment.",
       "categories": [
         "cs.CV",
         "cs.MM"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2511.07710v2",
+      "pdf_url": "https://arxiv.org/pdf/2511.07710v3",
       "journal_ref": null,
       "doi": null,
       "comment": "10 pages, 6 figures, accepted by AAAI 2026",
-      "entry_id": "http://arxiv.org/abs/2511.07710v2",
+      "entry_id": "http://arxiv.org/abs/2511.07710v3",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2511.07710v2",
+          "href": "https://arxiv.org/abs/2511.07710v3",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2511.07710v2",
+          "href": "https://arxiv.org/pdf/2511.07710v3",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -3133,6 +3672,40 @@
         },
         {
           "href": "https://arxiv.org/pdf/2511.06298v3",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.07472": {
+      "title": "Multivariate Variational Autoencoder",
+      "authors": [
+        "Mehmet Can Yavuz"
+      ],
+      "published": "2025-11-08T16:52:53+00:00",
+      "updated": "2025-12-01T16:48:04+00:00",
+      "summary": "Learning latent representations that are simultaneously expressive, geometrically well-structured, and reliably calibrated remains a central challenge for Variational Autoencoders (VAEs). Standard VAEs typically assume a diagonal Gaussian posterior, which simplifies optimization but rules out correlated uncertainty and often yields entangled or redundant latent dimensions. We introduce the Multivariate Variational Autoencoder (MVAE), a tractable full-covariance extension of the VAE that augments the encoder with sample-specific diagonal scales and a global coupling matrix. This induces a multivariate Gaussian posterior of the form $N(μ_φ(x), C \\operatorname{diag}(σ_φ^2(x)) C^\\top)$, enabling correlated latent factors while preserving a closed-form KL divergence and a simple reparameterization path. Beyond likelihood, we propose a multi-criterion evaluation protocol that jointly assesses reconstruction quality (MSE, ELBO), downstream discrimination (linear probes), probabilistic calibration (NLL, Brier, ECE), and unsupervised structure (NMI, ARI). Across Larochelle-style MNIST variants, Fashion-MNIST, and CIFAR-10/100, MVAE consistently matches or outperforms diagonal-covariance VAEs of comparable capacity, with particularly notable gains in calibration and clustering metrics at both low and high latent dimensions. Qualitative analyses further show smoother, more semantically coherent latent traversals and sharper reconstructions. All code, dataset splits, and evaluation utilities are released to facilitate reproducible comparison and future extensions of multivariate posterior models.",
+      "categories": [
+        "cs.LG",
+        "cs.CV"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2511.07472v2",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2511.07472v2",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.07472v2",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.07472v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -86276,6 +86849,201 @@
     }
   },
   "Depth Estimation": {
+    "2512.01889": {
+      "title": "KM-ViPE: Online Tightly Coupled Vision-Language-Geometry Fusion for Open-Vocabulary Semantic SLAM",
+      "authors": [
+        "Zaid Nasser",
+        "Mikhail Iumanov",
+        "Tianhao Li",
+        "Maxim Popov",
+        "Jaafar Mahmoud",
+        "Malik Mohrat",
+        "Ilya Obrubov",
+        "Ekaterina Derevyanka",
+        "Ivan Sosin",
+        "Sergey Kolyubin"
+      ],
+      "published": "2025-12-01T17:10:40+00:00",
+      "updated": "2025-12-01T17:10:40+00:00",
+      "summary": "We present KM-ViPE (Knowledge Mapping Video Pose Engine), a real-time open-vocabulary SLAM framework for uncalibrated monocular cameras in dynamic environments. Unlike systems requiring depth sensors and offline calibration, KM-ViPE operates directly on raw RGB streams, making it ideal for ego-centric applications and harvesting internet-scale video data for training. KM-ViPE tightly couples DINO visual features with geometric constraints through a high-level features based adaptive robust kernel that handles both moving objects and movable static objects (e.g., moving furniture in ego-centric views). The system performs simultaneous online localization and open-vocabulary semantic mapping by fusing geometric and deep visual features aligned with language embeddings. Our results are competitive with state-of-the-art approaches, while existing solutions either operate offline, need depth data and/or odometry estimation, or lack dynamic scene robustness. KM-ViPE benefits from internet-scale training and uniquely combines online operation, uncalibrated monocular input, and robust handling of dynamic scenes, which makes it a good fit for autonomous robotics and AR/VR applications and advances practical spatial intelligence capabilities for embodied AI.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.01889v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.01889v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.01889v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.01889v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2512.01366": {
+      "title": "BlinkBud: Detecting Hazards from Behind via Sampled Monocular 3D Detection on a Single Earbud",
+      "authors": [
+        "Yunzhe Li",
+        "Jiajun Yan",
+        "Yuzhou Wei",
+        "Kechen Liu",
+        "Yize Zhao",
+        "Chong Zhang",
+        "Hongzi Zhu",
+        "Li Lu",
+        "Shan Chang",
+        "Minyi Guo"
+      ],
+      "published": "2025-12-01T07:25:17+00:00",
+      "updated": "2025-12-01T07:25:17+00:00",
+      "summary": "Failing to be aware of speeding vehicles approaching from behind poses a huge threat to the road safety of pedestrians and cyclists. In this paper, we propose BlinkBud, which utilizes a single earbud and a paired phone to online detect hazardous objects approaching from behind of a user. The core idea is to accurately track visually identified objects utilizing a small number of sampled camera images taken from the earbud. To minimize the power consumption of the earbud and the phone while guaranteeing the best tracking accuracy, a novel 3D object tracking algorithm is devised, integrating both a Kalman filter based trajectory estimation scheme and an optimal image sampling strategy based on reinforcement learning. Moreover, the impact of constant user head movements on the tracking accuracy is significantly eliminated by leveraging the estimated pitch and yaw angles to correct the object depth estimation and align the camera coordinate system to the user's body coordinate system, respectively. We implement a prototype BlinkBud system and conduct extensive real-world experiments. Results show that BlinkBud is lightweight with ultra-low mean power consumptions of 29.8 mW and 702.6 mW on the earbud and smartphone, respectively, and can accurately detect hazards with a low average false positive ratio (FPR) and false negative ratio (FNR) of 4.90% and 1.47%, respectively.",
+      "categories": [
+        "cs.CV",
+        "cs.HC",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.01366v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "This is the author-accepted version of the paper published in Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), Vol. 9, No. 4, Article 191, 2025. Final published version: https://doi.org/10.1145/3770707",
+      "entry_id": "http://arxiv.org/abs/2512.01366v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.01366v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.01366v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2512.01030": {
+      "title": "Lotus-2: Advancing Geometric Dense Prediction with Powerful Image Generative Model",
+      "authors": [
+        "Jing He",
+        "Haodong Li",
+        "Mingzhi Sheng",
+        "Ying-Cong Chen"
+      ],
+      "published": "2025-11-30T18:57:25+00:00",
+      "updated": "2025-11-30T18:57:25+00:00",
+      "summary": "Recovering pixel-wise geometric properties from a single image is fundamentally ill-posed due to appearance ambiguity and non-injective mappings between 2D observations and 3D structures. While discriminative regression models achieve strong performance through large-scale supervision, their success is bounded by the scale, quality and diversity of available data and limited physical reasoning. Recent diffusion models exhibit powerful world priors that encode geometry and semantics learned from massive image-text data, yet directly reusing their stochastic generative formulation is suboptimal for deterministic geometric inference: the former is optimized for diverse and high-fidelity image generation, whereas the latter requires stable and accurate predictions. In this work, we propose Lotus-2, a two-stage deterministic framework for stable, accurate and fine-grained geometric dense prediction, aiming to provide an optimal adaption protocol to fully exploit the pre-trained generative priors. Specifically, in the first stage, the core predictor employs a single-step deterministic formulation with a clean-data objective and a lightweight local continuity module (LCM) to generate globally coherent structures without grid artifacts. In the second stage, the detail sharpener performs a constrained multi-step rectified-flow refinement within the manifold defined by the core predictor, enhancing fine-grained geometry through noise-free deterministic flow matching. Using only 59K training samples, less than 1% of existing large-scale datasets, Lotus-2 establishes new state-of-the-art results in monocular depth estimation and highly competitive surface normal prediction. These results demonstrate that diffusion models can serve as deterministic world priors, enabling high-quality geometric reasoning beyond traditional discriminative and generative paradigms.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.01030v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Work done at the Hong Kong University of Science and Technology (Guangzhou). Project page: https://lotus-2.github.io/. 15 Pages, 12 Figures, 3 Tables",
+      "entry_id": "http://arxiv.org/abs/2512.01030v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.01030v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.01030v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2512.00794": {
+      "title": "PolarGS: Polarimetric Cues for Ambiguity-Free Gaussian Splatting with Accurate Geometry Recovery",
+      "authors": [
+        "Bo Guo",
+        "Sijia Wen",
+        "Yifan Zhao",
+        "Jia Li",
+        "Zhiming Zheng"
+      ],
+      "published": "2025-11-30T09:08:37+00:00",
+      "updated": "2025-11-30T09:08:37+00:00",
+      "summary": "Recent advances in surface reconstruction for 3D Gaussian Splatting (3DGS) have enabled remarkable geometric accuracy. However, their performance degrades in photometrically ambiguous regions such as reflective and textureless surfaces, where unreliable cues disrupt photometric consistency and hinder accurate geometry estimation. Reflected light is often partially polarized in a manner that reveals surface orientation, making polarization an optic complement to photometric cues in resolving such ambiguities. Therefore, we propose PolarGS, an optics-aware extension of RGB-based 3DGS that leverages polarization as an optical prior to resolve photometric ambiguities and enhance reconstruction accuracy. Specifically, we introduce two complementary modules: a polarization-guided photometric correction strategy, which ensures photometric consistency by identifying reflective regions via the Degree of Linear Polarization (DoLP) and refining reflective Gaussians with Color Refinement Maps; and a polarization-enhanced Gaussian densification mechanism for textureless area geometry recovery, which integrates both Angle and Degree of Linear Polarization (A/DoLP) into a PatchMatch-based depth completion process. This enables the back-projection and fusion of new Gaussians, leading to more complete reconstruction. PolarGS is framework-agnostic and achieves superior geometric accuracy compared to state-of-the-art methods.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.00794v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.00794v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.00794v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.00794v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2512.00771": {
+      "title": "EAG3R: Event-Augmented 3D Geometry Estimation for Dynamic and Extreme-Lighting Scenes",
+      "authors": [
+        "Xiaoshan Wu",
+        "Yifei Yu",
+        "Xiaoyang Lyu",
+        "Yihua Huang",
+        "Bo Wang",
+        "Baoheng Zhang",
+        "Zhongrui Wang",
+        "Xiaojuan Qi"
+      ],
+      "published": "2025-11-30T08:05:28+00:00",
+      "updated": "2025-11-30T08:05:28+00:00",
+      "summary": "Robust 3D geometry estimation from videos is critical for applications such as autonomous navigation, SLAM, and 3D scene reconstruction. Recent methods like DUSt3R demonstrate that regressing dense pointmaps from image pairs enables accurate and efficient pose-free reconstruction. However, existing RGB-only approaches struggle under real-world conditions involving dynamic objects and extreme illumination, due to the inherent limitations of conventional cameras. In this paper, we propose EAG3R, a novel geometry estimation framework that augments pointmap-based reconstruction with asynchronous event streams. Built upon the MonST3R backbone, EAG3R introduces two key innovations: (1) a retinex-inspired image enhancement module and a lightweight event adapter with SNR-aware fusion mechanism that adaptively combines RGB and event features based on local reliability; and (2) a novel event-based photometric consistency loss that reinforces spatiotemporal coherence during global optimization. Our method enables robust geometry estimation in challenging dynamic low-light scenes without requiring retraining on night-time data. Extensive experiments demonstrate that EAG3R significantly outperforms state-of-the-art RGB-only baselines across monocular depth estimation, camera pose tracking, and dynamic reconstruction tasks.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.00771v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted at NeurIPS 2025 (spotlight)",
+      "entry_id": "http://arxiv.org/abs/2512.00771v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.00771v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.00771v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2511.23044": {
       "title": "Geometry-Consistent 4D Gaussian Splatting for Sparse-Input Dynamic View Synthesis",
       "authors": [
