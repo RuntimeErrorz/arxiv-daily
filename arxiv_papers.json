@@ -1,5 +1,121 @@
 {
   "3DGS Semantic": {
+    "2512.02925": {
+      "title": "Fast Gaussian Process Approximations for Autocorrelated Data",
+      "authors": [
+        "Ahmadreza Chokhachian",
+        "Matthias Katzfuss",
+        "Yu Ding"
+      ],
+      "published": "2025-12-02T16:46:07+00:00",
+      "updated": "2025-12-02T16:46:07+00:00",
+      "summary": "This paper is concerned with the problem of how to speed up computation for Gaussian process models trained on autocorrelated data. The Gaussian process model is a powerful tool commonly used in nonlinear regression applications. Standard regression modeling assumes random samples and an independently, identically distributed noise. Various fast approximations that speed up Gaussian process regression work under this standard setting. But for autocorrelated data, failing to account for autocorrelation leads to a phenomenon known as temporal overfitting that deteriorates model performance on new test instances. To handle autocorrelated data, existing fast Gaussian process approximations have to be modified; one such approach is to segment the originally correlated data points into blocks in which the blocked data are de-correlated. This work explains how to make some of the existing Gaussian process approximations work with blocked data. Numerical experiments across diverse application datasets demonstrate that the proposed approaches can remarkably accelerate computation for Gaussian process regression on autocorrelated data without compromising model prediction performance.",
+      "categories": [
+        "cs.LG",
+        "stat.ML"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2512.02925v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted by the INFORMS Journal on Data Science",
+      "entry_id": "http://arxiv.org/abs/2512.02925v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.02925v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.02925v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.02777": {
+      "title": "CogDrive: Cognition-Driven Multimodal Prediction-Planning Fusion for Safe Autonomy",
+      "authors": [
+        "Heye Huang",
+        "Yibin Yang",
+        "Mingfeng Fan",
+        "Haoran Wang",
+        "Xiaocong Zhao",
+        "Jianqiang Wang"
+      ],
+      "published": "2025-12-02T13:53:18+00:00",
+      "updated": "2025-12-02T13:53:18+00:00",
+      "summary": "Safe autonomous driving in mixed traffic requires a unified understanding of multimodal interactions and dynamic planning under uncertainty. Existing learning based approaches struggle to capture rare but safety critical behaviors, while rule based systems often lack adaptability in complex interactions. To address these limitations, CogDrive introduces a cognition driven multimodal prediction and planning framework that integrates explicit modal reasoning with safety aware trajectory optimization. The prediction module adopts cognitive representations of interaction modes based on topological motion semantics and nearest neighbor relational encoding. With a differentiable modal loss and multimodal Gaussian decoding, CogDrive learns sparse and unbalanced interaction behaviors and improves long horizon trajectory prediction. The planning module incorporates an emergency response concept and optimizes safety stabilized trajectories, where short term consistent branches ensure safety during replanning cycles and long term branches support smooth and collision free motion under low probability switching modes. Experiments on Argoverse2 and INTERACTION datasets show that CogDrive achieves strong performance in trajectory accuracy and miss rate, while closed loop simulations confirm adaptive behavior in merge and intersection scenarios. By combining cognitive multimodal prediction with safety oriented planning, CogDrive offers an interpretable and reliable paradigm for safe autonomy in complex traffic.",
+      "categories": [
+        "cs.RO",
+        "cs.MA"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2512.02777v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "25 pages, 6 figures",
+      "entry_id": "http://arxiv.org/abs/2512.02777v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.02777v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.02777v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.02588": {
+      "title": "A Statistical Analysis of Fluence and Energy Distributions of Non-repeating Fast Radio Bursts Detected by CHIME",
+      "authors": [
+        "Nurimangul Nurmamat",
+        "Yong-Feng Huang",
+        "Xiao-Fei Dong",
+        "Chen-Ran Hu",
+        "Orkash Amat",
+        "Ze-Cheng Zou",
+        "Abdusattar Kurban",
+        "Jin-Jun Geng",
+        "Chen Deng"
+      ],
+      "published": "2025-12-02T09:59:49+00:00",
+      "updated": "2025-12-02T09:59:49+00:00",
+      "summary": "Fast Radio Bursts (FRBs) are energetic radio bursts that typically last for milliseconds. They are mostly of extragalactic origin, but the progenitors, trigger mechanisms and radiation processes are still largely unknown. Here we present a comprehensive analysis on 415 non-repeating FRBs detected by CHIME, applying manual filtering to ensure sample completeness. It is found that the distribution of fluence can be approximated by a three-segment power-law function, with the power-law indices being $-3.76 \\pm 1.61$, $0.20 \\pm 0.68$ and $2.06 \\pm 0.90$ in the low, middle, and high fluence segments, respectively. Both the total dispersion measure (\\text{DM}) and the extragalactic \\text{DM} follow a smoothly broken power-law distribution, with characteristic break DM values of $\\sim 703$ pc $\\rm cm^{-3}$ and $\\sim 639$ pc $\\rm cm^{-3}$, respectively. The redshifts are estimated from the extragalactic \\text{DM} by using the Macquart relation, which are found to peak at $ z \\sim 0.6$. The isotropic energy release ($E_{\\text{iso}}$) is also derived for each burst. Two-Gaussian components are revealed in the distribution of $E_{\\text{iso}}$, with the major population narrowly clustered at $\\sim 2.3 \\times 10^{40} {\\rm erg}$. The minor population have a characteristic energy of $\\sim 1.6 \\times 10^{39}$ erg and span approximately one order of magnitude. The distribution hints a near-uniform energy release mechanism for the dominant population as expected from some catastrophic channels, whereas the lower-energy component (potentially including repeat-capable sources) may reflect a broader diversity in FRB origins, emission mechanisms and evolutionary stages.",
+      "categories": [
+        "astro-ph.HE"
+      ],
+      "primary_category": "astro-ph.HE",
+      "pdf_url": "https://arxiv.org/pdf/2512.02588v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "12 page, 6 figures, 4 tables ;accepted in MNRAS",
+      "entry_id": "http://arxiv.org/abs/2512.02588v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.02588v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.02588v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2512.02013": {
       "title": "ManualVLA: A Unified VLA Model for Chain-of-Thought Manual Generation and Robotic Manipulation",
       "authors": [
@@ -3764,29 +3880,30 @@
         "Kaijie Chen",
         "Tianyang Wang",
         "Junfeng Hao",
+        "Benji Peng",
         "Xinyuan Song"
       ],
       "published": "2025-11-07T22:35:31+00:00",
-      "updated": "2025-11-07T22:35:31+00:00",
+      "updated": "2025-12-02T16:17:45+00:00",
       "summary": "Chain-of-Thought (CoT) reasoning enhances the problem-solving ability of large language models (LLMs) but leads to substantial inference overhead, limiting deployment in resource-constrained settings. This paper investigates efficient CoT transfer across models of different scales and architectures through an adaptive reasoning summarization framework. The proposed method compresses reasoning traces via semantic segmentation with importance scoring, budget-aware dynamic compression, and coherence reconstruction, preserving critical reasoning steps while significantly reducing token usage. Experiments on 7{,}501 medical examination questions across 10 specialties show up to 40% higher accuracy than truncation under the same token budgets. Evaluations on 64 model pairs from eight LLMs (1.5B-32B parameters, including DeepSeek-R1 and Qwen3) confirm strong cross-model transferability. Furthermore, a Gaussian Process-based Bayesian optimization module reduces evaluation cost by 84% and reveals a power-law relationship between model size and cross-domain robustness. These results demonstrate that reasoning summarization provides a practical path toward efficient CoT transfer, enabling advanced reasoning under tight computational constraints. Code will be released upon publication.",
       "categories": [
         "cs.AI"
       ],
       "primary_category": "cs.AI",
-      "pdf_url": "https://arxiv.org/pdf/2511.05747v1",
+      "pdf_url": "https://arxiv.org/pdf/2511.05747v2",
       "journal_ref": null,
       "doi": null,
       "comment": "TKDD 2025",
-      "entry_id": "http://arxiv.org/abs/2511.05747v1",
+      "entry_id": "http://arxiv.org/abs/2511.05747v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2511.05747v1",
+          "href": "https://arxiv.org/abs/2511.05747v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2511.05747v1",
+          "href": "https://arxiv.org/pdf/2511.05747v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -70660,6 +70777,45 @@
     }
   },
   "MVS": {
+    "2512.02541": {
+      "title": "AVGGT: Rethinking Global Attention for Accelerating VGGT",
+      "authors": [
+        "Xianbing Sun",
+        "Zhikai Zhu",
+        "Zhengyu Lou",
+        "Bo Yang",
+        "Jinyang Tang",
+        "Liqing Zhang",
+        "He Wang",
+        "Jianfu Zhang"
+      ],
+      "published": "2025-12-02T09:08:18+00:00",
+      "updated": "2025-12-02T09:08:18+00:00",
+      "summary": "Since DUSt3R, models such as VGGT and $π^3$ have shown strong multi-view 3D performance, but their heavy reliance on global self-attention results in high computational cost. Existing sparse-attention variants offer partial speedups, yet lack a systematic analysis of how global attention contributes to multi-view reasoning. In this paper, we first conduct an in-depth investigation of the global attention modules in VGGT and $π^3$ to better understand their roles. Our analysis reveals a clear division of roles in the alternating global-frame architecture: early global layers do not form meaningful correspondences, middle layers perform cross-view alignment, and last layers provide only minor refinements. Guided by these findings, we propose a training-free two-step acceleration scheme: (1) converting early global layers into frame attention, and (2) subsampling global attention by subsampling K/V over patch tokens with diagonal preservation and a mean-fill component. We instantiate this strategy on VGGT and $π^3$ and evaluate across standard pose and point-map benchmarks. Our method achieves up to $8$-$10\\times$ speedup in inference time while matching or slightly improving the accuracy of the original models, and remains robust even in extremely dense multi-view settings where prior sparse-attention baselines fail.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.02541v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.02541v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.02541v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.02541v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2511.23051": {
       "title": "GOATex: Geometry & Occlusion-Aware Texturing",
       "authors": [
@@ -86857,6 +87013,132 @@
     }
   },
   "Depth Estimation": {
+    "2512.03000": {
+      "title": "DynamicVerse: A Physically-Aware Multimodal Framework for 4D World Modeling",
+      "authors": [
+        "Kairun Wen",
+        "Yuzhi Huang",
+        "Runyu Chen",
+        "Hui Zheng",
+        "Yunlong Lin",
+        "Panwang Pan",
+        "Chenxin Li",
+        "Wenyan Cong",
+        "Jian Zhang",
+        "Junbin Lu",
+        "Chenguo Lin",
+        "Dilin Wang",
+        "Zhicheng Yan",
+        "Hongyu Xu",
+        "Justin Theiss",
+        "Yue Huang",
+        "Xinghao Ding",
+        "Rakesh Ranjan",
+        "Zhiwen Fan"
+      ],
+      "published": "2025-12-02T18:24:27+00:00",
+      "updated": "2025-12-02T18:24:27+00:00",
+      "summary": "Understanding the dynamic physical world, characterized by its evolving 3D structure, real-world motion, and semantic content with textual descriptions, is crucial for human-agent interaction and enables embodied agents to perceive and act within real environments with human-like capabilities. However, existing datasets are often derived from limited simulators or utilize traditional Structurefrom-Motion for up-to-scale annotation and offer limited descriptive captioning, which restricts the capacity of foundation models to accurately interpret real-world dynamics from monocular videos, commonly sourced from the internet. To bridge these gaps, we introduce DynamicVerse, a physical-scale, multimodal 4D world modeling framework for dynamic real-world video. We employ large vision, geometric, and multimodal models to interpret metric-scale static geometry, real-world dynamic motion, instance-level masks, and holistic descriptive captions. By integrating window-based Bundle Adjustment with global optimization, our method converts long real-world video sequences into a comprehensive 4D multimodal format. DynamicVerse delivers a large-scale dataset consists of 100K+ videos with 800K+ annotated masks and 10M+ frames from internet videos. Experimental evaluations on three benchmark tasks, namely video depth estimation, camera pose estimation, and camera intrinsics estimation, demonstrate that our 4D modeling achieves superior performance in capturing physical-scale measurements with greater global accuracy than existing methods.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.03000v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.03000v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.03000v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.03000v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2512.02972": {
+      "title": "BEVDilation: LiDAR-Centric Multi-Modal Fusion for 3D Object Detection",
+      "authors": [
+        "Guowen Zhang",
+        "Chenhang He",
+        "Liyi Chen",
+        "Lei Zhang"
+      ],
+      "published": "2025-12-02T17:50:33+00:00",
+      "updated": "2025-12-02T17:50:33+00:00",
+      "summary": "Integrating LiDAR and camera information in the bird's eye view (BEV) representation has demonstrated its effectiveness in 3D object detection. However, because of the fundamental disparity in geometric accuracy between these sensors, indiscriminate fusion in previous methods often leads to degraded performance. In this paper, we propose BEVDilation, a novel LiDAR-centric framework that prioritizes LiDAR information in the fusion. By formulating image BEV features as implicit guidance rather than naive concatenation, our strategy effectively alleviates the spatial misalignment caused by image depth estimation errors. Furthermore, the image guidance can effectively help the LiDAR-centric paradigm to address the sparsity and semantic limitations of point clouds. Specifically, we propose a Sparse Voxel Dilation Block that mitigates the inherent point sparsity by densifying foreground voxels through image priors. Moreover, we introduce a Semantic-Guided BEV Dilation Block to enhance the LiDAR feature diffusion processing with image semantic guidance and long-range context capture. On the challenging nuScenes benchmark, BEVDilation achieves better performance than state-of-the-art methods while maintaining competitive computational efficiency. Importantly, our LiDAR-centric strategy demonstrates greater robustness to depth noise compared to naive fusion. The source code is available at https://github.com/gwenzhang/BEVDilation.",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.02972v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accept by AAAI26",
+      "entry_id": "http://arxiv.org/abs/2512.02972v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.02972v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.02972v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2512.02727": {
+      "title": "DF-Mamba: Deformable State Space Modeling for 3D Hand Pose Estimation in Interactions",
+      "authors": [
+        "Yifan Zhou",
+        "Takehiko Ohkawa",
+        "Guwenxiao Zhou",
+        "Kanoko Goto",
+        "Takumi Hirose",
+        "Yusuke Sekikawa",
+        "Nakamasa Inoue"
+      ],
+      "published": "2025-12-02T13:01:04+00:00",
+      "updated": "2025-12-02T13:01:04+00:00",
+      "summary": "Modeling daily hand interactions often struggles with severe occlusions, such as when two hands overlap, which highlights the need for robust feature learning in 3D hand pose estimation (HPE). To handle such occluded hand images, it is vital to effectively learn the relationship between local image features (e.g., for occluded joints) and global context (e.g., cues from inter-joints, inter-hands, or the scene). However, most current 3D HPE methods still rely on ResNet for feature extraction, and such CNN's inductive bias may not be optimal for 3D HPE due to its limited capability to model the global context. To address this limitation, we propose an effective and efficient framework for visual feature extraction in 3D HPE using recent state space modeling (i.e., Mamba), dubbed Deformable Mamba (DF-Mamba). DF-Mamba is designed to capture global context cues beyond standard convolution through Mamba's selective state modeling and the proposed deformable state scanning. Specifically, for local features after convolution, our deformable scanning aggregates these features within an image while selectively preserving useful cues that represent the global context. This approach significantly improves the accuracy of structured 3D HPE, with comparable inference speed to ResNet-50. Our experiments involve extensive evaluations on five divergent datasets including single-hand and two-hand scenarios, hand-only and hand-object interactions, as well as RGB and depth-based estimation. DF-Mamba outperforms the latest image backbones, including VMamba and Spatial-Mamba, on all datasets and achieves state-of-the-art performance.",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.02727v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted to WACV 2026. Project page: https://tkhkaeio.github.io/projects/25-dfmamba/index.html",
+      "entry_id": "http://arxiv.org/abs/2512.02727v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.02727v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.02727v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2512.01889": {
       "title": "KM-ViPE: Online Tightly Coupled Vision-Language-Geometry Fusion for Open-Vocabulary Semantic SLAM",
       "authors": [

@@ -1,4 +1,4 @@
-## Updated at 2025-12-03 08:18:09
+## Updated at 2025-12-03 20:08:04
 
 ## 3DGS Semantic
 
@@ -170,6 +170,7 @@ Query: (abs:'Multi-View Stereo' OR abs:'Multi View Stereo' OR abs:'Multi-View De
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-12-02**|**[AVGGT: Rethinking Global Attention for Accelerating VGGT](https://arxiv.org/abs/2512.02541)**|N/A|None|cs.CV|None|Xianbing Sun et al.|
 |**2025-11-28**|**[GOATex: Geometry & Occlusion-Aware Texturing](https://arxiv.org/abs/2511.23051)**|N/A|Accepted to NeurIPS 2025; Project Page: https://goatex3d.github.io/|cs.CV|None|Hyunjin Kim et al.|
 |**2025-11-28**|**[Geometry-Consistent 4D Gaussian Splatting for Sparse-Input Dynamic View Synthesis](https://arxiv.org/abs/2511.23044)**|N/A|None|cs.CV|None|Yiwei Li et al.|
 |**2025-11-28**|**[MrGS: Multi-modal Radiance Fields with 3D Gaussian Splatting for RGB-Thermal Novel View Synthesis](https://arxiv.org/abs/2511.22997)**|N/A|Accepted at Thermal Infrared in Robotics (TIRO) Workshop, ICRA 2025 (Best Poster Award)|cs.CV|None|Minseong Kweon et al.|
@@ -612,6 +613,9 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-12-02**|**[DynamicVerse: A Physically-Aware Multimodal Framework for 4D World Modeling](https://arxiv.org/abs/2512.03000)**|N/A|None|cs.CV|None|Kairun Wen et al.|
+|**2025-12-02**|**[BEVDilation: LiDAR-Centric Multi-Modal Fusion for 3D Object Detection](https://arxiv.org/abs/2512.02972)**|N/A|Accept by AAAI26|cs.CV|None|Guowen Zhang et al.|
+|**2025-12-02**|**[DF-Mamba: Deformable State Space Modeling for 3D Hand Pose Estimation in Interactions](https://arxiv.org/abs/2512.02727)**|N/A|Accepted to WACV 2026. Project page: https://tkhkaeio.github.io/projects/25-dfmamba/index.html|cs.CV|None|Yifan Zhou et al.|
 |**2025-12-01**|**[KM-ViPE: Online Tightly Coupled Vision-Language-Geometry Fusion for Open-Vocabulary Semantic SLAM](https://arxiv.org/abs/2512.01889)**|N/A|None|cs.CV|None|Zaid Nasser et al.|
 |**2025-12-01**|**[BlinkBud: Detecting Hazards from Behind via Sampled Monocular 3D Detection on a Single Earbud](https://arxiv.org/abs/2512.01366)**|N/A|This is the author-accepted version of the paper published in Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), Vol. 9, No. 4, Article 191, 2025. Final published version: https://doi.org/10.1145/3770707|cs.CV|None|Yunzhe Li et al.|
 |**2025-11-30**|**[Lotus-2: Advancing Geometric Dense Prediction with Powerful Image Generative Model](https://arxiv.org/abs/2512.01030)**|N/A|Work done at the Hong Kong University of Science and Technology (Guangzhou). Project page: https://lotus-2.github.io/. 15 Pages, 12 Figures, 3 Tables|cs.CV|None|Jing He et al.|
