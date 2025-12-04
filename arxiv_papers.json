@@ -1,5 +1,284 @@
 {
   "3DGS Semantic": {
+    "2512.04031": {
+      "title": "Large Language Models for Limited Noisy Data: A Gravitational Wave Identification Study",
+      "authors": [
+        "Yixuan Li",
+        "Yuhao Lu",
+        "Yang Liu",
+        "Liang Li",
+        "R. Ruffini",
+        "Di Li",
+        "Rong-Gen Cai",
+        "Xiaoyan Zhu",
+        "Wenbin Lin",
+        "Yu Wang"
+      ],
+      "published": "2025-12-03T18:13:01+00:00",
+      "updated": "2025-12-03T18:13:01+00:00",
+      "summary": "This work investigates whether large language models (LLMs) offer advantages over traditional neural networks for astronomical data processing, in regimes with non-Gaussian, non-stationary noise and limited labeled samples. Gravitational wave observations provide an suitable test case, using only 90 LIGO events, finetuned LLMs achieve 97.4\\% accuracy for identifying signals. Further experiments show that, in contrast to traditional networks that rely on large simulated datasets, additional simulated samples do not improve LLM performance, while scaling studies reveal predictable gains with increasing model size and dataset size. These results indicate that LLMs can extract discriminative structure directly from observational data and provide an efficient assessment for gravitational wave identification. The same strategy may extend to other astronomical domains with similar noise properties, such as radio or pulsar observations.",
+      "categories": [
+        "astro-ph.IM",
+        "astro-ph.HE",
+        "cs.AI"
+      ],
+      "primary_category": "astro-ph.IM",
+      "pdf_url": "https://arxiv.org/pdf/2512.04031v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "10 pages, 5 figures",
+      "entry_id": "http://arxiv.org/abs/2512.04031v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.04031v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.04031v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.04021": {
+      "title": "C3G: Learning Compact 3D Representations with 2K Gaussians",
+      "authors": [
+        "Honggyu An",
+        "Jaewoo Jung",
+        "Mungyeom Kim",
+        "Sunghwan Hong",
+        "Chaehyun Kim",
+        "Kazumi Fukuda",
+        "Minkyeong Jeon",
+        "Jisang Han",
+        "Takuya Narihira",
+        "Hyuna Ko",
+        "Junsu Kim",
+        "Yuki Mitsufuji",
+        "Seungryong Kim"
+      ],
+      "published": "2025-12-03T17:59:05+00:00",
+      "updated": "2025-12-03T17:59:05+00:00",
+      "summary": "Reconstructing and understanding 3D scenes from unposed sparse views in a feed-forward manner remains as a challenging task in 3D computer vision. Recent approaches use per-pixel 3D Gaussian Splatting for reconstruction, followed by a 2D-to-3D feature lifting stage for scene understanding. However, they generate excessive redundant Gaussians, causing high memory overhead and sub-optimal multi-view feature aggregation, leading to degraded novel view synthesis and scene understanding performance. We propose C3G, a novel feed-forward framework that estimates compact 3D Gaussians only at essential spatial locations, minimizing redundancy while enabling effective feature lifting. We introduce learnable tokens that aggregate multi-view features through self-attention to guide Gaussian generation, ensuring each Gaussian integrates relevant visual features across views. We then exploit the learned attention patterns for Gaussian decoding to efficiently lift features. Extensive experiments on pose-free novel view synthesis, 3D open-vocabulary segmentation, and view-invariant feature aggregation demonstrate our approach's effectiveness. Results show that a compact yet geometrically meaningful representation is sufficient for high-quality scene reconstruction and understanding, achieving superior memory efficiency and feature fidelity compared to existing methods.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.04021v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Project Page : https://cvlab-kaist.github.io/C3G/",
+      "entry_id": "http://arxiv.org/abs/2512.04021v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.04021v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.04021v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2512.03601": {
+      "title": "Motion4D: Learning 3D-Consistent Motion and Semantics for 4D Scene Understanding",
+      "authors": [
+        "Haoran Zhou",
+        "Gim Hee Lee"
+      ],
+      "published": "2025-12-03T09:32:56+00:00",
+      "updated": "2025-12-03T09:32:56+00:00",
+      "summary": "Recent advancements in foundation models for 2D vision have substantially improved the analysis of dynamic scenes from monocular videos. However, despite their strong generalization capabilities, these models often lack 3D consistency, a fundamental requirement for understanding scene geometry and motion, thereby causing severe spatial misalignment and temporal flickering in complex 3D environments. In this paper, we present Motion4D, a novel framework that addresses these challenges by integrating 2D priors from foundation models into a unified 4D Gaussian Splatting representation. Our method features a two-part iterative optimization framework: 1) Sequential optimization, which updates motion and semantic fields in consecutive stages to maintain local consistency, and 2) Global optimization, which jointly refines all attributes for long-term coherence. To enhance motion accuracy, we introduce a 3D confidence map that dynamically adjusts the motion priors, and an adaptive resampling process that inserts new Gaussians into under-represented regions based on per-pixel RGB and semantic errors. Furthermore, we enhance semantic coherence through an iterative refinement process that resolves semantic inconsistencies by alternately optimizing the semantic fields and updating prompts of SAM2. Extensive evaluations demonstrate that our Motion4D significantly outperforms both 2D foundation models and existing 3D-based approaches across diverse scene understanding tasks, including point-based tracking, video object segmentation, and novel view synthesis. Our code is available at https://hrzhou2.github.io/motion4d-web/.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.03601v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted to NeurIPS 2025",
+      "entry_id": "http://arxiv.org/abs/2512.03601v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.03601v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.03601v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2512.03510": {
+      "title": "CSMapping: Scalable Crowdsourced Semantic Mapping and Topology Inference for Autonomous Driving",
+      "authors": [
+        "Zhijian Qiao",
+        "Zehuan Yu",
+        "Tong Li",
+        "Chih-Chung Chou",
+        "Wenchao Ding",
+        "Shaojie Shen"
+      ],
+      "published": "2025-12-03T07:06:18+00:00",
+      "updated": "2025-12-03T07:06:18+00:00",
+      "summary": "Crowdsourcing enables scalable autonomous driving map construction, but low-cost sensor noise hinders quality from improving with data volume. We propose CSMapping, a system that produces accurate semantic maps and topological road centerlines whose quality consistently increases with more crowdsourced data. For semantic mapping, we train a latent diffusion model on HD maps (optionally conditioned on SD maps) to learn a generative prior of real-world map structure, without requiring paired crowdsourced/HD-map supervision. This prior is incorporated via constrained MAP optimization in latent space, ensuring robustness to severe noise and plausible completion in unobserved areas. Initialization uses a robust vectorized mapping module followed by diffusion inversion; optimization employs efficient Gaussian-basis reparameterization, projected gradient descent zobracket multi-start, and latent-space factor-graph for global consistency. For topological mapping, we apply confidence-weighted k-medoids clustering and kinematic refinement to trajectories, yielding smooth, human-like centerlines robust to trajectory variation. Experiments on nuScenes, Argoverse 2, and a large proprietary dataset achieve state-of-the-art semantic and topological mapping performance, with thorough ablation and scalability studies.",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.03510v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.03510v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.03510v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.03510v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.03424": {
+      "title": "DM3D: Deformable Mamba via Offset-Guided Gaussian Sequencing for Point Cloud Understanding",
+      "authors": [
+        "Bin Liu",
+        "Chunyang Wang",
+        "Xuelian Liu"
+      ],
+      "published": "2025-12-03T03:57:41+00:00",
+      "updated": "2025-12-03T03:57:41+00:00",
+      "summary": "State Space Models (SSMs) demonstrate significant potential for long-sequence modeling, but their reliance on input order conflicts with the irregular nature of point clouds. Existing approaches often rely on predefined serialization strategies, which cannot adjust based on diverse geometric structures. To overcome this limitation, we propose \\textbf{DM3D}, a deformable Mamba architecture for point cloud understanding. Specifically, DM3D introduces an offset-guided Gaussian sequencing mechanism that unifies local resampling and global reordering within a deformable scan. The Gaussian-based KNN Resampling (GKR) enhances structural awareness by adaptively reorganizing neighboring points, while the Gaussian-based Differentiable Reordering (GDR) enables end-to-end optimization of serialization order. Furthermore, a Tri-Path Frequency Fusion module enhances feature complementarity and reduces aliasing. Together, these components enable structure-adaptive serialization of point clouds. Extensive experiments on benchmark datasets show that DM3D achieves state-of-the-art performance in classification, few-shot learning, and part segmentation, demonstrating that adaptive serialization effectively unlocks the potential of SSMs for point cloud understanding.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.03424v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.03424v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.03424v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.03424v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.03422": {
+      "title": "What Is The Best 3D Scene Representation for Robotics? From Geometric to Foundation Models",
+      "authors": [
+        "Tianchen Deng",
+        "Yue Pan",
+        "Shenghai Yuan",
+        "Dong Li",
+        "Chen Wang",
+        "Mingrui Li",
+        "Long Chen",
+        "Lihua Xie",
+        "Danwei Wang",
+        "Jingchuan Wang",
+        "Javier Civera",
+        "Hesheng Wang",
+        "Weidong Chen"
+      ],
+      "published": "2025-12-03T03:57:01+00:00",
+      "updated": "2025-12-03T03:57:01+00:00",
+      "summary": "In this paper, we provide a comprehensive overview of existing scene representation methods for robotics, covering traditional representations such as point clouds, voxels, signed distance functions (SDF), and scene graphs, as well as more recent neural representations like Neural Radiance Fields (NeRF), 3D Gaussian Splatting (3DGS), and the emerging Foundation Models. While current SLAM and localization systems predominantly rely on sparse representations like point clouds and voxels, dense scene representations are expected to play a critical role in downstream tasks such as navigation and obstacle avoidance. Moreover, neural representations such as NeRF, 3DGS, and foundation models are well-suited for integrating high-level semantic features and language-based priors, enabling more comprehensive 3D scene understanding and embodied intelligence. In this paper, we categorized the core modules of robotics into five parts (Perception, Mapping, Localization, Navigation, Manipulation). We start by presenting the standard formulation of different scene representation methods and comparing the advantages and disadvantages of scene representation across different modules. This survey is centered around the question: What is the best 3D scene representation for robotics? We then discuss the future development trends of 3D scene representations, with a particular focus on how the 3D Foundation Model could replace current methods as the unified solution for future robotic applications. The remaining challenges in fully realizing this model are also explored. We aim to offer a valuable resource for both newcomers and experienced researchers to explore the future of 3D scene representations and their application in robotics. We have published an open-source project on GitHub and will continue to add new works and technologies to this project.",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2512.03422v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.03422v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.03422v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.03422v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.03370": {
+      "title": "ShelfGaussian: Shelf-Supervised Open-Vocabulary Gaussian-based 3D Scene Understanding",
+      "authors": [
+        "Lingjun Zhao",
+        "Yandong Luo",
+        "James Hay",
+        "Lu Gan"
+      ],
+      "published": "2025-12-03T02:06:09+00:00",
+      "updated": "2025-12-03T02:06:09+00:00",
+      "summary": "We introduce ShelfGaussian, an open-vocabulary multi-modal Gaussian-based 3D scene understanding framework supervised by off-the-shelf vision foundation models (VFMs). Gaussian-based methods have demonstrated superior performance and computational efficiency across a wide range of scene understanding tasks. However, existing methods either model objects as closed-set semantic Gaussians supervised by annotated 3D labels, neglecting their rendering ability, or learn open-set Gaussian representations via purely 2D self-supervision, leading to degraded geometry and limited to camera-only settings. To fully exploit the potential of Gaussians, we propose a Multi-Modal Gaussian Transformer that enables Gaussians to query features from diverse sensor modalities, and a Shelf-Supervised Learning Paradigm that efficiently optimizes Gaussians with VFM features jointly at 2D image and 3D scene levels. We evaluate ShelfGaussian on various perception and planning tasks. Experiments on Occ3D-nuScenes demonstrate its state-of-the-art zero-shot semantic occupancy prediction performance. ShelfGaussian is further evaluated on an unmanned ground vehicle (UGV) to assess its in the-wild performance across diverse urban scenarios. Project website: https://lunarlab-gatech.github.io/ShelfGaussian/.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.03370v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.03370v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.03370v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.03370v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
     "2512.02925": {
       "title": "Fast Gaussian Process Approximations for Autocorrelated Data",
       "authors": [
@@ -70777,6 +71056,79 @@
     }
   },
   "MVS": {
+    "2512.03532": {
+      "title": "OpenTrack3D: Towards Accurate and Generalizable Open-Vocabulary 3D Instance Segmentation",
+      "authors": [
+        "Zhishan Zhou",
+        "Siyuan Wei",
+        "Zengran Wang",
+        "Chunjie Wang",
+        "Xiaosheng Yan",
+        "Xiao Liu"
+      ],
+      "published": "2025-12-03T07:51:03+00:00",
+      "updated": "2025-12-03T07:51:03+00:00",
+      "summary": "Generalizing open-vocabulary 3D instance segmentation (OV-3DIS) to diverse, unstructured, and mesh-free environments is crucial for robotics and AR/VR, yet remains a significant challenge. We attribute this to two key limitations of existing methods: (1) proposal generation relies on dataset-specific proposal networks or mesh-based superpoints, rendering them inapplicable in mesh-free scenarios and limiting generalization to novel scenes; and (2) the weak textual reasoning of CLIP-based classifiers, which struggle to recognize compositional and functional user queries. To address these issues, we introduce OpenTrack3D, a generalizable and accurate framework. Unlike methods that rely on pre-generated proposals, OpenTrack3D employs a novel visual-spatial tracker to construct cross-view consistent object proposals online. Given an RGB-D stream, our pipeline first leverages a 2D open-vocabulary segmenter to generate masks, which are lifted to 3D point clouds using depth. Mask-guided instance features are then extracted using DINO feature maps, and our tracker fuses visual and spatial cues to maintain instance consistency. The core pipeline is entirely mesh-free, yet we also provide an optional superpoints refinement module to further enhance performance when scene mesh is available. Finally, we replace CLIP with a multi-modal large language model (MLLM), significantly enhancing compositional reasoning for complex user queries. Extensive experiments on diverse benchmarks, including ScanNet200, Replica, ScanNet++, and SceneFun3D, demonstrate state-of-the-art performance and strong generalization capabilities.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.03532v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.03532v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.03532v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.03532v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2512.03453": {
+      "title": "GeoVideo: Introducing Geometric Regularization into Video Generation Model",
+      "authors": [
+        "Yunpeng Bai",
+        "Shaoheng Fang",
+        "Chaohui Yu",
+        "Fan Wang",
+        "Qixing Huang"
+      ],
+      "published": "2025-12-03T05:11:57+00:00",
+      "updated": "2025-12-03T05:11:57+00:00",
+      "summary": "Recent advances in video generation have enabled the synthesis of high-quality and visually realistic clips using diffusion transformer models. However, most existing approaches operate purely in the 2D pixel space and lack explicit mechanisms for modeling 3D structures, often resulting in temporally inconsistent geometries, implausible motions, and structural artifacts. In this work, we introduce geometric regularization losses into video generation by augmenting latent diffusion models with per-frame depth prediction. We adopted depth as the geometric representation because of the great progress in depth prediction and its compatibility with image-based latent encoders. Specifically, to enforce structural consistency over time, we propose a multi-view geometric loss that aligns the predicted depth maps across frames within a shared 3D coordinate system. Our method bridges the gap between appearance generation and 3D structure modeling, leading to improved spatio-temporal coherence, shape consistency, and physical plausibility. Experiments across multiple datasets show that our approach produces significantly more stable and geometrically consistent results than existing baselines.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.03453v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Project Page: https://geovideo.github.io/GeoVideo/",
+      "entry_id": "http://arxiv.org/abs/2512.03453v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.03453v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.03453v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2512.02541": {
       "title": "AVGGT: Rethinking Global Attention for Accelerating VGGT",
       "authors": [
@@ -87013,6 +87365,125 @@
     }
   },
   "Depth Estimation": {
+    "2512.04085": {
+      "title": "Unique Lives, Shared World: Learning from Single-Life Videos",
+      "authors": [
+        "Tengda Han",
+        "Sayna Ebrahimi",
+        "Dilara Gokay",
+        "Li Yang Ku",
+        "Maks Ovsjanikov",
+        "Iva Babukova",
+        "Daniel Zoran",
+        "Viorica Patraucean",
+        "Joao Carreira",
+        "Andrew Zisserman",
+        "Dima Damen"
+      ],
+      "published": "2025-12-03T18:59:57+00:00",
+      "updated": "2025-12-03T18:59:57+00:00",
+      "summary": "We introduce the \"single-life\" learning paradigm, where we train a distinct vision model exclusively on egocentric videos captured by one individual. We leverage the multiple viewpoints naturally captured within a single life to learn a visual encoder in a self-supervised manner. Our experiments demonstrate three key findings. First, models trained independently on different lives develop a highly aligned geometric understanding. We demonstrate this by training visual encoders on distinct datasets each capturing a different life, both indoors and outdoors, as well as introducing a novel cross-attention-based metric to quantify the functional alignment of the internal representations developed by different models. Second, we show that single-life models learn generalizable geometric representations that effectively transfer to downstream tasks, such as depth estimation, in unseen environments. Third, we demonstrate that training on up to 30 hours from one week of the same person's life leads to comparable performance to training on 30 hours of diverse web data, highlighting the strength of single-life representation learning. Overall, our results establish that the shared structure of the world, both leads to consistency in models trained on individual lives, and provides a powerful signal for visual representation learning.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.04085v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.04085v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.04085v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.04085v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2512.04069": {
+      "title": "SpaceTools: Tool-Augmented Spatial Reasoning via Double Interactive RL",
+      "authors": [
+        "Siyi Chen",
+        "Mikaela Angelina Uy",
+        "Chan Hee Song",
+        "Faisal Ladhak",
+        "Adithyavairavan Murali",
+        "Qing Qu",
+        "Stan Birchfield",
+        "Valts Blukis",
+        "Jonathan Tremblay"
+      ],
+      "published": "2025-12-03T18:50:04+00:00",
+      "updated": "2025-12-03T18:50:04+00:00",
+      "summary": "Vision Language Models (VLMs) demonstrate strong qualitative visual understanding, but struggle with metrically precise spatial reasoning required for embodied applications. The agentic paradigm promises that VLMs can use a wide variety of tools that could augment these capabilities, such as depth estimators, segmentation models, and pose estimators. Yet it remains an open challenge how to realize this vision without solely relying on handcrafted prompting strategies or enforcing fixed, predefined tool pipelines that limit VLMs' ability to discover optimal tool-use patterns. Reinforcement Learning could overcome this gap, but has so far been limited to reasoning with a single visual tool due to the large search space in multi-tool reasoning. We introduce Double Interactive Reinforcement Learning (DIRL), a two-phase training framework where VLMs learn to coordinate multiple tools through interactive exploration and feedback. In the teaching phase, we combine demonstrations from a single tool specialist trained via interactive RL with traces from a frontier model using all tools. In the exploration phase, the model further refines multi-tool coordination through continued RL. Our model, SpaceTools, with tool-augmented spatial reasoning ability, achieves state-of-the-art performance on spatial understanding benchmarks (RoboSpatial-Home, BLINK, BOP-ASK) and demonstrates reliable real-world manipulation using a 7-DOF robot as a tool. DIRL provides substantial improvements over the vanilla SFT (+12% on RoboSpatial) and RL (+16% on RoboSpatial) baselines. Project page: https://spacetools.github.io/.",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.04069v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.04069v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.04069v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.04069v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2512.03427": {
+      "title": "Generalization Evaluation of Deep Stereo Matching Methods for UAV-Based Forestry Applications",
+      "authors": [
+        "Yida Lin",
+        "Bing Xue",
+        "Mengjie Zhang",
+        "Sam Schofield",
+        "Richard Green"
+      ],
+      "published": "2025-12-03T04:14:08+00:00",
+      "updated": "2025-12-03T04:14:08+00:00",
+      "summary": "Autonomous UAV forestry operations require robust depth estimation methods with strong cross-domain generalization. However, existing evaluations focus on urban and indoor scenarios, leaving a critical gap for specialized vegetation-dense environments. We present the first systematic zero-shot evaluation of eight state-of-the-art stereo methods--RAFT-Stereo, IGEV, IGEV++, BridgeDepth, StereoAnywhere, DEFOM (plus baseline methods ACVNet, PSMNet, TCstereo)--spanning iterative refinement, foundation model, and zero-shot adaptation paradigms. All methods are trained exclusively on Scene Flow and evaluated without fine-tuning on four standard benchmarks (ETH3D, KITTI 2012/2015, Middlebury) plus a novel 5,313-pair Canterbury forestry dataset captured with ZED Mini camera (1920x1080). Performance reveals scene-dependent patterns: foundation models excel on structured scenes (BridgeDepth: 0.23 px on ETH3D, 0.83-1.07 px on KITTI; DEFOM: 0.35-4.65 px across benchmarks), while iterative methods maintain cross-domain robustness (IGEV++: 0.36-6.77 px; IGEV: 0.33-21.91 px). Critical finding: RAFT-Stereo exhibits catastrophic ETH3D failure (26.23 px EPE, 98 percent error rate) due to negative disparity predictions, while performing normally on KITTI (0.90-1.11 px). Qualitative evaluation on Canterbury forestry dataset identifies DEFOM as the optimal gold-standard baseline for vegetation depth estimation, exhibiting superior depth smoothness, occlusion handling, and cross-domain consistency compared to IGEV++, despite IGEV++'s finer detail preservation.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.03427v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.03427v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.03427v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.03427v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2512.03000": {
       "title": "DynamicVerse: A Physically-Aware Multimodal Framework for 4D World Modeling",
       "authors": [
@@ -87037,26 +87508,26 @@
         "Zhiwen Fan"
       ],
       "published": "2025-12-02T18:24:27+00:00",
-      "updated": "2025-12-02T18:24:27+00:00",
-      "summary": "Understanding the dynamic physical world, characterized by its evolving 3D structure, real-world motion, and semantic content with textual descriptions, is crucial for human-agent interaction and enables embodied agents to perceive and act within real environments with human-like capabilities. However, existing datasets are often derived from limited simulators or utilize traditional Structurefrom-Motion for up-to-scale annotation and offer limited descriptive captioning, which restricts the capacity of foundation models to accurately interpret real-world dynamics from monocular videos, commonly sourced from the internet. To bridge these gaps, we introduce DynamicVerse, a physical-scale, multimodal 4D world modeling framework for dynamic real-world video. We employ large vision, geometric, and multimodal models to interpret metric-scale static geometry, real-world dynamic motion, instance-level masks, and holistic descriptive captions. By integrating window-based Bundle Adjustment with global optimization, our method converts long real-world video sequences into a comprehensive 4D multimodal format. DynamicVerse delivers a large-scale dataset consists of 100K+ videos with 800K+ annotated masks and 10M+ frames from internet videos. Experimental evaluations on three benchmark tasks, namely video depth estimation, camera pose estimation, and camera intrinsics estimation, demonstrate that our 4D modeling achieves superior performance in capturing physical-scale measurements with greater global accuracy than existing methods.",
+      "updated": "2025-12-03T18:51:37+00:00",
+      "summary": "Understanding the dynamic physical world, characterized by its evolving 3D structure, real-world motion, and semantic content with textual descriptions, is crucial for human-agent interaction and enables embodied agents to perceive and act within real environments with human-like capabilities. However, existing datasets are often derived from limited simulators or utilize traditional Structurefrom-Motion for up-to-scale annotation and offer limited descriptive captioning, which restricts the capacity of foundation models to accurately interpret real-world dynamics from monocular videos, commonly sourced from the internet. To bridge these gaps, we introduce DynamicVerse, a physical-scale, multimodal 4D world modeling framework for dynamic real-world video. We employ large vision, geometric, and multimodal models to interpret metric-scale static geometry, real-world dynamic motion, instance-level masks, and holistic descriptive captions. By integrating window-based Bundle Adjustment with global optimization, our method converts long real-world video sequences into a comprehensive 4D multimodal format. DynamicVerse delivers a large-scale dataset consisting of 100K+ videos with 800K+ annotated masks and 10M+ frames from internet videos. Experimental evaluations on three benchmark tasks, namely video depth estimation, camera pose estimation, and camera intrinsics estimation, demonstrate that our 4D modeling achieves superior performance in capturing physical-scale measurements with greater global accuracy than existing methods.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2512.03000v1",
+      "pdf_url": "https://arxiv.org/pdf/2512.03000v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2512.03000v1",
+      "entry_id": "http://arxiv.org/abs/2512.03000v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2512.03000v1",
+          "href": "https://arxiv.org/abs/2512.03000v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2512.03000v1",
+          "href": "https://arxiv.org/pdf/2512.03000v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null

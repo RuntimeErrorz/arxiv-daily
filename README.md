@@ -1,4 +1,4 @@
-## Updated at 2025-12-04 08:18:46
+## Updated at 2025-12-04 20:08:34
 
 ## 3DGS Semantic
 
@@ -8,6 +8,9 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-12-03**|**[C3G: Learning Compact 3D Representations with 2K Gaussians](https://arxiv.org/abs/2512.04021)**|N/A|Project Page : https://cvlab-kaist.github.io/C3G/|cs.CV|None|Honggyu An et al.|
+|**2025-12-03**|**[Motion4D: Learning 3D-Consistent Motion and Semantics for 4D Scene Understanding](https://arxiv.org/abs/2512.03601)**|N/A|Accepted to NeurIPS 2025|cs.CV|None|Haoran Zhou, Gim Hee Lee|
+|**2025-12-03**|**[ShelfGaussian: Shelf-Supervised Open-Vocabulary Gaussian-based 3D Scene Understanding](https://arxiv.org/abs/2512.03370)**|N/A|None|cs.CV|None|Lingjun Zhao et al.|
 |**2025-11-30**|**[LISA-3D: Lifting Language-Image Segmentation to 3D via Multi-View Consistency](https://arxiv.org/abs/2512.01008)**|N/A|None|cs.CV|None|Zhongbin Guo et al.|
 |**2025-11-23**|**[SegSplat: Feed-forward Gaussian Splatting and Open-Set Semantic Segmentation](https://arxiv.org/abs/2511.18386)**|N/A|None|cs.CV|None|Peter Siegel et al.|
 |**2025-11-22**|**[CUS-GS: A Compact Unified Structured Gaussian Splatting Framework for Multimodal Scene Representation](https://arxiv.org/abs/2511.17904)**|N/A|15 pages, 8 figures, 4 tables|cs.CV|None|Yuhang Ming et al.|
@@ -170,6 +173,8 @@ Query: (abs:'Multi-View Stereo' OR abs:'Multi View Stereo' OR abs:'Multi-View De
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-12-03**|**[OpenTrack3D: Towards Accurate and Generalizable Open-Vocabulary 3D Instance Segmentation](https://arxiv.org/abs/2512.03532)**|N/A|None|cs.CV|None|Zhishan Zhou et al.|
+|**2025-12-03**|**[GeoVideo: Introducing Geometric Regularization into Video Generation Model](https://arxiv.org/abs/2512.03453)**|N/A|Project Page: https://geovideo.github.io/GeoVideo/|cs.CV|None|Yunpeng Bai et al.|
 |**2025-12-02**|**[AVGGT: Rethinking Global Attention for Accelerating VGGT](https://arxiv.org/abs/2512.02541)**|N/A|None|cs.CV|None|Xianbing Sun et al.|
 |**2025-11-28**|**[GOATex: Geometry & Occlusion-Aware Texturing](https://arxiv.org/abs/2511.23051)**|N/A|Accepted to NeurIPS 2025; Project Page: https://goatex3d.github.io/|cs.CV|None|Hyunjin Kim et al.|
 |**2025-11-28**|**[Geometry-Consistent 4D Gaussian Splatting for Sparse-Input Dynamic View Synthesis](https://arxiv.org/abs/2511.23044)**|N/A|None|cs.CV|None|Yiwei Li et al.|
@@ -613,6 +618,9 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-12-03**|**[Unique Lives, Shared World: Learning from Single-Life Videos](https://arxiv.org/abs/2512.04085)**|N/A|None|cs.CV|None|Tengda Han et al.|
+|**2025-12-03**|**[SpaceTools: Tool-Augmented Spatial Reasoning via Double Interactive RL](https://arxiv.org/abs/2512.04069)**|N/A|None|cs.CV|None|Siyi Chen et al.|
+|**2025-12-03**|**[Generalization Evaluation of Deep Stereo Matching Methods for UAV-Based Forestry Applications](https://arxiv.org/abs/2512.03427)**|N/A|None|cs.CV|None|Yida Lin et al.|
 |**2025-12-02**|**[DynamicVerse: A Physically-Aware Multimodal Framework for 4D World Modeling](https://arxiv.org/abs/2512.03000)**|N/A|None|cs.CV|None|Kairun Wen et al.|
 |**2025-12-02**|**[BEVDilation: LiDAR-Centric Multi-Modal Fusion for 3D Object Detection](https://arxiv.org/abs/2512.02972)**|N/A|Accept by AAAI26|cs.CV|None|Guowen Zhang et al.|
 |**2025-12-02**|**[DF-Mamba: Deformable State Space Modeling for 3D Hand Pose Estimation in Interactions](https://arxiv.org/abs/2512.02727)**|N/A|Accepted to WACV 2026. Project page: https://tkhkaeio.github.io/projects/25-dfmamba/index.html|cs.CV|None|Yifan Zhou et al.|
