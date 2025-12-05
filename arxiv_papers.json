@@ -1,5 +1,347 @@
 {
   "3DGS Semantic": {
+    "2512.05060": {
+      "title": "4DLangVGGT: 4D Language-Visual Geometry Grounded Transformer",
+      "authors": [
+        "Xianfeng Wu",
+        "Yajing Bai",
+        "Minghan Li",
+        "Xianzu Wu",
+        "Xueqi Zhao",
+        "Zhongyuan Lai",
+        "Wenyu Liu",
+        "Xinggang Wang"
+      ],
+      "published": "2025-12-04T18:15:27+00:00",
+      "updated": "2025-12-04T18:15:27+00:00",
+      "summary": "Constructing 4D language fields is crucial for embodied AI, augmented/virtual reality, and 4D scene understanding, as they provide enriched semantic representations of dynamic environments and enable open-vocabulary querying in complex scenarios. However, existing approaches to 4D semantic field construction primarily rely on scene-specific Gaussian splatting, which requires per-scene optimization, exhibits limited generalization, and is difficult to scale to real-world applications. To address these limitations, we propose 4DLangVGGT, the first Transformer-based feed-forward unified framework for 4D language grounding, that jointly integrates geometric perception and language alignment within a single architecture. 4DLangVGGT has two key components: the 4D Visual Geometry Transformer, StreamVGGT, which captures spatio-temporal geometric representations of dynamic scenes; and the Semantic Bridging Decoder (SBD), which projects geometry-aware features into a language-aligned semantic space, thereby enhancing semantic interpretability while preserving structural fidelity. Unlike prior methods that depend on costly per-scene optimization, 4DLangVGGT can be jointly trained across multiple dynamic scenes and directly applied during inference, achieving both deployment efficiency and strong generalization. This design significantly improves the practicality of large-scale deployment and establishes a new paradigm for open-vocabulary 4D scene understanding. Experiments on HyperNeRF and Neu3D datasets demonstrate that our approach not only generalizes effectively but also achieves state-of-the-art performance, achieving up to 2% gains under per-scene training and 1% improvements under multi-scene training. Our code released in https://github.com/hustvl/4DLangVGGT",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.05060v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Code: https://github.com/hustvl/4DLangVGGT, Webpage: https://hustvl.github.io/4DLangVGGT",
+      "entry_id": "http://arxiv.org/abs/2512.05060v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.05060v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.05060v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2512.04815": {
+      "title": "RobustSplat++: Decoupling Densification, Dynamics, and Illumination for In-the-Wild 3DGS",
+      "authors": [
+        "Chuanyu Fu",
+        "Guanying Chen",
+        "Yuqi Zhang",
+        "Kunbin Yao",
+        "Yuan Xiong",
+        "Chuan Huang",
+        "Shuguang Cui",
+        "Yasuyuki Matsushita",
+        "Xiaochun Cao"
+      ],
+      "published": "2025-12-04T14:05:09+00:00",
+      "updated": "2025-12-04T14:05:09+00:00",
+      "summary": "3D Gaussian Splatting (3DGS) has gained significant attention for its real-time, photo-realistic rendering in novel-view synthesis and 3D modeling. However, existing methods struggle with accurately modeling in-the-wild scenes affected by transient objects and illuminations, leading to artifacts in the rendered images. We identify that the Gaussian densification process, while enhancing scene detail capture, unintentionally contributes to these artifacts by growing additional Gaussians that model transient disturbances and illumination variations. To address this, we propose RobustSplat++, a robust solution based on several critical designs. First, we introduce a delayed Gaussian growth strategy that prioritizes optimizing static scene structure before allowing Gaussian splitting/cloning, mitigating overfitting to transient objects in early optimization. Second, we design a scale-cascaded mask bootstrapping approach that first leverages lower-resolution feature similarity supervision for reliable initial transient mask estimation, taking advantage of its stronger semantic consistency and robustness to noise, and then progresses to high-resolution supervision to achieve more precise mask prediction. Third, we incorporate the delayed Gaussian growth strategy and mask bootstrapping with appearance modeling to handling in-the-wild scenes including transients and illuminations. Extensive experiments on multiple challenging datasets show that our method outperforms existing methods, clearly demonstrating the robustness and effectiveness of our method.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.04815v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "arXiv admin note: substantial text overlap with arXiv:2506.02751",
+      "entry_id": "http://arxiv.org/abs/2512.04815v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.04815v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.04815v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.04731": {
+      "title": "Bridging Simulation and Reality: Cross-Domain Transfer with Semantic 2D Gaussian Splatting",
+      "authors": [
+        "Jian Tang",
+        "Pu Pang",
+        "Haowen Sun",
+        "Chengzhong Ma",
+        "Xingyu Chen",
+        "Hua Huang",
+        "Xuguang Lan"
+      ],
+      "published": "2025-12-04T12:16:15+00:00",
+      "updated": "2025-12-04T12:16:15+00:00",
+      "summary": "Cross-domain transfer in robotic manipulation remains a longstanding challenge due to the significant domain gap between simulated and real-world environments. Existing methods such as domain randomization, adaptation, and sim-real calibration often require extensive tuning or fail to generalize to unseen scenarios. To address this issue, we observe that if domain-invariant features are utilized during policy training in simulation, and the same features can be extracted and provided as the input to policy during real-world deployment, the domain gap can be effectively bridged, leading to significantly improved policy generalization. Accordingly, we propose Semantic 2D Gaussian Splatting (S2GS), a novel representation method that extracts object-centric, domain-invariant spatial features. S2GS constructs multi-view 2D semantic fields and projects them into a unified 3D space via feature-level Gaussian splatting. A semantic filtering mechanism removes irrelevant background content, ensuring clean and consistent inputs for policy learning. To evaluate the effectiveness of S2GS, we adopt Diffusion Policy as the downstream learning algorithm and conduct experiments in the ManiSkill simulation environment, followed by real-world deployment. Results demonstrate that S2GS significantly improves sim-to-real transferability, maintaining high and stable task performance in real-world scenarios.",
+      "categories": [
+        "cs.RO"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2512.04731v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.04731v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.04731v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.04731v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.04520": {
+      "title": "Boundary-Aware Test-Time Adaptation for Zero-Shot Medical Image Segmentation",
+      "authors": [
+        "Chenlin Xu",
+        "Lei Zhang",
+        "Lituan Wang",
+        "Xinyu Pu",
+        "Pengfei Ma",
+        "Guangwu Qian",
+        "Zizhou Wang",
+        "Yan Wang"
+      ],
+      "published": "2025-12-04T07:08:21+00:00",
+      "updated": "2025-12-04T07:08:21+00:00",
+      "summary": "Due to the scarcity of annotated data and the substantial computational costs of model, conventional tuning methods in medical image segmentation face critical challenges. Current approaches to adapting pretrained models, including full-parameter and parameter-efficient fine-tuning, still rely heavily on task-specific training on downstream tasks. Therefore, zero-shot segmentation has gained increasing attention, especially with foundation models such as SAM demonstrating promising generalization capabilities. However, SAM still faces notable limitations on medical datasets due to domain shifts, making efficient zero-shot enhancement an urgent research goal. To address these challenges, we propose BA-TTA-SAM, a task-agnostic test-time adaptation framework that significantly enhances the zero-shot segmentation performance of SAM via test-time adaptation. This framework integrates two key mechanisms: (1) The encoder-level Gaussian prompt injection embeds Gaussian-based prompts directly into the image encoder, providing explicit guidance for initial representation learning. (2) The cross-layer boundary-aware attention alignment exploits the hierarchical feature interactions within the ViT backbone, aligning deep semantic responses with shallow boundary cues. Experiments on four datasets, including ISIC, Kvasir, BUSI, and REFUGE, show an average improvement of 12.4\\% in the DICE score compared with SAM's zero-shot segmentation performance. The results demonstrate that our method consistently outperforms state-of-the-art models in medical image segmentation. Our framework significantly enhances the generalization ability of SAM, without requiring any source-domain training data. Extensive experiments on publicly available medical datasets strongly demonstrate the superiority of our framework. Our code is available at https://github.com/Emilychenlin/BA-TTA-SAM.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.04520v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.04520v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.04520v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.04520v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.04514": {
+      "title": "SPLICE: Part-Level 3D Shape Editing from Local Semantic Extraction to Global Neural Mixing",
+      "authors": [
+        "Jin Zhou",
+        "Hongliang Yang",
+        "Pengfei Xu",
+        "Hui Huang"
+      ],
+      "published": "2025-12-04T06:51:52+00:00",
+      "updated": "2025-12-04T06:51:52+00:00",
+      "summary": "Neural implicit representations of 3D shapes have shown great potential in 3D shape editing due to their ability to model high-level semantics and continuous geometric representations. However, existing methods often suffer from limited editability, lack of part-level control, and unnatural results when modifying or rearranging shape parts. In this work, we present SPLICE, a novel part-level neural implicit representation of 3D shapes that enables intuitive, structure-aware, and high-fidelity shape editing. By encoding each shape part independently and positioning them using parameterized Gaussian ellipsoids, SPLICE effectively isolates part-specific features while discarding global context that may hinder flexible manipulation. A global attention-based decoder is then employed to integrate parts coherently, further enhanced by an attention-guiding filtering mechanism that prevents information leakage across symmetric or adjacent components. Through this architecture, SPLICE supports various part-level editing operations, including translation, rotation, scaling, deletion, duplication, and cross-shape part mixing. These operations enable users to flexibly explore design variations while preserving semantic consistency and maintaining structural plausibility. Extensive experiments demonstrate that SPLICE outperforms existing approaches both qualitatively and quantitatively across a diverse set of shape-editing tasks.",
+      "categories": [
+        "cs.GR"
+      ],
+      "primary_category": "cs.GR",
+      "pdf_url": "https://arxiv.org/pdf/2512.04514v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.04514v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.04514v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.04514v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.04386": {
+      "title": "MASE: Interpretable NLP Models via Model-Agnostic Saliency Estimation",
+      "authors": [
+        "Zhou Yang",
+        "Shunyan Luo",
+        "Jiazhen Zhu",
+        "Fang Jin"
+      ],
+      "published": "2025-12-04T02:20:06+00:00",
+      "updated": "2025-12-04T02:20:06+00:00",
+      "summary": "Deep neural networks (DNNs) have made significant strides in Natural Language Processing (NLP), yet their interpretability remains elusive, particularly when evaluating their intricate decision-making processes. Traditional methods often rely on post-hoc interpretations, such as saliency maps or feature visualization, which might not be directly applicable to the discrete nature of word data in NLP. Addressing this, we introduce the Model-agnostic Saliency Estimation (MASE) framework. MASE offers local explanations for text-based predictive models without necessitating in-depth knowledge of a model's internal architecture. By leveraging Normalized Linear Gaussian Perturbations (NLGP) on the embedding layer instead of raw word inputs, MASE efficiently estimates input saliency. Our results indicate MASE's superiority over other model-agnostic interpretation methods, especially in terms of Delta Accuracy, positioning it as a promising tool for elucidating the operations of text-based models in NLP.",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CL",
+      "pdf_url": "https://arxiv.org/pdf/2512.04386v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.04386v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.04386v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.04386v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.04319": {
+      "title": "MANTRA: a Framework for Multi-stage Adaptive Noise TReAtment During Training",
+      "authors": [
+        "Zixiao Zhao",
+        "Fatemeh H. Fard",
+        "Jie JW Wu"
+      ],
+      "published": "2025-12-03T23:09:55+00:00",
+      "updated": "2025-12-03T23:09:55+00:00",
+      "summary": "The reliable application of deep learning models to software engineering tasks hinges on high-quality training data. Yet, large-scale repositories inevitably introduce noisy or mislabeled examples that degrade both accuracy and robustness. While Noise Label Learning (NLL) has been extensively studied in other fields, there are a few works that investigate NLL in Software Engineering (SE) and Large Language Models (LLMs) for SE tasks. In this work, we propose MANTRA, a Multi-stage Adaptive Noise TReAtment framework that embeds noise diagnosis and mitigation directly into the fine-tuning process of code-Pretrained Language Models (PTM) and code-LLMs. We first investigate the effect of noise at varying levels on convergence and loss trajectories of the models. Then we apply an adaptive dropout strategy guided by per-sample loss dynamics and Gaussian Mixture Model clustering to exclude persistently noisy points while preserving clean data. Applying to code summarization and commit intent classification, our experiments reveal that some LLMs are more sensitive to noise than others. However, with MANTRA, the performance of all models in both tasks is improved. MANTRA enables researchers and practitioners to reduce the impact of errors introduced by the dataset in training, saves time in data cleaning and processing, while maximizing the effect of fine-tuning.",
+      "categories": [
+        "cs.SE",
+        "cs.AI"
+      ],
+      "primary_category": "cs.SE",
+      "pdf_url": "https://arxiv.org/pdf/2512.04319v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.04319v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.04319v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.04319v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.04299": {
+      "title": "When do spectral gradient updates help in deep learning?",
+      "authors": [
+        "Damek Davis",
+        "Dmitriy Drusvyatskiy"
+      ],
+      "published": "2025-12-03T22:22:09+00:00",
+      "updated": "2025-12-03T22:22:09+00:00",
+      "summary": "Spectral gradient methods, such as the recently popularized Muon optimizer, are a promising alternative to standard Euclidean gradient descent for training deep neural networks and transformers, but it is still unclear in which regimes they are expected to perform better. We propose a simple layerwise condition that predicts when a spectral update yields a larger decrease in the loss than a Euclidean gradient step. This condition compares, for each parameter block, the squared nuclear-to-Frobenius ratio of the gradient to the stable rank of the incoming activations. To understand when this condition may be satisfied, we first prove that post-activation matrices have low stable rank at Gaussian initialization in random feature regression, feedforward networks, and transformer blocks. In spiked random feature models we then show that, after a short burn-in, the Euclidean gradient's nuclear-to-Frobenius ratio grows with the data dimension while the stable rank of the activations remains bounded, so the predicted advantage of spectral updates scales with dimension. We validate these predictions in synthetic regression experiments and in NanoGPT-scale language model training, where we find that intermediate activations have low-stable-rank throughout training and the corresponding gradients maintain large nuclear-to-Frobenius ratios. Together, these results identify conditions for spectral gradient methods, such as Muon, to be effective in training deep networks and transformers.",
+      "categories": [
+        "cs.LG",
+        "math.OC",
+        "stat.ML"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2512.04299v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.04299v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.04299v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.04299v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.04268": {
+      "title": "The Initialization Determines Whether In-Context Learning Is Gradient Descent",
+      "authors": [
+        "Shifeng Xie",
+        "Rui Yuan",
+        "Simone Rossi",
+        "Thomas Hannagan"
+      ],
+      "published": "2025-12-03T21:18:45+00:00",
+      "updated": "2025-12-03T21:18:45+00:00",
+      "summary": "In-context learning (ICL) in large language models (LLMs) is a striking phenomenon, yet its underlying mechanisms remain only partially understood. Previous work connects linear self-attention (LSA) to gradient descent (GD), this connection has primarily been established under simplified conditions with zero-mean Gaussian priors and zero initialization for GD. However, subsequent studies have challenged this simplified view by highlighting its overly restrictive assumptions, demonstrating instead that under conditions such as multi-layer or nonlinear attention, self-attention performs optimization-like inference, akin to but distinct from GD. We investigate how multi-head LSA approximates GD under more realistic conditions specifically when incorporating non-zero Gaussian prior means in linear regression formulations of ICL. We first extend multi-head LSA embedding matrix by introducing an initial estimation of the query, referred to as the initial guess. We prove an upper bound on the number of heads needed for ICL linear regression setup. Our experiments confirm this result and further observe that a performance gap between one-step GD and multi-head LSA persists. To address this gap, we introduce yq-LSA, a simple generalization of single-head LSA with a trainable initial guess yq. We theoretically establish the capabilities of yq-LSA and provide experimental validation on linear regression tasks, thereby extending the theory that bridges ICL and GD. Finally, inspired by our findings in the case of linear regression, we consider widespread LLMs augmented with initial guess capabilities, and show that their performance is improved on a semantic similarity task.",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2512.04268v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.04268v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.04268v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.04268v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2512.04031": {
       "title": "Large Language Models for Limited Noisy Data: A Gravitational Wave Identification Study",
       "authors": [
@@ -71080,6 +71422,43 @@
     }
   },
   "MVS": {
+    "2512.05044": {
+      "title": "Joint 3D Geometry Reconstruction and Motion Generation for 4D Synthesis from a Single Image",
+      "authors": [
+        "Yanran Zhang",
+        "Ziyi Wang",
+        "Wenzhao Zheng",
+        "Zheng Zhu",
+        "Jie Zhou",
+        "Jiwen Lu"
+      ],
+      "published": "2025-12-04T17:59:10+00:00",
+      "updated": "2025-12-04T17:59:10+00:00",
+      "summary": "Generating interactive and dynamic 4D scenes from a single static image remains a core challenge. Most existing generate-then-reconstruct and reconstruct-then-generate methods decouple geometry from motion, causing spatiotemporal inconsistencies and poor generalization. To address these, we extend the reconstruct-then-generate framework to jointly perform Motion generation and geometric Reconstruction for 4D Synthesis (MoRe4D). We first introduce TrajScene-60K, a large-scale dataset of 60,000 video samples with dense point trajectories, addressing the scarcity of high-quality 4D scene data. Based on this, we propose a diffusion-based 4D Scene Trajectory Generator (4D-STraG) to jointly generate geometrically consistent and motion-plausible 4D point trajectories. To leverage single-view priors, we design a depth-guided motion normalization strategy and a motion-aware module for effective geometry and dynamics integration. We then propose a 4D View Synthesis Module (4D-ViSM) to render videos with arbitrary camera trajectories from 4D point track representations. Experiments show that MoRe4D generates high-quality 4D scenes with multi-view consistency and rich dynamic details from a single image. Code: https://github.com/Zhangyr2022/MoRe4D.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.05044v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "18 Pages",
+      "entry_id": "http://arxiv.org/abs/2512.05044v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.05044v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.05044v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2512.03532": {
       "title": "OpenTrack3D: Towards Accurate and Generalizable Open-Vocabulary 3D Instance Segmentation",
       "authors": [
@@ -87389,6 +87768,84 @@
     }
   },
   "Depth Estimation": {
+    "2512.04563": {
+      "title": "COOPER: A Unified Model for Cooperative Perception and Reasoning in Spatial Intelligence",
+      "authors": [
+        "Zefeng Zhang",
+        "Xiangzhao Hao",
+        "Hengzhu Tang",
+        "Zhenyu Zhang",
+        "Jiawei Sheng",
+        "Xiaodong Li",
+        "Zhenyang Li",
+        "Li Gao",
+        "Daiting Shi",
+        "Dawei Yin",
+        "Tingwen Liu"
+      ],
+      "published": "2025-12-04T08:26:04+00:00",
+      "updated": "2025-12-04T08:26:04+00:00",
+      "summary": "Visual Spatial Reasoning is crucial for enabling Multimodal Large Language Models (MLLMs) to understand object properties and spatial relationships, yet current models still struggle with 3D-aware reasoning. Existing approaches typically enhance either perception, by augmenting RGB inputs with auxiliary modalities such as depth and segmentation, or reasoning, by training on spatial VQA datasets and applying reinforcement learning, and thus treat these two aspects in isolation. In this work, we investigate whether a unified MLLM can develop an intrinsic ability to enhance spatial perception and, through adaptive interleaved reasoning, achieve stronger spatial intelligence. We propose \\textbf{COOPER}, a unified MLLM that leverages depth and segmentation as auxiliary modalities and is trained in two stages to acquire auxiliary modality generation and adaptive, interleaved reasoning capabilities. COOPER achieves an average \\textbf{6.91\\%} improvement in spatial reasoning while maintaining general performance. Moreover, even a variant trained only for auxiliary modality generation attains a \\textbf{7.92\\%} gain on distance and size estimation, suggesting that learning to generate auxiliary modalities helps internalize spatial knowledge and strengthen spatial understanding.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.04563v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.04563v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.04563v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.04563v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2512.04303": {
+      "title": "Gamma-from-Mono: Road-Relative, Metric, Self-Supervised Monocular Geometry for Vehicular Applications",
+      "authors": [
+        "Gasser Elazab",
+        "Maximilian Jansen",
+        "Michael Unterreiner",
+        "Olaf Hellwich"
+      ],
+      "published": "2025-12-03T22:37:38+00:00",
+      "updated": "2025-12-03T22:37:38+00:00",
+      "summary": "Accurate perception of the vehicle's 3D surroundings, including fine-scale road geometry, such as bumps, slopes, and surface irregularities, is essential for safe and comfortable vehicle control. However, conventional monocular depth estimation often oversmooths these features, losing critical information for motion planning and stability. To address this, we introduce Gamma-from-Mono (GfM), a lightweight monocular geometry estimation method that resolves the projective ambiguity in single-camera reconstruction by decoupling global and local structure. GfM predicts a dominant road surface plane together with residual variations expressed by gamma, a dimensionless measure of vertical deviation from the plane, defined as the ratio of a point's height above it to its depth from the camera, and grounded in established planar parallax geometry. With only the camera's height above ground, this representation deterministically recovers metric depth via a closed form, avoiding full extrinsic calibration and naturally prioritizing near-road detail. Its physically interpretable formulation makes it well suited for self-supervised learning, eliminating the need for large annotated datasets. Evaluated on KITTI and the Road Surface Reconstruction Dataset (RSRD), GfM achieves state-of-the-art near-field accuracy in both depth and gamma estimation while maintaining competitive global depth performance. Our lightweight 8.88M-parameter model adapts robustly across diverse camera setups and, to our knowledge, is the first self-supervised monocular approach evaluated on RSRD.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.04303v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted in 3DV 2026",
+      "entry_id": "http://arxiv.org/abs/2512.04303v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.04303v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.04303v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2512.04085": {
       "title": "Unique Lives, Shared World: Learning from Single-Life Videos",
       "authors": [
