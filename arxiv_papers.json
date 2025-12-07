@@ -41,7 +41,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-12-06",
+        "queried_at": "2025-12-07",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -440,7 +440,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-12-05",
+        "queried_at": "2025-12-07",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -482,7 +482,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-12-05",
+        "queried_at": "2025-12-07",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -646,7 +646,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-12-05",
+        "queried_at": "2025-12-07",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -1081,7 +1081,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-12-03",
+        "queried_at": "2025-12-07",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -2124,7 +2124,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-11-30",
+        "queried_at": "2025-12-07",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -2320,7 +2320,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-11-30",
+        "queried_at": "2025-12-07",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -2628,7 +2628,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-11-30",
+        "queried_at": "2025-12-07",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -11147,7 +11147,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-11-30",
+        "queried_at": "2025-12-07",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -22827,7 +22827,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-11-30",
+        "queried_at": "2025-12-07",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -30357,7 +30357,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-11-30",
+        "queried_at": "2025-12-07",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -31688,11 +31688,10 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-11-30",
-        "venue": null,
-        "pub_type": null,
-        "publisher": null,
-        "note": "已查询但未找到venue信息"
+        "queried_at": "2025-12-07",
+        "venue": "International Conference on Machine Learning",
+        "pub_type": "JournalArticle,Conference",
+        "publisher": null
       }
     },
     "2502.20386": {
@@ -33122,7 +33121,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-11-30",
+        "queried_at": "2025-12-07",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -37772,7 +37771,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-11-30",
+        "queried_at": "2025-12-07",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -55074,7 +55073,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-11-30",
+        "queried_at": "2025-12-07",
         "venue": null,
         "pub_type": null,
         "publisher": null,

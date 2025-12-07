@@ -1,4 +1,4 @@
-## Updated at 2025-12-07 08:20:37
+## Updated at 2025-12-07 10:43:36
 
 ## 3DGS Semantic
 
@@ -96,7 +96,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2025-03-07**|**[Bayesian Fields: Task-driven Open-Set Semantic Gaussian Splatting](https://arxiv.org/abs/2503.05949)**|arXiv.org|None|cs.CV|None|Dominic Maggio, Luca Carlone|
 |**2025-03-06**|**[GaussianGraph: 3D Gaussian-based Scene Graph Generation for Open-world Scene Understanding](https://arxiv.org/abs/2503.04034)**|arXiv.org|None|cs.CV|None|Xihan Wang et al.|
 |**2025-03-03**|**[OpenGS-SLAM: Open-Set Dense Semantic SLAM with 3D Gaussian Splatting for Object-Level Scene Understanding](https://arxiv.org/abs/2503.01646)**|arXiv.org|None|cs.CV|None|Dianyi Yang et al.|
-|**2025-02-27**|**[From Thousands to Billions: 3D Visual Language Grounding via Render-Supervised Distillation from 2D VLMs](https://arxiv.org/abs/2502.20389)**|N/A|Project page: https://liftgs.github.io|cs.CV|None|Ang Cao et al.|
+|**2025-02-27**|**[From Thousands to Billions: 3D Visual Language Grounding via Render-Supervised Distillation from 2D VLMs](https://arxiv.org/abs/2502.20389)**|International Conference on Machine Learning|Project page: https://liftgs.github.io|cs.CV|None|Ang Cao et al.|
 |**2025-02-27**|**[ATLAS Navigator: Active Task-driven LAnguage-embedded Gaussian Splatting](https://arxiv.org/abs/2502.20386)**|arXiv.org|None|cs.RO|None|Dexter Ong et al.|
 |**2025-02-27**|**[Open-Vocabulary Semantic Part Segmentation of 3D Human](https://arxiv.org/abs/2502.19782)**|International Conference on 3D Vision|3DV 2025|cs.CV|None|Keito Suzuki et al.|
 |**2025-02-25**|**[UniGS: Unified Language-Image-3D Pretraining with Gaussian Splatting](https://arxiv.org/abs/2502.17860)**|International Conference on Learning Representations|ICLR 2025; Corrected citation of Uni3D;|cs.CV|None|Haoyuan Li et al.|
