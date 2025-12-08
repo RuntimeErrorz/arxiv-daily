@@ -1,5 +1,41 @@
 {
   "3DGS Semantic": {
+    "2512.05435": {
+      "title": "Spinning Primordial Black Holes and Scalar Induced Gravitational Waves from Single Field Inflation",
+      "authors": [
+        "Abolhassan Mohammadi",
+        "Yogesh",
+        "Qiang Wu",
+        "Tao Zhu"
+      ],
+      "published": "2025-12-05T05:21:47+00:00",
+      "updated": "2025-12-05T05:21:47+00:00",
+      "summary": "We investigate the formation of primordial black holes (PBHs), their spin and abundance, in a single-field inflationary model based on a mutated hilltop potential inserted with a small step-like feature. This step induces a brief phase of ultra-slow-roll inflation, producing the large enhancement of the scalar power spectrum required for an appreciable amount of PBH abundance. Instead of the commonly used analytical power spectra, we compute the primordial power spectrum accurately by numerically solving the Mukhanov-Sasaki equation. Using the obtained power spectrum, we apply peak theory with $\\nabla^2 ζ$ treated as a Gaussian random field and parametrize the curvature profile by its amplitude $μ$ and characteristic width $K$. Confining the study to Type-I PBH, the threshold value is calculated using two robust methods: the average of the compaction function and the q-function method. Using the result, the dimensionless spin parameter of the resulting PBHs is calculated at linear order and found to be $\\sqrt{\\langle a_\\star^2 \\rangle} \\sim 10^{-3}$; however, it can be higher for smaller masses. We present detailed predictions for two representative parameter sets, calculate the present-day PBH mass function $f_{\\rm PBH}(M)$ and the associated scalar-induced gravitational waves (SIGW). The first produces PBHs of mass $M \\simeq 10^{-13}\\,M_\\odot$ that can account for $100\\%$ of dark matter, while the second yields $M \\simeq 10^{-2}\\,M_\\odot$ PBHs contributing approximately $2.4\\%$ of the dark matter density. The predicted signals of SIGWs lie within the sensitivity bands of future experiments such as LISA, DECIGO, BBO, and SKA. In particular, the second parameter set produces a SIGWs compatible with the recent NANOGrav evidence for a low-frequency gravitational-wave signal.",
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "primary_category": "astro-ph.CO",
+      "pdf_url": "https://arxiv.org/pdf/2512.05435v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "22 pages, 14 figures",
+      "entry_id": "http://arxiv.org/abs/2512.05435v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.05435v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.05435v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2512.05060": {
       "title": "4DLangVGGT: 4D Language-Visual Geometry Grounded Transformer",
       "authors": [
@@ -87775,6 +87811,114 @@
     }
   },
   "Depth Estimation": {
+    "2512.05529": {
+      "title": "See in Depth: Training-Free Surgical Scene Segmentation with Monocular Depth Priors",
+      "authors": [
+        "Kunyi Yang",
+        "Qingyu Wang",
+        "Cheng Yuan",
+        "Yutong Ban"
+      ],
+      "published": "2025-12-05T08:41:42+00:00",
+      "updated": "2025-12-05T08:41:42+00:00",
+      "summary": "Pixel-wise segmentation of laparoscopic scenes is essential for computer-assisted surgery but difficult to scale due to the high cost of dense annotations. We propose depth-guided surgical scene segmentation (DepSeg), a training-free framework that utilizes monocular depth as a geometric prior together with pretrained vision foundation models. DepSeg first estimates a relative depth map with a pretrained monocular depth estimation network and proposes depth-guided point prompts, which SAM2 converts into class-agnostic masks. Each mask is then described by a pooled pretrained visual feature and classified via template matching against a template bank built from annotated frames. On the CholecSeg8k dataset, DepSeg improves over a direct SAM2 auto segmentation baseline (35.9% vs. 14.7% mIoU) and maintains competitive performance even when using only 10--20% of the object templates. These results show that depth-guided prompting and template-based classification offer an annotation-efficient segmentation approach.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.05529v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "The first two authors contributed equally",
+      "entry_id": "http://arxiv.org/abs/2512.05529v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.05529v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.05529v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2512.05412": {
+      "title": "YOLO and SGBM Integration for Autonomous Tree Branch Detection and Depth Estimation in Radiata Pine Pruning Applications",
+      "authors": [
+        "Yida Lin",
+        "Bing Xue",
+        "Mengjie Zhang",
+        "Sam Schofield",
+        "Richard Green"
+      ],
+      "published": "2025-12-05T04:08:47+00:00",
+      "updated": "2025-12-05T04:08:47+00:00",
+      "summary": "Manual pruning of radiata pine trees poses significant safety risks due to extreme working heights and challenging terrain. This paper presents a computer vision framework that integrates YOLO object detection with Semi-Global Block Matching (SGBM) stereo vision for autonomous drone-based pruning operations. Our system achieves precise branch detection and depth estimation using only stereo camera input, eliminating the need for expensive LiDAR sensors. Experimental evaluation demonstrates YOLO's superior performance over Mask R-CNN, achieving 82.0% mAPmask50-95 for branch segmentation. The integrated system accurately localizes branches within a 2 m operational range, with processing times under one second per frame. These results establish the feasibility of cost-effective autonomous pruning systems that enhance worker safety and operational efficiency in commercial forestry.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.05412v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.05412v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.05412v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.05412v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2512.05398": {
+      "title": "The Dynamic Prior: Understanding 3D Structures for Casual Dynamic Videos",
+      "authors": [
+        "Zhuoyuan Wu",
+        "Xurui Yang",
+        "Jiahui Huang",
+        "Yue Wang",
+        "Jun Gao"
+      ],
+      "published": "2025-12-05T03:31:49+00:00",
+      "updated": "2025-12-05T03:31:49+00:00",
+      "summary": "Estimating accurate camera poses, 3D scene geometry, and object motion from in-the-wild videos is a long-standing challenge for classical structure from motion pipelines due to the presence of dynamic objects. Recent learning-based methods attempt to overcome this challenge by training motion estimators to filter dynamic objects and focus on the static background. However, their performance is largely limited by the availability of large-scale motion segmentation datasets, resulting in inaccurate segmentation and, therefore, inferior structural 3D understanding. In this work, we introduce the Dynamic Prior (\\ourmodel) to robustly identify dynamic objects without task-specific training, leveraging the powerful reasoning capabilities of Vision-Language Models (VLMs) and the fine-grained spatial segmentation capacity of SAM2. \\ourmodel can be seamlessly integrated into state-of-the-art pipelines for camera pose optimization, depth reconstruction, and 4D trajectory estimation. Extensive experiments on both synthetic and real-world videos demonstrate that \\ourmodel not only achieves state-of-the-art performance on motion segmentation, but also significantly improves accuracy and robustness for structural 3D understanding.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.05398v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Code is available at https://github.com/wuzy2115/DYNAPO",
+      "entry_id": "http://arxiv.org/abs/2512.05398v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.05398v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.05398v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2512.04563": {
       "title": "COOPER: A Unified Model for Cooperative Perception and Reasoning in Spatial Intelligence",
       "authors": [
@@ -87791,26 +87935,26 @@
         "Tingwen Liu"
       ],
       "published": "2025-12-04T08:26:04+00:00",
-      "updated": "2025-12-04T08:26:04+00:00",
+      "updated": "2025-12-05T03:54:03+00:00",
       "summary": "Visual Spatial Reasoning is crucial for enabling Multimodal Large Language Models (MLLMs) to understand object properties and spatial relationships, yet current models still struggle with 3D-aware reasoning. Existing approaches typically enhance either perception, by augmenting RGB inputs with auxiliary modalities such as depth and segmentation, or reasoning, by training on spatial VQA datasets and applying reinforcement learning, and thus treat these two aspects in isolation. In this work, we investigate whether a unified MLLM can develop an intrinsic ability to enhance spatial perception and, through adaptive interleaved reasoning, achieve stronger spatial intelligence. We propose \\textbf{COOPER}, a unified MLLM that leverages depth and segmentation as auxiliary modalities and is trained in two stages to acquire auxiliary modality generation and adaptive, interleaved reasoning capabilities. COOPER achieves an average \\textbf{6.91\\%} improvement in spatial reasoning while maintaining general performance. Moreover, even a variant trained only for auxiliary modality generation attains a \\textbf{7.92\\%} gain on distance and size estimation, suggesting that learning to generate auxiliary modalities helps internalize spatial knowledge and strengthen spatial understanding.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2512.04563v1",
+      "pdf_url": "https://arxiv.org/pdf/2512.04563v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2512.04563v1",
+      "entry_id": "http://arxiv.org/abs/2512.04563v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2512.04563v1",
+          "href": "https://arxiv.org/abs/2512.04563v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2512.04563v1",
+          "href": "https://arxiv.org/pdf/2512.04563v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null

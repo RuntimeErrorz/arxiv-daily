@@ -1,4 +1,4 @@
-## Updated at 2025-12-08 08:19:08
+## Updated at 2025-12-08 20:07:43
 
 ## 3DGS Semantic
 
@@ -620,6 +620,9 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-12-05**|**[See in Depth: Training-Free Surgical Scene Segmentation with Monocular Depth Priors](https://arxiv.org/abs/2512.05529)**|N/A|The first two authors contributed equally|cs.CV|None|Kunyi Yang et al.|
+|**2025-12-05**|**[YOLO and SGBM Integration for Autonomous Tree Branch Detection and Depth Estimation in Radiata Pine Pruning Applications](https://arxiv.org/abs/2512.05412)**|N/A|None|cs.CV|None|Yida Lin et al.|
+|**2025-12-05**|**[The Dynamic Prior: Understanding 3D Structures for Casual Dynamic Videos](https://arxiv.org/abs/2512.05398)**|N/A|Code is available at https://github.com/wuzy2115/DYNAPO|cs.CV|None|Zhuoyuan Wu et al.|
 |**2025-12-04**|**[COOPER: A Unified Model for Cooperative Perception and Reasoning in Spatial Intelligence](https://arxiv.org/abs/2512.04563)**|N/A|None|cs.CV|None|Zefeng Zhang et al.|
 |**2025-12-03**|**[Gamma-from-Mono: Road-Relative, Metric, Self-Supervised Monocular Geometry for Vehicular Applications](https://arxiv.org/abs/2512.04303)**|N/A|Accepted in 3DV 2026|cs.CV|None|Gasser Elazab et al.|
 |**2025-12-03**|**[Unique Lives, Shared World: Learning from Single-Life Videos](https://arxiv.org/abs/2512.04085)**|N/A|None|cs.CV|None|Tengda Han et al.|
