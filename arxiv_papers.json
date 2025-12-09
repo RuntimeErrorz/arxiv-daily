@@ -88335,26 +88335,26 @@
         "Ying-Cong Chen"
       ],
       "published": "2025-11-30T18:57:25+00:00",
-      "updated": "2025-11-30T18:57:25+00:00",
+      "updated": "2025-12-04T20:59:28+00:00",
       "summary": "Recovering pixel-wise geometric properties from a single image is fundamentally ill-posed due to appearance ambiguity and non-injective mappings between 2D observations and 3D structures. While discriminative regression models achieve strong performance through large-scale supervision, their success is bounded by the scale, quality and diversity of available data and limited physical reasoning. Recent diffusion models exhibit powerful world priors that encode geometry and semantics learned from massive image-text data, yet directly reusing their stochastic generative formulation is suboptimal for deterministic geometric inference: the former is optimized for diverse and high-fidelity image generation, whereas the latter requires stable and accurate predictions. In this work, we propose Lotus-2, a two-stage deterministic framework for stable, accurate and fine-grained geometric dense prediction, aiming to provide an optimal adaption protocol to fully exploit the pre-trained generative priors. Specifically, in the first stage, the core predictor employs a single-step deterministic formulation with a clean-data objective and a lightweight local continuity module (LCM) to generate globally coherent structures without grid artifacts. In the second stage, the detail sharpener performs a constrained multi-step rectified-flow refinement within the manifold defined by the core predictor, enhancing fine-grained geometry through noise-free deterministic flow matching. Using only 59K training samples, less than 1% of existing large-scale datasets, Lotus-2 establishes new state-of-the-art results in monocular depth estimation and highly competitive surface normal prediction. These results demonstrate that diffusion models can serve as deterministic world priors, enabling high-quality geometric reasoning beyond traditional discriminative and generative paradigms.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2512.01030v1",
+      "pdf_url": "https://arxiv.org/pdf/2512.01030v2",
       "journal_ref": null,
       "doi": null,
-      "comment": "Work done at the Hong Kong University of Science and Technology (Guangzhou). Project page: https://lotus-2.github.io/. 15 Pages, 12 Figures, 3 Tables",
-      "entry_id": "http://arxiv.org/abs/2512.01030v1",
+      "comment": "Work done at the Hong Kong University of Science and Technology (Guangzhou). Project page: https://lotus-2.github.io/",
+      "entry_id": "http://arxiv.org/abs/2512.01030v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2512.01030v1",
+          "href": "https://arxiv.org/abs/2512.01030v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2512.01030v1",
+          "href": "https://arxiv.org/pdf/2512.01030v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null

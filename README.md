@@ -1,4 +1,4 @@
-## Updated at 2025-12-08 20:07:43
+## Updated at 2025-12-09 08:18:10
 
 ## 3DGS Semantic
 
@@ -633,7 +633,7 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 |**2025-12-02**|**[DF-Mamba: Deformable State Space Modeling for 3D Hand Pose Estimation in Interactions](https://arxiv.org/abs/2512.02727)**|N/A|Accepted to WACV 2026. Project page: https://tkhkaeio.github.io/projects/25-dfmamba/index.html|cs.CV|None|Yifan Zhou et al.|
 |**2025-12-01**|**[KM-ViPE: Online Tightly Coupled Vision-Language-Geometry Fusion for Open-Vocabulary Semantic SLAM](https://arxiv.org/abs/2512.01889)**|N/A|None|cs.CV|None|Zaid Nasser et al.|
 |**2025-12-01**|**[BlinkBud: Detecting Hazards from Behind via Sampled Monocular 3D Detection on a Single Earbud](https://arxiv.org/abs/2512.01366)**|N/A|This is the author-accepted version of the paper published in Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), Vol. 9, No. 4, Article 191, 2025. Final published version: https://doi.org/10.1145/3770707|cs.CV|None|Yunzhe Li et al.|
-|**2025-11-30**|**[Lotus-2: Advancing Geometric Dense Prediction with Powerful Image Generative Model](https://arxiv.org/abs/2512.01030)**|N/A|Work done at the Hong Kong University of Science and Technology (Guangzhou). Project page: https://lotus-2.github.io/. 15 Pages, 12 Figures, 3 Tables|cs.CV|None|Jing He et al.|
+|**2025-11-30**|**[Lotus-2: Advancing Geometric Dense Prediction with Powerful Image Generative Model](https://arxiv.org/abs/2512.01030)**|N/A|Work done at the Hong Kong University of Science and Technology (Guangzhou). Project page: https://lotus-2.github.io/|cs.CV|None|Jing He et al.|
 |**2025-11-30**|**[PolarGS: Polarimetric Cues for Ambiguity-Free Gaussian Splatting with Accurate Geometry Recovery](https://arxiv.org/abs/2512.00794)**|N/A|None|cs.CV|None|Bo Guo et al.|
 |**2025-11-30**|**[EAG3R: Event-Augmented 3D Geometry Estimation for Dynamic and Extreme-Lighting Scenes](https://arxiv.org/abs/2512.00771)**|N/A|Accepted at NeurIPS 2025 (spotlight)|cs.CV|None|Xiaoshan Wu et al.|
 |**2025-11-28**|**[Geometry-Consistent 4D Gaussian Splatting for Sparse-Input Dynamic View Synthesis](https://arxiv.org/abs/2511.23044)**|N/A|None|cs.CV|None|Yiwei Li et al.|
