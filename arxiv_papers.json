@@ -1,5 +1,308 @@
 {
   "3DGS Semantic": {
+    "2512.07807": {
+      "title": "Lang3D-XL: Language Embedded 3D Gaussians for Large-scale Scenes",
+      "authors": [
+        "Shai Krakovsky",
+        "Gal Fiebelman",
+        "Sagie Benaim",
+        "Hadar Averbuch-Elor"
+      ],
+      "published": "2025-12-08T18:39:58+00:00",
+      "updated": "2025-12-08T18:39:58+00:00",
+      "summary": "Embedding a language field in a 3D representation enables richer semantic understanding of spatial environments by linking geometry with descriptive meaning. This allows for a more intuitive human-computer interaction, enabling querying or editing scenes using natural language, and could potentially improve tasks like scene retrieval, navigation, and multimodal reasoning. While such capabilities could be transformative, in particular for large-scale scenes, we find that recent feature distillation approaches cannot effectively learn over massive Internet data due to challenges in semantic feature misalignment and inefficiency in memory and runtime. To this end, we propose a novel approach to address these challenges. First, we introduce extremely low-dimensional semantic bottleneck features as part of the underlying 3D Gaussian representation. These are processed by rendering and passing them through a multi-resolution, feature-based, hash encoder. This significantly improves efficiency both in runtime and GPU memory. Second, we introduce an Attenuated Downsampler module and propose several regularizations addressing the semantic misalignment of ground truth 2D features. We evaluate our method on the in-the-wild HolyScenes dataset and demonstrate that it surpasses existing approaches in both performance and efficiency.",
+      "categories": [
+        "cs.CV",
+        "cs.GR"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.07807v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted to SIGGRAPH Asia 2025. Project webpage: https://tau-vailab.github.io/Lang3D-XL",
+      "entry_id": "http://arxiv.org/abs/2512.07807v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.07807v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.07807v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2512.07667": {
+      "title": "Depth-Wise Activation Steering for Honest Language Models",
+      "authors": [
+        "Gracjan Góral",
+        "Marysia Winkels",
+        "Steven Basart"
+      ],
+      "published": "2025-12-08T16:03:06+00:00",
+      "updated": "2025-12-08T16:03:06+00:00",
+      "summary": "Large language models sometimes assert falsehoods despite internally representing the correct answer, failures of honesty rather than accuracy, which undermines auditability and safety. Existing approaches largely optimize factual correctness or depend on retraining and brittle single-layer edits, offering limited leverage over truthful reporting. We present a training-free activation steering method that weights steering strength across network depth using a Gaussian schedule. On the MASK benchmark, which separates honesty from knowledge, we evaluate seven models spanning the LLaMA, Qwen, and Mistral families and find that Gaussian scheduling improves honesty over no-steering and single-layer baselines in six of seven models. Equal-budget ablations on LLaMA-3.1-8B-Instruct and Qwen-2.5-7B-Instruct show the Gaussian schedule outperforms random, uniform, and box-filter depth allocations, indicating that how intervention is distributed across depth materially affects outcomes beyond total strength. The method is simple, model-agnostic, requires no finetuning, and provides a low-cost control knob for eliciting truthful reporting from models' existing capabilities.",
+      "categories": [
+        "cs.LG"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2512.07667v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "See \\url{https://github.com/marysia/gaussian-activation-steering}. for code and experiments",
+      "entry_id": "http://arxiv.org/abs/2512.07667v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.07667v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.07667v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.07345": {
+      "title": "Debiasing Diffusion Priors via 3D Attention for Consistent Gaussian Splatting",
+      "authors": [
+        "Shilong Jin",
+        "Haoran Duan",
+        "Litao Hua",
+        "Wentao Huang",
+        "Yuan Zhou"
+      ],
+      "published": "2025-12-08T09:33:39+00:00",
+      "updated": "2025-12-08T09:33:39+00:00",
+      "summary": "Versatile 3D tasks (e.g., generation or editing) that distill from Text-to-Image (T2I) diffusion models have attracted significant research interest for not relying on extensive 3D training data. However, T2I models exhibit limitations resulting from prior view bias, which produces conflicting appearances between different views of an object. This bias causes subject-words to preferentially activate prior view features during cross-attention (CA) computation, regardless of the target view condition. To overcome this limitation, we conduct a comprehensive mathematical analysis to reveal the root cause of the prior view bias in T2I models. Moreover, we find different UNet layers show different effects of prior view in CA. Therefore, we propose a novel framework, TD-Attn, which addresses multi-view inconsistency via two key components: (1) the 3D-Aware Attention Guidance Module (3D-AAG) constructs a view-consistent 3D attention Gaussian for subject-words to enforce spatial consistency across attention-focused regions, thereby compensating for the limited spatial information in 2D individual view CA maps; (2) the Hierarchical Attention Modulation Module (HAM) utilizes a Semantic Guidance Tree (SGT) to direct the Semantic Response Profiler (SRP) in localizing and modulating CA layers that are highly responsive to view conditions, where the enhanced CA maps further support the construction of more consistent 3D attention Gaussians. Notably, HAM facilitates semantic-specific interventions, enabling controllable and precise 3D editing. Extensive experiments firmly establish that TD-Attn has the potential to serve as a universal plugin, significantly enhancing multi-view consistency across 3D tasks.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.07345v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "15 pages, 8 figures, 5 tables, 2 algorithms, Accepted by AAAI 2026",
+      "entry_id": "http://arxiv.org/abs/2512.07345v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.07345v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.07345v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.07230": {
+      "title": "STRinGS: Selective Text Refinement in Gaussian Splatting",
+      "authors": [
+        "Abhinav Raundhal",
+        "Gaurav Behera",
+        "P J Narayanan",
+        "Ravi Kiran Sarvadevabhatla",
+        "Makarand Tapaswi"
+      ],
+      "published": "2025-12-08T07:20:01+00:00",
+      "updated": "2025-12-08T07:20:01+00:00",
+      "summary": "Text as signs, labels, or instructions is a critical element of real-world scenes as they can convey important contextual information. 3D representations such as 3D Gaussian Splatting (3DGS) struggle to preserve fine-grained text details, while achieving high visual fidelity. Small errors in textual element reconstruction can lead to significant semantic loss. We propose STRinGS, a text-aware, selective refinement framework to address this issue for 3DGS reconstruction. Our method treats text and non-text regions separately, refining text regions first and merging them with non-text regions later for full-scene optimization. STRinGS produces sharp, readable text even in challenging configurations. We introduce a text readability measure OCR Character Error Rate (CER) to evaluate the efficacy on text regions. STRinGS results in a 63.6% relative improvement over 3DGS at just 7K iterations. We also introduce a curated dataset STRinGS-360 with diverse text scenarios to evaluate text readability in 3D reconstruction. Our method and dataset together push the boundaries of 3D scene understanding in text-rich environments, paving the way for more robust text-aware reconstruction methods.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.07230v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted to WACV 2026. Project Page, see https://STRinGS-official.github.io",
+      "entry_id": "http://arxiv.org/abs/2512.07230v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.07230v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.07230v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2512.07212": {
+      "title": "Sample from What You See: Visuomotor Policy Learning via Diffusion Bridge with Observation-Embedded Stochastic Differential Equation",
+      "authors": [
+        "Zhaoyang Liu",
+        "Mokai Pan",
+        "Zhongyi Wang",
+        "Kaizhen Zhu",
+        "Haotao Lu",
+        "Jingya Wang",
+        "Ye Shi"
+      ],
+      "published": "2025-12-08T06:47:32+00:00",
+      "updated": "2025-12-08T06:47:32+00:00",
+      "summary": "Imitation learning with diffusion models has advanced robotic control by capturing multi-modal action distributions. However, existing approaches typically treat observations as high-level conditioning inputs to the denoising network, rather than integrating them into the stochastic dynamics of the diffusion process itself. As a result, sampling must begin from random Gaussian noise, weakening the coupling between perception and control and often yielding suboptimal performance. We introduce BridgePolicy, a generative visuomotor policy that explicitly embeds observations within the stochastic differential equation via a diffusion-bridge formulation. By constructing an observation-informed trajectory, BridgePolicy enables sampling to start from a rich, informative prior rather than random noise, substantially improving precision and reliability in control. A key challenge is that classical diffusion bridges connect distributions with matched dimensionality, whereas robotic observations are heterogeneous and multi-modal and do not naturally align with the action space. To address this, we design a multi-modal fusion module and a semantic aligner that unify visual and state inputs and align observation and action representations, making the bridge applicable to heterogeneous robot data. Extensive experiments across 52 simulation tasks on three benchmarks and five real-world tasks demonstrate that BridgePolicy consistently outperforms state-of-the-art generative policies.",
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "primary_category": "cs.AI",
+      "pdf_url": "https://arxiv.org/pdf/2512.07212v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.07212v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.07212v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.07212v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.07168": {
+      "title": "JEPA as a Neural Tokenizer: Learning Robust Speech Representations with Density Adaptive Attention",
+      "authors": [
+        "Georgios Ioannides",
+        "Christos Constantinou",
+        "Aman Chadha",
+        "Aaron Elkins",
+        "Linsey Pang",
+        "Ravid Shwartz-Ziv",
+        "Yann LeCun"
+      ],
+      "published": "2025-12-08T05:01:51+00:00",
+      "updated": "2025-12-08T05:01:51+00:00",
+      "summary": "We introduce a two-stage self-supervised framework that combines the Joint-Embedding Predictive Architecture (JEPA) with a Density Adaptive Attention Mechanism (DAAM) for learning robust speech representations. Stage~1 uses JEPA with DAAM to learn semantic audio features via masked prediction in latent space, fully decoupled from waveform reconstruction. Stage~2 leverages these representations for efficient tokenization using Finite Scalar Quantization (FSQ) and a mixed-radix packing scheme, followed by high-fidelity waveform reconstruction with a HiFi-GAN decoder. By integrating Gaussian mixture-based density-adaptive gating into the JEPA encoder, the model performs adaptive temporal feature selection and discovers hierarchical speech structure at a low frame rate of 2.5~Hz. The resulting tokens (47.5 tokens/sec) provide a reversible, highly compressed, and language-model-friendly representation that is competitive with, and often more efficient than, existing neural audio codecs.",
+      "categories": [
+        "cs.SD",
+        "cs.AI",
+        "cs.LG",
+        "eess.AS"
+      ],
+      "primary_category": "cs.SD",
+      "pdf_url": "https://arxiv.org/pdf/2512.07168v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "UniReps: Unifying Representations in Neural Models (NeurIPS 2025 Workshop)",
+      "entry_id": "http://arxiv.org/abs/2512.07168v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.07168v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.07168v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.06694": {
+      "title": "TopiCLEAR: Topic extraction by CLustering Embeddings with Adaptive dimensional Reduction",
+      "authors": [
+        "Aoi Fujita",
+        "Taichi Yamamoto",
+        "Yuri Nakayama",
+        "Ryota Kobayashi"
+      ],
+      "published": "2025-12-07T07:01:28+00:00",
+      "updated": "2025-12-07T07:01:28+00:00",
+      "summary": "Rapid expansion of social media platforms such as X (formerly Twitter), Facebook, and Reddit has enabled large-scale analysis of public perceptions on diverse topics, including social issues, politics, natural disasters, and consumer sentiment. Topic modeling is a widely used approach for uncovering latent themes in text data, typically framed as an unsupervised classification task. However, traditional models, originally designed for longer and more formal documents, struggle with short social media posts due to limited co-occurrence statistics, fragmented semantics, inconsistent spelling, and informal language. To address these challenges, we propose a new method, TopiCLEAR: Topic extraction by CLustering Embeddings with Adaptive dimensional Reduction. Specifically, each text is embedded using Sentence-BERT (SBERT) and provisionally clustered using Gaussian Mixture Models (GMM). The clusters are then refined iteratively using a supervised projection based on linear discriminant analysis, followed by GMM-based clustering until convergence. Notably, our method operates directly on raw text, eliminating the need for preprocessing steps such as stop word removal. We evaluate our approach on four diverse datasets, 20News, AgNewsTitle, Reddit, and TweetTopic, each containing human-labeled topic information. Compared with seven baseline methods, including a recent SBERT-based method and a zero-shot generative AI method, our approach achieves the highest similarity to human-annotated topics, with significant improvements for both social media posts and online news articles. Additionally, qualitative analysis shows that our method produces more interpretable topics, highlighting its potential for applications in social media data and web content analytics.",
+      "categories": [
+        "cs.CL"
+      ],
+      "primary_category": "cs.CL",
+      "pdf_url": "https://arxiv.org/pdf/2512.06694v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "15 pages, 4 figures, code available at https://github.com/aoi8716/TopiCLEAR",
+      "entry_id": "http://arxiv.org/abs/2512.06694v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.06694v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.06694v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.06334": {
+      "title": "Enhanced Multimodal Video Retrieval System: Integrating Query Expansion and Cross-modal Temporal Event Retrieval",
+      "authors": [
+        "Van-Thinh Vo",
+        "Minh-Khoi Nguyen",
+        "Minh-Huy Tran",
+        "Anh-Quan Nguyen-Tran",
+        "Duy-Tan Nguyen",
+        "Khanh-Loi Nguyen",
+        "Anh-Minh Phan"
+      ],
+      "published": "2025-12-06T07:46:51+00:00",
+      "updated": "2025-12-06T07:46:51+00:00",
+      "summary": "Multimedia information retrieval from videos remains a challenging problem. While recent systems have advanced multimodal search through semantic, object, and OCR queries - and can retrieve temporally consecutive scenes - they often rely on a single query modality for an entire sequence, limiting robustness in complex temporal contexts. To overcome this, we propose a cross-modal temporal event retrieval framework that enables different query modalities to describe distinct scenes within a sequence. To determine decision thresholds for scene transition and slide change adaptively, we build Kernel Density Gaussian Mixture Thresholding (KDE-GMM) algorithm, ensuring optimal keyframe selection. These extracted keyframes act as compact, high-quality visual exemplars that retain each segment's semantic essence, improving retrieval precision and efficiency. Additionally, the system incorporates a large language model (LLM) to refine and expand user queries, enhancing overall retrieval performance. The proposed system's effectiveness and robustness were demonstrated through its strong results in the Ho Chi Minh AI Challenge 2025.",
+      "categories": [
+        "cs.IR"
+      ],
+      "primary_category": "cs.IR",
+      "pdf_url": "https://arxiv.org/pdf/2512.06334v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "11 pages, 6 figures, SOICT 2025",
+      "entry_id": "http://arxiv.org/abs/2512.06334v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.06334v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.06334v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2512.05435": {
       "title": "Spinning Primordial Black Holes and Scalar Induced Gravitational Waves from Single Field Inflation",
       "authors": [
@@ -1501,6 +1804,42 @@
       ],
       "llm_approved": false
     },
+    "2512.05988": {
+      "title": "VG3T: Visual Geometry Grounded Gaussian Transformer",
+      "authors": [
+        "Junho Kim",
+        "Seongwon Lee"
+      ],
+      "published": "2025-11-28T07:27:20+00:00",
+      "updated": "2025-11-28T07:27:20+00:00",
+      "summary": "Generating a coherent 3D scene representation from multi-view images is a fundamental yet challenging task. Existing methods often struggle with multi-view fusion, leading to fragmented 3D representations and sub-optimal performance. To address this, we introduce VG3T, a novel multi-view feed-forward network that predicts a 3D semantic occupancy via a 3D Gaussian representation. Unlike prior methods that infer Gaussians from single-view images, our model directly predicts a set of semantically attributed Gaussians in a joint, multi-view fashion. This novel approach overcomes the fragmentation and inconsistency inherent in view-by-view processing, offering a unified paradigm to represent both geometry and semantics. We also introduce two key components, Grid-Based Sampling and Positional Refinement, to mitigate the distance-dependent density bias common in pixel-aligned Gaussian initialization methods. Our VG3T shows a notable 1.7%p improvement in mIoU while using 46% fewer primitives than the previous state-of-the-art on the nuScenes benchmark, highlighting its superior efficiency and performance.",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.05988v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.05988v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.05988v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.05988v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2511.22851": {
       "title": "The Shear-to-Cosmology Paradigm I: Hybrid Field-Level and Simulation-Based Framework for Weak Lensing Surveys",
       "authors": [
@@ -1586,26 +1925,26 @@
         "Dimity Miller"
       ],
       "published": "2025-11-27T01:48:27+00:00",
-      "updated": "2025-11-27T01:48:27+00:00",
+      "updated": "2025-12-06T03:01:03+00:00",
       "summary": "Vision-language models (VLMs), such as CLIP, have gained popularity for their strong open vocabulary classification performance, but they are prone to assigning high confidence scores to misclassifications, limiting their reliability in safety-critical applications. We introduce a training-free, post-hoc uncertainty estimation method for contrastive VLMs that can be used to detect erroneous predictions. The key to our approach is to measure visual feature consistency within a class, using feature projection combined with multivariate Gaussians to create class-specific probabilistic embeddings. Our method is VLM-agnostic, requires no fine-tuning, demonstrates robustness to distribution shift, and works effectively with as few as 10 training images per class. Extensive experiments on ImageNet, Flowers102, Food101, EuroSAT and DTD show state-of-the-art error detection performance, significantly outperforming both deterministic and probabilistic VLM baselines. Code is available at https://github.com/zhenxianglin/ICPE.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2511.22019v1",
+      "pdf_url": "https://arxiv.org/pdf/2511.22019v2",
       "journal_ref": null,
       "doi": null,
-      "comment": null,
-      "entry_id": "http://arxiv.org/abs/2511.22019v1",
+      "comment": "Accepted at the IEEE/CVF Winter Conference on Applications of Computer Vision 2026",
+      "entry_id": "http://arxiv.org/abs/2511.22019v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2511.22019v1",
+          "href": "https://arxiv.org/abs/2511.22019v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2511.22019v1",
+          "href": "https://arxiv.org/pdf/2511.22019v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -2898,26 +3237,26 @@
         "Li Xiong"
       ],
       "published": "2025-11-17T15:39:54+00:00",
-      "updated": "2025-11-17T15:39:54+00:00",
+      "updated": "2025-12-08T02:57:04+00:00",
       "summary": "Large language models (LLMs) perform in-context learning (ICL) by adapting to tasks from prompt demonstrations, which in practice often contain private or proprietary data. Although differential privacy (DP) with private voting is a pragmatic mitigation, DP-ICL implementations are error-prone, and worst-case DP bounds may substantially overestimate actual leakage, calling for practical auditing tools. We present a tight and efficient privacy auditing framework for DP-ICL systems that runs membership inference attacks and translates their success rates into empirical privacy guarantees using Gaussian DP. Our analysis of the private voting mechanism identifies vote configurations that maximize the auditing signal, guiding the design of audit queries that reliably reveal whether a canary demonstration is present in the context. The framework supports both black-box (API-only) and white-box (internal vote) threat models, and unifies auditing for classification and generation by reducing both to a binary decision problem. Experiments on standard text classification and generation benchmarks show that our empirical leakage estimates closely match theoretical DP budgets on classification tasks and are consistently lower on generation tasks due to conservative embedding-sensitivity bounds, making our framework a practical privacy auditor and verifier for real-world DP-ICL deployments.",
       "categories": [
         "cs.CR"
       ],
       "primary_category": "cs.CR",
-      "pdf_url": "https://arxiv.org/pdf/2511.13502v1",
+      "pdf_url": "https://arxiv.org/pdf/2511.13502v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2511.13502v1",
+      "entry_id": "http://arxiv.org/abs/2511.13502v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2511.13502v1",
+          "href": "https://arxiv.org/abs/2511.13502v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2511.13502v1",
+          "href": "https://arxiv.org/pdf/2511.13502v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -87811,6 +88150,121 @@
     }
   },
   "Depth Estimation": {
+    "2512.07596": {
+      "title": "More than Segmentation: Benchmarking SAM 3 for Segmentation, 3D Perception, and Reconstruction in Robotic Surgery",
+      "authors": [
+        "Wenzhen Dong",
+        "Jieming Yu",
+        "Yiming Huang",
+        "Hongqiu Wang",
+        "Lei Zhu",
+        "Albert C. S. Chung",
+        "Hongliang Ren",
+        "Long Bai"
+      ],
+      "published": "2025-12-08T14:43:40+00:00",
+      "updated": "2025-12-08T14:43:40+00:00",
+      "summary": "The recent Segment Anything Model (SAM) 3 has introduced significant advancements over its predecessor, SAM 2, particularly with the integration of language-based segmentation and enhanced 3D perception capabilities. SAM 3 supports zero-shot segmentation across a wide range of prompts, including point, bounding box, and language-based prompts, allowing for more flexible and intuitive interactions with the model. In this empirical evaluation, we assess the performance of SAM 3 in robot-assisted surgery, benchmarking its zero-shot segmentation with point and bounding box prompts and exploring its effectiveness in dynamic video tracking, alongside its newly introduced language prompt segmentation. While language prompts show potential, their performance in the surgical domain is currently suboptimal, highlighting the need for further domain-specific training. Additionally, we investigate SAM 3's 3D reconstruction abilities, demonstrating its capacity to process surgical scene data and reconstruct 3D anatomical structures from 2D images. Through comprehensive testing on the MICCAI EndoVis 2017 and EndoVis 2018 benchmarks, SAM 3 shows clear improvements over SAM and SAM 2 in both image and video segmentation under spatial prompts, while zero-shot evaluations on SCARED, StereoMIS, and EndoNeRF indicate strong monocular depth estimation and realistic 3D instrument reconstruction, yet also reveal remaining limitations in complex, highly dynamic surgical scenes.",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.07596v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Technical Report",
+      "entry_id": "http://arxiv.org/abs/2512.07596v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.07596v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.07596v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2512.06663": {
+      "title": "CoT4Det: A Chain-of-Thought Framework for Perception-Oriented Vision-Language Tasks",
+      "authors": [
+        "Yu Qi",
+        "Yumeng Zhang",
+        "Chenting Gong",
+        "Xiao Tan",
+        "Weiming Zhang",
+        "Wei Zhang",
+        "Jingdong Wang"
+      ],
+      "published": "2025-12-07T05:26:30+00:00",
+      "updated": "2025-12-07T05:26:30+00:00",
+      "summary": "Large Vision-Language Models (LVLMs) have demonstrated remarkable success in a broad range of vision-language tasks, such as general visual question answering and optical character recognition (OCR). However, their performance on perception-centric tasks -- such as object detection, semantic segmentation, and depth estimation -- remains significantly inferior to that of task-specific expert models. For example, Qwen2.5-VL-7B-Instruct achieves only 19% mAP on COCO2017 val, particularly struggling with dense scenes and small object recall. In this work, we introduce Chain-of-Thought for Detection (CoT4Det), a simple but efficient strategy that reformulates perception tasks into three interpretable steps: classification, counting, and grounding -- each more naturally aligned with the reasoning capabilities of LVLMs. Extensive experiments demonstrate that our method significantly improves perception performance without compromising general vision language capabilities. With a standard Qwen2.5-VL-7B-Instruct, CoT4Det boosts mAP from 19.0% to 33.0% on COCO2017 val and achieves competitive results across a variety of perception benchmarks, outperforming baselines by +2% on RefCOCO series and 19% on Flickr30k entities.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.06663v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.06663v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.06663v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.06663v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2512.06368": {
+      "title": "Human3R: Incorporating Human Priors for Better 3D Dynamic Reconstruction from Monocular Videos",
+      "authors": [
+        "Weitao Xiong",
+        "Zhiyuan Yuan",
+        "Jiahao Lu",
+        "Chengfeng Zhao",
+        "Peng Li",
+        "Yuan Liu"
+      ],
+      "published": "2025-12-06T09:42:56+00:00",
+      "updated": "2025-12-06T09:42:56+00:00",
+      "summary": "Monocular dynamic video reconstruction faces significant challenges in dynamic human scenes due to geometric inconsistencies and resolution degradation issues. Existing methods lack 3D human structural understanding, producing geometrically inconsistent results with distorted limb proportions and unnatural human-object fusion, while memory-constrained downsampling causes human boundary drift toward background geometry. To address these limitations, we propose to incorporate hybrid geometric priors that combine SMPL human body models with monocular depth estimation. Our approach leverages structured human priors to maintain surface consistency while capturing fine-grained geometric details in human regions. We introduce Human3R, featuring a hierarchical pipeline with refinement components that processes full-resolution images for overall scene geometry, then applies strategic cropping and cross-attention fusion for human-specific detail enhancement. The method integrates SMPL priors through a Feature Fusion Module to ensure geometrically plausible reconstruction while preserving fine-grained human boundaries. Extensive experiments on TUM Dynamics and GTA-IM datasets demonstrate superior performance in dynamic human reconstruction.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.06368v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.06368v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.06368v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.06368v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2512.05529": {
       "title": "See in Depth: Training-Free Surgical Scene Segmentation with Monocular Depth Priors",
       "authors": [
