@@ -1,5 +1,149 @@
 {
   "3DGS Semantic": {
+    "2512.08625": {
+      "title": "OpenMonoGS-SLAM: Monocular Gaussian Splatting SLAM with Open-set Semantics",
+      "authors": [
+        "Jisang Yoo",
+        "Gyeongjin Kang",
+        "Hyun-kyu Ko",
+        "Hyeonwoo Yu",
+        "Eunbyung Park"
+      ],
+      "published": "2025-12-09T14:10:23+00:00",
+      "updated": "2025-12-09T14:10:23+00:00",
+      "summary": "Simultaneous Localization and Mapping (SLAM) is a foundational component in robotics, AR/VR, and autonomous systems. With the rising focus on spatial AI in recent years, combining SLAM with semantic understanding has become increasingly important for enabling intelligent perception and interaction. Recent efforts have explored this integration, but they often rely on depth sensors or closed-set semantic models, limiting their scalability and adaptability in open-world environments. In this work, we present OpenMonoGS-SLAM, the first monocular SLAM framework that unifies 3D Gaussian Splatting (3DGS) with open-set semantic understanding. To achieve our goal, we leverage recent advances in Visual Foundation Models (VFMs), including MASt3R for visual geometry and SAM and CLIP for open-vocabulary semantics. These models provide robust generalization across diverse tasks, enabling accurate monocular camera tracking and mapping, as well as a rich understanding of semantics in open-world environments. Our method operates without any depth input or 3D semantic ground truth, relying solely on self-supervised learning objectives. Furthermore, we propose a memory mechanism specifically designed to manage high-dimensional semantic features, which effectively constructs Gaussian semantic feature maps, leading to strong overall performance. Experimental results demonstrate that our approach achieves performance comparable to or surpassing existing baselines in both closed-set and open-set segmentation tasks, all without relying on supplementary sensors such as depth maps or semantic annotations.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.08625v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "8 pages, 4 figures",
+      "entry_id": "http://arxiv.org/abs/2512.08625v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.08625v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.08625v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2512.08443": {
+      "title": "Fully Decentralized Certified Unlearning",
+      "authors": [
+        "Hithem Lamri",
+        "Michail Maniatakos"
+      ],
+      "published": "2025-12-09T10:15:15+00:00",
+      "updated": "2025-12-09T10:15:15+00:00",
+      "summary": "Machine unlearning (MU) seeks to remove the influence of specified data from a trained model in response to privacy requests or data poisoning. While certified unlearning has been analyzed in centralized and server-orchestrated federated settings (via guarantees analogous to differential privacy, DP), the decentralized setting -- where peers communicate without a coordinator remains underexplored. We study certified unlearning in decentralized networks with fixed topologies and propose RR-DU, a random-walk procedure that performs one projected gradient ascent step on the forget set at the unlearning client and a geometrically distributed number of projected descent steps on the retained data elsewhere, combined with subsampled Gaussian noise and projection onto a trust region around the original model. We provide (i) convergence guarantees in the convex case and stationarity guarantees in the nonconvex case, (ii) $(\\varepsilon,δ)$ network-unlearning certificates on client views via subsampled Gaussian Rényi DP (RDP) with segment-level subsampling, and (iii) deletion-capacity bounds that scale with the forget-to-local data ratio and quantify the effect of decentralization (network mixing and randomized subsampling) on the privacy-utility trade-off. Empirically, on image benchmarks (MNIST, CIFAR-10), RR-DU matches a given $(\\varepsilon,δ)$ while achieving higher test accuracy than decentralized DP baselines and reducing forget accuracy to random guessing ($\\approx 10\\%$).",
+      "categories": [
+        "cs.LG"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2512.08443v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.08443v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.08443v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.08443v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.08271": {
+      "title": "Zero-Splat TeleAssist: A Zero-Shot Pose Estimation Framework for Semantic Teleoperation",
+      "authors": [
+        "Srijan Dokania",
+        "Dharini Raghavan"
+      ],
+      "published": "2025-12-09T05:59:38+00:00",
+      "updated": "2025-12-09T05:59:38+00:00",
+      "summary": "We introduce Zero-Splat TeleAssist, a zero-shot sensor-fusion pipeline that transforms commodity CCTV streams into a shared, 6-DoF world model for multilateral teleoperation. By integrating vision-language segmentation, monocular depth, weighted-PCA pose extraction, and 3D Gaussian Splatting (3DGS), TeleAssist provides every operator with real-time global positions and orientations of multiple robots without fiducials or depth sensors in an interaction-centric teleoperation setup.",
+      "categories": [
+        "cs.RO",
+        "cs.CV",
+        "cs.LG",
+        "eess.IV"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2512.08271v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Published and Presented at 3rd Workshop on Human-Centric Multilateral Teleoperation in ICRA 2025",
+      "entry_id": "http://arxiv.org/abs/2512.08271v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.08271v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.08271v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.08243": {
+      "title": "Residual-SwinCA-Net: A Channel-Aware Integrated Residual CNN-Swin Transformer for Malignant Lesion Segmentation in BUSI",
+      "authors": [
+        "Saeeda Naz",
+        "Saddam Hussain Khan"
+      ],
+      "published": "2025-12-09T04:52:30+00:00",
+      "updated": "2025-12-09T04:52:30+00:00",
+      "summary": "A novel deep hybrid Residual-SwinCA-Net segmentation framework is proposed in the study for addressing such challenges by extracting locally correlated and robust features, incorporating residual CNN modules. Furthermore, for learning global dependencies, Swin Transformer blocks are customized using internal residual pathways, which reinforce gradient stability, refine local patterns, and facilitate global feature fusion. Formerly, for enhancing tissue continuity, ultrasound noise suppressions, and accentuating fine structural transitions Laplacian-of-Gaussian regional operator is applied, and for maintaining the morphological integrity of malignant lesion contours, a boundary-oriented operator has been incorporated. Subsequently, a contraction strategy was applied stage-wise by progressively reducing features-map progressively for capturing scale invariance and enhancing the robustness of structural variability. In addition, each decoder level prior augmentation integrates a new Multi-Scale Channel Attention and Squeezing (MSCAS) module. The MSCAS selectively emphasizes encoder salient maps, retains discriminative global context, and complementary local structures with minimal computational cost while suppressing redundant activations. Finally, the Pixel-Attention module encodes class-relevant spatial cues by adaptively weighing malignant lesion pixels while suppressing background interference. The Residual-SwinCA-Net and existing CNNs/ViTs techniques have been implemented on the publicly available BUSI dataset. The proposed Residual-SwinCA-Net framework outperformed and achieved 99.29% mean accuracy, 98.74% IoU, and 0.9041 Dice for breast lesion segmentation. The proposed Residual-SwinCA-Net framework improves the BUSI lesion diagnostic performance and strengthens timely clinical decision-making.",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.08243v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "26 Pages, 10 Figures, 4 Tables",
+      "entry_id": "http://arxiv.org/abs/2512.08243v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.08243v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.08243v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2512.07807": {
       "title": "Lang3D-XL: Language Embedded 3D Gaussians for Large-scale Scenes",
       "authors": [
@@ -71820,6 +71964,43 @@
     }
   },
   "MVS": {
+    "2512.08430": {
+      "title": "SDT-6D: Fully Sparse Depth-Transformer for Staged End-to-End 6D Pose Estimation in Industrial Multi-View Bin Picking",
+      "authors": [
+        "Nico Leuze",
+        "Maximilian Hoh",
+        "Samed Doğan",
+        "Nicolas R. -Peña",
+        "Alfred Schoettl"
+      ],
+      "published": "2025-12-09T09:58:35+00:00",
+      "updated": "2025-12-09T09:58:35+00:00",
+      "summary": "Accurately recovering 6D poses in densely packed industrial bin-picking environments remain a serious challenge, owing to occlusions, reflections, and textureless parts. We introduce a holistic depth-only 6D pose estimation approach that fuses multi-view depth maps into either a fine-grained 3D point cloud in its vanilla version, or a sparse Truncated Signed Distance Field (TSDF). At the core of our framework lies a staged heatmap mechanism that yields scene-adaptive attention priors across different resolutions, steering computation toward foreground regions, thus keeping memory requirements at high resolutions feasible. Along, we propose a density-aware sparse transformer block that dynamically attends to (self-) occlusions and the non-uniform distribution of 3D data. While sparse 3D approaches has proven effective for long-range perception, its potential in close-range robotic applications remains underexplored. Our framework operates fully sparse, enabling high-resolution volumetric representations to capture fine geometric details crucial for accurate pose estimation in clutter. Our method processes the entire scene integrally, predicting the 6D pose via a novel per-voxel voting strategy, allowing simultaneous pose predictions for an arbitrary number of target objects. We validate our method on the recently published IPD and MV-YCB multi-view datasets, demonstrating competitive performance in heavily cluttered industrial and household bin picking scenarios.",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.08430v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted to WACV 2026. Preprint version",
+      "entry_id": "http://arxiv.org/abs/2512.08430v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.08430v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.08430v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2512.05044": {
       "title": "Joint 3D Geometry Reconstruction and Motion Generation for 4D Synthesis from a Single Image",
       "authors": [
@@ -88166,6 +88347,78 @@
     }
   },
   "Depth Estimation": {
+    "2512.08700": {
+      "title": "Scale-invariant and View-relational Representation Learning for Full Surround Monocular Depth",
+      "authors": [
+        "Kyumin Hwang",
+        "Wonhyeok Choi",
+        "Kiljoon Han",
+        "Wonjoon Choi",
+        "Minwoo Choi",
+        "Yongcheon Na",
+        "Minwoo Park",
+        "Sunghoon Im"
+      ],
+      "published": "2025-12-09T15:17:20+00:00",
+      "updated": "2025-12-09T15:17:20+00:00",
+      "summary": "Recent foundation models demonstrate strong generalization capabilities in monocular depth estimation. However, directly applying these models to Full Surround Monocular Depth Estimation (FSMDE) presents two major challenges: (1) high computational cost, which limits real-time performance, and (2) difficulty in estimating metric-scale depth, as these models are typically trained to predict only relative depth. To address these limitations, we propose a novel knowledge distillation strategy that transfers robust depth knowledge from a foundation model to a lightweight FSMDE network. Our approach leverages a hybrid regression framework combining the knowledge distillation scheme--traditionally used in classification--with a depth binning module to enhance scale consistency. Specifically, we introduce a cross-interaction knowledge distillation scheme that distills the scale-invariant depth bin probabilities of a foundation model into the student network while guiding it to infer metric-scale depth bin centers from ground-truth depth. Furthermore, we propose view-relational knowledge distillation, which encodes structural relationships among adjacent camera views and transfers them to enhance cross-view depth consistency. Experiments on DDAD and nuScenes demonstrate the effectiveness of our method compared to conventional supervised methods and existing knowledge distillation approaches. Moreover, our method achieves a favorable trade-off between performance and efficiency, meeting real-time requirements.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.08700v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted at IEEE Robotics and Automation Letters (RA-L) 2026",
+      "entry_id": "http://arxiv.org/abs/2512.08700v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.08700v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.08700v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2512.08163": {
+      "title": "Accuracy Does Not Guarantee Human-Likeness in Monocular Depth Estimators",
+      "authors": [
+        "Yuki Kubota",
+        "Taiki Fukiage"
+      ],
+      "published": "2025-12-09T01:42:00+00:00",
+      "updated": "2025-12-09T01:42:00+00:00",
+      "summary": "Monocular depth estimation is a fundamental capability for real-world applications such as autonomous driving and robotics. Although deep neural networks (DNNs) have achieved superhuman accuracy on physical-based benchmarks, a key challenge remains: aligning model representations with human perception, a promising strategy for enhancing model robustness and interpretability. Research in object recognition has revealed a complex trade-off between model accuracy and human-like behavior, raising a question whether a similar divergence exist in depth estimation, particularly for natural outdoor scenes where benchmarks rely on sensor-based ground truth rather than human perceptual estimates. In this study, we systematically investigated the relationship between model accuracy and human similarity across 69 monocular depth estimators using the KITTI dataset. To dissect the structure of error patterns on a factor-by-factor basis, we applied affine fitting to decompose prediction errors into interpretable components. Intriguingly, our results reveal while humans and DNNs share certain estimation biases (positive error correlations), we observed distinct trade-off relationships between model accuracy and human similarity. This finding indicates that improving accuracy does not necessarily lead to more human-like behavior, underscoring the necessity of developing multifaceted, human-centric evaluations beyond traditional accuracy.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.08163v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "22 pages, 12 figures, 1 table",
+      "entry_id": "http://arxiv.org/abs/2512.08163v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.08163v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.08163v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2512.07596": {
       "title": "More than Segmentation: Benchmarking SAM 3 for Segmentation, 3D Perception, and Reconstruction in Robotic Surgery",
       "authors": [
@@ -88245,7 +88498,7 @@
       ]
     },
     "2512.06368": {
-      "title": "Human3R: Incorporating Human Priors for Better 3D Dynamic Reconstruction from Monocular Videos",
+      "title": "HuPrior3R: Incorporating Human Priors for Better 3D Dynamic Reconstruction from Monocular Videos",
       "authors": [
         "Weitao Xiong",
         "Zhiyuan Yuan",
@@ -88255,26 +88508,26 @@
         "Yuan Liu"
       ],
       "published": "2025-12-06T09:42:56+00:00",
-      "updated": "2025-12-06T09:42:56+00:00",
-      "summary": "Monocular dynamic video reconstruction faces significant challenges in dynamic human scenes due to geometric inconsistencies and resolution degradation issues. Existing methods lack 3D human structural understanding, producing geometrically inconsistent results with distorted limb proportions and unnatural human-object fusion, while memory-constrained downsampling causes human boundary drift toward background geometry. To address these limitations, we propose to incorporate hybrid geometric priors that combine SMPL human body models with monocular depth estimation. Our approach leverages structured human priors to maintain surface consistency while capturing fine-grained geometric details in human regions. We introduce Human3R, featuring a hierarchical pipeline with refinement components that processes full-resolution images for overall scene geometry, then applies strategic cropping and cross-attention fusion for human-specific detail enhancement. The method integrates SMPL priors through a Feature Fusion Module to ensure geometrically plausible reconstruction while preserving fine-grained human boundaries. Extensive experiments on TUM Dynamics and GTA-IM datasets demonstrate superior performance in dynamic human reconstruction.",
+      "updated": "2025-12-09T08:25:59+00:00",
+      "summary": "Monocular dynamic video reconstruction faces significant challenges in dynamic human scenes due to geometric inconsistencies and resolution degradation issues. Existing methods lack 3D human structural understanding, producing geometrically inconsistent results with distorted limb proportions and unnatural human-object fusion, while memory-constrained downsampling causes human boundary drift toward background geometry. To address these limitations, we propose to incorporate hybrid geometric priors that combine SMPL human body models with monocular depth estimation. Our approach leverages structured human priors to maintain surface consistency while capturing fine-grained geometric details in human regions. We introduce HuPrior3R, featuring a hierarchical pipeline with refinement components that processes full-resolution images for overall scene geometry, then applies strategic cropping and cross-attention fusion for human-specific detail enhancement. The method integrates SMPL priors through a Feature Fusion Module to ensure geometrically plausible reconstruction while preserving fine-grained human boundaries. Extensive experiments on TUM Dynamics and GTA-IM datasets demonstrate superior performance in dynamic human reconstruction.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2512.06368v1",
+      "pdf_url": "https://arxiv.org/pdf/2512.06368v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2512.06368v1",
+      "entry_id": "http://arxiv.org/abs/2512.06368v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2512.06368v1",
+          "href": "https://arxiv.org/abs/2512.06368v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2512.06368v1",
+          "href": "https://arxiv.org/pdf/2512.06368v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null

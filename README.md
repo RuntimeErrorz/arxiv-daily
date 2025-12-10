@@ -1,4 +1,4 @@
-## Updated at 2025-12-10 08:18:56
+## Updated at 2025-12-10 20:08:08
 
 ## 3DGS Semantic
 
@@ -8,6 +8,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-12-09**|**[OpenMonoGS-SLAM: Monocular Gaussian Splatting SLAM with Open-set Semantics](https://arxiv.org/abs/2512.08625)**|N/A|8 pages, 4 figures|cs.CV|None|Jisang Yoo et al.|
 |**2025-12-08**|**[Lang3D-XL: Language Embedded 3D Gaussians for Large-scale Scenes](https://arxiv.org/abs/2512.07807)**|N/A|Accepted to SIGGRAPH Asia 2025. Project webpage: https://tau-vailab.github.io/Lang3D-XL|cs.CV|None|Shai Krakovsky et al.|
 |**2025-12-08**|**[STRinGS: Selective Text Refinement in Gaussian Splatting](https://arxiv.org/abs/2512.07230)**|N/A|Accepted to WACV 2026. Project Page, see https://STRinGS-official.github.io|cs.CV|None|Abhinav Raundhal et al.|
 |**2025-12-04**|**[4DLangVGGT: 4D Language-Visual Geometry Grounded Transformer](https://arxiv.org/abs/2512.05060)**|N/A|Code: https://github.com/hustvl/4DLangVGGT, Webpage: https://hustvl.github.io/4DLangVGGT|cs.CV|None|Xianfeng Wu et al.|
@@ -176,6 +177,7 @@ Query: (abs:'Multi-View Stereo' OR abs:'Multi View Stereo' OR abs:'Multi-View De
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-12-09**|**[SDT-6D: Fully Sparse Depth-Transformer for Staged End-to-End 6D Pose Estimation in Industrial Multi-View Bin Picking](https://arxiv.org/abs/2512.08430)**|N/A|Accepted to WACV 2026. Preprint version|cs.CV|None|Nico Leuze et al.|
 |**2025-12-04**|**[Joint 3D Geometry Reconstruction and Motion Generation for 4D Synthesis from a Single Image](https://arxiv.org/abs/2512.05044)**|N/A|18 Pages|cs.CV|None|Yanran Zhang et al.|
 |**2025-12-03**|**[OpenTrack3D: Towards Accurate and Generalizable Open-Vocabulary 3D Instance Segmentation](https://arxiv.org/abs/2512.03532)**|N/A|None|cs.CV|None|Zhishan Zhou et al.|
 |**2025-12-03**|**[GeoVideo: Introducing Geometric Regularization into Video Generation Model](https://arxiv.org/abs/2512.03453)**|N/A|Project Page: https://geovideo.github.io/GeoVideo/|cs.CV|None|Yunpeng Bai et al.|
@@ -622,9 +624,11 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-12-09**|**[Scale-invariant and View-relational Representation Learning for Full Surround Monocular Depth](https://arxiv.org/abs/2512.08700)**|N/A|Accepted at IEEE Robotics and Automation Letters (RA-L) 2026|cs.CV|None|Kyumin Hwang et al.|
+|**2025-12-09**|**[Accuracy Does Not Guarantee Human-Likeness in Monocular Depth Estimators](https://arxiv.org/abs/2512.08163)**|N/A|22 pages, 12 figures, 1 table|cs.CV|None|Yuki Kubota, Taiki Fukiage|
 |**2025-12-08**|**[More than Segmentation: Benchmarking SAM 3 for Segmentation, 3D Perception, and Reconstruction in Robotic Surgery](https://arxiv.org/abs/2512.07596)**|N/A|Technical Report|cs.CV|None|Wenzhen Dong et al.|
 |**2025-12-07**|**[CoT4Det: A Chain-of-Thought Framework for Perception-Oriented Vision-Language Tasks](https://arxiv.org/abs/2512.06663)**|N/A|None|cs.CV|None|Yu Qi et al.|
-|**2025-12-06**|**[Human3R: Incorporating Human Priors for Better 3D Dynamic Reconstruction from Monocular Videos](https://arxiv.org/abs/2512.06368)**|N/A|None|cs.CV|None|Weitao Xiong et al.|
+|**2025-12-06**|**[HuPrior3R: Incorporating Human Priors for Better 3D Dynamic Reconstruction from Monocular Videos](https://arxiv.org/abs/2512.06368)**|N/A|None|cs.CV|None|Weitao Xiong et al.|
 |**2025-12-05**|**[See in Depth: Training-Free Surgical Scene Segmentation with Monocular Depth Priors](https://arxiv.org/abs/2512.05529)**|N/A|The first two authors contributed equally|cs.CV|None|Kunyi Yang et al.|
 |**2025-12-05**|**[YOLO and SGBM Integration for Autonomous Tree Branch Detection and Depth Estimation in Radiata Pine Pruning Applications](https://arxiv.org/abs/2512.05412)**|N/A|None|cs.CV|None|Yida Lin et al.|
 |**2025-12-05**|**[The Dynamic Prior: Understanding 3D Structures for Casual Dynamic Videos](https://arxiv.org/abs/2512.05398)**|N/A|Code is available at https://github.com/wuzy2115/DYNAPO|cs.CV|None|Zhuoyuan Wu et al.|
