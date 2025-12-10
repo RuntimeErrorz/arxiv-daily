@@ -35,7 +35,15 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-12-10",
+        "venue": null,
+        "pub_type": "Book",
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2512.07667": {
       "title": "Depth-Wise Activation Steering for Honest Language Models",
@@ -144,7 +152,15 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-12-10",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2512.07212": {
       "title": "Sample from What You See: Visuomotor Policy Learning via Diffusion Bridge with Observation-Embedded Stochastic Differential Equation",
