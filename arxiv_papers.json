@@ -1,5 +1,152 @@
 {
   "3DGS Semantic": {
+    "2512.09925": {
+      "title": "GAINS: Gaussian-based Inverse Rendering from Sparse Multi-View Captures",
+      "authors": [
+        "Patrick Noras",
+        "Jun Myeong Choi",
+        "Didier Stricker",
+        "Pieter Peers",
+        "Roni Sengupta"
+      ],
+      "published": "2025-12-10T18:58:11+00:00",
+      "updated": "2025-12-10T18:58:11+00:00",
+      "summary": "Recent advances in Gaussian Splatting-based inverse rendering extend Gaussian primitives with shading parameters and physically grounded light transport, enabling high-quality material recovery from dense multi-view captures. However, these methods degrade sharply under sparse-view settings, where limited observations lead to severe ambiguity between geometry, reflectance, and lighting. We introduce GAINS (Gaussian-based Inverse rendering from Sparse multi-view captures), a two-stage inverse rendering framework that leverages learning-based priors to stabilize geometry and material estimation. GAINS first refines geometry using monocular depth/normal and diffusion priors, then employs segmentation, intrinsic image decomposition (IID), and diffusion priors to regularize material recovery. Extensive experiments on synthetic and real-world datasets show that GAINS significantly improves material parameter accuracy, relighting quality, and novel-view synthesis compared to state-of-the-art Gaussian-based inverse rendering methods, especially under sparse-view settings. Project page: https://patrickbail.github.io/gains/",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.09925v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "23 pages, 18 figures",
+      "entry_id": "http://arxiv.org/abs/2512.09925v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.09925v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.09925v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.09535": {
+      "title": "Latent-Autoregressive GP-VAE Language Model",
+      "authors": [
+        "Yves Ruffenach"
+      ],
+      "published": "2025-12-10T11:18:44+00:00",
+      "updated": "2025-12-10T11:18:44+00:00",
+      "summary": "We investigate a fully Latent AutoRegressive scheme based on a Gaussian Process (GP) integrated into a Variational Autoencoder (VAE). In this setting, sequential dynamics are transferred from the observation space to a continuous latent space, while linguistic generation remains parallel through a non-autoregressive decoder. We present a complete methodological formulation, including a causal GP prior, a structured amortized posterior, and a training protocol based on a regularized ELBO. Empirical evaluation, conducted within a deliberately constrained proof-of-concept (POC) framework, shows that the model can be trained stably and that the sequential and parallel sampling variants exhibit consistent behavior. Overall, the results suggest that part of the temporal structure in a language model can be supported by the probabilistic geometry of the latent space rather than by explicit neural operations.",
+      "categories": [
+        "cs.LG"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2512.09535v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "27 pages, 1 figure, 4 tables. Proof-of-concept study of a latent-autoregressive GP-VAE language model with TCN encoder and non-autoregressive decoder. Code available at https://github.com/y-v-e-s/GP-VAE-Latent-AR",
+      "entry_id": "http://arxiv.org/abs/2512.09535v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.09535v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.09535v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.09283": {
+      "title": "UPETrack: Unidirectional Position Estimation for Tracking Occluded Deformable Linear Objects",
+      "authors": [
+        "Fan Wu",
+        "Chenguang Yang",
+        "Haibin Yang",
+        "Shuo Wang",
+        "Yanrui Xu",
+        "Xing Zhou",
+        "Meng Gao",
+        "Yaoqi Xian",
+        "Zhihong Zhu",
+        "Shifeng Huang"
+      ],
+      "published": "2025-12-10T03:14:12+00:00",
+      "updated": "2025-12-10T03:14:12+00:00",
+      "summary": "Real-time state tracking of Deformable Linear Objects (DLOs) is critical for enabling robotic manipulation of DLOs in industrial assembly, medical procedures, and daily-life applications. However, the high-dimensional configuration space, nonlinear dynamics, and frequent partial occlusions present fundamental barriers to robust real-time DLO tracking. To address these limitations, this study introduces UPETrack, a geometry-driven framework based on Unidirectional Position Estimation (UPE), which facilitates tracking without the requirement for physical modeling, virtual simulation, or visual markers. The framework operates in two phases: (1) visible segment tracking is based on a Gaussian Mixture Model (GMM) fitted via the Expectation Maximization (EM) algorithm, and (2) occlusion region prediction employing UPE algorithm we proposed. UPE leverages the geometric continuity inherent in DLO shapes and their temporal evolution patterns to derive a closed-form positional estimator through three principal mechanisms: (i) local linear combination displacement term, (ii) proximal linear constraint term, and (iii) historical curvature term. This analytical formulation allows efficient and stable estimation of occluded nodes through explicit linear combinations of geometric components, eliminating the need for additional iterative optimization. Experimental results demonstrate that UPETrack surpasses two state-of-the-art tracking algorithms, including TrackDLO and CDCPD2, in both positioning accuracy and computational efficiency.",
+      "categories": [
+        "cs.RO"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2512.09283v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.09283v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.09283v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.09283v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.09260": {
+      "title": "From Forecast to Action: Uncertainty-Aware UAV Deployment for Ocean Drifter Recovery",
+      "authors": [
+        "Jingeun Kim",
+        "Yong-Hyuk Kim",
+        "Yourim Yoon"
+      ],
+      "published": "2025-12-10T02:31:17+00:00",
+      "updated": "2025-12-10T02:31:17+00:00",
+      "summary": "We present a novel predict-then-optimize framework for maritime search operations that integrates trajectory forecasting with UAV deployment optimization-an end-to-end approach not addressed in prior work. A large language model predicts the drifter's trajectory, and spatial uncertainty is modeled using Gaussian-based particle sampling. Unlike traditional static deployment methods, we dynamically adapt UAV detection radii based on distance and optimize their placement using meta-heuristic algorithms. Experiments on real-world data from the Korean coastline demonstrate that our method, particularly the repair mechanism designed for this problem, significantly outperforms the random search baselines. This work introduces a practical and robust integration of trajectory prediction and spatial optimization for intelligent maritime rescue.",
+      "categories": [
+        "cs.NE"
+      ],
+      "primary_category": "cs.NE",
+      "pdf_url": "https://arxiv.org/pdf/2512.09260v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "This paper has been accepted by CIKM 2025 STIntelligence Workshop",
+      "entry_id": "http://arxiv.org/abs/2512.09260v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.09260v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.09260v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2512.08625": {
       "title": "OpenMonoGS-SLAM: Monocular Gaussian Splatting SLAM with Open-set Semantics",
       "authors": [
@@ -88440,27 +88587,27 @@
         "Long Bai"
       ],
       "published": "2025-12-08T14:43:40+00:00",
-      "updated": "2025-12-08T14:43:40+00:00",
-      "summary": "The recent Segment Anything Model (SAM) 3 has introduced significant advancements over its predecessor, SAM 2, particularly with the integration of language-based segmentation and enhanced 3D perception capabilities. SAM 3 supports zero-shot segmentation across a wide range of prompts, including point, bounding box, and language-based prompts, allowing for more flexible and intuitive interactions with the model. In this empirical evaluation, we assess the performance of SAM 3 in robot-assisted surgery, benchmarking its zero-shot segmentation with point and bounding box prompts and exploring its effectiveness in dynamic video tracking, alongside its newly introduced language prompt segmentation. While language prompts show potential, their performance in the surgical domain is currently suboptimal, highlighting the need for further domain-specific training. Additionally, we investigate SAM 3's 3D reconstruction abilities, demonstrating its capacity to process surgical scene data and reconstruct 3D anatomical structures from 2D images. Through comprehensive testing on the MICCAI EndoVis 2017 and EndoVis 2018 benchmarks, SAM 3 shows clear improvements over SAM and SAM 2 in both image and video segmentation under spatial prompts, while zero-shot evaluations on SCARED, StereoMIS, and EndoNeRF indicate strong monocular depth estimation and realistic 3D instrument reconstruction, yet also reveal remaining limitations in complex, highly dynamic surgical scenes.",
+      "updated": "2025-12-10T07:08:21+00:00",
+      "summary": "The recent SAM 3 and SAM 3D have introduced significant advancements over the predecessor, SAM 2, particularly with the integration of language-based segmentation and enhanced 3D perception capabilities. SAM 3 supports zero-shot segmentation across a wide range of prompts, including point, bounding box, and language-based prompts, allowing for more flexible and intuitive interactions with the model. In this empirical evaluation, we assess the performance of SAM 3 in robot-assisted surgery, benchmarking its zero-shot segmentation with point and bounding box prompts and exploring its effectiveness in dynamic video tracking, alongside its newly introduced language prompt segmentation. While language prompts show potential, their performance in the surgical domain is currently suboptimal, highlighting the need for further domain-specific training. Additionally, we investigate SAM 3D's depth reconstruction abilities, demonstrating its capacity to process surgical scene data and reconstruct 3D anatomical structures from 2D images. Through comprehensive testing on the MICCAI EndoVis 2017 and EndoVis 2018 benchmarks, SAM 3 shows clear improvements over SAM and SAM 2 in both image and video segmentation under spatial prompts, while the zero-shot evaluations of SAM 3D on SCARED, StereoMIS, and EndoNeRF indicate strong monocular depth estimation and realistic 3D instrument reconstruction, yet also reveal remaining limitations in complex, highly dynamic surgical scenes.",
       "categories": [
         "cs.CV",
         "cs.RO"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2512.07596v1",
+      "pdf_url": "https://arxiv.org/pdf/2512.07596v2",
       "journal_ref": null,
       "doi": null,
       "comment": "Technical Report",
-      "entry_id": "http://arxiv.org/abs/2512.07596v1",
+      "entry_id": "http://arxiv.org/abs/2512.07596v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2512.07596v1",
+          "href": "https://arxiv.org/abs/2512.07596v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2512.07596v1",
+          "href": "https://arxiv.org/pdf/2512.07596v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
