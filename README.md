@@ -1,4 +1,4 @@
-## Updated at 2025-12-12 08:19:01
+## Updated at 2025-12-12 20:07:43
 
 ## 3DGS Semantic
 
@@ -177,6 +177,7 @@ Query: (abs:'Multi-View Stereo' OR abs:'Multi View Stereo' OR abs:'Multi-View De
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-12-11**|**[SpaceDrive: Infusing Spatial Awareness into VLM-based Autonomous Driving](https://arxiv.org/abs/2512.10719)**|N/A|None|cs.CV|None|Peizheng Li et al.|
 |**2025-12-09**|**[SDT-6D: Fully Sparse Depth-Transformer for Staged End-to-End 6D Pose Estimation in Industrial Multi-View Bin Picking](https://arxiv.org/abs/2512.08430)**|N/A|Accepted to WACV 2026. Preprint version|cs.CV|None|Nico Leuze et al.|
 |**2025-12-04**|**[Joint 3D Geometry Reconstruction and Motion Generation for 4D Synthesis from a Single Image](https://arxiv.org/abs/2512.05044)**|N/A|18 Pages|cs.CV|None|Yanran Zhang et al.|
 |**2025-12-03**|**[OpenTrack3D: Towards Accurate and Generalizable Open-Vocabulary 3D Instance Segmentation](https://arxiv.org/abs/2512.03532)**|N/A|None|cs.CV|None|Zhishan Zhou et al.|
@@ -624,6 +625,10 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-12-11**|**[Empowering Dynamic Urban Navigation with Stereo and Mid-Level Vision](https://arxiv.org/abs/2512.10956)**|N/A|Project Page: https://www.cs.virginia.edu/~tsx4zn/stereowalk/|cs.CV|None|Wentao Zhou et al.|
+|**2025-12-11**|**[Video Depth Propagation](https://arxiv.org/abs/2512.10725)**|N/A|None|cs.CV|None|Luigi Piccinelli et al.|
+|**2025-12-11**|**[SpaceDrive: Infusing Spatial Awareness into VLM-based Autonomous Driving](https://arxiv.org/abs/2512.10719)**|N/A|None|cs.CV|None|Peizheng Li et al.|
+|**2025-12-11**|**[Robust Shape from Focus via Multiscale Directional Dilated Laplacian and Recurrent Network](https://arxiv.org/abs/2512.10498)**|N/A|Accepted to IJCV|cs.CV|None|Khurram Ashfaq, Muhammad Tariq Mahmood|
 |**2025-12-09**|**[Scale-invariant and View-relational Representation Learning for Full Surround Monocular Depth](https://arxiv.org/abs/2512.08700)**|N/A|Accepted at IEEE Robotics and Automation Letters (RA-L) 2026|cs.CV|None|Kyumin Hwang et al.|
 |**2025-12-09**|**[Accuracy Does Not Guarantee Human-Likeness in Monocular Depth Estimators](https://arxiv.org/abs/2512.08163)**|N/A|22 pages, 12 figures, 1 table|cs.CV|None|Yuki Kubota, Taiki Fukiage|
 |**2025-12-08**|**[More than Segmentation: Benchmarking SAM 3 for Segmentation, 3D Perception, and Reconstruction in Robotic Surgery](https://arxiv.org/abs/2512.07596)**|N/A|Technical Report|cs.CV|None|Wenzhen Dong et al.|

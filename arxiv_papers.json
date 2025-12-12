@@ -1,5 +1,41 @@
 {
   "3DGS Semantic": {
+    "2512.10656": {
+      "title": "Token Sample Complexity of Attention",
+      "authors": [
+        "Léa Bohbot",
+        "Cyril Letrouit",
+        "Gabriel Peyré",
+        "François-Xavier Vialard"
+      ],
+      "published": "2025-12-11T14:02:34+00:00",
+      "updated": "2025-12-11T14:02:34+00:00",
+      "summary": "As context windows in large language models continue to expand, it is essential to characterize how attention behaves at extreme sequence lengths. We introduce token-sample complexity: the rate at which attention computed on $n$ tokens converges to its infinite-token limit. We estimate finite-$n$ convergence bounds at two levels: pointwise uniform convergence of the attention map, and convergence of moments for the transformed token distribution. For compactly supported (and more generally sub-Gaussian) distributions, our first result shows that the attention map converges uniformly on a ball of radius $R$ at rate $C(R)/\\sqrt{n}$, where $C(R)$ grows exponentially with $R$. For large $R$, this estimate loses practical value, and our second result addresses this issue by establishing convergence rates for the moments of the transformed distribution (the token output of the attention layer). In this case, the rate is $C'(R)/n^β$ with $β<\\tfrac{1}{2}$, and $C'(R)$ depends polynomially on the size of the support of the distribution. The exponent $β$ depends on the attention geometry and the spectral properties of the tokens distribution. We also examine the regime in which the attention parameter tends to infinity and the softmax approaches a hardmax, and in this setting, we establish a logarithmic rate of convergence. Experiments on synthetic Gaussian data and real BERT models on Wikipedia text confirm our predictions.",
+      "categories": [
+        "cs.LG"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2512.10656v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.10656v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.10656v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.10656v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2512.09925": {
       "title": "GAINS: Gaussian-based Inverse Rendering from Sparse Multi-View Captures",
       "authors": [
@@ -72119,6 +72155,46 @@
     }
   },
   "MVS": {
+    "2512.10719": {
+      "title": "SpaceDrive: Infusing Spatial Awareness into VLM-based Autonomous Driving",
+      "authors": [
+        "Peizheng Li",
+        "Zhenghao Zhang",
+        "David Holtz",
+        "Hang Yu",
+        "Yutong Yang",
+        "Yuzhi Lai",
+        "Rui Song",
+        "Andreas Geiger",
+        "Andreas Zell"
+      ],
+      "published": "2025-12-11T14:59:07+00:00",
+      "updated": "2025-12-11T14:59:07+00:00",
+      "summary": "End-to-end autonomous driving methods built on vision language models (VLMs) have undergone rapid development driven by their universal visual understanding and strong reasoning capabilities obtained from the large-scale pretraining. However, we find that current VLMs struggle to understand fine-grained 3D spatial relationships which is a fundamental requirement for systems interacting with the physical world. To address this issue, we propose SpaceDrive, a spatial-aware VLM-based driving framework that treats spatial information as explicit positional encodings (PEs) instead of textual digit tokens, enabling joint reasoning over semantic and spatial representations. SpaceDrive employs a universal positional encoder to all 3D coordinates derived from multi-view depth estimation, historical ego-states, and text prompts. These 3D PEs are first superimposed to augment the corresponding 2D visual tokens. Meanwhile, they serve as a task-agnostic coordinate representation, replacing the digit-wise numerical tokens as both inputs and outputs for the VLM. This mechanism enables the model to better index specific visual semantics in spatial reasoning and directly regress trajectory coordinates rather than generating digit-by-digit, thereby enhancing planning accuracy. Extensive experiments validate that SpaceDrive achieves state-of-the-art open-loop performance on the nuScenes dataset and the second-best Driving Score of 78.02 on the Bench2Drive closed-loop benchmark over existing VLM-based methods.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.10719v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.10719v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.10719v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.10719v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2512.08430": {
       "title": "SDT-6D: Fully Sparse Depth-Transformer for Staged End-to-End 6D Pose Estimation in Industrial Multi-View Bin Picking",
       "authors": [
@@ -88502,6 +88578,152 @@
     }
   },
   "Depth Estimation": {
+    "2512.10956": {
+      "title": "Empowering Dynamic Urban Navigation with Stereo and Mid-Level Vision",
+      "authors": [
+        "Wentao Zhou",
+        "Xuweiyi Chen",
+        "Vignesh Rajagopal",
+        "Jeffrey Chen",
+        "Rohan Chandra",
+        "Zezhou Cheng"
+      ],
+      "published": "2025-12-11T18:59:56+00:00",
+      "updated": "2025-12-11T18:59:56+00:00",
+      "summary": "The success of foundation models in language and vision motivated research in fully end-to-end robot navigation foundation models (NFMs). NFMs directly map monocular visual input to control actions and ignore mid-level vision modules (tracking, depth estimation, etc) entirely. While the assumption that vision capabilities will emerge implicitly is compelling, it requires large amounts of pixel-to-action supervision that are difficult to obtain. The challenge is especially pronounced in dynamic and unstructured settings, where robust navigation requires precise geometric and dynamic understanding, while the depth-scale ambiguity in monocular views further limits accurate spatial reasoning. In this paper, we show that relying on monocular vision and ignoring mid-level vision priors is inefficient.\n  We present StereoWalker, which augments NFMs with stereo inputs and explicit mid-level vision such as depth estimation and dense pixel tracking. Our intuition is straightforward: stereo inputs resolve the depth-scale ambiguity, and modern mid-level vision models provide reliable geometric and motion structure in dynamic scenes. We also curate a large stereo navigation dataset with automatic action annotation from Internet stereo videos to support training of StereoWalker and to facilitate future research. Through our experiments, we find that mid-level vision enables StereoWalker to achieve a comparable performance as the state-of-the-art using only 1.5% of the training data, and surpasses the state-of-the-art using the full data. We also observe that stereo vision yields higher navigation performance than monocular input.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.10956v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Project Page: https://www.cs.virginia.edu/~tsx4zn/stereowalk/",
+      "entry_id": "http://arxiv.org/abs/2512.10956v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.10956v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.10956v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2512.10725": {
+      "title": "Video Depth Propagation",
+      "authors": [
+        "Luigi Piccinelli",
+        "Thiemo Wandel",
+        "Christos Sakaridis",
+        "Wim Abbeloos",
+        "Luc Van Gool"
+      ],
+      "published": "2025-12-11T15:08:37+00:00",
+      "updated": "2025-12-11T15:08:37+00:00",
+      "summary": "Depth estimation in videos is essential for visual perception in real-world applications. However, existing methods either rely on simple frame-by-frame monocular models, leading to temporal inconsistencies and inaccuracies, or use computationally demanding temporal modeling, unsuitable for real-time applications. These limitations significantly restrict general applicability and performance in practical settings. To address this, we propose VeloDepth, an efficient and robust online video depth estimation pipeline that effectively leverages spatiotemporal priors from previous depth predictions and performs deep feature propagation. Our method introduces a novel Propagation Module that refines and propagates depth features and predictions using flow-based warping coupled with learned residual corrections. In addition, our design structurally enforces temporal consistency, resulting in stable depth predictions across consecutive frames with improved efficiency. Comprehensive zero-shot evaluation on multiple benchmarks demonstrates the state-of-the-art temporal consistency and competitive accuracy of VeloDepth, alongside its significantly faster inference compared to existing video-based depth estimators. VeloDepth thus provides a practical, efficient, and accurate solution for real-time depth estimation suitable for diverse perception tasks. Code and models are available at https://github.com/lpiccinelli-eth/velodepth",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.10725v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.10725v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.10725v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.10725v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2512.10719": {
+      "title": "SpaceDrive: Infusing Spatial Awareness into VLM-based Autonomous Driving",
+      "authors": [
+        "Peizheng Li",
+        "Zhenghao Zhang",
+        "David Holtz",
+        "Hang Yu",
+        "Yutong Yang",
+        "Yuzhi Lai",
+        "Rui Song",
+        "Andreas Geiger",
+        "Andreas Zell"
+      ],
+      "published": "2025-12-11T14:59:07+00:00",
+      "updated": "2025-12-11T14:59:07+00:00",
+      "summary": "End-to-end autonomous driving methods built on vision language models (VLMs) have undergone rapid development driven by their universal visual understanding and strong reasoning capabilities obtained from the large-scale pretraining. However, we find that current VLMs struggle to understand fine-grained 3D spatial relationships which is a fundamental requirement for systems interacting with the physical world. To address this issue, we propose SpaceDrive, a spatial-aware VLM-based driving framework that treats spatial information as explicit positional encodings (PEs) instead of textual digit tokens, enabling joint reasoning over semantic and spatial representations. SpaceDrive employs a universal positional encoder to all 3D coordinates derived from multi-view depth estimation, historical ego-states, and text prompts. These 3D PEs are first superimposed to augment the corresponding 2D visual tokens. Meanwhile, they serve as a task-agnostic coordinate representation, replacing the digit-wise numerical tokens as both inputs and outputs for the VLM. This mechanism enables the model to better index specific visual semantics in spatial reasoning and directly regress trajectory coordinates rather than generating digit-by-digit, thereby enhancing planning accuracy. Extensive experiments validate that SpaceDrive achieves state-of-the-art open-loop performance on the nuScenes dataset and the second-best Driving Score of 78.02 on the Bench2Drive closed-loop benchmark over existing VLM-based methods.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.10719v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.10719v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.10719v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.10719v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2512.10498": {
+      "title": "Robust Shape from Focus via Multiscale Directional Dilated Laplacian and Recurrent Network",
+      "authors": [
+        "Khurram Ashfaq",
+        "Muhammad Tariq Mahmood"
+      ],
+      "published": "2025-12-11T10:19:52+00:00",
+      "updated": "2025-12-11T10:19:52+00:00",
+      "summary": "Shape-from-Focus (SFF) is a passive depth estimation technique that infers scene depth by analyzing focus variations in a focal stack. Most recent deep learning-based SFF methods typically operate in two stages: first, they extract focus volumes (a per pixel representation of focus likelihood across the focal stack) using heavy feature encoders; then, they estimate depth via a simple one-step aggregation technique that often introduces artifacts and amplifies noise in the depth map. To address these issues, we propose a hybrid framework. Our method computes multi-scale focus volumes traditionally using handcrafted Directional Dilated Laplacian (DDL) kernels, which capture long-range and directional focus variations to form robust focus volumes. These focus volumes are then fed into a lightweight, multi-scale GRU-based depth extraction module that iteratively refines an initial depth estimate at a lower resolution for computational efficiency. Finally, a learned convex upsampling module within our recurrent network reconstructs high-resolution depth maps while preserving fine scene details and sharp boundaries. Extensive experiments on both synthetic and real-world datasets demonstrate that our approach outperforms state-of-the-art deep learning and traditional methods, achieving superior accuracy and generalization across diverse focal conditions.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.10498v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted to IJCV",
+      "entry_id": "http://arxiv.org/abs/2512.10498v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.10498v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.10498v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2512.08700": {
       "title": "Scale-invariant and View-relational Representation Learning for Full Surround Monocular Depth",
       "authors": [
