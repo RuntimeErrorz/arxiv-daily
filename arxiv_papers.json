@@ -221,7 +221,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-12-11",
+        "queried_at": "2025-12-14",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -373,11 +373,10 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-12-10",
-        "venue": null,
-        "pub_type": "Book",
-        "publisher": null,
-        "note": "已查询但未找到venue信息"
+        "queried_at": "2025-12-14",
+        "venue": "Proceedings of the SIGGRAPH Asia 2025 Conference Papers",
+        "pub_type": "Book,Conference",
+        "publisher": null
       }
     },
     "2512.07667": {
@@ -490,7 +489,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-12-10",
+        "queried_at": "2025-12-14",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -731,7 +730,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-12-07",
+        "queried_at": "2025-12-14",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -1130,7 +1129,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-12-07",
+        "queried_at": "2025-12-14",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -1172,7 +1171,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-12-07",
+        "queried_at": "2025-12-14",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -1336,7 +1335,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-12-07",
+        "queried_at": "2025-12-14",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -1771,7 +1770,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-12-07",
+        "queried_at": "2025-12-14",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -2850,7 +2849,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-12-07",
+        "queried_at": "2025-12-14",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -3046,7 +3045,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-12-07",
+        "queried_at": "2025-12-14",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -3354,7 +3353,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-12-07",
+        "queried_at": "2025-12-14",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -11873,7 +11872,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-12-07",
+        "queried_at": "2025-12-14",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -23553,7 +23552,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-12-07",
+        "queried_at": "2025-12-14",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -31083,7 +31082,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-12-07",
+        "queried_at": "2025-12-14",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -33847,7 +33846,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-12-07",
+        "queried_at": "2025-12-14",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -38497,7 +38496,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-12-07",
+        "queried_at": "2025-12-14",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -55799,7 +55798,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2025-12-07",
+        "queried_at": "2025-12-14",
         "venue": null,
         "pub_type": null,
         "publisher": null,

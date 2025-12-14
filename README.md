@@ -1,4 +1,4 @@
-## Updated at 2025-12-14 08:20:40
+## Updated at 2025-12-14 10:44:39
 
 ## 3DGS Semantic
 
@@ -9,7 +9,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
 |**2025-12-09**|**[OpenMonoGS-SLAM: Monocular Gaussian Splatting SLAM with Open-set Semantics](https://arxiv.org/abs/2512.08625)**|N/A|8 pages, 4 figures|cs.CV|None|Jisang Yoo et al.|
-|**2025-12-08**|**[Lang3D-XL: Language Embedded 3D Gaussians for Large-scale Scenes](https://arxiv.org/abs/2512.07807)**|N/A|Accepted to SIGGRAPH Asia 2025. Project webpage: https://tau-vailab.github.io/Lang3D-XL|cs.CV|None|Shai Krakovsky et al.|
+|**2025-12-08**|**[Lang3D-XL: Language Embedded 3D Gaussians for Large-scale Scenes](https://arxiv.org/abs/2512.07807)**|Proceedings of the SIGGRAPH Asia 2025 Conference Papers|Accepted to SIGGRAPH Asia 2025. Project webpage: https://tau-vailab.github.io/Lang3D-XL|cs.CV|None|Shai Krakovsky et al.|
 |**2025-12-08**|**[STRinGS: Selective Text Refinement in Gaussian Splatting](https://arxiv.org/abs/2512.07230)**|N/A|Accepted to WACV 2026. Project Page, see https://STRinGS-official.github.io|cs.CV|None|Abhinav Raundhal et al.|
 |**2025-12-04**|**[4DLangVGGT: 4D Language-Visual Geometry Grounded Transformer](https://arxiv.org/abs/2512.05060)**|N/A|Code: https://github.com/hustvl/4DLangVGGT, Webpage: https://hustvl.github.io/4DLangVGGT|cs.CV|None|Xianfeng Wu et al.|
 |**2025-12-03**|**[C3G: Learning Compact 3D Representations with 2K Gaussians](https://arxiv.org/abs/2512.04021)**|N/A|Project Page : https://cvlab-kaist.github.io/C3G/|cs.CV|None|Honggyu An et al.|
