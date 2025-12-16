@@ -1,5 +1,184 @@
 {
   "3DGS Semantic": {
+    "2512.13411": {
+      "title": "Computer vision training dataset generation for robotic environments using Gaussian splatting",
+      "authors": [
+        "Patryk Niżeniec",
+        "Marcin Iwanowski"
+      ],
+      "published": "2025-12-15T15:00:17+00:00",
+      "updated": "2025-12-15T15:00:17+00:00",
+      "summary": "This paper introduces a novel pipeline for generating large-scale, highly realistic, and automatically labeled datasets for computer vision tasks in robotic environments. Our approach addresses the critical challenges of the domain gap between synthetic and real-world imagery and the time-consuming bottleneck of manual annotation. We leverage 3D Gaussian Splatting (3DGS) to create photorealistic representations of the operational environment and objects. These assets are then used in a game engine where physics simulations create natural arrangements. A novel, two-pass rendering technique combines the realism of splats with a shadow map generated from proxy meshes. This map is then algorithmically composited with the image to add both physically plausible shadows and subtle highlights, significantly enhancing realism. Pixel-perfect segmentation masks are generated automatically and formatted for direct use with object detection models like YOLO. Our experiments show that a hybrid training strategy, combining a small set of real images with a large volume of our synthetic data, yields the best detection and segmentation performance, confirming this as an optimal strategy for efficiently achieving robust and accurate models.",
+      "categories": [
+        "cs.CV",
+        "cs.GR"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.13411v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Code available at: https://patrykni.github.io/UnitySplat2Data/",
+      "entry_id": "http://arxiv.org/abs/2512.13411v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.13411v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.13411v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.13328": {
+      "title": "Scaling Laws and Universal Features of Tethered Polymer Distributions in Confined Geometries",
+      "authors": [
+        "Bibhatsu Kuiri",
+        "Rittwick Mondal",
+        "Dipankar Biswas",
+        "Soumyajyoti Kabi"
+      ],
+      "published": "2025-12-15T13:41:03+00:00",
+      "updated": "2025-12-15T13:41:03+00:00",
+      "summary": "We develop a unified scaling framework for the end-position distributions of tethered polymers confined in finite cylindrical geometries. Two observables are analysed: the longitudinal distribution P(x), along the confinement axis, and the transverse distribution P(y), perpendicular to the confinement axis. Using exact Fourier-sine and image-method representations with adaptive numerical schemes, we construct and test six scaling strategies for P(x) and five for P(y), encompassing geometric similarity, tether-position sweeps, confinement-strength crossovers, persistence-length effects, boundary-layer scaling near absorbing walls, and tether-centered coil scaling. Quantitative collapse diagnostics such as RMS residuals on common support, modal-energy fractions, and survival probabilities are combined with limiting-regime analysis and direct numerical evaluation to distinguish genuine universality from visually misleading overlap.\n  From these tests we obtain a kappa-based confinement diagram and a two-parameter (kappa, a/L) regime map that link classical theories such as Flory/de Gennes blobs, Odijk deflection segments, and wormlike-chain behaviour within a single spectral picture. Gaussian, multimode, and eigenmode-dominated regimes are identified by explicit thresholds in modal composition and collapse error, providing operational criteria for when Gaussian or single-mode descriptions are valid and when full multimode structure is required. The resulting framework provides a compact, reproducible toolkit for analysing confined-polymer statistics, with applications to simulations and experiments on DNA, chromatin, and other biopolymers where confinement, stiffness, and tethering jointly control spatial organization.",
+      "categories": [
+        "cond-mat.soft"
+      ],
+      "primary_category": "cond-mat.soft",
+      "pdf_url": "https://arxiv.org/pdf/2512.13328v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Main manuscript is at 1-41 pages,Supplemental figure is at page 42, supplementary tables are in pages 43-49, supplementary file 1(scaling strategy) is at pages 50-57, supplementary file 2(additional details) is at 58-63, supplementary file 3(conventional scaling) is at 64-75",
+      "entry_id": "http://arxiv.org/abs/2512.13328v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.13328v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.13328v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.13007": {
+      "title": "Light Field Based 6DoF Tracking of Previously Unobserved Objects",
+      "authors": [
+        "Nikolai Goncharov",
+        "James L. Gray",
+        "Donald G. Dansereau"
+      ],
+      "published": "2025-12-15T06:04:49+00:00",
+      "updated": "2025-12-15T06:04:49+00:00",
+      "summary": "Object tracking is an important step in robotics and reautonomous driving pipelines, which has to generalize to previously unseen and complex objects. Existing high-performing methods often rely on pre-captured object views to build explicit reference models, which restricts them to a fixed set of known objects. However, such reference models can struggle with visually complex appearance, reducing the quality of tracking. In this work, we introduce an object tracking method based on light field images that does not depend on a pre-trained model, while being robust to complex visual behavior, such as reflections. We extract semantic and geometric features from light field inputs using vision foundation models and convert them into view-dependent Gaussian splats. These splats serve as a unified object representation, supporting differentiable rendering and pose optimization. We further introduce a light field object tracking dataset containing challenging reflective objects with precise ground truth poses. Experiments demonstrate that our method is competitive with state-of-the-art model-based trackers in these difficult cases, paving the way toward universal object tracking in robotic systems. Code/data available at https://github.com/nagonch/LiFT-6DoF.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.13007v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.13007v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.13007v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.13007v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.12513": {
+      "title": "AttenGW: A Lightweight Attention-Based Multi-Detector Gravitational-Wave Detection Pipeline",
+      "authors": [
+        "Victoria Tiki",
+        "Eliu Huerta"
+      ],
+      "published": "2025-12-14T01:35:25+00:00",
+      "updated": "2025-12-14T01:35:25+00:00",
+      "summary": "We present AttenGW, an attention-based multi-detector gravitational-wave detection model and accompanying software stack designed for analysis of real LIGO data. AttenGW combines a per-detector hierarchical dilated convolutional network with an attention-based aggregation module that enforces cross-detector coherence, providing an alternative to graph-based aggregation schemes used in previous work. The pipeline adopts a LIGO-style preprocessing and data-loading workflow based on GWOSC time series, with standard whitening and filtering, and is released as a documented Python/PyTorch package. We benchmark AttenGW using simulated injections to estimate sensitive volume and on real O3 data, focusing on the February 2020 segment previously used to evaluate a spatiotemporal graph ensemble. On this month of data, a single AttenGW model reduces the false-positive rate relative to a single graph-based detector by a factor of a few, and an ensemble of three AttenGW models matches the performance of the corresponding six-model ensemble. Injection studies on real LIGO noise further indicate that attention-based aggregation yields stable performance on non-Gaussian backgrounds.",
+      "categories": [
+        "astro-ph.IM",
+        "gr-qc"
+      ],
+      "primary_category": "astro-ph.IM",
+      "pdf_url": "https://arxiv.org/pdf/2512.12513v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "19 pages, 4 figures",
+      "entry_id": "http://arxiv.org/abs/2512.12513v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.12513v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.12513v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.12238": {
+      "title": "Semantic Distance Measurement based on Multi-Kernel Gaussian Processes",
+      "authors": [
+        "Yinzhu Cheng",
+        "Haihua Xie",
+        "Yaqing Wang",
+        "Miao He",
+        "Mingming Sun"
+      ],
+      "published": "2025-12-13T08:34:00+00:00",
+      "updated": "2025-12-13T08:34:00+00:00",
+      "summary": "Semantic distance measurement is a fundamental problem in computational linguistics, providing a quantitative characterization of similarity or relatedness between text segments, and underpinning tasks such as text retrieval and text classification. From a mathematical perspective, a semantic distance can be viewed as a metric defined on a space of texts or on a representation space derived from them. However, most classical semantic distance methods are essentially fixed, making them difficult to adapt to specific data distributions and task requirements. In this paper, a semantic distance measure based on multi-kernel Gaussian processes (MK-GP) was proposed. The latent semantic function associated with texts was modeled as a Gaussian process, with its covariance function given by a combined kernel combining Matérn and polynomial components. The kernel parameters were learned automatically from data under supervision, rather than being hand-crafted. This semantic distance was instantiated and evaluated in the context of fine-grained sentiment classification with large language models under an in-context learning (ICL) setup. The experimental results demonstrated the effectiveness of the proposed measure.",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CL",
+      "pdf_url": "https://arxiv.org/pdf/2512.12238v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.12238v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.12238v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.12238v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2512.11356": {
       "title": "Prior-Enhanced Gaussian Splatting for Dynamic Scene Reconstruction from Casual Video",
       "authors": [
@@ -115,26 +294,26 @@
         "Yves Ruffenach"
       ],
       "published": "2025-12-10T11:18:44+00:00",
-      "updated": "2025-12-10T11:18:44+00:00",
+      "updated": "2025-12-15T08:05:00+00:00",
       "summary": "We investigate a fully Latent AutoRegressive scheme based on a Gaussian Process (GP) integrated into a Variational Autoencoder (VAE). In this setting, sequential dynamics are transferred from the observation space to a continuous latent space, while linguistic generation remains parallel through a non-autoregressive decoder. We present a complete methodological formulation, including a causal GP prior, a structured amortized posterior, and a training protocol based on a regularized ELBO. Empirical evaluation, conducted within a deliberately constrained proof-of-concept (POC) framework, shows that the model can be trained stably and that the sequential and parallel sampling variants exhibit consistent behavior. Overall, the results suggest that part of the temporal structure in a language model can be supported by the probabilistic geometry of the latent space rather than by explicit neural operations.",
       "categories": [
         "cs.LG"
       ],
       "primary_category": "cs.LG",
-      "pdf_url": "https://arxiv.org/pdf/2512.09535v1",
+      "pdf_url": "https://arxiv.org/pdf/2512.09535v2",
       "journal_ref": null,
       "doi": null,
       "comment": "27 pages, 1 figure, 4 tables. Proof-of-concept study of a latent-autoregressive GP-VAE language model with TCN encoder and non-autoregressive decoder. Code available at https://github.com/y-v-e-s/GP-VAE-Latent-AR",
-      "entry_id": "http://arxiv.org/abs/2512.09535v1",
+      "entry_id": "http://arxiv.org/abs/2512.09535v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2512.09535v1",
+          "href": "https://arxiv.org/abs/2512.09535v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2512.09535v1",
+          "href": "https://arxiv.org/pdf/2512.09535v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -4336,7 +4515,7 @@
         "Hsiang-Ting Chen"
       ],
       "published": "2025-11-12T15:08:46+00:00",
-      "updated": "2025-11-12T15:08:46+00:00",
+      "updated": "2025-12-15T18:12:41+00:00",
       "summary": "Recent advances in 3D Gaussian Splatting (3DGS) have achieved state-of-the-art results for novel view synthesis. However, efficiently capturing high-fidelity reconstructions of specific objects within complex scenes remains a significant challenge. A key limitation of existing active reconstruction methods is their reliance on scene-level uncertainty metrics, which are often biased by irrelevant background clutter and lead to inefficient view selection for object-centric tasks. We present OUGS, a novel framework that addresses this challenge with a more principled, physically-grounded uncertainty formulation for 3DGS. Our core innovation is to derive uncertainty directly from the explicit physical parameters of the 3D Gaussian primitives (e.g., position, scale, rotation). By propagating the covariance of these parameters through the rendering Jacobian, we establish a highly interpretable uncertainty model. This foundation allows us to then seamlessly integrate semantic segmentation masks to produce a targeted, object-aware uncertainty score that effectively disentangles the object from its environment. This allows for a more effective active view selection strategy that prioritizes views critical to improving object fidelity. Experimental evaluations on public datasets demonstrate that our approach significantly improves the efficiency of the 3DGS reconstruction process and achieves higher quality for targeted objects compared to existing state-of-the-art methods, while also serving as a robust uncertainty estimator for the global scene.",
       "categories": [
         "cs.CV",
@@ -4345,20 +4524,20 @@
         "cs.HC"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2511.09397v1",
+      "pdf_url": "https://arxiv.org/pdf/2511.09397v2",
       "journal_ref": null,
       "doi": null,
-      "comment": "11 pages (10 main + 1 appendix), 7 figures, 3 tables. Preprint, under review for Eurographics 2026",
-      "entry_id": "http://arxiv.org/abs/2511.09397v1",
+      "comment": "Conditionally accepted to Eurographics 2026 (five reviewers)",
+      "entry_id": "http://arxiv.org/abs/2511.09397v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2511.09397v1",
+          "href": "https://arxiv.org/abs/2511.09397v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2511.09397v1",
+          "href": "https://arxiv.org/pdf/2511.09397v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -7228,26 +7407,26 @@
         "Juncheng Li"
       ],
       "published": "2025-10-24T10:05:00+00:00",
-      "updated": "2025-10-24T10:05:00+00:00",
-      "summary": "3D Gaussian Splatting (3DGS), a 3D representation method with photorealistic real-time rendering capabilities, is regarded as an effective tool for narrowing the sim-to-real gap. However, it lacks fine-grained semantics and physical executability for Visual-Language Navigation (VLN). To address this, we propose SAGE-3D (Semantically and Physically Aligned Gaussian Environments for 3D Navigation), a new paradigm that upgrades 3DGS into an executable, semantically and physically aligned environment. It comprises two components: (1) Object-Centric Semantic Grounding, which adds object-level fine-grained annotations to 3DGS; and (2) Physics-Aware Execution Jointing, which embeds collision objects into 3DGS and constructs rich physical interfaces. We release InteriorGS, containing 1K object-annotated 3DGS indoor scene data, and introduce SAGE-Bench, the first 3DGS-based VLN benchmark with 2M VLN data. Experiments show that 3DGS scene data is more difficult to converge, while exhibiting strong generalizability, improving baseline performance by 31% on the VLN-CE Unseen task. The data and code will be available soon.",
+      "updated": "2025-12-15T10:05:39+00:00",
+      "summary": "3D Gaussian Splatting (3DGS), a 3D representation method with photorealistic real-time rendering capabilities, is regarded as an effective tool for narrowing the sim-to-real gap. However, it lacks fine-grained semantics and physical executability for Visual-Language Navigation (VLN). To address this, we propose SAGE-3D (Semantically and Physically Aligned Gaussian Environments for 3D Navigation), a new paradigm that upgrades 3DGS into an executable, semantically and physically aligned environment. It comprises two components: (1) Object-Centric Semantic Grounding, which adds object-level fine-grained annotations to 3DGS; and (2) Physics-Aware Execution Jointing, which embeds collision objects into 3DGS and constructs rich physical interfaces. We release InteriorGS, containing 1K object-annotated 3DGS indoor scene data, and introduce SAGE-Bench, the first 3DGS-based VLN benchmark with 2M VLN data. Experiments show that 3DGS scene data is more difficult to converge, while exhibiting strong generalizability, improving baseline performance by 31% on the VLN-CE Unseen task. Our data and code are available at: https://sage-3d.github.io.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2510.21307v1",
+      "pdf_url": "https://arxiv.org/pdf/2510.21307v2",
       "journal_ref": null,
       "doi": null,
-      "comment": "Download link of InteriorGS: https://huggingface.co/datasets/spatialverse/InteriorGS",
-      "entry_id": "http://arxiv.org/abs/2510.21307v1",
+      "comment": "Project Page: https://sage-3d.github.io/",
+      "entry_id": "http://arxiv.org/abs/2510.21307v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2510.21307v1",
+          "href": "https://arxiv.org/abs/2510.21307v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2510.21307v1",
+          "href": "https://arxiv.org/pdf/2510.21307v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -8231,28 +8410,28 @@
         "Akira Okutomi"
       ],
       "published": "2025-10-16T17:40:28+00:00",
-      "updated": "2025-11-03T12:53:06+00:00",
-      "summary": "We reinterpret Kant's Critique of Pure Reason as a theory of feedback stability, viewing reason as a regulator that keeps inference within the bounds of possible experience. We formalize this intuition via a composite instability index (H-Risk) combining spectral margin, conditioning, temporal sensitivity, and innovation amplification. In linear-Gaussian simulations, higher H-Risk predicts overconfident errors even under formal stability, revealing a gap between nominal and epistemic stability. Extending to large language models (LLMs), we observe preliminary correlations between internal fragility and miscalibration or hallucination (confabulation), and find that lightweight critique prompts may modestly improve or worsen calibration in small-scale tests. These results suggest a structural bridge between Kantian self-limitation and feedback control, offering a principled lens to diagnose and potentially mitigate overconfidence in reasoning systems.",
+      "updated": "2025-12-14T11:13:00+00:00",
+      "summary": "We reinterpret Kant's Critique of Pure Reason as a theory of feedback stability, viewing reason as a regulator that keeps inference within the bounds of possible experience. We formalize this intuition in linear-Gaussian state-space models via H-Risk, a composite instability index integrating spectral margin, conditioning, temporal sensitivity, and innovation amplification. In simulations, higher H-Risk predicts overconfident errors and degraded closed-loop behavior even when the dynamics remain formally stable, exposing a gap between nominal and epistemic stability.\n  Extending this stability lens to large language models (LLMs), we introduce a domain-wise proxy based on confidence fluctuations and overconfident errors. In a binary-question study, a Kantian-inspired policy that permits ''cannot judge'' responses yields targeted reductions in policy-aware squared loss in high-stakes domains relative to an overconfident baseline. To probe internal dynamics, we analyse layer-wise sensitivity of hidden states to small input perturbations. Contrary to a naive instability hypothesis, confidently wrong answers show no instability gap; instead, they are at least as locally stable as confidently correct answers, revealing stable miscalibration in which hallucinations behave like robust but misaligned attractors. For Qwen-2.5, spectral and activation profiles suggest a high signal-to-noise, low effective signal temperature regime in which representations become inertial and resistant to contextual shifts. These results bridge Kantian self-limitation and feedback control, and suggest that stable high-confidence hallucinations may not be readily corrected by output-only heuristics (e.g., temperature scaling or re-sampling), motivating process-level interventions that explicitly perturb and re-evaluate the inference trajectory.",
       "categories": [
         "cs.AI",
         "cs.CL",
         "cs.LG"
       ],
       "primary_category": "cs.AI",
-      "pdf_url": "https://arxiv.org/pdf/2510.14925v2",
+      "pdf_url": "https://arxiv.org/pdf/2510.14925v3",
       "journal_ref": null,
       "doi": null,
-      "comment": "21 pages, 2 figures, preliminary version",
-      "entry_id": "http://arxiv.org/abs/2510.14925v2",
+      "comment": "27 pages, 8 figures, v3.0",
+      "entry_id": "http://arxiv.org/abs/2510.14925v3",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2510.14925v2",
+          "href": "https://arxiv.org/abs/2510.14925v3",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2510.14925v2",
+          "href": "https://arxiv.org/pdf/2510.14925v3",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -88613,6 +88792,75 @@
     }
   },
   "Depth Estimation": {
+    "2512.13147": {
+      "title": "StarryGazer: Leveraging Monocular Depth Estimation Models for Domain-Agnostic Single Depth Image Completion",
+      "authors": [
+        "Sangmin Hong",
+        "Suyoung Lee",
+        "Kyoung Mu Lee"
+      ],
+      "published": "2025-12-15T09:56:09+00:00",
+      "updated": "2025-12-15T09:56:09+00:00",
+      "summary": "The problem of depth completion involves predicting a dense depth image from a single sparse depth map and an RGB image. Unsupervised depth completion methods have been proposed for various datasets where ground truth depth data is unavailable and supervised methods cannot be applied. However, these models require auxiliary data to estimate depth values, which is far from real scenarios. Monocular depth estimation (MDE) models can produce a plausible relative depth map from a single image, but there is no work to properly combine the sparse depth map with MDE for depth completion; a simple affine transformation to the depth map will yield a high error since MDE are inaccurate at estimating depth difference between objects. We introduce StarryGazer, a domain-agnostic framework that predicts dense depth images from a single sparse depth image and an RGB image without relying on ground-truth depth by leveraging the power of large MDE models. First, we employ a pre-trained MDE model to produce relative depth images. These images are segmented and randomly rescaled to form synthetic pairs for dense pseudo-ground truth and corresponding sparse depths. A refinement network is trained with the synthetic pairs, incorporating the relative depth maps and RGB images to improve the model's accuracy and robustness. StarryGazer shows superior results over existing unsupervised methods and transformed MDE results on various datasets, demonstrating that our framework exploits the power of MDE models while appropriately fixing errors using sparse depth information.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.13147v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "11 pages",
+      "entry_id": "http://arxiv.org/abs/2512.13147v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.13147v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.13147v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2512.12425": {
+      "title": "BokehDepth: Enhancing Monocular Depth Estimation through Bokeh Generation",
+      "authors": [
+        "Hangwei Zhang",
+        "Armando Teles Fortes",
+        "Tianyi Wei",
+        "Xingang Pan"
+      ],
+      "published": "2025-12-13T18:39:23+00:00",
+      "updated": "2025-12-13T18:39:23+00:00",
+      "summary": "Bokeh and monocular depth estimation are tightly coupled through the same lens imaging geometry, yet current methods exploit this connection in incomplete ways. High-quality bokeh rendering pipelines typically depend on noisy depth maps, which amplify estimation errors into visible artifacts, while modern monocular metric depth models still struggle on weakly textured, distant and geometrically ambiguous regions where defocus cues are most informative. We introduce BokehDepth, a two-stage framework that decouples bokeh synthesis from depth prediction and treats defocus as an auxiliary supervision-free geometric cue. In Stage-1, a physically guided controllable bokeh generator, built on a powerful pretrained image editing backbone, produces depth-free bokeh stacks with calibrated bokeh strength from a single sharp input. In Stage-2, a lightweight defocus-aware aggregation module plugs into existing monocular depth encoders, fuses features along the defocus dimension, and exposes stable depth-sensitive variations while leaving downstream decoder unchanged. Across challenging benchmarks, BokehDepth improves visual fidelity over depth-map-based bokeh baselines and consistently boosts the metric accuracy and robustness of strong monocular depth foundation models.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.12425v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.12425v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.12425v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.12425v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2512.10956": {
       "title": "Empowering Dynamic Urban Navigation with Stereo and Mid-Level Vision",
       "authors": [

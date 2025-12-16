@@ -1,4 +1,4 @@
-## Updated at 2025-12-16 08:19:21
+## Updated at 2025-12-16 20:08:27
 
 ## 3DGS Semantic
 
@@ -625,6 +625,8 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-12-15**|**[StarryGazer: Leveraging Monocular Depth Estimation Models for Domain-Agnostic Single Depth Image Completion](https://arxiv.org/abs/2512.13147)**|N/A|11 pages|cs.CV|None|Sangmin Hong et al.|
+|**2025-12-13**|**[BokehDepth: Enhancing Monocular Depth Estimation through Bokeh Generation](https://arxiv.org/abs/2512.12425)**|N/A|None|cs.CV|None|Hangwei Zhang et al.|
 |**2025-12-11**|**[Empowering Dynamic Urban Navigation with Stereo and Mid-Level Vision](https://arxiv.org/abs/2512.10956)**|N/A|Project Page: https://www.cs.virginia.edu/~tsx4zn/stereowalk/|cs.CV|None|Wentao Zhou et al.|
 |**2025-12-11**|**[Video Depth Propagation](https://arxiv.org/abs/2512.10725)**|N/A|None|cs.CV|None|Luigi Piccinelli et al.|
 |**2025-12-11**|**[SpaceDrive: Infusing Spatial Awareness into VLM-based Autonomous Driving](https://arxiv.org/abs/2512.10719)**|N/A|None|cs.CV|None|Peizheng Li et al.|
