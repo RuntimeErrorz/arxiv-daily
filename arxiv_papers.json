@@ -1,5 +1,168 @@
 {
   "3DGS Semantic": {
+    "2512.14420": {
+      "title": "DISCODE: Distribution-Aware Score Decoder for Robust Automatic Evaluation of Image Captioning",
+      "authors": [
+        "Nakamasa Inoue",
+        "Kanoko Goto",
+        "Masanari Oi",
+        "Martyna Gruszka",
+        "Mahiro Ukai",
+        "Takumi Hirose",
+        "Yusuke Sekikawa"
+      ],
+      "published": "2025-12-16T14:06:35+00:00",
+      "updated": "2025-12-16T14:06:35+00:00",
+      "summary": "Large vision-language models (LVLMs) have shown impressive performance across a broad range of multimodal tasks. However, robust image caption evaluation using LVLMs remains challenging, particularly under domain-shift scenarios. To address this issue, we introduce the Distribution-Aware Score Decoder (DISCODE), a novel finetuning-free method that generates robust evaluation scores better aligned with human judgments across diverse domains. The core idea behind DISCODE lies in its test-time adaptive evaluation approach, which introduces the Adaptive Test-Time (ATT) loss, leveraging a Gaussian prior distribution to improve robustness in evaluation score estimation. This loss is efficiently minimized at test time using an analytical solution that we derive. Furthermore, we introduce the Multi-domain Caption Evaluation (MCEval) benchmark, a new image captioning evaluation benchmark covering six distinct domains, designed to assess the robustness of evaluation metrics. In our experiments, we demonstrate that DISCODE achieves state-of-the-art performance as a reference-free evaluation metric across MCEval and four representative existing benchmarks.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.14420v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Paper accepted to AAAI 2026",
+      "entry_id": "http://arxiv.org/abs/2512.14420v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.14420v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.14420v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.14177": {
+      "title": "Improving Semantic Uncertainty Quantification in LVLMs with Semantic Gaussian Processes",
+      "authors": [
+        "Joseph Hoche",
+        "Andrei Bursuc",
+        "David Brellmann",
+        "Gilles Louppe",
+        "Pavel Izmailov",
+        "Angela Yao",
+        "Gianni Franchi"
+      ],
+      "published": "2025-12-16T08:15:24+00:00",
+      "updated": "2025-12-16T08:15:24+00:00",
+      "summary": "Large Vision-Language Models (LVLMs) often produce plausible but unreliable outputs, making robust uncertainty estimation essential. Recent work on semantic uncertainty estimates relies on external models to cluster multiple sampled responses and measure their semantic consistency. However, these clustering methods are often fragile, highly sensitive to minor phrasing variations, and can incorrectly group or separate semantically similar answers, leading to unreliable uncertainty estimates. We propose Semantic Gaussian Process Uncertainty (SGPU), a Bayesian framework that quantifies semantic uncertainty by analyzing the geometric structure of answer embeddings, avoiding brittle clustering. SGPU maps generated answers into a dense semantic space, computes the Gram matrix of their embeddings, and summarizes their semantic configuration via the eigenspectrum. This spectral representation is then fed into a Gaussian Process Classifier that learns to map patterns of semantic consistency to predictive uncertainty, and that can be applied in both black-box and white-box settings. Across six LLMs and LVLMs on eight datasets spanning VQA, image classification, and textual QA, SGPU consistently achieves state-of-the-art calibration (ECE) and discriminative (AUROC, AUARC) performance. We further show that SGPU transfers across models and modalities, indicating that its spectral representation captures general patterns of semantic uncertainty.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.14177v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.14177v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.14177v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.14177v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.14126": {
+      "title": "Consistent Instance Field for Dynamic Scene Understanding",
+      "authors": [
+        "Junyi Wu",
+        "Van Nguyen Nguyen",
+        "Benjamin Planche",
+        "Jiachen Tao",
+        "Changchang Sun",
+        "Zhongpai Gao",
+        "Zhenghao Zhao",
+        "Anwesa Choudhuri",
+        "Gengyu Zhang",
+        "Meng Zheng",
+        "Feiran Wang",
+        "Terrence Chen",
+        "Yan Yan",
+        "Ziyan Wu"
+      ],
+      "published": "2025-12-16T06:12:11+00:00",
+      "updated": "2025-12-16T06:12:11+00:00",
+      "summary": "We introduce Consistent Instance Field, a continuous and probabilistic spatio-temporal representation for dynamic scene understanding. Unlike prior methods that rely on discrete tracking or view-dependent features, our approach disentangles visibility from persistent object identity by modeling each space-time point with an occupancy probability and a conditional instance distribution. To realize this, we introduce a novel instance-embedded representation based on deformable 3D Gaussians, which jointly encode radiance and semantic information and are learned directly from input RGB images and instance masks through differentiable rasterization. Furthermore, we introduce new mechanisms to calibrate per-Gaussian identities and resample Gaussians toward semantically active regions, ensuring consistent instance representations across space and time. Experiments on HyperNeRF and Neu3D datasets demonstrate that our method significantly outperforms state-of-the-art methods on novel-view panoptic segmentation and open-vocabulary 4D querying tasks.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.14126v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.14126v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.14126v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.14126v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2512.14022": {
+      "title": "Symbol Distributions in Semantic Communications: A Source-Channel Equilibrium Perspective",
+      "authors": [
+        "Hanju Yoo",
+        "Dongha Choi",
+        "Songkuk Kim",
+        "Chan-Byoung Chae",
+        "Robert W. Heath"
+      ],
+      "published": "2025-12-16T02:39:15+00:00",
+      "updated": "2025-12-16T02:39:15+00:00",
+      "summary": "Semantic communication systems often use an end-to-end neural network to map input data into continuous symbols. These symbols, which are essentially neural network features, usually have fixed dimensions and heavy-tailed distributions. However, due to the end-to-end training nature of the neural network encoder, the underlying reason for the symbol distribution remains underexplored. We propose a new explanation for the semantic symbol distribution: an inherent trade-off between source coding and communications. Specifically, the encoder balances two objectives: allocating power for minimum \\emph{effective codelength} (for source coding) and maximizing mutual information (for communications). We formalize this trade-off via an information-theoretic optimization framework, which yields a Student's $t$-distribution as the resulting symbol distribution. Through extensive studies on image-based semantic systems, we find that our formulation models the learned symbols and predicts how the symbol distribution's shape parameter changes with respect to (i) the use of variable-length coding and (ii) the dataset's entropy variability. Furthermore, we demonstrate how introducing a regularizer that enforces a target symbol distribution, which guides the encoder towards a target prior (e.g., Gaussian), improves training convergence and supports our hypothesis.",
+      "categories": [
+        "cs.IT",
+        "eess.SP"
+      ],
+      "primary_category": "cs.IT",
+      "pdf_url": "https://arxiv.org/pdf/2512.14022v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.14022v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.14022v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.14022v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2512.13411": {
       "title": "Computer vision training dataset generation for robotic environments using Gaussian splatting",
       "authors": [
@@ -639,26 +802,26 @@
         "Yuan Zhou"
       ],
       "published": "2025-12-08T09:33:39+00:00",
-      "updated": "2025-12-08T09:33:39+00:00",
+      "updated": "2025-12-16T14:43:37+00:00",
       "summary": "Versatile 3D tasks (e.g., generation or editing) that distill from Text-to-Image (T2I) diffusion models have attracted significant research interest for not relying on extensive 3D training data. However, T2I models exhibit limitations resulting from prior view bias, which produces conflicting appearances between different views of an object. This bias causes subject-words to preferentially activate prior view features during cross-attention (CA) computation, regardless of the target view condition. To overcome this limitation, we conduct a comprehensive mathematical analysis to reveal the root cause of the prior view bias in T2I models. Moreover, we find different UNet layers show different effects of prior view in CA. Therefore, we propose a novel framework, TD-Attn, which addresses multi-view inconsistency via two key components: (1) the 3D-Aware Attention Guidance Module (3D-AAG) constructs a view-consistent 3D attention Gaussian for subject-words to enforce spatial consistency across attention-focused regions, thereby compensating for the limited spatial information in 2D individual view CA maps; (2) the Hierarchical Attention Modulation Module (HAM) utilizes a Semantic Guidance Tree (SGT) to direct the Semantic Response Profiler (SRP) in localizing and modulating CA layers that are highly responsive to view conditions, where the enhanced CA maps further support the construction of more consistent 3D attention Gaussians. Notably, HAM facilitates semantic-specific interventions, enabling controllable and precise 3D editing. Extensive experiments firmly establish that TD-Attn has the potential to serve as a universal plugin, significantly enhancing multi-view consistency across 3D tasks.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2512.07345v1",
+      "pdf_url": "https://arxiv.org/pdf/2512.07345v2",
       "journal_ref": null,
       "doi": null,
-      "comment": "15 pages, 8 figures, 5 tables, 2 algorithms, Accepted by AAAI 2026",
-      "entry_id": "http://arxiv.org/abs/2512.07345v1",
+      "comment": "Accepted by AAAI 2026, Code is available at: https://github.com/kimslong/AAAI26-TDAttn",
+      "entry_id": "http://arxiv.org/abs/2512.07345v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2512.07345v1",
+          "href": "https://arxiv.org/abs/2512.07345v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2512.07345v1",
+          "href": "https://arxiv.org/pdf/2512.07345v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -4442,26 +4605,26 @@
         "Cheng Jin"
       ],
       "published": "2025-11-13T11:32:08+00:00",
-      "updated": "2025-11-17T05:54:02+00:00",
+      "updated": "2025-12-16T09:47:31+00:00",
       "summary": "Black-box tuning is an emerging paradigm for adapting large language models (LLMs) to better achieve desired behaviors, particularly when direct access to model parameters is unavailable. Current strategies, however, often present a dilemma of suboptimal extremes: either separately train a small proxy model and then use it to shift the predictions of the foundation model, offering notable efficiency but often yielding limited improvement; or making API calls in each tuning iteration to the foundation model, which entails prohibitive computational costs. Therefore, we propose a novel advanced black-box tuning method for LLMs with limited API calls. Our core strategy involves training a Gaussian Process (GP) surrogate model with \"LogitMap Pairs\" derived from querying the foundation model on a minimal but highly informative training subset. This surrogate can approximate the outputs of the foundation model to guide the training of the proxy model, thereby effectively reducing the need for direct queries to the foundation model. Extensive experiments verify that our approach elevates pre-trained language model accuracy from 55.92% to 86.85%, reducing the frequency of API queries to merely 1.38%. This significantly outperforms offline approaches that operate entirely without API access. Notably, our method also achieves comparable or superior accuracy to query-intensive approaches, while significantly reducing API costs. This offers a robust and high-efficiency paradigm for language model adaptation.",
       "categories": [
         "cs.AI"
       ],
       "primary_category": "cs.AI",
-      "pdf_url": "https://arxiv.org/pdf/2511.10210v2",
+      "pdf_url": "https://arxiv.org/pdf/2511.10210v3",
       "journal_ref": null,
       "doi": null,
       "comment": "15 pages, 6 figures",
-      "entry_id": "http://arxiv.org/abs/2511.10210v2",
+      "entry_id": "http://arxiv.org/abs/2511.10210v3",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2511.10210v2",
+          "href": "https://arxiv.org/abs/2511.10210v3",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2511.10210v2",
+          "href": "https://arxiv.org/pdf/2511.10210v3",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -88792,6 +88955,157 @@
     }
   },
   "Depth Estimation": {
+    "2512.14536": {
+      "title": "DASP: Self-supervised Nighttime Monocular Depth Estimation with Domain Adaptation of Spatiotemporal Priors",
+      "authors": [
+        "Yiheng Huang",
+        "Junhong Chen",
+        "Anqi Ning",
+        "Zhanhong Liang",
+        "Nick Michiels",
+        "Luc Claesen",
+        "Wenyin Liu"
+      ],
+      "published": "2025-12-16T16:11:57+00:00",
+      "updated": "2025-12-16T16:11:57+00:00",
+      "summary": "Self-supervised monocular depth estimation has achieved notable success under daytime conditions. However, its performance deteriorates markedly at night due to low visibility and varying illumination, e.g., insufficient light causes textureless areas, and moving objects bring blurry regions. To this end, we propose a self-supervised framework named DASP that leverages spatiotemporal priors for nighttime depth estimation. Specifically, DASP consists of an adversarial branch for extracting spatiotemporal priors and a self-supervised branch for learning. In the adversarial branch, we first design an adversarial network where the discriminator is composed of four devised spatiotemporal priors learning blocks (SPLB) to exploit the daytime priors. In particular, the SPLB contains a spatial-based temporal learning module (STLM) that uses orthogonal differencing to extract motion-related variations along the time axis and an axial spatial learning module (ASLM) that adopts local asymmetric convolutions with global axial attention to capture the multiscale structural information. By combining STLM and ASLM, our model can acquire sufficient spatiotemporal features to restore textureless areas and estimate the blurry regions caused by dynamic objects. In the self-supervised branch, we propose a 3D consistency projection loss to bilaterally project the target frame and source frame into a shared 3D space, and calculate the 3D discrepancy between the two projected frames as a loss to optimize the 3D structural consistency and daytime priors. Extensive experiments on the Oxford RobotCar and nuScenes datasets demonstrate that our approach achieves state-of-the-art performance for nighttime depth estimation. Ablation studies further validate the effectiveness of each component.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.14536v1",
+      "journal_ref": null,
+      "doi": "10.1109/LRA.2025.3644148",
+      "comment": "8 pages, 7 figures",
+      "entry_id": "http://arxiv.org/abs/2512.14536v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.14536v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.14536v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        },
+        {
+          "href": "https://doi.org/10.1109/LRA.2025.3644148",
+          "title": "doi",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2512.14236": {
+      "title": "Elastic3D: Controllable Stereo Video Conversion with Guided Latent Decoding",
+      "authors": [
+        "Nando Metzger",
+        "Prune Truong",
+        "Goutam Bhat",
+        "Konrad Schindler",
+        "Federico Tombari"
+      ],
+      "published": "2025-12-16T09:46:23+00:00",
+      "updated": "2025-12-16T09:46:23+00:00",
+      "summary": "The growing demand for immersive 3D content calls for automated monocular-to-stereo video conversion. We present Elastic3D, a controllable, direct end-to-end method for upgrading a conventional video to a binocular one. Our approach, based on (conditional) latent diffusion, avoids artifacts due to explicit depth estimation and warping. The key to its high-quality stereo video output is a novel, guided VAE decoder that ensures sharp and epipolar-consistent stereo video output. Moreover, our method gives the user control over the strength of the stereo effect (more precisely, the disparity range) at inference time, via an intuitive, scalar tuning knob. Experiments on three different datasets of real-world stereo videos show that our method outperforms both traditional warping-based and recent warping-free baselines and sets a new standard for reliable, controllable stereo video conversion. Please check the project page for the video samples https://elastic3d.github.io.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.14236v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Project page: elastic3d.github.io",
+      "entry_id": "http://arxiv.org/abs/2512.14236v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.14236v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.14236v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2512.14028": {
+      "title": "Robust Single-shot Structured Light 3D Imaging via Neural Feature Decoding",
+      "authors": [
+        "Jiaheng Li",
+        "Qiyu Dai",
+        "Lihan Li",
+        "Praneeth Chakravarthula",
+        "He Sun",
+        "Baoquan Chen",
+        "Wenzheng Chen"
+      ],
+      "published": "2025-12-16T02:47:38+00:00",
+      "updated": "2025-12-16T02:47:38+00:00",
+      "summary": "We consider the problem of active 3D imaging using single-shot structured light systems, which are widely employed in commercial 3D sensing devices such as Apple Face ID and Intel RealSense. Traditional structured light methods typically decode depth correspondences through pixel-domain matching algorithms, resulting in limited robustness under challenging scenarios like occlusions, fine-structured details, and non-Lambertian surfaces. Inspired by recent advances in neural feature matching, we propose a learning-based structured light decoding framework that performs robust correspondence matching within feature space rather than the fragile pixel domain. Our method extracts neural features from the projected patterns and captured infrared (IR) images, explicitly incorporating their geometric priors by building cost volumes in feature space, achieving substantial performance improvements over pixel-domain decoding approaches. To further enhance depth quality, we introduce a depth refinement module that leverages strong priors from large-scale monocular depth estimation models, improving fine detail recovery and global structural coherence. To facilitate effective learning, we develop a physically-based structured light rendering pipeline, generating nearly one million synthetic pattern-image pairs with diverse objects and materials for indoor settings. Experiments demonstrate that our method, trained exclusively on synthetic data with multiple structured light patterns, generalizes well to real-world indoor environments, effectively processes various pattern types without retraining, and consistently outperforms both commercial structured light systems and passive stereo RGB-based depth estimation methods. Project page: https://namisntimpot.github.io/NSLweb/.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.14028v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.14028v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.14028v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.14028v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2512.14020": {
+      "title": "Deep Learning Perspective of Scene Understanding in Autonomous Robots",
+      "authors": [
+        "Afia Maham",
+        "Dur E Nayab Tashfa"
+      ],
+      "published": "2025-12-16T02:31:54+00:00",
+      "updated": "2025-12-16T02:31:54+00:00",
+      "summary": "This paper provides a review of deep learning applications in scene understanding in autonomous robots, including innovations in object detection, semantic and instance segmentation, depth estimation, 3D reconstruction, and visual SLAM. It emphasizes how these techniques address limitations of traditional geometric models, improve depth perception in real time despite occlusions and textureless surfaces, and enhance semantic reasoning to understand the environment better. When these perception modules are integrated into dynamic and unstructured environments, they become more effective in decisionmaking, navigation and interaction. Lastly, the review outlines the existing problems and research directions to advance learning-based scene understanding of autonomous robots.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.14020v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "11 pages. Review Paper on Deep Learning Perspective of Scene Understanding in Autonomous Robots",
+      "entry_id": "http://arxiv.org/abs/2512.14020v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.14020v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.14020v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2512.13147": {
       "title": "StarryGazer: Leveraging Monocular Depth Estimation Models for Domain-Agnostic Single Depth Image Completion",
       "authors": [

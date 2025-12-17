@@ -1,4 +1,4 @@
-## Updated at 2025-12-17 08:18:11
+## Updated at 2025-12-17 20:08:03
 
 ## 3DGS Semantic
 
@@ -8,6 +8,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-12-16**|**[Consistent Instance Field for Dynamic Scene Understanding](https://arxiv.org/abs/2512.14126)**|N/A|None|cs.CV|None|Junyi Wu et al.|
 |**2025-12-09**|**[OpenMonoGS-SLAM: Monocular Gaussian Splatting SLAM with Open-set Semantics](https://arxiv.org/abs/2512.08625)**|N/A|8 pages, 4 figures|cs.CV|None|Jisang Yoo et al.|
 |**2025-12-08**|**[Lang3D-XL: Language Embedded 3D Gaussians for Large-scale Scenes](https://arxiv.org/abs/2512.07807)**|Proceedings of the SIGGRAPH Asia 2025 Conference Papers|Accepted to SIGGRAPH Asia 2025. Project webpage: https://tau-vailab.github.io/Lang3D-XL|cs.CV|None|Shai Krakovsky et al.|
 |**2025-12-08**|**[STRinGS: Selective Text Refinement in Gaussian Splatting](https://arxiv.org/abs/2512.07230)**|N/A|Accepted to WACV 2026. Project Page, see https://STRinGS-official.github.io|cs.CV|None|Abhinav Raundhal et al.|
@@ -625,6 +626,10 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-12-16**|**[DASP: Self-supervised Nighttime Monocular Depth Estimation with Domain Adaptation of Spatiotemporal Priors](https://arxiv.org/abs/2512.14536)**|N/A|8 pages, 7 figures|cs.CV|None|Yiheng Huang et al.|
+|**2025-12-16**|**[Elastic3D: Controllable Stereo Video Conversion with Guided Latent Decoding](https://arxiv.org/abs/2512.14236)**|N/A|Project page: elastic3d.github.io|cs.CV|None|Nando Metzger et al.|
+|**2025-12-16**|**[Robust Single-shot Structured Light 3D Imaging via Neural Feature Decoding](https://arxiv.org/abs/2512.14028)**|N/A|None|cs.CV|None|Jiaheng Li et al.|
+|**2025-12-16**|**[Deep Learning Perspective of Scene Understanding in Autonomous Robots](https://arxiv.org/abs/2512.14020)**|N/A|11 pages. Review Paper on Deep Learning Perspective of Scene Understanding in Autonomous Robots|cs.CV|None|Afia Maham, Dur E Nayab Tashfa|
 |**2025-12-15**|**[StarryGazer: Leveraging Monocular Depth Estimation Models for Domain-Agnostic Single Depth Image Completion](https://arxiv.org/abs/2512.13147)**|N/A|11 pages|cs.CV|None|Sangmin Hong et al.|
 |**2025-12-13**|**[BokehDepth: Enhancing Monocular Depth Estimation through Bokeh Generation](https://arxiv.org/abs/2512.12425)**|N/A|None|cs.CV|None|Hangwei Zhang et al.|
 |**2025-12-11**|**[Empowering Dynamic Urban Navigation with Stereo and Mid-Level Vision](https://arxiv.org/abs/2512.10956)**|N/A|Project Page: https://www.cs.virginia.edu/~tsx4zn/stereowalk/|cs.CV|None|Wentao Zhou et al.|
