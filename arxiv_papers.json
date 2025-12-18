@@ -1,5 +1,122 @@
 {
   "3DGS Semantic": {
+    "2512.15538": {
+      "title": "Tracking Temporal Dynamics of Vector Sets with Gaussian Process",
+      "authors": [
+        "Taichi Aida",
+        "Mamoru Komachi",
+        "Toshinobu Ogiso",
+        "Hiroya Takamura",
+        "Daichi Mochihashi"
+      ],
+      "published": "2025-12-17T15:45:31+00:00",
+      "updated": "2025-12-17T15:45:31+00:00",
+      "summary": "Understanding the temporal evolution of sets of vectors is a fundamental challenge across various domains, including ecology, crime analysis, and linguistics. For instance, ecosystem structures evolve due to interactions among plants, herbivores, and carnivores; the spatial distribution of crimes shifts in response to societal changes; and word embedding vectors reflect cultural and semantic trends over time. However, analyzing such time-varying sets of vectors is challenging due to their complicated structures, which also evolve over time. In this work, we propose a novel method for modeling the distribution underlying each set of vectors using infinite-dimensional Gaussian processes. By approximating the latent function in the Gaussian process with Random Fourier Features, we obtain compact and comparable vector representations over time. This enables us to track and visualize temporal transitions of vector sets in a low-dimensional space. We apply our method to both sociological data (crime distributions) and linguistic data (word embeddings), demonstrating its effectiveness in capturing temporal dynamics. Our results show that the proposed approach provides interpretable and robust representations, offering a powerful framework for analyzing structural changes in temporally indexed vector sets across diverse domains.",
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2512.15538v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Work in Progress",
+      "entry_id": "http://arxiv.org/abs/2512.15538v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.15538v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.15538v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.15258": {
+      "title": "VLA-AN: An Efficient and Onboard Vision-Language-Action Framework for Aerial Navigation in Complex Environments",
+      "authors": [
+        "Yuze Wu",
+        "Mo Zhu",
+        "Xingxing Li",
+        "Yuheng Du",
+        "Yuxin Fan",
+        "Wenjun Li",
+        "Xin Zhou",
+        "Fei Gao"
+      ],
+      "published": "2025-12-17T10:02:55+00:00",
+      "updated": "2025-12-17T10:02:55+00:00",
+      "summary": "This paper proposes VLA-AN, an efficient and onboard Vision-Language-Action (VLA) framework dedicated to autonomous drone navigation in complex environments. VLA-AN addresses four major limitations of existing large aerial navigation models: the data domain gap, insufficient temporal navigation with reasoning, safety issues with generative action policies, and onboard deployment constraints. First, we construct a high-fidelity dataset utilizing 3D Gaussian Splatting (3D-GS) to effectively bridge the domain gap. Second, we introduce a progressive three-stage training framework that sequentially reinforces scene comprehension, core flight skills, and complex navigation capabilities. Third, we design a lightweight, real-time action module coupled with geometric safety correction. This module ensures fast, collision-free, and stable command generation, mitigating the safety risks inherent in stochastic generative policies. Finally, through deep optimization of the onboard deployment pipeline, VLA-AN achieves a robust real-time 8.3x improvement in inference throughput on resource-constrained UAVs. Extensive experiments demonstrate that VLA-AN significantly improves spatial grounding, scene reasoning, and long-horizon navigation, achieving a maximum single-task success rate of 98.1%, and providing an efficient, practical solution for realizing full-chain closed-loop autonomy in lightweight aerial robots.",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2512.15258v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.15258v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.15258v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.15258v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.15076": {
+      "title": "An Exploratory Study of Bayesian Prompt Optimization for Test-Driven Code Generation with Large Language Models",
+      "authors": [
+        "Shlok Tomar",
+        "Aryan Deshwal",
+        "Ethan Villalovoz",
+        "Mattia Fazzini",
+        "Haipeng Cai",
+        "Janardhan Rao Doppa"
+      ],
+      "published": "2025-12-17T04:39:19+00:00",
+      "updated": "2025-12-17T04:39:19+00:00",
+      "summary": "We consider the task of generating functionally correct code using large language models (LLMs). The correctness of generated code is influenced by the prompt used to query the given base LLM. We formulate the problem of finding the appropriate prompt as combinatorial search process and propose a Bayesian optimization (BO) approach referred to as {\\em BO for Code GENeration (BODE-GEN)}. BODE-GEN performs an adaptive data-driven search over prompts guided by training data in the form of prompts tried and the functional accuracy of the generated code over a set of given test cases. The key insight is to perform BO in continuous embedding space by using an auxiliary LLM to bridge the gap between discrete prompt space and continuous embedding space. We leverage two synergistic ideas, namely, random projections and dimensionality scaled priors, to build effective Gaussian process based surrogate models over the high-dimensional embedding space. Our experiments on the HumanEval+ benchmark using multiple base LLMs show that BODE-GEN can improve performance in terms of code generation accuracy compared to fixed prompts and manual prompt engineering. Additionally, we demonstrate that BODE-GEN is sample-efficient, requiring relatively few iterations of BO to demonstrate improvements in code accuracy.",
+      "categories": [
+        "cs.SE"
+      ],
+      "primary_category": "cs.SE",
+      "pdf_url": "https://arxiv.org/pdf/2512.15076v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "20 pages, 13 figures",
+      "entry_id": "http://arxiv.org/abs/2512.15076v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.15076v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.15076v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2512.14420": {
       "title": "DISCODE: Distribution-Aware Score Decoder for Robust Automatic Evaluation of Image Captioning",
       "authors": [
@@ -1611,26 +1728,26 @@
         "Xuelian Liu"
       ],
       "published": "2025-12-03T03:57:41+00:00",
-      "updated": "2025-12-03T03:57:41+00:00",
-      "summary": "State Space Models (SSMs) demonstrate significant potential for long-sequence modeling, but their reliance on input order conflicts with the irregular nature of point clouds. Existing approaches often rely on predefined serialization strategies, which cannot adjust based on diverse geometric structures. To overcome this limitation, we propose \\textbf{DM3D}, a deformable Mamba architecture for point cloud understanding. Specifically, DM3D introduces an offset-guided Gaussian sequencing mechanism that unifies local resampling and global reordering within a deformable scan. The Gaussian-based KNN Resampling (GKR) enhances structural awareness by adaptively reorganizing neighboring points, while the Gaussian-based Differentiable Reordering (GDR) enables end-to-end optimization of serialization order. Furthermore, a Tri-Path Frequency Fusion module enhances feature complementarity and reduces aliasing. Together, these components enable structure-adaptive serialization of point clouds. Extensive experiments on benchmark datasets show that DM3D achieves state-of-the-art performance in classification, few-shot learning, and part segmentation, demonstrating that adaptive serialization effectively unlocks the potential of SSMs for point cloud understanding.",
+      "updated": "2025-12-17T02:01:37+00:00",
+      "summary": "State Space Models (SSMs) demonstrate significant potential for long-sequence modeling, but their reliance on input order conflicts with the irregular nature of point clouds. Existing approaches often rely on predefined serialization strategies, which cannot adjust based on diverse geometric structures. To overcome this limitation, we propose \\textbf{DM3D}, a deformable Mamba architecture for point cloud understanding. Specifically, DM3D introduces an offset-guided Gaussian sequencing mechanism that unifies local resampling and global reordering within a deformable scan. The Gaussian-based KNN Resampling (GKR) enhances structural awareness by adaptively reorganizing neighboring points, while the Gaussian-based Differentiable Reordering (GDR) enables end-to-end optimization of serialization order. Furthermore, a Tri-Path Frequency Fusion module enhances feature complementarity and reduces aliasing. Together, these components enable structure-adaptive serialization of point clouds. Extensive experiments on benchmark datasets show that DM3D achieves state-of-the-art performance in classification, few-shot learning, and part segmentation, demonstrating that adaptive serialization effectively unlocks the potential of SSMs for point cloud understanding. The code will be released at https://github.com/L1277471578/DM3D.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2512.03424v1",
+      "pdf_url": "https://arxiv.org/pdf/2512.03424v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2512.03424v1",
+      "entry_id": "http://arxiv.org/abs/2512.03424v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2512.03424v1",
+          "href": "https://arxiv.org/abs/2512.03424v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2512.03424v1",
+          "href": "https://arxiv.org/pdf/2512.03424v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -2865,6 +2982,43 @@
         },
         {
           "href": "https://arxiv.org/pdf/2511.20224v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.20045": {
+      "title": "History-Augmented Contrastive Learning With Soft Mixture of Experts for Blind Super-Resolution of Planetary Remote Sensing Images",
+      "authors": [
+        "Hui-Jia Zhao",
+        "Jie Lu",
+        "Yunqing Jiang",
+        "Xiao-Ping Lu",
+        "Kaichang Di"
+      ],
+      "published": "2025-11-25T08:13:15+00:00",
+      "updated": "2025-12-17T04:03:54+00:00",
+      "summary": "Blind Super-Resolution (BSR) in planetary remote sensing constitutes a highly ill-posed inverse problem, characterized by unknown degradation patterns and a complete absence of ground-truth supervision. Existing unsupervised approaches often struggle with optimization instability and distribution shifts, relying on greedy strategies or generic priors that fail to preserve distinct morphological semantics. To address these challenges, we propose History-Augmented Contrastive Mixture of Experts (HAC-MoE), a novel unsupervised framework that decouples kernel estimation from image reconstruction without external kernel priors. The framework is founded on three key innovations: (1) A Contrastive Kernel Sampling mechanism that mitigates the distribution bias inherent in random Gaussian sampling, ensuring the generation of plausible kernel priors via similarity constraints; (2) A History-Augmented Contrastive Learning strategy that leverages historical model states as negative self-priors. We provide a theoretical analysis demonstrating that this mechanism induces strong convexity in the feature space, thereby stabilizing the unsupervised optimization trajectory and preventing overfitting; and (3) A Morphology-Aware Soft Mixture-of-Experts (MA-MoE) estimator that dynamically modulates spectral-spatial features to adaptively reconstruct diverse planetary topographies. To facilitate rigorous evaluation, we introduce Ceres-50, a benchmark dataset encapsulating diverse geological features under realistic degradation simulations. Extensive experiments demonstrate that HAC-MoE achieves state-of-the-art performance in reconstruction quality and kernel estimation accuracy, offering a solution for scientific observation in data-sparse extraterrestrial environments.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2511.20045v2",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "12pages",
+      "entry_id": "http://arxiv.org/abs/2511.20045v2",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.20045v2",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.20045v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -88963,6 +89117,45 @@
     }
   },
   "Depth Estimation": {
+    "2512.15715": {
+      "title": "In Pursuit of Pixel Supervision for Visual Pre-training",
+      "authors": [
+        "Lihe Yang",
+        "Shang-Wen Li",
+        "Yang Li",
+        "Xinjie Lei",
+        "Dong Wang",
+        "Abdelrahman Mohamed",
+        "Hengshuang Zhao",
+        "Hu Xu"
+      ],
+      "published": "2025-12-17T18:59:58+00:00",
+      "updated": "2025-12-17T18:59:58+00:00",
+      "summary": "At the most basic level, pixels are the source of the visual information through which we perceive the world. Pixels contain information at all levels, ranging from low-level attributes to high-level concepts. Autoencoders represent a classical and long-standing paradigm for learning representations from pixels or other raw inputs. In this work, we demonstrate that autoencoder-based self-supervised learning remains competitive today and can produce strong representations for downstream tasks, while remaining simple, stable, and efficient. Our model, codenamed \"Pixio\", is an enhanced masked autoencoder (MAE) with more challenging pre-training tasks and more capable architectures. The model is trained on 2B web-crawled images with a self-curation strategy with minimal human curation. Pixio performs competitively across a wide range of downstream tasks in the wild, including monocular depth estimation (e.g., Depth Anything), feed-forward 3D reconstruction (i.e., MapAnything), semantic segmentation, and robot learning, outperforming or matching DINOv3 trained at similar scales. Our results suggest that pixel-space self-supervised learning can serve as a promising alternative and a complement to latent-space approaches.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.15715v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Project page: https://github.com/facebookresearch/pixio",
+      "entry_id": "http://arxiv.org/abs/2512.15715v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.15715v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.15715v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2512.14536": {
       "title": "DASP: Self-supervised Nighttime Monocular Depth Estimation with Domain Adaptation of Spatiotemporal Priors",
       "authors": [
