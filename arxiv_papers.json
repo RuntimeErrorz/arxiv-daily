@@ -1,5 +1,307 @@
 {
   "3DGS Semantic": {
+    "2512.16885": {
+      "title": "M-PhyGs: Multi-Material Object Dynamics from Video",
+      "authors": [
+        "Norika Wada",
+        "Kohei Yamashita",
+        "Ryo Kawahara",
+        "Ko Nishino"
+      ],
+      "published": "2025-12-18T18:50:08+00:00",
+      "updated": "2025-12-18T18:50:08+00:00",
+      "summary": "Knowledge of the physical material properties governing the dynamics of a real-world object becomes necessary to accurately anticipate its response to unseen interactions. Existing methods for estimating such physical material parameters from visual data assume homogeneous single-material objects, pre-learned dynamics, or simplistic topologies. Real-world objects, however, are often complex in material composition and geometry lying outside the realm of these assumptions. In this paper, we particularly focus on flowers as a representative common object. We introduce Multi-material Physical Gaussians (M-PhyGs) to estimate the material composition and parameters of such multi-material complex natural objects from video. From a short video captured in a natural setting, M-PhyGs jointly segments the object into similar materials and recovers their continuum mechanical parameters while accounting for gravity. M-PhyGs achieves this efficiently with newly introduced cascaded 3D and 2D losses, and by leveraging temporal mini-batching. We introduce a dataset, Phlowers, of people interacting with flowers as a novel platform to evaluate the accuracy of this challenging task of multi-material physical parameter estimation. Experimental results on Phlowers dataset demonstrate the accuracy and effectiveness of M-PhyGs and its components.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.16885v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.16885v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.16885v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.16885v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.16841": {
+      "title": "Radiology Report Generation with Layer-Wise Anatomical Attention",
+      "authors": [
+        "Emmanuel D. Muñiz-De-León",
+        "Jorge A. Rosales-de-Golferichs",
+        "Ana S. Muñoz-Rodríguez",
+        "Alejandro I. Trejo-Castro",
+        "Eduardo de Avila-Armenta",
+        "Antonio Martínez-Torteya"
+      ],
+      "published": "2025-12-18T18:17:57+00:00",
+      "updated": "2025-12-18T18:17:57+00:00",
+      "summary": "Automatic radiology report generation is a promising application of multimodal deep learning, aiming to reduce reporting workload and improve consistency. However, current state-of-the-art (SOTA) systems - such as Multimodal AI for Radiology Applications (MAIRA-2) and Medical Pathways Language Model-Multimodal (MedPaLM-M) - depend on large-scale multimodal training, clinical metadata, and multiple imaging views, making them resource-intensive and inaccessible for most settings. We introduce a compact image-to-text architecture that generates the Findings section of chest X-ray reports from a single frontal image. The model combines a frozen Self-Distillation with No Labels v3 (DINOv3) Vision Transformer (ViT) encoder with a Generative Pre-trained Transformer 2 (GPT-2) decoder enhanced by layer-wise anatomical attention. This mechanism integrates lung and heart segmentation masks through hierarchical Gaussian smoothing, biasing attention toward clinically relevant regions without adding trainable parameters. Evaluated on the official Medical Information Mart for Intensive Care-Chest X-ray (MIMIC-CXR) dataset using Chest Radiograph Expert (CheXpert) and Radiology Graph (RadGraph) metrics, our approach achieved substantial gains: CheXpert Macro-F1 for five key pathologies increased by 168% (0.083 -> 0.238) and Micro-F1 by 146% (0.137 -> 0.337), while broader performance across 14 observations improved by 86% (0.170 -> 0.316). Structural coherence also improved, with RadGraph F1 rising by 9.7%. Despite its small size and purely image-conditioned design, the model demonstrates that decoder-level anatomical guidance improves spatial grounding and enhances coherence in clinically relevant regions. The source code is publicly available at: https://github.com/devMuniz02/UDEM-CXR-Reporting-Thesis-2025.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.16841v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "11 pages, 6 figures",
+      "entry_id": "http://arxiv.org/abs/2512.16841v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.16841v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.16841v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.16811": {
+      "title": "GeoPredict: Leveraging Predictive Kinematics and 3D Gaussian Geometry for Precise VLA Manipulation",
+      "authors": [
+        "Jingjing Qian",
+        "Boyao Han",
+        "Chen Shi",
+        "Lei Xiao",
+        "Long Yang",
+        "Shaoshuai Shi",
+        "Li Jiang"
+      ],
+      "published": "2025-12-18T17:51:42+00:00",
+      "updated": "2025-12-18T17:51:42+00:00",
+      "summary": "Vision-Language-Action (VLA) models achieve strong generalization in robotic manipulation but remain largely reactive and 2D-centric, making them unreliable in tasks that require precise 3D reasoning. We propose GeoPredict, a geometry-aware VLA framework that augments a continuous-action policy with predictive kinematic and geometric priors. GeoPredict introduces a trajectory-level module that encodes motion history and predicts multi-step 3D keypoint trajectories of robot arms, and a predictive 3D Gaussian geometry module that forecasts workspace geometry with track-guided refinement along future keypoint trajectories. These predictive modules serve exclusively as training-time supervision through depth-based rendering, while inference requires only lightweight additional query tokens without invoking any 3D decoding. Experiments on RoboCasa Human-50, LIBERO, and real-world manipulation tasks show that GeoPredict consistently outperforms strong VLA baselines, especially in geometry-intensive and spatially demanding scenarios.",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.16811v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.16811v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.16811v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.16811v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.16576": {
+      "title": "InfoDCL: Informative Noise Enhanced Diffusion Based Contrastive Learning",
+      "authors": [
+        "Xufeng Liang",
+        "Zhida Qin",
+        "Chong Zhang",
+        "Tianyu Huang",
+        "Gangyi Ding"
+      ],
+      "published": "2025-12-18T14:15:31+00:00",
+      "updated": "2025-12-18T14:15:31+00:00",
+      "summary": "Contrastive learning has demonstrated promising potential in recommender systems. Existing methods typically construct sparser views by randomly perturbing the original interaction graph, as they have no idea about the authentic user preferences. Owing to the sparse nature of recommendation data, this paradigm can only capture insufficient semantic information. To address the issue, we propose InfoDCL, a novel diffusion-based contrastive learning framework for recommendation. Rather than injecting randomly sampled Gaussian noise, we employ a single-step diffusion process that integrates noise with auxiliary semantic information to generate signals and feed them to the standard diffusion process to generate authentic user preferences as contrastive views. Besides, based on a comprehensive analysis of the mutual influence between generation and preference learning in InfoDCL, we build a collaborative training objective strategy to transform the interference between them into mutual collaboration. Additionally, we employ multiple GCN layers only during inference stage to incorporate higher-order co-occurrence information while maintaining training efficiency. Extensive experiments on five real-world datasets demonstrate that InfoDCL significantly outperforms state-of-the-art methods. Our InfoDCL offers an effective solution for enhancing recommendation performance and suggests a novel paradigm for applying diffusion method in contrastive learning frameworks.",
+      "categories": [
+        "cs.IR"
+      ],
+      "primary_category": "cs.IR",
+      "pdf_url": "https://arxiv.org/pdf/2512.16576v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.16576v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.16576v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.16576v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.16567": {
+      "title": "Causal-Tune: Mining Causal Factors from Vision Foundation Models for Domain Generalized Semantic Segmentation",
+      "authors": [
+        "Yin Zhang",
+        "Yongqiang Zhang",
+        "Yaoyue Zheng",
+        "Bogdan Raducanu",
+        "Dan Liu"
+      ],
+      "published": "2025-12-18T14:10:46+00:00",
+      "updated": "2025-12-18T14:10:46+00:00",
+      "summary": "Fine-tuning Vision Foundation Models (VFMs) with a small number of parameters has shown remarkable performance in Domain Generalized Semantic Segmentation (DGSS). Most existing works either train lightweight adapters or refine intermediate features to achieve better generalization on unseen domains. However, they both overlook the fact that long-term pre-trained VFMs often exhibit artifacts, which hinder the utilization of valuable representations and ultimately degrade DGSS performance. Inspired by causal mechanisms, we observe that these artifacts are associated with non-causal factors, which usually reside in the low- and high-frequency components of the VFM spectrum. In this paper, we explicitly examine the causal and non-causal factors of features within VFMs for DGSS, and propose a simple yet effective method to identify and disentangle them, enabling more robust domain generalization. Specifically, we propose Causal-Tune, a novel fine-tuning strategy designed to extract causal factors and suppress non-causal ones from the features of VFMs. First, we extract the frequency spectrum of features from each layer using the Discrete Cosine Transform (DCT). A Gaussian band-pass filter is then applied to separate the spectrum into causal and non-causal components. To further refine the causal components, we introduce a set of causal-aware learnable tokens that operate in the frequency domain, while the non-causal components are discarded. Finally, refined features are transformed back into the spatial domain via inverse DCT and passed to the next layer. Extensive experiments conducted on various cross-domain tasks demonstrate the effectiveness of Causal-Tune. In particular, our method achieves superior performance under adverse weather conditions, improving +4.8% mIoU over the baseline in snow conditions.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.16567v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted by AAAI 2026",
+      "entry_id": "http://arxiv.org/abs/2512.16567v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.16567v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.16567v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.16397": {
+      "title": "Using Gaussian Splats to Create High-Fidelity Facial Geometry and Texture",
+      "authors": [
+        "Haodi He",
+        "Jihun Yu",
+        "Ronald Fedkiw"
+      ],
+      "published": "2025-12-18T10:53:51+00:00",
+      "updated": "2025-12-18T10:53:51+00:00",
+      "summary": "We leverage increasingly popular three-dimensional neural representations in order to construct a unified and consistent explanation of a collection of uncalibrated images of the human face. Our approach utilizes Gaussian Splatting, since it is more explicit and thus more amenable to constraints than NeRFs. We leverage segmentation annotations to align the semantic regions of the face, facilitating the reconstruction of a neutral pose from only 11 images (as opposed to requiring a long video). We soft constrain the Gaussians to an underlying triangulated surface in order to provide a more structured Gaussian Splat reconstruction, which in turn informs subsequent perturbations to increase the accuracy of the underlying triangulated surface. The resulting triangulated surface can then be used in a standard graphics pipeline. In addition, and perhaps most impactful, we show how accurate geometry enables the Gaussian Splats to be transformed into texture space where they can be treated as a view-dependent neural texture. This allows one to use high visual fidelity Gaussian Splatting on any asset in a scene without the need to modify any other asset or any other aspect (geometry, lighting, renderer, etc.) of the graphics pipeline. We utilize a relightable Gaussian model to disentangle texture from lighting in order to obtain a delit high-resolution albedo texture that is also readily usable in a standard graphics pipeline. The flexibility of our system allows for training with disparate images, even with incompatible lighting, facilitating robust regularization. Finally, we demonstrate the efficacy of our approach by illustrating its use in a text-driven asset creation pipeline.",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.GR"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.16397v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Submitted to CVPR 2026. 21 pages, 22 figures",
+      "entry_id": "http://arxiv.org/abs/2512.16397v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.16397v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.16397v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.16219": {
+      "title": "Learning High-Quality Initial Noise for Single-View Synthesis with Diffusion Models",
+      "authors": [
+        "Zhihao Zhang",
+        "Xuejun Yang",
+        "Weihua Liu",
+        "Mouquan Shen"
+      ],
+      "published": "2025-12-18T06:08:21+00:00",
+      "updated": "2025-12-18T06:08:21+00:00",
+      "summary": "Single-view novel view synthesis (NVS) models based on diffusion models have recently attracted increasing attention, as they can generate a series of novel view images from a single image prompt and camera pose information as conditions. It has been observed that in diffusion models, certain high-quality initial noise patterns lead to better generation results than others. However, there remains a lack of dedicated learning frameworks that enable NVS models to learn such high-quality noise. To obtain high-quality initial noise from random Gaussian noise, we make the following contributions. First, we design a discretized Euler inversion method to inject image semantic information into random noise, thereby constructing paired datasets of random and high-quality noise. Second, we propose a learning framework based on an encoder-decoder network (EDN) that directly transforms random noise into high-quality noise. Experiments demonstrate that the proposed EDN can be seamlessly plugged into various NVS models, such as SV3D and MV-Adapter, achieving significant performance improvements across multiple datasets. Code is available at: https://github.com/zhihao0512/EDN.",
+      "categories": [
+        "cs.CV",
+        "eess.IV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.16219v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "16 pages, 9 figures",
+      "entry_id": "http://arxiv.org/abs/2512.16219v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.16219v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.16219v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.15923": {
+      "title": "A Unification of Discrete, Gaussian, and Simplicial Diffusion",
+      "authors": [
+        "Nuria Alina Chandra",
+        "Yucen Lily Li",
+        "Alan N. Amin",
+        "Alex Ali",
+        "Joshua Rollins",
+        "Sebastian W. Ober",
+        "Aniruddh Raghu",
+        "Andrew Gordon Wilson"
+      ],
+      "published": "2025-12-17T19:39:33+00:00",
+      "updated": "2025-12-17T19:39:33+00:00",
+      "summary": "To model discrete sequences such as DNA, proteins, and language using diffusion, practitioners must choose between three major methods: diffusion in discrete space, Gaussian diffusion in Euclidean space, or diffusion on the simplex. Despite their shared goal, these models have disparate algorithms, theoretical structures, and tradeoffs: discrete diffusion has the most natural domain, Gaussian diffusion has more mature algorithms, and diffusion on the simplex in principle combines the strengths of the other two but in practice suffers from a numerically unstable stochastic processes. Ideally we could see each of these models as instances of the same underlying framework, and enable practitioners to switch between models for downstream applications. However previous theories have only considered connections in special cases. Here we build a theory unifying all three methods of discrete diffusion as different parameterizations of the same underlying process: the Wright-Fisher population genetics model. In particular, we find simplicial and Gaussian diffusion as two large-population limits. Our theory formally connects the likelihoods and hyperparameters of these models and leverages decades of mathematical genetics literature to unlock stable simplicial diffusion. Finally, we relieve the practitioner of balancing model trade-offs by demonstrating it is possible to train a single model that can perform diffusion in any of these three domains at test time. Our experiments show that Wright-Fisher simplicial diffusion is more stable and outperforms previous simplicial diffusion models on conditional DNA generation. We also show that we can train models on multiple domains at once that are competitive with models trained on any individual domain.",
+      "categories": [
+        "cs.LG"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2512.15923v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.15923v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.15923v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.15923v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2512.15538": {
       "title": "Tracking Temporal Dynamics of Vector Sets with Gaussian Process",
       "authors": [
@@ -89117,6 +89419,46 @@
     }
   },
   "Depth Estimation": {
+    "2512.16561": {
+      "title": "N3D-VLM: Native 3D Grounding Enables Accurate Spatial Reasoning in Vision-Language Models",
+      "authors": [
+        "Yuxin Wang",
+        "Lei Ke",
+        "Boqiang Zhang",
+        "Tianyuan Qu",
+        "Hanxun Yu",
+        "Zhenpeng Huang",
+        "Meng Yu",
+        "Dan Xu",
+        "Dong Yu"
+      ],
+      "published": "2025-12-18T14:03:44+00:00",
+      "updated": "2025-12-18T14:03:44+00:00",
+      "summary": "While current multimodal models can answer questions based on 2D images, they lack intrinsic 3D object perception, limiting their ability to comprehend spatial relationships and depth cues in 3D scenes. In this work, we propose N3D-VLM, a novel unified framework that seamlessly integrates native 3D object perception with 3D-aware visual reasoning, enabling both precise 3D grounding and interpretable spatial understanding. Unlike conventional end-to-end models that directly predict answers from RGB/RGB-D inputs, our approach equips the model with native 3D object perception capabilities, enabling it to directly localize objects in 3D space based on textual descriptions. Building upon accurate 3D object localization, the model further performs explicit reasoning in 3D, achieving more interpretable and structured spatial understanding. To support robust training for these capabilities, we develop a scalable data construction pipeline that leverages depth estimation to lift large-scale 2D annotations into 3D space, significantly increasing the diversity and coverage for 3D object grounding data, yielding over six times larger than the largest existing single-image 3D detection dataset. Moreover, the pipeline generates spatial question-answering datasets that target chain-of-thought (CoT) reasoning in 3D, facilitating joint training for both 3D object localization and 3D spatial reasoning. Experimental results demonstrate that our unified framework not only achieves state-of-the-art performance on 3D grounding tasks, but also consistently surpasses existing methods in 3D spatial reasoning in vision-language model.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.16561v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Project Page: https://n3d-vlm.github.io",
+      "entry_id": "http://arxiv.org/abs/2512.16561v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.16561v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.16561v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2512.15715": {
       "title": "In Pursuit of Pixel Supervision for Visual Pre-training",
       "authors": [

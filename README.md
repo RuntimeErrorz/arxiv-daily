@@ -1,4 +1,4 @@
-## Updated at 2025-12-19 08:19:21
+## Updated at 2025-12-19 20:08:13
 
 ## 3DGS Semantic
 
@@ -626,6 +626,7 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-12-18**|**[N3D-VLM: Native 3D Grounding Enables Accurate Spatial Reasoning in Vision-Language Models](https://arxiv.org/abs/2512.16561)**|N/A|Project Page: https://n3d-vlm.github.io|cs.CV|None|Yuxin Wang et al.|
 |**2025-12-17**|**[In Pursuit of Pixel Supervision for Visual Pre-training](https://arxiv.org/abs/2512.15715)**|N/A|Project page: https://github.com/facebookresearch/pixio|cs.CV|None|Lihe Yang et al.|
 |**2025-12-16**|**[DASP: Self-supervised Nighttime Monocular Depth Estimation with Domain Adaptation of Spatiotemporal Priors](https://arxiv.org/abs/2512.14536)**|N/A|8 pages, 7 figures|cs.CV|None|Yiheng Huang et al.|
 |**2025-12-16**|**[Elastic3D: Controllable Stereo Video Conversion with Guided Latent Decoding](https://arxiv.org/abs/2512.14236)**|N/A|Project page: elastic3d.github.io|cs.CV|None|Nando Metzger et al.|
