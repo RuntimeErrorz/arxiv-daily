@@ -1,5 +1,148 @@
 {
   "3DGS Semantic": {
+    "2512.19019": {
+      "title": "Optimizer Dynamics at the Edge of Stability with Differential Privacy",
+      "authors": [
+        "Ayana Hussain",
+        "Ricky Fang"
+      ],
+      "published": "2025-12-22T04:16:13+00:00",
+      "updated": "2025-12-22T04:16:13+00:00",
+      "summary": "Deep learning models can reveal sensitive information about individual training examples, and while differential privacy (DP) provides guarantees restricting such leakage, it also alters optimization dynamics in poorly understood ways. We study the training dynamics of neural networks under DP by comparing Gradient Descent (GD), and Adam to their privacy-preserving variants. Prior work shows that these optimizers exhibit distinct stability dynamics: full-batch methods train at the Edge of Stability (EoS), while mini-batch and adaptive methods exhibit analogous edge-of-stability behavior. At these regimes, the training loss and the sharpness--the maximum eigenvalue of the training loss Hessian--exhibit certain characteristic behavior. In DP training, per-example gradient clipping and Gaussian noise modify the update rule, and it is unclear whether these stability patterns persist. We analyze how clipping and noise change sharpness and loss evolution and show that while DP generally reduces the sharpness and can prevent optimizers from fully reaching the classical stability thresholds, patterns from EoS and analogous adaptive methods stability regimes persist, with the largest learning rates and largest privacy budgets approaching, and sometimes exceeding, these thresholds. These findings highlight the unpredictability introduced by DP in neural network optimization.",
+      "categories": [
+        "cs.LG"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2512.19019v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "17 pages, 5 figures",
+      "entry_id": "http://arxiv.org/abs/2512.19019v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.19019v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.19019v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.18619": {
+      "title": "ChronoDreamer: Action-Conditioned World Model as an Online Simulator for Robotic Planning",
+      "authors": [
+        "Zhenhao Zhou",
+        "Dan Negrut"
+      ],
+      "published": "2025-12-21T06:36:03+00:00",
+      "updated": "2025-12-21T06:36:03+00:00",
+      "summary": "We present ChronoDreamer, an action-conditioned world model for contact-rich robotic manipulation. Given a history of egocentric RGB frames, contact maps, actions, and joint states, ChronoDreamer predicts future video frames, contact distributions, and joint angles via a spatial-temporal transformer trained with MaskGIT-style masked prediction. Contact is encoded as depth-weighted Gaussian splat images that render 3D forces into a camera-aligned format suitable for vision backbones. At inference, predicted rollouts are evaluated by a vision-language model that reasons about collision likelihood, enabling rejection sampling of unsafe actions before execution. We train and evaluate on DreamerBench, a simulation dataset generated with Project Chrono that provides synchronized RGB, contact splat, proprioception, and physics annotations across rigid and deformable object scenarios. Qualitative results demonstrate that the model preserves spatial coherence during non-contact motion and generates plausible contact predictions, while the LLM-based judge distinguishes collision from non-collision trajectories.",
+      "categories": [
+        "cs.AI",
+        "cs.RO"
+      ],
+      "primary_category": "cs.AI",
+      "pdf_url": "https://arxiv.org/pdf/2512.18619v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.18619v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.18619v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.18619v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.18489": {
+      "title": "Large Language Models as Discounted Bayesian Filters",
+      "authors": [
+        "Jensen Zhang",
+        "Jing Yang",
+        "Keze Wang"
+      ],
+      "published": "2025-12-20T19:56:39+00:00",
+      "updated": "2025-12-20T19:56:39+00:00",
+      "summary": "Large Language Models (LLMs) demonstrate strong few-shot generalization through in-context learning, yet their reasoning in dynamic and stochastic environments remains opaque. Prior studies mainly focus on static tasks and overlook the online adaptation required when beliefs must be continuously updated, which is a key capability for LLMs acting as world models or agents. We introduce a Bayesian filtering framework to evaluate online inference in LLMs. Our probabilistic probe suite spans both multivariate discrete distributions, such as dice rolls, and continuous distributions, such as Gaussian processes, where ground-truth parameters shift over time. We find that while LLM belief updates resemble Bayesian posteriors, they are more accurately characterized by an exponential forgetting filter with a model-specific discount factor smaller than one. This reveals systematic discounting of older evidence that varies significantly across model architectures. Although inherent priors are often miscalibrated, the updating mechanism itself remains structured and principled. We further validate these findings in a simulated agent task and propose prompting strategies that effectively recalibrate priors with minimal computational cost.",
+      "categories": [
+        "cs.AI"
+      ],
+      "primary_category": "cs.AI",
+      "pdf_url": "https://arxiv.org/pdf/2512.18489v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Under submission",
+      "entry_id": "http://arxiv.org/abs/2512.18489v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.18489v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.18489v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.18386": {
+      "title": "RecurGS: Interactive Scene Modeling via Discrete-State Recurrent Gaussian Fusion",
+      "authors": [
+        "Wenhao Hu",
+        "Haonan Zhou",
+        "Zesheng Li",
+        "Liu Liu",
+        "Jiacheng Dong",
+        "Zhizhong Su",
+        "Gaoang Wang"
+      ],
+      "published": "2025-12-20T14:53:22+00:00",
+      "updated": "2025-12-20T14:53:22+00:00",
+      "summary": "Recent advances in 3D scene representations have enabled high-fidelity novel view synthesis, yet adapting to discrete scene changes and constructing interactive 3D environments remain open challenges in vision and robotics. Existing approaches focus solely on updating a single scene without supporting novel-state synthesis. Others rely on diffusion-based object-background decoupling that works on one state at a time and cannot fuse information across multiple observations. To address these limitations, we introduce RecurGS, a recurrent fusion framework that incrementally integrates discrete Gaussian scene states into a single evolving representation capable of interaction. RecurGS detects object-level changes across consecutive states, aligns their geometric motion using semantic correspondence and Lie-algebra based SE(3) refinement, and performs recurrent updates that preserve historical structures through replay supervision. A voxelized, visibility-aware fusion module selectively incorporates newly observed regions while keeping stable areas fixed, mitigating catastrophic forgetting and enabling efficient long-horizon updates. RecurGS supports object-level manipulation, synthesizes novel scene states without requiring additional scans, and maintains photorealistic fidelity across evolving environments. Extensive experiments across synthetic and real-world datasets demonstrate that our framework delivers high-quality reconstructions with substantially improved update efficiency, providing a scalable step toward continuously interactive Gaussian worlds.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.18386v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.18386v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.18386v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.18386v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2512.17817": {
       "title": "Chorus: Multi-Teacher Pretraining for Holistic 3D Gaussian Scene Encoding",
       "authors": [
@@ -16,26 +159,26 @@
         "Martin R. Oswald"
       ],
       "published": "2025-12-19T17:22:35+00:00",
-      "updated": "2025-12-19T17:22:35+00:00",
+      "updated": "2025-12-22T02:33:28+00:00",
       "summary": "While 3DGS has emerged as a high-fidelity scene representation, encoding rich, general-purpose features directly from its primitives remains under-explored. We address this gap by introducing Chorus, a multi-teacher pretraining framework that learns a holistic feed-forward 3D Gaussian Splatting (3DGS) scene encoder by distilling complementary signals from 2D foundation models. Chorus employs a shared 3D encoder and teacher-specific projectors to learn from language-aligned, generalist, and object-aware teachers, encouraging a shared embedding space that captures signals from high-level semantics to fine-grained structure.\n  We evaluate Chorus on a wide range of tasks: open-vocabulary semantic and instance segmentation, linear and decoder probing, as well as data-efficient supervision. Besides 3DGS, we also test Chorus on several benchmarks that only support point clouds by pretraining a variant using only Gaussians' centers, colors, estimated normals as inputs. Interestingly, this encoder shows strong transfer and outperforms the point clouds baseline while using 39.9 times fewer training scenes. Finally, we propose a render-and-distill adaptation that facilitates out-of-domain finetuning. Our code and model will be released upon publication.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2512.17817v1",
+      "pdf_url": "https://arxiv.org/pdf/2512.17817v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2512.17817v1",
+      "entry_id": "http://arxiv.org/abs/2512.17817v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2512.17817v1",
+          "href": "https://arxiv.org/abs/2512.17817v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2512.17817v1",
+          "href": "https://arxiv.org/pdf/2512.17817v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -6948,27 +7091,27 @@
         "Boris Zilber"
       ],
       "published": "2025-10-30T19:15:18+00:00",
-      "updated": "2025-10-30T19:15:18+00:00",
+      "updated": "2025-12-20T17:06:45+00:00",
       "summary": "We recast the well-known axiom system of quantum mechanics used by physicists (the Dirac calculus) in the language of Continuous Logic. For the basic version of the axiomatic system we prove that along with the canonical continuous model the axioms have approximate finite models of large sizes, in fact the continuous model is isomorphic to an ultraproduct of finite models. We analyse the continuous logic quantifier corresponding to Dirac integration and show that in finite context it has two versions, local and global, which coincide on Gaussian wave-functions.",
       "categories": [
         "math.LO",
         "quant-ph"
       ],
       "primary_category": "math.LO",
-      "pdf_url": "https://arxiv.org/pdf/2511.01900v1",
+      "pdf_url": "https://arxiv.org/pdf/2511.01900v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2511.01900v1",
+      "entry_id": "http://arxiv.org/abs/2511.01900v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2511.01900v1",
+          "href": "https://arxiv.org/abs/2511.01900v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2511.01900v1",
+          "href": "https://arxiv.org/pdf/2511.01900v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -89555,6 +89698,117 @@
     }
   },
   "Depth Estimation": {
+    "2512.19020": {
+      "title": "CETCAM: Camera-Controllable Video Generation via Consistent and Extensible Tokenization",
+      "authors": [
+        "Zelin Zhao",
+        "Xinyu Gong",
+        "Bangya Liu",
+        "Ziyang Song",
+        "Jun Zhang",
+        "Suhui Wu",
+        "Yongxin Chen",
+        "Hao Zhang"
+      ],
+      "published": "2025-12-22T04:21:39+00:00",
+      "updated": "2025-12-22T04:21:39+00:00",
+      "summary": "Achieving precise camera control in video generation remains challenging, as existing methods often rely on camera pose annotations that are difficult to scale to large and dynamic datasets and are frequently inconsistent with depth estimation, leading to train-test discrepancies. We introduce CETCAM, a camera-controllable video generation framework that eliminates the need for camera annotations through a consistent and extensible tokenization scheme. CETCAM leverages recent advances in geometry foundation models, such as VGGT, to estimate depth and camera parameters and converts them into unified, geometry-aware tokens. These tokens are seamlessly integrated into a pretrained video diffusion backbone via lightweight context blocks. Trained in two progressive stages, CETCAM first learns robust camera controllability from diverse raw video data and then refines fine-grained visual quality using curated high-fidelity datasets. Extensive experiments across multiple benchmarks demonstrate state-of-the-art geometric consistency, temporal stability, and visual realism. Moreover, CETCAM exhibits strong adaptability to additional control modalities, including inpainting and layout control, highlighting its flexibility beyond camera control. The project page is available at https://sjtuytc.github.io/CETCam_project_page.github.io/.",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.19020v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.19020v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.19020v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.19020v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2512.18684": {
+      "title": "A Study of Finetuning Video Transformers for Multi-view Geometry Tasks",
+      "authors": [
+        "Huimin Wu",
+        "Kwang-Ting Cheng",
+        "Stephen Lin",
+        "Zhirong Wu"
+      ],
+      "published": "2025-12-21T10:41:11+00:00",
+      "updated": "2025-12-21T10:41:11+00:00",
+      "summary": "This paper presents an investigation of vision transformer learning for multi-view geometry tasks, such as optical flow estimation, by fine-tuning video foundation models. Unlike previous methods that involve custom architectural designs and task-specific pretraining, our research finds that general-purpose models pretrained on videos can be readily transferred to multi-view problems with minimal adaptation. The core insight is that general-purpose attention between patches learns temporal and spatial information for geometric reasoning. We demonstrate that appending a linear decoder to the Transformer backbone produces satisfactory results, and iterative refinement can further elevate performance to stateof-the-art levels. This conceptually simple approach achieves top cross-dataset generalization results for optical flow estimation with end-point error (EPE) of 0.69, 1.78, and 3.15 on the Sintel clean, Sintel final, and KITTI datasets, respectively. Our method additionally establishes a new record on the online test benchmark with EPE values of 0.79, 1.88, and F1 value of 3.79. Applications to 3D depth estimation and stereo matching also show strong performance, illustrating the versatility of video-pretrained models in addressing geometric vision tasks.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.18684v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "AAAI 20206, Project website: geovit-aaai26.github.io",
+      "entry_id": "http://arxiv.org/abs/2512.18684v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.18684v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.18684v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2512.18159": {
+      "title": "EndoStreamDepth: Temporally Consistent Monocular Depth Estimation for Endoscopic Video Streams",
+      "authors": [
+        "Hao Li",
+        "Daiwei Lu",
+        "Jiacheng Wang",
+        "Robert J. Webster",
+        "Ipek Oguz"
+      ],
+      "published": "2025-12-20T00:53:30+00:00",
+      "updated": "2025-12-20T00:53:30+00:00",
+      "summary": "This work presents EndoStreamDepth, a monocular depth estimation framework for endoscopic video streams. It provides accurate depth maps with sharp anatomical boundaries for each frame, temporally consistent predictions across frames, and real-time throughput. Unlike prior work that uses batched inputs, EndoStreamDepth processes individual frames with a temporal module to propagate inter-frame information. The framework contains three main components: (1) a single-frame depth network with endoscopy-specific transformation to produce accurate depth maps, (2) multi-level Mamba temporal modules that leverage inter-frame information to improve accuracy and stabilize predictions, and (3) a hierarchical design with comprehensive multi-scale supervision, where complementary loss terms jointly improve local boundary sharpness and global geometric consistency. We conduct comprehensive evaluations on two publicly available colonoscopy depth estimation datasets. Compared to state-of-the-art monocular depth estimation methods, EndoStreamDepth substantially improves performance, and it produces depth maps with sharp, anatomically aligned boundaries, which are essential to support downstream tasks such as automation for robotic surgery. The code is publicly available at https://github.com/MedICL-VU/EndoStreamDepth",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.18159v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.18159v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.18159v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.18159v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2512.17908": {
       "title": "Re-Depth Anything: Test-Time Depth Refinement via Self-Supervised Re-lighting",
       "authors": [
@@ -89695,6 +89949,38 @@
         },
         {
           "href": "https://arxiv.org/pdf/2512.16561v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2512.17955": {
+      "title": "A Modular Framework for Single-View 3D Reconstruction of Indoor Environments",
+      "authors": [
+        "Yuxiao Li"
+      ],
+      "published": "2025-12-17T22:49:43+00:00",
+      "updated": "2025-12-17T22:49:43+00:00",
+      "summary": "We propose a modular framework for single-view indoor scene 3D reconstruction, where several core modules are powered by diffusion techniques. Traditional approaches for this task often struggle with the complex instance shapes and occlusions inherent in indoor environments. They frequently overshoot by attempting to predict 3D shapes directly from incomplete 2D images, which results in limited reconstruction quality. We aim to overcome this limitation by splitting the process into two steps: first, we employ diffusion-based techniques to predict the complete views of the room background and occluded indoor instances, then transform them into 3D. Our modular framework makes contributions to this field through the following components: an amodal completion module for restoring the full view of occluded instances, an inpainting model specifically trained to predict room layouts, a hybrid depth estimation technique that balances overall geometric accuracy with fine detail expressiveness, and a view-space alignment method that exploits both 2D and 3D cues to ensure precise placement of instances within the scene. This approach effectively reconstructs both foreground instances and the room background from a single image. Extensive experiments on the 3D-Front dataset demonstrate that our method outperforms current state-of-the-art (SOTA) approaches in terms of both visual quality and reconstruction accuracy. The framework holds promising potential for applications in interior design, real estate, and augmented reality.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.17955v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Master's thesis",
+      "entry_id": "http://arxiv.org/abs/2512.17955v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.17955v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.17955v1",
           "title": "pdf",
           "rel": "related",
           "content_type": null

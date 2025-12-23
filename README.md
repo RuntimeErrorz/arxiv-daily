@@ -1,4 +1,4 @@
-## Updated at 2025-12-23 08:19:21
+## Updated at 2025-12-23 20:08:16
 
 ## 3DGS Semantic
 
@@ -628,10 +628,14 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-12-22**|**[CETCAM: Camera-Controllable Video Generation via Consistent and Extensible Tokenization](https://arxiv.org/abs/2512.19020)**|N/A|None|cs.CV|None|Zelin Zhao et al.|
+|**2025-12-21**|**[A Study of Finetuning Video Transformers for Multi-view Geometry Tasks](https://arxiv.org/abs/2512.18684)**|N/A|AAAI 20206, Project website: geovit-aaai26.github.io|cs.CV|None|Huimin Wu et al.|
+|**2025-12-20**|**[EndoStreamDepth: Temporally Consistent Monocular Depth Estimation for Endoscopic Video Streams](https://arxiv.org/abs/2512.18159)**|N/A|None|cs.CV|None|Hao Li et al.|
 |**2025-12-19**|**[Re-Depth Anything: Test-Time Depth Refinement via Self-Supervised Re-lighting](https://arxiv.org/abs/2512.17908)**|N/A|None|cs.CV|None|Ananta R. Bhattarai, Helge Rhodin|
 |**2025-12-19**|**[SAVeD: A First-Person Social Media Video Dataset for ADAS-equipped vehicle Near-Miss and Crash Event Analyses](https://arxiv.org/abs/2512.17724)**|N/A|None|cs.CV|None|Shaoyan Zhai et al.|
 |**2025-12-18**|**[Infinite-Homography as Robust Conditioning for Camera-Controlled Video Generation](https://arxiv.org/abs/2512.17040)**|N/A|None|cs.CV|None|Min-Jung Kim et al.|
 |**2025-12-18**|**[N3D-VLM: Native 3D Grounding Enables Accurate Spatial Reasoning in Vision-Language Models](https://arxiv.org/abs/2512.16561)**|N/A|Project Page: https://n3d-vlm.github.io|cs.CV|None|Yuxin Wang et al.|
+|**2025-12-17**|**[A Modular Framework for Single-View 3D Reconstruction of Indoor Environments](https://arxiv.org/abs/2512.17955)**|N/A|Master's thesis|cs.CV|None|Yuxiao Li|
 |**2025-12-17**|**[In Pursuit of Pixel Supervision for Visual Pre-training](https://arxiv.org/abs/2512.15715)**|N/A|Project page: https://github.com/facebookresearch/pixio|cs.CV|None|Lihe Yang et al.|
 |**2025-12-16**|**[DASP: Self-supervised Nighttime Monocular Depth Estimation with Domain Adaptation of Spatiotemporal Priors](https://arxiv.org/abs/2512.14536)**|N/A|8 pages, 7 figures|cs.CV|None|Yiheng Huang et al.|
 |**2025-12-16**|**[Elastic3D: Controllable Stereo Video Conversion with Guided Latent Decoding](https://arxiv.org/abs/2512.14236)**|N/A|Project page: elastic3d.github.io|cs.CV|None|Nando Metzger et al.|
