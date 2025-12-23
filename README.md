@@ -1,4 +1,4 @@
-## Updated at 2025-12-22 08:19:46
+## Updated at 2025-12-23 08:19:21
 
 ## 3DGS Semantic
 
@@ -8,6 +8,8 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-12-19**|**[Chorus: Multi-Teacher Pretraining for Holistic 3D Gaussian Scene Encoding](https://arxiv.org/abs/2512.17817)**|N/A|None|cs.CV|None|Yue Li et al.|
+|**2025-12-19**|**[FLEG: Feed-Forward Language Embedded Gaussian Splatting from Any Views](https://arxiv.org/abs/2512.17541)**|N/A|Project page: https://fangzhou2000.github.io/projects/fleg|cs.CV|None|Qijian Tian et al.|
 |**2025-12-16**|**[Consistent Instance Field for Dynamic Scene Understanding](https://arxiv.org/abs/2512.14126)**|N/A|None|cs.CV|None|Junyi Wu et al.|
 |**2025-12-09**|**[OpenMonoGS-SLAM: Monocular Gaussian Splatting SLAM with Open-set Semantics](https://arxiv.org/abs/2512.08625)**|N/A|8 pages, 4 figures|cs.CV|None|Jisang Yoo et al.|
 |**2025-12-08**|**[Lang3D-XL: Language Embedded 3D Gaussians for Large-scale Scenes](https://arxiv.org/abs/2512.07807)**|Proceedings of the SIGGRAPH Asia 2025 Conference Papers|Accepted to SIGGRAPH Asia 2025. Project webpage: https://tau-vailab.github.io/Lang3D-XL|cs.CV|None|Shai Krakovsky et al.|
@@ -626,6 +628,9 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-12-19**|**[Re-Depth Anything: Test-Time Depth Refinement via Self-Supervised Re-lighting](https://arxiv.org/abs/2512.17908)**|N/A|None|cs.CV|None|Ananta R. Bhattarai, Helge Rhodin|
+|**2025-12-19**|**[SAVeD: A First-Person Social Media Video Dataset for ADAS-equipped vehicle Near-Miss and Crash Event Analyses](https://arxiv.org/abs/2512.17724)**|N/A|None|cs.CV|None|Shaoyan Zhai et al.|
+|**2025-12-18**|**[Infinite-Homography as Robust Conditioning for Camera-Controlled Video Generation](https://arxiv.org/abs/2512.17040)**|N/A|None|cs.CV|None|Min-Jung Kim et al.|
 |**2025-12-18**|**[N3D-VLM: Native 3D Grounding Enables Accurate Spatial Reasoning in Vision-Language Models](https://arxiv.org/abs/2512.16561)**|N/A|Project Page: https://n3d-vlm.github.io|cs.CV|None|Yuxin Wang et al.|
 |**2025-12-17**|**[In Pursuit of Pixel Supervision for Visual Pre-training](https://arxiv.org/abs/2512.15715)**|N/A|Project page: https://github.com/facebookresearch/pixio|cs.CV|None|Lihe Yang et al.|
 |**2025-12-16**|**[DASP: Self-supervised Nighttime Monocular Depth Estimation with Domain Adaptation of Spatiotemporal Priors](https://arxiv.org/abs/2512.14536)**|N/A|8 pages, 7 figures|cs.CV|None|Yiheng Huang et al.|

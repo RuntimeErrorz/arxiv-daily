@@ -1,5 +1,140 @@
 {
   "3DGS Semantic": {
+    "2512.17817": {
+      "title": "Chorus: Multi-Teacher Pretraining for Holistic 3D Gaussian Scene Encoding",
+      "authors": [
+        "Yue Li",
+        "Qi Ma",
+        "Runyi Yang",
+        "Mengjiao Ma",
+        "Bin Ren",
+        "Nikola Popovic",
+        "Nicu Sebe",
+        "Theo Gevers",
+        "Luc Van Gool",
+        "Danda Pani Paudel",
+        "Martin R. Oswald"
+      ],
+      "published": "2025-12-19T17:22:35+00:00",
+      "updated": "2025-12-19T17:22:35+00:00",
+      "summary": "While 3DGS has emerged as a high-fidelity scene representation, encoding rich, general-purpose features directly from its primitives remains under-explored. We address this gap by introducing Chorus, a multi-teacher pretraining framework that learns a holistic feed-forward 3D Gaussian Splatting (3DGS) scene encoder by distilling complementary signals from 2D foundation models. Chorus employs a shared 3D encoder and teacher-specific projectors to learn from language-aligned, generalist, and object-aware teachers, encouraging a shared embedding space that captures signals from high-level semantics to fine-grained structure.\n  We evaluate Chorus on a wide range of tasks: open-vocabulary semantic and instance segmentation, linear and decoder probing, as well as data-efficient supervision. Besides 3DGS, we also test Chorus on several benchmarks that only support point clouds by pretraining a variant using only Gaussians' centers, colors, estimated normals as inputs. Interestingly, this encoder shows strong transfer and outperforms the point clouds baseline while using 39.9 times fewer training scenes. Finally, we propose a render-and-distill adaptation that facilitates out-of-domain finetuning. Our code and model will be released upon publication.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.17817v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.17817v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.17817v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.17817v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-12-23",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2512.17541": {
+      "title": "FLEG: Feed-Forward Language Embedded Gaussian Splatting from Any Views",
+      "authors": [
+        "Qijian Tian",
+        "Xin Tan",
+        "Jiayu Ying",
+        "Xuhong Wang",
+        "Yuan Xie",
+        "Lizhuang Ma"
+      ],
+      "published": "2025-12-19T13:04:13+00:00",
+      "updated": "2025-12-19T13:04:13+00:00",
+      "summary": "We present FLEG, a feed-forward network that reconstructs language-embedded 3D Gaussians from any views. Previous straightforward solutions combine feed-forward reconstruction with Gaussian heads but suffer from fixed input views and insufficient 3D training data. In contrast, we propose a 3D-annotation-free training framework for 2D-to-3D lifting from arbitrary uncalibrated and unposed multi-view images. Since the framework does not require 3D annotations, we can leverage large-scale video data with easily obtained 2D instance information to enrich semantic embedding. We also propose an instance-guided contrastive learning to align 2D semantics with the 3D representations. In addition, to mitigate the high memory and computational cost of dense views, we further propose a geometry-semantic hierarchical sparsification strategy. Our FLEG efficiently reconstructs language-embedded 3D Gaussian representation in a feed-forward manner from arbitrary sparse or dense views, jointly producing accurate geometry, high-fidelity appearance, and language-aligned semantics. Extensive experiments show that it outperforms existing methods on various related tasks. Project page: https://fangzhou2000.github.io/projects/fleg.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.17541v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Project page: https://fangzhou2000.github.io/projects/fleg",
+      "entry_id": "http://arxiv.org/abs/2512.17541v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.17541v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.17541v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-12-23",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2512.17796": {
+      "title": "Animate Any Character in Any World",
+      "authors": [
+        "Yitong Wang",
+        "Fangyun Wei",
+        "Hongyang Zhang",
+        "Bo Dai",
+        "Yan Lu"
+      ],
+      "published": "2025-12-18T18:59:18+00:00",
+      "updated": "2025-12-18T18:59:18+00:00",
+      "summary": "Recent advances in world models have greatly enhanced interactive environment simulation. Existing methods mainly fall into two categories: (1) static world generation models, which construct 3D environments without active agents, and (2) controllable-entity models, which allow a single entity to perform limited actions in an otherwise uncontrollable environment. In this work, we introduce AniX, leveraging the realism and structural grounding of static world generation while extending controllable-entity models to support user-specified characters capable of performing open-ended actions. Users can provide a 3DGS scene and a character, then direct the character through natural language to perform diverse behaviors from basic locomotion to object-centric interactions while freely exploring the environment. AniX synthesizes temporally coherent video clips that preserve visual fidelity with the provided scene and character, formulated as a conditional autoregressive video generation problem. Built upon a pre-trained video generator, our training strategy significantly enhances motion dynamics while maintaining generalization across actions and characters. Our evaluation covers a broad range of aspects, including visual quality, character consistency, action controllability, and long-horizon coherence.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.17796v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Project page: https://snowflakewang.github.io/AniX/",
+      "entry_id": "http://arxiv.org/abs/2512.17796v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.17796v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.17796v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2512.16885": {
       "title": "M-PhyGs: Multi-Material Object Dynamics from Video",
       "authors": [
@@ -349,31 +484,32 @@
         "Yuheng Du",
         "Yuxin Fan",
         "Wenjun Li",
+        "Zhichao Han",
         "Xin Zhou",
         "Fei Gao"
       ],
       "published": "2025-12-17T10:02:55+00:00",
-      "updated": "2025-12-17T10:02:55+00:00",
+      "updated": "2025-12-19T11:22:57+00:00",
       "summary": "This paper proposes VLA-AN, an efficient and onboard Vision-Language-Action (VLA) framework dedicated to autonomous drone navigation in complex environments. VLA-AN addresses four major limitations of existing large aerial navigation models: the data domain gap, insufficient temporal navigation with reasoning, safety issues with generative action policies, and onboard deployment constraints. First, we construct a high-fidelity dataset utilizing 3D Gaussian Splatting (3D-GS) to effectively bridge the domain gap. Second, we introduce a progressive three-stage training framework that sequentially reinforces scene comprehension, core flight skills, and complex navigation capabilities. Third, we design a lightweight, real-time action module coupled with geometric safety correction. This module ensures fast, collision-free, and stable command generation, mitigating the safety risks inherent in stochastic generative policies. Finally, through deep optimization of the onboard deployment pipeline, VLA-AN achieves a robust real-time 8.3x improvement in inference throughput on resource-constrained UAVs. Extensive experiments demonstrate that VLA-AN significantly improves spatial grounding, scene reasoning, and long-horizon navigation, achieving a maximum single-task success rate of 98.1%, and providing an efficient, practical solution for realizing full-chain closed-loop autonomy in lightweight aerial robots.",
       "categories": [
         "cs.RO",
         "cs.AI"
       ],
       "primary_category": "cs.RO",
-      "pdf_url": "https://arxiv.org/pdf/2512.15258v1",
+      "pdf_url": "https://arxiv.org/pdf/2512.15258v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2512.15258v1",
+      "entry_id": "http://arxiv.org/abs/2512.15258v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2512.15258v1",
+          "href": "https://arxiv.org/abs/2512.15258v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2512.15258v1",
+          "href": "https://arxiv.org/pdf/2512.15258v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -89419,6 +89555,112 @@
     }
   },
   "Depth Estimation": {
+    "2512.17908": {
+      "title": "Re-Depth Anything: Test-Time Depth Refinement via Self-Supervised Re-lighting",
+      "authors": [
+        "Ananta R. Bhattarai",
+        "Helge Rhodin"
+      ],
+      "published": "2025-12-19T18:59:56+00:00",
+      "updated": "2025-12-19T18:59:56+00:00",
+      "summary": "Monocular depth estimation remains challenging as recent foundation models, such as Depth Anything V2 (DA-V2), struggle with real-world images that are far from the training distribution. We introduce Re-Depth Anything, a test-time self-supervision framework that bridges this domain gap by fusing DA-V2 with the powerful priors of large-scale 2D diffusion models. Our method performs label-free refinement directly on the input image by re-lighting predicted depth maps and augmenting the input. This re-synthesis method replaces classical photometric reconstruction by leveraging shape from shading (SfS) cues in a new, generative context with Score Distillation Sampling (SDS). To prevent optimization collapse, our framework employs a targeted optimization strategy: rather than optimizing depth directly or fine-tuning the full model, we freeze the encoder and only update intermediate embeddings while also fine-tuning the decoder. Across diverse benchmarks, Re-Depth Anything yields substantial gains in depth accuracy and realism over the DA-V2, showcasing new avenues for self-supervision by augmenting geometric reasoning.",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.17908v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.17908v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.17908v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.17908v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2512.17724": {
+      "title": "SAVeD: A First-Person Social Media Video Dataset for ADAS-equipped vehicle Near-Miss and Crash Event Analyses",
+      "authors": [
+        "Shaoyan Zhai",
+        "Mohamed Abdel-Aty",
+        "Chenzhu Wang",
+        "Rodrigo Vena Garcia"
+      ],
+      "published": "2025-12-19T15:58:52+00:00",
+      "updated": "2025-12-19T15:58:52+00:00",
+      "summary": "The advancement of safety-critical research in driving behavior in ADAS-equipped vehicles require real-world datasets that not only include diverse traffic scenarios but also capture high-risk edge cases such as near-miss events and system failures. However, existing datasets are largely limited to either simulated environments or human-driven vehicle data, lacking authentic ADAS (Advanced Driver Assistance System) vehicle behavior under risk conditions. To address this gap, this paper introduces SAVeD, a large-scale video dataset curated from publicly available social media content, explicitly focused on ADAS vehicle-related crashes, near-miss incidents, and disengagements. SAVeD features 2,119 first-person videos, capturing ADAS vehicle operations in diverse locations, lighting conditions, and weather scenarios. The dataset includes video frame-level annotations for collisions, evasive maneuvers, and disengagements, enabling analysis of both perception and decision-making failures. We demonstrate SAVeD's utility through multiple analyses and contributions: (1) We propose a novel framework integrating semantic segmentation and monocular depth estimation to compute real-time Time-to-Collision (TTC) for dynamic objects. (2) We utilize the Generalized Extreme Value (GEV) distribution to model and quantify the extreme risk in crash and near-miss events across different roadway types. (3) We establish benchmarks for state-of-the-art VLLMs (VideoLLaMA2 and InternVL2.5 HiCo R16), showing that SAVeD's detailed annotations significantly enhance model performance through domain adaptation in complex near-miss scenarios.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.17724v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.17724v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.17724v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.17724v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2512.17040": {
+      "title": "Infinite-Homography as Robust Conditioning for Camera-Controlled Video Generation",
+      "authors": [
+        "Min-Jung Kim",
+        "Jeongho Kim",
+        "Hoiyeong Jin",
+        "Junha Hyung",
+        "Jaegul Choo"
+      ],
+      "published": "2025-12-18T20:03:05+00:00",
+      "updated": "2025-12-18T20:03:05+00:00",
+      "summary": "Recent progress in video diffusion models has spurred growing interest in camera-controlled novel-view video generation for dynamic scenes, aiming to provide creators with cinematic camera control capabilities in post-production. A key challenge in camera-controlled video generation is ensuring fidelity to the specified camera pose, while maintaining view consistency and reasoning about occluded geometry from limited observations. To address this, existing methods either train trajectory-conditioned video generation model on trajectory-video pair dataset, or estimate depth from the input video to reproject it along a target trajectory and generate the unprojected regions. Nevertheless, existing methods struggle to generate camera-pose-faithful, high-quality videos for two main reasons: (1) reprojection-based approaches are highly susceptible to errors caused by inaccurate depth estimation; and (2) the limited diversity of camera trajectories in existing datasets restricts learned models. To address these limitations, we present InfCam, a depth-free, camera-controlled video-to-video generation framework with high pose fidelity. The framework integrates two key components: (1) infinite homography warping, which encodes 3D camera rotations directly within the 2D latent space of a video diffusion model. Conditioning on this noise-free rotational information, the residual parallax term is predicted through end-to-end training to achieve high camera-pose fidelity; and (2) a data augmentation pipeline that transforms existing synthetic multiview datasets into sequences with diverse trajectories and focal lengths. Experimental results demonstrate that InfCam outperforms baseline methods in camera-pose accuracy and visual fidelity, generalizing well from synthetic to real-world data. Link to our project page:https://emjay73.github.io/InfCam/",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.17040v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.17040v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.17040v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.17040v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2512.16561": {
       "title": "N3D-VLM: Native 3D Grounding Enables Accurate Spatial Reasoning in Vision-Language Models",
       "authors": [
