@@ -1,5 +1,119 @@
 {
   "3DGS Semantic": {
+    "2512.20323": {
+      "title": "Differentially Private Feature Release for Wireless Sensing: Adaptive Privacy Budget Allocation on CSI Spectrograms",
+      "authors": [
+        "Ipek Sena Yilmaz",
+        "Onur G. Tuncer",
+        "Zeynep E. Aksoy",
+        "Zeynep Yağmur Baydemir"
+      ],
+      "published": "2025-12-23T12:45:49+00:00",
+      "updated": "2025-12-23T12:45:49+00:00",
+      "summary": "Wi-Fi/RF-based human sensing has achieved remarkable progress with deep learning, yet practical deployments increasingly require feature sharing for cloud analytics, collaborative training, or benchmark evaluation. Releasing intermediate representations such as CSI spectrograms can inadvertently expose sensitive information, including user identity, location, and membership, motivating formal privacy guarantees. In this paper, we study differentially private (DP) feature release for wireless sensing and propose an adaptive privacy budget allocation mechanism tailored to the highly non-uniform structure of CSI time-frequency representations. Our pipeline converts CSI to bounded spectrogram features, applies sensitivity control via clipping, estimates task-relevant importance over the time-frequency plane, and allocates a global privacy budget across spectrogram blocks before injecting calibrated Gaussian noise. Experiments on multi-user activity sensing (WiMANS), multi-person 3D pose estimation (Person-in-WiFi 3D), and respiration monitoring (Resp-CSI) show that adaptive allocation consistently improves the privacy-utility frontier over uniform perturbation under the same privacy budget. Our method yields higher accuracy and lower error while substantially reducing empirical leakage in identity and membership inference attacks.",
+      "categories": [
+        "cs.CR"
+      ],
+      "primary_category": "cs.CR",
+      "pdf_url": "https://arxiv.org/pdf/2512.20323v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "19pages,4figures",
+      "entry_id": "http://arxiv.org/abs/2512.20323v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.20323v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.20323v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.20129": {
+      "title": "Dreamcrafter: Immersive Editing of 3D Radiance Fields Through Flexible, Generative Inputs and Outputs",
+      "authors": [
+        "Cyrus Vachha",
+        "Yixiao Kang",
+        "Zach Dive",
+        "Ashwat Chidambaram",
+        "Anik Gupta",
+        "Eunice Jun",
+        "Bjoern Hartmann"
+      ],
+      "published": "2025-12-23T07:43:53+00:00",
+      "updated": "2025-12-23T07:43:53+00:00",
+      "summary": "Authoring 3D scenes is a central task for spatial computing applications. Competing visions for lowering existing barriers are (1) focus on immersive, direct manipulation of 3D content or (2) leverage AI techniques that capture real scenes (3D Radiance Fields such as, NeRFs, 3D Gaussian Splatting) and modify them at a higher level of abstraction, at the cost of high latency. We unify the complementary strengths of these approaches and investigate how to integrate generative AI advances into real-time, immersive 3D Radiance Field editing. We introduce Dreamcrafter, a VR-based 3D scene editing system that: (1) provides a modular architecture to integrate generative AI algorithms; (2) combines different levels of control for creating objects, including natural language and direct manipulation; and (3) introduces proxy representations that support interaction during high-latency operations. We contribute empirical findings on control preferences and discuss how generative AI interfaces beyond text input enhance creativity in scene editing and world building.",
+      "categories": [
+        "cs.HC",
+        "cs.CV"
+      ],
+      "primary_category": "cs.HC",
+      "pdf_url": "https://arxiv.org/pdf/2512.20129v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "CHI 2025, Project page: https://dream-crafter.github.io/",
+      "entry_id": "http://arxiv.org/abs/2512.20129v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.20129v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.20129v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.19871": {
+      "title": "HyGE-Occ: Hybrid View-Transformation with 3D Gaussian and Edge Priors for 3D Panoptic Occupancy Prediction",
+      "authors": [
+        "Jong Wook Kim",
+        "Wonseok Roh",
+        "Ha Dam Baek",
+        "Pilhyeon Lee",
+        "Jonghyun Choi",
+        "Sangpil Kim"
+      ],
+      "published": "2025-12-22T20:59:15+00:00",
+      "updated": "2025-12-22T20:59:15+00:00",
+      "summary": "3D Panoptic Occupancy Prediction aims to reconstruct a dense volumetric scene map by predicting the semantic class and instance identity of every occupied region in 3D space. Achieving such fine-grained 3D understanding requires precise geometric reasoning and spatially consistent scene representation across complex environments. However, existing approaches often struggle to maintain precise geometry and capture the precise spatial range of 3D instances critical for robust panoptic separation. To overcome these limitations, we introduce HyGE-Occ, a novel framework that leverages a hybrid view-transformation branch with 3D Gaussian and edge priors to enhance both geometric consistency and boundary awareness in 3D panoptic occupancy prediction. HyGE-Occ employs a hybrid view-transformation branch that fuses a continuous Gaussian-based depth representation with a discretized depth-bin formulation, producing BEV features with improved geometric consistency and structural coherence. In parallel, we extract edge maps from BEV features and use them as auxiliary information to learn edge cues. In our extensive experiments on the Occ3D-nuScenes dataset, HyGE-Occ outperforms existing work, demonstrating superior 3D geometric reasoning.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.19871v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "11 pages, 6 figures",
+      "entry_id": "http://arxiv.org/abs/2512.19871v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.19871v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.19871v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2512.19019": {
       "title": "Optimizer Dynamics at the Edge of Stability with Differential Privacy",
       "authors": [
