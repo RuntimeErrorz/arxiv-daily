@@ -1,4 +1,4 @@
-## Updated at 2025-12-25 08:18:48
+## Updated at 2025-12-25 20:08:01
 
 ## 3DGS Semantic
 
@@ -8,6 +8,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-12-24**|**[Quantile Rendering: Efficiently Embedding High-dimensional Feature on 3D Gaussian Splatting](https://arxiv.org/abs/2512.20927)**|N/A|Will be updated|cs.CV|None|Yoonwoo Jeong et al.|
 |**2025-12-19**|**[Chorus: Multi-Teacher Pretraining for Holistic 3D Gaussian Scene Encoding](https://arxiv.org/abs/2512.17817)**|N/A|None|cs.CV|None|Yue Li et al.|
 |**2025-12-19**|**[FLEG: Feed-Forward Language Embedded Gaussian Splatting from Any Views](https://arxiv.org/abs/2512.17541)**|N/A|Project page: https://fangzhou2000.github.io/projects/fleg|cs.CV|None|Qijian Tian et al.|
 |**2025-12-16**|**[Consistent Instance Field for Dynamic Scene Understanding](https://arxiv.org/abs/2512.14126)**|N/A|None|cs.CV|None|Junyi Wu et al.|

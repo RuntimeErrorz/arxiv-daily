@@ -1,5 +1,154 @@
 {
   "3DGS Semantic": {
+    "2512.21287": {
+      "title": "Post-Processing Mask-Based Table Segmentation for Structural Coordinate Extraction",
+      "authors": [
+        "Suren Bandara"
+      ],
+      "published": "2025-12-24T17:10:37+00:00",
+      "updated": "2025-12-24T17:10:37+00:00",
+      "summary": "Structured data extraction from tables plays a crucial role in document image analysis for scanned documents and digital archives. Although many methods have been proposed to detect table structures and extract cell contents, accurately identifying table segment boundaries (rows and columns) remains challenging, particularly in low-resolution or noisy images. In many real-world scenarios, table data are incomplete or degraded, limiting the adaptability of transformer-based methods to noisy inputs. Mask-based edge detection techniques have shown greater robustness under such conditions, as their sensitivity can be adjusted through threshold tuning; however, existing approaches typically apply masks directly to images, leading to noise sensitivity, resolution loss, or high computational cost. This paper proposes a novel multi-scale signal-processing method for detecting table edges from table masks. Row and column transitions are modeled as one-dimensional signals and processed using Gaussian convolution with progressively increasing variances, followed by statistical thresholding to suppress noise while preserving stable structural edges. Detected signal peaks are mapped back to image coordinates to obtain accurate segment boundaries. Experimental results show that applying the proposed approach to column edge detection improves Cell-Aware Segmentation Accuracy (CASA) a layout-aware metric evaluating both textual correctness and correct cell placement from 67% to 76% on the PubLayNet-1M benchmark when using TableNet with PyTesseract OCR. The method is robust to resolution variations through zero-padding and scaling strategies and produces optimized structured tabular outputs suitable for downstream analysis.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.21287v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.21287v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.21287v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.21287v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.21099": {
+      "title": "TexAvatars : Hybrid Texel-3D Representations for Stable Rigging of Photorealistic Gaussian Head Avatars",
+      "authors": [
+        "Jaeseong Lee",
+        "Junyeong Ahn",
+        "Taewoong Kang",
+        "Jaegul Choo"
+      ],
+      "published": "2025-12-24T10:50:04+00:00",
+      "updated": "2025-12-24T10:50:04+00:00",
+      "summary": "Constructing drivable and photorealistic 3D head avatars has become a central task in AR/XR, enabling immersive and expressive user experiences. With the emergence of high-fidelity and efficient representations such as 3D Gaussians, recent works have pushed toward ultra-detailed head avatars. Existing approaches typically fall into two categories: rule-based analytic rigging or neural network-based deformation fields. While effective in constrained settings, both approaches often fail to generalize to unseen expressions and poses, particularly in extreme reenactment scenarios. Other methods constrain Gaussians to the global texel space of 3DMMs to reduce rendering complexity. However, these texel-based avatars tend to underutilize the underlying mesh structure. They apply minimal analytic deformation and rely heavily on neural regressors and heuristic regularization in UV space, which weakens geometric consistency and limits extrapolation to complex, out-of-distribution deformations. To address these limitations, we introduce TexAvatars, a hybrid avatar representation that combines the explicit geometric grounding of analytic rigging with the spatial continuity of texel space. Our approach predicts local geometric attributes in UV space via CNNs, but drives 3D deformation through mesh-aware Jacobians, enabling smooth and semantically meaningful transitions across triangle boundaries. This hybrid design separates semantic modeling from geometric control, resulting in improved generalization, interpretability, and stability. Furthermore, TexAvatars captures fine-grained expression effects, including muscle-induced wrinkles, glabellar lines, and realistic mouth cavity geometry, with high fidelity. Our method achieves state-of-the-art performance under extreme pose and expression variations, demonstrating strong generalization in challenging head reenactment settings.",
+      "categories": [
+        "cs.GR",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "primary_category": "cs.GR",
+      "pdf_url": "https://arxiv.org/pdf/2512.21099v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "3DV 2026, Project page with videos: https://summertight.github.io/TexAvatars/",
+      "entry_id": "http://arxiv.org/abs/2512.21099v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.21099v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.21099v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.20927": {
+      "title": "Quantile Rendering: Efficiently Embedding High-dimensional Feature on 3D Gaussian Splatting",
+      "authors": [
+        "Yoonwoo Jeong",
+        "Cheng Sun",
+        "Frank Wang",
+        "Minsu Cho",
+        "Jaesung Choe"
+      ],
+      "published": "2025-12-24T04:16:18+00:00",
+      "updated": "2025-12-24T04:16:18+00:00",
+      "summary": "Recent advancements in computer vision have successfully extended Open-vocabulary segmentation (OVS) to the 3D domain by leveraging 3D Gaussian Splatting (3D-GS). Despite this progress, efficiently rendering the high-dimensional features required for open-vocabulary queries poses a significant challenge. Existing methods employ codebooks or feature compression, causing information loss, thereby degrading segmentation quality. To address this limitation, we introduce Quantile Rendering (Q-Render), a novel rendering strategy for 3D Gaussians that efficiently handles high-dimensional features while maintaining high fidelity. Unlike conventional volume rendering, which densely samples all 3D Gaussians intersecting each ray, Q-Render sparsely samples only those with dominant influence along the ray. By integrating Q-Render into a generalizable 3D neural network, we also propose Gaussian Splatting Network (GS-Net), which predicts Gaussian features in a generalizable manner. Extensive experiments on ScanNet and LeRF demonstrate that our framework outperforms state-of-the-art methods, while enabling real-time rendering with an approximate ~43.7x speedup on 512-D feature maps. Code will be made publicly available.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.20927v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Will be updated",
+      "entry_id": "http://arxiv.org/abs/2512.20927v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.20927v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.20927v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2025-12-25",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2512.20815": {
+      "title": "Learning to Sense for Driving: Joint Optics-Sensor-Model Co-Design for Semantic Segmentation",
+      "authors": [
+        "Reeshad Khan amd John Gauch"
+      ],
+      "published": "2025-12-23T22:28:30+00:00",
+      "updated": "2025-12-23T22:28:30+00:00",
+      "summary": "Traditional autonomous driving pipelines decouple camera design from downstream perception, relying on fixed optics and handcrafted ISPs that prioritize human viewable imagery rather than machine semantics. This separation discards information during demosaicing, denoising, or quantization, while forcing models to adapt to sensor artifacts. We present a task-driven co-design framework that unifies optics, sensor modeling, and lightweight semantic segmentation networks into a single end-to-end RAW-to-task pipeline. Building on DeepLens[19], our system integrates realistic cellphone-scale lens models, learnable color filter arrays, Poisson-Gaussian noise processes, and quantization, all optimized directly for segmentation objectives. Evaluations on KITTI-360 show consistent mIoU improvements over fixed pipelines, with optics modeling and CFA learning providing the largest gains, especially for thin or low-light-sensitive classes. Importantly, these robustness gains are achieved with a compact ~1M-parameter model running at ~28 FPS, demonstrating edge deployability. Visual and quantitative analyses further highlight how co-designed sensors adapt acquisition to semantic structure, sharpening boundaries and maintaining accuracy under blur, noise, and low bit-depth. Together, these findings establish full-stack co-optimization of optics, sensors, and networks as a principled path toward efficient, reliable, and deployable perception in autonomous systems.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.20815v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.20815v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.20815v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.20815v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2512.20323": {
       "title": "Differentially Private Feature Release for Wireless Sensing: Adaptive Privacy Budget Allocation on CSI Spectrograms",
       "authors": [
@@ -4601,26 +4750,26 @@
         "Andrew Gracyk"
       ],
       "published": "2025-11-19T06:51:03+00:00",
-      "updated": "2025-11-20T17:51:33+00:00",
-      "summary": "It has been discovered that latent-Euclidean variational autoencoders (VAEs) admit, in various capacities, Riemannian structure. We adapt these arguments but for complex VAEs with a complex latent stage. We show that complex VAEs reveal to some level Kähler geometric structure. Our methods will be tailored for decoder geometry. We derive the Fisher information metric in the complex case under a latent complex Gaussian regularization with trivial relation matrix. It is well known from statistical information theory that the Fisher information coincides with the Hessian of the Kullback-Leibler (KL) divergence. Thus, the metric Kähler potential relation is exactly achieved under relative entropy. We propose a Kähler potential derivative of complex Gaussian mixtures that has rough equivalence to the Fisher information metric while still being faithful to the underlying Kähler geometry. Computation of the metric via this potential is efficient, and through our potential, valid as a plurisubharmonic (PSH) function, large scale computational burden of automatic differentiation is displaced to small scale. We show that we can regularize the latent space with decoder geometry, and that we can sample in accordance with a weighted complex volume element. We demonstrate these strategies, at the exchange of sample variation, yield consistently smoother representations and fewer semantic outliers.",
+      "updated": "2025-12-24T18:38:44+00:00",
+      "summary": "It has been discovered that latent-Euclidean variational autoencoders (VAEs) admit, in various capacities, Riemannian structure. We adapt these arguments but for complex VAEs with a complex latent stage. We show that complex VAEs reveal to some level Kähler geometric structure. Our methods will be tailored for decoder geometry. We derive the Fisher information metric in the complex case under a latent complex Gaussian with trivial relation matrix. It is well known from statistical information theory that the Fisher information coincides with the Hessian of the Kullback-Leibler (KL) divergence. Thus, the metric Kähler potential relation is exactly achieved under relative entropy. We propose a Kähler potential derivative of complex Gaussian mixtures that acts as a rough proxy to the Fisher information metric while still being faithful to the underlying Kähler geometry. Computation of the metric via this potential is efficient, and through our potential, valid as a plurisubharmonic (PSH) function, large scale computational burden of automatic differentiation is displaced to small scale. Our methods leverage the law of total covariance to bridge behavior between our potential and the Fisher metric. We show that we can regularize the latent space with decoder geometry, and that we can sample in accordance with a weighted complex volume element. We demonstrate these strategies, at the exchange of sample variation, yield consistently smoother representations and fewer semantic outliers.",
       "categories": [
         "cs.LG"
       ],
       "primary_category": "cs.LG",
-      "pdf_url": "https://arxiv.org/pdf/2511.15172v2",
+      "pdf_url": "https://arxiv.org/pdf/2511.15172v3",
       "journal_ref": null,
       "doi": null,
-      "comment": null,
-      "entry_id": "http://arxiv.org/abs/2511.15172v2",
+      "comment": "Corrections and improvements",
+      "entry_id": "http://arxiv.org/abs/2511.15172v3",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2511.15172v2",
+          "href": "https://arxiv.org/abs/2511.15172v3",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2511.15172v2",
+          "href": "https://arxiv.org/pdf/2511.15172v3",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -5580,26 +5729,26 @@
         "Miao Li"
       ],
       "published": "2025-11-12T09:29:08+00:00",
-      "updated": "2025-11-12T09:29:08+00:00",
+      "updated": "2025-12-24T07:23:48+00:00",
       "summary": "Humanoid robots exhibit significant potential in executing diverse human-level skills. However, current research predominantly relies on data-driven approaches that necessitate extensive training datasets to achieve robust multimodal decision-making capabilities and generalizable visuomotor control. These methods raise concerns due to the neglect of geometric reasoning in unseen scenarios and the inefficient modeling of robot-target relationships within the training data, resulting in significant waste of training resources. To address these limitations, we present the Recurrent Geometric-prior Multimodal Policy (RGMP), an end-to-end framework that unifies geometric-semantic skill reasoning with data-efficient visuomotor control. For perception capabilities, we propose the Geometric-prior Skill Selector, which infuses geometric inductive biases into a vision language model, producing adaptive skill sequences for unseen scenes with minimal spatial common sense tuning. To achieve data-efficient robotic motion synthesis, we introduce the Adaptive Recursive Gaussian Network, which parameterizes robot-object interactions as a compact hierarchy of Gaussian processes that recursively encode multi-scale spatial relationships, yielding dexterous, data-efficient motion synthesis even from sparse demonstrations. Evaluated on both our humanoid robot and desktop dual-arm robot, the RGMP framework achieves 87% task success in generalization tests and exhibits 5x greater data efficiency than the state-of-the-art model. This performance underscores its superior cross-domain generalization, enabled by geometric-semantic reasoning and recursive-Gaussion adaptation.",
       "categories": [
         "cs.RO"
       ],
       "primary_category": "cs.RO",
-      "pdf_url": "https://arxiv.org/pdf/2511.09141v1",
+      "pdf_url": "https://arxiv.org/pdf/2511.09141v2",
       "journal_ref": "Proceedings of the AAAI conference on artificial intelligence, 2026",
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2511.09141v1",
+      "entry_id": "http://arxiv.org/abs/2511.09141v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2511.09141v1",
+          "href": "https://arxiv.org/abs/2511.09141v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2511.09141v1",
+          "href": "https://arxiv.org/pdf/2511.09141v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
