@@ -1,5 +1,76 @@
 {
   "3DGS Semantic": {
+    "2512.22075": {
+      "title": "Primordial black holes and smooth coarse-graining in excursion set theory",
+      "authors": [
+        "Daiki Saito",
+        "Koki Tokeshi"
+      ],
+      "published": "2025-12-26T16:29:28+00:00",
+      "updated": "2025-12-26T16:29:28+00:00",
+      "summary": "The excursion-set formalism enables us to infer the mass distribution of collapsed objects, such as primordial black holes (PBHs), by the language of stochastic processes. Within the framework, this article investigates how a smooth coarse-graining procedure affects the resulting PBH mass function. As a demonstrative example, we employ a Gaussian window function, for which the stochastic noise becomes fully correlated across scales. It is found that these correlated noises result in a mass function of PBHs, whose maximum and its neighbourhood are predominantly determined by the probability that the density contrast exceeds a given threshold at each mass scale. Our results clarify the role of noise correlations induced by smooth coarse-graining and highlight their importance in predicting the abundance of PBHs.",
+      "categories": [
+        "astro-ph.CO",
+        "gr-qc"
+      ],
+      "primary_category": "astro-ph.CO",
+      "pdf_url": "https://arxiv.org/pdf/2512.22075v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "25 pages, 6 figures",
+      "entry_id": "http://arxiv.org/abs/2512.22075v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.22075v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.22075v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.21885": {
+      "title": "Spectral State Switching in Mrk 421: Results from the AstroSat LAXPC/SXT Observations",
+      "authors": [
+        "Sikandar Akbar",
+        "Zahir Shah",
+        "Ranjeev Misra",
+        "Naseer Iqbal"
+      ],
+      "published": "2025-12-26T06:15:51+00:00",
+      "updated": "2025-12-26T06:15:51+00:00",
+      "summary": "We carried a detailed time and flux resolved X-ray spectral analysis of the high-synchrotron-peaked blazar Mrk\\,421 using simultaneous AstroSat and LAXPC20/SXT observations. The 100\\,s binned LAXPC20 light curve obtained during 3--8 January 2017 reveals pronounced flux variability. The source exhibits a fractional variability amplitude of $F_{\\mathrm{rms}} = 0.210 \\pm 0.005$ in the SXT band and $F_{\\mathrm{rms}} = 0.316 \\pm 0.006$ in the LAXPC20 band. During this interval, the source reached a peak count rate of 122.94\\,counts\\,s$^{-1}$. This enabled us to carry flux resolved spectroscopy by selecting ten flux states, S1--S10 each having a width of 8\\,counts\\,s$^{-1}$. We noted that the spectra in these flux states are well described by a synchrotron-convolved broken power-law (BPL), which consistently provides a better fit than a log-parabola. The low-energy particle index (index before the break) is found to cluster around two discrete values across flux states indicating two spectra states in the source. The break energy consistently moves to high energy with increase in flux level in these states. Time-resolved spectroscopy (10-ks segments) confirms that the flux histogram is best modelled as a double lognormal distribution and the index histogram is bimodal. Inclusion of two additional long observations spanning 2017-2019 shows the same double-state behaviour on longer timescales. Together, the results indicate that Mrk\\,421 routinely occupies two dominant spectral; in a leptonic synchrotron framework this can be explained by Gaussian-like fluctuations in acceleration conditions producing lognormal flux states.",
+      "categories": [
+        "astro-ph.HE"
+      ],
+      "primary_category": "astro-ph.HE",
+      "pdf_url": "https://arxiv.org/pdf/2512.21885v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "submitted to Journal of High Energy Astrophysics(JHEAP)",
+      "entry_id": "http://arxiv.org/abs/2512.21885v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.21885v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.21885v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2512.21287": {
       "title": "Post-Processing Mask-Based Table Segmentation for Structural Coordinate Extraction",
       "authors": [
@@ -119,29 +190,30 @@
     "2512.20815": {
       "title": "Learning to Sense for Driving: Joint Optics-Sensor-Model Co-Design for Semantic Segmentation",
       "authors": [
-        "Reeshad Khan amd John Gauch"
+        "Reeshad Khan",
+        "John Gauch"
       ],
       "published": "2025-12-23T22:28:30+00:00",
-      "updated": "2025-12-23T22:28:30+00:00",
+      "updated": "2025-12-25T20:26:31+00:00",
       "summary": "Traditional autonomous driving pipelines decouple camera design from downstream perception, relying on fixed optics and handcrafted ISPs that prioritize human viewable imagery rather than machine semantics. This separation discards information during demosaicing, denoising, or quantization, while forcing models to adapt to sensor artifacts. We present a task-driven co-design framework that unifies optics, sensor modeling, and lightweight semantic segmentation networks into a single end-to-end RAW-to-task pipeline. Building on DeepLens[19], our system integrates realistic cellphone-scale lens models, learnable color filter arrays, Poisson-Gaussian noise processes, and quantization, all optimized directly for segmentation objectives. Evaluations on KITTI-360 show consistent mIoU improvements over fixed pipelines, with optics modeling and CFA learning providing the largest gains, especially for thin or low-light-sensitive classes. Importantly, these robustness gains are achieved with a compact ~1M-parameter model running at ~28 FPS, demonstrating edge deployability. Visual and quantitative analyses further highlight how co-designed sensors adapt acquisition to semantic structure, sharpening boundaries and maintaining accuracy under blur, noise, and low bit-depth. Together, these findings establish full-stack co-optimization of optics, sensors, and networks as a principled path toward efficient, reliable, and deployable perception in autonomous systems.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2512.20815v1",
+      "pdf_url": "https://arxiv.org/pdf/2512.20815v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2512.20815v1",
+      "entry_id": "http://arxiv.org/abs/2512.20815v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2512.20815v1",
+          "href": "https://arxiv.org/abs/2512.20815v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2512.20815v1",
+          "href": "https://arxiv.org/pdf/2512.20815v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -158,26 +230,26 @@
         "Zeynep Yağmur Baydemir"
       ],
       "published": "2025-12-23T12:45:49+00:00",
-      "updated": "2025-12-23T12:45:49+00:00",
+      "updated": "2025-12-26T17:21:55+00:00",
       "summary": "Wi-Fi/RF-based human sensing has achieved remarkable progress with deep learning, yet practical deployments increasingly require feature sharing for cloud analytics, collaborative training, or benchmark evaluation. Releasing intermediate representations such as CSI spectrograms can inadvertently expose sensitive information, including user identity, location, and membership, motivating formal privacy guarantees. In this paper, we study differentially private (DP) feature release for wireless sensing and propose an adaptive privacy budget allocation mechanism tailored to the highly non-uniform structure of CSI time-frequency representations. Our pipeline converts CSI to bounded spectrogram features, applies sensitivity control via clipping, estimates task-relevant importance over the time-frequency plane, and allocates a global privacy budget across spectrogram blocks before injecting calibrated Gaussian noise. Experiments on multi-user activity sensing (WiMANS), multi-person 3D pose estimation (Person-in-WiFi 3D), and respiration monitoring (Resp-CSI) show that adaptive allocation consistently improves the privacy-utility frontier over uniform perturbation under the same privacy budget. Our method yields higher accuracy and lower error while substantially reducing empirical leakage in identity and membership inference attacks.",
       "categories": [
         "cs.CR"
       ],
       "primary_category": "cs.CR",
-      "pdf_url": "https://arxiv.org/pdf/2512.20323v1",
+      "pdf_url": "https://arxiv.org/pdf/2512.20323v2",
       "journal_ref": null,
       "doi": null,
       "comment": "19pages,4figures",
-      "entry_id": "http://arxiv.org/abs/2512.20323v1",
+      "entry_id": "http://arxiv.org/abs/2512.20323v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2512.20323v1",
+          "href": "https://arxiv.org/abs/2512.20323v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2512.20323v1",
+          "href": "https://arxiv.org/pdf/2512.20323v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -197,27 +269,27 @@
         "Bjoern Hartmann"
       ],
       "published": "2025-12-23T07:43:53+00:00",
-      "updated": "2025-12-23T07:43:53+00:00",
+      "updated": "2025-12-25T01:12:10+00:00",
       "summary": "Authoring 3D scenes is a central task for spatial computing applications. Competing visions for lowering existing barriers are (1) focus on immersive, direct manipulation of 3D content or (2) leverage AI techniques that capture real scenes (3D Radiance Fields such as, NeRFs, 3D Gaussian Splatting) and modify them at a higher level of abstraction, at the cost of high latency. We unify the complementary strengths of these approaches and investigate how to integrate generative AI advances into real-time, immersive 3D Radiance Field editing. We introduce Dreamcrafter, a VR-based 3D scene editing system that: (1) provides a modular architecture to integrate generative AI algorithms; (2) combines different levels of control for creating objects, including natural language and direct manipulation; and (3) introduces proxy representations that support interaction during high-latency operations. We contribute empirical findings on control preferences and discuss how generative AI interfaces beyond text input enhance creativity in scene editing and world building.",
       "categories": [
         "cs.HC",
         "cs.CV"
       ],
       "primary_category": "cs.HC",
-      "pdf_url": "https://arxiv.org/pdf/2512.20129v1",
+      "pdf_url": "https://arxiv.org/pdf/2512.20129v2",
       "journal_ref": null,
       "doi": null,
       "comment": "CHI 2025, Project page: https://dream-crafter.github.io/",
-      "entry_id": "http://arxiv.org/abs/2512.20129v1",
+      "entry_id": "http://arxiv.org/abs/2512.20129v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2512.20129v1",
+          "href": "https://arxiv.org/abs/2512.20129v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2512.20129v1",
+          "href": "https://arxiv.org/pdf/2512.20129v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
