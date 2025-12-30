@@ -1,4 +1,4 @@
-## Updated at 2025-12-30 08:18:54
+## Updated at 2025-12-30 20:08:26
 
 ## 3DGS Semantic
 
@@ -8,6 +8,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-12-29**|**[GaussianDWM: 3D Gaussian Driving World Model for Unified Scene Understanding and Multi-Modal Generation](https://arxiv.org/abs/2512.23180)**|N/A|None|cs.CV|None|Tianchen Deng et al.|
 |**2025-12-24**|**[Quantile Rendering: Efficiently Embedding High-dimensional Feature on 3D Gaussian Splatting](https://arxiv.org/abs/2512.20927)**|N/A|Will be updated|cs.CV|None|Yoonwoo Jeong et al.|
 |**2025-12-19**|**[Chorus: Multi-Teacher Pretraining for Holistic 3D Gaussian Scene Encoding](https://arxiv.org/abs/2512.17817)**|N/A|None|cs.CV|None|Yue Li et al.|
 |**2025-12-19**|**[FLEG: Feed-Forward Language Embedded Gaussian Splatting from Any Views](https://arxiv.org/abs/2512.17541)**|N/A|Project page: https://fangzhou2000.github.io/projects/fleg|cs.CV|None|Qijian Tian et al.|
@@ -629,6 +630,10 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-12-28**|**[With Great Context Comes Great Prediction Power: Classifying Objects via Geo-Semantic Scene Graphs](https://arxiv.org/abs/2512.23024)**|N/A|This paper is a development of the visual riddle game with Human-AI interaction, entitled "GuessWhat - Riddle Eye with AI", developed by Ciprian Constantinescu (POLItEHNICA Bucharest), Serena Stan (Instituto Cervantes Bucarest) and Marius Leordeanu (POLITEHNICA Bucharest), which was the winner (1st place) of the NeoArt Connect NAC 2025 Scholarship Program|cs.CV|None|Ciprian Constantinescu, Marius Leordeanu|
+|**2025-12-28**|**[Depth Anything in $360^\circ$: Towards Scale Invariance in the Wild](https://arxiv.org/abs/2512.22819)**|N/A|https://insta360-research-team.github.io/DA360|cs.CV|None|Hualie Jiang et al.|
+|**2025-12-27**|**[Visual Autoregressive Modelling for Monocular Depth Estimation](https://arxiv.org/abs/2512.22653)**|N/A|None|cs.CV|None|Amir El-Ghoussani et al.|
+|**2025-12-26**|**[iOSPointMapper: RealTime Pedestrian and Accessibility Mapping with Mobile AI](https://arxiv.org/abs/2512.22392)**|N/A|None|cs.CV|None|Himanshu Naidu et al.|
 |**2025-12-22**|**[CETCAM: Camera-Controllable Video Generation via Consistent and Extensible Tokenization](https://arxiv.org/abs/2512.19020)**|N/A|None|cs.CV|None|Zelin Zhao et al.|
 |**2025-12-21**|**[A Study of Finetuning Video Transformers for Multi-view Geometry Tasks](https://arxiv.org/abs/2512.18684)**|N/A|AAAI 20206, Project website: geovit-aaai26.github.io|cs.CV|None|Huimin Wu et al.|
 |**2025-12-20**|**[EndoStreamDepth: Temporally Consistent Monocular Depth Estimation for Endoscopic Video Streams](https://arxiv.org/abs/2512.18159)**|N/A|None|cs.CV|None|Hao Li et al.|

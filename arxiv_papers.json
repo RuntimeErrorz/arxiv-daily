@@ -1,5 +1,243 @@
 {
   "3DGS Semantic": {
+    "2512.23255": {
+      "title": "Contour Information Aware 2D Gaussian Splatting for Image Representation",
+      "authors": [
+        "Masaya Takabe",
+        "Hiroshi Watanabe",
+        "Sujun Hong",
+        "Tomohiro Ikai",
+        "Zheming Fan",
+        "Ryo Ishimoto",
+        "Kakeru Sugimoto",
+        "Ruri Imichi"
+      ],
+      "published": "2025-12-29T07:24:36+00:00",
+      "updated": "2025-12-29T07:24:36+00:00",
+      "summary": "Image representation is a fundamental task in computer vision. Recently, Gaussian Splatting has emerged as an efficient representation framework, and its extension to 2D image representation enables lightweight, yet expressive modeling of visual content. While recent 2D Gaussian Splatting (2DGS) approaches provide compact storage and real-time decoding, they often produce blurry or indistinct boundaries when the number of Gaussians is small due to the lack of contour awareness. In this work, we propose a Contour Information-Aware 2D Gaussian Splatting framework that incorporates object segmentation priors into Gaussian-based image representation. By constraining each Gaussian to a specific segmentation region during rasterization, our method prevents cross-boundary blending and preserves edge structures under high compression. We also introduce a warm-up scheme to stabilize training and improve convergence. Experiments on synthetic color charts and the DAVIS dataset demonstrate that our approach achieves higher reconstruction quality around object edges compared to existing 2DGS methods. The improvement is particularly evident in scenarios with very few Gaussians, while our method still maintains fast rendering and low memory usage.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.23255v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.23255v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.23255v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.23255v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.23180": {
+      "title": "GaussianDWM: 3D Gaussian Driving World Model for Unified Scene Understanding and Multi-Modal Generation",
+      "authors": [
+        "Tianchen Deng",
+        "Xuefeng Chen",
+        "Yi Chen",
+        "Qu Chen",
+        "Yuyao Xu",
+        "Lijin Yang",
+        "Le Xu",
+        "Yu Zhang",
+        "Bo Zhang",
+        "Wuxiong Huang",
+        "Hesheng Wang"
+      ],
+      "published": "2025-12-29T03:40:05+00:00",
+      "updated": "2025-12-29T03:40:05+00:00",
+      "summary": "Driving World Models (DWMs) have been developing rapidly with the advances of generative models. However, existing DWMs lack 3D scene understanding capabilities and can only generate content conditioned on input data, without the ability to interpret or reason about the driving environment. Moreover, current approaches represent 3D spatial information with point cloud or BEV features do not accurately align textual information with the underlying 3D scene. To address these limitations, we propose a novel unified DWM framework based on 3D Gaussian scene representation, which enables both 3D scene understanding and multi-modal scene generation, while also enabling contextual enrichment for understanding and generation tasks. Our approach directly aligns textual information with the 3D scene by embedding rich linguistic features into each Gaussian primitive, thereby achieving early modality alignment. In addition, we design a novel task-aware language-guided sampling strategy that removes redundant 3D Gaussians and injects accurate and compact 3D tokens into LLM. Furthermore, we design a dual-condition multi-modal generation model, where the information captured by our vision-language model is leveraged as a high-level language condition in combination with a low-level image condition, jointly guiding the multi-modal generation process. We conduct comprehensive studies on the nuScenes, and NuInteract datasets to validate the effectiveness of our framework. Our method achieves state-of-the-art performance. We will release the code publicly on GitHub https://github.com/dtc111111/GaussianDWM.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.23180v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.23180v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.23180v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.23180v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2512.22800": {
+      "title": "Medical Scene Reconstruction and Segmentation based on 3D Gaussian Representation",
+      "authors": [
+        "Bin Liu",
+        "Wenyan Tian",
+        "Huangxin Fu",
+        "Zizheng Li",
+        "Zhifen He",
+        "Bo Li"
+      ],
+      "published": "2025-12-28T06:18:11+00:00",
+      "updated": "2025-12-28T06:18:11+00:00",
+      "summary": "3D reconstruction of medical images is a key technology in medical image analysis and clinical diagnosis, providing structural visualization support for disease assessment and surgical planning. Traditional methods are computationally expensive and prone to structural discontinuities and loss of detail in sparse slices, making it difficult to meet clinical accuracy requirements.To address these challenges, we propose an efficient 3D reconstruction method based on 3D Gaussian and tri-plane representations. This method not only maintains the advantages of Gaussian representation in efficient rendering and geometric representation but also significantly enhances structural continuity and semantic consistency under sparse slicing conditions. Experimental results on multimodal medical datasets such as US and MRI show that our proposed method can generate high-quality, anatomically coherent, and semantically stable medical images under sparse data conditions, while significantly improving reconstruction efficiency. This provides an efficient and reliable new approach for 3D visualization and clinical analysis of medical images.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.22800v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "14 pages, 3 figures",
+      "entry_id": "http://arxiv.org/abs/2512.22800v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.22800v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.22800v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.22771": {
+      "title": "Next Best View Selections for Semantic and Dynamic 3D Gaussian Splatting",
+      "authors": [
+        "Yiqian Li",
+        "Wen Jiang",
+        "Kostas Daniilidis"
+      ],
+      "published": "2025-12-28T04:19:25+00:00",
+      "updated": "2025-12-28T04:19:25+00:00",
+      "summary": "Understanding semantics and dynamics has been crucial for embodied agents in various tasks. Both tasks have much more data redundancy than the static scene understanding task. We formulate the view selection problem as an active learning problem, where the goal is to prioritize frames that provide the greatest information gain for model training. To this end, we propose an active learning algorithm with Fisher Information that quantifies the informativeness of candidate views with respect to both semantic Gaussian parameters and deformation networks. This formulation allows our method to jointly handle semantic reasoning and dynamic scene modeling, providing a principled alternative to heuristic or random strategies. We evaluate our method on large-scale static images and dynamic video datasets by selecting informative frames from multi-camera setups. Experimental results demonstrate that our approach consistently improves rendering quality and semantic segmentation performance, outperforming baseline methods based on random selection and uncertainty-based heuristics.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.22771v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.22771v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.22771v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.22771v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.22745": {
+      "title": "Split4D: Decomposed 4D Scene Reconstruction Without Video Segmentation",
+      "authors": [
+        "Yongzhen Hu",
+        "Yihui Yang",
+        "Haotong Lin",
+        "Yifan Wang",
+        "Junting Dong",
+        "Yifu Deng",
+        "Xinyu Zhu",
+        "Fan Jia",
+        "Hujun Bao",
+        "Xiaowei Zhou",
+        "Sida Peng"
+      ],
+      "published": "2025-12-28T02:37:12+00:00",
+      "updated": "2025-12-28T02:37:12+00:00",
+      "summary": "This paper addresses the problem of decomposed 4D scene reconstruction from multi-view videos. Recent methods achieve this by lifting video segmentation results to a 4D representation through differentiable rendering techniques. Therefore, they heavily rely on the quality of video segmentation maps, which are often unstable, leading to unreliable reconstruction results. To overcome this challenge, our key idea is to represent the decomposed 4D scene with the Freetime FeatureGS and design a streaming feature learning strategy to accurately recover it from per-image segmentation maps, eliminating the need for video segmentation. Freetime FeatureGS models the dynamic scene as a set of Gaussian primitives with learnable features and linear motion ability, allowing them to move to neighboring regions over time. We apply a contrastive loss to Freetime FeatureGS, forcing primitive features to be close or far apart based on whether their projections belong to the same instance in the 2D segmentation map. As our Gaussian primitives can move across time, it naturally extends the feature learning to the temporal dimension, achieving 4D segmentation. Furthermore, we sample observations for training in a temporally ordered manner, enabling the streaming propagation of features over time and effectively avoiding local minima during the optimization process. Experimental results on several datasets show that the reconstruction quality of our method outperforms recent methods by a large margin.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.22745v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.22745v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.22745v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.22745v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.22634": {
+      "title": "1d-qt-ideal-solver: 1D Idealized Quantum Tunneling Solver with Absorbing Boundaries",
+      "authors": [
+        "Sandy H. S. Herho",
+        "Siti N. Kaban",
+        "Rusmawan Suwarman",
+        "Iwan P. Anwar",
+        "Nurjanna J. Trilaksono"
+      ],
+      "published": "2025-12-27T16:13:44+00:00",
+      "updated": "2025-12-27T16:13:44+00:00",
+      "summary": "We present 1d-qt-ideal-solver, an open-source Python library for simulating one-dimensional quantum tunneling dynamics under idealized coherent conditions. The solver implements the split-operator method with second-order Trotter-Suzuki factorization, utilizing FFT-based spectral differentiation for the kinetic operator and complex absorbing potentials to eliminate boundary reflections. Numba just-in-time compilation achieves performance comparable to compiled languages while maintaining code accessibility. We validate the implementation through two canonical test cases: rectangular barriers modeling field emission through oxide layers and Gaussian barriers approximating scanning tunneling microscopy interactions. Both simulations achieve exceptional numerical fidelity with machine-precision energy conservation over femtosecond-scale propagation. Comparative analysis employing information-theoretic measures and nonparametric hypothesis tests reveals that rectangular barriers exhibit moderately higher transmission coefficients than Gaussian barriers in the over-barrier regime, though Jensen-Shannon divergence analysis indicates modest practical differences between geometries. Phase space analysis confirms complete decoherence when averaged over spatial-temporal domains. The library name reflects its scope: idealized signifies deliberate exclusion of dissipation, environmental coupling, and many-body interactions, limiting applicability to qualitative insights and pedagogical purposes rather than quantitative experimental predictions. Distributed under the MIT License, the library provides a deployable tool for teaching quantum mechanics and preliminary exploration of tunneling dynamics.",
+      "categories": [
+        "quant-ph",
+        "physics.ed-ph"
+      ],
+      "primary_category": "quant-ph",
+      "pdf_url": "https://arxiv.org/pdf/2512.22634v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "13 pages, 4 figures",
+      "entry_id": "http://arxiv.org/abs/2512.22634v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.22634v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.22634v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2512.22075": {
       "title": "Primordial black holes and smooth coarse-graining in excursion set theory",
       "authors": [
@@ -230,26 +468,26 @@
         "Zeynep Yağmur Baydemir"
       ],
       "published": "2025-12-23T12:45:49+00:00",
-      "updated": "2025-12-26T17:21:55+00:00",
+      "updated": "2025-12-29T12:08:34+00:00",
       "summary": "Wi-Fi/RF-based human sensing has achieved remarkable progress with deep learning, yet practical deployments increasingly require feature sharing for cloud analytics, collaborative training, or benchmark evaluation. Releasing intermediate representations such as CSI spectrograms can inadvertently expose sensitive information, including user identity, location, and membership, motivating formal privacy guarantees. In this paper, we study differentially private (DP) feature release for wireless sensing and propose an adaptive privacy budget allocation mechanism tailored to the highly non-uniform structure of CSI time-frequency representations. Our pipeline converts CSI to bounded spectrogram features, applies sensitivity control via clipping, estimates task-relevant importance over the time-frequency plane, and allocates a global privacy budget across spectrogram blocks before injecting calibrated Gaussian noise. Experiments on multi-user activity sensing (WiMANS), multi-person 3D pose estimation (Person-in-WiFi 3D), and respiration monitoring (Resp-CSI) show that adaptive allocation consistently improves the privacy-utility frontier over uniform perturbation under the same privacy budget. Our method yields higher accuracy and lower error while substantially reducing empirical leakage in identity and membership inference attacks.",
       "categories": [
         "cs.CR"
       ],
       "primary_category": "cs.CR",
-      "pdf_url": "https://arxiv.org/pdf/2512.20323v2",
+      "pdf_url": "https://arxiv.org/pdf/2512.20323v3",
       "journal_ref": null,
       "doi": null,
       "comment": "19pages,4figures",
-      "entry_id": "http://arxiv.org/abs/2512.20323v2",
+      "entry_id": "http://arxiv.org/abs/2512.20323v3",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2512.20323v2",
+          "href": "https://arxiv.org/abs/2512.20323v3",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2512.20323v2",
+          "href": "https://arxiv.org/pdf/2512.20323v3",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -90033,6 +90271,146 @@
     }
   },
   "Depth Estimation": {
+    "2512.23024": {
+      "title": "With Great Context Comes Great Prediction Power: Classifying Objects via Geo-Semantic Scene Graphs",
+      "authors": [
+        "Ciprian Constantinescu",
+        "Marius Leordeanu"
+      ],
+      "published": "2025-12-28T17:53:55+00:00",
+      "updated": "2025-12-28T17:53:55+00:00",
+      "summary": "Humans effortlessly identify objects by leveraging a rich understanding of the surrounding scene, including spatial relationships, material properties, and the co-occurrence of other objects. In contrast, most computational object recognition systems operate on isolated image regions, devoid of meaning in isolation, thus ignoring this vital contextual information. This paper argues for the critical role of context and introduces a novel framework for contextual object classification. We first construct a Geo-Semantic Contextual Graph (GSCG) from a single monocular image. This rich, structured representation is built by integrating a metric depth estimator with a unified panoptic and material segmentation model. The GSCG encodes objects as nodes with detailed geometric, chromatic, and material attributes, and their spatial relationships as edges. This explicit graph structure makes the model's reasoning process inherently interpretable. We then propose a specialized graph-based classifier that aggregates features from a target object, its immediate neighbors, and the global scene context to predict its class. Through extensive ablation studies, we demonstrate that our context-aware model achieves a classification accuracy of 73.4%, dramatically outperforming context-agnostic versions (as low as 38.4%). Furthermore, our GSCG-based approach significantly surpasses strong baselines, including fine-tuned ResNet models (max 53.5%) and a state-of-the-art multimodal Large Language Model (LLM), Llama 4 Scout, which, even when given the full image alongside a detailed description of objects, maxes out at 42.3%. These results on COCO 2017 train/val splits highlight the superiority of explicitly structured and interpretable context for object recognition tasks.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.23024v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "This paper is a development of the visual riddle game with Human-AI interaction, entitled \"GuessWhat - Riddle Eye with AI\", developed by Ciprian Constantinescu (POLItEHNICA Bucharest), Serena Stan (Instituto Cervantes Bucarest) and Marius Leordeanu (POLITEHNICA Bucharest), which was the winner (1st place) of the NeoArt Connect NAC 2025 Scholarship Program",
+      "entry_id": "http://arxiv.org/abs/2512.23024v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.23024v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.23024v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2512.22819": {
+      "title": "Depth Anything in $360^\\circ$: Towards Scale Invariance in the Wild",
+      "authors": [
+        "Hualie Jiang",
+        "Ziyang Song",
+        "Zhiqiang Lou",
+        "Rui Xu",
+        "Minglang Tan"
+      ],
+      "published": "2025-12-28T07:12:58+00:00",
+      "updated": "2025-12-28T07:12:58+00:00",
+      "summary": "Panoramic depth estimation provides a comprehensive solution for capturing complete $360^\\circ$ environmental structural information, offering significant benefits for robotics and AR/VR applications. However, while extensively studied in indoor settings, its zero-shot generalization to open-world domains lags far behind perspective images, which benefit from abundant training data. This disparity makes transferring capabilities from the perspective domain an attractive solution. To bridge this gap, we present Depth Anything in $360^\\circ$ (DA360), a panoramic-adapted version of Depth Anything V2. Our key innovation involves learning a shift parameter from the ViT backbone, transforming the model's scale- and shift-invariant output into a scale-invariant estimate that directly yields well-formed 3D point clouds. This is complemented by integrating circular padding into the DPT decoder to eliminate seam artifacts, ensuring spatially coherent depth maps that respect spherical continuity. Evaluated on standard indoor benchmarks and our newly curated outdoor dataset, Metropolis, DA360 shows substantial gains over its base model, achieving over 50\\% and 10\\% relative depth error reduction on indoor and outdoor benchmarks, respectively. Furthermore, DA360 significantly outperforms robust panoramic depth estimation methods, achieving about 30\\% relative error improvement compared to PanDA across all three test datasets and establishing new state-of-the-art performance for zero-shot panoramic depth estimation.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.22819v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "https://insta360-research-team.github.io/DA360",
+      "entry_id": "http://arxiv.org/abs/2512.22819v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.22819v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.22819v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2512.22653": {
+      "title": "Visual Autoregressive Modelling for Monocular Depth Estimation",
+      "authors": [
+        "Amir El-Ghoussani",
+        "André Kaup",
+        "Nassir Navab",
+        "Gustavo Carneiro",
+        "Vasileios Belagiannis"
+      ],
+      "published": "2025-12-27T17:08:03+00:00",
+      "updated": "2025-12-27T17:08:03+00:00",
+      "summary": "We propose a monocular depth estimation method based on visual autoregressive (VAR) priors, offering an alternative to diffusion-based approaches. Our method adapts a large-scale text-to-image VAR model and introduces a scale-wise conditional upsampling mechanism with classifier-free guidance. Our approach performs inference in ten fixed autoregressive stages, requiring only 74K synthetic samples for fine-tuning, and achieves competitive results. We report state-of-the-art performance in indoor benchmarks under constrained training conditions, and strong performance when applied to outdoor datasets. This work establishes autoregressive priors as a complementary family of geometry-aware generative models for depth estimation, highlighting advantages in data scalability, and adaptability to 3D vision tasks. Code available at \"https://github.com/AmirMaEl/VAR-Depth\".",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.22653v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.22653v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.22653v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.22653v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2512.22392": {
+      "title": "iOSPointMapper: RealTime Pedestrian and Accessibility Mapping with Mobile AI",
+      "authors": [
+        "Himanshu Naidu",
+        "Yuxiang Zhang",
+        "Sachin Mehta",
+        "Anat Caspi"
+      ],
+      "published": "2025-12-26T21:44:08+00:00",
+      "updated": "2025-12-26T21:44:08+00:00",
+      "summary": "Accurate, up-to-date sidewalk data is essential for building accessible and inclusive pedestrian infrastructure, yet current approaches to data collection are often costly, fragmented, and difficult to scale. We introduce iOSPointMapper, a mobile application that enables real-time, privacy-conscious sidewalk mapping on the ground, using recent-generation iPhones and iPads. The system leverages on-device semantic segmentation, LiDAR-based depth estimation, and fused GPS/IMU data to detect and localize sidewalk-relevant features such as traffic signs, traffic lights and poles. To ensure transparency and improve data quality, iOSPointMapper incorporates a user-guided annotation interface for validating system outputs before submission. Collected data is anonymized and transmitted to the Transportation Data Exchange Initiative (TDEI), where it integrates seamlessly with broader multimodal transportation datasets. Detailed evaluations of the system's feature detection and spatial mapping performance reveal the application's potential for enhanced pedestrian mapping. Together, these capabilities offer a scalable and user-centered approach to closing critical data gaps in pedestrian",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2512.22392v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.22392v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.22392v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.22392v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2512.19020": {
       "title": "CETCAM: Camera-Controllable Video Generation via Consistent and Extensible Tokenization",
       "authors": [
