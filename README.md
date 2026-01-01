@@ -1,4 +1,4 @@
-## Updated at 2026-01-01 08:21:44
+## Updated at 2026-01-01 20:08:37
 
 ## 3DGS Semantic
 
@@ -182,6 +182,7 @@ Query: (abs:'Multi-View Stereo' OR abs:'Multi View Stereo' OR abs:'Multi-View De
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-12-31**|**[3D Semantic Segmentation for Post-Disaster Assessment](https://arxiv.org/abs/2512.24593)**|N/A|Accepted by the 2025 IEEE International Geoscience and Remote Sensing Symposium (IGARSS 2025)|cs.CV|None|Nhut Le, Maryam Rahnemoonfar|
 |**2025-12-11**|**[SpaceDrive: Infusing Spatial Awareness into VLM-based Autonomous Driving](https://arxiv.org/abs/2512.10719)**|N/A|None|cs.CV|None|Peizheng Li et al.|
 |**2025-12-09**|**[SDT-6D: Fully Sparse Depth-Transformer for Staged End-to-End 6D Pose Estimation in Industrial Multi-View Bin Picking](https://arxiv.org/abs/2512.08430)**|N/A|Accepted to WACV 2026. Preprint version|cs.CV|None|Nico Leuze et al.|
 |**2025-12-04**|**[Joint 3D Geometry Reconstruction and Motion Generation for 4D Synthesis from a Single Image](https://arxiv.org/abs/2512.05044)**|N/A|18 Pages|cs.CV|None|Yanran Zhang et al.|
@@ -630,6 +631,9 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2025-12-31**|**[Projection-based Adversarial Attack using Physics-in-the-Loop Optimization for Monocular Depth Estimation](https://arxiv.org/abs/2512.24792)**|N/A|None|cs.CV|None|Takeru Kusakabe et al.|
+|**2025-12-30**|**[Guided Diffusion-based Generation of Adversarial Objects for Real-World Monocular Depth Estimation Attacks](https://arxiv.org/abs/2512.24111)**|N/A|None|cs.CV|None|Yongtao Chen et al.|
+|**2025-12-29**|**[Leveraging Synthetic Priors for Monocular Depth Estimation in Specular Surgical Environments](https://arxiv.org/abs/2512.23786)**|N/A|None|cs.CV|None|Ankan Aich, Yangming Lee|
 |**2025-12-28**|**[With Great Context Comes Great Prediction Power: Classifying Objects via Geo-Semantic Scene Graphs](https://arxiv.org/abs/2512.23024)**|N/A|This paper is a development of the visual riddle game with Human-AI interaction, entitled "GuessWhat - Riddle Eye with AI", developed by Ciprian Constantinescu (POLItEHNICA Bucharest), Serena Stan (Instituto Cervantes Bucarest) and Marius Leordeanu (POLITEHNICA Bucharest), which was the winner (1st place) of the NeoArt Connect NAC 2025 Scholarship Program|cs.CV|None|Ciprian Constantinescu, Marius Leordeanu|
 |**2025-12-28**|**[Depth Anything in $360^\circ$: Towards Scale Invariance in the Wild](https://arxiv.org/abs/2512.22819)**|N/A|https://insta360-research-team.github.io/DA360|cs.CV|None|Hualie Jiang et al.|
 |**2025-12-27**|**[Visual Autoregressive Modelling for Monocular Depth Estimation](https://arxiv.org/abs/2512.22653)**|N/A|None|cs.CV|None|Amir El-Ghoussani et al.|
