@@ -1,4 +1,4 @@
-## Updated at 2026-01-05 08:21:19
+## Updated at 2026-01-05 20:08:45
 
 ## 3DGS Semantic
 
@@ -631,6 +631,7 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-01-02**|**[AdaGaR: Adaptive Gabor Representation for Dynamic Scene Reconstruction](https://arxiv.org/abs/2601.00796)**|N/A|Project page: https://jiewenchan.github.io/AdaGaR/|cs.CV|None|Jiewen Chan et al.|
 |**2025-12-31**|**[Projection-based Adversarial Attack using Physics-in-the-Loop Optimization for Monocular Depth Estimation](https://arxiv.org/abs/2512.24792)**|N/A|None|cs.CV|None|Takeru Kusakabe et al.|
 |**2025-12-30**|**[Guided Diffusion-based Generation of Adversarial Objects for Real-World Monocular Depth Estimation Attacks](https://arxiv.org/abs/2512.24111)**|N/A|None|cs.CV|None|Yongtao Chen et al.|
 |**2025-12-29**|**[Leveraging Synthetic Priors for Monocular Depth Estimation in Specular Surgical Environments](https://arxiv.org/abs/2512.23786)**|N/A|None|cs.CV|None|Ankan Aich, Yangming Lee|
