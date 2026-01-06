@@ -1,4 +1,4 @@
-## Updated at 2026-01-06 08:19:44
+## Updated at 2026-01-06 20:08:40
 
 ## 3DGS Semantic
 
@@ -8,6 +8,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-01-05**|**[Joint Semantic and Rendering Enhancements in 3D Gaussian Modeling with Anisotropic Local Encoding](https://arxiv.org/abs/2601.02339)**|N/A|Accepted by ICCV 2025|cs.CV|None|Jingming He et al.|
 |**2025-12-29**|**[GaussianDWM: 3D Gaussian Driving World Model for Unified Scene Understanding and Multi-Modal Generation](https://arxiv.org/abs/2512.23180)**|N/A|None|cs.CV|None|Tianchen Deng et al.|
 |**2025-12-24**|**[Quantile Rendering: Efficiently Embedding High-dimensional Feature on 3D Gaussian Splatting](https://arxiv.org/abs/2512.20927)**|N/A|Will be updated|cs.CV|None|Yoonwoo Jeong et al.|
 |**2025-12-19**|**[Chorus: Multi-Teacher Pretraining for Holistic 3D Gaussian Scene Encoding](https://arxiv.org/abs/2512.17817)**|N/A|None|cs.CV|None|Yue Li et al.|
@@ -182,6 +183,7 @@ Query: (abs:'Multi-View Stereo' OR abs:'Multi View Stereo' OR abs:'Multi-View De
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-01-05**|**[360-GeoGS: Geometrically Consistent Feed-Forward 3D Gaussian Splatting Reconstruction for 360 Images](https://arxiv.org/abs/2601.02102)**|N/A|None|cs.CV|None|Jiaqi Yao et al.|
 |**2025-12-31**|**[3D Semantic Segmentation for Post-Disaster Assessment](https://arxiv.org/abs/2512.24593)**|N/A|Accepted by the 2025 IEEE International Geoscience and Remote Sensing Symposium (IGARSS 2025)|cs.CV|None|Nhut Le, Maryam Rahnemoonfar|
 |**2025-12-11**|**[SpaceDrive: Infusing Spatial Awareness into VLM-based Autonomous Driving](https://arxiv.org/abs/2512.10719)**|N/A|None|cs.CV|None|Peizheng Li et al.|
 |**2025-12-09**|**[SDT-6D: Fully Sparse Depth-Transformer for Staged End-to-End 6D Pose Estimation in Industrial Multi-View Bin Picking](https://arxiv.org/abs/2512.08430)**|N/A|Accepted to WACV 2026. Preprint version|cs.CV|None|Nico Leuze et al.|
@@ -631,6 +633,8 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-01-05**|**[Adapting Depth Anything to Adverse Imaging Conditions with Events](https://arxiv.org/abs/2601.02020)**|N/A|This work has been submitted to the IEEE for possible publication|cs.CV|None|Shihan Peng et al.|
+|**2026-01-05**|**[DisCo-FLoc: Using Dual-Level Visual-Geometric Contrasts to Disambiguate Depth-Aware Visual Floorplan Localization](https://arxiv.org/abs/2601.01822)**|N/A|7 pages, 4 figures|cs.RO|None|Shiyong Meng et al.|
 |**2026-01-02**|**[AdaGaR: Adaptive Gabor Representation for Dynamic Scene Reconstruction](https://arxiv.org/abs/2601.00796)**|N/A|Project page: https://jiewenchan.github.io/AdaGaR/|cs.CV|None|Jiewen Chan et al.|
 |**2025-12-31**|**[Projection-based Adversarial Attack using Physics-in-the-Loop Optimization for Monocular Depth Estimation](https://arxiv.org/abs/2512.24792)**|N/A|None|cs.CV|None|Takeru Kusakabe et al.|
 |**2025-12-30**|**[Guided Diffusion-based Generation of Adversarial Objects for Real-World Monocular Depth Estimation Attacks](https://arxiv.org/abs/2512.24111)**|N/A|None|cs.CV|None|Yongtao Chen et al.|

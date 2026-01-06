@@ -1,5 +1,253 @@
 {
   "3DGS Semantic": {
+    "2601.02339": {
+      "title": "Joint Semantic and Rendering Enhancements in 3D Gaussian Modeling with Anisotropic Local Encoding",
+      "authors": [
+        "Jingming He",
+        "Chongyi Li",
+        "Shiqi Wang",
+        "Sam Kwong"
+      ],
+      "published": "2026-01-05T18:33:50+00:00",
+      "updated": "2026-01-05T18:33:50+00:00",
+      "summary": "Recent works propose extending 3DGS with semantic feature vectors for simultaneous semantic segmentation and image rendering. However, these methods often treat the semantic and rendering branches separately, relying solely on 2D supervision while ignoring the 3D Gaussian geometry. Moreover, current adaptive strategies adapt the Gaussian set depending solely on rendering gradients, which can be insufficient in subtle or textureless regions. In this work, we propose a joint enhancement framework for 3D semantic Gaussian modeling that synergizes both semantic and rendering branches. Firstly, unlike conventional point cloud shape encoding, we introduce an anisotropic 3D Gaussian Chebyshev descriptor using the Laplace-Beltrami operator to capture fine-grained 3D shape details, thereby distinguishing objects with similar appearances and reducing reliance on potentially noisy 2D guidance. In addition, without relying solely on rendering gradient, we adaptively adjust Gaussian allocation and spherical harmonics with local semantic and shape signals, enhancing rendering efficiency through selective resource allocation. Finally, we employ a cross-scene knowledge transfer module to continuously update learned shape patterns, enabling faster convergence and robust representations without relearning shape information from scratch for each new scene. Experiments on multiple datasets demonstrate improvements in segmentation accuracy and rendering quality while maintaining high rendering frame rates.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2601.02339v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted by ICCV 2025",
+      "entry_id": "http://arxiv.org/abs/2601.02339v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.02339v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.02339v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2601.02127": {
+      "title": "Beyond the Static Kuhn Length: Conformational Substructures and Relaxation Dynamics in Flexible Chains",
+      "authors": [
+        "José A. Martins"
+      ],
+      "published": "2026-01-05T13:57:03+00:00",
+      "updated": "2026-01-05T13:57:03+00:00",
+      "summary": "The statistical \"monomer-based\" segment length $b$ and the Kuhn length $l_k$ are central to polymer physics, yet the minimal size required for a truly statistical segment - Gaussian, uncorrelated, and valid as an entropic spring - is not rigorously established. Using atomistic simulations of entangled polyethylene, we re-evaluate these foundational quantities.\n  By fitting end-to-end distance distributions of C--C bond blocks and validating with higher-moment analyses, we identify for the first time the minimal sizes corresponding to a statistical segment and an entropic spring. A single Kuhn segment (approximately 11 bonds) is the smallest statistically uncorrelated unit, but its distance distribution is strongly non-Gaussian, while the monomer-based segment $b$, used in rheology and classical tube-theory formulations, is not statistical at all. True Gaussianity emerges only for blocks containing multiple Kuhn segments.\n  At the Kuhn scale, we uncover a previously unresolved conformational heterogeneity. Each segment samples a broad range of conformations, from coiled (approximately 4~Å) to extended (approximately 14~Å), giving rise to three distinct substructures: aligned chain segments (ACS), random conformational sequences (RCS), and chain ends (CE). These exhibit distinct dynamical signatures. ACS relax with a stretched-exponential exponent $β\\approx 0.5$, consistent with quasi-one-dimensional, defect-mediated localized modes, whereas RCS and CE relax with $β\\approx 0.7$. By connecting these results to localized-mode theory and continuous-time random-walk models, we provide a molecular interpretation of stretched-exponential relaxation in polymer melts.",
+      "categories": [
+        "cond-mat.soft"
+      ],
+      "primary_category": "cond-mat.soft",
+      "pdf_url": "https://arxiv.org/pdf/2601.02127v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Submitted to the Journal of Chemical Physics",
+      "entry_id": "http://arxiv.org/abs/2601.02127v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.02127v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.02127v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2601.02098": {
+      "title": "InpaintHuman: Reconstructing Occluded Humans with Multi-Scale UV Mapping and Identity-Preserving Diffusion Inpainting",
+      "authors": [
+        "Jinlong Fan",
+        "Shanshan Zhao",
+        "Liang Zheng",
+        "Jing Zhang",
+        "Yuxiang Yang",
+        "Mingming Gong"
+      ],
+      "published": "2026-01-05T13:26:02+00:00",
+      "updated": "2026-01-05T13:26:02+00:00",
+      "summary": "Reconstructing complete and animatable 3D human avatars from monocular videos remains challenging, particularly under severe occlusions. While 3D Gaussian Splatting has enabled photorealistic human rendering, existing methods struggle with incomplete observations, often producing corrupted geometry and temporal inconsistencies. We present InpaintHuman, a novel method for generating high-fidelity, complete, and animatable avatars from occluded monocular videos. Our approach introduces two key innovations: (i) a multi-scale UV-parameterized representation with hierarchical coarse-to-fine feature interpolation, enabling robust reconstruction of occluded regions while preserving geometric details; and (ii) an identity-preserving diffusion inpainting module that integrates textual inversion with semantic-conditioned guidance for subject-specific, temporally coherent completion. Unlike SDS-based methods, our approach employs direct pixel-level supervision to ensure identity fidelity. Experiments on synthetic benchmarks (PeopleSnapshot, ZJU-MoCap) and real-world scenarios (OcMotion) demonstrate competitive performance with consistent improvements in reconstruction quality across diverse poses and viewpoints.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2601.02098v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2601.02098v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.02098v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.02098v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2601.01729": {
+      "title": "Robust Deep Joint Source-Channel Coding for Video Transmission over Multipath Fading Channel",
+      "authors": [
+        "Bohuai Xiao",
+        "Jian Zou",
+        "Fanyang Meng",
+        "Wei Liu",
+        "Yongsheng Liang"
+      ],
+      "published": "2026-01-05T02:05:40+00:00",
+      "updated": "2026-01-05T02:05:40+00:00",
+      "summary": "To address the challenges of wireless video transmission over multipath fading channels, we propose a robust deep joint source-channel coding (DeepJSCC) framework by effectively exploiting temporal redundancy and incorporating robust innovations at the modulation, coding, and decoding stages. At the modulation stage, tailored orthogonal frequency division multiplexing (OFDM) for robust video transmission is employed, decomposing wideband signals into orthogonal frequency-flat sub-channels to effectively mitigate frequency-selective fading. At the coding stage, conditional contextual coding with multi-scale Gaussian warped features is introduced to efficiently model temporal redundancy, significantly improving reconstruction quality under strict bandwidth constraints. At the decoding stage, a lightweight denoising module is integrated to robustly simplify signal restoration and accelerate convergence, addressing the suboptimality and slow convergence typically associated with simultaneously performing channel estimation, equalization, and semantic reconstruction. Experimental results demonstrate that the proposed robust framework significantly outperforms state-of-the-art video DeepJSCC methods, achieving an average reconstruction quality gain of 5.13 dB under challenging multipath fading channel conditions.",
+      "categories": [
+        "eess.IV"
+      ],
+      "primary_category": "eess.IV",
+      "pdf_url": "https://arxiv.org/pdf/2601.01729v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "6 pages, 6 figures. Accepted by IEEE GLOBECOM 2025. This version is the author preprint",
+      "entry_id": "http://arxiv.org/abs/2601.01729v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.01729v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.01729v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2601.01406": {
+      "title": "SwinIFS: Landmark Guided Swin Transformer For Identity Preserving Face Super Resolution",
+      "authors": [
+        "Habiba Kausar",
+        "Saeed Anwar",
+        "Omar Jamal Hammad",
+        "Abdul Bais"
+      ],
+      "published": "2026-01-04T07:04:46+00:00",
+      "updated": "2026-01-04T07:04:46+00:00",
+      "summary": "Face super-resolution aims to recover high-quality facial images from severely degraded low-resolution inputs, but remains challenging due to the loss of fine structural details and identity-specific features. This work introduces SwinIFS, a landmark-guided super-resolution framework that integrates structural priors with hierarchical attention mechanisms to achieve identity-preserving reconstruction at both moderate and extreme upscaling factors. The method incorporates dense Gaussian heatmaps of key facial landmarks into the input representation, enabling the network to focus on semantically important facial regions from the earliest stages of processing. A compact Swin Transformer backbone is employed to capture long-range contextual information while preserving local geometry, allowing the model to restore subtle facial textures and maintain global structural consistency. Extensive experiments on the CelebA benchmark demonstrate that SwinIFS achieves superior perceptual quality, sharper reconstructions, and improved identity retention; it consistently produces more photorealistic results and exhibits strong performance even under 8x magnification, where most methods fail to recover meaningful structure. SwinIFS also provides an advantageous balance between reconstruction accuracy and computational efficiency, making it suitable for real-world applications in facial enhancement, surveillance, and digital restoration. Our code, model weights, and results are available at https://github.com/Habiba123-stack/SwinIFS.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2601.01406v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2601.01406v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.01406v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.01406v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2601.00923": {
+      "title": "Context Collapse: In-Context Learning and Model Collapse",
+      "authors": [
+        "Josef Ott"
+      ],
+      "published": "2026-01-01T17:33:47+00:00",
+      "updated": "2026-01-01T17:33:47+00:00",
+      "summary": "This thesis investigates two key phenomena in large language models (LLMs): in-context learning (ICL) and model collapse. We study ICL in a linear transformer with tied weights trained on linear regression tasks, and show that minimising the in-context loss leads to a phase transition in the learned parameters. Above a critical context length, the solution develops a skew-symmetric component. We prove this by reducing the forward pass of the linear transformer under weight tying to preconditioned gradient descent, and then analysing the optimal preconditioner. This preconditioner includes a skew-symmetric component, which induces a rotation of the gradient direction. For model collapse, we use martingale and random walk theory to analyse simplified settings - linear regression and Gaussian fitting - under both replacing and cumulative data regimes. We strengthen existing results by proving almost sure convergence, showing that collapse occurs unless the data grows sufficiently fast or is retained over time. Finally, we introduce the notion of context collapse: a degradation of context during long generations, especially in chain-of-thought reasoning. This concept links the dynamics of ICL with long-term stability challenges in generative models.",
+      "categories": [
+        "cs.AI"
+      ],
+      "primary_category": "cs.AI",
+      "pdf_url": "https://arxiv.org/pdf/2601.00923v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Master's thesis",
+      "entry_id": "http://arxiv.org/abs/2601.00923v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.00923v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.00923v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2601.00913": {
+      "title": "Clean-GS: Semantic Mask-Guided Pruning for 3D Gaussian Splatting",
+      "authors": [
+        "Subhankar Mishra"
+      ],
+      "published": "2026-01-01T05:02:45+00:00",
+      "updated": "2026-01-01T05:02:45+00:00",
+      "summary": "3D Gaussian Splatting produces high-quality scene reconstructions but generates hundreds of thousands of spurious Gaussians (floaters) scattered throughout the environment. These artifacts obscure objects of interest and inflate model sizes, hindering deployment in bandwidth-constrained applications. We present Clean-GS, a method for removing background clutter and floaters from 3DGS reconstructions using sparse semantic masks. Our approach combines whitelist-based spatial filtering with color-guided validation and outlier removal to achieve 60-80\\% model compression while preserving object quality. Unlike existing 3DGS pruning methods that rely on global importance metrics, Clean-GS uses semantic information from as few as 3 segmentation masks (1\\% of views) to identify and remove Gaussians not belonging to the target object. Our multi-stage approach consisting of (1) whitelist filtering via projection to masked regions, (2) depth-buffered color validation, and (3) neighbor-based outlier removal isolates monuments and objects from complex outdoor scenes. Experiments on Tanks and Temples show that Clean-GS reduces file sizes from 125MB to 47MB while maintaining rendering quality, making 3DGS models practical for web deployment and AR/VR applications. Our code is available at https://github.com/smlab-niser/clean-gs",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2601.00913v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2601.00913v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.00913v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.00913v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2512.25063": {
       "title": "Many Minds from One Model: Bayesian Transformers for Population Intelligence",
       "authors": [
@@ -66,6 +314,51 @@
         },
         {
           "href": "https://arxiv.org/pdf/2512.24986v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2601.00898": {
+      "title": "Dichotomous Diffusion Policy Optimization",
+      "authors": [
+        "Ruiming Liang",
+        "Yinan Zheng",
+        "Kexin Zheng",
+        "Tianyi Tan",
+        "Jianxiong Li",
+        "Liyuan Mao",
+        "Zhihao Wang",
+        "Guang Chen",
+        "Hangjun Ye",
+        "Jingjing Liu",
+        "Jinqiao Wang",
+        "Xianyuan Zhan"
+      ],
+      "published": "2025-12-31T16:56:56+00:00",
+      "updated": "2025-12-31T16:56:56+00:00",
+      "summary": "Diffusion-based policies have gained growing popularity in solving a wide range of decision-making tasks due to their superior expressiveness and controllable generation during inference. However, effectively training large diffusion policies using reinforcement learning (RL) remains challenging. Existing methods either suffer from unstable training due to directly maximizing value objectives, or face computational issues due to relying on crude Gaussian likelihood approximation, which requires a large amount of sufficiently small denoising steps. In this work, we propose DIPOLE (Dichotomous diffusion Policy improvement), a novel RL algorithm designed for stable and controllable diffusion policy optimization. We begin by revisiting the KL-regularized objective in RL, which offers a desirable weighted regression objective for diffusion policy extraction, but often struggles to balance greediness and stability. We then formulate a greedified policy regularization scheme, which naturally enables decomposing the optimal policy into a pair of stably learned dichotomous policies: one aims at reward maximization, and the other focuses on reward minimization. Under such a design, optimized actions can be generated by linearly combining the scores of dichotomous policies during inference, thereby enabling flexible control over the level of greediness.Evaluations in offline and offline-to-online RL settings on ExORL and OGBench demonstrate the effectiveness of our approach. We also use DIPOLE to train a large vision-language-action (VLA) model for end-to-end autonomous driving (AD) and evaluate it on the large-scale real-world AD benchmark NAVSIM, highlighting its potential for complex real-world applications.",
+      "categories": [
+        "cs.LG",
+        "cs.RO"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2601.00898v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2601.00898v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.00898v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.00898v1",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -1584,27 +1877,27 @@
         "Yusuke Sekikawa"
       ],
       "published": "2025-12-16T14:06:35+00:00",
-      "updated": "2025-12-16T14:06:35+00:00",
+      "updated": "2026-01-03T06:34:02+00:00",
       "summary": "Large vision-language models (LVLMs) have shown impressive performance across a broad range of multimodal tasks. However, robust image caption evaluation using LVLMs remains challenging, particularly under domain-shift scenarios. To address this issue, we introduce the Distribution-Aware Score Decoder (DISCODE), a novel finetuning-free method that generates robust evaluation scores better aligned with human judgments across diverse domains. The core idea behind DISCODE lies in its test-time adaptive evaluation approach, which introduces the Adaptive Test-Time (ATT) loss, leveraging a Gaussian prior distribution to improve robustness in evaluation score estimation. This loss is efficiently minimized at test time using an analytical solution that we derive. Furthermore, we introduce the Multi-domain Caption Evaluation (MCEval) benchmark, a new image captioning evaluation benchmark covering six distinct domains, designed to assess the robustness of evaluation metrics. In our experiments, we demonstrate that DISCODE achieves state-of-the-art performance as a reference-free evaluation metric across MCEval and four representative existing benchmarks.",
       "categories": [
         "cs.CV",
         "cs.AI"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2512.14420v1",
+      "pdf_url": "https://arxiv.org/pdf/2512.14420v2",
       "journal_ref": null,
       "doi": null,
       "comment": "Paper accepted to AAAI 2026",
-      "entry_id": "http://arxiv.org/abs/2512.14420v1",
+      "entry_id": "http://arxiv.org/abs/2512.14420v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2512.14420v1",
+          "href": "https://arxiv.org/abs/2512.14420v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2512.14420v1",
+          "href": "https://arxiv.org/pdf/2512.14420v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -74149,6 +74442,43 @@
     }
   },
   "MVS": {
+    "2601.02102": {
+      "title": "360-GeoGS: Geometrically Consistent Feed-Forward 3D Gaussian Splatting Reconstruction for 360 Images",
+      "authors": [
+        "Jiaqi Yao",
+        "Zhongmiao Yan",
+        "Jingyi Xu",
+        "Songpengcheng Xia",
+        "Yan Xiang",
+        "Ling Pei"
+      ],
+      "published": "2026-01-05T13:28:28+00:00",
+      "updated": "2026-01-05T13:28:28+00:00",
+      "summary": "3D scene reconstruction is fundamental for spatial intelligence applications such as AR, robotics, and digital twins. Traditional multi-view stereo struggles with sparse viewpoints or low-texture regions, while neural rendering approaches, though capable of producing high-quality results, require per-scene optimization and lack real-time efficiency. Explicit 3D Gaussian Splatting (3DGS) enables efficient rendering, but most feed-forward variants focus on visual quality rather than geometric consistency, limiting accurate surface reconstruction and overall reliability in spatial perception tasks. This paper presents a novel feed-forward 3DGS framework for 360 images, capable of generating geometrically consistent Gaussian primitives while maintaining high rendering quality. A Depth-Normal geometric regularization is introduced to couple rendered depth gradients with normal information, supervising Gaussian rotation, scale, and position to improve point cloud and surface accuracy. Experimental results show that the proposed method maintains high rendering quality while significantly improving geometric consistency, providing an effective solution for 3D reconstruction in spatial perception tasks.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2601.02102v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2601.02102v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.02102v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.02102v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2512.24593": {
       "title": "3D Semantic Segmentation for Post-Disaster Assessment",
       "authors": [
@@ -90606,6 +90936,82 @@
     }
   },
   "Depth Estimation": {
+    "2601.02020": {
+      "title": "Adapting Depth Anything to Adverse Imaging Conditions with Events",
+      "authors": [
+        "Shihan Peng",
+        "Yuyang Xiong",
+        "Hanyu Zhou",
+        "Zhiwei Shi",
+        "Haoyue Liu",
+        "Gang Chen",
+        "Luxin Yan",
+        "Yi Chang"
+      ],
+      "published": "2026-01-05T11:29:49+00:00",
+      "updated": "2026-01-05T11:29:49+00:00",
+      "summary": "Robust depth estimation under dynamic and adverse lighting conditions is essential for robotic systems. Currently, depth foundation models, such as Depth Anything, achieve great success in ideal scenes but remain challenging under adverse imaging conditions such as extreme illumination and motion blur. These degradations corrupt the visual signals of frame cameras, weakening the discriminative features of frame-based depths across the spatial and temporal dimensions. Typically, existing approaches incorporate event cameras to leverage their high dynamic range and temporal resolution, aiming to compensate for corrupted frame features. However, such specialized fusion models are predominantly trained from scratch on domain-specific datasets, thereby failing to inherit the open-world knowledge and robust generalization inherent to foundation models. In this work, we propose ADAE, an event-guided spatiotemporal fusion framework for Depth Anything in degraded scenes. Our design is guided by two key insights: 1) Entropy-Aware Spatial Fusion. We adaptively merge frame-based and event-based features using an information entropy strategy to indicate illumination-induced degradation. 2) Motion-Guided Temporal Correction. We resort to the event-based motion cue to recalibrate ambiguous features in blurred regions. Under our unified framework, the two components are complementary to each other and jointly enhance Depth Anything under adverse imaging conditions. Extensive experiments have been performed to verify the superiority of the proposed method. Our code will be released upon acceptance.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2601.02020v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "This work has been submitted to the IEEE for possible publication",
+      "entry_id": "http://arxiv.org/abs/2601.02020v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.02020v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.02020v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2601.01822": {
+      "title": "DisCo-FLoc: Using Dual-Level Visual-Geometric Contrasts to Disambiguate Depth-Aware Visual Floorplan Localization",
+      "authors": [
+        "Shiyong Meng",
+        "Tao Zou",
+        "Bolei Chen",
+        "Chaoxu Mu",
+        "Jianxin Wang"
+      ],
+      "published": "2026-01-05T06:31:24+00:00",
+      "updated": "2026-01-05T06:31:24+00:00",
+      "summary": "Since floorplan data is readily available, long-term persistent, and robust to changes in visual appearance, visual Floorplan Localization (FLoc) has garnered significant attention. Existing methods either ingeniously match geometric priors or utilize sparse semantics to reduce FLoc uncertainty. However, they still suffer from ambiguous FLoc caused by repetitive structures within minimalist floorplans. Moreover, expensive but limited semantic annotations restrict their applicability. To address these issues, we propose DisCo-FLoc, which utilizes dual-level visual-geometric Contrasts to Disambiguate depth-aware visual Floc, without requiring additional semantic labels. Our solution begins with a ray regression predictor tailored for ray-casting-based FLoc, predicting a series of FLoc candidates using depth estimation expertise. In addition, a novel contrastive learning method with position-level and orientation-level constraints is proposed to strictly match depth-aware visual features with the corresponding geometric structures in the floorplan. Such matches can effectively eliminate FLoc ambiguity and select the optimal imaging pose from FLoc candidates. Exhaustive comparative studies on two standard visual Floc benchmarks demonstrate that our method outperforms the state-of-the-art semantic-based method, achieving significant improvements in both robustness and accuracy.",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2601.01822v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "7 pages, 4 figures",
+      "entry_id": "http://arxiv.org/abs/2601.01822v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.01822v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.01822v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2601.00796": {
       "title": "AdaGaR: Adaptive Gabor Representation for Dynamic Scene Reconstruction",
       "authors": [
