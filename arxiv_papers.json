@@ -1,5 +1,79 @@
 {
   "3DGS Semantic": {
+    "2601.03200": {
+      "title": "A High-Fidelity Digital Twin for Robotic Manipulation Based on 3D Gaussian Splatting",
+      "authors": [
+        "Ziyang Sun",
+        "Lingfan Bao",
+        "Tianhu Peng",
+        "Jingcheng Sun",
+        "Chengxu Zhou"
+      ],
+      "published": "2026-01-06T17:29:10+00:00",
+      "updated": "2026-01-06T17:29:10+00:00",
+      "summary": "Developing high-fidelity, interactive digital twins is crucial for enabling closed-loop motion planning and reliable real-world robot execution, which are essential to advancing sim-to-real transfer. However, existing approaches often suffer from slow reconstruction, limited visual fidelity, and difficulties in converting photorealistic models into planning-ready collision geometry. We present a practical framework that constructs high-quality digital twins within minutes from sparse RGB inputs. Our system employs 3D Gaussian Splatting (3DGS) for fast, photorealistic reconstruction as a unified scene representation. We enhance 3DGS with visibility-aware semantic fusion for accurate 3D labelling and introduce an efficient, filter-based geometry conversion method to produce collision-ready models seamlessly integrated with a Unity-ROS2-MoveIt physics engine. In experiments with a Franka Emika Panda robot performing pick-and-place tasks, we demonstrate that this enhanced geometric accuracy effectively supports robust manipulation in real-world trials. These results demonstrate that 3DGS-based digital twins, enriched with semantic and geometric consistency, offer a fast, reliable, and scalable path from perception to manipulation in unstructured environments.",
+      "categories": [
+        "cs.RO"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2601.03200v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Under review of Journal of Robot Learning",
+      "entry_id": "http://arxiv.org/abs/2601.03200v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.03200v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.03200v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2601.02716": {
+      "title": "CAMO: Category-Agnostic 3D Motion Transfer from Monocular 2D Videos",
+      "authors": [
+        "Taeyeon Kim",
+        "Youngju Na",
+        "Jumin Lee",
+        "Minhyuk Sung",
+        "Sung-Eui Yoon"
+      ],
+      "published": "2026-01-06T05:03:04+00:00",
+      "updated": "2026-01-06T05:03:04+00:00",
+      "summary": "Motion transfer from 2D videos to 3D assets is a challenging problem, due to inherent pose ambiguities and diverse object shapes, often requiring category-specific parametric templates. We propose CAMO, a category-agnostic framework that transfers motion to diverse target meshes directly from monocular 2D videos without relying on predefined templates or explicit 3D supervision. The core of CAMO is a morphology-parameterized articulated 3D Gaussian splatting model combined with dense semantic correspondences to jointly adapt shape and pose through optimization. This approach effectively alleviates shape-pose ambiguities, enabling visually faithful motion transfer for diverse categories. Experimental results demonstrate superior motion accuracy, efficiency, and visual coherence compared to existing methods, significantly advancing motion transfer in varied object categories and casual video scenarios.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2601.02716v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Project website: https://camo-project-page.github.io/",
+      "entry_id": "http://arxiv.org/abs/2601.02716v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.02716v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.02716v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2601.02339": {
       "title": "Joint Semantic and Rendering Enhancements in 3D Gaussian Modeling with Anisotropic Local Encoding",
       "authors": [
@@ -6619,6 +6693,45 @@
         },
         {
           "href": "https://arxiv.org/pdf/2511.09397v2",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2511.09146": {
+      "title": "DoPE: Denoising Rotary Position Embedding",
+      "authors": [
+        "Jing Xiong",
+        "Liyang Fan",
+        "Hui Shen",
+        "Zunhai Su",
+        "Min Yang",
+        "Lingpeng Kong",
+        "Ngai Wong"
+      ],
+      "published": "2025-11-12T09:32:35+00:00",
+      "updated": "2026-01-06T14:02:29+00:00",
+      "summary": "Positional encoding is essential for large language models (LLMs) to represent sequence order, yet recent studies show that Rotary Position Embedding (RoPE) can induce massive activation. We investigate the source of these instabilities via a spectral analysis of RoPE, and show that its low-frequency components concentrate structured energy, producing low-rank, over-aligned attention patterns. We theoretically reveal that this low-frequency alignment manifests as activation noise, degrading stability during long-context extrapolation. To mitigate this effect, we introduce Denoising Rotary Position Embedding (DoPE), a training-free method that identifies and suppresses noisy attention heads using truncated matrix entropy, then reparameterizes their attention maps with an isotropic Gaussian distribution. Across a range of settings, DoPE improves length extrapolation performance without fine-tuning, increases robustness to perturbations, and boosts both needle-in-a-haystack and many-shot in-context learning tasks. These results suggest that selective positional encoding is key to robust extrapolation. Our project page is Project: https://The-physical-picture-of-LLMs.github.io",
+      "categories": [
+        "cs.CL"
+      ],
+      "primary_category": "cs.CL",
+      "pdf_url": "https://arxiv.org/pdf/2511.09146v2",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Technical Report",
+      "entry_id": "http://arxiv.org/abs/2511.09146v2",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2511.09146v2",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2511.09146v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -90944,6 +91057,118 @@
     }
   },
   "Depth Estimation": {
+    "2601.03252": {
+      "title": "InfiniDepth: Arbitrary-Resolution and Fine-Grained Depth Estimation with Neural Implicit Fields",
+      "authors": [
+        "Hao Yu",
+        "Haotong Lin",
+        "Jiawei Wang",
+        "Jiaxin Li",
+        "Yida Wang",
+        "Xueyang Zhang",
+        "Yue Wang",
+        "Xiaowei Zhou",
+        "Ruizhen Hu",
+        "Sida Peng"
+      ],
+      "published": "2026-01-06T18:57:06+00:00",
+      "updated": "2026-01-06T18:57:06+00:00",
+      "summary": "Existing depth estimation methods are fundamentally limited to predicting depth on discrete image grids. Such representations restrict their scalability to arbitrary output resolutions and hinder the geometric detail recovery. This paper introduces InfiniDepth, which represents depth as neural implicit fields. Through a simple yet effective local implicit decoder, we can query depth at continuous 2D coordinates, enabling arbitrary-resolution and fine-grained depth estimation. To better assess our method's capabilities, we curate a high-quality 4K synthetic benchmark from five different games, spanning diverse scenes with rich geometric and appearance details. Extensive experiments demonstrate that InfiniDepth achieves state-of-the-art performance on both synthetic and real-world benchmarks across relative and metric depth estimation tasks, particularly excelling in fine-detail regions. It also benefits the task of novel view synthesis under large viewpoint shifts, producing high-quality results with fewer holes and artifacts.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2601.03252v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "19 pages, 13 figures",
+      "entry_id": "http://arxiv.org/abs/2601.03252v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.03252v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.03252v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2601.02793": {
+      "title": "StableDPT: Temporal Stable Monocular Video Depth Estimation",
+      "authors": [
+        "Ivan Sobko",
+        "Hayko Riemenschneider",
+        "Markus Gross",
+        "Christopher Schroers"
+      ],
+      "published": "2026-01-06T08:02:14+00:00",
+      "updated": "2026-01-06T08:02:14+00:00",
+      "summary": "Applying single image Monocular Depth Estimation (MDE) models to video sequences introduces significant temporal instability and flickering artifacts. We propose a novel approach that adapts any state-of-the-art image-based (depth) estimation model for video processing by integrating a new temporal module - trainable on a single GPU in a few days. Our architecture StableDPT builds upon an off-the-shelf Vision Transformer (ViT) encoder and enhances the Dense Prediction Transformer (DPT) head. The core of our contribution lies in the temporal layers within the head, which use an efficient cross-attention mechanism to integrate information from keyframes sampled across the entire video sequence. This allows the model to capture global context and inter-frame relationships leading to more accurate and temporally stable depth predictions. Furthermore, we propose a novel inference strategy for processing videos of arbitrary length avoiding the scale misalignment and redundant computations associated with overlapping windows used in other methods. Evaluations on multiple benchmark datasets demonstrate improved temporal consistency, competitive state-of-the-art performance and on top 2x faster processing in real-world scenarios.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2601.02793v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2601.02793v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.02793v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.02793v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2601.02760": {
+      "title": "AnyDepth: Depth Estimation Made Easy",
+      "authors": [
+        "Zeyu Ren",
+        "Zeyu Zhang",
+        "Wukai Li",
+        "Qingxiang Liu",
+        "Hao Tang"
+      ],
+      "published": "2026-01-06T06:51:35+00:00",
+      "updated": "2026-01-06T06:51:35+00:00",
+      "summary": "Monocular depth estimation aims to recover the depth information of 3D scenes from 2D images. Recent work has made significant progress, but its reliance on large-scale datasets and complex decoders has limited its efficiency and generalization ability. In this paper, we propose a lightweight and data-centric framework for zero-shot monocular depth estimation. We first adopt DINOv3 as the visual encoder to obtain high-quality dense features. Secondly, to address the inherent drawbacks of the complex structure of the DPT, we design the Simple Depth Transformer (SDT), a compact transformer-based decoder. Compared to the DPT, it uses a single-path feature fusion and upsampling process to reduce the computational overhead of cross-scale feature fusion, achieving higher accuracy while reducing the number of parameters by approximately 85%-89%. Furthermore, we propose a quality-based filtering strategy to filter out harmful samples, thereby reducing dataset size while improving overall training quality. Extensive experiments on five benchmarks demonstrate that our framework surpasses the DPT in accuracy. This work highlights the importance of balancing model design and data quality for achieving efficient and generalizable zero-shot depth estimation. Code: https://github.com/AIGeeksGroup/AnyDepth. Website: https://aigeeksgroup.github.io/AnyDepth.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2601.02760v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2601.02760v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.02760v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.02760v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2601.02020": {
       "title": "Adapting Depth Anything to Adverse Imaging Conditions with Events",
       "authors": [

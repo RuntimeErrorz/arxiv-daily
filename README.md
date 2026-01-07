@@ -1,4 +1,4 @@
-## Updated at 2026-01-07 08:18:07
+## Updated at 2026-01-07 20:08:29
 
 ## 3DGS Semantic
 
@@ -633,6 +633,9 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-01-06**|**[InfiniDepth: Arbitrary-Resolution and Fine-Grained Depth Estimation with Neural Implicit Fields](https://arxiv.org/abs/2601.03252)**|N/A|19 pages, 13 figures|cs.CV|None|Hao Yu et al.|
+|**2026-01-06**|**[StableDPT: Temporal Stable Monocular Video Depth Estimation](https://arxiv.org/abs/2601.02793)**|N/A|None|cs.CV|None|Ivan Sobko et al.|
+|**2026-01-06**|**[AnyDepth: Depth Estimation Made Easy](https://arxiv.org/abs/2601.02760)**|N/A|None|cs.CV|None|Zeyu Ren et al.|
 |**2026-01-05**|**[Adapting Depth Anything to Adverse Imaging Conditions with Events](https://arxiv.org/abs/2601.02020)**|N/A|This work has been submitted to the IEEE for possible publication|cs.CV|None|Shihan Peng et al.|
 |**2026-01-05**|**[DisCo-FLoc: Using Dual-Level Visual-Geometric Contrasts to Disambiguate Depth-Aware Visual Floorplan Localization](https://arxiv.org/abs/2601.01822)**|N/A|7 pages, 4 figures|cs.RO|None|Shiyong Meng et al.|
 |**2026-01-02**|**[AdaGaR: Adaptive Gabor Representation for Dynamic Scene Reconstruction](https://arxiv.org/abs/2601.00796)**|N/A|Project page: https://jiewenchan.github.io/AdaGaR/|cs.CV|None|Jiewen Chan et al.|
