@@ -1,4 +1,4 @@
-## Updated at 2026-01-08 08:20:04
+## Updated at 2026-01-09 08:19:40
 
 ## 3DGS Semantic
 
@@ -633,7 +633,11 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-01-07**|**[Bayesian Monocular Depth Refinement via Neural Radiance Fields](https://arxiv.org/abs/2601.03869)**|N/A|IEEE 8th International Conference on Algorithms, Computing and Artificial Intelligence (ACAI 2025). Oral presentation; Best Presenter Award|cs.CV|None|Arun Muthukkumar|
+|**2026-01-07**|**[IDESplat: Iterative Depth Probability Estimation for Generalizable 3D Gaussian Splatting](https://arxiv.org/abs/2601.03824)**|N/A|None|cs.CV|None|Wei Long et al.|
+|**2026-01-06**|**[Guardians of the Hair: Rescuing Soft Boundaries in Depth, Stereo, and Novel Views](https://arxiv.org/abs/2601.03362)**|N/A|None|cs.CV|None|Xiang Zhang et al.|
 |**2026-01-06**|**[InfiniDepth: Arbitrary-Resolution and Fine-Grained Depth Estimation with Neural Implicit Fields](https://arxiv.org/abs/2601.03252)**|N/A|19 pages, 13 figures|cs.CV|None|Hao Yu et al.|
+|**2026-01-06**|**[VLM4VLA: Revisiting Vision-Language-Models in Vision-Language-Action Models](https://arxiv.org/abs/2601.03309)**|N/A|None|cs.CV|None|Jianke Zhang et al.|
 |**2026-01-06**|**[StableDPT: Temporal Stable Monocular Video Depth Estimation](https://arxiv.org/abs/2601.02793)**|N/A|None|cs.CV|None|Ivan Sobko et al.|
 |**2026-01-06**|**[AnyDepth: Depth Estimation Made Easy](https://arxiv.org/abs/2601.02760)**|N/A|None|cs.CV|None|Zeyu Ren et al.|
 |**2026-01-05**|**[Adapting Depth Anything to Adverse Imaging Conditions with Events](https://arxiv.org/abs/2601.02020)**|N/A|This work has been submitted to the IEEE for possible publication|cs.CV|None|Shihan Peng et al.|

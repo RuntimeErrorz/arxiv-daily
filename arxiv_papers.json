@@ -1,5 +1,85 @@
 {
   "3DGS Semantic": {
+    "2601.03579": {
+      "title": "SpatiaLoc: Leveraging Multi-Level Spatial Enhanced Descriptors for Cross-Modal Localization",
+      "authors": [
+        "Tianyi Shang",
+        "Pengjie Xu",
+        "Zhaojun Deng",
+        "Zhenyu Li",
+        "Zhicong Chen",
+        "Lijun Wu"
+      ],
+      "published": "2026-01-07T04:50:39+00:00",
+      "updated": "2026-01-07T04:50:39+00:00",
+      "summary": "Cross-modal localization using text and point clouds enables robots to localize themselves via natural language descriptions, with applications in autonomous navigation and interaction between humans and robots. In this task, objects often recur across text and point clouds, making spatial relationships the most discriminative cues for localization. Given this characteristic, we present SpatiaLoc, a framework utilizing a coarse-to-fine strategy that emphasizes spatial relationships at both the instance and global levels. In the coarse stage, we introduce a Bezier Enhanced Object Spatial Encoder (BEOSE) that models spatial relationships at the instance level using quadratic Bezier curves. Additionally, a Frequency Aware Encoder (FAE) generates spatial representations in the frequency domain at the global level. In the fine stage, an Uncertainty Aware Gaussian Fine Localizer (UGFL) regresses 2D positions by modeling predictions as Gaussian distributions with a loss function aware of uncertainty. Extensive experiments on KITTI360Pose demonstrate that SpatiaLoc significantly outperforms existing state-of-the-art (SOTA) methods.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2601.03579v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2601.03579v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.03579v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.03579v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2601.03510": {
+      "title": "G2P: Gaussian-to-Point Attribute Alignment for Boundary-Aware 3D Semantic Segmentation",
+      "authors": [
+        "Hojun Song",
+        "Chae-yeong Song",
+        "Jeong-hun Hong",
+        "Chaewon Moon",
+        "Dong-hwi Kim",
+        "Gahyeon Kim",
+        "Soo Ye Kim",
+        "Yiyi Liao",
+        "Jaehyup Lee",
+        "Sang-hyo Park"
+      ],
+      "published": "2026-01-07T01:44:29+00:00",
+      "updated": "2026-01-07T01:44:29+00:00",
+      "summary": "Semantic segmentation on point clouds is critical for 3D scene understanding. However, sparse and irregular point distributions provide limited appearance evidence, making geometry-only features insufficient to distinguish objects with similar shapes but distinct appearances (e.g., color, texture, material). We propose Gaussian-to-Point (G2P), which transfers appearance-aware attributes from 3D Gaussian Splatting to point clouds for more discriminative and appearance-consistent segmentation. Our G2P address the misalignment between optimized Gaussians and original point geometry by establishing point-wise correspondences. By leveraging Gaussian opacity attributes, we resolve the geometric ambiguity that limits existing models. Additionally, Gaussian scale attributes enable precise boundary localization in complex 3D scenes. Extensive experiments demonstrate that our approach achieves superior performance on standard benchmarks and shows significant improvements on geometrically challenging classes, all without any 2D or language supervision.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2601.03510v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Preprint. Under review",
+      "entry_id": "http://arxiv.org/abs/2601.03510v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.03510v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.03510v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2601.03200": {
       "title": "A High-Fidelity Digital Twin for Robotic Manipulation Based on 3D Gaussian Splatting",
       "authors": [
@@ -127,7 +207,8 @@
       "updated": "2026-01-05T13:57:03+00:00",
       "summary": "The statistical \"monomer-based\" segment length $b$ and the Kuhn length $l_k$ are central to polymer physics, yet the minimal size required for a truly statistical segment - Gaussian, uncorrelated, and valid as an entropic spring - is not rigorously established. Using atomistic simulations of entangled polyethylene, we re-evaluate these foundational quantities.\n  By fitting end-to-end distance distributions of C--C bond blocks and validating with higher-moment analyses, we identify for the first time the minimal sizes corresponding to a statistical segment and an entropic spring. A single Kuhn segment (approximately 11 bonds) is the smallest statistically uncorrelated unit, but its distance distribution is strongly non-Gaussian, while the monomer-based segment $b$, used in rheology and classical tube-theory formulations, is not statistical at all. True Gaussianity emerges only for blocks containing multiple Kuhn segments.\n  At the Kuhn scale, we uncover a previously unresolved conformational heterogeneity. Each segment samples a broad range of conformations, from coiled (approximately 4~Å) to extended (approximately 14~Å), giving rise to three distinct substructures: aligned chain segments (ACS), random conformational sequences (RCS), and chain ends (CE). These exhibit distinct dynamical signatures. ACS relax with a stretched-exponential exponent $β\\approx 0.5$, consistent with quasi-one-dimensional, defect-mediated localized modes, whereas RCS and CE relax with $β\\approx 0.7$. By connecting these results to localized-mode theory and continuous-time random-walk models, we provide a molecular interpretation of stretched-exponential relaxation in polymer melts.",
       "categories": [
-        "cond-mat.soft"
+        "cond-mat.soft",
+        "cond-mat.stat-mech"
       ],
       "primary_category": "cond-mat.soft",
       "pdf_url": "https://arxiv.org/pdf/2601.02127v1",
@@ -91057,6 +91138,115 @@
     }
   },
   "Depth Estimation": {
+    "2601.03869": {
+      "title": "Bayesian Monocular Depth Refinement via Neural Radiance Fields",
+      "authors": [
+        "Arun Muthukkumar"
+      ],
+      "published": "2026-01-07T12:32:39+00:00",
+      "updated": "2026-01-07T12:32:39+00:00",
+      "summary": "Monocular depth estimation has applications in many fields, such as autonomous navigation and extended reality, making it an essential computer vision task. However, current methods often produce smooth depth maps that lack the fine geometric detail needed for accurate scene understanding. We propose MDENeRF, an iterative framework that refines monocular depth estimates using depth information from Neural Radiance Fields (NeRFs). MDENeRF consists of three components: (1) an initial monocular estimate for global structure, (2) a NeRF trained on perturbed viewpoints, with per-pixel uncertainty, and (3) Bayesian fusion of the noisy monocular and NeRF depths. We derive NeRF uncertainty from the volume rendering process to iteratively inject high-frequency fine details. Meanwhile, our monocular prior maintains global structure. We demonstrate superior performance on key metrics and experiments using indoor scenes from the SUN RGB-D dataset.",
+      "categories": [
+        "cs.CV",
+        "cs.GR",
+        "cs.LG",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2601.03869v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "IEEE 8th International Conference on Algorithms, Computing and Artificial Intelligence (ACAI 2025). Oral presentation; Best Presenter Award",
+      "entry_id": "http://arxiv.org/abs/2601.03869v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.03869v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.03869v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2601.03824": {
+      "title": "IDESplat: Iterative Depth Probability Estimation for Generalizable 3D Gaussian Splatting",
+      "authors": [
+        "Wei Long",
+        "Haifeng Wu",
+        "Shiyin Jiang",
+        "Jinhua Zhang",
+        "Xinchun Ji",
+        "Shuhang Gu"
+      ],
+      "published": "2026-01-07T11:37:57+00:00",
+      "updated": "2026-01-07T11:37:57+00:00",
+      "summary": "Generalizable 3D Gaussian Splatting aims to directly predict Gaussian parameters using a feed-forward network for scene reconstruction. Among these parameters, Gaussian means are particularly difficult to predict, so depth is usually estimated first and then unprojected to obtain the Gaussian sphere centers. Existing methods typically rely solely on a single warp to estimate depth probability, which hinders their ability to fully leverage cross-view geometric cues, resulting in unstable and coarse depth maps. To address this limitation, we propose IDESplat, which iteratively applies warp operations to boost depth probability estimation for accurate Gaussian mean prediction. First, to eliminate the inherent instability of a single warp, we introduce a Depth Probability Boosting Unit (DPBU) that integrates epipolar attention maps produced by cascading warp operations in a multiplicative manner. Next, we construct an iterative depth estimation process by stacking multiple DPBUs, progressively identifying potential depth candidates with high likelihood. As IDESplat iteratively boosts depth probability estimates and updates the depth candidates, the depth map is gradually refined, resulting in accurate Gaussian means. We conduct experiments on RealEstate10K, ACID, and DL3DV. IDESplat achieves outstanding reconstruction quality and state-of-the-art performance with real-time efficiency. On RE10K, it outperforms DepthSplat by 0.33 dB in PSNR, using only 10.7% of the parameters and 70% of the memory. Additionally, our IDESplat improves PSNR by 2.95 dB over DepthSplat on the DTU dataset in cross-dataset experiments, demonstrating its strong generalization ability.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2601.03824v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2601.03824v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.03824v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.03824v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2601.03362": {
+      "title": "Guardians of the Hair: Rescuing Soft Boundaries in Depth, Stereo, and Novel Views",
+      "authors": [
+        "Xiang Zhang",
+        "Yang Zhang",
+        "Lukas Mehl",
+        "Markus Gross",
+        "Christopher Schroers"
+      ],
+      "published": "2026-01-06T19:02:34+00:00",
+      "updated": "2026-01-06T19:02:34+00:00",
+      "summary": "Soft boundaries, like thin hairs, are commonly observed in natural and computer-generated imagery, but they remain challenging for 3D vision due to the ambiguous mixing of foreground and background cues. This paper introduces Guardians of the Hair (HairGuard), a framework designed to recover fine-grained soft boundary details in 3D vision tasks. Specifically, we first propose a novel data curation pipeline that leverages image matting datasets for training and design a depth fixer network to automatically identify soft boundary regions. With a gated residual module, the depth fixer refines depth precisely around soft boundaries while maintaining global depth quality, allowing plug-and-play integration with state-of-the-art depth models. For view synthesis, we perform depth-based forward warping to retain high-fidelity textures, followed by a generative scene painter that fills disoccluded regions and eliminates redundant background artifacts within soft boundaries. Finally, a color fuser adaptively combines warped and inpainted results to produce novel views with consistent geometry and fine-grained details. Extensive experiments demonstrate that HairGuard achieves state-of-the-art performance across monocular depth estimation, stereo image/video conversion, and novel view synthesis, with significant improvements in soft boundary regions.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2601.03362v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2601.03362v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.03362v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.03362v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2601.03252": {
       "title": "InfiniDepth: Arbitrary-Resolution and Fine-Grained Depth Estimation with Neural Implicit Fields",
       "authors": [
@@ -91092,6 +91282,48 @@
         },
         {
           "href": "https://arxiv.org/pdf/2601.03252v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2601.03309": {
+      "title": "VLM4VLA: Revisiting Vision-Language-Models in Vision-Language-Action Models",
+      "authors": [
+        "Jianke Zhang",
+        "Xiaoyu Chen",
+        "Qiuyue Wang",
+        "Mingsheng Li",
+        "Yanjiang Guo",
+        "Yucheng Hu",
+        "Jiajun Zhang",
+        "Shuai Bai",
+        "Junyang Lin",
+        "Jianyu Chen"
+      ],
+      "published": "2026-01-06T09:58:24+00:00",
+      "updated": "2026-01-06T09:58:24+00:00",
+      "summary": "Vision-Language-Action (VLA) models, which integrate pretrained large Vision-Language Models (VLM) into their policy backbone, are gaining significant attention for their promising generalization capabilities. This paper revisits a fundamental yet seldom systematically studied question: how VLM choice and competence translate to downstream VLA policies performance? We introduce VLM4VLA, a minimal adaptation pipeline that converts general-purpose VLMs into VLA policies using only a small set of new learnable parameters for fair and efficient comparison. Despite its simplicity, VLM4VLA proves surprisingly competitive with more sophisticated network designs. Through extensive empirical studies on various downstream tasks across three benchmarks, we find that while VLM initialization offers a consistent benefit over training from scratch, a VLM's general capabilities are poor predictors of its downstream task performance. This challenges common assumptions, indicating that standard VLM competence is necessary but insufficient for effective embodied control. We further investigate the impact of specific embodied capabilities by fine-tuning VLMs on seven auxiliary embodied tasks (e.g., embodied QA, visual pointing, depth estimation). Contrary to intuition, improving a VLM's performance on specific embodied skills does not guarantee better downstream control performance. Finally, modality-level ablations identify the visual module in VLM, rather than the language component, as the primary performance bottleneck. We demonstrate that injecting control-relevant supervision into the vision encoder of the VLM yields consistent gains, even when the encoder remains frozen during downstream fine-tuning. This isolates a persistent domain gap between current VLM pretraining objectives and the requirements of embodied action-planning.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2601.03309v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2601.03309v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.03309v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.03309v1",
           "title": "pdf",
           "rel": "related",
           "content_type": null
