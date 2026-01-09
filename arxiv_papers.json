@@ -1,5 +1,112 @@
 {
   "3DGS Semantic": {
+    "2601.04754": {
+      "title": "ProFuse: Efficient Cross-View Context Fusion for Open-Vocabulary 3D Gaussian Splatting",
+      "authors": [
+        "Yen-Jen Chiou",
+        "Wei-Tse Cheng",
+        "Yuan-Fu Yang"
+      ],
+      "published": "2026-01-08T09:20:46+00:00",
+      "updated": "2026-01-08T09:20:46+00:00",
+      "summary": "We present ProFuse, an efficient context-aware framework for open-vocabulary 3D scene understanding with 3D Gaussian Splatting (3DGS). The pipeline enhances cross-view consistency and intra-mask cohesion within a direct registration setup, adding minimal overhead and requiring no render-supervised fine-tuning. Instead of relying on a pretrained 3DGS scene, we introduce a dense correspondence-guided pre-registration phase that initializes Gaussians with accurate geometry while jointly constructing 3D Context Proposals via cross-view clustering. Each proposal carries a global feature obtained through weighted aggregation of member embeddings, and this feature is fused onto Gaussians during direct registration to maintain per-primitive language coherence across views. With associations established in advance, semantic fusion requires no additional optimization beyond standard reconstruction, and the model retains geometric refinement without densification. ProFuse achieves strong open-vocabulary 3DGS understanding while completing semantic attachment in about five minutes per scene, which is two times faster than SOTA.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2601.04754v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "10 pages, 5 figures",
+      "entry_id": "http://arxiv.org/abs/2601.04754v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.04754v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.04754v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2601.04715": {
+      "title": "On the Holistic Approach for Detecting Human Image Forgery",
+      "authors": [
+        "Xiao Guo",
+        "Jie Zhu",
+        "Anil Jain",
+        "Xiaoming Liu"
+      ],
+      "published": "2026-01-08T08:33:22+00:00",
+      "updated": "2026-01-08T08:33:22+00:00",
+      "summary": "The rapid advancement of AI-generated content (AIGC) has escalated the threat of deepfakes, from facial manipulations to the synthesis of entire photorealistic human bodies. However, existing detection methods remain fragmented, specializing either in facial-region forgeries or full-body synthetic images, and consequently fail to generalize across the full spectrum of human image manipulations. We introduce HuForDet, a holistic framework for human image forgery detection, which features a dual-branch architecture comprising: (1) a face forgery detection branch that employs heterogeneous experts operating in both RGB and frequency domains, including an adaptive Laplacian-of-Gaussian (LoG) module designed to capture artifacts ranging from fine-grained blending boundaries to coarse-scale texture irregularities; and (2) a contextualized forgery detection branch that leverages a Multi-Modal Large Language Model (MLLM) to analyze full-body semantic consistency, enhanced with a confidence estimation mechanism that dynamically weights its contribution during feature fusion. We curate a human image forgery (HuFor) dataset that unifies existing face forgery data with a new corpus of full-body synthetic humans. Extensive experiments show that our HuForDet achieves state-of-the-art forgery detection performance and superior robustness across diverse human image forgeries.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2601.04715v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "6 figures, 5 tables",
+      "entry_id": "http://arxiv.org/abs/2601.04715v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.04715v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.04715v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2601.04710": {
+      "title": "Prior-Informed Zeroth-Order Optimization with Adaptive Direction Alignment for Memory-Efficient LLM Fine-Tuning",
+      "authors": [
+        "Feihu Jin",
+        "Shipeng Cen",
+        "Ying Tan"
+      ],
+      "published": "2026-01-08T08:27:15+00:00",
+      "updated": "2026-01-08T08:27:15+00:00",
+      "summary": "Fine-tuning large language models (LLMs) has achieved remarkable success across various NLP tasks, but the substantial memory overhead during backpropagation remains a critical bottleneck, especially as model scales grow. Zeroth-order (ZO) optimization alleviates this issue by estimating gradients through forward passes and Gaussian sampling, avoiding the need for backpropagation. However, conventional ZO methods suffer from high variance in gradient estimation due to their reliance on random perturbations, leading to slow convergence and suboptimal performance. We propose a simple plug-and-play method that incorporates prior-informed perturbations to refine gradient estimation. Our method dynamically computes a guiding vector from Gaussian samples, which directs perturbations toward more informative directions, significantly accelerating convergence compared to standard ZO approaches. We further investigate a greedy perturbation strategy to explore the impact of prior knowledge on gradient estimation. Theoretically, we prove that our gradient estimator achieves stronger alignment with the true gradient direction, enhancing optimization efficiency. Extensive experiments across LLMs of varying scales and architectures demonstrate that our proposed method could seamlessly integrate into existing optimization methods, delivering faster convergence and superior performance. Notably, on the OPT-13B model, our method outperforms traditional ZO optimization across all 11 benchmark tasks and surpasses gradient-based baselines on 9 out of 11 tasks, establishing a robust balance between efficiency and accuracy.",
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CL",
+      "pdf_url": "https://arxiv.org/pdf/2601.04710v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "12pages, 6figures",
+      "entry_id": "http://arxiv.org/abs/2601.04710v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.04710v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.04710v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2601.03579": {
       "title": "SpatiaLoc: Leveraging Multi-Level Spatial Enhanced Descriptors for Cross-Modal Localization",
       "authors": [
@@ -91138,6 +91245,46 @@
     }
   },
   "Depth Estimation": {
+    "2601.05246": {
+      "title": "Pixel-Perfect Visual Geometry Estimation",
+      "authors": [
+        "Gangwei Xu",
+        "Haotong Lin",
+        "Hongcheng Luo",
+        "Haiyang Sun",
+        "Bing Wang",
+        "Guang Chen",
+        "Sida Peng",
+        "Hangjun Ye",
+        "Xin Yang"
+      ],
+      "published": "2026-01-08T18:59:49+00:00",
+      "updated": "2026-01-08T18:59:49+00:00",
+      "summary": "Recovering clean and accurate geometry from images is essential for robotics and augmented reality. However, existing geometry foundation models still suffer severely from flying pixels and the loss of fine details. In this paper, we present pixel-perfect visual geometry models that can predict high-quality, flying-pixel-free point clouds by leveraging generative modeling in the pixel space. We first introduce Pixel-Perfect Depth (PPD), a monocular depth foundation model built upon pixel-space diffusion transformers (DiT). To address the high computational complexity associated with pixel-space diffusion, we propose two key designs: 1) Semantics-Prompted DiT, which incorporates semantic representations from vision foundation models to prompt the diffusion process, preserving global semantics while enhancing fine-grained visual details; and 2) Cascade DiT architecture that progressively increases the number of image tokens, improving both efficiency and accuracy. To further extend PPD to video (PPVD), we introduce a new Semantics-Consistent DiT, which extracts temporally consistent semantics from a multi-view geometry foundation model. We then perform reference-guided token propagation within the DiT to maintain temporal coherence with minimal computational and memory overhead. Our models achieve the best performance among all generative monocular and video depth estimation models and produce significantly cleaner point clouds than all other models.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2601.05246v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Code: https://github.com/gangweix/pixel-perfect-depth",
+      "entry_id": "http://arxiv.org/abs/2601.05246v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.05246v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.05246v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2601.03869": {
       "title": "Bayesian Monocular Depth Refinement via Neural Radiance Fields",
       "authors": [
