@@ -1,4 +1,4 @@
-## Updated at 2026-01-12 08:20:42
+## Updated at 2026-01-12 20:09:12
 
 ## 3DGS Semantic
 
@@ -8,6 +8,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-01-09**|**[FeatureSLAM: Feature-enriched 3D gaussian splatting SLAM in real time](https://arxiv.org/abs/2601.05738)**|N/A|None|cs.CV|None|Christopher Thirgood et al.|
 |**2026-01-08**|**[ProFuse: Efficient Cross-View Context Fusion for Open-Vocabulary 3D Gaussian Splatting](https://arxiv.org/abs/2601.04754)**|N/A|10 pages, 5 figures|cs.CV|None|Yen-Jen Chiou et al.|
 |**2026-01-05**|**[Joint Semantic and Rendering Enhancements in 3D Gaussian Modeling with Anisotropic Local Encoding](https://arxiv.org/abs/2601.02339)**|N/A|Accepted by ICCV 2025|cs.CV|None|Jingming He et al.|
 |**2025-12-29**|**[GaussianDWM: 3D Gaussian Driving World Model for Unified Scene Understanding and Multi-Modal Generation](https://arxiv.org/abs/2512.23180)**|N/A|None|cs.CV|None|Tianchen Deng et al.|
@@ -184,6 +185,7 @@ Query: (abs:'Multi-View Stereo' OR abs:'Multi View Stereo' OR abs:'Multi-View De
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-01-09**|**[GeoSurDepth: Spatial Geometry-Consistent Self-Supervised Depth Estimation for Surround-View Cameras](https://arxiv.org/abs/2601.05839)**|N/A|None|cs.CV|None|Weimin Liu et al.|
 |**2026-01-05**|**[360-GeoGS: Geometrically Consistent Feed-Forward 3D Gaussian Splatting Reconstruction for 360 Images](https://arxiv.org/abs/2601.02102)**|N/A|None|cs.CV|None|Jiaqi Yao et al.|
 |**2025-12-31**|**[3D Semantic Segmentation for Post-Disaster Assessment](https://arxiv.org/abs/2512.24593)**|N/A|Accepted by the 2025 IEEE International Geoscience and Remote Sensing Symposium (IGARSS 2025)|cs.CV|None|Nhut Le, Maryam Rahnemoonfar|
 |**2025-12-11**|**[SpaceDrive: Infusing Spatial Awareness into VLM-based Autonomous Driving](https://arxiv.org/abs/2512.10719)**|N/A|None|cs.CV|None|Peizheng Li et al.|
@@ -634,6 +636,7 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-01-09**|**[GeoSurDepth: Spatial Geometry-Consistent Self-Supervised Depth Estimation for Surround-View Cameras](https://arxiv.org/abs/2601.05839)**|N/A|None|cs.CV|None|Weimin Liu et al.|
 |**2026-01-08**|**[Pixel-Perfect Visual Geometry Estimation](https://arxiv.org/abs/2601.05246)**|N/A|Code: https://github.com/gangweix/pixel-perfect-depth|cs.CV|None|Gangwei Xu et al.|
 |**2026-01-07**|**[Bayesian Monocular Depth Refinement via Neural Radiance Fields](https://arxiv.org/abs/2601.03869)**|N/A|IEEE 8th International Conference on Algorithms, Computing and Artificial Intelligence (ACAI 2025). Oral presentation; Best Presenter Award|cs.CV|None|Arun Muthukkumar|
 |**2026-01-07**|**[IDESplat: Iterative Depth Probability Estimation for Generalizable 3D Gaussian Splatting](https://arxiv.org/abs/2601.03824)**|N/A|None|cs.CV|None|Wei Long et al.|
