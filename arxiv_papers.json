@@ -1,5 +1,117 @@
 {
   "3DGS Semantic": {
+    "2601.06899": {
+      "title": "V2P: Visual Attention Calibration for GUI Grounding via Background Suppression and Center Peaking",
+      "authors": [
+        "Jikai Chen",
+        "Long Chen",
+        "Dong Wang",
+        "Qinglin Su",
+        "Zhixuan Chu",
+        "Bingguang Hao",
+        "Leilei Gan",
+        "Chenyi Zhuang",
+        "Jinjie Gu"
+      ],
+      "published": "2026-01-11T12:54:54+00:00",
+      "updated": "2026-01-11T12:54:54+00:00",
+      "summary": "Precise localization of GUI elements is crucial for the development of GUI agents. Traditional methods rely on bounding box or center-point regression, neglecting spatial interaction uncertainty and visual-semantic hierarchies. Recent methods incorporate attention mechanisms but still face two key issues: (1) ignoring processing background regions causes attention drift from the desired area, and (2) uniform modeling the target UI element fails to distinguish between its center and edges, leading to click imprecision. Inspired by how humans visually process and interact with GUI elements, we propose the Valley-to-Peak (V2P) method to address these issues. To mitigate background distractions, V2P introduces a suppression attention mechanism that minimizes the model's focus on irrelevant regions to highlight the intended region. For the issue of center-edge distinction, V2P applies a Fitts' Law-inspired approach by modeling GUI interactions as 2D Gaussian heatmaps where the weight gradually decreases from the center towards the edges. The weight distribution follows a Gaussian function, with the variance determined by the target's size. Consequently, V2P effectively isolates the target area and teaches the model to concentrate on the most essential point of the UI element. The model trained by V2P achieves the performance with 92.4\\% and 52.5\\% on two benchmarks ScreenSpot-v2 and ScreenSpot-Pro (see Fig.~\\ref{fig:main_results_charts}). Ablations further confirm each component's contribution, underscoring V2P's generalizability in precise GUI grounding tasks and its potential for real-world deployment in future GUI agents.",
+      "categories": [
+        "cs.AI"
+      ],
+      "primary_category": "cs.AI",
+      "pdf_url": "https://arxiv.org/pdf/2601.06899v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2601.06899v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.06899v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.06899v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2601.06742": {
+      "title": "Federated Continual Learning for Privacy-Preserving Hospital Imaging Classification",
+      "authors": [
+        "Anay Sinhal",
+        "Arpana Sinhal",
+        "Amit Sinhal"
+      ],
+      "published": "2026-01-11T01:28:34+00:00",
+      "updated": "2026-01-11T01:28:34+00:00",
+      "summary": "Deep learning models for radiology interpretation increasingly rely on multi-institutional data, yet privacy regulations and distribution shift across hospitals limit central data pooling. Federated learning (FL) allows hospitals to collaboratively train models without sharing raw images, but current FL algorithms typically assume a static data distribution. In practice, hospitals experience continual evolution in case mix, annotation protocols, and imaging devices, which leads to catastrophic forgetting when models are updated sequentially. Federated continual learning (FCL) aims to reconcile these challenges but existing methods either ignore the stringent privacy constraints of healthcare or rely on replay buffers and public surrogate datasets that are difficult to justify in clinical settings. We study FCL for chest radiography classification in a setting where hospitals are clients that receive temporally evolving streams of cases and labels. We introduce DP-FedEPC (Differentially Private Federated Elastic Prototype Consolidation), a method that combines elastic weight consolidation (EWC), prototype-based rehearsal, and client-side differential privacy within a standard FedAvg framework. EWC constrains updates along parameters deemed important for previous tasks, while a memory of latent prototypes preserves class structure without storing raw images. Differentially private stochastic gradient descent (DP-SGD) at each client adds calibrated Gaussian noise to clipped gradients, providing formal privacy guarantees for individual radiographs.",
+      "categories": [
+        "cs.LG"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2601.06742v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2601.06742v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.06742v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.06742v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2601.06391": {
+      "title": "Object-WIPER : Training-Free Object and Associated Effect Removal in Videos",
+      "authors": [
+        "Saksham Singh Kushwaha",
+        "Sayan Nag",
+        "Yapeng Tian",
+        "Kuldeep Kulkarni"
+      ],
+      "published": "2026-01-10T02:28:31+00:00",
+      "updated": "2026-01-10T02:28:31+00:00",
+      "summary": "In this paper, we introduce Object-WIPER, a training-free framework for removing dynamic objects and their associated visual effects from videos, and inpainting them with semantically consistent and temporally coherent content. Our approach leverages a pre-trained text-to-video diffusion transformer (DiT). Given an input video, a user-provided object mask, and query tokens describing the target object and its effects, we localize relevant visual tokens via visual-text cross-attention and visual self-attention. This produces an intermediate effect mask that we fuse with the user mask to obtain a final foreground token mask to replace. We first invert the video through the DiT to obtain structured noise, then reinitialize the masked tokens with Gaussian noise while preserving background tokens. During denoising, we copy values for the background tokens saved during inversion to maintain scene fidelity. To address the lack of suitable evaluation, we introduce a new object removal metric that rewards temporal consistency among foreground tokens across consecutive frames, coherence between foreground and background tokens within each frame, and dissimilarity between the input and output foreground tokens. Experiments on DAVIS and a newly curated real-world associated effect benchmark (WIPER-Bench) show that Object-WIPER surpasses both training-based and training-free baselines in terms of the metric, achieving clean removal and temporally stable reconstruction without any retraining. Our new benchmark, source code, and pre-trained models will be publicly available.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2601.06391v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Project Page: https://sakshamsingh1.github.io/object_wiper_webpage/",
+      "entry_id": "http://arxiv.org/abs/2601.06391v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.06391v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.06391v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2601.05738": {
       "title": "FeatureSLAM: Feature-enriched 3D gaussian splatting SLAM in real time",
       "authors": [
@@ -44,6 +156,47 @@
         "publisher": null,
         "note": "已查询但未找到venue信息"
       }
+    },
+    "2601.06228": {
+      "title": "Synthetic FMCW Radar Range Azimuth Maps Augmentation with Generative Diffusion Model",
+      "authors": [
+        "Zhaoze Wang",
+        "Changxu Zhang",
+        "Tai Fei",
+        "Christopher Grimm",
+        "Yi Jin",
+        "Claas Tebruegge",
+        "Ernst Warsitz",
+        "Markus Gardill"
+      ],
+      "published": "2026-01-09T10:59:46+00:00",
+      "updated": "2026-01-09T10:59:46+00:00",
+      "summary": "The scarcity and low diversity of well-annotated automotive radar datasets often limit the performance of deep-learning-based environmental perception. To overcome these challenges, we propose a conditional generative framework for synthesizing realistic Frequency-Modulated Continuous-Wave radar Range-Azimuth Maps. Our approach leverages a generative diffusion model to generate radar data for multiple object categories, including pedestrians, cars, and cyclists. Specifically, conditioning is achieved via Confidence Maps, where each channel represents a semantic class and encodes Gaussian-distributed annotations at target locations. To address radar-specific characteristics, we incorporate Geometry Aware Conditioning and Temporal Consistency Regularization into the generative process. Experiments on the ROD2021 dataset demonstrate that signal reconstruction quality improves by \\SI{3.6}{dB} in Peak Signal-to-Noise Ratio over baseline methods, while training with a combination of real and synthetic datasets improves overall mean Average Precision by 4.15% compared with conventional image-processing-based augmentation. These results indicate that our generative framework not only produces physically plausible and diverse radar spectrum but also substantially improves model generalization in downstream tasks.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2601.06228v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2601.06228v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.06228v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.06228v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
     },
     "2601.05684": {
       "title": "FLRQ: Faster LLM Quantization with Flexible Low-Rank Matrix Sketching",
@@ -123,12 +276,12 @@
       "title": "Sketch&Patch++: Efficient Structure-Aware 3D Gaussian Representation",
       "authors": [
         "Yuang Shi",
-        "Simone Gasparini",
         "Géraldine Morin",
+        "Simone Gasparini",
         "Wei Tsang Ooi"
       ],
       "published": "2026-01-08T21:32:54+00:00",
-      "updated": "2026-01-08T21:32:54+00:00",
+      "updated": "2026-01-12T15:16:39+00:00",
       "summary": "We observe that Gaussians exhibit distinct roles and characteristics analogous to traditional artistic techniques -- like how artists first sketch outlines before filling in broader areas with color, some Gaussians capture high-frequency features such as edges and contours, while others represent broader, smoother regions analogous to brush strokes that add volume and depth. Based on this observation, we propose a hybrid representation that categorizes Gaussians into (i) Sketch Gaussians, which represent high-frequency, boundary-defining features, and (ii) Patch Gaussians, which cover low-frequency, smooth regions. This semantic separation naturally enables layered progressive streaming, where the compact Sketch Gaussians establish the structural skeleton before Patch Gaussians incrementally refine volumetric detail.\n  In this work, we extend our previous method to arbitrary 3D scenes by proposing a novel hierarchical adaptive categorization framework that operates directly on the 3DGS representation. Our approach employs multi-criteria density-based clustering, combined with adaptive quality-driven refinement. This method eliminates dependency on external 3D line primitives while ensuring optimal parametric encoding effectiveness. Our comprehensive evaluation across diverse scenes, including both man-made and natural environments, demonstrates that our method achieves up to 1.74 dB improvement in PSNR, 6.7% in SSIM, and 41.4% in LPIPS at equivalent model sizes compared to uniform pruning baselines. For indoor scenes, our method can maintain visual quality with only 0.5\\% of the original model size. This structure-aware representation enables efficient storage, adaptive streaming, and rendering of high-fidelity 3D content across bandwidth-constrained networks and resource-limited devices.",
       "categories": [
         "cs.CV",
@@ -137,20 +290,20 @@
         "eess.IV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2601.05394v1",
+      "pdf_url": "https://arxiv.org/pdf/2601.05394v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2601.05394v1",
+      "entry_id": "http://arxiv.org/abs/2601.05394v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2601.05394v1",
+          "href": "https://arxiv.org/abs/2601.05394v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2601.05394v1",
+          "href": "https://arxiv.org/pdf/2601.05394v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -226,6 +379,40 @@
         },
         {
           "href": "https://arxiv.org/pdf/2601.05368v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2601.06212": {
+      "title": "Akasha 2: Hamiltonian State Space Duality and Visual-Language Joint Embedding Predictive Architectur",
+      "authors": [
+        "Yani Meziani"
+      ],
+      "published": "2026-01-08T18:40:31+00:00",
+      "updated": "2026-01-08T18:40:31+00:00",
+      "summary": "We present Akasha 2, a state-of-the-art multimodal architecture that integrates Hamiltonian State Space Duality (H-SSD) with Visual-Language Joint Embedding Predictive Architecture (VL-JEPA). The system leverages the Mamba-3 Selective State Space Model (SSM) augmented by a Sparse Mixture of Hamiltonian Experts (SMoE-HE) that enforces latent physical conservation laws through symplectic integration. For visual synthesis, we introduce Hamiltonian Flow Matching (HFM) and persistent 3D Gaussian Splatting (3DGS), enabling ultra-low latency (<50ms) on mobile hardware. This work establishes a new paradigm in latent world models, achieving unprecedented spatiotemporal coherence through a holographic memory architecture. Our approach demonstrates that incorporating physics-inspired inductive biases into neural architectures yields significant improvements: state-of-the-art video prediction (FVD: 287), 4x faster visual synthesis than diffusion models, and 3-18x inference speedup over transformer baselines while maintaining energy conservation over extended horizons.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2601.06212v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "12 pages, 6 figures, 3 tables. Includes appendices with pseudocode and implementation details. Supplementary materials eventually at github.com/yanimeziani/akasha",
+      "entry_id": "http://arxiv.org/abs/2601.06212v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.06212v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.06212v1",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -692,6 +879,77 @@
       ],
       "llm_approved": false
     },
+    "2601.06114": {
+      "title": "GroupSegment-SHAP: Shapley Value Explanations with Group-Segment Players for Multivariate Time Series",
+      "authors": [
+        "Jinwoong Kim",
+        "Sangjin Park"
+      ],
+      "published": "2026-01-03T14:59:18+00:00",
+      "updated": "2026-01-03T14:59:18+00:00",
+      "summary": "Multivariate time-series models achieve strong predictive performance in healthcare, industry, energy, and finance, but how they combine cross-variable interactions with temporal dynamics remains unclear. SHapley Additive exPlanations (SHAP) are widely used for interpretation. However, existing time-series variants typically treat the feature and time axes independently, fragmenting structural signals formed jointly by multiple variables over specific intervals. We propose GroupSegment SHAP (GS-SHAP), which constructs explanatory units as group-segment players based on cross-variable dependence and distribution shifts over time, and then quantifies each unit's contribution via Shapley attribution. We evaluate GS-SHAP across four real-world domains: human activity recognition, power-system forecasting, medical signal analysis, and financial time series, and compare it with KernelSHAP, TimeSHAP, SequenceSHAP, WindowSHAP, and TSHAP. GS-SHAP improves deletion-based faithfulness (DeltaAUC) by about 1.7x on average over time-series SHAP baselines, while reducing wall-clock runtime by about 40 percent on average under matched perturbation budgets. A financial case study shows that GS-SHAP identifies interpretable multivariate-temporal interactions among key market variables during high-volatility regimes.",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.GT"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2601.06114v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "12 pages",
+      "entry_id": "http://arxiv.org/abs/2601.06114v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.06114v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.06114v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2601.06100": {
+      "title": "Filtering Beats Fine Tuning: A Bayesian Kalman View of In Context Learning in LLMs",
+      "authors": [
+        "Andrew Kiruluta"
+      ],
+      "published": "2026-01-02T21:18:48+00:00",
+      "updated": "2026-01-02T21:18:48+00:00",
+      "summary": "We present a theory-first framework that interprets inference-time adaptation in large language models (LLMs) as online Bayesian state estimation. Rather than modeling rapid adaptation as implicit optimization or meta-learning, we formulate task- and context-specific learning as the sequential inference of a low-dimensional latent adaptation state governed by a linearized state-space model. Under Gaussian assumptions, adaptation follows a Kalman recursion with closed-form updates for both the posterior mean and covariance.\n  This perspective elevates epistemic uncertainty to an explicit dynamical variable. We show that inference-time learning is driven by covariance collapse, i.e., rapid contraction of posterior uncertainty induced by informative tokens, which typically precedes convergence of the posterior mean. Using observability conditions on token-level Jacobians, we establish stability of the Bayesian filter, prove exponential covariance contraction rates, and derive mean-square error bounds. Gradient descent, natural-gradient methods, and meta-learning updates arise as singular, noise-free limits of the filtering dynamics, positioning optimization-based adaptation as a degenerate approximation of Bayesian inference.\n  The resulting theory provides a unified probabilistic account of in-context learning, parameter-efficient adaptation, and test-time learning without parameter updates. It yields explicit guarantees on stability and sample efficiency, offers a principled interpretation of prompt informativeness via information accumulation, and clarifies the role of uncertainty dynamics absent from existing accounts. Minimal illustrative experiments corroborate the qualitative predictions of the theory.",
+      "categories": [
+        "cs.LG",
+        "cs.CL",
+        "cs.IT"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2601.06100v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2601.06100v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.06100v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.06100v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2601.00923": {
       "title": "Context Collapse: In-Context Learning and Model Collapse",
       "authors": [
@@ -1116,26 +1374,26 @@
         "Hesheng Wang"
       ],
       "published": "2025-12-29T03:40:05+00:00",
-      "updated": "2025-12-29T03:40:05+00:00",
+      "updated": "2026-01-12T02:02:10+00:00",
       "summary": "Driving World Models (DWMs) have been developing rapidly with the advances of generative models. However, existing DWMs lack 3D scene understanding capabilities and can only generate content conditioned on input data, without the ability to interpret or reason about the driving environment. Moreover, current approaches represent 3D spatial information with point cloud or BEV features do not accurately align textual information with the underlying 3D scene. To address these limitations, we propose a novel unified DWM framework based on 3D Gaussian scene representation, which enables both 3D scene understanding and multi-modal scene generation, while also enabling contextual enrichment for understanding and generation tasks. Our approach directly aligns textual information with the 3D scene by embedding rich linguistic features into each Gaussian primitive, thereby achieving early modality alignment. In addition, we design a novel task-aware language-guided sampling strategy that removes redundant 3D Gaussians and injects accurate and compact 3D tokens into LLM. Furthermore, we design a dual-condition multi-modal generation model, where the information captured by our vision-language model is leveraged as a high-level language condition in combination with a low-level image condition, jointly guiding the multi-modal generation process. We conduct comprehensive studies on the nuScenes, and NuInteract datasets to validate the effectiveness of our framework. Our method achieves state-of-the-art performance. We will release the code publicly on GitHub https://github.com/dtc111111/GaussianDWM.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2512.23180v1",
+      "pdf_url": "https://arxiv.org/pdf/2512.23180v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2512.23180v1",
+      "entry_id": "http://arxiv.org/abs/2512.23180v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2512.23180v1",
+          "href": "https://arxiv.org/abs/2512.23180v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2512.23180v1",
+          "href": "https://arxiv.org/pdf/2512.23180v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -1593,6 +1851,44 @@
         },
         {
           "href": "https://arxiv.org/pdf/2512.20323v3",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2601.06059": {
+      "title": "Context Video Semantic Transmission with Variable Length and Rate Coding over MIMO Channels",
+      "authors": [
+        "Bingyan Xie",
+        "Yongpeng Wu",
+        "Wenjun Zhang",
+        "Derrick Wing Kwan Ng",
+        "Merouane Debbah"
+      ],
+      "published": "2025-12-23T10:48:43+00:00",
+      "updated": "2025-12-23T10:48:43+00:00",
+      "summary": "The evolution of semantic communications has profoundly impacted wireless video transmission, whose applications dominate driver of modern bandwidth consumption. However, most existing schemes are predominantly optimized for simple additive white Gaussian noise or Rayleigh fading channels, neglecting the ubiquitous multiple-input multiple-output (MIMO) environments that critically hinder practical deployment. To bridge this gap, we propose the context video semantic transmission (CVST) framework under MIMO channels. Building upon an efficient contextual video transmission backbone, CVST effectively learns a context-channel correlation map to explicitly formulate the relationships between feature groups and MIMO subchannels. Leveraging these channel-aware features, we design a multi-reference entropy coding mechanism, enabling channel state-aware variable length coding. Furthermore, CVST incorporates a checkerboard-based feature modulation strategy to achieve multiple rate points within a single trained model, thereby enhancing deployment flexibility. These innovations constitute our multi-reference variable length and rate coding (MR-VLRC) scheme. By integrating contextual transmission with MR-VLRC, CVST demonstrates substantial performance gains over various standardized separated coding methods and recent wireless video semantic communication approaches. The code is available at https://github.com/xie233333/CVST.",
+      "categories": [
+        "cs.IT",
+        "cs.AI"
+      ],
+      "primary_category": "cs.IT",
+      "pdf_url": "https://arxiv.org/pdf/2601.06059v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2601.06059v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.06059v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.06059v1",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -3816,7 +4112,7 @@
         "Yu Wang"
       ],
       "published": "2025-12-03T18:13:01+00:00",
-      "updated": "2025-12-03T18:13:01+00:00",
+      "updated": "2026-01-11T16:00:22+00:00",
       "summary": "This work investigates whether large language models (LLMs) offer advantages over traditional neural networks for astronomical data processing, in regimes with non-Gaussian, non-stationary noise and limited labeled samples. Gravitational wave observations provide an suitable test case, using only 90 LIGO events, finetuned LLMs achieve 97.4\\% accuracy for identifying signals. Further experiments show that, in contrast to traditional networks that rely on large simulated datasets, additional simulated samples do not improve LLM performance, while scaling studies reveal predictable gains with increasing model size and dataset size. These results indicate that LLMs can extract discriminative structure directly from observational data and provide an efficient assessment for gravitational wave identification. The same strategy may extend to other astronomical domains with similar noise properties, such as radio or pulsar observations.",
       "categories": [
         "astro-ph.IM",
@@ -3824,20 +4120,20 @@
         "cs.AI"
       ],
       "primary_category": "astro-ph.IM",
-      "pdf_url": "https://arxiv.org/pdf/2512.04031v1",
+      "pdf_url": "https://arxiv.org/pdf/2512.04031v2",
       "journal_ref": null,
       "doi": null,
-      "comment": "10 pages, 5 figures",
-      "entry_id": "http://arxiv.org/abs/2512.04031v1",
+      "comment": "10 pages, 5 figures, submitted to ApJ",
+      "entry_id": "http://arxiv.org/abs/2512.04031v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2512.04031v1",
+          "href": "https://arxiv.org/abs/2512.04031v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2512.04031v1",
+          "href": "https://arxiv.org/pdf/2512.04031v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -4032,27 +4328,27 @@
         "Weidong Chen"
       ],
       "published": "2025-12-03T03:57:01+00:00",
-      "updated": "2025-12-03T03:57:01+00:00",
+      "updated": "2026-01-10T08:00:02+00:00",
       "summary": "In this paper, we provide a comprehensive overview of existing scene representation methods for robotics, covering traditional representations such as point clouds, voxels, signed distance functions (SDF), and scene graphs, as well as more recent neural representations like Neural Radiance Fields (NeRF), 3D Gaussian Splatting (3DGS), and the emerging Foundation Models. While current SLAM and localization systems predominantly rely on sparse representations like point clouds and voxels, dense scene representations are expected to play a critical role in downstream tasks such as navigation and obstacle avoidance. Moreover, neural representations such as NeRF, 3DGS, and foundation models are well-suited for integrating high-level semantic features and language-based priors, enabling more comprehensive 3D scene understanding and embodied intelligence. In this paper, we categorized the core modules of robotics into five parts (Perception, Mapping, Localization, Navigation, Manipulation). We start by presenting the standard formulation of different scene representation methods and comparing the advantages and disadvantages of scene representation across different modules. This survey is centered around the question: What is the best 3D scene representation for robotics? We then discuss the future development trends of 3D scene representations, with a particular focus on how the 3D Foundation Model could replace current methods as the unified solution for future robotic applications. The remaining challenges in fully realizing this model are also explored. We aim to offer a valuable resource for both newcomers and experienced researchers to explore the future of 3D scene representations and their application in robotics. We have published an open-source project on GitHub and will continue to add new works and technologies to this project.",
       "categories": [
         "cs.RO",
         "cs.CV"
       ],
       "primary_category": "cs.RO",
-      "pdf_url": "https://arxiv.org/pdf/2512.03422v1",
+      "pdf_url": "https://arxiv.org/pdf/2512.03422v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2512.03422v1",
+      "entry_id": "http://arxiv.org/abs/2512.03422v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2512.03422v1",
+          "href": "https://arxiv.org/abs/2512.03422v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2512.03422v1",
+          "href": "https://arxiv.org/pdf/2512.03422v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -91520,6 +91816,41 @@
     }
   },
   "Depth Estimation": {
+    "2601.06909": {
+      "title": "UDPNet: Unleashing Depth-based Priors for Robust Image Dehazing",
+      "authors": [
+        "Zengyuan Zuo",
+        "Junjun Jiang",
+        "Gang Wu",
+        "Xianming Liu"
+      ],
+      "published": "2026-01-11T13:29:02+00:00",
+      "updated": "2026-01-11T13:29:02+00:00",
+      "summary": "Image dehazing has witnessed significant advancements with the development of deep learning models. However, a few methods predominantly focus on single-modal RGB features, neglecting the inherent correlation between scene depth and haze distribution. Even those that jointly optimize depth estimation and image dehazing often suffer from suboptimal performance due to inadequate utilization of accurate depth information. In this paper, we present UDPNet, a general framework that leverages depth-based priors from large-scale pretrained depth estimation model DepthAnything V2 to boost existing image dehazing models. Specifically, our architecture comprises two typical components: the Depth-Guided Attention Module (DGAM) adaptively modulates features via lightweight depth-guided channel attention, and the Depth Prior Fusion Module (DPFM) enables hierarchical fusion of multi-scale depth map features by dual sliding-window multi-head cross-attention mechanism. These modules ensure both computational efficiency and effective integration of depth priors. Moreover, the intrinsic robustness of depth priors empowers the network to dynamically adapt to varying haze densities, illumination conditions, and domain gaps across synthetic and real-world data. Extensive experimental results demonstrate the effectiveness of our UDPNet, outperforming the state-of-the-art methods on popular dehazing datasets, such as 0.85 dB PSNR improvement on the SOTS dataset, 1.19 dB on the Haze4K dataset and 1.79 dB PSNR on the NHR dataset. Our proposed solution establishes a new benchmark for depth-aware dehazing across various scenarios. Pretrained models and codes will be released at our project https://github.com/Harbinzzy/UDPNet.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2601.06909v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2601.06909v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.06909v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.06909v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2601.05839": {
       "title": "GeoSurDepth: Spatial Geometry-Consistent Self-Supervised Depth Estimation for Surround-View Cameras",
       "authors": [

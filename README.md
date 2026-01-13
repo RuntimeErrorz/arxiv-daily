@@ -1,4 +1,4 @@
-## Updated at 2026-01-13 08:16:40
+## Updated at 2026-01-13 20:09:35
 
 ## 3DGS Semantic
 
@@ -636,6 +636,7 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-01-11**|**[UDPNet: Unleashing Depth-based Priors for Robust Image Dehazing](https://arxiv.org/abs/2601.06909)**|N/A|None|cs.CV|None|Zengyuan Zuo et al.|
 |**2026-01-09**|**[GeoSurDepth: Spatial Geometry-Consistent Self-Supervised Depth Estimation for Surround-View Cameras](https://arxiv.org/abs/2601.05839)**|N/A|None|cs.CV|None|Weimin Liu et al.|
 |**2026-01-08**|**[Pixel-Perfect Visual Geometry Estimation](https://arxiv.org/abs/2601.05246)**|N/A|Code: https://github.com/gangweix/pixel-perfect-depth|cs.CV|None|Gangwei Xu et al.|
 |**2026-01-07**|**[Bayesian Monocular Depth Refinement via Neural Radiance Fields](https://arxiv.org/abs/2601.03869)**|N/A|IEEE 8th International Conference on Algorithms, Computing and Artificial Intelligence (ACAI 2025). Oral presentation; Best Presenter Award|cs.CV|None|Arun Muthukkumar|
