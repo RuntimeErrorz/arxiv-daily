@@ -320,27 +320,27 @@
         "Raymundo Arróyave"
       ],
       "published": "2026-01-08T20:52:53+00:00",
-      "updated": "2026-01-08T20:52:53+00:00",
+      "updated": "2026-01-13T16:22:49+00:00",
       "summary": "Gaussian Process (GP) regression is a powerful nonparametric Bayesian framework, but its performance depends critically on the choice of covariance kernel. Selecting an appropriate kernel is therefore central to model quality, yet remains one of the most challenging and computationally expensive steps in probabilistic modeling. We present a Bayesian optimization framework built on kernel-of-kernels geometry, using expected divergence-based distances between GP priors to explore kernel space efficiently. A multidimensional scaling (MDS) embedding of this distance matrix maps a discrete kernel library into a continuous Euclidean manifold, enabling smooth BO. In this formulation, the input space comprises kernel compositions, the objective is the log marginal likelihood, and featurization is given by the MDS coordinates. When the divergence yields a valid metric, the embedding preserves geometry and produces a stable BO landscape. We demonstrate the approach on synthetic benchmarks, real-world time-series datasets, and an additive manufacturing case study predicting melt-pool geometry, achieving superior predictive accuracy and uncertainty calibration relative to baselines including Large Language Model (LLM)-guided search. This framework establishes a reusable probabilistic geometry for kernel search, with direct relevance to GP modeling and deep kernel learning.",
       "categories": [
         "cs.LG",
         "stat.ME"
       ],
       "primary_category": "cs.LG",
-      "pdf_url": "https://arxiv.org/pdf/2601.05371v1",
+      "pdf_url": "https://arxiv.org/pdf/2601.05371v2",
       "journal_ref": null,
       "doi": null,
-      "comment": null,
-      "entry_id": "http://arxiv.org/abs/2601.05371v1",
+      "comment": "Included a subsection named \"Budgetary impact of inline kernel optimization during BO\", and corrected label of a figure",
+      "entry_id": "http://arxiv.org/abs/2601.05371v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2601.05371v1",
+          "href": "https://arxiv.org/abs/2601.05371v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2601.05371v1",
+          "href": "https://arxiv.org/pdf/2601.05371v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -608,6 +608,40 @@
         },
         {
           "href": "https://arxiv.org/pdf/2601.03510v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2601.08219": {
+      "title": "A Preliminary Agentic Framework for Matrix Deflation",
+      "authors": [
+        "Paimon Goulart",
+        "Evangelos E. Papalexakis"
+      ],
+      "published": "2026-01-06T23:59:18+00:00",
+      "updated": "2026-01-06T23:59:18+00:00",
+      "summary": "Can a small team of agents peel a matrix apart, one rank-1 slice at a time? We propose an agentic approach to matrix deflation in which a solver Large Language Model (LLM) generates rank-1 Singular Value Decomposition (SVD) updates and a Vision Language Model (VLM) accepts or rejects each update and decides when to stop, eliminating fixed norm thresholds. Solver stability is improved through in-context learning (ICL) and types of row/column permutations that expose visually coherent structure. We evaluate on Digits ($8{\\times}8$), CIFAR-10 ($32{\\times}32$ grayscale), and synthetic ($16{\\times}16$) matrices with and without Gaussian noise. In the synthetic noisy case, where the true construction rank $k$ is known, numerical deflation provides the noise target and our best agentic configuration differs by only $1.75$ RMSE of the target. For Digits and CIFAR-10, targets are defined by deflating until the Frobenius norm reaches $10\\%$ of the original. Across all settings, our agent achieves competitive results, suggesting that fully agentic, threshold-free deflation is a viable alternative to classical numerical algorithms.",
+      "categories": [
+        "cs.LG"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2601.08219v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2601.08219v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.08219v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.08219v1",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -91816,6 +91850,42 @@
     }
   },
   "Depth Estimation": {
+    "2601.08175": {
+      "title": "CogniMap3D: Cognitive 3D Mapping and Rapid Retrieval",
+      "authors": [
+        "Feiran Wang",
+        "Junyi Wu",
+        "Dawen Cai",
+        "Yuan Hong",
+        "Yan Yan"
+      ],
+      "published": "2026-01-13T03:09:35+00:00",
+      "updated": "2026-01-13T03:09:35+00:00",
+      "summary": "We present CogniMap3D, a bioinspired framework for dynamic 3D scene understanding and reconstruction that emulates human cognitive processes. Our approach maintains a persistent memory bank of static scenes, enabling efficient spatial knowledge storage and rapid retrieval. CogniMap3D integrates three core capabilities: a multi-stage motion cue framework for identifying dynamic objects, a cognitive mapping system for storing, recalling, and updating static scenes across multiple visits, and a factor graph optimization strategy for refining camera poses. Given an image stream, our model identifies dynamic regions through motion cues with depth and camera pose priors, then matches static elements against its memory bank. When revisiting familiar locations, CogniMap3D retrieves stored scenes, relocates cameras, and updates memory with new observations. Evaluations on video depth estimation, camera pose reconstruction, and 3D mapping tasks demonstrate its state-of-the-art performance, while effectively supporting continuous scene understanding across extended sequences and multiple visits.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2601.08175v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Project Page: https://github.com/Brack-Wang/cognimap3D",
+      "entry_id": "http://arxiv.org/abs/2601.08175v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.08175v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.08175v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2601.06909": {
       "title": "UDPNet: Unleashing Depth-based Priors for Robust Image Dehazing",
       "authors": [
