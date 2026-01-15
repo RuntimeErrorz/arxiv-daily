@@ -1,5 +1,41 @@
 {
   "3DGS Semantic": {
+    "2601.09633": {
+      "title": "TaxoBell: Gaussian Box Embeddings for Self-Supervised Taxonomy Expansion",
+      "authors": [
+        "Sahil Mishra",
+        "Srinitish Srinivasan",
+        "Srikanta Bedathur",
+        "Tanmoy Chakraborty"
+      ],
+      "published": "2026-01-14T17:08:37+00:00",
+      "updated": "2026-01-14T17:08:37+00:00",
+      "summary": "Taxonomies form the backbone of structured knowledge representation across diverse domains, enabling applications such as e-commerce catalogs, semantic search, and biomedical discovery. Yet, manual taxonomy expansion is labor-intensive and cannot keep pace with the emergence of new concepts. Existing automated methods rely on point-based vector embeddings, which model symmetric similarity and thus struggle with the asymmetric \"is-a\" relationships that are fundamental to taxonomies. Box embeddings offer a promising alternative by enabling containment and disjointness, but they face key issues: (i) unstable gradients at the intersection boundaries, (ii) no notion of semantic uncertainty, and (iii) limited capacity to represent polysemy or ambiguity. We address these shortcomings with TaxoBell, a Gaussian box embedding framework that translates between box geometries and multivariate Gaussian distributions, where means encode semantic location and covariances encode uncertainty. Energy-based optimization yields stable optimization, robust modeling of ambiguous concepts, and interpretable hierarchical reasoning. Extensive experimentation on five benchmark datasets demonstrates that TaxoBell significantly outperforms eight state-of-the-art taxonomy expansion baselines by 19% in MRR and around 25% in Recall@k. We further demonstrate the advantages and pitfalls of TaxoBell with error analysis and ablation studies.",
+      "categories": [
+        "cs.CL"
+      ],
+      "primary_category": "cs.CL",
+      "pdf_url": "https://arxiv.org/pdf/2601.09633v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted in The Web Conference (WWW) 2026",
+      "entry_id": "http://arxiv.org/abs/2601.09633v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.09633v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.09633v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2601.06899": {
       "title": "V2P: Visual Attention Calibration for GUI Grounding via Background Suppression and Center Peaking",
       "authors": [
@@ -4065,7 +4101,7 @@
         "Dmitriy Drusvyatskiy"
       ],
       "published": "2025-12-03T22:22:09+00:00",
-      "updated": "2025-12-03T22:22:09+00:00",
+      "updated": "2026-01-14T01:20:17+00:00",
       "summary": "Spectral gradient methods, such as the recently popularized Muon optimizer, are a promising alternative to standard Euclidean gradient descent for training deep neural networks and transformers, but it is still unclear in which regimes they are expected to perform better. We propose a simple layerwise condition that predicts when a spectral update yields a larger decrease in the loss than a Euclidean gradient step. This condition compares, for each parameter block, the squared nuclear-to-Frobenius ratio of the gradient to the stable rank of the incoming activations. To understand when this condition may be satisfied, we first prove that post-activation matrices have low stable rank at Gaussian initialization in random feature regression, feedforward networks, and transformer blocks. In spiked random feature models we then show that, after a short burn-in, the Euclidean gradient's nuclear-to-Frobenius ratio grows with the data dimension while the stable rank of the activations remains bounded, so the predicted advantage of spectral updates scales with dimension. We validate these predictions in synthetic regression experiments and in NanoGPT-scale language model training, where we find that intermediate activations have low-stable-rank throughout training and the corresponding gradients maintain large nuclear-to-Frobenius ratios. Together, these results identify conditions for spectral gradient methods, such as Muon, to be effective in training deep networks and transformers.",
       "categories": [
         "cs.LG",
@@ -4073,20 +4109,20 @@
         "stat.ML"
       ],
       "primary_category": "cs.LG",
-      "pdf_url": "https://arxiv.org/pdf/2512.04299v1",
+      "pdf_url": "https://arxiv.org/pdf/2512.04299v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2512.04299v1",
+      "entry_id": "http://arxiv.org/abs/2512.04299v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2512.04299v1",
+          "href": "https://arxiv.org/abs/2512.04299v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2512.04299v1",
+          "href": "https://arxiv.org/pdf/2512.04299v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
