@@ -1,4 +1,4 @@
-## Updated at 2026-01-16 08:19:52
+## Updated at 2026-01-16 20:08:31
 
 ## 3DGS Semantic
 
@@ -636,11 +636,12 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-01-14**|**[NanoSD: Edge Efficient Foundation Model for Real Time Image Restoration](https://arxiv.org/abs/2601.09823)**|N/A|Submitted to CVPR 2026|cs.CV|None|Subhajit Sanyal et al.|
 |**2026-01-13**|**[CogniMap3D: Cognitive 3D Mapping and Rapid Retrieval](https://arxiv.org/abs/2601.08175)**|N/A|Project Page: https://github.com/Brack-Wang/cognimap3D|cs.CV|None|Feiran Wang et al.|
 |**2026-01-11**|**[UDPNet: Unleashing Depth-based Priors for Robust Image Dehazing](https://arxiv.org/abs/2601.06909)**|N/A|None|cs.CV|None|Zengyuan Zuo et al.|
 |**2026-01-09**|**[GeoSurDepth: Spatial Geometry-Consistent Self-Supervised Depth Estimation for Surround-View Cameras](https://arxiv.org/abs/2601.05839)**|N/A|None|cs.CV|None|Weimin Liu et al.|
 |**2026-01-08**|**[Pixel-Perfect Visual Geometry Estimation](https://arxiv.org/abs/2601.05246)**|N/A|Code: https://github.com/gangweix/pixel-perfect-depth|cs.CV|None|Gangwei Xu et al.|
-|**2026-01-07**|**[Bayesian Monocular Depth Refinement via Neural Radiance Fields](https://arxiv.org/abs/2601.03869)**|N/A|IEEE 8th International Conference on Algorithms, Computing and Artificial Intelligence (ACAI 2025). Oral presentation; Best Presenter Award|cs.CV|None|Arun Muthukkumar|
+|**2026-01-07**|**[Bayesian Monocular Depth Refinement via Neural Radiance Fields](https://arxiv.org/abs/2601.03869)**|N/A|IEEE 8th International Conference on Algorithms, Computing and Artificial Intelligence (ACAI 2025)|cs.CV|None|Arun Muthukkumar|
 |**2026-01-07**|**[IDESplat: Iterative Depth Probability Estimation for Generalizable 3D Gaussian Splatting](https://arxiv.org/abs/2601.03824)**|N/A|None|cs.CV|None|Wei Long et al.|
 |**2026-01-06**|**[Guardians of the Hair: Rescuing Soft Boundaries in Depth, Stereo, and Novel Views](https://arxiv.org/abs/2601.03362)**|N/A|None|cs.CV|None|Xiang Zhang et al.|
 |**2026-01-06**|**[InfiniDepth: Arbitrary-Resolution and Fine-Grained Depth Estimation with Neural Implicit Fields](https://arxiv.org/abs/2601.03252)**|N/A|19 pages, 13 figures|cs.CV|None|Hao Yu et al.|

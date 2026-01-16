@@ -1,5 +1,121 @@
 {
   "3DGS Semantic": {
+    "2601.10384": {
+      "title": "RSA-Bench: Benchmarking Audio Large Models in Real-World Acoustic Scenarios",
+      "authors": [
+        "Yibo Zhang",
+        "Liang Lin",
+        "Kaiwen Luo",
+        "Shilinlu Yan",
+        "Jin Wang",
+        "Yaoqi Guo",
+        "Yitian Chen",
+        "Yalan Qin",
+        "Zhenhong Zhou",
+        "Kun Wang",
+        "Li Sun"
+      ],
+      "published": "2026-01-15T13:38:15+00:00",
+      "updated": "2026-01-15T13:38:15+00:00",
+      "summary": "While Audio Large Models (ALMs) have achieved remarkable proficiency, their robustness remains brittle in real-world deployment. Existing evaluations largely rely on synthetic Gaussian noise or simplistic single-source interference, failing to capture the intricate, multi-layered acoustic dynamics -- or ``Acoustic Ecology'' -- that characterize authentic physical environments. To bridge this ecological gap, we introduce \\textbf{RSA-Bench}, a comprehensive robustness benchmark designed to stress-test ALLMs through high-fidelity auditory scene simulations. Unlike traditional methods, we construct evaluation samples by naturally superimposing diverse environmental soundscapes -- spanning \\textit{Pasture}, \\textit{Extreme Weather}, \\textit{Classroom}, and \\textit{Outdoors} -- onto clean speech signals across a spectrum of interference intensities. By evaluating models on six core tasks ranging from fundamental perception to complex reasoning, our study unveils three macro-level insights: \\textbf{(I) The Perception-Cognition Gap:} Models maintain relative resilience in low-level recognition but suffer a \\textbf{functional collapse} in high-order reasoning tasks under stress; \\textbf{(II) Scenario Sensitivity:} ``Vocal-like'' interference (e.g., background laughter) proves significantly more destructive than mechanical noise, challenging the model's auditory attention mechanisms; and \\textbf{(III) The Denoising Paradox:} Standard speech enhancement often exacerbates performance degradation, as ALLMs prove highly sensitive to the semantic distortions introduced by denoising artifacts.",
+      "categories": [
+        "cs.SD"
+      ],
+      "primary_category": "cs.SD",
+      "pdf_url": "https://arxiv.org/pdf/2601.10384v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2601.10384v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.10384v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.10384v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2601.10267": {
+      "title": "In-Context Source and Channel Coding",
+      "authors": [
+        "Ziqiong Wang",
+        "Tianqi Ren",
+        "Rongpeng Li",
+        "Zhifeng Zhao",
+        "Honggang Zhang"
+      ],
+      "published": "2026-01-15T10:37:57+00:00",
+      "updated": "2026-01-15T10:37:57+00:00",
+      "summary": "Separate Source-Channel Coding (SSCC) remains attractive for text transmission due to its modularity and compatibility with mature entropy coders and powerful channel codes. However, SSCC often suffers from a pronounced cliff effect in low Signal-to-Noise Ratio (SNR) regimes, where residual bit errors after channel decoding can catastrophically break lossless source decoding, especially for Arithmetic Coding (AC) driven by Large Language Models (LLMs). This paper proposes a receiver-side In-Context Decoding (ICD) framework that enhances SSCC robustness without modifying the transmitter. ICD leverages an Error Correction Code Transformer (ECCT) to obtain bit-wise reliability for the decoded information bits. Based on the context-consistent bitstream, ICD constructs a confidence-ranked candidate pool via reliability-guided bit flipping, samples a compact yet diverse subset of candidates, and applies an LLM-based arithmetic decoder to obtain both reconstructions and sequence-level log-likelihoods. A reliability-likelihood fusion rule then selects the final output. We further provide theoretical guarantees on the stability and convergence of the proposed sampling procedure. Extensive experiments over Additive White Gaussian Noise (AWGN) and Rayleigh fading channels demonstrate consistent gains compared with conventional SSCC baselines and representative Joint Source-Channel Coding (JSCC) schemes.",
+      "categories": [
+        "cs.LG"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2601.10267v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2601.10267v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.10267v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.10267v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2601.09806": {
+      "title": "Diffusion-Driven Deceptive Patches: Adversarial Manipulation and Forensic Detection in Facial Identity Verification",
+      "authors": [
+        "Shahrzad Sayyafzadeh",
+        "Hongmei Chi",
+        "Shonda Bernadin"
+      ],
+      "published": "2026-01-14T19:12:54+00:00",
+      "updated": "2026-01-14T19:12:54+00:00",
+      "summary": "This work presents an end-to-end pipeline for generating, refining, and evaluating adversarial patches to compromise facial biometric systems, with applications in forensic analysis and security testing. We utilize FGSM to generate adversarial noise targeting an identity classifier and employ a diffusion model with reverse diffusion to enhance imperceptibility through Gaussian smoothing and adaptive brightness correction, thereby facilitating synthetic adversarial patch evasion. The refined patch is applied to facial images to test its ability to evade recognition systems while maintaining natural visual characteristics. A Vision Transformer (ViT)-GPT2 model generates captions to provide a semantic description of a person's identity for adversarial images, supporting forensic interpretation and documentation for identity evasion and recognition attacks. The pipeline evaluates changes in identity classification, captioning results, and vulnerabilities in facial identity verification and expression recognition under adversarial conditions. We further demonstrate effective detection and analysis of adversarial patches and adversarial samples using perceptual hashing and segmentation, achieving an SSIM of 0.95.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2601.09806v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "This manuscript is a preprint. A revised version of this work has been accepted for publication in the Springer Nature book Artificial Intelligence-Driven Forensics. This version includes one additional figure for completeness",
+      "entry_id": "http://arxiv.org/abs/2601.09806v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.09806v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.09806v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2601.09633": {
       "title": "TaxoBell: Gaussian Box Embeddings for Self-Supervised Taxonomy Expansion",
       "authors": [
@@ -91886,6 +92002,45 @@
     }
   },
   "Depth Estimation": {
+    "2601.09823": {
+      "title": "NanoSD: Edge Efficient Foundation Model for Real Time Image Restoration",
+      "authors": [
+        "Subhajit Sanyal",
+        "Srinivas Soumitri Miriyala",
+        "Akshay Janardan Bankar",
+        "Sravanth Kodavanti",
+        "Harshit",
+        "Abhishek Ameta",
+        "Shreyas Pandith",
+        "Amit Satish Unde"
+      ],
+      "published": "2026-01-14T19:30:53+00:00",
+      "updated": "2026-01-14T19:30:53+00:00",
+      "summary": "Latent diffusion models such as Stable Diffusion 1.5 offer strong generative priors that are highly valuable for image restoration, yet their full pipelines remain too computationally heavy for deployment on edge devices. Existing lightweight variants predominantly compress the denoising U-Net or reduce the diffusion trajectory, which disrupts the underlying latent manifold and limits generalization beyond a single task. We introduce NanoSD, a family of Pareto-optimal diffusion foundation models distilled from Stable Diffusion 1.5 through network surgery, feature-wise generative distillation, and structured architectural scaling jointly applied to the U-Net and the VAE encoder-decoder. This full-pipeline co-design preserves the generative prior while producing models that occupy distinct operating points along the accuracy-latency-size frontier (e.g., 130M-315M parameters, achieving real-time inference down to 20ms on mobile-class NPUs). We show that parameter reduction alone does not correlate with hardware efficiency, and we provide an analysis revealing how architectural balance, feature routing, and latent-space preservation jointly shape true on-device latency. When used as a drop-in backbone, NanoSD enables state-of-the-art performance across image super-resolution, image deblurring, face restoration, and monocular depth estimation, outperforming prior lightweight diffusion models in both perceptual quality and practical deployability. NanoSD establishes a general-purpose diffusion foundation model family suitable for real-time visual generation and restoration on edge devices.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2601.09823v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Submitted to CVPR 2026",
+      "entry_id": "http://arxiv.org/abs/2601.09823v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.09823v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.09823v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2601.08175": {
       "title": "CogniMap3D: Cognitive 3D Mapping and Rapid Retrieval",
       "authors": [
@@ -92037,8 +92192,8 @@
         "Arun Muthukkumar"
       ],
       "published": "2026-01-07T12:32:39+00:00",
-      "updated": "2026-01-07T12:32:39+00:00",
-      "summary": "Monocular depth estimation has applications in many fields, such as autonomous navigation and extended reality, making it an essential computer vision task. However, current methods often produce smooth depth maps that lack the fine geometric detail needed for accurate scene understanding. We propose MDENeRF, an iterative framework that refines monocular depth estimates using depth information from Neural Radiance Fields (NeRFs). MDENeRF consists of three components: (1) an initial monocular estimate for global structure, (2) a NeRF trained on perturbed viewpoints, with per-pixel uncertainty, and (3) Bayesian fusion of the noisy monocular and NeRF depths. We derive NeRF uncertainty from the volume rendering process to iteratively inject high-frequency fine details. Meanwhile, our monocular prior maintains global structure. We demonstrate superior performance on key metrics and experiments using indoor scenes from the SUN RGB-D dataset.",
+      "updated": "2026-01-15T01:46:55+00:00",
+      "summary": "Monocular depth estimation has applications in many fields, such as autonomous navigation and extended reality, making it an essential computer vision task. However, current methods often produce smooth depth maps that lack the fine geometric detail needed for accurate scene understanding. We propose MDENeRF, an iterative framework that refines monocular depth estimates using depth information from Neural Radiance Fields (NeRFs). MDENeRF consists of three components: (1) an initial monocular estimate for global structure, (2) a NeRF trained on perturbed viewpoints, with per-pixel uncertainty, and (3) Bayesian fusion of the noisy monocular and NeRF depths. We derive NeRF uncertainty from the volume rendering process to iteratively inject high-frequency fine details. Meanwhile, our monocular prior maintains global structure. We demonstrate improvements on key metrics and experiments using indoor scenes from the SUN RGB-D dataset.",
       "categories": [
         "cs.CV",
         "cs.GR",
@@ -92046,20 +92201,20 @@
         "cs.RO"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2601.03869v1",
+      "pdf_url": "https://arxiv.org/pdf/2601.03869v2",
       "journal_ref": null,
       "doi": null,
-      "comment": "IEEE 8th International Conference on Algorithms, Computing and Artificial Intelligence (ACAI 2025). Oral presentation; Best Presenter Award",
-      "entry_id": "http://arxiv.org/abs/2601.03869v1",
+      "comment": "IEEE 8th International Conference on Algorithms, Computing and Artificial Intelligence (ACAI 2025)",
+      "entry_id": "http://arxiv.org/abs/2601.03869v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2601.03869v1",
+          "href": "https://arxiv.org/abs/2601.03869v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2601.03869v1",
+          "href": "https://arxiv.org/pdf/2601.03869v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
