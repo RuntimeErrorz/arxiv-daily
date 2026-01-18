@@ -1,4 +1,4 @@
-## Updated at 2026-01-18 08:21:07
+## Updated at 2026-01-18 10:50:36
 
 ## 3DGS Semantic
 
@@ -24,9 +24,9 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2025-12-03**|**[Motion4D: Learning 3D-Consistent Motion and Semantics for 4D Scene Understanding](https://arxiv.org/abs/2512.03601)**|N/A|Accepted to NeurIPS 2025|cs.CV|None|Haoran Zhou, Gim Hee Lee|
 |**2025-12-03**|**[ShelfGaussian: Shelf-Supervised Open-Vocabulary Gaussian-based 3D Scene Understanding](https://arxiv.org/abs/2512.03370)**|N/A|None|cs.CV|None|Lingjun Zhao et al.|
 |**2025-11-30**|**[LISA-3D: Lifting Language-Image Segmentation to 3D via Multi-View Consistency](https://arxiv.org/abs/2512.01008)**|N/A|None|cs.CV|None|Zhongbin Guo et al.|
-|**2025-11-23**|**[SegSplat: Feed-forward Gaussian Splatting and Open-Set Semantic Segmentation](https://arxiv.org/abs/2511.18386)**|N/A|None|cs.CV|None|Peter Siegel et al.|
-|**2025-11-22**|**[CUS-GS: A Compact Unified Structured Gaussian Splatting Framework for Multimodal Scene Representation](https://arxiv.org/abs/2511.17904)**|N/A|15 pages, 8 figures, 4 tables|cs.CV|None|Yuhang Ming et al.|
-|**2025-11-20**|**[LEGO-SLAM: Language-Embedded Gaussian Optimization SLAM](https://arxiv.org/abs/2511.16144)**|N/A|18 pages|cs.CV|None|Sibaek Lee et al.|
+|**2025-11-23**|**[SegSplat: Feed-forward Gaussian Splatting and Open-Set Semantic Segmentation](https://arxiv.org/abs/2511.18386)**|arXiv.org|None|cs.CV|None|Peter Siegel et al.|
+|**2025-11-22**|**[CUS-GS: A Compact Unified Structured Gaussian Splatting Framework for Multimodal Scene Representation](https://arxiv.org/abs/2511.17904)**|arXiv.org|15 pages, 8 figures, 4 tables|cs.CV|None|Yuhang Ming et al.|
+|**2025-11-20**|**[LEGO-SLAM: Language-Embedded Gaussian Optimization SLAM](https://arxiv.org/abs/2511.16144)**|arXiv.org|18 pages|cs.CV|None|Sibaek Lee et al.|
 |**2025-11-06**|**[CaRF: Enhancing Multi-View Consistency in Referring 3D Gaussian Splatting Segmentation](https://arxiv.org/abs/2511.03992)**|arXiv.org|None|cs.CV|None|Yuwen Tao et al.|
 |**2025-11-04**|**[PercHead: Perceptual Head Model for Single-Image 3D Head Reconstruction & Editing](https://arxiv.org/abs/2511.02777)**|arXiv.org|Project Page: https://antoniooroz.github.io/PercHead/ Video: https://www.youtube.com/watch?v=4hFybgTk4kE|cs.CV|None|Antonio Oroz et al.|
 |**2025-10-30**|**[AgriGS-SLAM: Orchard Mapping Across Seasons via Multi-View Gaussian Splatting SLAM](https://arxiv.org/abs/2510.26358)**|arXiv.org|None|cs.RO|None|Mirko Usuelli et al.|
