@@ -166,26 +166,26 @@
         "Jinjie Gu"
       ],
       "published": "2026-01-11T12:54:54+00:00",
-      "updated": "2026-01-11T12:54:54+00:00",
+      "updated": "2026-01-16T06:33:17+00:00",
       "summary": "Precise localization of GUI elements is crucial for the development of GUI agents. Traditional methods rely on bounding box or center-point regression, neglecting spatial interaction uncertainty and visual-semantic hierarchies. Recent methods incorporate attention mechanisms but still face two key issues: (1) ignoring processing background regions causes attention drift from the desired area, and (2) uniform modeling the target UI element fails to distinguish between its center and edges, leading to click imprecision. Inspired by how humans visually process and interact with GUI elements, we propose the Valley-to-Peak (V2P) method to address these issues. To mitigate background distractions, V2P introduces a suppression attention mechanism that minimizes the model's focus on irrelevant regions to highlight the intended region. For the issue of center-edge distinction, V2P applies a Fitts' Law-inspired approach by modeling GUI interactions as 2D Gaussian heatmaps where the weight gradually decreases from the center towards the edges. The weight distribution follows a Gaussian function, with the variance determined by the target's size. Consequently, V2P effectively isolates the target area and teaches the model to concentrate on the most essential point of the UI element. The model trained by V2P achieves the performance with 92.4\\% and 52.5\\% on two benchmarks ScreenSpot-v2 and ScreenSpot-Pro (see Fig.~\\ref{fig:main_results_charts}). Ablations further confirm each component's contribution, underscoring V2P's generalizability in precise GUI grounding tasks and its potential for real-world deployment in future GUI agents.",
       "categories": [
         "cs.AI"
       ],
       "primary_category": "cs.AI",
-      "pdf_url": "https://arxiv.org/pdf/2601.06899v1",
+      "pdf_url": "https://arxiv.org/pdf/2601.06899v2",
       "journal_ref": null,
       "doi": null,
-      "comment": null,
-      "entry_id": "http://arxiv.org/abs/2601.06899v1",
+      "comment": "This work was intended as a replacement of arXiv:2508.13634 and any subsequent updates will appear there",
+      "entry_id": "http://arxiv.org/abs/2601.06899v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2601.06899v1",
+          "href": "https://arxiv.org/abs/2601.06899v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2601.06899v1",
+          "href": "https://arxiv.org/pdf/2601.06899v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -92005,33 +92005,35 @@
         "Subhajit Sanyal",
         "Srinivas Soumitri Miriyala",
         "Akshay Janardan Bankar",
-        "Sravanth Kodavanti",
-        "Harshit",
-        "Abhishek Ameta",
+        "Manjunath Arveti",
+        "Sowmya Vajrala",
         "Shreyas Pandith",
+        "Sravanth Kodavanti",
+        "Abhishek Ameta",
+        "Harshit",
         "Amit Satish Unde"
       ],
       "published": "2026-01-14T19:30:53+00:00",
-      "updated": "2026-01-14T19:30:53+00:00",
+      "updated": "2026-01-16T07:49:33+00:00",
       "summary": "Latent diffusion models such as Stable Diffusion 1.5 offer strong generative priors that are highly valuable for image restoration, yet their full pipelines remain too computationally heavy for deployment on edge devices. Existing lightweight variants predominantly compress the denoising U-Net or reduce the diffusion trajectory, which disrupts the underlying latent manifold and limits generalization beyond a single task. We introduce NanoSD, a family of Pareto-optimal diffusion foundation models distilled from Stable Diffusion 1.5 through network surgery, feature-wise generative distillation, and structured architectural scaling jointly applied to the U-Net and the VAE encoder-decoder. This full-pipeline co-design preserves the generative prior while producing models that occupy distinct operating points along the accuracy-latency-size frontier (e.g., 130M-315M parameters, achieving real-time inference down to 20ms on mobile-class NPUs). We show that parameter reduction alone does not correlate with hardware efficiency, and we provide an analysis revealing how architectural balance, feature routing, and latent-space preservation jointly shape true on-device latency. When used as a drop-in backbone, NanoSD enables state-of-the-art performance across image super-resolution, image deblurring, face restoration, and monocular depth estimation, outperforming prior lightweight diffusion models in both perceptual quality and practical deployability. NanoSD establishes a general-purpose diffusion foundation model family suitable for real-time visual generation and restoration on edge devices.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2601.09823v1",
+      "pdf_url": "https://arxiv.org/pdf/2601.09823v2",
       "journal_ref": null,
       "doi": null,
       "comment": "Submitted to CVPR 2026",
-      "entry_id": "http://arxiv.org/abs/2601.09823v1",
+      "entry_id": "http://arxiv.org/abs/2601.09823v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2601.09823v1",
+          "href": "https://arxiv.org/abs/2601.09823v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2601.09823v1",
+          "href": "https://arxiv.org/pdf/2601.09823v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
