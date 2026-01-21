@@ -1,4 +1,4 @@
-## Updated at 2026-01-21 08:20:26
+## Updated at 2026-01-21 20:09:52
 
 ## 3DGS Semantic
 
@@ -8,6 +8,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-01-19**|**[GaussExplorer: 3D Gaussian Splatting for Embodied Exploration and Reasoning](https://arxiv.org/abs/2601.13132)**|N/A|Project page: https://gaussexplorer.github.io/|cs.CV|None|Kim Yu-Ji et al.|
 |**2026-01-09**|**[FeatureSLAM: Feature-enriched 3D gaussian splatting SLAM in real time](https://arxiv.org/abs/2601.05738)**|N/A|None|cs.CV|None|Christopher Thirgood et al.|
 |**2026-01-08**|**[ProFuse: Efficient Cross-View Context Fusion for Open-Vocabulary 3D Gaussian Splatting](https://arxiv.org/abs/2601.04754)**|N/A|10 pages, 5 figures|cs.CV|None|Yen-Jen Chiou et al.|
 |**2026-01-05**|**[Joint Semantic and Rendering Enhancements in 3D Gaussian Modeling with Anisotropic Local Encoding](https://arxiv.org/abs/2601.02339)**|N/A|Accepted by ICCV 2025|cs.CV|None|Jingming He et al.|
@@ -185,6 +186,8 @@ Query: (abs:'Multi-View Stereo' OR abs:'Multi View Stereo' OR abs:'Multi-View De
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-01-18**|**[NeuralFur: Animal Fur Reconstruction From Multi-View Images](https://arxiv.org/abs/2601.12481)**|N/A|For additional results and code, please refer to https://neuralfur.is.tue.mpg.de|cs.CV|None|Vanessa Sklyarova et al.|
+|**2026-01-17**|**[DIAMOND-SSS: Diffusion-Augmented Multi-View Optimization for Data-efficient SubSurface Scattering](https://arxiv.org/abs/2601.12020)**|N/A|None|cs.CV|None|Guillermo Figueroa-Araneda et al.|
 |**2026-01-09**|**[GeoSurDepth: Spatial Geometry-Consistent Self-Supervised Depth Estimation for Surround-View Cameras](https://arxiv.org/abs/2601.05839)**|N/A|None|cs.CV|None|Weimin Liu et al.|
 |**2026-01-05**|**[360-GeoGS: Geometrically Consistent Feed-Forward 3D Gaussian Splatting Reconstruction for 360 Images](https://arxiv.org/abs/2601.02102)**|N/A|None|cs.CV|None|Jiaqi Yao et al.|
 |**2025-12-31**|**[3D Semantic Segmentation for Post-Disaster Assessment](https://arxiv.org/abs/2512.24593)**|N/A|Accepted by the 2025 IEEE International Geoscience and Remote Sensing Symposium (IGARSS 2025)|cs.CV|None|Nhut Le, Maryam Rahnemoonfar|
@@ -636,10 +639,12 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-01-16**|**[studentSplat: Your Student Model Learns Single-view 3D Gaussian Splatting](https://arxiv.org/abs/2601.11772)**|N/A|None|cs.CV|None|Yimu Pan et al.|
+|**2026-01-16**|**[SpaRRTa: A Synthetic Benchmark for Evaluating Spatial Intelligence in Visual Foundation Models](https://arxiv.org/abs/2601.11729)**|N/A|Project page is available at https://sparrta.gmum.net/|cs.CV|None|Turhan Can Kargin et al.|
 |**2026-01-14**|**[NanoSD: Edge Efficient Foundation Model for Real Time Image Restoration](https://arxiv.org/abs/2601.09823)**|N/A|Submitted to CVPR 2026|cs.CV|None|Subhajit Sanyal et al.|
 |**2026-01-13**|**[CogniMap3D: Cognitive 3D Mapping and Rapid Retrieval](https://arxiv.org/abs/2601.08175)**|N/A|Project Page: https://github.com/Brack-Wang/cognimap3D|cs.CV|None|Feiran Wang et al.|
 |**2026-01-11**|**[UDPNet: Unleashing Depth-based Priors for Robust Image Dehazing](https://arxiv.org/abs/2601.06909)**|N/A|None|cs.CV|None|Zengyuan Zuo et al.|
-|**2026-01-09**|**[GeoSurDepth: Spatial Geometry-Consistent Self-Supervised Depth Estimation for Surround-View Cameras](https://arxiv.org/abs/2601.05839)**|N/A|None|cs.CV|None|Weimin Liu et al.|
+|**2026-01-09**|**[GeoSurDepth: Harnessing Foundation Model for Spatial Geometry Consistency-Oriented Self-Supervised Surround-View Depth Estimation](https://arxiv.org/abs/2601.05839)**|N/A|None|cs.CV|None|Weimin Liu et al.|
 |**2026-01-08**|**[Pixel-Perfect Visual Geometry Estimation](https://arxiv.org/abs/2601.05246)**|N/A|Code: https://github.com/gangweix/pixel-perfect-depth|cs.CV|None|Gangwei Xu et al.|
 |**2026-01-07**|**[Bayesian Monocular Depth Refinement via Neural Radiance Fields](https://arxiv.org/abs/2601.03869)**|N/A|IEEE 8th International Conference on Algorithms, Computing and Artificial Intelligence (ACAI 2025)|cs.CV|None|Arun Muthukkumar|
 |**2026-01-07**|**[IDESplat: Iterative Depth Probability Estimation for Generalizable 3D Gaussian Splatting](https://arxiv.org/abs/2601.03824)**|N/A|None|cs.CV|None|Wei Long et al.|

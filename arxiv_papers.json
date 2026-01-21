@@ -1,5 +1,329 @@
 {
   "3DGS Semantic": {
+    "2601.13851": {
+      "title": "Inverting Self-Organizing Maps: A Unified Activation-Based Framework",
+      "authors": [
+        "Alessandro Londei",
+        "Matteo Benati",
+        "Denise Lanzieri",
+        "Vittorio Loreto"
+      ],
+      "published": "2026-01-20T11:02:54+00:00",
+      "updated": "2026-01-20T11:02:54+00:00",
+      "summary": "Self-Organizing Maps provide topology-preserving projections of high-dimensional data and have been widely used for visualization, clustering, and vector quantization. In this work, we show that the activation pattern of a SOM - the squared distances to its prototypes - can be inverted to recover the exact input under mild geometric conditions. This follows from a classical fact in Euclidean distance geometry: a point in $D$ dimensions is uniquely determined by its distances to $D{+}1$ affinely independent references. We derive the corresponding linear system and characterize the conditions under which the inversion is well-posed. Building upon this mechanism, we introduce the Manifold-Aware Unified SOM Inversion and Control (MUSIC) update rule, which enables controlled, semantically meaningful trajectories in latent space. MUSIC modifies squared distances to selected prototypes while preserving others, resulting in a deterministic geometric flow aligned with the SOM's piecewise-linear structure. Tikhonov regularization stabilizes the update rule and ensures smooth motion on high-dimensional datasets. Unlike variational or probabilistic generative models, MUSIC does not rely on sampling, latent priors, or encoder-decoder architectures. If no perturbation is applied, inversion recovers the exact input; when a target cluster or prototype is specified, MUSIC produces coherent semantic variations while remaining on the data manifold. This leads to a new perspective on data augmentation and controllable latent exploration based solely on prototype geometry. We validate the approach using synthetic Gaussian mixtures, the MNIST and the Faces in the Wild dataset. Across all settings, MUSIC produces smooth, interpretable trajectories that reveal the underlying geometry of the learned manifold, illustrating the advantages of SOM-based inversion over unsupervised clustering.",
+      "categories": [
+        "cs.LG",
+        "stat.ML"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2601.13851v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2601.13851v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.13851v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.13851v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2601.13706": {
+      "title": "ParkingTwin: Training-Free Streaming 3D Reconstruction for Parking-Lot Digital Twins",
+      "authors": [
+        "Xinhao Liu",
+        "Yu Wang",
+        "Xiansheng Guo",
+        "Gordon Owusu Boateng",
+        "Yu Cao",
+        "Haonan Si",
+        "Xingchen Guo",
+        "Nirwan Ansari"
+      ],
+      "published": "2026-01-20T08:03:58+00:00",
+      "updated": "2026-01-20T08:03:58+00:00",
+      "summary": "High-fidelity parking-lot digital twins provide essential priors for path planning, collision checking, and perception validation in Automated Valet Parking (AVP). Yet robot-oriented reconstruction faces a trilemma: sparse forward-facing views cause weak parallax and ill-posed geometry; dynamic occlusions and extreme lighting hinder stable texture fusion; and neural rendering typically needs expensive offline optimization, violating edge-side streaming constraints. We propose ParkingTwin, a training-free, lightweight system for online streaming 3D reconstruction. First, OSM-prior-driven geometric construction uses OpenStreetMap semantic topology to directly generate a metric-consistent TSDF, replacing blind geometric search with deterministic mapping and avoiding costly optimization. Second, geometry-aware dynamic filtering employs a quad-modal constraint field (normal/height/depth consistency) to reject moving vehicles and transient occlusions in real time. Third, illumination-robust fusion in CIELAB decouples luminance and chromaticity via adaptive L-channel weighting and depth-gradient suppression, reducing seams under abrupt lighting changes. ParkingTwin runs at 30+ FPS on an entry-level GTX 1660. On a 68,000 m^2 real-world dataset, it achieves SSIM 0.87 (+16.0%), delivers about 15x end-to-end speedup, and reduces GPU memory by 83.3% compared with state-of-the-art 3D Gaussian Splatting (3DGS) that typically requires high-end GPUs (RTX 4090D). The system outputs explicit triangle meshes compatible with Unity/Unreal digital-twin pipelines. Project page: https://mihoutao-liu.github.io/ParkingTwin/",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2601.13706v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "35 pages, 10 figures. Submitted to ISPRS Journal of Photogrammetry and Remote Sensing. Under review",
+      "entry_id": "http://arxiv.org/abs/2601.13706v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.13706v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.13706v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2601.13357": {
+      "title": "On the Relation of State Space Models and Hidden Markov Models",
+      "authors": [
+        "Aydin Ghojogh",
+        "M. Hadi Sepanj",
+        "Benyamin Ghojogh"
+      ],
+      "published": "2026-01-19T19:51:05+00:00",
+      "updated": "2026-01-19T19:51:05+00:00",
+      "summary": "State Space Models (SSMs) and Hidden Markov Models (HMMs) are foundational frameworks for modeling sequential data with latent variables and are widely used in signal processing, control theory, and machine learning. Despite their shared temporal structure, they differ fundamentally in the nature of their latent states, probabilistic assumptions, inference procedures, and training paradigms. Recently, deterministic state space models have re-emerged in natural language processing through architectures such as S4 and Mamba, raising new questions about the relationship between classical probabilistic SSMs, HMMs, and modern neural sequence models.\n  In this paper, we present a unified and systematic comparison of HMMs, linear Gaussian state space models, Kalman filtering, and contemporary NLP state space models. We analyze their formulations through the lens of probabilistic graphical models, examine their inference algorithms -- including forward-backward inference and Kalman filtering -- and contrast their learning procedures via Expectation-Maximization and gradient-based optimization. By highlighting both structural similarities and semantic differences, we clarify when these models are equivalent, when they fundamentally diverge, and how modern NLP SSMs relate to classical probabilistic models. Our analysis bridges perspectives from control theory, probabilistic modeling, and modern deep learning.",
+      "categories": [
+        "cs.LG",
+        "cs.CL",
+        "eess.AS",
+        "eess.SY"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2601.13357v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2601.13357v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.13357v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.13357v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2601.13132": {
+      "title": "GaussExplorer: 3D Gaussian Splatting for Embodied Exploration and Reasoning",
+      "authors": [
+        "Kim Yu-Ji",
+        "Dahye Lee",
+        "Kim Jun-Seong",
+        "GeonU Kim",
+        "Nam Hyeon-Woo",
+        "Yongjin Kwon",
+        "Yu-Chiang Frank Wang",
+        "Jaesung Choe",
+        "Tae-Hyun Oh"
+      ],
+      "published": "2026-01-19T15:17:58+00:00",
+      "updated": "2026-01-19T15:17:58+00:00",
+      "summary": "We present GaussExplorer, a framework for embodied exploration and reasoning built on 3D Gaussian Splatting (3DGS). While prior approaches to language-embedded 3DGS have made meaningful progress in aligning simple text queries with Gaussian embeddings, they are generally optimized for relatively simple queries and struggle to interpret more complex, compositional language queries. Alternative studies based on object-centric RGB-D structured memories provide spatial grounding but are constrained by pre-fixed viewpoints. To address these issues, GaussExplorer introduces Vision-Language Models (VLMs) on top of 3DGS to enable question-driven exploration and reasoning within 3D scenes. We first identify pre-captured images that are most correlated with the query question, and subsequently adjust them into novel viewpoints to more accurately capture visual information for better reasoning by VLMs. Experiments show that ours outperforms existing methods on several benchmarks, demonstrating the effectiveness of integrating VLM-based reasoning with 3DGS for embodied tasks.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2601.13132v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Project page: https://gaussexplorer.github.io/",
+      "entry_id": "http://arxiv.org/abs/2601.13132v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.13132v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.13132v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2601.12814": {
+      "title": "CSGaussian: Progressive Rate-Distortion Compression and Segmentation for 3D Gaussian Splatting",
+      "authors": [
+        "Yu-Jen Tseng",
+        "Chia-Hao Kao",
+        "Jing-Zhong Chen",
+        "Alessandro Gnutti",
+        "Shao-Yuan Lo",
+        "Yen-Yu Lin",
+        "Wen-Hsiao Peng"
+      ],
+      "published": "2026-01-19T08:21:45+00:00",
+      "updated": "2026-01-19T08:21:45+00:00",
+      "summary": "We present the first unified framework for rate-distortion-optimized compression and segmentation of 3D Gaussian Splatting (3DGS). While 3DGS has proven effective for both real-time rendering and semantic scene understanding, prior works have largely treated these tasks independently, leaving their joint consideration unexplored. Inspired by recent advances in rate-distortion-optimized 3DGS compression, this work integrates semantic learning into the compression pipeline to support decoder-side applications--such as scene editing and manipulation--that extend beyond traditional scene reconstruction and view synthesis. Our scheme features a lightweight implicit neural representation-based hyperprior, enabling efficient entropy coding of both color and semantic attributes while avoiding costly grid-based hyperprior as seen in many prior works. To facilitate compression and segmentation, we further develop compression-guided segmentation learning, consisting of quantization-aware training to enhance feature separability and a quality-aware weighting mechanism to suppress unreliable Gaussian primitives. Extensive experiments on the LERF and 3D-OVS datasets demonstrate that our approach significantly reduces transmission cost while preserving high rendering quality and strong segmentation performance.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2601.12814v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted at WACV 2026",
+      "entry_id": "http://arxiv.org/abs/2601.12814v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.12814v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.12814v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2601.12683": {
+      "title": "GaussianTrimmer: Online Trimming Boundaries for 3DGS Segmentation",
+      "authors": [
+        "Liwei Liao",
+        "Ronggang Wang"
+      ],
+      "published": "2026-01-19T03:03:54+00:00",
+      "updated": "2026-01-19T03:03:54+00:00",
+      "summary": "With the widespread application of 3D Gaussians in 3D scene representation, 3D scene segmentation methods based on 3D Gaussians have also gradually emerged. However, existing 3D Gaussian segmentation methods basically segment on the basis of Gaussian primitives. Due to the large variation range of the scale of 3D Gaussians, large-sized Gaussians that often span the foreground and background lead to jagged boundaries of segmented objects. To this end, we propose an online boundary trimming method, GaussianTrimmer, which is an efficient and plug-and-play post-processing method capable of trimming coarse boundaries for existing 3D Gaussian segmentation methods. Our method consists of two core steps: 1. Generating uniformly and well-covered virtual cameras; 2. Trimming Gaussian at the primitive level based on 2D segmentation results on virtual cameras. Extensive quantitative and qualitative experiments demonstrate that our method can improve the segmentation quality of existing 3D Gaussian segmentation methods as a plug-and-play method.",
+      "categories": [
+        "cs.CV",
+        "eess.IV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2601.12683v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2601.12683v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.12683v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.12683v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2601.12554": {
+      "title": "Artificial Intelligence in Materials Science and Engineering: Current Landscape, Key Challenges, and Future Trajectorie",
+      "authors": [
+        "Iman Peivaste",
+        "Salim Belouettar",
+        "Francesco Mercuri",
+        "Nicholas Fantuzzi",
+        "Hamidreza Dehghani",
+        "Razieh Izadi",
+        "Halliru Ibrahim",
+        "Jakub Lengiewicz",
+        "Maël Belouettar-Mathis",
+        "Kouider Bendine",
+        "Ahmed Makradi",
+        "Martin Hörsch",
+        "Peter Klein",
+        "Mohamed El Hachemi",
+        "Heinz A. Preisig",
+        "Yacine Rezgui",
+        "Natalia Konchakova",
+        "Ali Daouadji"
+      ],
+      "published": "2026-01-18T19:36:10+00:00",
+      "updated": "2026-01-18T19:36:10+00:00",
+      "summary": "Artificial Intelligence is rapidly transforming materials science and engineering, offering powerful tools to navigate complexity, accelerate discovery, and optimize material design in ways previously unattainable. Driven by the accelerating pace of algorithmic advancements and increasing data availability, AI is becoming an essential competency for materials researchers. This review provides a comprehensive and structured overview of the current landscape, synthesizing recent advancements and methodologies for materials scientists seeking to effectively leverage these data-driven techniques. We survey the spectrum of machine learning approaches, from traditional algorithms to advanced deep learning architectures, including CNNs, GNNs, and Transformers, alongside emerging generative AI and probabilistic models such as Gaussian Processes for uncertainty quantification. The review also examines the pivotal role of data in this field, emphasizing how effective representation and featurization strategies, spanning compositional, structural, image-based, and language-inspired approaches, combined with appropriate preprocessing, fundamentally underpin the performance of machine learning models in materials research. Persistent challenges related to data quality, quantity, and standardization, which critically impact model development and application in materials science and engineering, are also addressed.",
+      "categories": [
+        "cond-mat.mtrl-sci",
+        "cs.AI",
+        "physics.comp-ph",
+        "quant-ph"
+      ],
+      "primary_category": "cond-mat.mtrl-sci",
+      "pdf_url": "https://arxiv.org/pdf/2601.12554v1",
+      "journal_ref": null,
+      "doi": "10.1016/j.compstruct.2025.119419",
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2601.12554v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.12554v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.12554v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        },
+        {
+          "href": "https://doi.org/10.1016/j.compstruct.2025.119419",
+          "title": "doi",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2601.12122": {
+      "title": "Active Semantic Mapping of Horticultural Environments Using Gaussian Splatting",
+      "authors": [
+        "Jose Cuaran",
+        "Naveen K. Upalapati",
+        "Girish Chowdhary"
+      ],
+      "published": "2026-01-17T17:46:07+00:00",
+      "updated": "2026-01-17T17:46:07+00:00",
+      "summary": "Semantic reconstruction of agricultural scenes plays a vital role in tasks such as phenotyping and yield estimation. However, traditional approaches that rely on manual scanning or fixed camera setups remain a major bottleneck in this process. In this work, we propose an active 3D reconstruction framework for horticultural environments using a mobile manipulator. The proposed system integrates the classical Octomap representation with 3D Gaussian Splatting to enable accurate and efficient target-aware mapping. While a low-resolution Octomap provides probabilistic occupancy information for informative viewpoint selection and collision-free planning, 3D Gaussian Splatting leverages geometric, photometric, and semantic information to optimize a set of 3D Gaussians for high-fidelity scene reconstruction. We further introduce simple yet effective strategies to enhance robustness against segmentation noise and reduce memory consumption. Simulation experiments demonstrate that our method outperforms purely occupancy-based approaches in both runtime efficiency and reconstruction accuracy, enabling precise fruit counting and volume estimation. Compared to a 0.01m-resolution Octomap, our approach achieves an improvement of 6.6% in fruit-level F1 score under noise-free conditions, and up to 28.6% under segmentation noise. Additionally, it achieves a 50% reduction in runtime, highlighting its potential for scalable, real-time semantic reconstruction in agricultural robotics.",
+      "categories": [
+        "cs.RO"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2601.12122v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "9 pages, 4 figures",
+      "entry_id": "http://arxiv.org/abs/2601.12122v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.12122v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.12122v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2601.10384": {
       "title": "RSA-Bench: Benchmarking Audio Large Models in Real-World Acoustic Scenarios",
       "authors": [
@@ -580,26 +904,26 @@
         "Yuan-Fu Yang"
       ],
       "published": "2026-01-08T09:20:46+00:00",
-      "updated": "2026-01-08T09:20:46+00:00",
-      "summary": "We present ProFuse, an efficient context-aware framework for open-vocabulary 3D scene understanding with 3D Gaussian Splatting (3DGS). The pipeline enhances cross-view consistency and intra-mask cohesion within a direct registration setup, adding minimal overhead and requiring no render-supervised fine-tuning. Instead of relying on a pretrained 3DGS scene, we introduce a dense correspondence-guided pre-registration phase that initializes Gaussians with accurate geometry while jointly constructing 3D Context Proposals via cross-view clustering. Each proposal carries a global feature obtained through weighted aggregation of member embeddings, and this feature is fused onto Gaussians during direct registration to maintain per-primitive language coherence across views. With associations established in advance, semantic fusion requires no additional optimization beyond standard reconstruction, and the model retains geometric refinement without densification. ProFuse achieves strong open-vocabulary 3DGS understanding while completing semantic attachment in about five minutes per scene, which is two times faster than SOTA.",
+      "updated": "2026-01-18T18:27:55+00:00",
+      "summary": "We present ProFuse, an efficient context-aware framework for open-vocabulary 3D scene understanding with 3D Gaussian Splatting (3DGS). The pipeline enhances cross-view consistency and intra-mask cohesion within a direct registration setup, adding minimal overhead and requiring no render-supervised fine-tuning. Instead of relying on a pretrained 3DGS scene, we introduce a dense correspondence-guided pre-registration phase that initializes Gaussians with accurate geometry while jointly constructing 3D Context Proposals via cross-view clustering. Each proposal carries a global feature obtained through weighted aggregation of member embeddings, and this feature is fused onto Gaussians during direct registration to maintain per-primitive language coherence across views. With associations established in advance, semantic fusion requires no additional optimization beyond standard reconstruction, and the model retains geometric refinement without densification. ProFuse achieves strong open-vocabulary 3DGS understanding while completing semantic attachment in about five minutes per scene, which is two times faster than SOTA. Additional details are available at our project page https://chiou1203.github.io/ProFuse/.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2601.04754v1",
+      "pdf_url": "https://arxiv.org/pdf/2601.04754v2",
       "journal_ref": null,
       "doi": null,
       "comment": "10 pages, 5 figures",
-      "entry_id": "http://arxiv.org/abs/2601.04754v1",
+      "entry_id": "http://arxiv.org/abs/2601.04754v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2601.04754v1",
+          "href": "https://arxiv.org/abs/2601.04754v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2601.04754v1",
+          "href": "https://arxiv.org/pdf/2601.04754v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -1001,26 +1325,26 @@
         "Yongsheng Liang"
       ],
       "published": "2026-01-05T02:05:40+00:00",
-      "updated": "2026-01-05T02:05:40+00:00",
+      "updated": "2026-01-20T16:50:22+00:00",
       "summary": "To address the challenges of wireless video transmission over multipath fading channels, we propose a robust deep joint source-channel coding (DeepJSCC) framework by effectively exploiting temporal redundancy and incorporating robust innovations at the modulation, coding, and decoding stages. At the modulation stage, tailored orthogonal frequency division multiplexing (OFDM) for robust video transmission is employed, decomposing wideband signals into orthogonal frequency-flat sub-channels to effectively mitigate frequency-selective fading. At the coding stage, conditional contextual coding with multi-scale Gaussian warped features is introduced to efficiently model temporal redundancy, significantly improving reconstruction quality under strict bandwidth constraints. At the decoding stage, a lightweight denoising module is integrated to robustly simplify signal restoration and accelerate convergence, addressing the suboptimality and slow convergence typically associated with simultaneously performing channel estimation, equalization, and semantic reconstruction. Experimental results demonstrate that the proposed robust framework significantly outperforms state-of-the-art video DeepJSCC methods, achieving an average reconstruction quality gain of 5.13 dB under challenging multipath fading channel conditions.",
       "categories": [
         "eess.IV"
       ],
       "primary_category": "eess.IV",
-      "pdf_url": "https://arxiv.org/pdf/2601.01729v1",
+      "pdf_url": "https://arxiv.org/pdf/2601.01729v2",
       "journal_ref": null,
       "doi": null,
       "comment": "6 pages, 6 figures. Accepted by IEEE GLOBECOM 2025. This version is the author preprint",
-      "entry_id": "http://arxiv.org/abs/2601.01729v1",
+      "entry_id": "http://arxiv.org/abs/2601.01729v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2601.01729v1",
+          "href": "https://arxiv.org/abs/2601.01729v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2601.01729v1",
+          "href": "https://arxiv.org/pdf/2601.01729v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -75471,6 +75795,81 @@
     }
   },
   "MVS": {
+    "2601.12481": {
+      "title": "NeuralFur: Animal Fur Reconstruction From Multi-View Images",
+      "authors": [
+        "Vanessa Sklyarova",
+        "Berna Kabadayi",
+        "Anastasios Yiannakidis",
+        "Giorgio Becherini",
+        "Michael J. Black",
+        "Justus Thies"
+      ],
+      "published": "2026-01-18T16:46:38+00:00",
+      "updated": "2026-01-18T16:46:38+00:00",
+      "summary": "Reconstructing realistic animal fur geometry from images is a challenging task due to the fine-scale details, self-occlusion, and view-dependent appearance of fur. In contrast to human hairstyle reconstruction, there are also no datasets that can be leveraged to learn a fur prior for different animals. In this work, we present a first multi-view-based method for high-fidelity 3D fur modeling of animals using a strand-based representation, leveraging the general knowledge of a vision language model. Given multi-view RGB images, we first reconstruct a coarse surface geometry using traditional multi-view stereo techniques. We then use a vision language model (VLM) system to retrieve information about the realistic length structure of the fur for each part of the body. We use this knowledge to construct the animal's furless geometry and grow strands atop it. The fur reconstruction is supervised with both geometric and photometric losses computed from multi-view images. To mitigate orientation ambiguities stemming from the Gabor filters that are applied to the input images, we additionally utilize the VLM to guide the strands' growth direction and their relation to the gravity vector that we incorporate as a loss. With this new schema of using a VLM to guide 3D reconstruction from multi-view inputs, we show generalization across a variety of animals with different fur types. For additional results and code, please refer to https://neuralfur.is.tue.mpg.de.",
+      "categories": [
+        "cs.CV",
+        "cs.GR"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2601.12481v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "For additional results and code, please refer to https://neuralfur.is.tue.mpg.de",
+      "entry_id": "http://arxiv.org/abs/2601.12481v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.12481v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.12481v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2601.12020": {
+      "title": "DIAMOND-SSS: Diffusion-Augmented Multi-View Optimization for Data-efficient SubSurface Scattering",
+      "authors": [
+        "Guillermo Figueroa-Araneda",
+        "Iris Diana Jimenez",
+        "Florian Hofherr",
+        "Manny Ko",
+        "Hector Andrade-Loarca",
+        "Daniel Cremers"
+      ],
+      "published": "2026-01-17T12:02:14+00:00",
+      "updated": "2026-01-17T12:02:14+00:00",
+      "summary": "Subsurface scattering (SSS) gives translucent materials -- such as wax, jade, marble, and skin -- their characteristic soft shadows, color bleeding, and diffuse glow. Modeling these effects in neural rendering remains challenging due to complex light transport and the need for densely captured multi-view, multi-light datasets (often more than 100 views and 112 OLATs).\n  We present DIAMOND-SSS, a data-efficient framework for high-fidelity translucent reconstruction from extremely sparse supervision -- even as few as ten images. We fine-tune diffusion models for novel-view synthesis and relighting, conditioned on estimated geometry and trained on less than 7 percent of the dataset, producing photorealistic augmentations that can replace up to 95 percent of missing captures. To stabilize reconstruction under sparse or synthetic supervision, we introduce illumination-independent geometric priors: a multi-view silhouette consistency loss and a multi-view depth consistency loss.\n  Across all sparsity regimes, DIAMOND-SSS achieves state-of-the-art quality in relightable Gaussian rendering, reducing real capture requirements by up to 90 percent compared to SSS-3DGS.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2601.12020v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2601.12020v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.12020v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.12020v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2601.05839": {
       "title": "GeoSurDepth: Spatial Geometry-Consistent Self-Supervised Depth Estimation for Surround-View Cameras",
       "authors": [
@@ -91999,6 +92398,78 @@
     }
   },
   "Depth Estimation": {
+    "2601.11772": {
+      "title": "studentSplat: Your Student Model Learns Single-view 3D Gaussian Splatting",
+      "authors": [
+        "Yimu Pan",
+        "Hongda Mao",
+        "Qingshuang Chen",
+        "Yelin Kim"
+      ],
+      "published": "2026-01-16T20:56:14+00:00",
+      "updated": "2026-01-16T20:56:14+00:00",
+      "summary": "Recent advance in feed-forward 3D Gaussian splatting has enable remarkable multi-view 3D scene reconstruction or single-view 3D object reconstruction but single-view 3D scene reconstruction remain under-explored due to inherited ambiguity in single-view. We present \\textbf{studentSplat}, a single-view 3D Gaussian splatting method for scene reconstruction. To overcome the scale ambiguity and extrapolation problems inherent in novel-view supervision from a single input, we introduce two techniques: 1) a teacher-student architecture where a multi-view teacher model provides geometric supervision to the single-view student during training, addressing scale ambiguity and encourage geometric validity; and 2) an extrapolation network that completes missing scene context, enabling high-quality extrapolation. Extensive experiments show studentSplat achieves state-of-the-art single-view novel-view reconstruction quality and comparable performance to multi-view methods at the scene level. Furthermore, studentSplat demonstrates competitive performance as a self-supervised single-view depth estimation method, highlighting its potential for general single-view 3D understanding tasks.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2601.11772v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2601.11772v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.11772v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.11772v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2601.11729": {
+      "title": "SpaRRTa: A Synthetic Benchmark for Evaluating Spatial Intelligence in Visual Foundation Models",
+      "authors": [
+        "Turhan Can Kargin",
+        "Wojciech Jasiński",
+        "Adam Pardyl",
+        "Bartosz Zieliński",
+        "Marcin Przewięźlikowski"
+      ],
+      "published": "2026-01-16T19:21:02+00:00",
+      "updated": "2026-01-16T19:21:02+00:00",
+      "summary": "Visual Foundation Models (VFMs), such as DINO and CLIP, excel in semantic understanding of images but exhibit limited spatial reasoning capabilities, which limits their applicability to embodied systems. As a result, recent work incorporates some 3D tasks (such as depth estimation) into VFM training. However, VFM performance remains inconsistent across other spatial tasks, raising the question of whether these models truly have spatial awareness or overfit to specific 3D objectives. To address this question, we introduce the Spatial Relation Recognition Task (SpaRRTa) benchmark, which evaluates the ability of VFMs to identify relative positions of objects in the image. Unlike traditional 3D objectives that focus on precise metric prediction (e.g., surface normal estimation), SpaRRTa probes a fundamental capability underpinning more advanced forms of human-like spatial understanding. SpaRRTa generates an arbitrary number of photorealistic images with diverse scenes and fully controllable object arrangements, along with freely accessible spatial annotations. Evaluating a range of state-of-the-art VFMs, we reveal significant disparities between their spatial reasoning abilities. Through our analysis, we provide insights into the mechanisms that support or hinder spatial awareness in modern VFMs. We hope that SpaRRTa will serve as a useful tool for guiding the development of future spatially aware visual models.",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2601.11729v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Project page is available at https://sparrta.gmum.net/",
+      "entry_id": "http://arxiv.org/abs/2601.11729v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.11729v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.11729v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2601.09823": {
       "title": "NanoSD: Edge Efficient Foundation Model for Real Time Image Restoration",
       "authors": [
@@ -92085,26 +92556,26 @@
         "Xianming Liu"
       ],
       "published": "2026-01-11T13:29:02+00:00",
-      "updated": "2026-01-11T13:29:02+00:00",
-      "summary": "Image dehazing has witnessed significant advancements with the development of deep learning models. However, a few methods predominantly focus on single-modal RGB features, neglecting the inherent correlation between scene depth and haze distribution. Even those that jointly optimize depth estimation and image dehazing often suffer from suboptimal performance due to inadequate utilization of accurate depth information. In this paper, we present UDPNet, a general framework that leverages depth-based priors from large-scale pretrained depth estimation model DepthAnything V2 to boost existing image dehazing models. Specifically, our architecture comprises two typical components: the Depth-Guided Attention Module (DGAM) adaptively modulates features via lightweight depth-guided channel attention, and the Depth Prior Fusion Module (DPFM) enables hierarchical fusion of multi-scale depth map features by dual sliding-window multi-head cross-attention mechanism. These modules ensure both computational efficiency and effective integration of depth priors. Moreover, the intrinsic robustness of depth priors empowers the network to dynamically adapt to varying haze densities, illumination conditions, and domain gaps across synthetic and real-world data. Extensive experimental results demonstrate the effectiveness of our UDPNet, outperforming the state-of-the-art methods on popular dehazing datasets, such as 0.85 dB PSNR improvement on the SOTS dataset, 1.19 dB on the Haze4K dataset and 1.79 dB PSNR on the NHR dataset. Our proposed solution establishes a new benchmark for depth-aware dehazing across various scenarios. Pretrained models and codes will be released at our project https://github.com/Harbinzzy/UDPNet.",
+      "updated": "2026-01-18T07:53:45+00:00",
+      "summary": "Image dehazing has witnessed significant advancements with the development of deep learning models. However, most existing methods focus solely on single-modal RGB features, neglecting the inherent correlation between scene depth and haze distribution. Even those that jointly optimize depth estimation and image dehazing often suffer from suboptimal performance due to inadequate utilization of accurate depth information. In this paper, we present UDPNet, a general framework that leverages depth-based priors from a large-scale pretrained depth estimation model DepthAnything V2 to boost existing image dehazing models. Specifically, our architecture comprises two key components: the Depth-Guided Attention Module (DGAM) adaptively modulates features via lightweight depth-guided channel attention, and the Depth Prior Fusion Module (DPFM) enables hierarchical fusion of multi-scale depth map features by dual sliding-window multi-head cross-attention mechanism. These modules ensure both computational efficiency and effective integration of depth priors. Moreover, the depth priors empower the network to dynamically adapt to varying haze densities, illumination conditions, and domain gaps across synthetic and real-world data. Extensive experimental results demonstrate the effectiveness of our UDPNet, outperforming the state-of-the-art methods on popular dehazing datasets, with PSNR improvements of 0.85 dB on SOTS-indoor, 1.19 dB on Haze4K, and 1.79 dB on NHR. Our proposed solution establishes a new benchmark for depth-aware dehazing across various scenarios. Pretrained models and codes are released at our project https://github.com/Harbinzzy/UDPNet.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2601.06909v1",
+      "pdf_url": "https://arxiv.org/pdf/2601.06909v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2601.06909v1",
+      "entry_id": "http://arxiv.org/abs/2601.06909v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2601.06909v1",
+          "href": "https://arxiv.org/abs/2601.06909v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2601.06909v1",
+          "href": "https://arxiv.org/pdf/2601.06909v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -92112,33 +92583,33 @@
       ]
     },
     "2601.05839": {
-      "title": "GeoSurDepth: Spatial Geometry-Consistent Self-Supervised Depth Estimation for Surround-View Cameras",
+      "title": "GeoSurDepth: Harnessing Foundation Model for Spatial Geometry Consistency-Oriented Self-Supervised Surround-View Depth Estimation",
       "authors": [
         "Weimin Liu",
         "Wenjun Wang",
         "Joshua H. Meng"
       ],
       "published": "2026-01-09T15:13:28+00:00",
-      "updated": "2026-01-09T15:13:28+00:00",
-      "summary": "Accurate surround-view depth estimation provides a competitive alternative to laser-based sensors and is essential for 3D scene understanding in autonomous driving. While prior studies have proposed various approaches that primarily focus on enforcing cross-view constraints at the photometric level, few explicitly exploit the rich geometric structure inherent in both monocular and surround-view setting. In this work, we propose GeoSurDepth, a framework that leverages geometry consistency as the primary cue for surround-view depth estimation. Concretely, we utilize foundation models as a pseudo geometry prior and feature representation enhancement tool to guide the network to maintain surface normal consistency in spatial 3D space and regularize object- and texture-consistent depth estimation in 2D. In addition, we introduce a novel view synthesis pipeline where 2D-3D lifting is achieved with dense depth reconstructed via spatial warping, encouraging additional photometric supervision across temporal, spatial, and spatial-temporal contexts, and compensating for the limitations of single-view image reconstruction. Finally, a newly-proposed adaptive joint motion learning strategy enables the network to adaptively emphasize informative spatial geometry cues for improved motion reasoning. Extensive experiments on DDAD and nuScenes demonstrate that GeoSurDepth achieves state-of-the-art performance, validating the effectiveness of our approach. Our framework highlights the importance of exploiting geometry coherence and consistency for robust self-supervised multi-view depth estimation.",
+      "updated": "2026-01-20T10:06:12+00:00",
+      "summary": "Accurate surround-view depth estimation provides a competitive alternative to laser-based sensors and is essential for 3D scene understanding in autonomous driving. While empirical studies have proposed various approaches that primarily focus on enforcing cross-view constraints at photometric level, few explicitly exploit the rich geometric structure inherent in both monocular and surround-view setting. In this work, we propose GeoSurDepth, a framework that leverages geometry consistency as the primary cue for surround-view depth estimation. Concretely, we utilize vision foundation models as pseudo geometry priors and feature representation enhancement tool to guide the network to maintain surface normal consistency in spatial 3D space and regularize object- and texture-consistent depth estimation in 2D. In addition, we introduce a novel view synthesis pipeline where 2D-3D lifting is achieved with dense depth reconstructed via spatial warping, encouraging additional photometric supervision across temporal and spatial contexts, and compensating for the limitations of target-view image reconstruction. Finally, a newly-proposed adaptive joint motion learning strategy enables the network to adaptively emphasize informative spatial geometry cues for improved motion reasoning. Extensive experiments on KITTI, DDAD and nuScenes demonstrate that GeoSurDepth achieves SoTA performance, validating the effectiveness of our approach. Our framework highlights the importance of exploiting geometry coherence and consistency for robust self-supervised depth estimation.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2601.05839v1",
+      "pdf_url": "https://arxiv.org/pdf/2601.05839v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2601.05839v1",
+      "entry_id": "http://arxiv.org/abs/2601.05839v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2601.05839v1",
+          "href": "https://arxiv.org/abs/2601.05839v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2601.05839v1",
+          "href": "https://arxiv.org/pdf/2601.05839v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -92231,27 +92702,27 @@
         "Shuhang Gu"
       ],
       "published": "2026-01-07T11:37:57+00:00",
-      "updated": "2026-01-07T11:37:57+00:00",
+      "updated": "2026-01-20T09:26:48+00:00",
       "summary": "Generalizable 3D Gaussian Splatting aims to directly predict Gaussian parameters using a feed-forward network for scene reconstruction. Among these parameters, Gaussian means are particularly difficult to predict, so depth is usually estimated first and then unprojected to obtain the Gaussian sphere centers. Existing methods typically rely solely on a single warp to estimate depth probability, which hinders their ability to fully leverage cross-view geometric cues, resulting in unstable and coarse depth maps. To address this limitation, we propose IDESplat, which iteratively applies warp operations to boost depth probability estimation for accurate Gaussian mean prediction. First, to eliminate the inherent instability of a single warp, we introduce a Depth Probability Boosting Unit (DPBU) that integrates epipolar attention maps produced by cascading warp operations in a multiplicative manner. Next, we construct an iterative depth estimation process by stacking multiple DPBUs, progressively identifying potential depth candidates with high likelihood. As IDESplat iteratively boosts depth probability estimates and updates the depth candidates, the depth map is gradually refined, resulting in accurate Gaussian means. We conduct experiments on RealEstate10K, ACID, and DL3DV. IDESplat achieves outstanding reconstruction quality and state-of-the-art performance with real-time efficiency. On RE10K, it outperforms DepthSplat by 0.33 dB in PSNR, using only 10.7% of the parameters and 70% of the memory. Additionally, our IDESplat improves PSNR by 2.95 dB over DepthSplat on the DTU dataset in cross-dataset experiments, demonstrating its strong generalization ability.",
       "categories": [
         "cs.CV",
         "cs.AI"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2601.03824v1",
+      "pdf_url": "https://arxiv.org/pdf/2601.03824v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2601.03824v1",
+      "entry_id": "http://arxiv.org/abs/2601.03824v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2601.03824v1",
+          "href": "https://arxiv.org/abs/2601.03824v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2601.03824v1",
+          "href": "https://arxiv.org/pdf/2601.03824v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
