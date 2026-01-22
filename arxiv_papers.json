@@ -1,5 +1,185 @@
 {
   "3DGS Semantic": {
+    "2601.15167": {
+      "title": "DeGAS: Gradient-Based Optimization of Probabilistic Programs without Sampling",
+      "authors": [
+        "Francesca Randone",
+        "Romina Doz",
+        "Mirco Tribastone",
+        "Luca Bortolussi"
+      ],
+      "published": "2026-01-21T16:45:10+00:00",
+      "updated": "2026-01-21T16:45:10+00:00",
+      "summary": "We present DeGAS, a differentiable Gaussian approximate semantics for loopless probabilistic programs that enables sample-free, gradient-based optimization in models with both continuous and discrete components. DeGAS evaluates programs under a Gaussian-mixture semantics and replaces measure-zero predicates and discrete branches with a vanishing smoothing, yielding closed-form expressions for posterior and path probabilities. We prove differentiability of these quantities with respect to program parameters, enabling end-to-end optimization via standard automatic differentiation, without Monte Carlo estimators. On thirteen benchmark programs, DeGAS achieves accuracy and runtime competitive with variational inference and MCMC. Importantly, it reliably tackles optimization problems where sampling-based baselines fail to converge due to conditioning involving continuous variables.",
+      "categories": [
+        "cs.PL"
+      ],
+      "primary_category": "cs.PL",
+      "pdf_url": "https://arxiv.org/pdf/2601.15167v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2601.15167v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.15167v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.15167v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2601.14937": {
+      "title": "Geostatistics from Elliptic Boundary-Value Problems: Green Operators, Transmission Conditions, and Schur Complements",
+      "authors": [
+        "Juan J. Segura"
+      ],
+      "published": "2026-01-21T12:31:31+00:00",
+      "updated": "2026-01-21T12:31:31+00:00",
+      "summary": "Classical geostatistics encodes spatial dependence by prescribing variograms or covariance kernels on Euclidean domains, whereas the SPDE--GMRF paradigm specifies Gaussian fields through an elliptic precision operator whose inverse is the corresponding Green operator. We develop an operator-based formulation of Gaussian spatial random fields on bounded domains and manifolds with internal interfaces, treating boundary and transmission conditions as explicit components of the statistical model. Starting from coercive quadratic energy functionals, variational theory yields a precise precision--covariance correspondence and shows that variograms are derived quadratic functionals of the Green operator, hence depend on boundary conditions and domain geometry. Conditioning and kriging follow from standard Gaussian update identities in both covariance and precision form, with hard constraints represented equivalently by exact interpolation constraints or by distributional source terms. Interfaces are modelled via surface penalty terms; taking variations produces flux-jump transmission conditions and induces controlled attenuation of cross-interface covariance. Finally, boundary-driven prediction and domain reduction are formulated through Dirichlet-to-Neumann operators and Schur complements, providing an operator language for upscaling, change of support, and subdomain-to-boundary mappings. Throughout, we use tools standard in spatial statistics and elliptic PDE theory to keep boundary and interface effects explicit in covariance modeling and prediction.",
+      "categories": [
+        "stat.ME",
+        "math.ST",
+        "stat.AP"
+      ],
+      "primary_category": "stat.ME",
+      "pdf_url": "https://arxiv.org/pdf/2601.14937v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2601.14937v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.14937v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.14937v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2601.14810": {
+      "title": "Learning and extrapolating scale-invariant processes",
+      "authors": [
+        "Anaclara Alvez-Canepa",
+        "Cyril Furtlehner",
+        "François Landes"
+      ],
+      "published": "2026-01-21T09:35:44+00:00",
+      "updated": "2026-01-21T09:35:44+00:00",
+      "summary": "Machine Learning (ML) has deeply changed some fields recently, like Language and Vision and we may expect it to be relevant also to the analysis of of complex systems. Here we want to tackle the question of how and to which extent can one regress scale-free processes, i.e. processes displaying power law behavior, like earthquakes or avalanches? We are interested in predicting the large ones, i.e. rare events in the training set which therefore require extrapolation capabilities of the model. For this we consider two paradigmatic problems that are statistically self-similar. The first one is a 2-dimensional fractional Gaussian field obeying linear dynamics, self-similar by construction and amenable to exact analysis. The second one is the Abelian sandpile model, exhibiting self-organized criticality. The emerging paradigm of Geometric Deep Learning shows that including known symmetries into the model's architecture is key to success. Here one may hope to extrapolate only by leveraging scale invariance. This is however a peculiar symmetry, as it involves possibly non-trivial coarse-graining operations and anomalous scaling. We perform experiments on various existing architectures like U-net, Riesz network (scale invariant by construction), or our own proposals: a wavelet-decomposition based Graph Neural Network (with discrete scale symmetry), a Fourier embedding layer and a Fourier-Mellin Neural Operator. Based on these experiments and a complete characterization of the linear case, we identify the main issues relative to spectral biases and coarse-grained representations, and discuss how to alleviate them with the relevant inductive biases.",
+      "categories": [
+        "cond-mat.dis-nn",
+        "cs.LG"
+      ],
+      "primary_category": "cond-mat.dis-nn",
+      "pdf_url": "https://arxiv.org/pdf/2601.14810v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "29p, 22 figures",
+      "entry_id": "http://arxiv.org/abs/2601.14810v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.14810v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.14810v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2601.14448": {
+      "title": "Gaussian Based Adaptive Multi-Modal 3D Semantic Occupancy Prediction",
+      "authors": [
+        "A. Enes Doruk"
+      ],
+      "published": "2026-01-20T20:11:09+00:00",
+      "updated": "2026-01-20T20:11:09+00:00",
+      "summary": "The sparse object detection paradigm shift towards dense 3D semantic occupancy prediction is necessary for dealing with long-tail safety challenges for autonomous vehicles. Nonetheless, the current voxelization methods commonly suffer from excessive computation complexity demands, where the fusion process is brittle, static, and breaks down under dynamic environmental settings. To this end, this research work enhances a novel Gaussian-based adaptive camera-LiDAR multimodal 3D occupancy prediction model that seamlessly bridges the semantic strengths of camera modality with the geometric strengths of LiDAR modality through a memory-efficient 3D Gaussian model. The proposed solution has four key components: (1) LiDAR Depth Feature Aggregation (LDFA), where depth-wise deformable sampling is employed for dealing with geometric sparsity, (2) Entropy-Based Feature Smoothing, where cross-entropy is employed for handling domain-specific noise, (3) Adaptive Camera-LiDAR Fusion, where dynamic recalibration of sensor outputs is performed based on model outputs, and (4) Gauss-Mamba Head that uses Selective State Space Models for global context decoding that enjoys linear computation complexity.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2601.14448v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Master Thesis",
+      "entry_id": "http://arxiv.org/abs/2601.14448v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.14448v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.14448v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2601.14446": {
+      "title": "Diffusion Large Language Models for Black-Box Optimization",
+      "authors": [
+        "Ye Yuan",
+        "Can",
+        "Chen",
+        "Zipeng Sun",
+        "Dinghuai Zhang",
+        "Christopher Pal",
+        "Xue Liu"
+      ],
+      "published": "2026-01-20T19:59:29+00:00",
+      "updated": "2026-01-20T19:59:29+00:00",
+      "summary": "Offline black-box optimization (BBO) aims to find optimal designs based solely on an offline dataset of designs and their labels. Such scenarios frequently arise in domains like DNA sequence design and robotics, where only a few labeled data points are available. Traditional methods typically rely on task-specific proxy or generative models, overlooking the in-context learning capabilities of pre-trained large language models (LLMs). Recent efforts have adapted autoregressive LLMs to BBO by framing task descriptions and offline datasets as natural language prompts, enabling direct design generation. However, these designs often contain bidirectional dependencies, which left-to-right models struggle to capture. In this paper, we explore diffusion LLMs for BBO, leveraging their bidirectional modeling and iterative refinement capabilities. This motivates our in-context denoising module: we condition the diffusion LLM on the task description and the offline dataset, both formatted in natural language, and prompt it to denoise masked designs into improved candidates. To guide the generation toward high-performing designs, we introduce masked diffusion tree search, which casts the denoising process as a step-wise Monte Carlo Tree Search that dynamically balances exploration and exploitation. Each node represents a partially masked design, each denoising step is an action, and candidates are evaluated via expected improvement under a Gaussian Process trained on the offline dataset. Our method, dLLM, achieves state-of-the-art results in few-shot settings on design-bench.",
+      "categories": [
+        "cs.CE",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CE",
+      "pdf_url": "https://arxiv.org/pdf/2601.14446v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2601.14446v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.14446v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.14446v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2601.13851": {
       "title": "Inverting Self-Organizing Maps: A Unified Activation-Based Framework",
       "authors": [
@@ -30,6 +210,43 @@
         },
         {
           "href": "https://arxiv.org/pdf/2601.13851v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2601.14326": {
+      "title": "Sample-efficient non-Gaussian noise reduction in gravitational wave data via learnable wavelets",
+      "authors": [
+        "Arush Pimpalkar",
+        "Digvijay Wadekar",
+        "Mark Ho-Yeuk Cheung",
+        "Emanuele Berti"
+      ],
+      "published": "2026-01-20T08:30:19+00:00",
+      "updated": "2026-01-20T08:30:19+00:00",
+      "summary": "We introduce $\\texttt{WaveletNet}$, a wavelet-based neural network architecture to identify and reduce non-Gaussian noise in gravitational wave data. Traditionally, convolutional neural networks (CNNs) have been widely used as a flexible machine learning method to mitigate non-Gaussian noise. However, training CNNs requires many data samples, especially when the input data segments are long. Glitches that mimic high-mass black hole signals are empirically known to have a wavelet-like structure. We exploit this property in $\\texttt{WaveletNet}$ by using simple neural networks to learn the best family of wavelets to model glitches in the LIGO-Virgo-KAGRA O3 data. Due to its simplicity, our framework is significantly more sample-efficient than CNNs. As a use case, we build upon the $\\texttt{TIER}$ method and show how $\\texttt{WaveletNet}$ can improve the performance of any search pipeline. We take potential GW candidates from the pipeline, and then downweight the candidates having noisy strain regions in their vicinity. We use our framework in a modular way: we provide an output score which can be added to the pipeline's existing detection statistic score for the candidates. We test our method using candidates from the $\\texttt{IAS-HM}$ search pipeline and show that it improves the search sensitive volume by up to 15% for high-mass, asymmetric binaries.",
+      "categories": [
+        "astro-ph.IM",
+        "gr-qc"
+      ],
+      "primary_category": "astro-ph.IM",
+      "pdf_url": "https://arxiv.org/pdf/2601.14326v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2601.14326v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.14326v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.14326v1",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -108,6 +325,39 @@
         },
         {
           "href": "https://arxiv.org/pdf/2601.13357v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2601.14320": {
+      "title": "Convergence of finite element right-hand-side computation from finite difference data",
+      "authors": [
+        "Stefan Schoder"
+      ],
+      "published": "2026-01-19T17:43:55+00:00",
+      "updated": "2026-01-19T17:43:55+00:00",
+      "summary": "This work presents two integration methods for field transfer in computational aeroacoustics and in coupled field problems, using the finite element method to solve the acoustic field. Firstly, a high-order Gaussian quadrature computes the finite element right-hand side. In contrast, the (flow) field provided by the finite difference mesh is mapped by higher-order B-Splines or a Lagrangian function. Secondly, the cut-cell or supermesh integration with geometric clipping. For each method, the accuracy, performance characteristics, and computational complexity are analyzed. As a reference, the trapezoidal integration rule was computed from the finite difference results. The high-order quadrature converges as the B-Spline interpolation order increases, and the finite difference results and mesh resolutions are consistent. The supermesh approach eliminates interpolation and approximation errors at the grid-to-mesh level and improves accuracy. This behaviour is universal for smooth or strongly oscillating field quantities, which will be shown in a comparative study between the Lighthill-like source term and the source term of the perturbed convective wave equation for subsonic flows.",
+      "categories": [
+        "math.NA"
+      ],
+      "primary_category": "math.NA",
+      "pdf_url": "https://arxiv.org/pdf/2601.14320v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2601.14320v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.14320v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.14320v1",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -92406,6 +92656,43 @@
     }
   },
   "Depth Estimation": {
+    "2601.15275": {
+      "title": "RayRoPE: Projective Ray Positional Encoding for Multi-view Attention",
+      "authors": [
+        "Yu Wu",
+        "Minsik Jeon",
+        "Jen-Hao Rick Chang",
+        "Oncel Tuzel",
+        "Shubham Tulsiani"
+      ],
+      "published": "2026-01-21T18:55:51+00:00",
+      "updated": "2026-01-21T18:55:51+00:00",
+      "summary": "We study positional encodings for multi-view transformers that process tokens from a set of posed input images, and seek a mechanism that encodes patches uniquely, allows SE(3)-invariant attention with multi-frequency similarity, and can be adaptive to the geometry of the underlying scene. We find that prior (absolute or relative) encoding schemes for multi-view attention do not meet the above desiderata, and present RayRoPE to address this gap. RayRoPE represents patch positions based on associated rays but leverages a predicted point along the ray instead of the direction for a geometry-aware encoding. To achieve SE(3) invariance, RayRoPE computes query-frame projective coordinates for computing multi-frequency similarity. Lastly, as the 'predicted' 3D point along a ray may not be precise, RayRoPE presents a mechanism to analytically compute the expected position encoding under uncertainty. We validate RayRoPE on the tasks of novel-view synthesis and stereo depth estimation and show that it consistently improves over alternate position encoding schemes (e.g. 15% relative improvement on LPIPS in CO3D). We also show that RayRoPE can seamlessly incorporate RGB-D input, resulting in even larger gains over alternatives that cannot positionally encode this information.",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2601.15275v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Project page: https://rayrope.github.io/",
+      "entry_id": "http://arxiv.org/abs/2601.15275v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.15275v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.15275v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2601.11772": {
       "title": "studentSplat: Your Student Model Learns Single-view 3D Gaussian Splatting",
       "authors": [
