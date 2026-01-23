@@ -1,5 +1,196 @@
 {
   "3DGS Semantic": {
+    "2601.16200": {
+      "title": "Provable Robustness in Multimodal Large Language Models via Feature Space Smoothing",
+      "authors": [
+        "Song Xia",
+        "Meiwen Ding",
+        "Chenqi Kong",
+        "Wenhan Yang",
+        "Xudong Jiang"
+      ],
+      "published": "2026-01-22T18:52:21+00:00",
+      "updated": "2026-01-22T18:52:21+00:00",
+      "summary": "Multimodal large language models (MLLMs) exhibit strong capabilities across diverse applications, yet remain vulnerable to adversarial perturbations that distort their feature representations and induce erroneous predictions. To address this vulnerability, we propose the Feature-space Smoothing (FS) and theoretically prove that FS offers certified robustness on the feature representations of MLLMs. Specifically, FS transforms any feature encoder into a smoothed variant that is guaranteed to maintain a certified lower bound on the feature cosine similarity between clean and adversarial representations under $\\ell_2$-bounded attacks. Moreover, we indicate that the value of this Feature Cosine Similarity Bound (FCSB) derived from FS can be improved by enlarging the defined Gaussian robustness score on the vanilla encoder. Building upon this, we introduce the Purifier and Smoothness Mapper (PSM), a plug-and-play module that improves the Gaussian robustness score of MLLMs and thus enhances their certified robustness under FS, without requiring any retraining on MLLMs. We demonstrate that the FS with PSM not only provides a strong theoretical robustness guarantee but also exhibits superior empirical performance compared to adversarial training. Extensive experiments across diverse MLLMs and downstream tasks indicate the effectiveness of the FS-PSM, reducing the Attack Success Rate (ASR) of various white-box attacks from nearly 90\\% to about 1\\%.",
+      "categories": [
+        "cs.LG",
+        "cs.CV"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2601.16200v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Under review",
+      "entry_id": "http://arxiv.org/abs/2601.16200v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.16200v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.16200v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2601.15951": {
+      "title": "EVolSplat4D: Efficient Volume-based Gaussian Splatting for 4D Urban Scene Synthesis",
+      "authors": [
+        "Sheng Miao",
+        "Sijin Li",
+        "Pan Wang",
+        "Dongfeng Bai",
+        "Bingbing Liu",
+        "Yue Wang",
+        "Andreas Geiger",
+        "Yiyi Liao"
+      ],
+      "published": "2026-01-22T13:39:29+00:00",
+      "updated": "2026-01-22T13:39:29+00:00",
+      "summary": "Novel view synthesis (NVS) of static and dynamic urban scenes is essential for autonomous driving simulation, yet existing methods often struggle to balance reconstruction time with quality. While state-of-the-art neural radiance fields and 3D Gaussian Splatting approaches achieve photorealism, they often rely on time-consuming per-scene optimization. Conversely, emerging feed-forward methods frequently adopt per-pixel Gaussian representations, which lead to 3D inconsistencies when aggregating multi-view predictions in complex, dynamic environments. We propose EvolSplat4D, a feed-forward framework that moves beyond existing per-pixel paradigms by unifying volume-based and pixel-based Gaussian prediction across three specialized branches. For close-range static regions, we predict consistent geometry of 3D Gaussians over multiple frames directly from a 3D feature volume, complemented by a semantically-enhanced image-based rendering module for predicting their appearance. For dynamic actors, we utilize object-centric canonical spaces and a motion-adjusted rendering module to aggregate temporal features, ensuring stable 4D reconstruction despite noisy motion priors. Far-Field scenery is handled by an efficient per-pixel Gaussian branch to ensure full-scene coverage. Experimental results on the KITTI-360, KITTI, Waymo, and PandaSet datasets show that EvolSplat4D reconstructs both static and dynamic environments with superior accuracy and consistency, outperforming both per-scene optimization and state-of-the-art feed-forward baselines.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2601.15951v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2601.15951v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.15951v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.15951v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2601.15897": {
+      "title": "ThermoSplat: Cross-Modal 3D Gaussian Splatting with Feature Modulation and Geometry Decoupling",
+      "authors": [
+        "Zhaoqi Su",
+        "Shihai Chen",
+        "Xinyan Lin",
+        "Liqin Huang",
+        "Zhipeng Su",
+        "Xiaoqiang Lu"
+      ],
+      "published": "2026-01-22T12:24:26+00:00",
+      "updated": "2026-01-22T12:24:26+00:00",
+      "summary": "Multi-modal scene reconstruction integrating RGB and thermal infrared data is essential for robust environmental perception across diverse lighting and weather conditions. However, extending 3D Gaussian Splatting (3DGS) to multi-spectral scenarios remains challenging. Current approaches often struggle to fully leverage the complementary information of multi-modal data, typically relying on mechanisms that either tend to neglect cross-modal correlations or leverage shared representations that fail to adaptively handle the complex structural correlations and physical discrepancies between spectrums. To address these limitations, we propose ThermoSplat, a novel framework that enables deep spectral-aware reconstruction through active feature modulation and adaptive geometry decoupling. First, we introduce a Cross-Modal FiLM Modulation mechanism that dynamically conditions shared latent features on thermal structural priors, effectively guiding visible texture synthesis with reliable cross-modal geometric cues. Second, to accommodate modality-specific geometric inconsistencies, we propose a Modality-Adaptive Geometric Decoupling scheme that learns independent opacity offsets and executes an independent rasterization pass for the thermal branch. Additionally, a hybrid rendering pipeline is employed to integrate explicit Spherical Harmonics with implicit neural decoding, ensuring both semantic consistency and high-frequency detail preservation. Extensive experiments on the RGBT-Scenes dataset demonstrate that ThermoSplat achieves state-of-the-art rendering quality across both visible and thermal spectrums.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2601.15897v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2601.15897v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.15897v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.15897v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2601.15772": {
+      "title": "LL-GaussianImage: Efficient Image Representation for Zero-shot Low-Light Enhancement with 2D Gaussian Splatting",
+      "authors": [
+        "Yuhan Chen",
+        "Wenxuan Yu",
+        "Guofa Li",
+        "Yijun Xu",
+        "Ying Fang",
+        "Yicui Shi",
+        "Long Cao",
+        "Wenbo Chu",
+        "Keqiang Li"
+      ],
+      "published": "2026-01-22T09:01:08+00:00",
+      "updated": "2026-01-22T09:01:08+00:00",
+      "summary": "2D Gaussian Splatting (2DGS) is an emerging explicit scene representation method with significant potential for image compression due to high fidelity and high compression ratios. However, existing low-light enhancement algorithms operate predominantly within the pixel domain. Processing 2DGS-compressed images necessitates a cumbersome decompression-enhancement-recompression pipeline, which compromises efficiency and introduces secondary degradation. To address these limitations, we propose LL-GaussianImage, the first zero-shot unsupervised framework designed for low-light enhancement directly within the 2DGS compressed representation domain. Three primary advantages are offered by this framework. First, a semantic-guided Mixture-of-Experts enhancement framework is designed. Dynamic adaptive transformations are applied to the sparse attribute space of 2DGS using rendered images as guidance to enable compression-as-enhancement without full decompression to a pixel grid. Second, a multi-objective collaborative loss function system is established to strictly constrain smoothness and fidelity during enhancement, suppressing artifacts while improving visual quality. Third, a two-stage optimization process is utilized to achieve reconstruction-as-enhancement. The accuracy of the base representation is ensured through single-scale reconstruction and network robustness is enhanced. High-quality enhancement of low-light images is achieved while high compression ratios are maintained. The feasibility and superiority of the paradigm for direct processing within the compressed representation domain are validated through experimental results.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2601.15772v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2601.15772v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.15772v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.15772v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2601.15453": {
+      "title": "DevPrompt: Deviation-Based Prompt Learning for One-Normal ShotImage Anomaly Detection",
+      "authors": [
+        "Morteza Poudineh",
+        "Marc Lalonde"
+      ],
+      "published": "2026-01-21T20:35:51+00:00",
+      "updated": "2026-01-21T20:35:51+00:00",
+      "summary": "Few-normal shot anomaly detection (FNSAD) aims to detect abnormal regions in images using only a few normal training samples, making the task highly challenging due to limited supervision and the diversity of potential defects. Recent approaches leverage vision-language models such as CLIP with prompt-based learning to align image and text features. However, existing methods often exhibit weak discriminability between normal and abnormal prompts and lack principled scoring mechanisms for patch-level anomalies. We propose a deviation-guided prompt learning framework that integrates the semantic power of vision-language models with the statistical reliability of deviation-based scoring. Specifically, we replace fixed prompt prefixes with learnable context vectors shared across normal and abnormal prompts, while anomaly-specific suffix tokens enable class-aware alignment. To enhance separability, we introduce a deviation loss with Top-K Multiple Instance Learning (MIL), modeling patch-level features as Gaussian deviations from the normal distribution. This allows the network to assign higher anomaly scores to patches with statistically significant deviations, improving localization and interpretability. Experiments on the MVTecAD and VISA benchmarks demonstrate superior pixel-level detection performance compared to PromptAD and other baselines. Ablation studies further validate the effectiveness of learnable prompts, deviation-based scoring, and the Top-K MIL strategy.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2601.15453v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "8 pages",
+      "entry_id": "http://arxiv.org/abs/2601.15453v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.15453v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.15453v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2601.15167": {
       "title": "DeGAS: Gradient-Based Optimization of Probabilistic Programs without Sampling",
       "authors": [
