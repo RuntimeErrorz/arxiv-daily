@@ -1,4 +1,4 @@
-## Updated at 2026-01-25 08:21:47
+## Updated at 2026-01-25 10:52:58
 
 ## 3DGS Semantic
 
@@ -17,14 +17,14 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2025-12-19**|**[Chorus: Multi-Teacher Pretraining for Holistic 3D Gaussian Scene Encoding](https://arxiv.org/abs/2512.17817)**|N/A|None|cs.CV|None|Yue Li et al.|
 |**2025-12-19**|**[FLEG: Feed-Forward Language Embedded Gaussian Splatting from Any Views](https://arxiv.org/abs/2512.17541)**|N/A|Project page: https://fangzhou2000.github.io/projects/fleg|cs.CV|None|Qijian Tian et al.|
 |**2025-12-16**|**[Consistent Instance Field for Dynamic Scene Understanding](https://arxiv.org/abs/2512.14126)**|N/A|None|cs.CV|None|Junyi Wu et al.|
-|**2025-12-09**|**[OpenMonoGS-SLAM: Monocular Gaussian Splatting SLAM with Open-set Semantics](https://arxiv.org/abs/2512.08625)**|N/A|8 pages, 4 figures|cs.CV|None|Jisang Yoo et al.|
+|**2025-12-09**|**[OpenMonoGS-SLAM: Monocular Gaussian Splatting SLAM with Open-set Semantics](https://arxiv.org/abs/2512.08625)**|arXiv.org|8 pages, 4 figures|cs.CV|None|Jisang Yoo et al.|
 |**2025-12-08**|**[Lang3D-XL: Language Embedded 3D Gaussians for Large-scale Scenes](https://arxiv.org/abs/2512.07807)**|Proceedings of the SIGGRAPH Asia 2025 Conference Papers|Accepted to SIGGRAPH Asia 2025. Project webpage: https://tau-vailab.github.io/Lang3D-XL|cs.CV|None|Shai Krakovsky et al.|
-|**2025-12-08**|**[STRinGS: Selective Text Refinement in Gaussian Splatting](https://arxiv.org/abs/2512.07230)**|N/A|Accepted to WACV 2026. Project Page, see https://STRinGS-official.github.io|cs.CV|None|Abhinav Raundhal et al.|
-|**2025-12-04**|**[4DLangVGGT: 4D Language-Visual Geometry Grounded Transformer](https://arxiv.org/abs/2512.05060)**|N/A|Code: https://github.com/hustvl/4DLangVGGT, Webpage: https://hustvl.github.io/4DLangVGGT|cs.CV|None|Xianfeng Wu et al.|
-|**2025-12-03**|**[C3G: Learning Compact 3D Representations with 2K Gaussians](https://arxiv.org/abs/2512.04021)**|N/A|Project Page : https://cvlab-kaist.github.io/C3G/|cs.CV|None|Honggyu An et al.|
-|**2025-12-03**|**[Motion4D: Learning 3D-Consistent Motion and Semantics for 4D Scene Understanding](https://arxiv.org/abs/2512.03601)**|N/A|Accepted to NeurIPS 2025|cs.CV|None|Haoran Zhou, Gim Hee Lee|
-|**2025-12-03**|**[ShelfGaussian: Shelf-Supervised Open-Vocabulary Gaussian-based 3D Scene Understanding](https://arxiv.org/abs/2512.03370)**|N/A|None|cs.CV|None|Lingjun Zhao et al.|
-|**2025-11-30**|**[LISA-3D: Lifting Language-Image Segmentation to 3D via Multi-View Consistency](https://arxiv.org/abs/2512.01008)**|N/A|None|cs.CV|None|Zhongbin Guo et al.|
+|**2025-12-08**|**[STRinGS: Selective Text Refinement in Gaussian Splatting](https://arxiv.org/abs/2512.07230)**|arXiv.org|Accepted to WACV 2026. Project Page, see https://STRinGS-official.github.io|cs.CV|None|Abhinav Raundhal et al.|
+|**2025-12-04**|**[4DLangVGGT: 4D Language-Visual Geometry Grounded Transformer](https://arxiv.org/abs/2512.05060)**|arXiv.org|Code: https://github.com/hustvl/4DLangVGGT, Webpage: https://hustvl.github.io/4DLangVGGT|cs.CV|None|Xianfeng Wu et al.|
+|**2025-12-03**|**[C3G: Learning Compact 3D Representations with 2K Gaussians](https://arxiv.org/abs/2512.04021)**|arXiv.org|Project Page : https://cvlab-kaist.github.io/C3G/|cs.CV|None|Honggyu An et al.|
+|**2025-12-03**|**[Motion4D: Learning 3D-Consistent Motion and Semantics for 4D Scene Understanding](https://arxiv.org/abs/2512.03601)**|arXiv.org|Accepted to NeurIPS 2025|cs.CV|None|Haoran Zhou, Gim Hee Lee|
+|**2025-12-03**|**[ShelfGaussian: Shelf-Supervised Open-Vocabulary Gaussian-based 3D Scene Understanding](https://arxiv.org/abs/2512.03370)**|arXiv.org|None|cs.CV|None|Lingjun Zhao et al.|
+|**2025-11-30**|**[LISA-3D: Lifting Language-Image Segmentation to 3D via Multi-View Consistency](https://arxiv.org/abs/2512.01008)**|arXiv.org|None|cs.CV|None|Zhongbin Guo et al.|
 |**2025-11-23**|**[SegSplat: Feed-forward Gaussian Splatting and Open-Set Semantic Segmentation](https://arxiv.org/abs/2511.18386)**|arXiv.org|None|cs.CV|None|Peter Siegel et al.|
 |**2025-11-22**|**[CUS-GS: A Compact Unified Structured Gaussian Splatting Framework for Multimodal Scene Representation](https://arxiv.org/abs/2511.17904)**|arXiv.org|15 pages, 8 figures, 4 tables|cs.CV|None|Yuhang Ming et al.|
 |**2025-11-20**|**[LEGO-SLAM: Language-Embedded Gaussian Optimization SLAM](https://arxiv.org/abs/2511.16144)**|arXiv.org|18 pages|cs.CV|None|Sibaek Lee et al.|
