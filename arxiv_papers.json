@@ -1,5 +1,117 @@
 {
   "3DGS Semantic": {
+    "2601.18629": {
+      "title": "ExoGS: A 4D Real-to-Sim-to-Real Framework for Scalable Manipulation Data Collection",
+      "authors": [
+        "Yiming Wang",
+        "Ruogu Zhang",
+        "Minyang Li",
+        "Hao Shi",
+        "Junbo Wang",
+        "Deyi Li",
+        "Jieji Ren",
+        "Wenhai Liu",
+        "Weiming Wang",
+        "Hao-Shu Fang"
+      ],
+      "published": "2026-01-26T16:04:12+00:00",
+      "updated": "2026-01-26T16:04:12+00:00",
+      "summary": "Real-to-Sim-to-Real technique is gaining increasing interest for robotic manipulation, as it can generate scalable data in simulation while having narrower sim-to-real gap. However, previous methods mainly focused on environment-level visual real-to-sim transfer, ignoring the transfer of interactions, which could be challenging and inefficient to obtain purely in simulation especially for contact-rich tasks. We propose ExoGS, a robot-free 4D Real-to-Sim-to-Real framework that captures both static environments and dynamic interactions in the real world and transfers them seamlessly to a simulated environment. It provides a new solution for scalable manipulation data collection and policy learning. ExoGS employs a self-designed robot-isomorphic passive exoskeleton AirExo-3 to capture kinematically consistent trajectories with millimeter-level accuracy and synchronized RGB observations during direct human demonstrations. The robot, objects, and environment are reconstructed as editable 3D Gaussian Splatting assets, enabling geometry-consistent replay and large-scale data augmentation. Additionally, a lightweight Mask Adapter injects instance-level semantics into the policy to enhance robustness under visual domain shifts. Real-world experiments demonstrate that ExoGS significantly improves data efficiency and policy generalization compared to teleoperation-based baselines. Code and hardware files have been released on https://github.com/zaixiabalala/ExoGS.",
+      "categories": [
+        "cs.RO"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2601.18629v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2601.18629v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.18629v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.18629v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2601.17254": {
+      "title": "Multi-stage Bridge Inspection System: Integrating Foundation Models with Location Anonymization",
+      "authors": [
+        "Takato Yasuno"
+      ],
+      "published": "2026-01-24T01:41:45+00:00",
+      "updated": "2026-01-24T01:41:45+00:00",
+      "summary": "In Japan, civil infrastructure condition monitoring is mandated through visual inspection every five years. Field-captured damage images frequently contain concrete cracks and rebar exposure, often accompanied by construction signs revealing regional information. To enable safe infrastructure use without causing public anxiety, it is essential to protect regional information while accurately extracting damage features and visualizing key indicators for repair decision-making. This paper presents an open-source bridge damage detection system with regional privacy protection capabilities. We employ Segment Anything Model (SAM) 3 for rebar corrosion detection and utilize DBSCAN for automatic completion of missed regions. Construction sign regions are detected and protected through Gaussian blur. Four preprocessing methods improve OCR accuracy, and GPU optimization enables 1.7-second processing per image. The technology stack includes SAM3, PyTorch, OpenCV, pytesseract, and scikit-learn, achieving efficient bridge inspection with regional information protection.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2601.17254v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "8 pages, 5 figures, 2 tables",
+      "entry_id": "http://arxiv.org/abs/2601.17254v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.17254v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.17254v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2601.17227": {
+      "title": "Hierarchical Informative Path Planning via Graph Guidance and Trajectory Optimization",
+      "authors": [
+        "Avraiem Iskandar",
+        "Shamak Dutta",
+        "Kevin Murrant",
+        "Yash Vardhan Pant",
+        "Stephen L. Smith"
+      ],
+      "published": "2026-01-23T23:27:20+00:00",
+      "updated": "2026-01-23T23:27:20+00:00",
+      "summary": "We study informative path planning (IPP) with travel budgets in cluttered environments, where an agent collects measurements of a latent field modeled as a Gaussian process (GP) to reduce uncertainty at target locations. Graph-based solvers provide global guarantees but assume pre-selected measurement locations, while continuous trajectory optimization supports path-based sensing but is computationally intensive and sensitive to initialization in obstacle-dense settings. We propose a hierarchical framework with three stages: (i) graph-based global planning, (ii) segment-wise budget allocation using geometric and kernel bounds, and (iii) spline-based refinement of each segment with hard constraints and obstacle pruning. By combining global guidance with local refinement, our method achieves lower posterior uncertainty than graph-only and continuous baselines, while running faster than continuous-space solvers (up to 9x faster than gradient-based methods and 20x faster than black-box optimizers) across synthetic cluttered environments and Arctic datasets.",
+      "categories": [
+        "cs.RO"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2601.17227v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2601.17227v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.17227v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.17227v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2601.16200": {
       "title": "Provable Robustness in Multimodal Large Language Models via Feature Space Smoothing",
       "authors": [
@@ -417,27 +529,27 @@
         "Emanuele Berti"
       ],
       "published": "2026-01-20T08:30:19+00:00",
-      "updated": "2026-01-20T08:30:19+00:00",
+      "updated": "2026-01-26T05:02:04+00:00",
       "summary": "We introduce $\\texttt{WaveletNet}$, a wavelet-based neural network architecture to identify and reduce non-Gaussian noise in gravitational wave data. Traditionally, convolutional neural networks (CNNs) have been widely used as a flexible machine learning method to mitigate non-Gaussian noise. However, training CNNs requires many data samples, especially when the input data segments are long. Glitches that mimic high-mass black hole signals are empirically known to have a wavelet-like structure. We exploit this property in $\\texttt{WaveletNet}$ by using simple neural networks to learn the best family of wavelets to model glitches in the LIGO-Virgo-KAGRA O3 data. Due to its simplicity, our framework is significantly more sample-efficient than CNNs. As a use case, we build upon the $\\texttt{TIER}$ method and show how $\\texttt{WaveletNet}$ can improve the performance of any search pipeline. We take potential GW candidates from the pipeline, and then downweight the candidates having noisy strain regions in their vicinity. We use our framework in a modular way: we provide an output score which can be added to the pipeline's existing detection statistic score for the candidates. We test our method using candidates from the $\\texttt{IAS-HM}$ search pipeline and show that it improves the search sensitive volume by up to 15% for high-mass, asymmetric binaries.",
       "categories": [
         "astro-ph.IM",
         "gr-qc"
       ],
       "primary_category": "astro-ph.IM",
-      "pdf_url": "https://arxiv.org/pdf/2601.14326v1",
+      "pdf_url": "https://arxiv.org/pdf/2601.14326v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2601.14326v1",
+      "entry_id": "http://arxiv.org/abs/2601.14326v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2601.14326v1",
+          "href": "https://arxiv.org/abs/2601.14326v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2601.14326v1",
+          "href": "https://arxiv.org/pdf/2601.14326v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -2530,27 +2642,27 @@
         "Koki Tokeshi"
       ],
       "published": "2025-12-26T16:29:28+00:00",
-      "updated": "2025-12-26T16:29:28+00:00",
+      "updated": "2026-01-26T07:41:37+00:00",
       "summary": "The excursion-set formalism enables us to infer the mass distribution of collapsed objects, such as primordial black holes (PBHs), by the language of stochastic processes. Within the framework, this article investigates how a smooth coarse-graining procedure affects the resulting PBH mass function. As a demonstrative example, we employ a Gaussian window function, for which the stochastic noise becomes fully correlated across scales. It is found that these correlated noises result in a mass function of PBHs, whose maximum and its neighbourhood are predominantly determined by the probability that the density contrast exceeds a given threshold at each mass scale. Our results clarify the role of noise correlations induced by smooth coarse-graining and highlight their importance in predicting the abundance of PBHs.",
       "categories": [
         "astro-ph.CO",
         "gr-qc"
       ],
       "primary_category": "astro-ph.CO",
-      "pdf_url": "https://arxiv.org/pdf/2512.22075v1",
+      "pdf_url": "https://arxiv.org/pdf/2512.22075v2",
       "journal_ref": null,
       "doi": null,
-      "comment": "25 pages, 6 figures",
-      "entry_id": "http://arxiv.org/abs/2512.22075v1",
+      "comment": "26 pages, 6 figures",
+      "entry_id": "http://arxiv.org/abs/2512.22075v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2512.22075v1",
+          "href": "https://arxiv.org/abs/2512.22075v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2512.22075v1",
+          "href": "https://arxiv.org/pdf/2512.22075v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -92840,6 +92952,74 @@
     }
   },
   "Depth Estimation": {
+    "2601.17657": {
+      "title": "SPACE-CLIP: Spatial Perception via Adaptive CLIP Embeddings for Monocular Depth Estimation",
+      "authors": [
+        "Taewan Cho",
+        "Taeryang Kim",
+        "Andrew Jaeyong Choi"
+      ],
+      "published": "2026-01-25T02:32:01+00:00",
+      "updated": "2026-01-25T02:32:01+00:00",
+      "summary": "Contrastive Language-Image Pre-training (CLIP) has accomplished extraordinary success for semantic understanding but inherently struggles to perceive geometric structure. Existing methods attempt to bridge this gap by querying CLIP with textual prompts, a process that is often indirect and inefficient. This paper introduces a fundamentally different approach using a dual-pathway decoder. We present SPACE-CLIP, an architecture that unlocks and interprets latent geometric knowledge directly from a frozen CLIP vision encoder, completely bypassing the text encoder and its associated textual prompts. A semantic pathway interprets high-level features, dynamically conditioned on global context using feature-wise linear modulation (FiLM). In addition, a structural pathway extracts fine-grained spatial details from early layers. These complementary streams are hierarchically fused, enabling a robust synthesis of semantic context and precise geometry. Extensive experiments on the KITTI benchmark show that SPACE-CLIP dramatically outperforms previous CLIP-based methods. Our ablation studies validate that the synergistic fusion of our dual pathways is critical to this success. SPACE-CLIP offers a new, efficient, and architecturally elegant blueprint for repurposing large-scale vision models. The proposed method is not just a standalone depth estimator, but a readily integrable spatial perception module for the next generation of embodied AI systems, such as vision-language-action (VLA) models. Our model is available at https://github.com/taewan2002/space-clip",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2601.17657v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2601.17657v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.17657v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.17657v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2601.17271": {
+      "title": "Cross360: 360° Monocular Depth Estimation via Cross Projections Across Scales",
+      "authors": [
+        "Kun Huang",
+        "Fang-Lue Zhang",
+        "Neil Dodgson"
+      ],
+      "published": "2026-01-24T03:00:45+00:00",
+      "updated": "2026-01-24T03:00:45+00:00",
+      "summary": "360° depth estimation is a challenging research problem due to the difficulty of finding a representation that both preserves global continuity and avoids distortion in spherical images. Existing methods attempt to leverage complementary information from multiple projections, but struggle with balancing global and local consistency. Their local patch features have limited global perception, and the combined global representation does not address discrepancies in feature extraction at the boundaries between patches. To address these issues, we propose Cross360, a novel cross-attention-based architecture integrating local and global information using less-distorted tangent patches along with equirectangular features. Our Cross Projection Feature Alignment module employs cross-attention to align local tangent projection features with the equirectangular projection's 360° field of view, ensuring each tangent projection patch is aware of the global context. Additionally, our Progressive Feature Aggregation with Attention module refines multi-scaled features progressively, enhancing depth estimation accuracy. Cross360 significantly outperforms existing methods across most benchmark datasets, especially those in which the entire 360° image is available, demonstrating its effectiveness in accurate and globally consistent depth estimation. The code and model are available at https://github.com/huangkun101230/Cross360.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2601.17271v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "TIP, 12 pages",
+      "entry_id": "http://arxiv.org/abs/2601.17271v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.17271v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.17271v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2601.16532": {
       "title": "AnchoredDream: Zero-Shot 360° Indoor Scene Generation from a Single View via Geometric Grounding",
       "authors": [
@@ -92849,26 +93029,26 @@
         "Yu-Shen Liu"
       ],
       "published": "2026-01-23T08:08:12+00:00",
-      "updated": "2026-01-23T08:08:12+00:00",
+      "updated": "2026-01-26T07:46:19+00:00",
       "summary": "Single-view indoor scene generation plays a crucial role in a range of real-world applications. However, generating a complete 360° scene from a single image remains a highly ill-posed and challenging problem. Recent approaches have made progress by leveraging diffusion models and depth estimation networks, yet they still struggle to maintain appearance consistency and geometric plausibility under large viewpoint changes, limiting their effectiveness in full-scene generation. To address this, we propose AnchoredDream, a novel zero-shot pipeline that anchors 360° scene generation on high-fidelity geometry via an appearance-geometry mutual boosting mechanism. Given a single-view image, our method first performs appearance-guided geometry generation to construct a reliable 3D scene layout. Then, we progressively generate the complete scene through a series of modules: warp-and-inpaint, warp-and-refine, post-optimization, and a novel Grouting Block, which ensures seamless transitions between the input view and generated regions. Extensive experiments demonstrate that AnchoredDream outperforms existing methods by a large margin in both appearance consistency and geometric plausibility--all in a zero-shot manner. Our results highlight the potential of geometric grounding for high-quality, zero-shot single-view scene generation.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2601.16532v1",
+      "pdf_url": "https://arxiv.org/pdf/2601.16532v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2601.16532v1",
+      "entry_id": "http://arxiv.org/abs/2601.16532v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2601.16532v1",
+          "href": "https://arxiv.org/abs/2601.16532v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2601.16532v1",
+          "href": "https://arxiv.org/pdf/2601.16532v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -92906,6 +93086,44 @@
         },
         {
           "href": "https://arxiv.org/pdf/2601.15275v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2601.17046": {
+      "title": "Atomic Depth Estimation From Noisy Electron Microscopy Data Via Deep Learning",
+      "authors": [
+        "Matan Leibovich",
+        "Mai Tan",
+        "Adria Marcos-Morales",
+        "Sreyas Mohan",
+        "Peter A. Crozier",
+        "Carlos Fernandez-Granda"
+      ],
+      "published": "2026-01-20T19:35:53+00:00",
+      "updated": "2026-01-20T19:35:53+00:00",
+      "summary": "We present a novel approach for extracting 3D atomic-level information from transmission electron microscopy (TEM) images affected by significant noise. The approach is based on formulating depth estimation as a semantic segmentation problem. We address the resulting segmentation problem by training a deep convolutional neural network to generate pixel-wise depth segmentation maps using simulated data corrupted by synthetic noise. The proposed method was applied to estimate the depth of atomic columns in CeO2 nanoparticles from simulated images and real-world TEM data. Our experiments show that the resulting depth estimates are accurate, calibrated and robust to noise.",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2601.17046v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2601.17046v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.17046v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.17046v1",
           "title": "pdf",
           "rel": "related",
           "content_type": null

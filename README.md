@@ -1,4 +1,4 @@
-## Updated at 2026-01-27 08:21:07
+## Updated at 2026-01-27 20:09:10
 
 ## 3DGS Semantic
 
@@ -639,8 +639,11 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-01-25**|**[SPACE-CLIP: Spatial Perception via Adaptive CLIP Embeddings for Monocular Depth Estimation](https://arxiv.org/abs/2601.17657)**|N/A|None|cs.CV|None|Taewan Cho et al.|
+|**2026-01-24**|**[Cross360: 360° Monocular Depth Estimation via Cross Projections Across Scales](https://arxiv.org/abs/2601.17271)**|N/A|TIP, 12 pages|cs.CV|None|Kun Huang et al.|
 |**2026-01-23**|**[AnchoredDream: Zero-Shot 360° Indoor Scene Generation from a Single View via Geometric Grounding](https://arxiv.org/abs/2601.16532)**|N/A|None|cs.CV|None|Runmao Yao et al.|
 |**2026-01-21**|**[RayRoPE: Projective Ray Positional Encoding for Multi-view Attention](https://arxiv.org/abs/2601.15275)**|N/A|Project page: https://rayrope.github.io/|cs.CV|None|Yu Wu et al.|
+|**2026-01-20**|**[Atomic Depth Estimation From Noisy Electron Microscopy Data Via Deep Learning](https://arxiv.org/abs/2601.17046)**|N/A|None|cs.CV|None|Matan Leibovich et al.|
 |**2026-01-16**|**[studentSplat: Your Student Model Learns Single-view 3D Gaussian Splatting](https://arxiv.org/abs/2601.11772)**|N/A|None|cs.CV|None|Yimu Pan et al.|
 |**2026-01-16**|**[SpaRRTa: A Synthetic Benchmark for Evaluating Spatial Intelligence in Visual Foundation Models](https://arxiv.org/abs/2601.11729)**|N/A|Project page is available at https://sparrta.gmum.net/|cs.CV|None|Turhan Can Kargin et al.|
 |**2026-01-14**|**[NanoSD: Edge Efficient Foundation Model for Real Time Image Restoration](https://arxiv.org/abs/2601.09823)**|N/A|Submitted to CVPR 2026|cs.CV|None|Subhajit Sanyal et al.|
