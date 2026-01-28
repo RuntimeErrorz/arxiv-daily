@@ -1,4 +1,4 @@
-## Updated at 2026-01-28 08:20:03
+## Updated at 2026-01-28 20:09:20
 
 ## 3DGS Semantic
 
@@ -8,6 +8,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-01-27**|**[TIGaussian: Disentangle Gaussians for Spatial-Awared Text-Image-3D Alignment](https://arxiv.org/abs/2601.19247)**|N/A|None|cs.CV|None|Jiarun Liu et al.|
 |**2026-01-19**|**[GaussExplorer: 3D Gaussian Splatting for Embodied Exploration and Reasoning](https://arxiv.org/abs/2601.13132)**|N/A|Project page: https://gaussexplorer.github.io/|cs.CV|None|Kim Yu-Ji et al.|
 |**2026-01-09**|**[FeatureSLAM: Feature-enriched 3D gaussian splatting SLAM in real time](https://arxiv.org/abs/2601.05738)**|N/A|None|cs.CV|None|Christopher Thirgood et al.|
 |**2026-01-08**|**[ProFuse: Efficient Cross-View Context Fusion for Open-Vocabulary 3D Gaussian Splatting](https://arxiv.org/abs/2601.04754)**|N/A|10 pages, 5 figures|cs.CV|None|Yen-Jen Chiou et al.|
@@ -639,6 +640,10 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-01-27**|**[Fast Converging 3D Gaussian Splatting for 1-Minute Reconstruction](https://arxiv.org/abs/2601.19489)**|N/A|First Rank of SIGGRAPH Asia 2025 3DGS Challenge. Code available at|cs.CV|None|Ziyu Zhang et al.|
+|**2026-01-27**|**[Towards Gold-Standard Depth Estimation for Tree Branches in UAV Forestry: Benchmarking Deep Stereo Matching Methods](https://arxiv.org/abs/2601.19461)**|N/A|None|cs.CV|None|Yida Lin et al.|
+|**2026-01-27**|**[Instance-Guided Radar Depth Estimation for 3D Object Detection](https://arxiv.org/abs/2601.19314)**|N/A|Accepted to IPMV2026|cs.CV|None|Chen-Chou Lo, Patrick Vandewalle|
+|**2026-01-26**|**[On the Role of Depth in Surgical Vision Foundation Models: An Empirical Study of RGB-D Pre-training](https://arxiv.org/abs/2601.18929)**|N/A|None|cs.CV|None|John J. Han et al.|
 |**2026-01-25**|**[SPACE-CLIP: Spatial Perception via Adaptive CLIP Embeddings for Monocular Depth Estimation](https://arxiv.org/abs/2601.17657)**|N/A|None|cs.CV|None|Taewan Cho et al.|
 |**2026-01-24**|**[Cross360: 360° Monocular Depth Estimation via Cross Projections Across Scales](https://arxiv.org/abs/2601.17271)**|N/A|TIP, 12 pages|cs.CV|None|Kun Huang et al.|
 |**2026-01-23**|**[AnchoredDream: Zero-Shot 360° Indoor Scene Generation from a Single View via Geometric Grounding](https://arxiv.org/abs/2601.16532)**|N/A|None|cs.CV|None|Runmao Yao et al.|

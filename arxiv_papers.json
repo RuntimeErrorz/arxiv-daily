@@ -1,5 +1,123 @@
 {
   "3DGS Semantic": {
+    "2601.19717": {
+      "title": "DiffStyle3D: Consistent 3D Gaussian Stylization via Attention Optimization",
+      "authors": [
+        "Yitong Yang",
+        "Xuexin Liu",
+        "Yinglin Wang",
+        "Jing Wang",
+        "Hao Dou",
+        "Changshuo Wang",
+        "Shuting He"
+      ],
+      "published": "2026-01-27T15:41:11+00:00",
+      "updated": "2026-01-27T15:41:11+00:00",
+      "summary": "3D style transfer enables the creation of visually expressive 3D content, enriching the visual appearance of 3D scenes and objects. However, existing VGG- and CLIP-based methods struggle to model multi-view consistency within the model itself, while diffusion-based approaches can capture such consistency but rely on denoising directions, leading to unstable training. To address these limitations, we propose DiffStyle3D, a novel diffusion-based paradigm for 3DGS style transfer that directly optimizes in the latent space. Specifically, we introduce an Attention-Aware Loss that performs style transfer by aligning style features in the self-attention space, while preserving original content through content feature alignment. Inspired by the geometric invariance of 3D stylization, we propose a Geometry-Guided Multi-View Consistency method that integrates geometric information into self-attention to enable cross-view correspondence modeling. Based on geometric information, we additionally construct a geometry-aware mask to prevent redundant optimization in overlapping regions across views, which further improves multi-view consistency. Extensive experiments show that DiffStyle3D outperforms state-of-the-art methods, achieving higher stylization quality and visual realism.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2601.19717v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2601.19717v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.19717v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.19717v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2601.19247": {
+      "title": "TIGaussian: Disentangle Gaussians for Spatial-Awared Text-Image-3D Alignment",
+      "authors": [
+        "Jiarun Liu",
+        "Qifeng Chen",
+        "Yiru Zhao",
+        "Minghua Liu",
+        "Baorui Ma",
+        "Sheng Yang"
+      ],
+      "published": "2026-01-27T06:30:32+00:00",
+      "updated": "2026-01-27T06:30:32+00:00",
+      "summary": "While visual-language models have profoundly linked features between texts and images, the incorporation of 3D modality data, such as point clouds and 3D Gaussians, further enables pretraining for 3D-related tasks, e.g., cross-modal retrieval, zero-shot classification, and scene recognition. As challenges remain in extracting 3D modal features and bridging the gap between different modalities, we propose TIGaussian, a framework that harnesses 3D Gaussian Splatting (3DGS) characteristics to strengthen cross-modality alignment through multi-branch 3DGS tokenizer and modality-specific 3D feature alignment strategies. Specifically, our multi-branch 3DGS tokenizer decouples the intrinsic properties of 3DGS structures into compact latent representations, enabling more generalizable feature extraction. To further bridge the modality gap, we develop a bidirectional cross-modal alignment strategies: a multi-view feature fusion mechanism that leverages diffusion priors to resolve perspective ambiguity in image-3D alignment, while a text-3D projection module adaptively maps 3D features to text embedding space for better text-3D alignment. Extensive experiments on various datasets demonstrate the state-of-the-art performance of TIGaussian in multiple tasks.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2601.19247v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2601.19247v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.19247v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.19247v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2601.19180": {
+      "title": "SNR-Edit: Structure-Aware Noise Rectification for Inversion-Free Flow-Based Editing",
+      "authors": [
+        "Lifan Jiang",
+        "Boxi Wu",
+        "Yuhang Pei",
+        "Tianrun Wu",
+        "Yongyuan Chen",
+        "Yan Zhao",
+        "Shiyu Yu",
+        "Deng Cai"
+      ],
+      "published": "2026-01-27T04:24:21+00:00",
+      "updated": "2026-01-27T04:24:21+00:00",
+      "summary": "Inversion-free image editing using flow-based generative models challenges the prevailing inversion-based pipelines. However, existing approaches rely on fixed Gaussian noise to construct the source trajectory, leading to biased trajectory dynamics and causing structural degradation or quality loss. To address this, we introduce SNR-Edit, a training-free framework achieving faithful Latent Trajectory Correction via adaptive noise control. Mechanistically, SNR-Edit uses structure-aware noise rectification to inject segmentation constraints into the initial noise, anchoring the stochastic component of the source trajectory to the real image's implicit inversion position and reducing trajectory drift during source--target transport. This lightweight modification yields smoother latent trajectories and ensures high-fidelity structural preservation without requiring model tuning or inversion. Across SD3 and FLUX, evaluations on PIE-Bench and SNR-Bench show that SNR-Edit delivers performance on pixel-level metrics and VLM-based scoring, while adding only about 1s overhead per image.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2601.19180v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2601.19180v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.19180v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.19180v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2601.18629": {
       "title": "ExoGS: A 4D Real-to-Sim-to-Real Framework for Scalable Manipulation Data Collection",
       "authors": [
@@ -92952,6 +93070,151 @@
     }
   },
   "Depth Estimation": {
+    "2601.19489": {
+      "title": "Fast Converging 3D Gaussian Splatting for 1-Minute Reconstruction",
+      "authors": [
+        "Ziyu Zhang",
+        "Tianle Liu",
+        "Diantao Tu",
+        "Shuhan Shen"
+      ],
+      "published": "2026-01-27T11:20:37+00:00",
+      "updated": "2026-01-27T11:20:37+00:00",
+      "summary": "We present a fast 3DGS reconstruction pipeline designed to converge within one minute, developed for the SIGGRAPH Asia 3DGS Fast Reconstruction Challenge. The challenge consists of an initial round using SLAM-generated camera poses (with noisy trajectories) and a final round using COLMAP poses (highly accurate). To robustly handle these heterogeneous settings, we develop a two-stage solution. In the first round, we use reverse per-Gaussian parallel optimization and compact forward splatting based on Taming-GS and Speedy-splat, load-balanced tiling, an anchor-based Neural-Gaussian representation enabling rapid convergence with fewer learnable parameters, initialization from monocular depth and partially from feed-forward 3DGS models, and a global pose refinement module for noisy SLAM trajectories. In the final round, the accurate COLMAP poses change the optimization landscape; we disable pose refinement, revert from Neural-Gaussians back to standard 3DGS to eliminate MLP inference overhead, introduce multi-view consistency-guided Gaussian splitting inspired by Fast-GS, and introduce a depth estimator to supervise the rendered depth. Together, these techniques enable high-fidelity reconstruction under a strict one-minute budget. Our method achieved the top performance with a PSNR of 28.43 and ranked first in the competition.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2601.19489v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "First Rank of SIGGRAPH Asia 2025 3DGS Challenge. Code available at",
+      "entry_id": "http://arxiv.org/abs/2601.19489v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.19489v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.19489v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2601.19461": {
+      "title": "Towards Gold-Standard Depth Estimation for Tree Branches in UAV Forestry: Benchmarking Deep Stereo Matching Methods",
+      "authors": [
+        "Yida Lin",
+        "Bing Xue",
+        "Mengjie Zhang",
+        "Sam Schofield",
+        "Richard Green"
+      ],
+      "published": "2026-01-27T10:45:29+00:00",
+      "updated": "2026-01-27T10:45:29+00:00",
+      "summary": "Autonomous UAV forestry operations require robust depth estimation with strong cross-domain generalization, yet existing evaluations focus on urban and indoor scenarios, leaving a critical gap for vegetation-dense environments. We present the first systematic zero-shot evaluation of eight stereo methods spanning iterative refinement, foundation model, diffusion-based, and 3D CNN paradigms. All methods use officially released pretrained weights (trained on Scene Flow) and are evaluated on four standard benchmarks (ETH3D, KITTI 2012/2015, Middlebury) plus a novel 5,313-pair Canterbury Tree Branches dataset ($1920 \\times 1080$). Results reveal scene-dependent patterns: foundation models excel on structured scenes (BridgeDepth: 0.23 px on ETH3D; DEFOM: 4.65 px on Middlebury), while iterative methods show variable cross-benchmark performance (IGEV++: 0.36 px on ETH3D but 6.77 px on Middlebury; IGEV: 0.33 px on ETH3D but 4.99 px on Middlebury). Qualitative evaluation on the Tree Branches dataset establishes DEFOM as the gold-standard baseline for vegetation depth estimation, with superior cross-domain consistency (consistently ranking 1st-2nd across benchmarks, average rank 1.75). DEFOM predictions will serve as pseudo-ground-truth for future benchmarking.",
+      "categories": [
+        "cs.CV",
+        "cs.RO",
+        "eess.IV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2601.19461v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2601.19461v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.19461v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.19461v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2601.19314": {
+      "title": "Instance-Guided Radar Depth Estimation for 3D Object Detection",
+      "authors": [
+        "Chen-Chou Lo",
+        "Patrick Vandewalle"
+      ],
+      "published": "2026-01-27T07:53:24+00:00",
+      "updated": "2026-01-27T07:53:24+00:00",
+      "summary": "Accurate depth estimation is fundamental to 3D perception in autonomous driving, supporting tasks such as detection, tracking, and motion planning. However, monocular camera-based 3D detection suffers from depth ambiguity and reduced robustness under challenging conditions. Radar provides complementary advantages such as resilience to poor lighting and adverse weather, but its sparsity and low resolution limit its direct use in detection frameworks. This motivates the need for effective Radar-camera fusion with improved preprocessing and depth estimation strategies. We propose an end-to-end framework that enhances monocular 3D object detection through two key components. First, we introduce InstaRadar, an instance segmentation-guided expansion method that leverages pre-trained segmentation masks to enhance Radar density and semantic alignment, producing a more structured representation. InstaRadar achieves state-of-the-art results in Radar-guided depth estimation, showing its effectiveness in generating high-quality depth features. Second, we integrate the pre-trained RCDPT into the BEVDepth framework as a replacement for its depth module. With InstaRadar-enhanced inputs, the RCDPT integration consistently improves 3D detection performance. Overall, these components yield steady gains over the baseline BEVDepth model, demonstrating the effectiveness of InstaRadar and the advantage of explicit depth supervision in 3D object detection. Although the framework lags behind Radar-camera fusion models that directly extract BEV features, since Radar serves only as guidance rather than an independent feature stream, this limitation highlights potential for improvement. Future work will extend InstaRadar to point cloud-like representations and integrate a dedicated Radar branch with temporal cues for enhanced BEV fusion.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2601.19314v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted to IPMV2026",
+      "entry_id": "http://arxiv.org/abs/2601.19314v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.19314v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.19314v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2601.18929": {
+      "title": "On the Role of Depth in Surgical Vision Foundation Models: An Empirical Study of RGB-D Pre-training",
+      "authors": [
+        "John J. Han",
+        "Adam Schmidt",
+        "Muhammad Abdullah Jamal",
+        "Chinedu Nwoye",
+        "Anita Rau",
+        "Jie Ying Wu",
+        "Omid Mohareri"
+      ],
+      "published": "2026-01-26T20:04:57+00:00",
+      "updated": "2026-01-26T20:04:57+00:00",
+      "summary": "Vision foundation models (VFMs) have emerged as powerful tools for surgical scene understanding. However, current approaches predominantly rely on unimodal RGB pre-training, overlooking the complex 3D geometry inherent to surgical environments. Although several architectures support multimodal or geometry-aware inputs in general computer vision, the benefits of incorporating depth information in surgical settings remain underexplored. We conduct a large-scale empirical study comparing eight ViT-based VFMs that differ in pre-training domain, learning objective, and input modality (RGB vs. RGB-D). For pre-training, we use a curated dataset of 1.4 million robotic surgical images paired with depth maps generated from an off-the-shelf network. We evaluate these models under both frozen-backbone and end-to-end fine-tuning protocols across eight surgical datasets spanning object detection, segmentation, depth estimation, and pose estimation. Our experiments yield several consistent findings. Models incorporating explicit geometric tokenization, such as MultiMAE, substantially outperform unimodal baselines across all tasks. Notably, geometric-aware pre-training enables remarkable data efficiency: models fine-tuned on just 25% of labeled data consistently surpass RGB-only models trained on the full dataset. Importantly, these gains require no architectural or runtime changes at inference; depth is used only during pre-training, making adoption straightforward. These findings suggest that multimodal pre-training offers a viable path towards building more capable surgical vision systems.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2601.18929v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2601.18929v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.18929v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.18929v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2601.17657": {
       "title": "SPACE-CLIP: Spatial Perception via Adaptive CLIP Embeddings for Monocular Depth Estimation",
       "authors": [
@@ -93097,33 +93360,34 @@
       "authors": [
         "Matan Leibovich",
         "Mai Tan",
+        "Ramon Manzorro-Ureba",
         "Adria Marcos-Morales",
         "Sreyas Mohan",
         "Peter A. Crozier",
         "Carlos Fernandez-Granda"
       ],
       "published": "2026-01-20T19:35:53+00:00",
-      "updated": "2026-01-20T19:35:53+00:00",
+      "updated": "2026-01-27T15:07:04+00:00",
       "summary": "We present a novel approach for extracting 3D atomic-level information from transmission electron microscopy (TEM) images affected by significant noise. The approach is based on formulating depth estimation as a semantic segmentation problem. We address the resulting segmentation problem by training a deep convolutional neural network to generate pixel-wise depth segmentation maps using simulated data corrupted by synthetic noise. The proposed method was applied to estimate the depth of atomic columns in CeO2 nanoparticles from simulated images and real-world TEM data. Our experiments show that the resulting depth estimates are accurate, calibrated and robust to noise.",
       "categories": [
         "cs.CV",
         "cs.LG"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2601.17046v1",
+      "pdf_url": "https://arxiv.org/pdf/2601.17046v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2601.17046v1",
+      "entry_id": "http://arxiv.org/abs/2601.17046v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2601.17046v1",
+          "href": "https://arxiv.org/abs/2601.17046v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2601.17046v1",
+          "href": "https://arxiv.org/pdf/2601.17046v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
