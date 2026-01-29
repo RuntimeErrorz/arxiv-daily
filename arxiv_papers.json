@@ -239,7 +239,7 @@
       "llm_approved": false
     },
     "2601.16200": {
-      "title": "Provable Robustness in Multimodal Large Language Models via Feature Space Smoothing",
+      "title": "Feature-Space Adversarial Robustness Certification for Multimodal Large Language Models",
       "authors": [
         "Song Xia",
         "Meiwen Ding",
@@ -248,27 +248,27 @@
         "Xudong Jiang"
       ],
       "published": "2026-01-22T18:52:21+00:00",
-      "updated": "2026-01-22T18:52:21+00:00",
-      "summary": "Multimodal large language models (MLLMs) exhibit strong capabilities across diverse applications, yet remain vulnerable to adversarial perturbations that distort their feature representations and induce erroneous predictions. To address this vulnerability, we propose the Feature-space Smoothing (FS) and theoretically prove that FS offers certified robustness on the feature representations of MLLMs. Specifically, FS transforms any feature encoder into a smoothed variant that is guaranteed to maintain a certified lower bound on the feature cosine similarity between clean and adversarial representations under $\\ell_2$-bounded attacks. Moreover, we indicate that the value of this Feature Cosine Similarity Bound (FCSB) derived from FS can be improved by enlarging the defined Gaussian robustness score on the vanilla encoder. Building upon this, we introduce the Purifier and Smoothness Mapper (PSM), a plug-and-play module that improves the Gaussian robustness score of MLLMs and thus enhances their certified robustness under FS, without requiring any retraining on MLLMs. We demonstrate that the FS with PSM not only provides a strong theoretical robustness guarantee but also exhibits superior empirical performance compared to adversarial training. Extensive experiments across diverse MLLMs and downstream tasks indicate the effectiveness of the FS-PSM, reducing the Attack Success Rate (ASR) of various white-box attacks from nearly 90\\% to about 1\\%.",
+      "updated": "2026-01-27T19:02:47+00:00",
+      "summary": "Multimodal large language models (MLLMs) exhibit strong capabilities across diverse applications, yet remain vulnerable to adversarial perturbations that distort their feature representations and induce erroneous predictions. To address this vulnerability, we propose Feature-space Smoothing (FS), a general framework that provides certified robustness guarantees at the feature representation level of MLLMs. We theoretically prove that FS converts a given feature extractor into a smoothed variant that is guaranteed a certified lower bound on the cosine similarity between clean and adversarial features under $\\ell_2$-bounded perturbations. Moreover, we establish that the value of this Feature Cosine Similarity Bound (FCSB) is determined by the intrinsic Gaussian robustness score of the given encoder. Building on this insight, we introduce the Gaussian Smoothness Booster (GSB), a plug-and-play module that enhances the Gaussian robustness score of pretrained MLLMs, thereby strengthening the robustness guaranteed by FS, without requiring additional MLLM retraining. Extensive experiments demonstrate that applying the FS to various MLLMs yields strong certified feature-space robustness and consistently leads to robust task-oriented performance across diverse applications.",
       "categories": [
         "cs.LG",
         "cs.CV"
       ],
       "primary_category": "cs.LG",
-      "pdf_url": "https://arxiv.org/pdf/2601.16200v1",
+      "pdf_url": "https://arxiv.org/pdf/2601.16200v2",
       "journal_ref": null,
       "doi": null,
       "comment": "Under review",
-      "entry_id": "http://arxiv.org/abs/2601.16200v1",
+      "entry_id": "http://arxiv.org/abs/2601.16200v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2601.16200v1",
+          "href": "https://arxiv.org/abs/2601.16200v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2601.16200v1",
+          "href": "https://arxiv.org/pdf/2601.16200v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -93078,6 +93078,80 @@
     }
   },
   "Depth Estimation": {
+    "2601.20331": {
+      "title": "GVGS: Gaussian Visibility-Aware Multi-View Geometry for Accurate Surface Reconstruction",
+      "authors": [
+        "Mai Su",
+        "Qihan Yu",
+        "Zhongtao Wang",
+        "Yilong Li",
+        "Chengwei Pan",
+        "Yisong Chen",
+        "Guoping Wang"
+      ],
+      "published": "2026-01-28T07:48:51+00:00",
+      "updated": "2026-01-28T07:48:51+00:00",
+      "summary": "3D Gaussian Splatting enables efficient optimization and high-quality rendering, yet accurate surface reconstruction remains challenging. Prior methods improve surface reconstruction by refining Gaussian depth estimates, either via multi-view geometric consistency or through monocular depth priors. However, multi-view constraints become unreliable under large geometric discrepancies, while monocular priors suffer from scale ambiguity and local inconsistency, ultimately leading to inaccurate Gaussian depth supervision. To address these limitations, we introduce a Gaussian visibility-aware multi-view geometric consistency constraint that aggregates the visibility of shared Gaussian primitives across views, enabling more accurate and stable geometric supervision. In addition, we propose a progressive quadtree-calibrated Monocular depth constraint that performs block-wise affine calibration from coarse to fine spatial scales, mitigating the scale ambiguity of depth priors while preserving fine-grained surface details. Extensive experiments on DTU and TNT datasets demonstrate consistent improvements in geometric accuracy over prior Gaussian-based and implicit surface reconstruction methods. Codes are available at an anonymous repository: https://github.com/GVGScode/GVGS.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2601.20331v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2601.20331v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.20331v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.20331v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2601.20303": {
+      "title": "Physically Guided Visual Mass Estimation from a Single RGB Image",
+      "authors": [
+        "Sungjae Lee",
+        "Junhan Jeong",
+        "Yeonjoo Hong",
+        "Kwang In Kim"
+      ],
+      "published": "2026-01-28T06:53:36+00:00",
+      "updated": "2026-01-28T06:53:36+00:00",
+      "summary": "Estimating object mass from visual input is challenging because mass depends jointly on geometric volume and material-dependent density, neither of which is directly observable from RGB appearance. Consequently, mass prediction from pixels is ill-posed and therefore benefits from physically meaningful representations to constrain the space of plausible solutions. We propose a physically structured framework for single-image mass estimation that addresses this ambiguity by aligning visual cues with the physical factors governing mass. From a single RGB image, we recover object-centric three-dimensional geometry via monocular depth estimation to inform volume and extract coarse material semantics using a vision-language model to guide density-related reasoning. These geometry, semantic, and appearance representations are fused through an instance-adaptive gating mechanism, and two physically guided latent factors (volume- and density-related) are predicted through separate regression heads under mass-only supervision. Experiments on image2mass and ABO-500 show that the proposed method consistently outperforms state-of-the-art methods.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2601.20303v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2601.20303v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.20303v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.20303v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2601.19489": {
       "title": "Fast Converging 3D Gaussian Splatting for 1-Minute Reconstruction",
       "authors": [
@@ -93087,26 +93161,26 @@
         "Shuhan Shen"
       ],
       "published": "2026-01-27T11:20:37+00:00",
-      "updated": "2026-01-27T11:20:37+00:00",
+      "updated": "2026-01-28T08:59:11+00:00",
       "summary": "We present a fast 3DGS reconstruction pipeline designed to converge within one minute, developed for the SIGGRAPH Asia 3DGS Fast Reconstruction Challenge. The challenge consists of an initial round using SLAM-generated camera poses (with noisy trajectories) and a final round using COLMAP poses (highly accurate). To robustly handle these heterogeneous settings, we develop a two-stage solution. In the first round, we use reverse per-Gaussian parallel optimization and compact forward splatting based on Taming-GS and Speedy-splat, load-balanced tiling, an anchor-based Neural-Gaussian representation enabling rapid convergence with fewer learnable parameters, initialization from monocular depth and partially from feed-forward 3DGS models, and a global pose refinement module for noisy SLAM trajectories. In the final round, the accurate COLMAP poses change the optimization landscape; we disable pose refinement, revert from Neural-Gaussians back to standard 3DGS to eliminate MLP inference overhead, introduce multi-view consistency-guided Gaussian splitting inspired by Fast-GS, and introduce a depth estimator to supervise the rendered depth. Together, these techniques enable high-fidelity reconstruction under a strict one-minute budget. Our method achieved the top performance with a PSNR of 28.43 and ranked first in the competition.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2601.19489v1",
+      "pdf_url": "https://arxiv.org/pdf/2601.19489v2",
       "journal_ref": null,
       "doi": null,
-      "comment": "First Rank of SIGGRAPH Asia 2025 3DGS Challenge. Code available at",
-      "entry_id": "http://arxiv.org/abs/2601.19489v1",
+      "comment": "First Rank of SIGGRAPH Asia 2025 3DGS Challenge. Code available at https://github.com/will-zzy/siggraph_asia",
+      "entry_id": "http://arxiv.org/abs/2601.19489v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2601.19489v1",
+          "href": "https://arxiv.org/abs/2601.19489v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2601.19489v1",
+          "href": "https://arxiv.org/pdf/2601.19489v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null

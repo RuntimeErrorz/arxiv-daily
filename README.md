@@ -1,4 +1,4 @@
-## Updated at 2026-01-29 08:22:45
+## Updated at 2026-01-29 20:11:33
 
 ## 3DGS Semantic
 
@@ -640,7 +640,9 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
-|**2026-01-27**|**[Fast Converging 3D Gaussian Splatting for 1-Minute Reconstruction](https://arxiv.org/abs/2601.19489)**|N/A|First Rank of SIGGRAPH Asia 2025 3DGS Challenge. Code available at|cs.CV|None|Ziyu Zhang et al.|
+|**2026-01-28**|**[GVGS: Gaussian Visibility-Aware Multi-View Geometry for Accurate Surface Reconstruction](https://arxiv.org/abs/2601.20331)**|N/A|None|cs.CV|None|Mai Su et al.|
+|**2026-01-28**|**[Physically Guided Visual Mass Estimation from a Single RGB Image](https://arxiv.org/abs/2601.20303)**|N/A|None|cs.CV|None|Sungjae Lee et al.|
+|**2026-01-27**|**[Fast Converging 3D Gaussian Splatting for 1-Minute Reconstruction](https://arxiv.org/abs/2601.19489)**|N/A|First Rank of SIGGRAPH Asia 2025 3DGS Challenge. Code available at https://github.com/will-zzy/siggraph_asia|cs.CV|None|Ziyu Zhang et al.|
 |**2026-01-27**|**[Towards Gold-Standard Depth Estimation for Tree Branches in UAV Forestry: Benchmarking Deep Stereo Matching Methods](https://arxiv.org/abs/2601.19461)**|N/A|None|cs.CV|None|Yida Lin et al.|
 |**2026-01-27**|**[Instance-Guided Radar Depth Estimation for 3D Object Detection](https://arxiv.org/abs/2601.19314)**|N/A|Accepted to IPMV2026|cs.CV|None|Chen-Chou Lo, Patrick Vandewalle|
 |**2026-01-26**|**[On the Role of Depth in Surgical Vision Foundation Models: An Empirical Study of RGB-D Pre-training](https://arxiv.org/abs/2601.18929)**|N/A|None|cs.CV|None|John J. Han et al.|
