@@ -1,5 +1,311 @@
 {
   "3DGS Semantic": {
+    "2601.21933": {
+      "title": "Just Noticeable Difference Modeling for Deep Visual Features",
+      "authors": [
+        "Rui Zhao",
+        "Wenrui Li",
+        "Lin Zhu",
+        "Yajing Zheng",
+        "Weisi Lin"
+      ],
+      "published": "2026-01-29T16:22:31+00:00",
+      "updated": "2026-01-29T16:22:31+00:00",
+      "summary": "Deep visual features are increasingly used as the interface in vision systems, motivating the need to describe feature characteristics and control feature quality for machine perception. Just noticeable difference (JND) characterizes the maximum imperceptible distortion for images under human or machine vision. Extending it to deep visual features naturally meets the above demand by providing a task-aligned tolerance boundary in feature space, offering a practical reference for controlling feature quality under constrained resources. We propose FeatJND, a task-aligned JND formulation that predicts the maximum tolerable per-feature perturbation map while preserving downstream task performance. We propose a FeatJND estimator at standardized split points and validate it across image classification, detection, and instance segmentation. Under matched distortion strength, FeatJND-based distortions consistently preserve higher task performance than unstructured Gaussian perturbations, and attribution visualizations suggest FeatJND can suppress non-critical feature regions. As an application, we further apply FeatJND to token-wise dynamic quantization and show that FeatJND-guided step-size allocation yields clear gains over random step-size permutation and global uniform step size under the same noise budget. Our code will be released after publication.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2601.21933v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2601.21933v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.21933v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.21933v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2601.21856": {
+      "title": "Blind Ultrasound Image Enhancement via Self-Supervised Physics-Guided Degradation Modeling",
+      "authors": [
+        "Shujaat Khan",
+        "Syed Muhammad Atif",
+        "Jaeyoung Huh",
+        "Syed Saad Azhar"
+      ],
+      "published": "2026-01-29T15:28:25+00:00",
+      "updated": "2026-01-29T15:28:25+00:00",
+      "summary": "Ultrasound (US) interpretation is hampered by multiplicative speckle, acquisition blur from the point-spread function (PSF), and scanner- and operator-dependent artifacts. Supervised enhancement methods assume access to clean targets or known degradations; conditions rarely met in practice. We present a blind, self-supervised enhancement framework that jointly deconvolves and denoises B-mode images using a Swin Convolutional U-Net trained with a \\emph{physics-guided} degradation model. From each training frame, we extract rotated/cropped patches and synthesize inputs by (i) convolving with a Gaussian PSF surrogate and (ii) injecting noise via either spatial additive Gaussian noise or complex Fourier-domain perturbations that emulate phase/magnitude distortions. For US scans, clean-like targets are obtained via non-local low-rank (NLLR) denoising, removing the need for ground truth; for natural images, the originals serve as targets. Trained and validated on UDIAT~B, JNU-IFM, and XPIE Set-P, and evaluated additionally on a 700-image PSFHS test set, the method achieves the highest PSNR/SSIM across Gaussian and speckle noise levels, with margins that widen under stronger corruption. Relative to MSANN, Restormer, and DnCNN, it typically preserves an extra $\\sim$1--4\\,dB PSNR and 0.05--0.15 SSIM in heavy Gaussian noise, and $\\sim$2--5\\,dB PSNR and 0.05--0.20 SSIM under severe speckle. Controlled PSF studies show reduced FWHM and higher peak gradients, evidence of resolution recovery without edge erosion. Used as a plug-and-play preprocessor, it consistently boosts Dice for fetal head and pubic symphysis segmentation. Overall, the approach offers a practical, assumption-light path to robust US enhancement that generalizes across datasets, scanners, and degradation types.",
+      "categories": [
+        "eess.IV",
+        "cs.CV",
+        "stat.ML"
+      ],
+      "primary_category": "eess.IV",
+      "pdf_url": "https://arxiv.org/pdf/2601.21856v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "11 pages, 13 figures",
+      "entry_id": "http://arxiv.org/abs/2601.21856v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.21856v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.21856v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2601.21786": {
+      "title": "Synthetic-to-Real Domain Bridging for Single-View 3D Reconstruction of Ships for Maritime Monitoring",
+      "authors": [
+        "Borja Carrillo-Perez",
+        "Felix Sattler",
+        "Angel Bueno Rodriguez",
+        "Maurice Stephan",
+        "Sarah Barnes"
+      ],
+      "published": "2026-01-29T14:34:01+00:00",
+      "updated": "2026-01-29T14:34:01+00:00",
+      "summary": "Three-dimensional (3D) reconstruction of ships is an important part of maritime monitoring, allowing improved visualization, inspection, and decision-making in real-world monitoring environments. However, most state-ofthe-art 3D reconstruction methods require multi-view supervision, annotated 3D ground truth, or are computationally intensive, making them impractical for real-time maritime deployment. In this work, we present an efficient pipeline for single-view 3D reconstruction of real ships by training entirely on synthetic data and requiring only a single view at inference. Our approach uses the Splatter Image network, which represents objects as sparse sets of 3D Gaussians for rapid and accurate reconstruction from single images. The model is first fine-tuned on synthetic ShapeNet vessels and further refined with a diverse custom dataset of 3D ships, bridging the domain gap between synthetic and real-world imagery. We integrate a state-of-the-art segmentation module based on YOLOv8 and custom preprocessing to ensure compatibility with the reconstruction network. Postprocessing steps include real-world scaling, centering, and orientation alignment, followed by georeferenced placement on an interactive web map using AIS metadata and homography-based mapping. Quantitative evaluation on synthetic validation data demonstrates strong reconstruction fidelity, while qualitative results on real maritime images from the ShipSG dataset confirm the potential for transfer to operational maritime settings. The final system provides interactive 3D inspection of real ships without requiring real-world 3D annotations. This pipeline provides an efficient, scalable solution for maritime monitoring and highlights a path toward real-time 3D ship visualization in practical applications. Interactive demo: https://dlr-mi.github.io/ship3d-demo/.",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.GR"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2601.21786v1",
+      "journal_ref": "Applications of Machine Learning 2025, Proc. of SPIE Vol. 13606, 136061G 2025 Published by SPIE 0277-786X",
+      "doi": "10.1117/12.3063784",
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2601.21786v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.21786v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.21786v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        },
+        {
+          "href": "https://doi.org/10.1117/12.3063784",
+          "title": "doi",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2601.21752": {
+      "title": "Synthesizing Epileptic Seizures: Gaussian Processes for EEG Generation",
+      "authors": [
+        "Nina Moutonnet",
+        "Joshua Corneck",
+        "Felipe Tobar",
+        "Danilo Mandic"
+      ],
+      "published": "2026-01-29T14:06:52+00:00",
+      "updated": "2026-01-29T14:06:52+00:00",
+      "summary": "Reliable seizure detection from electroencephalography (EEG) time series is a high-priority clinical goal, yet the acquisition cost and scarcity of labeled EEG data limit the performance of machine learning methods. This challenge is exacerbated by the long-range, high-dimensional, and non-stationary nature of epileptic EEG recordings, which makes realistic data generation particularly difficult. In this work, we revisit Gaussian processes as a principled and interpretable foundation for modeling EEG dynamics, and propose a novel hierarchical framework, \\textit{GP-EEG}, for generating synthetic epileptic EEG recordings. At its core, our approach decomposes EEG signals into temporal segments modeled via Gaussian process regression, and integrates a domain-adaptation variational autoencoder. We validate the proposed method on two real-world, open-source epileptic EEG datasets. The synthetic EEG recordings generated by our model match real-world epileptic EEG both quantitatively and qualitatively, and can be used to augment training sets.",
+      "categories": [
+        "stat.ME"
+      ],
+      "primary_category": "stat.ME",
+      "pdf_url": "https://arxiv.org/pdf/2601.21752v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2601.21752v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.21752v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.21752v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2601.21692": {
+      "title": "TCAP: Tri-Component Attention Profiling for Unsupervised Backdoor Detection in MLLM Fine-Tuning",
+      "authors": [
+        "Mingzu Liu",
+        "Hao Fang",
+        "Runmin Cong"
+      ],
+      "published": "2026-01-29T13:26:29+00:00",
+      "updated": "2026-01-29T13:26:29+00:00",
+      "summary": "Fine-Tuning-as-a-Service (FTaaS) facilitates the customization of Multimodal Large Language Models (MLLMs) but introduces critical backdoor risks via poisoned data. Existing defenses either rely on supervised signals or fail to generalize across diverse trigger types and modalities. In this work, we uncover a universal backdoor fingerprint-attention allocation divergence-where poisoned samples disrupt the balanced attention distribution across three functional components: system instructions, vision inputs, and user textual queries, regardless of trigger morphology. Motivated by this insight, we propose Tri-Component Attention Profiling (TCAP), an unsupervised defense framework to filter backdoor samples. TCAP decomposes cross-modal attention maps into the three components, identifies trigger-responsive attention heads via Gaussian Mixture Model (GMM) statistical profiling, and isolates poisoned samples through EM-based vote aggregation. Extensive experiments across diverse MLLM architectures and attack methods demonstrate that TCAP achieves consistently strong performance, establishing it as a robust and practical backdoor defense in MLLMs.",
+      "categories": [
+        "cs.AI"
+      ],
+      "primary_category": "cs.AI",
+      "pdf_url": "https://arxiv.org/pdf/2601.21692v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2601.21692v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.21692v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.21692v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2601.21688": {
+      "title": "XFACTORS: Disentangled Information Bottleneck via Contrastive Supervision",
+      "authors": [
+        "Alexandre Myara",
+        "Nicolas Bourriez",
+        "Thomas Boyer",
+        "Thomas Lemercier",
+        "Ihab Bendidi",
+        "Auguste Genovesio"
+      ],
+      "published": "2026-01-29T13:20:48+00:00",
+      "updated": "2026-01-29T13:20:48+00:00",
+      "summary": "Disentangled representation learning aims to map independent factors of variation to independent representation components. On one hand, purely unsupervised approaches have proven successful on fully disentangled synthetic data, but fail to recover semantic factors from real data without strong inductive biases. On the other hand, supervised approaches are unstable and hard to scale to large attribute sets because they rely on adversarial objectives or auxiliary classifiers.\n  We introduce \\textsc{XFactors}, a weakly-supervised VAE framework that disentangles and provides explicit control over a chosen set of factors. Building on the Disentangled Information Bottleneck perspective, we decompose the representation into a residual subspace $\\mathcal{S}$ and factor-specific subspaces $\\mathcal{T}_1,\\ldots,\\mathcal{T}_K$ and a residual subspace $\\mathcal{S}$. Each target factor is encoded in its assigned $\\mathcal{T}_i$ through contrastive supervision: an InfoNCE loss pulls together latents sharing the same factor value and pushes apart mismatched pairs. In parallel, KL regularization imposes a Gaussian structure on both $\\mathcal{S}$ and the aggregated factor subspaces, organizing the geometry without additional supervision for non-targeted factors and avoiding adversarial training and classifiers.\n  Across multiple datasets, with constant hyperparameters, \\textsc{XFactors} achieves state-of-the-art disentanglement scores and yields consistent qualitative factor alignment in the corresponding subspaces, enabling controlled factor swapping via latent replacement. We further demonstrate that our method scales correctly with increasing latent capacity and evaluate it on the real-world dataset CelebA. Our code is available at \\href{https://github.com/ICML26-anon/XFactors}{github.com/ICML26-anon/XFactors}.",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2601.21688v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2601.21688v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.21688v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.21688v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2601.21488": {
+      "title": "HADUA: Hierarchical Attention and Dynamic Uniform Alignment for Robust Cross-Subject Emotion Recognition",
+      "authors": [
+        "Jiahao Tang",
+        "Youjun Li",
+        "Yangxuan Zheng",
+        "Xiangting Fan",
+        "Siyuan Lu",
+        "Nuo Zhang",
+        "Zi-Gang Huang"
+      ],
+      "published": "2026-01-29T10:08:38+00:00",
+      "updated": "2026-01-29T10:08:38+00:00",
+      "summary": "Robust cross-subject emotion recognition from multimodal physiological signals remains a challenging problem, primarily due to modality heterogeneity and inter-subject distribution shift. To tackle these challenges, we propose a novel adaptive learning framework named Hierarchical Attention and Dynamic Uniform Alignment (HADUA). Our approach unifies the learning of multimodal representations with domain adaptation. First, we design a hierarchical attention module that explicitly models intra-modal temporal dynamics and inter-modal semantic interactions (e.g., between electroencephalogram(EEG) and eye movement(EM)), yielding discriminative and semantically coherent fused features. Second, to overcome the noise inherent in pseudo-labels during adaptation, we introduce a confidence-aware Gaussian weighting scheme that smooths the supervision from target-domain samples by down-weighting uncertain instances. Third, a uniform alignment loss is employed to regularize the distribution of pseudo-labels across classes, thereby mitigating imbalance and stabilizing conditional distribution matching. Extensive experiments on multiple cross-subject emotion recognition benchmarks show that HADUA consistently surpasses existing state-of-the-art methods in both accuracy and robustness, validating its effectiveness in handling modality gaps, noisy pseudo-labels, and class imbalance. Taken together, these contributions offer a practical and generalizable solution for building robust cross-subject affective computing systems.",
+      "categories": [
+        "cs.MM"
+      ],
+      "primary_category": "cs.MM",
+      "pdf_url": "https://arxiv.org/pdf/2601.21488v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2601.21488v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.21488v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.21488v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2601.21003": {
+      "title": "Bayesian-LoRA: Probabilistic Low-Rank Adaptation of Large Language Models",
+      "authors": [
+        "Moule Lin",
+        "Shuhao Guan",
+        "Andrea Patane",
+        "David Gregg",
+        "Goetz Botterweck"
+      ],
+      "published": "2026-01-28T19:54:31+00:00",
+      "updated": "2026-01-28T19:54:31+00:00",
+      "summary": "Large Language Models usually put more emphasis on accuracy and therefore, will guess even when not certain about the prediction, which is especially severe when fine-tuned on small datasets due to the inherent tendency toward miscalibration. In this work, we introduce Bayesian-LoRA, which reformulates the deterministic LoRA update as a probabilistic low-rank representation inspired by Sparse Gaussian Processes. We identify a structural isomorphism between LoRA's factorization and Kronecker-factored SGP posteriors, and show that LoRA emerges as a limiting case when posterior uncertainty collapses. We conduct extensive experiments on various LLM architectures across commonsense reasoning benchmarks. With only approximately 0.42M additional parameters and ${\\approx}1.2{\\times}$ training cost relative to standard LoRA, Bayesian-LoRA significantly improves calibration across models up to 30B, achieving up to 84% ECE reduction and 76% NLL reduction while maintaining competitive accuracy for both in-distribution and out-of-distribution (OoD) evaluations.",
+      "categories": [
+        "cs.AI"
+      ],
+      "primary_category": "cs.AI",
+      "pdf_url": "https://arxiv.org/pdf/2601.21003v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2601.21003v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.21003v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.21003v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2601.19717": {
       "title": "DiffStyle3D: Consistent 3D Gaussian Stylization via Attention Optimization",
       "authors": [
@@ -76475,6 +76781,40 @@
     }
   },
   "MVS": {
+    "2601.21421": {
+      "title": "From Implicit Ambiguity to Explicit Solidity: Diagnosing Interior Geometric Degradation in Neural Radiance Fields for Dense 3D Scene Understanding",
+      "authors": [
+        "Jiangsan Zhao",
+        "Jakob Geipel",
+        "Kryzysztof Kusnierek"
+      ],
+      "published": "2026-01-29T08:58:51+00:00",
+      "updated": "2026-01-29T08:58:51+00:00",
+      "summary": "Neural Radiance Fields (NeRFs) have emerged as a powerful paradigm for multi-view reconstruction, complementing classical photogrammetric pipelines based on Structure-from-Motion (SfM) and Multi-View Stereo (MVS). However, their reliability for quantitative 3D analysis in dense, self-occluding scenes remains poorly understood. In this study, we identify a fundamental failure mode of implicit density fields under heavy occlusion, which we term Interior Geometric Degradation (IGD). We show that transmittance-based volumetric optimization satisfies photometric supervision by reconstructing hollow or fragmented structures rather than solid interiors, leading to systematic instance undercounting. Through controlled experiments on synthetic datasets with increasing occlusion, we demonstrate that state-of-the-art mask-supervised NeRFs saturate at approximately 89% instance recovery in dense scenes, despite improved surface coherence and mask quality. To overcome this limitation, we introduce an explicit geometric pipeline based on Sparse Voxel Rasterization (SVRaster), initialized from SfM feature geometry. By projecting 2D instance masks onto an explicit voxel grid and enforcing geometric separation via recursive splitting, our approach preserves physical solidity and achieves a 95.8% recovery rate in dense clusters. A sensitivity analysis using degraded segmentation masks further shows that explicit SfM-based geometry is substantially more robust to supervision failure, recovering 43% more instances than implicit baselines. These results demonstrate that explicit geometric priors are a prerequisite for reliable quantitative analysis in highly self-occluding 3D scenes.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2601.21421v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2601.21421v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.21421v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.21421v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2601.12481": {
       "title": "NeuralFur: Animal Fur Reconstruction From Multi-View Images",
       "authors": [
@@ -93078,6 +93418,46 @@
     }
   },
   "Depth Estimation": {
+    "2601.22054": {
+      "title": "MetricAnything: Scaling Metric Depth Pretraining with Noisy Heterogeneous Sources",
+      "authors": [
+        "Baorui Ma",
+        "Jiahui Yang",
+        "Donglin Di",
+        "Xuancheng Zhang",
+        "Jianxun Cui",
+        "Hao Li",
+        "Yan Xie",
+        "Wei Chen"
+      ],
+      "published": "2026-01-29T17:52:41+00:00",
+      "updated": "2026-01-29T17:52:41+00:00",
+      "summary": "Scaling has powered recent advances in vision foundation models, yet extending this paradigm to metric depth estimation remains challenging due to heterogeneous sensor noise, camera-dependent biases, and metric ambiguity in noisy cross-source 3D data. We introduce Metric Anything, a simple and scalable pretraining framework that learns metric depth from noisy, diverse 3D sources without manually engineered prompts, camera-specific modeling, or task-specific architectures. Central to our approach is the Sparse Metric Prompt, created by randomly masking depth maps, which serves as a universal interface that decouples spatial reasoning from sensor and camera biases. Using about 20M image-depth pairs spanning reconstructed, captured, and rendered 3D data across 10000 camera models, we demonstrate-for the first time-a clear scaling trend in the metric depth track. The pretrained model excels at prompt-driven tasks such as depth completion, super-resolution and Radar-camera fusion, while its distilled prompt-free student achieves state-of-the-art results on monocular depth estimation, camera intrinsics recovery, single/multi-view metric 3D reconstruction, and VLA planning. We also show that using pretrained ViT of Metric Anything as a visual encoder significantly boosts Multimodal Large Language Model capabilities in spatial intelligence. These results show that metric depth estimation can benefit from the same scaling laws that drive modern foundation models, establishing a new path toward scalable and efficient real-world metric perception. We open-source MetricAnything at http://metric-anything.github.io/metric-anything-io/ to support community research.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2601.22054v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Project Page: https://metric-anything.github.io/metric-anything-io/",
+      "entry_id": "http://arxiv.org/abs/2601.22054v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.22054v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.22054v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2601.20331": {
       "title": "GVGS: Gaussian Visibility-Aware Multi-View Geometry for Accurate Surface Reconstruction",
       "authors": [

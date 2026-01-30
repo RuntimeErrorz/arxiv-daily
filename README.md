@@ -1,4 +1,4 @@
-## Updated at 2026-01-30 08:22:49
+## Updated at 2026-01-30 20:11:36
 
 ## 3DGS Semantic
 
@@ -187,6 +187,7 @@ Query: (abs:'Multi-View Stereo' OR abs:'Multi View Stereo' OR abs:'Multi-View De
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-01-29**|**[From Implicit Ambiguity to Explicit Solidity: Diagnosing Interior Geometric Degradation in Neural Radiance Fields for Dense 3D Scene Understanding](https://arxiv.org/abs/2601.21421)**|N/A|None|cs.CV|None|Jiangsan Zhao et al.|
 |**2026-01-18**|**[NeuralFur: Animal Fur Reconstruction From Multi-View Images](https://arxiv.org/abs/2601.12481)**|N/A|For additional results and code, please refer to https://neuralfur.is.tue.mpg.de|cs.CV|None|Vanessa Sklyarova et al.|
 |**2026-01-17**|**[DIAMOND-SSS: Diffusion-Augmented Multi-View Optimization for Data-efficient SubSurface Scattering](https://arxiv.org/abs/2601.12020)**|N/A|None|cs.CV|None|Guillermo Figueroa-Araneda et al.|
 |**2026-01-09**|**[GeoSurDepth: Spatial Geometry-Consistent Self-Supervised Depth Estimation for Surround-View Cameras](https://arxiv.org/abs/2601.05839)**|N/A|None|cs.CV|None|Weimin Liu et al.|
@@ -640,6 +641,7 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-01-29**|**[MetricAnything: Scaling Metric Depth Pretraining with Noisy Heterogeneous Sources](https://arxiv.org/abs/2601.22054)**|N/A|Project Page: https://metric-anything.github.io/metric-anything-io/|cs.CV|None|Baorui Ma et al.|
 |**2026-01-28**|**[GVGS: Gaussian Visibility-Aware Multi-View Geometry for Accurate Surface Reconstruction](https://arxiv.org/abs/2601.20331)**|N/A|None|cs.CV|None|Mai Su et al.|
 |**2026-01-28**|**[Physically Guided Visual Mass Estimation from a Single RGB Image](https://arxiv.org/abs/2601.20303)**|N/A|None|cs.CV|None|Sungjae Lee et al.|
 |**2026-01-27**|**[Fast Converging 3D Gaussian Splatting for 1-Minute Reconstruction](https://arxiv.org/abs/2601.19489)**|N/A|First Rank of SIGGRAPH Asia 2025 3DGS Challenge. Code available at https://github.com/will-zzy/siggraph_asia|cs.CV|None|Ziyu Zhang et al.|
