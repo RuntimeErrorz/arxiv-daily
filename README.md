@@ -1,4 +1,4 @@
-## Updated at 2026-02-01 08:27:01
+## Updated at 2026-02-01 11:07:27
 
 ## 3DGS Semantic
 
@@ -13,11 +13,11 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2026-01-09**|**[FeatureSLAM: Feature-enriched 3D gaussian splatting SLAM in real time](https://arxiv.org/abs/2601.05738)**|N/A|None|cs.CV|None|Christopher Thirgood et al.|
 |**2026-01-08**|**[ProFuse: Efficient Cross-View Context Fusion for Open-Vocabulary 3D Gaussian Splatting](https://arxiv.org/abs/2601.04754)**|N/A|10 pages, 5 figures|cs.CV|None|Yen-Jen Chiou et al.|
 |**2026-01-05**|**[Joint Semantic and Rendering Enhancements in 3D Gaussian Modeling with Anisotropic Local Encoding](https://arxiv.org/abs/2601.02339)**|N/A|Accepted by ICCV 2025|cs.CV|None|Jingming He et al.|
-|**2025-12-29**|**[GaussianDWM: 3D Gaussian Driving World Model for Unified Scene Understanding and Multi-Modal Generation](https://arxiv.org/abs/2512.23180)**|N/A|None|cs.CV|None|Tianchen Deng et al.|
-|**2025-12-24**|**[Quantile Rendering: Efficiently Embedding High-dimensional Feature on 3D Gaussian Splatting](https://arxiv.org/abs/2512.20927)**|N/A|Will be updated|cs.CV|None|Yoonwoo Jeong et al.|
-|**2025-12-19**|**[Chorus: Multi-Teacher Pretraining for Holistic 3D Gaussian Scene Encoding](https://arxiv.org/abs/2512.17817)**|N/A|None|cs.CV|None|Yue Li et al.|
-|**2025-12-19**|**[FLEG: Feed-Forward Language Embedded Gaussian Splatting from Any Views](https://arxiv.org/abs/2512.17541)**|N/A|Project page: https://fangzhou2000.github.io/projects/fleg|cs.CV|None|Qijian Tian et al.|
-|**2025-12-16**|**[Consistent Instance Field for Dynamic Scene Understanding](https://arxiv.org/abs/2512.14126)**|N/A|None|cs.CV|None|Junyi Wu et al.|
+|**2025-12-29**|**[GaussianDWM: 3D Gaussian Driving World Model for Unified Scene Understanding and Multi-Modal Generation](https://arxiv.org/abs/2512.23180)**|arXiv.org|None|cs.CV|None|Tianchen Deng et al.|
+|**2025-12-24**|**[Quantile Rendering: Efficiently Embedding High-dimensional Feature on 3D Gaussian Splatting](https://arxiv.org/abs/2512.20927)**|arXiv.org|Will be updated|cs.CV|None|Yoonwoo Jeong et al.|
+|**2025-12-19**|**[Chorus: Multi-Teacher Pretraining for Holistic 3D Gaussian Scene Encoding](https://arxiv.org/abs/2512.17817)**|arXiv.org|None|cs.CV|None|Yue Li et al.|
+|**2025-12-19**|**[FLEG: Feed-Forward Language Embedded Gaussian Splatting from Any Views](https://arxiv.org/abs/2512.17541)**|arXiv.org|Project page: https://fangzhou2000.github.io/projects/fleg|cs.CV|None|Qijian Tian et al.|
+|**2025-12-16**|**[Consistent Instance Field for Dynamic Scene Understanding](https://arxiv.org/abs/2512.14126)**|arXiv.org|None|cs.CV|None|Junyi Wu et al.|
 |**2025-12-09**|**[OpenMonoGS-SLAM: Monocular Gaussian Splatting SLAM with Open-set Semantics](https://arxiv.org/abs/2512.08625)**|arXiv.org|8 pages, 4 figures|cs.CV|None|Jisang Yoo et al.|
 |**2025-12-08**|**[Lang3D-XL: Language Embedded 3D Gaussians for Large-scale Scenes](https://arxiv.org/abs/2512.07807)**|Proceedings of the SIGGRAPH Asia 2025 Conference Papers|Accepted to SIGGRAPH Asia 2025. Project webpage: https://tau-vailab.github.io/Lang3D-XL|cs.CV|None|Shai Krakovsky et al.|
 |**2025-12-08**|**[STRinGS: Selective Text Refinement in Gaussian Splatting](https://arxiv.org/abs/2512.07230)**|arXiv.org|Accepted to WACV 2026. Project Page, see https://STRinGS-official.github.io|cs.CV|None|Abhinav Raundhal et al.|
