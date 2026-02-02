@@ -1,4 +1,4 @@
-## Updated at 2026-02-02 08:24:10
+## Updated at 2026-02-02 20:13:19
 
 ## 3DGS Semantic
 
@@ -641,6 +641,7 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-01-30**|**[Deep in the Jungle: Towards Automating Chimpanzee Population Estimation](https://arxiv.org/abs/2601.22917)**|N/A|None|cs.CV|None|Tom Raynes et al.|
 |**2026-01-29**|**[MetricAnything: Scaling Metric Depth Pretraining with Noisy Heterogeneous Sources](https://arxiv.org/abs/2601.22054)**|N/A|Project Page: https://metric-anything.github.io/metric-anything-io/|cs.CV|None|Baorui Ma et al.|
 |**2026-01-28**|**[GVGS: Gaussian Visibility-Aware Multi-View Geometry for Accurate Surface Reconstruction](https://arxiv.org/abs/2601.20331)**|N/A|None|cs.CV|None|Mai Su et al.|
 |**2026-01-28**|**[Physically Guided Visual Mass Estimation from a Single RGB Image](https://arxiv.org/abs/2601.20303)**|N/A|None|cs.CV|None|Sungjae Lee et al.|

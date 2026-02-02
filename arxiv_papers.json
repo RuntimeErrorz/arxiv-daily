@@ -1,5 +1,220 @@
 {
   "3DGS Semantic": {
+    "2601.22988": {
+      "title": "Learning Geometrically-Grounded 3D Visual Representations for View-Generalizable Robotic Manipulation",
+      "authors": [
+        "Di Zhang",
+        "Weicheng Duan",
+        "Dasen Gu",
+        "Hongye Lu",
+        "Hai Zhang",
+        "Hang Yu",
+        "Junqiao Zhao",
+        "Guang Chen"
+      ],
+      "published": "2026-01-30T13:53:53+00:00",
+      "updated": "2026-01-30T13:53:53+00:00",
+      "summary": "Real-world robotic manipulation demands visuomotor policies capable of robust spatial scene understanding and strong generalization across diverse camera viewpoints. While recent advances in 3D-aware visual representations have shown promise, they still suffer from several key limitations, including reliance on multi-view observations during inference which is impractical in single-view restricted scenarios, incomplete scene modeling that fails to capture holistic and fine-grained geometric structures essential for precise manipulation, and lack of effective policy training strategies to retain and exploit the acquired 3D knowledge. To address these challenges, we present MethodName, a unified representation-policy learning framework for view-generalizable robotic manipulation. MethodName introduces a single-view 3D pretraining paradigm that leverages point cloud reconstruction and feed-forward gaussian splatting under multi-view supervision to learn holistic geometric representations. During policy learning, MethodName performs multi-step distillation to preserve the pretrained geometric understanding and effectively transfer it to manipulation skills. We conduct experiments on 12 RLBench tasks, where our approach outperforms the previous state-of-the-art method by 12.7% in average success rate. Further evaluation on six representative tasks demonstrates strong zero-shot view generalization, with success rate drops of only 22.0% and 29.7% under moderate and large viewpoint shifts respectively, whereas the state-of-the-art method suffers larger decreases of 41.6% and 51.5%.",
+      "categories": [
+        "cs.RO"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2601.22988v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2601.22988v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.22988v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.22988v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2601.22766": {
+      "title": "Sparse Attention as Compact Kernel Regression",
+      "authors": [
+        "Saul Santos",
+        "Nuno Gonçalves",
+        "Daniel C. McNamee",
+        "André F. T Martins"
+      ],
+      "published": "2026-01-30T09:45:35+00:00",
+      "updated": "2026-01-30T09:45:35+00:00",
+      "summary": "Recent work has revealed a link between self-attention mechanisms in transformers and test-time kernel regression via the Nadaraya-Watson estimator, with standard softmax attention corresponding to a Gaussian kernel. However, a kernel-theoretic understanding of sparse attention mechanisms is currently missing. In this paper, we establish a formal correspondence between sparse attention and compact (bounded support) kernels. We show that normalized ReLU and sparsemax attention arise from Epanechnikov kernel regression under fixed and adaptive normalizations, respectively. More generally, we demonstrate that widely used kernels in nonparametric density estimation -- including Epanechnikov, biweight, and triweight -- correspond to $α$-entmax attention with $α= 1 + \\frac{1}{n}$ for $n \\in \\mathbb{N}$, while the softmax/Gaussian relationship emerges in the limit $n \\to \\infty$. This unified perspective explains how sparsity naturally emerges from kernel design and provides principled alternatives to heuristic top-$k$ attention and other associative memory mechanisms. Experiments with a kernel-regression-based variant of transformers -- Memory Mosaics -- show that kernel-based sparse attention achieves competitive performance on language modeling, in-context learning, and length generalization tasks, offering a principled framework for designing attention mechanisms.",
+      "categories": [
+        "cs.LG"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2601.22766v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "16 pages, 5 figures",
+      "entry_id": "http://arxiv.org/abs/2601.22766v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.22766v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.22766v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2601.22729": {
+      "title": "GaussianOcc3D: A Gaussian-Based Adaptive Multi-modal 3D Occupancy Prediction",
+      "authors": [
+        "A. Enes Doruk",
+        "Hasan F. Ates"
+      ],
+      "published": "2026-01-30T09:05:30+00:00",
+      "updated": "2026-01-30T09:05:30+00:00",
+      "summary": "3D semantic occupancy prediction is a pivotal task in autonomous driving, providing a dense and fine-grained understanding of the surrounding environment, yet single-modality methods face trade-offs between camera semantics and LiDAR geometry. Existing multi-modal frameworks often struggle with modality heterogeneity, spatial misalignment, and the representation crisis--where voxels are computationally heavy and BEV alternatives are lossy. We present GaussianOcc3D, a multi-modal framework bridging camera and LiDAR through a memory-efficient, continuous 3D Gaussian representation. We introduce four modules: (1) LiDAR Depth Feature Aggregation (LDFA), using depth-wise deformable sampling to lift sparse signals onto Gaussian primitives; (2) Entropy-Based Feature Smoothing (EBFS) to mitigate domain noise; (3) Adaptive Camera-LiDAR Fusion (ACLF) with uncertainty-aware reweighting for sensor reliability; and (4) a Gauss-Mamba Head leveraging Selective State Space Models for global context with linear complexity. Evaluations on Occ3D, SurroundOcc, and SemanticKITTI benchmarks demonstrate state-of-the-art performance, achieving mIoU scores of 49.4%, 28.9%, and 25.2% respectively. GaussianOcc3D exhibits superior robustness across challenging rainy and nighttime conditions.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2601.22729v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2601.22729v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.22729v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.22729v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2601.22685": {
+      "title": "OOVDet: Low-Density Prior Learning for Zero-Shot Out-of-Vocabulary Object Detection",
+      "authors": [
+        "Binyi Su",
+        "Chenghao Huang",
+        "Haiyong Chen"
+      ],
+      "published": "2026-01-30T07:59:35+00:00",
+      "updated": "2026-01-30T07:59:35+00:00",
+      "summary": "Zero-shot out-of-vocabulary detection (ZS-OOVD) aims to accurately recognize objects of in-vocabulary (IV) categories provided at zero-shot inference, while simultaneously rejecting undefined ones (out-of-vocabulary, OOV) that lack corresponding category prompts. However, previous methods are prone to overfitting the IV classes, leading to the OOV or undefined classes being misclassified as IV ones with a high confidence score. To address this issue, this paper proposes a zero-shot OOV detector (OOVDet), a novel framework that effectively detects predefined classes while reliably rejecting undefined ones in zero-shot scenes. Specifically, due to the model's lack of prior knowledge about the distribution of OOV data, we synthesize region-level OOV prompts by sampling from the low-likelihood regions of the class-conditional Gaussian distributions in the hidden space, motivated by the assumption that unknown semantics are more likely to emerge in low-density areas of the latent space. For OOV images, we further propose a Dirichlet-based gradient attribution mechanism to mine pseudo-OOV image samples, where the attribution gradients are interpreted as Dirichlet evidence to estimate prediction uncertainty, and samples with high uncertainty are selected as pseudo-OOV images. Building on these synthesized OOV prompts and pseudo-OOV images, we construct the OOV decision boundary through a low-density prior constraint, which regularizes the optimization of OOV classes using Gaussian kernel density estimation in accordance with the above assumption.\n  Experimental results show that our method significantly improves the OOV detection performance in zero-shot scenes. The code is available at https://github.com/binyisu/OOV-detector.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2601.22685v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2601.22685v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.22685v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.22685v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2601.22315": {
+      "title": "Gaussian Process Bandit Optimization with Machine Learning Predictions and Application to Hypothesis Generation",
+      "authors": [
+        "Xin Jennifer Chen",
+        "Yunjin Tong"
+      ],
+      "published": "2026-01-29T20:55:01+00:00",
+      "updated": "2026-01-29T20:55:01+00:00",
+      "summary": "Many real-world optimization problems involve an expensive ground-truth oracle (e.g., human evaluation, physical experiments) and a cheap, low-fidelity prediction oracle (e.g., machine learning models, simulations). Meanwhile, abundant offline data (e.g., past experiments and predictions) are often available and can be used to pretrain powerful predictive models, as well as to provide an informative prior. We propose Prediction-Augmented Gaussian Process Upper Confidence Bound (PA-GP-UCB), a novel Bayesian optimization algorithm that leverages both oracles and offline data to achieve provable gains in sample efficiency for the ground-truth oracle queries. PA-GP-UCB employs a control-variates estimator derived from a joint Gaussian process posterior to correct prediction bias and reduce uncertainty. We prove that PA-GP-UCB preserves the standard regret rate of GP-UCB while achieving a strictly smaller leading constant that is explicitly controlled by prediction quality and offline data coverage. Empirically, PA-GP-UCB converges faster than Vanilla GP-UCB and naive prediction-augmented GP-UCB baselines on synthetic benchmarks and on a real-world hypothesis evaluation task grounded in human behavioral data, where predictions are provided by large language models. These results establish PA-GP-UCB as a general and sample-efficient framework for hypothesis generation under expensive feedback.",
+      "categories": [
+        "cs.LG"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2601.22315v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2601.22315v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.22315v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.22315v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2601.22243": {
+      "title": "Compressive Beam-Pattern-Aware Near-field Beam Training via Total Variation Denoising",
+      "authors": [
+        "Zijun Wang",
+        "Maria Nivetha A",
+        "Ye Hu",
+        "Rui Zhang"
+      ],
+      "published": "2026-01-29T19:09:50+00:00",
+      "updated": "2026-01-29T19:09:50+00:00",
+      "summary": "Extremely large antenna arrays envisioned for 6G incurs near-field effect, where steering vector depends on angles and range simultaneously. Polar-domain near-field codebooks can focus energy accurately but incur extra two-dimensional sweeping overhead; compressed-sensing (CS) approaches with Gaussian-masked DFT sensing offer a lower-overhead alternative. This letter revisits near-field beam training using conventional DFT codebooks. Unlike far-field responses that concentrate energy on a few isolated DFT beams, near-field responses produce contiguous, plateau-like energy segments with sharp transitions in the DFT beamspace. Pure LASSO denoising, therefore, tends to over-shrink magnitudes and fragment plateaus. We propose a beam-pattern-preserving beam training scheme for multiple-path scenarios that combines LASSO with a lightweight denoising pipeline: LASSO to suppress small-amplitude noise, followed by total variation (TV) to maintain plateau levels and edge sharpness. The two proximal steps require no near-field codebook design. Simulations with Gaussian pilots show consistent NMSE and cosine-similarity gains over least squares and LASSO at the same pilot budget.",
+      "categories": [
+        "eess.SP"
+      ],
+      "primary_category": "eess.SP",
+      "pdf_url": "https://arxiv.org/pdf/2601.22243v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2601.22243v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.22243v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.22243v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2601.21933": {
       "title": "Just Noticeable Difference Modeling for Deep Visual Features",
       "authors": [
@@ -814,27 +1029,27 @@
         "François Landes"
       ],
       "published": "2026-01-21T09:35:44+00:00",
-      "updated": "2026-01-21T09:35:44+00:00",
+      "updated": "2026-01-30T14:09:58+00:00",
       "summary": "Machine Learning (ML) has deeply changed some fields recently, like Language and Vision and we may expect it to be relevant also to the analysis of of complex systems. Here we want to tackle the question of how and to which extent can one regress scale-free processes, i.e. processes displaying power law behavior, like earthquakes or avalanches? We are interested in predicting the large ones, i.e. rare events in the training set which therefore require extrapolation capabilities of the model. For this we consider two paradigmatic problems that are statistically self-similar. The first one is a 2-dimensional fractional Gaussian field obeying linear dynamics, self-similar by construction and amenable to exact analysis. The second one is the Abelian sandpile model, exhibiting self-organized criticality. The emerging paradigm of Geometric Deep Learning shows that including known symmetries into the model's architecture is key to success. Here one may hope to extrapolate only by leveraging scale invariance. This is however a peculiar symmetry, as it involves possibly non-trivial coarse-graining operations and anomalous scaling. We perform experiments on various existing architectures like U-net, Riesz network (scale invariant by construction), or our own proposals: a wavelet-decomposition based Graph Neural Network (with discrete scale symmetry), a Fourier embedding layer and a Fourier-Mellin Neural Operator. Based on these experiments and a complete characterization of the linear case, we identify the main issues relative to spectral biases and coarse-grained representations, and discuss how to alleviate them with the relevant inductive biases.",
       "categories": [
         "cond-mat.dis-nn",
         "cs.LG"
       ],
       "primary_category": "cond-mat.dis-nn",
-      "pdf_url": "https://arxiv.org/pdf/2601.14810v1",
+      "pdf_url": "https://arxiv.org/pdf/2601.14810v2",
       "journal_ref": null,
       "doi": null,
       "comment": "29p, 22 figures",
-      "entry_id": "http://arxiv.org/abs/2601.14810v1",
+      "entry_id": "http://arxiv.org/abs/2601.14810v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2601.14810v1",
+          "href": "https://arxiv.org/abs/2601.14810v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2601.14810v1",
+          "href": "https://arxiv.org/pdf/2601.14810v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -93413,6 +93628,46 @@
     }
   },
   "Depth Estimation": {
+    "2601.22917": {
+      "title": "Deep in the Jungle: Towards Automating Chimpanzee Population Estimation",
+      "authors": [
+        "Tom Raynes",
+        "Otto Brookes",
+        "Timm Haucke",
+        "Lukas Bösch",
+        "Anne-Sophie Crunchant",
+        "Hjalmar Kühl",
+        "Sara Beery",
+        "Majid Mirmehdi",
+        "Tilo Burghardt"
+      ],
+      "published": "2026-01-30T12:40:47+00:00",
+      "updated": "2026-01-30T12:40:47+00:00",
+      "summary": "The estimation of abundance and density in unmarked populations of great apes relies on statistical frameworks that require animal-to-camera distance measurements. In practice, acquiring these distances depends on labour-intensive manual interpretation of animal observations across large camera trap video corpora. This study introduces and evaluates an only sparsely explored alternative: the integration of computer vision-based monocular depth estimation (MDE) pipelines directly into ecological camera trap workflows for great ape conservation. Using a real-world dataset of 220 camera trap videos documenting a wild chimpanzee population, we combine two MDE models, Dense Prediction Transformers and Depth Anything, with multiple distance sampling strategies. These components are used to generate detection distance estimates, from which population density and abundance are inferred. Comparative analysis against manually derived ground-truth distances shows that calibrated DPT consistently outperforms Depth Anything. This advantage is observed in both distance estimation accuracy and downstream density and abundance inference. Nevertheless, both models exhibit systematic biases. We show that, given complex forest environments, they tend to overestimate detection distances and consequently underestimate density and abundance relative to conventional manual approaches. We further find that failures in animal detection across distance ranges are a primary factor limiting estimation accuracy. Overall, this work provides a case study that shows MDE-driven camera trap distance sampling is a viable and practical alternative to manual distance estimation. The proposed approach yields population estimates within 22% of those obtained using traditional methods.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2601.22917v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2601.22917v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2601.22917v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2601.22917v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2601.22054": {
       "title": "MetricAnything: Scaling Metric Depth Pretraining with Noisy Heterogeneous Sources",
       "authors": [
