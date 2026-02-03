@@ -1,5 +1,345 @@
 {
   "3DGS Semantic": {
+    "2602.02464": {
+      "title": "From Directions to Regions: Decomposing Activations in Language Models via Local Geometry",
+      "authors": [
+        "Or Shafran",
+        "Shaked Ronen",
+        "Omri Fahn",
+        "Shauli Ravfogel",
+        "Atticus Geiger",
+        "Mor Geva"
+      ],
+      "published": "2026-02-02T18:49:05+00:00",
+      "updated": "2026-02-02T18:49:05+00:00",
+      "summary": "Activation decomposition methods in language models are tightly coupled to geometric assumptions on how concepts are realized in activation space. Existing approaches search for individual global directions, implicitly assuming linear separability, which overlooks concepts with nonlinear or multi-dimensional structure. In this work, we leverage Mixture of Factor Analyzers (MFA) as a scalable, unsupervised alternative that models the activation space as a collection of Gaussian regions with their local covariance structure. MFA decomposes activations into two compositional geometric objects: the region's centroid in activation space, and the local variation from the centroid. We train large-scale MFAs for Llama-3.1-8B and Gemma-2-2B, and show they capture complex, nonlinear structures in activation space. Moreover, evaluations on localization and steering benchmarks show that MFA outperforms unsupervised baselines, is competitive with supervised localization methods, and often achieves stronger steering performance than sparse autoencoders. Together, our findings position local geometry, expressed through subspaces, as a promising unit of analysis for scalable concept discovery and model control, accounting for complex structures that isolated directions fail to capture.",
+      "categories": [
+        "cs.CL"
+      ],
+      "primary_category": "cs.CL",
+      "pdf_url": "https://arxiv.org/pdf/2602.02464v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.02464v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.02464v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.02464v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.01881": {
+      "title": "ProxyImg: Towards Highly-Controllable Image Representation via Hierarchical Disentangled Proxy Embedding",
+      "authors": [
+        "Ye Chen",
+        "Yupeng Zhu",
+        "Xiongzhen Zhang",
+        "Zhewen Wan",
+        "Yingzhe Li",
+        "Wenjun Zhang",
+        "Bingbing Ni"
+      ],
+      "published": "2026-02-02T09:53:45+00:00",
+      "updated": "2026-02-02T09:53:45+00:00",
+      "summary": "Prevailing image representation methods, including explicit representations such as raster images and Gaussian primitives, as well as implicit representations such as latent images, either suffer from representation redundancy that leads to heavy manual editing effort, or lack a direct mapping from latent variables to semantic instances or parts, making fine-grained manipulation difficult. These limitations hinder efficient and controllable image and video editing. To address these issues, we propose a hierarchical proxy-based parametric image representation that disentangles semantic, geometric, and textural attributes into independent and manipulable parameter spaces. Based on a semantic-aware decomposition of the input image, our representation constructs hierarchical proxy geometries through adaptive Bezier fitting and iterative internal region subdivision and meshing. Multi-scale implicit texture parameters are embedded into the resulting geometry-aware distributed proxy nodes, enabling continuous high-fidelity reconstruction in the pixel domain and instance- or part-independent semantic editing. In addition, we introduce a locality-adaptive feature indexing mechanism to ensure spatial texture coherence, which further supports high-quality background completion without relying on generative models. Extensive experiments on image reconstruction and editing benchmarks, including ImageNet, OIR-Bench, and HumanEdit, demonstrate that our method achieves state-of-the-art rendering fidelity with significantly fewer parameters, while enabling intuitive, interactive, and physically plausible manipulation. Moreover, by integrating proxy nodes with Position-Based Dynamics, our framework supports real-time physics-driven animation using lightweight implicit rendering, achieving superior temporal consistency and visual realism compared with generative approaches.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.01881v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.01881v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.01881v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.01881v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.01518": {
+      "title": "Qrita: High-performance Top-k and Top-p Algorithm for GPUs using Pivot-based Truncation and Selection",
+      "authors": [
+        "Jongseok Park",
+        "Sunga Kim",
+        "Alvin Cheung",
+        "Ion Stoica"
+      ],
+      "published": "2026-02-02T01:19:28+00:00",
+      "updated": "2026-02-02T01:19:28+00:00",
+      "summary": "Top-k and Top-p are the dominant truncation operators in the sampling of large language models. Despite their widespread use, implementing them efficiently over large vocabularies remains a significant challenge. Existing approaches often rely on sorting, which incur significant computation and memory overhead on GPUs, or stochastic approaches, which alter the algorithm output. In this work, we propose Qrita, an efficient Top-k and Top-p algorithm based on a pivot-based selection strategy. Based on RTop-k, which uses a pivot-based search for node selection in graph neural networks, Qrita extends the concept of pivot-based search to both Top-k and Top-p with two key techniques: 1. Gaussian-based sigma-truncation, which greatly reduces the search space of the target elements, and 2. Quaternary pivot search with duplication handling, which halves the pivot search iteration and guarantees deterministic output. We provide the full implementation of Qrita using Triton, a popular GPU programming language. Our evaluation of Qrita against the Top-k and Top-p kernels of high performance LLM execution engines such as vLLM, SGLang, and Flashinfer show that Qrita achieves up to 2 times throughput and half memory use while providing the same output to the the sorting-based algorithms.",
+      "categories": [
+        "cs.AI"
+      ],
+      "primary_category": "cs.AI",
+      "pdf_url": "https://arxiv.org/pdf/2602.01518v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.01518v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.01518v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.01518v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.01513": {
+      "title": "MarkCleaner: High-Fidelity Watermark Removal via Imperceptible Micro-Geometric Perturbation",
+      "authors": [
+        "Xiaoxi Kong",
+        "Jieyu Yuan",
+        "Pengdi Chen",
+        "Yuanlin Zhang",
+        "Chongyi Li",
+        "Bin Li"
+      ],
+      "published": "2026-02-02T01:03:21+00:00",
+      "updated": "2026-02-02T01:03:21+00:00",
+      "summary": "Semantic watermarks exhibit strong robustness against conventional image-space attacks. In this work, we show that such robustness does not survive under micro-geometric perturbations: spatial displacements can remove watermarks by breaking the phase alignment. Motivated by this observation, we introduce MarkCleaner, a watermark removal framework that avoids semantic drift caused by regeneration-based watermark removal. Specifically, MarkCleaner is trained with micro-geometry-perturbed supervision, which encourages the model to separate semantic content from strict spatial alignment and enables robust reconstruction under subtle geometric displacements. The framework adopts a mask-guided encoder that learns explicit spatial representations and a 2D Gaussian Splatting-based decoder that explicitly parameterizes geometric perturbations while preserving semantic content. Extensive experiments demonstrate that MarkCleaner achieves superior performance in both watermark removal effectiveness and visual fidelity, while enabling efficient real-time inference. Our code will be made available upon acceptance.",
+      "categories": [
+        "eess.IV",
+        "cs.AI",
+        "cs.CR",
+        "cs.CV"
+      ],
+      "primary_category": "eess.IV",
+      "pdf_url": "https://arxiv.org/pdf/2602.01513v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.01513v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.01513v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.01513v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.01325": {
+      "title": "Unified ROI-based Image Compression Paradigm with Generalized Gaussian Model",
+      "authors": [
+        "Kai Hu",
+        "Junfu Tan",
+        "Fang Xu",
+        "Ramy Samy",
+        "Yu Liu"
+      ],
+      "published": "2026-02-01T16:41:31+00:00",
+      "updated": "2026-02-01T16:41:31+00:00",
+      "summary": "Region-of-Interest (ROI)-based image compression allocates bits unevenly according to the semantic importance of different regions. Such differentiated coding typically induces a sharp-peaked and heavy-tailed distribution. This distribution characteristic mathematically necessitates a probability model with adaptable shape parameters for accurate description. However, existing methods commonly use a Gaussian model to fit this distribution, resulting in a loss of coding performance. To systematically analyze the impact of this distribution on ROI coding, we develop a unified rate-distortion optimization theoretical paradigm. Building on this paradigm, we propose a novel Generalized Gaussian Model (GGM) to achieve flexible modeling of the latent variables distribution. To support stable optimization of GGM, we introduce effective differentiable functions and further propose a dynamic lower bound to alleviate train-test mismatch. Moreover, finite differences are introduced to solve the gradient computation after GGM fits the distribution. Experiments on COCO2017 demonstrate that our method achieves state-of-the-art in both ROI reconstruction and downstream tasks (e.g., Segmentation, Object Detection). Furthermore, compared to classical probability models, our GGM provides a more precise fit to feature distributions and achieves superior coding performance. The project page is at https://github.com/hukai-tju/ROIGGM.",
+      "categories": [
+        "eess.IV",
+        "cs.MM"
+      ],
+      "primary_category": "eess.IV",
+      "pdf_url": "https://arxiv.org/pdf/2602.01325v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "14 pages, 18 figures,",
+      "entry_id": "http://arxiv.org/abs/2602.01325v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.01325v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.01325v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.00792": {
+      "title": "Latent Shadows: The Gaussian-Discrete Duality in Masked Diffusion",
+      "authors": [
+        "Guinan Chen",
+        "Xunpeng Huang",
+        "Ying Sun",
+        "Shijin Wang",
+        "Yanyong Zhang",
+        "Chao Wang"
+      ],
+      "published": "2026-01-31T16:00:46+00:00",
+      "updated": "2026-01-31T16:00:46+00:00",
+      "summary": "Masked discrete diffusion is a dominant paradigm for high-quality language modeling where tokens are iteratively corrupted to a mask state, yet its inference efficiency is bottlenecked by the lack of deterministic sampling tools. While diffusion duality enables deterministic distillation for uniform models, these approaches generally underperform masked models and rely on complex integral operators. Conversely, in the masked domain, prior methods typically assume the absence of deterministic trajectories, forcing a reliance on stochastic distillation. To bridge this gap, we establish explicit Masked Diffusion Duality, proving that the masked process arises as the projection of a continuous Gaussian process via a novel maximum-value index preservation mechanism. Furthermore, we introduce Masked Consistency Distillation (MCD), a principled framework that leverages this duality to analytically construct the deterministic coupled trajectories required for consistency distillation, bypassing numerical ODE solvers. This result strictly improves upon prior stochastic distillation methods, achieving a 16$\\times$ inference speedup without compromising generation quality. Our findings not only provide a solid theoretical foundation connecting masked and continuous diffusion, but also unlock the full potential of consistency distillation for high-performance discrete generation. Our code is available at https://anonymous.4open.science/r/MCD-70FD.",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2602.00792v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "10 pages",
+      "entry_id": "http://arxiv.org/abs/2602.00792v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.00792v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.00792v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.00653": {
+      "title": "Non-Contrastive Vision-Language Learning with Predictive Embedding Alignment",
+      "authors": [
+        "Lukas Kuhn",
+        "Giuseppe Serra",
+        "Florian Buettner"
+      ],
+      "published": "2026-01-31T10:57:46+00:00",
+      "updated": "2026-01-31T10:57:46+00:00",
+      "summary": "Vision-language models have transformed multimodal representation learning, yet dominant contrastive approaches like CLIP require large batch sizes, careful negative sampling, and extensive hyperparameter tuning. We introduce NOVA, a NOn-contrastive Vision-language Alignment framework based on joint embedding prediction with distributional regularization. NOVA aligns visual representations to a frozen, domain-specific text encoder by predicting text embeddings from augmented image views, while enforcing an isotropic Gaussian structure via Sketched Isotropic Gaussian Regularization (SIGReg). This eliminates the need for negative sampling, momentum encoders, or stop-gradients, reducing the training objective to a single hyperparameter. We evaluate NOVA on zeroshot chest X-ray classification using ClinicalBERT as the text encoder and Vision Transformers trained from scratch on MIMIC-CXR. On zero-shot classification across three benchmark datasets, NOVA outperforms multiple standard baselines while exhibiting substantially more consistent training runs. Our results demonstrate that non-contrastive vision-language pretraining offers a simpler, more stable, and more effective alternative to contrastive methods.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.00653v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.00653v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.00653v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.00653v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.00542": {
+      "title": "NPNet: A Non-Parametric Network with Adaptive Gaussian-Fourier Positional Encoding for 3D Classification and Segmentation",
+      "authors": [
+        "Mohammad Saeid",
+        "Amir Salarpour",
+        "Pedram MohajerAnsari",
+        "Mert D. Pesé"
+      ],
+      "published": "2026-01-31T06:16:19+00:00",
+      "updated": "2026-01-31T06:16:19+00:00",
+      "summary": "We present NPNet, a fully non-parametric approach for 3D point-cloud classification and part segmentation. NPNet contains no learned weights; instead, it builds point features using deterministic operators such as farthest point sampling, k-nearest neighbors, and pooling. Our key idea is an adaptive Gaussian-Fourier positional encoding whose bandwidth and Gaussian-cosine mixing are chosen from the input geometry, helping the method remain stable across different scales and sampling densities. For segmentation, we additionally incorporate fixed-frequency Fourier features to provide global context alongside the adaptive encoding. Across ModelNet40/ModelNet-R, ScanObjectNN, and ShapeNetPart, NPNet achieves strong performance among non-parametric baselines, and it is particularly effective in few-shot settings on ModelNet40. NPNet also offers favorable memory use and inference time compared to prior non-parametric methods",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.00542v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted to the 2026 IEEE Intelligent Vehicles Symposium (IV 2026)",
+      "entry_id": "http://arxiv.org/abs/2602.00542v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.00542v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.00542v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.00463": {
+      "title": "PSGS: Text-driven Panorama Sliding Scene Generation via Gaussian Splatting",
+      "authors": [
+        "Xin Zhang",
+        "Shen Chen",
+        "Jiale Zhou",
+        "Lei Li"
+      ],
+      "published": "2026-01-31T02:34:46+00:00",
+      "updated": "2026-01-31T02:34:46+00:00",
+      "summary": "Generating realistic 3D scenes from text is crucial for immersive applications like VR, AR, and gaming. While text-driven approaches promise efficiency, existing methods suffer from limited 3D-text data and inconsistent multi-view stitching, resulting in overly simplistic scenes. To address this, we propose PSGS, a two-stage framework for high-fidelity panoramic scene generation. First, a novel two-layer optimization architecture generates semantically coherent panoramas: a layout reasoning layer parses text into structured spatial relationships, while a self-optimization layer refines visual details via iterative MLLM feedback. Second, our panorama sliding mechanism initializes globally consistent 3D Gaussian Splatting point clouds by strategically sampling overlapping perspectives. By incorporating depth and semantic coherence losses during training, we greatly improve the quality and detail fidelity of rendered scenes. Our experiments demonstrate that PSGS outperforms existing methods in panorama generation and produces more appealing 3D scenes, offering a robust solution for scalable immersive content creation.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.00463v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted to ICASSP2026",
+      "entry_id": "http://arxiv.org/abs/2602.00463v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.00463v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.00463v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2601.22988": {
       "title": "Learning Geometrically-Grounded 3D Visual Representations for View-Generalizable Robotic Manipulation",
       "authors": [
@@ -682,6 +1022,54 @@
         },
         {
           "href": "https://arxiv.org/pdf/2601.18629v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.00096": {
+      "title": "Mirage2Matter: A Physically Grounded Gaussian World Model from Video",
+      "authors": [
+        "Zhengqing Gao",
+        "Ziwen Li",
+        "Xin Wang",
+        "Jiaxin Huang",
+        "Zhenyang Ren",
+        "Mingkai Shao",
+        "Hanlue Zhang",
+        "Tianyu Huang",
+        "Yongkang Cheng",
+        "Yandong Guo",
+        "Runqi Lin",
+        "Yuanyuan Wang",
+        "Tongliang Liu",
+        "Kun Zhang",
+        "Mingming Gong"
+      ],
+      "published": "2026-01-24T07:43:57+00:00",
+      "updated": "2026-01-24T07:43:57+00:00",
+      "summary": "The scalability of embodied intelligence is fundamentally constrained by the scarcity of real-world interaction data. While simulation platforms provide a promising alternative, existing approaches often suffer from a substantial visual and physical gap to real environments and rely on expensive sensors, precise robot calibration, or depth measurements, limiting their practicality at scale. We present Simulate Anything, a graphics-driven world modeling and simulation framework that enables efficient generation of high-fidelity embodied training data using only multi-view environment videos and off-the-shelf assets. Our approach reconstructs real-world environments into a photorealistic scene representation using 3D Gaussian Splatting (3DGS), seamlessly capturing fine-grained geometry and appearance from video. We then leverage generative models to recover a physically realistic representation and integrate it into a simulation environment via a precision calibration target, enabling accurate scale alignment between the reconstructed scene and the real world. Together, these components provide a unified, editable, and physically grounded world model. Vision Language Action (VLA) models trained on our simulated data achieve strong zero-shot performance on downstream tasks, matching or even surpassing results obtained with real-world data, highlighting the potential of reconstruction-driven world modeling for scalable and practical embodied intelligence training.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.00096v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.00096v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.00096v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.00096v1",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -2825,27 +3213,27 @@
         "Xianyuan Zhan"
       ],
       "published": "2025-12-31T16:56:56+00:00",
-      "updated": "2025-12-31T16:56:56+00:00",
+      "updated": "2026-02-01T16:02:33+00:00",
       "summary": "Diffusion-based policies have gained growing popularity in solving a wide range of decision-making tasks due to their superior expressiveness and controllable generation during inference. However, effectively training large diffusion policies using reinforcement learning (RL) remains challenging. Existing methods either suffer from unstable training due to directly maximizing value objectives, or face computational issues due to relying on crude Gaussian likelihood approximation, which requires a large amount of sufficiently small denoising steps. In this work, we propose DIPOLE (Dichotomous diffusion Policy improvement), a novel RL algorithm designed for stable and controllable diffusion policy optimization. We begin by revisiting the KL-regularized objective in RL, which offers a desirable weighted regression objective for diffusion policy extraction, but often struggles to balance greediness and stability. We then formulate a greedified policy regularization scheme, which naturally enables decomposing the optimal policy into a pair of stably learned dichotomous policies: one aims at reward maximization, and the other focuses on reward minimization. Under such a design, optimized actions can be generated by linearly combining the scores of dichotomous policies during inference, thereby enabling flexible control over the level of greediness.Evaluations in offline and offline-to-online RL settings on ExORL and OGBench demonstrate the effectiveness of our approach. We also use DIPOLE to train a large vision-language-action (VLA) model for end-to-end autonomous driving (AD) and evaluate it on the large-scale real-world AD benchmark NAVSIM, highlighting its potential for complex real-world applications.",
       "categories": [
         "cs.LG",
         "cs.RO"
       ],
       "primary_category": "cs.LG",
-      "pdf_url": "https://arxiv.org/pdf/2601.00898v1",
+      "pdf_url": "https://arxiv.org/pdf/2601.00898v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2601.00898v1",
+      "entry_id": "http://arxiv.org/abs/2601.00898v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2601.00898v1",
+          "href": "https://arxiv.org/abs/2601.00898v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2601.00898v1",
+          "href": "https://arxiv.org/pdf/2601.00898v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -4927,26 +5315,26 @@
         "Yourim Yoon"
       ],
       "published": "2025-12-10T02:31:17+00:00",
-      "updated": "2025-12-10T02:31:17+00:00",
+      "updated": "2026-02-02T08:39:13+00:00",
       "summary": "We present a novel predict-then-optimize framework for maritime search operations that integrates trajectory forecasting with UAV deployment optimization-an end-to-end approach not addressed in prior work. A large language model predicts the drifter's trajectory, and spatial uncertainty is modeled using Gaussian-based particle sampling. Unlike traditional static deployment methods, we dynamically adapt UAV detection radii based on distance and optimize their placement using meta-heuristic algorithms. Experiments on real-world data from the Korean coastline demonstrate that our method, particularly the repair mechanism designed for this problem, significantly outperforms the random search baselines. This work introduces a practical and robust integration of trajectory prediction and spatial optimization for intelligent maritime rescue.",
       "categories": [
         "cs.NE"
       ],
       "primary_category": "cs.NE",
-      "pdf_url": "https://arxiv.org/pdf/2512.09260v1",
+      "pdf_url": "https://arxiv.org/pdf/2512.09260v2",
       "journal_ref": null,
       "doi": null,
       "comment": "This paper has been accepted by CIKM 2025 STIntelligence Workshop",
-      "entry_id": "http://arxiv.org/abs/2512.09260v1",
+      "entry_id": "http://arxiv.org/abs/2512.09260v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2512.09260v1",
+          "href": "https://arxiv.org/abs/2512.09260v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2512.09260v1",
+          "href": "https://arxiv.org/pdf/2512.09260v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -76991,6 +77379,78 @@
     }
   },
   "MVS": {
+    "2602.02089": {
+      "title": "UrbanGS: A Scalable and Efficient Architecture for Geometrically Accurate Large-Scene Reconstruction",
+      "authors": [
+        "Changbai Li",
+        "Haodong Zhu",
+        "Hanlin Chen",
+        "Xiuping Liang",
+        "Tongfei Chen",
+        "Shuwei Shao",
+        "Linlin Yang",
+        "Huobin Tan",
+        "Baochang Zhang"
+      ],
+      "published": "2026-02-02T13:35:16+00:00",
+      "updated": "2026-02-02T13:35:16+00:00",
+      "summary": "While 3D Gaussian Splatting (3DGS) enables high-quality, real-time rendering for bounded scenes, its extension to large-scale urban environments gives rise to critical challenges in terms of geometric consistency, memory efficiency, and computational scalability. To address these issues, we present UrbanGS, a scalable reconstruction framework that effectively tackles these challenges for city-scale applications. First, we propose a Depth-Consistent D-Normal Regularization module. Unlike existing approaches that rely solely on monocular normal estimators, which can effectively update rotation parameters yet struggle to update position parameters, our method integrates D-Normal constraints with external depth supervision. This allows for comprehensive updates of all geometric parameters. By further incorporating an adaptive confidence weighting mechanism based on gradient consistency and inverse depth deviation, our approach significantly enhances multi-view depth alignment and geometric coherence, which effectively resolves the issue of geometric accuracy in complex large-scale scenes. To improve scalability, we introduce a Spatially Adaptive Gaussian Pruning (SAGP) strategy, which dynamically adjusts Gaussian density based on local geometric complexity and visibility to reduce redundancy. Additionally, a unified partitioning and view assignment scheme is designed to eliminate boundary artifacts and optimize computational load. Extensive experiments on multiple urban datasets demonstrate that UrbanGS achieves superior performance in rendering quality, geometric accuracy, and memory efficiency, providing a systematic solution for high-fidelity large-scale scene reconstruction.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.02089v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "ICLR 2026",
+      "entry_id": "http://arxiv.org/abs/2602.02089v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.02089v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.02089v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2602.01035": {
+      "title": "FUSE-Flow: Scalable Real-Time Multi-View Point Cloud Reconstruction Using Confidence",
+      "authors": [
+        "Chentian Sun"
+      ],
+      "published": "2026-02-01T05:45:27+00:00",
+      "updated": "2026-02-01T05:45:27+00:00",
+      "summary": "Real-time multi-view point cloud reconstruction is a core problem in 3D vision and immersive perception, with wide applications in VR, AR, robotic navigation, digital twins, and computer interaction. Despite advances in multi-camera systems and high-resolution depth sensors, fusing large-scale multi-view depth observations into high-quality point clouds under strict real-time constraints remains challenging. Existing methods relying on voxel-based fusion, temporal accumulation, or global optimization suffer from high computational complexity, excessive memory usage, and limited scalability, failing to simultaneously achieve real-time performance, reconstruction quality, and multi-camera extensibility. We propose FUSE-Flow, a frame-wise, stateless, and linearly scalable point cloud streaming reconstruction framework. Each frame independently generates point cloud fragments, fused via two weights, measurement confidence and 3D distance consistency to suppress noise while preserving geometric details. For large-scale multi-camera efficiency, we introduce an adaptive spatial hashing-based weighted aggregation method: 3D space is adaptively partitioned by local point cloud density, representative points are selected per cell, and weighted fusion is performed to handle both sparse and dense regions. With GPU parallelization, FUSE-Flow achieves high-throughput, low-latency point cloud generation and fusion with linear complexity. Experiments demonstrate that the framework improves reconstruction stability and geometric fidelity in overlapping, depth-discontinuous, and dynamic scenes, while maintaining real-time frame rates on modern GPUs, verifying its effectiveness, robustness, and scalability.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.01035v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "A 5-page paper, prepared for submission to the 2026 IEEE International Conference on Image Processing (ICIP)",
+      "entry_id": "http://arxiv.org/abs/2602.01035v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.01035v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.01035v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2601.21421": {
       "title": "From Implicit Ambiguity to Explicit Solidity: Diagnosing Interior Geometric Degradation in Neural Radiance Fields for Dense 3D Scene Understanding",
       "authors": [
@@ -93628,6 +94088,79 @@
     }
   },
   "Depth Estimation": {
+    "2602.01899": {
+      "title": "Multi-Task Learning for Robot Perception with Imbalanced Data",
+      "authors": [
+        "Ozgur Erkent"
+      ],
+      "published": "2026-02-02T10:05:59+00:00",
+      "updated": "2026-02-02T10:05:59+00:00",
+      "summary": "Multi-task problem solving has been shown to improve the accuracy of the individual tasks, which is an important feature for robots, as they have a limited resource. However, when the number of labels for each task is not equal, namely imbalanced data exist, a problem may arise due to insufficient number of samples, and labeling is not very easy for mobile robots in every environment. We propose a method that can learn tasks even in the absence of the ground truth labels for some of the tasks. We also provide a detailed analysis of the proposed method. An interesting finding is related to the interaction of the tasks. We show a methodology to find out which tasks can improve the performance of other tasks. We investigate this by training the teacher network with the task outputs such as depth as inputs. We further provide empirical evidence when trained with a small amount of data. We use semantic segmentation and depth estimation tasks on different datasets, NYUDv2 and Cityscapes.",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2602.01899v1",
+      "journal_ref": "Ordu Üniversitesi Bilim ve Teknoloji Dergisi, 15(2), 151-164 (2025)",
+      "doi": "10.54370/ordubtd.1526381",
+      "comment": "16 pages",
+      "entry_id": "http://arxiv.org/abs/2602.01899v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.01899v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.01899v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        },
+        {
+          "href": "https://doi.org/10.54370/ordubtd.1526381",
+          "title": "doi",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2602.01268": {
+      "title": "OASIS-DC: Generalizable Depth Completion via Output-level Alignment of Sparse-Integrated Monocular Pseudo Depth",
+      "authors": [
+        "Jaehyeon Cho",
+        "Jhonghyun An"
+      ],
+      "published": "2026-02-01T14:57:33+00:00",
+      "updated": "2026-02-01T14:57:33+00:00",
+      "summary": "Recent monocular foundation models excel at zero-shot depth estimation, yet their outputs are inherently relative rather than metric, limiting direct use in robotics and autonomous driving. We leverage the fact that relative depth preserves global layout and boundaries: by calibrating it with sparse range measurements, we transform it into a pseudo metric depth prior. Building on this prior, we design a refinement network that follows the prior where reliable and deviates where necessary, enabling accurate metric predictions from very few labeled samples. The resulting system is particularly effective when curated validation data are unavailable, sustaining stable scale and sharp edges across few-shot regimes. These findings suggest that coupling foundation priors with sparse anchors is a practical route to robust, deployment-ready depth completion under real-world label scarcity.",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.01268v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted to ICRA 2026",
+      "entry_id": "http://arxiv.org/abs/2602.01268v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.01268v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.01268v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2601.22917": {
       "title": "Deep in the Jungle: Towards Automating Chimpanzee Population Estimation",
       "authors": [

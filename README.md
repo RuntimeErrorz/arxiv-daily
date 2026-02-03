@@ -1,4 +1,4 @@
-## Updated at 2026-02-03 08:24:51
+## Updated at 2026-02-03 20:12:55
 
 ## 3DGS Semantic
 
@@ -187,6 +187,8 @@ Query: (abs:'Multi-View Stereo' OR abs:'Multi View Stereo' OR abs:'Multi-View De
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-02-02**|**[UrbanGS: A Scalable and Efficient Architecture for Geometrically Accurate Large-Scene Reconstruction](https://arxiv.org/abs/2602.02089)**|N/A|ICLR 2026|cs.CV|None|Changbai Li et al.|
+|**2026-02-01**|**[FUSE-Flow: Scalable Real-Time Multi-View Point Cloud Reconstruction Using Confidence](https://arxiv.org/abs/2602.01035)**|N/A|A 5-page paper, prepared for submission to the 2026 IEEE International Conference on Image Processing (ICIP)|cs.CV|None|Chentian Sun|
 |**2026-01-29**|**[From Implicit Ambiguity to Explicit Solidity: Diagnosing Interior Geometric Degradation in Neural Radiance Fields for Dense 3D Scene Understanding](https://arxiv.org/abs/2601.21421)**|N/A|None|cs.CV|None|Jiangsan Zhao et al.|
 |**2026-01-18**|**[NeuralFur: Animal Fur Reconstruction From Multi-View Images](https://arxiv.org/abs/2601.12481)**|N/A|For additional results and code, please refer to https://neuralfur.is.tue.mpg.de|cs.CV|None|Vanessa Sklyarova et al.|
 |**2026-01-17**|**[DIAMOND-SSS: Diffusion-Augmented Multi-View Optimization for Data-efficient SubSurface Scattering](https://arxiv.org/abs/2601.12020)**|N/A|None|cs.CV|None|Guillermo Figueroa-Araneda et al.|
@@ -641,6 +643,8 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-02-02**|**[Multi-Task Learning for Robot Perception with Imbalanced Data](https://arxiv.org/abs/2602.01899)**|N/A|16 pages|cs.RO|Ordu Üniversitesi Bilim ve Teknoloji Dergisi, 15(2), 151-164 (2025)|Ozgur Erkent|
+|**2026-02-01**|**[OASIS-DC: Generalizable Depth Completion via Output-level Alignment of Sparse-Integrated Monocular Pseudo Depth](https://arxiv.org/abs/2602.01268)**|N/A|Accepted to ICRA 2026|cs.CV|None|Jaehyeon Cho, Jhonghyun An|
 |**2026-01-30**|**[Deep in the Jungle: Towards Automating Chimpanzee Population Estimation](https://arxiv.org/abs/2601.22917)**|N/A|None|cs.CV|None|Tom Raynes et al.|
 |**2026-01-29**|**[MetricAnything: Scaling Metric Depth Pretraining with Noisy Heterogeneous Sources](https://arxiv.org/abs/2601.22054)**|N/A|Project Page: https://metric-anything.github.io/metric-anything-io/|cs.CV|None|Baorui Ma et al.|
 |**2026-01-28**|**[GVGS: Gaussian Visibility-Aware Multi-View Geometry for Accurate Surface Reconstruction](https://arxiv.org/abs/2601.20331)**|N/A|None|cs.CV|None|Mai Su et al.|
