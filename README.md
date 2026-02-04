@@ -1,4 +1,4 @@
-## Updated at 2026-02-04 08:21:44
+## Updated at 2026-02-04 20:13:00
 
 ## 3DGS Semantic
 
@@ -8,6 +8,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-02-01**|**[Split&Splat: Zero-Shot Panoptic Segmentation via Explicit Instance Modeling and 3D Gaussian Splatting](https://arxiv.org/abs/2602.03809)**|N/A|None|cs.GR|None|Leonardo Monchieri et al.|
 |**2026-01-27**|**[TIGaussian: Disentangle Gaussians for Spatial-Awared Text-Image-3D Alignment](https://arxiv.org/abs/2601.19247)**|N/A|None|cs.CV|None|Jiarun Liu et al.|
 |**2026-01-19**|**[GaussExplorer: 3D Gaussian Splatting for Embodied Exploration and Reasoning](https://arxiv.org/abs/2601.13132)**|N/A|Project page: https://gaussexplorer.github.io/|cs.CV|None|Kim Yu-Ji et al.|
 |**2026-01-09**|**[FeatureSLAM: Feature-enriched 3D gaussian splatting SLAM in real time](https://arxiv.org/abs/2601.05738)**|N/A|None|cs.CV|None|Christopher Thirgood et al.|

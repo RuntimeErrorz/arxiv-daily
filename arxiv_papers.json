@@ -1,5 +1,266 @@
 {
   "3DGS Semantic": {
+    "2602.03505": {
+      "title": "Generative Decompression: Optimal Lossy Decoding Against Distribution Mismatch",
+      "authors": [
+        "Saeed R. Khosravirad",
+        "Ahmed Alkhateeb",
+        "Ingrid van de Voorde"
+      ],
+      "published": "2026-02-03T13:25:23+00:00",
+      "updated": "2026-02-03T13:25:23+00:00",
+      "summary": "This paper addresses optimal decoding strategies in lossy compression where the assumed distribution for compressor design mismatches the actual (true) distribution of the source. This problem has immediate relevance in standardized communication systems where the decoder acquires side information or priors about the true distribution that are unavailable to the fixed encoder. We formally define the mismatched quantization problem, demonstrating that the optimal reconstruction rule, termed generative decompression, aligns with classical Bayesian estimation by taking the conditional expectation under the true distribution given the quantization indices and adapting it to fixed-encoder constraints. This strategy effectively performs a generative Bayesian correction on the decoder side, strictly outperforming the conventional centroid rule. We extend this framework to transmission over noisy channels, deriving a robust soft-decoding rule that quantifies the inefficiency of standard modular source--channel separation architectures under mismatch. Furthermore, we generalize the approach to task-oriented decoding, showing that the optimal strategy shifts from conditional mean estimation to maximum a posteriori (MAP) detection. Experimental results on Gaussian sources and deep-learning-based semantic classification demonstrate that generative decompression closes a vast majority of the performance gap to the ideal joint-optimization benchmark, enabling adaptive, high-fidelity reconstruction without modifying the encoder.",
+      "categories": [
+        "cs.IT",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "primary_category": "cs.IT",
+      "pdf_url": "https://arxiv.org/pdf/2602.03505v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.03505v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.03505v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.03505v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.03292": {
+      "title": "A3-TTA: Adaptive Anchor Alignment Test-Time Adaptation for Image Segmentation",
+      "authors": [
+        "Jianghao Wu",
+        "Xiangde Luo",
+        "Yubo Zhou",
+        "Lianming Wu",
+        "Guotai Wang",
+        "Shaoting Zhang"
+      ],
+      "published": "2026-02-03T09:18:11+00:00",
+      "updated": "2026-02-03T09:18:11+00:00",
+      "summary": "Test-Time Adaptation (TTA) offers a practical solution for deploying image segmentation models under domain shift without accessing source data or retraining. Among existing TTA strategies, pseudo-label-based methods have shown promising performance. However, they often rely on perturbation-ensemble heuristics (e.g., dropout sampling, test-time augmentation, Gaussian noise), which lack distributional grounding and yield unstable training signals. This can trigger error accumulation and catastrophic forgetting during adaptation. To address this, we propose \\textbf{A3-TTA}, a TTA framework that constructs reliable pseudo-labels through anchor-guided supervision. Specifically, we identify well-predicted target domain images using a class compact density metric, under the assumption that confident predictions imply distributional proximity to the source domain. These anchors serve as stable references to guide pseudo-label generation, which is further regularized via semantic consistency and boundary-aware entropy minimization. Additionally, we introduce a self-adaptive exponential moving average strategy to mitigate label noise and stabilize model update during adaptation. Evaluated on both multi-domain medical images (heart structure and prostate segmentation) and natural images, A3-TTA significantly improves average Dice scores by 10.40 to 17.68 percentage points compared to the source model, outperforming several state-of-the-art TTA methods under different segmentation model architectures. A3-TTA also excels in continual TTA, maintaining high performance across sequential target domains with strong anti-forgetting ability. The code will be made publicly available at https://github.com/HiLab-git/A3-TTA.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.03292v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted by IEEE Transactions on Image Processing",
+      "entry_id": "http://arxiv.org/abs/2602.03292v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.03292v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.03292v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.03119": {
+      "title": "Function-Space Empirical Bayes Regularisation with Large Vision-Language Model Priors",
+      "authors": [
+        "Pengcheng Hao",
+        "Huaze Tang",
+        "Ercan Engin Kuruoglu",
+        "Wenbo Ding"
+      ],
+      "published": "2026-02-03T05:24:11+00:00",
+      "updated": "2026-02-03T05:24:11+00:00",
+      "summary": "Bayesian deep learning (BDL) provides a principled framework for reliable uncertainty quantification by combining deep neural networks with Bayesian inference. A central challenge in BDL lies in the design of informative prior distributions that scale effectively to high-dimensional data. Recent functional variational inference (VI) approaches address this issue by imposing priors directly in function space; however, most existing methods rely on Gaussian process (GP) priors, whose expressiveness and generalisation capabilities become limited in high-dimensional regimes. In this work, we propose VLM-FS-EB, a novel function-space empirical Bayes regularisation framework, leveraging large vision-language models (VLMs) to generates semantically meaningful context points. These synthetic samples are then used VLMs for embeddings to construct expressive functional priors. Furthermore, the proposed method is evaluated against various baselines, and experimental results demonstrate that our method consistently improves predictive performance and yields more reliable uncertainty estimates, particularly in out-of-distribution (OOD) detection tasks and data-scarce regimes.",
+      "categories": [
+        "cs.LG",
+        "eess.SP"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2602.03119v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.03119v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.03119v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.03119v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.03071": {
+      "title": "Finding Optimal Video Moment without Training: Gaussian Boundary Optimization for Weakly Supervised Video Grounding",
+      "authors": [
+        "Sunoh Kim",
+        "Kimin Yun",
+        "Daeho Um"
+      ],
+      "published": "2026-02-03T04:01:12+00:00",
+      "updated": "2026-02-03T04:01:12+00:00",
+      "summary": "Weakly supervised temporal video grounding aims to localize query-relevant segments in untrimmed videos using only video-sentence pairs, without requiring ground-truth segment annotations that specify exact temporal boundaries. Recent approaches tackle this task by utilizing Gaussian-based temporal proposals to represent query-relevant segments. However, their inference strategies rely on heuristic mappings from Gaussian parameters to segment boundaries, resulting in suboptimal localization performance. To address this issue, we propose Gaussian Boundary Optimization (GBO), a novel inference framework that predicts segment boundaries by solving a principled optimization problem that balances proposal coverage and segment compactness. We derive a closed-form solution for this problem and rigorously analyze the optimality conditions under varying penalty regimes. Beyond its theoretical foundations, GBO offers several practical advantages: it is training-free and compatible with both single-Gaussian and mixture-based proposal architectures. Our experiments show that GBO significantly improves localization, achieving state-of-the-art results across standard benchmarks. Extensive experiments demonstrate the efficiency and generalizability of GBO across various proposal schemes. The code is available at \\href{https://github.com/sunoh-kim/gbo}{https://github.com/sunoh-kim/gbo}.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.03071v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted in IEEE TMM",
+      "entry_id": "http://arxiv.org/abs/2602.03071v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.03071v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.03071v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.02991": {
+      "title": "Large Language Models Can Take False First Steps at Inference-time Planning",
+      "authors": [
+        "Haijiang Yan",
+        "Jian-Qiao Zhu",
+        "Adam Sanborn"
+      ],
+      "published": "2026-02-03T01:54:55+00:00",
+      "updated": "2026-02-03T01:54:55+00:00",
+      "summary": "Large language models (LLMs) have been shown to acquire sequence-level planning abilities during training, yet their planning behavior exhibited at inference time often appears short-sighted and inconsistent with these capabilities. We propose a Bayesian account for this gap by grounding planning behavior in the evolving generative context: given the subtle differences between natural language and the language internalized by LLMs, accumulated self-generated context drives a planning-shift during inference and thereby creates the appearance of compromised planning behavior. We further validate the proposed model through two controlled experiments: a random-generation task demonstrating constrained planning under human prompts and increasing planning strength as self-generated context accumulates, and a Gaussian-sampling task showing reduced initial bias when conditioning on self-generated sequences. These findings provide a theoretical explanation along with empirical evidence for characterizing how LLMs plan ahead during inference.",
+      "categories": [
+        "cs.AI"
+      ],
+      "primary_category": "cs.AI",
+      "pdf_url": "https://arxiv.org/pdf/2602.02991v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.02991v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.02991v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.02991v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.02922": {
+      "title": "Automated Spin Readout Signal Analysis Using U-Net with Variable-Length Traces and Experimental Noise",
+      "authors": [
+        "Yui Muto",
+        "Motoya Shinozaki",
+        "Hideaki Yuta",
+        "Tatsuo Tsuzuki",
+        "Kotaro Taga",
+        "Akira Oiwa",
+        "Takafumi Fujita",
+        "Tomohiro Otsuka"
+      ],
+      "published": "2026-02-02T23:48:28+00:00",
+      "updated": "2026-02-02T23:48:28+00:00",
+      "summary": "Single-shot spin-state discrimination is essential for semiconductor spin qubits, but conventional threshold-based analysis of spin readout traces becomes unreliable under noisy conditions. Although recent neural-network-based methods improve robustness against experimental noise, they are sensitive to training conditions, restricted to fixed-length inputs, and limited to trace-level outputs without explicit temporal localization of transition events. In this work, we apply a U-Net architecture to spin readout signal analysis by formulating transition-event detection as a point-wise segmentation task in one-dimensional time-series data. The fully convolutional structure enables direct processing of variable-length traces. Point-wise and sample-wise evaluations demonstrate low readout error rates and high classification accuracy without retraining. The proposed method generalizes well to previously-unseen trace lengths and experimental non-Gaussian noise, outperforming a conventional threshold-based approach and providing a robust and practical solution for automated spin readout signal analysis.",
+      "categories": [
+        "cond-mat.mes-hall"
+      ],
+      "primary_category": "cond-mat.mes-hall",
+      "pdf_url": "https://arxiv.org/pdf/2602.02922v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "24 pages, 7 figures",
+      "entry_id": "http://arxiv.org/abs/2602.02922v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.02922v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.02922v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.02755": {
+      "title": "Physics-based generation of multilayer corneal OCT data via Gaussian modeling and MCML for AI-driven diagnostic and surgical guidance applications",
+      "authors": [
+        "Jinglun Yu",
+        "Yaning Wang",
+        "Rosalinda Xiong",
+        "Ziyi Huang",
+        "Kristina Irsch",
+        "Jin U. Kang"
+      ],
+      "published": "2026-02-02T20:07:29+00:00",
+      "updated": "2026-02-02T20:07:29+00:00",
+      "summary": "Training deep learning models for corneal optical coherence tomography (OCT) imaging is limited by the availability of large, well-annotated datasets. We present a configurable Monte Carlo simulation framework that generates synthetic corneal B-scan optical OCT images with pixel-level five-layer segmentation labels derived directly from the simulation geometry. A five-layer corneal model with Gaussian surfaces captures curvature and thickness variability in healthy and keratoconic eyes. Each layer is assigned optical properties from the literature and light transport is simulated using Monte Carlo modeling of light transport in multi-layered tissues (MCML), while incorporating system features such as the confocal PSF and sensitivity roll-off. This approach produces over 10,000 high-resolution (1024x1024) image-label pairs and supports customization of geometry, photon count, noise, and system parameters. The resulting dataset enables systematic training, validation, and benchmarking of AI models under controlled, ground-truth conditions, providing a reproducible and scalable resource to support the development of diagnostic and surgical guidance applications in image-guided ophthalmology.",
+      "categories": [
+        "eess.IV",
+        "cs.CV"
+      ],
+      "primary_category": "eess.IV",
+      "pdf_url": "https://arxiv.org/pdf/2602.02755v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.02755v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.02755v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.02755v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2602.02464": {
       "title": "From Directions to Regions: Decomposing Activations in Language Models via Local Geometry",
       "authors": [
@@ -31,6 +292,43 @@
         },
         {
           "href": "https://arxiv.org/pdf/2602.02464v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.02623": {
+      "title": "Learning Consistent Causal Abstraction Networks",
+      "authors": [
+        "Gabriele D'Acunto",
+        "Paolo Di Lorenzo",
+        "Sergio Barbarossa"
+      ],
+      "published": "2026-02-02T16:16:29+00:00",
+      "updated": "2026-02-02T16:16:29+00:00",
+      "summary": "Causal artificial intelligence aims to enhance explainability, trustworthiness, and robustness in AI by leveraging structural causal models (SCMs). In this pursuit, recent advances formalize network sheaves and cosheaves of causal knowledge. Pushing in the same direction, we tackle the learning of consistent causal abstraction network (CAN), a sheaf-theoretic framework where (i) SCMs are Gaussian, (ii) restriction maps are transposes of constructive linear causal abstractions (CAs) adhering to the semantic embedding principle, and (iii) edge stalks correspond--up to permutation--to the node stalks of more detailed SCMs. Our problem formulation separates into edge-specific local Riemannian problems and avoids nonconvex objectives. We propose an efficient search procedure, solving the local problems with SPECTRAL, our iterative method with closed-form updates and suitable for positive definite and semidefinite covariance matrices. Experiments on synthetic data show competitive performance in the CA learning task, and successful recovery of diverse CAN structures.",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "eess.SP"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2602.02623v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "To be published in the proceedings of ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). arXiv admin note: substantial text overlap with arXiv:2509.25236",
+      "entry_id": "http://arxiv.org/abs/2602.02623v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.02623v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.02623v1",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -153,6 +451,44 @@
         }
       ],
       "llm_approved": false
+    },
+    "2602.03809": {
+      "title": "Split&Splat: Zero-Shot Panoptic Segmentation via Explicit Instance Modeling and 3D Gaussian Splatting",
+      "authors": [
+        "Leonardo Monchieri",
+        "Elena Camuffo",
+        "Francesco Barbato",
+        "Pietro Zanuttigh",
+        "Simone Milani"
+      ],
+      "published": "2026-02-01T20:10:37+00:00",
+      "updated": "2026-02-01T20:10:37+00:00",
+      "summary": "3D Gaussian Splatting (GS) enables fast and high-quality scene reconstruction, but it lacks an object-consistent and semantically aware structure. We propose Split&Splat, a framework for panoptic scene reconstruction using 3DGS. Our approach explicitly models object instances. It first propagates instance masks across views using depth, thus producing view-consistent 2D masks. Each object is then reconstructed independently and merged back into the scene while refining its boundaries. Finally, instance-level semantic descriptors are embedded in the reconstructed objects, supporting various applications, including panoptic segmentation, object retrieval, and 3D editing. Unlike existing methods, Split&Splat tackles the problem by first segmenting the scene and then reconstructing each object individually. This design naturally supports downstream tasks and allows Split&Splat to achieve state-of-the-art performance on the ScanNetv2 segmentation benchmark.",
+      "categories": [
+        "cs.GR",
+        "cs.CV"
+      ],
+      "primary_category": "cs.GR",
+      "pdf_url": "https://arxiv.org/pdf/2602.03809v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.03809v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.03809v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.03809v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
     },
     "2602.01325": {
       "title": "Unified ROI-based Image Compression Paradigm with Generalized Gaussian Model",
@@ -7533,27 +7869,27 @@
         "Tong Duy Son"
       ],
       "published": "2025-11-25T14:25:19+00:00",
-      "updated": "2025-11-28T16:12:54+00:00",
+      "updated": "2026-02-03T12:40:10+00:00",
       "summary": "3D reconstruction for Digital Twins often relies on LiDAR-based methods, which provide accurate geometry but lack the semantics and textures naturally captured by cameras. Traditional LiDAR-camera fusion approaches require complex calibration and still struggle with certain materials like glass, which are visible in images but poorly represented in point clouds. We propose a camera-only pipeline that reconstructs scenes using 3D Gaussian Splatting from multi-view images, extracts semantic material masks via vision models, converts Gaussian representations to mesh surfaces with projected material labels, and assigns physics-based material properties for accurate sensor simulation in modern graphics engines and simulators. This approach combines photorealistic reconstruction with physics-based material assignment, providing sensor simulation fidelity comparable to LiDAR-camera fusion while eliminating hardware complexity and calibration requirements. We validate our camera-only method using an internal dataset from an instrumented test vehicle, leveraging LiDAR as ground truth for reflectivity validation alongside image similarity metrics.",
       "categories": [
         "cs.CV",
         "cs.RO"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2511.20348v2",
+      "pdf_url": "https://arxiv.org/pdf/2511.20348v3",
       "journal_ref": null,
       "doi": null,
-      "comment": "8 pages, 5 figures. Submitted to IEEE Intelligent Vehicles Symposium (IV) 2026 for possible publication. Revised version (v2) to correct author order",
-      "entry_id": "http://arxiv.org/abs/2511.20348v2",
+      "comment": "8 pages, 5 figures. Accepted to IEEE Intelligent Vehicles Symposium (IV) 2026. Revised version (v3) presents camera-ready publication",
+      "entry_id": "http://arxiv.org/abs/2511.20348v3",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2511.20348v2",
+          "href": "https://arxiv.org/abs/2511.20348v3",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2511.20348v2",
+          "href": "https://arxiv.org/pdf/2511.20348v3",
           "title": "pdf",
           "rel": "related",
           "content_type": null
