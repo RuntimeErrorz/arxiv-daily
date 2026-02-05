@@ -1,5 +1,152 @@
 {
   "3DGS Semantic": {
+    "2602.04051": {
+      "title": "Artifact Removal and Image Restoration in AFM:A Structured Mask-Guided Directional Inpainting Approach",
+      "authors": [
+        "Juntao Zhang",
+        "Angona Biswas",
+        "Jaydeep Rade",
+        "Charchit Shukla",
+        "Juan Ren",
+        "Anwesha Sarkar",
+        "Adarsh Krishnamurthy",
+        "Aditya Balu"
+      ],
+      "published": "2026-02-03T22:37:22+00:00",
+      "updated": "2026-02-03T22:37:22+00:00",
+      "summary": "Atomic Force Microscopy (AFM) enables high-resolution surface imaging at the nanoscale, yet the output is often degraded by artifacts introduced by environmental noise, scanning imperfections, and tip-sample interactions. To address this challenge, a lightweight and fully automated framework for artifact detection and restoration in AFM image analysis is presented. The pipeline begins with a classification model that determines whether an AFM image contains artifacts. If necessary, a lightweight semantic segmentation network, custom-designed and trained on AFM data, is applied to generate precise artifact masks. These masks are adaptively expanded based on their structural orientation and then inpainted using a directional neighbor-based interpolation strategy to preserve 3D surface continuity. A localized Gaussian smoothing operation is then applied for seamless restoration. The system is integrated into a user-friendly GUI that supports real-time parameter adjustments and batch processing. Experimental results demonstrate the effective artifact removal while preserving nanoscale structural details, providing a robust, geometry-aware solution for high-fidelity AFM data interpretation.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.04051v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.04051v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.04051v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.04051v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.04043": {
+      "title": "AnyStyle: Single-Pass Multimodal Stylization for 3D Gaussian Splatting",
+      "authors": [
+        "Joanna Kaleta",
+        "Bartosz Świrta",
+        "Kacper Kania",
+        "Przemysław Spurek",
+        "Marek Kowalski"
+      ],
+      "published": "2026-02-03T22:19:58+00:00",
+      "updated": "2026-02-03T22:19:58+00:00",
+      "summary": "The growing demand for rapid and scalable 3D asset creation has driven interest in feed-forward 3D reconstruction methods, with 3D Gaussian Splatting (3DGS) emerging as an effective scene representation. While recent approaches have demonstrated pose-free reconstruction from unposed image collections, integrating stylization or appearance control into such pipelines remains underexplored. Existing attempts largely rely on image-based conditioning, which limits both controllability and flexibility. In this work, we introduce AnyStyle, a feed-forward 3D reconstruction and stylization framework that enables pose-free, zero-shot stylization through multimodal conditioning. Our method supports both textual and visual style inputs, allowing users to control the scene appearance using natural language descriptions or reference images. We propose a modular stylization architecture that requires only minimal architectural modifications and can be integrated into existing feed-forward 3D reconstruction backbones. Experiments demonstrate that AnyStyle improves style controllability over prior feed-forward stylization methods while preserving high-quality geometric reconstruction. A user study further confirms that AnyStyle achieves superior stylization quality compared to an existing state-of-the-art approach. Repository: https://github.com/joaxkal/AnyStyle.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.04043v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.04043v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.04043v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.04043v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.03949": {
+      "title": "Semantic Rate Distortion and Posterior Design: Compute Constraints, Multimodality, and Strategic Inference",
+      "authors": [
+        "Emrah Akyol"
+      ],
+      "published": "2026-02-03T19:12:02+00:00",
+      "updated": "2026-02-03T19:12:02+00:00",
+      "summary": "We study strategic Gaussian semantic compression under rate and compute constraints, where an encoder and decoder optimize distinct quadratic objectives. A latent Gaussian state generates a task dependent semantic variable, and the decoder best responds via MMSE estimation, reducing the encoder's problem to posterior covariance design under an information rate constraint. We characterize the strategic rate distortion function in direct, remote, and full information regimes, derive semantic waterfilling and rate constrained Gaussian persuasion solutions, and establish Gaussian optimality under misaligned objectives. We further show that architectural compute limits act as implicit rate constraints, yielding exponential improvements in semantic accuracy with model depth and inference time compute, while multimodal observation eliminates the geometric mean penalty inherent to remote encoding. These results provide information theoretic foundations for data and energy efficient AI and offer a principled interpretation of modern multimodal language models as posterior design mechanisms under resource constraints.",
+      "categories": [
+        "cs.IT",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "primary_category": "cs.IT",
+      "pdf_url": "https://arxiv.org/pdf/2602.03949v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "submitted for publication",
+      "entry_id": "http://arxiv.org/abs/2602.03949v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.03949v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.03949v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.03922": {
+      "title": "Online Vector Quantized Attention",
+      "authors": [
+        "Nick Alonso",
+        "Tomas Figliolia",
+        "Beren Millidge"
+      ],
+      "published": "2026-02-03T18:50:00+00:00",
+      "updated": "2026-02-03T18:50:00+00:00",
+      "summary": "Standard sequence mixing layers used in language models struggle to balance efficiency and performance. Self-attention performs well on long context tasks but has expensive quadratic compute and linear memory costs, while linear attention and SSMs use only linear compute and constant memory but struggle with long context processing. In this paper, we develop a sequence mixing layer that aims to find a better compromise between memory-compute costs and long-context processing, which we call online vector-quantized (OVQ) attention. OVQ-attention requires linear compute costs and constant memory, but, unlike linear attention and SSMs, it uses a sparse memory update that allows it to greatly increase the size of its memory state and, consequently, memory capacity. We develop a theoretical basis for OVQ-attention based on Gaussian mixture regression, and we test it on a variety of synthetic long context tasks and on long context language modeling. OVQ-attention shows significant improvements over linear attention baselines and the original VQ-attention, on which OVQ-attention was inspired. It demonstrates competitive, and sometimes identical, performance to strong self-attention baselines up 64k sequence length, despite using a small fraction of the memory of full self-attention.",
+      "categories": [
+        "cs.LG"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2602.03922v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.03922v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.03922v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.03922v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2602.03505": {
       "title": "Generative Decompression: Optimal Lossy Decoding Against Distribution Mismatch",
       "authors": [
@@ -120,26 +267,26 @@
         "Daeho Um"
       ],
       "published": "2026-02-03T04:01:12+00:00",
-      "updated": "2026-02-03T04:01:12+00:00",
-      "summary": "Weakly supervised temporal video grounding aims to localize query-relevant segments in untrimmed videos using only video-sentence pairs, without requiring ground-truth segment annotations that specify exact temporal boundaries. Recent approaches tackle this task by utilizing Gaussian-based temporal proposals to represent query-relevant segments. However, their inference strategies rely on heuristic mappings from Gaussian parameters to segment boundaries, resulting in suboptimal localization performance. To address this issue, we propose Gaussian Boundary Optimization (GBO), a novel inference framework that predicts segment boundaries by solving a principled optimization problem that balances proposal coverage and segment compactness. We derive a closed-form solution for this problem and rigorously analyze the optimality conditions under varying penalty regimes. Beyond its theoretical foundations, GBO offers several practical advantages: it is training-free and compatible with both single-Gaussian and mixture-based proposal architectures. Our experiments show that GBO significantly improves localization, achieving state-of-the-art results across standard benchmarks. Extensive experiments demonstrate the efficiency and generalizability of GBO across various proposal schemes. The code is available at \\href{https://github.com/sunoh-kim/gbo}{https://github.com/sunoh-kim/gbo}.",
+      "updated": "2026-02-04T02:47:33+00:00",
+      "summary": "Weakly supervised temporal video grounding aims to localize query-relevant segments in untrimmed videos using only video-sentence pairs, without requiring ground-truth segment annotations that specify exact temporal boundaries. Recent approaches tackle this task by utilizing Gaussian-based temporal proposals to represent query-relevant segments. However, their inference strategies rely on heuristic mappings from Gaussian parameters to segment boundaries, resulting in suboptimal localization performance. To address this issue, we propose Gaussian Boundary Optimization (GBO), a novel inference framework that predicts segment boundaries by solving a principled optimization problem that balances proposal coverage and segment compactness. We derive a closed-form solution for this problem and rigorously analyze the optimality conditions under varying penalty regimes. Beyond its theoretical foundations, GBO offers several practical advantages: it is training-free and compatible with both single-Gaussian and mixture-based proposal architectures. Our experiments show that GBO significantly improves localization, achieving state-of-the-art results across standard benchmarks. Extensive experiments demonstrate the efficiency and generalizability of GBO across various proposal schemes. The code is available at https://github.com/sunoh-kim/gbo.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2602.03071v1",
+      "pdf_url": "https://arxiv.org/pdf/2602.03071v2",
       "journal_ref": null,
       "doi": null,
       "comment": "Accepted in IEEE TMM",
-      "entry_id": "http://arxiv.org/abs/2602.03071v1",
+      "entry_id": "http://arxiv.org/abs/2602.03071v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2602.03071v1",
+          "href": "https://arxiv.org/abs/2602.03071v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2602.03071v1",
+          "href": "https://arxiv.org/pdf/2602.03071v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -730,29 +877,30 @@
         "Saul Santos",
         "Nuno Gonçalves",
         "Daniel C. McNamee",
+        "Marcos Treviso",
         "André F. T Martins"
       ],
       "published": "2026-01-30T09:45:35+00:00",
-      "updated": "2026-01-30T09:45:35+00:00",
+      "updated": "2026-02-04T12:26:29+00:00",
       "summary": "Recent work has revealed a link between self-attention mechanisms in transformers and test-time kernel regression via the Nadaraya-Watson estimator, with standard softmax attention corresponding to a Gaussian kernel. However, a kernel-theoretic understanding of sparse attention mechanisms is currently missing. In this paper, we establish a formal correspondence between sparse attention and compact (bounded support) kernels. We show that normalized ReLU and sparsemax attention arise from Epanechnikov kernel regression under fixed and adaptive normalizations, respectively. More generally, we demonstrate that widely used kernels in nonparametric density estimation -- including Epanechnikov, biweight, and triweight -- correspond to $α$-entmax attention with $α= 1 + \\frac{1}{n}$ for $n \\in \\mathbb{N}$, while the softmax/Gaussian relationship emerges in the limit $n \\to \\infty$. This unified perspective explains how sparsity naturally emerges from kernel design and provides principled alternatives to heuristic top-$k$ attention and other associative memory mechanisms. Experiments with a kernel-regression-based variant of transformers -- Memory Mosaics -- show that kernel-based sparse attention achieves competitive performance on language modeling, in-context learning, and length generalization tasks, offering a principled framework for designing attention mechanisms.",
       "categories": [
         "cs.LG"
       ],
       "primary_category": "cs.LG",
-      "pdf_url": "https://arxiv.org/pdf/2601.22766v1",
+      "pdf_url": "https://arxiv.org/pdf/2601.22766v2",
       "journal_ref": null,
       "doi": null,
       "comment": "16 pages, 5 figures",
-      "entry_id": "http://arxiv.org/abs/2601.22766v1",
+      "entry_id": "http://arxiv.org/abs/2601.22766v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2601.22766v1",
+          "href": "https://arxiv.org/abs/2601.22766v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2601.22766v1",
+          "href": "https://arxiv.org/pdf/2601.22766v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -94432,6 +94580,42 @@
     }
   },
   "Depth Estimation": {
+    "2602.04053": {
+      "title": "Seeing Through Clutter: Structured 3D Scene Reconstruction via Iterative Object Removal",
+      "authors": [
+        "Rio Aguina-Kang",
+        "Kevin James Blackburn-Matzen",
+        "Thibault Groueix",
+        "Vladimir Kim",
+        "Matheus Gadelha"
+      ],
+      "published": "2026-02-03T22:37:43+00:00",
+      "updated": "2026-02-03T22:37:43+00:00",
+      "summary": "We present SeeingThroughClutter, a method for reconstructing structured 3D representations from single images by segmenting and modeling objects individually. Prior approaches rely on intermediate tasks such as semantic segmentation and depth estimation, which often underperform in complex scenes, particularly in the presence of occlusion and clutter. We address this by introducing an iterative object removal and reconstruction pipeline that decomposes complex scenes into a sequence of simpler subtasks. Using VLMs as orchestrators, foreground objects are removed one at a time via detection, segmentation, object removal, and 3D fitting. We show that removing objects allows for cleaner segmentations of subsequent objects, even in highly occluded scenes. Our method requires no task-specific training and benefits directly from ongoing advances in foundation models. We demonstrate stateof-the-art robustness on 3D-Front and ADE20K datasets. Project Page: https://rioak.github.io/seeingthroughclutter/",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.04053v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "To appear in 3DV 2026",
+      "entry_id": "http://arxiv.org/abs/2602.04053v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.04053v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.04053v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2602.01899": {
       "title": "Multi-Task Learning for Robot Perception with Imbalanced Data",
       "authors": [

@@ -1,4 +1,4 @@
-## Updated at 2026-02-05 08:24:28
+## Updated at 2026-02-05 20:13:07
 
 ## 3DGS Semantic
 
@@ -644,6 +644,7 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-02-03**|**[Seeing Through Clutter: Structured 3D Scene Reconstruction via Iterative Object Removal](https://arxiv.org/abs/2602.04053)**|N/A|To appear in 3DV 2026|cs.CV|None|Rio Aguina-Kang et al.|
 |**2026-02-02**|**[Multi-Task Learning for Robot Perception with Imbalanced Data](https://arxiv.org/abs/2602.01899)**|N/A|16 pages|cs.RO|Ordu Üniversitesi Bilim ve Teknoloji Dergisi, 15(2), 151-164 (2025)|Ozgur Erkent|
 |**2026-02-01**|**[OASIS-DC: Generalizable Depth Completion via Output-level Alignment of Sparse-Integrated Monocular Pseudo Depth](https://arxiv.org/abs/2602.01268)**|N/A|Accepted to ICRA 2026|cs.CV|None|Jaehyeon Cho, Jhonghyun An|
 |**2026-01-30**|**[Deep in the Jungle: Towards Automating Chimpanzee Population Estimation](https://arxiv.org/abs/2601.22917)**|N/A|None|cs.CV|None|Tom Raynes et al.|
