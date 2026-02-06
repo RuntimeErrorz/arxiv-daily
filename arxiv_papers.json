@@ -1,5 +1,188 @@
 {
   "3DGS Semantic": {
+    "2602.06032": {
+      "title": "Splat and Distill: Augmenting Teachers with Feed-Forward 3D Reconstruction For 3D-Aware Distillation",
+      "authors": [
+        "David Shavin",
+        "Sagie Benaim"
+      ],
+      "published": "2026-02-05T18:59:05+00:00",
+      "updated": "2026-02-05T18:59:05+00:00",
+      "summary": "Vision Foundation Models (VFMs) have achieved remarkable success when applied to various downstream 2D tasks. Despite their effectiveness, they often exhibit a critical lack of 3D awareness. To this end, we introduce Splat and Distill, a framework that instills robust 3D awareness into 2D VFMs by augmenting the teacher model with a fast, feed-forward 3D reconstruction pipeline. Given 2D features produced by a teacher model, our method first lifts these features into an explicit 3D Gaussian representation, in a feedforward manner. These 3D features are then ``splatted\" onto novel viewpoints, producing a set of novel 2D feature maps used to supervise the student model, ``distilling\" geometrically grounded knowledge. By replacing slow per-scene optimization of prior work with our feed-forward lifting approach, our framework avoids feature-averaging artifacts, creating a dynamic learning process where the teacher's consistency improves alongside that of the student. We conduct a comprehensive evaluation on a suite of downstream tasks, including monocular depth estimation, surface normal estimation, multi-view correspondence, and semantic segmentation. Our method significantly outperforms prior works, not only achieving substantial gains in 3D awareness but also enhancing the underlying semantic richness of 2D features. Project page is available at https://davidshavin4.github.io/Splat-and-Distill/",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.06032v1",
+      "journal_ref": "ICLR 2026",
+      "doi": null,
+      "comment": "Accepted to ICLR 2026",
+      "entry_id": "http://arxiv.org/abs/2602.06032v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.06032v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.06032v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.05779": {
+      "title": "How Controlling the Variance can Improve Training Stability of Sparsely Activated DNNs and CNNs",
+      "authors": [
+        "Emily Dent",
+        "Jared Tanner"
+      ],
+      "published": "2026-02-05T15:38:37+00:00",
+      "updated": "2026-02-05T15:38:37+00:00",
+      "summary": "The intermediate layers of deep networks can be characterised as a Gaussian process, in particular the Edge-of-Chaos (EoC) initialisation strategy prescribes the limiting covariance matrix of the Gaussian process. Here we show that the under-utilised chosen variance of the Gaussian process is important in the training of deep networks with sparsity inducing activation, such as a shifted and clipped ReLU, $\\text{CReLU}_{τ,m}(x)=\\min(\\max(x-τ,0),m)$. Specifically, initialisations leading to larger fixed Gaussian process variances, allow for improved expressivity with activation sparsity as large as 90% in DNNs and CNNs, and generally improve the stability of the training process. Enabling full, or near full, accuracy at such high levels of sparsity in the hidden layers suggests a promising mechanism to reduce the energy consumption of machine learning models involving fully connected layers.",
+      "categories": [
+        "cs.LG",
+        "cs.IT"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2602.05779v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.05779v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.05779v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.05779v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.05639": {
+      "title": "Joint Embedding Variational Bayes",
+      "authors": [
+        "Amin Oji",
+        "Paul Fieguth"
+      ],
+      "published": "2026-02-05T13:18:53+00:00",
+      "updated": "2026-02-05T13:18:53+00:00",
+      "summary": "We introduce Variational Joint Embedding (VJE), a framework that synthesizes joint embedding and variational inference to enable self-supervised learning of probabilistic representations in a reconstruction-free, non-contrastive setting. Compared to energy-based predictive objectives that optimize pointwise discrepancies, VJE maximizes a symmetric conditional evidence lower bound (ELBO) for a latent-variable model defined directly on encoder embeddings. We instantiate the conditional likelihood with a heavy-tailed Student-$t$ model using a polar decomposition that explicitly decouples directional and radial factors to prevent norm-induced instabilities during training. VJE employs an amortized inference network to parameterize a diagonal Gaussian variational posterior whose feature-wise variances are shared with the likelihood scale to capture anisotropic uncertainty without auxiliary projection heads. Across ImageNet-1K, CIFAR-10/100, and STL-10, VJE achieves performance comparable to standard non-contrastive baselines under linear and k-NN evaluation. We further validate these probabilistic semantics through one-class CIFAR-10 anomaly detection, where likelihood-based scoring under the proposed model outperforms comparable self-supervised baselines.",
+      "categories": [
+        "cs.LG",
+        "stat.ML"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2602.05639v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.05639v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.05639v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.05639v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.05360": {
+      "title": "Breaking Semantic Hegemony: Decoupling Principal and Residual Subspaces for Generalized OOD Detection",
+      "authors": [
+        "Ningkang Peng",
+        "Xiaoqian Peng",
+        "Yuhao Zhang",
+        "Qianfeng Yu",
+        "Feng Xing",
+        "Peirong Ma",
+        "Xichen Yang",
+        "Yi Chen",
+        "Tingyu Lu",
+        "Yanhui Gu"
+      ],
+      "published": "2026-02-05T06:32:33+00:00",
+      "updated": "2026-02-05T06:32:33+00:00",
+      "summary": "While feature-based post-hoc methods have made significant strides in Out-of-Distribution (OOD) detection, we uncover a counter-intuitive Simplicity Paradox in existing state-of-the-art (SOTA) models: these models exhibit keen sensitivity in distinguishing semantically subtle OOD samples but suffer from severe Geometric Blindness when confronting structurally distinct yet semantically simple samples or high-frequency sensor noise. We attribute this phenomenon to Semantic Hegemony within the deep feature space and reveal its mathematical essence through the lens of Neural Collapse. Theoretical analysis demonstrates that the spectral concentration bias, induced by the high variance of the principal subspace, numerically masks the structural distribution shift signals that should be significant in the residual subspace. To address this issue, we propose D-KNN, a training-free, plug-and-play geometric decoupling framework. This method utilizes orthogonal decomposition to explicitly separate semantic components from structural residuals and introduces a dual-space calibration mechanism to reactivate the model's sensitivity to weak residual signals. Extensive experiments demonstrate that D-KNN effectively breaks Semantic Hegemony, establishing new SOTA performance on both CIFAR and ImageNet benchmarks. Notably, in resolving the Simplicity Paradox, it reduces the FPR95 from 31.3% to 2.3%; when addressing sensor failures such as Gaussian noise, it boosts the detection performance (AUROC) from a baseline of 79.7% to 94.9%.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.05360v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.05360v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.05360v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.05360v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.04987": {
+      "title": "The Impact of Galaxy Formation on Galaxy Biasing, and Implications for Primordial non-Gaussianity Constraints",
+      "authors": [
+        "Lucia A. Perez",
+        "Shy Genel",
+        "Elisabeth Krause",
+        "Rachel S. Somerville"
+      ],
+      "published": "2026-02-04T19:19:48+00:00",
+      "updated": "2026-02-04T19:19:48+00:00",
+      "summary": "The parameter $f_{\\textrm{NL}}$ measures the local non-Gaussianity in the primordial energy fluctuations of the Universe, with any deviation from $f_{\\textrm{NL}}=0$ providing key constraints on inflationary models. Galaxy clustering is sensitive to $f_{\\textrm{NL}}$ at large scale modes and the next generation of galaxy surveys will approach a statistical error of $σ_{f_{\\textrm{NL}}}\\sim1$. However, the systematic errors on these constraints are dominated by the degeneracy of $f_{\\textrm{NL}}$ with the galaxy bias parameters $b_1$ (galaxy overdensities caused by mass perturbations) and $b_φ$ (galaxy overdensities caused by primordial potential perturbations). It has been shown that the assumed scaling of $b_φ(z)=2δ_c (b_1(z)-1)$ is not accurate for realistically simulated galaxies, and depends both on the galaxy selection and the way that galaxies are modeled. To address this, we leverage the CAMELS-SAM pipeline to explore how varying parameters of galaxy formation affects $b_φ$ and $b_1$ for various galaxy selections. We run separate-universe N-body simulations of $L=205 h^{-1}$ cMpc and $N=1280^3$ to measure $b_φ$, and run 55 unique instances of the Santa Cruz semi-analytic model with varying parameters of stellar and AGN feedback. We find the behavior and evolution of a SC-SAM model's stellar-, SFR- and sSFR- to halo mass relationships track well with how $b_1$ and $b_φ(b_1)$ change across redshift and selection for the SC-SAM. We find our variations of the SC-SAM encapsulate the $b_φ$ behavior previously measured in IllustrisTNG, the Munich SAM, and Galacticus.Finally, we identify sSFR selections as particularly robust to varied galaxy modeling.",
+      "categories": [
+        "astro-ph.CO",
+        "astro-ph.GA"
+      ],
+      "primary_category": "astro-ph.CO",
+      "pdf_url": "https://arxiv.org/pdf/2602.04987v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "37 pages, 23 figures, 2 tables",
+      "entry_id": "http://arxiv.org/abs/2602.04987v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.04987v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.04987v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2602.04051": {
       "title": "Artifact Removal and Image Restoration in AFM:A Structured Mask-Guided Directional Inpainting Approach",
       "authors": [
@@ -77871,6 +78054,46 @@
     }
   },
   "MVS": {
+    "2602.05423": {
+      "title": "NeVStereo: A NeRF-Driven NVS-Stereo Architecture for High-Fidelity 3D Tasks",
+      "authors": [
+        "Pengcheng Chen",
+        "Yue Hu",
+        "Wenhao Li",
+        "Nicole M Gunderson",
+        "Andrew Feng",
+        "Zhenglong Sun",
+        "Peter Beerel",
+        "Eric J Seibel"
+      ],
+      "published": "2026-02-05T08:15:06+00:00",
+      "updated": "2026-02-05T08:15:06+00:00",
+      "summary": "In modern dense 3D reconstruction, feed-forward systems (e.g., VGGT, pi3) focus on end-to-end matching and geometry prediction but do not explicitly output the novel view synthesis (NVS). Neural rendering-based approaches offer high-fidelity NVS and detailed geometry from posed images, yet they typically assume fixed camera poses and can be sensitive to pose errors. As a result, it remains non-trivial to obtain a single framework that can offer accurate poses, reliable depth, high-quality rendering, and accurate 3D surfaces from casually captured views. We present NeVStereo, a NeRF-driven NVS-stereo architecture that aims to jointly deliver camera poses, multi-view depth, novel view synthesis, and surface reconstruction from multi-view RGB-only inputs. NeVStereo combines NeRF-based NVS for stereo-friendly renderings, confidence-guided multi-view depth estimation, NeRF-coupled bundle adjustment for pose refinement, and an iterative refinement stage that updates both depth and the radiance field to improve geometric consistency. This design mitigated the common NeRF-based issues such as surface stacking, artifacts, and pose-depth coupling. Across indoor, outdoor, tabletop, and aerial benchmarks, our experiments indicate that NeVStereo achieves consistently strong zero-shot performance, with up to 36% lower depth error, 10.4% improved pose accuracy, 4.5% higher NVS fidelity, and state-of-the-art mesh quality (F1 91.93%, Chamfer 4.35 mm) compared to existing prestigious methods.",
+      "categories": [
+        "cs.CV",
+        "cs.GR"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.05423v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.05423v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.05423v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.05423v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2602.02089": {
       "title": "UrbanGS: A Scalable and Efficient Architecture for Geometrically Accurate Large-Scene Reconstruction",
       "authors": [
@@ -77917,26 +78140,26 @@
         "Chentian Sun"
       ],
       "published": "2026-02-01T05:45:27+00:00",
-      "updated": "2026-02-01T05:45:27+00:00",
+      "updated": "2026-02-05T01:27:18+00:00",
       "summary": "Real-time multi-view point cloud reconstruction is a core problem in 3D vision and immersive perception, with wide applications in VR, AR, robotic navigation, digital twins, and computer interaction. Despite advances in multi-camera systems and high-resolution depth sensors, fusing large-scale multi-view depth observations into high-quality point clouds under strict real-time constraints remains challenging. Existing methods relying on voxel-based fusion, temporal accumulation, or global optimization suffer from high computational complexity, excessive memory usage, and limited scalability, failing to simultaneously achieve real-time performance, reconstruction quality, and multi-camera extensibility. We propose FUSE-Flow, a frame-wise, stateless, and linearly scalable point cloud streaming reconstruction framework. Each frame independently generates point cloud fragments, fused via two weights, measurement confidence and 3D distance consistency to suppress noise while preserving geometric details. For large-scale multi-camera efficiency, we introduce an adaptive spatial hashing-based weighted aggregation method: 3D space is adaptively partitioned by local point cloud density, representative points are selected per cell, and weighted fusion is performed to handle both sparse and dense regions. With GPU parallelization, FUSE-Flow achieves high-throughput, low-latency point cloud generation and fusion with linear complexity. Experiments demonstrate that the framework improves reconstruction stability and geometric fidelity in overlapping, depth-discontinuous, and dynamic scenes, while maintaining real-time frame rates on modern GPUs, verifying its effectiveness, robustness, and scalability.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2602.01035v1",
+      "pdf_url": "https://arxiv.org/pdf/2602.01035v2",
       "journal_ref": null,
       "doi": null,
       "comment": "A 5-page paper, prepared for submission to the 2026 IEEE International Conference on Image Processing (ICIP)",
-      "entry_id": "http://arxiv.org/abs/2602.01035v1",
+      "entry_id": "http://arxiv.org/abs/2602.01035v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2602.01035v1",
+          "href": "https://arxiv.org/abs/2602.01035v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2602.01035v1",
+          "href": "https://arxiv.org/pdf/2602.01035v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -94580,6 +94803,199 @@
     }
   },
   "Depth Estimation": {
+    "2602.06032": {
+      "title": "Splat and Distill: Augmenting Teachers with Feed-Forward 3D Reconstruction For 3D-Aware Distillation",
+      "authors": [
+        "David Shavin",
+        "Sagie Benaim"
+      ],
+      "published": "2026-02-05T18:59:05+00:00",
+      "updated": "2026-02-05T18:59:05+00:00",
+      "summary": "Vision Foundation Models (VFMs) have achieved remarkable success when applied to various downstream 2D tasks. Despite their effectiveness, they often exhibit a critical lack of 3D awareness. To this end, we introduce Splat and Distill, a framework that instills robust 3D awareness into 2D VFMs by augmenting the teacher model with a fast, feed-forward 3D reconstruction pipeline. Given 2D features produced by a teacher model, our method first lifts these features into an explicit 3D Gaussian representation, in a feedforward manner. These 3D features are then ``splatted\" onto novel viewpoints, producing a set of novel 2D feature maps used to supervise the student model, ``distilling\" geometrically grounded knowledge. By replacing slow per-scene optimization of prior work with our feed-forward lifting approach, our framework avoids feature-averaging artifacts, creating a dynamic learning process where the teacher's consistency improves alongside that of the student. We conduct a comprehensive evaluation on a suite of downstream tasks, including monocular depth estimation, surface normal estimation, multi-view correspondence, and semantic segmentation. Our method significantly outperforms prior works, not only achieving substantial gains in 3D awareness but also enhancing the underlying semantic richness of 2D features. Project page is available at https://davidshavin4.github.io/Splat-and-Distill/",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.06032v1",
+      "journal_ref": "ICLR 2026",
+      "doi": null,
+      "comment": "Accepted to ICLR 2026",
+      "entry_id": "http://arxiv.org/abs/2602.06032v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.06032v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.06032v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2602.05730": {
+      "title": "Depth as Prior Knowledge for Object Detection",
+      "authors": [
+        "Moussa Kassem Sbeyti",
+        "Nadja Klein"
+      ],
+      "published": "2026-02-05T14:52:39+00:00",
+      "updated": "2026-02-05T14:52:39+00:00",
+      "summary": "Detecting small and distant objects remains challenging for object detectors due to scale variation, low resolution, and background clutter. Safety-critical applications require reliable detection of these objects for safe planning. Depth information can improve detection, but existing approaches require complex, model-specific architectural modifications. We provide a theoretical analysis followed by an empirical investigation of the depth-detection relationship. Together, they explain how depth causes systematic performance degradation and why depth-informed supervision mitigates it. We introduce DepthPrior, a framework that uses depth as prior knowledge rather than as a fused feature, providing comparable benefits without modifying detector architectures. DepthPrior consists of Depth-Based Loss Weighting (DLW) and Depth-Based Loss Stratification (DLS) during training, and Depth-Aware Confidence Thresholding (DCT) during inference. The only overhead is the initial cost of depth estimation. Experiments across four benchmarks (KITTI, MS COCO, VisDrone, SUN RGB-D) and two detectors (YOLOv11, EfficientDet) demonstrate the effectiveness of DepthPrior, achieving up to +9% mAP$_S$ and +7% mAR$_S$ for small objects, with inference recovery rates as high as 95:1 (true vs. false detections). DepthPrior offers these benefits without additional sensors, architectural changes, or performance costs. Code is available at https://github.com/mos-ks/DepthPrior.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.05730v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "This work has been submitted to the IEEE for possible publication",
+      "entry_id": "http://arxiv.org/abs/2602.05730v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.05730v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.05730v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2602.05638": {
+      "title": "UniSurg: A Video-Native Foundation Model for Universal Understanding of Surgical Videos",
+      "authors": [
+        "Jinlin Wu",
+        "Felix Holm",
+        "Chuxi Chen",
+        "An Wang",
+        "Yaxin Hu",
+        "Xiaofan Ye",
+        "Zelin Zang",
+        "Miao Xu",
+        "Lihua Zhou",
+        "Huai Liao",
+        "Danny T. M. Chan",
+        "Ming Feng",
+        "Wai S. Poon",
+        "Hongliang Ren",
+        "Dong Yi",
+        "Nassir Navab",
+        "Gaofeng Meng",
+        "Jiebo Luo",
+        "Hongbin Liu",
+        "Zhen Lei"
+      ],
+      "published": "2026-02-05T13:18:33+00:00",
+      "updated": "2026-02-05T13:18:33+00:00",
+      "summary": "While foundation models have advanced surgical video analysis, current approaches rely predominantly on pixel-level reconstruction objectives that waste model capacity on low-level visual details - such as smoke, specular reflections, and fluid motion - rather than semantic structures essential for surgical understanding. We present UniSurg, a video-native foundation model that shifts the learning paradigm from pixel-level reconstruction to latent motion prediction. Built on the Video Joint Embedding Predictive Architecture (V-JEPA), UniSurg introduces three key technical innovations tailored to surgical videos: 1) motion-guided latent prediction to prioritize semantically meaningful regions, 2) spatiotemporal affinity self-distillation to enforce relational consistency, and 3) feature diversity regularization to prevent representation collapse in texture-sparse surgical scenes. To enable large-scale pretraining, we curate UniSurg-15M, the largest surgical video dataset to date, comprising 3,658 hours of video from 50 sources across 13 anatomical regions. Extensive experiments across 17 benchmarks demonstrate that UniSurg significantly outperforms state-of-the-art methods on surgical workflow recognition (+14.6% F1 on EgoSurgery, +10.3% on PitVis), action triplet recognition (39.54% mAP-IVT on CholecT50), skill assessment, polyp segmentation, and depth estimation. These results establish UniSurg as a new standard for universal, motion-oriented surgical video understanding.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.05638v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.05638v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.05638v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.05638v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2602.05423": {
+      "title": "NeVStereo: A NeRF-Driven NVS-Stereo Architecture for High-Fidelity 3D Tasks",
+      "authors": [
+        "Pengcheng Chen",
+        "Yue Hu",
+        "Wenhao Li",
+        "Nicole M Gunderson",
+        "Andrew Feng",
+        "Zhenglong Sun",
+        "Peter Beerel",
+        "Eric J Seibel"
+      ],
+      "published": "2026-02-05T08:15:06+00:00",
+      "updated": "2026-02-05T08:15:06+00:00",
+      "summary": "In modern dense 3D reconstruction, feed-forward systems (e.g., VGGT, pi3) focus on end-to-end matching and geometry prediction but do not explicitly output the novel view synthesis (NVS). Neural rendering-based approaches offer high-fidelity NVS and detailed geometry from posed images, yet they typically assume fixed camera poses and can be sensitive to pose errors. As a result, it remains non-trivial to obtain a single framework that can offer accurate poses, reliable depth, high-quality rendering, and accurate 3D surfaces from casually captured views. We present NeVStereo, a NeRF-driven NVS-stereo architecture that aims to jointly deliver camera poses, multi-view depth, novel view synthesis, and surface reconstruction from multi-view RGB-only inputs. NeVStereo combines NeRF-based NVS for stereo-friendly renderings, confidence-guided multi-view depth estimation, NeRF-coupled bundle adjustment for pose refinement, and an iterative refinement stage that updates both depth and the radiance field to improve geometric consistency. This design mitigated the common NeRF-based issues such as surface stacking, artifacts, and pose-depth coupling. Across indoor, outdoor, tabletop, and aerial benchmarks, our experiments indicate that NeVStereo achieves consistently strong zero-shot performance, with up to 36% lower depth error, 10.4% improved pose accuracy, 4.5% higher NVS fidelity, and state-of-the-art mesh quality (F1 91.93%, Chamfer 4.35 mm) compared to existing prestigious methods.",
+      "categories": [
+        "cs.CV",
+        "cs.GR"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.05423v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.05423v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.05423v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.05423v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2602.05190": {
+      "title": "PoseGaussian: Pose-Driven Novel View Synthesis for Robust 3D Human Reconstruction",
+      "authors": [
+        "Ju Shen",
+        "Chen Chen",
+        "Tam V. Nguyen",
+        "Vijayan K. Asari"
+      ],
+      "published": "2026-02-05T01:34:52+00:00",
+      "updated": "2026-02-05T01:34:52+00:00",
+      "summary": "We propose PoseGaussian, a pose-guided Gaussian Splatting framework for high-fidelity human novel view synthesis. Human body pose serves a dual purpose in our design: as a structural prior, it is fused with a color encoder to refine depth estimation; as a temporal cue, it is processed by a dedicated pose encoder to enhance temporal consistency across frames. These components are integrated into a fully differentiable, end-to-end trainable pipeline. Unlike prior works that use pose only as a condition or for warping, PoseGaussian embeds pose signals into both geometric and temporal stages to improve robustness and generalization. It is specifically designed to address challenges inherent in dynamic human scenes, such as articulated motion and severe self-occlusion. Notably, our framework achieves real-time rendering at 100 FPS, maintaining the efficiency of standard Gaussian Splatting pipelines. We validate our approach on ZJU-MoCap, THuman2.0, and in-house datasets, demonstrating state-of-the-art performance in perceptual quality and structural accuracy (PSNR 30.86, SSIM 0.979, LPIPS 0.028).",
+      "categories": [
+        "cs.CV",
+        "cs.GR"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.05190v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.05190v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.05190v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.05190v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2602.04053": {
       "title": "Seeing Through Clutter: Structured 3D Scene Reconstruction via Iterative Object Removal",
       "authors": [

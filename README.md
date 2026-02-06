@@ -1,4 +1,4 @@
-## Updated at 2026-02-06 08:22:19
+## Updated at 2026-02-06 20:12:49
 
 ## 3DGS Semantic
 
@@ -188,6 +188,7 @@ Query: (abs:'Multi-View Stereo' OR abs:'Multi View Stereo' OR abs:'Multi-View De
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-02-05**|**[NeVStereo: A NeRF-Driven NVS-Stereo Architecture for High-Fidelity 3D Tasks](https://arxiv.org/abs/2602.05423)**|N/A|None|cs.CV|None|Pengcheng Chen et al.|
 |**2026-02-02**|**[UrbanGS: A Scalable and Efficient Architecture for Geometrically Accurate Large-Scene Reconstruction](https://arxiv.org/abs/2602.02089)**|N/A|ICLR 2026|cs.CV|None|Changbai Li et al.|
 |**2026-02-01**|**[FUSE-Flow: Scalable Real-Time Multi-View Point Cloud Reconstruction Using Confidence](https://arxiv.org/abs/2602.01035)**|N/A|A 5-page paper, prepared for submission to the 2026 IEEE International Conference on Image Processing (ICIP)|cs.CV|None|Chentian Sun|
 |**2026-01-29**|**[From Implicit Ambiguity to Explicit Solidity: Diagnosing Interior Geometric Degradation in Neural Radiance Fields for Dense 3D Scene Understanding](https://arxiv.org/abs/2601.21421)**|N/A|None|cs.CV|None|Jiangsan Zhao et al.|
@@ -644,6 +645,11 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-02-05**|**[Splat and Distill: Augmenting Teachers with Feed-Forward 3D Reconstruction For 3D-Aware Distillation](https://arxiv.org/abs/2602.06032)**|N/A|Accepted to ICLR 2026|cs.CV|ICLR 2026|David Shavin, Sagie Benaim|
+|**2026-02-05**|**[Depth as Prior Knowledge for Object Detection](https://arxiv.org/abs/2602.05730)**|N/A|This work has been submitted to the IEEE for possible publication|cs.CV|None|Moussa Kassem Sbeyti, Nadja Klein|
+|**2026-02-05**|**[UniSurg: A Video-Native Foundation Model for Universal Understanding of Surgical Videos](https://arxiv.org/abs/2602.05638)**|N/A|None|cs.CV|None|Jinlin Wu et al.|
+|**2026-02-05**|**[NeVStereo: A NeRF-Driven NVS-Stereo Architecture for High-Fidelity 3D Tasks](https://arxiv.org/abs/2602.05423)**|N/A|None|cs.CV|None|Pengcheng Chen et al.|
+|**2026-02-05**|**[PoseGaussian: Pose-Driven Novel View Synthesis for Robust 3D Human Reconstruction](https://arxiv.org/abs/2602.05190)**|N/A|None|cs.CV|None|Ju Shen et al.|
 |**2026-02-03**|**[Seeing Through Clutter: Structured 3D Scene Reconstruction via Iterative Object Removal](https://arxiv.org/abs/2602.04053)**|N/A|To appear in 3DV 2026|cs.CV|None|Rio Aguina-Kang et al.|
 |**2026-02-02**|**[Multi-Task Learning for Robot Perception with Imbalanced Data](https://arxiv.org/abs/2602.01899)**|N/A|16 pages|cs.RO|Ordu Üniversitesi Bilim ve Teknoloji Dergisi, 15(2), 151-164 (2025)|Ozgur Erkent|
 |**2026-02-01**|**[OASIS-DC: Generalizable Depth Completion via Output-level Alignment of Sparse-Integrated Monocular Pseudo Depth](https://arxiv.org/abs/2602.01268)**|N/A|Accepted to ICRA 2026|cs.CV|None|Jaehyeon Cho, Jhonghyun An|
