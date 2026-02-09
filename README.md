@@ -1,4 +1,4 @@
-## Updated at 2026-02-09 08:25:11
+## Updated at 2026-02-09 20:22:25
 
 ## 3DGS Semantic
 
@@ -645,6 +645,8 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-02-06**|**[Forest canopy height estimation from satellite RGB imagery using large-scale airborne LiDAR-derived training data and monocular depth estimation](https://arxiv.org/abs/2602.06503)**|N/A|None|cs.CV|None|Yongkang Lai et al.|
+|**2026-02-05**|**[AnyThermal: Towards Learning Universal Representations for Thermal Perception](https://arxiv.org/abs/2602.06203)**|N/A|Accepted at IEEE ICRA (International Conference on Robotics & Automation) 2026|cs.CV|None|Parv Maheshwari et al.|
 |**2026-02-05**|**[Splat and Distill: Augmenting Teachers with Feed-Forward 3D Reconstruction For 3D-Aware Distillation](https://arxiv.org/abs/2602.06032)**|N/A|Accepted to ICLR 2026|cs.CV|ICLR 2026|David Shavin, Sagie Benaim|
 |**2026-02-05**|**[Depth as Prior Knowledge for Object Detection](https://arxiv.org/abs/2602.05730)**|N/A|This work has been submitted to the IEEE for possible publication|cs.CV|None|Moussa Kassem Sbeyti, Nadja Klein|
 |**2026-02-05**|**[UniSurg: A Video-Native Foundation Model for Universal Understanding of Surgical Videos](https://arxiv.org/abs/2602.05638)**|N/A|None|cs.CV|None|Jinlin Wu et al.|

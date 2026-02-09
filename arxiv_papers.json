@@ -1,5 +1,189 @@
 {
   "3DGS Semantic": {
+    "2602.06846": {
+      "title": "DynFOA: Generating First-Order Ambisonics with Conditional Diffusion for Dynamic and Acoustically Complex 360-Degree Videos",
+      "authors": [
+        "Ziyu Luo",
+        "Lin Chen",
+        "Qiang Qu",
+        "Xiaoming Chen",
+        "Yiran Shen"
+      ],
+      "published": "2026-02-06T16:36:46+00:00",
+      "updated": "2026-02-06T16:36:46+00:00",
+      "summary": "Spatial audio is crucial for creating compelling immersive 360-degree video experiences. However, generating realistic spatial audio, such as first-order ambisonics (FOA), from 360-degree videos in complex acoustic scenes remains challenging. Existing methods often overlook the dynamic nature and acoustic complexity of 360-degree scenes, fail to fully account for dynamic sound sources, and neglect complex environmental effects such as occlusion, reflections, and reverberation, which are influenced by scene geometries and materials. We propose DynFOA, a framework based on dynamic acoustic perception and conditional diffusion, for generating high-fidelity FOA from 360-degree videos. DynFOA first performs visual processing via a video encoder, which detects and localizes multiple dynamic sound sources, estimates their depth and semantics, and reconstructs the scene geometry and materials using a 3D Gaussian Splatting. This reconstruction technique accurately models occlusion, reflections, and reverberation based on the geometries and materials of the reconstructed 3D scene and the listener's viewpoint. The audio encoder then captures the spatial motion and temporal 4D sound source trajectories to fine-tune the diffusion-based FOA generator. The fine-tuned FOA generator adjusts spatial cues in real time, ensuring consistent directional fidelity during listener head rotation and complex environmental changes. Extensive evaluations demonstrate that DynFOA consistently outperforms existing methods across metrics such as spatial accuracy, acoustic fidelity, and distribution matching, while also improving the user experience. Therefore, DynFOA provides a robust and scalable approach to rendering realistic dynamic spatial audio for VR and immersive media applications.",
+      "categories": [
+        "cs.SD"
+      ],
+      "primary_category": "cs.SD",
+      "pdf_url": "https://arxiv.org/pdf/2602.06846v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.06846v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.06846v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.06846v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.06838": {
+      "title": "An Adaptive Differentially Private Federated Learning Framework with Bi-level Optimization",
+      "authors": [
+        "Jin Wang",
+        "Hui Ma",
+        "Fei Xing",
+        "Ming Yan"
+      ],
+      "published": "2026-02-06T16:27:33+00:00",
+      "updated": "2026-02-06T16:27:33+00:00",
+      "summary": "Federated learning enables collaborative model training across distributed clients while preserving data privacy. However, in practical deployments, device heterogeneity, non-independent, and identically distributed (Non-IID) data often lead to highly unstable and biased gradient updates. When differential privacy is enforced, conventional fixed gradient clipping and Gaussian noise injection may further amplify gradient perturbations, resulting in training oscillation and performance degradation and degraded model performance. To address these challenges, we propose an adaptive differentially private federated learning framework that explicitly targets model efficiency under heterogeneous and privacy-constrained settings. On the client side, a lightweight local compressed module is introduced to regularize intermediate representations and constrain gradient variability, thereby mitigating noise amplification during local optimization. On the server side, an adaptive gradient clipping strategy dynamically adjusts clipping thresholds based on historical update statistics to avoid over-clipping and noise domination. Furthermore, a constraint-aware aggregation mechanism is designed to suppress unreliable or noise-dominated client updates and stabilize global optimization. Extensive experiments on CIFAR-10 and SVHN demonstrate improved convergence stability and classification accuracy.",
+      "categories": [
+        "cs.AI"
+      ],
+      "primary_category": "cs.AI",
+      "pdf_url": "https://arxiv.org/pdf/2602.06838v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "submited to a conference",
+      "entry_id": "http://arxiv.org/abs/2602.06838v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.06838v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.06838v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.06562": {
+      "title": "Universality of Primordial Anisotropies in Gravitational Wave Background",
+      "authors": [
+        "Boyuan Jiang",
+        "Ryo Saito",
+        "Ying-li Zhang"
+      ],
+      "published": "2026-02-06T10:03:53+00:00",
+      "updated": "2026-02-06T10:03:53+00:00",
+      "summary": "We propose a model-independent formalism for describing anisotropies in the stochastic gravitational wave background (SGWB) originating from primordial perturbations. Despite their diverse physical origins -- such as Sachs-Wolfe effects, integrated Sachs-Wolfe effects, or fossil effects from primordial non-Gaussianity -- SGWB anisotropies exhibit a universal angular structure. We show that this universality arises from a single vertex function, the Cosmological Form Factor (CFF), which encodes the information on how long-wavelength modes modulate the SGWB statistics. Two fundamental principles -- statistical isotropy and locality -- uniquely determine the angular dependence of the CFF, resulting in a universal multipole scaling of the SGWB anisotropies. The CFF formalism provides a common language for classifying SGWB anisotropies and offers a powerful framework for interpreting upcoming observations.",
+      "categories": [
+        "astro-ph.CO",
+        "gr-qc",
+        "hep-th"
+      ],
+      "primary_category": "astro-ph.CO",
+      "pdf_url": "https://arxiv.org/pdf/2602.06562v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "5 pages, 2 figures",
+      "entry_id": "http://arxiv.org/abs/2602.06562v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.06562v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.06562v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.06448": {
+      "title": "Principle-Evolvable Scientific Discovery via Uncertainty Minimization",
+      "authors": [
+        "Yingming Pu",
+        "Tao Lin",
+        "Hongyu Chen"
+      ],
+      "published": "2026-02-06T07:19:27+00:00",
+      "updated": "2026-02-06T07:19:27+00:00",
+      "summary": "Large Language Model (LLM)-based scientific agents have accelerated scientific discovery, yet they often suffer from significant inefficiencies due to adherence to fixed initial priors. Existing approaches predominantly operate within a static hypothesis space, which restricts the discovery of novel phenomena, resulting in computational waste when baseline theories fail. To address this, we propose shifting the focus from searching hypotheses to evolving the underlying scientific principles. We present PiEvo, a principle-evolvable framework that treats scientific discovery as Bayesian optimization over an expanding principle space. By integrating Information-Directed Hypothesis Selection via Gaussian Process and an anomaly-driven augmentation mechanism, PiEvo enables agents to autonomously refine their theoretical worldview. Evaluation across four benchmarks demonstrates that PiEvo (1) achieves an average solution quality of up to 90.81%~93.15%, representing a 29.7%~31.1% improvement over the state-of-the-art, (2) attains an 83.3% speedup in convergence step via significantly reduced sample complexity by optimizing the compact principle space, and (3) maintains robust performance across diverse scientific domains and LLM backbones.",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2602.06448v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.06448v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.06448v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.06448v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.06400": {
+      "title": "TFusionOcc: Student's t-Distribution Based Object-Centric Multi-Sensor Fusion Framework for 3D Occupancy Prediction",
+      "authors": [
+        "Zhenxing Ming",
+        "Julie Stephany Berrio",
+        "Mao Shan",
+        "Stewart Worrall"
+      ],
+      "published": "2026-02-06T05:43:42+00:00",
+      "updated": "2026-02-06T05:43:42+00:00",
+      "summary": "3D semantic occupancy prediction enables autonomous vehicles (AVs) to perceive fine-grained geometric and semantic structure of their surroundings from onboard sensors, which is essential for safe decision-making and navigation. Recent models for 3D semantic occupancy prediction have successfully addressed the challenge of describing real-world objects with varied shapes and classes. However, the intermediate representations used by existing methods for 3D semantic occupancy prediction rely heavily on 3D voxel volumes or a set of 3D Gaussians, hindering the model's ability to efficiently and effectively capture fine-grained geometric details in the 3D driving environment. This paper introduces TFusionOcc, a novel object-centric multi-sensor fusion framework for predicting 3D semantic occupancy. By leveraging multi-stage multi-sensor fusion, Student's t-distribution, and the T-Mixture model (TMM), together with more geometrically flexible primitives, such as the deformable superquadric (superquadric with inverse warp), the proposed method achieved state-of-the-art (SOTA) performance on the nuScenes benchmark. In addition, extensive experiments were conducted on the nuScenes-C dataset to demonstrate the robustness of the proposed method in different camera and lidar corruption scenarios. The code will be available at: https://github.com/DanielMing123/TFusionOcc",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.06400v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.06400v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.06400v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.06400v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2602.06032": {
       "title": "Splat and Distill: Augmenting Teachers with Feed-Forward 3D Reconstruction For 3D-Aware Distillation",
       "authors": [
@@ -5411,6 +5595,42 @@
       ],
       "llm_approved": false
     },
+    "2602.06044": {
+      "title": "COSMOS: Coherent Supergaussian Modeling with Spatial Priors for Sparse-View 3D Splatting",
+      "authors": [
+        "Chaeyoung Jeong",
+        "Kwangsu Kim"
+      ],
+      "published": "2025-12-17T04:55:15+00:00",
+      "updated": "2025-12-17T04:55:15+00:00",
+      "summary": "3D Gaussian Splatting (3DGS) has recently emerged as a promising approach for 3D reconstruction, providing explicit, point-based representations and enabling high-quality real time rendering. However, when trained with sparse input views, 3DGS suffers from overfitting and structural degradation, leading to poor generalization on novel views. This limitation arises from its optimization relying solely on photometric loss without incorporating any 3D structure priors. To address this issue, we propose Coherent supergaussian Modeling with Spatial Priors (COSMOS). Inspired by the concept of superpoints from 3D segmentation, COSMOS introduces 3D structure priors by newly defining supergaussian groupings of Gaussians based on local geometric cues and appearance features. To this end, COSMOS applies inter group global self-attention across supergaussian groups and sparse local attention among individual Gaussians, enabling the integration of global and local spatial information. These structure-aware features are then used for predicting Gaussian attributes, facilitating more consistent 3D reconstructions. Furthermore, by leveraging supergaussian-based grouping, COSMOS enforces an intra-group positional regularization to maintain structural coherence and suppress floaters, thereby enhancing training stability under sparse-view conditions. Our experiments on Blender and DTU show that COSMOS surpasses state-of-the-art methods in sparse-view settings without any external depth supervision.",
+      "categories": [
+        "eess.IV",
+        "cs.CV",
+        "cs.GR"
+      ],
+      "primary_category": "eess.IV",
+      "pdf_url": "https://arxiv.org/pdf/2602.06044v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.06044v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.06044v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.06044v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2512.15076": {
       "title": "An Exploratory Study of Bayesian Prompt Optimization for Test-Driven Code Generation with Large Language Models",
       "authors": [
@@ -7519,6 +7739,40 @@
         {
           "href": "https://doi.org/10.1145/3757377.3763878",
           "title": "doi",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2512.01115": {
+      "title": "Sliced Rényi Pufferfish Privacy: Directional Additive Noise Mechanism and Private Learning with Gradient Clipping",
+      "authors": [
+        "Tao Zhang",
+        "Yevgeniy Vorobeychik"
+      ],
+      "published": "2025-11-30T22:22:29+00:00",
+      "updated": "2026-02-05T22:17:28+00:00",
+      "summary": "We study the design of a privatization mechanism and privacy accounting in the Pufferfish Privacy (PP) family. Specifically, motivated by the curse of dimensionality and lack of practical composition tools for iterative learning in the recent Renyi Pufferfish Privacy (RPP) framework, we propose Sliced Renyi Pufferfish Privacy (SRPP). SRPP preserves PP/RPP semantics (customizable secrets with probability-aware secret-dataset relationships) while replacing high-dimensional Renyi divergence with projection-based quantification via two sliced measures, Average SRPP and Joint SRPP. We develop sliced Wasserstein mechanisms, yielding sound SRPP certificates and closed-form Gaussian noise calibration. For iterative learning systems, we introduce an SRPP-SGD scheme with gradient clipping and new accountants based on History-Uniform Caps (HUC) and a subsampling-aware variant (sa-HUC), enabling decompose-then-compose privatization and additive composition under a common slicing geometry. Experiments on static and iterative privatization show that the proposed framework exhibits favorable privacy-utility trade-offs, as well as practical scalability.",
+      "categories": [
+        "cs.CR"
+      ],
+      "primary_category": "cs.CR",
+      "pdf_url": "https://arxiv.org/pdf/2512.01115v3",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2512.01115v3",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2512.01115v3",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2512.01115v3",
+          "title": "pdf",
           "rel": "related",
           "content_type": null
         }
@@ -94803,6 +95057,92 @@
     }
   },
   "Depth Estimation": {
+    "2602.06503": {
+      "title": "Forest canopy height estimation from satellite RGB imagery using large-scale airborne LiDAR-derived training data and monocular depth estimation",
+      "authors": [
+        "Yongkang Lai",
+        "Xihan Mu",
+        "Tim R. McVicar",
+        "Dasheng Fan",
+        "Donghui Xie",
+        "Shanxin Guo",
+        "Wenli Huang",
+        "Tianjie Zhao",
+        "Guangjian Yan"
+      ],
+      "published": "2026-02-06T08:53:32+00:00",
+      "updated": "2026-02-06T08:53:32+00:00",
+      "summary": "Large-scale, high-resolution forest canopy height mapping plays a crucial role in understanding regional and global carbon and water cycles. Spaceborne LiDAR missions, including the Ice, Cloud, and Land Elevation Satellite-2 (ICESat-2) and the Global Ecosystem Dynamics Investigation (GEDI), provide global observations of forest structure but are spatially sparse and subject to inherent uncertainties. In contrast, near-surface LiDAR platforms, such as airborne and unmanned aerial vehicle (UAV) LiDAR systems, offer much finer measurements of forest canopy structure, and a growing number of countries have made these datasets openly available. In this study, a state-of-the-art monocular depth estimation model, Depth Anything V2, was trained using approximately 16,000 km2 of canopy height models (CHMs) derived from publicly available airborne LiDAR point clouds and related products across multiple countries, together with 3 m resolution PlanetScope and airborne RGB imagery. The trained model, referred to as Depth2CHM, enables the estimation of spatially continuous CHMs directly from PlanetScope RGB imagery. Independent validation was conducted at sites in China (approximately 1 km2) and the United States (approximately 116 km2). The results showed that Depth2CHM could accurately estimate canopy height, with biases of 0.59 m and 0.41 m and root mean square errors (RMSEs) of 2.54 m and 5.75 m for these two sites, respectively. Compared with an existing global meter-resolution CHM product, the mean absolute error is reduced by approximately 1.5 m and the RMSE by approximately 2 m. These results demonstrated that monocular depth estimation networks trained with large-scale airborne LiDAR-derived canopy height data provide a promising and scalable pathway for high-resolution, spatially continuous forest canopy height estimation from satellite RGB imagery.",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.06503v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.06503v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.06503v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.06503v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2602.06203": {
+      "title": "AnyThermal: Towards Learning Universal Representations for Thermal Perception",
+      "authors": [
+        "Parv Maheshwari",
+        "Jay Karhade",
+        "Yogesh Chawla",
+        "Isaiah Adu",
+        "Florian Heisen",
+        "Andrew Porco",
+        "Andrew Jong",
+        "Yifei Liu",
+        "Santosh Pitla",
+        "Sebastian Scherer",
+        "Wenshan Wang"
+      ],
+      "published": "2026-02-05T21:27:26+00:00",
+      "updated": "2026-02-05T21:27:26+00:00",
+      "summary": "We present AnyThermal, a thermal backbone that captures robust task-agnostic thermal features suitable for a variety of tasks such as cross-modal place recognition, thermal segmentation, and monocular depth estimation using thermal images. Existing thermal backbones that follow task-specific training from small-scale data result in utility limited to a specific environment and task. Unlike prior methods, AnyThermal can be used for a wide range of environments (indoor, aerial, off-road, urban) and tasks, all without task-specific training. Our key insight is to distill the feature representations from visual foundation models such as DINOv2 into a thermal encoder using thermal data from these multiple environments. To bridge the diversity gap of the existing RGB-Thermal datasets, we introduce the TartanRGBT platform, the first open-source data collection platform with synced RGB-Thermal image acquisition. We use this payload to collect the TartanRGBT dataset - a diverse and balanced dataset collected in 4 environments. We demonstrate the efficacy of AnyThermal and TartanRGBT, achieving state-of-the-art results with improvements of up to 36% across diverse environments and downstream tasks on existing datasets.",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.06203v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted at IEEE ICRA (International Conference on Robotics & Automation) 2026",
+      "entry_id": "http://arxiv.org/abs/2602.06203v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.06203v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.06203v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2602.06032": {
       "title": "Splat and Distill: Augmenting Teachers with Feed-Forward 3D Reconstruction For 3D-Aware Distillation",
       "authors": [
