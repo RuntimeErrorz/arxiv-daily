@@ -1,4 +1,4 @@
-## Updated at 2026-02-09 20:22:25
+## Updated at 2026-02-10 20:20:40
 
 ## 3DGS Semantic
 
@@ -188,6 +188,7 @@ Query: (abs:'Multi-View Stereo' OR abs:'Multi View Stereo' OR abs:'Multi-View De
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-02-08**|**[Recovering 3D Shapes from Ultra-Fast Motion-Blurred Images](https://arxiv.org/abs/2602.07860)**|N/A|Accepted by 3DV 2026. Project page: https://maxmilite.github.io/rec-from-ultrafast-blur/|cs.CV|None|Fei Yu et al.|
 |**2026-02-05**|**[NeVStereo: A NeRF-Driven NVS-Stereo Architecture for High-Fidelity 3D Tasks](https://arxiv.org/abs/2602.05423)**|N/A|None|cs.CV|None|Pengcheng Chen et al.|
 |**2026-02-02**|**[UrbanGS: A Scalable and Efficient Architecture for Geometrically Accurate Large-Scene Reconstruction](https://arxiv.org/abs/2602.02089)**|N/A|ICLR 2026|cs.CV|None|Changbai Li et al.|
 |**2026-02-01**|**[FUSE-Flow: Scalable Real-Time Multi-View Point Cloud Reconstruction Using Confidence](https://arxiv.org/abs/2602.01035)**|N/A|A 5-page paper, prepared for submission to the 2026 IEEE International Conference on Image Processing (ICIP)|cs.CV|None|Chentian Sun|

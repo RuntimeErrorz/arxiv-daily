@@ -1,5 +1,370 @@
 {
   "3DGS Semantic": {
+    "2602.08784": {
+      "title": "GaussianCaR: Gaussian Splatting for Efficient Camera-Radar Fusion",
+      "authors": [
+        "Santiago Montiel-Marín",
+        "Miguel Antunes-García",
+        "Fabio Sánchez-García",
+        "Angel Llamazares",
+        "Holger Caesar",
+        "Luis M. Bergasa"
+      ],
+      "published": "2026-02-09T15:25:19+00:00",
+      "updated": "2026-02-09T15:25:19+00:00",
+      "summary": "Robust and accurate perception of dynamic objects and map elements is crucial for autonomous vehicles performing safe navigation in complex traffic scenarios. While vision-only methods have become the de facto standard due to their technical advances, they can benefit from effective and cost-efficient fusion with radar measurements. In this work, we advance fusion methods by repurposing Gaussian Splatting as an efficient universal view transformer that bridges the view disparity gap, mapping both image pixels and radar points into a common Bird's-Eye View (BEV) representation. Our main contribution is GaussianCaR, an end-to-end network for BEV segmentation that, unlike prior BEV fusion methods, leverages Gaussian Splatting to map raw sensor information into latent features for efficient camera-radar fusion. Our architecture combines multi-scale fusion with a transformer decoder to efficiently extract BEV features. Experimental results demonstrate that our approach achieves performance on par with, or even surpassing, the state of the art on BEV segmentation tasks (57.3%, 82.9%, and 50.1% IoU for vehicles, roads, and lane dividers) on the nuScenes dataset, while maintaining a 3.2x faster inference runtime. Code and project page are available online.",
+      "categories": [
+        "cs.RO"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2602.08784v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "8 pages, 6 figures. Accepted to IEEE ICRA 2026",
+      "entry_id": "http://arxiv.org/abs/2602.08784v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.08784v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.08784v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.08540": {
+      "title": "TIBR4D: Tracing-Guided Iterative Boundary Refinement for Efficient 4D Gaussian Segmentation",
+      "authors": [
+        "He Wu",
+        "Xia Yan",
+        "Yanghui Xu",
+        "Liegang Xia",
+        "Jiazhou Chen"
+      ],
+      "published": "2026-02-09T11:41:06+00:00",
+      "updated": "2026-02-09T11:41:06+00:00",
+      "summary": "Object-level segmentation in dynamic 4D Gaussian scenes remains challenging due to complex motion, occlusions, and ambiguous boundaries. In this paper, we present an efficient learning-free 4D Gaussian segmentation framework that lifts video segmentation masks to 4D spaces, whose core is a two-stage iterative boundary refinement, TIBR4D. The first stage is an Iterative Gaussian Instance Tracing (IGIT) at the temporal segment level. It progressively refines Gaussian-to-instance probabilities through iterative tracing, and extracts corresponding Gaussian point clouds that better handle occlusions and preserve completeness of object structures compared to existing one-shot threshold-based methods. The second stage is a frame-wise Gaussian Rendering Range Control (RCC) via suppressing highly uncertain Gaussians near object boundaries while retaining their core contributions for more accurate boundaries. Furthermore, a temporal segmentation merging strategy is proposed for IGIT to balance identity consistency and dynamic awareness. Longer segments enforce stronger multi-frame constraints for stable identities, while shorter segments allow identity changes to be captured promptly. Experiments on HyperNeRF and Neu3D demonstrate that our method produces accurate object Gaussian point clouds with clearer boundaries and higher efficiency compared to SOTA methods.",
+      "categories": [
+        "cs.CV",
+        "cs.GR"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.08540v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "13 pages, 6 figures, 4 tables",
+      "entry_id": "http://arxiv.org/abs/2602.08540v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.08540v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.08540v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.08269": {
+      "title": "Quantization-aware Photonic Homodyne computing for Accelerated Artificial Intelligence and Scientific Simulation",
+      "authors": [
+        "Lian Zhou",
+        "Kaiwen Xue",
+        "Amirhossein Fallah",
+        "Lijin Liu",
+        "Chun-Ho Lee",
+        "Kiwon Kwon",
+        "Clayton Cheung",
+        "Yuan Li",
+        "Yue Yu",
+        "Yun-Jhu Lee",
+        "Songlin Zhao",
+        "Ryan Hamerly",
+        "Edo Waks",
+        "Dirk Englund",
+        "Constantine Sideris",
+        "Mengjie Yu",
+        "Zaijun Chen"
+      ],
+      "published": "2026-02-09T05:08:03+00:00",
+      "updated": "2026-02-09T05:08:03+00:00",
+      "summary": "Modern problems in high-performance computing, ranging from training and inferencing deep learning models in computer vision and language models to simulating complex physical systems with nonlinearly-coupled equations, require exponential growth of computational resources. Photonic analog systems are emerging with solutions of intrinsic parallelism, high bandwidth, and low propagation loss. However, their application has been hindered by the low analog accuracy due to the electro-optic distortion, material nonlinearities, and signal-to-noise ratios. Here we overcome this barrier with a quantization-aware digital-photonic mixed-precision framework across chiplets for accelerated AI processing and physical simulation. Using Lithium Niobate photonics with channel equalization techniques, we demonstrate linear multiplication (9-bit amplitude-phase decoupling) in homodyne optical logics with 6-bit precision at the clock rate of 128 giga-symbol-per-second (128 GS/s), enabling AI processing with 6 ns latency. Codesign hardware-algorithms, including iterative solvers, sparse-dense quantization, and bit-sliced matrix multiplication, explore photonic amplitude and phase coherence for complex-valued, physics-inspired computation. In electromagnetic problems, our approach yields 12-bit solutions for partial differential equations (PDEs) in scattering problems that would conventionally require up to 32-bit and often even 64-bit precision. These results preserve digital-level fidelity while leveraging the high-speed low-energy photonic hardware, establishing a pathway toward general-purpose optical acceleration for generative artificial intelligence, real-time robotics, and accurate simulation for climate challenges and biological discoveries.",
+      "categories": [
+        "cs.ET"
+      ],
+      "primary_category": "cs.ET",
+      "pdf_url": "https://arxiv.org/pdf/2602.08269v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.08269v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.08269v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.08269v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.08266": {
+      "title": "Informative Object-centric Next Best View for Object-aware 3D Gaussian Splatting in Cluttered Scenes",
+      "authors": [
+        "Seunghoon Jeong",
+        "Eunho Lee",
+        "Jeongyun Kim",
+        "Ayoung Kim"
+      ],
+      "published": "2026-02-09T04:50:36+00:00",
+      "updated": "2026-02-09T04:50:36+00:00",
+      "summary": "In cluttered scenes with inevitable occlusions and incomplete observations, selecting informative viewpoints is essential for building a reliable representation. In this context, 3D Gaussian Splatting (3DGS) offers a distinct advantage, as it can explicitly guide the selection of subsequent viewpoints and then refine the representation with new observations. However, existing approaches rely solely on geometric cues, neglect manipulation-relevant semantics, and tend to prioritize exploitation over exploration. To tackle these limitations, we introduce an instance-aware Next Best View (NBV) policy that prioritizes underexplored regions by leveraging object features. Specifically, our object-aware 3DGS distills instancelevel information into one-hot object vectors, which are used to compute confidence-weighted information gain that guides the identification of regions associated with erroneous and uncertain Gaussians. Furthermore, our method can be easily adapted to an object-centric NBV, which focuses view selection on a target object, thereby improving reconstruction robustness to object placement. Experiments demonstrate that our NBV policy reduces depth error by up to 77.14% on the synthetic dataset and 34.10% on the real-world GraspNet dataset compared to baselines. Moreover, compared to targeting the entire scene, performing NBV on a specific object yields an additional reduction of 25.60% in depth error for that object. We further validate the effectiveness of our approach through real-world robotic manipulation tasks.",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2602.08266v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "9 pages, 8 figures, 4 tables, accepted to ICRA 2026",
+      "entry_id": "http://arxiv.org/abs/2602.08266v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.08266v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.08266v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.08260": {
+      "title": "Towards Optimal Semantic Communications: Reconsidering the Role of Semantic Feature Channels",
+      "authors": [
+        "Yongjeong Oh",
+        "Jihong Park",
+        "Jinho Choi",
+        "Yo-Seb Jeon"
+      ],
+      "published": "2026-02-09T04:40:32+00:00",
+      "updated": "2026-02-09T04:40:32+00:00",
+      "summary": "This paper investigates the optimization of transmitting the encoder outputs, termed semantic features (SFs), in semantic communication (SC). We begin by modeling the entire communication process from the encoder output to the decoder input, encompassing the physical channel and all transceiver operations, as the SF channel, thereby establishing an encoder-SF channel-decoder pipeline. In contrast to prior studies that assume a fixed SF channel, we note that the SF channel is configurable, as its characteristics are shaped by various transmission and reception strategies, such as power allocation. Based on this observation, we formulate the SF channel optimization problem under a mutual information constraint between the SFs and their reconstructions, and analytically derive the optimal SF channel under a linear encoder-decoder structure and Gaussian source assumption. Building upon this theoretical foundation, we propose a joint optimization framework for the encoder-decoder and SF channel, applicable to both analog and digital SCs. To realize the optimized SF channel, we also propose a physical-layer calibration strategy that enables real-time power control and adaptation to varying channel conditions. Simulation results demonstrate that the proposed SF channel optimization achieves superior task performance under various communication environments.",
+      "categories": [
+        "eess.SP"
+      ],
+      "primary_category": "eess.SP",
+      "pdf_url": "https://arxiv.org/pdf/2602.08260v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.08260v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.08260v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.08260v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.08003": {
+      "title": "Don't Always Pick the Highest-Performing Model: An Information Theoretic View of LLM Ensemble Selection",
+      "authors": [
+        "Yigit Turkmen",
+        "Baturalp Buyukates",
+        "Melih Bastopcu"
+      ],
+      "published": "2026-02-08T15:05:22+00:00",
+      "updated": "2026-02-08T15:05:22+00:00",
+      "summary": "Large language models (LLMs) are often ensembled together to improve overall reliability and robustness, but in practice models are strongly correlated. This raises a fundamental question: which models should be selected when forming an LLM ensemble? We formulate budgeted ensemble selection as maximizing the mutual information between the true label and predictions of the selected models. Furthermore, to explain why performance can saturate even with many models, we model the correlated errors of the models using Gaussian-copula and show an information-theoretic error floor for the performance of the ensemble. Motivated by these, we propose a simple greedy mutual-information selection algorithm that estimates the required information terms directly from data and iteratively builds an ensemble under a query budget. We test our approach in two question answering datasets and one binary sentiment classification dataset: MEDMCQA, MMLU, and IMDB movie reviews. Across all datasets, we observe that our method consistently outperforms strong baselines under the same query budget.",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.DC",
+        "cs.IT",
+        "stat.ML"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2602.08003v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.08003v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.08003v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.08003v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.07778": {
+      "title": "Attn-GS: Attention-Guided Context Compression for Efficient Personalized LLMs",
+      "authors": [
+        "Shenglai Zeng",
+        "Tianqi Zheng",
+        "Chuan Tian",
+        "Dante Everaert",
+        "Yau-Shian Wang",
+        "Yupin Huang",
+        "Michael J. Morais",
+        "Rohit Patki",
+        "Jinjin Tian",
+        "Xinnan Dai",
+        "Kai Guo",
+        "Monica Xiao Cheng",
+        "Hui Liu"
+      ],
+      "published": "2026-02-08T02:31:15+00:00",
+      "updated": "2026-02-08T02:31:15+00:00",
+      "summary": "Personalizing large language models (LLMs) to individual users requires incorporating extensive interaction histories and profiles, but input token constraints make this impractical due to high inference latency and API costs. Existing approaches rely on heuristic methods such as selecting recent interactions or prompting summarization models to compress user profiles. However, these methods treat context as a monolithic whole and fail to consider how LLMs internally process and prioritize different profile components. We investigate whether LLMs' attention patterns can effectively identify important personalization signals for intelligent context compression. Through preliminary studies on representative personalization tasks, we discover that (a) LLMs' attention patterns naturally reveal important signals, and (b) fine-tuning enhances LLMs' ability to distinguish between relevant and irrelevant information. Based on these insights, we propose Attn-GS, an attention-guided context compression framework that leverages attention feedback from a marking model to mark important personalization sentences, then guides a compression model to generate task-relevant, high-quality compressed user contexts. Extensive experiments demonstrate that Attn-GS significantly outperforms various baselines across different tasks, token limits, and settings, achieving performance close to using full context while reducing token usage by 50 times.",
+      "categories": [
+        "cs.CL"
+      ],
+      "primary_category": "cs.CL",
+      "pdf_url": "https://arxiv.org/pdf/2602.07778v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.07778v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.07778v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.07778v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.07659": {
+      "title": "Continuous Program Search",
+      "authors": [
+        "Matthew Siper",
+        "Muhammad Umair Nasir",
+        "Ahmed Khalifa",
+        "Lisa Soros",
+        "Jay Azhang",
+        "Julian Togelius"
+      ],
+      "published": "2026-02-07T18:41:14+00:00",
+      "updated": "2026-02-07T18:41:14+00:00",
+      "summary": "Genetic Programming yields interpretable programs, but small syntactic mutations can induce large, unpredictable behavioral shifts, degrading locality and sample efficiency. We frame this as an operator-design problem: learn a continuous program space where latent distance has behavioral meaning, then design mutation operators that exploit this structure without changing the evolutionary optimizer.\n  We make locality measurable by tracking action-level divergence under controlled latent perturbations, identifying an empirical trust region for behavior-local continuous variation. Using a compact trading-strategy DSL with four semantic components (long/short entry and exit), we learn a matching block-factorized embedding and compare isotropic Gaussian mutation over the full latent space to geometry-compiled mutation that restricts updates to semantically paired entry--exit subspaces and proposes directions using a learned flow-based model trained on logged mutation outcomes.\n  Under identical $(μ+λ)$ evolution strategies and fixed evaluation budgets across five assets, the learned mutation operator discovers strong strategies using an order of magnitude fewer evaluations and achieves the highest median out-of-sample Sharpe ratio. Although isotropic mutation occasionally attains higher peak performance, geometry-compiled mutation yields faster, more reliable progress, demonstrating that semantically aligned mutation can substantially improve search efficiency without modifying the underlying evolutionary algorithm.",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "q-fin.ST"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2602.07659v1",
+      "journal_ref": null,
+      "doi": "10.2139/ssrn.6169788",
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.07659v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.07659v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.07659v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        },
+        {
+          "href": "https://doi.org/10.2139/ssrn.6169788",
+          "title": "doi",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.07562": {
+      "title": "Gaussian Match-and-Copy: A Minimalist Benchmark for Studying Transformer Induction",
+      "authors": [
+        "Antoine Gonon",
+        "Alexandre Cordonnier",
+        "Nicolas Boumal"
+      ],
+      "published": "2026-02-07T14:18:11+00:00",
+      "updated": "2026-02-07T14:18:11+00:00",
+      "summary": "Match-and-copy is a core retrieval primitive used at inference time by large language models to retrieve a matching token from the context then copy its successor. Yet, understanding how this behavior emerges on natural data is challenging because retrieval and memorization are entangled. To disentangle the two, we introduce Gaussian Match-and-Copy (GMC), a minimalist benchmark that isolates long-range retrieval through pure second-order correlation signals. Numerical investigations show that this task retains key qualitative aspects of how Transformers develop match-and-copy circuits in practice, and separates architectures by their retrieval capabilities. We also analyze the optimization dynamics in a simplified attention setting. Although many solutions are a priori possible under a regression objective, including ones that do not implement retrieval, we identify an implicit-bias regime in which gradient descent drives the parameters to diverge while their direction aligns with the max-margin separator, yielding hard match selection. We prove this max-margin alignment for GD trajectories that reach vanishing empirical loss under explicit technical conditions.",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "stat.ML"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2602.07562v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.07562v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.07562v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.07562v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2602.06846": {
       "title": "DynFOA: Generating First-Order Ambisonics with Conditional Diffusion for Dynamic and Acoustically Complex 360-Degree Videos",
       "authors": [
@@ -487,26 +852,26 @@
         "Beren Millidge"
       ],
       "published": "2026-02-03T18:50:00+00:00",
-      "updated": "2026-02-03T18:50:00+00:00",
+      "updated": "2026-02-06T20:08:46+00:00",
       "summary": "Standard sequence mixing layers used in language models struggle to balance efficiency and performance. Self-attention performs well on long context tasks but has expensive quadratic compute and linear memory costs, while linear attention and SSMs use only linear compute and constant memory but struggle with long context processing. In this paper, we develop a sequence mixing layer that aims to find a better compromise between memory-compute costs and long-context processing, which we call online vector-quantized (OVQ) attention. OVQ-attention requires linear compute costs and constant memory, but, unlike linear attention and SSMs, it uses a sparse memory update that allows it to greatly increase the size of its memory state and, consequently, memory capacity. We develop a theoretical basis for OVQ-attention based on Gaussian mixture regression, and we test it on a variety of synthetic long context tasks and on long context language modeling. OVQ-attention shows significant improvements over linear attention baselines and the original VQ-attention, on which OVQ-attention was inspired. It demonstrates competitive, and sometimes identical, performance to strong self-attention baselines up 64k sequence length, despite using a small fraction of the memory of full self-attention.",
       "categories": [
         "cs.LG"
       ],
       "primary_category": "cs.LG",
-      "pdf_url": "https://arxiv.org/pdf/2602.03922v1",
+      "pdf_url": "https://arxiv.org/pdf/2602.03922v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2602.03922v1",
+      "entry_id": "http://arxiv.org/abs/2602.03922v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2602.03922v1",
+          "href": "https://arxiv.org/abs/2602.03922v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2602.03922v1",
+          "href": "https://arxiv.org/pdf/2602.03922v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -1683,6 +2048,45 @@
       ],
       "llm_approved": false
     },
+    "2602.07002": {
+      "title": "MolLIBRA: Genetic Molecular Optimization with Multi-Fingerprint Surrogates and Text-Molecule Aligned Critic",
+      "authors": [
+        "Masahi Okada",
+        "Kazuki Sakai",
+        "Hiroaki Yoshida",
+        "Masaki Okoshi",
+        "Tadahiro Taniguchi"
+      ],
+      "published": "2026-01-29T04:41:15+00:00",
+      "updated": "2026-01-29T04:41:15+00:00",
+      "summary": "We study sample-efficient molecular optimization under a limited budget of oracle evaluations. We propose MolLIBRA (MultimOdaLity and Language Integrated Bayesian and evolutionaRy optimizAtion), a genetic algorithm based framework that pre-ranks candidate molecules using multiple critics before oracle calls: (i) an ensemble of Gaussian process (GP) surrogates defined over multiple molecular fingerprints and (ii) a pretrained text-molecule aligned encoder CLAMP. The GP ensemble enables adaptive selection of task-appropriate fingerprints, while CLAMP provides a zero-shot scoring signal from task descriptions by measuring the similarity between molecular and text embeddings. On the Practical Molecular Optimization (PMO) benchmark with a budget of 1,000 evaluations (PMO-1K), MolLIBRA-L, our variant with a language-model-based candidate generator, attains the best Top-10 AUC on 14/22 tasks and the highest overall sum of Top-10 AUC across tasks among prior methods.",
+      "categories": [
+        "cs.NE",
+        "cond-mat.mtrl-sci",
+        "cs.LG"
+      ],
+      "primary_category": "cs.NE",
+      "pdf_url": "https://arxiv.org/pdf/2602.07002v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.07002v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.07002v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.07002v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2601.21003": {
       "title": "Bayesian-LoRA: Probabilistic Low-Rank Adaptation of Large Language Models",
       "authors": [
@@ -1713,6 +2117,46 @@
         },
         {
           "href": "https://arxiv.org/pdf/2601.21003v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.06991": {
+      "title": "LangGS-SLAM: Real-Time Language-Feature Gaussian Splatting SLAM",
+      "authors": [
+        "Seongbo Ha",
+        "Sibaek Lee",
+        "Kyungsu Kang",
+        "Joonyeol Choi",
+        "Seungjun Tak",
+        "Hyeonwoo Yu"
+      ],
+      "published": "2026-01-28T05:35:34+00:00",
+      "updated": "2026-01-28T05:35:34+00:00",
+      "summary": "In this paper, we propose a RGB-D SLAM system that reconstructs a language-aligned dense feature field while sustaining low-latency tracking and mapping. First, we introduce a Top-K Rendering pipeline, a high-throughput and semantic-distortion-free method for efficiently rendering high-dimensional feature maps. To address the resulting semantic-geometric discrepancy and mitigate the memory consumption, we further design a multi-criteria map management strategy that prunes redundant or inconsistent Gaussians while preserving scene integrity. Finally, a hybrid field optimization framework jointly refines the geometric and semantic fields under real-time constraints by decoupling their optimization frequencies according to field characteristics. The proposed system achieves superior geometric fidelity compared to geometric-only baselines and comparable semantic fidelity to offline approaches while operating at 15 FPS. Our results demonstrate that online SLAM with dense, uncompressed language-aligned feature fields is both feasible and effective, bridging the gap between 3D perception and language-based reasoning.",
+      "categories": [
+        "cs.RO",
+        "cs.CV",
+        "eess.IV"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2602.06991v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "17 pages, 4 figures",
+      "entry_id": "http://arxiv.org/abs/2602.06991v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.06991v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.06991v1",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -2095,26 +2539,26 @@
         "Xiaoqiang Lu"
       ],
       "published": "2026-01-22T12:24:26+00:00",
-      "updated": "2026-01-22T12:24:26+00:00",
-      "summary": "Multi-modal scene reconstruction integrating RGB and thermal infrared data is essential for robust environmental perception across diverse lighting and weather conditions. However, extending 3D Gaussian Splatting (3DGS) to multi-spectral scenarios remains challenging. Current approaches often struggle to fully leverage the complementary information of multi-modal data, typically relying on mechanisms that either tend to neglect cross-modal correlations or leverage shared representations that fail to adaptively handle the complex structural correlations and physical discrepancies between spectrums. To address these limitations, we propose ThermoSplat, a novel framework that enables deep spectral-aware reconstruction through active feature modulation and adaptive geometry decoupling. First, we introduce a Cross-Modal FiLM Modulation mechanism that dynamically conditions shared latent features on thermal structural priors, effectively guiding visible texture synthesis with reliable cross-modal geometric cues. Second, to accommodate modality-specific geometric inconsistencies, we propose a Modality-Adaptive Geometric Decoupling scheme that learns independent opacity offsets and executes an independent rasterization pass for the thermal branch. Additionally, a hybrid rendering pipeline is employed to integrate explicit Spherical Harmonics with implicit neural decoding, ensuring both semantic consistency and high-frequency detail preservation. Extensive experiments on the RGBT-Scenes dataset demonstrate that ThermoSplat achieves state-of-the-art rendering quality across both visible and thermal spectrums.",
+      "updated": "2026-02-09T02:06:59+00:00",
+      "summary": "Multi-modal scene reconstruction integrating RGB and thermal infrared data is essential for robust environmental perception across diverse lighting and weather conditions. However, extending 3D Gaussian Splatting (3DGS) to multi-spectral scenarios remains challenging. Current approaches often struggle to fully leverage the complementary information of multi-modal data, typically relying on mechanisms that either tend to neglect cross-modal correlations or leverage shared representations that fail to adaptively handle the complex structural correlations and physical discrepancies between spectrums. To address these limitations, we propose ThermoSplat, a novel framework that enables deep spectral-aware reconstruction through active feature modulation and adaptive geometry decoupling. First, we introduce a Spectrum-Aware Adaptive Modulation that dynamically conditions shared latent features on thermal structural priors, effectively guiding visible texture synthesis with reliable cross-modal geometric cues. Second, to accommodate modality-specific geometric inconsistencies, we propose a Modality-Adaptive Geometric Decoupling scheme that learns independent opacity offsets and executes an independent rasterization pass for the thermal branch. Additionally, a hybrid rendering pipeline is employed to integrate explicit Spherical Harmonics with implicit neural decoding, ensuring both semantic consistency and high-frequency detail preservation. Extensive experiments on the RGBT-Scenes dataset demonstrate that ThermoSplat achieves state-of-the-art rendering quality across both visible and thermal spectrums.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2601.15897v1",
+      "pdf_url": "https://arxiv.org/pdf/2601.15897v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2601.15897v1",
+      "entry_id": "http://arxiv.org/abs/2601.15897v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2601.15897v1",
+          "href": "https://arxiv.org/abs/2601.15897v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2601.15897v1",
+          "href": "https://arxiv.org/pdf/2601.15897v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -3519,26 +3963,26 @@
         "Sang-hyo Park"
       ],
       "published": "2026-01-07T01:44:29+00:00",
-      "updated": "2026-01-07T01:44:29+00:00",
+      "updated": "2026-02-08T06:41:42+00:00",
       "summary": "Semantic segmentation on point clouds is critical for 3D scene understanding. However, sparse and irregular point distributions provide limited appearance evidence, making geometry-only features insufficient to distinguish objects with similar shapes but distinct appearances (e.g., color, texture, material). We propose Gaussian-to-Point (G2P), which transfers appearance-aware attributes from 3D Gaussian Splatting to point clouds for more discriminative and appearance-consistent segmentation. Our G2P address the misalignment between optimized Gaussians and original point geometry by establishing point-wise correspondences. By leveraging Gaussian opacity attributes, we resolve the geometric ambiguity that limits existing models. Additionally, Gaussian scale attributes enable precise boundary localization in complex 3D scenes. Extensive experiments demonstrate that our approach achieves superior performance on standard benchmarks and shows significant improvements on geometrically challenging classes, all without any 2D or language supervision.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2601.03510v1",
+      "pdf_url": "https://arxiv.org/pdf/2601.03510v2",
       "journal_ref": null,
       "doi": null,
       "comment": "Preprint. Under review",
-      "entry_id": "http://arxiv.org/abs/2601.03510v1",
+      "entry_id": "http://arxiv.org/abs/2601.03510v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2601.03510v1",
+          "href": "https://arxiv.org/abs/2601.03510v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2601.03510v1",
+          "href": "https://arxiv.org/pdf/2601.03510v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -78308,6 +78752,44 @@
     }
   },
   "MVS": {
+    "2602.07860": {
+      "title": "Recovering 3D Shapes from Ultra-Fast Motion-Blurred Images",
+      "authors": [
+        "Fei Yu",
+        "Shudan Guo",
+        "Shiqing Xin",
+        "Beibei Wang",
+        "Haisen Zhao",
+        "Wenzheng Chen"
+      ],
+      "published": "2026-02-08T08:17:35+00:00",
+      "updated": "2026-02-08T08:17:35+00:00",
+      "summary": "We consider the problem of 3D shape recovery from ultra-fast motion-blurred images. While 3D reconstruction from static images has been extensively studied, recovering geometry from extreme motion-blurred images remains challenging. Such scenarios frequently occur in both natural and industrial settings, such as fast-moving objects in sports (e.g., balls) or rotating machinery, where rapid motion distorts object appearance and makes traditional 3D reconstruction techniques like Multi-View Stereo (MVS) ineffective.\n  In this paper, we propose a novel inverse rendering approach for shape recovery from ultra-fast motion-blurred images. While conventional rendering techniques typically synthesize blur by averaging across multiple frames, we identify a major computational bottleneck in the repeated computation of barycentric weights. To address this, we propose a fast barycentric coordinate solver, which significantly reduces computational overhead and achieves a speedup of up to 4.57x, enabling efficient and photorealistic simulation of high-speed motion. Crucially, our method is fully differentiable, allowing gradients to propagate from rendered images to the underlying 3D shape, thereby facilitating shape recovery through inverse rendering.\n  We validate our approach on two representative motion types: rapid translation and rotation. Experimental results demonstrate that our method enables efficient and realistic modeling of ultra-fast moving objects in the forward simulation. Moreover, it successfully recovers 3D shapes from 2D imagery of objects undergoing extreme translational and rotational motion, advancing the boundaries of vision-based 3D reconstruction. Project page: https://maxmilite.github.io/rec-from-ultrafast-blur/",
+      "categories": [
+        "cs.CV",
+        "cs.GR"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.07860v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted by 3DV 2026. Project page: https://maxmilite.github.io/rec-from-ultrafast-blur/",
+      "entry_id": "http://arxiv.org/abs/2602.07860v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.07860v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.07860v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2602.05423": {
       "title": "NeVStereo: A NeRF-Driven NVS-Stereo Architecture for High-Fidelity 3D Tasks",
       "authors": [
@@ -95062,7 +95544,6 @@
       "authors": [
         "Yongkang Lai",
         "Xihan Mu",
-        "Tim R. McVicar",
         "Dasheng Fan",
         "Donghui Xie",
         "Shanxin Guo",
@@ -95071,27 +95552,27 @@
         "Guangjian Yan"
       ],
       "published": "2026-02-06T08:53:32+00:00",
-      "updated": "2026-02-06T08:53:32+00:00",
+      "updated": "2026-02-09T05:24:29+00:00",
       "summary": "Large-scale, high-resolution forest canopy height mapping plays a crucial role in understanding regional and global carbon and water cycles. Spaceborne LiDAR missions, including the Ice, Cloud, and Land Elevation Satellite-2 (ICESat-2) and the Global Ecosystem Dynamics Investigation (GEDI), provide global observations of forest structure but are spatially sparse and subject to inherent uncertainties. In contrast, near-surface LiDAR platforms, such as airborne and unmanned aerial vehicle (UAV) LiDAR systems, offer much finer measurements of forest canopy structure, and a growing number of countries have made these datasets openly available. In this study, a state-of-the-art monocular depth estimation model, Depth Anything V2, was trained using approximately 16,000 km2 of canopy height models (CHMs) derived from publicly available airborne LiDAR point clouds and related products across multiple countries, together with 3 m resolution PlanetScope and airborne RGB imagery. The trained model, referred to as Depth2CHM, enables the estimation of spatially continuous CHMs directly from PlanetScope RGB imagery. Independent validation was conducted at sites in China (approximately 1 km2) and the United States (approximately 116 km2). The results showed that Depth2CHM could accurately estimate canopy height, with biases of 0.59 m and 0.41 m and root mean square errors (RMSEs) of 2.54 m and 5.75 m for these two sites, respectively. Compared with an existing global meter-resolution CHM product, the mean absolute error is reduced by approximately 1.5 m and the RMSE by approximately 2 m. These results demonstrated that monocular depth estimation networks trained with large-scale airborne LiDAR-derived canopy height data provide a promising and scalable pathway for high-resolution, spatially continuous forest canopy height estimation from satellite RGB imagery.",
       "categories": [
         "cs.CV",
         "cs.LG"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2602.06503v1",
+      "pdf_url": "https://arxiv.org/pdf/2602.06503v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2602.06503v1",
+      "entry_id": "http://arxiv.org/abs/2602.06503v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2602.06503v1",
+          "href": "https://arxiv.org/abs/2602.06503v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2602.06503v1",
+          "href": "https://arxiv.org/pdf/2602.06503v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
