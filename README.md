@@ -1,4 +1,4 @@
-## Updated at 2026-02-10 20:20:40
+## Updated at 2026-02-12 08:24:29
 
 ## 3DGS Semantic
 
@@ -19,7 +19,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2025-12-19**|**[Chorus: Multi-Teacher Pretraining for Holistic 3D Gaussian Scene Encoding](https://arxiv.org/abs/2512.17817)**|arXiv.org|None|cs.CV|None|Yue Li et al.|
 |**2025-12-19**|**[FLEG: Feed-Forward Language Embedded Gaussian Splatting from Any Views](https://arxiv.org/abs/2512.17541)**|arXiv.org|Project page: https://fangzhou2000.github.io/projects/fleg|cs.CV|None|Qijian Tian et al.|
 |**2025-12-16**|**[Consistent Instance Field for Dynamic Scene Understanding](https://arxiv.org/abs/2512.14126)**|arXiv.org|None|cs.CV|None|Junyi Wu et al.|
-|**2025-12-09**|**[OpenMonoGS-SLAM: Monocular Gaussian Splatting SLAM with Open-set Semantics](https://arxiv.org/abs/2512.08625)**|arXiv.org|8 pages, 4 figures|cs.CV|None|Jisang Yoo et al.|
+|**2025-12-09**|**[OpenMonoGS-SLAM: Monocular Gaussian Splatting SLAM with Open-set Semantics](https://arxiv.org/abs/2512.08625)**|arXiv.org|Work in progress. Project page: https://jisang1528.github.io/OpenMonoGS-SLAM/|cs.CV|None|Jisang Yoo et al.|
 |**2025-12-08**|**[Lang3D-XL: Language Embedded 3D Gaussians for Large-scale Scenes](https://arxiv.org/abs/2512.07807)**|Proceedings of the SIGGRAPH Asia 2025 Conference Papers|Accepted to SIGGRAPH Asia 2025. Project webpage: https://tau-vailab.github.io/Lang3D-XL|cs.CV|None|Shai Krakovsky et al.|
 |**2025-12-08**|**[STRinGS: Selective Text Refinement in Gaussian Splatting](https://arxiv.org/abs/2512.07230)**|arXiv.org|Accepted to WACV 2026. Project Page, see https://STRinGS-official.github.io|cs.CV|None|Abhinav Raundhal et al.|
 |**2025-12-04**|**[4DLangVGGT: 4D Language-Visual Geometry Grounded Transformer](https://arxiv.org/abs/2512.05060)**|arXiv.org|Code: https://github.com/hustvl/4DLangVGGT, Webpage: https://hustvl.github.io/4DLangVGGT|cs.CV|None|Xianfeng Wu et al.|
@@ -188,6 +188,7 @@ Query: (abs:'Multi-View Stereo' OR abs:'Multi View Stereo' OR abs:'Multi-View De
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-02-10**|**[RAD: Retrieval-Augmented Monocular Metric Depth Estimation for Underrepresented Classes](https://arxiv.org/abs/2602.09532)**|N/A|None|cs.CV|None|Michael Baltaxe et al.|
 |**2026-02-08**|**[Recovering 3D Shapes from Ultra-Fast Motion-Blurred Images](https://arxiv.org/abs/2602.07860)**|N/A|Accepted by 3DV 2026. Project page: https://maxmilite.github.io/rec-from-ultrafast-blur/|cs.CV|None|Fei Yu et al.|
 |**2026-02-05**|**[NeVStereo: A NeRF-Driven NVS-Stereo Architecture for High-Fidelity 3D Tasks](https://arxiv.org/abs/2602.05423)**|N/A|None|cs.CV|None|Pengcheng Chen et al.|
 |**2026-02-02**|**[UrbanGS: A Scalable and Efficient Architecture for Geometrically Accurate Large-Scene Reconstruction](https://arxiv.org/abs/2602.02089)**|N/A|ICLR 2026|cs.CV|None|Changbai Li et al.|
@@ -646,6 +647,8 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-02-10**|**[VersaViT: Enhancing MLLM Vision Backbones via Task-Guided Optimization](https://arxiv.org/abs/2602.09934)**|N/A|None|cs.CV|None|Yikun Liu et al.|
+|**2026-02-10**|**[RAD: Retrieval-Augmented Monocular Metric Depth Estimation for Underrepresented Classes](https://arxiv.org/abs/2602.09532)**|N/A|None|cs.CV|None|Michael Baltaxe et al.|
 |**2026-02-06**|**[Forest canopy height estimation from satellite RGB imagery using large-scale airborne LiDAR-derived training data and monocular depth estimation](https://arxiv.org/abs/2602.06503)**|N/A|None|cs.CV|None|Yongkang Lai et al.|
 |**2026-02-05**|**[AnyThermal: Towards Learning Universal Representations for Thermal Perception](https://arxiv.org/abs/2602.06203)**|N/A|Accepted at IEEE ICRA (International Conference on Robotics & Automation) 2026|cs.CV|None|Parv Maheshwari et al.|
 |**2026-02-05**|**[Splat and Distill: Augmenting Teachers with Feed-Forward 3D Reconstruction For 3D-Aware Distillation](https://arxiv.org/abs/2602.06032)**|N/A|Accepted to ICLR 2026|cs.CV|ICLR 2026|David Shavin, Sagie Benaim|

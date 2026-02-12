@@ -1,5 +1,150 @@
 {
   "3DGS Semantic": {
+    "2602.09651": {
+      "title": "The Entropic Signature of Class Speciation in Diffusion Models",
+      "authors": [
+        "Florian Handke",
+        "Dejan Stančević",
+        "Felix Koulischer",
+        "Thomas Demeester",
+        "Luca Ambrogioni"
+      ],
+      "published": "2026-02-10T10:56:46+00:00",
+      "updated": "2026-02-10T10:56:46+00:00",
+      "summary": "Diffusion models do not recover semantic structure uniformly over time. Instead, samples transition from semantic ambiguity to class commitment within a narrow regime. Recent theoretical work attributes this transition to dynamical instabilities along class-separating directions, but practical methods to detect and exploit these windows in trained models are still limited. We show that tracking the class-conditional entropy of a latent semantic variable given the noisy state provides a reliable signature of these transition regimes. By restricting the entropy to semantic partitions, the entropy can furthermore resolve semantic decisions at different levels of abstraction. We analyze this behavior in high-dimensional Gaussian mixture models and show that the entropy rate concentrates on the same logarithmic time scale as the speciation symmetry-breaking instability previously identified in variance-preserving diffusion. We validate our method on EDM2-XS and Stable Diffusion 1.5, where class-conditional entropy consistently isolates the noise regimes critical for semantic structure formation. Finally, we use our framework to quantify how guidance redistributes semantic information over time. Together, these results connect information-theoretic and statistical physics perspectives on diffusion and provide a principled basis for time-localized control.",
+      "categories": [
+        "stat.ML",
+        "cs.LG"
+      ],
+      "primary_category": "stat.ML",
+      "pdf_url": "https://arxiv.org/pdf/2602.09651v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "21 pages",
+      "entry_id": "http://arxiv.org/abs/2602.09651v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.09651v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.09651v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.09541": {
+      "title": "Scalpel: Fine-Grained Alignment of Attention Activation Manifolds via Mixture Gaussian Bridges to Mitigate Multimodal Hallucination",
+      "authors": [
+        "Ziqiang Shi",
+        "Rujie Liu",
+        "Shanshan Yu",
+        "Satoshi Munakata",
+        "Koichi Shirahata"
+      ],
+      "published": "2026-02-10T08:53:43+00:00",
+      "updated": "2026-02-10T08:53:43+00:00",
+      "summary": "Rapid progress in large vision-language models (LVLMs) has achieved unprecedented performance in vision-language tasks. However, due to the strong prior of large language models (LLMs) and misaligned attention across modalities, LVLMs often generate outputs inconsistent with visual content - termed hallucination. To address this, we propose \\textbf{Scalpel}, a method that reduces hallucination by refining attention activation distributions toward more credible regions. Scalpel predicts trusted attention directions for each head in Transformer layers during inference and adjusts activations accordingly. It employs a Gaussian mixture model to capture multi-peak distributions of attention in trust and hallucination manifolds, and uses entropic optimal transport (equivalent to Schrödinger bridge problem) to map Gaussian components precisely. During mitigation, Scalpel dynamically adjusts intervention strength and direction based on component membership and mapping relationships between hallucination and trust activations. Extensive experiments across multiple datasets and benchmarks demonstrate that Scalpel effectively mitigates hallucinations, outperforming previous methods and achieving state-of-the-art performance. Moreover, Scalpel is model- and data-agnostic, requiring no additional computation, only a single decoding step.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.09541v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "WACV 2026 (It was accepted in the first round, with an acceptance rate of 6%.)",
+      "entry_id": "http://arxiv.org/abs/2602.09541v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.09541v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.09541v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.09487": {
+      "title": "Adaptive recurrent flow map operator learning for reaction diffusion dynamics",
+      "authors": [
+        "Huseyin Tunc"
+      ],
+      "published": "2026-02-10T07:33:13+00:00",
+      "updated": "2026-02-10T07:33:13+00:00",
+      "summary": "Reaction-diffusion (RD) equations underpin pattern formation across chemistry, biology, and physics, yet learning stable operators that forecast their long-term dynamics from data remains challenging. Neural-operator surrogates provide resolution-robust prediction, but autoregressive rollouts can drift due to the accumulation of error, and out-of-distribution (OOD) initial conditions often degrade accuracy. Physics-based numerical residual objectives can regularize operator learning, although they introduce additional assumptions, sensitivity to discretization and loss design, and higher training cost. Here we develop a purely data-driven operator learner with adaptive recurrent training (DDOL-ART) using a robust recurrent strategy with lightweight validation milestones that early-exit unproductive rollout segments and redirect optimization. Trained only on a single in-distribution toroidal Gaussian family over short horizons, DDOL-ART learns one-step operators that remain stable under long rollouts and generalize zero-shot to strong morphology shifts across FitzHugh-Nagumo (FN), Gray-Scott (GS), and Lambda-Omega (LO) systems. Across these benchmarks, DDOL-ART delivers a strong accuracy and cost trade-off. It is several-fold faster than a physics-based numerical-loss operator learner (NLOL) under matched settings, and it remains competitive on both in-distribution stability and OOD robustness. Training-dynamics diagnostics show that adaptivity strengthens the correlation between validation error and OOD test error performance, acting as a feedback controller that limits optimization drift. Our results indicate that feedback-controlled recurrent training of DDOL-ART generates robust flow-map surrogates without PDE residuals, while simultaneously maintaining competitiveness with NLOL at significantly reduced training costs.",
+      "categories": [
+        "cs.LG",
+        "math.NA"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2602.09487v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.09487v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.09487v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.09487v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.09277": {
+      "title": "Mutual Information Collapse Explains Disentanglement Failure in $β$-VAEs",
+      "authors": [
+        "Minh Vu",
+        "Xiaoliang Wan",
+        "Shuangqing Wei"
+      ],
+      "published": "2026-02-09T23:38:11+00:00",
+      "updated": "2026-02-09T23:38:11+00:00",
+      "summary": "The $β$-VAE is a foundational framework for unsupervised disentanglement, using $β$ to regulate the trade-off between latent factorization and reconstruction fidelity. Empirically, however, disentanglement performance exhibits a pervasive non-monotonic trend: benchmarks such as MIG and SAP typically peak at intermediate $β$ and collapse as regularization increases. We demonstrate that this collapse is a fundamental information-theoretic failure, where strong Kullback-Leibler pressure promotes marginal independence at the expense of the latent channel's semantic informativeness. By formalizing this mechanism in a linear-Gaussian setting, we prove that for $β> 1$, stationarity-induced dynamics trigger a spectral contraction of the encoder gain, driving latent-factor mutual information to zero. To resolve this, we introduce the $λβ$-VAE, which decouples regularization pressure from informational collapse via an auxiliary $L_2$ reconstruction penalty $λ$. Extensive experiments on dSprites, Shapes3D, and MPI3D-real confirm that $λ> 0$ stabilizes disentanglement and restores latent informativeness over a significantly broader range of $β$, providing a principled theoretical justification for dual-parameter regularization in variational inference backbones.",
+      "categories": [
+        "stat.ML",
+        "cs.LG"
+      ],
+      "primary_category": "stat.ML",
+      "pdf_url": "https://arxiv.org/pdf/2602.09277v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.09277v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.09277v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.09277v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2602.08784": {
       "title": "GaussianCaR: Gaussian Splatting for Efficient Camera-Radar Fusion",
       "authors": [
@@ -6691,26 +6836,26 @@
         "Eunbyung Park"
       ],
       "published": "2025-12-09T14:10:23+00:00",
-      "updated": "2025-12-09T14:10:23+00:00",
+      "updated": "2026-02-10T14:16:20+00:00",
       "summary": "Simultaneous Localization and Mapping (SLAM) is a foundational component in robotics, AR/VR, and autonomous systems. With the rising focus on spatial AI in recent years, combining SLAM with semantic understanding has become increasingly important for enabling intelligent perception and interaction. Recent efforts have explored this integration, but they often rely on depth sensors or closed-set semantic models, limiting their scalability and adaptability in open-world environments. In this work, we present OpenMonoGS-SLAM, the first monocular SLAM framework that unifies 3D Gaussian Splatting (3DGS) with open-set semantic understanding. To achieve our goal, we leverage recent advances in Visual Foundation Models (VFMs), including MASt3R for visual geometry and SAM and CLIP for open-vocabulary semantics. These models provide robust generalization across diverse tasks, enabling accurate monocular camera tracking and mapping, as well as a rich understanding of semantics in open-world environments. Our method operates without any depth input or 3D semantic ground truth, relying solely on self-supervised learning objectives. Furthermore, we propose a memory mechanism specifically designed to manage high-dimensional semantic features, which effectively constructs Gaussian semantic feature maps, leading to strong overall performance. Experimental results demonstrate that our approach achieves performance comparable to or surpassing existing baselines in both closed-set and open-set segmentation tasks, all without relying on supplementary sensors such as depth maps or semantic annotations.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2512.08625v1",
+      "pdf_url": "https://arxiv.org/pdf/2512.08625v2",
       "journal_ref": null,
       "doi": null,
-      "comment": "8 pages, 4 figures",
-      "entry_id": "http://arxiv.org/abs/2512.08625v1",
+      "comment": "Work in progress. Project page: https://jisang1528.github.io/OpenMonoGS-SLAM/",
+      "entry_id": "http://arxiv.org/abs/2512.08625v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2512.08625v1",
+          "href": "https://arxiv.org/abs/2512.08625v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2512.08625v1",
+          "href": "https://arxiv.org/pdf/2512.08625v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -78752,6 +78897,40 @@
     }
   },
   "MVS": {
+    "2602.09532": {
+      "title": "RAD: Retrieval-Augmented Monocular Metric Depth Estimation for Underrepresented Classes",
+      "authors": [
+        "Michael Baltaxe",
+        "Dan Levi",
+        "Sagie Benaim"
+      ],
+      "published": "2026-02-10T08:44:31+00:00",
+      "updated": "2026-02-10T08:44:31+00:00",
+      "summary": "Monocular Metric Depth Estimation (MMDE) is essential for physically intelligent systems, yet accurate depth estimation for underrepresented classes in complex scenes remains a persistent challenge. To address this, we propose RAD, a retrieval-augmented framework that approximates the benefits of multi-view stereo by utilizing retrieved neighbors as structural geometric proxies. Our method first employs an uncertainty-aware retrieval mechanism to identify low-confidence regions in the input and retrieve RGB-D context samples containing semantically similar content. We then process both the input and retrieved context via a dual-stream network and fuse them using a matched cross-attention module, which transfers geometric information only at reliable point correspondences. Evaluations on NYU Depth v2, KITTI, and Cityscapes demonstrate that RAD significantly outperforms state-of-the-art baselines on underrepresented classes, reducing relative absolute error by 29.2% on NYU Depth v2, 13.3% on KITTI, and 7.2% on Cityscapes, while maintaining competitive performance on standard in-domain benchmarks.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.09532v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.09532v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.09532v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.09532v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2602.07860": {
       "title": "Recovering 3D Shapes from Ultra-Fast Motion-Blurred Images",
       "authors": [
@@ -95539,6 +95718,82 @@
     }
   },
   "Depth Estimation": {
+    "2602.09934": {
+      "title": "VersaViT: Enhancing MLLM Vision Backbones via Task-Guided Optimization",
+      "authors": [
+        "Yikun Liu",
+        "Yuan Liu",
+        "Shangzhe Di",
+        "Haicheng Wang",
+        "Zhongyin Zhao",
+        "Le Tian",
+        "Xiao Zhou",
+        "Jie Zhou",
+        "Jiangchao Yao",
+        "Yanfeng Wang",
+        "Weidi Xie"
+      ],
+      "published": "2026-02-10T16:08:19+00:00",
+      "updated": "2026-02-10T16:08:19+00:00",
+      "summary": "Multimodal Large Language Models (MLLMs) have recently achieved remarkable success in visual-language understanding, demonstrating superior high-level semantic alignment within their vision encoders. An important question thus arises: Can these encoders serve as versatile vision backbones, capable of reliably performing classic vision-centric tasks as well? To address the question, we make the following contributions: (i) we identify that the vision encoders within MLLMs exhibit deficiencies in their dense feature representations, as evidenced by their suboptimal performance on dense prediction tasks (e.g., semantic segmentation, depth estimation); (ii) we propose VersaViT, a well-rounded vision transformer that instantiates a novel multi-task framework for collaborative post-training. This framework facilitates the optimization of the vision backbone via lightweight task heads with multi-granularity supervision; (iii) extensive experiments across various downstream tasks demonstrate the effectiveness of our method, yielding a versatile vision backbone suited for both language-mediated reasoning and pixel-level understanding.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.09934v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.09934v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.09934v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.09934v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2602.09532": {
+      "title": "RAD: Retrieval-Augmented Monocular Metric Depth Estimation for Underrepresented Classes",
+      "authors": [
+        "Michael Baltaxe",
+        "Dan Levi",
+        "Sagie Benaim"
+      ],
+      "published": "2026-02-10T08:44:31+00:00",
+      "updated": "2026-02-10T08:44:31+00:00",
+      "summary": "Monocular Metric Depth Estimation (MMDE) is essential for physically intelligent systems, yet accurate depth estimation for underrepresented classes in complex scenes remains a persistent challenge. To address this, we propose RAD, a retrieval-augmented framework that approximates the benefits of multi-view stereo by utilizing retrieved neighbors as structural geometric proxies. Our method first employs an uncertainty-aware retrieval mechanism to identify low-confidence regions in the input and retrieve RGB-D context samples containing semantically similar content. We then process both the input and retrieved context via a dual-stream network and fuse them using a matched cross-attention module, which transfers geometric information only at reliable point correspondences. Evaluations on NYU Depth v2, KITTI, and Cityscapes demonstrate that RAD significantly outperforms state-of-the-art baselines on underrepresented classes, reducing relative absolute error by 29.2% on NYU Depth v2, 13.3% on KITTI, and 7.2% on Cityscapes, while maintaining competitive performance on standard in-domain benchmarks.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.09532v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.09532v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.09532v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.09532v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2602.06503": {
       "title": "Forest canopy height estimation from satellite RGB imagery using large-scale airborne LiDAR-derived training data and monocular depth estimation",
       "authors": [
