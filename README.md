@@ -1,4 +1,4 @@
-## Updated at 2026-02-12 08:24:29
+## Updated at 2026-02-12 20:15:39
 
 ## 3DGS Semantic
 
@@ -647,6 +647,9 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-02-11**|**[PuriLight: A Lightweight Shuffle and Purification Framework for Monocular Depth Estimation](https://arxiv.org/abs/2602.11066)**|N/A|8 pages, 6figures, accepted by European Conference on Artificial Intelligence (ECAI2025)|cs.CV|None|Yujie Chen et al.|
+|**2026-02-11**|**[Interpretable Vision Transformers in Monocular Depth Estimation via SVDA](https://arxiv.org/abs/2602.11005)**|N/A|8 pages, 2 figures, submitted to CVPR Conference 2026|cs.CV|None|Vasileios Arampatzakis et al.|
+|**2026-02-11**|**[AugVLA-3D: Depth-Driven Feature Augmentation for Vision-Language-Action Models](https://arxiv.org/abs/2602.10698)**|N/A|None|cs.CV|None|Zhifeng Rao et al.|
 |**2026-02-10**|**[VersaViT: Enhancing MLLM Vision Backbones via Task-Guided Optimization](https://arxiv.org/abs/2602.09934)**|N/A|None|cs.CV|None|Yikun Liu et al.|
 |**2026-02-10**|**[RAD: Retrieval-Augmented Monocular Metric Depth Estimation for Underrepresented Classes](https://arxiv.org/abs/2602.09532)**|N/A|None|cs.CV|None|Michael Baltaxe et al.|
 |**2026-02-06**|**[Forest canopy height estimation from satellite RGB imagery using large-scale airborne LiDAR-derived training data and monocular depth estimation](https://arxiv.org/abs/2602.06503)**|N/A|None|cs.CV|None|Yongkang Lai et al.|

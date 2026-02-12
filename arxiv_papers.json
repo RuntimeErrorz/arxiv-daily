@@ -1,5 +1,198 @@
 {
   "3DGS Semantic": {
+    "2602.11099": {
+      "title": "Enormous Fluid Antenna Systems (E-FAS) for Multiuser MIMO: Channel Modeling and Analysis",
+      "authors": [
+        "Farshad Rostami Ghadi",
+        "Kai-Kit Wong",
+        "Masoud Kaveh",
+        "Wee Kiat New",
+        "Chan-Byoung Chae",
+        "Lajos Hanzo"
+      ],
+      "published": "2026-02-11T18:11:55+00:00",
+      "updated": "2026-02-11T18:11:55+00:00",
+      "summary": "Enormous fluid antenna systems (E-FAS), the system concept that utilizes position reconfigurability in the large scale, have emerged as a new architectural paradigm where intelligent surfaces are repurposed from passive smart reflectors into multi-functional electromagnetic (EM) interfaces that can route guided surface waves over walls, ceilings, and building facades, as well as emit space waves to target receivers. This expanded functionality introduces a new mode of signal propagation, enabling new forms of wireless communication. In this paper, we provide an analytical performance characterization of an E-FAS-enabled wireless link. We first develop a physics-consistent end-to-end channel model that couples a surface-impedance wave formulation with small-scale fading on both the base station (BS)-surface and launcher-user segments. We illustrate that the resulting effective BS-user channel remains circularly symmetric complex Gaussian, with an enhanced average power that explicitly captures surface-wave attenuation and junction losses. For single-user cases with linear precoding, we derive the outage probability and ergodic capacity in closed forms, together with high signal-to-noise ratio (SNR) asymptotics that quantify the gain of E-FAS over purely space-wave propagation. For the multiuser case with zero-forcing (ZF) precoding, we derive the distribution of the signal-to-interference-plus-noise ratio (SINR) and obtain tractable approximations for the ergodic sum-rate, explicitly revealing how the E-FAS macro-gain interacts with the BS spatial degrees of freedom (DoF). In summary, our analysis shows that E-FAS preserves the diversity order dictated by small-scale fading while improving the coding gain enabled by cylindrical surface-wave propagation.",
+      "categories": [
+        "cs.IT"
+      ],
+      "primary_category": "cs.IT",
+      "pdf_url": "https://arxiv.org/pdf/2602.11099v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.11099v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.11099v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.11099v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.10910": {
+      "title": "Safe mobility support system using crowd mapping and avoidance route planning using VLM",
+      "authors": [
+        "Sena Saito",
+        "Kenta Tabata",
+        "Renato Miyagusuku",
+        "Koichi Ozaki"
+      ],
+      "published": "2026-02-11T14:47:51+00:00",
+      "updated": "2026-02-11T14:47:51+00:00",
+      "summary": "Autonomous mobile robots offer promising solutions for labor shortages and increased operational efficiency. However, navigating safely and effectively in dynamic environments, particularly crowded areas, remains challenging. This paper proposes a novel framework that integrates Vision-Language Models (VLM) and Gaussian Process Regression (GPR) to generate dynamic crowd-density maps (``Abstraction Maps'') for autonomous robot navigation. Our approach utilizes VLM's capability to recognize abstract environmental concepts, such as crowd densities, and represents them probabilistically via GPR. Experimental results from real-world trials on a university campus demonstrated that robots successfully generated routes avoiding both static obstacles and dynamic crowds, enhancing navigation safety and adaptability.",
+      "categories": [
+        "cs.RO"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2602.10910v1",
+      "journal_ref": "2025 IEEE International Conference on Real-time Computing and Robotics (RCAR)",
+      "doi": "10.1109/RCAR65431.2025.11139707",
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.10910v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.10910v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.10910v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        },
+        {
+          "href": "https://doi.org/10.1109/RCAR65431.2025.11139707",
+          "title": "doi",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.10584": {
+      "title": "When Gradient Clipping Becomes a Control Mechanism for Differential Privacy in Deep Learning",
+      "authors": [
+        "Mohammad Partohaghighi",
+        "Roummel Marcia",
+        "Bruce J. West",
+        "YangQuan Chen"
+      ],
+      "published": "2026-02-11T07:18:25+00:00",
+      "updated": "2026-02-11T07:18:25+00:00",
+      "summary": "Privacy-preserving training on sensitive data commonly relies on differentially private stochastic optimization with gradient clipping and Gaussian noise. The clipping threshold is a critical control knob: if set too small, systematic over-clipping induces optimization bias; if too large, injected noise dominates updates and degrades accuracy. Existing adaptive clipping methods often depend on per-example gradient norm statistics, adding computational overhead and introducing sensitivity to datasets and architectures. We propose a control-driven clipping strategy that adapts the threshold using a lightweight, weight-only spectral diagnostic computed from model parameters. At periodic probe steps, the method analyzes a designated weight matrix via spectral decomposition and estimates a heavy-tailed spectral indicator associated with training stability. This indicator is smoothed over time and fed into a bounded feedback controller that updates the clipping threshold multiplicatively in the log domain. Because the controller uses only parameters produced during privacy-preserving training, the resulting threshold updates are post-processing and do not increase privacy loss beyond that of the underlying DP optimizer under standard composition accounting.",
+      "categories": [
+        "cs.LG"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2602.10584v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "This manuscript is under review in the Engineering Applications of Artificial Intelligence journal",
+      "entry_id": "http://arxiv.org/abs/2602.10584v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.10584v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.10584v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.10282": {
+      "title": "Linear-LLM-SCM: Benchmarking LLMs for Coefficient Elicitation in Linear-Gaussian Causal Models",
+      "authors": [
+        "Kanta Yamaoka",
+        "Sumantrak Mukherjee",
+        "Thomas Gärtner",
+        "David Antony Selby",
+        "Stefan Konigorski",
+        "Eyke Hüllermeier",
+        "Viktor Bengs",
+        "Sebastian Josef Vollmer"
+      ],
+      "published": "2026-02-10T20:49:01+00:00",
+      "updated": "2026-02-10T20:49:01+00:00",
+      "summary": "Large language models (LLMs) have shown potential in identifying qualitative causal relations, but their ability to perform quantitative causal reasoning -- estimating effect sizes that parametrize functional relationships -- remains underexplored in continuous domains. We introduce Linear-LLM-SCM, a plug-and-play benchmarking framework for evaluating LLMs on linear Gaussian structural causal model (SCM) parametrization when the DAG is given. The framework decomposes a DAG into local parent-child sets and prompts an LLM to produce a regression-style structural equation per node, which is aggregated and compared against available ground-truth parameters. Our experiments show several challenges in such benchmarking tasks, namely, strong stochasticity in the results in some of the models and susceptibility to DAG misspecification via spurious edges in the continuous domains. Across models, we observe substantial variability in coefficient estimates for some settings and sensitivity to structural and semantic perturbations, highlighting current limitations of LLMs as quantitative causal parameterizers. We also open-sourced the benchmarking framework so that researchers can utilize their DAGs and any off-the-shelf LLMs plug-and-play for evaluation in their domains effortlessly.",
+      "categories": [
+        "cs.LG"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2602.10282v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "16 pages, 4 figures, preprint",
+      "entry_id": "http://arxiv.org/abs/2602.10282v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.10282v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.10282v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.10173": {
+      "title": "ArtisanGS: Interactive Tools for Gaussian Splat Selection with AI and Human in the Loop",
+      "authors": [
+        "Clement Fuji Tsang",
+        "Anita Hu",
+        "Or Perel",
+        "Carsten Kolve",
+        "Maria Shugrina"
+      ],
+      "published": "2026-02-10T16:00:03+00:00",
+      "updated": "2026-02-10T16:00:03+00:00",
+      "summary": "Representation in the family of 3D Gaussian Splats (3DGS) are growing into a viable alternative to traditional graphics for an expanding number of application, including recent techniques that facilitate physics simulation and animation. However, extracting usable objects from in-the-wild captures remains challenging and controllable editing techniques for this representation are limited. Unlike the bulk of emerging techniques, focused on automatic solutions or high-level editing, we introduce an interactive suite of tools centered around versatile Gaussian Splat selection and segmentation. We propose a fast AI-driven method to propagate user-guided 2D selection masks to 3DGS selections. This technique allows for user intervention in the case of errors and is further coupled with flexible manual selection and segmentation tools. These allow a user to achieve virtually any binary segmentation of an unstructured 3DGS scene. We evaluate our toolset against the state-of-the-art for Gaussian Splat selection and demonstrate their utility for downstream applications by developing a user-guided local editing approach, leveraging a custom Video Diffusion Model. With flexible selection tools, users have direct control over the areas that the AI can modify. Our selection and editing tools can be used for any in-the-wild capture without additional optimization.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.10173v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "12 pages, includes supplementary material",
+      "entry_id": "http://arxiv.org/abs/2602.10173v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.10173v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.10173v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2602.09651": {
       "title": "The Entropic Signature of Class Speciation in Diffusion Models",
       "authors": [
@@ -214,6 +407,46 @@
         },
         {
           "href": "https://arxiv.org/pdf/2602.08540v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.10143": {
+      "title": "MPA: Multimodal Prototype Augmentation for Few-Shot Learning",
+      "authors": [
+        "Liwen Wu",
+        "Wei Wang",
+        "Lei Zhao",
+        "Zhan Gao",
+        "Qika Lin",
+        "Shaowen Yao",
+        "Zuozhu Liu",
+        "Bin Pu"
+      ],
+      "published": "2026-02-09T08:30:31+00:00",
+      "updated": "2026-02-09T08:30:31+00:00",
+      "summary": "Recently, few-shot learning (FSL) has become a popular task that aims to recognize new classes from only a few labeled examples and has been widely applied in fields such as natural science, remote sensing, and medical images. However, most existing methods focus only on the visual modality and compute prototypes directly from raw support images, which lack comprehensive and rich multimodal information. To address these limitations, we propose a novel Multimodal Prototype Augmentation FSL framework called MPA, including LLM-based Multi-Variant Semantic Enhancement (LMSE), Hierarchical Multi-View Augmentation (HMA), and an Adaptive Uncertain Class Absorber (AUCA). LMSE leverages large language models to generate diverse paraphrased category descriptions, enriching the support set with additional semantic cues. HMA exploits both natural and multi-view augmentations to enhance feature diversity (e.g., changes in viewing distance, camera angles, and lighting conditions). AUCA models uncertainty by introducing uncertain classes via interpolation and Gaussian sampling, effectively absorbing uncertain samples. Extensive experiments on four single-domain and six cross-domain FSL benchmarks demonstrate that MPA achieves superior performance compared to existing state-of-the-art methods across most settings. Notably, MPA surpasses the second-best method by 12.29% and 24.56% in the single-domain and cross-domain setting, respectively, in the 5-way 1-shot setting.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.10143v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "This paper has been accepted by AAAI 2026",
+      "entry_id": "http://arxiv.org/abs/2602.10143v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.10143v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.10143v1",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -701,26 +934,26 @@
         "Sagie Benaim"
       ],
       "published": "2026-02-05T18:59:05+00:00",
-      "updated": "2026-02-05T18:59:05+00:00",
+      "updated": "2026-02-11T13:25:58+00:00",
       "summary": "Vision Foundation Models (VFMs) have achieved remarkable success when applied to various downstream 2D tasks. Despite their effectiveness, they often exhibit a critical lack of 3D awareness. To this end, we introduce Splat and Distill, a framework that instills robust 3D awareness into 2D VFMs by augmenting the teacher model with a fast, feed-forward 3D reconstruction pipeline. Given 2D features produced by a teacher model, our method first lifts these features into an explicit 3D Gaussian representation, in a feedforward manner. These 3D features are then ``splatted\" onto novel viewpoints, producing a set of novel 2D feature maps used to supervise the student model, ``distilling\" geometrically grounded knowledge. By replacing slow per-scene optimization of prior work with our feed-forward lifting approach, our framework avoids feature-averaging artifacts, creating a dynamic learning process where the teacher's consistency improves alongside that of the student. We conduct a comprehensive evaluation on a suite of downstream tasks, including monocular depth estimation, surface normal estimation, multi-view correspondence, and semantic segmentation. Our method significantly outperforms prior works, not only achieving substantial gains in 3D awareness but also enhancing the underlying semantic richness of 2D features. Project page is available at https://davidshavin4.github.io/Splat-and-Distill/",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2602.06032v1",
+      "pdf_url": "https://arxiv.org/pdf/2602.06032v2",
       "journal_ref": "ICLR 2026",
       "doi": null,
       "comment": "Accepted to ICLR 2026",
-      "entry_id": "http://arxiv.org/abs/2602.06032v1",
+      "entry_id": "http://arxiv.org/abs/2602.06032v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2602.06032v1",
+          "href": "https://arxiv.org/abs/2602.06032v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2602.06032v1",
+          "href": "https://arxiv.org/pdf/2602.06032v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -1607,27 +1840,27 @@
         "Florian Buettner"
       ],
       "published": "2026-01-31T10:57:46+00:00",
-      "updated": "2026-01-31T10:57:46+00:00",
+      "updated": "2026-02-11T12:42:24+00:00",
       "summary": "Vision-language models have transformed multimodal representation learning, yet dominant contrastive approaches like CLIP require large batch sizes, careful negative sampling, and extensive hyperparameter tuning. We introduce NOVA, a NOn-contrastive Vision-language Alignment framework based on joint embedding prediction with distributional regularization. NOVA aligns visual representations to a frozen, domain-specific text encoder by predicting text embeddings from augmented image views, while enforcing an isotropic Gaussian structure via Sketched Isotropic Gaussian Regularization (SIGReg). This eliminates the need for negative sampling, momentum encoders, or stop-gradients, reducing the training objective to a single hyperparameter. We evaluate NOVA on zeroshot chest X-ray classification using ClinicalBERT as the text encoder and Vision Transformers trained from scratch on MIMIC-CXR. On zero-shot classification across three benchmark datasets, NOVA outperforms multiple standard baselines while exhibiting substantially more consistent training runs. Our results demonstrate that non-contrastive vision-language pretraining offers a simpler, more stable, and more effective alternative to contrastive methods.",
       "categories": [
         "cs.CV",
         "cs.AI"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2602.00653v1",
+      "pdf_url": "https://arxiv.org/pdf/2602.00653v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2602.00653v1",
+      "entry_id": "http://arxiv.org/abs/2602.00653v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2602.00653v1",
+          "href": "https://arxiv.org/abs/2602.00653v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2602.00653v1",
+          "href": "https://arxiv.org/pdf/2602.00653v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -95718,6 +95951,115 @@
     }
   },
   "Depth Estimation": {
+    "2602.11066": {
+      "title": "PuriLight: A Lightweight Shuffle and Purification Framework for Monocular Depth Estimation",
+      "authors": [
+        "Yujie Chen",
+        "Li Zhang",
+        "Xiaomeng Chu",
+        "Tian Zhang"
+      ],
+      "published": "2026-02-11T17:35:21+00:00",
+      "updated": "2026-02-11T17:35:21+00:00",
+      "summary": "We propose PuriLight, a lightweight and efficient framework for self-supervised monocular depth estimation, to address the dual challenges of computational efficiency and detail preservation. While recent advances in self-supervised depth estimation have reduced reliance on ground truth supervision, existing approaches remain constrained by either bulky architectures compromising practicality or lightweight models sacrificing structural precision. These dual limitations underscore the critical need to develop lightweight yet structurally precise architectures. Our framework addresses these limitations through a three-stage architecture incorporating three novel modules: the Shuffle-Dilation Convolution (SDC) module for local feature extraction, the Rotation-Adaptive Kernel Attention (RAKA) module for hierarchical feature enhancement, and the Deep Frequency Signal Purification (DFSP) module for global feature purification. Through effective collaboration, these modules enable PuriLight to achieve both lightweight and accurate feature extraction and processing. Extensive experiments demonstrate that PuriLight achieves state-of-the-art performance with minimal training parameters while maintaining exceptional computational efficiency. Codes will be available at https://github.com/ishrouder/PuriLight.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.11066v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "8 pages, 6figures, accepted by European Conference on Artificial Intelligence (ECAI2025)",
+      "entry_id": "http://arxiv.org/abs/2602.11066v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.11066v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.11066v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2602.11005": {
+      "title": "Interpretable Vision Transformers in Monocular Depth Estimation via SVDA",
+      "authors": [
+        "Vasileios Arampatzakis",
+        "George Pavlidis",
+        "Nikolaos Mitianoudis",
+        "Nikos Papamarkos"
+      ],
+      "published": "2026-02-11T16:27:15+00:00",
+      "updated": "2026-02-11T16:27:15+00:00",
+      "summary": "Monocular depth estimation is a central problem in computer vision with applications in robotics, AR, and autonomous driving, yet the self-attention mechanisms that drive modern Transformer architectures remain opaque. We introduce SVD-Inspired Attention (SVDA) into the Dense Prediction Transformer (DPT), providing the first spectrally structured formulation of attention for dense prediction tasks. SVDA decouples directional alignment from spectral modulation by embedding a learnable diagonal matrix into normalized query-key interactions, enabling attention maps that are intrinsically interpretable rather than post-hoc approximations. Experiments on KITTI and NYU-v2 show that SVDA preserves or slightly improves predictive accuracy while adding only minor computational overhead. More importantly, SVDA unlocks six spectral indicators that quantify entropy, rank, sparsity, alignment, selectivity, and robustness. These reveal consistent cross-dataset and depth-wise patterns in how attention organizes during training, insights that remain inaccessible in standard Transformers. By shifting the role of attention from opaque mechanism to quantifiable descriptor, SVDA redefines interpretability in monocular depth estimation and opens a principled avenue toward transparent dense prediction models.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.11005v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "8 pages, 2 figures, submitted to CVPR Conference 2026",
+      "entry_id": "http://arxiv.org/abs/2602.11005v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.11005v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.11005v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2602.10698": {
+      "title": "AugVLA-3D: Depth-Driven Feature Augmentation for Vision-Language-Action Models",
+      "authors": [
+        "Zhifeng Rao",
+        "Wenlong Chen",
+        "Lei Xie",
+        "Xia Hua",
+        "Dongfu Yin",
+        "Zhen Tian",
+        "F. Richard Yu"
+      ],
+      "published": "2026-02-11T09:57:32+00:00",
+      "updated": "2026-02-11T09:57:32+00:00",
+      "summary": "Vision-Language-Action (VLA) models have recently achieved remarkable progress in robotic perception and control, yet most existing approaches primarily rely on VLM trained using 2D images, which limits their spatial understanding and action grounding in complex 3D environments. To address this limitation, we propose a novel framework that integrates depth estimation into VLA models to enrich 3D feature representations. Specifically, we employ a depth estimation baseline called VGGT to extract geometry-aware 3D cues from standard RGB inputs, enabling efficient utilization of existing large-scale 2D datasets while implicitly recovering 3D structural information. To further enhance the reliability of these depth-derived features, we introduce a new module called action assistant, which constrains the learned 3D representations with action priors and ensures their consistency with downstream control tasks. By fusing the enhanced 3D features with conventional 2D visual tokens, our approach significantly improves the generalization ability and robustness of VLA models. Experimental results demonstrate that the proposed method not only strengthens perception in geometrically ambiguous scenarios but also leads to superior action prediction accuracy. This work highlights the potential of depth-driven data augmentation and auxiliary expert supervision for bridging the gap between 2D observations and 3D-aware decision-making in robotic systems.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.10698v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.10698v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.10698v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.10698v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2602.09934": {
       "title": "VersaViT: Enhancing MLLM Vision Backbones via Task-Guided Optimization",
       "authors": [
@@ -95886,26 +96228,26 @@
         "Sagie Benaim"
       ],
       "published": "2026-02-05T18:59:05+00:00",
-      "updated": "2026-02-05T18:59:05+00:00",
+      "updated": "2026-02-11T13:25:58+00:00",
       "summary": "Vision Foundation Models (VFMs) have achieved remarkable success when applied to various downstream 2D tasks. Despite their effectiveness, they often exhibit a critical lack of 3D awareness. To this end, we introduce Splat and Distill, a framework that instills robust 3D awareness into 2D VFMs by augmenting the teacher model with a fast, feed-forward 3D reconstruction pipeline. Given 2D features produced by a teacher model, our method first lifts these features into an explicit 3D Gaussian representation, in a feedforward manner. These 3D features are then ``splatted\" onto novel viewpoints, producing a set of novel 2D feature maps used to supervise the student model, ``distilling\" geometrically grounded knowledge. By replacing slow per-scene optimization of prior work with our feed-forward lifting approach, our framework avoids feature-averaging artifacts, creating a dynamic learning process where the teacher's consistency improves alongside that of the student. We conduct a comprehensive evaluation on a suite of downstream tasks, including monocular depth estimation, surface normal estimation, multi-view correspondence, and semantic segmentation. Our method significantly outperforms prior works, not only achieving substantial gains in 3D awareness but also enhancing the underlying semantic richness of 2D features. Project page is available at https://davidshavin4.github.io/Splat-and-Distill/",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2602.06032v1",
+      "pdf_url": "https://arxiv.org/pdf/2602.06032v2",
       "journal_ref": "ICLR 2026",
       "doi": null,
       "comment": "Accepted to ICLR 2026",
-      "entry_id": "http://arxiv.org/abs/2602.06032v1",
+      "entry_id": "http://arxiv.org/abs/2602.06032v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2602.06032v1",
+          "href": "https://arxiv.org/abs/2602.06032v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2602.06032v1",
+          "href": "https://arxiv.org/pdf/2602.06032v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
