@@ -1,4 +1,4 @@
-## Updated at 2026-02-13 08:27:14
+## Updated at 2026-02-13 20:12:46
 
 ## 3DGS Semantic
 
@@ -8,6 +8,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-02-12**|**[3DGSNav: Enhancing Vision-Language Model Reasoning for Object Navigation via Active 3D Gaussian Splatting](https://arxiv.org/abs/2602.12159)**|N/A|None|cs.RO|None|Wancai Zheng et al.|
 |**2026-02-01**|**[Split&Splat: Zero-Shot Panoptic Segmentation via Explicit Instance Modeling and 3D Gaussian Splatting](https://arxiv.org/abs/2602.03809)**|N/A|None|cs.GR|None|Leonardo Monchieri et al.|
 |**2026-01-27**|**[TIGaussian: Disentangle Gaussians for Spatial-Awared Text-Image-3D Alignment](https://arxiv.org/abs/2601.19247)**|N/A|None|cs.CV|None|Jiarun Liu et al.|
 |**2026-01-19**|**[GaussExplorer: 3D Gaussian Splatting for Embodied Exploration and Reasoning](https://arxiv.org/abs/2601.13132)**|N/A|Project page: https://gaussexplorer.github.io/|cs.CV|None|Kim Yu-Ji et al.|
@@ -647,6 +648,8 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-02-12**|**[GSO-SLAM: Bidirectionally Coupled Gaussian Splatting and Direct Visual Odometry](https://arxiv.org/abs/2602.11714)**|N/A|8 pages, 6 figures, RA-L accepted|cs.CV|None|Jiung Yeon et al.|
+|**2026-02-11**|**[MDE-VIO: Enhancing Visual-Inertial Odometry Using Learned Depth Priors](https://arxiv.org/abs/2602.11323)**|N/A|6 pages, 2 figures, 3 tables. Submitted to ICIP 2026|cs.CV|None|Arda Alniak et al.|
 |**2026-02-11**|**[PuriLight: A Lightweight Shuffle and Purification Framework for Monocular Depth Estimation](https://arxiv.org/abs/2602.11066)**|N/A|8 pages, 6figures, accepted by European Conference on Artificial Intelligence (ECAI2025)|cs.CV|None|Yujie Chen et al.|
 |**2026-02-11**|**[Interpretable Vision Transformers in Monocular Depth Estimation via SVDA](https://arxiv.org/abs/2602.11005)**|N/A|8 pages, 2 figures, submitted to CVPR Conference 2026|cs.CV|None|Vasileios Arampatzakis et al.|
 |**2026-02-11**|**[AugVLA-3D: Depth-Driven Feature Augmentation for Vision-Language-Action Models](https://arxiv.org/abs/2602.10698)**|N/A|None|cs.CV|None|Zhifeng Rao et al.|

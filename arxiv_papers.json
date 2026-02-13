@@ -1,5 +1,268 @@
 {
   "3DGS Semantic": {
+    "2602.12159": {
+      "title": "3DGSNav: Enhancing Vision-Language Model Reasoning for Object Navigation via Active 3D Gaussian Splatting",
+      "authors": [
+        "Wancai Zheng",
+        "Hao Chen",
+        "Xianlong Lu",
+        "Linlin Ou",
+        "Xinyi Yu"
+      ],
+      "published": "2026-02-12T16:41:26+00:00",
+      "updated": "2026-02-12T16:41:26+00:00",
+      "summary": "Object navigation is a core capability of embodied intelligence, enabling an agent to locate target objects in unknown environments. Recent advances in vision-language models (VLMs) have facilitated zero-shot object navigation (ZSON). However, existing methods often rely on scene abstractions that convert environments into semantic maps or textual representations, causing high-level decision making to be constrained by the accuracy of low-level perception. In this work, we present 3DGSNav, a novel ZSON framework that embeds 3D Gaussian Splatting (3DGS) as persistent memory for VLMs to enhance spatial reasoning. Through active perception, 3DGSNav incrementally constructs a 3DGS representation of the environment, enabling trajectory-guided free-viewpoint rendering of frontier-aware first-person views. Moreover, we design structured visual prompts and integrate them with Chain-of-Thought (CoT) prompting to further improve VLM reasoning. During navigation, a real-time object detector filters potential targets, while VLM-driven active viewpoint switching performs target re-verification, ensuring efficient and reliable recognition. Extensive evaluations across multiple benchmarks and real-world experiments on a quadruped robot demonstrate that our method achieves robust and competitive performance against state-of-the-art approaches.The Project Page:https://aczheng-cai.github.io/3dgsnav.github.io/",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2602.12159v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.12159v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.12159v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.12159v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2602.11918": {
+      "title": "MEME: Modeling the Evolutionary Modes of Financial Markets",
+      "authors": [
+        "Taian Guo",
+        "Haiyang Shen",
+        "Junyu Luo",
+        "Zhongshi Xing",
+        "Hanchun Lian",
+        "Jinsheng Huang",
+        "Binqi Chen",
+        "Luchen Liu",
+        "Yun Ma",
+        "Ming Zhang"
+      ],
+      "published": "2026-02-12T13:16:05+00:00",
+      "updated": "2026-02-12T13:16:05+00:00",
+      "summary": "LLMs have demonstrated significant potential in quantitative finance by processing vast unstructured data to emulate human-like analytical workflows. However, current LLM-based methods primarily follow either an Asset-Centric paradigm focused on individual stock prediction or a Market-Centric approach for portfolio allocation, often remaining agnostic to the underlying reasoning that drives market movements. In this paper, we propose a Logic-Oriented perspective, modeling the financial market as a dynamic, evolutionary ecosystem of competing investment narratives, termed Modes of Thought. To operationalize this view, we introduce MEME (Modeling the Evolutionary Modes of Financial Markets), designed to reconstruct market dynamics through the lens of evolving logics. MEME employs a multi-agent extraction module to transform noisy data into high-fidelity Investment Arguments and utilizes Gaussian Mixture Modeling to uncover latent consensus within a semantic space. To model semantic drift among different market conditions, we also implement a temporal evaluation and alignment mechanism to track the lifecycle and historical profitability of these modes. By prioritizing enduring market wisdom over transient anomalies, MEME ensures that portfolio construction is guided by robust reasoning. Extensive experiments on three heterogeneous Chinese stock pools from 2023 to 2025 demonstrate that MEME consistently outperforms seven SOTA baselines. Further ablation studies, sensitivity analysis, lifecycle case study and cost analysis validate MEME's capacity to identify and adapt to the evolving consensus of financial markets. Our implementation can be found at https://github.com/gta0804/MEME.",
+      "categories": [
+        "cs.AI"
+      ],
+      "primary_category": "cs.AI",
+      "pdf_url": "https://arxiv.org/pdf/2602.11918v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.11918v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.11918v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.11918v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.11863": {
+      "title": "In-Context Function Learning in Large Language Models",
+      "authors": [
+        "Elif Akata",
+        "Konstantinos Voudouris",
+        "Vincent Fortuin",
+        "Eric Schulz"
+      ],
+      "published": "2026-02-12T12:09:48+00:00",
+      "updated": "2026-02-12T12:09:48+00:00",
+      "summary": "Large language models (LLMs) can learn from a few demonstrations provided at inference time. We study this in-context learning phenomenon through the lens of Gaussian Processes (GPs). We build controlled experiments where models observe sequences of multivariate scalar-valued function samples drawn from known GP priors. We evaluate prediction error in relation to the number of demonstrations and compare against two principled references: (i) an empirical GP-regression learner that gives a lower bound on achievable error, and (ii) the expected error of a 1-nearest-neighbor (1-NN) rule, which gives a data-driven upper bound. Across model sizes, we find that LLM learning curves are strongly influenced by the function-generating kernels and approach the GP lower bound as the number of demonstrations increases. We then study the inductive biases of these models using a likelihood-based analysis. We find that LLM predictions are most likely under less smooth GP kernels. Finally, we explore whether post-training can shift these inductive biases and improve sample-efficiency on functions sampled from GPs with smoother kernels. We find that both reinforcement learning and supervised fine-tuning can effectively shift inductive biases in the direction of the training data. Together, our framework quantifies the extent to which LLMs behave like GP learners and provides tools for steering their inductive biases for continuous function learning tasks.",
+      "categories": [
+        "cs.LG"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2602.11863v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.11863v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.11863v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.11863v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.11693": {
+      "title": "OMEGA-Avatar: One-shot Modeling of 360° Gaussian Avatars",
+      "authors": [
+        "Zehao Xia",
+        "Yiqun Wang",
+        "Zhengda Lu",
+        "Kai Liu",
+        "Jun Xiao",
+        "Peter Wonka"
+      ],
+      "published": "2026-02-12T08:16:38+00:00",
+      "updated": "2026-02-12T08:16:38+00:00",
+      "summary": "Creating high-fidelity, animatable 3D avatars from a single image remains a formidable challenge. We identified three desirable attributes of avatar generation: 1) the method should be feed-forward, 2) model a 360° full-head, and 3) should be animation-ready. However, current work addresses only two of the three points simultaneously. To address these limitations, we propose OMEGA-Avatar, the first feed-forward framework that simultaneously generates a generalizable, 360°-complete, and animatable 3D Gaussian head from a single image. Starting from a feed-forward and animatable framework, we address the 360° full-head avatar generation problem with two novel components. First, to overcome poor hair modeling in full-head avatar generation, we introduce a semantic-aware mesh deformation module that integrates multi-view normals to optimize a FLAME head with hair while preserving its topology structure. Second, to enable effective feed-forward decoding of full-head features, we propose a multi-view feature splatting module that constructs a shared canonical UV representation from features across multiple views through differentiable bilinear splatting, hierarchical UV mapping, and visibility-aware fusion. This approach preserves both global structural coherence and local high-frequency details across all viewpoints, ensuring 360° consistency without per-instance optimization. Extensive experiments demonstrate that OMEGA-Avatar achieves state-of-the-art performance, significantly outperforming existing baselines in 360° full-head completeness while robustly preserving identity across different viewpoints.",
+      "categories": [
+        "cs.GR",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "primary_category": "cs.GR",
+      "pdf_url": "https://arxiv.org/pdf/2602.11693v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Project page: https://omega-avatar.github.io/OMEGA-Avatar/",
+      "entry_id": "http://arxiv.org/abs/2602.11693v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.11693v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.11693v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.11668": {
+      "title": "Explainable Machine-Learning based Detection of Knee Injuries in Runners",
+      "authors": [
+        "David Fuentes-Jiménez",
+        "Sara García-de-Villa",
+        "David Casillas-Pérez",
+        "Pablo Floría",
+        "Francisco-Manuel Melgarejo-Meseguer"
+      ],
+      "published": "2026-02-12T07:41:07+00:00",
+      "updated": "2026-02-12T07:41:07+00:00",
+      "summary": "Running is a widely practiced activity but shows a high incidence of knee injuries, especially Patellofemoral Pain Syndrome (PFPS) and Iliotibial Band Syndrome (ITBS). Identifying gait patterns linked to these injuries can improve clinical decision-making, which requires precise systems capable of capturing and analyzing temporal kinematic data.\n  This study uses optical motion capture systems to enhance detection of injury-related running patterns. We analyze a public dataset of 839 treadmill recordings from healthy and injured runners to evaluate how effectively these systems capture dynamic parameters relevant to injury classification. The focus is on the stance phase, using joint and segment angle time series and discrete point values.\n  Three classification tasks are addressed: healthy vs. injured, healthy vs. PFPS, and healthy vs. ITBS. We examine different feature spaces, from traditional point-based metrics to full stance-phase time series and hybrid representations. Multiple models are tested, including classical algorithms (K-Nearest Neighbors, Gaussian Processes, Decision Trees) and deep learning architectures (CNNs, LSTMs).\n  Performance is evaluated with accuracy, precision, recall, and F1-score. Explainability tools such as Shapley values, saliency maps, and Grad-CAM are used to interpret model behavior. Results show that combining time series with point values substantially improves detection. Deep learning models outperform classical ones, with CNNs achieving the highest accuracy: 77.9% for PFPS, 73.8% for ITBS, and 71.43% for the combined injury class.\n  These findings highlight the potential of motion capture systems coupled with advanced machine learning to identify knee injury-related running patterns.",
+      "categories": [
+        "cs.LG"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2602.11668v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.11668v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.11668v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.11668v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.11577": {
+      "title": "LeafFit: Plant Assets Creation from 3D Gaussian Splatting",
+      "authors": [
+        "Chang Luo",
+        "Nobuyuki Umetani"
+      ],
+      "published": "2026-02-12T04:54:41+00:00",
+      "updated": "2026-02-12T04:54:41+00:00",
+      "summary": "We propose LeafFit, a pipeline that converts 3D Gaussian Splatting (3DGS) of individual plants into editable, instanced mesh assets. While 3DGS faithfully captures complex foliage, its high memory footprint and lack of mesh topology make it incompatible with traditional game production workflows. We address this by leveraging the repetition of leaf shapes; our method segments leaves from the unstructured 3DGS, with optional user interaction included as a fallback. A representative leaf group is selected and converted into a thin, sharp mesh to serve as a template; this template is then fitted to all other leaves via differentiable Moving Least Squares (MLS) deformation. At runtime, the deformation is evaluated efficiently on-the-fly using a vertex shader to minimize storage requirements. Experiments demonstrate that LeafFit achieves higher segmentation quality and deformation accuracy than recent baselines while significantly reducing data size and enabling parameter-level editing.",
+      "categories": [
+        "cs.GR"
+      ],
+      "primary_category": "cs.GR",
+      "pdf_url": "https://arxiv.org/pdf/2602.11577v1",
+      "journal_ref": "Eurographics 2026",
+      "doi": null,
+      "comment": "Our source code is publicly available at https://github.com/netbeifeng/leaf_fit",
+      "entry_id": "http://arxiv.org/abs/2602.11577v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.11577v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.11577v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.11466": {
+      "title": "A Dual-Branch Framework for Semantic Change Detection with Boundary and Temporal Awareness",
+      "authors": [
+        "Yun-Cheng Li",
+        "Sen Lei",
+        "Heng-Chao Li",
+        "Ke Li"
+      ],
+      "published": "2026-02-12T00:54:22+00:00",
+      "updated": "2026-02-12T00:54:22+00:00",
+      "summary": "Semantic Change Detection (SCD) aims to detect and categorize land-cover changes from bi-temporal remote sensing images. Existing methods often suffer from blurred boundaries and inadequate temporal modeling, limiting segmentation accuracy. To address these issues, we propose a Dual-Branch Framework for Semantic Change Detection with Boundary and Temporal Awareness, termed DBTANet. Specifically, we utilize a dual-branch Siamese encoder where a frozen SAM branch captures global semantic context and boundary priors, while a ResNet34 branch provides local spatial details, ensuring complementary feature representations. On this basis, we design a Bidirectional Temporal Awareness Module (BTAM) to aggregate multi-scale features and capture temporal dependencies in a symmetric manner. Furthermore, a Gaussian-smoothed Projection Module (GSPM) refines shallow SAM features, suppressing noise while enhancing edge information for boundary-aware constraints. Extensive experiments on two public benchmarks demonstrate that DBTANet effectively integrates global semantics, local details, temporal reasoning, and boundary awareness, achieving state-of-the-art performance.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.11466v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.11466v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.11466v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.11466v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2602.11099": {
       "title": "Enormous Fluid Antenna Systems (E-FAS) for Multiuser MIMO: Channel Modeling and Analysis",
       "authors": [
@@ -79322,26 +79585,26 @@
         "Kryzysztof Kusnierek"
       ],
       "published": "2026-01-29T08:58:51+00:00",
-      "updated": "2026-01-29T08:58:51+00:00",
+      "updated": "2026-02-12T11:14:08+00:00",
       "summary": "Neural Radiance Fields (NeRFs) have emerged as a powerful paradigm for multi-view reconstruction, complementing classical photogrammetric pipelines based on Structure-from-Motion (SfM) and Multi-View Stereo (MVS). However, their reliability for quantitative 3D analysis in dense, self-occluding scenes remains poorly understood. In this study, we identify a fundamental failure mode of implicit density fields under heavy occlusion, which we term Interior Geometric Degradation (IGD). We show that transmittance-based volumetric optimization satisfies photometric supervision by reconstructing hollow or fragmented structures rather than solid interiors, leading to systematic instance undercounting. Through controlled experiments on synthetic datasets with increasing occlusion, we demonstrate that state-of-the-art mask-supervised NeRFs saturate at approximately 89% instance recovery in dense scenes, despite improved surface coherence and mask quality. To overcome this limitation, we introduce an explicit geometric pipeline based on Sparse Voxel Rasterization (SVRaster), initialized from SfM feature geometry. By projecting 2D instance masks onto an explicit voxel grid and enforcing geometric separation via recursive splitting, our approach preserves physical solidity and achieves a 95.8% recovery rate in dense clusters. A sensitivity analysis using degraded segmentation masks further shows that explicit SfM-based geometry is substantially more robust to supervision failure, recovering 43% more instances than implicit baselines. These results demonstrate that explicit geometric priors are a prerequisite for reliable quantitative analysis in highly self-occluding 3D scenes.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2601.21421v1",
+      "pdf_url": "https://arxiv.org/pdf/2601.21421v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2601.21421v1",
+      "entry_id": "http://arxiv.org/abs/2601.21421v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2601.21421v1",
+          "href": "https://arxiv.org/abs/2601.21421v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2601.21421v1",
+          "href": "https://arxiv.org/pdf/2601.21421v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -95951,6 +96214,77 @@
     }
   },
   "Depth Estimation": {
+    "2602.11714": {
+      "title": "GSO-SLAM: Bidirectionally Coupled Gaussian Splatting and Direct Visual Odometry",
+      "authors": [
+        "Jiung Yeon",
+        "Seongbo Ha",
+        "Hyeonwoo Yu"
+      ],
+      "published": "2026-02-12T08:44:32+00:00",
+      "updated": "2026-02-12T08:44:32+00:00",
+      "summary": "We propose GSO-SLAM, a real-time monocular dense SLAM system that leverages Gaussian scene representation. Unlike existing methods that couple tracking and mapping with a unified scene, incurring computational costs, or loosely integrate them with well-structured tracking frameworks, introducing redundancies, our method bidirectionally couples Visual Odometry (VO) and Gaussian Splatting (GS). Specifically, our approach formulates joint optimization within an Expectation-Maximization (EM) framework, enabling the simultaneous refinement of VO-derived semi-dense depth estimates and the GS representation without additional computational overhead. Moreover, we present Gaussian Splat Initialization, which utilizes image information, keyframe poses, and pixel associations from VO to produce close approximations to the final Gaussian scene, thereby eliminating the need for heuristic methods. Through extensive experiments, we validate the effectiveness of our method, showing that it not only operates in real time but also achieves state-of-the-art geometric/photometric fidelity of the reconstructed scene and tracking accuracy.",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.11714v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "8 pages, 6 figures, RA-L accepted",
+      "entry_id": "http://arxiv.org/abs/2602.11714v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.11714v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.11714v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2602.11323": {
+      "title": "MDE-VIO: Enhancing Visual-Inertial Odometry Using Learned Depth Priors",
+      "authors": [
+        "Arda Alniak",
+        "Sinan Kalkan",
+        "Mustafa Mert Ankarali",
+        "Afsar Saranli",
+        "Abdullah Aydin Alatan"
+      ],
+      "published": "2026-02-11T19:53:06+00:00",
+      "updated": "2026-02-11T19:53:06+00:00",
+      "summary": "Traditional monocular Visual-Inertial Odometry (VIO) systems struggle in low-texture environments where sparse visual features are insufficient for accurate pose estimation. To address this, dense Monocular Depth Estimation (MDE) has been widely explored as a complementary information source. While recent Vision Transformer (ViT) based complex foundational models offer dense, geometrically consistent depth, their computational demands typically preclude them from real-time edge deployment. Our work bridges this gap by integrating learned depth priors directly into the VINS-Mono optimization backend. We propose a novel framework that enforces affine-invariant depth consistency and pairwise ordinal constraints, explicitly filtering unstable artifacts via variance-based gating. This approach strictly adheres to the computational limits of edge devices while robustly recovering metric scale. Extensive experiments on the TartanGround and M3ED datasets demonstrate that our method prevents divergence in challenging scenarios and delivers significant accuracy gains, reducing Absolute Trajectory Error (ATE) by up to 28.3%. Code will be made available.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.11323v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "6 pages, 2 figures, 3 tables. Submitted to ICIP 2026",
+      "entry_id": "http://arxiv.org/abs/2602.11323v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.11323v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.11323v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2602.11066": {
       "title": "PuriLight: A Lightweight Shuffle and Purification Framework for Monocular Depth Estimation",
       "authors": [
