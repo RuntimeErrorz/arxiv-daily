@@ -1,4 +1,4 @@
-## Updated at 2026-02-15 08:25:35
+## Updated at 2026-02-15 11:07:01
 
 ## 3DGS Semantic
 
@@ -12,9 +12,9 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2026-02-01**|**[Split&Splat: Zero-Shot Panoptic Segmentation via Explicit Instance Modeling and 3D Gaussian Splatting](https://arxiv.org/abs/2602.03809)**|N/A|None|cs.GR|None|Leonardo Monchieri et al.|
 |**2026-01-27**|**[TIGaussian: Disentangle Gaussians for Spatial-Awared Text-Image-3D Alignment](https://arxiv.org/abs/2601.19247)**|N/A|None|cs.CV|None|Jiarun Liu et al.|
 |**2026-01-19**|**[GaussExplorer: 3D Gaussian Splatting for Embodied Exploration and Reasoning](https://arxiv.org/abs/2601.13132)**|N/A|Project page: https://gaussexplorer.github.io/|cs.CV|None|Kim Yu-Ji et al.|
-|**2026-01-09**|**[FeatureSLAM: Feature-enriched 3D gaussian splatting SLAM in real time](https://arxiv.org/abs/2601.05738)**|N/A|None|cs.CV|None|Christopher Thirgood et al.|
-|**2026-01-08**|**[ProFuse: Efficient Cross-View Context Fusion for Open-Vocabulary 3D Gaussian Splatting](https://arxiv.org/abs/2601.04754)**|N/A|10 pages, 5 figures|cs.CV|None|Yen-Jen Chiou et al.|
-|**2026-01-05**|**[Joint Semantic and Rendering Enhancements in 3D Gaussian Modeling with Anisotropic Local Encoding](https://arxiv.org/abs/2601.02339)**|N/A|Accepted by ICCV 2025|cs.CV|None|Jingming He et al.|
+|**2026-01-09**|**[FeatureSLAM: Feature-enriched 3D gaussian splatting SLAM in real time](https://arxiv.org/abs/2601.05738)**|arXiv.org|None|cs.CV|None|Christopher Thirgood et al.|
+|**2026-01-08**|**[ProFuse: Efficient Cross-View Context Fusion for Open-Vocabulary 3D Gaussian Splatting](https://arxiv.org/abs/2601.04754)**|arXiv.org|10 pages, 5 figures|cs.CV|None|Yen-Jen Chiou et al.|
+|**2026-01-05**|**[Joint Semantic and Rendering Enhancements in 3D Gaussian Modeling with Anisotropic Local Encoding](https://arxiv.org/abs/2601.02339)**|arXiv.org|Accepted by ICCV 2025|cs.CV|None|Jingming He et al.|
 |**2025-12-29**|**[GaussianDWM: 3D Gaussian Driving World Model for Unified Scene Understanding and Multi-Modal Generation](https://arxiv.org/abs/2512.23180)**|arXiv.org|None|cs.CV|None|Tianchen Deng et al.|
 |**2025-12-24**|**[Quantile Rendering: Efficiently Embedding High-dimensional Feature on 3D Gaussian Splatting](https://arxiv.org/abs/2512.20927)**|arXiv.org|Will be updated|cs.CV|None|Yoonwoo Jeong et al.|
 |**2025-12-19**|**[Chorus: Multi-Teacher Pretraining for Holistic 3D Gaussian Scene Encoding](https://arxiv.org/abs/2512.17817)**|arXiv.org|None|cs.CV|None|Yue Li et al.|

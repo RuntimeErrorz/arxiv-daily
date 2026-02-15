@@ -39,7 +39,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2026-02-14",
+        "queried_at": "2026-02-15",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -2019,7 +2019,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2026-02-08",
+        "queried_at": "2026-02-15",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -2891,7 +2891,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2026-02-08",
+        "queried_at": "2026-02-15",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -3697,7 +3697,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2026-02-08",
+        "queried_at": "2026-02-15",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -4174,11 +4174,10 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2026-02-08",
-        "venue": null,
-        "pub_type": null,
-        "publisher": null,
-        "note": "已查询但未找到venue信息"
+        "queried_at": "2026-02-15",
+        "venue": "arXiv.org",
+        "pub_type": "JournalArticle",
+        "publisher": null
       }
     },
     "2601.06228": {
@@ -4480,11 +4479,10 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2026-02-08",
-        "venue": null,
-        "pub_type": null,
-        "publisher": null,
-        "note": "已查询但未找到venue信息"
+        "queried_at": "2026-02-15",
+        "venue": "arXiv.org",
+        "pub_type": "JournalArticle",
+        "publisher": null
       }
     },
     "2601.04715": {
@@ -4784,11 +4782,10 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2026-02-08",
-        "venue": null,
-        "pub_type": null,
-        "publisher": null,
-        "note": "已查询但未找到venue信息"
+        "queried_at": "2026-02-15",
+        "venue": "arXiv.org",
+        "pub_type": "JournalArticle",
+        "publisher": null
       }
     },
     "2601.02127": {
@@ -19119,7 +19116,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2026-02-08",
+        "queried_at": "2026-02-15",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -30799,7 +30796,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2026-02-08",
+        "queried_at": "2026-02-15",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -38329,7 +38326,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2026-02-08",
+        "queried_at": "2026-02-15",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -41093,7 +41090,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2026-02-08",
+        "queried_at": "2026-02-15",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -45743,7 +45740,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2026-02-08",
+        "queried_at": "2026-02-15",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -63045,7 +63042,7 @@
       "llm_approved": true,
       "venue_info": {
         "venue_source": "Semantic Scholar",
-        "queried_at": "2026-02-08",
+        "queried_at": "2026-02-15",
         "venue": null,
         "pub_type": null,
         "publisher": null,
