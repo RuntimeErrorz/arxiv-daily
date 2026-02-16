@@ -1,5 +1,164 @@
 {
   "3DGS Semantic": {
+    "2602.13140": {
+      "title": "FlashSchNet: Fast and Accurate Coarse-Grained Neural Network Molecular Dynamics",
+      "authors": [
+        "Pingzhi Li",
+        "Hongxuan Li",
+        "Zirui Liu",
+        "Xingcheng Lin",
+        "Tianlong Chen"
+      ],
+      "published": "2026-02-13T17:49:12+00:00",
+      "updated": "2026-02-13T17:49:12+00:00",
+      "summary": "Graph neural network (GNN) potentials such as SchNet improve the accuracy and transferability of molecular dynamics (MD) simulation by learning many-body interactions, but remain slower than classical force fields due to fragmented kernels and memory-bound pipelines that underutilize GPUs. We show that a missing principle is making GNN-MD IO-aware, carefully accounting for reads and writes between GPU high-bandwidth memory (HBM) and on-chip SRAM. We present FlashSchNet, an efficient and accurate IO-aware SchNet-style GNN-MD framework built on four techniques: (1) flash radial basis, which fuses pairwise distance computation, Gaussian basis expansion, and cosine envelope into a single tiled pass, computing each distance once and reusing it across all basis functions; (2) flash message passing, which fuses cutoff, neighbor gather, filter multiplication, and reduction to avoid materializing edge tensors in HBM; (3) flash aggregation, which reformulates scatter-add via CSR segment reduce, reducing atomic writes by a factor of feature dimension and enabling contention-free accumulation in both forward and backward passes; (4) channel-wise 16-bit quantization that exploits the low per-channel dynamic range in SchNet MLP weights to further improve throughput with negligible accuracy loss. On a single NVIDIA RTX PRO 6000, FlashSchNet achieves 1000 ns/day aggregate simulation throughput over 64 parallel replicas on coarse-grained (CG) protein containing 269 beads (6.5x faster than CGSchNet baseline with 80% reduction of peak memory), surpassing classical force fields (e.g. MARTINI) while retaining SchNet-level accuracy and transferability.",
+      "categories": [
+        "cs.LG",
+        "cs.CE"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2602.13140v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Code is at https://github.com/UNITES-Lab/flash-molecular-dynamics",
+      "entry_id": "http://arxiv.org/abs/2602.13140v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.13140v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.13140v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.12593": {
+      "title": "RQ-GMM: Residual Quantized Gaussian Mixture Model for Multimodal Semantic Discretization in CTR Prediction",
+      "authors": [
+        "Ziye Tong",
+        "Jiahao Liu",
+        "Weimin Zhang",
+        "Hongji Ruan",
+        "Derick Tang",
+        "Zhanpeng Zeng",
+        "Qinsong Zeng",
+        "Peng Zhang",
+        "Tun Lu",
+        "Ning Gu"
+      ],
+      "published": "2026-02-13T04:11:24+00:00",
+      "updated": "2026-02-13T04:11:24+00:00",
+      "summary": "Multimodal content is crucial for click-through rate (CTR) prediction. However, directly incorporating continuous embeddings from pre-trained models into CTR models yields suboptimal results due to misaligned optimization objectives and convergence speed inconsistency during joint training. Discretizing embeddings into semantic IDs before feeding them into CTR models offers a more effective solution, yet existing methods suffer from limited codebook utilization, reconstruction accuracy, and semantic discriminability. We propose RQ-GMM (Residual Quantized Gaussian Mixture Model), which introduces probabilistic modeling to better capture the statistical structure of multimodal embedding spaces. Through Gaussian Mixture Models combined with residual quantization, RQ-GMM achieves superior codebook utilization and reconstruction accuracy. Experiments on public datasets and online A/B tests on a large-scale short-video platform serving hundreds of millions of users demonstrate substantial improvements: RQ-GMM yields a 1.502% gain in Advertiser Value over strong baselines. The method has been fully deployed, serving daily recommendations for hundreds of millions of users.",
+      "categories": [
+        "cs.IR",
+        "cs.AI"
+      ],
+      "primary_category": "cs.IR",
+      "pdf_url": "https://arxiv.org/pdf/2602.12593v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Under review",
+      "entry_id": "http://arxiv.org/abs/2602.12593v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.12593v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.12593v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.12478": {
+      "title": "Task- and Metric-Specific Signal Quality Indices for Medical Time Series",
+      "authors": [
+        "Jad Haidamous",
+        "Christoph Hoog Antink"
+      ],
+      "published": "2026-02-12T23:23:41+00:00",
+      "updated": "2026-02-12T23:23:41+00:00",
+      "summary": "Medical time series such as electrocardiograms (ECGs) and photoplethysmograms (PPGs) are frequently affected by measurement artifacts due to challenging acquisition environments, such as in ambulances and during routine daily activities. Since automated algorithms for analyzing such signals increasingly inform clinically relevant decisions, identifying signal segments on which these algorithms may produce unreliable outputs is of critical importance. Signal quality indices (SQIs) are commonly used for this purpose. However, most existing SQIs are task agnostic and do not account for the specific algorithm and performance metric used downstream. In this work, we formalize signal quality as a task- and metric-dependent concept and propose a perturbation-based SQI (pSQI) that aims to detect an algorithm's performance degradation on an input signal with respect to a metric. The pSQI is defined as the worst-case value of the performance metric under an additive, colored Gaussian noise perturbation with a lower-bounded signal-to-noise ratio. We introduce formal requirements for task- and metric-specific SQIs, including monotonicity of the metric in expectation and maximal separation under thresholding. Experiments on R-peak detection and atrial fibrillation classification benchmarks demonstrate that the proposed pSQI consistently outperforms existing feature- and deep learning-based SQIs in identifying unreliable inputs without requiring training.",
+      "categories": [
+        "eess.SP",
+        "cs.LG"
+      ],
+      "primary_category": "eess.SP",
+      "pdf_url": "https://arxiv.org/pdf/2602.12478v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "5 pages, 3 figures, submitted to EUSIPCO 2026",
+      "entry_id": "http://arxiv.org/abs/2602.12478v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.12478v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.12478v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.12314": {
+      "title": "LatentAM: Real-Time, Large-Scale Latent Gaussian Attention Mapping via Online Dictionary Learning",
+      "authors": [
+        "Junwoon Lee",
+        "Yulun Tian"
+      ],
+      "published": "2026-02-12T17:25:00+00:00",
+      "updated": "2026-02-12T17:25:00+00:00",
+      "summary": "We present LatentAM, an online 3D Gaussian Splatting (3DGS) mapping framework that builds scalable latent feature maps from streaming RGB-D observations for open-vocabulary robotic perception. Instead of distilling high-dimensional Vision-Language Model (VLM) embeddings using model-specific decoders, LatentAM proposes an online dictionary learning approach that is both model-agnostic and pretraining-free, enabling plug-and-play integration with different VLMs at test time. Specifically, our approach associates each Gaussian primitive with a compact query vector that can be converted into approximate VLM embeddings using an attention mechanism with a learnable dictionary. The dictionary is initialized efficiently from streaming observations and optimized online to adapt to evolving scene semantics under trust-region regularization. To scale to long trajectories and large environments, we further propose an efficient map management strategy based on voxel hashing, where optimization is restricted to an active local map on the GPU, while the global map is stored and indexed on the CPU to maintain bounded GPU memory usage. Experiments on public benchmarks and a large-scale custom dataset demonstrate that LatentAM attains significantly better feature reconstruction fidelity compared to state-of-the-art methods, while achieving near-real-time speed (12-35 FPS) on the evaluated datasets. Our project page is at: https://junwoonlee.github.io/projects/LatentAM",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2602.12314v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "8 pages, 5 figures",
+      "entry_id": "http://arxiv.org/abs/2602.12314v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.12314v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.12314v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-02-16",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
     "2602.12159": {
       "title": "3DGSNav: Enhancing Vision-Language Model Reasoning for Object Navigation via Active 3D Gaussian Splatting",
       "authors": [

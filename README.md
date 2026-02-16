@@ -1,4 +1,4 @@
-## Updated at 2026-02-15 20:08:55
+## Updated at 2026-02-16 20:14:38
 
 ## 3DGS Semantic
 
@@ -8,6 +8,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-02-12**|**[LatentAM: Real-Time, Large-Scale Latent Gaussian Attention Mapping via Online Dictionary Learning](https://arxiv.org/abs/2602.12314)**|N/A|8 pages, 5 figures|cs.RO|None|Junwoon Lee, Yulun Tian|
 |**2026-02-12**|**[3DGSNav: Enhancing Vision-Language Model Reasoning for Object Navigation via Active 3D Gaussian Splatting](https://arxiv.org/abs/2602.12159)**|N/A|None|cs.RO|None|Wancai Zheng et al.|
 |**2026-02-01**|**[Split&Splat: Zero-Shot Panoptic Segmentation via Explicit Instance Modeling and 3D Gaussian Splatting](https://arxiv.org/abs/2602.03809)**|N/A|None|cs.GR|None|Leonardo Monchieri et al.|
 |**2026-01-27**|**[TIGaussian: Disentangle Gaussians for Spatial-Awared Text-Image-3D Alignment](https://arxiv.org/abs/2601.19247)**|N/A|None|cs.CV|None|Jiarun Liu et al.|
