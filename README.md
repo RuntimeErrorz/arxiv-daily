@@ -1,4 +1,4 @@
-## Updated at 2026-02-17 08:24:50
+## Updated at 2026-02-17 20:14:59
 
 ## 3DGS Semantic
 
@@ -649,12 +649,15 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-02-16**|**[AnchorWeave: World-Consistent Video Generation with Retrieved Local Spatial Memories](https://arxiv.org/abs/2602.14941)**|N/A|Project website: https://zunwang1.github.io/AnchorWeave|cs.CV|None|Zun Wang et al.|
+|**2026-02-15**|**[DenseMLLM: Standard Multimodal LLMs are Intrinsic Dense Predictors](https://arxiv.org/abs/2602.14134)**|N/A|25 pages, 9 figures|cs.CV|None|Yi Li et al.|
 |**2026-02-12**|**[GSO-SLAM: Bidirectionally Coupled Gaussian Splatting and Direct Visual Odometry](https://arxiv.org/abs/2602.11714)**|N/A|8 pages, 6 figures, RA-L accepted|cs.CV|None|Jiung Yeon et al.|
 |**2026-02-11**|**[MDE-VIO: Enhancing Visual-Inertial Odometry Using Learned Depth Priors](https://arxiv.org/abs/2602.11323)**|N/A|6 pages, 2 figures, 3 tables. Submitted to ICIP 2026|cs.CV|None|Arda Alniak et al.|
 |**2026-02-11**|**[PuriLight: A Lightweight Shuffle and Purification Framework for Monocular Depth Estimation](https://arxiv.org/abs/2602.11066)**|N/A|8 pages, 6figures, accepted by European Conference on Artificial Intelligence (ECAI2025)|cs.CV|None|Yujie Chen et al.|
 |**2026-02-11**|**[Interpretable Vision Transformers in Monocular Depth Estimation via SVDA](https://arxiv.org/abs/2602.11005)**|N/A|8 pages, 2 figures, submitted to CVPR Conference 2026|cs.CV|None|Vasileios Arampatzakis et al.|
 |**2026-02-11**|**[AugVLA-3D: Depth-Driven Feature Augmentation for Vision-Language-Action Models](https://arxiv.org/abs/2602.10698)**|N/A|None|cs.CV|None|Zhifeng Rao et al.|
 |**2026-02-10**|**[VersaViT: Enhancing MLLM Vision Backbones via Task-Guided Optimization](https://arxiv.org/abs/2602.09934)**|N/A|None|cs.CV|None|Yikun Liu et al.|
+|**2026-02-10**|**[Sim2Radar: Toward Bridging the Radar Sim-to-Real Gap with VLM-Guided Scene Reconstruction](https://arxiv.org/abs/2602.13314)**|N/A|None|cs.CV|None|Emily Bejerano et al.|
 |**2026-02-10**|**[RAD: Retrieval-Augmented Monocular Metric Depth Estimation for Underrepresented Classes](https://arxiv.org/abs/2602.09532)**|N/A|None|cs.CV|None|Michael Baltaxe et al.|
 |**2026-02-06**|**[Forest canopy height estimation from satellite RGB imagery using large-scale airborne LiDAR-derived training data and monocular depth estimation](https://arxiv.org/abs/2602.06503)**|N/A|None|cs.CV|None|Yongkang Lai et al.|
 |**2026-02-05**|**[AnyThermal: Towards Learning Universal Representations for Thermal Perception](https://arxiv.org/abs/2602.06203)**|N/A|Accepted at IEEE ICRA (International Conference on Robotics & Automation) 2026|cs.CV|None|Parv Maheshwari et al.|

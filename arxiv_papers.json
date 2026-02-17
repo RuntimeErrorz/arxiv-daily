@@ -1,5 +1,270 @@
 {
   "3DGS Semantic": {
+    "2602.14934": {
+      "title": "Activation-Space Uncertainty Quantification for Pretrained Networks",
+      "authors": [
+        "Richard Bergna",
+        "Stefan Depeweg",
+        "Sergio Calvo-Ordoñez",
+        "Jonathan Plenk",
+        "Alvaro Cartea",
+        "Jose Miguel Hernández-Lobato"
+      ],
+      "published": "2026-02-16T17:17:08+00:00",
+      "updated": "2026-02-16T17:17:08+00:00",
+      "summary": "Reliable uncertainty estimates are crucial for deploying pretrained models; yet, many strong methods for quantifying uncertainty require retraining, Monte Carlo sampling, or expensive second-order computations and may alter a frozen backbone's predictions. To address this, we introduce Gaussian Process Activations (GAPA), a post-hoc method that shifts Bayesian modeling from weights to activations. GAPA replaces standard nonlinearities with Gaussian-process activations whose posterior mean exactly matches the original activation, preserving the backbone's point predictions by construction while providing closed-form epistemic variances in activation space. To scale to modern architectures, we use a sparse variational inducing-point approximation over cached training activations, combined with local k-nearest-neighbor subset conditioning, enabling deterministic single-pass uncertainty propagation without sampling, backpropagation, or second-order information. Across regression, classification, image segmentation, and language modeling, GAPA matches or outperforms strong post-hoc baselines in calibration and out-of-distribution detection while remaining efficient at test time.",
+      "categories": [
+        "stat.ML",
+        "cs.LG"
+      ],
+      "primary_category": "stat.ML",
+      "pdf_url": "https://arxiv.org/pdf/2602.14934v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.14934v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.14934v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.14934v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.14929": {
+      "title": "Wrivinder: Towards Spatial Intelligence for Geo-locating Ground Images onto Satellite Imagery",
+      "authors": [
+        "Chandrakanth Gudavalli",
+        "Tajuddin Manhar Mohammed",
+        "Abhay Yadav",
+        "Ananth Vishnu Bhaskar",
+        "Hardik Prajapati",
+        "Cheng Peng",
+        "Rama Chellappa",
+        "Shivkumar Chandrasekaran",
+        "B. S. Manjunath"
+      ],
+      "published": "2026-02-16T17:06:54+00:00",
+      "updated": "2026-02-16T17:06:54+00:00",
+      "summary": "Aligning ground-level imagery with geo-registered satellite maps is crucial for mapping, navigation, and situational awareness, yet remains challenging under large viewpoint gaps or when GPS is unreliable. We introduce Wrivinder, a zero-shot, geometry-driven framework that aggregates multiple ground photographs to reconstruct a consistent 3D scene and align it with overhead satellite imagery. Wrivinder combines SfM reconstruction, 3D Gaussian Splatting, semantic grounding, and monocular depth--based metric cues to produce a stable zenith-view rendering that can be directly matched to satellite context for metrically accurate camera geo-localization. To support systematic evaluation of this task, which lacks suitable benchmarks, we also release MC-Sat, a curated dataset linking multi-view ground imagery with geo-registered satellite tiles across diverse outdoor environments. Together, Wrivinder and MC-Sat provide a first comprehensive baseline and testbed for studying geometry-centered cross-view alignment without paired supervision. In zero-shot experiments, Wrivinder achieves sub-30\\,m geolocation accuracy across both dense and large-area scenes, highlighting the promise of geometry-based aggregation for robust ground-to-satellite localization.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.14929v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.14929v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.14929v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.14929v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.14481": {
+      "title": "On the Rate-Distortion-Complexity Tradeoff for Semantic Communication",
+      "authors": [
+        "Jingxuan Chai",
+        "Yong Xiao",
+        "Guangming Shi"
+      ],
+      "published": "2026-02-16T05:45:52+00:00",
+      "updated": "2026-02-16T05:45:52+00:00",
+      "summary": "Semantic communication is a novel communication paradigm that focuses on conveying the user's intended meaning rather than the bit-wise transmission of source signals. One of the key challenges is to effectively represent and extract the semantic meaning of any given source signals. While deep learning (DL)-based solutions have shown promising results in extracting implicit semantic information from a wide range of sources, existing work often overlooks the high computational complexity inherent in both model training and inference for the DL-based encoder and decoder. To bridge this gap, this paper proposes a rate-distortion-complexity (RDC) framework which extends the classical rate-distortion theory by incorporating the constraints on semantic distance, including both the traditional bit-wise distortion metric and statistical difference-based divergence metric, and complexity measure, adopted from the theory of minimum description length and information bottleneck. We derive the closed-form theoretical results of the minimum achievable rate under given constraints on semantic distance and complexity for both Gaussian and binary semantic sources. Our theoretical results show a fundamental three-way tradeoff among achievable rate, semantic distance, and model complexity. Extensive experiments on real-world image and video datasets validate this tradeoff and further demonstrate that our information-theoretic complexity measure effectively correlates with practical computational costs, guiding efficient system design in resource-constrained scenarios.",
+      "categories": [
+        "cs.IT",
+        "cs.AI"
+      ],
+      "primary_category": "cs.IT",
+      "pdf_url": "https://arxiv.org/pdf/2602.14481v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Submitted to IEEE for possible publication",
+      "entry_id": "http://arxiv.org/abs/2602.14481v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.14481v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.14481v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.14287": {
+      "title": "Autonomous Robotic Tissue Palpation and Abnormalities Characterisation via Ergodic Exploration",
+      "authors": [
+        "Luca Beber",
+        "Edoardo Lamon",
+        "Matteo Saveriano",
+        "Daniele Fontanelli",
+        "Luigi Palopoli"
+      ],
+      "published": "2026-02-15T19:37:21+00:00",
+      "updated": "2026-02-15T19:37:21+00:00",
+      "summary": "We propose a novel autonomous robotic palpation framework for real-time elastic mapping during tissue exploration using a viscoelastic tissue model. The method combines force-based parameter estimation using a commercial force/torque sensor with an ergodic control strategy driven by a tailored Expected Information Density, which explicitly biases exploration toward diagnostically relevant regions by jointly considering model uncertainty, stiffness magnitude, and spatial gradients. An Extended Kalman Filter is employed to estimate viscoelastic model parameters online, while Gaussian Process Regression provides spatial modelling of the estimated elasticity, and a Heat Equation Driven Area Coverage controller enables adaptive, continuous trajectory planning. Simulations on synthetic stiffness maps demonstrate that the proposed approach achieves better reconstruction accuracy, enhanced segmentation capability, and improved robustness in detecting stiff inclusions compared to Bayesian Optimisation-based techniques. Experimental validation on a silicone phantom with embedded inclusions emulating pathological tissue regions further corroborates the potential of the method for autonomous tissue characterisation in diagnostic and screening applications.",
+      "categories": [
+        "cs.RO"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2602.14287v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Submitted to IEEE Robotics and Automation Letters (RA-L)",
+      "entry_id": "http://arxiv.org/abs/2602.14287v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.14287v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.14287v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.13994": {
+      "title": "Inject Where It Matters: Training-Free Spatially-Adaptive Identity Preservation for Text-to-Image Personalization",
+      "authors": [
+        "Guandong Li",
+        "Mengxia Ye"
+      ],
+      "published": "2026-02-15T05:25:57+00:00",
+      "updated": "2026-02-15T05:25:57+00:00",
+      "summary": "Personalized text-to-image generation aims to integrate specific identities into arbitrary contexts. However, existing tuning-free methods typically employ Spatially Uniform Visual Injection, causing identity features to contaminate non-facial regions (e.g., backgrounds and lighting) and degrading text adherence. To address this without expensive fine-tuning, we propose SpatialID, a training-free spatially-adaptive identity modulation framework. SpatialID fundamentally decouples identity injection into face-relevant and context-free regions using a Spatial Mask Extractor derived from cross-attention responses. Furthermore, we introduce a Temporal-Spatial Scheduling strategy that dynamically adjusts spatial constraints - transitioning from Gaussian priors to attention-based masks and adaptive relaxation - to align with the diffusion generation dynamics. Extensive experiments on IBench demonstrate that SpatialID achieves state-of-the-art performance in text adherence (CLIP-T: 0.281), visual consistency (CLIP-I: 0.827), and image quality (IQ: 0.523), significantly eliminating background contamination while maintaining robust identity preservation.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.13994v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.13994v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.13994v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.13994v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.13859": {
+      "title": "Low-Pass Filtering Improves Behavioral Alignment of Vision Models",
+      "authors": [
+        "Max Wolff",
+        "Thomas Klein",
+        "Evgenia Rusak",
+        "Felix Wichmann",
+        "Wieland Brendel"
+      ],
+      "published": "2026-02-14T19:42:57+00:00",
+      "updated": "2026-02-14T19:42:57+00:00",
+      "summary": "Despite their impressive performance on computer vision benchmarks, Deep Neural Networks (DNNs) still fall short of adequately modeling human visual behavior, as measured by error consistency and shape bias. Recent work hypothesized that behavioral alignment can be drastically improved through \\emph{generative} -- rather than \\emph{discriminative} -- classifiers, with far-reaching implications for models of human vision.\n  Here, we instead show that the increased alignment of generative models can be largely explained by a seemingly innocuous resizing operation in the generative model which effectively acts as a low-pass filter. In a series of controlled experiments, we show that removing high-frequency spatial information from discriminative models like CLIP drastically increases their behavioral alignment. Simply blurring images at test-time -- rather than training on blurred images -- achieves a new state-of-the-art score on the model-vs-human benchmark, halving the current alignment gap between DNNs and human observers. Furthermore, low-pass filters are likely optimal, which we demonstrate by directly optimizing filters for alignment. To contextualize the performance of optimal filters, we compute the frontier of all possible pareto-optimal solutions to the benchmark, which was formerly unknown.\n  We explain our findings by observing that the frequency spectrum of optimal Gaussian filters roughly matches the spectrum of band-pass filters implemented by the human visual system. We show that the contrast sensitivity function, describing the inverse of the contrast threshold required for humans to detect a sinusoidal grating as a function of spatiotemporal frequency, is approximated well by Gaussian filters of the specific width that also maximizes error consistency.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.13859v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "10 pages, 6 figures",
+      "entry_id": "http://arxiv.org/abs/2602.13859v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.13859v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.13859v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.13444": {
+      "title": "FlowHOI: Flow-based Semantics-Grounded Generation of Hand-Object Interactions for Dexterous Robot Manipulation",
+      "authors": [
+        "Huajian Zeng",
+        "Lingyun Chen",
+        "Jiaqi Yang",
+        "Yuantai Zhang",
+        "Fan Shi",
+        "Peidong Liu",
+        "Xingxing Zuo"
+      ],
+      "published": "2026-02-13T20:46:08+00:00",
+      "updated": "2026-02-13T20:46:08+00:00",
+      "summary": "Recent vision-language-action (VLA) models can generate plausible end-effector motions, yet they often fail in long-horizon, contact-rich tasks because the underlying hand-object interaction (HOI) structure is not explicitly represented. An embodiment-agnostic interaction representation that captures this structure would make manipulation behaviors easier to validate and transfer across robots. We propose FlowHOI, a two-stage flow-matching framework that generates semantically grounded, temporally coherent HOI sequences, comprising hand poses, object poses, and hand-object contact states, conditioned on an egocentric observation, a language instruction, and a 3D Gaussian splatting (3DGS) scene reconstruction. We decouple geometry-centric grasping from semantics-centric manipulation, conditioning the latter on compact 3D scene tokens and employing a motion-text alignment loss to semantically ground the generated interactions in both the physical scene layout and the language instruction. To address the scarcity of high-fidelity HOI supervision, we introduce a reconstruction pipeline that recovers aligned hand-object trajectories and meshes from large-scale egocentric videos, yielding an HOI prior for robust generation. Across the GRAB and HOT3D benchmarks, FlowHOI achieves the highest action recognition accuracy and a 1.7$\\times$ higher physics simulation success rate than the strongest diffusion-based baseline, while delivering a 40$\\times$ inference speedup. We further demonstrate real-robot execution on four dexterous manipulation tasks, illustrating the feasibility of retargeting generated HOI representations to real-robot execution pipelines.",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2602.13444v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Project Page: https://huajian-zeng.github.io/projects/flowhoi/",
+      "entry_id": "http://arxiv.org/abs/2602.13444v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.13444v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.13444v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2602.13140": {
       "title": "FlashSchNet: Fast and Accurate Coarse-Grained Neural Network Molecular Dynamics",
       "authors": [
@@ -761,6 +1026,44 @@
         },
         {
           "href": "https://arxiv.org/pdf/2602.09277v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.13303": {
+      "title": "Spectral Collapse in Diffusion Inversion",
+      "authors": [
+        "Nicolas Bourriez",
+        "Alexandre Verine",
+        "Auguste Genovesio"
+      ],
+      "published": "2026-02-09T17:53:21+00:00",
+      "updated": "2026-02-09T17:53:21+00:00",
+      "summary": "Conditional diffusion inversion provides a powerful framework for unpaired image-to-image translation. However, we demonstrate through an extensive analysis that standard deterministic inversion (e.g. DDIM) fails when the source domain is spectrally sparse compared to the target domain (e.g., super-resolution, sketch-to-image). In these contexts, the recovered latent from the input does not follow the expected isotropic Gaussian distribution. Instead it exhibits a signal with lower frequencies, locking target sampling to oversmoothed and texture-poor generations. We term this phenomenon spectral collapse. We observe that stochastic alternatives attempting to restore the noise variance tend to break the semantic link to the input, leading to structural drift. To resolve this structure-texture trade-off, we propose Orthogonal Variance Guidance (OVG), an inference-time method that corrects the ODE dynamics to enforce the theoretical Gaussian noise magnitude within the null-space of the structural gradient. Extensive experiments on microscopy super-resolution (BBBC021) and sketch-to-image (Edges2Shoes) demonstrate that OVG effectively restores photorealistic textures while preserving structural fidelity.",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG",
+        "eess.IV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.13303v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.13303v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.13303v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.13303v1",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -96378,6 +96681,86 @@
     }
   },
   "Depth Estimation": {
+    "2602.14941": {
+      "title": "AnchorWeave: World-Consistent Video Generation with Retrieved Local Spatial Memories",
+      "authors": [
+        "Zun Wang",
+        "Han Lin",
+        "Jaehong Yoon",
+        "Jaemin Cho",
+        "Yue Zhang",
+        "Mohit Bansal"
+      ],
+      "published": "2026-02-16T17:23:08+00:00",
+      "updated": "2026-02-16T17:23:08+00:00",
+      "summary": "Maintaining spatial world consistency over long horizons remains a central challenge for camera-controllable video generation. Existing memory-based approaches often condition generation on globally reconstructed 3D scenes by rendering anchor videos from the reconstructed geometry in the history. However, reconstructing a global 3D scene from multiple views inevitably introduces cross-view misalignment, as pose and depth estimation errors cause the same surfaces to be reconstructed at slightly different 3D locations across views. When fused, these inconsistencies accumulate into noisy geometry that contaminates the conditioning signals and degrades generation quality. We introduce AnchorWeave, a memory-augmented video generation framework that replaces a single misaligned global memory with multiple clean local geometric memories and learns to reconcile their cross-view inconsistencies. To this end, AnchorWeave performs coverage-driven local memory retrieval aligned with the target trajectory and integrates the selected local memories through a multi-anchor weaving controller during generation. Extensive experiments demonstrate that AnchorWeave significantly improves long-term scene consistency while maintaining strong visual quality, with ablation and analysis studies further validating the effectiveness of local geometric conditioning, multi-anchor control, and coverage-driven retrieval.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.14941v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Project website: https://zunwang1.github.io/AnchorWeave",
+      "entry_id": "http://arxiv.org/abs/2602.14941v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.14941v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.14941v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2602.14134": {
+      "title": "DenseMLLM: Standard Multimodal LLMs are Intrinsic Dense Predictors",
+      "authors": [
+        "Yi Li",
+        "Hongze Shen",
+        "Lexiang Tang",
+        "Xin Li",
+        "Xinpeng Ding",
+        "Yinsong Liu",
+        "Deqiang Jiang",
+        "Xing Sun",
+        "Xiaomeng Li"
+      ],
+      "published": "2026-02-15T13:12:28+00:00",
+      "updated": "2026-02-15T13:12:28+00:00",
+      "summary": "Multimodal Large Language Models (MLLMs) have demonstrated exceptional capabilities in high-level visual understanding. However, extending these models to fine-grained dense prediction tasks, such as semantic segmentation and depth estimation, typically necessitates the incorporation of complex, task-specific decoders and other customizations. This architectural fragmentation increases model complexity and deviates from the generalist design of MLLMs, ultimately limiting their practicality. In this work, we challenge this paradigm by accommodating standard MLLMs to perform dense predictions without requiring additional task-specific decoders. The proposed model is called DenseMLLM, grounded in the standard architecture with a novel vision token supervision strategy for multiple labels and tasks. Despite its minimalist design, our model achieves highly competitive performance across a wide range of dense prediction and vision-language benchmarks, demonstrating that a standard, general-purpose MLLM can effectively support dense perception without architectural specialization.",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.14134v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "25 pages, 9 figures",
+      "entry_id": "http://arxiv.org/abs/2602.14134v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.14134v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.14134v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2602.11714": {
       "title": "GSO-SLAM: Bidirectionally Coupled Gaussian Splatting and Direct Visual Odometry",
       "authors": [
@@ -96594,6 +96977,43 @@
         },
         {
           "href": "https://arxiv.org/pdf/2602.09934v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2602.13314": {
+      "title": "Sim2Radar: Toward Bridging the Radar Sim-to-Real Gap with VLM-Guided Scene Reconstruction",
+      "authors": [
+        "Emily Bejerano",
+        "Federico Tondolo",
+        "Aayan Qayyum",
+        "Xiaofan Yu",
+        "Xiaofan Jiang"
+      ],
+      "published": "2026-02-10T10:56:47+00:00",
+      "updated": "2026-02-10T10:56:47+00:00",
+      "summary": "Millimeter-wave (mmWave) radar provides reliable perception in visually degraded indoor environments (e.g., smoke, dust, and low light), but learning-based radar perception is bottlenecked by the scarcity and cost of collecting and annotating large-scale radar datasets. We present Sim2Radar, an end-to-end framework that synthesizes training radar data directly from single-view RGB images, enabling scalable data generation without manual scene modeling. Sim2Radar reconstructs a material-aware 3D scene by combining monocular depth estimation, segmentation, and vision-language reasoning to infer object materials, then simulates mmWave propagation with a configurable physics-based ray tracer using Fresnel reflection models parameterized by ITU-R electromagnetic properties. Evaluated on real-world indoor scenes, Sim2Radar improves downstream 3D radar perception via transfer learning: pre-training a radar point-cloud object detection model on synthetic data and fine-tuning on real radar yields up to +3.7 3D AP (IoU 0.3), with gains driven primarily by improved spatial localization. These results suggest that physics-based, vision-driven radar simulation can provide effective geometric priors for radar learning and measurably improve performance under limited real-data supervision.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.13314v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.13314v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.13314v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.13314v1",
           "title": "pdf",
           "rel": "related",
           "content_type": null
