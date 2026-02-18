@@ -1,5 +1,183 @@
 {
   "3DGS Semantic": {
+    "2602.15580": {
+      "title": "How Vision Becomes Language: A Layer-wise Information-Theoretic Analysis of Multimodal Reasoning",
+      "authors": [
+        "Hongxuan Wu",
+        "Yukun Zhang",
+        "Xueqing Zhou"
+      ],
+      "published": "2026-02-17T13:49:49+00:00",
+      "updated": "2026-02-17T13:49:49+00:00",
+      "summary": "When a multimodal Transformer answers a visual question, is the prediction driven by visual evidence, linguistic reasoning, or genuinely fused cross-modal computation -- and how does this structure evolve across layers? We address this question with a layer-wise framework based on Partial Information Decomposition (PID) that decomposes the predictive information at each Transformer layer into redundant, vision-unique, language-unique, and synergistic components. To make PID tractable for high-dimensional neural representations, we introduce \\emph{PID Flow}, a pipeline combining dimensionality reduction, normalizing-flow Gaussianization, and closed-form Gaussian PID estimation. Applying this framework to LLaVA-1.5-7B and LLaVA-1.6-7B across six GQA reasoning tasks, we uncover a consistent \\emph{modal transduction} pattern: visual-unique information peaks early and decays with depth, language-unique information surges in late layers to account for roughly 82\\% of the final prediction, and cross-modal synergy remains below 2\\%. This trajectory is highly stable across model variants (layer-wise correlations $>$0.96) yet strongly task-dependent, with semantic redundancy governing the detailed information fingerprint. To establish causality, we perform targeted Image$\\rightarrow$Question attention knockouts and show that disrupting the primary transduction pathway induces predictable increases in trapped visual-unique information, compensatory synergy, and total information cost -- effects that are strongest in vision-dependent tasks and weakest in high-redundancy tasks. Together, these results provide an information-theoretic, causal account of how vision becomes language in multimodal Transformers, and offer quantitative guidance for identifying architectural bottlenecks where modality-specific information is lost.",
+      "categories": [
+        "cs.AI"
+      ],
+      "primary_category": "cs.AI",
+      "pdf_url": "https://arxiv.org/pdf/2602.15580v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.15580v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.15580v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.15580v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.15516": {
+      "title": "Semantic-Guided 3D Gaussian Splatting for Transient Object Removal",
+      "authors": [
+        "Aditi Prabakaran",
+        "Priyesh Shukla"
+      ],
+      "published": "2026-02-17T11:44:16+00:00",
+      "updated": "2026-02-17T11:44:16+00:00",
+      "summary": "Transient objects in casual multi-view captures cause ghosting artifacts in 3D Gaussian Splatting (3DGS) reconstruction. Existing solutions relied on scene decomposition at significant memory cost or on motion-based heuristics that were vulnerable to parallax ambiguity. A semantic filtering framework was proposed for category-aware transient removal using vision-language models. CLIP similarity scores between rendered views and distractor text prompts were accumulated per-Gaussian across training iterations. Gaussians exceeding a calibrated threshold underwent opacity regularization and periodic pruning. Unlike motion-based approaches, semantic classification resolved parallax ambiguity by identifying object categories independently of motion patterns. Experiments on the RobustNeRF benchmark demonstrated consistent improvement in reconstruction quality over vanilla 3DGS across four sequences, while maintaining minimal memory overhead and real-time rendering performance. Threshold calibration and comparisons with baselines validated semantic guidance as a practical strategy for transient removal in scenarios with predictable distractor categories.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.15516v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.15516v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.15516v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.15516v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.15393": {
+      "title": "Doubly Stochastic Mean-Shift Clustering",
+      "authors": [
+        "Tom Trigano",
+        "Yann Sepulcre",
+        "Itshak Lapidot"
+      ],
+      "published": "2026-02-17T07:02:05+00:00",
+      "updated": "2026-02-17T07:02:05+00:00",
+      "summary": "Standard Mean-Shift algorithms are notoriously sensitive to the bandwidth hyperparameter, particularly in data-scarce regimes where fixed-scale density estimation leads to fragmentation and spurious modes. In this paper, we propose Doubly Stochastic Mean-Shift (DSMS), a novel extension that introduces randomness not only in the trajectory updates but also in the kernel bandwidth itself. By drawing both the data samples and the radius from a continuous uniform distribution at each iteration, DSMS effectively performs a better exploration of the density landscape. We show that this randomized bandwidth policy acts as an implicit regularization mechanism, and provide convergence theoretical results. Comparative experiments on synthetic Gaussian mixtures reveal that DSMS significantly outperforms standard and stochastic Mean-Shift baselines, exhibiting remarkable stability and preventing over-segmentation in sparse clustering scenarios without other performance degradation.",
+      "categories": [
+        "cs.LG",
+        "cs.CV"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2602.15393v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "30 pages. arXiv admin note: text overlap with arXiv:2511.09202",
+      "entry_id": "http://arxiv.org/abs/2602.15393v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.15393v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.15393v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.15304": {
+      "title": "Hybrid Federated and Split Learning for Privacy Preserving Clinical Prediction and Treatment Optimization",
+      "authors": [
+        "Farzana Akter",
+        "Rakib Hossain",
+        "Deb Kanna Roy Toushi",
+        "Mahmood Menon Khan",
+        "Sultana Amin",
+        "Lisan Al Amin"
+      ],
+      "published": "2026-02-17T01:57:27+00:00",
+      "updated": "2026-02-17T01:57:27+00:00",
+      "summary": "Collaborative clinical decision support is often constrained by governance and privacy rules that prevent pooling patient-level records across institutions. We present a hybrid privacy-preserving framework that combines Federated Learning (FL) and Split Learning (SL) to support decision-oriented healthcare modeling without raw-data sharing. The approach keeps feature-extraction trunks on clients while hosting prediction heads on a coordinating server, enabling shared representation learning and exposing an explicit collaboration boundary where privacy controls can be applied. Rather than assuming distributed training is inherently private, we audit leakage empirically using membership inference on cut-layer representations and study lightweight defenses based on activation clipping and additive Gaussian noise. We evaluate across three public clinical datasets under non-IID client partitions using a unified pipeline and assess performance jointly along four deployment-relevant axes: factual predictive utility, uplift-based ranking under capacity constraints, audited privacy leakage, and communication overhead. Results show that hybrid FL-SL variants achieve competitive predictive performance and decision-facing prioritization behavior relative to standalone FL or SL, while providing a tunable privacy-utility trade-off that can reduce audited leakage without requiring raw-data sharing. Overall, the work positions hybrid FL-SL as a practical design space for privacy-preserving healthcare decision support where utility, leakage risk, and deployment cost must be balanced explicitly.",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2602.15304v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.15304v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.15304v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.15304v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.15303": {
+      "title": "On the Entropy of General Mixture Distributions",
+      "authors": [
+        "Namyoon Lee"
+      ],
+      "published": "2026-02-17T01:55:01+00:00",
+      "updated": "2026-02-17T01:55:01+00:00",
+      "summary": "Mixture distributions are a workhorse model for multimodal data in information theory, signal processing, and machine learning. Yet even when each component density is simple, the differential entropy of the mixture is notoriously hard to compute because the mixture couples a logarithm with a sum. This paper develops a deterministic, closed-form toolkit for bounding and accurately approximating mixture entropy directly from component parameters. Our starting point is an information-theoretic channel viewpoint: the latent mixture label plays the role of an input, and the observation is the output. This viewpoint separates mixture entropy into an average within-component uncertainty plus an overlap term that quantifies how much the observation reveals about the hidden label. We then bound and approximate this overlap term using pairwise overlap integrals between component densities, yielding explicit expressions whenever these overlaps admit a closed form. A simple, family-dependent offset corrects the systematic bias of the Jensen overlap bound and is calibrated to be exact in the two limiting regimes of complete overlap and near-perfect separation. A final clipping step guarantees that the estimate always respects universal information-theoretic bounds. Closed-form specializations are provided for Gaussian, factorized Laplacian, uniform, and hybrid mixtures, and numerical experiments validate the resulting bounds and approximations across separation, dimension, number of components, and correlated covariances.",
+      "categories": [
+        "cs.IT",
+        "math.ST"
+      ],
+      "primary_category": "cs.IT",
+      "pdf_url": "https://arxiv.org/pdf/2602.15303v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "20 pages, 5 figures",
+      "entry_id": "http://arxiv.org/abs/2602.15303v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.15303v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.15303v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2602.14934": {
       "title": "Activation-Space Uncertainty Quantification for Pretrained Networks",
       "authors": [
