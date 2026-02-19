@@ -1,5 +1,121 @@
 {
   "3DGS Semantic": {
+    "2602.16086": {
+      "title": "LGQ: Learning Discretization Geometry for Scalable and Stable Image Tokenization",
+      "authors": [
+        "Idil Bilge Altun",
+        "Mert Onur Cakiroglu",
+        "Elham Buxton",
+        "Mehmet Dalkilic",
+        "Hasan Kurban"
+      ],
+      "published": "2026-02-17T23:20:26+00:00",
+      "updated": "2026-02-17T23:20:26+00:00",
+      "summary": "Discrete image tokenization is a key bottleneck for scalable visual generation: a tokenizer must remain compact for efficient latent-space priors while preserving semantic structure and using discrete capacity effectively. Existing quantizers face a trade-off: vector-quantized tokenizers learn flexible geometries but often suffer from biased straight-through optimization, codebook under-utilization, and representation collapse at large vocabularies. Structured scalar or implicit tokenizers ensure stable, near-complete utilization by design, yet rely on fixed discretization geometries that may allocate capacity inefficiently under heterogeneous latent statistics.\n  We introduce Learnable Geometric Quantization (LGQ), a discrete image tokenizer that learns discretization geometry end-to-end. LGQ replaces hard nearest-neighbor lookup with temperature-controlled soft assignments, enabling fully differentiable training while recovering hard assignments at inference. The assignments correspond to posterior responsibilities of an isotropic Gaussian mixture and minimize a variational free-energy objective, provably converging to nearest-neighbor quantization in the low-temperature limit. LGQ combines a token-level peakedness regularizer with a global usage regularizer to encourage confident yet balanced code utilization without imposing rigid grids.\n  Under a controlled VQGAN-style backbone on ImageNet across multiple vocabulary sizes, LGQ achieves stable optimization and balanced utilization. At 16K codebook size, LGQ improves rFID by 11.88% over FSQ while using 49.96% fewer active codes, and improves rFID by 6.06% over SimVQ with 49.45% lower effective representation rate, achieving comparable fidelity with substantially fewer active entries. Our GitHub repository is available at: https://github.com/KurbanIntelligenceLab/LGQ",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.16086v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.16086v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.16086v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.16086v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.16065": {
+      "title": "Can Generative Artificial Intelligence Survive Data Contamination? Theoretical Guarantees under Contaminated Recursive Training",
+      "authors": [
+        "Kevin Wang",
+        "Hongqian Niu",
+        "Didong Li"
+      ],
+      "published": "2026-02-17T22:38:18+00:00",
+      "updated": "2026-02-17T22:38:18+00:00",
+      "summary": "Generative Artificial Intelligence (AI), such as large language models (LLMs), has become a transformative force across science, industry, and society. As these systems grow in popularity, web data becomes increasingly interwoven with this AI-generated material and it is increasingly difficult to separate them from naturally generated content. As generative models are updated regularly, later models will inevitably be trained on mixtures of human-generated data and AI-generated data from earlier versions, creating a recursive training process with data contamination. Existing theoretical work has examined only highly simplified settings, where both the real data and the generative model are discrete or Gaussian, where it has been shown that such recursive training leads to model collapse. However, real data distributions are far more complex, and modern generative models are far more flexible than Gaussian and linear mechanisms. To fill this gap, we study recursive training in a general framework with minimal assumptions on the real data distribution and allow the underlying generative model to be a general universal approximator. In this framework, we show that contaminated recursive training still converges, with a convergence rate equal to the minimum of the baseline model's convergence rate and the fraction of real data used in each iteration. To the best of our knowledge, this is the first (positive) theoretical result on recursive training without distributional assumptions on the data. We further extend the analysis to settings where sampling bias is present in data collection and support all theoretical results with empirical studies.",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "math.ST",
+        "stat.ML"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2602.16065v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.16065v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.16065v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.16065v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.16019": {
+      "title": "MedProbCLIP: Probabilistic Adaptation of Vision-Language Foundation Model for Reliable Radiograph-Report Retrieval",
+      "authors": [
+        "Ahmad Elallaf",
+        "Yu Zhang",
+        "Yuktha Priya Masupalli",
+        "Jeong Yang",
+        "Young Lee",
+        "Zechun Cao",
+        "Gongbo Liang"
+      ],
+      "published": "2026-02-17T21:20:32+00:00",
+      "updated": "2026-02-17T21:20:32+00:00",
+      "summary": "Vision-language foundation models have emerged as powerful general-purpose representation learners with strong potential for multimodal understanding, but their deterministic embeddings often fail to provide the reliability required for high-stakes biomedical applications. This work introduces MedProbCLIP, a probabilistic vision-language learning framework for chest X-ray and radiology report representation learning and bidirectional retrieval. MedProbCLIP models image and text representations as Gaussian embeddings through a probabilistic contrastive objective that explicitly captures uncertainty and many-to-many correspondences between radiographs and clinical narratives. A variational information bottleneck mitigates overconfident predictions, while MedProbCLIP employs multi-view radiograph encoding and multi-section report encoding during training to provide fine-grained supervision for clinically aligned correspondence, yet requires only a single radiograph and a single report at inference. Evaluated on the MIMIC-CXR dataset, MedProbCLIP outperforms deterministic and probabilistic baselines, including CLIP, CXR-CLIP, and PCME++, in both retrieval and zero-shot classification. Beyond accuracy, MedProbCLIP demonstrates superior calibration, risk-coverage behavior, selective retrieval reliability, and robustness to clinically relevant corruptions, underscoring the value of probabilistic vision-language modeling for improving the trustworthiness and safety of radiology image-text retrieval systems.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.16019v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted to the 2026 Winter Conference on Applications of Computer Vision (WACV) Workshops",
+      "entry_id": "http://arxiv.org/abs/2602.16019v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.16019v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.16019v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2602.15580": {
       "title": "How Vision Becomes Language: A Layer-wise Information-Theoretic Analysis of Multimodal Reasoning",
       "authors": [
@@ -96859,6 +96975,39 @@
     }
   },
   "Depth Estimation": {
+    "2602.16281": {
+      "title": "Breaking the Sub-Millimeter Barrier: Eyeframe Acquisition from Color Images",
+      "authors": [
+        "Manel Guzmán",
+        "Antonio Agudo"
+      ],
+      "published": "2026-02-18T09:06:06+00:00",
+      "updated": "2026-02-18T09:06:06+00:00",
+      "summary": "Eyeframe lens tracing is an important process in the optical industry that requires sub-millimeter precision to ensure proper lens fitting and optimal vision correction. Traditional frame tracers rely on mechanical tools that need precise positioning and calibration, which are time-consuming and require additional equipment, creating an inefficient workflow for opticians. This work presents a novel approach based on artificial vision that utilizes multi-view information. The proposed algorithm operates on images captured from an InVision system. The full pipeline includes image acquisition, frame segmentation to isolate the eyeframe from background, depth estimation to obtain 3D spatial information, and multi-view processing that integrates segmented RGB images with depth data for precise frame contour measurement. To this end, different configurations and variants are proposed and analyzed on real data, providing competitive measurements from still color images with respect to other solutions, while eliminating the need for specialized tracing equipment and reducing workflow complexity for optical technicians.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.16281v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted to CAI 2026",
+      "entry_id": "http://arxiv.org/abs/2602.16281v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.16281v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.16281v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2602.14941": {
       "title": "AnchorWeave: World-Consistent Video Generation with Retrieved Local Spatial Memories",
       "authors": [

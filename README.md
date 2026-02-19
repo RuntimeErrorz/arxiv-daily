@@ -1,4 +1,4 @@
-## Updated at 2026-02-19 08:25:30
+## Updated at 2026-02-19 20:15:20
 
 ## 3DGS Semantic
 
@@ -649,6 +649,7 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-02-18**|**[Breaking the Sub-Millimeter Barrier: Eyeframe Acquisition from Color Images](https://arxiv.org/abs/2602.16281)**|N/A|Accepted to CAI 2026|cs.CV|None|Manel Guzmán, Antonio Agudo|
 |**2026-02-16**|**[AnchorWeave: World-Consistent Video Generation with Retrieved Local Spatial Memories](https://arxiv.org/abs/2602.14941)**|N/A|Project website: https://zunwang1.github.io/AnchorWeave|cs.CV|None|Zun Wang et al.|
 |**2026-02-15**|**[DenseMLLM: Standard Multimodal LLMs are Intrinsic Dense Predictors](https://arxiv.org/abs/2602.14134)**|N/A|25 pages, 9 figures|cs.CV|None|Yi Li et al.|
 |**2026-02-12**|**[GSO-SLAM: Bidirectionally Coupled Gaussian Splatting and Direct Visual Odometry](https://arxiv.org/abs/2602.11714)**|N/A|8 pages, 6 figures, RA-L accepted|cs.CV|None|Jiung Yeon et al.|
