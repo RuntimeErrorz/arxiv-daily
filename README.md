@@ -1,4 +1,4 @@
-## Updated at 2026-02-20 08:21:52
+## Updated at 2026-02-20 20:12:49
 
 ## 3DGS Semantic
 
@@ -649,6 +649,7 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-02-18**|**[StereoAdapter-2: Globally Structure-Consistent Underwater Stereo Depth Estimation](https://arxiv.org/abs/2602.16915)**|N/A|None|cs.CV|None|Zeyu Ren et al.|
 |**2026-02-18**|**[Breaking the Sub-Millimeter Barrier: Eyeframe Acquisition from Color Images](https://arxiv.org/abs/2602.16281)**|N/A|Accepted to CAI 2026|cs.CV|None|Manel Guzmán, Antonio Agudo|
 |**2026-02-16**|**[AnchorWeave: World-Consistent Video Generation with Retrieved Local Spatial Memories](https://arxiv.org/abs/2602.14941)**|N/A|Project website: https://zunwang1.github.io/AnchorWeave|cs.CV|None|Zun Wang et al.|
 |**2026-02-15**|**[DenseMLLM: Standard Multimodal LLMs are Intrinsic Dense Predictors](https://arxiv.org/abs/2602.14134)**|N/A|25 pages, 9 figures|cs.CV|None|Yi Li et al.|

@@ -1,5 +1,83 @@
 {
   "3DGS Semantic": {
+    "2602.17550": {
+      "title": "MASPO: Unifying Gradient Utilization, Probability Mass, and Signal Reliability for Robust and Sample-Efficient LLM Reasoning",
+      "authors": [
+        "Xiaoliang Fu",
+        "Jiaye Lin",
+        "Yangyi Fang",
+        "Binbin Zheng",
+        "Chaowen Hu",
+        "Zekai Shao",
+        "Cong Qin",
+        "Lu Pan",
+        "Ke Zeng",
+        "Xunliang Cai"
+      ],
+      "published": "2026-02-19T17:05:20+00:00",
+      "updated": "2026-02-19T17:05:20+00:00",
+      "summary": "Existing Reinforcement Learning with Verifiable Rewards (RLVR) algorithms, such as GRPO, rely on rigid, uniform, and symmetric trust region mechanisms that are fundamentally misaligned with the complex optimization dynamics of Large Language Models (LLMs). In this paper, we identify three critical challenges in these methods: (1) inefficient gradient utilization caused by the binary cutoff of hard clipping, (2) insensitive probability mass arising from uniform ratio constraints that ignore the token distribution, and (3) asymmetric signal reliability stemming from the disparate credit assignment ambiguity between positive and negative samples. To bridge these gaps, we propose Mass-Adaptive Soft Policy Optimization (MASPO), a unified framework designed to harmonize these three dimensions. MASPO integrates a differentiable soft Gaussian gating to maximize gradient utility, a mass-adaptive limiter to balance exploration across the probability spectrum, and an asymmetric risk controller to align update magnitudes with signal confidence. Extensive evaluations demonstrate that MASPO serves as a robust, all-in-one RLVR solution, significantly outperforming strong baselines. Our code is available at: https://anonymous.4open.science/r/ma1/README.md.",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2602.17550v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.17550v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.17550v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.17550v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.17134": {
+      "title": "B$^3$-Seg: Camera-Free, Training-Free 3DGS Segmentation via Analytic EIG and Beta-Bernoulli Bayesian Updates",
+      "authors": [
+        "Hiromichi Kamata",
+        "Samuel Arthur Munro",
+        "Fuminori Homma"
+      ],
+      "published": "2026-02-19T07:14:52+00:00",
+      "updated": "2026-02-19T07:14:52+00:00",
+      "summary": "Interactive 3D Gaussian Splatting (3DGS) segmentation is essential for real-time editing of pre-reconstructed assets in film and game production. However, existing methods rely on predefined camera viewpoints, ground-truth labels, or costly retraining, making them impractical for low-latency use. We propose B$^3$-Seg (Beta-Bernoulli Bayesian Segmentation for 3DGS), a fast and theoretically grounded method for open-vocabulary 3DGS segmentation under camera-free and training-free conditions. Our approach reformulates segmentation as sequential Beta-Bernoulli Bayesian updates and actively selects the next view via analytic Expected Information Gain (EIG). This Bayesian formulation guarantees the adaptive monotonicity and submodularity of EIG, which produces a greedy $(1{-}1/e)$ approximation to the optimal view sampling policy. Experiments on multiple datasets show that B$^3$-Seg achieves competitive results to high-cost supervised methods while operating end-to-end segmentation within a few seconds. The results demonstrate that B$^3$-Seg enables practical, interactive 3DGS segmentation with provable information efficiency.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.17134v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Project page: https://sony.github.io/B3-Seg-project/",
+      "entry_id": "http://arxiv.org/abs/2602.17134v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.17134v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.17134v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2602.16086": {
       "title": "LGQ: Learning Discretization Geometry for Scalable and Stable Image Tokenization",
       "authors": [
@@ -1816,26 +1894,26 @@
         "Ming Yan"
       ],
       "published": "2026-02-06T16:27:33+00:00",
-      "updated": "2026-02-06T16:27:33+00:00",
+      "updated": "2026-02-19T05:26:20+00:00",
       "summary": "Federated learning enables collaborative model training across distributed clients while preserving data privacy. However, in practical deployments, device heterogeneity, non-independent, and identically distributed (Non-IID) data often lead to highly unstable and biased gradient updates. When differential privacy is enforced, conventional fixed gradient clipping and Gaussian noise injection may further amplify gradient perturbations, resulting in training oscillation and performance degradation and degraded model performance. To address these challenges, we propose an adaptive differentially private federated learning framework that explicitly targets model efficiency under heterogeneous and privacy-constrained settings. On the client side, a lightweight local compressed module is introduced to regularize intermediate representations and constrain gradient variability, thereby mitigating noise amplification during local optimization. On the server side, an adaptive gradient clipping strategy dynamically adjusts clipping thresholds based on historical update statistics to avoid over-clipping and noise domination. Furthermore, a constraint-aware aggregation mechanism is designed to suppress unreliable or noise-dominated client updates and stabilize global optimization. Extensive experiments on CIFAR-10 and SVHN demonstrate improved convergence stability and classification accuracy.",
       "categories": [
         "cs.AI"
       ],
       "primary_category": "cs.AI",
-      "pdf_url": "https://arxiv.org/pdf/2602.06838v1",
+      "pdf_url": "https://arxiv.org/pdf/2602.06838v2",
       "journal_ref": null,
       "doi": null,
-      "comment": "submited to a conference",
-      "entry_id": "http://arxiv.org/abs/2602.06838v1",
+      "comment": "there exists some errors in the method and experiments. We would like to check and revise the contents and resubmit later",
+      "entry_id": "http://arxiv.org/abs/2602.06838v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2602.06838v1",
+          "href": "https://arxiv.org/abs/2602.06838v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2602.06838v1",
+          "href": "https://arxiv.org/pdf/2602.06838v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -3848,6 +3926,44 @@
         },
         {
           "href": "https://arxiv.org/pdf/2601.17227v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.16713": {
+      "title": "Three-dimensional Damage Visualization of Civil Structures via Gaussian Splatting-enabled Digital Twins",
+      "authors": [
+        "Shuo Wang",
+        "Shuo Wang",
+        "Xin Nie",
+        "Yasutaka Narazaki",
+        "Thomas Matiki",
+        "Billie F. Spencer"
+      ],
+      "published": "2026-01-23T02:36:45+00:00",
+      "updated": "2026-01-23T02:36:45+00:00",
+      "summary": "Recent advancements in civil infrastructure inspections underscore the need for precise three-dimensional (3D) damage visualization on digital twins, transcending traditional 2D image-based damage identifications. Compared to conventional photogrammetric 3D reconstruction techniques, modern approaches such as Neural Radiance Field (NeRF) and Gaussian Splatting (GS) excel in scene representation, rendering quality, and handling featureless regions. Among them, GS stands out for its efficiency, leveraging discrete anisotropic 3D Gaussians to represent radiance fields, unlike NeRF's continuous implicit model. This study introduces a GS-enabled digital twin method tailored for effective 3D damage visualization. The method's key contributions include: 1) utilizing GS-based 3D reconstruction to visualize 2D damage segmentation results while reducing segmentation errors; 2) developing a multi-scale reconstruction strategy to balance efficiency and damage detail; 3) enabling digital twin updates as damage evolves over time. Demonstrated on an open-source synthetic dataset for post-earthquake inspections, the proposed approach offers a promising solution for comprehensive 3D damage visualization in civil infrastructure digital twins.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.16713v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.16713v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.16713v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.16713v1",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -96975,6 +97091,42 @@
     }
   },
   "Depth Estimation": {
+    "2602.16915": {
+      "title": "StereoAdapter-2: Globally Structure-Consistent Underwater Stereo Depth Estimation",
+      "authors": [
+        "Zeyu Ren",
+        "Xiang Li",
+        "Yiran Wang",
+        "Zeyu Zhang",
+        "Hao Tang"
+      ],
+      "published": "2026-02-18T22:12:08+00:00",
+      "updated": "2026-02-18T22:12:08+00:00",
+      "summary": "Stereo depth estimation is fundamental to underwater robotic perception, yet suffers from severe domain shifts caused by wavelength-dependent light attenuation, scattering, and refraction. Recent approaches leverage monocular foundation models with GRU-based iterative refinement for underwater adaptation; however, the sequential gating and local convolutional kernels in GRUs necessitate multiple iterations for long-range disparity propagation, limiting performance in large-disparity and textureless underwater regions. In this paper, we propose StereoAdapter-2, which replaces the conventional ConvGRU updater with a novel ConvSS2D operator based on selective state space models. The proposed operator employs a four-directional scanning strategy that naturally aligns with epipolar geometry while capturing vertical structural consistency, enabling efficient long-range spatial propagation within a single update step at linear computational complexity. Furthermore, we construct UW-StereoDepth-80K, a large-scale synthetic underwater stereo dataset featuring diverse baselines, attenuation coefficients, and scattering parameters through a two-stage generative pipeline combining semantic-aware style transfer and geometry-consistent novel view synthesis. Combined with dynamic LoRA adaptation inherited from StereoAdapter, our framework achieves state-of-the-art zero-shot performance on underwater benchmarks with 17% improvement on TartanAir-UW and 7.2% improvment on SQUID, with real-world validation on the BlueROV2 platform demonstrates the robustness of our approach. Code: https://github.com/AIGeeksGroup/StereoAdapter-2. Website: https://aigeeksgroup.github.io/StereoAdapter-2.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.16915v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.16915v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.16915v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.16915v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2602.16281": {
       "title": "Breaking the Sub-Millimeter Barrier: Eyeframe Acquisition from Color Images",
       "authors": [
