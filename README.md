@@ -1,4 +1,4 @@
-## Updated at 2026-02-22 08:23:44
+## Updated at 2026-02-22 11:05:37
 
 ## 3DGS Semantic
 
@@ -12,7 +12,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2026-02-12**|**[3DGSNav: Enhancing Vision-Language Model Reasoning for Object Navigation via Active 3D Gaussian Splatting](https://arxiv.org/abs/2602.12159)**|N/A|None|cs.RO|None|Wancai Zheng et al.|
 |**2026-02-01**|**[Split&Splat: Zero-Shot Panoptic Segmentation via Explicit Instance Modeling and 3D Gaussian Splatting](https://arxiv.org/abs/2602.03809)**|N/A|None|cs.GR|None|Leonardo Monchieri et al.|
 |**2026-01-27**|**[TIGaussian: Disentangle Gaussians for Spatial-Awared Text-Image-3D Alignment](https://arxiv.org/abs/2601.19247)**|N/A|None|cs.CV|None|Jiarun Liu et al.|
-|**2026-01-19**|**[GaussExplorer: 3D Gaussian Splatting for Embodied Exploration and Reasoning](https://arxiv.org/abs/2601.13132)**|N/A|Project page: https://gaussexplorer.github.io/|cs.CV|None|Kim Yu-Ji et al.|
+|**2026-01-19**|**[GaussExplorer: 3D Gaussian Splatting for Embodied Exploration and Reasoning](https://arxiv.org/abs/2601.13132)**|arXiv.org|Project page: https://gaussexplorer.github.io/|cs.CV|None|Kim Yu-Ji et al.|
 |**2026-01-09**|**[FeatureSLAM: Feature-enriched 3D gaussian splatting SLAM in real time](https://arxiv.org/abs/2601.05738)**|arXiv.org|None|cs.CV|None|Christopher Thirgood et al.|
 |**2026-01-08**|**[ProFuse: Efficient Cross-View Context Fusion for Open-Vocabulary 3D Gaussian Splatting](https://arxiv.org/abs/2601.04754)**|arXiv.org|10 pages, 5 figures|cs.CV|None|Yen-Jen Chiou et al.|
 |**2026-01-05**|**[Joint Semantic and Rendering Enhancements in 3D Gaussian Modeling with Anisotropic Local Encoding](https://arxiv.org/abs/2601.02339)**|arXiv.org|Accepted by ICCV 2025|cs.CV|None|Jingming He et al.|
