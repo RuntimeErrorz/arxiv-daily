@@ -1,5 +1,74 @@
 {
   "3DGS Semantic": {
+    "2602.17979": {
+      "title": "Learning While Transmitting: Pilotless Polar Coded Modulation for Short Packet Transmission",
+      "authors": [
+        "Geon Choi",
+        "Namyoon Lee"
+      ],
+      "published": "2026-02-20T04:27:07+00:00",
+      "updated": "2026-02-20T04:27:07+00:00",
+      "summary": "Short packets make channel learning expensive. In pilot-aided transmission (PAT), a non-negligible fraction of the packet is consumed by pilots, creating a direct pre-log loss and tightening the reliability margin needed for ultra-reliable low-latency communication. We propose a pilot-free polar-coded framework that replaces explicit pilots with \\emph{coded pilots}. The message is carried by two polar-coded segments: a quadrature phase shift keying (QPSK) segment that is decodable without channel state information (CSI), and a higher-order quadrature amplitude modulation (QAM) segment that provides high spectral efficiency. The receiver employs \\emph{hybrid decoding}: it first jointly infers CSI during successive-cancellation-based decoding of the QPSK segment by exploiting QPSK phase-rotation invariance together with polar frozen-bit constraints; the decoded QPSK symbols then act as \\emph{implicit pilots} for coherent detection and decoding of the QAM segment. The split also makes rate adaptation practical by confining the symmetry/frozen-bit requirements for phase resolution to the QPSK segment, enabling puncturing and shortening without breaking the pilot-free mechanism. For multi-block fading, we optimize the split and code parameters via density evolution with Gaussian approximation (DEGA); for higher-order modulation, we use bit-interleaved coded modulation capacity approximation to obtain equivalent channel parameters. Incorporating channel-estimation error variance into the DEGA-based analysis, simulations over practical multi-block block-fading channels show gains up to $1.5$~dB over PAT in the short-blocklength regime.",
+      "categories": [
+        "eess.SP"
+      ],
+      "primary_category": "eess.SP",
+      "pdf_url": "https://arxiv.org/pdf/2602.17979v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "12 pages",
+      "entry_id": "http://arxiv.org/abs/2602.17979v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.17979v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.17979v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.17809": {
+      "title": "Calibrated Adaptation: Bayesian Stiefel Manifold Priors for Reliable Parameter-Efficient Fine-Tuning",
+      "authors": [
+        "Ibne Farabi Shihab",
+        "Sanjeda Akter",
+        "Anuj Sharma"
+      ],
+      "published": "2026-02-19T20:17:54+00:00",
+      "updated": "2026-02-19T20:17:54+00:00",
+      "summary": "Parameter-efficient fine-tuning methods such as LoRA enable practical adaptation of large language models but provide no principled uncertainty estimates, leading to poorly calibrated predictions and unreliable behavior under domain shift. We introduce Stiefel-Bayes Adapters (SBA), a Bayesian PEFT framework that places a Matrix Langevin prior over orthonormal adapter factors on the Stiefel manifold $\\St$ and performs approximate posterior inference via tangent space Laplace approximation with geodesic retraction. Unlike Gaussian priors in flat space projected onto orthogonality constraints, our prior on the manifold naturally encodes the inductive bias that adapter subspaces should be well conditioned and orthogonal, while the posterior provides calibrated predictive uncertainty without recalibration. We prove formally that the tangent space approximation strictly avoids the structural variance inflation inherent in projecting from ambient space, establishing a rigorous theoretical advantage for intrinsic manifold inference. Across GLUE and SuperGLUE benchmarks on RoBERTa-large, LLaMA-2-7B, LLaMA-2-13B, Mistral-7B, and Qwen2.5-7B, domain shift evaluations, selective prediction protocols, and an abstractive summarization task, SBA achieves task performance comparable to LoRA and DoRA while reducing Expected Calibration Error by 18 to 34\\% over deterministic baselines, improving selective prediction AUROC by 12 to 25\\% under domain shift, and outperforming deep ensembles of five LoRA models on OOD detection at a fraction of the parameter cost. Our results demonstrate that where you place uncertainty, on the right geometric structure, matters more than simply adding any Bayesian treatment to adapters.",
+      "categories": [
+        "cs.LG"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2602.17809v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.17809v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.17809v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.17809v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2602.17550": {
       "title": "MASPO: Unifying Gradient Utilization, Probability Mass, and Signal Reliability for Robust and Sample-Efficient LLM Reasoning",
       "authors": [
@@ -88,27 +157,27 @@
         "Hasan Kurban"
       ],
       "published": "2026-02-17T23:20:26+00:00",
-      "updated": "2026-02-17T23:20:26+00:00",
+      "updated": "2026-02-20T16:45:42+00:00",
       "summary": "Discrete image tokenization is a key bottleneck for scalable visual generation: a tokenizer must remain compact for efficient latent-space priors while preserving semantic structure and using discrete capacity effectively. Existing quantizers face a trade-off: vector-quantized tokenizers learn flexible geometries but often suffer from biased straight-through optimization, codebook under-utilization, and representation collapse at large vocabularies. Structured scalar or implicit tokenizers ensure stable, near-complete utilization by design, yet rely on fixed discretization geometries that may allocate capacity inefficiently under heterogeneous latent statistics.\n  We introduce Learnable Geometric Quantization (LGQ), a discrete image tokenizer that learns discretization geometry end-to-end. LGQ replaces hard nearest-neighbor lookup with temperature-controlled soft assignments, enabling fully differentiable training while recovering hard assignments at inference. The assignments correspond to posterior responsibilities of an isotropic Gaussian mixture and minimize a variational free-energy objective, provably converging to nearest-neighbor quantization in the low-temperature limit. LGQ combines a token-level peakedness regularizer with a global usage regularizer to encourage confident yet balanced code utilization without imposing rigid grids.\n  Under a controlled VQGAN-style backbone on ImageNet across multiple vocabulary sizes, LGQ achieves stable optimization and balanced utilization. At 16K codebook size, LGQ improves rFID by 11.88% over FSQ while using 49.96% fewer active codes, and improves rFID by 6.06% over SimVQ with 49.45% lower effective representation rate, achieving comparable fidelity with substantially fewer active entries. Our GitHub repository is available at: https://github.com/KurbanIntelligenceLab/LGQ",
       "categories": [
         "cs.CV",
         "cs.LG"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2602.16086v1",
+      "pdf_url": "https://arxiv.org/pdf/2602.16086v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2602.16086v1",
+      "entry_id": "http://arxiv.org/abs/2602.16086v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2602.16086v1",
+          "href": "https://arxiv.org/abs/2602.16086v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2602.16086v1",
+          "href": "https://arxiv.org/pdf/2602.16086v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -80395,26 +80464,26 @@
         "Baochang Zhang"
       ],
       "published": "2026-02-02T13:35:16+00:00",
-      "updated": "2026-02-02T13:35:16+00:00",
+      "updated": "2026-02-20T09:39:37+00:00",
       "summary": "While 3D Gaussian Splatting (3DGS) enables high-quality, real-time rendering for bounded scenes, its extension to large-scale urban environments gives rise to critical challenges in terms of geometric consistency, memory efficiency, and computational scalability. To address these issues, we present UrbanGS, a scalable reconstruction framework that effectively tackles these challenges for city-scale applications. First, we propose a Depth-Consistent D-Normal Regularization module. Unlike existing approaches that rely solely on monocular normal estimators, which can effectively update rotation parameters yet struggle to update position parameters, our method integrates D-Normal constraints with external depth supervision. This allows for comprehensive updates of all geometric parameters. By further incorporating an adaptive confidence weighting mechanism based on gradient consistency and inverse depth deviation, our approach significantly enhances multi-view depth alignment and geometric coherence, which effectively resolves the issue of geometric accuracy in complex large-scale scenes. To improve scalability, we introduce a Spatially Adaptive Gaussian Pruning (SAGP) strategy, which dynamically adjusts Gaussian density based on local geometric complexity and visibility to reduce redundancy. Additionally, a unified partitioning and view assignment scheme is designed to eliminate boundary artifacts and optimize computational load. Extensive experiments on multiple urban datasets demonstrate that UrbanGS achieves superior performance in rendering quality, geometric accuracy, and memory efficiency, providing a systematic solution for high-fidelity large-scale scene reconstruction.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2602.02089v1",
+      "pdf_url": "https://arxiv.org/pdf/2602.02089v2",
       "journal_ref": null,
       "doi": null,
       "comment": "ICLR 2026",
-      "entry_id": "http://arxiv.org/abs/2602.02089v1",
+      "entry_id": "http://arxiv.org/abs/2602.02089v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2602.02089v1",
+          "href": "https://arxiv.org/abs/2602.02089v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2602.02089v1",
+          "href": "https://arxiv.org/pdf/2602.02089v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -97090,6 +97159,77 @@
     }
   },
   "Depth Estimation": {
+    "2602.17909": {
+      "title": "A Single Image and Multimodality Is All You Need for Novel View Synthesis",
+      "authors": [
+        "Amirhosein Javadi",
+        "Chi-Shiang Gau",
+        "Konstantinos D. Polyzos",
+        "Tara Javidi"
+      ],
+      "published": "2026-02-20T00:13:11+00:00",
+      "updated": "2026-02-20T00:13:11+00:00",
+      "summary": "Diffusion-based approaches have recently demonstrated strong performance for single-image novel view synthesis by conditioning generative models on geometry inferred from monocular depth estimation. However, in practice, the quality and consistency of the synthesized views are fundamentally limited by the reliability of the underlying depth estimates, which are often fragile under low texture, adverse weather, and occlusion-heavy real-world conditions. In this work, we show that incorporating sparse multimodal range measurements provides a simple yet effective way to overcome these limitations. We introduce a multimodal depth reconstruction framework that leverages extremely sparse range sensing data, such as automotive radar or LiDAR, to produce dense depth maps that serve as robust geometric conditioning for diffusion-based novel view synthesis. Our approach models depth in an angular domain using a localized Gaussian Process formulation, enabling computationally efficient inference while explicitly quantifying uncertainty in regions with limited observations. The reconstructed depth and uncertainty are used as a drop-in replacement for monocular depth estimators in existing diffusion-based rendering pipelines, without modifying the generative model itself. Experiments on real-world multimodal driving scenes demonstrate that replacing vision-only depth with our sparse range-based reconstruction substantially improves both geometric consistency and visual quality in single-image novel-view video generation. These results highlight the importance of reliable geometric priors for diffusion-based view synthesis and demonstrate the practical benefits of multimodal sensing even at extreme levels of sparsity.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.17909v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.17909v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.17909v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.17909v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2602.17785": {
+      "title": "Multi-Modal Monocular Endoscopic Depth and Pose Estimation with Edge-Guided Self-Supervision",
+      "authors": [
+        "Xinwei Ju",
+        "Rema Daher",
+        "Danail Stoyanov",
+        "Sophia Bano",
+        "Francisco Vasconcelos"
+      ],
+      "published": "2026-02-19T19:38:11+00:00",
+      "updated": "2026-02-19T19:38:11+00:00",
+      "summary": "Monocular depth and pose estimation play an important role in the development of colonoscopy-assisted navigation, as they enable improved screening by reducing blind spots, minimizing the risk of missed or recurrent lesions, and lowering the likelihood of incomplete examinations. However, this task remains challenging due to the presence of texture-less surfaces, complex illumination patterns, deformation, and a lack of in-vivo datasets with reliable ground truth. In this paper, we propose **PRISM** (Pose-Refinement with Intrinsic Shading and edge Maps), a self-supervised learning framework that leverages anatomical and illumination priors to guide geometric learning. Our approach uniquely incorporates edge detection and luminance decoupling for structural guidance. Specifically, edge maps are derived using a learning-based edge detector (e.g., DexiNed or HED) trained to capture thin and high-frequency boundaries, while luminance decoupling is obtained through an intrinsic decomposition module that separates shading and reflectance, enabling the model to exploit shading cues for depth estimation. Experimental results on multiple real and synthetic datasets demonstrate state-of-the-art performance. We further conduct a thorough ablation study on training data selection to establish best practices for pose and depth estimation in colonoscopy. This analysis yields two practical insights: (1) self-supervised training on real-world data outperforms supervised training on realistic phantom data, underscoring the superiority of domain realism over ground truth availability; and (2) video frame rate is an extremely important factor for model performance, where dataset-specific video frame sampling is necessary for generating high quality training data.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.17785v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "14 pages, 6 figures; early accepted by IPCAI2026",
+      "entry_id": "http://arxiv.org/abs/2602.17785v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.17785v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.17785v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2602.16915": {
       "title": "StereoAdapter-2: Globally Structure-Consistent Underwater Stereo Depth Estimation",
       "authors": [

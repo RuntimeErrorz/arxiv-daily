@@ -1,4 +1,4 @@
-## Updated at 2026-02-23 08:24:33
+## Updated at 2026-02-24 08:24:29
 
 ## 3DGS Semantic
 
@@ -649,6 +649,8 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-02-20**|**[A Single Image and Multimodality Is All You Need for Novel View Synthesis](https://arxiv.org/abs/2602.17909)**|N/A|None|cs.CV|None|Amirhosein Javadi et al.|
+|**2026-02-19**|**[Multi-Modal Monocular Endoscopic Depth and Pose Estimation with Edge-Guided Self-Supervision](https://arxiv.org/abs/2602.17785)**|N/A|14 pages, 6 figures; early accepted by IPCAI2026|cs.CV|None|Xinwei Ju et al.|
 |**2026-02-18**|**[StereoAdapter-2: Globally Structure-Consistent Underwater Stereo Depth Estimation](https://arxiv.org/abs/2602.16915)**|N/A|None|cs.CV|None|Zeyu Ren et al.|
 |**2026-02-18**|**[Breaking the Sub-Millimeter Barrier: Eyeframe Acquisition from Color Images](https://arxiv.org/abs/2602.16281)**|N/A|Accepted to CAI 2026|cs.CV|None|Manel Guzmán, Antonio Agudo|
 |**2026-02-16**|**[AnchorWeave: World-Consistent Video Generation with Retrieved Local Spatial Memories](https://arxiv.org/abs/2602.14941)**|N/A|Project website: https://zunwang1.github.io/AnchorWeave|cs.CV|None|Zun Wang et al.|
