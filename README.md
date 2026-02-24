@@ -1,4 +1,4 @@
-## Updated at 2026-02-24 08:24:29
+## Updated at 2026-02-24 20:15:42
 
 ## 3DGS Semantic
 
@@ -190,6 +190,7 @@ Query: (abs:'Multi-View Stereo' OR abs:'Multi View Stereo' OR abs:'Multi-View De
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-02-23**|**[One2Scene: Geometric Consistent Explorable 3D Scene Generation from a Single Image](https://arxiv.org/abs/2602.19766)**|N/A|ICLR 2026|cs.CV|None|Pengfei Wang et al.|
 |**2026-02-10**|**[RAD: Retrieval-Augmented Monocular Metric Depth Estimation for Underrepresented Classes](https://arxiv.org/abs/2602.09532)**|N/A|None|cs.CV|None|Michael Baltaxe et al.|
 |**2026-02-08**|**[Recovering 3D Shapes from Ultra-Fast Motion-Blurred Images](https://arxiv.org/abs/2602.07860)**|N/A|Accepted by 3DV 2026. Project page: https://maxmilite.github.io/rec-from-ultrafast-blur/|cs.CV|None|Fei Yu et al.|
 |**2026-02-05**|**[NeVStereo: A NeRF-Driven NVS-Stereo Architecture for High-Fidelity 3D Tasks](https://arxiv.org/abs/2602.05423)**|N/A|None|cs.CV|None|Pengcheng Chen et al.|
@@ -649,6 +650,9 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-02-23**|**[One2Scene: Geometric Consistent Explorable 3D Scene Generation from a Single Image](https://arxiv.org/abs/2602.19766)**|N/A|ICLR 2026|cs.CV|None|Pengfei Wang et al.|
+|**2026-02-23**|**[Training Deep Stereo Matching Networks on Tree Branch Imagery: A Benchmark Study for Real-Time UAV Forestry Applications](https://arxiv.org/abs/2602.19763)**|N/A|None|cs.CV|None|Yida Lin et al.|
+|**2026-02-21**|**[Marginalized Bundle Adjustment: Multi-View Camera Pose from Monocular Depth Estimates](https://arxiv.org/abs/2602.18906)**|N/A|None|cs.CV|None|Shengjie Zhu et al.|
 |**2026-02-20**|**[A Single Image and Multimodality Is All You Need for Novel View Synthesis](https://arxiv.org/abs/2602.17909)**|N/A|None|cs.CV|None|Amirhosein Javadi et al.|
 |**2026-02-19**|**[Multi-Modal Monocular Endoscopic Depth and Pose Estimation with Edge-Guided Self-Supervision](https://arxiv.org/abs/2602.17785)**|N/A|14 pages, 6 figures; early accepted by IPCAI2026|cs.CV|None|Xinwei Ju et al.|
 |**2026-02-18**|**[StereoAdapter-2: Globally Structure-Consistent Underwater Stereo Depth Estimation](https://arxiv.org/abs/2602.16915)**|N/A|None|cs.CV|None|Zeyu Ren et al.|

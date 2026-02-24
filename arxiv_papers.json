@@ -1,5 +1,40 @@
 {
   "3DGS Semantic": {
+    "2602.19206": {
+      "title": "GS-CLIP: Zero-shot 3D Anomaly Detection by Geometry-Aware Prompt and Synergistic View Representation Learning",
+      "authors": [
+        "Zehao Deng",
+        "An Liu",
+        "Yan Wang"
+      ],
+      "published": "2026-02-22T14:30:41+00:00",
+      "updated": "2026-02-22T14:30:41+00:00",
+      "summary": "Zero-shot 3D Anomaly Detection is an emerging task that aims to detect anomalies in a target dataset without any target training data, which is particularly important in scenarios constrained by sample scarcity and data privacy concerns. While current methods adapt CLIP by projecting 3D point clouds into 2D representations, they face challenges. The projection inherently loses some geometric details, and the reliance on a single 2D modality provides an incomplete visual understanding, limiting their ability to detect diverse anomaly types. To address these limitations, we propose the Geometry-Aware Prompt and Synergistic View Representation Learning (GS-CLIP) framework, which enables the model to identify geometric anomalies through a two-stage learning process. In stage 1, we dynamically generate text prompts embedded with 3D geometric priors. These prompts contain global shape context and local defect information distilled by our Geometric Defect Distillation Module (GDDM). In stage 2, we introduce Synergistic View Representation Learning architecture that processes rendered and depth images in parallel. A Synergistic Refinement Module (SRM) subsequently fuses the features of both streams, capitalizing on their complementary strengths. Comprehensive experimental results on four large-scale public datasets show that GS-CLIP achieves superior performance in detection. Code can be available at https://github.com/zhushengxinyue/GS-CLIP.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.19206v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.19206v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.19206v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.19206v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2602.17979": {
       "title": "Learning While Transmitting: Pilotless Polar Coded Modulation for Short Packet Transmission",
       "authors": [
@@ -452,27 +487,27 @@
         "Jose Miguel Hernández-Lobato"
       ],
       "published": "2026-02-16T17:17:08+00:00",
-      "updated": "2026-02-16T17:17:08+00:00",
+      "updated": "2026-02-23T10:54:32+00:00",
       "summary": "Reliable uncertainty estimates are crucial for deploying pretrained models; yet, many strong methods for quantifying uncertainty require retraining, Monte Carlo sampling, or expensive second-order computations and may alter a frozen backbone's predictions. To address this, we introduce Gaussian Process Activations (GAPA), a post-hoc method that shifts Bayesian modeling from weights to activations. GAPA replaces standard nonlinearities with Gaussian-process activations whose posterior mean exactly matches the original activation, preserving the backbone's point predictions by construction while providing closed-form epistemic variances in activation space. To scale to modern architectures, we use a sparse variational inducing-point approximation over cached training activations, combined with local k-nearest-neighbor subset conditioning, enabling deterministic single-pass uncertainty propagation without sampling, backpropagation, or second-order information. Across regression, classification, image segmentation, and language modeling, GAPA matches or outperforms strong post-hoc baselines in calibration and out-of-distribution detection while remaining efficient at test time.",
       "categories": [
         "stat.ML",
         "cs.LG"
       ],
       "primary_category": "stat.ML",
-      "pdf_url": "https://arxiv.org/pdf/2602.14934v1",
+      "pdf_url": "https://arxiv.org/pdf/2602.14934v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2602.14934v1",
+      "entry_id": "http://arxiv.org/abs/2602.14934v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2602.14934v1",
+          "href": "https://arxiv.org/abs/2602.14934v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2602.14934v1",
+          "href": "https://arxiv.org/pdf/2602.14934v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -4420,27 +4455,27 @@
         "Vittorio Loreto"
       ],
       "published": "2026-01-20T11:02:54+00:00",
-      "updated": "2026-01-20T11:02:54+00:00",
-      "summary": "Self-Organizing Maps provide topology-preserving projections of high-dimensional data and have been widely used for visualization, clustering, and vector quantization. In this work, we show that the activation pattern of a SOM - the squared distances to its prototypes - can be inverted to recover the exact input under mild geometric conditions. This follows from a classical fact in Euclidean distance geometry: a point in $D$ dimensions is uniquely determined by its distances to $D{+}1$ affinely independent references. We derive the corresponding linear system and characterize the conditions under which the inversion is well-posed. Building upon this mechanism, we introduce the Manifold-Aware Unified SOM Inversion and Control (MUSIC) update rule, which enables controlled, semantically meaningful trajectories in latent space. MUSIC modifies squared distances to selected prototypes while preserving others, resulting in a deterministic geometric flow aligned with the SOM's piecewise-linear structure. Tikhonov regularization stabilizes the update rule and ensures smooth motion on high-dimensional datasets. Unlike variational or probabilistic generative models, MUSIC does not rely on sampling, latent priors, or encoder-decoder architectures. If no perturbation is applied, inversion recovers the exact input; when a target cluster or prototype is specified, MUSIC produces coherent semantic variations while remaining on the data manifold. This leads to a new perspective on data augmentation and controllable latent exploration based solely on prototype geometry. We validate the approach using synthetic Gaussian mixtures, the MNIST and the Faces in the Wild dataset. Across all settings, MUSIC produces smooth, interpretable trajectories that reveal the underlying geometry of the learned manifold, illustrating the advantages of SOM-based inversion over unsupervised clustering.",
+      "updated": "2026-02-23T11:03:39+00:00",
+      "summary": "Self-Organizing Maps (SOMs) provide topology-preserving projections of high-dimensional data, yet their use as generative models remains largely unexplored. We show that the activation pattern of a SOM -- the squared distances to its prototypes -- can be \\emph{inverted} to recover the exact input, following from a classical result in Euclidean distance geometry: a point in $D$ dimensions is uniquely determined by its distances to $D{+}1$ affinely independent references. We derive the corresponding linear system and characterize the conditions under which inversion is well-posed. Building on this mechanism, we introduce the \\emph{Manifold-Aware Unified SOM Inversion and Control} (MUSIC) update rule, which modifies squared distances to selected prototypes while preserving others, producing controlled, semantically meaningful trajectories aligned with the SOM's piecewise-linear structure. Tikhonov regularization stabilizes the update and ensures smooth motion in high dimensions. Unlike variational or diffusion-based generative models, MUSIC requires no sampling, latent priors, or learned decoders: it operates entirely on prototype geometry. If no perturbation is applied, inversion recovers the exact input; when a target prototype or cluster is specified, MUSIC produces coherent semantic transitions. We validate the framework on synthetic Gaussian mixtures, MNIST digits, and the Labeled Faces in the Wild dataset. Across all settings, MUSIC trajectories maintain high classifier confidence, produce significantly sharper intermediate images than linear interpolation, and reveal an interpretable geometric structure of the learned map.",
       "categories": [
         "cs.LG",
         "stat.ML"
       ],
       "primary_category": "cs.LG",
-      "pdf_url": "https://arxiv.org/pdf/2601.13851v1",
+      "pdf_url": "https://arxiv.org/pdf/2601.13851v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2601.13851v1",
+      "entry_id": "http://arxiv.org/abs/2601.13851v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2601.13851v1",
+          "href": "https://arxiv.org/abs/2601.13851v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2601.13851v1",
+          "href": "https://arxiv.org/pdf/2601.13851v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -5049,26 +5084,26 @@
         "Kuldeep Kulkarni"
       ],
       "published": "2026-01-10T02:28:31+00:00",
-      "updated": "2026-01-10T02:28:31+00:00",
+      "updated": "2026-02-23T07:21:22+00:00",
       "summary": "In this paper, we introduce Object-WIPER, a training-free framework for removing dynamic objects and their associated visual effects from videos, and inpainting them with semantically consistent and temporally coherent content. Our approach leverages a pre-trained text-to-video diffusion transformer (DiT). Given an input video, a user-provided object mask, and query tokens describing the target object and its effects, we localize relevant visual tokens via visual-text cross-attention and visual self-attention. This produces an intermediate effect mask that we fuse with the user mask to obtain a final foreground token mask to replace. We first invert the video through the DiT to obtain structured noise, then reinitialize the masked tokens with Gaussian noise while preserving background tokens. During denoising, we copy values for the background tokens saved during inversion to maintain scene fidelity. To address the lack of suitable evaluation, we introduce a new object removal metric that rewards temporal consistency among foreground tokens across consecutive frames, coherence between foreground and background tokens within each frame, and dissimilarity between the input and output foreground tokens. Experiments on DAVIS and a newly curated real-world associated effect benchmark (WIPER-Bench) show that Object-WIPER surpasses both training-based and training-free baselines in terms of the metric, achieving clean removal and temporally stable reconstruction without any retraining. Our new benchmark, source code, and pre-trained models will be publicly available.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2601.06391v1",
+      "pdf_url": "https://arxiv.org/pdf/2601.06391v2",
       "journal_ref": null,
       "doi": null,
-      "comment": "Project Page: https://sakshamsingh1.github.io/object_wiper_webpage/",
-      "entry_id": "http://arxiv.org/abs/2601.06391v1",
+      "comment": "Accepted to CVPR 2026. Project Page: https://sakshamsingh1.github.io/object_wiper_webpage/",
+      "entry_id": "http://arxiv.org/abs/2601.06391v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2601.06391v1",
+          "href": "https://arxiv.org/abs/2601.06391v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2601.06391v1",
+          "href": "https://arxiv.org/pdf/2601.06391v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -80338,6 +80373,43 @@
     }
   },
   "MVS": {
+    "2602.19766": {
+      "title": "One2Scene: Geometric Consistent Explorable 3D Scene Generation from a Single Image",
+      "authors": [
+        "Pengfei Wang",
+        "Liyi Chen",
+        "Zhiyuan Ma",
+        "Yanjun Guo",
+        "Guowen Zhang",
+        "Lei Zhang"
+      ],
+      "published": "2026-02-23T12:15:54+00:00",
+      "updated": "2026-02-23T12:15:54+00:00",
+      "summary": "Generating explorable 3D scenes from a single image is a highly challenging problem in 3D vision. Existing methods struggle to support free exploration, often producing severe geometric distortions and noisy artifacts when the viewpoint moves far from the original perspective. We introduce \\textbf{One2Scene}, an effective framework that decomposes this ill-posed problem into three tractable sub-tasks to enable immersive explorable scene generation. We first use a panorama generator to produce anchor views from a single input image as initialization. Then, we lift these 2D anchors into an explicit 3D geometric scaffold via a generalizable, feed-forward Gaussian Splatting network. Instead of treating the panorama as a single image for reconstruction, we project it into multiple sparse anchor views and reformulate the reconstruction task as multi-view stereo matching, which allows us to leverage robust geometric priors learned from large-scale multi-view datasets. A bidirectional feature fusion module is used to enforce cross-view consistency, yielding an efficient and geometrically reliable scaffold. Finally, the scaffold serves as a strong prior for a novel view generator to produce photorealistic and geometrically accurate views at arbitrary cameras. By explicitly conditioning on a 3D-consistent scaffold to perform reconstruction, One2Scene works stably under large camera motions, supporting immersive scene exploration. Extensive experiments show that One2Scene substantially outperforms state-of-the-art methods in panorama depth estimation, feed-forward 360° reconstruction, and explorable 3D scene generation. Code and models will be released.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.19766v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "ICLR 2026",
+      "entry_id": "http://arxiv.org/abs/2602.19766v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.19766v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.19766v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2602.09532": {
       "title": "RAD: Retrieval-Augmented Monocular Metric Depth Estimation for Underrepresented Classes",
       "authors": [
@@ -97159,6 +97231,116 @@
     }
   },
   "Depth Estimation": {
+    "2602.19766": {
+      "title": "One2Scene: Geometric Consistent Explorable 3D Scene Generation from a Single Image",
+      "authors": [
+        "Pengfei Wang",
+        "Liyi Chen",
+        "Zhiyuan Ma",
+        "Yanjun Guo",
+        "Guowen Zhang",
+        "Lei Zhang"
+      ],
+      "published": "2026-02-23T12:15:54+00:00",
+      "updated": "2026-02-23T12:15:54+00:00",
+      "summary": "Generating explorable 3D scenes from a single image is a highly challenging problem in 3D vision. Existing methods struggle to support free exploration, often producing severe geometric distortions and noisy artifacts when the viewpoint moves far from the original perspective. We introduce \\textbf{One2Scene}, an effective framework that decomposes this ill-posed problem into three tractable sub-tasks to enable immersive explorable scene generation. We first use a panorama generator to produce anchor views from a single input image as initialization. Then, we lift these 2D anchors into an explicit 3D geometric scaffold via a generalizable, feed-forward Gaussian Splatting network. Instead of treating the panorama as a single image for reconstruction, we project it into multiple sparse anchor views and reformulate the reconstruction task as multi-view stereo matching, which allows us to leverage robust geometric priors learned from large-scale multi-view datasets. A bidirectional feature fusion module is used to enforce cross-view consistency, yielding an efficient and geometrically reliable scaffold. Finally, the scaffold serves as a strong prior for a novel view generator to produce photorealistic and geometrically accurate views at arbitrary cameras. By explicitly conditioning on a 3D-consistent scaffold to perform reconstruction, One2Scene works stably under large camera motions, supporting immersive scene exploration. Extensive experiments show that One2Scene substantially outperforms state-of-the-art methods in panorama depth estimation, feed-forward 360° reconstruction, and explorable 3D scene generation. Code and models will be released.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.19766v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "ICLR 2026",
+      "entry_id": "http://arxiv.org/abs/2602.19766v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.19766v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.19766v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2602.19763": {
+      "title": "Training Deep Stereo Matching Networks on Tree Branch Imagery: A Benchmark Study for Real-Time UAV Forestry Applications",
+      "authors": [
+        "Yida Lin",
+        "Bing Xue",
+        "Mengjie Zhang",
+        "Sam Schofield",
+        "Richard Green"
+      ],
+      "published": "2026-02-23T12:12:43+00:00",
+      "updated": "2026-02-23T12:12:43+00:00",
+      "summary": "Autonomous drone-based tree pruning needs accurate, real-time depth estimation from stereo cameras. Depth is computed from disparity maps using $Z = f B/d$, so even small disparity errors cause noticeable depth mistakes at working distances. Building on our earlier work that identified DEFOM-Stereo as the best reference disparity generator for vegetation scenes, we present the first study to train and test ten deep stereo matching networks on real tree branch images. We use the Canterbury Tree Branches dataset -- 5,313 stereo pairs from a ZED Mini camera at 1080P and 720P -- with DEFOM-generated disparity maps as training targets. The ten methods cover step-by-step refinement, 3D convolution, edge-aware attention, and lightweight designs. Using perceptual metrics (SSIM, LPIPS, ViTScore) and structural metrics (SIFT/ORB feature matching), we find that BANet-3D produces the best overall quality (SSIM = 0.883, LPIPS = 0.157), while RAFT-Stereo scores highest on scene-level understanding (ViTScore = 0.799). Testing on an NVIDIA Jetson Orin Super (16 GB, independently powered) mounted on our drone shows that AnyNet reaches 6.99 FPS at 1080P -- the only near-real-time option -- while BANet-2D gives the best quality-speed balance at 1.21 FPS. We also compare 720P and 1080P processing times to guide resolution choices for forestry drone systems.",
+      "categories": [
+        "cs.CV",
+        "eess.IV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.19763v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.19763v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.19763v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.19763v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2602.18906": {
+      "title": "Marginalized Bundle Adjustment: Multi-View Camera Pose from Monocular Depth Estimates",
+      "authors": [
+        "Shengjie Zhu",
+        "Ahmed Abdelkader",
+        "Mark J. Matthews",
+        "Xiaoming Liu",
+        "Wen-Sheng Chu"
+      ],
+      "published": "2026-02-21T17:01:32+00:00",
+      "updated": "2026-02-21T17:01:32+00:00",
+      "summary": "Structure-from-Motion (SfM) is a fundamental 3D vision task for recovering camera parameters and scene geometry from multi-view images. While recent deep learning advances enable accurate Monocular Depth Estimation (MDE) from single images without depending on camera motion, integrating MDE into SfM remains a challenge. Unlike conventional triangulated sparse point clouds, MDE produces dense depth maps with significantly higher error variance. Inspired by modern RANSAC estimators, we propose Marginalized Bundle Adjustment (MBA) to mitigate MDE error variance leveraging its density. With MBA, we show that MDE depth maps are sufficiently accurate to yield SoTA or competitive results in SfM and camera relocalization tasks. Through extensive evaluations, we demonstrate consistently robust performance across varying scales, ranging from few-frame setups to large multi-view systems with thousands of images. Our method highlights the significant potential of MDE in multi-view 3D vision.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.18906v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.18906v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.18906v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.18906v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2602.17909": {
       "title": "A Single Image and Multimodality Is All You Need for Novel View Synthesis",
       "authors": [
