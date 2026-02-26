@@ -1,5 +1,191 @@
 {
   "3DGS Semantic": {
+    "2602.21874": {
+      "title": "Interactive Augmented Reality-enabled Outdoor Scene Visualization For Enhanced Real-time Disaster Response",
+      "authors": [
+        "Dimitrios Apostolakis",
+        "Georgios Angelidis",
+        "Vasileios Argyriou",
+        "Panagiotis Sarigiannidis",
+        "Georgios Th. Papadopoulos"
+      ],
+      "published": "2026-02-25T12:59:31+00:00",
+      "updated": "2026-02-25T12:59:31+00:00",
+      "summary": "A user-centered AR interface for disaster response is presented in this work that uses 3D Gaussian Splatting (3DGS) to visualize detailed scene reconstructions, while maintaining situational awareness and keeping cognitive load low. The interface relies on a lightweight interaction approach, combining World-in-Miniature (WIM) navigation with semantic Points of Interest (POIs) that can be filtered as needed, and it is supported by an architecture designed to stream updates as reconstructions evolve. User feedback from a preliminary evaluation indicates that this design is easy to use and supports real-time coordination, with participants highlighting the value of interaction and POIs for fast decision-making in context. Thorough user-centric performance evaluation demonstrates strong usability of the developed interface and high acceptance ratios.",
+      "categories": [
+        "cs.HC"
+      ],
+      "primary_category": "cs.HC",
+      "pdf_url": "https://arxiv.org/pdf/2602.21874v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "6 pages, 2 figures",
+      "entry_id": "http://arxiv.org/abs/2602.21874v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.21874v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.21874v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.21873": {
+      "title": "GFPL: Generative Federated Prototype Learning for Resource-Constrained and Data-Imbalanced Vision Task",
+      "authors": [
+        "Shiwei Lu",
+        "Yuhang He",
+        "Jiashuo Li",
+        "Qiang Wang",
+        "Yihong Gong"
+      ],
+      "published": "2026-02-25T12:57:45+00:00",
+      "updated": "2026-02-25T12:57:45+00:00",
+      "summary": "Federated learning (FL) facilitates the secure utilization of decentralized images, advancing applications in medical image recognition and autonomous driving. However, conventional FL faces two critical challenges in real-world deployment: ineffective knowledge fusion caused by model updates biased toward majority-class features, and prohibitive communication overhead due to frequent transmissions of high-dimensional model parameters. Inspired by the human brain's efficiency in knowledge integration, we propose a novel Generative Federated Prototype Learning (GFPL) framework to address these issues. Within this framework, a prototype generation method based on Gaussian Mixture Model (GMM) captures the statistical information of class-wise features, while a prototype aggregation strategy using Bhattacharyya distance effectively fuses semantically similar knowledge across clients. In addition, these fused prototypes are leveraged to generate pseudo-features, thereby mitigating feature distribution imbalance across clients. To further enhance feature alignment during local training, we devise a dual-classifier architecture, optimized via a hybrid loss combining Dot Regression and Cross-Entropy. Extensive experiments on benchmarks show that GFPL improves model accuracy by 3.6% under imbalanced data settings while maintaining low communication cost.",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.21873v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.21873v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.21873v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.21873v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.21644": {
+      "title": "DAGS-SLAM: Dynamic-Aware 3DGS SLAM via Spatiotemporal Motion Probability and Uncertainty-Aware Scheduling",
+      "authors": [
+        "Li Zhang",
+        "Yu-An Liu",
+        "Xijia Jiang",
+        "Conghao Huang",
+        "Danyang Li",
+        "Yanyong Zhang"
+      ],
+      "published": "2026-02-25T07:14:07+00:00",
+      "updated": "2026-02-25T07:14:07+00:00",
+      "summary": "Mobile robots and IoT devices demand real-time localization and dense reconstruction under tight compute and energy budgets. While 3D Gaussian Splatting (3DGS) enables efficient dense SLAM, dynamic objects and occlusions still degrade tracking and mapping. Existing dynamic 3DGS-SLAM often relies on heavy optical flow and per-frame segmentation, which is costly for mobile deployment and brittle under challenging illumination. We present DAGS-SLAM, a dynamic-aware 3DGS-SLAM system that maintains a spatiotemporal motion probability (MP) state per Gaussian and triggers semantics on demand via an uncertainty-aware scheduler. DAGS-SLAM fuses lightweight YOLO instance priors with geometric cues to estimate and temporally update MP, propagates MP to the front-end for dynamic-aware correspondence selection, and suppresses dynamic artifacts in the back-end via MP-guided optimization. Experiments on public dynamic RGB-D benchmarks show improved reconstruction and robust tracking while sustaining real-time throughput on a commodity GPU, demonstrating a practical speed-accuracy tradeoff with reduced semantic invocations toward mobile deployment.",
+      "categories": [
+        "cs.RO"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2602.21644v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.21644v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.21644v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.21644v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.21552": {
+      "title": "Generalizing Visual Geometry Priors to Sparse Gaussian Occupancy Prediction",
+      "authors": [
+        "Changqing Zhou",
+        "Yueru Luo",
+        "Changhao Chen"
+      ],
+      "published": "2026-02-25T04:16:54+00:00",
+      "updated": "2026-02-25T04:16:54+00:00",
+      "summary": "Accurate 3D scene understanding is essential for embodied intelligence, with occupancy prediction emerging as a key task for reasoning about both objects and free space. Existing approaches largely rely on depth priors (e.g., DepthAnything) but make only limited use of 3D cues, restricting performance and generalization. Recently, visual geometry models such as VGGT have shown strong capability in providing rich 3D priors, but similar to monocular depth foundation models, they still operate at the level of visible surfaces rather than volumetric interiors, motivating us to explore how to more effectively leverage these increasingly powerful geometry priors for 3D occupancy prediction. We present GPOcc, a framework that leverages generalizable visual geometry priors (GPs) for monocular occupancy prediction. Our method extends surface points inward along camera rays to generate volumetric samples, which are represented as Gaussian primitives for probabilistic occupancy inference. To handle streaming input, we further design a training-free incremental update strategy that fuses per-frame Gaussians into a unified global representation. Experiments on Occ-ScanNet and EmbodiedOcc-ScanNet demonstrate significant gains: GPOcc improves mIoU by +9.99 in the monocular setting and +11.79 in the streaming setting over prior state of the art. Under the same depth prior, it achieves +6.73 mIoU while running 2.65$\\times$ faster. These results highlight that GPOcc leverages geometry priors more effectively and efficiently. Code will be released at https://github.com/JuIvyy/GPOcc.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.21552v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted by CVPR2026",
+      "entry_id": "http://arxiv.org/abs/2602.21552v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.21552v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.21552v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.21333": {
+      "title": "HorizonForge: Driving Scene Editing with Any Trajectories and Any Vehicles",
+      "authors": [
+        "Yifan Wang",
+        "Francesco Pittaluga",
+        "Zaid Tasneem",
+        "Chenyu You",
+        "Manmohan Chandraker",
+        "Ziyu Jiang"
+      ],
+      "published": "2026-02-24T20:03:47+00:00",
+      "updated": "2026-02-24T20:03:47+00:00",
+      "summary": "Controllable driving scene generation is critical for realistic and scalable autonomous driving simulation, yet existing approaches struggle to jointly achieve photorealism and precise control. We introduce HorizonForge, a unified framework that reconstructs scenes as editable Gaussian Splats and Meshes, enabling fine-grained 3D manipulation and language-driven vehicle insertion. Edits are rendered through a noise-aware video diffusion process that enforces spatial and temporal consistency, producing diverse scene variations in a single feed-forward pass without per-trajectory optimization. To standardize evaluation, we further propose HorizonSuite, a comprehensive benchmark spanning ego- and agent-level editing tasks such as trajectory modifications and object manipulation. Extensive experiments show that Gaussian-Mesh representation delivers substantially higher fidelity than alternative 3D representations, and that temporal priors from video diffusion are essential for coherent synthesis. Combining these findings, HorizonForge establishes a simple yet powerful paradigm for photorealistic, controllable driving simulation, achieving an 83.4% user-preference gain and a 25.19% FID improvement over the second best state-of-the-art method. Project page: https://horizonforge.github.io/ .",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.21333v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted by CVPR 2026",
+      "entry_id": "http://arxiv.org/abs/2602.21333v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.21333v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.21333v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2602.21185": {
       "title": "The Diffusion Duality, Chapter II: $Ψ$-Samplers and Efficient Curriculum",
       "authors": [
@@ -28,6 +214,43 @@
         },
         {
           "href": "https://arxiv.org/pdf/2602.21185v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.21273": {
+      "title": "StoryTailor:A Zero-Shot Pipeline for Action-Rich Multi-Subject Visual Narratives",
+      "authors": [
+        "Jinghao Hu",
+        "Yuhe Zhang",
+        "GuoHua Geng",
+        "Kang Li",
+        "Han Zhang"
+      ],
+      "published": "2026-02-24T16:07:02+00:00",
+      "updated": "2026-02-24T16:07:02+00:00",
+      "summary": "Generating multi-frame, action-rich visual narratives without fine-tuning faces a threefold tension: action text faithfulness, subject identity fidelity, and cross-frame background continuity. We propose StoryTailor, a zero-shot pipeline that runs on a single RTX 4090 (24 GB) and produces temporally coherent, identity-preserving image sequences from a long narrative prompt, per-subject references, and grounding boxes. Three synergistic modules drive the system: Gaussian-Centered Attention (GCA) to dynamically focus on each subject core and ease grounding-box overlaps; Action-Boost Singular Value Reweighting (AB-SVR) to amplify action-related directions in the text embedding space; and Selective Forgetting Cache (SFC) that retains transferable background cues, forgets nonessential history, and selectively surfaces retained cues to build cross-scene semantic ties. Compared with baseline methods, experiments show that CLIP-T improves by up to 10-15%, with DreamSim lower than strong baselines, while CLIP-I stays in a visually acceptable, competitive range. With matched resolution and steps on a 24 GB GPU, inference is faster than FluxKontext. Qualitatively, StoryTailor delivers expressive interactions and evolving yet stable scenes.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.21273v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "24 pages,19 figures,accepted by CVPR2026",
+      "entry_id": "http://arxiv.org/abs/2602.21273v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.21273v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.21273v1",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -124,26 +347,26 @@
         "Yan Wang"
       ],
       "published": "2026-02-22T14:30:41+00:00",
-      "updated": "2026-02-22T14:30:41+00:00",
+      "updated": "2026-02-25T09:33:40+00:00",
       "summary": "Zero-shot 3D Anomaly Detection is an emerging task that aims to detect anomalies in a target dataset without any target training data, which is particularly important in scenarios constrained by sample scarcity and data privacy concerns. While current methods adapt CLIP by projecting 3D point clouds into 2D representations, they face challenges. The projection inherently loses some geometric details, and the reliance on a single 2D modality provides an incomplete visual understanding, limiting their ability to detect diverse anomaly types. To address these limitations, we propose the Geometry-Aware Prompt and Synergistic View Representation Learning (GS-CLIP) framework, which enables the model to identify geometric anomalies through a two-stage learning process. In stage 1, we dynamically generate text prompts embedded with 3D geometric priors. These prompts contain global shape context and local defect information distilled by our Geometric Defect Distillation Module (GDDM). In stage 2, we introduce Synergistic View Representation Learning architecture that processes rendered and depth images in parallel. A Synergistic Refinement Module (SRM) subsequently fuses the features of both streams, capitalizing on their complementary strengths. Comprehensive experimental results on four large-scale public datasets show that GS-CLIP achieves superior performance in detection. Code can be available at https://github.com/zhushengxinyue/GS-CLIP.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2602.19206v1",
+      "pdf_url": "https://arxiv.org/pdf/2602.19206v2",
       "journal_ref": null,
       "doi": null,
-      "comment": null,
-      "entry_id": "http://arxiv.org/abs/2602.19206v1",
+      "comment": "Accepted by CVPR 2026",
+      "entry_id": "http://arxiv.org/abs/2602.19206v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2602.19206v1",
+          "href": "https://arxiv.org/abs/2602.19206v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2602.19206v1",
+          "href": "https://arxiv.org/pdf/2602.19206v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -80489,6 +80712,44 @@
     }
   },
   "MVS": {
+    "2602.22025": {
+      "title": "Olbedo: An Albedo and Shading Aerial Dataset for Large-Scale Outdoor Environments",
+      "authors": [
+        "Shuang Song",
+        "Debao Huang",
+        "Deyan Deng",
+        "Haolin Xiong",
+        "Yang Tang",
+        "Yajie Zhao",
+        "Rongjun Qin"
+      ],
+      "published": "2026-02-24T15:37:10+00:00",
+      "updated": "2026-02-24T15:37:10+00:00",
+      "summary": "Intrinsic image decomposition (IID) of outdoor scenes is crucial for relighting, editing, and understanding large-scale environments, but progress has been limited by the lack of real-world datasets with reliable albedo and shading supervision. We introduce Olbedo, a large-scale aerial dataset for outdoor albedo--shading decomposition in the wild. Olbedo contains 5,664 UAV images captured across four landscape types, multiple years, and diverse illumination conditions. Each view is accompanied by multi-view consistent albedo and shading maps, metric depth, surface normals, sun and sky shading components, camera poses, and, for recent flights, measured HDR sky domes. These annotations are derived from an inverse-rendering refinement pipeline over multi-view stereo reconstructions and calibrated sky illumination, together with per-pixel confidence masks. We demonstrate that Olbedo enables state-of-the-art diffusion-based IID models, originally trained on synthetic indoor data, to generalize to real outdoor imagery: fine-tuning on Olbedo significantly improves single-view outdoor albedo prediction on the MatrixCity benchmark. We further illustrate applications of Olbedo-trained models to multi-view consistent relighting of 3D assets, material editing, and scene change analysis for urban digital twins. We release the dataset, baseline models, and an evaluation protocol to support future research in outdoor intrinsic decomposition and illumination-aware aerial vision.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.22025v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "CVPR 2026",
+      "entry_id": "http://arxiv.org/abs/2602.22025v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.22025v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.22025v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2602.19766": {
       "title": "One2Scene: Geometric Consistent Explorable 3D Scene Generation from a Single Image",
       "authors": [
@@ -97347,6 +97608,80 @@
     }
   },
   "Depth Estimation": {
+    "2602.21893": {
+      "title": "EndoDDC: Learning Sparse to Dense Reconstruction for Endoscopic Robotic Navigation via Diffusion Depth Completion",
+      "authors": [
+        "Yinheng Lin",
+        "Yiming Huang",
+        "Beilei Cui",
+        "Long Bai",
+        "Huxin Gao",
+        "Hongliang Ren",
+        "Jiewen Lai"
+      ],
+      "published": "2026-02-25T13:21:49+00:00",
+      "updated": "2026-02-25T13:21:49+00:00",
+      "summary": "Accurate depth estimation plays a critical role in the navigation of endoscopic surgical robots, forming the foundation for 3D reconstruction and safe instrument guidance. Fine-tuning pretrained models heavily relies on endoscopic surgical datasets with precise depth annotations. While existing self-supervised depth estimation techniques eliminate the need for accurate depth annotations, their performance degrades in environments with weak textures and variable lighting, leading to sparse reconstruction with invalid depth estimation. Depth completion using sparse depth maps can mitigate these issues and improve accuracy. Despite the advances in depth completion techniques in general fields, their application in endoscopy remains limited. To overcome these limitations, we propose EndoDDC, an endoscopy depth completion method that integrates images, sparse depth information with depth gradient features, and optimizes depth maps through a diffusion model, addressing the issues of weak texture and light reflection in endoscopic environments. Extensive experiments on two publicly available endoscopy datasets show that our approach outperforms state-of-the-art models in both depth accuracy and robustness. This demonstrates the potential of our method to reduce visual errors in complex endoscopic environments. Our code will be released at https://github.com/yinheng-lin/EndoDDC.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.21893v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted by ICRA 2026",
+      "entry_id": "http://arxiv.org/abs/2602.21893v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.21893v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.21893v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2602.21740": {
+      "title": "Structure-to-Image: Zero-Shot Depth Estimation in Colonoscopy via High-Fidelity Sim-to-Real Adaptation",
+      "authors": [
+        "Juan Yang",
+        "Yuyan Zhang",
+        "Han Jia",
+        "Bing Hu",
+        "Wanzhong Song"
+      ],
+      "published": "2026-02-25T09:51:53+00:00",
+      "updated": "2026-02-25T09:51:53+00:00",
+      "summary": "Monocular depth estimation (MDE) for colonoscopy is hampered by the domain gap between simulated and real-world images. Existing image-to-image translation methods, which use depth as a posterior constraint, often produce structural distortions and specular highlights by failing to balance realism with structure consistency. To address this, we propose a Structure-to-Image paradigm that transforms the depth map from a passive constraint into an active generative foundation. We are the first to introduce phase congruency to colonoscopic domain adaptation and design a cross-level structure constraint to co-optimize geometric structures and fine-grained details like vascular textures. In zero-shot evaluations conducted on a publicly available phantom dataset, the MDE model that was fine-tuned on our generated data achieved a maximum reduction of 44.18% in RMSE compared to competing methods. Our code is available at https://github.com/YyangJJuan/PC-S2I.git.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.21740v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "\\c{opyright} 20XX IEEE. Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of this work in other works",
+      "entry_id": "http://arxiv.org/abs/2602.21740v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.21740v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.21740v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2602.19766": {
       "title": "One2Scene: Geometric Consistent Explorable 3D Scene Generation from a Single Image",
       "authors": [
