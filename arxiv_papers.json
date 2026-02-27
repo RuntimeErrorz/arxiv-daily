@@ -1,5 +1,279 @@
 {
   "3DGS Semantic": {
+    "2602.23172": {
+      "title": "Latent Gaussian Splatting for 4D Panoptic Occupancy Tracking",
+      "authors": [
+        "Maximilian Luz",
+        "Rohit Mohan",
+        "Thomas Nürnberg",
+        "Yakov Miron",
+        "Daniele Cattaneo",
+        "Abhinav Valada"
+      ],
+      "published": "2026-02-26T16:34:49+00:00",
+      "updated": "2026-02-26T16:34:49+00:00",
+      "summary": "Capturing 4D spatiotemporal surroundings is crucial for the safe and reliable operation of robots in dynamic environments. However, most existing methods address only one side of the problem: they either provide coarse geometric tracking via bounding boxes, or detailed 3D structures like voxel-based occupancy that lack explicit temporal association. In this work, we present Latent Gaussian Splatting for 4D Panoptic Occupancy Tracking (LaGS) that advances spatiotemporal scene understanding in a holistic direction. Our approach incorporates camera-based end-to-end tracking with mask-based multi-view panoptic occupancy prediction, and addresses the key challenge of efficiently aggregating multi-view information into 3D voxel grids via a novel latent Gaussian splatting approach. Specifically, we first fuse observations into 3D Gaussians that serve as a sparse point-centric latent representation of the 3D scene, and then splat the aggregated features onto a 3D voxel grid that is decoded by a mask-based segmentation head. We evaluate LaGS on the Occ3D nuScenes and Waymo datasets, achieving state-of-the-art performance for 4D panoptic occupancy tracking. We make our code available at https://lags.cs.uni-freiburg.de/.",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.23172v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.23172v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.23172v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.23172v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.22695": {
+      "title": "GFRRN: Explore the Gaps in Single Image Reflection Removal",
+      "authors": [
+        "Yu Chen",
+        "Zewei He",
+        "Xingyu Liu",
+        "Zixuan Chen",
+        "Zheming Lu"
+      ],
+      "published": "2026-02-26T07:17:49+00:00",
+      "updated": "2026-02-26T07:17:49+00:00",
+      "summary": "Prior dual-stream methods with the feature interaction mechanism have achieved remarkable performance in single image reflection removal (SIRR). However, they often struggle with (1) semantic understanding gap between the features of pre-trained models and those of reflection removal models, and (2) reflection label inconsistencies between synthetic and real-world training data. In this work, we first adopt the parameter efficient fine-tuning (PEFT) strategy by integrating several learnable Mona layers into the pre-trained model to align the training directions. Then, a label generator is designed to unify the reflection labels for both synthetic and real-world data. In addition, a Gaussian-based Adaptive Frequency Learning Block (G-AFLB) is proposed to adaptively learn and fuse the frequency priors, and a Dynamic Agent Attention (DAA) is employed as an alternative to window-based attention by dynamically modeling the significance levels across windows (inter-) and within an individual window (intra-). These components constitute our proposed Gap-Free Reflection Removal Network (GFRRN). Extensive experiments demonstrate the effectiveness of our GFRRN, achieving superior performance against state-of-the-art SIRR methods.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.22695v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "CVPR26",
+      "entry_id": "http://arxiv.org/abs/2602.22695v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.22695v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.22695v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.22667": {
+      "title": "Monocular Open Vocabulary Occupancy Prediction for Indoor Scenes",
+      "authors": [
+        "Changqing Zhou",
+        "Yueru Luo",
+        "Han Zhang",
+        "Zeyu Jiang",
+        "Changhao Chen"
+      ],
+      "published": "2026-02-26T06:37:43+00:00",
+      "updated": "2026-02-26T06:37:43+00:00",
+      "summary": "Open-vocabulary 3D occupancy is vital for embodied agents, which need to understand complex indoor environments where semantic categories are abundant and evolve beyond fixed taxonomies. While recent work has explored open-vocabulary occupancy in outdoor driving scenarios, such methods transfer poorly indoors, where geometry is denser, layouts are more intricate, and semantics are far more fine-grained. To address these challenges, we adopt a geometry-only supervision paradigm that uses only binary occupancy labels (occupied vs free). Our framework builds upon 3D Language-Embedded Gaussians, which serve as a unified intermediate representation coupling fine-grained 3D geometry with a language-aligned semantic embedding. On the geometry side, we find that existing Gaussian-to-Occupancy operators fail to converge under such weak supervision, and we introduce an opacity-aware, Poisson-based approach that stabilizes volumetric aggregation. On the semantic side, direct alignment between rendered features and open-vocabulary segmentation features suffers from feature mixing; we therefore propose a Progressive Temperature Decay schedule that gradually sharpens opacities during splatting, strengthening Gaussian-language alignment. On Occ-ScanNet, our framework achieves 59.50 IoU and 21.05 mIoU in the open-vocabulary setting, surpassing all existing occupancy methods in IoU and outperforming prior open-vocabulary approaches by a large margin in mIoU. Code will be released at https://github.com/JuIvyy/LegoOcc.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.22667v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted by CVPR2026",
+      "entry_id": "http://arxiv.org/abs/2602.22667v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.22667v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.22667v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2602.22666": {
+      "title": "ArtPro: Self-Supervised Articulated Object Reconstruction with Adaptive Integration of Mobility Proposals",
+      "authors": [
+        "Xuelu Li",
+        "Zhaonan Wang",
+        "Xiaogang Wang",
+        "Lei Wu",
+        "Manyi Li",
+        "Changhe Tu"
+      ],
+      "published": "2026-02-26T06:35:23+00:00",
+      "updated": "2026-02-26T06:35:23+00:00",
+      "summary": "Reconstructing articulated objects into high-fidelity digital twins is crucial for applications such as robotic manipulation and interactive simulation. Recent self-supervised methods using differentiable rendering frameworks like 3D Gaussian Splatting remain highly sensitive to the initial part segmentation. Their reliance on heuristic clustering or pre-trained models often causes optimization to converge to local minima, especially for complex multi-part objects. To address these limitations, we propose ArtPro, a novel self-supervised framework that introduces adaptive integration of mobility proposals. Our approach begins with an over-segmentation initialization guided by geometry features and motion priors, generating part proposals with plausible motion hypotheses. During optimization, we dynamically merge these proposals by analyzing motion consistency among spatial neighbors, while a collision-aware motion pruning mechanism prevents erroneous kinematic estimation. Extensive experiments on both synthetic and real-world objects demonstrate that ArtPro achieves robust reconstruction of complex multi-part objects, significantly outperforming existing methods in accuracy and stability.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.22666v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.22666v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.22666v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.22666v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.22596": {
+      "title": "BetterScene: 3D Scene Synthesis with Representation-Aligned Generative Model",
+      "authors": [
+        "Yuci Han",
+        "Charles Toth",
+        "John E. Anderson",
+        "William J. Shuart",
+        "Alper Yilmaz"
+      ],
+      "published": "2026-02-26T03:58:42+00:00",
+      "updated": "2026-02-26T03:58:42+00:00",
+      "summary": "We present BetterScene, an approach to enhance novel view synthesis (NVS) quality for diverse real-world scenes using extremely sparse, unconstrained photos. BetterScene leverages the production-ready Stable Video Diffusion (SVD) model pretrained on billions of frames as a strong backbone, aiming to mitigate artifacts and recover view-consistent details at inference time. Conventional methods have developed similar diffusion-based solutions to address these challenges of novel view synthesis. Despite significant improvements, these methods typically rely on off-the-shelf pretrained diffusion priors and fine-tune only the UNet module while keeping other components frozen, which still leads to inconsistent details and artifacts even when incorporating geometry-aware regularizations like depth or semantic conditions. To address this, we investigate the latent space of the diffusion model and introduce two components: (1) temporal equivariance regularization and (2) vision foundation model-aligned representation, both applied to the variational autoencoder (VAE) module within the SVD pipeline. BetterScene integrates a feed-forward 3D Gaussian Splatting (3DGS) model to render features as inputs for the SVD enhancer and generate continuous, artifact-free, consistent novel views. We evaluate on the challenging DL3DV-10K dataset and demonstrate superior performance compared to state-of-the-art methods.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.22596v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.22596v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.22596v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.22596v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.22368": {
+      "title": "EyeLayer: Integrating Human Attention Patterns into LLM-Based Code Summarization",
+      "authors": [
+        "Jiahao Zhang",
+        "Yifan Zhang",
+        "Kevin Leach",
+        "Yu Huang"
+      ],
+      "published": "2026-02-25T20:04:39+00:00",
+      "updated": "2026-02-25T20:04:39+00:00",
+      "summary": "Code summarization is the task of generating natural language descriptions of source code, which is critical for software comprehension and maintenance. While large language models (LLMs) have achieved remarkable progress on this task, an open question remains: can human expertise in code understanding further guide and enhance these models? We propose EyeLayer, a lightweight attention-augmentation module that incorporates human eye-gaze patterns, as a proxy of human expertise, into LLM-based code summarization. EyeLayer models human attention during code reading via a Multimodal Gaussian Mixture, redistributing token embeddings based on learned parameters (μ_i, σ_i^2) that capture where and how intensively developers focus. This design enables learning generalizable attention priors from eye-tracking data and incorporating them into LLMs seamlessly, without disturbing existing representations. We evaluate EyeLayer across diverse model families (i.e., LLaMA-3.2, Qwen3, and CodeBERT) covering different scales and architectures. EyeLayer consistently outperforms strong fine-tuning baselines across standard metrics, achieving gains of up to 13.17% on BLEU-4. These results demonstrate that human gaze patterns encode complementary attention signals that enhance the semantic focus of LLMs and transfer effectively across diverse models for code summarization.",
+      "categories": [
+        "cs.SE",
+        "cs.AI"
+      ],
+      "primary_category": "cs.SE",
+      "pdf_url": "https://arxiv.org/pdf/2602.22368v1",
+      "journal_ref": null,
+      "doi": "10.1145/3794763.3794799",
+      "comment": "Accepted at the 34th IEEE/ACM International Conference on Program Comprehension (ICPC 2026), April 12-13, 2026, Rio de Janeiro, Brazil",
+      "entry_id": "http://arxiv.org/abs/2602.22368v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.22368v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.22368v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        },
+        {
+          "href": "https://doi.org/10.1145/3794763.3794799",
+          "title": "doi",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.22302": {
+      "title": "Agent Behavioral Contracts: Formal Specification and Runtime Enforcement for Reliable Autonomous AI Agents",
+      "authors": [
+        "Varun Pratap Bhardwaj"
+      ],
+      "published": "2026-02-25T18:42:56+00:00",
+      "updated": "2026-02-25T18:42:56+00:00",
+      "summary": "Traditional software relies on contracts -- APIs, type systems, assertions -- to specify and enforce correct behavior. AI agents, by contrast, operate on prompts and natural language instructions with no formal behavioral specification. This gap is the root cause of drift, governance failures, and frequent project failures in agentic AI deployments. We introduce Agent Behavioral Contracts (ABC), a formal framework that brings Design-by-Contract principles to autonomous AI agents. An ABC contract C = (P, I, G, R) specifies Preconditions, Invariants, Governance policies, and Recovery mechanisms as first-class, runtime-enforceable components. We define (p, delta, k)-satisfaction -- a probabilistic notion of contract compliance that accounts for LLM non-determinism and recovery -- and prove a Drift Bounds Theorem showing that contracts with recovery rate gamma > alpha (the natural drift rate) bound behavioral drift to D* = alpha/gamma in expectation, with Gaussian concentration in the stochastic setting. We establish sufficient conditions for safe contract composition in multi-agent chains and derive probabilistic degradation bounds. We implement ABC in AgentAssert, a runtime enforcement library, and evaluate on AgentContract-Bench, a benchmark of 200 scenarios across 7 models from 6 vendors. Results across 1,980 sessions show that contracted agents detect 5.2-6.8 soft violations per session that uncontracted baselines miss entirely (p < 0.0001, Cohen's d = 6.7-33.8), achieve 88-100% hard constraint compliance, and bound behavioral drift to D* < 0.27 across extended sessions, with 100% recovery for frontier models and 17-100% across all models, at overhead < 10 ms per action.",
+      "categories": [
+        "cs.AI",
+        "cs.MA",
+        "cs.SE"
+      ],
+      "primary_category": "cs.AI",
+      "pdf_url": "https://arxiv.org/pdf/2602.22302v1",
+      "journal_ref": null,
+      "doi": "10.5281/zenodo.18775393",
+      "comment": "71 pages, 7 figures, 14 tables. Patent pending. Also available on Zenodo: DOI 10.5281/zenodo.18775393",
+      "entry_id": "http://arxiv.org/abs/2602.22302v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.22302v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.22302v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        },
+        {
+          "href": "https://doi.org/10.5281/zenodo.18775393",
+          "title": "doi",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
     "2602.21874": {
       "title": "Interactive Augmented Reality-enabled Outdoor Scene Visualization For Enhanced Real-time Disaster Response",
       "authors": [
@@ -290,6 +564,43 @@
         },
         {
           "href": "https://arxiv.org/pdf/2602.20807v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": false
+    },
+    "2602.22236": {
+      "title": "CrossLLM-Mamba: Multimodal State Space Fusion of LLMs for RNA Interaction Prediction",
+      "authors": [
+        "Rabeya Tus Sadia",
+        "Qiang Ye",
+        "Qiang Cheng"
+      ],
+      "published": "2026-02-23T19:57:11+00:00",
+      "updated": "2026-02-23T19:57:11+00:00",
+      "summary": "Accurate prediction of RNA-associated interactions is essential for understanding cellular regulation and advancing drug discovery. While Biological Large Language Models (BioLLMs) such as ESM-2 and RiNALMo provide powerful sequence representations, existing methods rely on static fusion strategies that fail to capture the dynamic, context-dependent nature of molecular binding. We introduce CrossLLM-Mamba, a novel framework that reformulates interaction prediction as a state-space alignment problem. By leveraging bidirectional Mamba encoders, our approach enables deep ``crosstalk'' between modality-specific embeddings through hidden state propagation, modeling interactions as dynamic sequence transitions rather than static feature overlaps. The framework maintains linear computational complexity, making it scalable to high-dimensional BioLLM embeddings. We further incorporate Gaussian noise injection and Focal Loss to enhance robustness against hard-negative samples. Comprehensive experiments across three interaction categories, RNA-protein, RNA-small molecule, and RNA-RNA demonstrate that CrossLLM-Mamba achieves state-of-the-art performance. On the RPI1460 benchmark, our model attains an MCC of 0.892, surpassing the previous best by 5.2\\%. For binding affinity prediction, we achieve Pearson correlations exceeding 0.95 on riboswitch and repeat RNA subtypes. These results establish state-space modeling as a powerful paradigm for multi-modal biological interaction prediction.",
+      "categories": [
+        "q-bio.GN",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "primary_category": "q-bio.GN",
+      "pdf_url": "https://arxiv.org/pdf/2602.22236v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.22236v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.22236v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.22236v1",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -97620,26 +97931,26 @@
         "Jiewen Lai"
       ],
       "published": "2026-02-25T13:21:49+00:00",
-      "updated": "2026-02-25T13:21:49+00:00",
+      "updated": "2026-02-26T11:19:43+00:00",
       "summary": "Accurate depth estimation plays a critical role in the navigation of endoscopic surgical robots, forming the foundation for 3D reconstruction and safe instrument guidance. Fine-tuning pretrained models heavily relies on endoscopic surgical datasets with precise depth annotations. While existing self-supervised depth estimation techniques eliminate the need for accurate depth annotations, their performance degrades in environments with weak textures and variable lighting, leading to sparse reconstruction with invalid depth estimation. Depth completion using sparse depth maps can mitigate these issues and improve accuracy. Despite the advances in depth completion techniques in general fields, their application in endoscopy remains limited. To overcome these limitations, we propose EndoDDC, an endoscopy depth completion method that integrates images, sparse depth information with depth gradient features, and optimizes depth maps through a diffusion model, addressing the issues of weak texture and light reflection in endoscopic environments. Extensive experiments on two publicly available endoscopy datasets show that our approach outperforms state-of-the-art models in both depth accuracy and robustness. This demonstrates the potential of our method to reduce visual errors in complex endoscopic environments. Our code will be released at https://github.com/yinheng-lin/EndoDDC.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2602.21893v1",
+      "pdf_url": "https://arxiv.org/pdf/2602.21893v2",
       "journal_ref": null,
       "doi": null,
       "comment": "Accepted by ICRA 2026",
-      "entry_id": "http://arxiv.org/abs/2602.21893v1",
+      "entry_id": "http://arxiv.org/abs/2602.21893v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2602.21893v1",
+          "href": "https://arxiv.org/abs/2602.21893v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2602.21893v1",
+          "href": "https://arxiv.org/pdf/2602.21893v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
