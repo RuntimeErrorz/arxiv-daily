@@ -1,4 +1,4 @@
-## Updated at 2026-03-02 08:23:58
+## Updated at 2026-03-02 20:12:42
 
 ## 3DGS Semantic
 
@@ -8,6 +8,9 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-02-27**|**[Thinking with Images as Continuous Actions: Numerical Visual Chain-of-Thought](https://arxiv.org/abs/2602.23959)**|N/A|None|cs.CV|None|Kesen Zhao et al.|
+|**2026-02-27**|**[ProtoDCS: Towards Robust and Efficient Open-Set Test-Time Adaptation for Vision-Language Models](https://arxiv.org/abs/2602.23653)**|N/A|13 pages, under review|cs.CV|None|Wei Luo et al.|
+|**2026-02-26**|**[Lap2: Revisiting Laplace DP-SGD for High Dimensions via Majorization Theory](https://arxiv.org/abs/2602.23516)**|N/A|16 pages including appendix. arXiv admin note: text overlap with arXiv:2509.06264|cs.CR|None|Meisam Mohammady et al.|
 |**2026-02-26**|**[Monocular Open Vocabulary Occupancy Prediction for Indoor Scenes](https://arxiv.org/abs/2602.22667)**|N/A|Accepted by CVPR2026|cs.CV|None|Changqing Zhou et al.|
 |**2026-02-12**|**[LatentAM: Real-Time, Large-Scale Latent Gaussian Attention Mapping via Online Dictionary Learning](https://arxiv.org/abs/2602.12314)**|N/A|8 pages, 5 figures|cs.RO|None|Junwoon Lee, Yulun Tian|
 |**2026-02-12**|**[3DGSNav: Enhancing Vision-Language Model Reasoning for Object Navigation via Active 3D Gaussian Splatting](https://arxiv.org/abs/2602.12159)**|N/A|None|cs.RO|None|Wancai Zheng et al.|
@@ -652,6 +655,7 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-02-27**|**[Altitude-Aware Visual Place Recognition in Top-Down View](https://arxiv.org/abs/2602.23872)**|N/A|None|cs.CV|None|Xingyu Shao et al.|
 |**2026-02-25**|**[EndoDDC: Learning Sparse to Dense Reconstruction for Endoscopic Robotic Navigation via Diffusion Depth Completion](https://arxiv.org/abs/2602.21893)**|N/A|Accepted by ICRA 2026|cs.CV|None|Yinheng Lin et al.|
 |**2026-02-25**|**[Structure-to-Image: Zero-Shot Depth Estimation in Colonoscopy via High-Fidelity Sim-to-Real Adaptation](https://arxiv.org/abs/2602.21740)**|N/A|\c{opyright} 20XX IEEE. Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of this work in other works|cs.CV|None|Juan Yang et al.|
 |**2026-02-23**|**[One2Scene: Geometric Consistent Explorable 3D Scene Generation from a Single Image](https://arxiv.org/abs/2602.19766)**|N/A|ICLR 2026|cs.CV|None|Pengfei Wang et al.|

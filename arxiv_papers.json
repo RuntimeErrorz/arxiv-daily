@@ -1,5 +1,147 @@
 {
   "3DGS Semantic": {
+    "2602.23959": {
+      "title": "Thinking with Images as Continuous Actions: Numerical Visual Chain-of-Thought",
+      "authors": [
+        "Kesen Zhao",
+        "Beier Zhu",
+        "Junbao Zhou",
+        "Xingyu Zhu",
+        "Zhongqi Yue",
+        "Hanwang Zhang"
+      ],
+      "published": "2026-02-27T12:04:07+00:00",
+      "updated": "2026-02-27T12:04:07+00:00",
+      "summary": "Recent multimodal large language models (MLLMs) increasingly rely on visual chain-of-thought to perform region-grounded reasoning over images. However, existing approaches ground regions via either textified coordinates-causing modality mismatch and semantic fragmentation or fixed-granularity patches that both limit precise region selection and often require non-trivial architectural changes. In this paper, we propose Numerical Visual Chain-of-Thought (NV-CoT), a framework that enables MLLMs to reason over images using continuous numerical coordinates. NV-CoT expands the MLLM action space from discrete vocabulary tokens to a continuous Euclidean space, allowing models to directly generate bounding-box coordinates as actions with only minimal architectural modification. The framework supports both supervised fine-tuning and reinforcement learning. In particular, we replace categorical token policies with a Gaussian (or Laplace) policy over coordinates and introduce stochasticity via reparameterized sampling, making NV-CoT fully compatible with GRPO-style policy optimization. Extensive experiments on three benchmarks against eight representative visual reasoning baselines demonstrate that NV-CoT significantly improves localization precision and final answer accuracy, while also accelerating training convergence, validating the effectiveness of continuous-action visual reasoning in MLLMs. The code is available in https://github.com/kesenzhao/NV-CoT.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.23959v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.23959v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.23959v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.23959v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-02",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2602.23653": {
+      "title": "ProtoDCS: Towards Robust and Efficient Open-Set Test-Time Adaptation for Vision-Language Models",
+      "authors": [
+        "Wei Luo",
+        "Yangfan Ou",
+        "Jin Deng",
+        "Zeshuai Deng",
+        "Xiquan Yan",
+        "Zhiquan Wen",
+        "Mingkui Tan"
+      ],
+      "published": "2026-02-27T03:39:02+00:00",
+      "updated": "2026-02-27T03:39:02+00:00",
+      "summary": "Large-scale Vision-Language Models (VLMs) exhibit strong zero-shot recognition, yet their real-world deployment is challenged by distribution shifts. While Test-Time Adaptation (TTA) can mitigate this, existing VLM-based TTA methods operate under a closed-set assumption, failing in open-set scenarios where test streams contain both covariate-shifted in-distribution (csID) and out-of-distribution (csOOD) data. This leads to a critical difficulty: the model must discriminate unknown csOOD samples to avoid interference while simultaneously adapting to known csID classes for accuracy. Current open-set TTA (OSTTA) methods rely on hard thresholds for separation and entropy minimization for adaptation. These strategies are brittle, often misclassifying ambiguous csOOD samples and inducing overconfident predictions, and their parameter-update mechanism is computationally prohibitive for VLMs. To address these limitations, we propose Prototype-based Double-Check Separation (ProtoDCS), a robust framework for OSTTA that effectively separates csID and csOOD samples, enabling safe and efficient adaptation of VLMs to csID data. Our main contributions are: (1) a novel double-check separation mechanism employing probabilistic Gaussian Mixture Model (GMM) verification to replace brittle thresholding; and (2) an evidence-driven adaptation strategy utilizing uncertainty-aware loss and efficient prototype-level updates, mitigating overconfidence and reducing computational overhead. Extensive experiments on CIFAR-10/100-C and Tiny-ImageNet-C demonstrate that ProtoDCS achieves state-of-the-art performance, significantly boosting both known-class accuracy and OOD detection metrics. Code will be available at https://github.com/O-YangF/ProtoDCS.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.23653v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "13 pages, under review",
+      "entry_id": "http://arxiv.org/abs/2602.23653v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.23653v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.23653v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-02",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2602.23516": {
+      "title": "Lap2: Revisiting Laplace DP-SGD for High Dimensions via Majorization Theory",
+      "authors": [
+        "Meisam Mohammady",
+        "Qin Yang",
+        "Nicholas Stout",
+        "Ayesha Samreen",
+        "Han Wang",
+        "Christopher J Quinn",
+        "Yuan Hong"
+      ],
+      "published": "2026-02-26T21:40:36+00:00",
+      "updated": "2026-02-26T21:40:36+00:00",
+      "summary": "Differentially Private Stochastic Gradient Descent (DP-SGD) is a cornerstone technique for ensuring privacy in deep learning, widely used in both training from scratch and fine-tuning large-scale language models. While DP-SGD predominantly relies on the Gaussian mechanism, the Laplace mechanism remains underutilized due to its reliance on L1 norm clipping. This constraint severely limits its practicality in high-dimensional models because the L1 norm of an n-dimensional gradient can be up to sqrt(n) times larger than its L2 norm. As a result, the required noise scale grows significantly with model size, leading to poor utility or untrainable models.\n  In this work, we introduce Lap2, a new solution that enables L2 clipping for Laplace DP-SGD while preserving strong privacy guarantees. We overcome the dimensionality-driven clipping barrier by computing coordinate-wise moment bounds and applying majorization theory to construct a tight, data-independent upper bound over the full model. By exploiting the Schur-convexity of the moment accountant function, we aggregate these bounds using a carefully designed majorization set that respects the L2 clipping constraint. This yields a multivariate privacy accountant that scales gracefully with model dimension and enables the use of thousands of moments. Empirical evaluations demonstrate that our approach significantly improves the performance of Laplace DP-SGD, achieving results comparable to or better than Gaussian DP-SGD under strong privacy constraints. For instance, fine-tuning RoBERTa-base (125M parameters) on SST-2 achieves 87.88% accuracy at epsilon=0.54, outperforming Gaussian (87.16%) and standard Laplace (48.97%) under the same budget.",
+      "categories": [
+        "cs.CR",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CR",
+      "pdf_url": "https://arxiv.org/pdf/2602.23516v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "16 pages including appendix. arXiv admin note: text overlap with arXiv:2509.06264",
+      "entry_id": "http://arxiv.org/abs/2602.23516v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.23516v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.23516v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-02",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
     "2602.23172": {
       "title": "Latent Gaussian Splatting for 4D Panoptic Occupancy Tracking",
       "authors": [
@@ -50,26 +192,26 @@
         "Zheming Lu"
       ],
       "published": "2026-02-26T07:17:49+00:00",
-      "updated": "2026-02-26T07:17:49+00:00",
+      "updated": "2026-02-27T15:03:14+00:00",
       "summary": "Prior dual-stream methods with the feature interaction mechanism have achieved remarkable performance in single image reflection removal (SIRR). However, they often struggle with (1) semantic understanding gap between the features of pre-trained models and those of reflection removal models, and (2) reflection label inconsistencies between synthetic and real-world training data. In this work, we first adopt the parameter efficient fine-tuning (PEFT) strategy by integrating several learnable Mona layers into the pre-trained model to align the training directions. Then, a label generator is designed to unify the reflection labels for both synthetic and real-world data. In addition, a Gaussian-based Adaptive Frequency Learning Block (G-AFLB) is proposed to adaptively learn and fuse the frequency priors, and a Dynamic Agent Attention (DAA) is employed as an alternative to window-based attention by dynamically modeling the significance levels across windows (inter-) and within an individual window (intra-). These components constitute our proposed Gap-Free Reflection Removal Network (GFRRN). Extensive experiments demonstrate the effectiveness of our GFRRN, achieving superior performance against state-of-the-art SIRR methods.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2602.22695v1",
+      "pdf_url": "https://arxiv.org/pdf/2602.22695v2",
       "journal_ref": null,
       "doi": null,
       "comment": "CVPR26",
-      "entry_id": "http://arxiv.org/abs/2602.22695v1",
+      "entry_id": "http://arxiv.org/abs/2602.22695v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2602.22695v1",
+          "href": "https://arxiv.org/abs/2602.22695v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2602.22695v1",
+          "href": "https://arxiv.org/pdf/2602.22695v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -368,26 +510,26 @@
         "Yanyong Zhang"
       ],
       "published": "2026-02-25T07:14:07+00:00",
-      "updated": "2026-02-25T07:14:07+00:00",
+      "updated": "2026-02-27T11:48:00+00:00",
       "summary": "Mobile robots and IoT devices demand real-time localization and dense reconstruction under tight compute and energy budgets. While 3D Gaussian Splatting (3DGS) enables efficient dense SLAM, dynamic objects and occlusions still degrade tracking and mapping. Existing dynamic 3DGS-SLAM often relies on heavy optical flow and per-frame segmentation, which is costly for mobile deployment and brittle under challenging illumination. We present DAGS-SLAM, a dynamic-aware 3DGS-SLAM system that maintains a spatiotemporal motion probability (MP) state per Gaussian and triggers semantics on demand via an uncertainty-aware scheduler. DAGS-SLAM fuses lightweight YOLO instance priors with geometric cues to estimate and temporally update MP, propagates MP to the front-end for dynamic-aware correspondence selection, and suppresses dynamic artifacts in the back-end via MP-guided optimization. Experiments on public dynamic RGB-D benchmarks show improved reconstruction and robust tracking while sustaining real-time throughput on a commodity GPU, demonstrating a practical speed-accuracy tradeoff with reduced semantic invocations toward mobile deployment.",
       "categories": [
         "cs.RO"
       ],
       "primary_category": "cs.RO",
-      "pdf_url": "https://arxiv.org/pdf/2602.21644v1",
+      "pdf_url": "https://arxiv.org/pdf/2602.21644v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2602.21644v1",
+      "entry_id": "http://arxiv.org/abs/2602.21644v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2602.21644v1",
+          "href": "https://arxiv.org/abs/2602.21644v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2602.21644v1",
+          "href": "https://arxiv.org/pdf/2602.21644v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -2620,26 +2762,26 @@
         "Yiran Shen"
       ],
       "published": "2026-02-06T16:36:46+00:00",
-      "updated": "2026-02-06T16:36:46+00:00",
+      "updated": "2026-02-27T09:08:56+00:00",
       "summary": "Spatial audio is crucial for creating compelling immersive 360-degree video experiences. However, generating realistic spatial audio, such as first-order ambisonics (FOA), from 360-degree videos in complex acoustic scenes remains challenging. Existing methods often overlook the dynamic nature and acoustic complexity of 360-degree scenes, fail to fully account for dynamic sound sources, and neglect complex environmental effects such as occlusion, reflections, and reverberation, which are influenced by scene geometries and materials. We propose DynFOA, a framework based on dynamic acoustic perception and conditional diffusion, for generating high-fidelity FOA from 360-degree videos. DynFOA first performs visual processing via a video encoder, which detects and localizes multiple dynamic sound sources, estimates their depth and semantics, and reconstructs the scene geometry and materials using a 3D Gaussian Splatting. This reconstruction technique accurately models occlusion, reflections, and reverberation based on the geometries and materials of the reconstructed 3D scene and the listener's viewpoint. The audio encoder then captures the spatial motion and temporal 4D sound source trajectories to fine-tune the diffusion-based FOA generator. The fine-tuned FOA generator adjusts spatial cues in real time, ensuring consistent directional fidelity during listener head rotation and complex environmental changes. Extensive evaluations demonstrate that DynFOA consistently outperforms existing methods across metrics such as spatial accuracy, acoustic fidelity, and distribution matching, while also improving the user experience. Therefore, DynFOA provides a robust and scalable approach to rendering realistic dynamic spatial audio for VR and immersive media applications.",
       "categories": [
         "cs.SD"
       ],
       "primary_category": "cs.SD",
-      "pdf_url": "https://arxiv.org/pdf/2602.06846v1",
+      "pdf_url": "https://arxiv.org/pdf/2602.06846v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2602.06846v1",
+      "entry_id": "http://arxiv.org/abs/2602.06846v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2602.06846v1",
+          "href": "https://arxiv.org/abs/2602.06846v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2602.06846v1",
+          "href": "https://arxiv.org/pdf/2602.06846v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -81079,26 +81221,26 @@
         "Lei Zhang"
       ],
       "published": "2026-02-23T12:15:54+00:00",
-      "updated": "2026-02-23T12:15:54+00:00",
-      "summary": "Generating explorable 3D scenes from a single image is a highly challenging problem in 3D vision. Existing methods struggle to support free exploration, often producing severe geometric distortions and noisy artifacts when the viewpoint moves far from the original perspective. We introduce \\textbf{One2Scene}, an effective framework that decomposes this ill-posed problem into three tractable sub-tasks to enable immersive explorable scene generation. We first use a panorama generator to produce anchor views from a single input image as initialization. Then, we lift these 2D anchors into an explicit 3D geometric scaffold via a generalizable, feed-forward Gaussian Splatting network. Instead of treating the panorama as a single image for reconstruction, we project it into multiple sparse anchor views and reformulate the reconstruction task as multi-view stereo matching, which allows us to leverage robust geometric priors learned from large-scale multi-view datasets. A bidirectional feature fusion module is used to enforce cross-view consistency, yielding an efficient and geometrically reliable scaffold. Finally, the scaffold serves as a strong prior for a novel view generator to produce photorealistic and geometrically accurate views at arbitrary cameras. By explicitly conditioning on a 3D-consistent scaffold to perform reconstruction, One2Scene works stably under large camera motions, supporting immersive scene exploration. Extensive experiments show that One2Scene substantially outperforms state-of-the-art methods in panorama depth estimation, feed-forward 360° reconstruction, and explorable 3D scene generation. Code and models will be released.",
+      "updated": "2026-02-27T01:18:04+00:00",
+      "summary": "Generating explorable 3D scenes from a single image is a highly challenging problem in 3D vision. Existing methods struggle to support free exploration, often producing severe geometric distortions and noisy artifacts when the viewpoint moves far from the original perspective. We introduce \\textbf{One2Scene}, an effective framework that decomposes this ill-posed problem into three tractable sub-tasks to enable immersive explorable scene generation. We first use a panorama generator to produce anchor views from a single input image as initialization. Then, we lift these 2D anchors into an explicit 3D geometric scaffold via a generalizable, feed-forward Gaussian Splatting network. Instead of treating the panorama as a single image for reconstruction, we project it into multiple sparse anchor views and reformulate the reconstruction task as multi-view stereo matching, which allows us to leverage robust geometric priors learned from large-scale multi-view datasets. A bidirectional feature fusion module is used to enforce cross-view consistency, yielding an efficient and geometrically reliable scaffold. Finally, the scaffold serves as a strong prior for a novel view generator to produce photorealistic and geometrically accurate views at arbitrary cameras. By explicitly conditioning on a 3D-consistent scaffold to perform reconstruction, One2Scene works stably under large camera motions, supporting immersive scene exploration. Extensive experiments show that One2Scene substantially outperforms state-of-the-art methods in panorama depth estimation, feed-forward 360° reconstruction, and explorable 3D scene generation. Project page: https://one2scene5406.github.io/",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2602.19766v1",
+      "pdf_url": "https://arxiv.org/pdf/2602.19766v2",
       "journal_ref": null,
       "doi": null,
       "comment": "ICLR 2026",
-      "entry_id": "http://arxiv.org/abs/2602.19766v1",
+      "entry_id": "http://arxiv.org/abs/2602.19766v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2602.19766v1",
+          "href": "https://arxiv.org/abs/2602.19766v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2602.19766v1",
+          "href": "https://arxiv.org/pdf/2602.19766v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -97926,6 +98068,43 @@
     }
   },
   "Depth Estimation": {
+    "2602.23872": {
+      "title": "Altitude-Aware Visual Place Recognition in Top-Down View",
+      "authors": [
+        "Xingyu Shao",
+        "Mengfan He",
+        "Chunyu Li",
+        "Liangzheng Sun",
+        "Ziyang Meng"
+      ],
+      "published": "2026-02-27T10:15:15+00:00",
+      "updated": "2026-02-27T10:15:15+00:00",
+      "summary": "To address the challenge of aerial visual place recognition (VPR) problem under significant altitude variations, this study proposes an altitude-adaptive VPR approach that integrates ground feature density analysis with image classification techniques. The proposed method estimates airborne platforms' relative altitude by analyzing the density of ground features in images, then applies relative altitude-based cropping to generate canonical query images, which are subsequently used in a classification-based VPR strategy for localization. Extensive experiments across diverse terrains and altitude conditions demonstrate that the proposed approach achieves high accuracy and robustness in both altitude estimation and VPR under significant altitude changes. Compared to conventional methods relying on barometric altimeters or Time-of-Flight (ToF) sensors, this solution requires no additional hardware and offers a plug-and-play solution for downstream applications, {making it suitable for small- and medium-sized airborne platforms operating in diverse environments, including rural and urban areas.} Under significant altitude variations, incorporating our relative altitude estimation module into the VPR retrieval pipeline boosts average R@1 and R@5 by 29.85\\% and 60.20\\%, respectively, compared with applying VPR retrieval alone. Furthermore, compared to traditional {Monocular Metric Depth Estimation (MMDE) methods}, the proposed method reduces the mean error by 202.1 m, yielding average additional improvements of 31.4\\% in R@1 and 44\\% in R@5. These results demonstrate that our method establishes a robust, vision-only framework for three-dimensional visual place recognition, offering a practical and scalable solution for accurate airborne platforms localization under large altitude variations and limited sensor availability.",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2602.23872v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2602.23872v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2602.23872v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2602.23872v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2602.21893": {
       "title": "EndoDDC: Learning Sparse to Dense Reconstruction for Endoscopic Robotic Navigation via Diffusion Depth Completion",
       "authors": [
@@ -98011,26 +98190,26 @@
         "Lei Zhang"
       ],
       "published": "2026-02-23T12:15:54+00:00",
-      "updated": "2026-02-23T12:15:54+00:00",
-      "summary": "Generating explorable 3D scenes from a single image is a highly challenging problem in 3D vision. Existing methods struggle to support free exploration, often producing severe geometric distortions and noisy artifacts when the viewpoint moves far from the original perspective. We introduce \\textbf{One2Scene}, an effective framework that decomposes this ill-posed problem into three tractable sub-tasks to enable immersive explorable scene generation. We first use a panorama generator to produce anchor views from a single input image as initialization. Then, we lift these 2D anchors into an explicit 3D geometric scaffold via a generalizable, feed-forward Gaussian Splatting network. Instead of treating the panorama as a single image for reconstruction, we project it into multiple sparse anchor views and reformulate the reconstruction task as multi-view stereo matching, which allows us to leverage robust geometric priors learned from large-scale multi-view datasets. A bidirectional feature fusion module is used to enforce cross-view consistency, yielding an efficient and geometrically reliable scaffold. Finally, the scaffold serves as a strong prior for a novel view generator to produce photorealistic and geometrically accurate views at arbitrary cameras. By explicitly conditioning on a 3D-consistent scaffold to perform reconstruction, One2Scene works stably under large camera motions, supporting immersive scene exploration. Extensive experiments show that One2Scene substantially outperforms state-of-the-art methods in panorama depth estimation, feed-forward 360° reconstruction, and explorable 3D scene generation. Code and models will be released.",
+      "updated": "2026-02-27T01:18:04+00:00",
+      "summary": "Generating explorable 3D scenes from a single image is a highly challenging problem in 3D vision. Existing methods struggle to support free exploration, often producing severe geometric distortions and noisy artifacts when the viewpoint moves far from the original perspective. We introduce \\textbf{One2Scene}, an effective framework that decomposes this ill-posed problem into three tractable sub-tasks to enable immersive explorable scene generation. We first use a panorama generator to produce anchor views from a single input image as initialization. Then, we lift these 2D anchors into an explicit 3D geometric scaffold via a generalizable, feed-forward Gaussian Splatting network. Instead of treating the panorama as a single image for reconstruction, we project it into multiple sparse anchor views and reformulate the reconstruction task as multi-view stereo matching, which allows us to leverage robust geometric priors learned from large-scale multi-view datasets. A bidirectional feature fusion module is used to enforce cross-view consistency, yielding an efficient and geometrically reliable scaffold. Finally, the scaffold serves as a strong prior for a novel view generator to produce photorealistic and geometrically accurate views at arbitrary cameras. By explicitly conditioning on a 3D-consistent scaffold to perform reconstruction, One2Scene works stably under large camera motions, supporting immersive scene exploration. Extensive experiments show that One2Scene substantially outperforms state-of-the-art methods in panorama depth estimation, feed-forward 360° reconstruction, and explorable 3D scene generation. Project page: https://one2scene5406.github.io/",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2602.19766v1",
+      "pdf_url": "https://arxiv.org/pdf/2602.19766v2",
       "journal_ref": null,
       "doi": null,
       "comment": "ICLR 2026",
-      "entry_id": "http://arxiv.org/abs/2602.19766v1",
+      "entry_id": "http://arxiv.org/abs/2602.19766v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2602.19766v1",
+          "href": "https://arxiv.org/abs/2602.19766v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2602.19766v1",
+          "href": "https://arxiv.org/pdf/2602.19766v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
