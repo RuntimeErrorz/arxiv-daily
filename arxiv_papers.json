@@ -1,5 +1,307 @@
 {
   "3DGS Semantic": {
+    "2603.02134": {
+      "title": "OnlineX: Unified Online 3D Reconstruction and Understanding with Active-to-Stable State Evolution",
+      "authors": [
+        "Chong Xia",
+        "Fangfu Liu",
+        "Yule Wang",
+        "Yize Pang",
+        "Yueqi Duan"
+      ],
+      "published": "2026-03-02T17:52:02+00:00",
+      "updated": "2026-03-02T17:52:02+00:00",
+      "summary": "Recent advances in generalizable 3D Gaussian Splatting (3DGS) have enabled rapid 3D scene reconstruction within seconds, eliminating the need for per-scene optimization. However, existing methods primarily follow an offline reconstruction paradigm, lacking the capacity for continuous reconstruction, which limits their applicability to online scenarios such as robotics and VR/AR. In this paper, we introduce OnlineX, a feed-forward framework that reconstructs both 3D visual appearance and language fields in an online manner using only streaming images. A key challenge in online formulation is the cumulative drift issue, which is rooted in the fundamental conflict between two opposing roles of the memory state: an active role that constantly refreshes to capture high-frequency local geometry, and a stable role that conservatively accumulates and preserves the long-term global structure. To address this, we introduce a decoupled active-to-stable state evolution paradigm. Our framework decouples the memory state into a dedicated active state and a persistent stable state, and then cohesively fuses the information from the former into the latter to achieve both fidelity and stability. Moreover, we jointly model visual appearance and language fields and incorporate an implicit Gaussian fusion module to enhance reconstruction quality. Experiments on mainstream datasets demonstrate that our method consistently outperforms prior work in novel view synthesis and semantic understanding, showcasing robust performance across input sequences of varying lengths with real-time inference speed.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.02134v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2603.02134v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.02134v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.02134v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2603.02075": {
+      "title": "Trident: Adaptive Scheduling for Heterogeneous Multimodal Data Pipelines",
+      "authors": [
+        "Ding Pan",
+        "Zhuangzhuang Zhou",
+        "Long Qian",
+        "Binhang Yuan"
+      ],
+      "published": "2026-03-02T17:00:22+00:00",
+      "updated": "2026-03-02T17:00:22+00:00",
+      "summary": "The rapid adoption of large language models and multimodal foundation models has made multimodal data preparation pipelines critical AI infrastructure. These pipelines interleave CPU-heavy preprocessing with accelerator-backed (GPU/NPU/TPU) inference and produce massive intermediate artifacts. Achieving high throughput is difficult because workloads are highly non-stationary: regime shifts, input-dependent inference, and transient memory spikes cause rapid performance fluctuations and out-of-memory (OOM) failures. Existing schedulers typically rely on threshold-based autoscaling or assume synchronous, homogeneous operators, leading to poor efficiency. We present Trident, an adaptive scheduling framework for heterogeneous multimodal pipelines on fixed-resource clusters. Trident closes the loop across three coupled layers: (i) an observation layer that estimates per-operator sustainable throughput for asynchronous operators via Gaussian Process regression with anomaly filtering; (ii) an adaptation layer that detects workload shifts online and performs memory-constrained Bayesian optimization to recommend OOM-safe configurations; and (iii) a scheduling layer that solves a mixed-integer linear program to jointly optimize operator parallelism, placement, and configuration transitions under heterogeneous compute and bandwidth constraints, accounting for cold-start overhead via rolling updates. Decisions trigger sample invalidation and model refresh to keep estimates consistent with the active configuration. Implemented on Ray Data, Trident improves end-to-end throughput by up to 2.01x on a document curation (PDF) pipeline and 1.88x on a video curation pipeline over a static baseline, with low overhead suitable for online re-optimization.",
+      "categories": [
+        "cs.DC"
+      ],
+      "primary_category": "cs.DC",
+      "pdf_url": "https://arxiv.org/pdf/2603.02075v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "22 pages, 3 figures",
+      "entry_id": "http://arxiv.org/abs/2603.02075v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.02075v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.02075v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2603.02010": {
+      "title": "Noise-Calibrated Inference from Differentially Private Sufficient Statistics in Exponential Families",
+      "authors": [
+        "Amir Asiaee",
+        "Samhita Pal"
+      ],
+      "published": "2026-03-02T15:55:54+00:00",
+      "updated": "2026-03-02T15:55:54+00:00",
+      "summary": "Many differentially private (DP) data release systems either output DP synthetic data and leave analysts to perform inference as usual, which can lead to severe miscalibration, or output a DP point estimate without a principled way to do uncertainty quantification. This paper develops a clean and tractable middle ground for exponential families: release only DP sufficient statistics, then perform noise-calibrated likelihood-based inference and optional parametric synthetic data generation as post-processing. Our contributions are: (1) a general recipe for approximate-DP release of clipped sufficient statistics under the Gaussian mechanism; (2) asymptotic normality, explicit variance inflation, and valid Wald-style confidence intervals for the plug-in DP MLE; (3) a noise-aware likelihood correction that is first-order equivalent to the plug-in but supports bootstrap-based intervals; and (4) a matching minimax lower bound showing the privacy distortion rate is unavoidable. The resulting theory yields concrete design rules and a practical pipeline for releasing DP synthetic data with principled uncertainty quantification, validated on three exponential families and real census data.",
+      "categories": [
+        "cs.LG",
+        "stat.ML"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2603.02010v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2603.02010v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.02010v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.02010v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2603.01603": {
+      "title": "Sparse View Distractor-Free Gaussian Splatting",
+      "authors": [
+        "Yi Gu",
+        "Zhaorui Wang",
+        "Jiahang Cao",
+        "Jiaxu Wang",
+        "Mingle Zhao",
+        "Dongjun Ye",
+        "Renjing Xu"
+      ],
+      "published": "2026-03-02T08:32:32+00:00",
+      "updated": "2026-03-02T08:32:32+00:00",
+      "summary": "3D Gaussian Splatting (3DGS) enables efficient training and fast novel view synthesis in static environments. To address challenges posed by transient objects, distractor-free 3DGS methods have emerged and shown promising results when dense image captures are available. However, their performance degrades significantly under sparse input conditions. This limitation primarily stems from the reliance on the color residual heuristics to guide the training, which becomes unreliable with limited observations. In this work, we propose a framework to enhance distractor-free 3DGS under sparse-view conditions by incorporating rich prior information. Specifically, we first adopt the geometry foundation model VGGT to estimate camera parameters and generate a dense set of initial 3D points. Then, we harness the attention maps from VGGT for efficient and accurate semantic entity matching. Additionally, we utilize Vision-Language Models (VLMs) to further identify and preserve the large static regions in the scene. We also demonstrate how these priors can be seamlessly integrated into existing distractor-free 3DGS methods. Extensive experiments confirm the effectiveness and robustness of our approach in mitigating transient distractors for sparse-view 3DGS training.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.01603v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2603.01603v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.01603v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.01603v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2603.01476": {
+      "title": "Entropy-Guided GRVQ for Ultra-Low Bitrate Neural Speech Codec",
+      "authors": [
+        "Yanzhou Ren",
+        "Noboru Harada",
+        "Daiki Takeuchi",
+        "Siyu Chen",
+        "Wei Liu",
+        "Xiao Zhang",
+        "Liyuan Zhang",
+        "Takehiro Moriya",
+        "Shoji Makino"
+      ],
+      "published": "2026-03-02T05:40:10+00:00",
+      "updated": "2026-03-02T05:40:10+00:00",
+      "summary": "Neural audio codec (NAC) is essential for reconstructing high-quality speech signals and generating discrete representations for downstream speech language models. However, ensuring accurate semantic modeling while maintaining high-fidelity reconstruction under ultra-low bitrate constraints remains challenging. We propose an entropy-guided group residual vector quantization (EG-GRVQ) for an ultra-low bitrate neural speech codec, which retains a semantic branch for linguistic information and incorporates an entropy-guided grouping strategy in the acoustic branch. Assuming that channel activations follow approximately Gaussian statistics, the variance of each channel can serve as a principled proxy for its information content. Based on this assumption, we partition the encoder output such that each group carries an equal share of the total information. This balanced allocation improves codebook efficiency and reduces redundancy. Trained on LibriTTS and VCTK, our model shows improvements in perceptual quality and intelligibility metrics under ultra-low bitrate conditions, with a focus on codec-level fidelity for communication-oriented scenarios.",
+      "categories": [
+        "eess.AS",
+        "eess.SP"
+      ],
+      "primary_category": "eess.AS",
+      "pdf_url": "https://arxiv.org/pdf/2603.01476v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2603.01476v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.01476v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.01476v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2603.00938": {
+      "title": "Seeing Beyond 8bits: Subjective and Objective Quality Assessment of HDR-UGC Videos",
+      "authors": [
+        "Shreshth Saini",
+        "Bowen Chen",
+        "Neil Birkbeck",
+        "Yilin Wang",
+        "Balu Adsumilli",
+        "Alan C. Bovik"
+      ],
+      "published": "2026-03-01T06:02:40+00:00",
+      "updated": "2026-03-01T06:02:40+00:00",
+      "summary": "High Dynamic Range (HDR) user-generated (UGC) videos are rapidly proliferating across social platforms, yet most perceptual video quality assessment (VQA) systems remain tailored to Standard Dynamic Range (SDR). HDR has a higher bit depth, wide color gamut, and elevated luminance range, exposing distortions such as near-black crushing, highlight clipping, banding, and exposure flicker that amplify UGC artifacts and challenge SDR models. To catalyze progress, we curate Beyond8Bits, a large-scale subjective dataset of 44K videos from 6.5K sources with over 1.5M crowd ratings, spanning diverse scenes, capture conditions, and compression settings. We further introduce HDR-Q, the first Multimodal Large Language Model (MLLM) for HDR-UGC VQA. We propose (i) a novel HDR-aware vision encoder to produce HDR-sensitive embeddings, and (ii) HDR-Aware Policy Optimization (HAPO), an RL finetuning framework that anchors reasoning to HDR cues. HAPO augments GRPO via an HDR-SDR contrastive KL that encourages token reliance on HDR inputs and a Gaussian weighted regression reward for fine-grained MOS calibration. Across Beyond8Bits and public HDR-VQA benchmarks, HDR-Q delivers state-of-the-art performance.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.00938v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2603.00938v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.00938v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.00938v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2603.00697": {
+      "title": "TokenSplat: Token-aligned 3D Gaussian Splatting for Feed-forward Pose-free Reconstruction",
+      "authors": [
+        "Yihui Li",
+        "Chengxin Lv",
+        "Zichen Tang",
+        "Hongyu Yang",
+        "Di Huang"
+      ],
+      "published": "2026-02-28T15:13:13+00:00",
+      "updated": "2026-02-28T15:13:13+00:00",
+      "summary": "We present TokenSplat, a feed-forward framework for joint 3D Gaussian reconstruction and camera pose estimation from unposed multi-view images. At its core, TokenSplat introduces a Token-aligned Gaussian Prediction module that aligns semantically corresponding information across views directly in the feature space. Guided by coarse token positions and fusion confidence, it aggregates multi-scale contextual features to enable long-range cross-view reasoning and reduce redundancy from overlapping Gaussians. To further enhance pose robustness and disentangle viewpoint cues from scene semantics, TokenSplat employs learnable camera tokens and an Asymmetric Dual-Flow Decoder (ADF-Decoder) that enforces directionally constrained communication between camera and image tokens. This maintains clean factorization within a feed-forward architecture, enabling coherent reconstruction and stable pose estimation without iterative refinement. Extensive experiments demonstrate that TokenSplat achieves higher reconstruction fidelity and novel-view synthesis quality in pose-free settings, and significantly improves pose estimation accuracy compared to prior pose-free methods. Project page: https://kidleyh.github.io/tokensplat/.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.00697v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2603.00697v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.00697v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.00697v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2603.00500": {
+      "title": "Zero-Shot Robotic Manipulation via 3D Gaussian Splatting-Enhanced Multimodal Retrieval-Augmented Generation",
+      "authors": [
+        "Zilong Xie",
+        "Jingyu Gong",
+        "Xin Tan",
+        "Zhizhong Zhang",
+        "Yuan Xie"
+      ],
+      "published": "2026-02-28T06:48:05+00:00",
+      "updated": "2026-02-28T06:48:05+00:00",
+      "summary": "Existing end-to-end approaches of robotic manipulation often lack generalization to unseen objects or tasks due to limited data and poor interpretability. While recent Multimodal Large Language Models (MLLMs) demonstrate strong commonsense reasoning, they struggle with geometric and spatial understanding required for pose prediction. In this paper, we propose RobMRAG, a 3D Gaussian Splatting-Enhanced Multimodal Retrieval-Augmented Generation (MRAG) framework for zero-shot robotic manipulation. Specifically, we construct a multi-source manipulation knowledge base containing object contact frames, task completion frames, and pose parameters. During inference, a Hierarchical Multimodal Retrieval module first employs a three-priority hybrid retrieval strategy to find task-relevant object prototypes, then selects the geometrically closest reference example based on pixel-level similarity and Instance Matching Distance (IMD). We further introduce a 3D-Aware Pose Refinement module based on 3D Gaussian Splatting into the MRAG framework, which aligns the pose of the reference object to the target object in 3D space. The aligned results are reprojected onto the image plane and used as input to the MLLM to enhance the generation of the final pose parameters. Extensive experiments show that on a test set containing 30 categories of household objects, our method improves the success rate by 7.76% compared to the best-performing zero-shot baseline under the same setting, and by 6.54% compared to the state-of-the-art supervised baseline. Our results validate that RobMRAG effectively bridges the gap between high-level semantic reasoning and low-level geometric execution, enabling robotic systems that generalize to unseen objects while remaining inherently interpretable.",
+      "categories": [
+        "cs.RO"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2603.00500v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "9 pages, 5 figures",
+      "entry_id": "http://arxiv.org/abs/2603.00500v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.00500v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.00500v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
     "2602.23959": {
       "title": "Thinking with Images as Continuous Actions: Numerical Visual Chain-of-Thought",
       "authors": [
@@ -583,26 +885,26 @@
         "Ziyu Jiang"
       ],
       "published": "2026-02-24T20:03:47+00:00",
-      "updated": "2026-02-24T20:03:47+00:00",
+      "updated": "2026-03-01T00:13:21+00:00",
       "summary": "Controllable driving scene generation is critical for realistic and scalable autonomous driving simulation, yet existing approaches struggle to jointly achieve photorealism and precise control. We introduce HorizonForge, a unified framework that reconstructs scenes as editable Gaussian Splats and Meshes, enabling fine-grained 3D manipulation and language-driven vehicle insertion. Edits are rendered through a noise-aware video diffusion process that enforces spatial and temporal consistency, producing diverse scene variations in a single feed-forward pass without per-trajectory optimization. To standardize evaluation, we further propose HorizonSuite, a comprehensive benchmark spanning ego- and agent-level editing tasks such as trajectory modifications and object manipulation. Extensive experiments show that Gaussian-Mesh representation delivers substantially higher fidelity than alternative 3D representations, and that temporal priors from video diffusion are essential for coherent synthesis. Combining these findings, HorizonForge establishes a simple yet powerful paradigm for photorealistic, controllable driving simulation, achieving an 83.4% user-preference gain and a 25.19% FID improvement over the second best state-of-the-art method. Project page: https://horizonforge.github.io/ .",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2602.21333v1",
+      "pdf_url": "https://arxiv.org/pdf/2602.21333v2",
       "journal_ref": null,
       "doi": null,
       "comment": "Accepted by CVPR 2026",
-      "entry_id": "http://arxiv.org/abs/2602.21333v1",
+      "entry_id": "http://arxiv.org/abs/2602.21333v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2602.21333v1",
+          "href": "https://arxiv.org/abs/2602.21333v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2602.21333v1",
+          "href": "https://arxiv.org/pdf/2602.21333v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -98068,6 +98370,120 @@
     }
   },
   "Depth Estimation": {
+    "2603.01999": {
+      "title": "Learning Vision-Based Omnidirectional Navigation: A Teacher-Student Approach Using Monocular Depth Estimation",
+      "authors": [
+        "Jan Finke",
+        "Wayne Paul Martis",
+        "Adrian Schmelter",
+        "Lars Erbach",
+        "Christian Jestel",
+        "Marvin Wiedemann"
+      ],
+      "published": "2026-03-02T15:50:52+00:00",
+      "updated": "2026-03-02T15:50:52+00:00",
+      "summary": "Reliable obstacle avoidance in industrial settings demands 3D scene understanding, but widely used 2D LiDAR sensors perceive only a single horizontal slice of the environment, missing critical obstacles above or below the scan plane. We present a teacher-student framework for vision-based mobile robot navigation that eliminates the need for LiDAR sensors. A teacher policy trained via Proximal Policy Optimization (PPO) in NVIDIA Isaac Lab leverages privileged 2D LiDAR observations that account for the full robot footprint to learn robust navigation. The learned behavior is distilled into a student policy that relies solely on monocular depth maps predicted by a fine-tuned Depth Anything V2 model from four RGB cameras. The complete inference pipeline, comprising monocular depth estimation (MDE), policy execution, and motor control, runs entirely onboard an NVIDIA Jetson Orin AGX mounted on a DJI RoboMaster platform, requiring no external computation for inference. In simulation, the student achieves success rates of 82-96.5%, consistently outperforming the standard 2D LiDAR teacher (50-89%). In real-world experiments, the MDE-based student outperforms the 2D LiDAR teacher when navigating around obstacles with complex 3D geometries, such as overhanging structures and low-profile objects, that fall outside the single scan plane of a 2D LiDAR.",
+      "categories": [
+        "cs.RO",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2603.01999v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2603.01999v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.01999v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.01999v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2603.01475": {
+      "title": "WildCross: A Cross-Modal Large Scale Benchmark for Place Recognition and Metric Depth Estimation in Natural Environments",
+      "authors": [
+        "Joshua Knights",
+        "Joseph Reid",
+        "Kaushik Roy",
+        "David Hall",
+        "Mark Cox",
+        "Peyman Moghadam"
+      ],
+      "published": "2026-03-02T05:39:12+00:00",
+      "updated": "2026-03-02T05:39:12+00:00",
+      "summary": "Recent years have seen a significant increase in demand for robotic solutions in unstructured natural environments, alongside growing interest in bridging 2D and 3D scene understanding. However, existing robotics datasets are predominantly captured in structured urban environments, making them inadequate for addressing the challenges posed by complex, unstructured natural settings. To address this gap, we propose WildCross, a cross-modal benchmark for place recognition and metric depth estimation in large-scale natural environments. WildCross comprises over 476K sequential RGB frames with semi-dense depth and surface normal annotations, each aligned with accurate 6DoF poses and synchronized dense lidar submaps. We conduct comprehensive experiments on visual, lidar, and cross-modal place recognition, as well as metric depth estimation, demonstrating the value of WildCross as a challenging benchmark for multi-modal robotic perception tasks. We provide access to the code repository and dataset at https://csiro-robotics.github.io/WildCross.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.01475v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "IEEE International Conference on Robotics & Automation (ICRA) 2026",
+      "entry_id": "http://arxiv.org/abs/2603.01475v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.01475v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.01475v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2603.01007": {
+      "title": "Dr.Occ: Depth- and Region-Guided 3D Occupancy from Surround-View Cameras for Autonomous Driving",
+      "authors": [
+        "Xubo Zhu",
+        "Haoyang Zhang",
+        "Fei He",
+        "Rui Wu",
+        "Yanhu Shan",
+        "Wen Yang",
+        "Huai Yu"
+      ],
+      "published": "2026-03-01T09:22:15+00:00",
+      "updated": "2026-03-01T09:22:15+00:00",
+      "summary": "3D semantic occupancy prediction is crucial for autonomous driving perception, offering comprehensive geometric scene understanding and semantic recognition. However, existing methods struggle with geometric misalignment in view transformation due to the lack of pixel-level accurate depth estimation, and severe spatial class imbalance where semantic categories exhibit strong spatial anisotropy. To address these challenges, we propose Dr.Occ, a depth- and region-guided occupancy prediction framework. Specifically, we introduce a depth-guided 2D-to-3D View Transformer (D$^2$-VFormer) that effectively leverages high-quality dense depth cues from MoGe-2 to construct reliable geometric priors, thereby enabling precise geometric alignment of voxel features. Moreover, inspired by the Mixture-of-Experts (MoE) framework, we propose a region-guided Expert Transformer (R/R$^2$-EFormer) that adaptively allocates region-specific experts to focus on different spatial regions, effectively addressing spatial semantic variations. Thus, the two components make complementary contributions: depth guidance ensures geometric alignment, while region experts enhance semantic learning. Experiments on the Occ3D-nuScenes benchmark demonstrate that \\textbf{Dr.Occ} improves the strong baseline BEVDet4D by 7.43\\% mIoU and 3.09\\% IoU under the full vision-only setting.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.01007v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "10 pages, 6 figures. Accepted at CVPR 2026",
+      "entry_id": "http://arxiv.org/abs/2603.01007v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.01007v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.01007v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2602.23872": {
       "title": "Altitude-Aware Visual Place Recognition in Top-Down View",
       "authors": [

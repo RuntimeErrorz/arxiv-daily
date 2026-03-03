@@ -1,4 +1,4 @@
-## Updated at 2026-03-03 08:24:42
+## Updated at 2026-03-03 20:13:00
 
 ## 3DGS Semantic
 
@@ -8,6 +8,14 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-03-02**|**[OnlineX: Unified Online 3D Reconstruction and Understanding with Active-to-Stable State Evolution](https://arxiv.org/abs/2603.02134)**|N/A|None|cs.CV|None|Chong Xia et al.|
+|**2026-03-02**|**[Trident: Adaptive Scheduling for Heterogeneous Multimodal Data Pipelines](https://arxiv.org/abs/2603.02075)**|N/A|22 pages, 3 figures|cs.DC|None|Ding Pan et al.|
+|**2026-03-02**|**[Noise-Calibrated Inference from Differentially Private Sufficient Statistics in Exponential Families](https://arxiv.org/abs/2603.02010)**|N/A|None|cs.LG|None|Amir Asiaee, Samhita Pal|
+|**2026-03-02**|**[Sparse View Distractor-Free Gaussian Splatting](https://arxiv.org/abs/2603.01603)**|N/A|None|cs.CV|None|Yi Gu et al.|
+|**2026-03-02**|**[Entropy-Guided GRVQ for Ultra-Low Bitrate Neural Speech Codec](https://arxiv.org/abs/2603.01476)**|N/A|None|eess.AS|None|Yanzhou Ren et al.|
+|**2026-03-01**|**[Seeing Beyond 8bits: Subjective and Objective Quality Assessment of HDR-UGC Videos](https://arxiv.org/abs/2603.00938)**|N/A|None|cs.CV|None|Shreshth Saini et al.|
+|**2026-02-28**|**[TokenSplat: Token-aligned 3D Gaussian Splatting for Feed-forward Pose-free Reconstruction](https://arxiv.org/abs/2603.00697)**|N/A|None|cs.CV|None|Yihui Li et al.|
+|**2026-02-28**|**[Zero-Shot Robotic Manipulation via 3D Gaussian Splatting-Enhanced Multimodal Retrieval-Augmented Generation](https://arxiv.org/abs/2603.00500)**|N/A|9 pages, 5 figures|cs.RO|None|Zilong Xie et al.|
 |**2026-02-27**|**[Thinking with Images as Continuous Actions: Numerical Visual Chain-of-Thought](https://arxiv.org/abs/2602.23959)**|N/A|None|cs.CV|None|Kesen Zhao et al.|
 |**2026-02-27**|**[ProtoDCS: Towards Robust and Efficient Open-Set Test-Time Adaptation for Vision-Language Models](https://arxiv.org/abs/2602.23653)**|N/A|13 pages, under review|cs.CV|None|Wei Luo et al.|
 |**2026-02-26**|**[Lap2: Revisiting Laplace DP-SGD for High Dimensions via Majorization Theory](https://arxiv.org/abs/2602.23516)**|N/A|16 pages including appendix. arXiv admin note: text overlap with arXiv:2509.06264|cs.CR|None|Meisam Mohammady et al.|
@@ -655,6 +663,9 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-03-02**|**[Learning Vision-Based Omnidirectional Navigation: A Teacher-Student Approach Using Monocular Depth Estimation](https://arxiv.org/abs/2603.01999)**|N/A|None|cs.RO|None|Jan Finke et al.|
+|**2026-03-02**|**[WildCross: A Cross-Modal Large Scale Benchmark for Place Recognition and Metric Depth Estimation in Natural Environments](https://arxiv.org/abs/2603.01475)**|N/A|IEEE International Conference on Robotics & Automation (ICRA) 2026|cs.CV|None|Joshua Knights et al.|
+|**2026-03-01**|**[Dr.Occ: Depth- and Region-Guided 3D Occupancy from Surround-View Cameras for Autonomous Driving](https://arxiv.org/abs/2603.01007)**|N/A|10 pages, 6 figures. Accepted at CVPR 2026|cs.CV|None|Xubo Zhu et al.|
 |**2026-02-27**|**[Altitude-Aware Visual Place Recognition in Top-Down View](https://arxiv.org/abs/2602.23872)**|N/A|None|cs.CV|None|Xingyu Shao et al.|
 |**2026-02-25**|**[EndoDDC: Learning Sparse to Dense Reconstruction for Endoscopic Robotic Navigation via Diffusion Depth Completion](https://arxiv.org/abs/2602.21893)**|N/A|Accepted by ICRA 2026|cs.CV|None|Yinheng Lin et al.|
 |**2026-02-25**|**[Structure-to-Image: Zero-Shot Depth Estimation in Colonoscopy via High-Fidelity Sim-to-Real Adaptation](https://arxiv.org/abs/2602.21740)**|N/A|\c{opyright} 20XX IEEE. Personal use of this material is permitted. Permission from IEEE must be obtained for all other uses, in any current or future media, including reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of this work in other works|cs.CV|None|Juan Yang et al.|
