@@ -1,4 +1,4 @@
-## Updated at 2026-03-04 08:23:18
+## Updated at 2026-03-04 20:12:11
 
 ## 3DGS Semantic
 
@@ -8,7 +8,11 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
-|**2026-03-02**|**[OnlineX: Unified Online 3D Reconstruction and Understanding with Active-to-Stable State Evolution](https://arxiv.org/abs/2603.02134)**|N/A|None|cs.CV|None|Chong Xia et al.|
+|**2026-03-03**|**[VIRGi: View-dependent Instant Recoloring of 3D Gaussians Splats](https://arxiv.org/abs/2603.02986)**|IEEE Transactions on Pattern Analysis and Machine Intelligence|IEEE Transactions on Pattern Analysis and Machine Intelligence. 2026 Feb 24|cs.CV|None|Alessio Mazzucchelli et al.|
+|**2026-03-03**|**[Articulation in Motion: Prior-free Part Mobility Analysis for Articulated Objects By Dynamic-Static Disentanglement](https://arxiv.org/abs/2603.02910)**|N/A|Accepted by ICLR 2026. Project Page: https://haoai-1997.github.io/AiM/|cs.CV|None|Hao Ai et al.|
+|**2026-03-03**|**[Multimodal-Prior-Guided Importance Sampling for Hierarchical Gaussian Splatting in Sparse-View Novel View Synthesis](https://arxiv.org/abs/2603.02866)**|N/A|None|cs.CV|None|Kaiqiang Xiong et al.|
+|**2026-03-03**|**[SemGS: Feed-Forward Semantic 3D Gaussian Splatting from Sparse Views for Generalizable Scene Understanding](https://arxiv.org/abs/2603.02548)**|N/A|ICRA 2026|cs.CV|None|Sheng Ye et al.|
+|**2026-03-02**|**[OnlineX: Unified Online 3D Reconstruction and Understanding with Active-to-Stable State Evolution](https://arxiv.org/abs/2603.02134)**|N/A|Accepted by CVPR Finding 2026 (Project page: https://xiac20.github.io/OnlineX/)|cs.CV|None|Chong Xia et al.|
 |**2026-03-02**|**[Trident: Adaptive Scheduling for Heterogeneous Multimodal Data Pipelines](https://arxiv.org/abs/2603.02075)**|N/A|22 pages, 3 figures|cs.DC|None|Ding Pan et al.|
 |**2026-03-02**|**[Noise-Calibrated Inference from Differentially Private Sufficient Statistics in Exponential Families](https://arxiv.org/abs/2603.02010)**|N/A|None|cs.LG|None|Amir Asiaee, Samhita Pal|
 |**2026-03-02**|**[Sparse View Distractor-Free Gaussian Splatting](https://arxiv.org/abs/2603.01603)**|N/A|None|cs.CV|None|Yi Gu et al.|
@@ -20,8 +24,10 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2026-02-27**|**[ProtoDCS: Towards Robust and Efficient Open-Set Test-Time Adaptation for Vision-Language Models](https://arxiv.org/abs/2602.23653)**|N/A|13 pages, under review|cs.CV|None|Wei Luo et al.|
 |**2026-02-26**|**[Lap2: Revisiting Laplace DP-SGD for High Dimensions via Majorization Theory](https://arxiv.org/abs/2602.23516)**|N/A|16 pages including appendix. arXiv admin note: text overlap with arXiv:2509.06264|cs.CR|None|Meisam Mohammady et al.|
 |**2026-02-26**|**[Monocular Open Vocabulary Occupancy Prediction for Indoor Scenes](https://arxiv.org/abs/2602.22667)**|N/A|Accepted by CVPR2026|cs.CV|None|Changqing Zhou et al.|
+|**2026-02-13**|**[Concept Heterogeneity-aware Representation Steering](https://arxiv.org/abs/2603.02237)**|N/A|None|cs.LG|None|Laziz U. Abdullaev et al.|
 |**2026-02-12**|**[LatentAM: Real-Time, Large-Scale Latent Gaussian Attention Mapping via Online Dictionary Learning](https://arxiv.org/abs/2602.12314)**|N/A|8 pages, 5 figures|cs.RO|None|Junwoon Lee, Yulun Tian|
 |**2026-02-12**|**[3DGSNav: Enhancing Vision-Language Model Reasoning for Object Navigation via Active 3D Gaussian Splatting](https://arxiv.org/abs/2602.12159)**|N/A|None|cs.RO|None|Wancai Zheng et al.|
+|**2026-02-06**|**[A Zipf-preserving, long-range correlated surrogate for written language and other symbolic sequences](https://arxiv.org/abs/2603.02213)**|N/A|None|cs.CL|Physica A 683 (2026) 131227|Marcelo A. Montemurro, Mirko Degli Esposti|
 |**2026-02-01**|**[Split&Splat: Zero-Shot Panoptic Segmentation via Explicit Instance Modeling and 3D Gaussian Splatting](https://arxiv.org/abs/2602.03809)**|N/A|None|cs.GR|None|Leonardo Monchieri et al.|
 |**2026-01-27**|**[TIGaussian: Disentangle Gaussians for Spatial-Awared Text-Image-3D Alignment](https://arxiv.org/abs/2601.19247)**|arXiv.org|None|cs.CV|None|Jiarun Liu et al.|
 |**2026-01-19**|**[GaussExplorer: 3D Gaussian Splatting for Embodied Exploration and Reasoning](https://arxiv.org/abs/2601.13132)**|arXiv.org|Project page: https://gaussexplorer.github.io/|cs.CV|None|Kim Yu-Ji et al.|
@@ -663,6 +669,9 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-03-03**|**[The Dresden Dataset for 4D Reconstruction of Non-Rigid Abdominal Surgical Scenes](https://arxiv.org/abs/2603.02985)**|N/A|16 pages, 10 figures, accompanying data descriptor for dataset, submitted to Scientific Data|cs.CV|None|Reuben Docea et al.|
+|**2026-03-03**|**[DREAM: Where Visual Understanding Meets Text-to-Image Generation](https://arxiv.org/abs/2603.02667)**|N/A|None|cs.CV|None|Chao Li et al.|
+|**2026-03-02**|**[TruckDrive: Long-Range Autonomous Highway Driving Dataset](https://arxiv.org/abs/2603.02413)**|N/A|None|cs.CV|None|Filippo Ghilotti et al.|
 |**2026-03-02**|**[Learning Vision-Based Omnidirectional Navigation: A Teacher-Student Approach Using Monocular Depth Estimation](https://arxiv.org/abs/2603.01999)**|N/A|None|cs.RO|None|Jan Finke et al.|
 |**2026-03-02**|**[WildCross: A Cross-Modal Large Scale Benchmark for Place Recognition and Metric Depth Estimation in Natural Environments](https://arxiv.org/abs/2603.01475)**|N/A|IEEE International Conference on Robotics & Automation (ICRA) 2026|cs.CV|None|Joshua Knights et al.|
 |**2026-03-01**|**[Dr.Occ: Depth- and Region-Guided 3D Occupancy from Surround-View Cameras for Autonomous Driving](https://arxiv.org/abs/2603.01007)**|N/A|10 pages, 6 figures. Accepted at CVPR 2026|cs.CV|None|Xubo Zhu et al.|

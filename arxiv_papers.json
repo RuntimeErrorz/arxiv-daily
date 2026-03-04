@@ -1,5 +1,174 @@
 {
   "3DGS Semantic": {
+    "2603.02986": {
+      "title": "VIRGi: View-dependent Instant Recoloring of 3D Gaussians Splats",
+      "authors": [
+        "Alessio Mazzucchelli",
+        "Ivan Ojeda-Martin",
+        "Fernando Rivas-Manzaneque",
+        "Elena Garces",
+        "Adrian Penate-Sanchez",
+        "Francesc Moreno-Noguer"
+      ],
+      "published": "2026-03-03T13:41:17+00:00",
+      "updated": "2026-03-03T13:41:17+00:00",
+      "summary": "3D Gaussian Splatting (3DGS) has recently transformed the fields of novel view synthesis and 3D reconstruction due to its ability to accurately model complex 3D scenes and its unprecedented rendering performance. However, a significant challenge persists: the absence of an efficient and photorealistic method for editing the appearance of the scene's content. In this paper we introduce VIRGi, a novel approach for rapidly editing the color of scenes modeled by 3DGS while preserving view-dependent effects such as specular highlights. Key to our method are a novel architecture that separates color into diffuse and view-dependent components, and a multi-view training strategy that integrates image patches from multiple viewpoints. Improving over the conventional single-view batch training, our 3DGS representation provides more accurate reconstruction and serves as a solid representation for the recoloring task. For 3DGS recoloring, we then introduce a rapid scheme requiring only one manually edited image of the scene from the end-user. By fine-tuning the weights of a single MLP, alongside a module for single-shot segmentation of the editable area, the color edits are seamlessly propagated to the entire scene in just two seconds, facilitating real-time interaction and providing control over the strength of the view-dependent effects. An exhaustive validation on diverse datasets demonstrates significant quantitative and qualitative advancements over competitors based on Neural Radiance Fields representations.",
+      "categories": [
+        "cs.CV",
+        "cs.GR"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.02986v1",
+      "journal_ref": null,
+      "doi": "10.1109/TPAMI.2026.3665650",
+      "comment": "IEEE Transactions on Pattern Analysis and Machine Intelligence. 2026 Feb 24",
+      "entry_id": "http://arxiv.org/abs/2603.02986v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.02986v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.02986v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        },
+        {
+          "href": "https://doi.org/10.1109/TPAMI.2026.3665650",
+          "title": "doi",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-04",
+        "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
+    },
+    "2603.02910": {
+      "title": "Articulation in Motion: Prior-free Part Mobility Analysis for Articulated Objects By Dynamic-Static Disentanglement",
+      "authors": [
+        "Hao Ai",
+        "Wenjie Chang",
+        "Jianbo Jiao",
+        "Ales Leonardis",
+        "Ofek Eyal"
+      ],
+      "published": "2026-03-03T12:07:06+00:00",
+      "updated": "2026-03-03T12:07:06+00:00",
+      "summary": "Articulated objects are ubiquitous in daily life. Our goal is to achieve a high-quality reconstruction, segmentation of independent moving parts, and analysis of articulation. Recent methods analyse two different articulation states and perform per-point part segmentation, optimising per-part articulation using cross-state correspondences, given a priori knowledge of the number of parts. Such assumptions greatly limit their applications and performance. Their robustness is reduced when objects cannot be clearly visible in both states. To address these issues, in this paper, we present a new framework, Articulation in Motion (AiM). We infer part-level decomposition, articulation kinematics, and reconstruct an interactive 3D digital replica from a user-object interaction video and a start-state scan. We propose a dual-Gaussian scene representation that is learned from an initial 3DGS scan of the object and a video that shows the movement of separate parts. It uses motion cues to segment the object into parts and assign articulation joints. Subsequently, a robust, sequential RANSAC is employed to achieve part mobility analysis without any part-level structural priors, which clusters moving primitives into rigid parts and estimates kinematics while automatically determining the number of parts. The proposed approach separates the object into parts, each represented as a 3D Gaussian set, enabling high-quality rendering. Our approach yields higher quality part segmentation than previous methods, without prior knowledge. Extensive experimental analysis on both simple and complex objects validates the effectiveness and strong generalisation ability of our approach. Project page: https://haoai-1997.github.io/AiM/.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.02910v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted by ICLR 2026. Project Page: https://haoai-1997.github.io/AiM/",
+      "entry_id": "http://arxiv.org/abs/2603.02910v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.02910v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.02910v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-04",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2603.02866": {
+      "title": "Multimodal-Prior-Guided Importance Sampling for Hierarchical Gaussian Splatting in Sparse-View Novel View Synthesis",
+      "authors": [
+        "Kaiqiang Xiong",
+        "Zhanke Wang",
+        "Ronggang Wang"
+      ],
+      "published": "2026-03-03T11:19:45+00:00",
+      "updated": "2026-03-03T11:19:45+00:00",
+      "summary": "We present multimodal-prior-guided importance sampling as the central mechanism for hierarchical 3D Gaussian Splatting (3DGS) in sparse-view novel view synthesis. Our sampler fuses complementary cues { -- } photometric rendering residuals, semantic priors, and geometric priors { -- } to produce a robust, local recoverability estimate that directly drives where to inject fine Gaussians. Built around this sampling core, our framework comprises (1) a coarse-to-fine Gaussian representation that encodes global shape with a stable coarse layer and selectively adds fine primitives where the multimodal metric indicates recoverable detail; and (2) a geometric-aware sampling and retention policy that concentrates refinement on geometrically critical and complex regions while protecting newly added primitives in underconstrained areas from premature pruning. By prioritizing regions supported by consistent multimodal evidence rather than raw residuals alone, our method alleviates overfitting texture-induced errors and suppresses noise from pose/appearance inconsistencies. Experiments on diverse sparse-view benchmarks demonstrate state-of-the-art reconstructions, with up to +0.3 dB PSNR on DTU.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.02866v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2603.02866v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.02866v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.02866v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2603.02548": {
+      "title": "SemGS: Feed-Forward Semantic 3D Gaussian Splatting from Sparse Views for Generalizable Scene Understanding",
+      "authors": [
+        "Sheng Ye",
+        "Zhen-Hui Dong",
+        "Ruoyu Fan",
+        "Tian Lv",
+        "Yong-Jin Liu"
+      ],
+      "published": "2026-03-03T03:06:37+00:00",
+      "updated": "2026-03-03T03:06:37+00:00",
+      "summary": "Semantic understanding of 3D scenes is essential for robots to operate effectively and safely in complex environments. Existing methods for semantic scene reconstruction and semantic-aware novel view synthesis often rely on dense multi-view inputs and require scene-specific optimization, limiting their practicality and scalability in real-world applications. To address these challenges, we propose SemGS, a feed-forward framework for reconstructing generalizable semantic fields from sparse image inputs. SemGS uses a dual-branch architecture to extract color and semantic features, where the two branches share shallow CNN layers, allowing semantic reasoning to leverage textural and structural cues in color appearance. We also incorporate a camera-aware attention mechanism into the feature extractor to explicitly model geometric relationships between camera viewpoints. The extracted features are decoded into dual-Gaussians that share geometric consistency while preserving branch-specific attributes, and further rasterized to synthesize semantic maps under novel viewpoints. Additionally, we introduce a regional smoothness loss to enhance semantic coherence. Experiments show that SemGS achieves state-of-the-art performance on benchmark datasets, while providing rapid inference and strong generalization capabilities across diverse synthetic and real-world scenarios.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.02548v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "ICRA 2026",
+      "entry_id": "http://arxiv.org/abs/2603.02548v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.02548v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.02548v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
     "2603.02134": {
       "title": "OnlineX: Unified Online 3D Reconstruction and Understanding with Active-to-Stable State Evolution",
       "authors": [
@@ -10,26 +179,26 @@
         "Yueqi Duan"
       ],
       "published": "2026-03-02T17:52:02+00:00",
-      "updated": "2026-03-02T17:52:02+00:00",
+      "updated": "2026-03-03T14:03:57+00:00",
       "summary": "Recent advances in generalizable 3D Gaussian Splatting (3DGS) have enabled rapid 3D scene reconstruction within seconds, eliminating the need for per-scene optimization. However, existing methods primarily follow an offline reconstruction paradigm, lacking the capacity for continuous reconstruction, which limits their applicability to online scenarios such as robotics and VR/AR. In this paper, we introduce OnlineX, a feed-forward framework that reconstructs both 3D visual appearance and language fields in an online manner using only streaming images. A key challenge in online formulation is the cumulative drift issue, which is rooted in the fundamental conflict between two opposing roles of the memory state: an active role that constantly refreshes to capture high-frequency local geometry, and a stable role that conservatively accumulates and preserves the long-term global structure. To address this, we introduce a decoupled active-to-stable state evolution paradigm. Our framework decouples the memory state into a dedicated active state and a persistent stable state, and then cohesively fuses the information from the former into the latter to achieve both fidelity and stability. Moreover, we jointly model visual appearance and language fields and incorporate an implicit Gaussian fusion module to enhance reconstruction quality. Experiments on mainstream datasets demonstrate that our method consistently outperforms prior work in novel view synthesis and semantic understanding, showcasing robust performance across input sequences of varying lengths with real-time inference speed.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2603.02134v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.02134v2",
       "journal_ref": null,
       "doi": null,
-      "comment": null,
-      "entry_id": "http://arxiv.org/abs/2603.02134v1",
+      "comment": "Accepted by CVPR Finding 2026 (Project page: https://xiac20.github.io/OnlineX/)",
+      "entry_id": "http://arxiv.org/abs/2603.02134v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2603.02134v1",
+          "href": "https://arxiv.org/abs/2603.02134v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2603.02134v1",
+          "href": "https://arxiv.org/pdf/2603.02134v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -1945,6 +2114,53 @@
       ],
       "llm_approved": false
     },
+    "2603.02237": {
+      "title": "Concept Heterogeneity-aware Representation Steering",
+      "authors": [
+        "Laziz U. Abdullaev",
+        "Noelle Y. L. Wong",
+        "Ryan T. Z. Lee",
+        "Shiqi Jiang",
+        "Khoi N. M. Nguyen",
+        "Tan M. Nguyen"
+      ],
+      "published": "2026-02-13T11:07:23+00:00",
+      "updated": "2026-02-13T11:07:23+00:00",
+      "summary": "Representation steering offers a lightweight mechanism for controlling the behavior of large language models (LLMs) by intervening on internal activations at inference time. Most existing methods rely on a single global steering direction, typically obtained via difference-in-means over contrastive datasets. This approach implicitly assumes that the target concept is homogeneously represented across the embedding space. In practice, however, LLM representations can be highly non-homogeneous, exhibiting clustered, context-dependent structure, which renders global steering directions brittle. In this work, we view representation steering through the lens of optimal transport (OT), noting that standard difference-in-means steering implicitly corresponds to the OT map between two unimodal Gaussian distributions with identical covariance, yielding a global translation. To relax this restrictive assumption, we theoretically model source and target representations as Gaussian mixture models and formulate steering as a discrete OT problem between semantic latent clusters. From the resulting transport plan, we derive an explicit, input-dependent steering map via barycentric projection, producing a smooth, kernel-weighted combination of cluster-level shifts. We term this method Concept Heterogeneity-aware Representation Steering (CHaRS). Through numerous experimental settings, we show that CHaRS yields more effective behavioral control than global steering.",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2603.02237v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2603.02237v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.02237v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.02237v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-04",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
     "2602.12593": {
       "title": "RQ-GMM: Residual Quantized Gaussian Mixture Model for Multimodal Semantic Discretization in CTR Prediction",
       "authors": [
@@ -3154,6 +3370,48 @@
         }
       ],
       "llm_approved": false
+    },
+    "2603.02213": {
+      "title": "A Zipf-preserving, long-range correlated surrogate for written language and other symbolic sequences",
+      "authors": [
+        "Marcelo A. Montemurro",
+        "Mirko Degli Esposti"
+      ],
+      "published": "2026-02-06T16:30:55+00:00",
+      "updated": "2026-02-06T16:30:55+00:00",
+      "summary": "Symbolic sequences such as written language and genomic DNA display characteristic frequency distributions and long-range correlations extending over many symbols. In language, this takes the form of Zipf's law for word frequencies together with persistent correlations spanning hundreds or thousands of tokens, while in DNA it is reflected in nucleotide composition and long-memory walks under purine-pyrimidine mappings. Existing surrogate models usually preserve either the frequency distribution or the correlation properties, but not both simultaneously.\n  We introduce a surrogate model that retains both constraints: it preserves the empirical symbol frequencies of the original sequence and reproduces its long-range correlation structure, quantified by the detrended fluctuation analysis (DFA) exponent. Our method generates surrogates of symbolic sequences by mapping fractional Gaussian noise (FGN) onto the empirical histogram through a frequency-preserving assignment. The resulting surrogates match the original in first-order statistics and long-range scaling while randomising short-range dependencies.\n  We validate the model on representative texts in English and Latin, and illustrate its broader applicability with genomic DNA, showing that base composition and DFA scaling are reproduced. This approach provides a principled tool for disentangling structural features of symbolic systems and for testing hypotheses on the origin of scaling laws and memory effects across language, DNA, and other symbolic domains.",
+      "categories": [
+        "cs.CL",
+        "cond-mat.stat-mech",
+        "q-bio.GN"
+      ],
+      "primary_category": "cs.CL",
+      "pdf_url": "https://arxiv.org/pdf/2603.02213v1",
+      "journal_ref": "Physica A 683 (2026) 131227",
+      "doi": "10.1016/j.physa.2025.131227",
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2603.02213v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.02213v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.02213v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        },
+        {
+          "href": "https://doi.org/10.1016/j.physa.2025.131227",
+          "title": "doi",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
     },
     "2602.06838": {
       "title": "An Adaptive Differentially Private Federated Learning Framework with Bi-level Optimization",
@@ -98434,6 +98692,130 @@
     }
   },
   "Depth Estimation": {
+    "2603.02985": {
+      "title": "The Dresden Dataset for 4D Reconstruction of Non-Rigid Abdominal Surgical Scenes",
+      "authors": [
+        "Reuben Docea",
+        "Rayan Younis",
+        "Yonghao Long",
+        "Maxime Fleury",
+        "Jinjing Xu",
+        "Chenyang Li",
+        "André Schulze",
+        "Ann Wierick",
+        "Johannes Bender",
+        "Micha Pfeiffer",
+        "Qi Dou",
+        "Martin Wagner",
+        "Stefanie Speidel"
+      ],
+      "published": "2026-03-03T13:37:02+00:00",
+      "updated": "2026-03-03T13:37:02+00:00",
+      "summary": "The D4D Dataset provides paired endoscopic video and high-quality structured-light geometry for evaluating 3D reconstruction of deforming abdominal soft tissue in realistic surgical conditions. Data were acquired from six porcine cadaver sessions using a da Vinci Xi stereo endoscope and a Zivid structured-light camera, registered via optical tracking and manually curated iterative alignment methods. Three sequence types - whole deformations, incremental deformations, and moved-camera clips - probe algorithm robustness to non-rigid motion, deformation magnitude, and out-of-view updates. Each clip provides rectified stereo images, per-frame instrument masks, stereo depth, start/end structured-light point clouds, curated camera poses and camera intrinsics. In postprocessing, ICP and semi-automatic registration techniques are used to register data, and instrument masks are created. The dataset enables quantitative geometric evaluation in both visible and occluded regions, alongside photometric view-synthesis baselines. Comprising over 300,000 frames and 369 point clouds across 98 curated recordings, this resource can serve as a comprehensive benchmark for developing and evaluating non-rigid SLAM, 4D reconstruction, and depth estimation methods.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.02985v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "16 pages, 10 figures, accompanying data descriptor for dataset, submitted to Scientific Data",
+      "entry_id": "http://arxiv.org/abs/2603.02985v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.02985v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.02985v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2603.02667": {
+      "title": "DREAM: Where Visual Understanding Meets Text-to-Image Generation",
+      "authors": [
+        "Chao Li",
+        "Tianhong Li",
+        "Sai Vidyaranya Nuthalapati",
+        "Hong-You Chen",
+        "Satya Narayan Shukla",
+        "Yonghuan Yang",
+        "Jun Xiao",
+        "Xiangjun Fan",
+        "Aashu Singh",
+        "Dina Katabi",
+        "Shlok Kumar Mishra"
+      ],
+      "published": "2026-03-03T06:54:19+00:00",
+      "updated": "2026-03-03T06:54:19+00:00",
+      "summary": "Unifying visual representation learning and text-to-image (T2I) generation within a single model remains a central challenge in multimodal learning. We introduce DREAM, a unified framework that jointly optimizes discriminative and generative objectives, while learning strong visual representations. DREAM is built on two key techniques: During training, Masking Warmup, a progressive masking schedule, begins with minimal masking to establish the contrastive alignment necessary for representation learning, then gradually transitions to full masking for stable generative training. At inference, DREAM employs Semantically Aligned Decoding to align partially masked image candidates with the target text and select the best one for further decoding, improving text-image fidelity (+6.3%) without external rerankers. Trained solely on CC12M, DREAM achieves 72.7% ImageNet linear-probing accuracy (+1.1% over CLIP) and an FID of 4.25 (+6.2% over FLUID), with consistent gains in few-shot classification, semantic segmentation, and depth estimation. These results demonstrate that discriminative and generative objectives can be synergistic, allowing unified multimodal models that excel at both visual understanding and generation.",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.02667v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2603.02667v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.02667v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.02667v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2603.02413": {
+      "title": "TruckDrive: Long-Range Autonomous Highway Driving Dataset",
+      "authors": [
+        "Filippo Ghilotti",
+        "Edoardo Palladin",
+        "Samuel Brucker",
+        "Adam Sigal",
+        "Mario Bijelic",
+        "Felix Heide"
+      ],
+      "published": "2026-03-02T21:50:34+00:00",
+      "updated": "2026-03-02T21:50:34+00:00",
+      "summary": "Safe highway autonomy for heavy trucks remains an open and unsolved challenge: due to long braking distances, scene understanding of hundreds of meters is required for anticipatory planning and to allow safe braking margins. However, existing driving datasets primarily cover urban scenes, with perception effectively limited to short ranges of only up to 100 meters. To address this gap, we introduce TruckDrive, a highway-scale multimodal driving dataset, captured with a sensor suite purpose-built for long range sensing: seven long-range FMCW LiDARs measuring range and radial velocity, three high-resolution short-range LiDARs, eleven 8MP surround cameras with varying focal lengths and ten 4D FMCW radars. The dataset offers 475 thousands samples with 165 thousands densely annotated frames for driving perception benchmarking up to 1,000 meters for 2D detection and 400 meters for 3D detection, depth estimation, tracking, planning and end to end driving over 20 seconds sequences at highway speeds. We find that state-of-the-art autonomous driving models do not generalize to ranges beyond 150 meters, with drops between 31% and 99% in 3D perception tasks, exposing a systematic long-range gap that current architectures and training signals cannot close.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.02413v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2603.02413v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.02413v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.02413v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2603.01999": {
       "title": "Learning Vision-Based Omnidirectional Navigation: A Teacher-Student Approach Using Monocular Depth Estimation",
       "authors": [
