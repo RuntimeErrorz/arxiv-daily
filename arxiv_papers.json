@@ -130,7 +130,15 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-05",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2603.02548": {
       "title": "SemGS: Feed-Forward Semantic 3D Gaussian Splatting from Sparse Views for Generalizable Scene Understanding",
@@ -167,7 +175,15 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-05",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2603.02134": {
       "title": "OnlineX: Unified Online 3D Reconstruction and Understanding with Active-to-Stable State Evolution",
@@ -3411,7 +3427,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-05",
+        "venue": "Physica A: Statistical Mechanics and its Applications",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2602.06838": {
       "title": "An Adaptive Differentially Private Federated Learning Framework with Bi-level Optimization",

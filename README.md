@@ -1,4 +1,4 @@
-## Updated at 2026-03-04 20:12:11
+## Updated at 2026-03-05 08:24:26
 
 ## 3DGS Semantic
 
@@ -27,7 +27,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2026-02-13**|**[Concept Heterogeneity-aware Representation Steering](https://arxiv.org/abs/2603.02237)**|N/A|None|cs.LG|None|Laziz U. Abdullaev et al.|
 |**2026-02-12**|**[LatentAM: Real-Time, Large-Scale Latent Gaussian Attention Mapping via Online Dictionary Learning](https://arxiv.org/abs/2602.12314)**|N/A|8 pages, 5 figures|cs.RO|None|Junwoon Lee, Yulun Tian|
 |**2026-02-12**|**[3DGSNav: Enhancing Vision-Language Model Reasoning for Object Navigation via Active 3D Gaussian Splatting](https://arxiv.org/abs/2602.12159)**|N/A|None|cs.RO|None|Wancai Zheng et al.|
-|**2026-02-06**|**[A Zipf-preserving, long-range correlated surrogate for written language and other symbolic sequences](https://arxiv.org/abs/2603.02213)**|N/A|None|cs.CL|Physica A 683 (2026) 131227|Marcelo A. Montemurro, Mirko Degli Esposti|
+|**2026-02-06**|**[A Zipf-preserving, long-range correlated surrogate for written language and other symbolic sequences](https://arxiv.org/abs/2603.02213)**|Physica A: Statistical Mechanics and its Applications|None|cs.CL|Physica A 683 (2026) 131227|Marcelo A. Montemurro, Mirko Degli Esposti|
 |**2026-02-01**|**[Split&Splat: Zero-Shot Panoptic Segmentation via Explicit Instance Modeling and 3D Gaussian Splatting](https://arxiv.org/abs/2602.03809)**|N/A|None|cs.GR|None|Leonardo Monchieri et al.|
 |**2026-01-27**|**[TIGaussian: Disentangle Gaussians for Spatial-Awared Text-Image-3D Alignment](https://arxiv.org/abs/2601.19247)**|arXiv.org|None|cs.CV|None|Jiarun Liu et al.|
 |**2026-01-19**|**[GaussExplorer: 3D Gaussian Splatting for Embodied Exploration and Reasoning](https://arxiv.org/abs/2601.13132)**|arXiv.org|Project page: https://gaussexplorer.github.io/|cs.CV|None|Kim Yu-Ji et al.|
