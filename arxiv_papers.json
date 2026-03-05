@@ -1,5 +1,232 @@
 {
   "3DGS Semantic": {
+    "2603.04368": {
+      "title": "LLM-supported 3D Modeling Tool for Radio Radiance Field Reconstruction",
+      "authors": [
+        "Chengling Xu",
+        "Huiwen Zhang",
+        "Haijian Sun",
+        "Feng Ye"
+      ],
+      "published": "2026-03-04T18:33:26+00:00",
+      "updated": "2026-03-04T18:33:26+00:00",
+      "summary": "Accurate channel estimation is essential for massive multiple-input multiple-output (MIMO) technologies in next-generation wireless communications. Recently, the radio radiance field (RRF) has emerged as a promising approach for wireless channel modeling, offering a comprehensive spatial representation of channels based on environmental geometry. State-of-the-art RRF reconstruction methods, such as RF-3DGS, can render channel parameters, including gain, angle of arrival, angle of departure, and delay, within milliseconds. However, creating the required 3D environment typically demands precise measurements and advanced computer vision techniques, limiting accessibility. This paper introduces a locally deployable tool that simplifies 3D environment creation for RRF reconstruction. The system combines finetuned language models, generative 3D modeling frameworks, and Blender integration to enable intuitive, chat-based scene design. Specifically, T5-mini is finetuned for parsing user commands, while all-MiniLM-L6-v2 supports semantic retrieval from a local object library. For model generation, LLaMA-Mesh provides fast mesh creation, and Shap-E delivers high-quality outputs. A custom Blender export plugin ensures compatibility with the RF-3DGS pipeline. We demonstrate the tool by constructing 3D models of the NIST lobby and the UW-Madison wireless lab, followed by corresponding RRF reconstructions. This approach significantly reduces modeling complexity, enhancing the usability of RRF for wireless research and spectrum planning.",
+      "categories": [
+        "cs.NI"
+      ],
+      "primary_category": "cs.NI",
+      "pdf_url": "https://arxiv.org/pdf/2603.04368v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Submitted to an IEEE conference",
+      "entry_id": "http://arxiv.org/abs/2603.04368v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.04368v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.04368v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2603.04355": {
+      "title": "Efficient Refusal Ablation in LLM through Optimal Transport",
+      "authors": [
+        "Geraldin Nanfack",
+        "Eugene Belilovsky",
+        "Elvis Dohmatob"
+      ],
+      "published": "2026-03-04T18:19:50+00:00",
+      "updated": "2026-03-04T18:19:50+00:00",
+      "summary": "Safety-aligned language models refuse harmful requests through learned refusal behaviors encoded in their internal representations. Recent activation-based jailbreaking methods circumvent these safety mechanisms by applying orthogonal projections to remove refusal directions, but these approaches treat refusal as a one-dimensional phenomenon and ignore the rich distributional structure of model activations. We introduce a principled framework based on optimal transport theory that transforms the entire distribution of harmful activations to match harmless ones. By combining PCA with closed-form Gaussian optimal transport, we achieve efficient computation in high-dimensional representation spaces while preserving essential geometric structure. Across six models (Llama-2, Llama-3.1, Qwen-2.5; 7B-32B parameters), our method achieves up to 11% higher attack success rates than state-of-the-art baselines while maintaining comparable perplexity, demonstrating superior preservation of model capabilities. Critically, we discover that layer-selective intervention (applying optimal transport to 1-2 carefully chosen layers at approximately 40-60% network depth) substantially outperforms full-network interventions, revealing that refusal mechanisms may be localized rather than distributed. Our analysis provides new insights into the geometric structure of safety representations and suggests that current alignment methods may be vulnerable to distributional attacks beyond simple direction removal.",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2603.04355v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2603.04355v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.04355v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.04355v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2603.04302": {
+      "title": "Motion Manipulation via Unsupervised Keypoint Positioning in Face Animation",
+      "authors": [
+        "Hong Li",
+        "Boyu Liu",
+        "Xuhui Liu",
+        "Baochang Zhang"
+      ],
+      "published": "2026-03-04T17:21:28+00:00",
+      "updated": "2026-03-04T17:21:28+00:00",
+      "summary": "Face animation deals with controlling and generating facial features with a wide range of applications. The methods based on unsupervised keypoint positioning can produce realistic and detailed virtual portraits. However, they cannot achieve controllable face generation since the existing keypoint decomposition pipelines fail to fully decouple identity semantics and intertwined motion information (e.g., rotation, translation, and expression). To address these issues, we present a new method, Motion Manipulation via unsupervised keypoint positioning in Face Animation (MMFA). We first introduce self-supervised representation learning to encode and decode expressions in the latent feature space and decouple them from other motion information. Secondly, we propose a new way to compute keypoints aiming to achieve arbitrary motion control. Moreover, we design a variational autoencoder to map expression features to a continuous Gaussian distribution, allowing us for the first time to interpolate facial expressions in an unsupervised framework. We have conducted extensive experiments on publicly available datasets to validate the effectiveness of MMFA, which show that MMFA offers pronounced advantages over prior arts in creating realistic animation and manipulating face motion.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.04302v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "19 pages, 15 figures",
+      "entry_id": "http://arxiv.org/abs/2603.04302v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.04302v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.04302v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-05",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2603.04254": {
+      "title": "EmbodiedSplat: Online Feed-Forward Semantic 3DGS for Open-Vocabulary 3D Scene Understanding",
+      "authors": [
+        "Seungjun Lee",
+        "Zihan Wang",
+        "Yunsong Wang",
+        "Gim Hee Lee"
+      ],
+      "published": "2026-03-04T16:40:41+00:00",
+      "updated": "2026-03-04T16:40:41+00:00",
+      "summary": "Understanding a 3D scene immediately with its exploration is essential for embodied tasks, where an agent must construct and comprehend the 3D scene in an online and nearly real-time manner. In this study, we propose EmbodiedSplat, an online feed-forward 3DGS for open-vocabulary scene understanding that enables simultaneous online 3D reconstruction and 3D semantic understanding from the streaming images. Unlike existing open-vocabulary 3DGS methods which are typically restricted to either offline or per-scene optimization setting, our objectives are two-fold: 1) Reconstructs the semantic-embedded 3DGS of the entire scene from over 300 streaming images in an online manner. 2) Highly generalizable to novel scenes with feed-forward design and supports nearly real-time 3D semantic reconstruction when combined with real-time 2D models. To achieve these objectives, we propose an Online Sparse Coefficients Field with a CLIP Global Codebook where it binds the 2D CLIP embeddings to each 3D Gaussian while minimizing memory consumption and preserving the full semantic generalizability of CLIP. Furthermore, we generate 3D geometric-aware CLIP features by aggregating the partial point cloud of 3DGS through 3D U-Net to compensate the 3D geometric prior to 2D-oriented language embeddings. Extensive experiments on diverse indoor datasets, including ScanNet, ScanNet++, and Replica, demonstrate both the effectiveness and efficiency of our method. Check out our project page in https://0nandon.github.io/EmbodiedSplat/.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.04254v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "CVPR 2026, Project Page: https://0nandon.github.io/EmbodiedSplat/",
+      "entry_id": "http://arxiv.org/abs/2603.04254v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.04254v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.04254v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2603.04024": {
+      "title": "Volumetric Directional Diffusion: Anchoring Uncertainty Quantification in Anatomical Consensus for Ambiguous Medical Image Segmentation",
+      "authors": [
+        "Chao Wu",
+        "Kangxian Xie",
+        "Mingchen Gao"
+      ],
+      "published": "2026-03-04T12:58:43+00:00",
+      "updated": "2026-03-04T12:58:43+00:00",
+      "summary": "Equivocal 3D lesion segmentation exhibits high inter-observer variability. Conventional deterministic models ignore this aleatoric uncertainty, producing over-confident masks that obscure clinical risks. Conversely, while generative methods (e.g., standard diffusion) capture sample diversity, recovering complex topology from pure noise frequently leads to severe structural fractures and out-of-distribution anatomical hallucinations. To resolve this fidelity-diversity trade-off, we propose Volumetric Directional Diffusion (VDD). Unlike standard diffusion models that denoise isotropic Gaussian noise, VDD mathematically anchors the generative trajectory to a deterministic consensus prior. By restricting the generative search space to iteratively predict a 3D boundary residual field, VDD accurately explores the fine-grained geometric variations inherent in expert disagreements without risking topological collapse. Extensive validation on three multi-rater datasets (LIDC-IDRI, KiTS21, and ISBI 2015) demonstrates that VDD achieves state-of-the-art uncertainty quantification (significantly improving GED and CI) while remaining highly competitive in segmentation accuracy against deterministic upper bounds. Ultimately, VDD provides clinicians with anatomically coherent uncertainty maps, enabling safer decision-making and mitigating risks in downstream tasks (e.g., radiotherapy planning or surgical margin assessment).",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.04024v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2603.04024v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.04024v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.04024v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2603.03955": {
+      "title": "GIPO: Gaussian Importance Sampling Policy Optimization",
+      "authors": [
+        "Chengxuan Lu",
+        "Zhenquan Zhang",
+        "Shukuan Wang",
+        "Qunzhi Lin",
+        "Baigui Sun",
+        "Yang Liu"
+      ],
+      "published": "2026-03-04T11:34:59+00:00",
+      "updated": "2026-03-04T11:34:59+00:00",
+      "summary": "Post-training with reinforcement learning (RL) has recently shown strong promise for advancing multimodal agents beyond supervised imitation. However, RL remains limited by poor data efficiency, particularly in settings where interaction data are scarce and quickly become outdated. To address this challenge, GIPO (Gaussian Importance sampling Policy Optimization) is proposed as a policy optimization objective based on truncated importance sampling, replacing hard clipping with a log-ratio-based Gaussian trust weight to softly damp extreme importance ratios while maintaining non-zero gradients. Theoretical analysis shows that GIPO introduces an implicit, tunable constraint on the update magnitude, while concentration bounds guarantee robustness and stability under finite-sample estimation. Experimental results show that GIPO achieves state-of-the-art performance among clipping-based baselines across a wide range of replay buffer sizes, from near on-policy to highly stale data, while exhibiting superior bias--variance trade-off, high training stability and improved sample efficiency.",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2603.03955v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2603.03955v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.03955v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.03955v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
     "2603.02986": {
       "title": "VIRGi: View-dependent Instant Recoloring of 3D Gaussians Splats",
       "authors": [
@@ -81819,6 +82046,45 @@
     }
   },
   "MVS": {
+    "2603.03765": {
+      "title": "LiDAR Prompted Spatio-Temporal Multi-View Stereo for Autonomous Driving",
+      "authors": [
+        "Qihao Sun",
+        "Jiarun Liu",
+        "Ziqian Ni",
+        "Jianyun Xu",
+        "Tao Xie",
+        "Lijun Zhao",
+        "Ruifeng Li",
+        "Sheng Yang"
+      ],
+      "published": "2026-03-04T06:22:01+00:00",
+      "updated": "2026-03-04T06:22:01+00:00",
+      "summary": "Accurate metric depth is critical for autonomous driving perception and simulation, yet current approaches struggle to achieve high metric accuracy, multi-view and temporal consistency, and cross-domain generalization. To address these challenges, we present DriveMVS, a novel multi-view stereo framework that reconciles these competing objectives through two key insights:\n  (1) Sparse but metrically accurate LiDAR observations can serve as geometric prompts to anchor depth estimation in absolute scale, and (2) deep fusion of diverse cues is essential for resolving ambiguities and enhancing robustness, while a spatio-temporal decoder ensures consistency across frames. Built upon these principles, DriveMVS embeds the LiDAR prompt in two ways: as a hard geometric prior that anchors the cost volume, and as soft feature-wise guidance fused by a triple-cue combiner. Regarding temporal consistency, DriveMVS employs a spatio-temporal decoder that jointly leverages geometric cues from the MVS cost volume and temporal context from neighboring frames. Experiments show that DriveMVS achieves state-of-the-art performance on multiple benchmarks, excelling in metric accuracy, temporal stability, and zero-shot cross-domain transfer, demonstrating its practical value for scalable, reliable autonomous driving systems.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.03765v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2603.03765v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.03765v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.03765v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2602.22025": {
       "title": "Olbedo: An Albedo and Shading Aerial Dataset for Large-Scale Outdoor Environments",
       "authors": [
@@ -98715,6 +98981,86 @@
     }
   },
   "Depth Estimation": {
+    "2603.03765": {
+      "title": "LiDAR Prompted Spatio-Temporal Multi-View Stereo for Autonomous Driving",
+      "authors": [
+        "Qihao Sun",
+        "Jiarun Liu",
+        "Ziqian Ni",
+        "Jianyun Xu",
+        "Tao Xie",
+        "Lijun Zhao",
+        "Ruifeng Li",
+        "Sheng Yang"
+      ],
+      "published": "2026-03-04T06:22:01+00:00",
+      "updated": "2026-03-04T06:22:01+00:00",
+      "summary": "Accurate metric depth is critical for autonomous driving perception and simulation, yet current approaches struggle to achieve high metric accuracy, multi-view and temporal consistency, and cross-domain generalization. To address these challenges, we present DriveMVS, a novel multi-view stereo framework that reconciles these competing objectives through two key insights:\n  (1) Sparse but metrically accurate LiDAR observations can serve as geometric prompts to anchor depth estimation in absolute scale, and (2) deep fusion of diverse cues is essential for resolving ambiguities and enhancing robustness, while a spatio-temporal decoder ensures consistency across frames. Built upon these principles, DriveMVS embeds the LiDAR prompt in two ways: as a hard geometric prior that anchors the cost volume, and as soft feature-wise guidance fused by a triple-cue combiner. Regarding temporal consistency, DriveMVS employs a spatio-temporal decoder that jointly leverages geometric cues from the MVS cost volume and temporal context from neighboring frames. Experiments show that DriveMVS achieves state-of-the-art performance on multiple benchmarks, excelling in metric accuracy, temporal stability, and zero-shot cross-domain transfer, demonstrating its practical value for scalable, reliable autonomous driving systems.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.03765v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2603.03765v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.03765v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.03765v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2603.03571": {
+      "title": "Confidence-aware Monocular Depth Estimation for Minimally Invasive Surgery",
+      "authors": [
+        "Muhammad Asad",
+        "Emanuele Colleoni",
+        "Pritesh Mehta",
+        "Nicolas Toussaint",
+        "Ricardo Sanchez-Matilla",
+        "Maria Robu",
+        "Faisal Bashir",
+        "Rahim Mohammadi",
+        "Imanol Luengo",
+        "Danail Stoyanov"
+      ],
+      "published": "2026-03-03T22:59:24+00:00",
+      "updated": "2026-03-03T22:59:24+00:00",
+      "summary": "Purpose: Monocular depth estimation (MDE) is vital for scene understanding in minimally invasive surgery (MIS). However, endoscopic video sequences are often contaminated by smoke, specular reflections, blur, and occlusions, limiting the accuracy of MDE models. In addition, current MDE models do not output depth confidence, which could be a valuable tool for improving their clinical reliability. Methods: We propose a novel confidence-aware MDE framework featuring three significant contributions: (i) Calibrated confidence targets: an ensemble of fine-tuned stereo matching models is used to capture disparity variance into pixel-wise confidence probabilities; (ii) Confidence-aware loss: Baseline MDE models are optimized with confidence-aware loss functions, utilizing pixel-wise confidence probabilities such that reliable pixels dominate training; and (iii) Inference-time confidence: a confidence estimation head is proposed with two convolution layers to predict per-pixel confidence at inference, enabling assessment of depth reliability. Results: Comprehensive experimental validation across internal and public datasets demonstrates that our framework improves depth estimation accuracy and can robustly quantify the prediction's confidence. On the internal clinical endoscopic dataset (StereoKP), we improve dense depth estimation accuracy by ~8% as compared to the baseline model. Conclusion: Our confidence-aware framework enables improved accuracy of MDE models in MIS, addressing challenges posed by noise and artifacts in pre-clinical and clinical data, and allows MDE models to provide confidence maps that may be used to improve their reliability for clinical applications.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.03571v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "12 pages, 4 figures",
+      "entry_id": "http://arxiv.org/abs/2603.03571v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.03571v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.03571v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2603.02985": {
       "title": "The Dresden Dataset for 4D Reconstruction of Non-Rigid Abdominal Surgical Scenes",
       "authors": [
@@ -98927,26 +99273,26 @@
         "Huai Yu"
       ],
       "published": "2026-03-01T09:22:15+00:00",
-      "updated": "2026-03-01T09:22:15+00:00",
-      "summary": "3D semantic occupancy prediction is crucial for autonomous driving perception, offering comprehensive geometric scene understanding and semantic recognition. However, existing methods struggle with geometric misalignment in view transformation due to the lack of pixel-level accurate depth estimation, and severe spatial class imbalance where semantic categories exhibit strong spatial anisotropy. To address these challenges, we propose Dr.Occ, a depth- and region-guided occupancy prediction framework. Specifically, we introduce a depth-guided 2D-to-3D View Transformer (D$^2$-VFormer) that effectively leverages high-quality dense depth cues from MoGe-2 to construct reliable geometric priors, thereby enabling precise geometric alignment of voxel features. Moreover, inspired by the Mixture-of-Experts (MoE) framework, we propose a region-guided Expert Transformer (R/R$^2$-EFormer) that adaptively allocates region-specific experts to focus on different spatial regions, effectively addressing spatial semantic variations. Thus, the two components make complementary contributions: depth guidance ensures geometric alignment, while region experts enhance semantic learning. Experiments on the Occ3D-nuScenes benchmark demonstrate that \\textbf{Dr.Occ} improves the strong baseline BEVDet4D by 7.43\\% mIoU and 3.09\\% IoU under the full vision-only setting.",
+      "updated": "2026-03-04T16:00:22+00:00",
+      "summary": "3D semantic occupancy prediction is crucial for autonomous driving perception, offering comprehensive geometric scene understanding and semantic recognition. However, existing methods struggle with geometric misalignment in view transformation due to the lack of pixel-level accurate depth estimation, and severe spatial class imbalance where semantic categories exhibit strong spatial anisotropy. To address these challenges, we propose \\textbf{Dr.Occ}, a depth- and region-guided occupancy prediction framework. Specifically, we introduce a depth-guided 2D-to-3D View Transformer (D$^2$-VFormer) that effectively leverages high-quality dense depth cues from MoGe-2 to construct reliable geometric priors, thereby enabling precise geometric alignment of voxel features. Moreover, inspired by the Mixture-of-Experts (MoE) framework, we propose a region-guided Expert Transformer (R/R$^2$-EFormer) that adaptively allocates region-specific experts to focus on different spatial regions, effectively addressing spatial semantic variations. Thus, the two components make complementary contributions: depth guidance ensures geometric alignment, while region experts enhance semantic learning. Experiments on the Occ3D--nuScenes benchmark demonstrate that \\textbf{Dr.Occ} improves the strong baseline BEVDet4D by 7.43\\% mIoU and 3.09\\% IoU under the full vision-only setting.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2603.01007v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.01007v2",
       "journal_ref": null,
       "doi": null,
       "comment": "10 pages, 6 figures. Accepted at CVPR 2026",
-      "entry_id": "http://arxiv.org/abs/2603.01007v1",
+      "entry_id": "http://arxiv.org/abs/2603.01007v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2603.01007v1",
+          "href": "https://arxiv.org/abs/2603.01007v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2603.01007v1",
+          "href": "https://arxiv.org/pdf/2603.01007v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null

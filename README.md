@@ -1,4 +1,4 @@
-## Updated at 2026-03-05 08:24:26
+## Updated at 2026-03-05 20:13:42
 
 ## 3DGS Semantic
 
@@ -8,6 +8,12 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-03-04**|**[LLM-supported 3D Modeling Tool for Radio Radiance Field Reconstruction](https://arxiv.org/abs/2603.04368)**|N/A|Submitted to an IEEE conference|cs.NI|None|Chengling Xu et al.|
+|**2026-03-04**|**[Efficient Refusal Ablation in LLM through Optimal Transport](https://arxiv.org/abs/2603.04355)**|N/A|None|cs.LG|None|Geraldin Nanfack et al.|
+|**2026-03-04**|**[Motion Manipulation via Unsupervised Keypoint Positioning in Face Animation](https://arxiv.org/abs/2603.04302)**|N/A|19 pages, 15 figures|cs.CV|None|Hong Li et al.|
+|**2026-03-04**|**[EmbodiedSplat: Online Feed-Forward Semantic 3DGS for Open-Vocabulary 3D Scene Understanding](https://arxiv.org/abs/2603.04254)**|N/A|CVPR 2026, Project Page: https://0nandon.github.io/EmbodiedSplat/|cs.CV|None|Seungjun Lee et al.|
+|**2026-03-04**|**[Volumetric Directional Diffusion: Anchoring Uncertainty Quantification in Anatomical Consensus for Ambiguous Medical Image Segmentation](https://arxiv.org/abs/2603.04024)**|N/A|None|cs.CV|None|Chao Wu et al.|
+|**2026-03-04**|**[GIPO: Gaussian Importance Sampling Policy Optimization](https://arxiv.org/abs/2603.03955)**|N/A|None|cs.LG|None|Chengxuan Lu et al.|
 |**2026-03-03**|**[VIRGi: View-dependent Instant Recoloring of 3D Gaussians Splats](https://arxiv.org/abs/2603.02986)**|IEEE Transactions on Pattern Analysis and Machine Intelligence|IEEE Transactions on Pattern Analysis and Machine Intelligence. 2026 Feb 24|cs.CV|None|Alessio Mazzucchelli et al.|
 |**2026-03-03**|**[Articulation in Motion: Prior-free Part Mobility Analysis for Articulated Objects By Dynamic-Static Disentanglement](https://arxiv.org/abs/2603.02910)**|N/A|Accepted by ICLR 2026. Project Page: https://haoai-1997.github.io/AiM/|cs.CV|None|Hao Ai et al.|
 |**2026-03-03**|**[Multimodal-Prior-Guided Importance Sampling for Hierarchical Gaussian Splatting in Sparse-View Novel View Synthesis](https://arxiv.org/abs/2603.02866)**|N/A|None|cs.CV|None|Kaiqiang Xiong et al.|
@@ -208,6 +214,7 @@ Query: (abs:'Multi-View Stereo' OR abs:'Multi View Stereo' OR abs:'Multi-View De
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-03-04**|**[LiDAR Prompted Spatio-Temporal Multi-View Stereo for Autonomous Driving](https://arxiv.org/abs/2603.03765)**|N/A|None|cs.CV|None|Qihao Sun et al.|
 |**2026-02-24**|**[Olbedo: An Albedo and Shading Aerial Dataset for Large-Scale Outdoor Environments](https://arxiv.org/abs/2602.22025)**|N/A|CVPR 2026|cs.CV|None|Shuang Song et al.|
 |**2026-02-23**|**[One2Scene: Geometric Consistent Explorable 3D Scene Generation from a Single Image](https://arxiv.org/abs/2602.19766)**|N/A|ICLR 2026|cs.CV|None|Pengfei Wang et al.|
 |**2026-02-10**|**[RAD: Retrieval-Augmented Monocular Metric Depth Estimation for Underrepresented Classes](https://arxiv.org/abs/2602.09532)**|N/A|None|cs.CV|None|Michael Baltaxe et al.|
@@ -669,6 +676,8 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-03-04**|**[LiDAR Prompted Spatio-Temporal Multi-View Stereo for Autonomous Driving](https://arxiv.org/abs/2603.03765)**|N/A|None|cs.CV|None|Qihao Sun et al.|
+|**2026-03-03**|**[Confidence-aware Monocular Depth Estimation for Minimally Invasive Surgery](https://arxiv.org/abs/2603.03571)**|N/A|12 pages, 4 figures|cs.CV|None|Muhammad Asad et al.|
 |**2026-03-03**|**[The Dresden Dataset for 4D Reconstruction of Non-Rigid Abdominal Surgical Scenes](https://arxiv.org/abs/2603.02985)**|N/A|16 pages, 10 figures, accompanying data descriptor for dataset, submitted to Scientific Data|cs.CV|None|Reuben Docea et al.|
 |**2026-03-03**|**[DREAM: Where Visual Understanding Meets Text-to-Image Generation](https://arxiv.org/abs/2603.02667)**|N/A|None|cs.CV|None|Chao Li et al.|
 |**2026-03-02**|**[TruckDrive: Long-Range Autonomous Highway Driving Dataset](https://arxiv.org/abs/2603.02413)**|N/A|None|cs.CV|None|Filippo Ghilotti et al.|
