@@ -1,4 +1,4 @@
-## Updated at 2026-03-06 08:28:18
+## Updated at 2026-03-06 20:11:38
 
 ## 3DGS Semantic
 
@@ -8,6 +8,11 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-03-05**|**[TILARA: Template-Independent Line-by-line Algorithm for Radial velocity Analysis. I. Description of the code and application on a Sun-like star](https://arxiv.org/abs/2603.05445)**|N/A|Accepted for publication in A&A|astro-ph.SR|None|C. San Nicolas Martinez et al.|
+|**2026-03-05**|**[SAIL: Similarity-Aware Guidance and Inter-Caption Augmentation-based Learning for Weakly-Supervised Dense Video Captioning](https://arxiv.org/abs/2603.05437)**|N/A|Accepted to CVPR 2026|cs.CV|None|Ye-Chan Kim et al.|
+|**2026-03-05**|**[GaussTwin: Unified Simulation and Correction with Gaussian Splatting for Robotic Digital Twins](https://arxiv.org/abs/2603.05108)**|N/A|8 pages, 4 figures, 3 tables, ICRA 2026|cs.RO|None|Yichen Cai et al.|
+|**2026-03-05**|**[Locality-Attending Vision Transformer](https://arxiv.org/abs/2603.04892)**|N/A|Accepted to ICLR 2026|cs.CV|None|Sina Hajimiri et al.|
+|**2026-03-05**|**[CONE: Embeddings for Complex Numerical Data Preserving Unit and Variable Semantics](https://arxiv.org/abs/2603.04741)**|N/A|None|cs.AI|None|Gyanendra Shrestha et al.|
 |**2026-03-04**|**[LLM-supported 3D Modeling Tool for Radio Radiance Field Reconstruction](https://arxiv.org/abs/2603.04368)**|N/A|Submitted to an IEEE conference|cs.NI|None|Chengling Xu et al.|
 |**2026-03-04**|**[Efficient Refusal Ablation in LLM through Optimal Transport](https://arxiv.org/abs/2603.04355)**|N/A|None|cs.LG|None|Geraldin Nanfack et al.|
 |**2026-03-04**|**[Motion Manipulation via Unsupervised Keypoint Positioning in Face Animation](https://arxiv.org/abs/2603.04302)**|N/A|19 pages, 15 figures|cs.CV|None|Hong Li et al.|
@@ -28,7 +33,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2026-02-28**|**[Zero-Shot Robotic Manipulation via 3D Gaussian Splatting-Enhanced Multimodal Retrieval-Augmented Generation](https://arxiv.org/abs/2603.00500)**|N/A|9 pages, 5 figures|cs.RO|None|Zilong Xie et al.|
 |**2026-02-27**|**[Thinking with Images as Continuous Actions: Numerical Visual Chain-of-Thought](https://arxiv.org/abs/2602.23959)**|N/A|None|cs.CV|None|Kesen Zhao et al.|
 |**2026-02-27**|**[ProtoDCS: Towards Robust and Efficient Open-Set Test-Time Adaptation for Vision-Language Models](https://arxiv.org/abs/2602.23653)**|N/A|13 pages, under review|cs.CV|None|Wei Luo et al.|
-|**2026-02-26**|**[Lap2: Revisiting Laplace DP-SGD for High Dimensions via Majorization Theory](https://arxiv.org/abs/2602.23516)**|N/A|16 pages including appendix. arXiv admin note: text overlap with arXiv:2509.06264|cs.CR|None|Meisam Mohammady et al.|
+|**2026-02-26**|**[Lap2: Revisiting Laplace DP-SGD for High Dimensions via Majorization Theory](https://arxiv.org/abs/2602.23516)**|N/A|Accepted at IEEE CSF 2026; Corrected version; 16 pages including appendix. arXiv admin note: text overlap with arXiv:2509.06264|cs.CR|None|Meisam Mohammady et al.|
 |**2026-02-26**|**[Monocular Open Vocabulary Occupancy Prediction for Indoor Scenes](https://arxiv.org/abs/2602.22667)**|N/A|Accepted by CVPR2026|cs.CV|None|Changqing Zhou et al.|
 |**2026-02-13**|**[Concept Heterogeneity-aware Representation Steering](https://arxiv.org/abs/2603.02237)**|N/A|None|cs.LG|None|Laziz U. Abdullaev et al.|
 |**2026-02-12**|**[LatentAM: Real-Time, Large-Scale Latent Gaussian Attention Mapping via Online Dictionary Learning](https://arxiv.org/abs/2602.12314)**|N/A|8 pages, 5 figures|cs.RO|None|Junwoon Lee, Yulun Tian|

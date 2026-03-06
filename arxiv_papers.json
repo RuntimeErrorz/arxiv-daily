@@ -1,5 +1,221 @@
 {
   "3DGS Semantic": {
+    "2603.05445": {
+      "title": "TILARA: Template-Independent Line-by-line Algorithm for Radial velocity Analysis. I. Description of the code and application on a Sun-like star",
+      "authors": [
+        "C. San Nicolas Martinez",
+        "N. C. Santos",
+        "V. Adibekyan",
+        "K. Al Moulla",
+        "A. M. Silva",
+        "S. G. Sousa"
+      ],
+      "published": "2026-03-05T18:10:05+00:00",
+      "updated": "2026-03-05T18:10:05+00:00",
+      "summary": "Precise radial velocities (RVs) are commonly derived through cross-correlation or template-matching methods, both of which rely on a reference spectrum that can introduce biases when the data are variable, contaminated, or sparsely sampled. Line-by-line methods offer an alternative way to compute RVs but generally still rely on template creation and therefore share its inherent limitations. We introduce TILARA, a template-independent, line-by-line RV extraction code designed to allow us to derive line-by-line RVs and to operate effectively even when spectral template construction is not recommended. While originally motivated by future PoET disk-resolved solar observations, TILARA has been built with the flexibility to work with different stellar spectral types and instruments. A curated list of individual absorption lines is used as a reference to automatically measure line centers with via Gaussian fitting with ARES. Then, using the reference lines list, and the lines measured with ARES on the spectra of the target star, TILARA computes the RVs and applies configurable outlier rejection through sigma-clipping or down-weighting methods. We tested different configurations of the code, RV uncertainty estimation methods, and line selection criteria. The code was applied to 520 ESPRESSO observations of the Sun-like star HD 102365 to evaluate its performance. TILARA was then tested against other RV extraction methods. Both in its sigma-clipping and its down-weighting mode, TILARA provided resulting RV time-series with similar standard deviation and error bars as the ones derived using existing methods that follow different approaches.",
+      "categories": [
+        "astro-ph.SR",
+        "astro-ph.EP",
+        "astro-ph.IM"
+      ],
+      "primary_category": "astro-ph.SR",
+      "pdf_url": "https://arxiv.org/pdf/2603.05445v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted for publication in A&A",
+      "entry_id": "http://arxiv.org/abs/2603.05445v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.05445v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.05445v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-06",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2603.05437": {
+      "title": "SAIL: Similarity-Aware Guidance and Inter-Caption Augmentation-based Learning for Weakly-Supervised Dense Video Captioning",
+      "authors": [
+        "Ye-Chan Kim",
+        "SeungJu Cha",
+        "Si-Woo Kim",
+        "Minju Jeon",
+        "Hyungee Kim",
+        "Dong-Jin Kim"
+      ],
+      "published": "2026-03-05T17:59:58+00:00",
+      "updated": "2026-03-05T17:59:58+00:00",
+      "summary": "Weakly-Supervised Dense Video Captioning aims to localize and describe events in videos trained only on caption annotations, without temporal boundaries. Prior work introduced an implicit supervision paradigm based on Gaussian masking and complementary captioning. However, existing method focuses merely on generating non-overlapping masks without considering their semantic relationship to corresponding events, resulting in simplistic, uniformly distributed masks that fail to capture semantically meaningful regions. Moreover, relying solely on ground-truth captions leads to sub-optimal performance due to the inherent sparsity of existing datasets. In this work, we propose SAIL, which constructs semantically-aware masks through cross-modal alignment. Our similarity aware training objective guides masks to emphasize video regions with high similarity to their corresponding event captions. Furthermore, to guide more accurate mask generation under sparse annotation settings, we introduce an LLM-based augmentation strategy that generates synthetic captions to provide additional alignment signals. These synthetic captions are incorporated through an inter-mask mechanism, providing auxiliary guidance for precise temporal localization without degrading the main objective. Experiments on ActivityNet Captions and YouCook2 demonstrate state-of-the-art performance on both captioning and localization metrics.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.05437v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted to CVPR 2026",
+      "entry_id": "http://arxiv.org/abs/2603.05437v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.05437v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.05437v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2603.05108": {
+      "title": "GaussTwin: Unified Simulation and Correction with Gaussian Splatting for Robotic Digital Twins",
+      "authors": [
+        "Yichen Cai",
+        "Paul Jansonnie",
+        "Cristiana de Farias",
+        "Oleg Arenz",
+        "Jan Peters"
+      ],
+      "published": "2026-03-05T12:27:05+00:00",
+      "updated": "2026-03-05T12:27:05+00:00",
+      "summary": "Digital twins promise to enhance robotic manipulation by maintaining a consistent link between real-world perception and simulation. However, most existing systems struggle with the lack of a unified model, complex dynamic interactions, and the real-to-sim gap, which limits downstream applications such as model predictive control. Thus, we propose GaussTwin, a real-time digital twin that combines position-based dynamics with discrete Cosserat rod formulations for physically grounded simulation, and Gaussian splatting for efficient rendering and visual correction. By anchoring Gaussians to physical primitives and enforcing coherent SE(3) updates driven by photometric error and segmentation masks, GaussTwin achieves stable prediction-correction while preserving physical fidelity. Through experiments in both simulation and on a Franka Research 3 platform, we show that GaussTwin consistently improves tracking accuracy and robustness compared to shape-matching and rigid-only baselines, while also enabling downstream tasks such as push-based planning. These results highlight GaussTwin as a step toward unified, physically meaningful digital twins that can support closed-loop robotic interaction and learning.",
+      "categories": [
+        "cs.RO"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2603.05108v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "8 pages, 4 figures, 3 tables, ICRA 2026",
+      "entry_id": "http://arxiv.org/abs/2603.05108v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.05108v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.05108v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-06",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2603.04892": {
+      "title": "Locality-Attending Vision Transformer",
+      "authors": [
+        "Sina Hajimiri",
+        "Farzad Beizaee",
+        "Fereshteh Shakeri",
+        "Christian Desrosiers",
+        "Ismail Ben Ayed",
+        "Jose Dolz"
+      ],
+      "published": "2026-03-05T07:31:49+00:00",
+      "updated": "2026-03-05T07:31:49+00:00",
+      "summary": "Vision transformers have demonstrated remarkable success in classification by leveraging global self-attention to capture long-range dependencies. However, this same mechanism can obscure fine-grained spatial details crucial for tasks such as segmentation. In this work, we seek to enhance segmentation performance of vision transformers after standard image-level classification training. More specifically, we present a simple yet effective add-on that improves performance on segmentation tasks while retaining vision transformers' image-level recognition capabilities. In our approach, we modulate the self-attention with a learnable Gaussian kernel that biases the attention toward neighboring patches. We further refine the patch representations to learn better embeddings at patch positions. These modifications encourage tokens to focus on local surroundings and ensure meaningful representations at spatial positions, while still preserving the model's ability to incorporate global information. Experiments demonstrate the effectiveness of our modifications, evidenced by substantial segmentation gains on three benchmarks (e.g., over 6% and 4% on ADE20K for ViT Tiny and Base), without changing the training regime or sacrificing classification performance. The code is available at https://github.com/sinahmr/LocAtViT/.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.04892v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted to ICLR 2026",
+      "entry_id": "http://arxiv.org/abs/2603.04892v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.04892v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.04892v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-06",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2603.04741": {
+      "title": "CONE: Embeddings for Complex Numerical Data Preserving Unit and Variable Semantics",
+      "authors": [
+        "Gyanendra Shrestha",
+        "Anna Pyayt",
+        "Michael Gubanov"
+      ],
+      "published": "2026-03-05T02:26:36+00:00",
+      "updated": "2026-03-05T02:26:36+00:00",
+      "summary": "Large pre-trained models (LMs) and Large Language Models (LLMs) are typically effective at capturing language semantics and contextual relationships. However, these models encounter challenges in maintaining optimal performance on tasks involving numbers. Blindly treating numerical or structured data as terms is inadequate -- their semantics must be well understood and encoded by the models. In this paper, we propose CONE, a hybrid transformer encoder pre-trained model that encodes numbers, ranges, and gaussians into an embedding vector space preserving distance. We introduce a novel composite embedding construction algorithm that integrates numerical values, ranges or gaussians together with their associated units and attribute names to precisely capture their intricate semantics. We conduct extensive experimental evaluation on large-scale datasets across diverse domains (web, medical, finance, and government) that justifies CONE's strong numerical reasoning capabilities, achieving an F1 score of 87.28% on DROP, a remarkable improvement of up to 9.37% in F1 over state-of-the-art (SOTA) baselines, and outperforming major SOTA models with a significant Recall@10 gain of up to 25%.",
+      "categories": [
+        "cs.AI",
+        "cs.DB",
+        "cs.IR",
+        "cs.LG"
+      ],
+      "primary_category": "cs.AI",
+      "pdf_url": "https://arxiv.org/pdf/2603.04741v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2603.04741v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.04741v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.04741v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
     "2603.04368": {
       "title": "LLM-supported 3D Modeling Tool for Radio Radiance Field Reconstruction",
       "authors": [
@@ -924,27 +1140,27 @@
         "Yuan Hong"
       ],
       "published": "2026-02-26T21:40:36+00:00",
-      "updated": "2026-02-26T21:40:36+00:00",
+      "updated": "2026-03-05T14:42:22+00:00",
       "summary": "Differentially Private Stochastic Gradient Descent (DP-SGD) is a cornerstone technique for ensuring privacy in deep learning, widely used in both training from scratch and fine-tuning large-scale language models. While DP-SGD predominantly relies on the Gaussian mechanism, the Laplace mechanism remains underutilized due to its reliance on L1 norm clipping. This constraint severely limits its practicality in high-dimensional models because the L1 norm of an n-dimensional gradient can be up to sqrt(n) times larger than its L2 norm. As a result, the required noise scale grows significantly with model size, leading to poor utility or untrainable models.\n  In this work, we introduce Lap2, a new solution that enables L2 clipping for Laplace DP-SGD while preserving strong privacy guarantees. We overcome the dimensionality-driven clipping barrier by computing coordinate-wise moment bounds and applying majorization theory to construct a tight, data-independent upper bound over the full model. By exploiting the Schur-convexity of the moment accountant function, we aggregate these bounds using a carefully designed majorization set that respects the L2 clipping constraint. This yields a multivariate privacy accountant that scales gracefully with model dimension and enables the use of thousands of moments. Empirical evaluations demonstrate that our approach significantly improves the performance of Laplace DP-SGD, achieving results comparable to or better than Gaussian DP-SGD under strong privacy constraints. For instance, fine-tuning RoBERTa-base (125M parameters) on SST-2 achieves 87.88% accuracy at epsilon=0.54, outperforming Gaussian (87.16%) and standard Laplace (48.97%) under the same budget.",
       "categories": [
         "cs.CR",
         "cs.LG"
       ],
       "primary_category": "cs.CR",
-      "pdf_url": "https://arxiv.org/pdf/2602.23516v1",
+      "pdf_url": "https://arxiv.org/pdf/2602.23516v2",
       "journal_ref": null,
       "doi": null,
-      "comment": "16 pages including appendix. arXiv admin note: text overlap with arXiv:2509.06264",
-      "entry_id": "http://arxiv.org/abs/2602.23516v1",
+      "comment": "Accepted at IEEE CSF 2026; Corrected version; 16 pages including appendix. arXiv admin note: text overlap with arXiv:2509.06264",
+      "entry_id": "http://arxiv.org/abs/2602.23516v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2602.23516v1",
+          "href": "https://arxiv.org/abs/2602.23516v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2602.23516v1",
+          "href": "https://arxiv.org/pdf/2602.23516v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -99313,26 +99529,26 @@
         "Huai Yu"
       ],
       "published": "2026-03-01T09:22:15+00:00",
-      "updated": "2026-03-04T16:00:22+00:00",
-      "summary": "3D semantic occupancy prediction is crucial for autonomous driving perception, offering comprehensive geometric scene understanding and semantic recognition. However, existing methods struggle with geometric misalignment in view transformation due to the lack of pixel-level accurate depth estimation, and severe spatial class imbalance where semantic categories exhibit strong spatial anisotropy. To address these challenges, we propose \\textbf{Dr.Occ}, a depth- and region-guided occupancy prediction framework. Specifically, we introduce a depth-guided 2D-to-3D View Transformer (D$^2$-VFormer) that effectively leverages high-quality dense depth cues from MoGe-2 to construct reliable geometric priors, thereby enabling precise geometric alignment of voxel features. Moreover, inspired by the Mixture-of-Experts (MoE) framework, we propose a region-guided Expert Transformer (R/R$^2$-EFormer) that adaptively allocates region-specific experts to focus on different spatial regions, effectively addressing spatial semantic variations. Thus, the two components make complementary contributions: depth guidance ensures geometric alignment, while region experts enhance semantic learning. Experiments on the Occ3D--nuScenes benchmark demonstrate that \\textbf{Dr.Occ} improves the strong baseline BEVDet4D by 7.43\\% mIoU and 3.09\\% IoU under the full vision-only setting.",
+      "updated": "2026-03-05T07:06:26+00:00",
+      "summary": "3D semantic occupancy prediction is crucial for autonomous driving perception, offering comprehensive geometric scene understanding and semantic recognition. However, existing methods struggle with geometric misalignment in view transformation due to the lack of pixel-level accurate depth estimation, and severe spatial class imbalance where semantic categories exhibit strong spatial anisotropy. To address these challenges, we propose Dr. Occ, a depth- and region-guided occupancy prediction framework. Specifically, we introduce a depth-guided 2D-to-3D View Transformer (D$^2$-VFormer) that effectively leverages high-quality dense depth cues from MoGe-2 to construct reliable geometric priors, thereby enabling precise geometric alignment of voxel features. Moreover, inspired by the Mixture-of-Experts (MoE) framework, we propose a region-guided Expert Transformer (R/R$^2$-EFormer) that adaptively allocates region-specific experts to focus on different spatial regions, effectively addressing spatial semantic variations. Thus, the two components make complementary contributions: depth guidance ensures geometric alignment, while region experts enhance semantic learning. Experiments on the Occ3D--nuScenes benchmark demonstrate that Dr. Occ improves the strong baseline BEVDet4D by 7.43% mIoU and 3.09% IoU under the full vision-only setting.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2603.01007v2",
+      "pdf_url": "https://arxiv.org/pdf/2603.01007v3",
       "journal_ref": null,
       "doi": null,
       "comment": "10 pages, 6 figures. Accepted at CVPR 2026",
-      "entry_id": "http://arxiv.org/abs/2603.01007v2",
+      "entry_id": "http://arxiv.org/abs/2603.01007v3",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2603.01007v2",
+          "href": "https://arxiv.org/abs/2603.01007v3",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2603.01007v2",
+          "href": "https://arxiv.org/pdf/2603.01007v3",
           "title": "pdf",
           "rel": "related",
           "content_type": null
