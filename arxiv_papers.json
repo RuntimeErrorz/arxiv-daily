@@ -85,7 +85,15 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-07",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2603.05108": {
       "title": "GaussTwin: Unified Simulation and Correction with Gaussian Splatting for Robotic Digital Twins",
@@ -214,7 +222,15 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-07",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2603.04368": {
       "title": "LLM-supported 3D Modeling Tool for Radio Radiance Field Reconstruction",
