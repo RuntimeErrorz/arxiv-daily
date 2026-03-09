@@ -1,5 +1,182 @@
 {
   "3DGS Semantic": {
+    "2603.06210": {
+      "title": "VG3S: Visual Geometry Grounded Gaussian Splatting for Semantic Occupancy Prediction",
+      "authors": [
+        "Xiaoyang Yan",
+        "Muleilan Pei",
+        "Shaojie Shen"
+      ],
+      "published": "2026-03-06T12:26:47+00:00",
+      "updated": "2026-03-06T12:26:47+00:00",
+      "summary": "3D semantic occupancy prediction has become a crucial perception task for comprehensive scene understanding in autonomous driving. While recent advances have explored 3D Gaussian splatting for occupancy modeling to substantially reduce computational overhead, the generation of high-quality 3D Gaussians relies heavily on accurate geometric cues, which are often insufficient in purely vision-centric paradigms. To bridge this gap, we advocate for injecting the strong geometric grounding capability from Vision Foundation Models (VFMs) into occupancy prediction. In this regard, we introduce Visual Geometry Grounded Gaussian Splatting (VG3S), a novel framework that empowers Gaussian-based occupancy prediction with cross-view 3D geometric grounding. Specifically, to fully exploit the rich 3D geometric priors from a frozen VFM, we propose a plug-and-play hierarchical geometric feature adapter, which can effectively transform generic VFM tokens via feature aggregation, task-specific alignment, and multi-scale restructuring. Extensive experiments on the nuScenes occupancy benchmark demonstrate that VG3S achieves remarkable improvements of 12.6% in IoU and 7.5% in mIoU over the baseline. Furthermore, we show that VG3S generalizes seamlessly across diverse VFMs, consistently enhancing occupancy prediction accuracy and firmly underscoring the immense value of integrating priors derived from powerful, pre-trained geometry-grounded VFMs.",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.06210v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2603.06210v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.06210v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.06210v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-09",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2603.06193": {
+      "title": "Whisper-CD: Accurate Long-Form Speech Recognition using Multi-Negative Contrastive Decoding",
+      "authors": [
+        "Hoseong Ahn",
+        "Jeongyun Chae",
+        "Yoonji Park",
+        "Kyuhong Shim"
+      ],
+      "published": "2026-03-06T12:04:12+00:00",
+      "updated": "2026-03-06T12:04:12+00:00",
+      "summary": "Long-form speech recognition with large encoder-decoder models such as Whisper often exhibit hallucinations, repetition loops, and content omissions. These errors can accumulate and be further amplified when the previous segment's transcription is used as decoding context. We propose Whisper-CD, a training-free contrastive decoding framework that contrasts clean-audio logits against negative logits computed from three acoustically motivated perturbations: Gaussian noise injection, silence signal, and audio temporal shift. We aggregate these negatives via the log-sum-exp operator, building a unified multi-negative objective for token-by-token decoding. Across five English long-form benchmarks, Whisper-CD reduces WER by up to 24.3pp on CORAAL and shows 48% faster token generation throughput than beam search. Because Whisper-CD operates purely at inference time, it can be applied as a drop-in replacement to already-deployed Whisper systems without retraining.",
+      "categories": [
+        "cs.SD",
+        "cs.AI",
+        "eess.AS"
+      ],
+      "primary_category": "cs.SD",
+      "pdf_url": "https://arxiv.org/pdf/2603.06193v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Submitted to Interspeech 2026",
+      "entry_id": "http://arxiv.org/abs/2603.06193v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.06193v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.06193v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-09",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2603.06010": {
+      "title": "Accelerated Time-domain Analysis for Gravitational Wave Astronomy",
+      "authors": [
+        "Vaishak Prasad"
+      ],
+      "published": "2026-03-06T08:07:11+00:00",
+      "updated": "2026-03-06T08:07:11+00:00",
+      "summary": "Most current compact-binary searches and parameter-estimation pipelines evaluate the Gaussian-noise likelihood approximately using frequency-domain inner products with great success in analyzing gravitational-wave signals. This is historically motivated by (i) the approximate stationarity of detector noise on sufficiently long timescales, allowing a circulant approximation in the domain that diagonalizes the noise covariance in the Fourier basis, and (ii) the efficiency of matched filtering via fast Fourier transforms. However, the advantage of frequency-domain analysis comes with its own limitations. In this article, we develop a self-contained, end-to-end, \\emph{fully time-domain} formulation of gravitational-wave inference and present an implementation that makes the likelihood evaluation practical at scale by exploiting structured linear algebra, software, and hardware acceleration. We validate the method using injections and demonstrate speedups for likelihood evaluation and on modern GPUs. We present \\emph{tdanalysis}, an accelerated implementation that handles gaps, sharp boundaries, and multiple disjoint segments, and supports GPUs. We demonstrate some of its applications in gravitational wave astronomy.",
+      "categories": [
+        "gr-qc",
+        "astro-ph.IM"
+      ],
+      "primary_category": "gr-qc",
+      "pdf_url": "https://arxiv.org/pdf/2603.06010v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "19 pages, 8 figures",
+      "entry_id": "http://arxiv.org/abs/2603.06010v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.06010v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.06010v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-09",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2603.05845": {
+      "title": "Cog2Gen3D: Sculpturing 3D Semantic-Geometric Cognition for 3D Generation",
+      "authors": [
+        "Haonan Wang",
+        "Hanyu Zhou",
+        "Haoyue Liu",
+        "Tao Gu",
+        "Luxin Yan"
+      ],
+      "published": "2026-03-06T02:59:48+00:00",
+      "updated": "2026-03-06T02:59:48+00:00",
+      "summary": "Generative models have achieved success in producing semantically plausible 2D images, but it remains challenging in 3D generation due to the absence of spatial geometry constraints. Typically, existing methods utilize geometric features as conditions to enhance spatial awareness. However, these methods can only model relative relationships and are prone to scale inconsistency of absolute geometry. Thus, we argue that semantic information and absolute geometry empower 3D cognition, thereby enabling controllable 3D generation for the physical world. In this work, we propose Cog2Gen3D, a 3D cognition-guided diffusion framework for 3D generation. Our model is guided by three key designs: 1) Cognitive Feature Embeddings. We encode different modalities into semantic and geometric representations and further extract logical representations. 2) 3D Latent Cognition Graph. We structure different representations into dual-stream semantic-geometric graphs and fuse them via common-based cross-attention to obtain a 3D cognition graph. 3) Cognition-Guided Latent Diffusion. We leverage the fused 3D cognition graph as the condition to guide the latent diffusion process for 3D Gaussian generation. Under this unified framework, the 3D cognition graph ensures the physical plausibility and structural rationality of 3D generation. Moreover, we construct a validation subset based on the Marble World Labs. Extensive experiments demonstrate that our Cog2Gen3D significantly outperforms existing methods in both semantic fidelity and geometric plausibility.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.05845v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2603.05845v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.05845v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.05845v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-09",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
     "2603.05445": {
       "title": "TILARA: Template-Independent Line-by-line Algorithm for Radial velocity Analysis. I. Description of the code and application on a Sun-like star",
       "authors": [
@@ -1705,26 +1882,26 @@
         "Han Zhang"
       ],
       "published": "2026-02-24T16:07:02+00:00",
-      "updated": "2026-02-24T16:07:02+00:00",
+      "updated": "2026-03-06T08:35:28+00:00",
       "summary": "Generating multi-frame, action-rich visual narratives without fine-tuning faces a threefold tension: action text faithfulness, subject identity fidelity, and cross-frame background continuity. We propose StoryTailor, a zero-shot pipeline that runs on a single RTX 4090 (24 GB) and produces temporally coherent, identity-preserving image sequences from a long narrative prompt, per-subject references, and grounding boxes. Three synergistic modules drive the system: Gaussian-Centered Attention (GCA) to dynamically focus on each subject core and ease grounding-box overlaps; Action-Boost Singular Value Reweighting (AB-SVR) to amplify action-related directions in the text embedding space; and Selective Forgetting Cache (SFC) that retains transferable background cues, forgets nonessential history, and selectively surfaces retained cues to build cross-scene semantic ties. Compared with baseline methods, experiments show that CLIP-T improves by up to 10-15%, with DreamSim lower than strong baselines, while CLIP-I stays in a visually acceptable, competitive range. With matched resolution and steps on a 24 GB GPU, inference is faster than FluxKontext. Qualitatively, StoryTailor delivers expressive interactions and evolving yet stable scenes.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2602.21273v1",
+      "pdf_url": "https://arxiv.org/pdf/2602.21273v2",
       "journal_ref": null,
       "doi": null,
       "comment": "24 pages,19 figures,accepted by CVPR2026",
-      "entry_id": "http://arxiv.org/abs/2602.21273v1",
+      "entry_id": "http://arxiv.org/abs/2602.21273v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2602.21273v1",
+          "href": "https://arxiv.org/abs/2602.21273v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2602.21273v1",
+          "href": "https://arxiv.org/pdf/2602.21273v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -99253,6 +99430,159 @@
     }
   },
   "Depth Estimation": {
+    "2603.06382": {
+      "title": "CHMv2: Improvements in Global Canopy Height Mapping using DINOv3",
+      "authors": [
+        "John Brandt",
+        "Seungeun Yi",
+        "Jamie Tolan",
+        "Xinyuan Li",
+        "Peter Potapov",
+        "Jessica Ertel",
+        "Justine Spore",
+        "Huy V. Vo",
+        "Michaël Ramamonjisoa",
+        "Patrick Labatut",
+        "Piotr Bojanowski",
+        "Camille Couprie"
+      ],
+      "published": "2026-03-06T15:33:31+00:00",
+      "updated": "2026-03-06T15:33:31+00:00",
+      "summary": "Accurate canopy height information is essential for quantifying forest carbon, monitoring restoration and degradation, and assessing habitat structure, yet high-fidelity measurements from airborne laser scanning (ALS) remain unevenly available globally. Here we present CHMv2, a global, meter-resolution canopy height map derived from high-resolution optical satellite imagery using a depth-estimation model built on DINOv3 and trained against ALS canopy height models. Compared to existing products, CHMv2 substantially improves accuracy, reduces bias in tall forests, and better preserves fine-scale structure such as canopy edges and gaps. These gains are enabled by a large expansion of geographically diverse training data, automated data curation and registration, and a loss formulation and data sampling strategy tailored to canopy height distributions. We validate CHMv2 against independent ALS test sets and against tens of millions of GEDI and ICESat-2 observations, demonstrating consistent performance across major forest biomes.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.06382v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Submitted to Nature Scientific Data",
+      "entry_id": "http://arxiv.org/abs/2603.06382v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.06382v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.06382v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2603.05999": {
+      "title": "RePer-360: Releasing Perspective Priors for 360$^\\circ$ Depth Estimation via Self-Modulation",
+      "authors": [
+        "Cheng Guan",
+        "Chunyu Lin",
+        "Zhijie Shen",
+        "Junsong Zhang",
+        "Jiyuan Wang"
+      ],
+      "published": "2026-03-06T07:58:53+00:00",
+      "updated": "2026-03-06T07:58:53+00:00",
+      "summary": "Recent depth foundation models trained on perspective imagery achieve strong performance, yet generalize poorly to 360$^\\circ$ images due to the substantial geometric discrepancy between perspective and panoramic domains. Moreover, fully fine-tuning these models typically requires large amounts of panoramic data. To address this issue, we propose RePer-360, a distortion-aware self-modulation framework for monocular panoramic depth estimation that adapts depth foundation models while preserving powerful pretrained perspective priors. Specifically, we design a lightweight geometry-aligned guidance module to derive a modulation signal from two complementary projections (i.e., ERP and CP) and use it to guide the model toward the panoramic domain without overwriting its pretrained perspective knowledge. We further introduce a Self-Conditioned AdaLN-Zero mechanism that produces pixel-wise scaling factors to reduce the feature distribution gap between the perspective and panoramic domains. In addition, a cubemap-domain consistency loss further improves training stability and cross-projection alignment. By shifting the focus from complementary-projection fusion to panoramic domain adaptation under preserved pretrained perspective priors, RePer-360 surpasses standard fine-tuning methods while using only 1\\% of the training data. Under the same in-domain training setting, it further achieves an approximately 20\\% improvement in RMSE. Code will be released upon acceptance.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.05999v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2603.05999v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.05999v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.05999v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2603.05807": {
+      "title": "EventGeM: Global-to-Local Feature Matching for Event-Based Visual Place Recognition",
+      "authors": [
+        "Adam D. Hines",
+        "Gokul B. Nair",
+        "Nicolás Marticorena",
+        "Michael Milford",
+        "Tobias Fischer"
+      ],
+      "published": "2026-03-06T01:40:12+00:00",
+      "updated": "2026-03-06T01:40:12+00:00",
+      "summary": "Dynamic vision sensors, also known as event cameras, are rapidly rising in popularity for robotic and computer vision tasks due to their sparse activation and high-temporal resolution. Event cameras have been used in robotic navigation and localization tasks where accurate positioning needs to occur on small and frequent time scales, or when energy concerns are paramount. In this work, we present EventGeM, a state-of-the-art global to local feature fusion pipeline for event-based Visual Place Recognition. We use a pre-trained vision transformer (ViT-S/16) backbone to obtain global feature patch for initial match predictions embeddings from event histogram images. Local feature keypoints were then detected using a pre-trained MaxViT backbone for 2D-homography based re-ranking with RANSAC. For additional re-ranking refinement, we subsequently used a pre-trained vision foundation model for depth estimation to compare structural similarity between references and queries. Our work performs state-of-the-art localization when compared to the best currently available event-based place recognition method across several benchmark datasets and lighting conditions all whilst being fully capable of running in real-time when deployed across a variety of compute architectures. We demonstrate the capability of EventGeM in a real-world deployment on a robotic platform for online localization using event streams directly from an event camera. Project page: https://eventgemvpr.github.io/",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.05807v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "10 pages, 4 figures, 5 tables, under review",
+      "entry_id": "http://arxiv.org/abs/2603.05807v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.05807v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.05807v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2603.05711": {
+      "title": "Any to Full: Prompting Depth Anything for Depth Completion in One Stage",
+      "authors": [
+        "Zhiyuan Zhou",
+        "Ruofeng Liu",
+        "Taichi Liu",
+        "Weijian Zuo",
+        "Shanshan Wang",
+        "Zhiqing Hong",
+        "Desheng Zhang"
+      ],
+      "published": "2026-03-05T22:08:40+00:00",
+      "updated": "2026-03-05T22:08:40+00:00",
+      "summary": "Accurate, dense depth estimation is crucial for robotic perception, but commodity sensors often yield sparse or incomplete measurements due to hardware limitations. Existing RGBD-fused depth completion methods learn priors jointly conditioned on training RGB distribution and specific depth patterns, limiting domain generalization and robustness to various depth patterns. Recent efforts leverage monocular depth estimation (MDE) models to introduce domain-general geometric priors, but current two-stage integration strategies relying on explicit relative-to-metric alignment incur additional computation and introduce structured distortions. To this end, we present Any2Full, a one-stage, domain-general, and pattern-agnostic framework that reformulates completion as a scale-prompting adaptation of a pretrained MDE model. To address varying depth sparsity levels and irregular spatial distributions, we design a Scale-Aware Prompt Encoder. It distills scale cues from sparse inputs into unified scale prompts, guiding the MDE model toward globally scale-consistent predictions while preserving its geometric priors. Extensive experiments demonstrate that Any2Full achieves superior robustness and efficiency. It outperforms OMNI-DC by 32.2\\% in average AbsREL and delivers a 1.4$\\times$ speedup over PriorDA with the same MDE backbone, establishing a new paradigm for universal depth completion. Codes and checkpoints are available at https://github.com/zhiyuandaily/Any2Full.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.05711v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2603.05711v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.05711v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.05711v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2603.03765": {
       "title": "LiDAR Prompted Spatio-Temporal Multi-View Stereo for Autonomous Driving",
       "authors": [

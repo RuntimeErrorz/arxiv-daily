@@ -1,4 +1,4 @@
-## Updated at 2026-03-09 08:23:59
+## Updated at 2026-03-09 20:13:11
 
 ## 3DGS Semantic
 
@@ -8,6 +8,10 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-03-06**|**[VG3S: Visual Geometry Grounded Gaussian Splatting for Semantic Occupancy Prediction](https://arxiv.org/abs/2603.06210)**|N/A|None|cs.CV|None|Xiaoyang Yan et al.|
+|**2026-03-06**|**[Whisper-CD: Accurate Long-Form Speech Recognition using Multi-Negative Contrastive Decoding](https://arxiv.org/abs/2603.06193)**|N/A|Submitted to Interspeech 2026|cs.SD|None|Hoseong Ahn et al.|
+|**2026-03-06**|**[Accelerated Time-domain Analysis for Gravitational Wave Astronomy](https://arxiv.org/abs/2603.06010)**|N/A|19 pages, 8 figures|gr-qc|None|Vaishak Prasad|
+|**2026-03-06**|**[Cog2Gen3D: Sculpturing 3D Semantic-Geometric Cognition for 3D Generation](https://arxiv.org/abs/2603.05845)**|N/A|None|cs.CV|None|Haonan Wang et al.|
 |**2026-03-05**|**[TILARA: Template-Independent Line-by-line Algorithm for Radial velocity Analysis. I. Description of the code and application on a Sun-like star](https://arxiv.org/abs/2603.05445)**|N/A|Accepted for publication in A&A|astro-ph.SR|None|C. San Nicolas Martinez et al.|
 |**2026-03-05**|**[SAIL: Similarity-Aware Guidance and Inter-Caption Augmentation-based Learning for Weakly-Supervised Dense Video Captioning](https://arxiv.org/abs/2603.05437)**|N/A|Accepted to CVPR 2026|cs.CV|None|Ye-Chan Kim et al.|
 |**2026-03-05**|**[GaussTwin: Unified Simulation and Correction with Gaussian Splatting for Robotic Digital Twins](https://arxiv.org/abs/2603.05108)**|N/A|8 pages, 4 figures, 3 tables, ICRA 2026|cs.RO|None|Yichen Cai et al.|
@@ -681,6 +685,10 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-03-06**|**[CHMv2: Improvements in Global Canopy Height Mapping using DINOv3](https://arxiv.org/abs/2603.06382)**|N/A|Submitted to Nature Scientific Data|cs.CV|None|John Brandt et al.|
+|**2026-03-06**|**[RePer-360: Releasing Perspective Priors for 360$^\circ$ Depth Estimation via Self-Modulation](https://arxiv.org/abs/2603.05999)**|N/A|None|cs.CV|None|Cheng Guan et al.|
+|**2026-03-06**|**[EventGeM: Global-to-Local Feature Matching for Event-Based Visual Place Recognition](https://arxiv.org/abs/2603.05807)**|N/A|10 pages, 4 figures, 5 tables, under review|cs.CV|None|Adam D. Hines et al.|
+|**2026-03-05**|**[Any to Full: Prompting Depth Anything for Depth Completion in One Stage](https://arxiv.org/abs/2603.05711)**|N/A|None|cs.CV|None|Zhiyuan Zhou et al.|
 |**2026-03-04**|**[LiDAR Prompted Spatio-Temporal Multi-View Stereo for Autonomous Driving](https://arxiv.org/abs/2603.03765)**|N/A|None|cs.CV|None|Qihao Sun et al.|
 |**2026-03-03**|**[Confidence-aware Monocular Depth Estimation for Minimally Invasive Surgery](https://arxiv.org/abs/2603.03571)**|N/A|12 pages, 4 figures|cs.CV|None|Muhammad Asad et al.|
 |**2026-03-03**|**[The Dresden Dataset for 4D Reconstruction of Non-Rigid Abdominal Surgical Scenes](https://arxiv.org/abs/2603.02985)**|N/A|16 pages, 10 figures, accompanying data descriptor for dataset, submitted to Scientific Data|cs.CV|None|Reuben Docea et al.|
