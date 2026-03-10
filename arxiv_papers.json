@@ -1,5 +1,280 @@
 {
   "3DGS Semantic": {
+    "2603.08313": {
+      "title": "HDR-NSFF: High Dynamic Range Neural Scene Flow Fields",
+      "authors": [
+        "Shin Dong-Yeon",
+        "Kim Jun-Seong",
+        "Kwon Byung-Ki",
+        "Tae-Hyun Oh"
+      ],
+      "published": "2026-03-09T12:36:46+00:00",
+      "updated": "2026-03-09T12:36:46+00:00",
+      "summary": "Radiance of real-world scenes typically spans a much wider dynamic range than what standard cameras can capture. While conventional HDR methods merge alternating-exposure frames, these approaches are inherently constrained to 2D pixel-level alignment, often leading to ghosting artifacts and temporal inconsistency in dynamic scenes. To address these limitations, we present HDR-NSFF, a paradigm shift from 2D-based merging to 4D spatio-temporal modeling. Our framework reconstructs dynamic HDR radiance fields from alternating-exposure monocular videos by representing the scene as a continuous function of space and time, and is compatible with both neural radiance field and 4D Gaussian Splatting (4DGS) based dynamic representations. This unified end-to-end pipeline explicitly models HDR radiance, 3D scene flow, geometry, and tone-mapping, ensuring physical plausibility and global coherence. We further enhance robustness by (i) extending semantic-based optical flow with DINO features to achieve exposure-invariant motion estimation, and (ii) incorporating a generative prior as a regularizer to compensate for limited observation in monocular captures and saturation-induced information loss. To evaluate HDR space-time view synthesis, we present the first real-world HDR-GoPro dataset specifically designed for dynamic HDR scenes. Experiments demonstrate that HDR-NSFF recovers fine radiance details and coherent dynamics even under challenging exposure variations, thereby achieving state-of-the-art performance in novel space-time view synthesis. Project page: https://shin-dong-yeon.github.io/HDR-NSFF/",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.08313v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "ICLR 2026. Project page: https://shin-dong-yeon.github.io/HDR-NSFF/",
+      "entry_id": "http://arxiv.org/abs/2603.08313v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.08313v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.08313v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2603.07660": {
+      "title": "Holi-Spatial: Evolving Video Streams into Holistic 3D Spatial Intelligence",
+      "authors": [
+        "Yuanyuan Gao",
+        "Hao Li",
+        "Yifei Liu",
+        "Xinhao Ji",
+        "Yuning Gong",
+        "Yuanjun Liao",
+        "Fangfu Liu",
+        "Manyuan Zhang",
+        "Yuchen Yang",
+        "Dan Xu",
+        "Xue Yang",
+        "Huaxi Huang",
+        "Hongjie Zhang",
+        "Ziwei Liu",
+        "Xiao Sun",
+        "Dingwen Zhang",
+        "Zhihang Zhong"
+      ],
+      "published": "2026-03-08T14:49:20+00:00",
+      "updated": "2026-03-08T14:49:20+00:00",
+      "summary": "The pursuit of spatial intelligence fundamentally relies on access to large-scale, fine-grained 3D data. However, existing approaches predominantly construct spatial understanding benchmarks by generating question-answer (QA) pairs from a limited number of manually annotated datasets, rather than systematically annotating new large-scale 3D scenes from raw web data. As a result, their scalability is severely constrained, and model performance is further hindered by domain gaps inherent in these narrowly curated datasets.\n  In this work, we propose Holi-Spatial, the first fully automated, large-scale, spatially-aware multimodal dataset, constructed from raw video inputs without human intervention, using the proposed data curation pipeline. Holi-Spatial supports multi-level spatial supervision, ranging from geometrically accurate 3D Gaussian Splatting (3DGS) reconstructions with rendered depth maps to object-level and relational semantic annotations, together with corresponding spatial Question-Answer (QA) pairs.\n  Following a principled and systematic pipeline, we further construct Holi-Spatial-4M, the first large-scale, high-quality 3D semantic dataset, containing 12K optimized 3DGS scenes, 1.3M 2D masks, 320K 3D bounding boxes, 320K instance captions, 1.2M 3D grounding instances, and 1.2M spatial QA pairs spanning diverse geometric, relational, and semantic reasoning tasks.\n  Holi-Spatial demonstrates exceptional performance in data curation quality, significantly outperforming existing feed-forward and per-scene optimized methods on datasets such as ScanNet, ScanNet++, and DL3DV. Furthermore, fine-tuning Vision-Language Models (VLMs) on spatial reasoning tasks using this dataset has also led to substantial improvements in model performance.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.07660v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "project page: https://visionary-laboratory.github.io/holi-spatial/",
+      "entry_id": "http://arxiv.org/abs/2603.07660v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.07660v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.07660v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2603.07587": {
+      "title": "3DGS-HPC: Distractor-free 3D Gaussian Splatting with Hybrid Patch-wise Classification",
+      "authors": [
+        "Jiahao Chen",
+        "Yipeng Qin",
+        "Ganlong Zhao",
+        "Xin Li",
+        "Wenping Wang",
+        "Guanbin Li"
+      ],
+      "published": "2026-03-08T11:16:30+00:00",
+      "updated": "2026-03-08T11:16:30+00:00",
+      "summary": "3D Gaussian Splatting (3DGS) has demonstrated remarkable performance in novel view synthesis and 3D scene reconstruction, yet its quality often degrades in real-world environments due to transient distractors, such as moving objects and varying shadows. Existing methods commonly rely on semantic cues extracted from pre-trained vision models to identify and suppress these distractors, but such semantics are misaligned with the binary distinction between static and transient regions and remain fragile under the appearance perturbations introduced during 3DGS optimization. We propose 3DGS-HPC, a framework that circumvents these limitations by combining two complementary principles: a patch-wise classification strategy that leverages local spatial consistency for robust region-level decisions, and a hybrid classification metric that adaptively integrates photometric and perceptual cues for more reliable separation. Extensive experiments demonstrate the superiority and robustness of our method in mitigating distractors to improve 3DGS-based novel view synthesis.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.07587v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2603.07587v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.07587v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.07587v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2603.07505": {
+      "title": "Adapting to noise tails in private linear regression",
+      "authors": [
+        "Jinyuan Chang",
+        "Lin Yang",
+        "Mengyue Zha",
+        "Wen-Xin Zhou"
+      ],
+      "published": "2026-03-08T07:21:26+00:00",
+      "updated": "2026-03-08T07:21:26+00:00",
+      "summary": "While the traditional goal of statistics is to infer population parameters, modern practice increasingly demands protection of individual privacy. One way to address this need is to adapt classical statistical procedures into privacy-preserving algorithms. In this paper, we develop differentially private tail-robust methods for linear regression. The trade-off among bias, privacy, and robustness is controlled by a tunable robustification parameter in the Huber loss. We implement noisy clipped gradient descent for low-dimensional settings and noisy iterative hard thresholding for high-dimensional sparse models. Under sub-Gaussian errors, our method achieves near-optimal convergence rates while relaxing several assumptions required in earlier work. For heavy-tailed errors, we explicitly characterize how the non-asymptotic convergence rate depends on the moment index, privacy parameters, sample size, and intrinsic dimension. Our analysis shows how the moment index influences the choice of robustification parameters and, in turn, the resulting statistical error and privacy cost. By quantifying the interplay among bias, privacy, and robustness, we extend classical perspectives on privacy-preserving robust regression. The proposed methods are evaluated through simulations and two real datasets.",
+      "categories": [
+        "stat.ME"
+      ],
+      "primary_category": "stat.ME",
+      "pdf_url": "https://arxiv.org/pdf/2603.07505v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2603.07505v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.07505v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.07505v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2603.07454": {
+      "title": "SLNet: A Super-Lightweight Geometry-Adaptive Network for 3D Point Cloud Recognition",
+      "authors": [
+        "Mohammad Saeid",
+        "Amir Salarpour",
+        "Pedram MohajerAnsari",
+        "Mert D. Pesé"
+      ],
+      "published": "2026-03-08T04:07:42+00:00",
+      "updated": "2026-03-08T04:07:42+00:00",
+      "summary": "We present SLNet, a lightweight backbone for 3D point cloud recognition designed to achieve strong performance without the computational cost of many recent attention, graph, and deep MLP based models. The model is built on two simple ideas: NAPE (Nonparametric Adaptive Point Embedding), which captures spatial structure using a combination of Gaussian RBF and cosine bases with input adaptive bandwidth and blending, and GMU (Geometric Modulation Unit), a per channel affine modulator that adds only 2D learnable parameters. These components are used within a four stage hierarchical encoder with FPS+kNN grouping, nonparametric normalization, and shared residual MLPs. In experiments, SLNet shows that a very small model can still remain highly competitive across several 3D recognition tasks. On ModelNet40, SLNet-S with 0.14M parameters and 0.31 GFLOPs achieves 93.64% overall accuracy, outperforming PointMLP-elite with 5x fewer parameters, while SLNet-M with 0.55M parameters and 1.22 GFLOPs reaches 93.92%, exceeding PointMLP with 24x fewer parameters. On ScanObjectNN, SLNet-M achieves 84.25% overall accuracy within 1.2 percentage points of PointMLP while using 28x fewer parameters. For large scale scene segmentation, SLNet-T extends the backbone with local Point Transformer attention and reaches 58.2% mIoU on S3DIS Area 5 with only 2.5M parameters, more than 17x fewer than Point Transformer V3. We also introduce NetScore+, which extends NetScore by incorporating latency and peak memory so that efficiency can be evaluated in a more deployment oriented way. Across multiple benchmarks and hardware settings, SLNet delivers a strong overall balance between accuracy and efficiency. Code is available at: https://github.com/m-saeid/SLNet.",
+      "categories": [
+        "cs.CV",
+        "cs.LG",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.07454v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted to the 2026 IEEE International Conference on Robotics and Automation (ICRA 2026)",
+      "entry_id": "http://arxiv.org/abs/2603.07454v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.07454v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.07454v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2603.07346": {
+      "title": "How Much Noise Can BERT Handle? Insights from Multilingual Sentence Difficulty Detection",
+      "authors": [
+        "Nouran Khallaf",
+        "Serge Sharoff"
+      ],
+      "published": "2026-03-07T21:15:04+00:00",
+      "updated": "2026-03-07T21:15:04+00:00",
+      "summary": "Noisy training data can significantly degrade the performance of language-model-based classifiers, particularly in non-topical classification tasks. In this study we designed a methodological framework to assess the impact of denoising. More specifically, we explored a range of denoising strategies for sentence-level difficulty detection, using training data derived from document-level difficulty annotations obtained through noisy crowdsourcing. Beyond monolingual settings, we also address cross-lingual transfer, where a multilingual language model is trained in one language and tested in another. We evaluate several noise reduction techniques, including Gaussian Mixture Models (GMM), Co-Teaching, Noise Transition Matrices, and Label Smoothing. Our results indicate that while BERT-based models exhibit inherent robustness to noise, incorporating explicit noise detection can further enhance performance. For our smaller dataset, GMM-based noise filtering proves particularly effective in improving prediction quality by raising the Area-Under-the-Curve score from 0.52 to 0.92, or to 0.93 when de-noising methods are combined. However, for our larger dataset, the intrinsic regularisation of pre-trained language models provides a strong baseline, with denoising methods yielding only marginal gains (from 0.92 to 0.94, while a combination of two denoising methods made no contribution). Nonetheless, removing noisy sentences (about 20\\% of the dataset) helps in producing a cleaner corpus with fewer infelicities. As a result we have released the largest multilingual corpus for sentence difficulty prediction: see https://github.com/Nouran-Khallaf/denoising-difficulty",
+      "categories": [
+        "cs.CL"
+      ],
+      "primary_category": "cs.CL",
+      "pdf_url": "https://arxiv.org/pdf/2603.07346v1",
+      "journal_ref": "Proceedings of the International Conference on Language Resources and Evaluation (LREC), 2026",
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2603.07346v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.07346v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.07346v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2603.06861": {
+      "title": "IGLU: The Integrated Gaussian Linear Unit Activation Function",
+      "authors": [
+        "Mingi Kang",
+        "Zai Yang",
+        "Jeova Farias Sales Rocha Neto"
+      ],
+      "published": "2026-03-06T20:28:08+00:00",
+      "updated": "2026-03-06T20:28:08+00:00",
+      "summary": "Activation functions are fundamental to deep neural networks, governing gradient flow, optimization stability, and representational capacity. Within historic deep architectures, while ReLU has been the dominant choice for the activation function, modern transformer-based models increasingly are adopting smoother alternatives such as GELU and other self-gated alternatives. Despite their empirical success, the mathematical relationships among these functions and the principles underlying their effectiveness remains only partially understood. We introduce IGLU, a parametric activation function derived as a scale mixture of GELU gates under a half-normal mixing distribution. This derivation yields a closed-form expression whose gating component is exactly the Cauchy CDF, providing a principled one-parameter family that continuously interpolates between identity-like and ReLU-like behavior via a single sharpness parameter $σ$. Unlike GELU's Gaussian gate, IGLU's heavy-tailed Cauchy gate decays polynomially in the negative tail, guaranteeing non-zero gradients for all finite inputs and offering greater robustness to vanishing gradients. We further introduce IGLU-Approx, a computationally efficient rational approximation of IGLU expressed entirely in terms of ReLU operations that eliminates transcendental function evaluation. Through evaluations on CIFAR-10, CIFAR-100, and WikiText-103 across ResNet-20, ViT-Tiny, and GPT-2 Small, IGLU achieves competitive or superior performance on both vision and language datasets against ReLU and GELU baselines, with IGLU-Approx recovering this performance at substantially reduced computational cost. In particular, we show that employing a heavy-tailed gate leads to considerable performance gains in heavily imbalanced classification datasets.",
+      "categories": [
+        "cs.LG",
+        "cs.CV"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2603.06861v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2603.06861v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.06861v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.06861v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-10",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
     "2603.06210": {
       "title": "VG3S: Visual Geometry Grounded Gaussian Splatting for Semantic Occupancy Prediction",
       "authors": [
@@ -236,27 +511,27 @@
         "Dong-Jin Kim"
       ],
       "published": "2026-03-05T17:59:58+00:00",
-      "updated": "2026-03-05T17:59:58+00:00",
+      "updated": "2026-03-09T11:43:26+00:00",
       "summary": "Weakly-Supervised Dense Video Captioning aims to localize and describe events in videos trained only on caption annotations, without temporal boundaries. Prior work introduced an implicit supervision paradigm based on Gaussian masking and complementary captioning. However, existing method focuses merely on generating non-overlapping masks without considering their semantic relationship to corresponding events, resulting in simplistic, uniformly distributed masks that fail to capture semantically meaningful regions. Moreover, relying solely on ground-truth captions leads to sub-optimal performance due to the inherent sparsity of existing datasets. In this work, we propose SAIL, which constructs semantically-aware masks through cross-modal alignment. Our similarity aware training objective guides masks to emphasize video regions with high similarity to their corresponding event captions. Furthermore, to guide more accurate mask generation under sparse annotation settings, we introduce an LLM-based augmentation strategy that generates synthetic captions to provide additional alignment signals. These synthetic captions are incorporated through an inter-mask mechanism, providing auxiliary guidance for precise temporal localization without degrading the main objective. Experiments on ActivityNet Captions and YouCook2 demonstrate state-of-the-art performance on both captioning and localization metrics.",
       "categories": [
         "cs.CV",
         "cs.AI"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2603.05437v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.05437v2",
       "journal_ref": null,
       "doi": null,
       "comment": "Accepted to CVPR 2026",
-      "entry_id": "http://arxiv.org/abs/2603.05437v1",
+      "entry_id": "http://arxiv.org/abs/2603.05437v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2603.05437v1",
+          "href": "https://arxiv.org/abs/2603.05437v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2603.05437v1",
+          "href": "https://arxiv.org/pdf/2603.05437v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -357,6 +632,47 @@
       "venue_info": {
         "venue_source": "Semantic Scholar",
         "queried_at": "2026-03-06",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2603.06698": {
+      "title": "Asymmetric Distillation and Information Retention in Capacity-Constrained Cross-Modal Transfer",
+      "authors": [
+        "Kabir Thayani"
+      ],
+      "published": "2026-03-05T05:37:51+00:00",
+      "updated": "2026-03-05T05:37:51+00:00",
+      "summary": "Knowledge distillation between asymmetric architectures often induces severe geometric constraints on the learned representation space. In this work, we investigate the Dimensional Collapse phenomenon when distilling a 500M parameter global Vision Transformer (CLIP ViT-B/32) into strictly capacity-constrained, local-receptive-field CNNs (0.5M to 8.0M parameters) on the CIFAR-10 dataset. By employing strictly centered Singular Value Decomposition (SVD) and Variance-based Shannon Entropy Effective Rank, we isolate true structural variance from mean-vector artifacts. Our empirical results demonstrate a capacity-agnostic phase transition: while the Teacher exhibits an Effective Rank of 88.68, all Student models experience severe dimensional collapse to an intrinsic Effective Rank of ~16. By probing robustness, we uncover that this 81% reduction in effective dimensionality strips away the Teacher's inherent noise immunity (which retains 89.35% accuracy under σ=0.1 Gaussian noise). Furthermore, information-theoretic analysis using InfoNCE reveals a critical trade-off within this bottleneck: excess Student capacity densely packs the collapsed subspace for clean data, but induces severe brittleness (43.76% at σ=0.1). Conversely, extreme capacity constraints (0.5M parameters) act as a robust low-pass filter, preserving higher noise immunity (54.84%). Explicit input augmentation fails to restore the larger model's robustness, proving this fragility is a fundamental geometric limitation of asymmetric cosine distillation.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.06698v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "3 pages, 3 figures, 1 table",
+      "entry_id": "http://arxiv.org/abs/2603.06698v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.06698v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.06698v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-10",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -676,6 +992,50 @@
         "note": "已查询但未找到venue信息"
       }
     },
+    "2603.06685": {
+      "title": "One step further with Monte-Carlo sampler to guide diffusion better",
+      "authors": [
+        "Minsi Ren",
+        "Wenhao Deng",
+        "Ruiqi Feng",
+        "Tailin Wu"
+      ],
+      "published": "2026-03-04T05:48:02+00:00",
+      "updated": "2026-03-04T05:48:02+00:00",
+      "summary": "Stochastic differential equation (SDE)-based generative models have achieved substantial progress in conditional generation via training-free differentiable loss-guided approaches. However, existing methodologies utilizing posterior sam- pling typically confront a substantial estimation error, which results in inaccu- rate gradients for guidance and leading to inconsistent generation results. To mitigate this issue, we propose that performing an additional backward denois- ing step and Monte-Carlo sampling (ABMS) can achieve better guided diffu- sion, which is a plug-and-play adjustment strategy. To verify the effectiveness of our method, we provide theoretical analysis and propose the adoption of a dual-focus evaluation framework, which further serves to highlight the critical problem of cross-condition interference prevalent in existing approaches. We conduct experiments across various task settings and data types, mainly includ- ing conditional online handwritten trajectory generation, image inverse problems (inpainting, super resolution and gaussian deblurring) molecular inverse design and so on. Experimental results demonstrate that our approach can be effec- tively used with higher order samplers and consistently improves the quality of generation samples across all the different scenarios.",
+      "categories": [
+        "cs.LG"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2603.06685v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "16 pages, 7 figures, accepted at ICLR2026",
+      "entry_id": "http://arxiv.org/abs/2603.06685v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.06685v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.06685v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-10",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
     "2603.02986": {
       "title": "VIRGi: View-dependent Instant Recoloring of 3D Gaussians Splats",
       "authors": [
@@ -810,6 +1170,51 @@
       "venue_info": {
         "venue_source": "Semantic Scholar",
         "queried_at": "2026-03-05",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2603.06672": {
+      "title": "Does Semantic Noise Initialization Transfer from Images to Videos? A Paired Diagnostic Study",
+      "authors": [
+        "Yixiao Jing",
+        "Chaoyu Zhang",
+        "Zixuan Zhong",
+        "Peizhou Huang"
+      ],
+      "published": "2026-03-03T07:36:07+00:00",
+      "updated": "2026-03-03T07:36:07+00:00",
+      "summary": "Semantic noise initialization has been reported to improve robustness and controllability in image diffusion models. Whether these gains transfer to text-to-video (T2V) generation remains unclear, since temporal coupling can introduce extra degrees of freedom and instability. We benchmark semantic noise initialization against standard Gaussian noise using a frozen VideoCrafter-style T2V diffusion backbone and VBench on 100 prompts. Using prompt-level paired tests with bootstrap confidence intervals and a sign-flip permutation test, we observe a small positive trend on temporal-related dimensions; however, the 95 percent confidence interval includes zero (p ~ 0.17) and the overall score remains on par with the baseline. To understand this outcome, we analyze the induced perturbations in noise space and find patterns consistent with weak or unstable signal. We recommend prompt-level paired evaluation and noise-space diagnostics as standard practice when studying initialization schemes for T2V diffusion.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.06672v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "8 pages, 1 figure. Accepted to the ICLR 2026 Workshop on Multimodal Intelligence: Next Token Prediction & Beyond",
+      "entry_id": "http://arxiv.org/abs/2603.06672v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.06672v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.06672v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-10",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -1333,27 +1738,27 @@
         "Yuan Hong"
       ],
       "published": "2026-02-26T21:40:36+00:00",
-      "updated": "2026-03-05T14:42:22+00:00",
+      "updated": "2026-03-07T19:24:30+00:00",
       "summary": "Differentially Private Stochastic Gradient Descent (DP-SGD) is a cornerstone technique for ensuring privacy in deep learning, widely used in both training from scratch and fine-tuning large-scale language models. While DP-SGD predominantly relies on the Gaussian mechanism, the Laplace mechanism remains underutilized due to its reliance on L1 norm clipping. This constraint severely limits its practicality in high-dimensional models because the L1 norm of an n-dimensional gradient can be up to sqrt(n) times larger than its L2 norm. As a result, the required noise scale grows significantly with model size, leading to poor utility or untrainable models.\n  In this work, we introduce Lap2, a new solution that enables L2 clipping for Laplace DP-SGD while preserving strong privacy guarantees. We overcome the dimensionality-driven clipping barrier by computing coordinate-wise moment bounds and applying majorization theory to construct a tight, data-independent upper bound over the full model. By exploiting the Schur-convexity of the moment accountant function, we aggregate these bounds using a carefully designed majorization set that respects the L2 clipping constraint. This yields a multivariate privacy accountant that scales gracefully with model dimension and enables the use of thousands of moments. Empirical evaluations demonstrate that our approach significantly improves the performance of Laplace DP-SGD, achieving results comparable to or better than Gaussian DP-SGD under strong privacy constraints. For instance, fine-tuning RoBERTa-base (125M parameters) on SST-2 achieves 87.88% accuracy at epsilon=0.54, outperforming Gaussian (87.16%) and standard Laplace (48.97%) under the same budget.",
       "categories": [
         "cs.CR",
         "cs.LG"
       ],
       "primary_category": "cs.CR",
-      "pdf_url": "https://arxiv.org/pdf/2602.23516v2",
+      "pdf_url": "https://arxiv.org/pdf/2602.23516v3",
       "journal_ref": null,
       "doi": null,
-      "comment": "Accepted at IEEE CSF 2026; Corrected version; 16 pages including appendix. arXiv admin note: text overlap with arXiv:2509.06264",
-      "entry_id": "http://arxiv.org/abs/2602.23516v2",
+      "comment": "Accepted at IEEE CSF 2026; Corrected version; 16 pages including appendix",
+      "entry_id": "http://arxiv.org/abs/2602.23516v3",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2602.23516v2",
+          "href": "https://arxiv.org/abs/2602.23516v3",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2602.23516v2",
+          "href": "https://arxiv.org/pdf/2602.23516v3",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -99430,6 +99835,39 @@
     }
   },
   "Depth Estimation": {
+    "2603.07690": {
+      "title": "FrameVGGT: Frame Evidence Rolling Memory for streaming VGGT",
+      "authors": [
+        "Zhisong Xu",
+        "Takeshi Oishi"
+      ],
+      "published": "2026-03-08T15:46:03+00:00",
+      "updated": "2026-03-08T15:46:03+00:00",
+      "summary": "Streaming Visual Geometry Transformers such as StreamVGGT enable strong online 3D perception but suffer from unbounded KV-cache growth, which limits deployment over long streams. We revisit bounded-memory streaming from the perspective of geometric support. In geometry-driven reasoning, memory quality depends not only on how many tokens are retained, but also on whether the retained memory still preserves sufficiently coherent local support. This suggests that token-level retention may become less suitable under fixed budgets, as it can thin the evidence available within each contributing frame and make subsequent fusion more sensitive to weakly aligned history. Motivated by this observation, we propose FrameVGGT, a frame-driven rolling explicit-memory framework that treats each frame's incremental KV contribution as a coherent evidence block. FrameVGGT summarizes each block into a compact prototype and maintains a fixed-capacity mid-term bank of complementary frame blocks under strict budgets, with an optional lightweight anchor tier for rare prolonged degradation. Across long-sequence 3D reconstruction, video depth estimation, and camera pose benchmarks, FrameVGGT achieves favorable accuracy--memory trade-offs under bounded memory, while maintaining more stable geometry over long streams.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.07690v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "24pages including appendix",
+      "entry_id": "http://arxiv.org/abs/2603.07690v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.07690v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.07690v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2603.06382": {
       "title": "CHMv2: Improvements in Global Canopy Height Mapping using DINOv3",
       "authors": [

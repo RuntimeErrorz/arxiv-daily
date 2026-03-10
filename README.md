@@ -1,4 +1,4 @@
-## Updated at 2026-03-10 08:21:12
+## Updated at 2026-03-10 20:13:47
 
 ## 3DGS Semantic
 
@@ -8,6 +8,13 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-03-09**|**[HDR-NSFF: High Dynamic Range Neural Scene Flow Fields](https://arxiv.org/abs/2603.08313)**|N/A|ICLR 2026. Project page: https://shin-dong-yeon.github.io/HDR-NSFF/|cs.CV|None|Shin Dong-Yeon et al.|
+|**2026-03-08**|**[Holi-Spatial: Evolving Video Streams into Holistic 3D Spatial Intelligence](https://arxiv.org/abs/2603.07660)**|N/A|project page: https://visionary-laboratory.github.io/holi-spatial/|cs.CV|None|Yuanyuan Gao et al.|
+|**2026-03-08**|**[3DGS-HPC: Distractor-free 3D Gaussian Splatting with Hybrid Patch-wise Classification](https://arxiv.org/abs/2603.07587)**|N/A|None|cs.CV|None|Jiahao Chen et al.|
+|**2026-03-08**|**[Adapting to noise tails in private linear regression](https://arxiv.org/abs/2603.07505)**|N/A|None|stat.ME|None|Jinyuan Chang et al.|
+|**2026-03-08**|**[SLNet: A Super-Lightweight Geometry-Adaptive Network for 3D Point Cloud Recognition](https://arxiv.org/abs/2603.07454)**|N/A|Accepted to the 2026 IEEE International Conference on Robotics and Automation (ICRA 2026)|cs.CV|None|Mohammad Saeid et al.|
+|**2026-03-07**|**[How Much Noise Can BERT Handle? Insights from Multilingual Sentence Difficulty Detection](https://arxiv.org/abs/2603.07346)**|N/A|None|cs.CL|Proceedings of the International Conference on Language Resources and Evaluation (LREC), 2026|Nouran Khallaf, Serge Sharoff|
+|**2026-03-06**|**[IGLU: The Integrated Gaussian Linear Unit Activation Function](https://arxiv.org/abs/2603.06861)**|N/A|None|cs.LG|None|Mingi Kang et al.|
 |**2026-03-06**|**[VG3S: Visual Geometry Grounded Gaussian Splatting for Semantic Occupancy Prediction](https://arxiv.org/abs/2603.06210)**|N/A|None|cs.CV|None|Xiaoyang Yan et al.|
 |**2026-03-06**|**[Whisper-CD: Accurate Long-Form Speech Recognition using Multi-Negative Contrastive Decoding](https://arxiv.org/abs/2603.06193)**|N/A|Submitted to Interspeech 2026|cs.SD|None|Hoseong Ahn et al.|
 |**2026-03-06**|**[Accelerated Time-domain Analysis for Gravitational Wave Astronomy](https://arxiv.org/abs/2603.06010)**|N/A|19 pages, 8 figures|gr-qc|None|Vaishak Prasad|
@@ -16,6 +23,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2026-03-05**|**[SAIL: Similarity-Aware Guidance and Inter-Caption Augmentation-based Learning for Weakly-Supervised Dense Video Captioning](https://arxiv.org/abs/2603.05437)**|N/A|Accepted to CVPR 2026|cs.CV|None|Ye-Chan Kim et al.|
 |**2026-03-05**|**[GaussTwin: Unified Simulation and Correction with Gaussian Splatting for Robotic Digital Twins](https://arxiv.org/abs/2603.05108)**|N/A|8 pages, 4 figures, 3 tables, ICRA 2026|cs.RO|None|Yichen Cai et al.|
 |**2026-03-05**|**[Locality-Attending Vision Transformer](https://arxiv.org/abs/2603.04892)**|N/A|Accepted to ICLR 2026|cs.CV|None|Sina Hajimiri et al.|
+|**2026-03-05**|**[Asymmetric Distillation and Information Retention in Capacity-Constrained Cross-Modal Transfer](https://arxiv.org/abs/2603.06698)**|N/A|3 pages, 3 figures, 1 table|cs.CV|None|Kabir Thayani|
 |**2026-03-05**|**[CONE: Embeddings for Complex Numerical Data Preserving Unit and Variable Semantics](https://arxiv.org/abs/2603.04741)**|N/A|None|cs.AI|None|Gyanendra Shrestha et al.|
 |**2026-03-04**|**[LLM-supported 3D Modeling Tool for Radio Radiance Field Reconstruction](https://arxiv.org/abs/2603.04368)**|N/A|Submitted to an IEEE conference|cs.NI|None|Chengling Xu et al.|
 |**2026-03-04**|**[Efficient Refusal Ablation in LLM through Optimal Transport](https://arxiv.org/abs/2603.04355)**|N/A|None|cs.LG|None|Geraldin Nanfack et al.|
@@ -23,9 +31,11 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2026-03-04**|**[EmbodiedSplat: Online Feed-Forward Semantic 3DGS for Open-Vocabulary 3D Scene Understanding](https://arxiv.org/abs/2603.04254)**|N/A|CVPR 2026, Project Page: https://0nandon.github.io/EmbodiedSplat/|cs.CV|None|Seungjun Lee et al.|
 |**2026-03-04**|**[Volumetric Directional Diffusion: Anchoring Uncertainty Quantification in Anatomical Consensus for Ambiguous Medical Image Segmentation](https://arxiv.org/abs/2603.04024)**|N/A|None|cs.CV|None|Chao Wu et al.|
 |**2026-03-04**|**[GIPO: Gaussian Importance Sampling Policy Optimization](https://arxiv.org/abs/2603.03955)**|N/A|None|cs.LG|None|Chengxuan Lu et al.|
+|**2026-03-04**|**[One step further with Monte-Carlo sampler to guide diffusion better](https://arxiv.org/abs/2603.06685)**|N/A|16 pages, 7 figures, accepted at ICLR2026|cs.LG|None|Minsi Ren et al.|
 |**2026-03-03**|**[VIRGi: View-dependent Instant Recoloring of 3D Gaussians Splats](https://arxiv.org/abs/2603.02986)**|IEEE Transactions on Pattern Analysis and Machine Intelligence|IEEE Transactions on Pattern Analysis and Machine Intelligence. 2026 Feb 24|cs.CV|None|Alessio Mazzucchelli et al.|
 |**2026-03-03**|**[Articulation in Motion: Prior-free Part Mobility Analysis for Articulated Objects By Dynamic-Static Disentanglement](https://arxiv.org/abs/2603.02910)**|N/A|Accepted by ICLR 2026. Project Page: https://haoai-1997.github.io/AiM/|cs.CV|None|Hao Ai et al.|
 |**2026-03-03**|**[Multimodal-Prior-Guided Importance Sampling for Hierarchical Gaussian Splatting in Sparse-View Novel View Synthesis](https://arxiv.org/abs/2603.02866)**|N/A|None|cs.CV|None|Kaiqiang Xiong et al.|
+|**2026-03-03**|**[Does Semantic Noise Initialization Transfer from Images to Videos? A Paired Diagnostic Study](https://arxiv.org/abs/2603.06672)**|N/A|8 pages, 1 figure. Accepted to the ICLR 2026 Workshop on Multimodal Intelligence: Next Token Prediction & Beyond|cs.CV|None|Yixiao Jing et al.|
 |**2026-03-03**|**[SemGS: Feed-Forward Semantic 3D Gaussian Splatting from Sparse Views for Generalizable Scene Understanding](https://arxiv.org/abs/2603.02548)**|N/A|ICRA 2026|cs.CV|None|Sheng Ye et al.|
 |**2026-03-02**|**[OnlineX: Unified Online 3D Reconstruction and Understanding with Active-to-Stable State Evolution](https://arxiv.org/abs/2603.02134)**|N/A|Accepted by CVPR Finding 2026 (Project page: https://xiac20.github.io/OnlineX/)|cs.CV|None|Chong Xia et al.|
 |**2026-03-02**|**[Trident: Adaptive Scheduling for Heterogeneous Multimodal Data Pipelines](https://arxiv.org/abs/2603.02075)**|N/A|22 pages, 3 figures|cs.DC|None|Ding Pan et al.|
@@ -37,7 +47,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2026-02-28**|**[Zero-Shot Robotic Manipulation via 3D Gaussian Splatting-Enhanced Multimodal Retrieval-Augmented Generation](https://arxiv.org/abs/2603.00500)**|N/A|9 pages, 5 figures|cs.RO|None|Zilong Xie et al.|
 |**2026-02-27**|**[Thinking with Images as Continuous Actions: Numerical Visual Chain-of-Thought](https://arxiv.org/abs/2602.23959)**|N/A|None|cs.CV|None|Kesen Zhao et al.|
 |**2026-02-27**|**[ProtoDCS: Towards Robust and Efficient Open-Set Test-Time Adaptation for Vision-Language Models](https://arxiv.org/abs/2602.23653)**|N/A|13 pages, under review|cs.CV|None|Wei Luo et al.|
-|**2026-02-26**|**[Lap2: Revisiting Laplace DP-SGD for High Dimensions via Majorization Theory](https://arxiv.org/abs/2602.23516)**|N/A|Accepted at IEEE CSF 2026; Corrected version; 16 pages including appendix. arXiv admin note: text overlap with arXiv:2509.06264|cs.CR|None|Meisam Mohammady et al.|
+|**2026-02-26**|**[Lap2: Revisiting Laplace DP-SGD for High Dimensions via Majorization Theory](https://arxiv.org/abs/2602.23516)**|N/A|Accepted at IEEE CSF 2026; Corrected version; 16 pages including appendix|cs.CR|None|Meisam Mohammady et al.|
 |**2026-02-26**|**[Monocular Open Vocabulary Occupancy Prediction for Indoor Scenes](https://arxiv.org/abs/2602.22667)**|N/A|Accepted by CVPR2026|cs.CV|None|Changqing Zhou et al.|
 |**2026-02-13**|**[Concept Heterogeneity-aware Representation Steering](https://arxiv.org/abs/2603.02237)**|N/A|None|cs.LG|None|Laziz U. Abdullaev et al.|
 |**2026-02-12**|**[LatentAM: Real-Time, Large-Scale Latent Gaussian Attention Mapping via Online Dictionary Learning](https://arxiv.org/abs/2602.12314)**|N/A|8 pages, 5 figures|cs.RO|None|Junwoon Lee, Yulun Tian|
@@ -685,6 +695,7 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-03-08**|**[FrameVGGT: Frame Evidence Rolling Memory for streaming VGGT](https://arxiv.org/abs/2603.07690)**|N/A|24pages including appendix|cs.CV|None|Zhisong Xu, Takeshi Oishi|
 |**2026-03-06**|**[CHMv2: Improvements in Global Canopy Height Mapping using DINOv3](https://arxiv.org/abs/2603.06382)**|N/A|Submitted to Nature Scientific Data|cs.CV|None|John Brandt et al.|
 |**2026-03-06**|**[RePer-360: Releasing Perspective Priors for 360$^\circ$ Depth Estimation via Self-Modulation](https://arxiv.org/abs/2603.05999)**|N/A|None|cs.CV|None|Cheng Guan et al.|
 |**2026-03-06**|**[EventGeM: Global-to-Local Feature Matching for Event-Based Visual Place Recognition](https://arxiv.org/abs/2603.05807)**|N/A|10 pages, 4 figures, 5 tables, under review|cs.CV|None|Adam D. Hines et al.|
