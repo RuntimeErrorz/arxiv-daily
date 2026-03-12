@@ -1,4 +1,4 @@
-## Updated at 2026-03-12 08:20:19
+## Updated at 2026-03-12 20:11:52
 
 ## 3DGS Semantic
 
@@ -8,6 +8,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-03-11**|**[SignSparK: Efficient Multilingual Sign Language Production via Sparse Keyframe Learning](https://arxiv.org/abs/2603.10446)**|N/A|None|cs.CV|None|Jianhe Low et al.|
 |**2026-03-10**|**[X-GS: An Extensible Open Framework Unifying 3DGS Architectures with Downstream Multimodal Models](https://arxiv.org/abs/2603.09632)**|N/A|None|cs.CV|None|Yueen Ma, Irwin King|
 |**2026-03-10**|**[Learning Convex Decomposition via Feature Fields](https://arxiv.org/abs/2603.09285)**|N/A|14 pages, 12 figures|cs.CV|None|Yuezhi Yang et al.|
 |**2026-03-10**|**[GST-VLA: Structured Gaussian Spatial Tokens for 3D Depth-Aware Vision-Language-Action Models](https://arxiv.org/abs/2603.09079)**|N/A|The results presented in this paper are preliminary. Please note that the experiments are currently ongoing, and the final data is subject to change upon the completion of the study. All ideas, results, methods, and any content herein are the sole property of the authors|cs.CV|None|Md Selim Sarowar et al.|
@@ -698,6 +699,8 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-03-11**|**[WalkGPT: Grounded Vision-Language Conversation with Depth-Aware Segmentation for Pedestrian Navigation](https://arxiv.org/abs/2603.10703)**|N/A|Accepted by CVPR-2026|cs.CV|None|Rafi Ibn Sultan et al.|
+|**2026-03-11**|**[AsyncMDE: Real-Time Monocular Depth Estimation via Asynchronous Spatial Memory](https://arxiv.org/abs/2603.10438)**|N/A|8 pages, 5 figures, 5 tables|cs.RO|None|Lianjie Ma et al.|
 |**2026-03-10**|**[SurgFed: Language-guided Multi-Task Federated Learning for Surgical Video Understanding](https://arxiv.org/abs/2603.09496)**|N/A|None|cs.CV|None|Zheng Fang et al.|
 |**2026-03-10**|**[EventVGGT: Exploring Cross-Modal Distillation for Consistent Event-based Depth Estimation](https://arxiv.org/abs/2603.09385)**|N/A|None|cs.CV|None|Yinrui Ren et al.|
 |**2026-03-10**|**[SpaceSense-Bench: A Large-Scale Multi-Modal Benchmark for Spacecraft Perception and Pose Estimation](https://arxiv.org/abs/2603.09320)**|N/A|8 pages, 5 figures|cs.CV|None|Aodi Wu et al.|
