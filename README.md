@@ -1,4 +1,4 @@
-## Updated at 2026-03-13 08:24:09
+## Updated at 2026-03-13 20:12:25
 
 ## 3DGS Semantic
 
@@ -8,8 +8,10 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-03-12**|**[Mango-GS: Enhancing Spatio-Temporal Consistency in Dynamic Scenes Reconstruction using Multi-Frame Node-Guided 4D Gaussian Splatting](https://arxiv.org/abs/2603.11543)**|N/A|None|cs.CV|None|Tingxuan Huang et al.|
+|**2026-03-11**|**[Senna-2: Aligning VLM and End-to-End Driving Policy for Consistent Decision Making and Planning](https://arxiv.org/abs/2603.11219)**|N/A|15 pages, 8 figures. Project page: https://ambitious-idiot.github.io/senna2-project|cs.CV|None|Yuehao Song et al.|
 |**2026-03-11**|**[SignSparK: Efficient Multilingual Sign Language Production via Sparse Keyframe Learning](https://arxiv.org/abs/2603.10446)**|N/A|None|cs.CV|None|Jianhe Low et al.|
-|**2026-03-10**|**[X-GS: An Extensible Open Framework Unifying 3DGS Architectures with Downstream Multimodal Models](https://arxiv.org/abs/2603.09632)**|N/A|None|cs.CV|None|Yueen Ma, Irwin King|
+|**2026-03-10**|**[X-GS: An Extensible Open Framework for Perceiving and Thinking via 3D Gaussian Splatting](https://arxiv.org/abs/2603.09632)**|N/A|None|cs.CV|None|Yueen Ma et al.|
 |**2026-03-10**|**[Learning Convex Decomposition via Feature Fields](https://arxiv.org/abs/2603.09285)**|N/A|14 pages, 12 figures|cs.CV|None|Yuezhi Yang et al.|
 |**2026-03-10**|**[GST-VLA: Structured Gaussian Spatial Tokens for 3D Depth-Aware Vision-Language-Action Models](https://arxiv.org/abs/2603.09079)**|N/A|The results presented in this paper are preliminary. Please note that the experiments are currently ongoing, and the final data is subject to change upon the completion of the study. All ideas, results, methods, and any content herein are the sole property of the authors|cs.CV|None|Md Selim Sarowar et al.|
 |**2026-03-09**|**[HDR-NSFF: High Dynamic Range Neural Scene Flow Fields](https://arxiv.org/abs/2603.08313)**|N/A|ICLR 2026. Project page: https://shin-dong-yeon.github.io/HDR-NSFF/|cs.CV|None|Shin Dong-Yeon et al.|
@@ -699,6 +701,8 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-03-12**|**[DVD: Deterministic Video Depth Estimation with Generative Priors](https://arxiv.org/abs/2603.12250)**|N/A|Project: https://dvd-project.github.io/|cs.CV|None|Hongfei Zhang et al.|
+|**2026-03-12**|**[R4Det: 4D Radar-Camera Fusion for High-Performance 3D Object Detection](https://arxiv.org/abs/2603.11566)**|N/A|Accepted to CVPR 2026|cs.CV|None|Zhongyu Xia et al.|
 |**2026-03-11**|**[WalkGPT: Grounded Vision-Language Conversation with Depth-Aware Segmentation for Pedestrian Navigation](https://arxiv.org/abs/2603.10703)**|N/A|Accepted by CVPR-2026|cs.CV|None|Rafi Ibn Sultan et al.|
 |**2026-03-11**|**[AsyncMDE: Real-Time Monocular Depth Estimation via Asynchronous Spatial Memory](https://arxiv.org/abs/2603.10438)**|N/A|8 pages, 5 figures, 5 tables|cs.RO|None|Lianjie Ma et al.|
 |**2026-03-10**|**[SurgFed: Language-guided Multi-Task Federated Learning for Surgical Video Understanding](https://arxiv.org/abs/2603.09496)**|N/A|None|cs.CV|None|Zheng Fang et al.|

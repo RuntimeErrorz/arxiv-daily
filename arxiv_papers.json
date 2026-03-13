@@ -1,5 +1,101 @@
 {
   "3DGS Semantic": {
+    "2603.11543": {
+      "title": "Mango-GS: Enhancing Spatio-Temporal Consistency in Dynamic Scenes Reconstruction using Multi-Frame Node-Guided 4D Gaussian Splatting",
+      "authors": [
+        "Tingxuan Huang",
+        "Haowei Zhu",
+        "Jun-hai Yong",
+        "Hao Pan",
+        "Bin Wang"
+      ],
+      "published": "2026-03-12T05:00:16+00:00",
+      "updated": "2026-03-12T05:00:16+00:00",
+      "summary": "Reconstructing dynamic 3D scenes with photorealistic detail and strong temporal coherence remains a significant challenge. Existing Gaussian splatting approaches for dynamic scene modeling often rely on per-frame optimization, which can overfit to instantaneous states instead of capturing underlying motion dynamics. To address this, we present Mango-GS, a multi-frame, node-guided framework for high-fidelity 4D reconstruction. Mango-GS leverages a temporal Transformer to model motion dependencies within a short window of frames, producing temporally consistent deformations. For efficiency, temporal modeling is confined to a sparse set of control nodes. Each node is represented by a decoupled canonical position and a latent code, providing a stable semantic anchor for motion propagation and preventing correspondence drift under large motion. Our framework is trained end-to-end, enhanced by an input masking strategy and two multi-frame losses to improve robustness. Extensive experiments demonstrate that Mango-GS achieves state-of-the-art reconstruction quality and real-time rendering speed, enabling high-fidelity reconstruction and interactive rendering of dynamic scenes.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.11543v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2603.11543v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.11543v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.11543v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-13",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2603.11219": {
+      "title": "Senna-2: Aligning VLM and End-to-End Driving Policy for Consistent Decision Making and Planning",
+      "authors": [
+        "Yuehao Song",
+        "Shaoyu Chen",
+        "Hao Gao",
+        "Yifan Zhu",
+        "Weixiang Yue",
+        "Jialv Zou",
+        "Bo Jiang",
+        "Zihao Lu",
+        "Yu Wang",
+        "Qian Zhang",
+        "Xinggang Wang"
+      ],
+      "published": "2026-03-11T18:33:49+00:00",
+      "updated": "2026-03-11T18:33:49+00:00",
+      "summary": "Vision-language models (VLMs) enhance the planning capability of end-to-end (E2E) driving policy by leveraging high-level semantic reasoning. However, existing approaches often overlook the dual-system consistency between VLM's high-level decision and E2E's low-level planning. As a result, the generated trajectories may misalign with the intended driving decisions, leading to weakened top-down guidance and decision-following ability of the system. To address this issue, we propose Senna-2, an advanced VLM-E2E driving policy that explicitly aligns the two systems for consistent decision-making and planning. Our method follows a consistency-oriented three-stage training paradigm. In the first stage, we conduct driving pre-training to achieve preliminary decision-making and planning, with a decision adapter transmitting VLM decisions to E2E policy in the form of implicit embeddings. In the second stage, we align the VLM and the E2E policy in an open-loop setting. In the third stage, we perform closed-loop alignment via bottom-up Hierarchical Reinforcement Learning in 3DGS environments to reinforce the safety and efficiency. Extensive experiments demonstrate that Senna-2 achieves superior dual-system consistency (19.3% F1 score improvement) and significantly enhances driving safety in both open-loop (5.7% FDE reduction) and closed-loop settings (30.6% AF-CR reduction).",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.11219v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "15 pages, 8 figures. Project page: https://ambitious-idiot.github.io/senna2-project",
+      "entry_id": "http://arxiv.org/abs/2603.11219v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.11219v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.11219v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-13",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
     "2603.10446": {
       "title": "SignSparK: Efficient Multilingual Sign Language Production via Sparse Keyframe Learning",
       "authors": [
@@ -10,26 +106,26 @@
         "Richard Bowden"
       ],
       "published": "2026-03-11T06:02:36+00:00",
-      "updated": "2026-03-11T06:02:36+00:00",
+      "updated": "2026-03-12T03:43:26+00:00",
       "summary": "Generating natural and linguistically accurate sign language avatars remains a formidable challenge. Current Sign Language Production (SLP) frameworks face a stark trade-off: direct text-to-pose models suffer from regression-to-the-mean effects, while dictionary-retrieval methods produce robotic, disjointed transitions. To resolve this, we propose a novel training paradigm that leverages sparse keyframes to capture the true underlying kinematic distribution of human signing. By predicting dense motion from these discrete anchors, our approach mitigates regression-to-the-mean while ensuring fluid articulation. To realize this paradigm at scale, we first introduce FAST, an ultra-efficient sign segmentation model that automatically mines precise temporal boundaries. We then present SignSparK, a large-scale Conditional Flow Matching (CFM) framework that utilizes these extracted anchors to synthesize 3D signing sequences in SMPL-X and MANO spaces. This keyframe-driven formulation also uniquely unlocks Keyframe-to-Pose (KF2P) generation, making precise spatiotemporal editing of signing sequences possible. Furthermore, our adopted reconstruction-based CFM objective also enables high-fidelity synthesis in fewer than ten sampling steps; this allows SignSparK to scale across four distinct sign languages, establishing the largest multilingual SLP framework to date. Finally, by integrating 3D Gaussian Splatting for photorealistic rendering, we demonstrate through extensive evaluation that SignSparK establishes a new state-of-the-art across diverse SLP tasks and multilingual benchmarks.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2603.10446v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.10446v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2603.10446v1",
+      "entry_id": "http://arxiv.org/abs/2603.10446v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2603.10446v1",
+          "href": "https://arxiv.org/abs/2603.10446v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2603.10446v1",
+          "href": "https://arxiv.org/pdf/2603.10446v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -46,33 +142,34 @@
       }
     },
     "2603.09632": {
-      "title": "X-GS: An Extensible Open Framework Unifying 3DGS Architectures with Downstream Multimodal Models",
+      "title": "X-GS: An Extensible Open Framework for Perceiving and Thinking via 3D Gaussian Splatting",
       "authors": [
         "Yueen Ma",
+        "Zenglin Xu",
         "Irwin King"
       ],
       "published": "2026-03-10T13:10:18+00:00",
-      "updated": "2026-03-10T13:10:18+00:00",
-      "summary": "3D Gaussian Splatting (3DGS) has emerged as a powerful technique for novel view synthesis, subsequently extending into numerous spatial AI applications. However, most existing 3DGS methods are isolated, focusing on specific domains such as online SLAM, semantic enrichment, or 3DGS for unposed images. In this paper, we introduce X-GS, an extensible open framework that unifies a broad range of techniques to enable real-time 3DGS-based online SLAM enriched with semantics, bridging the gap to downstream multimodal models. At the core of X-GS is a highly efficient pipeline called X-GS-Perceiver, capable of taking unposed RGB (or optionally RGB-D) video streams as input to co-optimize geometry and poses, and distill high-dimensional semantic features from vision foundation models into the 3D Gaussians. We achieve real-time performance through a novel online Vector Quantization (VQ) module, a GPU-accelerated grid-sampling scheme, and a highly parallelized pipeline design. The semantic 3D Gaussians can then be utilized by vision-language models within the X-GS-Thinker component, enabling downstream tasks such as object detection, zero-shot caption generation, and potentially embodied tasks. Experimental results on real-world datasets showcase the efficacy, efficiency, and newly unlocked multimodal capabilities of the X-GS framework.",
+      "updated": "2026-03-12T07:14:05+00:00",
+      "summary": "3D Gaussian Splatting (3DGS) has emerged as a powerful technique for novel view synthesis, subsequently extending into numerous spatial AI applications. However, most existing 3DGS methods operate in isolation, focusing on specific domains such as pose-free 3DGS, online SLAM, and semantic enrichment. In this paper, we introduce X-GS, an extensible open framework consisting of two major components: the X-GS-Perceiver, which unifies a broad range of 3DGS techniques to enable real-time online SLAM and distill semantic features; and the X-GS-Thinker, which interfaces with downstream multimodal models. In our implementation of the Perceiver, we integrate various 3DGS methods through three novel mechanisms: an online Vector Quantization (VQ) module, a GPU-accelerated grid-sampling scheme, and a highly parallelized pipeline design. The Thinker accommodates vision-language models and utilizes the resulting 3D semantic Gaussians, enabling downstream applications such as object detection, caption generation, and potentially embodied tasks. Experimental results on real-world datasets demonstrate the efficiency and newly unlocked multimodal capabilities of the X-GS framework.",
       "categories": [
         "cs.CV",
         "cs.CL"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2603.09632v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.09632v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2603.09632v1",
+      "entry_id": "http://arxiv.org/abs/2603.09632v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2603.09632v1",
+          "href": "https://arxiv.org/abs/2603.09632v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2603.09632v1",
+          "href": "https://arxiv.org/pdf/2603.09632v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -1915,27 +2012,27 @@
         "Mingkui Tan"
       ],
       "published": "2026-02-27T03:39:02+00:00",
-      "updated": "2026-02-27T03:39:02+00:00",
+      "updated": "2026-03-12T02:40:31+00:00",
       "summary": "Large-scale Vision-Language Models (VLMs) exhibit strong zero-shot recognition, yet their real-world deployment is challenged by distribution shifts. While Test-Time Adaptation (TTA) can mitigate this, existing VLM-based TTA methods operate under a closed-set assumption, failing in open-set scenarios where test streams contain both covariate-shifted in-distribution (csID) and out-of-distribution (csOOD) data. This leads to a critical difficulty: the model must discriminate unknown csOOD samples to avoid interference while simultaneously adapting to known csID classes for accuracy. Current open-set TTA (OSTTA) methods rely on hard thresholds for separation and entropy minimization for adaptation. These strategies are brittle, often misclassifying ambiguous csOOD samples and inducing overconfident predictions, and their parameter-update mechanism is computationally prohibitive for VLMs. To address these limitations, we propose Prototype-based Double-Check Separation (ProtoDCS), a robust framework for OSTTA that effectively separates csID and csOOD samples, enabling safe and efficient adaptation of VLMs to csID data. Our main contributions are: (1) a novel double-check separation mechanism employing probabilistic Gaussian Mixture Model (GMM) verification to replace brittle thresholding; and (2) an evidence-driven adaptation strategy utilizing uncertainty-aware loss and efficient prototype-level updates, mitigating overconfidence and reducing computational overhead. Extensive experiments on CIFAR-10/100-C and Tiny-ImageNet-C demonstrate that ProtoDCS achieves state-of-the-art performance, significantly boosting both known-class accuracy and OOD detection metrics. Code will be available at https://github.com/O-YangF/ProtoDCS.",
       "categories": [
         "cs.CV",
         "cs.AI"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2602.23653v1",
+      "pdf_url": "https://arxiv.org/pdf/2602.23653v2",
       "journal_ref": null,
       "doi": null,
       "comment": "13 pages, under review",
-      "entry_id": "http://arxiv.org/abs/2602.23653v1",
+      "entry_id": "http://arxiv.org/abs/2602.23653v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2602.23653v1",
+          "href": "https://arxiv.org/abs/2602.23653v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2602.23653v1",
+          "href": "https://arxiv.org/pdf/2602.23653v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -100060,6 +100157,88 @@
     }
   },
   "Depth Estimation": {
+    "2603.12250": {
+      "title": "DVD: Deterministic Video Depth Estimation with Generative Priors",
+      "authors": [
+        "Hongfei Zhang",
+        "Harold Haodong Chen",
+        "Chenfei Liao",
+        "Jing He",
+        "Zixin Zhang",
+        "Haodong Li",
+        "Yihao Liang",
+        "Kanghao Chen",
+        "Bin Ren",
+        "Xu Zheng",
+        "Shuai Yang",
+        "Kun Zhou",
+        "Yinchuan Li",
+        "Nicu Sebe",
+        "Ying-Cong Chen"
+      ],
+      "published": "2026-03-12T17:58:06+00:00",
+      "updated": "2026-03-12T17:58:06+00:00",
+      "summary": "Existing video depth estimation faces a fundamental trade-off: generative models suffer from stochastic geometric hallucinations and scale drift, while discriminative models demand massive labeled datasets to resolve semantic ambiguities. To break this impasse, we present DVD, the first framework to deterministically adapt pre-trained video diffusion models into single-pass depth regressors. Specifically, DVD features three core designs: (i) repurposing the diffusion timestep as a structural anchor to balance global stability with high-frequency details; (ii) latent manifold rectification (LMR) to mitigate regression-induced over-smoothing, enforcing differential constraints to restore sharp boundaries and coherent motion; and (iii) global affine coherence, an inherent property bounding inter-window divergence, which enables seamless long-video inference without requiring complex temporal alignment. Extensive experiments demonstrate that DVD achieves state-of-the-art zero-shot performance across benchmarks. Furthermore, DVD successfully unlocks the profound geometric priors implicit in video foundation models using 163x less task-specific data than leading baselines. Notably, we fully release our pipeline, providing the whole training suite for SOTA video depth estimation to benefit the open-source community.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.12250v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Project: https://dvd-project.github.io/",
+      "entry_id": "http://arxiv.org/abs/2603.12250v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.12250v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.12250v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2603.11566": {
+      "title": "R4Det: 4D Radar-Camera Fusion for High-Performance 3D Object Detection",
+      "authors": [
+        "Zhongyu Xia",
+        "Yousen Tang",
+        "Yongtao Wang",
+        "Zhifeng Wang",
+        "Weijun Qin"
+      ],
+      "published": "2026-03-12T05:41:05+00:00",
+      "updated": "2026-03-12T05:41:05+00:00",
+      "summary": "4D radar-camera sensing configuration has gained increasing importance in autonomous driving. However, existing 3D object detection methods that fuse 4D Radar and camera data confront several challenges. First, their absolute depth estimation module is not robust and accurate enough, leading to inaccurate 3D localization. Second, the performance of their temporal fusion module will degrade dramatically or even fail when the ego vehicle's pose is missing or inaccurate. Third, for some small objects, the sparse radar point clouds may completely fail to reflect from their surfaces. In such cases, detection must rely solely on visual unimodal priors. To address these limitations, we propose R4Det, which enhances depth estimation quality via the Panoramic Depth Fusion module, enabling mutual reinforcement between absolute and relative depth. For temporal fusion, we design a Deformable Gated Temporal Fusion module that does not rely on the ego vehicle's pose. In addition, we built an Instance-Guided Dynamic Refinement module that extracts semantic prototypes from 2D instance guidance. Experiments show that R4Det achieves state-of-the-art 3D object detection results on the TJ4DRadSet and VoD datasets.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.11566v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted to CVPR 2026",
+      "entry_id": "http://arxiv.org/abs/2603.11566v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.11566v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.11566v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2603.10703": {
       "title": "WalkGPT: Grounded Vision-Language Conversation with Depth-Aware Segmentation for Pedestrian Navigation",
       "authors": [
