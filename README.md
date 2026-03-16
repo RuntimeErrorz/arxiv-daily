@@ -1,4 +1,4 @@
-## Updated at 2026-03-15 20:10:28
+## Updated at 2026-03-16 20:18:31
 
 ## 3DGS Semantic
 
@@ -8,6 +8,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-03-13**|**[SLICE: Semantic Latent Injection via Compartmentalized Embedding for Image Watermarking](https://arxiv.org/abs/2603.12749)**|N/A|None|cs.CV|None|Zheng Gao et al.|
 |**2026-03-12**|**[Mango-GS: Enhancing Spatio-Temporal Consistency in Dynamic Scenes Reconstruction using Multi-Frame Node-Guided 4D Gaussian Splatting](https://arxiv.org/abs/2603.11543)**|N/A|None|cs.CV|None|Tingxuan Huang et al.|
 |**2026-03-11**|**[Senna-2: Aligning VLM and End-to-End Driving Policy for Consistent Decision Making and Planning](https://arxiv.org/abs/2603.11219)**|N/A|15 pages, 8 figures. Project page: https://ambitious-idiot.github.io/senna2-project|cs.CV|None|Yuehao Song et al.|
 |**2026-03-11**|**[SignSparK: Efficient Multilingual Sign Language Production via Sparse Keyframe Learning](https://arxiv.org/abs/2603.10446)**|N/A|None|cs.CV|None|Jianhe Low et al.|

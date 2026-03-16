@@ -1,5 +1,54 @@
 {
   "3DGS Semantic": {
+    "2603.12749": {
+      "title": "SLICE: Semantic Latent Injection via Compartmentalized Embedding for Image Watermarking",
+      "authors": [
+        "Zheng Gao",
+        "Yifan Yang",
+        "Xiaoyu Li",
+        "Xiaoyan Feng",
+        "Haoran Fan",
+        "Yang Song",
+        "Jiaojiao Jiang"
+      ],
+      "published": "2026-03-13T07:49:01+00:00",
+      "updated": "2026-03-13T07:49:01+00:00",
+      "summary": "Watermarking the initial noise of diffusion models has emerged as a promising approach for image provenance, but content-independent noise patterns can be forged via inversion and regeneration attacks. Recent semantic-aware watermarking methods improve robustness by conditioning verification on image semantics. However, their reliance on a single global semantic binding makes them vulnerable to localized but globally coherent semantic edits. To address this limitation and provide a trustworthy semantic-aware watermark, we propose $\\underline{\\textbf{S}}$emantic $\\underline{\\textbf{L}}$atent $\\underline{\\textbf{I}}$njection via $\\underline{\\textbf{C}}$ompartmentalized $\\underline{\\textbf{E}}$mbedding ($\\textbf{SLICE}$). Our framework decouples image semantics into four semantic factors (subject, environment, action, and detail) and precisely anchors them to distinct regions in the initial Gaussian noise. This fine-grained semantic binding enables advanced watermark verification where semantic tampering is detectable and localizable. We theoretically justify why SLICE enables robust and reliable tamper localization and provides statistical guarantees on false-accept rates. Experimental results demonstrate that SLICE significantly outperforms existing baselines against advanced semantic-guided regeneration attacks, substantially reducing attack success while preserving image quality and semantic fidelity. Overall, SLICE offers a practical, training-free provenance solution that is both fine-grained in diagnosis and robust to realistic adversarial manipulations.",
+      "categories": [
+        "cs.CV",
+        "cs.CR",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.12749v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2603.12749v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.12749v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.12749v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-16",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
     "2603.11543": {
       "title": "Mango-GS: Enhancing Spatio-Temporal Consistency in Dynamic Scenes Reconstruction using Multi-Frame Node-Guided 4D Gaussian Splatting",
       "authors": [
