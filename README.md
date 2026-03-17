@@ -1,4 +1,4 @@
-## Updated at 2026-03-17 08:24:43
+## Updated at 2026-03-17 20:18:45
 
 ## 3DGS Semantic
 
@@ -8,7 +8,21 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-03-16**|**[Interaction-Enabled Hartree Fixed Points in Fermionic Resetting Dynamics](https://arxiv.org/abs/2603.15554)**|N/A|14 pages, 7 figures|quant-ph|None|Jishad Kumar et al.|
+|**2026-03-16**|**[NavGSim: High-Fidelity Gaussian Splatting Simulator for Large-Scale Navigation](https://arxiv.org/abs/2603.15186)**|N/A|None|cs.RO|None|Jiahang Liu et al.|
+|**2026-03-16**|**[ANNA: a toolbox for Newtonian Noise Analysis](https://arxiv.org/abs/2603.15157)**|N/A|Preprint submitted to the Journal of Computational Physics|physics.app-ph|None|Pieter Reumers et al.|
+|**2026-03-15**|**[Power-Law Spectrum of the Random Feature Model](https://arxiv.org/abs/2603.14578)**|N/A|None|stat.ML|None|Elliot Paquette et al.|
+|**2026-03-15**|**[Direct Object-Level Reconstruction via Probabilistic Gaussian Splatting](https://arxiv.org/abs/2603.14316)**|N/A|None|cs.CV|None|Shuai Guo et al.|
+|**2026-03-15**|**[In-Field 3D Wheat Head Instance Segmentation From TLS Point Clouds Using Deep Learning Without Manual Labels](https://arxiv.org/abs/2603.14309)**|N/A|to be published in ISPRS Annals of Photogrammetry and Remote Sensing at XXV ISPRS Congress, Toronto, Canada, July 2026, 8 pages, 5 figures|cs.CV|None|Tomislav Medic, Liangliang Nan|
+|**2026-03-15**|**[4D Synchronized Fields: Motion-Language Gaussian Splatting for Temporal Scene Understanding](https://arxiv.org/abs/2603.14301)**|N/A|34 pages, 3 figures, 7 tables. Includes supplementary material. Preprint|cs.CV|None|Mohamed Rayan Barhdadi et al.|
+|**2026-03-15**|**[S2GS: Streaming Semantic Gaussian Splatting for Online Scene Understanding and Reconstruction](https://arxiv.org/abs/2603.14232)**|N/A|10 pages, 7 figures|cs.CV|None|Renhe Zhang et al.|
+|**2026-03-14**|**[SGR-OCC: Evolving Monocular Priors for Embodied 3D Occupancy Prediction via Soft-Gating Lifting and Semantic-Adaptive Geometric Refinement](https://arxiv.org/abs/2603.14076)**|N/A|mian paper: 20 pages, 6 figures; appendix: 15 pages, 5 figures|cs.CV|None|Yiran Guo et al.|
+|**2026-03-14**|**[MotionCFG: Boosting Motion Dynamics via Stochastic Concept Perturbation](https://arxiv.org/abs/2603.14073)**|N/A|None|cs.CV|None|Byungjun Kim et al.|
+|**2026-03-14**|**[USIS-PGM: Photometric Gaussian Mixtures for Underwater Salient Instance Segmentation](https://arxiv.org/abs/2603.13961)**|N/A|None|cs.CV|None|Lin Hong et al.|
+|**2026-03-14**|**[Scene Generation at Absolute Scale: Utilizing Semantic and Geometric Guidance From Text for Accurate and Interpretable 3D Indoor Scene Generation](https://arxiv.org/abs/2603.13910)**|N/A|None|cs.CV|None|Stefan Ainetter et al.|
+|**2026-03-14**|**[Bodhi VLM: Privacy-Alignment Modeling for Hierarchical Visual Representations in Vision Backbones and VLM Encoders via Bottom-Up and Top-Down Feature Search](https://arxiv.org/abs/2603.13728)**|N/A|None|cs.CV|None|Bo Ma et al.|
 |**2026-03-13**|**[SLICE: Semantic Latent Injection via Compartmentalized Embedding for Image Watermarking](https://arxiv.org/abs/2603.12749)**|N/A|None|cs.CV|None|Zheng Gao et al.|
+|**2026-03-12**|**[Distance-aware Soft Prompt Learning for Multimodal Valence-Arousal Estimation](https://arxiv.org/abs/2603.13415)**|N/A|8pages|cs.CV|None|Byeongjin Jung et al.|
 |**2026-03-12**|**[Mango-GS: Enhancing Spatio-Temporal Consistency in Dynamic Scenes Reconstruction using Multi-Frame Node-Guided 4D Gaussian Splatting](https://arxiv.org/abs/2603.11543)**|N/A|None|cs.CV|None|Tingxuan Huang et al.|
 |**2026-03-11**|**[Senna-2: Aligning VLM and End-to-End Driving Policy for Consistent Decision Making and Planning](https://arxiv.org/abs/2603.11219)**|N/A|15 pages, 8 figures. Project page: https://ambitious-idiot.github.io/senna2-project|cs.CV|None|Yuehao Song et al.|
 |**2026-03-11**|**[SignSparK: Efficient Multilingual Sign Language Production via Sparse Keyframe Learning](https://arxiv.org/abs/2603.10446)**|N/A|None|cs.CV|None|Jianhe Low et al.|
@@ -702,6 +716,15 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-03-16**|**[Pointing-Based Object Recognition](https://arxiv.org/abs/2603.15403)**|N/A|Submitted to InnovAIte conference|cs.CV|None|Lukáš Hajdúch, Viktor Kocur|
+|**2026-03-16**|**[Spectral Rectification for Parameter-Efficient Adaptation of Foundation Models in Colonoscopy Depth Estimation](https://arxiv.org/abs/2603.15374)**|N/A|15 pages|cs.CV|None|Xiaoxian Zhang et al.|
+|**2026-03-16**|**[Reference-Free Omnidirectional Stereo Matching via Multi-View Consistency Maximization](https://arxiv.org/abs/2603.15019)**|N/A|8 pages, 5 figures|cs.CV|None|Lehuai Xu et al.|
+|**2026-03-16**|**[Thermal Image Refinement with Depth Estimation using Recurrent Networks for Monocular ORB-SLAM3](https://arxiv.org/abs/2603.14998)**|N/A|8 pages, 8 figures, 2 table|cs.CV|None|Hürkan Şahin et al.|
+|**2026-03-16**|**[Fractal Autoregressive Depth Estimation with Continuous Token Diffusion](https://arxiv.org/abs/2603.14702)**|N/A|None|cs.CV|None|Jinchang Zhang et al.|
+|**2026-03-16**|**[E2EGS: Event-to-Edge Gaussian Splatting for Pose-Free 3D Reconstruction](https://arxiv.org/abs/2603.14684)**|N/A|10 pages, 6 figures, accepted to CVPR 2026|cs.CV|None|Yunsoo Kim et al.|
+|**2026-03-15**|**[V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning](https://arxiv.org/abs/2603.14482)**|N/A|None|cs.CV|None|Lorenzo Mur-Labadia et al.|
+|**2026-03-14**|**[ALTIS: Automated Loss Triage and Impact Scoring from Sentinel-1 SAR for Property-Level Flood Damage Assessment](https://arxiv.org/abs/2603.13803)**|N/A|27 pages, 9 figures. Preliminary results; full end-to-end validation ongoing|cs.CV|None|Amogh Vinaykumar, Prem Kamasani|
+|**2026-03-13**|**[UE5-Forest: A Photorealistic Synthetic Stereo Dataset for UAV Forestry Depth Estimation](https://arxiv.org/abs/2603.15304)**|N/A|None|cs.CV|None|Yida Lin et al.|
 |**2026-03-12**|**[DVD: Deterministic Video Depth Estimation with Generative Priors](https://arxiv.org/abs/2603.12250)**|N/A|Project: https://dvd-project.github.io/|cs.CV|None|Hongfei Zhang et al.|
 |**2026-03-12**|**[R4Det: 4D Radar-Camera Fusion for High-Performance 3D Object Detection](https://arxiv.org/abs/2603.11566)**|N/A|Accepted to CVPR 2026|cs.CV|None|Zhongyu Xia et al.|
 |**2026-03-11**|**[WalkGPT: Grounded Vision-Language Conversation with Depth-Aware Segmentation for Pedestrian Navigation](https://arxiv.org/abs/2603.10703)**|N/A|Accepted by CVPR-2026|cs.CV|None|Rafi Ibn Sultan et al.|

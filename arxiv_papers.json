@@ -1,5 +1,500 @@
 {
   "3DGS Semantic": {
+    "2603.15554": {
+      "title": "Interaction-Enabled Hartree Fixed Points in Fermionic Resetting Dynamics",
+      "authors": [
+        "Jishad Kumar",
+        "Achilleas Lazarides",
+        "Tapio Ala-Nissila"
+      ],
+      "published": "2026-03-16T17:14:08+00:00",
+      "updated": "2026-03-16T17:14:08+00:00",
+      "summary": "In resetting dynamics, a system is repeatedly coupled to and decoupled from ancillary degrees of freedom that are reinitialized between interactions. This provides a versatile route to engineer nonequilibrium steady states and constitutes a powerful and analytically transparent framework for studying nonequilibrium dynamics in quadratic fermionic models. The baseline noninteracting resetting scheme yields an affine evolution for the subsystem single-particle density matrix (SPDM), with a clear operational interpretation: a finite environment block E mediates the interaction between the subsystem S and an ideal external thermal reservoir. In this work, we develop a controlled extension of such a framework to weakly interacting systems. We introduce a Hartree mean-field treatment of density-density interactions that preserves closure of the SPDM dynamics while producing genuinely nonlinear behavior. We further construct a completely positive (CP-safe) Gaussian Lindblad embedding that reproduces the resetting dynamics in the noninteracting limit and yields a continuous-time representation of environmental thermalization when interactions are present. Our analytical results are complemented by numerical studies of a ring segmentation geometry and a minimal two-site model, revealing interaction-enabled steady states that cannot be obtained in any purely quadratic setting. Together, these results establish a general and physically consistent route for incorporating weak interactions ino resetting-based approaches to open quantum system.",
+      "categories": [
+        "quant-ph"
+      ],
+      "primary_category": "quant-ph",
+      "pdf_url": "https://arxiv.org/pdf/2603.15554v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "14 pages, 7 figures",
+      "entry_id": "http://arxiv.org/abs/2603.15554v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.15554v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.15554v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2603.15186": {
+      "title": "NavGSim: High-Fidelity Gaussian Splatting Simulator for Large-Scale Navigation",
+      "authors": [
+        "Jiahang Liu",
+        "Yuanxing Duan",
+        "Jiazhao Zhang",
+        "Minghan Li",
+        "Shaoan Wang",
+        "Zhizheng Zhang",
+        "He Wang"
+      ],
+      "published": "2026-03-16T12:23:20+00:00",
+      "updated": "2026-03-16T12:23:20+00:00",
+      "summary": "Simulating realistic environments for robots is widely recognized as a critical challenge in robot learning, particularly in terms of rendering and physical simulation. This challenge becomes even more pronounced in navigation tasks, where trajectories often extend across multiple rooms or entire floors. In this work, we present NavGSim, a Gaussian Splatting-based simulator designed to generate high-fidelity, large-scale navigation environments. Built upon a hierarchical 3D Gaussian Splatting framework, NavGSim enables photorealistic rendering in expansive scenes spanning hundreds of square meters. To simulate navigation collisions, we introduce a Gaussian Splatting-based slice technique that directly extracts navigable areas from reconstructed Gaussians. Additionally, for ease of use, we provide comprehensive NavGSim APIs supporting multi-GPU development, including tools for custom scene reconstruction, robot configuration, policy training, and evaluation. To evaluate NavGSim's effectiveness, we train a Vision-Language-Action (VLA) model using trajectories collected from NavGSim and assess its performance in both simulated and real-world environments. Our results demonstrate that NavGSim significantly enhances the VLA model's scene understanding, enabling the policy to handle diverse navigation queries effectively.",
+      "categories": [
+        "cs.RO"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2603.15186v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2603.15186v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.15186v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.15186v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2603.15157": {
+      "title": "ANNA: a toolbox for Newtonian Noise Analysis",
+      "authors": [
+        "Pieter Reumers",
+        "Xhorxha Kucia",
+        "Stijn François",
+        "Geert Degrande"
+      ],
+      "published": "2026-03-16T11:52:01+00:00",
+      "updated": "2026-03-16T11:52:01+00:00",
+      "summary": "The Einstein Telescope (ET) is a third-generation underground gravitational wave observatory designed to achieve an unprecedented sensitivity down to 3 Hz. Waves propagating in the soil due to anthropogenic or natural vibration sources generate density fluctuations which cause gravitational attraction, resulting in motion of the mirrors of the laser interferometer known as Newtonian noise. The latter is computed by integrating density fluctuations due to seismic wave fields over the soil domain surrounding the test mass.\n  ANNA Newtonian Noise Analysis is a toolbox that computes Newtonian Noise from a seismic wave field defined on a finite element mesh, using Gaussian quadrature. 3D finite element meshes composed of linear and quadratic tetrahedral (4-node and 10-node) and brick (8-node and 20-node) elements are supported. The user computes (or interpolates) a seismic wave field on a finite element mesh and the toolbox computes the total Newtonian noise, as well as the bulk and surface contributions. ANNA runs in the MATLAB programming and numeric computing platform and is compatible with the open-source GNU Octave Scientific Programming Language; a Python version is also available.\n  The toolbox is verified for plane P- and S-waves propagating in an elastic homogeneous full space with a mirror suspended in a spherical cavity, assuming that the wavelength is much larger than the radius of the cavity, so that wave scattering can be ignored. Excellent agreement with analytical solutions is obtained. Similar good agreement is reported for the Newtonian noise on a test mass suspended at a finite distance above the free surface of a homogeneous elastic halfspace in which a Rayleigh wave propagates.\n  The proposed finite element framework provides a physically consistent and computationally efficient approach for computing gravitational-seismic coupling in heterogeneous media.",
+      "categories": [
+        "physics.app-ph",
+        "astro-ph.IM",
+        "physics.comp-ph"
+      ],
+      "primary_category": "physics.app-ph",
+      "pdf_url": "https://arxiv.org/pdf/2603.15157v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Preprint submitted to the Journal of Computational Physics",
+      "entry_id": "http://arxiv.org/abs/2603.15157v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.15157v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.15157v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2603.14578": {
+      "title": "Power-Law Spectrum of the Random Feature Model",
+      "authors": [
+        "Elliot Paquette",
+        "Ke Liang Xiao",
+        "Yizhe Zhu"
+      ],
+      "published": "2026-03-15T19:54:34+00:00",
+      "updated": "2026-03-15T19:54:34+00:00",
+      "summary": "Scaling laws for neural networks, in which the loss decays as a power-law in the number of parameters, data, and compute, depend fundamentally on the spectral structure of the data covariance, with power-law eigenvalue decay appearing ubiquitously in vision and language tasks. A central question is whether this spectral structure is preserved or destroyed when data passes through the basic building block of a neural network: a random linear projection followed by a nonlinear activation. We study this question for the random feature model: given data $x \\sim N(0,H)\\in \\mathbb{R}^v$ where $H$ has $α$-power-law spectrum ($λ_j(H ) \\asymp j^{-α}$, $α> 1$), a Gaussian sketch matrix $W \\in \\mathbb{R}^{v\\times d}$, and an entrywise monomial $f(y) = y^{p}$, we characterize the eigenvalues of the population random-feature covariance $\\mathbb{E}_{x }[\\frac{1}{d}f(W^\\top x )^{\\otimes 2}]$. We prove matching upper and lower bounds: for all $1 \\leq j \\leq c_1 d \\log^{-(p+1)}(d)$, the $j$-th eigenvalue is of order $\\left(\\log^{p-1}(j+1)/j\\right)^α$. For $ c_1 d \\log^{-(p+1)}(d)\\leq j\\leq d$, the $j$-th eigenvalue is of order $j^{-α}$ up to a polylog factor. That is, the power-law exponent $α$ is inherited exactly from the input covariance, modified only by a logarithmic correction that depends on the monomial degree $p$. The proof combines a dyadic head-tail decomposition with Wick chaos expansions for higher-order monomials and random matrix concentration inequalities.",
+      "categories": [
+        "stat.ML",
+        "cs.LG",
+        "math.PR"
+      ],
+      "primary_category": "stat.ML",
+      "pdf_url": "https://arxiv.org/pdf/2603.14578v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2603.14578v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.14578v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.14578v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2603.14316": {
+      "title": "Direct Object-Level Reconstruction via Probabilistic Gaussian Splatting",
+      "authors": [
+        "Shuai Guo",
+        "Ao Guo",
+        "Junchao Zhao",
+        "Qi Chen",
+        "Yuxiang Qi",
+        "Zechuan Li",
+        "Dong Chen",
+        "Tianjia Shao",
+        "Mingliang Xu"
+      ],
+      "published": "2026-03-15T10:17:14+00:00",
+      "updated": "2026-03-15T10:17:14+00:00",
+      "summary": "Object-level 3D reconstruction play important roles across domains such as cultural heritage digitization, industrial manufacturing, and virtual reality. However, existing Gaussian Splatting-based approaches generally rely on full-scene reconstruction, in which substantial redundant background information is introduced, leading to increased computational and storage overhead. To address this limitation, we propose an efficient single-object 3D reconstruction method based on 2D Gaussian Splatting. By directly integrating foreground-background probability cues into Gaussian primitives and dynamically pruning low-probability Gaussians during training, the proposed method fundamentally focuses on an object of interest and improves the memory and computational efficiency. Our pipeline leverages probability masks generated by YOLO and SAM to supervise probabilistic Gaussian attributes, replacing binary masks with continuous probability values to mitigate boundary ambiguity. Additionally, we propose a dual-stage filtering strategy for training's startup to suppress background Gaussians. And, during training, rendered probability masks are conversely employed to refine supervision and enhance boundary consistency across views. Experiments conducted on the MIP-360, T&T, and NVOS datasets demonstrate that our method exhibits strong self-correction capability in the presence of mask errors and achieves reconstruction quality comparable to standard 3DGS approaches, while requiring only approximately 1/10 of their Gaussian amount. These results validate the efficiency and robustness of our method for single-object reconstruction and highlight its potential for applications requiring both high fidelity and computational efficiency.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.14316v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2603.14316v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.14316v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.14316v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2603.14309": {
+      "title": "In-Field 3D Wheat Head Instance Segmentation From TLS Point Clouds Using Deep Learning Without Manual Labels",
+      "authors": [
+        "Tomislav Medic",
+        "Liangliang Nan"
+      ],
+      "published": "2026-03-15T09:58:20+00:00",
+      "updated": "2026-03-15T09:58:20+00:00",
+      "summary": "3D instance segmentation for laser scanning (LiDAR) point clouds remains a challenge in many remote sensing-related domains. Successful solutions typically rely on supervised deep learning and manual annotations, and consequently focus on objects that can be well delineated through visual inspection and manual labeling of point clouds. However, for tasks with more complex and cluttered scenes, such as in-field plant phenotyping in agriculture, such approaches are often infeasible. In this study, we tackle the task of in-field wheat head instance segmentation directly from terrestrial laser scanning (TLS) point clouds. To address the problem and circumvent the need for manual annotations, we propose a novel two-stage pipeline. To obtain the initial 3D instance proposals, the first stage uses 3D-to-2D multi-view projections, the Grounded SAM pipeline for zero-shot 2D object-centric segmentation, and multi-view label fusion. The second stage uses these initial proposals as noisy pseudo-labels to train a supervised 3D panoptic-style segmentation neural network. Our results demonstrate the feasibility of the proposed approach and show performance improvementsrelative to Wheat3DGS, a recent alternative solution for in-field wheat head instance segmentation without manual 3D annotations based on multi-view RGB images and 3D Gaussian Splatting, showcasing TLS as a competitive sensing alternative. Moreover, the results show that both stages of the proposed pipeline can deliver usable 3D instance segmentation without manual annotations, indicating promising, low-effort transferability to other comparable TLS-based point cloud segmentation tasks.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.14309v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "to be published in ISPRS Annals of Photogrammetry and Remote Sensing at XXV ISPRS Congress, Toronto, Canada, July 2026, 8 pages, 5 figures",
+      "entry_id": "http://arxiv.org/abs/2603.14309v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.14309v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.14309v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2603.14301": {
+      "title": "4D Synchronized Fields: Motion-Language Gaussian Splatting for Temporal Scene Understanding",
+      "authors": [
+        "Mohamed Rayan Barhdadi",
+        "Samir Abdaljalil",
+        "Rasul Khanbayov",
+        "Erchin Serpedin",
+        "Hasan Kurban"
+      ],
+      "published": "2026-03-15T09:32:58+00:00",
+      "updated": "2026-03-15T09:32:58+00:00",
+      "summary": "Current 4D representations decouple geometry, motion, and semantics: reconstruction methods discard interpretable motion structure; language-grounded methods attach semantics after motion is learned, blind to how objects move; and motion-aware methods encode dynamics as opaque per-point residuals without object-level organization. We propose 4D Synchronized Fields, a 4D Gaussian representation that learns object-factored motion in-loop during reconstruction and synchronizes language to the resulting kinematics through a per-object conditioned field. Each Gaussian trajectory is decomposed into shared object motion plus an implicit residual, and a kinematic-conditioned ridge map predicts temporal semantic variation, yielding a single representation in which reconstruction, motion, and semantics are structurally coupled and enabling open-vocabulary temporal queries that retrieve both objects and moments. On HyperNeRF, 4D Synchronized Fields achieves 28.52 dB mean PSNR, the highest among all language-grounded and motion-aware baselines, within 1.5 dB of reconstruction-only methods. On targeted temporal-state retrieval, the kinematic-conditioned field attains 0.884 mean accuracy, 0.815 mean vIoU, and 0.733 mean tIoU, surpassing 4D LangSplat (0.620, 0.433, and 0.439 respectively) and LangSplat (0.415, 0.304, and 0.262). Ablation confirms that kinematic conditioning is the primary driver, accounting for +0.45 tIoU over a static-embedding-only baseline. 4D Synchronized Fields is the only method that jointly exposes interpretable motion primitives and temporally grounded language fields from a single trained representation. Code will be released.",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.GR"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.14301v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "34 pages, 3 figures, 7 tables. Includes supplementary material. Preprint",
+      "entry_id": "http://arxiv.org/abs/2603.14301v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.14301v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.14301v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2603.14232": {
+      "title": "S2GS: Streaming Semantic Gaussian Splatting for Online Scene Understanding and Reconstruction",
+      "authors": [
+        "Renhe Zhang",
+        "Yuyang Tan",
+        "Jingyu Gong",
+        "Zhizhong Zhang",
+        "Lizhuang Ma",
+        "Yuan Xie",
+        "Xin Tan"
+      ],
+      "published": "2026-03-15T05:48:55+00:00",
+      "updated": "2026-03-15T05:48:55+00:00",
+      "summary": "Existing offline feed-forward methods for joint scene understanding and reconstruction on long image streams often repeatedly perform global computation over an ever-growing set of past observations, causing runtime and GPU memory to increase rapidly with sequence length and limiting scalability. We propose Streaming Semantic Gaussian Splatting (S2GS), a strictly causal, incremental 3D Gaussian semantic field framework: it does not leverage future frames and continuously updates scene geometry, appearance, and instance-level semantics without reprocessing historical frames, enabling scalable online joint reconstruction and understanding. S2GS adopts a geometry-semantic decoupled dual-backbone design: the geometry branch performs causal modeling to drive incremental Gaussian updates, while the semantic branch leverages a 2D foundation vision model and a query-driven decoder to predict segmentation masks and identity embeddings, further stabilized by query-level contrastive alignment and lightweight online association with an instance memory. Experiments show that S2GS matches or outperforms strong offline baselines on joint reconstruction-and-understanding benchmarks, while significantly improving long-horizon scalability: it processes 1,000+ frames with much slower growth in runtime and GPU memory, whereas offline global-processing baselines typically run out of memory at around 80 frames under the same setting.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.14232v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "10 pages, 7 figures",
+      "entry_id": "http://arxiv.org/abs/2603.14232v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.14232v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.14232v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2603.14076": {
+      "title": "SGR-OCC: Evolving Monocular Priors for Embodied 3D Occupancy Prediction via Soft-Gating Lifting and Semantic-Adaptive Geometric Refinement",
+      "authors": [
+        "Yiran Guo",
+        "Simone Mentasti",
+        "Xiaofeng Jin",
+        "Matteo Frosi",
+        "Matteo Matteucci"
+      ],
+      "published": "2026-03-14T18:45:03+00:00",
+      "updated": "2026-03-14T18:45:03+00:00",
+      "summary": "3D semantic occupancy prediction is a cornerstone for embodied AI, enabling agents to perceive dense scene geometry and semantics incrementally from monocular video streams. However, current online frameworks face two critical bottlenecks: the inherent depth ambiguity of monocular estimation that causes \"feature bleeding\" at object boundaries , and the \"cold start\" instability where uninitialized temporal fusion layers distort high-quality spatial priors during early training stages. In this paper, we propose SGR-OCC (Soft-Gating and Ray-refinement Occupancy), a unified framework driven by the philosophy of \"Inheritance and Evolution\". To perfectly inherit monocular spatial expertise, we introduce a Soft-Gating Feature Lifter that explicitly models depth uncertainty via a Gaussian gate to probabilistically suppress background noise. Furthermore, a Dynamic Ray-Constrained Anchor Refinement module simplifies complex 3D displacement searches into efficient 1D depth corrections along camera rays, ensuring sub-voxel adherence to physical surfaces. To ensure stable evolution toward temporal consistency, we employ a Two-Phase Progressive Training Strategy equipped with identity-initialized fusion, effectively resolving the cold start problem and shielding spatial priors from noisy early gradients. Extensive experiments on the EmbodiedOcc-ScanNet and Occ-ScanNet benchmarks demonstrate that SGR-OCC achieves state-of-the-art performance. In local prediction tasks, SGR-OCC achieves a completion IoU of 58.55$\\%$ and a semantic mIoU of 49.89$\\%$, surpassing the previous best method, EmbodiedOcc++, by 3.65$\\%$ and 3.69$\\%$ respectively. In challenging embodied prediction tasks, our model reaches 55.72$\\%$ SC-IoU and 46.22$\\%$ mIoU. Qualitative results further confirm our model's superior capability in preserving structural integrity and boundary sharpness in complex indoor environments.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.14076v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "mian paper: 20 pages, 6 figures; appendix: 15 pages, 5 figures",
+      "entry_id": "http://arxiv.org/abs/2603.14076v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.14076v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.14076v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2603.14073": {
+      "title": "MotionCFG: Boosting Motion Dynamics via Stochastic Concept Perturbation",
+      "authors": [
+        "Byungjun Kim",
+        "Soobin Um",
+        "Jong Chul Ye"
+      ],
+      "published": "2026-03-14T18:39:37+00:00",
+      "updated": "2026-03-14T18:39:37+00:00",
+      "summary": "Despite recent advances in Text-to-Video (T2V) synthesis, generating high-fidelity and dynamic motion remains a significant challenge. Existing methods primarily rely on Classifier-Free Guidance (CFG), often with explicit negative prompts (e.g. \"static\", \"blurry\"), to suppress undesired artifacts. However, such explicit negations frequently introduce unintended semantic bias and distort object integrity; a phenomenon we define as Content-Motion Drift. To address this, we propose MotionCFG, a framework that enhances motion dynamics by contrasting a target concept with its noise-perturbed counterparts. Specifically, by injecting Gaussian noise into the concept embeddings, MotionCFG creates localized negative anchors that encapsulate a broad complementary space of sub-optimal motion variations. Unlike explicit negations, this approach facilitates implicit hard negative mining without shifting the global semantic identity, allowing for a focused refinement of temporal details. Combined with a piecewise guidance schedule that confines intervention to the early denoising steps, MotionCFG consistently improves motion dynamics across state-of-the-art T2V frameworks with negligible computational overhead and minimal compromise in visual quality. Additionally, we demonstrate that this noise-induced contrastive mechanism is effective not only for sharpening motion trajectories but also for steering complex, non-linear concepts such as precise object numerosity, which are typically difficult to modulate via standard text-based guidance.",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.14073v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2603.14073v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.14073v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.14073v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2603.13961": {
+      "title": "USIS-PGM: Photometric Gaussian Mixtures for Underwater Salient Instance Segmentation",
+      "authors": [
+        "Lin Hong",
+        "Xiangtong Yao",
+        "Mürüvvet Bozkurt",
+        "Xin Wang",
+        "Fumin Zhang"
+      ],
+      "published": "2026-03-14T14:16:32+00:00",
+      "updated": "2026-03-14T14:16:32+00:00",
+      "summary": "Underwater salient instance segmentation (USIS) is crucial for marine robotic systems, as it enables both underwater salient object detection and instance-level mask prediction for visual scene understanding. Compared with its terrestrial counterpart, USIS is more challenging due to the underwater image degradation. To address this issue, this paper proposes USIS-PGM, a single-stage framework for USIS. Specifically, the encoder enhances boundary cues through a frequency-aware module and performs content-adaptive feature reweighting via a dynamic weighting module. The decoder incorporates a Transformer-based instance activation module to better distinguish salient instances. In addition, USIS-PGM employs multi-scale Gaussian heatmaps generated from ground-truth masks through Photometric Gaussian Mixture (PGM) to supervise intermediate decoder features, thereby improving salient instance localization and producing more structurally coherent mask predictions. Experimental results demonstrate the superiority and practical applicability of the proposed USIS-PGM model.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.13961v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2603.13961v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.13961v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.13961v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2603.13910": {
+      "title": "Scene Generation at Absolute Scale: Utilizing Semantic and Geometric Guidance From Text for Accurate and Interpretable 3D Indoor Scene Generation",
+      "authors": [
+        "Stefan Ainetter",
+        "Thomas Deixelberger",
+        "Edoardo A. Dominici",
+        "Philipp Drescher",
+        "Konstantinos Vardis",
+        "Markus Steinberger"
+      ],
+      "published": "2026-03-14T11:46:27+00:00",
+      "updated": "2026-03-14T11:46:27+00:00",
+      "summary": "We present GuidedSceneGen, a text-to-3D generation framework that produces metrically accurate, globally consistent, and semantically interpretable indoor scenes. Unlike prior text-driven methods that often suffer from geometric drift or scale ambiguity, our approach maintains an absolute world coordinate frame throughout the entire generation process. Starting from a textual scene description, we predict a global 3D layout encoding both semantic and geometric structure, which serves as a guiding proxy for downstream stages. A semantics- and depth-conditioned panoramic diffusion model then synthesizes 360° imagery aligned with the global layout, substantially improving spatial coherence. To explore unobserved regions, we employ a video diffusion model guided by optimized camera trajectories that balances coverage and collision avoidance, achieving up to 10x faster sampling compared to exhaustive path exploration. The generated views are fused using 3D Gaussian Splatting, yielding a consistent and fully navigable 3D scene in absolute scale. GuidedSceneGen enables accurate transfer of object poses and semantic labels from layout to reconstruction, and supports progressive scene expansion without re-alignment. Quantitative results and a user study demonstrate greater 3D consistency and layout plausibility compared to recent panoramic text-to-3D baselines.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.13910v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2603.13910v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.13910v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.13910v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2603.13728": {
+      "title": "Bodhi VLM: Privacy-Alignment Modeling for Hierarchical Visual Representations in Vision Backbones and VLM Encoders via Bottom-Up and Top-Down Feature Search",
+      "authors": [
+        "Bo Ma",
+        "Jinsong Wu",
+        "Wei Qi Yan"
+      ],
+      "published": "2026-03-14T03:11:31+00:00",
+      "updated": "2026-03-14T03:11:31+00:00",
+      "summary": "Learning systems that preserve privacy often inject noise into hierarchical visual representations; a central challenge is to \\emph{model} how such perturbations align with a declared privacy budget in a way that is interpretable and applicable across vision backbones and vision--language models (VLMs). We propose \\emph{Bodhi VLM}, a \\emph{privacy-alignment modeling} framework for \\emph{hierarchical neural representations}: it (1) links sensitive concepts to layer-wise grouping via NCP and MDAV-based clustering; (2) locates sensitive feature regions using bottom-up (BUA) and top-down (TDA) strategies over multi-scale representations (e.g., feature pyramids or vision-encoder layers); and (3) uses an Expectation-Maximization Privacy Assessment (EMPA) module to produce an interpretable \\emph{budget-alignment signal} by comparing the fitted sensitive-feature distribution to an evaluator-specified reference (e.g., Laplace or Gaussian with scale $c/ε$). The output is reference-relative and is \\emph{not} a formal differential-privacy estimator. We formalize BUA/TDA over hierarchical feature structures and validate the framework on object detectors (YOLO, PPDPTS, DETR) and on the \\emph{visual encoders} of VLMs (CLIP, LLaVA, BLIP). BUA and TDA yield comparable deviation trends; EMPA provides a stable alignment signal under the reported setups. We compare with generic discrepancy baselines (Chi-square, K-L, MMD) and with task-relevant baselines (MomentReg, NoiseMLE, Wass-1). Results are reported as mean$\\pm$std over multiple seeds with confidence intervals in the supplementary materials. This work contributes a learnable, interpretable modeling perspective for privacy-aligned hierarchical representations rather than a post hoc audit only. Source code: \\href{https://github.com/mabo1215/bodhi-vlm.git}{Bodhi-VLM GitHub repository}",
+      "categories": [
+        "cs.CV",
+        "cs.CR"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.13728v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2603.13728v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.13728v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.13728v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-17",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
     "2603.12749": {
       "title": "SLICE: Semantic Latent Injection via Compartmentalized Embedding for Image Watermarking",
       "authors": [
@@ -43,6 +538,49 @@
       "venue_info": {
         "venue_source": "Semantic Scholar",
         "queried_at": "2026-03-16",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2603.13415": {
+      "title": "Distance-aware Soft Prompt Learning for Multimodal Valence-Arousal Estimation",
+      "authors": [
+        "Byeongjin Jung",
+        "Chanyeong Park",
+        "Sejoon Lim"
+      ],
+      "published": "2026-03-12T15:33:17+00:00",
+      "updated": "2026-03-12T15:33:17+00:00",
+      "summary": "Valence-arousal (VA) estimation is crucial for capturing the nuanced nature of human emotions in naturalistic environments. While pre-trained Vision-Language models like CLIP have shown remarkable semantic alignment capabilities, their application in continuous regression tasks is often limited by the discrete nature of text prompts. In this paper, we propose a novel multimodal framework for VA estimation that introduces Distance-aware Soft Prompt Learning to bridge the gap between semantic space and continuous dimensions. Specifically, we partition the VA space into a 3X3 grid, defining nine emotional regions, each associated with distinct textual descriptions. Rather than a hard categorization, we employ a Gaussian kernel to compute soft labels based on the Euclidean distance between the ground truth coordinates and the region centers, allowing the model to learn fine-grained emotional transitions. For multimodal integration, our architecture utilizes a CLIP image encoder and an Audio Spectrogram Transformer (AST) to extract robust spatial and acoustic features. These features are temporally modeled via Gated Recurrent Units (GRUs) and integrated through a hierarchical fusion scheme that sequentially combines cross-modal attention for alignment and gated fusion for adaptive refinement. Experimental results on the Aff-Wild2 dataset demonstrate that our proposed semantic-guided approach significantly enhances the accuracy of VA estimation, achieving competitive performance in unconstrained ``in-the-wild'' scenarios.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.13415v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "8pages",
+      "entry_id": "http://arxiv.org/abs/2603.13415v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.13415v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.13415v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-17",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -100206,6 +100744,324 @@
     }
   },
   "Depth Estimation": {
+    "2603.15403": {
+      "title": "Pointing-Based Object Recognition",
+      "authors": [
+        "Lukáš Hajdúch",
+        "Viktor Kocur"
+      ],
+      "published": "2026-03-16T15:16:53+00:00",
+      "updated": "2026-03-16T15:16:53+00:00",
+      "summary": "This paper presents a comprehensive pipeline for recognizing objects targeted by human pointing gestures using RGB images. As human-robot interaction moves toward more intuitive interfaces, the ability to identify targets of non-verbal communication becomes crucial. Our proposed system integrates several existing state-of-the-art methods, including object detection, body pose estimation, monocular depth estimation, and vision-language models. We evaluate the impact of 3D spatial information reconstructed from a single image and the utility of image captioning models in correcting classification errors. Experimental results on a custom dataset show that incorporating depth information significantly improves target identification, especially in complex scenes with overlapping objects. The modularity of the approach allows for deployment in environments where specialized depth sensors are unavailable.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.15403v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Submitted to InnovAIte conference",
+      "entry_id": "http://arxiv.org/abs/2603.15403v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.15403v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.15403v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2603.15374": {
+      "title": "Spectral Rectification for Parameter-Efficient Adaptation of Foundation Models in Colonoscopy Depth Estimation",
+      "authors": [
+        "Xiaoxian Zhang",
+        "Minghai Shi",
+        "Lei Li"
+      ],
+      "published": "2026-03-16T14:50:22+00:00",
+      "updated": "2026-03-16T14:50:22+00:00",
+      "summary": "Accurate monocular depth estimation is critical in colonoscopy for lesion localization and navigation. Foundation models trained on natural images fail to generalize directly to colonoscopy. We identify the core issue not as a semantic gap, but as a statistical shift in the frequency domain: colonoscopy images lack the strong high-frequency edge and texture gradients that these models rely on for geometric reasoning. To address this, we propose SpecDepth, a parameter-efficient adaptation framework that preserves the robust geometric representations of the pre-trained models while adapting to the colonoscopy domain. Its key innovation is an adaptive spectral rectification module, which uses a learnable wavelet decomposition to explicitly model and amplify the attenuated high-frequency components in feature maps. Different from conventional fine-tuning that risks distorting high-level semantic features, this targeted, low-level adjustment realigns the input signal with the original inductive bias of the foundational model. On the public C3VD and SimCol3D datasets, SpecDepth achieved state-of-the-art performance with an absolute relative error of 0.022 and 0.027, respectively. Our work demonstrates that directly addressing spectral mismatches is a highly effective strategy for adapting vision foundation models to specialized medical imaging tasks. The code will be released publicly after the manuscript is accepted for publication.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.15374v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "15 pages",
+      "entry_id": "http://arxiv.org/abs/2603.15374v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.15374v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.15374v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2603.15019": {
+      "title": "Reference-Free Omnidirectional Stereo Matching via Multi-View Consistency Maximization",
+      "authors": [
+        "Lehuai Xu",
+        "Weiming Zhang",
+        "Yang Li",
+        "Sidan Du",
+        "Lin Wang"
+      ],
+      "published": "2026-03-16T09:23:23+00:00",
+      "updated": "2026-03-16T09:23:23+00:00",
+      "summary": "Reliable omnidirectional depth estimation from multi-fisheye stereo matching is pivotal to many applications, such as embodied robotics. Existing approaches either rely on spherical sweeping with heuristic fusion strategies to build the cost columns or perform reference-centric stereo matching based on rectified views. However, these methods fail to explicitly exploit geometric relationships between multiple views, rendering them less capable of capturing the global dependencies, visibility, or scale changes. In this paper, we shift to a new perspective and propose a novel reference-free framework, dubbed FreeOmniMVS, via multi-view consistency maximization. The highlight of FreeOmniMVS is that it can aggregate pair-wise correlations into a robust, visibility-aware, and global consensus. As such, it is tolerant to occlusions, partial overlaps, and varying baselines. Specifically, to achieve global coherence, we introduce a novel View-pair Correlation Transformer (VCT) that explicitly models pairwise correlation volumes across all camera view pairs, allowing us to drop unreliable pairs caused by occlusion or out-of-focus observations. To realize scalable and visibility-aware consensus, we propose a lightweight attention mechanism that adaptively fuses the correlation vectors, eliminating the need for a designated reference view and allowing all cameras to contribute equally to the stereo matching process. Extensive experiments on diverse benchmark datasets demonstrate the superiority of our method for globally consistent, visibility-aware, and scale-aware omnidirectional depth estimation.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.15019v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "8 pages, 5 figures",
+      "entry_id": "http://arxiv.org/abs/2603.15019v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.15019v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.15019v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2603.14998": {
+      "title": "Thermal Image Refinement with Depth Estimation using Recurrent Networks for Monocular ORB-SLAM3",
+      "authors": [
+        "Hürkan Şahin",
+        "Huy Xuan Pham",
+        "Van Huyen Dang",
+        "Alper Yegenoglu",
+        "Erdal Kayacan"
+      ],
+      "published": "2026-03-16T09:02:57+00:00",
+      "updated": "2026-03-16T09:02:57+00:00",
+      "summary": "Autonomous navigation in GPS-denied and visually degraded environments remains challenging for unmanned aerial vehicles (UAVs). To this end, we investigate the use of a monocular thermal camera as a standalone sensor on a UAV platform for real-time depth estimation and simultaneous localization and mapping (SLAM). To extract depth information from thermal images, we propose a novel pipeline employing a lightweight supervised network with recurrent blocks (RBs) integrated to capture temporal dependencies, enabling more robust predictions. The network combines lightweight convolutional backbones with a thermal refinement network (T-RefNet) to refine raw thermal inputs and enhance feature visibility. The refined thermal images and predicted depth maps are integrated into ORB-SLAM3, enabling thermal-only localization. Unlike previous methods, the network is trained on a custom non-radiometric dataset, obviating the need for high-cost radiometric thermal cameras. Experimental results on datasets and UAV flights demonstrate competitive depth accuracy and robust SLAM performance under low-light conditions. On the radiometric VIVID++ (indoor-dark) dataset, our method achieves an absolute relative error of approximately 0.06, compared to baselines exceeding 0.11. In our non-radiometric indoor set, baseline errors remain above 0.24, whereas our approach remains below 0.10. Thermal-only ORB-SLAM3 maintains a mean trajectory error under 0.4 m.",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.14998v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "8 pages, 8 figures, 2 table",
+      "entry_id": "http://arxiv.org/abs/2603.14998v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.14998v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.14998v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2603.14702": {
+      "title": "Fractal Autoregressive Depth Estimation with Continuous Token Diffusion",
+      "authors": [
+        "Jinchang Zhang",
+        "Xinrou Kang",
+        "Guoyu Lu"
+      ],
+      "published": "2026-03-16T01:19:42+00:00",
+      "updated": "2026-03-16T01:19:42+00:00",
+      "summary": "Monocular depth estimation can benefit from autoregressive (AR) generation, but direct AR modeling is hindered by the modality gap between RGB and depth, inefficient pixel-wise generation, and instability in continuous depth prediction. We propose a Fractal Visual Autoregressive Diffusion framework that reformulates depth estimation as a coarse-to-fine, next-scale autoregressive generation process. A VCFR module fuses multi-scale image features with current depth predictions to improve cross-modal conditioning, while a conditional denoising diffusion loss models depth distributions directly in continuous space and mitigates errors caused by discrete quantization. To improve computational efficiency, we organize the scale-wise generators into a fractal recursive architecture, reusing a base visual AR unit in a self-similar hierarchy. We further introduce an uncertainty-aware robust consensus aggregation scheme for multi-sample inference to improve fusion stability and provide a practical pixel-wise reliability estimate. Experiments on standard benchmarks demonstrate strong performance and validate the effectiveness of the proposed design.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.14702v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2603.14702v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.14702v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.14702v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2603.14684": {
+      "title": "E2EGS: Event-to-Edge Gaussian Splatting for Pose-Free 3D Reconstruction",
+      "authors": [
+        "Yunsoo Kim",
+        "Changki Sung",
+        "Dasol Hong",
+        "Hyun Myung"
+      ],
+      "published": "2026-03-16T00:40:28+00:00",
+      "updated": "2026-03-16T00:40:28+00:00",
+      "summary": "The emergence of neural radiance fields (NeRF) and 3D Gaussian splatting (3DGS) has advanced novel view synthesis (NVS). These methods, however, require high-quality RGB inputs and accurate corresponding poses, limiting robustness under real-world conditions such as fast camera motion or adverse lighting. Event cameras, which capture brightness changes at each pixel with high temporal resolution and wide dynamic range, enable precise sensing of dynamic scenes and offer a promising solution. However, existing event-based NVS methods either assume known poses or rely on depth estimation models that are bounded by their initial observations, failing to generalize as the camera traverses previously unseen regions. We present E2EGS, a pose-free framework operating solely on event streams. Our key insight is that edge information provides rich structural cues essential for accurate trajectory estimation and high-quality NVS. To extract edges from noisy event streams, we exploit the distinct spatio-temporal characteristics of edges and non-edge regions. The event camera's movement induces consistent events along edges, while non-edge regions produce sparse noise. We leverage this through a patch-based temporal coherence analysis that measures local variance to extract edges while robustly suppressing noise. The extracted edges guide structure-aware Gaussian initialization and enable edge-weighted losses throughout initialization, tracking, and bundle adjustment. Extensive experiments on both synthetic and real datasets demonstrate that E2EGS achieves superior reconstruction quality and trajectory accuracy, establishing a fully pose-free paradigm for event-based 3D reconstruction.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.14684v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "10 pages, 6 figures, accepted to CVPR 2026",
+      "entry_id": "http://arxiv.org/abs/2603.14684v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.14684v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.14684v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2603.14482": {
+      "title": "V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning",
+      "authors": [
+        "Lorenzo Mur-Labadia",
+        "Matthew Muckley",
+        "Amir Bar",
+        "Mido Assran",
+        "Koustuv Sinha",
+        "Mike Rabbat",
+        "Yann LeCun",
+        "Nicolas Ballas",
+        "Adrien Bardes"
+      ],
+      "published": "2026-03-15T17:02:40+00:00",
+      "updated": "2026-03-15T17:02:40+00:00",
+      "summary": "We present V-JEPA 2.1, a family of self-supervised models that learn dense, high-quality visual representations for both images and videos while retaining strong global scene understanding. The approach combines four key components. First, a dense predictive loss uses a masking-based objective in which both visible and masked tokens contribute to the training signal, encouraging explicit spatial and temporal grounding. Second, deep self-supervision applies the self-supervised objective hierarchically across multiple intermediate encoder layers to improve representation quality. Third, multi-modal tokenizers enable unified training across images and videos. Finally, the model benefits from effective scaling in both model capacity and training data. Together, these design choices produce representations that are spatially structured, semantically coherent, and temporally consistent.\n  Empirically, V-JEPA 2.1 achieves state-of-the-art performance on several challenging benchmarks, including 7.71 mAP on Ego4D for short-term object-interaction anticipation and 40.8 Recall@5 on EPIC-KITCHENS for high-level action anticipation, as well as a 20-point improvement in real-robot grasping success rate over V-JEPA-2 AC. The model also demonstrates strong performance in robotic navigation (5.687 ATE on TartanDrive), depth estimation (0.307 RMSE on NYUv2 with a linear probe), and global recognition (77.7 on Something-Something-V2). These results show that V-JEPA 2.1 significantly advances the state of the art in dense visual understanding and world modeling.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.14482v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2603.14482v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.14482v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.14482v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2603.13803": {
+      "title": "ALTIS: Automated Loss Triage and Impact Scoring from Sentinel-1 SAR for Property-Level Flood Damage Assessment",
+      "authors": [
+        "Amogh Vinaykumar",
+        "Prem Kamasani"
+      ],
+      "published": "2026-03-14T07:22:43+00:00",
+      "updated": "2026-03-14T07:22:43+00:00",
+      "summary": "Floods are among the costliest natural catastrophes globally, yet the property and casualty insurance industry's post-event response remains heavily reliant on manual field inspection: slow, expensive, and geographically constrained. Satellite Synthetic Aperture Radar (SAR) offers cloud-penetrating, all-weather imaging uniquely suited to rapid post-flood assessment, but existing research evaluates SAR flood detection against academic benchmarks such as IoU and F1-score that do not capture insurance-workflow requirements. We present ALTIS: a five-stage pipeline transforming raw Sentinel-1 GRD and SLC imagery into property-level impact scores within 24-48 hours of flood peak. Unlike prior approaches producing pixel-level maps or binary outputs, ALTIS delivers a ranked, confidence-scored triage list consumable by claims platforms, integrating (i) multi-temporal SAR change detection using dual-polarization VV/VH intensity and InSAR coherence, (ii) physics-informed depth estimation fusing flood extent with high-resolution DEMs, (iii) property-level zonal statistics from parcel footprints, (iv) depth-damage calibration against NFIP claims, and (v) confidence-scored triage ranking. We formally define Insurance-Grade Flood Triage (IGFT) and introduce the Inspection Reduction Rate (IRR) and Triage Efficiency Score (TES). Using Hurricane Harvey (2017) across Harris County, Texas, we present preliminary analysis grounded in validated sub-components suggesting ALTIS is designed to achieve an IRR of approximately 0.52 at 90% recall of high-severity claims, potentially eliminating over half of unnecessary dispatches. By blending SAR flood intelligence with the realities of claims management, ALTIS establishes a methodological baseline for translating earth observation research into measurable insurance outcomes.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.13803v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "27 pages, 9 figures. Preliminary results; full end-to-end validation ongoing",
+      "entry_id": "http://arxiv.org/abs/2603.13803v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.13803v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.13803v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2603.15304": {
+      "title": "UE5-Forest: A Photorealistic Synthetic Stereo Dataset for UAV Forestry Depth Estimation",
+      "authors": [
+        "Yida Lin",
+        "Bing Xue",
+        "Mengjie Zhang",
+        "Sam Schofield",
+        "Richard Green"
+      ],
+      "published": "2026-03-13T04:27:24+00:00",
+      "updated": "2026-03-13T04:27:24+00:00",
+      "summary": "Dense ground-truth disparity maps are practically unobtainable in forestry environments, where thin overlapping branches and complex canopy geometry defeat conventional depth sensors -- a critical bottleneck for training supervised stereo matching networks for autonomous UAV-based pruning. We present UE5-Forest, a photorealistic synthetic stereo dataset built entirely in Unreal Engine 5 (UE5). One hundred and fifteen photogrammetry-scanned trees from the Quixel Megascans library are placed in virtual scenes and captured by a simulated stereo rig whose intrinsics -- 63 mm baseline, 2.8 mm focal length, 3.84 mm sensor width -- replicate the ZED Mini camera mounted on our drone. Orbiting each tree at up to 2 m across three elevation bands (horizontal, +45 degrees, -45 degrees) yields 5,520 rectified 1920 x 1080 stereo pairs with pixel-perfect disparity labels. We provide a statistical characterisation of the dataset -- covering disparity distributions, scene diversity, and visual fidelity -- and a qualitative comparison with real-world Canterbury Tree Branches imagery that confirms the photorealistic quality and geometric plausibility of the rendered data. The dataset will be publicly released to provide the community with a ready-to-use benchmark and training resource for stereo-based forestry depth estimation.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.15304v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2603.15304v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.15304v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.15304v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2603.12250": {
       "title": "DVD: Deterministic Video Depth Estimation with Generative Priors",
       "authors": [
