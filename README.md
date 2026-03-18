@@ -1,4 +1,4 @@
-## Updated at 2026-03-18 08:27:47
+## Updated at 2026-03-18 20:18:33
 
 ## 3DGS Semantic
 
@@ -8,6 +8,10 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-03-17**|**[BUSSARD: Normalizing Flows for Bijective Universal Scene-Specific Anomalous Relationship Detection](https://arxiv.org/abs/2603.16645)**|N/A|CVPR 2026 Main Track|cs.CV|None|Melissa Schween et al.|
+|**2026-03-17**|**[OGScene3D: Incremental Open-Vocabulary 3D Gaussian Scene Graph Mapping for Scene Understanding](https://arxiv.org/abs/2603.16301)**|N/A|None|cs.RO|None|Siting Zhu et al.|
+|**2026-03-17**|**[Exclusivity-Guided Mask Learning for Semi-Supervised Crowd Instance Segmentation and Counting](https://arxiv.org/abs/2603.16241)**|N/A|None|cs.CV|None|Jiyang Huang et al.|
+|**2026-03-16**|**[Feed-forward Gaussian Registration for Head Avatar Creation and Editing](https://arxiv.org/abs/2603.15811)**|N/A|Website: https://malteprinzler.github.io/projects/match ; Video: https://youtu.be/Z3xoXQ648sE|cs.CV|None|Malte Prinzler et al.|
 |**2026-03-16**|**[Interaction-Enabled Hartree Fixed Points in Fermionic Resetting Dynamics](https://arxiv.org/abs/2603.15554)**|N/A|14 pages, 7 figures|quant-ph|None|Jishad Kumar et al.|
 |**2026-03-16**|**[NavGSim: High-Fidelity Gaussian Splatting Simulator for Large-Scale Navigation](https://arxiv.org/abs/2603.15186)**|N/A|None|cs.RO|None|Jiahang Liu et al.|
 |**2026-03-16**|**[ANNA: a toolbox for Newtonian Noise Analysis](https://arxiv.org/abs/2603.15157)**|N/A|Preprint submitted to the Journal of Computational Physics|physics.app-ph|None|Pieter Reumers et al.|
@@ -716,6 +720,12 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-03-17**|**[MessyKitchens: Contact-rich object-level 3D scene reconstruction](https://arxiv.org/abs/2603.16868)**|N/A|None|cs.CV|None|Junaid Ahmed Ansari et al.|
+|**2026-03-17**|**[WildDepth: A Multimodal Dataset for 3D Wildlife Perception and Depth Estimation](https://arxiv.org/abs/2603.16816)**|N/A|None|cs.CV|None|Muhammad Aamir et al.|
+|**2026-03-17**|**[$D^3$-RSMDE: 40$\times$ Faster and High-Fidelity Remote Sensing Monocular Depth Estimation](https://arxiv.org/abs/2603.16362)**|N/A|None|cs.CV|None|Ruizhi Wang et al.|
+|**2026-03-17**|**[Iris: Bringing Real-World Priors into Diffusion Model for Monocular Depth Estimation](https://arxiv.org/abs/2603.16340)**|N/A|Accepted by CVPR2026|cs.CV|None|Xinhao Cai et al.|
+|**2026-03-17**|**[PureCLIP-Depth: Prompt-Free and Decoder-Free Monocular Depth Estimation within CLIP Embedding Space](https://arxiv.org/abs/2603.16238)**|N/A|12 pages, 4 figures|cs.CV|None|Ryutaro Miya et al.|
+|**2026-03-17**|**[Leveling3D: Leveling Up 3D Reconstruction with Feed-Forward 3D Gaussian Splatting and Geometry-Aware Generation](https://arxiv.org/abs/2603.16211)**|N/A|26 pages, 10 figures|cs.CV|None|Yiming Huang et al.|
 |**2026-03-16**|**[Pointing-Based Object Recognition](https://arxiv.org/abs/2603.15403)**|N/A|Submitted to InnovAIte conference|cs.CV|None|Lukáš Hajdúch, Viktor Kocur|
 |**2026-03-16**|**[Spectral Rectification for Parameter-Efficient Adaptation of Foundation Models in Colonoscopy Depth Estimation](https://arxiv.org/abs/2603.15374)**|N/A|15 pages|cs.CV|None|Xiaoxian Zhang et al.|
 |**2026-03-16**|**[Reference-Free Omnidirectional Stereo Matching via Multi-View Consistency Maximization](https://arxiv.org/abs/2603.15019)**|N/A|8 pages, 5 figures|cs.CV|None|Lehuai Xu et al.|
