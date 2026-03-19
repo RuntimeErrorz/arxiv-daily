@@ -1,4 +1,4 @@
-## Updated at 2026-03-19 08:26:20
+## Updated at 2026-03-19 20:13:54
 
 ## 3DGS Semantic
 
@@ -8,6 +8,11 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-03-18**|**[ReLaGS: Relational Language Gaussian Splatting](https://arxiv.org/abs/2603.17605)**|N/A|Accepted at CVPR 2026|cs.CV|None|Yaxu Xie et al.|
+|**2026-03-18**|**[UniSem: Generalizable Semantic 3D Reconstruction from Sparse Unposed Images](https://arxiv.org/abs/2603.17519)**|N/A|None|cs.CV|None|Guibiao Liao et al.|
+|**2026-03-18**|**[VirPro: Visual-referred Probabilistic Prompt Learning for Weakly-Supervised Monocular 3D Detection](https://arxiv.org/abs/2603.17470)**|N/A|Accepted by CVPR 2026 Findings|cs.CV|None|Chupeng Liu et al.|
+|**2026-03-18**|**[Bar-Informed Kinematic-Distance Mapping of Molecular Gas in the Inner Milky Way](https://arxiv.org/abs/2603.17341)**|N/A|Accepted for publication in PASJ|astro-ph.GA|None|Junichi Baba|
+|**2026-03-17**|**[SMAL-pets: SMAL Based Avatars of Pets from Single Image](https://arxiv.org/abs/2603.17131)**|N/A|None|cs.CV|None|Piotr Borycki et al.|
 |**2026-03-17**|**[BUSSARD: Normalizing Flows for Bijective Universal Scene-Specific Anomalous Relationship Detection](https://arxiv.org/abs/2603.16645)**|N/A|CVPR 2026 Main Track|cs.CV|None|Melissa Schween et al.|
 |**2026-03-17**|**[OGScene3D: Incremental Open-Vocabulary 3D Gaussian Scene Graph Mapping for Scene Understanding](https://arxiv.org/abs/2603.16301)**|N/A|None|cs.RO|None|Siting Zhu et al.|
 |**2026-03-17**|**[Exclusivity-Guided Mask Learning for Semi-Supervised Crowd Instance Segmentation and Counting](https://arxiv.org/abs/2603.16241)**|N/A|None|cs.CV|None|Jiyang Huang et al.|
@@ -15,6 +20,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2026-03-16**|**[Interaction-Enabled Hartree Fixed Points in Fermionic Resetting Dynamics](https://arxiv.org/abs/2603.15554)**|N/A|14 pages, 7 figures|quant-ph|None|Jishad Kumar et al.|
 |**2026-03-16**|**[NavGSim: High-Fidelity Gaussian Splatting Simulator for Large-Scale Navigation](https://arxiv.org/abs/2603.15186)**|N/A|None|cs.RO|None|Jiahang Liu et al.|
 |**2026-03-16**|**[ANNA: a toolbox for Newtonian Noise Analysis](https://arxiv.org/abs/2603.15157)**|N/A|Preprint submitted to the Journal of Computational Physics|physics.app-ph|None|Pieter Reumers et al.|
+|**2026-03-16**|**[KGS-GCN: Enhancing Sparse Skeleton Sensing via Kinematics-Driven Gaussian Splatting and Probabilistic Topology for Action Recognition](https://arxiv.org/abs/2603.16943)**|N/A|None|cs.CV|None|Yuhan Chen et al.|
 |**2026-03-15**|**[Power-Law Spectrum of the Random Feature Model](https://arxiv.org/abs/2603.14578)**|N/A|None|stat.ML|None|Elliot Paquette et al.|
 |**2026-03-15**|**[Direct Object-Level Reconstruction via Probabilistic Gaussian Splatting](https://arxiv.org/abs/2603.14316)**|N/A|None|cs.CV|None|Shuai Guo et al.|
 |**2026-03-15**|**[In-Field 3D Wheat Head Instance Segmentation From TLS Point Clouds Using Deep Learning Without Manual Labels](https://arxiv.org/abs/2603.14309)**|N/A|to be published in ISPRS Annals of Photogrammetry and Remote Sensing at XXV ISPRS Congress, Toronto, Canada, July 2026, 8 pages, 5 figures|cs.CV|None|Tomislav Medic, Liangliang Nan|
@@ -69,6 +75,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2026-03-02**|**[Entropy-Guided GRVQ for Ultra-Low Bitrate Neural Speech Codec](https://arxiv.org/abs/2603.01476)**|N/A|None|eess.AS|None|Yanzhou Ren et al.|
 |**2026-03-01**|**[Seeing Beyond 8bits: Subjective and Objective Quality Assessment of HDR-UGC Videos](https://arxiv.org/abs/2603.00938)**|N/A|None|cs.CV|None|Shreshth Saini et al.|
 |**2026-02-28**|**[TokenSplat: Token-aligned 3D Gaussian Splatting for Feed-forward Pose-free Reconstruction](https://arxiv.org/abs/2603.00697)**|N/A|None|cs.CV|None|Yihui Li et al.|
+|**2026-02-28**|**[Rubric-Guided Fine-tuning of SpeechLLMs for Multi-Aspect, Multi-Rater L2 Reading-Speech Assessment](https://arxiv.org/abs/2603.16889)**|N/A|Accepted to LREC 2026. This publication is part of the project Responsible AI for Voice Diagnostics (RAIVD) with file number NGF.1607.22.013 of the research programme NGF AiNed Fellowship Grants, which is financed by the Dutch Research Council (NWO)|cs.CL|None|Aditya Kamlesh Parikh et al.|
 |**2026-02-28**|**[Zero-Shot Robotic Manipulation via 3D Gaussian Splatting-Enhanced Multimodal Retrieval-Augmented Generation](https://arxiv.org/abs/2603.00500)**|N/A|9 pages, 5 figures|cs.RO|None|Zilong Xie et al.|
 |**2026-02-27**|**[Thinking with Images as Continuous Actions: Numerical Visual Chain-of-Thought](https://arxiv.org/abs/2602.23959)**|N/A|None|cs.CV|None|Kesen Zhao et al.|
 |**2026-02-27**|**[ProtoDCS: Towards Robust and Efficient Open-Set Test-Time Adaptation for Vision-Language Models](https://arxiv.org/abs/2602.23653)**|N/A|13 pages, under review|cs.CV|None|Wei Luo et al.|
@@ -720,6 +727,9 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-03-18**|**[UniSem: Generalizable Semantic 3D Reconstruction from Sparse Unposed Images](https://arxiv.org/abs/2603.17519)**|N/A|None|cs.CV|None|Guibiao Liao et al.|
+|**2026-03-18**|**[Stereo World Model: Camera-Guided Stereo Video Generation](https://arxiv.org/abs/2603.17375)**|N/A|Project Page: https://sunyangtian.github.io/StereoWorld-web/|cs.CV|None|Yang-Tian Sun et al.|
+|**2026-03-17**|**[LLM-Powered Flood Depth Estimation from Social Media Imagery: A Vision-Language Model Framework with Mechanistic Interpretability for Transportation Resilience](https://arxiv.org/abs/2603.17108)**|N/A|None|cs.CV|None|Nafis Fuad, Xiaodong Qian|
 |**2026-03-17**|**[MessyKitchens: Contact-rich object-level 3D scene reconstruction](https://arxiv.org/abs/2603.16868)**|N/A|None|cs.CV|None|Junaid Ahmed Ansari et al.|
 |**2026-03-17**|**[WildDepth: A Multimodal Dataset for 3D Wildlife Perception and Depth Estimation](https://arxiv.org/abs/2603.16816)**|N/A|None|cs.CV|None|Muhammad Aamir et al.|
 |**2026-03-17**|**[$D^3$-RSMDE: 40$\times$ Faster and High-Fidelity Remote Sensing Monocular Depth Estimation](https://arxiv.org/abs/2603.16362)**|N/A|None|cs.CV|None|Ruizhi Wang et al.|

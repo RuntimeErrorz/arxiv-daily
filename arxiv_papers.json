@@ -1,5 +1,232 @@
 {
   "3DGS Semantic": {
+    "2603.17605": {
+      "title": "ReLaGS: Relational Language Gaussian Splatting",
+      "authors": [
+        "Yaxu Xie",
+        "Abdalla Arafa",
+        "Alireza Javanmardi",
+        "Christen Millerdurai",
+        "Jia Cheng Hu",
+        "Shaoxiang Wang",
+        "Alain Pagani",
+        "Didier Stricker"
+      ],
+      "published": "2026-03-18T11:18:23+00:00",
+      "updated": "2026-03-18T11:18:23+00:00",
+      "summary": "Achieving unified 3D perception and reasoning across tasks such as segmentation, retrieval, and relation understanding remains challenging, as existing methods are either object-centric or rely on costly training for inter-object reasoning. We present a novel framework that constructs a hierarchical language-distilled Gaussian scene and its 3D semantic scene graph without scene-specific training. A Gaussian pruning mechanism refines scene geometry, while a robust multi-view language alignment strategy aggregates noisy 2D features into accurate 3D object embeddings. On top of this hierarchy, we build an open-vocabulary 3D scene graph with Vision Language derived annotations and Graph Neural Network-based relational reasoning. Our approach enables efficient and scalable open-vocabulary 3D reasoning by jointly modeling hierarchical semantics and inter/intra-object relationships, validated across tasks including open-vocabulary segmentation, scene graph generation, and relation-guided retrieval. Project page: https://dfki-av.github.io/ReLaGS/",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.17605v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted at CVPR 2026",
+      "entry_id": "http://arxiv.org/abs/2603.17605v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.17605v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.17605v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-19",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2603.17519": {
+      "title": "UniSem: Generalizable Semantic 3D Reconstruction from Sparse Unposed Images",
+      "authors": [
+        "Guibiao Liao",
+        "Qian Ren",
+        "Kaimin Liao",
+        "Hua Wang",
+        "Zhi Chen",
+        "Luchao Wang",
+        "Yaohua Tang"
+      ],
+      "published": "2026-03-18T09:26:25+00:00",
+      "updated": "2026-03-18T09:26:25+00:00",
+      "summary": "Semantic-aware 3D reconstruction from sparse, unposed images remains challenging for feed-forward 3D Gaussian Splatting (3DGS). Existing methods often predict an over-complete set of Gaussian primitives under sparse-view supervision, leading to unstable geometry and inferior depth quality. Meanwhile, they rely solely on 2D segmenter features for semantic lifting, which provides weak 3D-level and limited generalizable supervision, resulting in incomplete 3D semantics in novel scenes. To address these issues, we propose UniSem, a unified framework that jointly improves depth accuracy and semantic generalization via two key components. First, Error-aware Gaussian Dropout (EGD) performs error-guided capacity control by suppressing redundancy-prone Gaussians using rendering error cues, producing meaningful, geometrically stable Gaussian representations for improved depth estimation. Second, we introduce a Mix-training Curriculum (MTC) that progressively blends 2D segmenter-lifted semantics with the model's own emergent 3D semantic priors, implemented with object-level prototype alignment to enhance semantic coherence and completeness. Extensive experiments on ScanNet and Replica show that UniSem achieves superior performance in depth prediction and open-vocabulary 3D segmentation across varying numbers of input views. Notably, with 16-view inputs, UniSem reduces depth Rel by 15.2% and improves open-vocabulary segmentation mAcc by 3.7% over strong baselines.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.17519v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2603.17519v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.17519v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.17519v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-19",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2603.17470": {
+      "title": "VirPro: Visual-referred Probabilistic Prompt Learning for Weakly-Supervised Monocular 3D Detection",
+      "authors": [
+        "Chupeng Liu",
+        "Jiyong Rao",
+        "Shangquan Sun",
+        "Runkai Zhao",
+        "Weidong Cai"
+      ],
+      "published": "2026-03-18T08:23:55+00:00",
+      "updated": "2026-03-18T08:23:55+00:00",
+      "summary": "Monocular 3D object detection typically relies on pseudo-labeling techniques to reduce dependency on real-world annotations. Recent advances demonstrate that deterministic linguistic cues can serve as effective auxiliary weak supervision signals, providing complementary semantic context. However, hand-crafted textual descriptions struggle to capture the inherent visual diversity of individuals across scenes, limiting the model's ability to learn scene-aware representations. To address this challenge, we propose Visual-referred Probabilistic Prompt Learning (VirPro), an adaptive multi-modal pretraining paradigm that can be seamlessly integrated into diverse weakly supervised monocular 3D detection frameworks. Specifically, we generate a diverse set of learnable, instance-conditioned prompts across scenes and store them in an Adaptive Prompt Bank (APB). Subsequently, we introduce Multi-Gaussian Prompt Modeling (MGPM), which incorporates scene-based visual features into the corresponding textual embeddings, allowing the text prompts to express visual uncertainties. Then, from the fused vision-language embeddings, we decode a prompt-targeted Gaussian, from which we derive a unified object-level prompt embedding for each instance. RoI-level contrastive matching is employed to enforce modality alignment, bringing embeddings of co-occurring objects within the same scene closer in the latent space, thus enhancing semantic coherence. Extensive experiments on the KITTI benchmark demonstrate that integrating our pretraining paradigm consistently yields substantial performance gains, achieving up to a 4.8% average precision improvement than the baseline.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.17470v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted by CVPR 2026 Findings",
+      "entry_id": "http://arxiv.org/abs/2603.17470v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.17470v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.17470v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-19",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2603.17341": {
+      "title": "Bar-Informed Kinematic-Distance Mapping of Molecular Gas in the Inner Milky Way",
+      "authors": [
+        "Junichi Baba"
+      ],
+      "published": "2026-03-18T04:13:06+00:00",
+      "updated": "2026-03-18T04:13:06+00:00",
+      "summary": "We present a bar-informed kinematic-distance (BIKD) method to reconstruct face-on molecular-gas maps of the inner Milky Way from PPV data, relaxing the standard assumption of axisymmetric circular rotation that can generate severe artifacts in barred regions. BIKD replaces the rotation curve with a non-axisymmetric streaming field extracted from hydrodynamical simulations in an observationally constrained barred Galactic potential, and infers a discrete distance posterior along each sightline using a Gaussian likelihood in line-of-sight velocity. To mitigate multi-modality, we adopt posterior-weighted map making via posterior sampling. We validate the full pipeline in closed-loop tests on the simulations, showing that the recovered large-scale morphology is only weakly sensitive to simple distance priors and remains stable across plausible variations in bar angle, snapshot time, and pattern speed. We then apply BIKD to a Galactic CO survey to obtain a face-on $Σ$ map. Compared to a standard axisymmetric kinematic-distance (KD) reconstruction, BIKD strongly suppresses line-of-sight--elongated finger-of-God features and robustly recovers a bar-aligned, quadrant-asymmetric inner-Galaxy morphology under model marginalization. The model-marginalized radial profiles show an approximately exponential decline beyond $\\sim4$ kpc, a pronounced deficit at $R\\sim0.5$--$3.5$ kpc, and a central concentration consistent with Central Molecular Zone surface densities. Finally, we compare prominent ridge-shaped overdensities in the BIKD map with independent spiral-arm loci traced by high-mass star-forming region masers with VLBI trigonometric parallaxes and by classical Cepheids with period--luminosity distances. Several maser-parallax segments are qualitatively consistent with the dominant BIKD ridges, whereas the Cepheid loci do not coincide with them within their recommended azimuth range.",
+      "categories": [
+        "astro-ph.GA"
+      ],
+      "primary_category": "astro-ph.GA",
+      "pdf_url": "https://arxiv.org/pdf/2603.17341v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted for publication in PASJ",
+      "entry_id": "http://arxiv.org/abs/2603.17341v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.17341v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.17341v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-19",
+        "venue": null,
+        "pub_type": "Review",
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2603.17131": {
+      "title": "SMAL-pets: SMAL Based Avatars of Pets from Single Image",
+      "authors": [
+        "Piotr Borycki",
+        "Joanna Waczyńska",
+        "Yizhe Zhu",
+        "Yongqiang Gao",
+        "Przemysław Spurek"
+      ],
+      "published": "2026-03-17T20:47:49+00:00",
+      "updated": "2026-03-17T20:47:49+00:00",
+      "summary": "Creating high-fidelity, animatable 3D dog avatars remains a formidable challenge in computer vision. Unlike human digital doubles, animal reconstruction faces a critical shortage of large-scale, annotated datasets for specialized applications. Furthermore, the immense morphological diversity across species, breeds, and crosses, which varies significantly in size, proportions, and features, complicates the generalization of existing models. Current reconstruction methods often struggle to capture realistic fur textures. Additionally, ensuring these avatars are fully editable and capable of performing complex, naturalistic movements typically necessitates labor-intensive manual mesh manipulation and expert rigging. This paper introduces SMAL-pets, a comprehensive framework that generates high-quality, editable animal avatars from a single input image. Our approach bridges the gap between reconstruction and generative modeling by leveraging a hybrid architecture. Our method integrates 3D Gaussian Splatting with the SMAL parametric model to provide a representation that is both visually high-fidelity and anatomically grounded. We introduce a multimodal editing suite that enables users to refine the avatar's appearance and execute complex animations through direct textual prompts. By allowing users to control both the aesthetic and behavioral aspects of the model via natural language, SMAL-pets provides a flexible, robust tool for animation and virtual reality.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.17131v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2603.17131v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.17131v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.17131v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-19",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
     "2603.16645": {
       "title": "BUSSARD: Normalizing Flows for Bijective Universal Scene-Specific Anomalous Relationship Detection",
       "authors": [
@@ -56,26 +283,26 @@
         "Hesheng Wang"
       ],
       "published": "2026-03-17T09:38:01+00:00",
-      "updated": "2026-03-17T09:38:01+00:00",
-      "summary": "Open-vocabulary scene understanding is crucial for robotic applications, enabling robots to comprehend complex 3D environmental contexts and supporting various downstream tasks such as navigation and manipulation. However, existing methods require pre-built complete 3D semantic maps to construct scene graphs for scene understanding, which limits their applicability in robotic scenarios where environments are explored incrementally. To address this challenge, we propose OGScene3D, an open-vocabulary scene understanding system that achieves accurate 3D semantic mapping and scene graph construction incrementally. Our system employs a confidence-based Gaussian semantic representation that jointly models semantic predictions and their reliability, enabling robust scene modeling. Building on this representation, we introduce a hierarchical 3D semantic optimization strategy that achieves semantic consistency through local correspondence establishment and global refinement, thereby constructing globally consistent semantic maps. Moreover, we design a long-term global optimization method that leverages temporal memory of historical observations to enhance semantic predictions. By integrating 2D-3D semantic consistency with Gaussian rendering contribution, this method continuously refines the semantic understanding of the entire scene.Furthermore, we develop a progressive graph construction approach that dynamically creates and updates both nodes and semantic relationships, allowing continuous updating of the 3D scene graphs. Extensive experiments on widely used datasets and real-world scenes demonstrate the effectiveness of our OGScene3D on open-vocabulary scene understanding.",
+      "updated": "2026-03-18T02:47:56+00:00",
+      "summary": "Open-vocabulary scene understanding is crucial for robotic applications, enabling robots to comprehend complex 3D environmental contexts and supporting various downstream tasks such as navigation and manipulation. However, existing methods require pre-built complete 3D semantic maps to construct scene graphs for scene understanding, which limits their applicability in robotic scenarios where environments are explored incrementally. To address this challenge, we propose OGScene3D, an open-vocabulary scene understanding system that achieves accurate 3D semantic mapping and scene graph construction incrementally. Our system employs a confidence-based Gaussian semantic representation that jointly models semantic predictions and their reliability, enabling robust scene modeling. Building on this representation, we introduce a hierarchical 3D semantic optimization strategy that achieves semantic consistency through local correspondence establishment and global refinement, thereby constructing globally consistent semantic maps. Moreover, we design a long-term global optimization method that leverages temporal memory of historical observations to enhance semantic predictions. By integrating 2D-3D semantic consistency with Gaussian rendering contribution, this method continuously refines the semantic understanding of the entire scene. Furthermore, we develop a progressive graph construction approach that dynamically creates and updates both nodes and semantic relationships, allowing continuous updating of the 3D scene graphs. Extensive experiments on widely used datasets and real-world scenes demonstrate the effectiveness of our OGScene3D on open-vocabulary scene understanding.",
       "categories": [
         "cs.RO"
       ],
       "primary_category": "cs.RO",
-      "pdf_url": "https://arxiv.org/pdf/2603.16301v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.16301v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2603.16301v1",
+      "entry_id": "http://arxiv.org/abs/2603.16301v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2603.16301v1",
+          "href": "https://arxiv.org/abs/2603.16301v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2603.16301v1",
+          "href": "https://arxiv.org/pdf/2603.16301v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -310,6 +537,54 @@
       "venue_info": {
         "venue_source": "Semantic Scholar",
         "queried_at": "2026-03-18",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2603.16943": {
+      "title": "KGS-GCN: Enhancing Sparse Skeleton Sensing via Kinematics-Driven Gaussian Splatting and Probabilistic Topology for Action Recognition",
+      "authors": [
+        "Yuhan Chen",
+        "Yicui Shi",
+        "Guofa Li",
+        "Liping Zhang",
+        "Jie Li",
+        "Jiaxin Gao",
+        "Wenbo Chu"
+      ],
+      "published": "2026-03-16T07:47:33+00:00",
+      "updated": "2026-03-16T07:47:33+00:00",
+      "summary": "Skeleton-based action recognition is widely utilized in sensor systems including human-computer interaction and intelligent surveillance. Nevertheless, current sensor devices typically generate sparse skeleton data as discrete coordinates, which inevitably discards fine-grained spatiotemporal details during highly dynamic movements. Moreover, the rigid constraints of predefined physical sensor topologies hinder the modeling of latent long-range dependencies. To overcome these limitations, we propose KGS-GCN, a graph convolutional network that integrates kinematics-driven Gaussian splatting with probabilistic topology. Our framework explicitly addresses the challenges of sensor data sparsity and topological rigidity by transforming discrete joints into continuous generative representations. Firstly, a kinematics-driven Gaussian splatting module is designed to dynamically construct anisotropic covariance matrices using instantaneous joint velocity vectors. This module enhances visual representation by rendering sparse skeleton sequences into multi-view continuous heatmaps rich in spatiotemporal semantics. Secondly, to transcend the limitations of fixed physical connections, a probabilistic topology construction method is proposed. This approach generates an adaptive prior adjacency matrix by quantifying statistical correlations via the Bhattacharyya distance between joint Gaussian distributions. Ultimately, the GCN backbone is adaptively modulated by the rendered visual features via a visual context gating mechanism. Empirical results demonstrate that KGS-GCN significantly enhances the modeling of complex spatiotemporal dynamics. By addressing the inherent limitations of sparse inputs, our framework offers a robust solution for processing low-fidelity sensor data. This approach establishes a practical pathway for improving perceptual reliability in real-world sensing applications.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.16943v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2603.16943v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.16943v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.16943v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-19",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -731,31 +1006,31 @@
       "title": "Bodhi VLM: Privacy-Alignment Modeling for Hierarchical Visual Representations in Vision Backbones and VLM Encoders via Bottom-Up and Top-Down Feature Search",
       "authors": [
         "Bo Ma",
-        "Jinsong Wu",
-        "Wei Qi Yan"
+        "Wei Qi Yan",
+        "Jinsong Wu"
       ],
       "published": "2026-03-14T03:11:31+00:00",
-      "updated": "2026-03-14T03:11:31+00:00",
+      "updated": "2026-03-18T08:32:49+00:00",
       "summary": "Learning systems that preserve privacy often inject noise into hierarchical visual representations; a central challenge is to \\emph{model} how such perturbations align with a declared privacy budget in a way that is interpretable and applicable across vision backbones and vision--language models (VLMs). We propose \\emph{Bodhi VLM}, a \\emph{privacy-alignment modeling} framework for \\emph{hierarchical neural representations}: it (1) links sensitive concepts to layer-wise grouping via NCP and MDAV-based clustering; (2) locates sensitive feature regions using bottom-up (BUA) and top-down (TDA) strategies over multi-scale representations (e.g., feature pyramids or vision-encoder layers); and (3) uses an Expectation-Maximization Privacy Assessment (EMPA) module to produce an interpretable \\emph{budget-alignment signal} by comparing the fitted sensitive-feature distribution to an evaluator-specified reference (e.g., Laplace or Gaussian with scale $c/ε$). The output is reference-relative and is \\emph{not} a formal differential-privacy estimator. We formalize BUA/TDA over hierarchical feature structures and validate the framework on object detectors (YOLO, PPDPTS, DETR) and on the \\emph{visual encoders} of VLMs (CLIP, LLaVA, BLIP). BUA and TDA yield comparable deviation trends; EMPA provides a stable alignment signal under the reported setups. We compare with generic discrepancy baselines (Chi-square, K-L, MMD) and with task-relevant baselines (MomentReg, NoiseMLE, Wass-1). Results are reported as mean$\\pm$std over multiple seeds with confidence intervals in the supplementary materials. This work contributes a learnable, interpretable modeling perspective for privacy-aligned hierarchical representations rather than a post hoc audit only. Source code: \\href{https://github.com/mabo1215/bodhi-vlm.git}{Bodhi-VLM GitHub repository}",
       "categories": [
         "cs.CV",
         "cs.CR"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2603.13728v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.13728v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2603.13728v1",
+      "entry_id": "http://arxiv.org/abs/2603.13728v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2603.13728v1",
+          "href": "https://arxiv.org/abs/2603.13728v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2603.13728v1",
+          "href": "https://arxiv.org/pdf/2603.13728v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -2766,6 +3041,53 @@
       "venue_info": {
         "venue_source": "Semantic Scholar",
         "queried_at": "2026-03-04",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2603.16889": {
+      "title": "Rubric-Guided Fine-tuning of SpeechLLMs for Multi-Aspect, Multi-Rater L2 Reading-Speech Assessment",
+      "authors": [
+        "Aditya Kamlesh Parikh",
+        "Cristian Tejedor-Garcia",
+        "Catia Cucchiarini",
+        "Helmer Strik"
+      ],
+      "published": "2026-02-28T11:08:24+00:00",
+      "updated": "2026-02-28T11:08:24+00:00",
+      "summary": "Reliable and interpretable automated assessment of second-language (L2) speech remains a central challenge, as large speech-language models (SpeechLLMs) often struggle to align with the nuanced variability of human raters. To address this, we introduce a rubric-guided reasoning framework that explicitly encodes multi-aspect human assessment criteria: accuracy, fluency, and prosody, while calibrating model uncertainty to capture natural rating variability. We fine-tune the Qwen2-Audio-7B-Instruct model using multi-rater human judgments and develop an uncertainty-calibrated regression approach supported by conformal calibration for interpretable confidence intervals. Our Gaussian uncertainty modeling and conformal calibration approach achieves the strongest alignment with human ratings, outperforming regression and classification baselines. The model reliably assesses fluency and prosody while highlighting the inherent difficulty of assessing accuracy. Together, these results demonstrate that rubric-guided, uncertainty-calibrated reasoning offers a principled path toward trustworthy and explainable SpeechLLM-based speech assessment.",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.SD",
+        "eess.AS"
+      ],
+      "primary_category": "cs.CL",
+      "pdf_url": "https://arxiv.org/pdf/2603.16889v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted to LREC 2026. This publication is part of the project Responsible AI for Voice Diagnostics (RAIVD) with file number NGF.1607.22.013 of the research programme NGF AiNed Fellowship Grants, which is financed by the Dutch Research Council (NWO)",
+      "entry_id": "http://arxiv.org/abs/2603.16889v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.16889v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.16889v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-19",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -101020,6 +101342,115 @@
     }
   },
   "Depth Estimation": {
+    "2603.17519": {
+      "title": "UniSem: Generalizable Semantic 3D Reconstruction from Sparse Unposed Images",
+      "authors": [
+        "Guibiao Liao",
+        "Qian Ren",
+        "Kaimin Liao",
+        "Hua Wang",
+        "Zhi Chen",
+        "Luchao Wang",
+        "Yaohua Tang"
+      ],
+      "published": "2026-03-18T09:26:25+00:00",
+      "updated": "2026-03-18T09:26:25+00:00",
+      "summary": "Semantic-aware 3D reconstruction from sparse, unposed images remains challenging for feed-forward 3D Gaussian Splatting (3DGS). Existing methods often predict an over-complete set of Gaussian primitives under sparse-view supervision, leading to unstable geometry and inferior depth quality. Meanwhile, they rely solely on 2D segmenter features for semantic lifting, which provides weak 3D-level and limited generalizable supervision, resulting in incomplete 3D semantics in novel scenes. To address these issues, we propose UniSem, a unified framework that jointly improves depth accuracy and semantic generalization via two key components. First, Error-aware Gaussian Dropout (EGD) performs error-guided capacity control by suppressing redundancy-prone Gaussians using rendering error cues, producing meaningful, geometrically stable Gaussian representations for improved depth estimation. Second, we introduce a Mix-training Curriculum (MTC) that progressively blends 2D segmenter-lifted semantics with the model's own emergent 3D semantic priors, implemented with object-level prototype alignment to enhance semantic coherence and completeness. Extensive experiments on ScanNet and Replica show that UniSem achieves superior performance in depth prediction and open-vocabulary 3D segmentation across varying numbers of input views. Notably, with 16-view inputs, UniSem reduces depth Rel by 15.2% and improves open-vocabulary segmentation mAcc by 3.7% over strong baselines.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.17519v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2603.17519v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.17519v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.17519v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2603.17375": {
+      "title": "Stereo World Model: Camera-Guided Stereo Video Generation",
+      "authors": [
+        "Yang-Tian Sun",
+        "Zehuan Huang",
+        "Yifan Niu",
+        "Lin Ma",
+        "Yan-Pei Cao",
+        "Yuewen Ma",
+        "Xiaojuan Qi"
+      ],
+      "published": "2026-03-18T05:42:22+00:00",
+      "updated": "2026-03-18T05:42:22+00:00",
+      "summary": "We present StereoWorld, a camera-conditioned stereo world model that jointly learns appearance and binocular geometry for end-to-end stereo video generation.Unlike monocular RGB or RGBD approaches, StereoWorld operates exclusively within the RGB modality, while simultaneously grounding geometry directly from disparity. To efficiently achieve consistent stereo generation, our approach introduces two key designs: (1) a unified camera-frame RoPE that augments latent tokens with camera-aware rotary positional encoding, enabling relative, view- and time-consistent conditioning while preserving pretrained video priors via a stable attention initialization; and (2) a stereo-aware attention decomposition that factors full 4D attention into 3D intra-view attention plus horizontal row attention, leveraging the epipolar prior to capture disparity-aligned correspondences with substantially lower compute. Across benchmarks, StereoWorld improves stereo consistency, disparity accuracy, and camera-motion fidelity over strong monocular-then-convert pipelines, achieving more than 3x faster generation with an additional 5% gain in viewpoint consistency. Beyond benchmarks, StereoWorld enables end-to-end binocular VR rendering without depth estimation or inpainting, enhances embodied policy learning through metric-scale depth grounding, and is compatible with long-video distillation for extended interactive stereo synthesis.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.17375v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Project Page: https://sunyangtian.github.io/StereoWorld-web/",
+      "entry_id": "http://arxiv.org/abs/2603.17375v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.17375v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.17375v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2603.17108": {
+      "title": "LLM-Powered Flood Depth Estimation from Social Media Imagery: A Vision-Language Model Framework with Mechanistic Interpretability for Transportation Resilience",
+      "authors": [
+        "Nafis Fuad",
+        "Xiaodong Qian"
+      ],
+      "published": "2026-03-17T19:59:25+00:00",
+      "updated": "2026-03-17T19:59:25+00:00",
+      "summary": "Urban flooding poses an escalating threat to transportation network continuity, yet no operational system currently provides real-time, street-level flood depth information at the centimeter resolution required for dynamic routing, electric vehicle (EV) safety, and autonomous vehicle (AV) operations. This study presents FloodLlama, a fine-tuned open-source vision-language model (VLM) for continuous flood depth estimation from single street-level images, supported by a multimodal sensing pipeline using TikTok data. A synthetic dataset of approximately 190000 images was generated, covering seven vehicle types, four weather conditions, and 41 depth levels (0-40 cm at 1 cm resolution). Progressive curriculum training enabled coarse-to-fine learning, while LLaMA 3.2-11B Vision was fine-tuned using QLoRA. Evaluation across 34797 trials reveals a depth-dependent prompt effect: simple prompts perform better for shallow flooding, whereas chain-of-thought (CoT) reasoning improves performance at greater depths. FloodLlama achieves a mean absolute error (MAE) below 0.97 cm and Acc@5cm above 93.7% for deep flooding, exceeding 96.8% for shallow depths. A five-phase mechanistic interpretability framework identifies layer L23 as the critical depth-encoding transition and enables selective fine-tuning that reduces trainable parameters by 76-80% while maintaining accuracy. The Tier 3 configuration achieves 98.62% accuracy on real-world data and shows strong robustness under visual occlusion. A TikTok-based data pipeline, validated on 676 annotated flood frames from Detroit, demonstrates the feasibility of real-time, crowd-sourced flood sensing. The proposed framework provides a scalable, infrastructure-free solution with direct implications for EV safety, AV deployment, and resilient transportation management.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.17108v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2603.17108v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.17108v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.17108v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2603.16868": {
       "title": "MessyKitchens: Contact-rich object-level 3D scene reconstruction",
       "authors": [
