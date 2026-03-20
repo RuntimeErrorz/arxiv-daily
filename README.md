@@ -1,4 +1,4 @@
-## Updated at 2026-03-20 08:24:45
+## Updated at 2026-03-20 20:12:43
 
 ## 3DGS Semantic
 
@@ -8,6 +8,12 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-03-19**|**[Reconstruction Matters: Learning Geometry-Aligned BEV Representation through 3D Gaussian Splatting](https://arxiv.org/abs/2603.19193)**|N/A|Project page at https://vulab-ai.github.io/Splat2BEV/|cs.CV|None|Yiren Lu et al.|
+|**2026-03-19**|**[GSMem: 3D Gaussian Splatting as Persistent Spatial Memory for Zero-Shot Embodied Exploration and Reasoning](https://arxiv.org/abs/2603.19137)**|N/A|Project page at https://vulab-ai.github.io/GSMem/|cs.CV|None|Yiren Lu et al.|
+|**2026-03-19**|**[SwiftGS: Episodic Priors for Immediate Satellite Surface Recovery](https://arxiv.org/abs/2603.18634)**|N/A|24 pages, 6 figures|cs.CV|None|Rong Fu et al.|
+|**2026-03-19**|**[OnlinePG: Online Open-Vocabulary Panoptic Mapping with 3D Gaussian Splatting](https://arxiv.org/abs/2603.18510)**|N/A|CVPR 2026|cs.CV|None|Hongjia Zhai et al.|
+|**2026-03-19**|**[Inst4DGS: Instance-Decomposed 4D Gaussian Splatting with Multi-Video Label Permutation Learning](https://arxiv.org/abs/2603.18402)**|N/A|None|cs.CV|None|Yonghan Lee, Dinesh Manocha|
+|**2026-03-18**|**[Semantic Segmentation and Depth Estimation for Real-Time Lunar Surface Mapping Using 3D Gaussian Splatting](https://arxiv.org/abs/2603.18218)**|N/A|None|cs.CV|None|Guillem Casadesus Vila et al.|
 |**2026-03-18**|**[ReLaGS: Relational Language Gaussian Splatting](https://arxiv.org/abs/2603.17605)**|N/A|Accepted at CVPR 2026|cs.CV|None|Yaxu Xie et al.|
 |**2026-03-18**|**[UniSem: Generalizable Semantic 3D Reconstruction from Sparse Unposed Images](https://arxiv.org/abs/2603.17519)**|N/A|None|cs.CV|None|Guibiao Liao et al.|
 |**2026-03-18**|**[VirPro: Visual-referred Probabilistic Prompt Learning for Weakly-Supervised Monocular 3D Detection](https://arxiv.org/abs/2603.17470)**|N/A|Accepted by CVPR 2026 Findings|cs.CV|None|Chupeng Liu et al.|
@@ -727,6 +733,8 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-03-19**|**[VGGT-360: Geometry-Consistent Zero-Shot Panoramic Depth Estimation](https://arxiv.org/abs/2603.18943)**|N/A|None|cs.CV|None|Jiayi Yuan et al.|
+|**2026-03-18**|**[Semantic Segmentation and Depth Estimation for Real-Time Lunar Surface Mapping Using 3D Gaussian Splatting](https://arxiv.org/abs/2603.18218)**|N/A|None|cs.CV|None|Guillem Casadesus Vila et al.|
 |**2026-03-18**|**[UniSem: Generalizable Semantic 3D Reconstruction from Sparse Unposed Images](https://arxiv.org/abs/2603.17519)**|N/A|None|cs.CV|None|Guibiao Liao et al.|
 |**2026-03-18**|**[Stereo World Model: Camera-Guided Stereo Video Generation](https://arxiv.org/abs/2603.17375)**|N/A|Project Page: https://sunyangtian.github.io/StereoWorld-web/|cs.CV|None|Yang-Tian Sun et al.|
 |**2026-03-17**|**[LLM-Powered Flood Depth Estimation from Social Media Imagery: A Vision-Language Model Framework with Mechanistic Interpretability for Transportation Resilience](https://arxiv.org/abs/2603.17108)**|N/A|None|cs.CV|None|Nafis Fuad, Xiaodong Qian|
