@@ -1,5 +1,145 @@
 {
   "3DGS Semantic": {
+    "2603.19822": {
+      "title": "HUGE-Bench: A Benchmark for High-Level UAV Vision-Language-Action Tasks",
+      "authors": [
+        "Jingyu Guo",
+        "Ziye Chen",
+        "Ziwen Li",
+        "Zhengqing Gao",
+        "Jiaxin Huang",
+        "Hanlue Zhang",
+        "Fengming Huang",
+        "Yu Yao",
+        "Tongliang Liu",
+        "Mingming Gong"
+      ],
+      "published": "2026-03-20T10:08:42+00:00",
+      "updated": "2026-03-20T10:08:42+00:00",
+      "summary": "Existing UAV vision-language navigation (VLN) benchmarks have enabled language-guided flight, but they largely focus on long, step-wise route descriptions with goal-centric evaluation, making them less diagnostic for real operations where brief, high-level commands must be grounded into safe multi-stage behaviors. We present HUGE-Bench, a benchmark for High-Level UAV Vision-Language-Action (HL-VLA) tasks that tests whether an agent can interpret concise language and execute complex, process-oriented trajectories with safety awareness. HUGE-Bench comprises 4 real-world digital twin scenes, 8 high-level tasks, and 2.56M meters of trajectories, and is built on an aligned 3D Gaussian Splatting (3DGS)-Mesh representation that combines photorealistic rendering with collision-capable geometry for scalable generation and collision-aware evaluation. We introduce process-oriented and collision-aware metrics to assess process fidelity, terminal accuracy, and safety. Experiments on representative state-of-the-art VLA models reveal significant gaps in high-level semantic completion and safe execution, highlighting HUGE-Bench as a diagnostic testbed for high-level UAV autonomy.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.19822v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2603.19822v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.19822v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.19822v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-23",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2603.19779": {
+      "title": "One Model, Two Minds: Task-Conditioned Reasoning for Unified Image Quality and Aesthetic Assessment",
+      "authors": [
+        "Wen Yin",
+        "Cencen Liu",
+        "Dingrui Liu",
+        "Bing Su",
+        "Yuan-Fang Li",
+        "Tao He"
+      ],
+      "published": "2026-03-20T09:14:33+00:00",
+      "updated": "2026-03-20T09:14:33+00:00",
+      "summary": "Unifying Image Quality Assessment (IQA) and Image Aesthetic Assessment (IAA) in a single multimodal large language model is appealing, yet existing methods adopt a task-agnostic recipe that applies the same reasoning strategy and reward to both tasks. We show this is fundamentally misaligned: IQA relies on low-level, objective perceptual cues and benefits from concise distortion-focused reasoning, whereas IAA requires deliberative semantic judgment and is poorly served by point-wise score regression. We identify these as a reasoning mismatch and an optimization mismatch, and provide empirical evidence for both through controlled probes. Motivated by these findings, we propose TATAR (Task-Aware Thinking with Asymmetric Rewards), a unified framework that shares the visual-language backbone while conditioning post-training on each task's nature. TATAR combines three components: fast--slow task-specific reasoning construction that pairs IQA with concise perceptual rationales and IAA with deliberative aesthetic narratives; two-stage SFT+GRPO learning that establishes task-aware behavioral priors before reward-driven refinement; and asymmetric rewards that apply Gaussian score shaping for IQA and Thurstone-style completion ranking for IAA. Extensive experiments across eight benchmarks demonstrate that TATAR consistently outperforms prior unified baselines on both tasks under in-domain and cross-domain settings, remains competitive with task-specific specialized models, and yields more stable training dynamics for aesthetic assessment. Our results establish task-conditioned post-training as a principled paradigm for unified perceptual scoring. Our code is publicly available at https://github.com/yinwen2019/TATAR.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.19779v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "10 pages,7 figures",
+      "entry_id": "http://arxiv.org/abs/2603.19779v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.19779v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.19779v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-23",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2603.19559": {
+      "title": "Optimal Scalar Quantization for Matrix Multiplication: Closed-Form Density and Phase Transition",
+      "authors": [
+        "Calvin Ang",
+        "Sungyoon Kim",
+        "Mert Pilanci"
+      ],
+      "published": "2026-03-20T01:53:44+00:00",
+      "updated": "2026-03-20T01:53:44+00:00",
+      "summary": "We study entrywise scalar quantization of two matrices prior to multiplication. Given $A\\in R^{m\\times k}$ and $B\\in R^{k\\times n}$, we quantize entries of $A$ and $B$ independently using scalar quantizers with $K_X$ and $K_Y$ levels per entry, and form $\\widehat C=\\widehat A\\,\\widehat B$. The objective is to minimize the matrix multiplication mean-squared error (MSE) $E[\\|{AB-\\widehat A\\widehat B}\\|_F^2]$ under a pair-i.i.d.\\ inner-product model. In the high-resolution regime $K_X,K_Y\\to\\infty$, we derive a sharp $K^{-2}$ asymptotic expansion for $\\mathcal{E}$, identify the exact optimal leading constants, and characterize asymptotically optimal quantization center densities in terms of conditional second moments. We then specialize to correlated Gaussian multiplicative pairs, obtaining a closed-form optimal point density \\[ λ^\\star(u)\\ \\propto\\ \\exp\\!\\left(-\\frac{u^2}{6}\\right)\\bigl((1-ρ^2)+ρ^2u^2\\bigr)^{1/3}, \\qquad u=\\frac{x}{σ_X}, \\] with the same form for $y/σ_Y$, and prove a correlation-driven phase transition: the density is unimodal at the origin for $|ρ|\\leq 1/\\sqrt{3}$ and becomes bimodal for $|ρ|>1/\\sqrt{3}$ with peaks at $u_{\\mathrm{peak}}=\\pm\\sqrt{3-1/ρ^2}$. We show our method's applicability in synthetic experiments such as matrix multiplication quantization and least squares optimization, as well as quantization of large language model key and query activations.",
+      "categories": [
+        "cs.IT",
+        "cs.AI"
+      ],
+      "primary_category": "cs.IT",
+      "pdf_url": "https://arxiv.org/pdf/2603.19559v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2603.19559v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.19559v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.19559v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-23",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
     "2603.19193": {
       "title": "Reconstruction Matters: Learning Geometry-Aligned BEV Representation through 3D Gaussian Splatting",
       "authors": [
@@ -383,27 +523,27 @@
         "Weidong Cai"
       ],
       "published": "2026-03-18T08:23:55+00:00",
-      "updated": "2026-03-18T08:23:55+00:00",
-      "summary": "Monocular 3D object detection typically relies on pseudo-labeling techniques to reduce dependency on real-world annotations. Recent advances demonstrate that deterministic linguistic cues can serve as effective auxiliary weak supervision signals, providing complementary semantic context. However, hand-crafted textual descriptions struggle to capture the inherent visual diversity of individuals across scenes, limiting the model's ability to learn scene-aware representations. To address this challenge, we propose Visual-referred Probabilistic Prompt Learning (VirPro), an adaptive multi-modal pretraining paradigm that can be seamlessly integrated into diverse weakly supervised monocular 3D detection frameworks. Specifically, we generate a diverse set of learnable, instance-conditioned prompts across scenes and store them in an Adaptive Prompt Bank (APB). Subsequently, we introduce Multi-Gaussian Prompt Modeling (MGPM), which incorporates scene-based visual features into the corresponding textual embeddings, allowing the text prompts to express visual uncertainties. Then, from the fused vision-language embeddings, we decode a prompt-targeted Gaussian, from which we derive a unified object-level prompt embedding for each instance. RoI-level contrastive matching is employed to enforce modality alignment, bringing embeddings of co-occurring objects within the same scene closer in the latent space, thus enhancing semantic coherence. Extensive experiments on the KITTI benchmark demonstrate that integrating our pretraining paradigm consistently yields substantial performance gains, achieving up to a 4.8% average precision improvement than the baseline.",
+      "updated": "2026-03-20T13:20:01+00:00",
+      "summary": "Monocular 3D object detection typically relies on pseudo-labeling techniques to reduce dependency on real-world annotations. Recent advances demonstrate that deterministic linguistic cues can serve as effective auxiliary weak supervision signals, providing complementary semantic context. However, hand-crafted textual descriptions struggle to capture the inherent visual diversity of individuals across scenes, limiting the model's ability to learn scene-aware representations. To address this challenge, we propose Visual-referred Probabilistic Prompt Learning (VirPro), an adaptive multi-modal pretraining paradigm that can be seamlessly integrated into diverse weakly supervised monocular 3D detection frameworks. Specifically, we generate a diverse set of learnable, instance-conditioned prompts across scenes and store them in an Adaptive Prompt Bank (APB). Subsequently, we introduce Multi-Gaussian Prompt Modeling (MGPM), which incorporates scene-based visual features into the corresponding textual embeddings, allowing the text prompts to express visual uncertainties. Then, from the fused vision-language embeddings, we decode a prompt-targeted Gaussian, from which we derive a unified object-level prompt embedding for each instance. RoI-level contrastive matching is employed to enforce modality alignment, bringing embeddings of co-occurring objects within the same scene closer in the latent space, thus enhancing semantic coherence. Extensive experiments on the KITTI benchmark demonstrate that integrating our pretraining paradigm consistently yields substantial performance gains, achieving up to a 4.8% average precision improvement than the baseline. Code is available at https://github.com/AustinLCP/VirPro.",
       "categories": [
         "cs.CV",
         "cs.AI"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2603.17470v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.17470v2",
       "journal_ref": null,
       "doi": null,
       "comment": "Accepted by CVPR 2026 Findings",
-      "entry_id": "http://arxiv.org/abs/2603.17470v1",
+      "entry_id": "http://arxiv.org/abs/2603.17470v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2603.17470v1",
+          "href": "https://arxiv.org/abs/2603.17470v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2603.17470v1",
+          "href": "https://arxiv.org/pdf/2603.17470v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -101620,6 +101760,82 @@
     }
   },
   "Depth Estimation": {
+    "2603.19552": {
+      "title": "StreetForward: Perceiving Dynamic Street with Feedforward Causal Attention",
+      "authors": [
+        "Zhongrui Yu",
+        "Zhao Wang",
+        "Yijia Xie",
+        "Yida Wang",
+        "Xueyang Zhang",
+        "Yifei Zhan",
+        "Kun Zhan"
+      ],
+      "published": "2026-03-20T01:31:05+00:00",
+      "updated": "2026-03-20T01:31:05+00:00",
+      "summary": "Feedforward reconstruction is crucial for autonomous driving applications, where rapid scene reconstruction enables efficient utilization of large-scale driving datasets in closed-loop simulation and other downstream tasks, eliminating the need for time-consuming per-scene optimization. We present StreetForward, a pose-free and tracker-free feedforward framework for dynamic street reconstruction. Building upon the alternating attention mechanism from Visual Geometry Grounded Transformer (VGGT), we propose a simple yet effective temporal mask attention module that captures dynamic motion information from image sequences and produces motion-aware latent representations. Static content and dynamic instances are represented uniformly with 3D Gaussian Splatting, and are optimized jointly by cross-frame rendering with spatio-temporal consistency, allowing the model to infer per-pixel velocities and produce high-fidelity novel views at new poses and times. We train and evaluate our model on the Waymo Open Dataset, demonstrating superior performance on novel view synthesis and depth estimation compared to existing methods. Furthermore, zero-shot inference on CARLA and other datasets validates the generalization capability of our approach. More visualizations are available on our project page: https://streetforward.github.io.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.19552v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2603.19552v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.19552v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.19552v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2603.19547": {
+      "title": "SeeClear: Reliable Transparent Object Depth Estimation via Generative Opacification",
+      "authors": [
+        "Xiaoying Wang",
+        "Yumeng He",
+        "Jingkai Shi",
+        "Jiayin Lu",
+        "Yin Yang",
+        "Ying Jiang",
+        "Chenfanfu Jiang"
+      ],
+      "published": "2026-03-20T01:08:04+00:00",
+      "updated": "2026-03-20T01:08:04+00:00",
+      "summary": "Monocular depth estimation remains challenging for transparent objects, where refraction and transmission are difficult to model and break the appearance assumptions used by depth networks. As a result, state-of-the-art estimators often produce unstable or incorrect depth predictions for transparent materials. We propose SeeClear, a novel framework that converts transparent objects into generative opaque images, enabling stable monocular depth estimation for transparent objects. Given an input image, we first localize transparent regions and transform their refractive appearance into geometrically consistent opaque shapes using a diffusion-based generative opacification module. The processed image is then fed into an off-the-shelf monocular depth estimator without retraining or architectural changes. To train the opacification model, we construct SeeClear-396k, a synthetic dataset containing 396k paired transparent-opaque renderings. Experiments on both synthetic and real-world datasets show that SeeClear significantly improves depth estimation for transparent objects. Project page: https://heyumeng.com/SeeClear-web/",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.19547v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Project page: https://heyumeng.com/SeeClear-web/. 19 pages, 12 figures",
+      "entry_id": "http://arxiv.org/abs/2603.19547v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.19547v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.19547v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2603.18943": {
       "title": "VGGT-360: Geometry-Consistent Zero-Shot Panoramic Depth Estimation",
       "authors": [

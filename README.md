@@ -1,4 +1,4 @@
-## Updated at 2026-03-23 08:27:19
+## Updated at 2026-03-23 20:17:21
 
 ## 3DGS Semantic
 
@@ -8,6 +8,9 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-03-20**|**[HUGE-Bench: A Benchmark for High-Level UAV Vision-Language-Action Tasks](https://arxiv.org/abs/2603.19822)**|N/A|None|cs.CV|None|Jingyu Guo et al.|
+|**2026-03-20**|**[One Model, Two Minds: Task-Conditioned Reasoning for Unified Image Quality and Aesthetic Assessment](https://arxiv.org/abs/2603.19779)**|N/A|10 pages,7 figures|cs.CV|None|Wen Yin et al.|
+|**2026-03-20**|**[Optimal Scalar Quantization for Matrix Multiplication: Closed-Form Density and Phase Transition](https://arxiv.org/abs/2603.19559)**|N/A|None|cs.IT|None|Calvin Ang et al.|
 |**2026-03-19**|**[Reconstruction Matters: Learning Geometry-Aligned BEV Representation through 3D Gaussian Splatting](https://arxiv.org/abs/2603.19193)**|N/A|Project page at https://vulab-ai.github.io/Splat2BEV/|cs.CV|None|Yiren Lu et al.|
 |**2026-03-19**|**[GSMem: 3D Gaussian Splatting as Persistent Spatial Memory for Zero-Shot Embodied Exploration and Reasoning](https://arxiv.org/abs/2603.19137)**|N/A|Project page at https://vulab-ai.github.io/GSMem/|cs.CV|None|Yiren Lu et al.|
 |**2026-03-19**|**[SwiftGS: Episodic Priors for Immediate Satellite Surface Recovery](https://arxiv.org/abs/2603.18634)**|N/A|24 pages, 6 figures|cs.CV|None|Rong Fu et al.|
@@ -733,6 +736,8 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-03-20**|**[StreetForward: Perceiving Dynamic Street with Feedforward Causal Attention](https://arxiv.org/abs/2603.19552)**|N/A|None|cs.CV|None|Zhongrui Yu et al.|
+|**2026-03-20**|**[SeeClear: Reliable Transparent Object Depth Estimation via Generative Opacification](https://arxiv.org/abs/2603.19547)**|N/A|Project page: https://heyumeng.com/SeeClear-web/. 19 pages, 12 figures|cs.CV|None|Xiaoying Wang et al.|
 |**2026-03-19**|**[VGGT-360: Geometry-Consistent Zero-Shot Panoramic Depth Estimation](https://arxiv.org/abs/2603.18943)**|N/A|None|cs.CV|None|Jiayi Yuan et al.|
 |**2026-03-18**|**[Semantic Segmentation and Depth Estimation for Real-Time Lunar Surface Mapping Using 3D Gaussian Splatting](https://arxiv.org/abs/2603.18218)**|N/A|None|cs.CV|None|Guillem Casadesus Vila et al.|
 |**2026-03-18**|**[UniSem: Generalizable Semantic 3D Reconstruction from Sparse Unposed Images](https://arxiv.org/abs/2603.17519)**|N/A|None|cs.CV|None|Guibiao Liao et al.|
