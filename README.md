@@ -1,4 +1,4 @@
-## Updated at 2026-03-24 08:24:09
+## Updated at 2026-03-24 20:19:08
 
 ## 3DGS Semantic
 
@@ -8,6 +8,13 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-03-23**|**[FreeArtGS: Articulated Gaussian Splatting Under Free-moving Scenario](https://arxiv.org/abs/2603.22102)**|N/A|Accepted to CVPR 2026|cs.CV|None|Hang Dai et al.|
+|**2026-03-23**|**[Adapting Point Cloud Analysis via Multimodal Bayesian Distribution Learning](https://arxiv.org/abs/2603.22070)**|N/A|CVPR 2026|cs.CV|None|Xingyu Zhu et al.|
+|**2026-03-23**|**[Diffraction of deep-water solitons](https://arxiv.org/abs/2603.21801)**|N/A|None|nlin.PS|None|Filip Novkoski et al.|
+|**2026-03-23**|**[The Universal Normal Embedding](https://arxiv.org/abs/2603.21786)**|N/A|Accepted to CVPR 2026|cs.CV|None|Chen Tasker et al.|
+|**2026-03-23**|**[PGR-Net: Prior-Guided ROI Reasoning Network for Brain Tumor MRI Segmentation](https://arxiv.org/abs/2603.21626)**|N/A|This paper has been accepted to the main conference of CVPR 2026|cs.CV|None|Jiacheng Lu et al.|
+|**2026-03-23**|**[GaussianSSC: Triplane-Guided Directional Gaussian Fields for 3D Semantic Completion](https://arxiv.org/abs/2603.21487)**|N/A|None|cs.RO|None|Ruiqi Xian et al.|
+|**2026-03-22**|**[Anatomical Prior-Driven Framework for Autonomous Robotic Cardiac Ultrasound Standard View Acquisition](https://arxiv.org/abs/2603.21134)**|N/A|Accepted for publication at the IEEE ICRA 2026. 8 pages, 5 figures, 3 tables|cs.RO|None|Zhiyan Cao et al.|
 |**2026-03-20**|**[HUGE-Bench: A Benchmark for High-Level UAV Vision-Language-Action Tasks](https://arxiv.org/abs/2603.19822)**|N/A|None|cs.CV|None|Jingyu Guo et al.|
 |**2026-03-20**|**[One Model, Two Minds: Task-Conditioned Reasoning for Unified Image Quality and Aesthetic Assessment](https://arxiv.org/abs/2603.19779)**|N/A|10 pages,7 figures|cs.CV|None|Wen Yin et al.|
 |**2026-03-20**|**[Optimal Scalar Quantization for Matrix Multiplication: Closed-Form Density and Phase Transition](https://arxiv.org/abs/2603.19559)**|N/A|None|cs.IT|None|Calvin Ang et al.|
@@ -28,7 +35,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2026-03-16**|**[Feed-forward Gaussian Registration for Head Avatar Creation and Editing](https://arxiv.org/abs/2603.15811)**|N/A|Website: https://malteprinzler.github.io/projects/match ; Video: https://youtu.be/Z3xoXQ648sE|cs.CV|None|Malte Prinzler et al.|
 |**2026-03-16**|**[Interaction-Enabled Hartree Fixed Points in Fermionic Resetting Dynamics](https://arxiv.org/abs/2603.15554)**|N/A|14 pages, 7 figures|quant-ph|None|Jishad Kumar et al.|
 |**2026-03-16**|**[NavGSim: High-Fidelity Gaussian Splatting Simulator for Large-Scale Navigation](https://arxiv.org/abs/2603.15186)**|N/A|None|cs.RO|None|Jiahang Liu et al.|
-|**2026-03-16**|**[ANNA: a toolbox for Newtonian Noise Analysis](https://arxiv.org/abs/2603.15157)**|N/A|Preprint submitted to the Journal of Computational Physics|physics.app-ph|None|Pieter Reumers et al.|
+|**2026-03-16**|**[ANNA: a toolbox for Newtonian Noise Analysis](https://arxiv.org/abs/2603.15157)**|N/A|None|physics.app-ph|None|Pieter Reumers et al.|
 |**2026-03-16**|**[KGS-GCN: Enhancing Sparse Skeleton Sensing via Kinematics-Driven Gaussian Splatting and Probabilistic Topology for Action Recognition](https://arxiv.org/abs/2603.16943)**|N/A|None|cs.CV|None|Yuhan Chen et al.|
 |**2026-03-15**|**[Power-Law Spectrum of the Random Feature Model](https://arxiv.org/abs/2603.14578)**|N/A|None|stat.ML|None|Elliot Paquette et al.|
 |**2026-03-15**|**[Direct Object-Level Reconstruction via Probabilistic Gaussian Splatting](https://arxiv.org/abs/2603.14316)**|N/A|None|cs.CV|None|Shuai Guo et al.|
@@ -48,6 +55,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2026-03-10**|**[X-GS: An Extensible Open Framework for Perceiving and Thinking via 3D Gaussian Splatting](https://arxiv.org/abs/2603.09632)**|N/A|None|cs.CV|None|Yueen Ma et al.|
 |**2026-03-10**|**[Learning Convex Decomposition via Feature Fields](https://arxiv.org/abs/2603.09285)**|N/A|14 pages, 12 figures|cs.CV|None|Yuezhi Yang et al.|
 |**2026-03-10**|**[GST-VLA: Structured Gaussian Spatial Tokens for 3D Depth-Aware Vision-Language-Action Models](https://arxiv.org/abs/2603.09079)**|N/A|The results presented in this paper are preliminary. Please note that the experiments are currently ongoing, and the final data is subject to change upon the completion of the study. All ideas, results, methods, and any content herein are the sole property of the authors|cs.CV|None|Md Selim Sarowar et al.|
+|**2026-03-09**|**[Rheos: Modelling Continuous Motion Dynamics in Hierarchical 3D Scene Graphs](https://arxiv.org/abs/2603.20239)**|N/A|None|cs.RO|None|Iacopo Catalano et al.|
 |**2026-03-09**|**[HDR-NSFF: High Dynamic Range Neural Scene Flow Fields](https://arxiv.org/abs/2603.08313)**|N/A|ICLR 2026. Project page: https://shin-dong-yeon.github.io/HDR-NSFF/|cs.CV|None|Shin Dong-Yeon et al.|
 |**2026-03-08**|**[Holi-Spatial: Evolving Video Streams into Holistic 3D Spatial Intelligence](https://arxiv.org/abs/2603.07660)**|N/A|project page: https://visionary-laboratory.github.io/holi-spatial/|cs.CV|None|Yuanyuan Gao et al.|
 |**2026-03-08**|**[3DGS-HPC: Distractor-free 3D Gaussian Splatting with Hybrid Patch-wise Classification](https://arxiv.org/abs/2603.07587)**|N/A|None|cs.CV|None|Jiahao Chen et al.|
@@ -274,6 +282,7 @@ Query: (abs:'Multi-View Stereo' OR abs:'Multi View Stereo' OR abs:'Multi-View De
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-03-21**|**[The Role and Relationship of Initialization and Densification in 3D Gaussian Splatting](https://arxiv.org/abs/2603.20714)**|N/A|Sources will be made publicly available|cs.CV|None|Ivan Desiatov, Torsten Sattler|
 |**2026-03-04**|**[LiDAR Prompted Spatio-Temporal Multi-View Stereo for Autonomous Driving](https://arxiv.org/abs/2603.03765)**|N/A|None|cs.CV|None|Qihao Sun et al.|
 |**2026-02-24**|**[Olbedo: An Albedo and Shading Aerial Dataset for Large-Scale Outdoor Environments](https://arxiv.org/abs/2602.22025)**|N/A|CVPR 2026|cs.CV|None|Shuang Song et al.|
 |**2026-02-23**|**[One2Scene: Geometric Consistent Explorable 3D Scene Generation from a Single Image](https://arxiv.org/abs/2602.19766)**|N/A|ICLR 2026|cs.CV|None|Pengfei Wang et al.|
@@ -736,6 +745,10 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-03-23**|**[GenOpticalFlow: A Generative Approach to Unsupervised Optical Flow Learning](https://arxiv.org/abs/2603.22270)**|N/A|None|cs.CV|None|Yixuan Luo et al.|
+|**2026-03-22**|**[PAS3R: Pose-Adaptive Streaming 3D Reconstruction for Long Video Sequences](https://arxiv.org/abs/2603.21436)**|N/A|None|cs.CV|None|Lanbo Xu et al.|
+|**2026-03-22**|**[Single-Eye View: Monocular Real-time Perception Package for Autonomous Driving](https://arxiv.org/abs/2603.21061)**|N/A|9 pages, 5 figures|cs.CV|None|Haixi Zhang et al.|
+|**2026-03-21**|**[The Role and Relationship of Initialization and Densification in 3D Gaussian Splatting](https://arxiv.org/abs/2603.20714)**|N/A|Sources will be made publicly available|cs.CV|None|Ivan Desiatov, Torsten Sattler|
 |**2026-03-20**|**[StreetForward: Perceiving Dynamic Street with Feedforward Causal Attention](https://arxiv.org/abs/2603.19552)**|N/A|None|cs.CV|None|Zhongrui Yu et al.|
 |**2026-03-20**|**[SeeClear: Reliable Transparent Object Depth Estimation via Generative Opacification](https://arxiv.org/abs/2603.19547)**|N/A|Project page: https://heyumeng.com/SeeClear-web/. 19 pages, 12 figures|cs.CV|None|Xiaoying Wang et al.|
 |**2026-03-19**|**[VGGT-360: Geometry-Consistent Zero-Shot Panoramic Depth Estimation](https://arxiv.org/abs/2603.18943)**|N/A|None|cs.CV|None|Jiayi Yuan et al.|
