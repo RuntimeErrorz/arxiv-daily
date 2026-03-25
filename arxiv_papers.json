@@ -1,5 +1,357 @@
 {
   "3DGS Semantic": {
+    "2603.23472": {
+      "title": "Byzantine-Robust and Differentially Private Federated Optimization under Weaker Assumptions",
+      "authors": [
+        "Rustem Islamov",
+        "Grigory Malinovsky",
+        "Alexander Gaponov",
+        "Aurelien Lucchi",
+        "Peter Richtárik",
+        "Eduard Gorbunov"
+      ],
+      "published": "2026-03-24T17:39:09+00:00",
+      "updated": "2026-03-24T17:39:09+00:00",
+      "summary": "Federated Learning (FL) enables heterogeneous clients to collaboratively train a shared model without centralizing their raw data, offering an inherent level of privacy. However, gradients and model updates can still leak sensitive information, while malicious servers may mount adversarial attacks such as Byzantine manipulation. These vulnerabilities highlight the need to address differential privacy (DP) and Byzantine robustness within a unified framework. Existing approaches, however, often rely on unrealistic assumptions such as bounded gradients, require auxiliary server-side datasets, or fail to provide convergence guarantees. We address these limitations by proposing Byz-Clip21-SGD2M, a new algorithm that integrates robust aggregation with double momentum and carefully designed clipping. We prove high-probability convergence guarantees under standard $L$-smoothness and $σ$-sub-Gaussian gradient noise assumptions, thereby relaxing conditions that dominate prior work. Our analysis recovers state-of-the-art convergence rates in the absence of adversaries and improves utility guarantees under Byzantine and DP settings. Empirical evaluations on CNN and MLP models trained on MNIST further validate the effectiveness of our approach.",
+      "categories": [
+        "cs.LG",
+        "cs.CR",
+        "math.OC"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2603.23472v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "12 pages, 3 figures",
+      "entry_id": "http://arxiv.org/abs/2603.23472v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.23472v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.23472v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2603.23463": {
+      "title": "InverFill: One-Step Inversion for Enhanced Few-Step Diffusion Inpainting",
+      "authors": [
+        "Duc Vu",
+        "Kien Nguyen",
+        "Trong-Tung Nguyen",
+        "Ngan Nguyen",
+        "Phong Nguyen",
+        "Khoi Nguyen",
+        "Cuong Pham",
+        "Anh Tran"
+      ],
+      "published": "2026-03-24T17:32:55+00:00",
+      "updated": "2026-03-24T17:32:55+00:00",
+      "summary": "Recent diffusion-based models achieve photorealism in image inpainting but require many sampling steps, limiting practical use. Few-step text-to-image models offer faster generation, but naively applying them to inpainting yields poor harmonization and artifacts between the background and inpainted region. We trace this cause to random Gaussian noise initialization, which under low function evaluations causes semantic misalignment and reduced fidelity. To overcome this, we propose InverFill, a one-step inversion method tailored for inpainting that injects semantic information from the input masked image into the initial noise, enabling high-fidelity few-step inpainting. Instead of training inpainting models, InverFill leverages few-step text-to-image models in a blended sampling pipeline with semantically aligned noise as input, significantly improving vanilla blended sampling and even matching specialized inpainting models at low NFEs. Moreover, InverFill does not require real-image supervision and only adds minimal inference overhead. Extensive experiments show that InverFill consistently boosts baseline few-step models, improving image quality and text coherence without costly retraining or heavy iterative optimization.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.23463v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted to CVPR'26 (Main Conference)",
+      "entry_id": "http://arxiv.org/abs/2603.23463v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.23463v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.23463v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2603.23344": {
+      "title": "An Explainable AI-Driven Framework for Automated Brain Tumor Segmentation Using an Attention-Enhanced U-Net",
+      "authors": [
+        "MD Rashidul Islam",
+        "Bakary Gibba"
+      ],
+      "published": "2026-03-24T15:42:49+00:00",
+      "updated": "2026-03-24T15:42:49+00:00",
+      "summary": "Computer-aided segmentation of brain tumors from MRI data is of crucial significance to clinical decision-making in diagnosis, treatment planning, and follow-up disease monitoring. Gliomas, owing to their high malignancy and heterogeneity, represent a very challenging task for accurate and reliable segmentation into intra-tumoral sub-regions. Manual segmentation is typically time-consuming and not reliable, which justifies the need for robust automated techniques.This research resolves this problem by leveraging the BraTS 2020 dataset, where we have labeled MRI scans of glioma patients with four significant classes: background/healthy tissue, necrotic/non-enhancing core, edema, and enhancing tumor. In this work, we present a new segmentation technique based on a U-Net model augmented with executed attention gates to focus on the most significant regions of images. To counter class imbalance, we employ manually designed loss functions like Dice Loss and Categorical Dice Loss, in conjunction with standard categorical cross-entropy. Other evaluation metrics, like sensitivity and specificity, were used to measure discriminability of the model between tumor classes. Besides, we introduce Grad-CAM-based explainable AI to enable visualizing attention regions and improve model interpretability, together with a smooth heatmap generation technique through Gaussian filtering. Our approach achieved superior performance with accuracy of 0.9919, Dice coefficient of 0.9901, mean IoU of 0.9873, sensitivity of 0.9908, and specificity of 0.9974. This study demonstrates that the use of attention mechanisms, personalized loss functions, and explainable AI significantly improves highly complex tumor structure segmentation precision in MRI scans, providing a reliable and explainable method for clinical applications.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.23344v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2603.23344v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.23344v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.23344v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2603.23168": {
+      "title": "GSwap: Realistic Head Swapping with Dynamic Neural Gaussian Field",
+      "authors": [
+        "Jingtao Zhou",
+        "Xuan Gao",
+        "Dongyu Liu",
+        "Junhui Hou",
+        "Yudong Guo",
+        "Juyong Zhang"
+      ],
+      "published": "2026-03-24T13:11:25+00:00",
+      "updated": "2026-03-24T13:11:25+00:00",
+      "summary": "We present GSwap, a novel consistent and realistic video head-swapping system empowered by dynamic neural Gaussian portrait priors, which significantly advances the state of the art in face and head replacement. Unlike previous methods that rely primarily on 2D generative models or 3D Morphable Face Models (3DMM), our approach overcomes their inherent limitations, including poor 3D consistency, unnatural facial expressions, and restricted synthesis quality. Moreover, existing techniques struggle with full head-swapping tasks due to insufficient holistic head modeling and ineffective background blending, often resulting in visible artifacts and misalignments. To address these challenges, GSwap introduces an intrinsic 3D Gaussian feature field embedded within a full-body SMPL-X surface, effectively elevating 2D portrait videos into a dynamic neural Gaussian field. This innovation ensures high-fidelity, 3D-consistent portrait rendering while preserving natural head-torso relationships and seamless motion dynamics. To facilitate training, we adapt a pretrained 2D portrait generative model to the source head domain using only a few reference images, enabling efficient domain adaptation. Furthermore, we propose a neural re-rendering strategy that harmoniously integrates the synthesized foreground with the original background, eliminating blending artifacts and enhancing realism. Extensive experiments demonstrate that GSwap surpasses existing methods in multiple aspects, including visual quality, temporal coherence, identity preservation, and 3D consistency.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.23168v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted to TVCG, Project page: https://ustc3dv.github.io/GSwap/",
+      "entry_id": "http://arxiv.org/abs/2603.23168v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.23168v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.23168v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2603.23132": {
+      "title": "InterDyad: Interactive Dyadic Speech-to-Video Generation by Querying Intermediate Visual Guidance",
+      "authors": [
+        "Dongwei Pan",
+        "Longwei Guo",
+        "Jiazhi Guan",
+        "Luying Huang",
+        "Yiding Li",
+        "Haojie Liu",
+        "Haocheng Feng",
+        "Wei He",
+        "Kaisiyuan Wang",
+        "Hang Zhou"
+      ],
+      "published": "2026-03-24T12:27:52+00:00",
+      "updated": "2026-03-24T12:27:52+00:00",
+      "summary": "Despite progress in speech-to-video synthesis, existing methods often struggle to capture cross-individual dependencies and provide fine-grained control over reactive behaviors in dyadic settings. To address these challenges, we propose InterDyad, a framework that enables naturalistic interactive dynamics synthesis via querying structural motion guidance. Specifically, we first design an Interactivity Injector that achieves video reenactment based on identity-agnostic motion priors extracted from reference videos. Building upon this, we introduce a MetaQuery-based modality alignment mechanism to bridge the gap between conversational audio and these motion priors. By leveraging a Multimodal Large Language Model (MLLM), our framework is able to distill linguistic intent from audio to dictate the precise timing and appropriateness of reactions. To further improve lip-sync quality under extreme head poses, we propose Role-aware Dyadic Gaussian Guidance (RoDG) for enhanced lip-synchronization and spatial consistency. Finally, we introduce a dedicated evaluation suite with novelly designed metrics to quantify dyadic interaction. Comprehensive experiments demonstrate that InterDyad significantly outperforms state-of-the-art methods in producing natural and contextually grounded two-person interactions. Please refer to our project page for demo videos: https://interdyad.github.io/.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.23132v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Project Page: https://interdyad.github.io/",
+      "entry_id": "http://arxiv.org/abs/2603.23132v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.23132v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.23132v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2603.22852": {
+      "title": "Gau-Occ: Geometry-Completed Gaussians for Multi-Modal 3D Occupancy Prediction",
+      "authors": [
+        "Chengxin Lv",
+        "Yihui Li",
+        "Hongyu Yang",
+        "YunHong Wang"
+      ],
+      "published": "2026-03-24T06:44:46+00:00",
+      "updated": "2026-03-24T06:44:46+00:00",
+      "summary": "3D semantic occupancy prediction is crucial for autonomous driving. While multi-modal fusion improves accuracy over vision-only methods, it typically relies on computationally expensive dense voxel or BEV tensors. We present Gau-Occ, a multi-modal framework that bypasses dense volumetric processing by modeling the scene as a compact collection of semantic 3D Gaussians. To ensure geometric completeness, we propose a LiDAR Completion Diffuser (LCD) that recovers missing structures from sparse LiDAR to initialize robust Gaussian anchors. Furthermore, we introduce Gaussian Anchor Fusion (GAF), which efficiently integrates multi-view image semantics via geometry-aligned 2D sampling and cross-modal alignment. By refining these compact Gaussian descriptors, Gau-Occ captures both spatial consistency and semantic discriminability. Extensive experiments across challenging benchmarks demonstrate that Gau-Occ achieves state-of-the-art performance with significant computational efficiency.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.22852v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2603.22852v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.22852v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.22852v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2603.22796": {
+      "title": "PhotoAgent: A Robotic Photographer with Spatial and Aesthetic Understanding",
+      "authors": [
+        "Lirong Che",
+        "Zhenfeng Gan",
+        "Yanbo Chen",
+        "Junbo Tan",
+        "Xueqian Wang"
+      ],
+      "published": "2026-03-24T04:40:33+00:00",
+      "updated": "2026-03-24T04:40:33+00:00",
+      "summary": "Embodied agents for creative tasks like photography must bridge the semantic gap between high-level language commands and geometric control. We introduce PhotoAgent, an agent that achieves this by integrating Large Multimodal Models (LMMs) reasoning with a novel control paradigm. PhotoAgent first translates subjective aesthetic goals into solvable geometric constraints via LMM-driven, chain-of-thought (CoT) reasoning, allowing an analytical solver to compute a high-quality initial viewpoint. This initial pose is then iteratively refined through visual reflection within a photorealistic internal world model built with 3D Gaussian Splatting (3DGS). This ``mental simulation'' replaces costly and slow physical trial-and-error, enabling rapid convergence to aesthetically superior results. Evaluations confirm that PhotoAgent excels in spatial reasoning and achieves superior final image quality.",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.22796v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted to the IEEE International Conference on Robotics and Automation (ICRA) 2026",
+      "entry_id": "http://arxiv.org/abs/2603.22796v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.22796v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.22796v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2603.22792": {
+      "title": "Instrument-Splatting++: Towards Controllable Surgical Instrument Digital Twin Using Gaussian Splatting",
+      "authors": [
+        "Shuojue Yang",
+        "Zijian Wu",
+        "Chengjiaao Liao",
+        "Qian Li",
+        "Daiyun Shen",
+        "Chang Han Low",
+        "Septimiu E. Salcudean",
+        "Yueming Jin"
+      ],
+      "published": "2026-03-24T04:31:09+00:00",
+      "updated": "2026-03-24T04:31:09+00:00",
+      "summary": "High-quality and controllable digital twins of surgical instruments are critical for Real2Sim in robot-assisted surgery, as they enable realistic simulation, synthetic data generation, and perception learning under novel poses. We present Instrument-Splatting++, a monocular 3D Gaussian Splatting (3DGS) framework that reconstructs surgical instruments as a fully controllable Gaussian asset with high fidelity. Our pipeline starts with part-wise geometry pretraining that injects CAD priors into Gaussian primitives and equips the representation with part-aware semantic rendering. Built on the pretrained model, we propose a semantics-aware pose estimation and tracking (SAPET) method to recover per-frame 6-DoF pose and joint angles from unposed endoscopic videos, where a gripper-tip network trained purely from synthetic semantics provides robust supervision and a loose regularization suppresses singular articulations. Finally, we introduce Robust Texture Learning (RTL), which alternates pose refinement and robust appearance optimization, mitigating pose noise during texture learning. The proposed framework can perform pose estimation and learn realistic texture from unposed videos. We validate our method on sequences extracted from EndoVis17/18, SAR-RARP, and an in-house dataset, showing superior photometric quality and improved geometric accuracy over state-of-the-art baselines. We further demonstrate a downstream keypoint detection task where unseen-pose data augmentation from our controllable instrument Gaussian improves performance.",
+      "categories": [
+        "cs.RO"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2603.22792v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "10 pages, 9 figures",
+      "entry_id": "http://arxiv.org/abs/2603.22792v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.22792v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.22792v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2603.22474": {
+      "title": "From Brittle to Robust: Improving LLM Annotations for SE Optimization",
+      "authors": [
+        "Lohith Senthilkumar",
+        "Tim Menzies"
+      ],
+      "published": "2026-03-23T18:42:15+00:00",
+      "updated": "2026-03-23T18:42:15+00:00",
+      "summary": "Software analytics often builds from labeled data. Labeling can be slow, error prone, and expensive. When human expertise is scarce, SE researchers sometimes ask large language models (LLMs) for the missing labels. While this has been successful in some domains, recent results show that LLM-based labeling has blind spots. Specifically, their labeling is not effective for higher dimensional multi-objective problems. To address this task, we propose a novel LLM prompting strategy called SynthCore. When one opinion fails, SynthCore's combines multiple separated opinions generated by LLMs (with no knowledge of each others' answers) into an ensemble of few-shot learners. Simpler than other strategies (e.g. chain-of-thought, multi-agent-debate, etc) SynthCore aggregates results from multiple single prompt sessions (with no crossover between them). SynthCore has been tested on 49 SE multi-objective optimization tasks, handling tasks as diverse as software project management, Makefile configuration, and hyperparameter optimization. SynthCore's ensemble found optimizations that are better than state-of-the-art alternative approaches (Gaussian Process Models, Tree of Parzen Estimators, active learners in both exploration and exploitation mode). Importantly, these optimizations were made using data labeled by LLMs, without any human opinions. From these experiments, we conclude that ensembles of few shot learners can successfully annotate high dimensional multi-objective tasks. Further, we speculate that other successful few-shot prompting results could be quickly and easily enhanced using SynthCore's ensemble approach. To support open science, all our data and scripts are available at https://github.com/lohithsowmiyan/lazy-llm/tree/clusters.",
+      "categories": [
+        "cs.SE"
+      ],
+      "primary_category": "cs.SE",
+      "pdf_url": "https://arxiv.org/pdf/2603.22474v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2603.22474v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.22474v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.22474v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-25",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
     "2603.22102": {
       "title": "FreeArtGS: Articulated Gaussian Splatting Under Free-moving Scenario",
       "authors": [
@@ -102172,6 +102524,77 @@
     }
   },
   "Depth Estimation": {
+    "2603.23488": {
+      "title": "One View Is Enough! Monocular Training for In-the-Wild Novel View Generation",
+      "authors": [
+        "Adrien Ramanana Rahary",
+        "Nicolas Dufour",
+        "Patrick Perez",
+        "David Picard"
+      ],
+      "published": "2026-03-24T17:54:25+00:00",
+      "updated": "2026-03-24T17:54:25+00:00",
+      "summary": "Monocular novel-view synthesis has long required multi-view image pairs for supervision, limiting training data scale and diversity. We argue it is not necessary: one view is enough. We present OVIE, trained entirely on unpaired internet images. We leverage a monocular depth estimator as a geometric scaffold at training time: we lift a source image into 3D, apply a sampled camera transformation, and project to obtain a pseudo-target view. To handle disocclusions, we introduce a masked training formulation that restricts geometric, perceptual, and textural losses to valid regions, enabling training on 30 million uncurated images. At inference, OVIE is geometry-free, requiring no depth estimator or 3D representation. Trained exclusively on in-the-wild images, OVIE outperforms prior methods in a zero-shot setting, while being 600x faster than the second-best baseline. Code and models are publicly available at https://github.com/AdrienRR/ovie.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.23488v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "34 pages, 16 figures",
+      "entry_id": "http://arxiv.org/abs/2603.23488v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.23488v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.23488v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2603.23032": {
+      "title": "Generative Event Pretraining with Foundation Model Alignment",
+      "authors": [
+        "Jianwen Cao",
+        "Jiaxu Xing",
+        "Nico Messikommer",
+        "Davide Scaramuzza"
+      ],
+      "published": "2026-03-24T10:10:34+00:00",
+      "updated": "2026-03-24T10:10:34+00:00",
+      "summary": "Event cameras provide robust visual signals under fast motion and challenging illumination conditions thanks to their microsecond latency and high dynamic range. However, their unique sensing characteristics and limited labeled data make it challenging to train event-based visual foundation models (VFMs), which are crucial for learning visual features transferable across tasks. To tackle this problem, we propose GEP (Generative Event Pretraining), a two-stage framework that transfers semantic knowledge learned from internet-scale image datasets to event data while learning event-specific temporal dynamics. First, an event encoder is aligned to a frozen VFM through a joint regression-contrastive objective, grounding event features in image semantics. Second, a transformer backbone is autoregressively pretrained on mixed event-image sequences to capture the temporal structure unique to events. Our approach outperforms state-of-the-art event pretraining methods on a diverse range of downstream tasks, including object recognition, segmentation, and depth estimation. Together, VFM-guided alignment and generative sequence modeling yield a semantically rich, temporally aware event model that generalizes robustly across domains.",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.23032v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2603.23032v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.23032v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.23032v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2603.22270": {
       "title": "GenOpticalFlow: A Generative Approach to Unsupervised Optical Flow Learning",
       "authors": [

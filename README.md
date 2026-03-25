@@ -1,4 +1,4 @@
-## Updated at 2026-03-25 08:25:49
+## Updated at 2026-03-25 20:17:58
 
 ## 3DGS Semantic
 
@@ -8,6 +8,15 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-03-24**|**[Byzantine-Robust and Differentially Private Federated Optimization under Weaker Assumptions](https://arxiv.org/abs/2603.23472)**|N/A|12 pages, 3 figures|cs.LG|None|Rustem Islamov et al.|
+|**2026-03-24**|**[InverFill: One-Step Inversion for Enhanced Few-Step Diffusion Inpainting](https://arxiv.org/abs/2603.23463)**|N/A|Accepted to CVPR'26 (Main Conference)|cs.CV|None|Duc Vu et al.|
+|**2026-03-24**|**[An Explainable AI-Driven Framework for Automated Brain Tumor Segmentation Using an Attention-Enhanced U-Net](https://arxiv.org/abs/2603.23344)**|N/A|None|cs.CV|None|MD Rashidul Islam, Bakary Gibba|
+|**2026-03-24**|**[GSwap: Realistic Head Swapping with Dynamic Neural Gaussian Field](https://arxiv.org/abs/2603.23168)**|N/A|Accepted to TVCG, Project page: https://ustc3dv.github.io/GSwap/|cs.CV|None|Jingtao Zhou et al.|
+|**2026-03-24**|**[InterDyad: Interactive Dyadic Speech-to-Video Generation by Querying Intermediate Visual Guidance](https://arxiv.org/abs/2603.23132)**|N/A|Project Page: https://interdyad.github.io/|cs.CV|None|Dongwei Pan et al.|
+|**2026-03-24**|**[Gau-Occ: Geometry-Completed Gaussians for Multi-Modal 3D Occupancy Prediction](https://arxiv.org/abs/2603.22852)**|N/A|None|cs.CV|None|Chengxin Lv et al.|
+|**2026-03-24**|**[PhotoAgent: A Robotic Photographer with Spatial and Aesthetic Understanding](https://arxiv.org/abs/2603.22796)**|N/A|Accepted to the IEEE International Conference on Robotics and Automation (ICRA) 2026|cs.CV|None|Lirong Che et al.|
+|**2026-03-24**|**[Instrument-Splatting++: Towards Controllable Surgical Instrument Digital Twin Using Gaussian Splatting](https://arxiv.org/abs/2603.22792)**|N/A|10 pages, 9 figures|cs.RO|None|Shuojue Yang et al.|
+|**2026-03-23**|**[From Brittle to Robust: Improving LLM Annotations for SE Optimization](https://arxiv.org/abs/2603.22474)**|N/A|None|cs.SE|None|Lohith Senthilkumar, Tim Menzies|
 |**2026-03-23**|**[FreeArtGS: Articulated Gaussian Splatting Under Free-moving Scenario](https://arxiv.org/abs/2603.22102)**|N/A|Accepted to CVPR 2026|cs.CV|None|Hang Dai et al.|
 |**2026-03-23**|**[Adapting Point Cloud Analysis via Multimodal Bayesian Distribution Learning](https://arxiv.org/abs/2603.22070)**|N/A|CVPR 2026|cs.CV|None|Xingyu Zhu et al.|
 |**2026-03-23**|**[Diffraction of deep-water solitons](https://arxiv.org/abs/2603.21801)**|N/A|None|nlin.PS|None|Filip Novkoski et al.|
@@ -745,6 +754,8 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-03-24**|**[One View Is Enough! Monocular Training for In-the-Wild Novel View Generation](https://arxiv.org/abs/2603.23488)**|N/A|34 pages, 16 figures|cs.CV|None|Adrien Ramanana Rahary et al.|
+|**2026-03-24**|**[Generative Event Pretraining with Foundation Model Alignment](https://arxiv.org/abs/2603.23032)**|N/A|None|cs.CV|None|Jianwen Cao et al.|
 |**2026-03-23**|**[GenOpticalFlow: A Generative Approach to Unsupervised Optical Flow Learning](https://arxiv.org/abs/2603.22270)**|N/A|None|cs.CV|None|Yixuan Luo et al.|
 |**2026-03-22**|**[PAS3R: Pose-Adaptive Streaming 3D Reconstruction for Long Video Sequences](https://arxiv.org/abs/2603.21436)**|N/A|None|cs.CV|None|Lanbo Xu et al.|
 |**2026-03-22**|**[Single-Eye View: Monocular Real-time Perception Package for Autonomous Driving](https://arxiv.org/abs/2603.21061)**|N/A|9 pages, 5 figures|cs.CV|None|Haixi Zhang et al.|
