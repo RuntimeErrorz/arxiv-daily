@@ -1,4 +1,4 @@
-## Updated at 2026-03-25 20:17:58
+## Updated at 2026-03-27 20:17:20
 
 ## 3DGS Semantic
 
@@ -8,10 +8,17 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-03-26**|**[Learning Explicit Continuous Motion Representation for Dynamic Gaussian Splatting from Monocular Videos](https://arxiv.org/abs/2603.25058)**|N/A|Accepted to CVPR 2026|cs.CV|None|Xuankai Zhang et al.|
+|**2026-03-26**|**[$π$, But Make It Fly: Physics-Guided Transfer of VLA Models to Aerial Manipulation](https://arxiv.org/abs/2603.25038)**|N/A|None|cs.RO|None|Johnathan Tucker et al.|
+|**2026-03-25**|**[Le MuMo JEPA: Multi-Modal Self-Supervised Representation Learning with Learnable Fusion Tokens](https://arxiv.org/abs/2603.24327)**|N/A|None|cs.CV|None|Ciem Cornelissen et al.|
+|**2026-03-25**|**[Incremental Learning-Based Open-Set Classification of Unknown UAVs via RF Signal Semantics](https://arxiv.org/abs/2603.24268)**|N/A|Accepted in ICC 2026|eess.SP|None|Julie Liu et al.|
+|**2026-03-25**|**[Unlocking Few-Shot Capabilities in LVLMs via Prompt Conditioning and Head Selection](https://arxiv.org/abs/2603.24181)**|N/A|None|cs.CV|None|Adhemar de Senneville et al.|
+|**2026-03-25**|**[LightSplat: Fast and Memory-Efficient Open-Vocabulary 3D Scene Understanding in Five Seconds](https://arxiv.org/abs/2603.24146)**|N/A|Accepted to CVPR 2026|cs.CV|None|Jaehun Bang et al.|
+|**2026-03-25**|**[PAC-DP: Personalized Adaptive Clipping for Differentially Private Federated Learning](https://arxiv.org/abs/2603.24003)**|N/A|*Corresponding author: Hua Dai. 15 pages, 13 figures|cs.CR|None|Hao Zhou et al.|
 |**2026-03-24**|**[Byzantine-Robust and Differentially Private Federated Optimization under Weaker Assumptions](https://arxiv.org/abs/2603.23472)**|N/A|12 pages, 3 figures|cs.LG|None|Rustem Islamov et al.|
 |**2026-03-24**|**[InverFill: One-Step Inversion for Enhanced Few-Step Diffusion Inpainting](https://arxiv.org/abs/2603.23463)**|N/A|Accepted to CVPR'26 (Main Conference)|cs.CV|None|Duc Vu et al.|
 |**2026-03-24**|**[An Explainable AI-Driven Framework for Automated Brain Tumor Segmentation Using an Attention-Enhanced U-Net](https://arxiv.org/abs/2603.23344)**|N/A|None|cs.CV|None|MD Rashidul Islam, Bakary Gibba|
-|**2026-03-24**|**[GSwap: Realistic Head Swapping with Dynamic Neural Gaussian Field](https://arxiv.org/abs/2603.23168)**|N/A|Accepted to TVCG, Project page: https://ustc3dv.github.io/GSwap/|cs.CV|None|Jingtao Zhou et al.|
+|**2026-03-24**|**[GSwap: Realistic Head Swapping with Dynamic Neural Gaussian Field](https://arxiv.org/abs/2603.23168)**|IEEE Transactions on Visualization and Computer Graphics|Accepted to TVCG, Project page: https://ustc3dv.github.io/GSwap/|cs.CV|None|Jingtao Zhou et al.|
 |**2026-03-24**|**[InterDyad: Interactive Dyadic Speech-to-Video Generation by Querying Intermediate Visual Guidance](https://arxiv.org/abs/2603.23132)**|N/A|Project Page: https://interdyad.github.io/|cs.CV|None|Dongwei Pan et al.|
 |**2026-03-24**|**[Gau-Occ: Geometry-Completed Gaussians for Multi-Modal 3D Occupancy Prediction](https://arxiv.org/abs/2603.22852)**|N/A|None|cs.CV|None|Chengxin Lv et al.|
 |**2026-03-24**|**[PhotoAgent: A Robotic Photographer with Spatial and Aesthetic Understanding](https://arxiv.org/abs/2603.22796)**|N/A|Accepted to the IEEE International Conference on Robotics and Automation (ICRA) 2026|cs.CV|None|Lirong Che et al.|
@@ -291,6 +298,7 @@ Query: (abs:'Multi-View Stereo' OR abs:'Multi View Stereo' OR abs:'Multi-View De
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-03-25**|**[Accurate Point Measurement in 3DGS -- A New Alternative to Traditional Stereoscopic-View Based Measurements](https://arxiv.org/abs/2603.24716)**|N/A|Accepted to the 2026 ISPRS Congress|cs.CV|None|Deyan Deng, Rongjun Qin|
 |**2026-03-21**|**[The Role and Relationship of Initialization and Densification in 3D Gaussian Splatting](https://arxiv.org/abs/2603.20714)**|N/A|Sources will be made publicly available|cs.CV|None|Ivan Desiatov, Torsten Sattler|
 |**2026-03-04**|**[LiDAR Prompted Spatio-Temporal Multi-View Stereo for Autonomous Driving](https://arxiv.org/abs/2603.03765)**|N/A|None|cs.CV|None|Qihao Sun et al.|
 |**2026-02-24**|**[Olbedo: An Albedo and Shading Aerial Dataset for Large-Scale Outdoor Environments](https://arxiv.org/abs/2602.22025)**|N/A|CVPR 2026|cs.CV|None|Shuang Song et al.|

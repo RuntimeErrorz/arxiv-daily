@@ -1,5 +1,323 @@
 {
   "3DGS Semantic": {
+    "2603.25058": {
+      "title": "Learning Explicit Continuous Motion Representation for Dynamic Gaussian Splatting from Monocular Videos",
+      "authors": [
+        "Xuankai Zhang",
+        "Junjin Xiao",
+        "Shangwei Huang",
+        "Wei-shi Zheng",
+        "Qing Zhang"
+      ],
+      "published": "2026-03-26T05:51:56+00:00",
+      "updated": "2026-03-26T05:51:56+00:00",
+      "summary": "We present an approach for high-quality dynamic Gaussian Splatting from monocular videos. To this end, we in this work go one step further beyond previous methods to explicitly model continuous position and orientation deformation of dynamic Gaussians, using an SE(3) B-spline motion bases with a compact set of control points. To improve computational efficiency while enhancing the ability to model complex motions, an adaptive control mechanism is devised to dynamically adjust the number of motion bases and control points. Besides, we develop a soft segment reconstruction strategy to mitigate long-interval motion interference, and employ a multi-view diffusion model to provide multi-view cues for avoiding overfitting to training views. Extensive experiments demonstrate that our method outperforms state-of-the-art methods in novel view synthesis. Our code is available at https://github.com/hhhddddddd/se3bsplinegs.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.25058v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted to CVPR 2026",
+      "entry_id": "http://arxiv.org/abs/2603.25058v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.25058v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.25058v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-27",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2603.25038": {
+      "title": "$π$, But Make It Fly: Physics-Guided Transfer of VLA Models to Aerial Manipulation",
+      "authors": [
+        "Johnathan Tucker",
+        "Denis Liu",
+        "Aiden Swann",
+        "Allen Ren",
+        "Javier Yu",
+        "Jiankai Sun",
+        "Brandon Kim",
+        "Lachlain McGranahan",
+        "Quan Vuong",
+        "Mac Schwager"
+      ],
+      "published": "2026-03-26T05:19:54+00:00",
+      "updated": "2026-03-26T05:19:54+00:00",
+      "summary": "Vision-Language-Action (VLA) models such as $π_0$ have demonstrated remarkable generalization across diverse fixed-base manipulators. However, transferring these foundation models to aerial platforms remains an open challenge due to the fundamental mismatch between the quasi-static dynamics of fixed-base arms and the underactuated, highly dynamic nature of flight. In this work, we introduce AirVLA, a system that investigates the transferability of manipulation-pretrained VLAs to aerial pick-and-place tasks. We find that while visual representations transfer effectively, the specific control dynamics required for flight do not. To bridge this \"dynamics gap\" without retraining the foundation model, we introduce a Payload-Aware Guidance mechanism that injects payload constraints directly into the policy's flow-matching sampling process. To overcome data scarcity, we further utilize a Gaussian Splatting pipeline to synthesize navigation training data. We evaluate our method through a cumulative 460 real-world experiments which demonstrate that this synthetic data is a key enabler of performance, unlocking 100% success in navigation tasks where directly fine-tuning on teleoperation data alone attains 81% success. Our inference-time intervention, Payload-Aware Guidance, increases real-world pick-and-place task success from 23% to 50%. Finally, we evaluate the model on a long-horizon compositional task, achieving a 62% overall success rate. These results suggest that pre-trained manipulation VLAs, with appropriate data augmentation and physics-informed guidance, can transfer to aerial manipulation and navigation, as well as the composition of these tasks.",
+      "categories": [
+        "cs.RO"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2603.25038v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2603.25038v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.25038v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.25038v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-27",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2603.24327": {
+      "title": "Le MuMo JEPA: Multi-Modal Self-Supervised Representation Learning with Learnable Fusion Tokens",
+      "authors": [
+        "Ciem Cornelissen",
+        "Sam Leroux",
+        "Pieter Simoens"
+      ],
+      "published": "2026-03-25T14:09:59+00:00",
+      "updated": "2026-03-25T14:09:59+00:00",
+      "summary": "Self-supervised learning has emerged as a powerful paradigm for learning visual representations without manual annotations, yet most methods still operate on a single modality and therefore miss the complementary structure available from heterogeneous sensors. We present Le MuMo JEPA, a self-supervised framework that learns unified representations from RGB images and aligned companion modalities. In our driving experiments, the second modality is camera-aligned LiDAR depth; we also evaluate RGB-thermal training and transfer on the Teledyne FLIR ADAS benchmark. Our approach extends LeJEPA to the multi-modal setting by learning fusion tokens that act as a latent bottleneck between modality-specific patch stems inside a shared transformer. Our default model employs a pruned fusion strategy: after an initial cross-modal attention layer, modality-specific tokens are dropped, forcing cross-modal information into the shared fusion-token grid as an efficient latent bottleneck before Sketched Isotropic Gaussian Regularization (SIGReg) is applied to the joint multimodal CLS embedding. On Waymo, Le MuMo JEPA gives the strongest performance-efficiency trade-off on downstream patch probes among the from-scratch multimodal baselines, improving CenterNet detection and dense depth while remaining competitive on segmentation. Under from-scratch training on nuScenes, Le MuMo JEPA remains the strongest model, and it also gives the best FLIR results, especially after Waymo-initialized fine-tuning. It also retains the best overall accuracy-efficiency balance in our study at substantially lower compute, memory, and estimated training time.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.24327v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2603.24327v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.24327v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.24327v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-27",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2603.24268": {
+      "title": "Incremental Learning-Based Open-Set Classification of Unknown UAVs via RF Signal Semantics",
+      "authors": [
+        "Julie Liu",
+        "Irshad A. Meer",
+        "Cicek Cavdar",
+        "Mustafa Ozger"
+      ],
+      "published": "2026-03-25T13:01:06+00:00",
+      "updated": "2026-03-25T13:01:06+00:00",
+      "summary": "The proliferation of civilian and commercial unmanned aerial vehicles (UAVs) has heightened the demand for reliable radio frequency (RF)-based drone identification systems that can operate under dynamic and uncertain airspace conditions. Most existing RF-based recognition methods adopt a closed-set assumption, where all UAV types are known during training. Such an assumption becomes unrealistic in practical deployments, as new or unknown UAVs frequently emerge, leading to overconfident misclassifications and inefficient retraining cycles. To address these challenges, this paper proposes a unified incremental open-set learning framework for RF-based UAV recognition that enables both novel class discovery and incremental adaptation. The framework first performs open-set recognition to separate unknown signals from known classes in the semantic feature space, followed by an unsupervised clustering module that discovers new UAV categories by selecting between K-Means and Gaussian Mixture Models (GMM) based on composite validity scores. Subsequently, a lightweight incremental learning module integrates the newly discovered classes through a memory-bounded replay mechanism that mitigates catastrophic forgetting. Experiments on a real-world UAV RF dataset comprising 24 classes (18 known and 6 unknown) show effective open-set detection, promising clustering performance under the evaluated noise settings, and stable incremental adaptation with minimal storage cost, supporting the potential of the proposed framework for open-world UAV recognition.",
+      "categories": [
+        "eess.SP"
+      ],
+      "primary_category": "eess.SP",
+      "pdf_url": "https://arxiv.org/pdf/2603.24268v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted in ICC 2026",
+      "entry_id": "http://arxiv.org/abs/2603.24268v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.24268v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.24268v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-27",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2603.24181": {
+      "title": "Unlocking Few-Shot Capabilities in LVLMs via Prompt Conditioning and Head Selection",
+      "authors": [
+        "Adhemar de Senneville",
+        "Xavier Bou",
+        "Jérémy Anger",
+        "Rafael Grompone",
+        "Gabriele Facciolo"
+      ],
+      "published": "2026-03-25T11:00:22+00:00",
+      "updated": "2026-03-25T11:00:22+00:00",
+      "summary": "Current Large Vision Language Models (LVLMs) excel at many zero-shot tasks like image captioning, visual question answering and OCR. However, these same models suffer from poor performance at image classification tasks, underperforming against CLIP-based methods. Notably, this gap is surprising because many LVLMs use CLIP-pretrained vision encoders. Yet LVLMs are not inherently limited by CLIP's architecture with independent vision and text encoders. In CLIP, this separation biases classification toward class-name matching rather than joint visual-text reasoning. In this paper we show that, despite their poor raw performance, LVLMs can improve visual feature class separability at inference using prompt conditioning, and LVLMs' internal representations, especially attention heads, can outperform the model itself at zero-shot and few-shot classification. We introduce Head Ensemble Classifiers (HEC) to bridge the performance gap between CLIP-based and LVLM-based classification methods. Inspired by Gaussian Discriminant Analysis, HEC ranks the most discriminative vision and text heads and combines them into a training-free classifier. We show that HEC achieves state-of-the-art performance in few-shot and zero-shot classification across 12 datasets.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.24181v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2603.24181v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.24181v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.24181v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-27",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2603.24146": {
+      "title": "LightSplat: Fast and Memory-Efficient Open-Vocabulary 3D Scene Understanding in Five Seconds",
+      "authors": [
+        "Jaehun Bang",
+        "Jinhyeok Kim",
+        "Minji Kim",
+        "Seungheon Jeong",
+        "Kyungdon Joo"
+      ],
+      "published": "2026-03-25T10:12:22+00:00",
+      "updated": "2026-03-25T10:12:22+00:00",
+      "summary": "Open-vocabulary 3D scene understanding enables users to segment novel objects in complex 3D environments through natural language. However, existing approaches remain slow, memory-intensive, and overly complex due to iterative optimization and dense per-Gaussian feature assignments. To address this, we propose LightSplat, a fast and memory-efficient training-free framework that injects compact 2-byte semantic indices into 3D representations from multi-view images. By assigning semantic indices only to salient regions and managing them with a lightweight index-feature mapping, LightSplat eliminates costly feature optimization and storage overhead. We further ensure semantic consistency and efficient inference via single-step clustering that links geometrically and semantically related masks in 3D. We evaluate our method on LERF-OVS, ScanNet, and DL3DV-OVS across complex indoor-outdoor scenes. As a result, LightSplat achieves state-of-the-art performance with up to 50-400x speedup and 64x lower memory, enabling scalable language-driven 3D understanding. For more details, visit our project page https://vision3d-lab.github.io/lightsplat/.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.24146v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted to CVPR 2026",
+      "entry_id": "http://arxiv.org/abs/2603.24146v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.24146v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.24146v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-27",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2603.24003": {
+      "title": "PAC-DP: Personalized Adaptive Clipping for Differentially Private Federated Learning",
+      "authors": [
+        "Hao Zhou",
+        "Siqi Cai",
+        "Hua Dai",
+        "Geng Yang",
+        "Jing Luo",
+        "Hui Cai"
+      ],
+      "published": "2026-03-25T07:06:33+00:00",
+      "updated": "2026-03-25T07:06:33+00:00",
+      "summary": "Differential privacy (DP) is crucial for safeguarding sensitive client information in federated learning (FL), yet traditional DP-FL methods rely predominantly on fixed gradient clipping thresholds. Such static clipping neglects significant client heterogeneity and varying privacy sensitivities, which may lead to an unfavorable privacy-utility trade-off. In this paper, we propose PAC-DP, a Personalized Adaptive Clipping framework for federated learning under record-level local differential privacy. PAC-DP introduces a Simulation-CurveFitting approach leveraging a server-hosted public proxy dataset to learn an effective mapping between personalized privacy budgets epsilon and gradient clipping thresholds C, which is then deployed online with a lightweight round-wise schedule. This design enables budget-conditioned threshold selection while avoiding data-dependent tuning during training. We provide theoretical analyses establishing convergence guarantees under the per-example clipping and Gaussian perturbation mechanism and a reproducible privacy accounting procedure. Extensive evaluations on multiple FL benchmarks show that PAC-DP surpasses conventional fixed-threshold approaches under matched privacy budgets, improving accuracy by up to 26% and accelerating convergence by up to 45.5% in our evaluated settings.",
+      "categories": [
+        "cs.CR"
+      ],
+      "primary_category": "cs.CR",
+      "pdf_url": "https://arxiv.org/pdf/2603.24003v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "*Corresponding author: Hua Dai. 15 pages, 13 figures",
+      "entry_id": "http://arxiv.org/abs/2603.24003v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.24003v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.24003v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-27",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
     "2603.23472": {
       "title": "Byzantine-Robust and Differentially Private Federated Optimization under Weaker Assumptions",
       "authors": [
@@ -38,7 +356,15 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-27",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2603.23463": {
       "title": "InverFill: One-Step Inversion for Enhanced Few-Step Diffusion Inpainting",
@@ -79,7 +405,15 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-27",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2603.23344": {
       "title": "An Explainable AI-Driven Framework for Automated Brain Tumor Segmentation Using an Attention-Enhanced U-Net",
@@ -113,7 +447,15 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-27",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2603.23168": {
       "title": "GSwap: Realistic Head Swapping with Dynamic Neural Gaussian Field",
@@ -151,7 +493,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-27",
+        "venue": "IEEE Transactions on Visualization and Computer Graphics",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2603.23132": {
       "title": "InterDyad: Interactive Dyadic Speech-to-Video Generation by Querying Intermediate Visual Guidance",
@@ -193,7 +542,15 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-27",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2603.22852": {
       "title": "Gau-Occ: Geometry-Completed Gaussians for Multi-Modal 3D Occupancy Prediction",
@@ -229,7 +586,15 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-27",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2603.22796": {
       "title": "PhotoAgent: A Robotic Photographer with Spatial and Aesthetic Understanding",
@@ -268,7 +633,15 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-27",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2603.22792": {
       "title": "Instrument-Splatting++: Towards Controllable Surgical Instrument Digital Twin Using Gaussian Splatting",
@@ -283,32 +656,40 @@
         "Yueming Jin"
       ],
       "published": "2026-03-24T04:31:09+00:00",
-      "updated": "2026-03-24T04:31:09+00:00",
+      "updated": "2026-03-25T04:32:24+00:00",
       "summary": "High-quality and controllable digital twins of surgical instruments are critical for Real2Sim in robot-assisted surgery, as they enable realistic simulation, synthetic data generation, and perception learning under novel poses. We present Instrument-Splatting++, a monocular 3D Gaussian Splatting (3DGS) framework that reconstructs surgical instruments as a fully controllable Gaussian asset with high fidelity. Our pipeline starts with part-wise geometry pretraining that injects CAD priors into Gaussian primitives and equips the representation with part-aware semantic rendering. Built on the pretrained model, we propose a semantics-aware pose estimation and tracking (SAPET) method to recover per-frame 6-DoF pose and joint angles from unposed endoscopic videos, where a gripper-tip network trained purely from synthetic semantics provides robust supervision and a loose regularization suppresses singular articulations. Finally, we introduce Robust Texture Learning (RTL), which alternates pose refinement and robust appearance optimization, mitigating pose noise during texture learning. The proposed framework can perform pose estimation and learn realistic texture from unposed videos. We validate our method on sequences extracted from EndoVis17/18, SAR-RARP, and an in-house dataset, showing superior photometric quality and improved geometric accuracy over state-of-the-art baselines. We further demonstrate a downstream keypoint detection task where unseen-pose data augmentation from our controllable instrument Gaussian improves performance.",
       "categories": [
         "cs.RO"
       ],
       "primary_category": "cs.RO",
-      "pdf_url": "https://arxiv.org/pdf/2603.22792v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.22792v2",
       "journal_ref": null,
       "doi": null,
       "comment": "10 pages, 9 figures",
-      "entry_id": "http://arxiv.org/abs/2603.22792v1",
+      "entry_id": "http://arxiv.org/abs/2603.22792v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2603.22792v1",
+          "href": "https://arxiv.org/abs/2603.22792v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2603.22792v1",
+          "href": "https://arxiv.org/pdf/2603.22792v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-27",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2603.22474": {
       "title": "From Brittle to Robust: Improving LLM Annotations for SE Optimization",
@@ -412,26 +793,26 @@
         "Hanwang Zhang"
       ],
       "published": "2026-03-23T15:03:47+00:00",
-      "updated": "2026-03-23T15:03:47+00:00",
+      "updated": "2026-03-25T16:07:11+00:00",
       "summary": "Multimodal 3D vision-language models show strong generalization across diverse 3D tasks, but their performance still degrades notably under domain shifts. This has motivated recent studies on test-time adaptation (TTA), which enables models to adapt online using test-time data. Among existing TTA methods, cache-based mechanisms are widely adopted for leveraging previously observed samples in online prediction refinement. However, they store only limited historical information, leading to progressive information loss as the test stream evolves. In addition, their prediction logits are fused heuristically, making adaptation unstable. To address these limitations, we propose BayesMM, a Multimodal Bayesian Distribution Learning framework for test-time point cloud analysis. BayesMM models textual priors and streaming visual features of each class as Gaussian distributions: textual parameters are derived from semantic prompts, while visual parameters are updated online with arriving samples. The two modalities are fused via Bayesian model averaging, which automatically adjusts their contributions based on posterior evidence, yielding a unified prediction that adapts continually to evolving test-time data without training. Extensive experiments on multiple point cloud benchmarks demonstrate that BayesMM maintains robustness under distributional shifts, yielding over 4% average improvement.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2603.22070v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.22070v2",
       "journal_ref": null,
       "doi": null,
       "comment": "CVPR 2026",
-      "entry_id": "http://arxiv.org/abs/2603.22070v1",
+      "entry_id": "http://arxiv.org/abs/2603.22070v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2603.22070v1",
+          "href": "https://arxiv.org/abs/2603.22070v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2603.22070v1",
+          "href": "https://arxiv.org/pdf/2603.22070v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -4563,26 +4944,26 @@
         "Changhe Tu"
       ],
       "published": "2026-02-26T06:35:23+00:00",
-      "updated": "2026-02-26T06:35:23+00:00",
+      "updated": "2026-03-26T06:01:48+00:00",
       "summary": "Reconstructing articulated objects into high-fidelity digital twins is crucial for applications such as robotic manipulation and interactive simulation. Recent self-supervised methods using differentiable rendering frameworks like 3D Gaussian Splatting remain highly sensitive to the initial part segmentation. Their reliance on heuristic clustering or pre-trained models often causes optimization to converge to local minima, especially for complex multi-part objects. To address these limitations, we propose ArtPro, a novel self-supervised framework that introduces adaptive integration of mobility proposals. Our approach begins with an over-segmentation initialization guided by geometry features and motion priors, generating part proposals with plausible motion hypotheses. During optimization, we dynamically merge these proposals by analyzing motion consistency among spatial neighbors, while a collision-aware motion pruning mechanism prevents erroneous kinematic estimation. Extensive experiments on both synthetic and real-world objects demonstrate that ArtPro achieves robust reconstruction of complex multi-part objects, significantly outperforming existing methods in accuracy and stability.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2602.22666v1",
+      "pdf_url": "https://arxiv.org/pdf/2602.22666v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2602.22666v1",
+      "entry_id": "http://arxiv.org/abs/2602.22666v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2602.22666v1",
+          "href": "https://arxiv.org/abs/2602.22666v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2602.22666v1",
+          "href": "https://arxiv.org/pdf/2602.22666v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -85556,6 +85937,39 @@
     }
   },
   "MVS": {
+    "2603.24716": {
+      "title": "Accurate Point Measurement in 3DGS -- A New Alternative to Traditional Stereoscopic-View Based Measurements",
+      "authors": [
+        "Deyan Deng",
+        "Rongjun Qin"
+      ],
+      "published": "2026-03-25T18:40:51+00:00",
+      "updated": "2026-03-25T18:40:51+00:00",
+      "summary": "3D Gaussian Splatting (3DGS) has revolutionized real-time rendering with its state-of-the-art novel view synthesis, but its utility for accurate geometric measurement remains underutilized. Compared to multi-view stereo (MVS) point clouds or meshes, 3DGS rendered views present superior visual quality and completeness. However, current point measurement methods still rely on demanding stereoscopic workstations or direct picking on often-incomplete and inaccurate 3D meshes. As a novel view synthesizer, 3DGS renders exact source views and smoothly interpolates in-between views. This allows users to intuitively pick congruent points across different views while operating 3DGS models. By triangulating these congruent points, one can precisely generate 3D point measurements. This approach mimics traditional stereoscopic measurement but is significantly less demanding: it requires neither a stereo workstation nor specialized operator stereoscopic capability. Furthermore, it enables multi-view intersection (more than two views) for higher measurement accuracy. We implemented a web-based application to demonstrate this proof-of-concept (PoC). Using several UAV aerial datasets, we show this PoC allows users to successfully perform highly accurate point measurements, achieving accuracy matching or exceeding traditional stereoscopic methods on standard hardware. Specifically, our approach significantly outperforms direct mesh-based measurements. Quantitatively, our method achieves RMSEs in the 1-2 cm range on well-defined points. More critically, on challenging thin structures where mesh-based RMSE was 0.062 m, our method achieved 0.037 m. On sharp corners poorly reconstructed in the mesh, our method successfully measured all points with a 0.013 m RMSE, whereas the mesh method failed entirely. Code is available at: https://github.com/GDAOSU/3dgs_measurement_tool.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.24716v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted to the 2026 ISPRS Congress",
+      "entry_id": "http://arxiv.org/abs/2603.24716v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.24716v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.24716v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2603.20714": {
       "title": "The Role and Relationship of Initialization and Densification in 3D Gaussian Splatting",
       "authors": [
