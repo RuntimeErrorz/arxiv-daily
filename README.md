@@ -1,4 +1,4 @@
-## Updated at 2026-03-28 20:11:05
+## Updated at 2026-03-31 08:28:27
 
 ## 3DGS Semantic
 
@@ -8,6 +8,13 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-03-27**|**[Drive-Through 3D Vehicle Exterior Reconstruction via Dynamic-Scene SfM and Distortion-Aware Gaussian Splatting](https://arxiv.org/abs/2603.26638)**|N/A|8 pages, 7 figures, Submitted to IEEE IROS 2026 (under review)|cs.CV|None|Nitin Kulkarni et al.|
+|**2026-03-27**|**[Scene Grounding In the Wild](https://arxiv.org/abs/2603.26584)**|N/A|Project page at https://tau-vailab.github.io/SceneGround/|cs.CV|None|Tamir Cohen et al.|
+|**2026-03-27**|**[Sharp Capacity Scaling of Spectral Optimizers in Learning Associative Memory](https://arxiv.org/abs/2603.26554)**|N/A|77 pages, 8 figures|cs.LG|None|Juno Kim et al.|
+|**2026-03-27**|**[GS-BrainText: A Multi-Site Brain Imaging Report Dataset from Generation Scotland for Clinical Natural Language Processing Development and Validation](https://arxiv.org/abs/2603.26235)**|N/A|11 pages, 1 figure|cs.CL|None|Beatrice Alex et al.|
+|**2026-03-27**|**[Gaussian Shannon: High-Precision Diffusion Model Watermarking Based on Communication](https://arxiv.org/abs/2603.26167)**|N/A|Accepted by CVPR 2026 Findings|cs.CV|None|Yi Zhang et al.|
+|**2026-03-27**|**[Fluctuation effect on Nonlinear Transport and Nernst-Ettingshausen Response in Two-Dimensional Superconductors under electric and magnetic field](https://arxiv.org/abs/2603.26146)**|N/A|29 pages, 11 figures, submitted for publication|nlin.PS|None|Tran Ky Vi et al.|
+|**2026-03-26**|**[Policy-Guided World Model Planning for Language-Conditioned Visual Navigation](https://arxiv.org/abs/2603.25981)**|N/A|None|cs.RO|None|Amirhosein Chahe, Lifeng Zhou|
 |**2026-03-26**|**[Learning Explicit Continuous Motion Representation for Dynamic Gaussian Splatting from Monocular Videos](https://arxiv.org/abs/2603.25058)**|N/A|Accepted to CVPR 2026|cs.CV|None|Xuankai Zhang et al.|
 |**2026-03-26**|**[$π$, But Make It Fly: Physics-Guided Transfer of VLA Models to Aerial Manipulation](https://arxiv.org/abs/2603.25038)**|N/A|None|cs.RO|None|Johnathan Tucker et al.|
 |**2026-03-25**|**[Le MuMo JEPA: Multi-Modal Self-Supervised Representation Learning with Learnable Fusion Tokens](https://arxiv.org/abs/2603.24327)**|N/A|None|cs.CV|None|Ciem Cornelissen et al.|
@@ -762,6 +769,7 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-03-26**|**[Seeing Through Smoke: Surgical Desmoking for Improved Visual Perception](https://arxiv.org/abs/2603.25867)**|N/A|8 pages, 4 figures, 3 tables|cs.CV|None|Jingpei Lu et al.|
 |**2026-03-24**|**[One View Is Enough! Monocular Training for In-the-Wild Novel View Generation](https://arxiv.org/abs/2603.23488)**|N/A|34 pages, 16 figures|cs.CV|None|Adrien Ramanana Rahary et al.|
 |**2026-03-24**|**[Generative Event Pretraining with Foundation Model Alignment](https://arxiv.org/abs/2603.23032)**|N/A|None|cs.CV|None|Jianwen Cao et al.|
 |**2026-03-23**|**[GenOpticalFlow: A Generative Approach to Unsupervised Optical Flow Learning](https://arxiv.org/abs/2603.22270)**|N/A|None|cs.CV|None|Yixuan Luo et al.|

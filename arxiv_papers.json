@@ -1,5 +1,325 @@
 {
   "3DGS Semantic": {
+    "2603.26638": {
+      "title": "Drive-Through 3D Vehicle Exterior Reconstruction via Dynamic-Scene SfM and Distortion-Aware Gaussian Splatting",
+      "authors": [
+        "Nitin Kulkarni",
+        "Akhil Devarashetti",
+        "Charlie Cluss",
+        "Livio Forte",
+        "Philip Schneider",
+        "Chunming Qiao",
+        "Alina Vereshchaka"
+      ],
+      "published": "2026-03-27T17:42:42+00:00",
+      "updated": "2026-03-27T17:42:42+00:00",
+      "summary": "High-fidelity 3D reconstruction of vehicle exteriors improves buyer confidence in online automotive marketplaces, but generating these models in cluttered dealership drive-throughs presents severe technical challenges. Unlike static-scene photogrammetry, this setting features a dynamic vehicle moving against heavily cluttered, static backgrounds. This problem is further compounded by wide-angle lens distortion, specular automotive paint, and non-rigid wheel rotations that violate classical epipolar constraints. We propose an end-to-end pipeline utilizing a two-pillar camera rig. First, we resolve dynamic-scene ambiguities by coupling SAM 3 for instance segmentation with motion-gating to cleanly isolate the moving vehicle, explicitly masking out non-rigid wheels to enforce strict epipolar geometry. Second, we extract robust correspondences directly on raw, distorted 4K imagery using the RoMa v2 learned matcher guided by semantic confidence masks. Third, these matches are integrated into a rig-aware SfM optimization that utilizes CAD-derived relative pose priors to eliminate scale drift. Finally, we use a distortion-aware 3D Gaussian Splatting framework (3DGUT) coupled with a stochastic Markov Chain Monte Carlo (MCMC) densification strategy to render reflective surfaces. Evaluations on 25 real-world vehicles across 10 dealerships demonstrate that our full pipeline achieves a PSNR of 28.66 dB, an SSIM of 0.89, and an LPIPS of 0.21 on held-out views, representing a 3.85 dB improvement over standard 3D-GS, delivering inspection-grade interactive 3D models without controlled studio infrastructure.",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.26638v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "8 pages, 7 figures, Submitted to IEEE IROS 2026 (under review)",
+      "entry_id": "http://arxiv.org/abs/2603.26638v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.26638v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.26638v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-31",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2603.26584": {
+      "title": "Scene Grounding In the Wild",
+      "authors": [
+        "Tamir Cohen",
+        "Leo Segre",
+        "Shay Shomer-Chai",
+        "Shai Avidan",
+        "Hadar Averbuch-Elor"
+      ],
+      "published": "2026-03-27T16:41:20+00:00",
+      "updated": "2026-03-27T16:41:20+00:00",
+      "summary": "Reconstructing accurate 3D models of large-scale real-world scenes from unstructured, in-the-wild imagery remains a core challenge in computer vision, especially when the input views have little or no overlap. In such cases, existing reconstruction pipelines often produce multiple disconnected partial reconstructions or erroneously merge non-overlapping regions into overlapping geometry. In this work, we propose a framework that grounds each partial reconstruction to a complete reference model of the scene, enabling globally consistent alignment even in the absence of visual overlap. We obtain reference models from dense, geospatially accurate pseudo-synthetic renderings derived from Google Earth Studio. These renderings provide full scene coverage but differ substantially in appearance from real-world photographs. Our key insight is that, despite this significant domain gap, both domains share the same underlying scene semantics. We represent the reference model using 3D Gaussian Splatting, augmenting each Gaussian with semantic features, and formulate alignment as an inverse feature-based optimization scheme that estimates a global 6DoF pose and scale while keeping the reference model fixed. Furthermore, we introduce the WikiEarth dataset, which registers existing partial 3D reconstructions with pseudo-synthetic reference models. We demonstrate that our approach consistently improves global alignment when initialized with various classical and learning-based pipelines, while mitigating failure modes of state-of-the-art end-to-end models. All code and data will be released.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.26584v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Project page at https://tau-vailab.github.io/SceneGround/",
+      "entry_id": "http://arxiv.org/abs/2603.26584v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.26584v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.26584v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-31",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2603.26554": {
+      "title": "Sharp Capacity Scaling of Spectral Optimizers in Learning Associative Memory",
+      "authors": [
+        "Juno Kim",
+        "Eshaan Nichani",
+        "Denny Wu",
+        "Alberto Bietti",
+        "Jason D. Lee"
+      ],
+      "published": "2026-03-27T16:13:18+00:00",
+      "updated": "2026-03-27T16:13:18+00:00",
+      "summary": "Spectral optimizers such as Muon have recently shown strong empirical performance in large-scale language model training, but the source and extent of their advantage remain poorly understood. We study this question through the linear associative memory problem, a tractable model for factual recall in transformer-based models. In particular, we go beyond orthogonal embeddings and consider Gaussian inputs and outputs, which allows the number of stored associations to greatly exceed the embedding dimension. Our main result sharply characterizes the recovery rates of one step of Muon and SGD on the logistic regression loss under a power law frequency distribution. We show that the storage capacity of Muon significantly exceeds that of SGD, and moreover Muon saturates at a larger critical batch size. We further analyze the multi-step dynamics under a thresholded gradient approximation and show that Muon achieves a substantially faster initial recovery rate than SGD, while both methods eventually converge to the information-theoretic limit at comparable speeds. Experiments on synthetic tasks validate the predicted scaling laws. Our analysis provides a quantitative understanding of the signal amplification of Muon and lays the groundwork for establishing scaling laws across more practical language modeling tasks and optimizers.",
+      "categories": [
+        "cs.LG",
+        "stat.ML"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2603.26554v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "77 pages, 8 figures",
+      "entry_id": "http://arxiv.org/abs/2603.26554v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.26554v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.26554v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-31",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2603.26235": {
+      "title": "GS-BrainText: A Multi-Site Brain Imaging Report Dataset from Generation Scotland for Clinical Natural Language Processing Development and Validation",
+      "authors": [
+        "Beatrice Alex",
+        "Claire Grover",
+        "Arlene Casey",
+        "Richard Tobin",
+        "Heather Whalley",
+        "William Whiteley"
+      ],
+      "published": "2026-03-27T09:57:20+00:00",
+      "updated": "2026-03-27T09:57:20+00:00",
+      "summary": "We present GS-BrainText, a curated dataset of 8,511 brain radiology reports from the Generation Scotland cohort, of which 2,431 are annotated for 24 brain disease phenotypes. This multi-site dataset spans five Scottish NHS health boards and includes broad age representation (mean age 58, median age 53), making it uniquely valuable for developing and evaluating generalisable clinical natural language processing (NLP) algorithms and tools. Expert annotations were performed by a multidisciplinary clinical team using an annotation schema, with 10-100% double annotation per NHS health board and rigorous quality assurance. Benchmark evaluation using EdIE-R, an existing rule-based NLP system developed in conjunction with the annotation schema, revealed some performance variation across health boards (F1: 86.13-98.13), phenotypes (F1: 22.22-100) and age groups (F1: 87.01-98.13), highlighting critical challenges in generalisation of NLP tools. The GS-BrainText dataset addresses a significant gap in available UK clinical text resources and provides a valuable resource for the study of linguistic variation, diagnostic uncertainty expression and the impact of data characteristics on NLP system performance.",
+      "categories": [
+        "cs.CL"
+      ],
+      "primary_category": "cs.CL",
+      "pdf_url": "https://arxiv.org/pdf/2603.26235v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "11 pages, 1 figure",
+      "entry_id": "http://arxiv.org/abs/2603.26235v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.26235v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.26235v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-31",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2603.26167": {
+      "title": "Gaussian Shannon: High-Precision Diffusion Model Watermarking Based on Communication",
+      "authors": [
+        "Yi Zhang",
+        "Hongbo Huang",
+        "Liang-Jie Zhang"
+      ],
+      "published": "2026-03-27T08:34:53+00:00",
+      "updated": "2026-03-27T08:34:53+00:00",
+      "summary": "Diffusion models generate high-quality images but pose serious risks like copyright violation and disinformation. Watermarking is a key defense for tracing and authenticating AI-generated content. However, existing methods rely on threshold-based detection, which only supports fuzzy matching and cannot recover structured watermark data bit-exactly, making them unsuitable for offline verification or applications requiring lossless metadata (e.g., licensing instructions). To address this problem, in this paper, we propose Gaussian Shannon, a watermarking framework that treats the diffusion process as a noisy communication channel and enables both robust tracing and exact bit recovery. Our method embeds watermarks in the initial Gaussian noise without fine-tuning or quality loss. We identify two types of channel interference, namely local bit flips and global stochastic distortions, and design a cascaded defense combining error-correcting codes and majority voting. This ensures reliable end-to-end transmission of semantic payloads. Experiments across three Stable Diffusion variants and seven perturbation types show that Gaussian Shannon achieves state-of-the-art bit-level accuracy while maintaining a high true positive rate, enabling trustworthy rights attribution in real-world deployment. The source code have been made available at: https://github.com/Rambo-Yi/Gaussian-Shannon",
+      "categories": [
+        "cs.CV",
+        "cs.CR"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.26167v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted by CVPR 2026 Findings",
+      "entry_id": "http://arxiv.org/abs/2603.26167v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.26167v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.26167v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-31",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2603.26146": {
+      "title": "Fluctuation effect on Nonlinear Transport and Nernst-Ettingshausen Response in Two-Dimensional Superconductors under electric and magnetic field",
+      "authors": [
+        "Tran Ky Vi",
+        "Bui Duc Tinh",
+        "Ngo Quang Duc",
+        "Chu Gia Bao",
+        "Le Viet Hoang",
+        "Le Xuan The Tai",
+        "Nguyen Viet Hung"
+      ],
+      "published": "2026-03-27T08:04:17+00:00",
+      "updated": "2026-03-27T08:04:17+00:00",
+      "summary": "In this paper, we present a unified theoretical study of fluctuation-dominated transport and transverse thermoelectric response in two-dimensional superconducting films subjected to out-of-plane magnetic fields and electric-field drive. Our approach is based on the time-dependent Ginzburg-Landau equation with Langevin thermal noise, in which interaction effects of fluctuating Cooper pairs are incorporated self-consistently at the Gaussian (Hartree) level. We derive closed-form expressions for the fluctuation-induced Cooper-pair density, the renormalized resistance $R(T,B_\\perp)$, and the nonlinear current response $J(E,B_\\perp)$, explicitly accounting for the feedback of the electric field on the fluctuation spectrum. A central result is the emergence of an intrinsic S-shaped nonlinear $J$-$E$ (or $I$-$V$) characteristic, featuring a negative-differential segment and multivalued solutions under voltage control. Within this framework, we introduce a physically transparent procedure to identify characteristic instability scales, such as the magnetic field $B^{\\ast}$ (or equivalently $B_χ$), which marks the terminal point of the S-shaped instability where the nonlinear response becomes single-valued. In parallel, we analyze the off-diagonal Peltier coefficient $α_{xy}$ as a direct probe of the transverse thermoelectric response of superconducting fluctuations. The theory is validated through systematic comparisons with recent experimental measurements of multi-field $R(T)$ curves, nonlinear $I$-$V$ characteristics, and $α_{xy}$ data across a broad range of thin-film superconducting materials.",
+      "categories": [
+        "nlin.PS"
+      ],
+      "primary_category": "nlin.PS",
+      "pdf_url": "https://arxiv.org/pdf/2603.26146v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "29 pages, 11 figures, submitted for publication",
+      "entry_id": "http://arxiv.org/abs/2603.26146v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.26146v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.26146v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-31",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2603.25981": {
+      "title": "Policy-Guided World Model Planning for Language-Conditioned Visual Navigation",
+      "authors": [
+        "Amirhosein Chahe",
+        "Lifeng Zhou"
+      ],
+      "published": "2026-03-26T23:47:49+00:00",
+      "updated": "2026-03-26T23:47:49+00:00",
+      "summary": "Navigating to a visually specified goal given natural language instructions remains a fundamental challenge in embodied AI. Existing approaches either rely on reactive policies that struggle with long-horizon planning, or employ world models that suffer from poor action initialization in high-dimensional spaces. We present PiJEPA, a two-stage framework that combines the strengths of learned navigation policies with latent world model planning for instruction-conditioned visual navigation. In the first stage, we finetune an Octo-based generalist policy, augmented with a frozen pretrained vision encoder (DINOv2 or V-JEPA-2), on the CAST navigation dataset to produce an informed action distribution conditioned on the current observation and language instruction. In the second stage, we use this policy-derived distribution to warm-start Model Predictive Path Integral (MPPI) planning over a separately trained JEPA world model, which predicts future latent states in the embedding space of the same frozen encoder. By initializing the MPPI sampling distribution from the policy prior rather than from an uninformed Gaussian, our planner converges faster to high-quality action sequences that reach the goal. We systematically study the effect of the vision encoder backbone, comparing DINOv2 and V-JEPA-2, across both the policy and world model components. Experiments on real-world navigation tasks demonstrate that PiJEPA significantly outperforms both standalone policy execution and uninformed world model planning, achieving improved goal-reaching accuracy and instruction-following fidelity.",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2603.25981v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2603.25981v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.25981v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.25981v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-03-31",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
     "2603.25058": {
       "title": "Learning Explicit Continuous Motion Representation for Dynamic Gaussian Splatting from Monocular Videos",
       "authors": [
@@ -86054,26 +86374,26 @@
         "Rongjun Qin"
       ],
       "published": "2026-02-24T15:37:10+00:00",
-      "updated": "2026-02-24T15:37:10+00:00",
+      "updated": "2026-03-27T14:25:27+00:00",
       "summary": "Intrinsic image decomposition (IID) of outdoor scenes is crucial for relighting, editing, and understanding large-scale environments, but progress has been limited by the lack of real-world datasets with reliable albedo and shading supervision. We introduce Olbedo, a large-scale aerial dataset for outdoor albedo--shading decomposition in the wild. Olbedo contains 5,664 UAV images captured across four landscape types, multiple years, and diverse illumination conditions. Each view is accompanied by multi-view consistent albedo and shading maps, metric depth, surface normals, sun and sky shading components, camera poses, and, for recent flights, measured HDR sky domes. These annotations are derived from an inverse-rendering refinement pipeline over multi-view stereo reconstructions and calibrated sky illumination, together with per-pixel confidence masks. We demonstrate that Olbedo enables state-of-the-art diffusion-based IID models, originally trained on synthetic indoor data, to generalize to real outdoor imagery: fine-tuning on Olbedo significantly improves single-view outdoor albedo prediction on the MatrixCity benchmark. We further illustrate applications of Olbedo-trained models to multi-view consistent relighting of 3D assets, material editing, and scene change analysis for urban digital twins. We release the dataset, baseline models, and an evaluation protocol to support future research in outdoor intrinsic decomposition and illumination-aware aerial vision.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2602.22025v1",
+      "pdf_url": "https://arxiv.org/pdf/2602.22025v2",
       "journal_ref": null,
       "doi": null,
       "comment": "CVPR 2026",
-      "entry_id": "http://arxiv.org/abs/2602.22025v1",
+      "entry_id": "http://arxiv.org/abs/2602.22025v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2602.22025v1",
+          "href": "https://arxiv.org/abs/2602.22025v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2602.22025v1",
+          "href": "https://arxiv.org/pdf/2602.22025v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -102938,6 +103258,42 @@
     }
   },
   "Depth Estimation": {
+    "2603.25867": {
+      "title": "Seeing Through Smoke: Surgical Desmoking for Improved Visual Perception",
+      "authors": [
+        "Jingpei Lu",
+        "Fengyi Jiang",
+        "Xiaorui Zhang",
+        "Lingbo Jin",
+        "Omid Mohareri"
+      ],
+      "published": "2026-03-26T19:49:49+00:00",
+      "updated": "2026-03-26T19:49:49+00:00",
+      "summary": "Minimally invasive and robot-assisted surgery relies heavily on endoscopic imaging, yet surgical smoke produced by electrocautery and vessel-sealing instruments can severely degrade visual perception and hinder vision-based functionalities. We present a transformer-based surgical desmoking model with a physics-inspired desmoking head that jointly predicts smoke-free image and corresponding smoke map. To address the scarcity of paired smoky-to-smoke-free training data, we develop a synthetic data generation pipeline that blends artificial smoke patterns with real endoscopic images, yielding over 80,000 paired samples for supervised training. We further curate, to our knowledge, the largest paired surgical smoke dataset to date, comprising 5,817 image pairs captured with the da Vinci robotic surgical system, enabling benchmarking on high-resolution endoscopic images. Extensive experiments on both a public benchmark and our dataset demonstrate state-of-the-art performance in image reconstruction compared to existing dehazing and desmoking approaches. We also assess the impact of desmoking on downstream stereo depth estimation and instrument segmentation, highlighting both the potential benefits and current limitations of digital smoke removal methods.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.25867v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "8 pages, 4 figures, 3 tables",
+      "entry_id": "http://arxiv.org/abs/2603.25867v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.25867v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.25867v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2603.23488": {
       "title": "One View Is Enough! Monocular Training for In-the-Wild Novel View Generation",
       "authors": [
