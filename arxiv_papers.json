@@ -1,5 +1,368 @@
 {
   "3DGS Semantic": {
+    "2603.28252": {
+      "title": "Secret Key Rate Analysis of RIS-Assisted THz MIMO CV-QKD Systems under Localized and Global Eavesdropping",
+      "authors": [
+        "Sushil Kumar",
+        "Soumya P. Dash",
+        "George C. Alexandropoulos"
+      ],
+      "published": "2026-03-30T10:25:30+00:00",
+      "updated": "2026-03-30T10:25:30+00:00",
+      "summary": "A multiple-input multiple-output (MIMO) system operating at terahertz (THz) frequencies and consisting of a transmitter, Alice, that encodes secret keys using Gaussian-modulated coherent states, which are communicated to a legitimate receiver, Bob, under the assistance of a reconfigurable intelligent surface (RIS) is considered in this paper. The composite wireless channel comprising the direct Alice-to-Bob signal propagation path and the RIS-enabled reflected one is modeled as a passive linear Gaussian quantum channel, allowing for a unitary dilation that preserves the canonical commutation relations. The security of the considered RIS-empowered MIMO system is analyzed under collective Gaussian entangling attacks, according to which an eavesdropper, Eve, is assumed to have access to environmental modes associated with specific propagation segments. We also study, as a benchmark, the case where Eve has access to the purification of the overall channel. The legitimate receiver, Bob, is designed to deploy homodyne detection and reverse reconciliation for key extraction. Novel expressions for the achievable secret key rate (SKR) of the system are derived for both the considered eavesdropping scenarios. Furthermore, an optimization framework is developed to determine the optimal RIS phase configuration matrix that maximizes the SKR performance. The resulting optimization problem is efficiently solved using particle swarm optimization. Numerical results are presented to demonstrate the system's performance with respect to various free parameters. It is showcased that the considered RIS plays a crucial role in enhancing the SKR of the system as well as in extending the secure communication range. This establishes RIS-assisted THz MIMO CV-QKD as a promising solution for next generation secure wireless networks.",
+      "categories": [
+        "cs.IT",
+        "cs.CR",
+        "eess.SP"
+      ],
+      "primary_category": "cs.IT",
+      "pdf_url": "https://arxiv.org/pdf/2603.28252v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "13 pages, 6 figures",
+      "entry_id": "http://arxiv.org/abs/2603.28252v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.28252v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.28252v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-01",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2603.28064": {
+      "title": "\\textit{4DSurf}: High-Fidelity Dynamic Scene Surface Reconstruction",
+      "authors": [
+        "Renjie Wu",
+        "Hongdong Li",
+        "Jose M. Alvarez",
+        "Miaomiao Liu"
+      ],
+      "published": "2026-03-30T06:09:37+00:00",
+      "updated": "2026-03-30T06:09:37+00:00",
+      "summary": "This paper addresses the problem of dynamic scene surface reconstruction using Gaussian Splatting (GS), aiming to recover temporally consistent geometry. While existing GS-based dynamic surface reconstruction methods can yield superior reconstruction, they are typically limited to either a single object or objects with only small deformations, struggling to maintain temporally consistent surface reconstruction of large deformations over time. We propose ``\\textit{4DSurf}'', a novel and unified framework for generic dynamic surface reconstruction that does not require specifying the number or types of objects in the scene, can handle large surface deformations and temporal inconsistency in reconstruction. The key innovation of our framework is the introduction of Gaussian deformations induced Signed Distance Function Flow Regularization that constrains the motion of Gaussians to align with the evolving surface. To handle large deformations, we introduce an Overlapping Segment Partitioning strategy that divides the sequence into overlapping segments with small deformations and incrementally passes geometric information across segments through the shared overlapping timestep. Experiments on two challenging dynamic scene datasets, Hi4D and CMU Panoptic, demonstrate that our method outperforms state-of-the-art surface reconstruction methods by 49\\% and 19\\% in Chamfer distance, respectively, and achieves superior temporal consistency under sparse-view settings.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.28064v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted to CVPR 2026",
+      "entry_id": "http://arxiv.org/abs/2603.28064v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.28064v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.28064v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-01",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2603.28003": {
+      "title": "DipGuava: Disentangling Personalized Gaussian Features for 3D Head Avatars from Monocular Video",
+      "authors": [
+        "Jeonghaeng Lee",
+        "Seok Keun Choi",
+        "Zhixuan Li",
+        "Weisi Lin",
+        "Sanghoon Lee"
+      ],
+      "published": "2026-03-30T03:50:23+00:00",
+      "updated": "2026-03-30T03:50:23+00:00",
+      "summary": "While recent 3D head avatar creation methods attempt to animate facial dynamics, they often fail to capture personalized details, limiting realism and expressiveness. To fill this gap, we present DipGuava (Disentangled and Personalized Gaussian UV Avatar), a novel 3D Gaussian head avatar creation method that successfully generates avatars with personalized attributes from monocular video. DipGuava is the first method to explicitly disentangle facial appearance into two complementary components, trained in a structured two-stage pipeline that significantly reduces learning ambiguity and enhances reconstruction fidelity. In the first stage, we learn a stable geometry-driven base appearance that captures global facial structure and coarse expression-dependent variations. In the second stage, the personalized residual details not captured in the first stage are predicted, including high-frequency components and nonlinearly varying features such as wrinkles and subtle skin deformations. These components are fused via dynamic appearance fusion that integrates residual details after deformation, ensuring spatial and semantic alignment. This disentangled design enables DipGuava to generate photorealistic, identity-preserving avatars, consistently outperforming prior methods in both visual quality and quantitativeperformance, as demonstrated in extensive experiments.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.28003v1",
+      "journal_ref": null,
+      "doi": "10.1609/aaai.v40i7.37510",
+      "comment": "AAAI 2026",
+      "entry_id": "http://arxiv.org/abs/2603.28003v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.28003v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.28003v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        },
+        {
+          "href": "https://doi.org/10.1609/aaai.v40i7.37510",
+          "title": "doi",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-01",
+        "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+        "pub_type": "JournalArticle,Conference",
+        "publisher": null
+      }
+    },
+    "2603.27914": {
+      "title": "ITQ3_S: High-Fidelity 3-bit LLM Inference via Interleaved Ternary Quantization with Rotation-Domain Smoothing",
+      "authors": [
+        "Edward J. Yoon"
+      ],
+      "published": "2026-03-30T00:03:22+00:00",
+      "updated": "2026-03-30T00:03:22+00:00",
+      "summary": "We present \\textbf{ITQ3\\_S} (Interleaved Ternary Quantization -- Specialized), a novel 3-bit weight quantization format for large language models (LLMs) that integrates \\textbf{TurboQuant (TQ)}, a rotation-domain adaptive quantization strategy based on the Fast Walsh-Hadamard Transform (FWHT). Conventional 3-bit quantization methods suffer from catastrophic precision loss caused by heavy-tailed weight distributions and inter-channel outliers. ITQ3\\_S addresses this fundamental limitation by pre-rotating the weight space via FWHT prior to quantization, effectively spreading outlier energy across the entire vector and inducing a near-Gaussian distribution amenable to uniform ternary coding.\n  Critically, we derive a mathematically rigorous dequantization procedure that inverts the FWHT exactly using a 256-point Inverse Walsh-Hadamard Transform fused into the CUDA shared-memory loading stage, ensuring zero-error round-trip fidelity between offline quantization and online inference. We prove that for any weight vector $\\mathbf{w} \\in \\mathbb{R}^{256}$ processed by our pipeline, the reconstruction satisfies $\\|\\hat{\\mathbf{w}} - \\mathbf{w}\\|_2 \\leq ε_q$, where $ε_q$ is determined solely by the ternary quantization grid and is strictly smaller than any uniform 3-bit baseline under equal bit-budget constraints.\n  Empirically, on the NVIDIA RTX 5090 (Blackwell architecture), ITQ3\\_S achieves perplexity competitive with FP16 baselines while delivering throughput exceeding 1.5$\\times$ that of 4-bit alternatives, owing to optimized DP4A and Tensor Core scheduling in the interleaved memory layout. Our results establish ITQ3\\_S as a practical, mathematically grounded solution for high-fidelity LLM deployment on consumer-grade hardware.",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.DC"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2603.27914v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "12 pages, 4 figures, 3 tables",
+      "entry_id": "http://arxiv.org/abs/2603.27914v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.27914v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.27914v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-01",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2603.27781": {
+      "title": "GS3LAM: Gaussian Semantic Splatting SLAM",
+      "authors": [
+        "Linfei Li",
+        "Lin Zhang",
+        "Zhong Wang",
+        "Ying Shen"
+      ],
+      "published": "2026-03-29T17:25:18+00:00",
+      "updated": "2026-03-29T17:25:18+00:00",
+      "summary": "Recently, the multi-modal fusion of RGB, depth, and semantics has shown great potential in dense Simultaneous Localization and Mapping (SLAM). However, a prerequisite for generating consistent semantic maps is the availability of dense, efficient, and scalable scene representations. Existing semantic SLAM systems based on explicit representations are often limited by resolution and an inability to predict unknown areas. Conversely, implicit representations typically rely on time-consuming ray tracing, failing to meet real-time requirements. Fortunately, 3D Gaussian Splatting (3DGS) has emerged as a promising representation that combines the efficiency of point-based methods with the continuity of geometric structures. To this end, we propose GS3LAM, a Gaussian Semantic Splatting SLAM framework that processes multimodal data to render consistent, dense semantic maps in real-time. GS3LAM models the scene as a Semantic Gaussian Field (SG-Field) and jointly optimizes camera poses and the field via multimodal error constraints. Furthermore, a Depth-adaptive Scale Regularization (DSR) scheme is introduced to resolve misalignments between scale-invariant Gaussians and geometric surfaces. To mitigate catastrophic forgetting, we propose a Random Sampling-based Keyframe Mapping (RSKM) strategy, which demonstrates superior performance over common local covisibility optimization methods. Extensive experiments on benchmark datasets show that GS3LAM achieves increased tracking robustness, superior rendering quality, and enhanced semantic precision compared to state-of-the-art methods. Source code is available at https://github.com/lif314/GS3LAM.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.27781v1",
+      "journal_ref": null,
+      "doi": "10.1145/3664647.3680739",
+      "comment": "Accepted by ACM MM 2024",
+      "entry_id": "http://arxiv.org/abs/2603.27781v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.27781v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.27781v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        },
+        {
+          "href": "https://doi.org/10.1145/3664647.3680739",
+          "title": "doi",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-01",
+        "venue": "ACM Multimedia",
+        "pub_type": "Book,JournalArticle",
+        "publisher": null
+      }
+    },
+    "2603.27546": {
+      "title": "Fast localization of anomalous patches in spatial data under dependence",
+      "authors": [
+        "Soham Bonnerjee",
+        "Sayar Karmakar",
+        "George Michailidis"
+      ],
+      "published": "2026-03-29T06:54:53+00:00",
+      "updated": "2026-03-29T06:54:53+00:00",
+      "summary": "We propose a scalable, provably accurate method for localizing an unknown number of multiple axis-aligned anomalous patches in spatial data under a general class of spatial dependence. Motivated by the practical need to detect localized changes rather than completely segment large spatial grids, we first introduce both a naive and a significantly faster intelligent-sampling-based estimator for a single patch. We then extend this methodology to the highly challenging multiple-patch setting and propose a two-stage Spatial Patch Localization of Anomalies under DEpendence procedure (SPLADE). Under mild conditions on signal strength, separation from the boundary, inter-patch separation, and a uniform Gaussian approximation, we establish simultaneous consistency for the estimated number of patches and for each individual patch boundary. Extensive numerical results based on synthetic data scenarios demonstrate that the proposed method exhibits significant computational and accuracy gains over competing approaches, as well as robustness to moderate and severe spatial dependence. Finally, we demonstrate the real-world utility of the proposed method by applying it to frame-to-frame video surveillance data, where it accurately detects small, closely separated subjects, a task where existing methods are significantly slower and highly prone to spurious detections due to not accounting for spatial dependence. A second application on 3D fibrous media is deferred to the Appendix.",
+      "categories": [
+        "stat.ME",
+        "math.ST"
+      ],
+      "primary_category": "stat.ME",
+      "pdf_url": "https://arxiv.org/pdf/2603.27546v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2603.27546v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.27546v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.27546v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-01",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2603.27516": {
+      "title": "SGS-Intrinsic: Semantic-Invariant Gaussian Splatting for Sparse-View Indoor Inverse Rendering",
+      "authors": [
+        "Jiahao Niu",
+        "Rongjia Zheng",
+        "Wenju Xu",
+        "WeiShi Zheng",
+        "Qing Zhang"
+      ],
+      "published": "2026-03-29T04:45:31+00:00",
+      "updated": "2026-03-29T04:45:31+00:00",
+      "summary": "We present SGS-Intrinsic, an indoor inverse rendering framework that works well for sparse-view images. Unlike existing 3D Gaussian Splatting (3DGS) based methods that focus on object-centric reconstruction and fail to work under sparse view settings, our method allows to achieve high-quality geometry reconstruction and accurate disentanglement of material and illumination. The core idea is to construct a dense and geometry-consistent Gaussian semantic field guided by semantic and geometric priors, providing a reliable foundation for subsequent inverse rendering. Building upon this, we perform material-illumination disentanglement by combining a hybrid illumination model and material prior to effectively capture illumination-material interactions. To mitigate the impact of cast shadows and enhance the robustness of material recovery, we introduce illumination-invariant material constraint together with a deshadowing model. Extensive experiments on benchmark datasets show that our method consistently improves both reconstruction fidelity and inverse rendering quality over existing 3DGS-based inverse rendering approaches. Our code is available at https://github.com/GrumpySloths/SGS_Intrinsic.github.io.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.27516v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "CVPR2026",
+      "entry_id": "http://arxiv.org/abs/2603.27516v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.27516v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.27516v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-01",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2603.27412": {
+      "title": "The Geometry of Harmful Intent: Training-Free Anomaly Detection via Angular Deviation in LLM Residual Streams",
+      "authors": [
+        "Isaac Llorente-Saguer"
+      ],
+      "published": "2026-03-28T21:19:58+00:00",
+      "updated": "2026-03-28T21:19:58+00:00",
+      "summary": "We present LatentBiopsy, a training-free method for detecting harmful prompts by analysing the geometry of residual-stream activations in large language models. Given 200 safe normative prompts, LatentBiopsy computes the leading principal component of their activations at a target layer and characterises new prompts by their radial deviation angle $θ$ from this reference direction. The anomaly score is the negative log-likelihood of $θ$ under a Gaussian fit to the normative distribution, flagging deviations symmetrically regardless of orientation. No harmful examples are required for training.\n  We evaluate two complete model triplets from the Qwen3.5-0.8B and Qwen2.5-0.5B families: base, instruction-tuned, and \\emph{abliterated} (refusal direction surgically removed via orthogonalisation). Across all six variants, LatentBiopsy achieves AUROC $\\geq$0.937 for harmful-vs-normative detection and AUROC = 1.000 for discriminating harmful from benign-aggressive prompts (XSTest), with sub-millisecond per-query overhead.\n  Three empirical findings emerge. First, geometry survives refusal ablation: both abliterated variants achieve AUROC at most 0.015 below their instruction-tuned counterparts, establishing a geometric dissociation between harmful-intent representation and the downstream generative refusal mechanism. Second, harmful prompts exhibit a near-degenerate angular distribution ($σ_θ\\approx 0.03$ rad), an order of magnitude tighter than the normative distribution ($σ_θ\\approx 0.27$ rad), preserved across all alignment stages including abliteration. Third, the two families exhibit opposite ring orientations at the same depth: harmful prompts occupy the outer ring in Qwen3.5-0.8B but the inner ring in Qwen2.5-0.5B, directly motivating the direction-agnostic scoring rule.",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2603.27412v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "20 pages, 10 figures, 3 tables. Training-free harmful-prompt detector via angular deviation in LLM residual streams. Evaluated on six Qwen variants (base / instruct / abliterated). Achieves AUROC over 0.937 (harmful-vs-normative) and 1.000 (harmful-vs-benign-aggressive) with no harmful training data",
+      "entry_id": "http://arxiv.org/abs/2603.27412v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.27412v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.27412v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-01",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
     "2603.26638": {
       "title": "Drive-Through 3D Vehicle Exterior Reconstruction via Dynamic-Scene SfM and Distortion-Aware Gaussian Splatting",
       "authors": [
@@ -8097,27 +8460,27 @@
         "Paul Fieguth"
       ],
       "published": "2026-02-05T13:18:53+00:00",
-      "updated": "2026-02-05T13:18:53+00:00",
-      "summary": "We introduce Variational Joint Embedding (VJE), a framework that synthesizes joint embedding and variational inference to enable self-supervised learning of probabilistic representations in a reconstruction-free, non-contrastive setting. Compared to energy-based predictive objectives that optimize pointwise discrepancies, VJE maximizes a symmetric conditional evidence lower bound (ELBO) for a latent-variable model defined directly on encoder embeddings. We instantiate the conditional likelihood with a heavy-tailed Student-$t$ model using a polar decomposition that explicitly decouples directional and radial factors to prevent norm-induced instabilities during training. VJE employs an amortized inference network to parameterize a diagonal Gaussian variational posterior whose feature-wise variances are shared with the likelihood scale to capture anisotropic uncertainty without auxiliary projection heads. Across ImageNet-1K, CIFAR-10/100, and STL-10, VJE achieves performance comparable to standard non-contrastive baselines under linear and k-NN evaluation. We further validate these probabilistic semantics through one-class CIFAR-10 anomaly detection, where likelihood-based scoring under the proposed model outperforms comparable self-supervised baselines.",
+      "updated": "2026-03-30T02:14:43+00:00",
+      "summary": "We introduce Variational Joint Embedding (VJE), a reconstruction-free latent-variable framework for non-contrastive self-supervised learning in representation space. VJE maximizes a symmetric conditional evidence lower bound (ELBO) on paired encoder embeddings by defining a conditional likelihood directly on target representations, rather than optimizing a pointwise compatibility objective. The likelihood is instantiated as a heavy-tailed Student--\\(t\\) distribution on a polar representation of the target embedding, where a directional--radial decomposition separates angular agreement from magnitude consistency and mitigates norm-induced pathologies. The directional factor operates on the unit sphere, yielding a valid variational bound for the associated spherical subdensity model. An amortized inference network parameterizes a diagonal Gaussian posterior whose feature-wise variances are shared with the directional likelihood, yielding anisotropic uncertainty without auxiliary projection heads. Across ImageNet-1K, CIFAR-10/100, and STL-10, VJE is competitive with standard non-contrastive baselines under linear and \\(k\\)-NN evaluation, while providing probabilistic semantics directly in representation space for downstream uncertainty-aware applications. We validate these semantics through out-of-distribution detection, where representation-space likelihoods yield strong empirical performance. These results position the framework as a principled variational formulation of non-contrastive learning, in which structured feature-wise uncertainty is represented directly in the learned embedding space.",
       "categories": [
         "cs.LG",
         "stat.ML"
       ],
       "primary_category": "cs.LG",
-      "pdf_url": "https://arxiv.org/pdf/2602.05639v1",
+      "pdf_url": "https://arxiv.org/pdf/2602.05639v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2602.05639v1",
+      "entry_id": "http://arxiv.org/abs/2602.05639v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2602.05639v1",
+          "href": "https://arxiv.org/abs/2602.05639v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2602.05639v1",
+          "href": "https://arxiv.org/pdf/2602.05639v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -103258,6 +103621,75 @@
     }
   },
   "Depth Estimation": {
+    "2603.27105": {
+      "title": "UniDAC: Universal Metric Depth Estimation for Any Camera",
+      "authors": [
+        "Girish Chandar Ganesan",
+        "Yuliang Guo",
+        "Liu Ren",
+        "Xiaoming Liu"
+      ],
+      "published": "2026-03-28T03:23:08+00:00",
+      "updated": "2026-03-28T03:23:08+00:00",
+      "summary": "Monocular metric depth estimation (MMDE) is a core challenge in computer vision, playing a pivotal role in real-world applications that demand accurate spatial understanding. Although prior works have shown promising zero-shot performance in MMDE, they often struggle with generalization across diverse camera types, such as fisheye and $360^\\circ$ cameras. Recent advances have addressed this through unified camera representations or canonical representation spaces, but they require either including large-FoV camera data during training or separately trained models for different domains. We propose UniDAC, an MMDE framework that presents universal robustness in all domains and generalizes across diverse cameras using a single model. We achieve this by decoupling metric depth estimation into relative depth prediction and spatially varying scale estimation, enabling robust performance across different domains. We propose a lightweight Depth-Guided Scale Estimation module that upsamples a coarse scale map to high resolution using the relative depth map as guidance to account for local scale variations. Furthermore, we introduce RoPE-$φ$, a distortion-aware positional embedding that respects the spatial warping in Equi-Rectangular Projections (ERP) via latitude-aware weighting. UniDAC achieves state of the art (SoTA) in cross-camera generalization by consistently outperforming prior methods across all datasets.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.27105v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2603.27105v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.27105v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.27105v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2603.26900": {
+      "title": "Computer Vision with a Superpixelation Camera",
+      "authors": [
+        "Sasidharan Mahalingam",
+        "Rachel Brown",
+        "Atul Ingle"
+      ],
+      "published": "2026-03-27T18:19:41+00:00",
+      "updated": "2026-03-27T18:19:41+00:00",
+      "summary": "Conventional cameras generate a lot of data that can be challenging to process in resource-constrained applications. Usually, cameras generate data streams on the order of the number of pixels in the image. However, most of this captured data is redundant for many downstream computer vision algorithms. We propose a novel camera design, which we call SuperCam, that adaptively processes captured data by performing superpixel segmentation on the fly. We show that SuperCam performs better than current state-of-the-art superpixel algorithms under memory-constrained situations. We also compare how well SuperCam performs when the compressed data is used for downstream computer vision tasks. Our results demonstrate that the proposed design provides superior output for image segmentation, object detection, and monocular depth estimation in situations where the available memory on the camera is limited. We posit that superpixel segmentation will play a crucial role as more computer vision inference models are deployed in edge devices. SuperCam would allow computer vision engineers to design more efficient systems for these applications.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.26900v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2603.26900v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.26900v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.26900v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2603.25867": {
       "title": "Seeing Through Smoke: Surgical Desmoking for Improved Visual Perception",
       "authors": [
@@ -103288,6 +103720,43 @@
         },
         {
           "href": "https://arxiv.org/pdf/2603.25867v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2603.26802": {
+      "title": "Deep Learning Aided Vision System for Planetary Rovers",
+      "authors": [
+        "Lomash Relia",
+        "Jai G Singla",
+        "Amitabh",
+        "Nitant Dube"
+      ],
+      "published": "2026-03-26T07:34:14+00:00",
+      "updated": "2026-03-26T07:34:14+00:00",
+      "summary": "This study presents a vision system for planetary rovers, combining real-time perception with offline terrain reconstruction. The real-time module integrates CLAHE enhanced stereo imagery, YOLOv11n based object detection, and a neural network to estimate object distances. The offline module uses the Depth Anything V2 metric monocular depth estimation model to generate depth maps from captured images, which are fused into dense point clouds using Open3D. Real world distance estimates from the real time pipeline provide reliable metric context alongside the qualitative reconstructions. Evaluation on Chandrayaan 3 NavCam stereo imagery, benchmarked against a CAHV based utility, shows that the neural network achieves a median depth error of 2.26 cm within a 1 to 10 meter range. The object detection model maintains a balanced precision recall tradeoff on grayscale lunar scenes. This architecture offers a scalable, compute-efficient vision solution for autonomous planetary exploration.",
+      "categories": [
+        "cs.CV",
+        "cs.RO",
+        "eess.IV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.26802v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2603.26802v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.26802v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.26802v1",
           "title": "pdf",
           "rel": "related",
           "content_type": null

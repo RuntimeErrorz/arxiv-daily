@@ -1,4 +1,4 @@
-## Updated at 2026-03-31 08:28:27
+## Updated at 2026-04-01 08:31:40
 
 ## 3DGS Semantic
 
@@ -8,6 +8,14 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-03-30**|**[Secret Key Rate Analysis of RIS-Assisted THz MIMO CV-QKD Systems under Localized and Global Eavesdropping](https://arxiv.org/abs/2603.28252)**|N/A|13 pages, 6 figures|cs.IT|None|Sushil Kumar et al.|
+|**2026-03-30**|**[\textit{4DSurf}: High-Fidelity Dynamic Scene Surface Reconstruction](https://arxiv.org/abs/2603.28064)**|N/A|Accepted to CVPR 2026|cs.CV|None|Renjie Wu et al.|
+|**2026-03-30**|**[DipGuava: Disentangling Personalized Gaussian Features for 3D Head Avatars from Monocular Video](https://arxiv.org/abs/2603.28003)**|Proceedings of the AAAI Conference on Artificial Intelligence|AAAI 2026|cs.CV|None|Jeonghaeng Lee et al.|
+|**2026-03-30**|**[ITQ3_S: High-Fidelity 3-bit LLM Inference via Interleaved Ternary Quantization with Rotation-Domain Smoothing](https://arxiv.org/abs/2603.27914)**|N/A|12 pages, 4 figures, 3 tables|cs.LG|None|Edward J. Yoon|
+|**2026-03-29**|**[GS3LAM: Gaussian Semantic Splatting SLAM](https://arxiv.org/abs/2603.27781)**|ACM Multimedia|Accepted by ACM MM 2024|cs.CV|None|Linfei Li et al.|
+|**2026-03-29**|**[Fast localization of anomalous patches in spatial data under dependence](https://arxiv.org/abs/2603.27546)**|N/A|None|stat.ME|None|Soham Bonnerjee et al.|
+|**2026-03-29**|**[SGS-Intrinsic: Semantic-Invariant Gaussian Splatting for Sparse-View Indoor Inverse Rendering](https://arxiv.org/abs/2603.27516)**|N/A|CVPR2026|cs.CV|None|Jiahao Niu et al.|
+|**2026-03-28**|**[The Geometry of Harmful Intent: Training-Free Anomaly Detection via Angular Deviation in LLM Residual Streams](https://arxiv.org/abs/2603.27412)**|N/A|20 pages, 10 figures, 3 tables. Training-free harmful-prompt detector via angular deviation in LLM residual streams. Evaluated on six Qwen variants (base / instruct / abliterated). Achieves AUROC over 0.937 (harmful-vs-normative) and 1.000 (harmful-vs-benign-aggressive) with no harmful training data|cs.LG|None|Isaac Llorente-Saguer|
 |**2026-03-27**|**[Drive-Through 3D Vehicle Exterior Reconstruction via Dynamic-Scene SfM and Distortion-Aware Gaussian Splatting](https://arxiv.org/abs/2603.26638)**|N/A|8 pages, 7 figures, Submitted to IEEE IROS 2026 (under review)|cs.CV|None|Nitin Kulkarni et al.|
 |**2026-03-27**|**[Scene Grounding In the Wild](https://arxiv.org/abs/2603.26584)**|N/A|Project page at https://tau-vailab.github.io/SceneGround/|cs.CV|None|Tamir Cohen et al.|
 |**2026-03-27**|**[Sharp Capacity Scaling of Spectral Optimizers in Learning Associative Memory](https://arxiv.org/abs/2603.26554)**|N/A|77 pages, 8 figures|cs.LG|None|Juno Kim et al.|
@@ -769,7 +777,10 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-03-28**|**[UniDAC: Universal Metric Depth Estimation for Any Camera](https://arxiv.org/abs/2603.27105)**|N/A|None|cs.CV|None|Girish Chandar Ganesan et al.|
+|**2026-03-27**|**[Computer Vision with a Superpixelation Camera](https://arxiv.org/abs/2603.26900)**|N/A|None|cs.CV|None|Sasidharan Mahalingam et al.|
 |**2026-03-26**|**[Seeing Through Smoke: Surgical Desmoking for Improved Visual Perception](https://arxiv.org/abs/2603.25867)**|N/A|8 pages, 4 figures, 3 tables|cs.CV|None|Jingpei Lu et al.|
+|**2026-03-26**|**[Deep Learning Aided Vision System for Planetary Rovers](https://arxiv.org/abs/2603.26802)**|N/A|None|cs.CV|None|Lomash Relia et al.|
 |**2026-03-24**|**[One View Is Enough! Monocular Training for In-the-Wild Novel View Generation](https://arxiv.org/abs/2603.23488)**|N/A|34 pages, 16 figures|cs.CV|None|Adrien Ramanana Rahary et al.|
 |**2026-03-24**|**[Generative Event Pretraining with Foundation Model Alignment](https://arxiv.org/abs/2603.23032)**|N/A|None|cs.CV|None|Jianwen Cao et al.|
 |**2026-03-23**|**[GenOpticalFlow: A Generative Approach to Unsupervised Optical Flow Learning](https://arxiv.org/abs/2603.22270)**|N/A|None|cs.CV|None|Yixuan Luo et al.|
