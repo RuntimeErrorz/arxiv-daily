@@ -1,5 +1,183 @@
 {
   "3DGS Semantic": {
+    "2603.29837": {
+      "title": "DiSGMM: A Method for Time-varying Microscopic Weight Completion on Road Networks",
+      "authors": [
+        "Yan Lin",
+        "Jilin Hu",
+        "Shengnan Guo",
+        "Christian S. Jensen",
+        "Youfang Lin",
+        "Huaiyu Wan"
+      ],
+      "published": "2026-03-31T14:58:25+00:00",
+      "updated": "2026-03-31T14:58:25+00:00",
+      "summary": "Microscopic road-network weights represent fine-grained, time-varying traffic conditions obtained from individual vehicles. An example is travel speeds associated with road segments as vehicles traverse them. These weights support tasks including traffic microsimulation and vehicle routing with reliability guarantees. We study the problem of time-varying microscopic weight completion. During a time slot, the available weights typically cover only some road segments. Weight completion recovers distributions for the weights of every road segment at the current time slot. This problem involves two challenges: (i) contending with two layers of sparsity, where weights are missing at both the network layer (many road segments lack weights) and the segment layer (a segment may have insufficient weights to enable accurate distribution estimation); and (ii) achieving a weight distribution representation that is closed-form and can capture complex conditions flexibly, including heavy tails and multiple clusters.\n  To address these challenges, we propose DiSGMM that combines sparsity-aware embeddings with spatiotemporal modeling to leverage sparse known weights alongside learned segment properties and long-range correlations for distribution estimation. DiSGMM represents distributions of microscopic weights as learnable Gaussian mixture models, providing closed-form distributions capable of capturing complex conditions flexibly. Experiments on two real-world datasets show that DiSGMM can outperform state-of-the-art methods.",
+      "categories": [
+        "cs.LG"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2603.29837v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2603.29837v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.29837v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.29837v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-01",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2603.29756": {
+      "title": "One-for-All: A Lightweight Stabilized and Parameter-Efficient Pre-trained LLM for Time Series Forecasting",
+      "authors": [
+        "Prasanjit Dey",
+        "Soumyabrata Dev",
+        "Bianca Schoen-Phelan"
+      ],
+      "published": "2026-03-31T13:54:43+00:00",
+      "updated": "2026-03-31T13:54:43+00:00",
+      "summary": "We address the challenge of adapting pre-trained Large Language Models (LLMs) for multivariate time-series analysis, where their deployment is often hindered by prohibitive computational and memory demands. Our solution, One-for-All, introduces Gaussian Rank-Stabilized Low-Rank Adapters (rsLoRA) to enable parameter-efficient fine-tuning of frozen LLMs. While inspired by LoRA, rsLoRA introduces a mathematically grounded rank-stabilization mechanism that enables provable gradient stability at low ranks a novel contribution absent in prior PEFT methods. Our framework injects trainable rank decomposition matrices (rank 16) into positional embeddings and output layers, while keeping self-attention weights fixed. This design reduces trainable parameters by 6.8$\\times$ (vs. TimesNet), 21$\\times$ (vs. GPT4TS), and 11.8$\\times$ (vs. TIME-LLM), while achieving a 168-1,776$\\times$ smaller memory footprint (2.2MiB vs. 340MiB-4.18GiB in SOTA models). Rigorous evaluation across six time-series tasks demonstrates that One-for-All achieves state-of-the-art efficiency-accuracy trade-offs: 5.5$\\times$ higher parameter efficiency (MSE=5.50) than TimesNet and 21$\\times$ better than GPT4TS, while matching their forecasting accuracy (MSE=0.33). The framework's stability is validated through consistent performance across diverse horizons (96-720 steps) and datasets (ETT, Weather, M3, M4), with 98.3% fewer parameters than conventional transformers. These advances enable deployment on edge devices for healthcare, finance, and environmental monitoring without compromising performance.",
+      "categories": [
+        "cs.LG"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2603.29756v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "This manuscript is currently under review at IEEE Transactions on Knowledge and Data Engineering (TKDE)",
+      "entry_id": "http://arxiv.org/abs/2603.29756v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.29756v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.29756v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-01",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2603.29654": {
+      "title": "Concept frustration: Aligning human concepts and machine representations",
+      "authors": [
+        "Enrico Parisini",
+        "Christopher J. Soelistyo",
+        "Ahab Isaac",
+        "Alessandro Barp",
+        "Christopher R. S. Banerji"
+      ],
+      "published": "2026-03-31T12:17:21+00:00",
+      "updated": "2026-03-31T12:17:21+00:00",
+      "summary": "Aligning human-interpretable concepts with the internal representations learned by modern machine learning systems remains a central challenge for interpretable AI. We introduce a geometric framework for comparing supervised human concepts with unsupervised intermediate representations extracted from foundation model embeddings. Motivated by the role of conceptual leaps in scientific discovery, we formalise the notion of concept frustration: a contradiction that arises when an unobserved concept induces relationships between known concepts that cannot be made consistent within an existing ontology. We develop task-aligned similarity measures that detect concept frustration between supervised concept-based models and unsupervised representations derived from foundation models, and show that the phenomenon is detectable in task-aligned geometry while conventional Euclidean comparisons fail. Under a linear-Gaussian generative model we derive a closed-form expression for Bayes-optimal concept-based classifier accuracy, decomposing predictive signal into known-known, known-unknown and unknown-unknown contributions and identifying analytically where frustration affects performance. Experiments on synthetic data and real language and vision tasks demonstrate that frustration can be detected in foundation model representations and that incorporating a frustrating concept into an interpretable model reorganises the geometry of learned concept representations, to better align human and machine reasoning. These results suggest a principled framework for diagnosing incomplete concept ontologies and aligning human and machine conceptual reasoning, with implications for the development and validation of safe interpretable AI for high-risk applications.",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "stat.ML"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2603.29654v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "34 pages, 7 figures",
+      "entry_id": "http://arxiv.org/abs/2603.29654v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.29654v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.29654v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-01",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2603.29078": {
+      "title": "PolarQuant: Optimal Gaussian Weight Quantization via Hadamard Rotation for LLM Compression",
+      "authors": [
+        "Caio Vicentino"
+      ],
+      "published": "2026-03-30T23:33:28+00:00",
+      "updated": "2026-03-30T23:33:28+00:00",
+      "summary": "We present PolarQuant, a post-training weight quantization method for large language models (LLMs) that exploits the distributional structure of neural network weights to achieve near-lossless compression. PolarQuant operates in three stages: (1) block-wise normalization to the unit hypersphere, (2) Walsh-Hadamard rotation to transform coordinates into approximately Gaussian random variables, and (3) quantization with centroids matched to the Gaussian distribution. Our ablation reveals that Hadamard rotation alone accounts for 98% of the quality improvement, reducing Qwen3.5-9B perplexity from 6.90 (absmax Q5) to 6.40 (Delta = +0.03 from FP16), making it practically lossless without any calibration data. Furthermore, PolarQuant functions as an effective preprocessing step for downstream INT4 quantizers: PolarQuant Q5 dequantized and re-quantized by torchao INT4 achieves perplexity 6.56 versus 6.68 for direct absmax INT4, while maintaining 43.1 tok/s throughput at 6.5 GB VRAM. Code and models are publicly available.",
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CL",
+      "pdf_url": "https://arxiv.org/pdf/2603.29078v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "10 pages, 5 tables, 2 algorithms. Code: https://github.com/caiovicentino/eoq-quantization Models:https://huggingface.co/caiovicentino1",
+      "entry_id": "http://arxiv.org/abs/2603.29078v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.29078v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.29078v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-01",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
     "2603.28252": {
       "title": "Secret Key Rate Analysis of RIS-Assisted THz MIMO CV-QKD Systems under Localized and Global Eavesdropping",
       "authors": [
@@ -281,30 +459,30 @@
         "Jiahao Niu",
         "Rongjia Zheng",
         "Wenju Xu",
-        "WeiShi Zheng",
+        "Wei-Shi Zheng",
         "Qing Zhang"
       ],
       "published": "2026-03-29T04:45:31+00:00",
-      "updated": "2026-03-29T04:45:31+00:00",
+      "updated": "2026-03-31T10:36:33+00:00",
       "summary": "We present SGS-Intrinsic, an indoor inverse rendering framework that works well for sparse-view images. Unlike existing 3D Gaussian Splatting (3DGS) based methods that focus on object-centric reconstruction and fail to work under sparse view settings, our method allows to achieve high-quality geometry reconstruction and accurate disentanglement of material and illumination. The core idea is to construct a dense and geometry-consistent Gaussian semantic field guided by semantic and geometric priors, providing a reliable foundation for subsequent inverse rendering. Building upon this, we perform material-illumination disentanglement by combining a hybrid illumination model and material prior to effectively capture illumination-material interactions. To mitigate the impact of cast shadows and enhance the robustness of material recovery, we introduce illumination-invariant material constraint together with a deshadowing model. Extensive experiments on benchmark datasets show that our method consistently improves both reconstruction fidelity and inverse rendering quality over existing 3DGS-based inverse rendering approaches. Our code is available at https://github.com/GrumpySloths/SGS_Intrinsic.github.io.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2603.27516v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.27516v2",
       "journal_ref": null,
       "doi": null,
       "comment": "CVPR2026",
-      "entry_id": "http://arxiv.org/abs/2603.27516v1",
+      "entry_id": "http://arxiv.org/abs/2603.27516v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2603.27516v1",
+          "href": "https://arxiv.org/abs/2603.27516v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2603.27516v1",
+          "href": "https://arxiv.org/pdf/2603.27516v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -8460,27 +8638,27 @@
         "Paul Fieguth"
       ],
       "published": "2026-02-05T13:18:53+00:00",
-      "updated": "2026-03-30T02:14:43+00:00",
+      "updated": "2026-03-31T17:23:11+00:00",
       "summary": "We introduce Variational Joint Embedding (VJE), a reconstruction-free latent-variable framework for non-contrastive self-supervised learning in representation space. VJE maximizes a symmetric conditional evidence lower bound (ELBO) on paired encoder embeddings by defining a conditional likelihood directly on target representations, rather than optimizing a pointwise compatibility objective. The likelihood is instantiated as a heavy-tailed Student--\\(t\\) distribution on a polar representation of the target embedding, where a directional--radial decomposition separates angular agreement from magnitude consistency and mitigates norm-induced pathologies. The directional factor operates on the unit sphere, yielding a valid variational bound for the associated spherical subdensity model. An amortized inference network parameterizes a diagonal Gaussian posterior whose feature-wise variances are shared with the directional likelihood, yielding anisotropic uncertainty without auxiliary projection heads. Across ImageNet-1K, CIFAR-10/100, and STL-10, VJE is competitive with standard non-contrastive baselines under linear and \\(k\\)-NN evaluation, while providing probabilistic semantics directly in representation space for downstream uncertainty-aware applications. We validate these semantics through out-of-distribution detection, where representation-space likelihoods yield strong empirical performance. These results position the framework as a principled variational formulation of non-contrastive learning, in which structured feature-wise uncertainty is represented directly in the learned embedding space.",
       "categories": [
         "cs.LG",
         "stat.ML"
       ],
       "primary_category": "cs.LG",
-      "pdf_url": "https://arxiv.org/pdf/2602.05639v2",
+      "pdf_url": "https://arxiv.org/pdf/2602.05639v3",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2602.05639v2",
+      "entry_id": "http://arxiv.org/abs/2602.05639v3",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2602.05639v2",
+          "href": "https://arxiv.org/abs/2602.05639v3",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2602.05639v2",
+          "href": "https://arxiv.org/pdf/2602.05639v3",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -103621,6 +103799,77 @@
     }
   },
   "Depth Estimation": {
+    "2603.29387": {
+      "title": "Extend3D: Town-Scale 3D Generation",
+      "authors": [
+        "Seungwoo Yoon",
+        "Jinmo Kim",
+        "Jaesik Park"
+      ],
+      "published": "2026-03-31T07:55:04+00:00",
+      "updated": "2026-03-31T07:55:04+00:00",
+      "summary": "In this paper, we propose Extend3D, a training-free pipeline for 3D scene generation from a single image, built upon an object-centric 3D generative model. To overcome the limitations of fixed-size latent spaces in object-centric models for representing wide scenes, we extend the latent space in the $x$ and $y$ directions. Then, by dividing the extended latent space into overlapping patches, we apply the object-centric 3D generative model to each patch and couple them at each time step. Since patch-wise 3D generation with image conditioning requires strict spatial alignment between image and latent patches, we initialize the scene using a point cloud prior from a monocular depth estimator and iteratively refine occluded regions through SDEdit. We discovered that treating the incompleteness of 3D structure as noise during 3D refinement enables 3D completion via a concept, which we term under-noising. Furthermore, to address the sub-optimality of object-centric models for sub-scene generation, we optimize the extended latent during denoising, ensuring that the denoising trajectories remain consistent with the sub-scene dynamics. To this end, we introduce 3D-aware optimization objectives for improved geometric structure and texture fidelity. We demonstrate that our method yields better results than prior methods, as evidenced by human preference and quantitative experiments.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.29387v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "CVPR 2026, Project Page: http://seungwoo-yoon.github.io/extend3d-page",
+      "entry_id": "http://arxiv.org/abs/2603.29387v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.29387v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.29387v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2603.29368": {
+      "title": "StereoVGGT: A Training-Free Visual Geometry Transformer for Stereo Vision",
+      "authors": [
+        "Ziyang Chen",
+        "Yansong Qu",
+        "You Shen",
+        "Xuan Cheng",
+        "Liujuan Cao"
+      ],
+      "published": "2026-03-31T07:41:07+00:00",
+      "updated": "2026-03-31T07:41:07+00:00",
+      "summary": "Driven by the advancement of 3D devices, stereo vision tasks including stereo matching and stereo conversion have emerged as a critical research frontier. Contemporary stereo vision backbones typically rely on either monocular depth estimation (MDE) models or visual foundation models (VFMs). Crucially, these models are predominantly pretrained without explicit supervision of camera poses. Given that such geometric knowledge is indispensable for stereo vision, the absence of explicit spatial constraints constitutes a significant performance bottleneck for existing architectures. Recognizing that the Visual Geometry Grounded Transformer (VGGT) operates as a foundation model pretrained on extensive 3D priors, including camera poses, we investigate its potential as a robust backbone for stereo vision tasks. Nevertheless, empirical results indicate that its direct application to stereo vision yields suboptimal performance. We observe that VGGT suffers from a more significant degradation of geometric details during feature extraction. Such characteristics conflict with the requirements of binocular stereo vision, thereby constraining its efficacy for relative tasks. To bridge this gap, we propose StereoVGGT, a feature backbone specifically tailored for stereo vision. By leveraging the frozen VGGT and introducing a training-free feature adjustment pipeline, we mitigate geometric degradation and harness the latent camera calibration knowledge embedded within the model. StereoVGGT-based stereo matching network achieved the $1^{st}$ rank among all published methods on the KITTI benchmark, validating that StereoVGGT serves as a highly effective backbone for stereo vision.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2603.29368v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2603.29368v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.29368v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.29368v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2603.27105": {
       "title": "UniDAC: Universal Metric Depth Estimation for Any Camera",
       "authors": [

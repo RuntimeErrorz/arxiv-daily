@@ -1,4 +1,4 @@
-## Updated at 2026-04-01 08:31:40
+## Updated at 2026-04-01 20:21:01
 
 ## 3DGS Semantic
 
@@ -8,6 +8,10 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-03-31**|**[DiSGMM: A Method for Time-varying Microscopic Weight Completion on Road Networks](https://arxiv.org/abs/2603.29837)**|N/A|None|cs.LG|None|Yan Lin et al.|
+|**2026-03-31**|**[One-for-All: A Lightweight Stabilized and Parameter-Efficient Pre-trained LLM for Time Series Forecasting](https://arxiv.org/abs/2603.29756)**|N/A|This manuscript is currently under review at IEEE Transactions on Knowledge and Data Engineering (TKDE)|cs.LG|None|Prasanjit Dey et al.|
+|**2026-03-31**|**[Concept frustration: Aligning human concepts and machine representations](https://arxiv.org/abs/2603.29654)**|N/A|34 pages, 7 figures|cs.LG|None|Enrico Parisini et al.|
+|**2026-03-30**|**[PolarQuant: Optimal Gaussian Weight Quantization via Hadamard Rotation for LLM Compression](https://arxiv.org/abs/2603.29078)**|N/A|10 pages, 5 tables, 2 algorithms. Code: https://github.com/caiovicentino/eoq-quantization Models:https://huggingface.co/caiovicentino1|cs.CL|None|Caio Vicentino|
 |**2026-03-30**|**[Secret Key Rate Analysis of RIS-Assisted THz MIMO CV-QKD Systems under Localized and Global Eavesdropping](https://arxiv.org/abs/2603.28252)**|N/A|13 pages, 6 figures|cs.IT|None|Sushil Kumar et al.|
 |**2026-03-30**|**[\textit{4DSurf}: High-Fidelity Dynamic Scene Surface Reconstruction](https://arxiv.org/abs/2603.28064)**|N/A|Accepted to CVPR 2026|cs.CV|None|Renjie Wu et al.|
 |**2026-03-30**|**[DipGuava: Disentangling Personalized Gaussian Features for 3D Head Avatars from Monocular Video](https://arxiv.org/abs/2603.28003)**|Proceedings of the AAAI Conference on Artificial Intelligence|AAAI 2026|cs.CV|None|Jeonghaeng Lee et al.|
@@ -777,6 +781,8 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-03-31**|**[Extend3D: Town-Scale 3D Generation](https://arxiv.org/abs/2603.29387)**|N/A|CVPR 2026, Project Page: http://seungwoo-yoon.github.io/extend3d-page|cs.CV|None|Seungwoo Yoon et al.|
+|**2026-03-31**|**[StereoVGGT: A Training-Free Visual Geometry Transformer for Stereo Vision](https://arxiv.org/abs/2603.29368)**|N/A|None|cs.CV|None|Ziyang Chen et al.|
 |**2026-03-28**|**[UniDAC: Universal Metric Depth Estimation for Any Camera](https://arxiv.org/abs/2603.27105)**|N/A|None|cs.CV|None|Girish Chandar Ganesan et al.|
 |**2026-03-27**|**[Computer Vision with a Superpixelation Camera](https://arxiv.org/abs/2603.26900)**|N/A|None|cs.CV|None|Sasidharan Mahalingam et al.|
 |**2026-03-26**|**[Seeing Through Smoke: Surgical Desmoking for Improved Visual Perception](https://arxiv.org/abs/2603.25867)**|N/A|8 pages, 4 figures, 3 tables|cs.CV|None|Jingpei Lu et al.|
