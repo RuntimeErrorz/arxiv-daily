@@ -1,5 +1,202 @@
 {
   "3DGS Semantic": {
+    "2604.01204": {
+      "title": "Neural Harmonic Textures for High-Quality Primitive Based Neural Reconstruction",
+      "authors": [
+        "Jorge Condor",
+        "Nicolas Moenne-Loccoz",
+        "Merlin Nimier-David",
+        "Piotr Didyk",
+        "Zan Gojcic",
+        "Qi Wu"
+      ],
+      "published": "2026-04-01T17:48:22+00:00",
+      "updated": "2026-04-01T17:48:22+00:00",
+      "summary": "Primitive-based methods such as 3D Gaussian Splatting have recently become the state-of-the-art for novel-view synthesis and related reconstruction tasks. Compared to neural fields, these representations are more flexible, adaptive, and scale better to large scenes. However, the limited expressivity of individual primitives makes modeling high-frequency detail challenging. We introduce Neural Harmonic Textures, a neural representation approach that anchors latent feature vectors on a virtual scaffold surrounding each primitive. These features are interpolated within the primitive at ray intersection points. Inspired by Fourier analysis, we apply periodic activations to the interpolated features, turning alpha blending into a weighted sum of harmonic components. The resulting signal is then decoded in a single deferred pass using a small neural network, significantly reducing computational cost. Neural Harmonic Textures yield state-of-the-art results in real-time novel view synthesis while bridging the gap between primitive- and neural-field-based reconstruction. Our method integrates seamlessly into existing primitive-based pipelines such as 3DGUT, Triangle Splatting, and 2DGS. We further demonstrate its generality with applications to 2D image fitting and semantic reconstruction.",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.GR",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.01204v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.01204v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.01204v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.01204v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-02",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2604.01086": {
+      "title": "Asymptotically Optimal Sequential Testing with Heterogeneous LLMs",
+      "authors": [
+        "Guokai Li",
+        "Jiaxin",
+        "Liang",
+        "Mo Liu",
+        "Yanzhe",
+        "Lei",
+        "Stefanus Jasin",
+        "Fenghua Yang",
+        "Preet Baxi"
+      ],
+      "published": "2026-04-01T16:15:13+00:00",
+      "updated": "2026-04-01T16:15:13+00:00",
+      "summary": "We study a Bayesian binary sequential hypothesis testing problem with multiple large language models (LLMs). Each LLM $j$ has per-query cost $c_j>0$, random waiting time with mean $μ_j>0$ and sub-Gaussian tails, and \\emph{asymmetric} accuracies: the probability of returning the correct label depends on the true hypothesis $θ\\in\\{A,B\\}$ and needs not be the same under $A$ and $B$. This asymmetry induces two distinct information rates $(I_{j,A}, I_{j,B})$ per LLM, one under each hypothesis. The decision-maker chooses LLMs sequentially, observes their noisy binary answers, and stops when the posterior probability of one hypothesis exceeds $1-α$. The objective is to minimize the sum of expected query cost and expected waiting cost, $\\mathbb{E}[C_π] + \\mathbb{E}[g(W_π)]$, where $C_π$ is the total query cost, $W_π$ is the total waiting time and $g$ is a polynomial function (e.g., $g(x)=x^ρ$ with $ρ\\ge 1$).\n  We prove that as the error tolerance $α\\to0$, the optimal policy is asymptotically equivalent to one that uses at most two LLMs. In this case, a single-LLM policy is \\emph{not} generically optimal: optimality now requires exploiting a two-dimensional tradeoff between information under $A$ and information under $B$. Any admissible policy induces an expected information-allocation vector in $\\mathbb{R}_+^2$, and we show that the optimal allocation lies at an extreme point of the associated convex set when $α$ is relatively small, and hence uses at most two LLMs. We construct belief-dependent policies that first mix between two LLMs when the posterior is ambiguous, and then switch to a single ``specialist'' LLM when the posterior is sufficiently close to one of the hypotheses. These policies match the universal lower bound up to a $(1+o(1))$ factor as $α\\rightarrow 0$.",
+      "categories": [
+        "cs.DS",
+        "cs.IT",
+        "math.ST"
+      ],
+      "primary_category": "cs.DS",
+      "pdf_url": "https://arxiv.org/pdf/2604.01086v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.01086v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.01086v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.01086v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-02",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2604.00969": {
+      "title": "DLWM: Dual Latent World Models enable Holistic Gaussian-centric Pre-training in Autonomous Driving",
+      "authors": [
+        "Yiyao Zhu",
+        "Ying Xue",
+        "Haiming Zhang",
+        "Guangfeng Jiang",
+        "Wending Zhou",
+        "Xu Yan",
+        "Jiantao Gao",
+        "Yingjie Cai",
+        "Bingbing Liu",
+        "Zhen Li",
+        "Shaojie Shen"
+      ],
+      "published": "2026-04-01T14:41:21+00:00",
+      "updated": "2026-04-01T14:41:21+00:00",
+      "summary": "Vision-based autonomous driving has gained much attention due to its low costs and excellent performance. Compared with dense BEV (Bird's Eye View) or sparse query models, Gaussian-centric method is a comprehensive yet sparse representation by describing scene with 3D semantic Gaussians. In this paper, we introduce DLWM, a novel paradigm with Dual Latent World Models specifically designed to enable holistic gaussian-centric pre-training in autonomous driving using two stages. In the first stage, DLWM predicts 3D Gaussians from queries by self-supervised reconstructing multi-view semantic and depth images. Equipped with fine-grained contextual features, in the second stage, two latent world models are trained separately for temporal feature learning, including Gaussian-flow-guided latent prediction for downstream occupancy perception and forecasting tasks, and ego-planning-guided latent prediction for motion planning. Extensive experiments in SurroundOcc and nuScenes benchmarks demonstrate that DLWM shows significant performance gains across Gaussian-centric 3D occupancy perception, 4D occupancy forecasting and motion planning tasks.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.00969v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted by CVPR 2026",
+      "entry_id": "http://arxiv.org/abs/2604.00969v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.00969v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.00969v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-02",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2604.00382": {
+      "title": "mmAnomaly: Leveraging Visual Context for Robust Anomaly Detection in the Non-Visual World with mmWave Radar",
+      "authors": [
+        "Tarik Reza Toha",
+        "Shao-Jung",
+        "Lu",
+        "Mahathir Monjur",
+        "Shahriar Nirjon"
+      ],
+      "published": "2026-04-01T02:07:57+00:00",
+      "updated": "2026-04-01T02:07:57+00:00",
+      "summary": "mmWave radar enables human sensing in non-visual scenarios-e.g., through clothing or certain types of walls-where traditional cameras fail due to occlusion or privacy limitations. However, robust anomaly detection with mmWave remains challenging, as signal reflections are influenced by material properties, clutter, and multipath interference, producing complex, non-Gaussian distortions. Existing methods lack contextual awareness and misclassify benign signal variations as anomalies. We present mmAnomaly, a multi-modal anomaly detection framework that combines mmWave radar with RGBD input to incorporate visual context. Our system extracts semantic cues-such as scene geometry and material properties-using a fast ResNet-based classifier, and uses a conditional latent diffusion model to synthesize the expected mmWave spectrum for the given visual context. A dual-input comparison module then identifies spatial deviations between real and generated spectra to localize anomalies. We evaluate mmAnomaly on two multi-modal datasets across three applications: concealed weapon localization, through-wall intruder localization, and through-wall fall localization. The system achieves up to 94% F1 score and sub-meter localization error, demonstrating robust generalization across clothing, occlusions, and cluttered environments. These results establish mmAnomaly as an accurate and interpretable framework for context-aware anomaly detection in mmWave sensing.",
+      "categories": [
+        "cs.CV",
+        "eess.SP"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.00382v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted at the 24th ACM/IEEE International Conference on Embedded Artificial Intelligence and Sensing Systems (SenSys 2026)",
+      "entry_id": "http://arxiv.org/abs/2604.00382v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.00382v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.00382v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-02",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
     "2603.29837": {
       "title": "DiSGMM: A Method for Time-varying Microscopic Weight Completion on Road Networks",
       "authors": [
@@ -130,6 +327,50 @@
       "venue_info": {
         "venue_source": "Semantic Scholar",
         "queried_at": "2026-04-01",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2604.00067": {
+      "title": "Temporal Memory for Resource-Constrained Agents: Continual Learning via Stochastic Compress-Add-Smooth",
+      "authors": [
+        "Michael Chertkov"
+      ],
+      "published": "2026-03-31T12:04:11+00:00",
+      "updated": "2026-03-31T12:04:11+00:00",
+      "summary": "An agent that operates sequentially must incorporate new experience without forgetting old experience, under a fixed memory budget. We propose a framework in which memory is not a parameter vector but a stochastic process: a Bridge Diffusion on a replay interval $[0,1]$, whose terminal marginal encodes the present and whose intermediate marginals encode the past. New experience is incorporated via a three-step \\emph{Compress--Add--Smooth} (CAS) recursion. We test the framework on the class of models with marginal probability densities modeled via Gaussian mixtures of fixed number of components~$K$ in $d$ dimensions; temporal complexity is controlled by a fixed number~$L$ of piecewise-linear protocol segments whose nodes store Gaussian-mixture states. The entire recursion costs $O(LKd^2)$ flops per day -- no backpropagation, no stored data, no neural networks -- making it viable for controller-light hardware.\n  Forgetting in this framework arises not from parameter interference but from lossy temporal compression: the re-approximation of a finer protocol by a coarser one under a fixed segment budget. We find that the retention half-life scales linearly as $a_{1/2}\\approx c\\,L$ with a constant $c>1$ that depends on the dynamics but not on the mixture complexity~$K$, the dimension~$d$, or the geometry of the target family. The constant~$c$ admits an information-theoretic interpretation analogous to the Shannon channel capacity. The stochastic process underlying the bridge provides temporally coherent ``movie'' replay -- compressed narratives of the agent's history, demonstrated visually on an MNIST latent-space illustration. The framework provides a fully analytical ``Ising model'' of continual learning in which the mechanism, rate, and form of forgetting can be studied with mathematical precision.",
+      "categories": [
+        "cs.LG",
+        "cond-mat.stat-mech",
+        "cs.AI",
+        "eess.SY"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2604.00067v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "33 pages, 22 figures",
+      "entry_id": "http://arxiv.org/abs/2604.00067v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.00067v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.00067v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-02",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -964,26 +1205,26 @@
         "Pieter Simoens"
       ],
       "published": "2026-03-25T14:09:59+00:00",
-      "updated": "2026-03-25T14:09:59+00:00",
+      "updated": "2026-04-01T14:59:23+00:00",
       "summary": "Self-supervised learning has emerged as a powerful paradigm for learning visual representations without manual annotations, yet most methods still operate on a single modality and therefore miss the complementary structure available from heterogeneous sensors. We present Le MuMo JEPA, a self-supervised framework that learns unified representations from RGB images and aligned companion modalities. In our driving experiments, the second modality is camera-aligned LiDAR depth; we also evaluate RGB-thermal training and transfer on the Teledyne FLIR ADAS benchmark. Our approach extends LeJEPA to the multi-modal setting by learning fusion tokens that act as a latent bottleneck between modality-specific patch stems inside a shared transformer. Our default model employs a pruned fusion strategy: after an initial cross-modal attention layer, modality-specific tokens are dropped, forcing cross-modal information into the shared fusion-token grid as an efficient latent bottleneck before Sketched Isotropic Gaussian Regularization (SIGReg) is applied to the joint multimodal CLS embedding. On Waymo, Le MuMo JEPA gives the strongest performance-efficiency trade-off on downstream patch probes among the from-scratch multimodal baselines, improving CenterNet detection and dense depth while remaining competitive on segmentation. Under from-scratch training on nuScenes, Le MuMo JEPA remains the strongest model, and it also gives the best FLIR results, especially after Waymo-initialized fine-tuning. It also retains the best overall accuracy-efficiency balance in our study at substantially lower compute, memory, and estimated training time.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2603.24327v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.24327v2",
       "journal_ref": null,
       "doi": null,
-      "comment": null,
-      "entry_id": "http://arxiv.org/abs/2603.24327v1",
+      "comment": "14 pages, 4 figures, supplementary material. Accepted at the CVPR 2026 Workshop on Unified Robotic Vision with Cross-Modal Sensing and Alignment (URVIS)",
+      "entry_id": "http://arxiv.org/abs/2603.24327v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2603.24327v1",
+          "href": "https://arxiv.org/abs/2603.24327v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2603.24327v1",
+          "href": "https://arxiv.org/pdf/2603.24327v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -103799,6 +104040,77 @@
     }
   },
   "Depth Estimation": {
+    "2604.01118": {
+      "title": "Lightweight Prompt-Guided CLIP Adaptation for Monocular Depth Estimation",
+      "authors": [
+        "Reyhaneh Ahani Manghotay",
+        "Jie Liang"
+      ],
+      "published": "2026-04-01T16:41:04+00:00",
+      "updated": "2026-04-01T16:41:04+00:00",
+      "summary": "Leveraging the rich semantic features of vision-language models (VLMs) like CLIP for monocular depth estimation tasks is a promising direction, yet often requires extensive fine-tuning or lacks geometric precision. We present a parameter-efficient framework, named MoA-DepthCLIP, that adapts pretrained CLIP representations for monocular depth estimation with minimal supervision. Our method integrates a lightweight Mixture-of-Adapters (MoA) module into the pretrained Vision Transformer (ViT-B/32) backbone combined with selective fine-tuning of the final layers. This design enables spatially-aware adaptation, guided by a global semantic context vector and a hybrid prediction architecture that synergizes depth bin classification with direct regression. To enhance structural accuracy, we employ a composite loss function that enforces geometric constraints. On the NYU Depth V2 benchmark, MoA-DepthCLIP achieves competitive results, significantly outperforming the DepthCLIP baseline by improving the $δ_1$ accuracy from 0.390 to 0.745 and reducing the RMSE from 1.176 to 0.520. These results are achieved while requiring substantially few trainable parameters, demonstrating that lightweight, prompt-guided MoA is a highly effective strategy for transferring VLM knowledge to fine-grained monocular depth estimation tasks.",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.01118v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "14 pages, 2 figures",
+      "entry_id": "http://arxiv.org/abs/2604.01118v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.01118v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.01118v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2604.00597": {
+      "title": "Towards Viewpoint-Robust End-to-End Autonomous Driving with 3D Foundation Model Priors",
+      "authors": [
+        "Hiroki Hashimoto",
+        "Hiromichi Goto",
+        "Hiroyuki Sugai",
+        "Hiroshi Kera",
+        "Kazuhiko Kawamoto"
+      ],
+      "published": "2026-04-01T08:04:40+00:00",
+      "updated": "2026-04-01T08:04:40+00:00",
+      "summary": "Robust trajectory planning under camera viewpoint changes is important for scalable end-to-end autonomous driving. However, existing models often depend heavily on the camera viewpoints seen during training. We investigate an augmentation-free approach that leverages geometric priors from a 3D foundation model. The method injects per-pixel 3D positions derived from depth estimates as positional embeddings and fuses intermediate geometric features through cross-attention. Experiments on the VR-Drive camera viewpoint perturbation benchmark show reduced performance degradation under most perturbation conditions, with clear improvements under pitch and height perturbations. Gains under longitudinal translation are smaller, suggesting that more viewpoint-agnostic integration is needed for robustness to camera viewpoint changes.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.00597v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted at CVPR Workshop on Simulation for Autonomous Driving 2026",
+      "entry_id": "http://arxiv.org/abs/2604.00597v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.00597v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.00597v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2603.29387": {
       "title": "Extend3D: Town-Scale 3D Generation",
       "authors": [

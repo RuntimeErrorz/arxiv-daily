@@ -1,4 +1,4 @@
-## Updated at 2026-04-02 08:25:57
+## Updated at 2026-04-02 20:20:50
 
 ## 3DGS Semantic
 
@@ -8,9 +8,14 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-04-01**|**[Neural Harmonic Textures for High-Quality Primitive Based Neural Reconstruction](https://arxiv.org/abs/2604.01204)**|N/A|None|cs.CV|None|Jorge Condor et al.|
+|**2026-04-01**|**[Asymptotically Optimal Sequential Testing with Heterogeneous LLMs](https://arxiv.org/abs/2604.01086)**|N/A|None|cs.DS|None|Guokai Li et al.|
+|**2026-04-01**|**[DLWM: Dual Latent World Models enable Holistic Gaussian-centric Pre-training in Autonomous Driving](https://arxiv.org/abs/2604.00969)**|N/A|Accepted by CVPR 2026|cs.CV|None|Yiyao Zhu et al.|
+|**2026-04-01**|**[mmAnomaly: Leveraging Visual Context for Robust Anomaly Detection in the Non-Visual World with mmWave Radar](https://arxiv.org/abs/2604.00382)**|N/A|Accepted at the 24th ACM/IEEE International Conference on Embedded Artificial Intelligence and Sensing Systems (SenSys 2026)|cs.CV|None|Tarik Reza Toha et al.|
 |**2026-03-31**|**[DiSGMM: A Method for Time-varying Microscopic Weight Completion on Road Networks](https://arxiv.org/abs/2603.29837)**|N/A|None|cs.LG|None|Yan Lin et al.|
 |**2026-03-31**|**[One-for-All: A Lightweight Stabilized and Parameter-Efficient Pre-trained LLM for Time Series Forecasting](https://arxiv.org/abs/2603.29756)**|N/A|This manuscript is currently under review at IEEE Transactions on Knowledge and Data Engineering (TKDE)|cs.LG|None|Prasanjit Dey et al.|
 |**2026-03-31**|**[Concept frustration: Aligning human concepts and machine representations](https://arxiv.org/abs/2603.29654)**|N/A|34 pages, 7 figures|cs.LG|None|Enrico Parisini et al.|
+|**2026-03-31**|**[Temporal Memory for Resource-Constrained Agents: Continual Learning via Stochastic Compress-Add-Smooth](https://arxiv.org/abs/2604.00067)**|N/A|33 pages, 22 figures|cs.LG|None|Michael Chertkov|
 |**2026-03-30**|**[PolarQuant: Optimal Gaussian Weight Quantization via Hadamard Rotation for LLM Compression](https://arxiv.org/abs/2603.29078)**|N/A|10 pages, 5 tables, 2 algorithms. Code: https://github.com/caiovicentino/eoq-quantization Models:https://huggingface.co/caiovicentino1|cs.CL|None|Caio Vicentino|
 |**2026-03-30**|**[Secret Key Rate Analysis of RIS-Assisted THz MIMO CV-QKD Systems under Localized and Global Eavesdropping](https://arxiv.org/abs/2603.28252)**|N/A|13 pages, 6 figures|cs.IT|None|Sushil Kumar et al.|
 |**2026-03-30**|**[\textit{4DSurf}: High-Fidelity Dynamic Scene Surface Reconstruction](https://arxiv.org/abs/2603.28064)**|N/A|Accepted to CVPR 2026|cs.CV|None|Renjie Wu et al.|
@@ -29,7 +34,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2026-03-26**|**[Policy-Guided World Model Planning for Language-Conditioned Visual Navigation](https://arxiv.org/abs/2603.25981)**|N/A|None|cs.RO|None|Amirhosein Chahe, Lifeng Zhou|
 |**2026-03-26**|**[Learning Explicit Continuous Motion Representation for Dynamic Gaussian Splatting from Monocular Videos](https://arxiv.org/abs/2603.25058)**|N/A|Accepted to CVPR 2026|cs.CV|None|Xuankai Zhang et al.|
 |**2026-03-26**|**[$π$, But Make It Fly: Physics-Guided Transfer of VLA Models to Aerial Manipulation](https://arxiv.org/abs/2603.25038)**|N/A|None|cs.RO|None|Johnathan Tucker et al.|
-|**2026-03-25**|**[Le MuMo JEPA: Multi-Modal Self-Supervised Representation Learning with Learnable Fusion Tokens](https://arxiv.org/abs/2603.24327)**|N/A|None|cs.CV|None|Ciem Cornelissen et al.|
+|**2026-03-25**|**[Le MuMo JEPA: Multi-Modal Self-Supervised Representation Learning with Learnable Fusion Tokens](https://arxiv.org/abs/2603.24327)**|N/A|14 pages, 4 figures, supplementary material. Accepted at the CVPR 2026 Workshop on Unified Robotic Vision with Cross-Modal Sensing and Alignment (URVIS)|cs.CV|None|Ciem Cornelissen et al.|
 |**2026-03-25**|**[Incremental Learning-Based Open-Set Classification of Unknown UAVs via RF Signal Semantics](https://arxiv.org/abs/2603.24268)**|N/A|Accepted in ICC 2026|eess.SP|None|Julie Liu et al.|
 |**2026-03-25**|**[Unlocking Few-Shot Capabilities in LVLMs via Prompt Conditioning and Head Selection](https://arxiv.org/abs/2603.24181)**|N/A|None|cs.CV|None|Adhemar de Senneville et al.|
 |**2026-03-25**|**[LightSplat: Fast and Memory-Efficient Open-Vocabulary 3D Scene Understanding in Five Seconds](https://arxiv.org/abs/2603.24146)**|N/A|Accepted to CVPR 2026|cs.CV|None|Jaehun Bang et al.|
@@ -781,6 +786,8 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-04-01**|**[Lightweight Prompt-Guided CLIP Adaptation for Monocular Depth Estimation](https://arxiv.org/abs/2604.01118)**|N/A|14 pages, 2 figures|cs.CV|None|Reyhaneh Ahani Manghotay, Jie Liang|
+|**2026-04-01**|**[Towards Viewpoint-Robust End-to-End Autonomous Driving with 3D Foundation Model Priors](https://arxiv.org/abs/2604.00597)**|N/A|Accepted at CVPR Workshop on Simulation for Autonomous Driving 2026|cs.CV|None|Hiroki Hashimoto et al.|
 |**2026-03-31**|**[Extend3D: Town-Scale 3D Generation](https://arxiv.org/abs/2603.29387)**|N/A|CVPR 2026, Project Page: http://seungwoo-yoon.github.io/extend3d-page|cs.CV|None|Seungwoo Yoon et al.|
 |**2026-03-31**|**[StereoVGGT: A Training-Free Visual Geometry Transformer for Stereo Vision](https://arxiv.org/abs/2603.29368)**|N/A|None|cs.CV|None|Ziyang Chen et al.|
 |**2026-03-28**|**[UniDAC: Universal Metric Depth Estimation for Any Camera](https://arxiv.org/abs/2603.27105)**|N/A|None|cs.CV|None|Girish Chandar Ganesan et al.|
