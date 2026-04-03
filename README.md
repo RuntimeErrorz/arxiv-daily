@@ -1,4 +1,4 @@
-## Updated at 2026-04-03 08:27:36
+## Updated at 2026-04-03 20:15:29
 
 ## 3DGS Semantic
 
@@ -8,8 +8,15 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-04-02**|**[Resonance4D: Frequency-Domain Motion Supervision for Preset-Free Physical Parameter Learning in 4D Dynamic Physical Scene Simulation](https://arxiv.org/abs/2604.01994)**|N/A|None|cs.CV|None|Changshe Zhang et al.|
+|**2026-04-02**|**[A3R: Agentic Affordance Reasoning via Cross-Dimensional Evidence in 3D Gaussian Scenes](https://arxiv.org/abs/2604.01882)**|N/A|None|cs.CV|None|Di Li et al.|
+|**2026-04-02**|**[MATA-Former & SIICU: Semantic Aware Temporal Alignment for High-Fidelity ICU Risk Prediction](https://arxiv.org/abs/2604.01727)**|N/A|None|cs.LG|None|Zhichong Zheng et al.|
+|**2026-04-02**|**[Director: Instance-aware Gaussian Splatting for Dynamic Scene Modeling and Understanding](https://arxiv.org/abs/2604.01678)**|N/A|Project page: https://caiyw2023.github.io/Director/|cs.CV|None|Yuheng Jiang et al.|
+|**2026-04-01**|**[Better Rigs, Not Bigger Networks: A Body Model Ablation for Gaussian Avatars](https://arxiv.org/abs/2604.01447)**|N/A|None|cs.CV|None|Derek Austin|
+|**2026-04-01**|**[LESV: Language Embedded Sparse Voxel Fusion for Open-Vocabulary 3D Scene Understanding](https://arxiv.org/abs/2604.01388)**|N/A|None|cs.CV|None|Fusang Wang et al.|
 |**2026-04-01**|**[Neural Harmonic Textures for High-Quality Primitive Based Neural Reconstruction](https://arxiv.org/abs/2604.01204)**|N/A|None|cs.CV|None|Jorge Condor et al.|
 |**2026-04-01**|**[Asymptotically Optimal Sequential Testing with Heterogeneous LLMs](https://arxiv.org/abs/2604.01086)**|N/A|None|cs.DS|None|Guokai Li et al.|
+|**2026-04-01**|**[Observable Geometry of Singular Statistical Models](https://arxiv.org/abs/2604.01267)**|N/A|None|math.ST|None|Sean Plummer|
 |**2026-04-01**|**[DLWM: Dual Latent World Models enable Holistic Gaussian-centric Pre-training in Autonomous Driving](https://arxiv.org/abs/2604.00969)**|N/A|Accepted by CVPR 2026|cs.CV|None|Yiyao Zhu et al.|
 |**2026-04-01**|**[mmAnomaly: Leveraging Visual Context for Robust Anomaly Detection in the Non-Visual World with mmWave Radar](https://arxiv.org/abs/2604.00382)**|N/A|Accepted at the 24th ACM/IEEE International Conference on Embedded Artificial Intelligence and Sensing Systems (SenSys 2026)|cs.CV|None|Tarik Reza Toha et al.|
 |**2026-03-31**|**[DiSGMM: A Method for Time-varying Microscopic Weight Completion on Road Networks](https://arxiv.org/abs/2603.29837)**|N/A|None|cs.LG|None|Yan Lin et al.|
@@ -786,6 +793,9 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-04-02**|**[Test-Time Adaptation for Height Completion via Self-Supervised ViT Features and Monocular Foundation Models](https://arxiv.org/abs/2604.02009)**|N/A|None|cs.CV|None|Osher Rafaeli et al.|
+|**2026-04-02**|**[PTC-Depth: Pose-Refined Monocular Depth Estimation with Temporal Consistency](https://arxiv.org/abs/2604.01791)**|N/A|Accepted at CVPR 2026|cs.CV|None|Leezy Han et al.|
+|**2026-04-02**|**[MonoSAOD: Monocular 3D Object Detection with Sparsely Annotated Label](https://arxiv.org/abs/2604.01646)**|N/A|Accepted to CVPR 2026|cs.CV|None|Junyoung Jung et al.|
 |**2026-04-01**|**[Lightweight Prompt-Guided CLIP Adaptation for Monocular Depth Estimation](https://arxiv.org/abs/2604.01118)**|N/A|14 pages, 2 figures|cs.CV|None|Reyhaneh Ahani Manghotay, Jie Liang|
 |**2026-04-01**|**[Towards Viewpoint-Robust End-to-End Autonomous Driving with 3D Foundation Model Priors](https://arxiv.org/abs/2604.00597)**|N/A|Accepted at CVPR Workshop on Simulation for Autonomous Driving 2026|cs.CV|None|Hiroki Hashimoto et al.|
 |**2026-03-31**|**[Extend3D: Town-Scale 3D Generation](https://arxiv.org/abs/2603.29387)**|N/A|CVPR 2026, Project Page: http://seungwoo-yoon.github.io/extend3d-page|cs.CV|None|Seungwoo Yoon et al.|

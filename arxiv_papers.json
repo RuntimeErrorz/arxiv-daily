@@ -1,5 +1,280 @@
 {
   "3DGS Semantic": {
+    "2604.01994": {
+      "title": "Resonance4D: Frequency-Domain Motion Supervision for Preset-Free Physical Parameter Learning in 4D Dynamic Physical Scene Simulation",
+      "authors": [
+        "Changshe Zhang",
+        "Jie Feng",
+        "Siyu Chen",
+        "Guanbin Li",
+        "Ronghua Shang",
+        "Junpeng Zhang"
+      ],
+      "published": "2026-04-02T13:00:22+00:00",
+      "updated": "2026-04-02T13:00:22+00:00",
+      "summary": "Physics-driven 4D dynamic simulation from static 3D scenes remains constrained by an overlooked contradiction: reliable motion supervision often relies on online video diffusion or optical-flow pipelines whose computational cost exceeds that of the simulator itself. Existing methods further simplify inverse physical modeling by optimizing only partial material parameters, limiting realism in scenes with complex materials and dynamics. We present Resonance4D, a physics-driven 4D dynamic simulation framework that couples 3D Gaussian Splatting with the Material Point Method through lightweight yet physically expressive supervision. Our key insight is that dynamic consistency can be enforced without dense temporal generation by jointly constraining motion in complementary domains. To this end, we introduce Dual-domain Motion Supervision (DMS), which combines spatial structural consistency for local deformation with frequency-domain spectral consistency for oscillatory and global dynamic patterns, substantially reducing training cost and memory overhead while preserving physically meaningful motion cues. To enable stable full-parameter physical recovery, we further combine zero-shot text-prompted segmentation with simulation-guided initialization to automatically decompose Gaussians into object-part-level regions and support joint optimization of full material parameters. Experiments on both synthetic and real scenes show that Resonance4D achieves strong physical fidelity and motion consistency while reducing peak GPU memory from over 35\\,GB to around 20\\,GB, enabling high-fidelity physics-driven 4D simulation on a single consumer-grade GPU.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.01994v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.01994v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.01994v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.01994v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-03",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2604.01882": {
+      "title": "A3R: Agentic Affordance Reasoning via Cross-Dimensional Evidence in 3D Gaussian Scenes",
+      "authors": [
+        "Di Li",
+        "Jie Feng",
+        "Guanbin Li",
+        "Ronghua Shang",
+        "Yuhui Zheng",
+        "Weisheng Dong",
+        "Guangming Shi"
+      ],
+      "published": "2026-04-02T10:40:51+00:00",
+      "updated": "2026-04-02T10:40:51+00:00",
+      "summary": "Affordance reasoning in 3D Gaussian scenes aims to identify the region that supports the action specified by a given text instruction in complex environments. Existing methods typically cast this problem as one-shot prediction from static scene observations, assuming sufficient evidence is already available for reasoning. However, in complex 3D scenes, many failure cases arise not from weak prediction capacity, but from incomplete task-relevant evidence under fixed observations. To address this limitation, we reformulate fine-grained affordance reasoning as a sequential evidence acquisition process, where ambiguity is progressively reduced through complementary 3D geometric and 2D semantic evidence. Building on this formulation, we propose A3R, an agentic affordance reasoning framework that enables an MLLM-based policy to iteratively select evidence acquisition actions and update the affordance belief through cross-dimensional evidence acquisition. To optimize such sequential decision making, we further introduce a GRPO-based policy learning strategy that improves evidence acquisition efficiency and reasoning accuracy. Extensive experiments on scene-level benchmarks show that A3R consistently surpasses static one-shot baselines, demonstrating the advantage of agentic cross-dimensional evidence acquisition for fine-grained affordance reasoning in complex 3D Gaussian scenes.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.01882v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.01882v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.01882v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.01882v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-03",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2604.01727": {
+      "title": "MATA-Former & SIICU: Semantic Aware Temporal Alignment for High-Fidelity ICU Risk Prediction",
+      "authors": [
+        "Zhichong Zheng",
+        "Xiaohang Nie",
+        "Xueqi Wang",
+        "Yuanjin Zhao",
+        "Haitao Zhang",
+        "Yichao Tang"
+      ],
+      "published": "2026-04-02T07:45:52+00:00",
+      "updated": "2026-04-02T07:45:52+00:00",
+      "summary": "Forecasting evolving clinical risks relies on intrinsic pathological dependencies rather than mere chronological proximity, yet current methods struggle with coarse binary supervision and physical timestamps. To align predictive modeling with clinical logic, we propose the Medical-semantics Aware Time-ALiBi Transformer (MATA-Former), utilizing event semantics to dynamically parameterize attention weights to prioritize causal validity over time lags. Furthermore, we introduce Plateau-Gaussian Soft Labeling (PSL), reformulating binary classification into continuous multi-horizon regression for full-trajectory risk modeling. Evaluated on SIICU -- a newly constructed dataset featuring over 506k events with rigorous expert-verified, fine-grained annotations -- and the MIMIC-IV dataset, our framework demonstrates superior efficacy and robust generalization in capturing risks from text-intensive, irregular clinical time series.",
+      "categories": [
+        "cs.LG"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2604.01727v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.01727v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.01727v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.01727v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-03",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2604.01678": {
+      "title": "Director: Instance-aware Gaussian Splatting for Dynamic Scene Modeling and Understanding",
+      "authors": [
+        "Yuheng Jiang",
+        "Yiwen Cai",
+        "Zihao Wang",
+        "Yize Wu",
+        "Sicheng Li",
+        "Zhuo Su",
+        "Shaohui Jiao",
+        "Lan Xu"
+      ],
+      "published": "2026-04-02T06:29:53+00:00",
+      "updated": "2026-04-02T06:29:53+00:00",
+      "summary": "Volumetric video seeks to model dynamic scenes as temporally coherent 4D representations. While recent Gaussian-based approaches achieve impressive rendering fidelity, they primarily emphasize appearance but are largely agnostic to instance-level structure, limiting stable tracking and semantic reasoning in highly dynamic scenarios. In this paper, we present Director, a unified spatio-temporal Gaussian representation that jointly models human performance, high-fidelity rendering, and instance-level semantics. Our key insight is that embedding instance-consistent semantics naturally complements 4D modeling, enabling more accurate scene decomposition while supporting robust dynamic scene understanding. To this end, we leverage temporally aligned instance masks and sentence embeddings derived from Multimodal Large Language Models to supervise the learnable semantic features of each Gaussian via two MLP decoders, enabling language-aligned 4D representations and enforcing identity consistency over time. To enhance temporal stability, we bridge 2D optical flow with 4D Gaussians and finetune their motions, yielding reliable initialization and reducing drift. For the training, we further introduce a geometry-aware SDF constraints, along with regularization terms that enforces surface continuity, enhancing temporal coherence in dynamic foreground modeling. Experiments demonstrate that Director achieves temporally coherent 4D reconstructions while simultaneously enabling instance segmentation and open-vocabulary querying.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.01678v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Project page: https://caiyw2023.github.io/Director/",
+      "entry_id": "http://arxiv.org/abs/2604.01678v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.01678v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.01678v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-03",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2604.01447": {
+      "title": "Better Rigs, Not Bigger Networks: A Body Model Ablation for Gaussian Avatars",
+      "authors": [
+        "Derek Austin"
+      ],
+      "published": "2026-04-01T22:42:57+00:00",
+      "updated": "2026-04-01T22:42:57+00:00",
+      "summary": "Recent 3D Gaussian splatting methods built atop SMPL achieve remarkable visual fidelity while continually increasing the complexity of the overall training architecture. We demonstrate that much of this complexity is unnecessary: by replacing SMPL with the Momentum Human Rig (MHR), estimated via SAM-3D-Body, a minimal pipeline with no learned deformations or pose-dependent corrections achieves the highest reported PSNR and competitive or superior LPIPS and SSIM on PeopleSnapshot and ZJU-MoCap. To disentangle pose estimation quality from body model representational capacity, we perform two controlled ablations: translating SAM-3D-Body meshes to SMPL-X, and translating the original dataset's SMPL poses into MHR both retrained under identical conditions. These ablations confirm that body model expressiveness has been a primary bottleneck in avatar reconstruction, with both mesh representational capacity and pose estimation quality contributing meaningfully to the full pipeline's gains.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.01447v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.01447v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.01447v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.01447v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-03",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2604.01388": {
+      "title": "LESV: Language Embedded Sparse Voxel Fusion for Open-Vocabulary 3D Scene Understanding",
+      "authors": [
+        "Fusang Wang",
+        "Nathan Piasco",
+        "Moussab Bennehar",
+        "Luis Roldão",
+        "Dzmitry Tsishkou",
+        "Fabien Moutarde"
+      ],
+      "published": "2026-04-01T20:48:06+00:00",
+      "updated": "2026-04-01T20:48:06+00:00",
+      "summary": "Recent advancements in open-vocabulary 3D scene understanding heavily rely on 3D Gaussian Splatting (3DGS) to register vision-language features into 3D space. However, we identify two critical limitations in these approaches: the spatial ambiguity arising from unstructured, overlapping Gaussians which necessitates probabilistic feature registration, and the multi-level semantic ambiguity caused by pooling features over object-level masks, which dilutes fine-grained details. To address these challenges, we present a novel framework that leverages Sparse Voxel Rasterization (SVRaster) as a structured, disjoint geometry representation. By regularizing SVRaster with monocular depth and normal priors, we establish a stable geometric foundation. This enables a deterministic, confidence-aware feature registration process and suppresses the semantic bleeding artifact common in 3DGS. Furthermore, we resolve multi-level ambiguity by exploiting the emerging dense alignment properties of foundation model AM-RADIO, avoiding the computational overhead of hierarchical training methods. Our approach achieves state-of-the-art performance on Open Vocabulary 3D Object Retrieval and Point Cloud Understanding benchmarks, particularly excelling on fine-grained queries where registration methods typically fail.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.01388v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.01388v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.01388v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.01388v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-03",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
     "2604.01204": {
       "title": "Neural Harmonic Textures for High-Quality Primitive Based Neural Reconstruction",
       "authors": [
@@ -53,38 +328,36 @@
       "title": "Asymptotically Optimal Sequential Testing with Heterogeneous LLMs",
       "authors": [
         "Guokai Li",
-        "Jiaxin",
-        "Liang",
+        "Alys Liang",
         "Mo Liu",
-        "Yanzhe",
-        "Lei",
+        "Murray Lei",
         "Stefanus Jasin",
         "Fenghua Yang",
         "Preet Baxi"
       ],
       "published": "2026-04-01T16:15:13+00:00",
-      "updated": "2026-04-01T16:15:13+00:00",
-      "summary": "We study a Bayesian binary sequential hypothesis testing problem with multiple large language models (LLMs). Each LLM $j$ has per-query cost $c_j>0$, random waiting time with mean $μ_j>0$ and sub-Gaussian tails, and \\emph{asymmetric} accuracies: the probability of returning the correct label depends on the true hypothesis $θ\\in\\{A,B\\}$ and needs not be the same under $A$ and $B$. This asymmetry induces two distinct information rates $(I_{j,A}, I_{j,B})$ per LLM, one under each hypothesis. The decision-maker chooses LLMs sequentially, observes their noisy binary answers, and stops when the posterior probability of one hypothesis exceeds $1-α$. The objective is to minimize the sum of expected query cost and expected waiting cost, $\\mathbb{E}[C_π] + \\mathbb{E}[g(W_π)]$, where $C_π$ is the total query cost, $W_π$ is the total waiting time and $g$ is a polynomial function (e.g., $g(x)=x^ρ$ with $ρ\\ge 1$).\n  We prove that as the error tolerance $α\\to0$, the optimal policy is asymptotically equivalent to one that uses at most two LLMs. In this case, a single-LLM policy is \\emph{not} generically optimal: optimality now requires exploiting a two-dimensional tradeoff between information under $A$ and information under $B$. Any admissible policy induces an expected information-allocation vector in $\\mathbb{R}_+^2$, and we show that the optimal allocation lies at an extreme point of the associated convex set when $α$ is relatively small, and hence uses at most two LLMs. We construct belief-dependent policies that first mix between two LLMs when the posterior is ambiguous, and then switch to a single ``specialist'' LLM when the posterior is sufficiently close to one of the hypotheses. These policies match the universal lower bound up to a $(1+o(1))$ factor as $α\\rightarrow 0$.",
+      "updated": "2026-04-02T01:37:34+00:00",
+      "summary": "We study a Bayesian binary sequential hypothesis testing problem with multiple large language models (LLMs). Each LLM $j$ has per-query cost $c_j>0$, random waiting time with mean $μ_j>0$ and sub-Gaussian tails, and \\emph{asymmetric} accuracies: the probability of returning the correct label depends on the true hypothesis $θ\\in\\{A,B\\}$ and needs not be the same under $A$ and $B$. This asymmetry induces two distinct information rates $(I_{j,A}, I_{j,B})$ per LLM, one under each hypothesis. The decision-maker chooses LLMs sequentially, observes their noisy binary answers, and stops when the posterior probability of one hypothesis exceeds $1-α$. The objective is to minimize the sum of expected query cost and expected waiting cost, $\\mathbb{E}[C_π] + \\mathbb{E}[g(W_π)]$, where $C_π$ is the total query cost, $W_π$ is the total waiting time and $g$ is a polynomial function (e.g., $g(x)=x^ρ$ with $ρ\\ge 1$). We prove that as the error tolerance $α\\to0$, the optimal policy is asymptotically equivalent to one that uses at most two LLMs. In this case, a single-LLM policy is \\emph{not} generically optimal: optimality now requires exploiting a two-dimensional tradeoff between information under $A$ and information under $B$. Any admissible policy induces an expected information-allocation vector in $\\mathbb{R}_+^2$, and we show that the optimal allocation lies at an extreme point of the associated convex set when $α$ is relatively small, and hence uses at most two LLMs. We construct belief-dependent policies that first mix between two LLMs when the posterior is ambiguous, and then switch to a single \"specialist\" LLM when the posterior is sufficiently close to one of the hypotheses. These policies match the universal lower bound up to a $(1+o(1))$ factor as $α\\rightarrow 0$.",
       "categories": [
         "cs.DS",
         "cs.IT",
         "math.ST"
       ],
       "primary_category": "cs.DS",
-      "pdf_url": "https://arxiv.org/pdf/2604.01086v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.01086v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2604.01086v1",
+      "entry_id": "http://arxiv.org/abs/2604.01086v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2604.01086v1",
+          "href": "https://arxiv.org/abs/2604.01086v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2604.01086v1",
+          "href": "https://arxiv.org/pdf/2604.01086v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -94,6 +367,48 @@
       "venue_info": {
         "venue_source": "Semantic Scholar",
         "queried_at": "2026-04-02",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2604.01267": {
+      "title": "Observable Geometry of Singular Statistical Models",
+      "authors": [
+        "Sean Plummer"
+      ],
+      "published": "2026-04-01T15:21:52+00:00",
+      "updated": "2026-04-01T15:21:52+00:00",
+      "summary": "Singular statistical models arise whenever different parameter values induce the same distribution, leading to non-identifiability and a breakdown of classical asymptotic theory. While existing approaches analyze these phenomena in parameter space, the resulting descriptions depend heavily on parameterization and obscure the intrinsic statistical structure of the model. In this paper, we introduce an invariant framework based on \\emph{observable charts}: collections of functionals of the data distribution that distinguish probability measures. These charts define local coordinate systems directly on the model space, independent of parameterization. We formalize \\emph{observable completeness} as the ability of such charts to detect identifiable directions, and introduce \\emph{observable order} to quantify higher-order distinguishability along analytic perturbations. Our main result establishes that, under mild regularity conditions, observable order provides a lower bound on the rate at which Kullback-Leibler divergence vanishes along analytic paths. This connects intrinsic geometric structure in model space to statistical distinguishability and recovers classical behavior in regular models while extending naturally to singular settings. We illustrate the framework in reduced-rank regression and Gaussian mixture models, where observable coordinates reveal both identifiable structure and singular degeneracies. These results suggest that observable charts provide a unified and parameterization-invariant language for studying singular models and offer a pathway toward intrinsic formulations of invariants such as learning coefficients.",
+      "categories": [
+        "math.ST",
+        "stat.ML"
+      ],
+      "primary_category": "math.ST",
+      "pdf_url": "https://arxiv.org/pdf/2604.01267v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.01267v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.01267v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.01267v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-03",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -104040,6 +104355,109 @@
     }
   },
   "Depth Estimation": {
+    "2604.02009": {
+      "title": "Test-Time Adaptation for Height Completion via Self-Supervised ViT Features and Monocular Foundation Models",
+      "authors": [
+        "Osher Rafaeli",
+        "Tal Svoray",
+        "Ariel Nahlieli"
+      ],
+      "published": "2026-04-02T13:13:17+00:00",
+      "updated": "2026-04-02T13:13:17+00:00",
+      "summary": "Accurate digital surface models (DSMs) are essential for many geospatial applications, including urban monitoring, environmental analyses, infrastructure management, and change detection. However, large-scale DSMs frequently contain incomplete or outdated regions due to acquisition limitations, reconstruction artifacts, or changes in the built environment. Traditional height completion approaches primarily rely on spatial interpolation or which assume spatial continuity and therefore fail when objects are missing. Recent learning-based approaches improve reconstruction quality but typically require supervised training on sensor-specific datasets, limiting their generalization across domains and sensing conditions. We propose Prior2DSM, a training-free framework for metric DSM completion that operates entirely at test time by leveraging foundation models. Unlike previous height completion approaches that require task-specific training, the proposed method combines self-supervised Vision Transformer (ViT) features from DINOv3 with monocular depth foundation models to propagate metric information from incomplete height priors through semantic feature-space correspondence. Test-time adaptation (TTA) is performed using parameter-efficient low-rank adaptation (LoRA) together with a lightweight multilayer perceptron (MLP), which predicts spatially varying scale and shift parameters to convert relative depth estimates into metric heights. Experiments demonstrate consistent improvements over interpolation based methods, prior-based rescaling height approaches, and state-of-the-art monocular depth estimation models. Prior2DSM reduces reconstruction error while preserving structural fidelity, achieving up to a 46% reduction in RMSE compared to linear fitting of MDE, and further enables DSM updating and coupled RGB-DSM generation.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.02009v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.02009v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.02009v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.02009v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2604.01791": {
+      "title": "PTC-Depth: Pose-Refined Monocular Depth Estimation with Temporal Consistency",
+      "authors": [
+        "Leezy Han",
+        "Seunggyu Kim",
+        "Dongseok Shim",
+        "Hyeonbeom Lee"
+      ],
+      "published": "2026-04-02T09:03:02+00:00",
+      "updated": "2026-04-02T09:03:02+00:00",
+      "summary": "Monocular depth estimation (MDE) has been widely adopted in the perception systems of autonomous vehicles and mobile robots. However, existing approaches often struggle to maintain temporal consistency in depth estimation across consecutive frames. This inconsistency not only causes jitter but can also lead to estimation failures when the depth range changes abruptly. To address these challenges, this paper proposes a consistency-aware monocular depth estimation framework that leverages wheel odometry from a mobile robot to achieve stable and coherent depth predictions over time. Specifically, we estimate camera pose and sparse depth from triangulation using optical flow between consecutive frames. The sparse depth estimates are used to update a recursive Bayesian estimate of the metric scale, which is then applied to rescale the relative depth predicted by a pre-trained depth estimation foundation model. The proposed method is evaluated on the KITTI, TartanAir, MS2, and our own dataset, demonstrating robust and accurate depth estimation performance.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.01791v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted at CVPR 2026",
+      "entry_id": "http://arxiv.org/abs/2604.01791v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.01791v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.01791v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2604.01646": {
+      "title": "MonoSAOD: Monocular 3D Object Detection with Sparsely Annotated Label",
+      "authors": [
+        "Junyoung Jung",
+        "Seokwon Kim",
+        "Jun Uk Kim"
+      ],
+      "published": "2026-04-02T05:43:57+00:00",
+      "updated": "2026-04-02T05:43:57+00:00",
+      "summary": "Monocular 3D object detection has achieved impressive performance on densely annotated datasets. However, it struggles when only a fraction of objects are labeled due to the high cost of 3D annotation. This sparsely annotated setting is common in real-world scenarios where annotating every object is impractical. To address this, we propose a novel framework for sparsely annotated monocular 3D object detection with two key modules. First, we propose Road-Aware Patch Augmentation (RAPA), which leverages sparse annotations by augmenting segmented object patches onto road regions while preserving 3D geometric consistency. Second, we propose Prototype-Based Filtering (PBF), which generates high-quality pseudo-labels by filtering predictions through prototype similarity and depth uncertainty. It maintains global 2D RoI feature prototypes and selects pseudo-labels that are both feature-consistent with learned prototypes and have reliable depth estimates. Our training strategy combines geometry-preserving augmentation with prototype-guided pseudo-labeling to achieve robust detection under sparse supervision. Extensive experiments demonstrate the effectiveness of the proposed method. The source code is available at https://github.com/VisualAIKHU/MonoSAOD .",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.01646v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted to CVPR 2026",
+      "entry_id": "http://arxiv.org/abs/2604.01646v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.01646v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.01646v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2604.01118": {
       "title": "Lightweight Prompt-Guided CLIP Adaptation for Monocular Depth Estimation",
       "authors": [
