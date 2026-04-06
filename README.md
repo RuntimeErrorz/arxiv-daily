@@ -1,4 +1,4 @@
-## Updated at 2026-04-06 08:28:52
+## Updated at 2026-04-06 20:19:28
 
 ## 3DGS Semantic
 
@@ -8,6 +8,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-04-03**|**[DynFOA: Generating First-Order Ambisonics with Conditional Diffusion for Dynamic and Acoustically Complex 360-Degree Videos](https://arxiv.org/abs/2604.02781)**|arXiv.org|arXiv admin note: text overlap with arXiv:2602.06846|cs.SD|None|Ziyu Luo et al.|
 |**2026-04-02**|**[Resonance4D: Frequency-Domain Motion Supervision for Preset-Free Physical Parameter Learning in 4D Dynamic Physical Scene Simulation](https://arxiv.org/abs/2604.01994)**|N/A|None|cs.CV|None|Changshe Zhang et al.|
 |**2026-04-02**|**[A3R: Agentic Affordance Reasoning via Cross-Dimensional Evidence in 3D Gaussian Scenes](https://arxiv.org/abs/2604.01882)**|N/A|None|cs.CV|None|Di Li et al.|
 |**2026-04-02**|**[MATA-Former & SIICU: Semantic Aware Temporal Alignment for High-Fidelity ICU Risk Prediction](https://arxiv.org/abs/2604.01727)**|N/A|None|cs.LG|None|Zhichong Zheng et al.|
@@ -33,7 +34,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2026-03-29**|**[SGS-Intrinsic: Semantic-Invariant Gaussian Splatting for Sparse-View Indoor Inverse Rendering](https://arxiv.org/abs/2603.27516)**|N/A|CVPR2026|cs.CV|None|Jiahao Niu et al.|
 |**2026-03-28**|**[The Geometry of Harmful Intent: Training-Free Anomaly Detection via Angular Deviation in LLM Residual Streams](https://arxiv.org/abs/2603.27412)**|N/A|20 pages, 10 figures, 3 tables. Training-free harmful-prompt detector via angular deviation in LLM residual streams. Evaluated on six Qwen variants (base / instruct / abliterated). Achieves AUROC over 0.937 (harmful-vs-normative) and 1.000 (harmful-vs-benign-aggressive) with no harmful training data|cs.LG|None|Isaac Llorente-Saguer|
 |**2026-03-27**|**[Drive-Through 3D Vehicle Exterior Reconstruction via Dynamic-Scene SfM and Distortion-Aware Gaussian Splatting](https://arxiv.org/abs/2603.26638)**|N/A|8 pages, 7 figures, Submitted to IEEE IROS 2026 (under review)|cs.CV|None|Nitin Kulkarni et al.|
-|**2026-03-27**|**[Scene Grounding In the Wild](https://arxiv.org/abs/2603.26584)**|N/A|Project page at https://tau-vailab.github.io/SceneGround/|cs.CV|None|Tamir Cohen et al.|
+|**2026-03-27**|**[Scene Grounding In the Wild](https://arxiv.org/abs/2603.26584)**|N/A|CVPR 2026. Project page at https://tau-vailab.github.io/SceneGround/|cs.CV|None|Tamir Cohen et al.|
 |**2026-03-27**|**[Sharp Capacity Scaling of Spectral Optimizers in Learning Associative Memory](https://arxiv.org/abs/2603.26554)**|N/A|77 pages, 8 figures|cs.LG|None|Juno Kim et al.|
 |**2026-03-27**|**[GS-BrainText: A Multi-Site Brain Imaging Report Dataset from Generation Scotland for Clinical Natural Language Processing Development and Validation](https://arxiv.org/abs/2603.26235)**|N/A|11 pages, 1 figure|cs.CL|None|Beatrice Alex et al.|
 |**2026-03-27**|**[Gaussian Shannon: High-Precision Diffusion Model Watermarking Based on Communication](https://arxiv.org/abs/2603.26167)**|N/A|Accepted by CVPR 2026 Findings|cs.CV|None|Yi Zhang et al.|
@@ -793,6 +794,8 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-04-03**|**[Cross-Vehicle 3D Geometric Consistency for Self-Supervised Surround Depth Estimation on Articulated Vehicles](https://arxiv.org/abs/2604.02639)**|N/A|None|cs.CV|None|Weimin Liu et al.|
+|**2026-04-02**|**[Environment-Aware Channel Prediction for Vehicular Communications: A Multimodal Visual Feature Fusion Framework](https://arxiv.org/abs/2604.02396)**|N/A|13 pages, 14 figures|cs.CV|None|Xuejian Zhang et al.|
 |**2026-04-02**|**[Test-Time Adaptation for Height Completion via Self-Supervised ViT Features and Monocular Foundation Models](https://arxiv.org/abs/2604.02009)**|N/A|None|cs.CV|None|Osher Rafaeli et al.|
 |**2026-04-02**|**[PTC-Depth: Pose-Refined Monocular Depth Estimation with Temporal Consistency](https://arxiv.org/abs/2604.01791)**|N/A|Accepted at CVPR 2026|cs.CV|None|Leezy Han et al.|
 |**2026-04-02**|**[MonoSAOD: Monocular 3D Object Detection with Sparsely Annotated Label](https://arxiv.org/abs/2604.01646)**|N/A|Accepted to CVPR 2026|cs.CV|None|Junyoung Jung et al.|

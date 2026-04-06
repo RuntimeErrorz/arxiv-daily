@@ -1,5 +1,49 @@
 {
   "3DGS Semantic": {
+    "2604.02781": {
+      "title": "DynFOA: Generating First-Order Ambisonics with Conditional Diffusion for Dynamic and Acoustically Complex 360-Degree Videos",
+      "authors": [
+        "Ziyu Luo",
+        "Lin Chen",
+        "Qiang Qu",
+        "Xiaoming Chen",
+        "Yiran Shen"
+      ],
+      "published": "2026-04-03T06:46:57+00:00",
+      "updated": "2026-04-03T06:46:57+00:00",
+      "summary": "Spatial audio is crucial for immersive 360-degree video experiences, yet most 360-degree videos lack it due to the difficulty of capturing spatial audio during recording. Automatically generating spatial audio such as first-order ambisonics (FOA) from video therefore remains an important but challenging problem. In complex scenes, sound perception depends not only on sound source locations but also on scene geometry, materials, and dynamic interactions with the environment. However, existing approaches only rely on visual cues and fail to model dynamic sources and acoustic effects such as occlusion, reflections, and reverberation. To address these challenges, we propose DynFOA, a generative framework that synthesizes FOA from 360-degree videos by integrating dynamic scene reconstruction with conditional diffusion modeling. DynFOA analyzes the input video to detect and localize dynamic sound sources, estimate depth and semantics, and reconstruct scene geometry and materials using 3D Gaussian Splatting (3DGS). The reconstructed scene representation provides physically grounded features that capture acoustic interactions between sources, environment, and listener viewpoint. Conditioned on these features, a diffusion model generates spatial audio consistent with the scene dynamics and acoustic context. We introduce M2G-360, a dataset of 600 real-world clips divided into MoveSources, Multi-Source, and Geometry subsets for evaluating robustness under diverse conditions. Experiments show that DynFOA consistently outperforms existing methods in spatial accuracy, acoustic fidelity, distribution matching, and perceived immersive experience.",
+      "categories": [
+        "cs.SD"
+      ],
+      "primary_category": "cs.SD",
+      "pdf_url": "https://arxiv.org/pdf/2604.02781v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "arXiv admin note: text overlap with arXiv:2602.06846",
+      "entry_id": "http://arxiv.org/abs/2604.02781v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.02781v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.02781v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-06",
+        "venue": "arXiv.org",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
+    },
     "2604.01994": {
       "title": "Resonance4D: Frequency-Domain Motion Supervision for Preset-Free Physical Parameter Learning in 4D Dynamic Physical Scene Simulation",
       "authors": [
@@ -193,27 +237,27 @@
         "Derek Austin"
       ],
       "published": "2026-04-01T22:42:57+00:00",
-      "updated": "2026-04-01T22:42:57+00:00",
+      "updated": "2026-04-03T00:26:23+00:00",
       "summary": "Recent 3D Gaussian splatting methods built atop SMPL achieve remarkable visual fidelity while continually increasing the complexity of the overall training architecture. We demonstrate that much of this complexity is unnecessary: by replacing SMPL with the Momentum Human Rig (MHR), estimated via SAM-3D-Body, a minimal pipeline with no learned deformations or pose-dependent corrections achieves the highest reported PSNR and competitive or superior LPIPS and SSIM on PeopleSnapshot and ZJU-MoCap. To disentangle pose estimation quality from body model representational capacity, we perform two controlled ablations: translating SAM-3D-Body meshes to SMPL-X, and translating the original dataset's SMPL poses into MHR both retrained under identical conditions. These ablations confirm that body model expressiveness has been a primary bottleneck in avatar reconstruction, with both mesh representational capacity and pose estimation quality contributing meaningfully to the full pipeline's gains.",
       "categories": [
         "cs.CV",
         "cs.AI"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2604.01447v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.01447v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2604.01447v1",
+      "entry_id": "http://arxiv.org/abs/2604.01447v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2604.01447v1",
+          "href": "https://arxiv.org/abs/2604.01447v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2604.01447v1",
+          "href": "https://arxiv.org/pdf/2604.01447v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -1155,26 +1199,26 @@
         "Hadar Averbuch-Elor"
       ],
       "published": "2026-03-27T16:41:20+00:00",
-      "updated": "2026-03-27T16:41:20+00:00",
-      "summary": "Reconstructing accurate 3D models of large-scale real-world scenes from unstructured, in-the-wild imagery remains a core challenge in computer vision, especially when the input views have little or no overlap. In such cases, existing reconstruction pipelines often produce multiple disconnected partial reconstructions or erroneously merge non-overlapping regions into overlapping geometry. In this work, we propose a framework that grounds each partial reconstruction to a complete reference model of the scene, enabling globally consistent alignment even in the absence of visual overlap. We obtain reference models from dense, geospatially accurate pseudo-synthetic renderings derived from Google Earth Studio. These renderings provide full scene coverage but differ substantially in appearance from real-world photographs. Our key insight is that, despite this significant domain gap, both domains share the same underlying scene semantics. We represent the reference model using 3D Gaussian Splatting, augmenting each Gaussian with semantic features, and formulate alignment as an inverse feature-based optimization scheme that estimates a global 6DoF pose and scale while keeping the reference model fixed. Furthermore, we introduce the WikiEarth dataset, which registers existing partial 3D reconstructions with pseudo-synthetic reference models. We demonstrate that our approach consistently improves global alignment when initialized with various classical and learning-based pipelines, while mitigating failure modes of state-of-the-art end-to-end models. All code and data will be released.",
+      "updated": "2026-04-03T09:55:45+00:00",
+      "summary": "Reconstructing accurate 3D models of large-scale real-world scenes from unstructured, in-the-wild imagery remains a core challenge in computer vision, especially when the input views have little or no overlap. In such cases, existing reconstruction pipelines often produce multiple disconnected partial reconstructions or erroneously merge non-overlapping regions into overlapping geometry. In this work, we propose a framework that grounds each partial reconstruction to a complete reference model of the scene, enabling globally consistent alignment even in the absence of visual overlap. We obtain reference models from dense, geospatially accurate pseudo-synthetic renderings derived from Google Earth Studio. These renderings provide full scene coverage but differ substantially in appearance from real-world photographs. Our key insight is that, despite this significant domain gap, both domains share the same underlying scene semantics. We represent the reference model using 3D Gaussian Splatting, augmenting each Gaussian with semantic features, and formulate alignment as an inverse feature-based optimization scheme that estimates a global 6DoF pose and scale while keeping the reference model fixed. Furthermore, we introduce the WikiEarth dataset, which registers existing partial 3D reconstructions with pseudo-synthetic reference models. We demonstrate that our approach consistently improves global alignment when initialized with various classical and learning-based pipelines, while mitigating failure modes of state-of-the-art end-to-end models.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2603.26584v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.26584v2",
       "journal_ref": null,
       "doi": null,
-      "comment": "Project page at https://tau-vailab.github.io/SceneGround/",
-      "entry_id": "http://arxiv.org/abs/2603.26584v1",
+      "comment": "CVPR 2026. Project page at https://tau-vailab.github.io/SceneGround/",
+      "entry_id": "http://arxiv.org/abs/2603.26584v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2603.26584v1",
+          "href": "https://arxiv.org/abs/2603.26584v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2603.26584v1",
+          "href": "https://arxiv.org/pdf/2603.26584v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -104355,6 +104399,80 @@
     }
   },
   "Depth Estimation": {
+    "2604.02639": {
+      "title": "Cross-Vehicle 3D Geometric Consistency for Self-Supervised Surround Depth Estimation on Articulated Vehicles",
+      "authors": [
+        "Weimin Liu",
+        "Jiyuan Qiu",
+        "Wenjun Wang",
+        "Joshua H. Meng"
+      ],
+      "published": "2026-04-03T02:10:11+00:00",
+      "updated": "2026-04-03T02:10:11+00:00",
+      "summary": "Surround depth estimation provides a cost-effective alternative to LiDAR for 3D perception in autonomous driving. While recent self-supervised methods explore multi-camera settings to improve scale awareness and scene coverage, they are primarily designed for passenger vehicles and rarely consider articulated vehicles or robotics platforms. The articulated structure introduces complex cross-segment geometry and motion coupling, making consistent depth reasoning across views more challenging. In this work, we propose \\textbf{ArticuSurDepth}, a self-supervised framework for surround-view depth estimation on articulated vehicles that enhances depth learning through cross-view and cross-vehicle geometric consistency guided by structural priors from vision foundation model. Specifically, we introduce multi-view spatial context enrichment strategy and a cross-view surface normal constraint to improve structural coherence across spatial and temporal contexts. We further incorporate camera height regularization with ground plane-awareness to encourage metric depth estimation, together with cross-vehicle pose consistency that bridges motion estimation between articulated segments. To validate our proposed method, an articulated vehicle experiment platform was established with a dataset collected over it. Experiment results demonstrate state-of-the-art (SoTA) performance of depth estimation on our self-collected dataset as well as on DDAD, nuScenes, and KITTI benchmarks.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.02639v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.02639v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.02639v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.02639v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2604.02396": {
+      "title": "Environment-Aware Channel Prediction for Vehicular Communications: A Multimodal Visual Feature Fusion Framework",
+      "authors": [
+        "Xuejian Zhang",
+        "Ruisi He",
+        "Minseok Kim",
+        "Inocent Calist",
+        "Mi Yang",
+        "Ziyi Qi"
+      ],
+      "published": "2026-04-02T13:31:17+00:00",
+      "updated": "2026-04-02T13:31:17+00:00",
+      "summary": "The deep integration of communication with intelligence and sensing, as a defining vision of 6G, renders environment-aware channel prediction a key enabling technology. As a representative 6G application, vehicular communications require accurate and forward-looking channel prediction under stringent reliability, latency, and adaptability demands. Traditional empirical and deterministic models remain limited in balancing accuracy, generalization, and deployability, while the growing availability of onboard and roadside sensing devices offers a promising source of environmental priors. This paper proposes an environment-aware channel prediction framework based on multimodal visual feature fusion. Using GPS data and vehicle-side panoramic RGB images, together with semantic segmentation and depth estimation, the framework extracts semantic, depth, and position features through a three-branch architecture and performs adaptive multimodal fusion via a squeeze-excitation attention gating module. For 360-dimensional angular power spectrum (APS) prediction, a dedicated regression head and a composite multi-constraint loss are further designed. As a result, joint prediction of path loss (PL), delay spread (DS), azimuth spread of arrival (ASA), azimuth spread of departure (ASD), and APS is achieved. Experiments on a synchronized urban V2I measurement dataset yield the best root mean square error (RMSE) of 3.26 dB for PL, RMSEs of 37.66 ns, 5.05 degrees, and 5.08 degrees for DS, ASA, and ASD, respectively, and mean/median APS cosine similarities of 0.9342/0.9571, demonstrating strong accuracy, generalization, and practical potential for intelligent channel prediction in 6G vehicular communications.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.02396v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "13 pages, 14 figures",
+      "entry_id": "http://arxiv.org/abs/2604.02396v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.02396v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.02396v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2604.02009": {
       "title": "Test-Time Adaptation for Height Completion via Self-Supervised ViT Features and Monocular Foundation Models",
       "authors": [
