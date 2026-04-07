@@ -1,5 +1,362 @@
 {
   "3DGS Semantic": {
+    "2604.04685": {
+      "title": "Unsharp Measurement with Adaptive Gaussian POVMs for Quantum-Inspired Image Processing",
+      "authors": [
+        "Debashis Saikia",
+        "Bikash K. Behera",
+        "Mayukha Pal",
+        "Prasanta K. Panigrahi"
+      ],
+      "published": "2026-04-06T13:50:05+00:00",
+      "updated": "2026-04-06T13:50:05+00:00",
+      "summary": "We propose a quantum measurement-based framework for probabilistic transformation of grayscale images using adaptive positive operator-valued measures (POVMs). In contrast, to existing approaches that are largely centered around segmentation or thresholding, the transformation is formulated here as a measurement-induced process acting directly on pixel intensities. The intensity values are embedded in a finite-dimensional Hilbert space, which allows the construction of data-adaptive measurement operators derived from Gaussian models of the image histogram. These operators naturally define an unsharp measurement of the intensity observable, with the reconstructed image obtained through expectation values of the measurement outcomes. To control the degree of measurement localization, we introduce a nonlinear sharpening transformation with a sharpening parameter, $γ$, that induces a continuous transition from unsharp measurements to projective measurements. This transition reflects an inherent trade-off between probabilistic smoothing and localization of intensity structures. In addition to the nonlinear sharpening parameter, we introduce another parameter $k$ (number of gaussian centers) which controls the resolution of the image during the transformation. Experimental results on standard benchmark images show that the proposed method gives effective data-adaptive transformations while preserving structural information.",
+      "categories": [
+        "quant-ph",
+        "cs.CV"
+      ],
+      "primary_category": "quant-ph",
+      "pdf_url": "https://arxiv.org/pdf/2604.04685v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "15 pages, 17 figures",
+      "entry_id": "http://arxiv.org/abs/2604.04685v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.04685v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.04685v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2604.04642": {
+      "title": "WaterSplat-SLAM: Photorealistic Monocular SLAM in Underwater Environment",
+      "authors": [
+        "Kangxu Wang",
+        "Shaofeng Zou",
+        "Chenxing Jiang",
+        "Yixiang Dai",
+        "Siang Chen",
+        "Shaojie Shen",
+        "Guijin Wang"
+      ],
+      "published": "2026-04-06T12:51:00+00:00",
+      "updated": "2026-04-06T12:51:00+00:00",
+      "summary": "Underwater monocular SLAM is a challenging problem with applications from autonomous underwater vehicles to marine archaeology. However, existing underwater SLAM methods struggle to produce maps with high-fidelity rendering. In this paper, we propose WaterSplat-SLAM, a novel monocular underwater SLAM system that achieves robust pose estimation and photorealistic dense mapping. Specifically, we couple semantic medium filtering into two-view 3D reconstruction prior to enable underwater-adapted camera tracking and depth estimation. Furthermore, we present a semantic-guided rendering and adaptive map management strategy with an online medium-aware Gaussian map, modeling underwater environment in a photorealistic and compact manner. Experiments on multiple underwater datasets demonstrate that WaterSplat-SLAM achieves robust camera tracking and high-fidelity rendering in underwater environments.",
+      "categories": [
+        "cs.RO"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2604.04642v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "8 pages, 6 figures",
+      "entry_id": "http://arxiv.org/abs/2604.04642v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.04642v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.04642v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2604.04514": {
+      "title": "SuperLocalMemory V3.3: The Living Brain -- Biologically-Inspired Forgetting, Cognitive Quantization, and Multi-Channel Retrieval for Zero-LLM Agent Memory Systems",
+      "authors": [
+        "Varun Pratap Bhardwaj"
+      ],
+      "published": "2026-04-06T08:27:26+00:00",
+      "updated": "2026-04-06T08:27:26+00:00",
+      "summary": "AI coding agents operate in a paradox: they possess vast parametric knowledge yet cannot remember a conversation from an hour ago. Existing memory systems store text in vector databases with single-channel retrieval, require cloud LLMs for core operations, and implement none of the cognitive processes that make human memory effective.\n  We present SuperLocalMemory V3.3 (\"The Living Brain\"), a local-first agent memory system implementing the full cognitive memory taxonomy with mathematical lifecycle dynamics. Building on the information-geometric foundations of V3.2 (arXiv:2603.14588), we introduce five contributions: (1) Fisher-Rao Quantization-Aware Distance (FRQAD) -- a new metric on the Gaussian statistical manifold achieving 100% precision at preferring high-fidelity embeddings over quantized ones (vs 85.6% for cosine), with zero prior art; (2) Ebbinghaus Adaptive Forgetting with lifecycle-aware quantization -- the first mathematical forgetting curve in local agent memory coupled to progressive embedding compression, achieving 6.7x discriminative power; (3) 7-channel cognitive retrieval spanning semantic, keyword, entity graph, temporal, spreading activation, consolidation, and Hopfield associative channels, achieving 70.4% on LoCoMo in zero-LLM Mode A; (4) memory parameterization implementing Long-Term Implicit memory via soft prompts; (5) zero-friction auto-cognitive pipeline automating the complete memory lifecycle.\n  On LoCoMo, V3.3 achieves 70.4% in Mode A (zero-LLM), with +23.8pp on multi-hop and +12.7pp on adversarial. V3.2 achieved 74.8% Mode A and 87.7% Mode C; the 4.4pp gap reflects a deliberate architectural trade-off. SLM V3.3 is open source under the Elastic License 2.0, runs entirely on CPU, with over 5,000 monthly downloads.",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.IR"
+      ],
+      "primary_category": "cs.AI",
+      "pdf_url": "https://arxiv.org/pdf/2604.04514v1",
+      "journal_ref": null,
+      "doi": "10.5281/zenodo.19435120",
+      "comment": "19 pages, 4 figures, 11 tables. Third paper in the SuperLocalMemory trilogy. Code: https://github.com/qualixar/superlocalmemory (v3.3.26). npm: superlocalmemory. PyPI: superlocalmemory",
+      "entry_id": "http://arxiv.org/abs/2604.04514v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.04514v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.04514v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        },
+        {
+          "href": "https://doi.org/10.5281/zenodo.19435120",
+          "title": "doi",
+          "rel": "related",
+          "content_type": null
+        },
+        {
+          "href": "https://doi.org/10.5281/zenodo.19435120",
+          "title": "doi",
+          "rel": "related",
+          "content_type": null
+        },
+        {
+          "href": "https://doi.org/10.5281/zenodo.19435120",
+          "title": "doi",
+          "rel": "related",
+          "content_type": null
+        },
+        {
+          "href": "https://doi.org/10.5281/zenodo.19435120",
+          "title": "doi",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2604.04331": {
+      "title": "GA-GS: Generation-Assisted Gaussian Splatting for Static Scene Reconstruction",
+      "authors": [
+        "Yedong Shen",
+        "Shiqi Zhang",
+        "Sha Zhang",
+        "Yifan Duan",
+        "Xinran Zhang",
+        "Wenhao Yu",
+        "Lu Zhang",
+        "Jiajun Deng",
+        "Yanyong Zhang"
+      ],
+      "published": "2026-04-06T00:47:42+00:00",
+      "updated": "2026-04-06T00:47:42+00:00",
+      "summary": "Reconstructing static 3D scene from monocular video with dynamic objects is important for numerous applications such as virtual reality and autonomous driving. Current approaches typically rely on background for static scene reconstruction, limiting the ability to recover regions occluded by dynamic objects. In this paper, we propose GA-GS, a Generation-Assisted Gaussian Splatting method for Static Scene Reconstruction. The key innovation of our work lies in leveraging generation to assist in reconstructing occluded regions. We employ a motion-aware module to segment and remove dynamic regions, and thenuse a diffusion model to inpaint the occluded areas, providing pseudo-ground-truth supervision. To balance contributions from real background and generated region, we introduce a learnable authenticity scalar for each Gaussian primitive, which dynamically modulates opacity during splatting for authenticity-aware rendering and supervision. Since no existing dataset provides ground-truth static scene of video with dynamic objects, we construct a dataset named Trajectory-Match, using a fixed-path robot to record each scene with/without dynamic objects, enabling quantitative evaluation in reconstruction of occluded regions. Extensive experiments on both the DAVIS and our dataset show that GA-GS achieves state-of-the-art performance in static scene reconstruction, especially in challenging scenarios with large-scale, persistent occlusions.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.04331v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.04331v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.04331v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.04331v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2604.03773": {
+      "title": "M2StyleGS: Multi-Modality 3D Style Transfer with Gaussian Splatting",
+      "authors": [
+        "Xingyu Miao",
+        "Xueqi Qiu",
+        "Haoran Duan",
+        "Yawen Huang",
+        "Xian Wu",
+        "Jingjing Deng",
+        "Yang Long"
+      ],
+      "published": "2026-04-04T15:51:56+00:00",
+      "updated": "2026-04-04T15:51:56+00:00",
+      "summary": "Conventional 3D style transfer methods rely on a fixed reference image to apply artistic patterns to 3D scenes. However, in practical applications such as virtual or augmented reality, users often prefer more flexible inputs, including textual descriptions and diverse imagery. In this work, we introduce a novel real-time styling technique M2StyleGS to generate a sequence of precisely color-mapped views. It utilizes 3D Gaussian Splatting (3DGS) as a 3D presentation and multi-modality knowledge refined by CLIP as a reference style. M2StyleGS resolves the abnormal transformation issue by employing a precise feature alignment, namely subdivisive flow, it strengthens the projection of the mapped CLIP text-visual combination feature to the VGG style feature. In addition, we introduce observation loss, which assists in the stylized scene better matching the reference style during the generation, and suppression loss, which suppresses the offset of reference color information throughout the decoding process. By integrating these approaches, M2StyleGS can employ text or images as references to generate a set of style-enhanced novel views. Our experiments show that M2StyleGS achieves better visual quality and surpasses the previous work by up to 32.92% in terms of consistency.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.03773v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.03773v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.03773v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.03773v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-07",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2604.03653": {
+      "title": "Imagine Before Concentration: Diffusion-Guided Registers Enhance Partially Relevant Video Retrieval",
+      "authors": [
+        "Jun Li",
+        "Xuhang Lou",
+        "Jinpeng Wang",
+        "Yuting Wang",
+        "Yaowei Wang",
+        "Shu-Tao Xia",
+        "Bin Chen"
+      ],
+      "published": "2026-04-04T09:05:14+00:00",
+      "updated": "2026-04-04T09:05:14+00:00",
+      "summary": "Partially Relevant Video Retrieval (PRVR) aims to retrieve untrimmed videos based on text queries that describe only partial events. Existing methods suffer from incomplete global contextual perception, struggling with query ambiguity and local noise induced by spurious responses. To address these issues, we propose DreamPRVR, which adopts a coarse-to-fine representation learning paradigm. The model first generates global contextual semantic registers as coarse-grained highlights spanning the entire video and then concentrates on fine-grained similarity optimization for precise cross-modal matching. Concretely, these registers are generated by initializing from the video-centric distribution produced by a probabilistic variational sampler and then iteratively refined via a text-supervised truncated diffusion model. During this process, textual semantic structure learning constructs a well-formed textual latent space, enhancing the reliability of global perception. The registers are then adaptively fused with video tokens through register-augmented Gaussian attention blocks, enabling context-aware feature learning. Extensive experiments show that DreamPRVR outperforms state-of-the-art methods. Code is released at https://github.com/lijun2005/CVPR26-DreamPRVR.",
+      "categories": [
+        "cs.CV",
+        "cs.IR",
+        "cs.MM"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.03653v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted to CVPR 2026. 15 pages, 7 figures, 3 tables",
+      "entry_id": "http://arxiv.org/abs/2604.03653v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.03653v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.03653v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-07",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2604.03612": {
+      "title": "Perceptual Gaps: ASCII Art and Overlapping Audio as CAPTCHA",
+      "authors": [
+        "Choon-Hou Rafael Chong"
+      ],
+      "published": "2026-04-04T06:51:59+00:00",
+      "updated": "2026-04-04T06:51:59+00:00",
+      "summary": "As multimodal large language models (LLMs) advance, traditional CAPTCHAs have become obsolete at distinguishing humans from bots. To address this shift, this paper aims to investigate the possibility of using tasks for which humans have evolved highly specialised neural processing. We introduce two CAPTCHA classes: a vision-based CAPTCHA, which renders alphanumeric strings as ASCII art, and an audio-based CAPTCHA, which is a question-answering task with overlapping or noise-corrupted audio context. We evaluate our vision-based CAPTCHA both as text and image input with multiple frontier LLMs (GPT 5.2, Gemini 3, etc.), and assess our audio-based CAPTCHAs by applying augmentations like background noise, Gaussian noise, and overlapping speech. We determined that none of the LLMs were able to solve a single ASCII-based CAPTCHA, with the best performing model only being able to infer at most one or two characters. Additionally, all models that supported audio performed only modestly better than random when solving audio CAPTCHAs. Our results suggest that these CAPTCHAs are exceptionally effective today, but it is unclear whether it can withstand the fast-evolving landscape of artificial intelligence. Subsequent research is needed to determine whether these tasks are temporary vulnerabilities or represent a more durable method of distinguishing humans from bots.",
+      "categories": [
+        "cs.CR"
+      ],
+      "primary_category": "cs.CR",
+      "pdf_url": "https://arxiv.org/pdf/2604.03612v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "8 pages, 3 figures. Research paper proposing novel CAPTCHA methods using ASCII art and overlapping audio",
+      "entry_id": "http://arxiv.org/abs/2604.03612v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.03612v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.03612v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-07",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2604.03380": {
+      "title": "Noise Steering for Controlled Text Generation: Improving Diversity and Reading-Level Fidelity in Arabic Educational Story Generation",
+      "authors": [
+        "Haziq Mohammad Khalid",
+        "Salsabeel Shapsough",
+        "Imran Zualkernan"
+      ],
+      "published": "2026-04-03T18:19:18+00:00",
+      "updated": "2026-04-03T18:19:18+00:00",
+      "summary": "Generating diverse, pedagogically valid stories for Arabic early-grade reading assessments requires balancing tight constraints on vocabulary, reading level, and narrative structure against the need to avoid repetitive plots that undermine assessment validity. We investigate noise steering, injecting calibrated Gaussian perturbations into the internal representations of transformer models at inference time, as a training-free diversity method evaluated across five small Arabic-centric language models (7-9B parameters). We compare four injection strategies against high-temperature sampling baselines, measuring diversity, quality, constraint adherence, and reading grade level. Residual stream noise consistently improves narrative diversity with minimal quality or constraint cost and preserves early-grade reading level across all models. Attention entropy noise injection (AENI) stabilizes the otherwise unreliable attention-logit noise while recovering quality. High-temperature sampling inflates reading grade level and causes catastrophic collapse on several models. We find internal representation-level perturbation to be a more suitable diversity strategy than output-level stochasticity for constrained educational content generation.",
+      "categories": [
+        "cs.CL"
+      ],
+      "primary_category": "cs.CL",
+      "pdf_url": "https://arxiv.org/pdf/2604.03380v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Under Review",
+      "entry_id": "http://arxiv.org/abs/2604.03380v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.03380v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.03380v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-07",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
     "2604.02781": {
       "title": "DynFOA: Generating First-Order Ambisonics with Conditional Diffusion for Dynamic and Acoustically Complex 360-Degree Videos",
       "authors": [
@@ -730,6 +1087,58 @@
       "venue_info": {
         "venue_source": "Semantic Scholar",
         "queried_at": "2026-04-02",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2604.03309": {
+      "title": "TreeGaussian: Tree-Guided Cascaded Contrastive Learning for Hierarchical Consistent 3D Gaussian Scene Segmentation and Understanding",
+      "authors": [
+        "Jingbin You",
+        "Zehao Li",
+        "Hao Jiang",
+        "Xinzhu Ma",
+        "Shuqin Gao",
+        "Honglong Zhao",
+        "Congcong Zheng",
+        "Tianlu Mao",
+        "Feng Dai",
+        "Yucheng Zhang",
+        "Zhaoqi Wang"
+      ],
+      "published": "2026-03-31T10:22:28+00:00",
+      "updated": "2026-03-31T10:22:28+00:00",
+      "summary": "3D Gaussian Splatting (3DGS) has emerged as a real-time, differentiable representation for neural scene understanding. However, existing 3DGS-based methods struggle to represent hierarchical 3D semantic structures and capture whole-part relationships in complex scenes. Moreover, dense pairwise comparisons and inconsistent hierarchical labels from 2D priors hinder feature learning, resulting in suboptimal segmentation. To address these limitations, we introduce TreeGaussian, a tree-guided cascaded contrastive learning framework that explicitly models hierarchical semantic relationships and reduces redundancy in contrastive supervision. By constructing a multi-level object tree, TreeGaussian enables structured learning across object-part hierarchies. In addition, we propose a two-stage cascaded contrastive learning strategy that progressively refines feature representations from global to local, mitigating saturation and stabilizing training. A Consistent Segmentation Detection (CSD) mechanism and a graph-based denoising module are further introduced to align segmentation modes across views while suppressing unstable Gaussian points, enhancing segmentation consistency and quality. Extensive experiments, including open-vocabulary 3D object selection, 3D point cloud understanding, and ablation studies, demonstrate the effectiveness and robustness of our approach.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.03309v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.03309v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.03309v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.03309v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-07",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -1790,7 +2199,7 @@
         "Eduard Gorbunov"
       ],
       "published": "2026-03-24T17:39:09+00:00",
-      "updated": "2026-03-24T17:39:09+00:00",
+      "updated": "2026-04-05T13:54:18+00:00",
       "summary": "Federated Learning (FL) enables heterogeneous clients to collaboratively train a shared model without centralizing their raw data, offering an inherent level of privacy. However, gradients and model updates can still leak sensitive information, while malicious servers may mount adversarial attacks such as Byzantine manipulation. These vulnerabilities highlight the need to address differential privacy (DP) and Byzantine robustness within a unified framework. Existing approaches, however, often rely on unrealistic assumptions such as bounded gradients, require auxiliary server-side datasets, or fail to provide convergence guarantees. We address these limitations by proposing Byz-Clip21-SGD2M, a new algorithm that integrates robust aggregation with double momentum and carefully designed clipping. We prove high-probability convergence guarantees under standard $L$-smoothness and $σ$-sub-Gaussian gradient noise assumptions, thereby relaxing conditions that dominate prior work. Our analysis recovers state-of-the-art convergence rates in the absence of adversaries and improves utility guarantees under Byzantine and DP settings. Empirical evaluations on CNN and MLP models trained on MNIST further validate the effectiveness of our approach.",
       "categories": [
         "cs.LG",
@@ -1798,20 +2207,20 @@
         "math.OC"
       ],
       "primary_category": "cs.LG",
-      "pdf_url": "https://arxiv.org/pdf/2603.23472v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.23472v2",
       "journal_ref": null,
       "doi": null,
       "comment": "12 pages, 3 figures",
-      "entry_id": "http://arxiv.org/abs/2603.23472v1",
+      "entry_id": "http://arxiv.org/abs/2603.23472v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2603.23472v1",
+          "href": "https://arxiv.org/abs/2603.23472v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2603.23472v1",
+          "href": "https://arxiv.org/pdf/2603.23472v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -2775,27 +3184,27 @@
         "Simon James Fong"
       ],
       "published": "2026-03-19T08:59:07+00:00",
-      "updated": "2026-03-19T08:59:07+00:00",
+      "updated": "2026-04-05T06:17:36+00:00",
       "summary": "Rapid, large-scale 3D reconstruction from multi-date satellite imagery is vital for environmental monitoring, urban planning, and disaster response, yet remains difficult due to illumination changes, sensor heterogeneity, and the cost of per-scene optimization. We introduce SwiftGS, a meta-learned system that reconstructs 3D surfaces in a single forward pass by predicting geometry-radiation-decoupled Gaussian primitives together with a lightweight SDF, replacing expensive per-scene fitting with episodic training that captures transferable priors. The model couples a differentiable physics graph for projection, illumination, and sensor response with spatial gating that blends sparse Gaussian detail and global SDF structure, and incorporates semantic-geometric fusion, conditional lightweight task heads, and multi-view supervision from a frozen geometric teacher under an uncertainty-aware multi-task loss. At inference, SwiftGS operates zero-shot with optional compact calibration and achieves accurate DSM reconstruction and view-consistent rendering at significantly reduced computational cost, with ablations highlighting the benefits of the hybrid representation, physics-aware rendering, and episodic meta-training.",
       "categories": [
         "cs.CV",
         "cs.LG"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2603.18634v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.18634v2",
       "journal_ref": null,
       "doi": null,
-      "comment": "24 pages, 6 figures",
-      "entry_id": "http://arxiv.org/abs/2603.18634v1",
+      "comment": "23 pages, 6 figures",
+      "entry_id": "http://arxiv.org/abs/2603.18634v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2603.18634v1",
+          "href": "https://arxiv.org/abs/2603.18634v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2603.18634v1",
+          "href": "https://arxiv.org/pdf/2603.18634v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -87398,6 +87807,78 @@
     }
   },
   "MVS": {
+    "2604.04925": {
+      "title": "Fully Procedural Synthetic Data from Simple Rules for Multi-View Stereo",
+      "authors": [
+        "Zeyu Ma",
+        "Alexander Raistrick",
+        "Jia Deng"
+      ],
+      "published": "2026-04-06T17:59:05+00:00",
+      "updated": "2026-04-06T17:59:05+00:00",
+      "summary": "In this paper, we explore the design space of procedural rules for multi-view stereo (MVS). We demonstrate that we can generate effective training data using SimpleProc: a new, fully procedural generator driven by a very small set of rules using Non-Uniform Rational Basis Splines (NURBS), as well as basic displacement and texture patterns. At a modest scale of 8,000 images, our approach achieves superior results compared to manually curated images (at the same scale) sourced from games and real-world objects. When scaled to 352,000 images, our method yields performance comparable to--and in several benchmarks, exceeding--models trained on over 692,000 manually curated images. The source code and the data are available at https://github.com/princeton-vl/SimpleProc.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.04925v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.04925v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.04925v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.04925v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2604.04667": {
+      "title": "ZeD-MAP: Bundle Adjustment Guided Zero-Shot Depth Maps for Real-Time Aerial Imaging",
+      "authors": [
+        "Selim Ahmet Iz",
+        "Francesco Nex",
+        "Norman Kerle",
+        "Henry Meissner",
+        "Ralf Berger"
+      ],
+      "published": "2026-04-06T13:21:17+00:00",
+      "updated": "2026-04-06T13:21:17+00:00",
+      "summary": "Real-time depth reconstruction from ultra-high-resolution UAV imagery is essential for time-critical geospatial tasks such as disaster response, yet remains challenging due to wide-baseline parallax, large image sizes, low-texture or specular surfaces, occlusions, and strict computational constraints. Recent zero-shot diffusion models offer fast per-image dense predictions without task-specific retraining, and require fewer labelled datasets than transformer-based predictors while avoiding the rigid capture geometry requirement of classical multi-view stereo. However, their probabilistic inference prevents reliable metric accuracy and temporal consistency across sequential frames and overlapping tiles. We present ZeD-MAP, a cluster-level framework that converts a test-time diffusion depth model into a metrically consistent, SLAM-like mapping pipeline by integrating incremental cluster-based bundle adjustment (BA). Streamed UAV frames are grouped into overlapping clusters; periodic BA produces metrically consistent poses and sparse 3D tie-points, which are reprojected into selected frames and used as metric guidance for diffusion-based depth estimation. Validation on ground-marker flights captured at approximately 50 m altitude (GSD is approximately 0.85 cm/px, corresponding to 2,650 square meters ground coverage per frame) with the DLR Modular Aerial Camera System (MACS) shows that our method achieves sub-meter accuracy, with approximately 0.87 m error in the horizontal (XY) plane and 0.12 m in the vertical (Z) direction, while maintaining per-image runtimes between 1.47 and 4.91 seconds. Results are subject to minor noise from manual point-cloud annotation. These findings show that BA-based metric guidance provides consistency comparable to classical photogrammetric methods while significantly accelerating processing, enabling real-time 3D map generation.",
+      "categories": [
+        "cs.CV",
+        "cs.LG",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.04667v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.04667v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.04667v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.04667v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2603.24716": {
       "title": "Accurate Point Measurement in 3DGS -- A New Alternative to Traditional Stereoscopic-View Based Measurements",
       "authors": [
@@ -87586,26 +88067,26 @@
         "Sagie Benaim"
       ],
       "published": "2026-02-10T08:44:31+00:00",
-      "updated": "2026-02-10T08:44:31+00:00",
+      "updated": "2026-04-04T18:46:31+00:00",
       "summary": "Monocular Metric Depth Estimation (MMDE) is essential for physically intelligent systems, yet accurate depth estimation for underrepresented classes in complex scenes remains a persistent challenge. To address this, we propose RAD, a retrieval-augmented framework that approximates the benefits of multi-view stereo by utilizing retrieved neighbors as structural geometric proxies. Our method first employs an uncertainty-aware retrieval mechanism to identify low-confidence regions in the input and retrieve RGB-D context samples containing semantically similar content. We then process both the input and retrieved context via a dual-stream network and fuse them using a matched cross-attention module, which transfers geometric information only at reliable point correspondences. Evaluations on NYU Depth v2, KITTI, and Cityscapes demonstrate that RAD significantly outperforms state-of-the-art baselines on underrepresented classes, reducing relative absolute error by 29.2% on NYU Depth v2, 13.3% on KITTI, and 7.2% on Cityscapes, while maintaining competitive performance on standard in-domain benchmarks.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2602.09532v1",
+      "pdf_url": "https://arxiv.org/pdf/2602.09532v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2602.09532v1",
+      "entry_id": "http://arxiv.org/abs/2602.09532v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2602.09532v1",
+          "href": "https://arxiv.org/abs/2602.09532v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2602.09532v1",
+          "href": "https://arxiv.org/pdf/2602.09532v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -104399,6 +104880,116 @@
     }
   },
   "Depth Estimation": {
+    "2604.04667": {
+      "title": "ZeD-MAP: Bundle Adjustment Guided Zero-Shot Depth Maps for Real-Time Aerial Imaging",
+      "authors": [
+        "Selim Ahmet Iz",
+        "Francesco Nex",
+        "Norman Kerle",
+        "Henry Meissner",
+        "Ralf Berger"
+      ],
+      "published": "2026-04-06T13:21:17+00:00",
+      "updated": "2026-04-06T13:21:17+00:00",
+      "summary": "Real-time depth reconstruction from ultra-high-resolution UAV imagery is essential for time-critical geospatial tasks such as disaster response, yet remains challenging due to wide-baseline parallax, large image sizes, low-texture or specular surfaces, occlusions, and strict computational constraints. Recent zero-shot diffusion models offer fast per-image dense predictions without task-specific retraining, and require fewer labelled datasets than transformer-based predictors while avoiding the rigid capture geometry requirement of classical multi-view stereo. However, their probabilistic inference prevents reliable metric accuracy and temporal consistency across sequential frames and overlapping tiles. We present ZeD-MAP, a cluster-level framework that converts a test-time diffusion depth model into a metrically consistent, SLAM-like mapping pipeline by integrating incremental cluster-based bundle adjustment (BA). Streamed UAV frames are grouped into overlapping clusters; periodic BA produces metrically consistent poses and sparse 3D tie-points, which are reprojected into selected frames and used as metric guidance for diffusion-based depth estimation. Validation on ground-marker flights captured at approximately 50 m altitude (GSD is approximately 0.85 cm/px, corresponding to 2,650 square meters ground coverage per frame) with the DLR Modular Aerial Camera System (MACS) shows that our method achieves sub-meter accuracy, with approximately 0.87 m error in the horizontal (XY) plane and 0.12 m in the vertical (Z) direction, while maintaining per-image runtimes between 1.47 and 4.91 seconds. Results are subject to minor noise from manual point-cloud annotation. These findings show that BA-based metric guidance provides consistency comparable to classical photogrammetric methods while significantly accelerating processing, enabling real-time 3D map generation.",
+      "categories": [
+        "cs.CV",
+        "cs.LG",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.04667v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.04667v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.04667v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.04667v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2604.04407": {
+      "title": "NAIMA: Semantics Aware RGB Guided Depth Super-Resolution",
+      "authors": [
+        "Tayyab Nasir",
+        "Daochang Liu",
+        "Ajmal Mian"
+      ],
+      "published": "2026-04-06T04:14:59+00:00",
+      "updated": "2026-04-06T04:14:59+00:00",
+      "summary": "Guided depth super-resolution (GDSR) is a multi-modal approach for depth map super-resolution that relies on a low-resolution depth map and a high-resolution RGB image to restore finer structural details. However, the misleading color and texture cues indicating depth discontinuities in RGB images often lead to artifacts and blurred depth boundaries in the generated depth map. We propose a solution that introduces global contextual semantic priors, generated from pretrained vision transformer token embeddings. Our approach to distilling semantic knowledge from pretrained token embeddings is motivated by their demonstrated effectiveness in related monocular depth estimation tasks. We introduce a Guided Token Attention (GTA) module, which iteratively aligns encoded RGB spatial features with depth encodings, using cross-attention for selectively injecting global semantic context extracted from different layers of a pretrained vision transformer. Additionally, we present an architecture called Neural Attention for Implicit Multi-token Alignment (NAIMA), which integrates DINOv2 with GTA blocks for a semantics-aware GDSR. Our proposed architecture, with its ability to distill semantic knowledge, achieves significant improvements over existing methods across multiple scaling factors and datasets.",
+      "categories": [
+        "eess.IV",
+        "cs.CV",
+        "cs.LG",
+        "cs.MM"
+      ],
+      "primary_category": "eess.IV",
+      "pdf_url": "https://arxiv.org/pdf/2604.04407v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.04407v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.04407v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.04407v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2604.03339": {
+      "title": "Hierarchical Awareness Adapters with Hybrid Pyramid Feature Fusion for Dense Depth Prediction",
+      "authors": [
+        "Wuqi Su",
+        "Huilun Song",
+        "Chen Zhao",
+        "Chi Xu"
+      ],
+      "published": "2026-04-03T07:59:26+00:00",
+      "updated": "2026-04-03T07:59:26+00:00",
+      "summary": "Monocular depth estimation from a single RGB image remains a fundamental challenge in computer vision due to inherent scale ambiguity and the absence of explicit geometric cues. Existing approaches typically rely on increasingly complex network architectures to regress depth maps, which escalates training costs and computational overhead without fully exploiting inter-pixel spatial dependencies. We propose a multilevel perceptual conditional random field (CRF) model built upon the Swin Transformer backbone that addresses these limitations through three synergistic innovations: (1) an adaptive hybrid pyramid feature fusion (HPF) strategy that captures both short-range and long-range dependencies by combining multi-scale spatial pyramid pooling with biaxial feature aggregation, enabling effective integration of global and local contextual information; (2) a hierarchical awareness adapter (HA) that enriches cross-level feature interactions within the encoder through lightweight broadcast modules with learnable dimensional scaling, reducing computational complexity while enhancing representational capacity; and (3) a fully-connected CRF decoder with dynamic scaling attention that models fine-grained pixel-level spatial relationships, incorporating a bias learning unit to prevent extreme-value collapse and ensure stable training. Extensive experiments on NYU Depth v2, KITTI, and MatterPort3D datasets demonstrate that our method achieves state-of-the-art performance, reducing Abs Rel to 0.088 ($-$7.4\\%) and RMSE to 0.316 ($-$5.4\\%) on NYU Depth v2, while attaining near-perfect threshold accuracy ($δ< 1.25^3 \\approx 99.8\\%$) on KITTI with only 194M parameters and 21ms inference time.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.03339v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.03339v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.03339v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.03339v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2604.02639": {
       "title": "Cross-Vehicle 3D Geometric Consistency for Self-Supervised Surround Depth Estimation on Articulated Vehicles",
       "authors": [
@@ -104547,29 +105138,29 @@
       "authors": [
         "Junyoung Jung",
         "Seokwon Kim",
-        "Jun Uk Kim"
+        "Jung Uk Kim"
       ],
       "published": "2026-04-02T05:43:57+00:00",
-      "updated": "2026-04-02T05:43:57+00:00",
+      "updated": "2026-04-05T23:52:41+00:00",
       "summary": "Monocular 3D object detection has achieved impressive performance on densely annotated datasets. However, it struggles when only a fraction of objects are labeled due to the high cost of 3D annotation. This sparsely annotated setting is common in real-world scenarios where annotating every object is impractical. To address this, we propose a novel framework for sparsely annotated monocular 3D object detection with two key modules. First, we propose Road-Aware Patch Augmentation (RAPA), which leverages sparse annotations by augmenting segmented object patches onto road regions while preserving 3D geometric consistency. Second, we propose Prototype-Based Filtering (PBF), which generates high-quality pseudo-labels by filtering predictions through prototype similarity and depth uncertainty. It maintains global 2D RoI feature prototypes and selects pseudo-labels that are both feature-consistent with learned prototypes and have reliable depth estimates. Our training strategy combines geometry-preserving augmentation with prototype-guided pseudo-labeling to achieve robust detection under sparse supervision. Extensive experiments demonstrate the effectiveness of the proposed method. The source code is available at https://github.com/VisualAIKHU/MonoSAOD .",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2604.01646v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.01646v2",
       "journal_ref": null,
       "doi": null,
       "comment": "Accepted to CVPR 2026",
-      "entry_id": "http://arxiv.org/abs/2604.01646v1",
+      "entry_id": "http://arxiv.org/abs/2604.01646v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2604.01646v1",
+          "href": "https://arxiv.org/abs/2604.01646v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2604.01646v1",
+          "href": "https://arxiv.org/pdf/2604.01646v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null

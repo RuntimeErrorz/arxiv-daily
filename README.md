@@ -1,4 +1,4 @@
-## Updated at 2026-04-07 08:29:09
+## Updated at 2026-04-07 20:21:44
 
 ## 3DGS Semantic
 
@@ -8,6 +8,14 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-04-06**|**[Unsharp Measurement with Adaptive Gaussian POVMs for Quantum-Inspired Image Processing](https://arxiv.org/abs/2604.04685)**|N/A|15 pages, 17 figures|quant-ph|None|Debashis Saikia et al.|
+|**2026-04-06**|**[WaterSplat-SLAM: Photorealistic Monocular SLAM in Underwater Environment](https://arxiv.org/abs/2604.04642)**|N/A|8 pages, 6 figures|cs.RO|None|Kangxu Wang et al.|
+|**2026-04-06**|**[SuperLocalMemory V3.3: The Living Brain -- Biologically-Inspired Forgetting, Cognitive Quantization, and Multi-Channel Retrieval for Zero-LLM Agent Memory Systems](https://arxiv.org/abs/2604.04514)**|N/A|19 pages, 4 figures, 11 tables. Third paper in the SuperLocalMemory trilogy. Code: https://github.com/qualixar/superlocalmemory (v3.3.26). npm: superlocalmemory. PyPI: superlocalmemory|cs.AI|None|Varun Pratap Bhardwaj|
+|**2026-04-06**|**[GA-GS: Generation-Assisted Gaussian Splatting for Static Scene Reconstruction](https://arxiv.org/abs/2604.04331)**|N/A|None|cs.CV|None|Yedong Shen et al.|
+|**2026-04-04**|**[M2StyleGS: Multi-Modality 3D Style Transfer with Gaussian Splatting](https://arxiv.org/abs/2604.03773)**|N/A|None|cs.CV|None|Xingyu Miao et al.|
+|**2026-04-04**|**[Imagine Before Concentration: Diffusion-Guided Registers Enhance Partially Relevant Video Retrieval](https://arxiv.org/abs/2604.03653)**|N/A|Accepted to CVPR 2026. 15 pages, 7 figures, 3 tables|cs.CV|None|Jun Li et al.|
+|**2026-04-04**|**[Perceptual Gaps: ASCII Art and Overlapping Audio as CAPTCHA](https://arxiv.org/abs/2604.03612)**|N/A|8 pages, 3 figures. Research paper proposing novel CAPTCHA methods using ASCII art and overlapping audio|cs.CR|None|Choon-Hou Rafael Chong|
+|**2026-04-03**|**[Noise Steering for Controlled Text Generation: Improving Diversity and Reading-Level Fidelity in Arabic Educational Story Generation](https://arxiv.org/abs/2604.03380)**|N/A|Under Review|cs.CL|None|Haziq Mohammad Khalid et al.|
 |**2026-04-03**|**[DynFOA: Generating First-Order Ambisonics with Conditional Diffusion for Dynamic and Acoustically Complex 360-Degree Videos](https://arxiv.org/abs/2604.02781)**|arXiv.org|arXiv admin note: text overlap with arXiv:2602.06846|cs.SD|None|Ziyu Luo et al.|
 |**2026-04-02**|**[Resonance4D: Frequency-Domain Motion Supervision for Preset-Free Physical Parameter Learning in 4D Dynamic Physical Scene Simulation](https://arxiv.org/abs/2604.01994)**|N/A|None|cs.CV|None|Changshe Zhang et al.|
 |**2026-04-02**|**[A3R: Agentic Affordance Reasoning via Cross-Dimensional Evidence in 3D Gaussian Scenes](https://arxiv.org/abs/2604.01882)**|N/A|None|cs.CV|None|Di Li et al.|
@@ -24,6 +32,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2026-03-31**|**[One-for-All: A Lightweight Stabilized and Parameter-Efficient Pre-trained LLM for Time Series Forecasting](https://arxiv.org/abs/2603.29756)**|N/A|This manuscript is currently under review at IEEE Transactions on Knowledge and Data Engineering (TKDE)|cs.LG|None|Prasanjit Dey et al.|
 |**2026-03-31**|**[Concept frustration: Aligning human concepts and machine representations](https://arxiv.org/abs/2603.29654)**|N/A|34 pages, 7 figures|cs.LG|None|Enrico Parisini et al.|
 |**2026-03-31**|**[Temporal Memory for Resource-Constrained Agents: Continual Learning via Stochastic Compress-Add-Smooth](https://arxiv.org/abs/2604.00067)**|N/A|33 pages, 22 figures|cs.LG|None|Michael Chertkov|
+|**2026-03-31**|**[TreeGaussian: Tree-Guided Cascaded Contrastive Learning for Hierarchical Consistent 3D Gaussian Scene Segmentation and Understanding](https://arxiv.org/abs/2604.03309)**|N/A|None|cs.CV|None|Jingbin You et al.|
 |**2026-03-30**|**[PolarQuant: Optimal Gaussian Weight Quantization via Hadamard Rotation for LLM Compression](https://arxiv.org/abs/2603.29078)**|N/A|10 pages, 5 tables, 2 algorithms. Code: https://github.com/caiovicentino/eoq-quantization Models:https://huggingface.co/caiovicentino1|cs.CL|None|Caio Vicentino|
 |**2026-03-30**|**[Secret Key Rate Analysis of RIS-Assisted THz MIMO CV-QKD Systems under Localized and Global Eavesdropping](https://arxiv.org/abs/2603.28252)**|N/A|13 pages, 6 figures|cs.IT|None|Sushil Kumar et al.|
 |**2026-03-30**|**[\textit{4DSurf}: High-Fidelity Dynamic Scene Surface Reconstruction](https://arxiv.org/abs/2603.28064)**|N/A|Accepted to CVPR 2026|cs.CV|None|Renjie Wu et al.|
@@ -68,7 +77,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2026-03-20**|**[Optimal Scalar Quantization for Matrix Multiplication: Closed-Form Density and Phase Transition](https://arxiv.org/abs/2603.19559)**|N/A|None|cs.IT|None|Calvin Ang et al.|
 |**2026-03-19**|**[Reconstruction Matters: Learning Geometry-Aligned BEV Representation through 3D Gaussian Splatting](https://arxiv.org/abs/2603.19193)**|N/A|Project page at https://vulab-ai.github.io/Splat2BEV/|cs.CV|None|Yiren Lu et al.|
 |**2026-03-19**|**[GSMem: 3D Gaussian Splatting as Persistent Spatial Memory for Zero-Shot Embodied Exploration and Reasoning](https://arxiv.org/abs/2603.19137)**|N/A|Project page at https://vulab-ai.github.io/GSMem/|cs.CV|None|Yiren Lu et al.|
-|**2026-03-19**|**[SwiftGS: Episodic Priors for Immediate Satellite Surface Recovery](https://arxiv.org/abs/2603.18634)**|N/A|24 pages, 6 figures|cs.CV|None|Rong Fu et al.|
+|**2026-03-19**|**[SwiftGS: Episodic Priors for Immediate Satellite Surface Recovery](https://arxiv.org/abs/2603.18634)**|N/A|23 pages, 6 figures|cs.CV|None|Rong Fu et al.|
 |**2026-03-19**|**[OnlinePG: Online Open-Vocabulary Panoptic Mapping with 3D Gaussian Splatting](https://arxiv.org/abs/2603.18510)**|N/A|CVPR 2026|cs.CV|None|Hongjia Zhai et al.|
 |**2026-03-19**|**[Inst4DGS: Instance-Decomposed 4D Gaussian Splatting with Multi-Video Label Permutation Learning](https://arxiv.org/abs/2603.18402)**|N/A|None|cs.CV|None|Yonghan Lee, Dinesh Manocha|
 |**2026-03-18**|**[Semantic Segmentation and Depth Estimation for Real-Time Lunar Surface Mapping Using 3D Gaussian Splatting](https://arxiv.org/abs/2603.18218)**|N/A|None|cs.CV|None|Guillem Casadesus Vila et al.|
@@ -330,6 +339,8 @@ Query: (abs:'Multi-View Stereo' OR abs:'Multi View Stereo' OR abs:'Multi-View De
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-04-06**|**[Fully Procedural Synthetic Data from Simple Rules for Multi-View Stereo](https://arxiv.org/abs/2604.04925)**|N/A|None|cs.CV|None|Zeyu Ma et al.|
+|**2026-04-06**|**[ZeD-MAP: Bundle Adjustment Guided Zero-Shot Depth Maps for Real-Time Aerial Imaging](https://arxiv.org/abs/2604.04667)**|N/A|None|cs.CV|None|Selim Ahmet Iz et al.|
 |**2026-03-25**|**[Accurate Point Measurement in 3DGS -- A New Alternative to Traditional Stereoscopic-View Based Measurements](https://arxiv.org/abs/2603.24716)**|N/A|Accepted to the 2026 ISPRS Congress|cs.CV|None|Deyan Deng, Rongjun Qin|
 |**2026-03-21**|**[The Role and Relationship of Initialization and Densification in 3D Gaussian Splatting](https://arxiv.org/abs/2603.20714)**|N/A|Sources will be made publicly available|cs.CV|None|Ivan Desiatov, Torsten Sattler|
 |**2026-03-04**|**[LiDAR Prompted Spatio-Temporal Multi-View Stereo for Autonomous Driving](https://arxiv.org/abs/2603.03765)**|N/A|None|cs.CV|None|Qihao Sun et al.|
@@ -794,6 +805,9 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-04-06**|**[ZeD-MAP: Bundle Adjustment Guided Zero-Shot Depth Maps for Real-Time Aerial Imaging](https://arxiv.org/abs/2604.04667)**|N/A|None|cs.CV|None|Selim Ahmet Iz et al.|
+|**2026-04-06**|**[NAIMA: Semantics Aware RGB Guided Depth Super-Resolution](https://arxiv.org/abs/2604.04407)**|N/A|None|eess.IV|None|Tayyab Nasir et al.|
+|**2026-04-03**|**[Hierarchical Awareness Adapters with Hybrid Pyramid Feature Fusion for Dense Depth Prediction](https://arxiv.org/abs/2604.03339)**|N/A|None|cs.CV|None|Wuqi Su et al.|
 |**2026-04-03**|**[Cross-Vehicle 3D Geometric Consistency for Self-Supervised Surround Depth Estimation on Articulated Vehicles](https://arxiv.org/abs/2604.02639)**|N/A|None|cs.CV|None|Weimin Liu et al.|
 |**2026-04-02**|**[Environment-Aware Channel Prediction for Vehicular Communications: A Multimodal Visual Feature Fusion Framework](https://arxiv.org/abs/2604.02396)**|N/A|13 pages, 14 figures|cs.CV|None|Xuejian Zhang et al.|
 |**2026-04-02**|**[Test-Time Adaptation for Height Completion via Self-Supervised ViT Features and Monocular Foundation Models](https://arxiv.org/abs/2604.02009)**|N/A|None|cs.CV|None|Osher Rafaeli et al.|
