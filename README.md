@@ -1,4 +1,4 @@
-## Updated at 2026-04-07 20:21:44
+## Updated at 2026-04-08 20:21:09
 
 ## 3DGS Semantic
 
@@ -8,8 +8,12 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-04-07**|**[PanopticQuery: Unified Query-Time Reasoning for 4D Scenes](https://arxiv.org/abs/2604.05638)**|N/A|None|cs.CV|None|Ruilin Tang et al.|
+|**2026-04-07**|**[BPC-Net: Annotation-Free Skin Lesion Segmentation via Boundary Probability Calibration](https://arxiv.org/abs/2604.05594)**|N/A|None|cs.CV|None|Yujie Yao et al.|
+|**2026-04-07**|**[Indoor Asset Detection in Large Scale 360° Drone-Captured Imagery via 3D Gaussian Splatting](https://arxiv.org/abs/2604.05316)**|N/A|Accepted to CVPR 2026 3DMV Workshop|cs.CV|None|Monica Tang, Avideh Zakhor|
+|**2026-04-06**|**[Part-Level 3D Gaussian Vehicle Generation with Joint and Hinge Axis Estimation](https://arxiv.org/abs/2604.05070)**|N/A|submitted to IROS 2026|cs.AI|None|Shiyao Qian et al.|
 |**2026-04-06**|**[Unsharp Measurement with Adaptive Gaussian POVMs for Quantum-Inspired Image Processing](https://arxiv.org/abs/2604.04685)**|N/A|15 pages, 17 figures|quant-ph|None|Debashis Saikia et al.|
-|**2026-04-06**|**[WaterSplat-SLAM: Photorealistic Monocular SLAM in Underwater Environment](https://arxiv.org/abs/2604.04642)**|N/A|8 pages, 6 figures|cs.RO|None|Kangxu Wang et al.|
+|**2026-04-06**|**[WaterSplat-SLAM: Photorealistic Monocular SLAM in Underwater Environment](https://arxiv.org/abs/2604.04642)**|IEEE Robotics and Automation Letters|8 pages, 6 figures|cs.RO|None|Kangxu Wang et al.|
 |**2026-04-06**|**[SuperLocalMemory V3.3: The Living Brain -- Biologically-Inspired Forgetting, Cognitive Quantization, and Multi-Channel Retrieval for Zero-LLM Agent Memory Systems](https://arxiv.org/abs/2604.04514)**|N/A|19 pages, 4 figures, 11 tables. Third paper in the SuperLocalMemory trilogy. Code: https://github.com/qualixar/superlocalmemory (v3.3.26). npm: superlocalmemory. PyPI: superlocalmemory|cs.AI|None|Varun Pratap Bhardwaj|
 |**2026-04-06**|**[GA-GS: Generation-Assisted Gaussian Splatting for Static Scene Reconstruction](https://arxiv.org/abs/2604.04331)**|N/A|None|cs.CV|None|Yedong Shen et al.|
 |**2026-04-04**|**[M2StyleGS: Multi-Modality 3D Style Transfer with Gaussian Splatting](https://arxiv.org/abs/2604.03773)**|N/A|None|cs.CV|None|Xingyu Miao et al.|
@@ -805,6 +809,7 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-04-07**|**[In Depth We Trust: Reliable Monocular Depth Supervision for Gaussian Splatting](https://arxiv.org/abs/2604.05715)**|N/A|accepted to CVPR 3DMV Workshop|cs.CV|None|Wenhui Xiao et al.|
 |**2026-04-06**|**[ZeD-MAP: Bundle Adjustment Guided Zero-Shot Depth Maps for Real-Time Aerial Imaging](https://arxiv.org/abs/2604.04667)**|N/A|None|cs.CV|None|Selim Ahmet Iz et al.|
 |**2026-04-06**|**[NAIMA: Semantics Aware RGB Guided Depth Super-Resolution](https://arxiv.org/abs/2604.04407)**|N/A|None|eess.IV|None|Tayyab Nasir et al.|
 |**2026-04-03**|**[Hierarchical Awareness Adapters with Hybrid Pyramid Feature Fusion for Dense Depth Prediction](https://arxiv.org/abs/2604.03339)**|N/A|None|cs.CV|None|Wuqi Su et al.|

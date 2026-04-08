@@ -1,5 +1,188 @@
 {
   "3DGS Semantic": {
+    "2604.05638": {
+      "title": "PanopticQuery: Unified Query-Time Reasoning for 4D Scenes",
+      "authors": [
+        "Ruilin Tang",
+        "Yang Zhou",
+        "Zhong Ye",
+        "Wenxi Liu",
+        "Yan Huang",
+        "Shengfeng He"
+      ],
+      "published": "2026-04-07T09:40:05+00:00",
+      "updated": "2026-04-07T09:40:05+00:00",
+      "summary": "Understanding dynamic 4D environments through natural language queries requires not only accurate scene reconstruction but also robust semantic grounding across space, time, and viewpoints. While recent methods using neural representations have advanced 4D reconstruction, they remain limited in contextual reasoning, especially for complex semantics such as interactions, temporal actions, and spatial relations. A key challenge lies in transforming noisy, view-dependent predictions into globally consistent 4D interpretations. We introduce PanopticQuery, a framework for unified query-time reasoning in 4D scenes. Our approach builds on 4D Gaussian Splatting for high-fidelity dynamic reconstruction and introduces a multi-view semantic consensus mechanism that grounds natural language queries by aggregating 2D semantic predictions across multiple views and time frames. This process filters inconsistent outputs, enforces geometric consistency, and lifts 2D semantics into structured 4D groundings via neural field optimization. To support evaluation, we present Panoptic-L4D, a new benchmark for language-based querying in dynamic scenes. Experiments demonstrate that PanopticQuery sets a new state of the art on complex language queries, effectively handling attributes, actions, spatial relationships, and multi-object interactions. A video demonstration is available in the supplementary materials.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.05638v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.05638v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.05638v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.05638v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-08",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2604.05594": {
+      "title": "BPC-Net: Annotation-Free Skin Lesion Segmentation via Boundary Probability Calibration",
+      "authors": [
+        "Yujie Yao",
+        "Yuhaohang He",
+        "Junjie Huang",
+        "Zhou Liu",
+        "Jiangzhao Li",
+        "Yan Qiao",
+        "Wen Xiao",
+        "Yunsen Liang",
+        "Xiaofan Li"
+      ],
+      "published": "2026-04-07T08:43:34+00:00",
+      "updated": "2026-04-07T08:43:34+00:00",
+      "summary": "Annotation-free skin lesion segmentation is attractive for low-resource dermoscopic deployment. However, its performance remains constrained by three coupled challenges: noisy pseudo-label supervision, unstable transfer under limited target-domain data, and boundary probability under-confidence. Most existing annotation-free methods primarily focus on pseudo-label denoising. In contrast, the effect of compressed boundary probabilities on final mask quality has received less explicit attention, although it directly affects contour completeness and cannot be adequately corrected by global threshold adjustment alone. To address this issue, we propose BPC-Net, a boundary probability calibration framework for annotation-free skin lesion segmentation. The core of the framework is Gaussian Probability Smoothing (GPS), which performs localized probability-space calibration before thresholding to recover under-confident lesion boundaries without inducing indiscriminate foreground expansion. To support this calibration under noisy pseudo-supervision and cross-domain transfer, we further incorporate two auxiliary designs: a feature-decoupled decoder that separately handles context suppression, detail recovery, and boundary refinement, and an interaction-branch adaptation strategy that updates only the pseudo-label interaction branch while preserving the deployed image-only segmentation path. Under a strictly annotation-free protocol, no manual masks are used during training or target-domain adaptation, and validation labels, when available, are used only for final operating-point selection. Experiments on ISIC-2017, ISIC-2018, and PH2 show that the proposed framework achieves state-of-the-art performance among published unsupervised methods, reaching a macro-average Dice coefficient and Jaccard index of 85.80\\% and 76.97\\%, respectively, while approaching supervised reference performance on PH2.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.05594v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.05594v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.05594v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.05594v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-08",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2604.05316": {
+      "title": "Indoor Asset Detection in Large Scale 360° Drone-Captured Imagery via 3D Gaussian Splatting",
+      "authors": [
+        "Monica Tang",
+        "Avideh Zakhor"
+      ],
+      "published": "2026-04-07T01:36:50+00:00",
+      "updated": "2026-04-07T01:36:50+00:00",
+      "summary": "We present an approach for object-level detection and segmentation of target indoor assets in 3D Gaussian Splatting (3DGS) scenes, reconstructed from 360° drone-captured imagery. We introduce a 3D object codebook that jointly leverages mask semantics and spatial information of their corresponding Gaussian primitives to guide multi-view mask association and indoor asset detection. By integrating 2D object detection and segmentation models with semantically and spatially constrained merging procedures, our method aggregates masks from multiple views into coherent 3D object instances. Experiments on two large indoor scenes demonstrate reliable multi-view mask consistency, improving F1 score by 65% over state-of-the-art baselines, and accurate object-level 3D indoor asset detection, achieving an 11% mAP gain over baseline methods.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.05316v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted to CVPR 2026 3DMV Workshop",
+      "entry_id": "http://arxiv.org/abs/2604.05316v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.05316v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.05316v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-08",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2604.05070": {
+      "title": "Part-Level 3D Gaussian Vehicle Generation with Joint and Hinge Axis Estimation",
+      "authors": [
+        "Shiyao Qian",
+        "Yuan Ren",
+        "Dongfeng Bai",
+        "Bingbing Liu"
+      ],
+      "published": "2026-04-06T18:16:12+00:00",
+      "updated": "2026-04-06T18:16:12+00:00",
+      "summary": "Simulation is essential for autonomous driving, yet current frameworks often model vehicles as rigid assets and fail to capture part-level articulation. With perception algorithms increasingly leveraging dynamics such as wheel steering or door opening, realistic simulation requires animatable vehicle representations. Existing CAD-based pipelines are limited by library coverage and fixed templates, preventing faithful reconstruction of in-the-wild instances.\n  We propose a generative framework that, from a single image or sparse multi-view input, synthesizes an animatable 3D Gaussian vehicle. Our method addresses two challenges: (i) large 3D asset generators are optimized for static quality but not articulation, leading to distortions at part boundaries when animated; and (ii) segmentation alone cannot provide the kinematic parameters required for motion. To overcome this, we introduce a part-edge refinement module that enforces exclusive Gaussian ownership and a kinematic reasoning head that predicts joint positions and hinge axes of movable parts. Together, these components enable faithful part-aware simulation, bridging the gap between static generation and animatable vehicle models.",
+      "categories": [
+        "cs.AI",
+        "cs.CV",
+        "cs.RO"
+      ],
+      "primary_category": "cs.AI",
+      "pdf_url": "https://arxiv.org/pdf/2604.05070v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "submitted to IROS 2026",
+      "entry_id": "http://arxiv.org/abs/2604.05070v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.05070v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.05070v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-08",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
     "2604.04685": {
       "title": "Unsharp Measurement with Adaptive Gaussian POVMs for Quantum-Inspired Image Processing",
       "authors": [
@@ -35,7 +218,15 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-08",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2604.04642": {
       "title": "WaterSplat-SLAM: Photorealistic Monocular SLAM in Underwater Environment",
@@ -74,7 +265,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-08",
+        "venue": "IEEE Robotics and Automation Letters",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2604.04514": {
       "title": "SuperLocalMemory V3.3: The Living Brain -- Biologically-Inspired Forgetting, Cognitive Quantization, and Multi-Channel Retrieval for Zero-LLM Agent Memory Systems",
@@ -133,7 +331,15 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-08",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2604.04331": {
       "title": "GA-GS: Generation-Assisted Gaussian Splatting for Static Scene Reconstruction",
@@ -175,7 +381,15 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-08",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2604.03773": {
       "title": "M2StyleGS: Multi-Modality 3D Style Transfer with Gaussian Splatting",
@@ -104880,6 +105094,44 @@
     }
   },
   "Depth Estimation": {
+    "2604.05715": {
+      "title": "In Depth We Trust: Reliable Monocular Depth Supervision for Gaussian Splatting",
+      "authors": [
+        "Wenhui Xiao",
+        "Ethan Goan",
+        "Rodrigo Santa Cruz",
+        "David Ahmedt-Aristizabal",
+        "Olivier Salvado",
+        "Clinton Fookes",
+        "Leo Lebrat"
+      ],
+      "published": "2026-04-07T11:15:15+00:00",
+      "updated": "2026-04-07T11:15:15+00:00",
+      "summary": "Using accurate depth priors in 3D Gaussian Splatting helps mitigate artifacts caused by sparse training data and textureless surfaces. However, acquiring accurate depth maps requires specialized acquisition systems. Foundation monocular depth estimation models offer a cost-effective alternative, but they suffer from scale ambiguity, multi-view inconsistency, and local geometric inaccuracies, which can degrade rendering performance when applied naively. This paper addresses the challenge of reliably leveraging monocular depth priors for Gaussian Splatting (GS) rendering enhancement. To this end, we introduce a training framework integrating scale-ambiguous and noisy depth priors into geometric supervision. We highlight the importance of learning from weakly aligned depth variations. We introduce a method to isolate ill-posed geometry for selective monocular depth regularization, restricting the propagation of depth inaccuracies into well-reconstructed 3D structures. Extensive experiments across diverse datasets show consistent improvements in geometric accuracy, leading to more faithful depth estimation and higher rendering quality across different GS variants and monocular depth backbones tested.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.05715v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "accepted to CVPR 3DMV Workshop",
+      "entry_id": "http://arxiv.org/abs/2604.05715v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.05715v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.05715v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2604.04667": {
       "title": "ZeD-MAP: Bundle Adjustment Guided Zero-Shot Depth Maps for Real-Time Aerial Imaging",
       "authors": [
