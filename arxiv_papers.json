@@ -1,5 +1,192 @@
 {
   "3DGS Semantic": {
+    "2604.06812": {
+      "title": "AGSC: Adaptive Granularity and Semantic Clustering for Uncertainty Quantification in Long-text Generation",
+      "authors": [
+        "Guanran Luo",
+        "Wentao Qiu",
+        "Wanru Zhao",
+        "Wenhan Lv",
+        "Zhongquan Jian",
+        "Meihong Wang",
+        "Qingqiang Wu"
+      ],
+      "published": "2026-04-08T08:25:01+00:00",
+      "updated": "2026-04-08T08:25:01+00:00",
+      "summary": "Large Language Models (LLMs) have demonstrated impressive capabilities in long-form generation, yet their application is hindered by the hallucination problem. While Uncertainty Quantification (UQ) is essential for assessing reliability, the complex structure makes reliable aggregation across heterogeneous themes difficult, in addition, existing methods often overlook the nuance of neutral information and suffer from the high computational cost of fine-grained decomposition. To address these challenges, we propose AGSC (Adaptive Granularity and GMM-based Semantic Clustering), a UQ framework tailored for long-form generation. AGSC first uses NLI neutral probabilities as triggers to distinguish irrelevance from uncertainty, reducing unnecessary computation. It then applies Gaussian Mixture Model (GMM) soft clustering to model latent semantic themes and assign topic-aware weights for downstream aggregation. Experiments on BIO and LongFact show that AGSC achieves state-of-the-art correlation with factuality while reducing inference time by about 60% compared to full atomic decomposition.",
+      "categories": [
+        "cs.CL"
+      ],
+      "primary_category": "cs.CL",
+      "pdf_url": "https://arxiv.org/pdf/2604.06812v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.06812v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.06812v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.06812v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-09",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2604.06728": {
+      "title": "URMF: Uncertainty-aware Robust Multimodal Fusion for Multimodal Sarcasm Detection",
+      "authors": [
+        "Zhenyu Wang",
+        "Weichen Cheng",
+        "Weijia Li",
+        "Junjie Mou",
+        "Zongyou Zhao",
+        "Guoying Zhang"
+      ],
+      "published": "2026-04-08T06:50:43+00:00",
+      "updated": "2026-04-08T06:50:43+00:00",
+      "summary": "Multimodal sarcasm detection (MSD) aims to identify sarcastic intent from semantic incongruity between text and image. Although recent methods have improved MSD through cross-modal interaction and incongruity reasoning, they often assume that all modalities are equally reliable. In real-world social media, however, textual content may be ambiguous and visual content may be weakly relevant or even irrelevant, causing deterministic fusion to introduce noisy evidence and weaken robust reasoning. To address this issue, we propose Uncertainty-aware Robust Multimodal Fusion (URMF), a unified framework that explicitly models modality reliability during interaction and fusion. URMF first employs multi-head cross-attention to inject visual evidence into textual representations, followed by multi-head self-attention in the fused semantic space to enhance incongruity-aware reasoning. It then performs unified unimodal aleatoric uncertainty modeling over text, image, and interaction-aware latent representations by parameterizing each modality as a learnable Gaussian posterior. The estimated uncertainty is further used to dynamically regulate modality contributions during fusion, suppressing unreliable modalities and yielding a more robust joint representation. In addition, we design a joint training objective integrating task supervision, modality prior regularization, cross-modal distribution alignment, and uncertainty-driven self-sampling contrastive learning. Experiments on public MSD benchmarks show that URMF consistently outperforms strong unimodal, multimodal, and MLLM-based baselines, demonstrating the effectiveness of uncertainty-aware fusion for improving both accuracy and robustness.",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.MM"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.06728v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.06728v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.06728v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.06728v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-09",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2604.06671": {
+      "title": "4D Vessel Reconstruction for Benchtop Thrombectomy Analysis",
+      "authors": [
+        "Ethan Nguyen",
+        "Javier Carmona",
+        "Arisa Matsuzaki",
+        "Naoki Kaneko",
+        "Katsushi Arisaka"
+      ],
+      "published": "2026-04-08T04:45:17+00:00",
+      "updated": "2026-04-08T04:45:17+00:00",
+      "summary": "Introduction: Mechanical thrombectomy can cause vessel deformation and procedure-related injury. Benchtop models are widely used for device testing, but time-resolved, full-field 3D vessel-motion measurements remain limited.\n  Methods: We developed a nine-camera, low-cost multi-view workflow for benchtop thrombectomy in silicone middle cerebral artery phantoms (2160p, 20 fps). Multi-view videos were calibrated, segmented, and reconstructed with 4D Gaussian Splatting. Reconstructed point clouds were converted to fixed-connectivity edge graphs for region-of-interest (ROI) displacement tracking and a relative surface-based stress proxy. Stress-proxy values were derived from edge stretch using a Neo-Hookean mapping and reported as comparative surface metrics. A synthetic Blender pipeline with known deformation provided geometric and temporal validation.\n  Results: In synthetic bulk translation, the stress proxy remained near zero for most edges (median $\\approx$ 0 MPa; 90th percentile 0.028 MPa), with sparse outliers. In synthetic pulling (1-5 mm), reconstruction showed close geometric and temporal agreement with ground truth, with symmetric Chamfer distance of 1.714-1.815 mm and precision of 0.964-0.972 at $τ= 1$ mm. In preliminary benchtop comparative trials (one trial per condition), cervical aspiration catheter placement showed higher max-median ROI displacement and stress-proxy values than internal carotid artery terminus placement.\n  Conclusion: The proposed protocol provides standardized, time-resolved surface kinematics and comparative relative displacement and stress proxy measurements for thrombectomy benchtop studies. The framework supports condition-to-condition comparisons and methods validation, while remaining distinct from absolute wall-stress estimation. Implementation code and example data are available at https://ethanuser.github.io/vessel4D",
+      "categories": [
+        "eess.IV",
+        "cs.CV",
+        "physics.med-ph"
+      ],
+      "primary_category": "eess.IV",
+      "pdf_url": "https://arxiv.org/pdf/2604.06671v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "20 pages, 10 figures, 1 table, supplementary material (3 tables, 3 figures, and 11 videos). Project page: https://ethanuser.github.io/vessel4D/",
+      "entry_id": "http://arxiv.org/abs/2604.06671v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.06671v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.06671v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-09",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2604.06467": {
+      "title": "PhysHead: Simulation-Ready Gaussian Head Avatars",
+      "authors": [
+        "Berna Kabadayi",
+        "Vanessa Sklyarova",
+        "Wojciech Zielonka",
+        "Justus Thies",
+        "Gerard Pons-Moll"
+      ],
+      "published": "2026-04-07T21:09:52+00:00",
+      "updated": "2026-04-07T21:09:52+00:00",
+      "summary": "Realistic digital avatars require expressive and dynamic hair motion; however, most existing head avatar methods assume rigid hair movement. These methods often fail to disentangle hair from the head, representing it as a simple outer shell and failing to capture its natural volumetric behavior. In this paper, we address these limitations by introducing PhysHead, a hybrid representation for animatable head avatars with realistic hair dynamics learned from multi-view video. At the core is a 3D Gaussian-based layered representation of the head. Our approach combines a 3D parametric mesh for the head with strand-based hair, which can be directly simulated using physics engines. For the appearance model, we employ Gaussian primitives attached to both the head mesh and hair segments. This representation enables the creation of photorealistic head avatars with dynamic hair behavior, such as wind-blown motion, overcoming the constraints of rigid hair in existing methods. However, these animation capabilities also require new training schemes. In particular, we propose the use of VLM-based models to generate appearance of regions that are occluded in the dynamic training sequences. In quantitative and qualitative studies, we demonstrate the capabilities of the proposed model and compare it with existing baselines. We show that our method can synthesize physically plausible hair motion besides expression and camera control.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.06467v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Project Page: see https://phys-head.github.io/; Youtube Video: see https://www.youtube.com/watch?v=k68fsSSwzc0; Accepted to CVPR 2026",
+      "entry_id": "http://arxiv.org/abs/2604.06467v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.06467v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.06467v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-09",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
     "2604.05638": {
       "title": "PanopticQuery: Unified Query-Time Reasoning for 4D Scenes",
       "authors": [
@@ -901,7 +1088,7 @@
         "Qi Wu"
       ],
       "published": "2026-04-01T17:48:22+00:00",
-      "updated": "2026-04-01T17:48:22+00:00",
+      "updated": "2026-04-08T17:59:08+00:00",
       "summary": "Primitive-based methods such as 3D Gaussian Splatting have recently become the state-of-the-art for novel-view synthesis and related reconstruction tasks. Compared to neural fields, these representations are more flexible, adaptive, and scale better to large scenes. However, the limited expressivity of individual primitives makes modeling high-frequency detail challenging. We introduce Neural Harmonic Textures, a neural representation approach that anchors latent feature vectors on a virtual scaffold surrounding each primitive. These features are interpolated within the primitive at ray intersection points. Inspired by Fourier analysis, we apply periodic activations to the interpolated features, turning alpha blending into a weighted sum of harmonic components. The resulting signal is then decoded in a single deferred pass using a small neural network, significantly reducing computational cost. Neural Harmonic Textures yield state-of-the-art results in real-time novel view synthesis while bridging the gap between primitive- and neural-field-based reconstruction. Our method integrates seamlessly into existing primitive-based pipelines such as 3DGUT, Triangle Splatting, and 2DGS. We further demonstrate its generality with applications to 2D image fitting and semantic reconstruction.",
       "categories": [
         "cs.CV",
@@ -910,20 +1097,20 @@
         "cs.LG"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2604.01204v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.01204v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2604.01204v1",
+      "entry_id": "http://arxiv.org/abs/2604.01204v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2604.01204v1",
+          "href": "https://arxiv.org/abs/2604.01204v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2604.01204v1",
+          "href": "https://arxiv.org/pdf/2604.01204v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -1957,27 +2144,27 @@
         "Liang-Jie Zhang"
       ],
       "published": "2026-03-27T08:34:53+00:00",
-      "updated": "2026-03-27T08:34:53+00:00",
+      "updated": "2026-04-08T11:57:36+00:00",
       "summary": "Diffusion models generate high-quality images but pose serious risks like copyright violation and disinformation. Watermarking is a key defense for tracing and authenticating AI-generated content. However, existing methods rely on threshold-based detection, which only supports fuzzy matching and cannot recover structured watermark data bit-exactly, making them unsuitable for offline verification or applications requiring lossless metadata (e.g., licensing instructions). To address this problem, in this paper, we propose Gaussian Shannon, a watermarking framework that treats the diffusion process as a noisy communication channel and enables both robust tracing and exact bit recovery. Our method embeds watermarks in the initial Gaussian noise without fine-tuning or quality loss. We identify two types of channel interference, namely local bit flips and global stochastic distortions, and design a cascaded defense combining error-correcting codes and majority voting. This ensures reliable end-to-end transmission of semantic payloads. Experiments across three Stable Diffusion variants and seven perturbation types show that Gaussian Shannon achieves state-of-the-art bit-level accuracy while maintaining a high true positive rate, enabling trustworthy rights attribution in real-world deployment. The source code have been made available at: https://github.com/Rambo-Yi/Gaussian-Shannon",
       "categories": [
         "cs.CV",
         "cs.CR"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2603.26167v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.26167v2",
       "journal_ref": null,
       "doi": null,
       "comment": "Accepted by CVPR 2026 Findings",
-      "entry_id": "http://arxiv.org/abs/2603.26167v1",
+      "entry_id": "http://arxiv.org/abs/2603.26167v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2603.26167v1",
+          "href": "https://arxiv.org/abs/2603.26167v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2603.26167v1",
+          "href": "https://arxiv.org/pdf/2603.26167v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -88022,33 +88209,33 @@
   },
   "MVS": {
     "2604.04925": {
-      "title": "Fully Procedural Synthetic Data from Simple Rules for Multi-View Stereo",
+      "title": "SimpleProc: Fully Procedural Synthetic Data from Simple Rules for Multi-View Stereo",
       "authors": [
         "Zeyu Ma",
         "Alexander Raistrick",
         "Jia Deng"
       ],
       "published": "2026-04-06T17:59:05+00:00",
-      "updated": "2026-04-06T17:59:05+00:00",
+      "updated": "2026-04-07T18:40:28+00:00",
       "summary": "In this paper, we explore the design space of procedural rules for multi-view stereo (MVS). We demonstrate that we can generate effective training data using SimpleProc: a new, fully procedural generator driven by a very small set of rules using Non-Uniform Rational Basis Splines (NURBS), as well as basic displacement and texture patterns. At a modest scale of 8,000 images, our approach achieves superior results compared to manually curated images (at the same scale) sourced from games and real-world objects. When scaled to 352,000 images, our method yields performance comparable to--and in several benchmarks, exceeding--models trained on over 692,000 manually curated images. The source code and the data are available at https://github.com/princeton-vl/SimpleProc.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2604.04925v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.04925v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2604.04925v1",
+      "entry_id": "http://arxiv.org/abs/2604.04925v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2604.04925v1",
+          "href": "https://arxiv.org/abs/2604.04925v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2604.04925v1",
+          "href": "https://arxiv.org/pdf/2604.04925v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -105094,6 +105281,119 @@
     }
   },
   "Depth Estimation": {
+    "2604.07279": {
+      "title": "Mem3R: Streaming 3D Reconstruction with Hybrid Memory via Test-Time Training",
+      "authors": [
+        "Changkun Liu",
+        "Jiezhi Yang",
+        "Zeman Li",
+        "Yuan Deng",
+        "Jiancong Guo",
+        "Luca Ballan"
+      ],
+      "published": "2026-04-08T16:41:22+00:00",
+      "updated": "2026-04-08T16:41:22+00:00",
+      "summary": "Streaming 3D perception is well suited to robotics and augmented reality, where long visual streams must be processed efficiently and consistently. Recent recurrent models offer a promising solution by maintaining fixed-size states and enabling linear-time inference, but they often suffer from drift accumulation and temporal forgetting over long sequences due to the limited capacity of compressed latent memories. We propose Mem3R, a streaming 3D reconstruction model with a hybrid memory design that decouples camera tracking from geometric mapping to improve temporal consistency over long sequences. For camera tracking, Mem3R employs an implicit fast-weight memory implemented as a lightweight Multi-Layer Perceptron updated via Test-Time Training. For geometric mapping, Mem3R maintains an explicit token-based fixed-size state. Compared with CUT3R, this design not only significantly improves long-sequence performance but also reduces the model size from 793M to 644M parameters. Mem3R supports existing improved plug-and-play state update strategies developed for CUT3R. Specifically, integrating it with TTT3R decreases Absolute Trajectory Error by up to 39% over the base implementation on 500 to 1000 frame sequences. The resulting improvements also extend to other downstream tasks, including video depth estimation and 3D reconstruction, while preserving constant GPU memory usage and comparable inference throughput. Project page: https://lck666666.github.io/Mem3R/",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.07279v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Project page: https://lck666666.github.io/Mem3R/",
+      "entry_id": "http://arxiv.org/abs/2604.07279v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.07279v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.07279v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2604.06665": {
+      "title": "VDPP: Video Depth Post-Processing for Speed and Scalability",
+      "authors": [
+        "Daewon Yoon",
+        "Injun Baek",
+        "Sangyu Han",
+        "Yearim Kim",
+        "Nojun Kwak"
+      ],
+      "published": "2026-04-08T04:33:29+00:00",
+      "updated": "2026-04-08T04:33:29+00:00",
+      "summary": "Video depth estimation is essential for providing 3D scene structure in applications ranging from autonomous driving to mixed reality. Current end-to-end video depth models have established state-of-the-art performance. Although current end-to-end (E2E) models have achieved state-of-the-art performance, they function as tightly coupled systems that suffer from a significant adaptation lag whenever superior single-image depth estimators are released. To mitigate this issue, post-processing methods such as NVDS offer a modular plug-and-play alternative to incorporate any evolving image depth model without retraining. However, existing post-processing methods still struggle to match the efficiency and practicality of E2E systems due to limited speed, accuracy, and RGB reliance. In this work, we revitalize the role of post-processing by proposing VDPP (Video Depth Post-Processing), a framework that improves the speed and accuracy of post-processing methods for video depth estimation. By shifting the paradigm from computationally expensive scene reconstruction to targeted geometric refinement, VDPP operates purely on geometric refinements in low-resolution space. This design achieves exceptional speed (>43.5 FPS on NVIDIA Jetson Orin Nano) while matching the temporal coherence of E2E systems, with dense residual learning driving geometric representations rather than full reconstructions. Furthermore, our VDPP's RGB-free architecture ensures true scalability, enabling immediate integration with any evolving image depth model. Our results demonstrate that VDPP provides a superior balance of speed, accuracy, and memory efficiency, making it the most practical solution for real-time edge deployment. Our project page is at https://github.com/injun-baek/VDPP",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.06665v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "8 pages, 6 figures. Accepted to CVPR 2024 Workshop. Project page: https://github.com/injun-baek/VDPP",
+      "entry_id": "http://arxiv.org/abs/2604.06665v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.06665v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.06665v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2604.06576": {
+      "title": "LiftFormer: Lifting and Frame Theory Based Monocular Depth Estimation Using Depth and Edge Oriented Subspace Representation",
+      "authors": [
+        "Shuai Li",
+        "Huibin Bai",
+        "Yanbo Gao",
+        "Chong Lv",
+        "Hui Yuan",
+        "Chuankun Li",
+        "Wei Hua",
+        "Tian Xie"
+      ],
+      "published": "2026-04-08T01:52:26+00:00",
+      "updated": "2026-04-08T01:52:26+00:00",
+      "summary": "Monocular depth estimation (MDE) has attracted increasing interest in the past few years, owing to its important role in 3D vision. MDE is the estimation of a depth map from a monocular image/video to represent the 3D structure of a scene, which is a highly ill-posed problem. To solve this problem, in this paper, we propose a LiftFormer based on lifting theory topology, for constructing an intermediate subspace that bridges the image color features and depth values, and a subspace that enhances the depth prediction around edges. MDE is formulated by transforming the depth value prediction problem into depth-oriented geometric representation (DGR) subspace feature representation, thus bridging the learning from color values to geometric depth values. A DGR subspace is constructed based on frame theory by using linearly dependent vectors in accordance with depth bins to provide a redundant and robust representation. The image spatial features are transformed into the DGR subspace, where these features correspond directly to the depth values. Moreover, considering that edges usually present sharp changes in a depth map and tend to be erroneously predicted, an edge-aware representation (ER) subspace is constructed, where depth features are transformed and further used to enhance the local features around edges. The experimental results demonstrate that our LiftFormer achieves state-of-the-art performance on widely used datasets, and an ablation study validates the effectiveness of both proposed lifting modules in our LiftFormer.",
+      "categories": [
+        "cs.CV",
+        "eess.IV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.06576v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted by IEEE Transactions on Multimedia",
+      "entry_id": "http://arxiv.org/abs/2604.06576v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.06576v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.06576v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2604.05715": {
       "title": "In Depth We Trust: Reliable Monocular Depth Supervision for Gaussian Splatting",
       "authors": [

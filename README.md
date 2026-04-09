@@ -1,4 +1,4 @@
-## Updated at 2026-04-09 08:24:06
+## Updated at 2026-04-09 20:23:30
 
 ## 3DGS Semantic
 
@@ -8,6 +8,10 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-04-08**|**[AGSC: Adaptive Granularity and Semantic Clustering for Uncertainty Quantification in Long-text Generation](https://arxiv.org/abs/2604.06812)**|N/A|None|cs.CL|None|Guanran Luo et al.|
+|**2026-04-08**|**[URMF: Uncertainty-aware Robust Multimodal Fusion for Multimodal Sarcasm Detection](https://arxiv.org/abs/2604.06728)**|N/A|None|cs.CV|None|Zhenyu Wang et al.|
+|**2026-04-08**|**[4D Vessel Reconstruction for Benchtop Thrombectomy Analysis](https://arxiv.org/abs/2604.06671)**|N/A|20 pages, 10 figures, 1 table, supplementary material (3 tables, 3 figures, and 11 videos). Project page: https://ethanuser.github.io/vessel4D/|eess.IV|None|Ethan Nguyen et al.|
+|**2026-04-07**|**[PhysHead: Simulation-Ready Gaussian Head Avatars](https://arxiv.org/abs/2604.06467)**|N/A|Project Page: see https://phys-head.github.io/; Youtube Video: see https://www.youtube.com/watch?v=k68fsSSwzc0; Accepted to CVPR 2026|cs.CV|None|Berna Kabadayi et al.|
 |**2026-04-07**|**[PanopticQuery: Unified Query-Time Reasoning for 4D Scenes](https://arxiv.org/abs/2604.05638)**|N/A|None|cs.CV|None|Ruilin Tang et al.|
 |**2026-04-07**|**[BPC-Net: Annotation-Free Skin Lesion Segmentation via Boundary Probability Calibration](https://arxiv.org/abs/2604.05594)**|N/A|None|cs.CV|None|Yujie Yao et al.|
 |**2026-04-07**|**[Indoor Asset Detection in Large Scale 360° Drone-Captured Imagery via 3D Gaussian Splatting](https://arxiv.org/abs/2604.05316)**|N/A|Accepted to CVPR 2026 3DMV Workshop|cs.CV|None|Monica Tang, Avideh Zakhor|
@@ -343,7 +347,7 @@ Query: (abs:'Multi-View Stereo' OR abs:'Multi View Stereo' OR abs:'Multi-View De
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
-|**2026-04-06**|**[Fully Procedural Synthetic Data from Simple Rules for Multi-View Stereo](https://arxiv.org/abs/2604.04925)**|N/A|None|cs.CV|None|Zeyu Ma et al.|
+|**2026-04-06**|**[SimpleProc: Fully Procedural Synthetic Data from Simple Rules for Multi-View Stereo](https://arxiv.org/abs/2604.04925)**|N/A|None|cs.CV|None|Zeyu Ma et al.|
 |**2026-04-06**|**[ZeD-MAP: Bundle Adjustment Guided Zero-Shot Depth Maps for Real-Time Aerial Imaging](https://arxiv.org/abs/2604.04667)**|N/A|None|cs.CV|None|Selim Ahmet Iz et al.|
 |**2026-03-25**|**[Accurate Point Measurement in 3DGS -- A New Alternative to Traditional Stereoscopic-View Based Measurements](https://arxiv.org/abs/2603.24716)**|N/A|Accepted to the 2026 ISPRS Congress|cs.CV|None|Deyan Deng, Rongjun Qin|
 |**2026-03-21**|**[The Role and Relationship of Initialization and Densification in 3D Gaussian Splatting](https://arxiv.org/abs/2603.20714)**|N/A|Sources will be made publicly available|cs.CV|None|Ivan Desiatov, Torsten Sattler|
@@ -809,6 +813,9 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-04-08**|**[Mem3R: Streaming 3D Reconstruction with Hybrid Memory via Test-Time Training](https://arxiv.org/abs/2604.07279)**|N/A|Project page: https://lck666666.github.io/Mem3R/|cs.CV|None|Changkun Liu et al.|
+|**2026-04-08**|**[VDPP: Video Depth Post-Processing for Speed and Scalability](https://arxiv.org/abs/2604.06665)**|N/A|8 pages, 6 figures. Accepted to CVPR 2024 Workshop. Project page: https://github.com/injun-baek/VDPP|cs.CV|None|Daewon Yoon et al.|
+|**2026-04-08**|**[LiftFormer: Lifting and Frame Theory Based Monocular Depth Estimation Using Depth and Edge Oriented Subspace Representation](https://arxiv.org/abs/2604.06576)**|N/A|Accepted by IEEE Transactions on Multimedia|cs.CV|None|Shuai Li et al.|
 |**2026-04-07**|**[In Depth We Trust: Reliable Monocular Depth Supervision for Gaussian Splatting](https://arxiv.org/abs/2604.05715)**|N/A|accepted to CVPR 3DMV Workshop|cs.CV|None|Wenhui Xiao et al.|
 |**2026-04-06**|**[ZeD-MAP: Bundle Adjustment Guided Zero-Shot Depth Maps for Real-Time Aerial Imaging](https://arxiv.org/abs/2604.04667)**|N/A|None|cs.CV|None|Selim Ahmet Iz et al.|
 |**2026-04-06**|**[NAIMA: Semantics Aware RGB Guided Depth Super-Resolution](https://arxiv.org/abs/2604.04407)**|N/A|None|eess.IV|None|Tayyab Nasir et al.|
