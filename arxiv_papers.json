@@ -1,5 +1,385 @@
 {
   "3DGS Semantic": {
+    "2604.08539": {
+      "title": "OpenVLThinkerV2: A Generalist Multimodal Reasoning Model for Multi-domain Visual Tasks",
+      "authors": [
+        "Wenbo Hu",
+        "Xin Chen",
+        "Yan Gao-Tian",
+        "Yihe Deng",
+        "Nanyun Peng",
+        "Kai-Wei Chang"
+      ],
+      "published": "2026-04-09T17:59:39+00:00",
+      "updated": "2026-04-09T17:59:39+00:00",
+      "summary": "Group Relative Policy Optimization (GRPO) has emerged as the de facto Reinforcement Learning (RL) objective driving recent advancements in Multimodal Large Language Models. However, extending this success to open-source multimodal generalist models remains heavily constrained by two primary challenges: the extreme variance in reward topologies across diverse visual tasks, and the inherent difficulty of balancing fine-grained perception with multi-step reasoning capabilities. To address these issues, we introduce Gaussian GRPO (G$^2$RPO), a novel RL training objective that replaces standard linear scaling with non-linear distributional matching. By mathematically forcing the advantage distribution of any given task to strictly converge to a standard normal distribution, $\\mathcal{N}(0,1)$, G$^2$RPO theoretically ensures inter-task gradient equity, mitigates vulnerabilities to heavy-tail outliers, and offers symmetric update for positive and negative rewards. Leveraging the enhanced training stability provided by G$^2$RPO, we introduce two task-level shaping mechanisms to seamlessly balance perception and reasoning. First, response length shaping dynamically elicits extended reasoning chains for complex queries while enforce direct outputs to bolster visual grounding. Second, entropy shaping tightly bounds the model's exploration zone, effectively preventing both entropy collapse and entropy explosion. Integrating these methodologies, we present OpenVLThinkerV2, a highly robust, general-purpose multimodal model. Extensive evaluations across 18 diverse benchmarks demonstrate its superior performance over strong open-source and leading proprietary frontier models.",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.08539v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "code at: https://github.com/uclanlp/openvlthinker",
+      "entry_id": "http://arxiv.org/abs/2604.08539v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.08539v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.08539v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2604.08509": {
+      "title": "Visually-grounded Humanoid Agents",
+      "authors": [
+        "Hang Ye",
+        "Xiaoxuan Ma",
+        "Fan Lu",
+        "Wayne Wu",
+        "Kwan-Yee Lin",
+        "Yizhou Wang"
+      ],
+      "published": "2026-04-09T17:50:09+00:00",
+      "updated": "2026-04-09T17:50:09+00:00",
+      "summary": "Digital human generation has been studied for decades and supports a wide range of real-world applications. However, most existing systems are passively animated, relying on privileged state or scripted control, which limits scalability to novel environments. We instead ask: how can digital humans actively behave using only visual observations and specified goals in novel scenes? Achieving this would enable populating any 3D environments with digital humans at scale that exhibit spontaneous, natural, goal-directed behaviors. To this end, we introduce Visually-grounded Humanoid Agents, a coupled two-layer (world-agent) paradigm that replicates humans at multiple levels: they look, perceive, reason, and behave like real people in real-world 3D scenes. The World Layer reconstructs semantically rich 3D Gaussian scenes from real-world videos via an occlusion-aware pipeline and accommodates animatable Gaussian-based human avatars. The Agent Layer transforms these avatars into autonomous humanoid agents, equipping them with first-person RGB-D perception and enabling them to perform accurate, embodied planning with spatial awareness and iterative reasoning, which is then executed at the low level as full-body actions to drive their behaviors in the scene. We further introduce a benchmark to evaluate humanoid-scene interaction in diverse reconstructed environments. Experiments show our agents achieve robust autonomous behavior, yielding higher task success rates and fewer collisions than ablations and state-of-the-art planning methods. This work enables active digital human population and advances human-centric embodied AI. Data, code, and models will be open-sourced.",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.08509v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Project page: https://alvinyh.github.io/VGHuman/",
+      "entry_id": "http://arxiv.org/abs/2604.08509v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.08509v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.08509v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2604.08410": {
+      "title": "BLaDA: Bridging Language to Functional Dexterous Actions within 3DGS Fields",
+      "authors": [
+        "Fan Yang",
+        "Wenrui Chen",
+        "Guorun Yan",
+        "Ruize Liao",
+        "Wanjun Jia",
+        "Dongsheng Luo",
+        "Kailun Yang",
+        "Zhiyong Li",
+        "Yaonan Wang"
+      ],
+      "published": "2026-04-09T16:10:20+00:00",
+      "updated": "2026-04-09T16:10:20+00:00",
+      "summary": "In unstructured environments, functional dexterous grasping calls for the tight integration of semantic understanding, precise 3D functional localization, and physically interpretable execution. Modular hierarchical methods are more controllable and interpretable than end-to-end VLA approaches, but existing ones still rely on predefined affordance labels and lack the tight semantic--pose coupling needed for functional dexterous manipulation. To address this, we propose BLaDA (Bridging Language to Dexterous Actions in 3DGS fields), an interpretable zero-shot framework that grounds open-vocabulary instructions as perceptual and control constraints for functional dexterous manipulation. BLaDA establishes an interpretable reasoning chain by first parsing natural language into a structured sextuple of manipulation constraints via a Knowledge-guided Language Parsing (KLP) module. To achieve pose-consistent spatial reasoning, we introduce the Triangular Functional Point Localization (TriLocation) module, which utilizes 3D Gaussian Splatting as a continuous scene representation and identifies functional regions under triangular geometric constraints. Finally, the 3D Keypoint Grasp Matrix Transformation Execution (KGT3D+) module decodes these semantic-geometric constraints into physically plausible wrist poses and finger-level commands. Extensive experiments on complex benchmarks demonstrate that BLaDA significantly outperforms existing methods in both affordance grounding precision and the success rate of functional manipulation across diverse categories and tasks. Code will be publicly available at https://github.com/PopeyePxx/BLaDA.",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.08410v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Code will be publicly available at https://github.com/PopeyePxx/BLaDA",
+      "entry_id": "http://arxiv.org/abs/2604.08410v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.08410v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.08410v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2604.08084": {
+      "title": "DiffVC: A Non-autoregressive Framework Based on Diffusion Model for Video Captioning",
+      "authors": [
+        "Junbo Wang",
+        "Liangyu Fu",
+        "Yuke Li",
+        "Yining Zhu",
+        "Ya Jing",
+        "Xuecheng Wu",
+        "Jiangbin Zheng"
+      ],
+      "published": "2026-04-09T10:56:49+00:00",
+      "updated": "2026-04-09T10:56:49+00:00",
+      "summary": "Current video captioning methods usually use an encoder-decoder structure to generate text autoregressively. However, autoregressive methods have inherent limitations such as slow generation speed and large cumulative error. Furthermore, the few non-autoregressive counterparts suffer from deficiencies in generation quality due to the lack of sufficient multimodal interaction modeling. Therefore, we propose a non-autoregressive framework based on Diffusion model for Video Captioning (DiffVC) to address these issues. Its parallel decoding can effectively solve the problems of generation speed and cumulative error. At the same time, our proposed discriminative conditional Diffusion Model can generate higher-quality textual descriptions. Specifically, we first encode the video into a visual representation. During training, Gaussian noise is added to the textual representation of the ground-truth caption. Then, a new textual representation is generated via the discriminative denoiser with the visual representation as a conditional constraint. Finally, we input the new textual representation into a non-autoregressive language model to generate captions. During inference, we directly sample noise from the Gaussian distribution for generation. Experiments on MSVD, MSR-VTT, and VATEX show that our method can outperform previous non-autoregressive methods and achieve comparable performance to autoregressive methods, e.g., it achieved a maximum improvement of 9.9 on the CIDEr and improvement of 2.6 on the B@4, while having faster generation speed. The source code will be available soon.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.08084v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.08084v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.08084v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.08084v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2604.07986": {
+      "title": "DP-DeGauss: Dynamic Probabilistic Gaussian Decomposition for Egocentric 4D Scene Reconstruction",
+      "authors": [
+        "Tingxi Chen",
+        "Zhengxue Cheng",
+        "Houqiang Zhong",
+        "Su Wang",
+        "Rong Xie",
+        "Li Song"
+      ],
+      "published": "2026-04-09T08:55:39+00:00",
+      "updated": "2026-04-09T08:55:39+00:00",
+      "summary": "Egocentric video is crucial for next-generation 4D scene reconstruction, with applications in AR/VR and embodied AI. However, reconstructing dynamic first-person scenes is challenging due to complex ego-motion, occlusions, and hand-object interactions. Existing decomposition methods are ill-suited, assuming fixed viewpoints or merging dynamics into a single foreground. To address these limitations, we introduce DP-DeGauss, a dynamic probabilistic Gaussian decomposition framework for egocentric 4D reconstruction. Our method initializes a unified 3D Gaussian set from COLMAP priors, augments each with a learnable category probability, and dynamically routes them into specialized deformation branches for background, hands, or object modeling. We employ category-specific masks for better disentanglement and introduce brightness and motion-flow control to improve static rendering and dynamic reconstruction. Extensive experiments show that DP-DeGauss outperforms baselines by +1.70dB in PSNR on average with SSIM and LPIPS gains. More importantly, our framework achieves the first and state-of-the-art disentanglement of background, hand, and object components, enabling explicit, fine-grained separation, paving the way for more intuitive ego scene understanding and editing.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.07986v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.07986v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.07986v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.07986v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-10",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2604.07867": {
+      "title": "Stochastic Thermodynamics for Autoregressive Generative Models: A Non-Markovian Perspective",
+      "authors": [
+        "Takahiro Sagawa"
+      ],
+      "published": "2026-04-09T06:32:15+00:00",
+      "updated": "2026-04-09T06:32:15+00:00",
+      "summary": "Autoregressive generative models -- including Transformers, recurrent neural networks, classical Kalman filters, state space models, and Mamba -- all generate sequences by sampling each output from a deterministic summary of the past, producing genuinely non-Markovian observed processes. We develop a general theoretical framework based on stochastic thermodynamics for this class of architectures and introduce the entropy production, which can be efficiently estimated from sampled trajectories without exponential sampling cost despite the non-Markovian nature of the observed dynamics. As a proof-of-concept experiment for a large language model (LLM), we evaluate the token-level and sentence-level entropy production for a pre-trained Transformer-based model, GPT-2. We also demonstrate the framework in the linear Gaussian case, where the model reduces to the Kalman innovation representation and the entropy production admits an analytical expression. We further show that the entropy production decomposes exactly into non-negative per-step contributions in terms of retrospective inference, and each of those terms further splits into information-theoretically meaningful terms: a compression loss and a model mismatch. Our results establish a bridge between stochastic thermodynamics and modern generative models, and provide a starting point for quantifying irreversibility in a broad class of highly non-Markovian processes such as LLMs.",
+      "categories": [
+        "cond-mat.stat-mech",
+        "cond-mat.dis-nn"
+      ],
+      "primary_category": "cond-mat.stat-mech",
+      "pdf_url": "https://arxiv.org/pdf/2604.07867v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "41 pages, 10 figures",
+      "entry_id": "http://arxiv.org/abs/2604.07867v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.07867v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.07867v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-10",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2604.07748": {
+      "title": "Sparse $ε$ insensitive zone bounded asymmetric elastic net support vector machines for pattern classification",
+      "authors": [
+        "Haiyan Du",
+        "Hu Yang"
+      ],
+      "published": "2026-04-09T03:10:20+00:00",
+      "updated": "2026-04-09T03:10:20+00:00",
+      "summary": "Existing support vector machines(SVM) models are sensitive to noise and lack sparsity, which limits their performance. To address these issues, we combine the elastic net loss with a robust loss framework to construct a sparse $\\varepsilon$-insensitive bounded asymmetric elastic net loss, and integrate it with SVM to build $\\varepsilon$ Insensitive Zone Bounded Asymmetric Elastic Net Loss-based SVM($\\varepsilon$-BAEN-SVM). $\\varepsilon$-BAEN-SVM is both sparse and robust. Sparsity is proven by showing that samples inside the $\\varepsilon$-insensitive band are not support vectors. Robustness is theoretically guaranteed because the influence function is bounded. To solve the non-convex optimization problem, we design a half-quadratic algorithm based on clipping dual coordinate descent. It transforms the problem into a series of weighted subproblems, improving computational efficiency via the $\\varepsilon$ parameter. Experiments on simulated and real datasets show that $\\varepsilon$-BAEN-SVM outperforms traditional and existing robust SVMs. It balances sparsity and robustness well in noisy environments. Statistical tests confirm its superiority. Under the Gaussian kernel, it achieves better accuracy and noise insensitivity, validating its effectiveness and practical value.",
+      "categories": [
+        "stat.ML",
+        "cs.LG"
+      ],
+      "primary_category": "stat.ML",
+      "pdf_url": "https://arxiv.org/pdf/2604.07748v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.07748v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.07748v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.07748v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-10",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2604.07728": {
+      "title": "GEAR: GEometry-motion Alternating Refinement for Articulated Object Modeling with Gaussian Splatting",
+      "authors": [
+        "Jialin Li",
+        "Bin Fu",
+        "Ruiping Wang",
+        "Xilin Chen"
+      ],
+      "published": "2026-04-09T02:24:39+00:00",
+      "updated": "2026-04-09T02:24:39+00:00",
+      "summary": "High-fidelity interactive digital assets are essential for embodied intelligence and robotic interaction, yet articulated objects remain challenging to reconstruct due to their complex structures and coupled geometry-motion relationships. Existing methods suffer from instability in geometry-motion joint optimization, while their generalization remains limited on complex multi-joint or out-of-distribution objects. To address these challenges, we propose GEAR, an EM-style alternating optimization framework that jointly models geometry and motion as interdependent components within a Gaussian Splatting representation. GEAR treats part segmentation as a latent variable and joint motion parameters as explicit variables, alternately refining them for improved convergence and geometric-motion consistency. To enhance part segmentation quality without sacrificing generalization, we leverage a vanilla 2D segmentation model to provide multi-view part priors, and employ a weakly supervised constraint to regularize the latent variable. Experiments on multiple benchmarks and our newly constructed dataset GEAR-Multi demonstrate that GEAR achieves state-of-the-art results in geometric reconstruction and motion parameters estimation, particularly on complex articulated objects with multiple movable parts.",
+      "categories": [
+        "cs.CV",
+        "cs.GR",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.07728v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted to CVPRF2026",
+      "entry_id": "http://arxiv.org/abs/2604.07728v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.07728v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.07728v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-10",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2604.07518": {
+      "title": "Decompose, Look, and Reason: Reinforced Latent Reasoning for VLMs",
+      "authors": [
+        "Mengdan Zhu",
+        "Senhao Cheng",
+        "Liang Zhao"
+      ],
+      "published": "2026-04-08T18:52:27+00:00",
+      "updated": "2026-04-08T18:52:27+00:00",
+      "summary": "Vision-Language Models often struggle with complex visual reasoning due to the visual information loss in textual CoT. Existing methods either add the cost of tool calls or rely on localized patch-based embeddings that are insufficient to extract semantics in multi-step reasoning. We propose \\emph{\"Decompose, Look, and Reason\" (DLR)}, a reinforced latent reasoning framework that dynamically decomposes queries into textual premises, extracts premise-conditioned continuous visual latents, and deduces answers through grounded rationales. We introduce a three-stage training pipeline and propose a novel Spherical Gaussian Latent Policy to enable effective exploration in the latent space. Extensive experiments on vision-centric benchmarks show that DLR consistently outperforms strong baselines, including text-only, interleaved multimodal CoT, and latent reasoning methods, while providing superior stepwise interpretability.",
+      "categories": [
+        "cs.CL"
+      ],
+      "primary_category": "cs.CL",
+      "pdf_url": "https://arxiv.org/pdf/2604.07518v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.07518v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.07518v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.07518v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-10",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
     "2604.06812": {
       "title": "AGSC: Adaptive Granularity and Semantic Clustering for Uncertainty Quantification in Long-text Generation",
       "authors": [
@@ -105281,6 +105661,199 @@
     }
   },
   "Depth Estimation": {
+    "2604.08532": {
+      "title": "Self-Improving 4D Perception via Self-Distillation",
+      "authors": [
+        "Nan Huang",
+        "Pengcheng Yu",
+        "Weijia Zeng",
+        "James M. Rehg",
+        "Angjoo Kanazawa",
+        "Haiwen Feng",
+        "Qianqian Wang"
+      ],
+      "published": "2026-04-09T17:59:04+00:00",
+      "updated": "2026-04-09T17:59:04+00:00",
+      "summary": "Large-scale multi-view reconstruction models have made remarkable progress, but most existing approaches still rely on fully supervised training with ground-truth 3D/4D annotations. Such annotations are expensive and particularly scarce for dynamic scenes, limiting scalability. We propose SelfEvo, a self-improving framework that continually improves pretrained multi-view reconstruction models using unlabeled videos. SelfEvo introduces a self-distillation scheme using spatiotemporal context asymmetry, enabling self-improvement for learning-based 4D perception without external annotations. We systematically study design choices that make self-improvement effective, including loss signals, forms of asymmetry, and other training strategies. Across eight benchmarks spanning diverse datasets and domains, SelfEvo consistently improves pretrained baselines and generalizes across base models (e.g. VGGT and $π^3$), with significant gains on dynamic scenes. Overall, SelfEvo achieves up to 36.5% relative improvement in video depth estimation and 20.1% in camera estimation, without using any labeled data. Project Page: https://self-evo.github.io/.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.08532v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.08532v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.08532v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.08532v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2604.07990": {
+      "title": "SceneScribe-1M: A Large-Scale Video Dataset with Comprehensive Geometric and Semantic Annotations",
+      "authors": [
+        "Yunnan Wang",
+        "Kecheng Zheng",
+        "Jianyuan Wang",
+        "Minghao Chen",
+        "David Novotny",
+        "Christian Rupprecht",
+        "Yinghao Xu",
+        "Xing Zhu",
+        "Wenjun Zeng",
+        "Xin Jin",
+        "Yujun Shen"
+      ],
+      "published": "2026-04-09T08:59:33+00:00",
+      "updated": "2026-04-09T08:59:33+00:00",
+      "summary": "The convergence of 3D geometric perception and video synthesis has created an unprecedented demand for large-scale video data that is rich in both semantic and spatio-temporal information. While existing datasets have advanced either 3D understanding or video generation, a significant gap remains in providing a unified resource that supports both domains at scale. To bridge this chasm, we introduce SceneScribe-1M, a new large-scale, multi-modal video dataset. It comprises one million in-the-wild videos, each meticulously annotated with detailed textual descriptions, precise camera parameters, dense depth maps, and consistent 3D point tracks. We demonstrate the versatility and value of SceneScribe-1M by establishing benchmarks across a wide array of downstream tasks, including monocular depth estimation, scene reconstruction, and dynamic point tracking, as well as generative tasks such as text-to-video synthesis, with or without camera control. By open-sourcing SceneScribe-1M, we aim to provide a comprehensive benchmark and a catalyst for research, fostering the development of models that can both perceive the dynamic 3D world and generate controllable, realistic video content.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.07990v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted by CVPR 2026",
+      "entry_id": "http://arxiv.org/abs/2604.07990v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.07990v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.07990v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2604.07980": {
+      "title": "Object-Centric Stereo Ranging for Autonomous Driving: From Dense Disparity to Census-Based Template Matching",
+      "authors": [
+        "Qihao Huang"
+      ],
+      "published": "2026-04-09T08:51:42+00:00",
+      "updated": "2026-04-09T08:51:42+00:00",
+      "summary": "Accurate depth estimation is critical for autonomous driving perception systems, particularly for long range vehicle detection on highways. Traditional dense stereo matching methods such as Block Matching (BM) and Semi Global Matching (SGM) produce per pixel disparity maps but suffer from high computational cost, sensitivity to radiometric differences between stereo cameras, and poor accuracy at long range where disparity values are small. In this report, we present a comprehensive stereo ranging system that integrates three complementary depth estimation approaches: dense BM/SGM disparity, object centric Census based template matching, and monocular geometric priors, within a unified detection ranging tracking pipeline. Our key contribution is a novel object centric Census based template matching algorithm that performs GPU accelerated sparse stereo matching directly within detected bounding boxes, employing a far close divide and conquer strategy, forward backward verification, occlusion aware sampling, and robust multi block aggregation. We further describe an online calibration refinement framework that combines auto rectification offset search, radar stereo voting based disparity correction, and object level radar stereo association for continuous extrinsic drift compensation. The complete system achieves real time performance through asynchronous GPU pipeline design and delivers robust ranging across diverse driving conditions including nighttime, rain, and varying illumination.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.07980v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "10 pages, 4 figures",
+      "entry_id": "http://arxiv.org/abs/2604.07980v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.07980v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.07980v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2604.07665": {
+      "title": "Adaptive Depth-converted-Scale Convolution for Self-supervised Monocular Depth Estimation",
+      "authors": [
+        "Yanbo Gao",
+        "Huibin Bai",
+        "Huasong Zhou",
+        "Xingyu Gao",
+        "Shuai Li",
+        "Xun Cai",
+        "Hui Yuan",
+        "Wei Hua",
+        "Tian Xie"
+      ],
+      "published": "2026-04-09T00:14:56+00:00",
+      "updated": "2026-04-09T00:14:56+00:00",
+      "summary": "Self-supervised monocular depth estimation (MDE) has received increasing interests in the last few years. The objects in the scene, including the object size and relationship among different objects, are the main clues to extract the scene structure. However, previous works lack the explicit handling of the changing sizes of the object due to the change of its depth. Especially in a monocular video, the size of the same object is continuously changed, resulting in size and depth ambiguity. To address this problem, we propose a Depth-converted-Scale Convolution (DcSConv) enhanced monocular depth estimation framework, by incorporating the prior relationship between the object depth and object scale to extract features from appropriate scales of the convolution receptive field. The proposed DcSConv focuses on the adaptive scale of the convolution filter instead of the local deformation of its shape. It establishes that the scale of the convolution filter matters no less (or even more in the evaluated task) than its local deformation. Moreover, a Depth-converted-Scale aware Fusion (DcS-F) is developed to adaptively fuse the DcSConv features and the conventional convolution features. Our DcSConv enhanced monocular depth estimation framework can be applied on top of existing CNN based methods as a plug-and-play module to enhance the conventional convolution block. Extensive experiments with different baselines have been conducted on the KITTI benchmark and our method achieves the best results with an improvement up to 11.6% in terms of SqRel reduction. Ablation study also validates the effectiveness of each proposed module.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.07665v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted by IEEE Transactions on Circuits and Systems for Video Technology",
+      "entry_id": "http://arxiv.org/abs/2604.07665v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.07665v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.07665v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2604.07664": {
+      "title": "Monocular Depth Estimation From the Perspective of Feature Restoration: A Diffusion Enhanced Depth Restoration Approach",
+      "authors": [
+        "Huibin Bai",
+        "Shuai Li",
+        "Hanxiao Zhai",
+        "Yanbo Gao",
+        "Chong Lv",
+        "Yibo Wang",
+        "Haipeng Ping",
+        "Wei Hua",
+        "Xingyu Gao"
+      ],
+      "published": "2026-04-09T00:13:53+00:00",
+      "updated": "2026-04-09T00:13:53+00:00",
+      "summary": "Monocular Depth Estimation (MDE) is a fundamental computer vision task with important applications in 3D vision. The current mainstream MDE methods employ an encoder-decoder architecture with multi-level/scale feature processing. However, the limitations of the current architecture and the effects of different-level features on the prediction accuracy are not evaluated. In this paper, we first investigate the above problem and show that there is still substantial potential in the current framework if encoder features can be improved. Therefore, we propose to formulate the depth estimation problem from the feature restoration perspective, by treating pretrained encoder features as degraded features of an assumed ground truth feature that yields the ground truth depth map. Then an Invertible Transform-enhanced Indirect Diffusion (InvT-IndDiffusion) module is developed for feature restoration. Due to the absence of direct supervision on feature, only indirect supervision from the final sparse depth map is used. During the iterative procedure of diffusion, this results in feature deviations among steps. The proposed InvT-IndDiffusion solves this problem by using an invertible transform-based decoder under the bi-Lipschitz condition. Finally, a plug-and-play Auxiliary Viewpoint-based Low-level Feature Enhancement module (AV-LFE) is developed to enhance local details with auxiliary viewpoint when available. Experiments demonstrate that the proposed method achieves better performance than the state-of-the-art methods on various datasets. Specifically on the KITTI benchmark, compared with the baseline, the performance is improved by 4.09% and 37.77% under different training settings in terms of RMSE. Code is available at https://github.com/whitehb1/IID-RDepth.",
+      "categories": [
+        "cs.CV",
+        "eess.IV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.07664v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted by IEEE TMM",
+      "entry_id": "http://arxiv.org/abs/2604.07664v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.07664v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.07664v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2604.07279": {
       "title": "Mem3R: Streaming 3D Reconstruction with Hybrid Memory via Test-Time Training",
       "authors": [

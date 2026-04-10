@@ -1,4 +1,4 @@
-## Updated at 2026-04-10 08:27:21
+## Updated at 2026-04-10 20:19:12
 
 ## 3DGS Semantic
 
@@ -8,6 +8,15 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-04-09**|**[OpenVLThinkerV2: A Generalist Multimodal Reasoning Model for Multi-domain Visual Tasks](https://arxiv.org/abs/2604.08539)**|N/A|code at: https://github.com/uclanlp/openvlthinker|cs.CV|None|Wenbo Hu et al.|
+|**2026-04-09**|**[Visually-grounded Humanoid Agents](https://arxiv.org/abs/2604.08509)**|N/A|Project page: https://alvinyh.github.io/VGHuman/|cs.CV|None|Hang Ye et al.|
+|**2026-04-09**|**[BLaDA: Bridging Language to Functional Dexterous Actions within 3DGS Fields](https://arxiv.org/abs/2604.08410)**|N/A|Code will be publicly available at https://github.com/PopeyePxx/BLaDA|cs.CV|None|Fan Yang et al.|
+|**2026-04-09**|**[DiffVC: A Non-autoregressive Framework Based on Diffusion Model for Video Captioning](https://arxiv.org/abs/2604.08084)**|N/A|None|cs.CV|None|Junbo Wang et al.|
+|**2026-04-09**|**[DP-DeGauss: Dynamic Probabilistic Gaussian Decomposition for Egocentric 4D Scene Reconstruction](https://arxiv.org/abs/2604.07986)**|N/A|None|cs.CV|None|Tingxi Chen et al.|
+|**2026-04-09**|**[Stochastic Thermodynamics for Autoregressive Generative Models: A Non-Markovian Perspective](https://arxiv.org/abs/2604.07867)**|N/A|41 pages, 10 figures|cond-mat.stat-mech|None|Takahiro Sagawa|
+|**2026-04-09**|**[Sparse $ε$ insensitive zone bounded asymmetric elastic net support vector machines for pattern classification](https://arxiv.org/abs/2604.07748)**|N/A|None|stat.ML|None|Haiyan Du, Hu Yang|
+|**2026-04-09**|**[GEAR: GEometry-motion Alternating Refinement for Articulated Object Modeling with Gaussian Splatting](https://arxiv.org/abs/2604.07728)**|N/A|Accepted to CVPRF2026|cs.CV|None|Jialin Li et al.|
+|**2026-04-08**|**[Decompose, Look, and Reason: Reinforced Latent Reasoning for VLMs](https://arxiv.org/abs/2604.07518)**|N/A|None|cs.CL|None|Mengdan Zhu et al.|
 |**2026-04-08**|**[AGSC: Adaptive Granularity and Semantic Clustering for Uncertainty Quantification in Long-text Generation](https://arxiv.org/abs/2604.06812)**|N/A|None|cs.CL|None|Guanran Luo et al.|
 |**2026-04-08**|**[URMF: Uncertainty-aware Robust Multimodal Fusion for Multimodal Sarcasm Detection](https://arxiv.org/abs/2604.06728)**|N/A|None|cs.CV|None|Zhenyu Wang et al.|
 |**2026-04-08**|**[4D Vessel Reconstruction for Benchtop Thrombectomy Analysis](https://arxiv.org/abs/2604.06671)**|N/A|20 pages, 10 figures, 1 table, supplementary material (3 tables, 3 figures, and 11 videos). Project page: https://ethanuser.github.io/vessel4D/|eess.IV|None|Ethan Nguyen et al.|
@@ -813,6 +822,11 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-04-09**|**[Self-Improving 4D Perception via Self-Distillation](https://arxiv.org/abs/2604.08532)**|N/A|None|cs.CV|None|Nan Huang et al.|
+|**2026-04-09**|**[SceneScribe-1M: A Large-Scale Video Dataset with Comprehensive Geometric and Semantic Annotations](https://arxiv.org/abs/2604.07990)**|N/A|Accepted by CVPR 2026|cs.CV|None|Yunnan Wang et al.|
+|**2026-04-09**|**[Object-Centric Stereo Ranging for Autonomous Driving: From Dense Disparity to Census-Based Template Matching](https://arxiv.org/abs/2604.07980)**|N/A|10 pages, 4 figures|cs.CV|None|Qihao Huang|
+|**2026-04-09**|**[Adaptive Depth-converted-Scale Convolution for Self-supervised Monocular Depth Estimation](https://arxiv.org/abs/2604.07665)**|N/A|Accepted by IEEE Transactions on Circuits and Systems for Video Technology|cs.CV|None|Yanbo Gao et al.|
+|**2026-04-09**|**[Monocular Depth Estimation From the Perspective of Feature Restoration: A Diffusion Enhanced Depth Restoration Approach](https://arxiv.org/abs/2604.07664)**|N/A|Accepted by IEEE TMM|cs.CV|None|Huibin Bai et al.|
 |**2026-04-08**|**[Mem3R: Streaming 3D Reconstruction with Hybrid Memory via Test-Time Training](https://arxiv.org/abs/2604.07279)**|N/A|Project page: https://lck666666.github.io/Mem3R/|cs.CV|None|Changkun Liu et al.|
 |**2026-04-08**|**[VDPP: Video Depth Post-Processing for Speed and Scalability](https://arxiv.org/abs/2604.06665)**|N/A|8 pages, 6 figures. Accepted to CVPR 2024 Workshop. Project page: https://github.com/injun-baek/VDPP|cs.CV|None|Daewon Yoon et al.|
 |**2026-04-08**|**[LiftFormer: Lifting and Frame Theory Based Monocular Depth Estimation Using Depth and Edge Oriented Subspace Representation](https://arxiv.org/abs/2604.06576)**|N/A|Accepted by IEEE Transactions on Multimedia|cs.CV|None|Shuai Li et al.|
