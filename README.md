@@ -1,4 +1,4 @@
-## Updated at 2026-04-13 08:31:25
+## Updated at 2026-04-14 08:33:40
 
 ## 3DGS Semantic
 
@@ -8,6 +8,8 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-04-10**|**[Scene-Agnostic Object-Centric Representation Learning for 3D Gaussian Splatting](https://arxiv.org/abs/2604.09045)**|N/A|None|cs.CV|None|Tsuheng Hsu et al.|
+|**2026-04-10**|**[Leave My Images Alone: Preventing Multi-Modal Large Language Models from Analyzing Images via Visual Prompt Injection](https://arxiv.org/abs/2604.09024)**|N/A|Appeared in ACL 2026 main conference|cs.CV|The 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026)|Zedian Shao et al.|
 |**2026-04-09**|**[OpenVLThinkerV2: A Generalist Multimodal Reasoning Model for Multi-domain Visual Tasks](https://arxiv.org/abs/2604.08539)**|N/A|code at: https://github.com/uclanlp/openvlthinker|cs.CV|None|Wenbo Hu et al.|
 |**2026-04-09**|**[Visually-grounded Humanoid Agents](https://arxiv.org/abs/2604.08509)**|N/A|Project page: https://alvinyh.github.io/VGHuman/|cs.CV|None|Hang Ye et al.|
 |**2026-04-09**|**[BLaDA: Bridging Language to Functional Dexterous Actions within 3DGS Fields](https://arxiv.org/abs/2604.08410)**|N/A|Code will be publicly available at https://github.com/PopeyePxx/BLaDA|cs.CV|None|Fan Yang et al.|
@@ -33,7 +35,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2026-04-04**|**[Imagine Before Concentration: Diffusion-Guided Registers Enhance Partially Relevant Video Retrieval](https://arxiv.org/abs/2604.03653)**|N/A|Accepted to CVPR 2026. 15 pages, 7 figures, 3 tables|cs.CV|None|Jun Li et al.|
 |**2026-04-04**|**[Perceptual Gaps: ASCII Art and Overlapping Audio as CAPTCHA](https://arxiv.org/abs/2604.03612)**|N/A|8 pages, 3 figures. Research paper proposing novel CAPTCHA methods using ASCII art and overlapping audio|cs.CR|None|Choon-Hou Rafael Chong|
 |**2026-04-03**|**[Noise Steering for Controlled Text Generation: Improving Diversity and Reading-Level Fidelity in Arabic Educational Story Generation](https://arxiv.org/abs/2604.03380)**|N/A|Under Review|cs.CL|None|Haziq Mohammad Khalid et al.|
-|**2026-04-03**|**[DynFOA: Generating First-Order Ambisonics with Conditional Diffusion for Dynamic and Acoustically Complex 360-Degree Videos](https://arxiv.org/abs/2604.02781)**|arXiv.org|arXiv admin note: text overlap with arXiv:2602.06846|cs.SD|None|Ziyu Luo et al.|
+|**2026-04-03**|**[DynFOA: Generating First-Order Ambisonics with Conditional Diffusion for Dynamic and Acoustically Complex 360-Degree Videos](https://arxiv.org/abs/2604.02781)**|arXiv.org|Accidental duplicate submission. This paper was intended to be a replacement (v2) for arXiv:2602.06846|cs.SD|None|Ziyu Luo et al.|
 |**2026-04-02**|**[Resonance4D: Frequency-Domain Motion Supervision for Preset-Free Physical Parameter Learning in 4D Dynamic Physical Scene Simulation](https://arxiv.org/abs/2604.01994)**|N/A|None|cs.CV|None|Changshe Zhang et al.|
 |**2026-04-02**|**[A3R: Agentic Affordance Reasoning via Cross-Dimensional Evidence in 3D Gaussian Scenes](https://arxiv.org/abs/2604.01882)**|N/A|None|cs.CV|None|Di Li et al.|
 |**2026-04-02**|**[MATA-Former & SIICU: Semantic Aware Temporal Alignment for High-Fidelity ICU Risk Prediction](https://arxiv.org/abs/2604.01727)**|N/A|None|cs.LG|None|Zhichong Zheng et al.|
@@ -822,6 +824,7 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-04-10**|**[LuMon: A Comprehensive Benchmark and Development Suite with Novel Datasets for Lunar Monocular Depth Estimation](https://arxiv.org/abs/2604.09352)**|N/A|This paper will be published in CVPRW2026|cs.CV|None|Aytaç Sekmen et al.|
 |**2026-04-09**|**[Self-Improving 4D Perception via Self-Distillation](https://arxiv.org/abs/2604.08532)**|N/A|None|cs.CV|None|Nan Huang et al.|
 |**2026-04-09**|**[SceneScribe-1M: A Large-Scale Video Dataset with Comprehensive Geometric and Semantic Annotations](https://arxiv.org/abs/2604.07990)**|N/A|Accepted by CVPR 2026|cs.CV|None|Yunnan Wang et al.|
 |**2026-04-09**|**[Object-Centric Stereo Ranging for Autonomous Driving: From Dense Disparity to Census-Based Template Matching](https://arxiv.org/abs/2604.07980)**|N/A|10 pages, 4 figures|cs.CV|None|Qihao Huang|

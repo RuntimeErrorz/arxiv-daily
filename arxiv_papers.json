@@ -1,5 +1,96 @@
 {
   "3DGS Semantic": {
+    "2604.09045": {
+      "title": "Scene-Agnostic Object-Centric Representation Learning for 3D Gaussian Splatting",
+      "authors": [
+        "Tsuheng Hsu",
+        "Guiyu Liu",
+        "Juho Kannala",
+        "Janne Heikkilä"
+      ],
+      "published": "2026-04-10T07:07:10+00:00",
+      "updated": "2026-04-10T07:07:10+00:00",
+      "summary": "Recent works on 3D scene understanding leverage 2D masks from visual foundation models (VFMs) to supervise radiance fields, enabling instance-level 3D segmentation. However, the supervision signals from foundation models are not fundamentally object-centric and often require additional mask pre/post-processing or specialized training and loss design to resolve mask identity conflicts across views. The learned identity of the 3D scene is scene-dependent, limiting generalizability across scenes. Therefore, we propose a dataset-level, object-centric supervision scheme to learn object representations in 3D Gaussian Splatting (3DGS). Building on a pre-trained slot attention-based Global Object Centric Learning (GOCL) module, we learn a scene-agnostic object codebook that provides consistent, identity-anchored representations across views and scenes. By coupling the codebook with the module's unsupervised object masks, we can directly supervise the identity features of 3D Gaussians without additional mask pre-/post-processing or explicit multi-view alignment. The learned scene-agnostic codebook enables object supervision and identification without per-scene fine-tuning or retraining. Our method thus introduces unsupervised object-centric learning (OCL) into 3DGS, yielding more structured representations and better generalization for downstream tasks such as robotic interaction, scene understanding, and cross-scene generalization.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.09045v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.09045v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.09045v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.09045v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-14",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2604.09024": {
+      "title": "Leave My Images Alone: Preventing Multi-Modal Large Language Models from Analyzing Images via Visual Prompt Injection",
+      "authors": [
+        "Zedian Shao",
+        "Hongbin Liu",
+        "Yuepeng Hu",
+        "Neil Zhenqiang Gong"
+      ],
+      "published": "2026-04-10T06:37:46+00:00",
+      "updated": "2026-04-10T06:37:46+00:00",
+      "summary": "Multi-modal large language models (MLLMs) have emerged as powerful tools for analyzing Internet-scale image data, offering significant benefits but also raising critical safety and societal concerns. In particular, open-weight MLLMs may be misused to extract sensitive information from personal images at scale, such as identities, locations, or other private details. In this work, we propose ImageProtector, a user-side method that proactively protects images before sharing by embedding a carefully crafted, nearly imperceptible perturbation that acts as a visual prompt injection attack on MLLMs. As a result, when an adversary analyzes a protected image with an MLLM, the MLLM is consistently induced to generate a refusal response such as \"I'm sorry, I can't help with that request.\" We empirically demonstrate the effectiveness of ImageProtector across six MLLMs and four datasets. Additionally, we evaluate three potential countermeasures, Gaussian noise, DiffPure, and adversarial training, and show that while they partially mitigate the impact of ImageProtector, they simultaneously degrade model accuracy and/or efficiency. Our study focuses on the practically important setting of open-weight MLLMs and large-scale automated image analysis, and highlights both the promise and the limitations of perturbation-based privacy protection.",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.CR",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.09024v1",
+      "journal_ref": "The 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026)",
+      "doi": null,
+      "comment": "Appeared in ACL 2026 main conference",
+      "entry_id": "http://arxiv.org/abs/2604.09024v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.09024v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.09024v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-14",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
     "2604.08539": {
       "title": "OpenVLThinkerV2: A Generalist Multimodal Reasoning Model for Multi-domain Visual Tasks",
       "authors": [
@@ -1180,26 +1271,26 @@
         "Yiran Shen"
       ],
       "published": "2026-04-03T06:46:57+00:00",
-      "updated": "2026-04-03T06:46:57+00:00",
+      "updated": "2026-04-10T15:40:43+00:00",
       "summary": "Spatial audio is crucial for immersive 360-degree video experiences, yet most 360-degree videos lack it due to the difficulty of capturing spatial audio during recording. Automatically generating spatial audio such as first-order ambisonics (FOA) from video therefore remains an important but challenging problem. In complex scenes, sound perception depends not only on sound source locations but also on scene geometry, materials, and dynamic interactions with the environment. However, existing approaches only rely on visual cues and fail to model dynamic sources and acoustic effects such as occlusion, reflections, and reverberation. To address these challenges, we propose DynFOA, a generative framework that synthesizes FOA from 360-degree videos by integrating dynamic scene reconstruction with conditional diffusion modeling. DynFOA analyzes the input video to detect and localize dynamic sound sources, estimate depth and semantics, and reconstruct scene geometry and materials using 3D Gaussian Splatting (3DGS). The reconstructed scene representation provides physically grounded features that capture acoustic interactions between sources, environment, and listener viewpoint. Conditioned on these features, a diffusion model generates spatial audio consistent with the scene dynamics and acoustic context. We introduce M2G-360, a dataset of 600 real-world clips divided into MoveSources, Multi-Source, and Geometry subsets for evaluating robustness under diverse conditions. Experiments show that DynFOA consistently outperforms existing methods in spatial accuracy, acoustic fidelity, distribution matching, and perceived immersive experience.",
       "categories": [
         "cs.SD"
       ],
       "primary_category": "cs.SD",
-      "pdf_url": "https://arxiv.org/pdf/2604.02781v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.02781v2",
       "journal_ref": null,
       "doi": null,
-      "comment": "arXiv admin note: text overlap with arXiv:2602.06846",
-      "entry_id": "http://arxiv.org/abs/2604.02781v1",
+      "comment": "Accidental duplicate submission. This paper was intended to be a replacement (v2) for arXiv:2602.06846",
+      "entry_id": "http://arxiv.org/abs/2604.02781v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2604.02781v1",
+          "href": "https://arxiv.org/abs/2604.02781v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2604.02781v1",
+          "href": "https://arxiv.org/pdf/2604.02781v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -105693,6 +105784,49 @@
     }
   },
   "Depth Estimation": {
+    "2604.09352": {
+      "title": "LuMon: A Comprehensive Benchmark and Development Suite with Novel Datasets for Lunar Monocular Depth Estimation",
+      "authors": [
+        "Aytaç Sekmen",
+        "Fatih Emre Gunes",
+        "Furkan Horoz",
+        "Hüseyin Umut Işık",
+        "Mehmet Alp Ozaydin",
+        "Onur Altay Topaloglu",
+        "Şahin Umutcan Üstündaş",
+        "Yurdasen Alp Yeni",
+        "Halil Ersin Soken",
+        "Erol Sahin",
+        "Ramazan Gokberk Cinbis",
+        "Sinan Kalkan"
+      ],
+      "published": "2026-04-10T14:24:07+00:00",
+      "updated": "2026-04-10T14:24:07+00:00",
+      "summary": "Monocular Depth Estimation (MDE) is crucial for autonomous lunar rover navigation using electro-optical cameras. However, deploying terrestrial MDE networks to the Moon brings a severe domain gap due to harsh shadows, textureless regolith, and zero atmospheric scattering. Existing evaluations rely on analogs that fail to replicate these conditions and lack actual metric ground truth. To address this, we present LuMon, a comprehensive benchmarking framework to evaluate MDE methods for lunar exploration. We introduce novel datasets featuring high-quality stereo ground truth depth from the real Chang'e-3 mission and the CHERI dark analog dataset. Utilizing this framework, we conduct a systematic zero-shot evaluation of state-of-the-art architectures across synthetic, analog, and real datasets. We rigorously assess performance against mission critical challenges like craters, rocks, extreme shading, and varying depth ranges. Furthermore, we establish a sim-to-real domain adaptation baseline by fine tuning a foundation model on synthetic data. While this adaptation yields drastic in-domain performance gains, it exhibits minimal generalization to authentic lunar imagery, highlighting a persistent cross-domain transfer gap. Our extensive analysis reveals the inherent limitations of current networks and sets a standard foundation to guide future advancements in extraterrestrial perception and domain adaptation.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.09352v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "This paper will be published in CVPRW2026",
+      "entry_id": "http://arxiv.org/abs/2604.09352v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.09352v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.09352v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2604.08532": {
       "title": "Self-Improving 4D Perception via Self-Distillation",
       "authors": [
