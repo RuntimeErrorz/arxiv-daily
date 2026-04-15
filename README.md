@@ -1,4 +1,4 @@
-## Updated at 2026-04-15 08:35:51
+## Updated at 2026-04-15 20:23:43
 
 ## 3DGS Semantic
 
@@ -8,6 +8,9 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-04-14**|**[GGD-SLAM: Monocular 3DGS SLAM Powered by Generalizable Motion Model for Dynamic Environments](https://arxiv.org/abs/2604.12837)**|N/A|8 pages, Accepted by ICRA 2026|cs.RO|None|Yi Liu et al.|
+|**2026-04-14**|**[ArtifactWorld: Scaling 3D Gaussian Splatting Artifact Restoration via Video Generation Models](https://arxiv.org/abs/2604.12251)**|N/A|The second author is the corresponding author|cs.CV|None|Xinliang Wang et al.|
+|**2026-04-13**|**[TriFit: Trimodal Fusion with Protein Dynamics for Mutation Fitness Prediction](https://arxiv.org/abs/2604.12026)**|N/A|None|cs.LG|None|Seungik Cho|
 |**2026-04-13**|**[AffordSim: A Scalable Data Generator and Benchmark for Affordance-Aware Robotic Manipulation](https://arxiv.org/abs/2604.11674)**|N/A|None|cs.RO|None|Mingyang Li et al.|
 |**2026-04-13**|**[Emergence of Complex Structures](https://arxiv.org/abs/2604.11481)**|N/A|42 pages, 8 figures|astro-ph.CO|None|Francisco-Shu Kitaura|
 |**2026-04-13**|**[GS4City: Hierarchical Semantic Gaussian Splatting via City-Model Priors](https://arxiv.org/abs/2604.11401)**|N/A|None|cs.CV|None|Qilin Zhang et al.|
@@ -15,6 +18,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2026-04-13**|**[Ψ-Map: Panoptic Surface Integrated Mapping Enables Real2Sim Transfer](https://arxiv.org/abs/2604.10982)**|N/A|None|cs.RO|None|Xuan Yu et al.|
 |**2026-04-13**|**[Fast-SegSim: Real-Time Open-Vocabulary Segmentation for Robotics in Simulation](https://arxiv.org/abs/2604.10951)**|N/A|None|cs.RO|None|Xuan Yu et al.|
 |**2026-04-13**|**[Reliable Online Resource Allocation for Multi-User Semantic Communications: A Constraint Bayesian Optimization Approach](https://arxiv.org/abs/2604.10931)**|N/A|13 pages, 9 figures. The paper has been submitted for potential journal publications|eess.SP|None|Huawei Hou et al.|
+|**2026-04-12**|**[UniMark: Unified Adaptive Multi-bit Watermarking for Autoregressive Image Generators](https://arxiv.org/abs/2604.11843)**|N/A|work in progress|cs.CV|None|Yigit Yilmaz et al.|
 |**2026-04-12**|**[MonoEM-GS: Monocular Expectation-Maximization Gaussian Splatting SLAM](https://arxiv.org/abs/2604.10593)**|N/A|None|cs.RO|None|Evgenii Kruzhkov, Sven Behnke|
 |**2026-04-12**|**[Learning 3D Representations for Spatial Intelligence from Unposed Multi-View Images](https://arxiv.org/abs/2604.10573)**|N/A|CVPR 2026|cs.CV|None|Bo Zhou et al.|
 |**2026-04-12**|**[FreeScale: Scaling 3D Scenes via Certainty-Aware Free-View Generation](https://arxiv.org/abs/2604.10512)**|N/A|CVPR2026|cs.CV|None|Chenhan Jiang et al.|
@@ -32,7 +36,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2026-04-09**|**[Sparse $ε$ insensitive zone bounded asymmetric elastic net support vector machines for pattern classification](https://arxiv.org/abs/2604.07748)**|N/A|None|stat.ML|None|Haiyan Du, Hu Yang|
 |**2026-04-09**|**[GEAR: GEometry-motion Alternating Refinement for Articulated Object Modeling with Gaussian Splatting](https://arxiv.org/abs/2604.07728)**|N/A|Accepted to CVPRF2026|cs.CV|None|Jialin Li et al.|
 |**2026-04-08**|**[Decompose, Look, and Reason: Reinforced Latent Reasoning for VLMs](https://arxiv.org/abs/2604.07518)**|N/A|None|cs.CL|None|Mengdan Zhu et al.|
-|**2026-04-08**|**[AGSC: Adaptive Granularity and Semantic Clustering for Uncertainty Quantification in Long-text Generation](https://arxiv.org/abs/2604.06812)**|N/A|None|cs.CL|None|Guanran Luo et al.|
+|**2026-04-08**|**[AGSC: Adaptive Granularity and Semantic Clustering for Uncertainty Quantification in Long-text Generation](https://arxiv.org/abs/2604.06812)**|N/A|Accepted to the Main Conference of ACL 2026|cs.CL|None|Guanran Luo et al.|
 |**2026-04-08**|**[URMF: Uncertainty-aware Robust Multimodal Fusion for Multimodal Sarcasm Detection](https://arxiv.org/abs/2604.06728)**|N/A|None|cs.CV|None|Zhenyu Wang et al.|
 |**2026-04-08**|**[4D Vessel Reconstruction for Benchtop Thrombectomy Analysis](https://arxiv.org/abs/2604.06671)**|N/A|20 pages, 10 figures, 1 table, supplementary material (3 tables, 3 figures, and 11 videos). Project page: https://ethanuser.github.io/vessel4D/|eess.IV|None|Ethan Nguyen et al.|
 |**2026-04-07**|**[PhysHead: Simulation-Ready Gaussian Head Avatars](https://arxiv.org/abs/2604.06467)**|N/A|Project Page: see https://phys-head.github.io/; Youtube Video: see https://www.youtube.com/watch?v=k68fsSSwzc0; Accepted to CVPR 2026|cs.CV|None|Berna Kabadayi et al.|

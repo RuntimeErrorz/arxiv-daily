@@ -1,5 +1,131 @@
 {
   "3DGS Semantic": {
+    "2604.12837": {
+      "title": "GGD-SLAM: Monocular 3DGS SLAM Powered by Generalizable Motion Model for Dynamic Environments",
+      "authors": [
+        "Yi Liu",
+        "Haoxuan Xu",
+        "Hongbo Duan",
+        "Keyu Fan",
+        "Zhengyang Zhang",
+        "Peiyu Zhuang",
+        "Pengting Luo",
+        "Houde Liu"
+      ],
+      "published": "2026-04-14T14:58:11+00:00",
+      "updated": "2026-04-14T14:58:11+00:00",
+      "summary": "Visual SLAM algorithms achieve significant improvements through the exploration of 3D Gaussian Splatting (3DGS) representations, particularly in generating high-fidelity dense maps. However, they depend on a static environment assumption and experience significant performance degradation in dynamic environments. This paper presents GGD-SLAM, a framework that employs a generalizable motion model to address the challenges of localization and dense mapping in dynamic environments - without predefined semantic annotations or depth input. Specifically, the proposed system employs a First-In-First-Out (FIFO) queue to manage incoming frames, facilitating dynamic semantic feature extraction through a sequential attention mechanism. This is integrated with a dynamic feature enhancer to separate static and dynamic components. Additionally, to minimize dynamic distractors' impact on the static components, we devise a method to fill occluded areas via static information sampling and design a distractor-adaptive Structure Similarity Index Measure (SSIM) loss tailored for dynamic environments, significantly enhancing the system's resilience. Experiments conducted on real-world dynamic datasets demonstrate that the proposed system achieves state-of-the-art performance in camera pose estimation and dense reconstruction in dynamic scenes.",
+      "categories": [
+        "cs.RO"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2604.12837v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "8 pages, Accepted by ICRA 2026",
+      "entry_id": "http://arxiv.org/abs/2604.12837v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.12837v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.12837v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2604.12251": {
+      "title": "ArtifactWorld: Scaling 3D Gaussian Splatting Artifact Restoration via Video Generation Models",
+      "authors": [
+        "Xinliang Wang",
+        "Yifeng Shi",
+        "Zhenyu Wu"
+      ],
+      "published": "2026-04-14T03:55:44+00:00",
+      "updated": "2026-04-14T03:55:44+00:00",
+      "summary": "3D Gaussian Splatting (3DGS) delivers high-fidelity real-time rendering but suffers from geometric and photometric degradations under sparse-view constraints. Current generative restoration approaches are often limited by insufficient temporal coherence, a lack of explicit spatial constraints, and a lack of large-scale training data, resulting in multi-view inconsistencies, erroneous geometric hallucinations, and limited generalization to diverse real-world artifact distributions. In this paper, we present ArtifactWorld, a framework that resolves 3DGS artifact repair through systematic data expansion and a homogeneous dual-model paradigm. To address the data bottleneck, we establish a fine-grained phenomenological taxonomy of 3DGS artifacts and construct a comprehensive training set of 107.5K diverse paired video clips to enhance model robustness. Architecturally, we unify the restoration process within a video diffusion backbone, utilizing an isomorphic predictor to localize structural defects via an artifact heatmap. This heatmap then guides the restoration through an Artifact-Aware Triplet Fusion mechanism, enabling precise, intensity-guided spatio-temporal repair within native self-attention. Extensive experiments demonstrate that ArtifactWorld achieves state-of-the-art performance in sparse novel view synthesis and robust 3D reconstruction. Code and dataset will be made public.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.12251v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "The second author is the corresponding author",
+      "entry_id": "http://arxiv.org/abs/2604.12251v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.12251v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.12251v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-15",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2604.12026": {
+      "title": "TriFit: Trimodal Fusion with Protein Dynamics for Mutation Fitness Prediction",
+      "authors": [
+        "Seungik Cho"
+      ],
+      "published": "2026-04-13T20:11:09+00:00",
+      "updated": "2026-04-13T20:11:09+00:00",
+      "summary": "Predicting the functional impact of single amino acid substitutions (SAVs) is central to understanding genetic disease and engineering therapeutic proteins. While protein language models and structure-based methods have achieved strong performance on this task, they systematically neglect protein dynamics; residue flexibility, correlated motions, and allosteric coupling are well-established determinants of mutational tolerance in structural biology, yet have not been incorporated into supervised variant effect predictors. We present TriFit, a multimodal framework that integrates sequence, structure, and protein dynamics through a four-expert Mixture-of-Experts (MoE) fusion module with trimodal cross-modal contrastive learning. Sequence embeddings are extracted via masked marginal scoring with ESM-2 (650M); structural embeddings from AlphaFold2-predicted C-alpha geometries; and dynamics embeddings from Gaussian Network Model (GNM) B-factors, mode shapes, and residue-residue cross-correlations. The MoE router adaptively weights modality combinations conditioned on the input, enabling protein-specific fusion without fixed modality assumptions. On the ProteinGym substitution benchmark (217 DMS assays, 696k SAVs), TriFit achieves AUROC 0.897 +/- 0.0002, outperforming all supervised baselines including Kermut (0.864) and ProteinNPT (0.844), and the best zero-shot model ESM3 (0.769). Ablation studies confirm that dynamics provides the largest marginal contribution over pairwise modality combinations, and TriFit achieves well-calibrated probabilistic outputs (ECE = 0.044) without post-hoc correction.",
+      "categories": [
+        "cs.LG",
+        "q-bio.BM",
+        "q-bio.QM"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2604.12026v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.12026v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.12026v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.12026v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-15",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
     "2604.11674": {
       "title": "AffordSim: A Scalable Data Generator and Benchmark for Affordance-Aware Robotic Manipulation",
       "authors": [
@@ -312,6 +438,51 @@
         },
         {
           "href": "https://arxiv.org/pdf/2604.10931v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-15",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2604.11843": {
+      "title": "UniMark: Unified Adaptive Multi-bit Watermarking for Autoregressive Image Generators",
+      "authors": [
+        "Yigit Yilmaz",
+        "Elena Petrova",
+        "Mehmet Kaya",
+        "Lucia Rossi",
+        "Amir Rahman"
+      ],
+      "published": "2026-04-12T16:22:24+00:00",
+      "updated": "2026-04-12T16:22:24+00:00",
+      "summary": "Invisible watermarking for autoregressive (AR) image generation has recently gained attention as a means of protecting image ownership and tracing AI-generated content. However, existing approaches suffer from three key limitations: (1) they embed only zero-bit watermarks for binary verification, lacking the ability to convey multi-bit messages; (2) they rely on static codebook partitioning strategies that are vulnerable to security attacks once the partition is exposed; and (3) they are designed for specific AR architectures, failing to generalize across diverse AR paradigms. We propose \\method{}, a training-free, unified watermarking framework for autoregressive image generators that addresses all three limitations. \\method{} introduces three core components: \\textbf{Adaptive Semantic Grouping (ASG)}, which dynamically partitions codebook entries based on semantic similarity and a secret key, ensuring both image quality preservation and security; \\textbf{Block-wise Multi-bit Encoding (BME)}, which divides the token sequence into blocks and encodes different bits across blocks with error-correcting codes for reliable message transmission; and \\textbf{a Unified Token-Replacement Interface (UTRI)} that abstracts the watermark embedding process to support both next-token prediction (e.g., LlamaGen) and next-scale prediction (e.g., VAR) paradigms. We provide theoretical analysis on detection error rates and embedding capacity. Extensive experiments on three AR models demonstrate that \\method{} achieves state-of-the-art performance in image quality (FID), watermark detection accuracy, and multi-bit message extraction, while maintaining robustness against cropping, JPEG compression, Gaussian noise, blur, color jitter, and random erasing attacks.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.11843v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "work in progress",
+      "entry_id": "http://arxiv.org/abs/2604.11843v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.11843v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.11843v1",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -797,32 +968,33 @@
         "Ruize Liao",
         "Wanjun Jia",
         "Dongsheng Luo",
+        "Jiacheng Lin",
         "Kailun Yang",
         "Zhiyong Li",
         "Yaonan Wang"
       ],
       "published": "2026-04-09T16:10:20+00:00",
-      "updated": "2026-04-09T16:10:20+00:00",
+      "updated": "2026-04-14T05:25:29+00:00",
       "summary": "In unstructured environments, functional dexterous grasping calls for the tight integration of semantic understanding, precise 3D functional localization, and physically interpretable execution. Modular hierarchical methods are more controllable and interpretable than end-to-end VLA approaches, but existing ones still rely on predefined affordance labels and lack the tight semantic--pose coupling needed for functional dexterous manipulation. To address this, we propose BLaDA (Bridging Language to Dexterous Actions in 3DGS fields), an interpretable zero-shot framework that grounds open-vocabulary instructions as perceptual and control constraints for functional dexterous manipulation. BLaDA establishes an interpretable reasoning chain by first parsing natural language into a structured sextuple of manipulation constraints via a Knowledge-guided Language Parsing (KLP) module. To achieve pose-consistent spatial reasoning, we introduce the Triangular Functional Point Localization (TriLocation) module, which utilizes 3D Gaussian Splatting as a continuous scene representation and identifies functional regions under triangular geometric constraints. Finally, the 3D Keypoint Grasp Matrix Transformation Execution (KGT3D+) module decodes these semantic-geometric constraints into physically plausible wrist poses and finger-level commands. Extensive experiments on complex benchmarks demonstrate that BLaDA significantly outperforms existing methods in both affordance grounding precision and the success rate of functional manipulation across diverse categories and tasks. Code will be publicly available at https://github.com/PopeyePxx/BLaDA.",
       "categories": [
         "cs.CV",
         "cs.RO"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2604.08410v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.08410v2",
       "journal_ref": null,
       "doi": null,
       "comment": "Code will be publicly available at https://github.com/PopeyePxx/BLaDA",
-      "entry_id": "http://arxiv.org/abs/2604.08410v1",
+      "entry_id": "http://arxiv.org/abs/2604.08410v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2604.08410v1",
+          "href": "https://arxiv.org/abs/2604.08410v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2604.08410v1",
+          "href": "https://arxiv.org/pdf/2604.08410v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -1117,26 +1289,26 @@
         "Qingqiang Wu"
       ],
       "published": "2026-04-08T08:25:01+00:00",
-      "updated": "2026-04-08T08:25:01+00:00",
+      "updated": "2026-04-14T07:54:20+00:00",
       "summary": "Large Language Models (LLMs) have demonstrated impressive capabilities in long-form generation, yet their application is hindered by the hallucination problem. While Uncertainty Quantification (UQ) is essential for assessing reliability, the complex structure makes reliable aggregation across heterogeneous themes difficult, in addition, existing methods often overlook the nuance of neutral information and suffer from the high computational cost of fine-grained decomposition. To address these challenges, we propose AGSC (Adaptive Granularity and GMM-based Semantic Clustering), a UQ framework tailored for long-form generation. AGSC first uses NLI neutral probabilities as triggers to distinguish irrelevance from uncertainty, reducing unnecessary computation. It then applies Gaussian Mixture Model (GMM) soft clustering to model latent semantic themes and assign topic-aware weights for downstream aggregation. Experiments on BIO and LongFact show that AGSC achieves state-of-the-art correlation with factuality while reducing inference time by about 60% compared to full atomic decomposition.",
       "categories": [
         "cs.CL"
       ],
       "primary_category": "cs.CL",
-      "pdf_url": "https://arxiv.org/pdf/2604.06812v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.06812v2",
       "journal_ref": null,
       "doi": null,
-      "comment": null,
-      "entry_id": "http://arxiv.org/abs/2604.06812v1",
+      "comment": "Accepted to the Main Conference of ACL 2026",
+      "entry_id": "http://arxiv.org/abs/2604.06812v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2604.06812v1",
+          "href": "https://arxiv.org/abs/2604.06812v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2604.06812v1",
+          "href": "https://arxiv.org/pdf/2604.06812v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
