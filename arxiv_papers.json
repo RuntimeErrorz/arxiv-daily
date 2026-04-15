@@ -1,5 +1,607 @@
 {
   "3DGS Semantic": {
+    "2604.11674": {
+      "title": "AffordSim: A Scalable Data Generator and Benchmark for Affordance-Aware Robotic Manipulation",
+      "authors": [
+        "Mingyang Li",
+        "Haofan Xu",
+        "Haowen Sun",
+        "Xinzhe Chen",
+        "Sihua Ren",
+        "Liqi Huang",
+        "Xinyang Sui",
+        "Chenyang Miao",
+        "Qiongjie Cui",
+        "Zeyang Liu",
+        "Xingyu Chen",
+        "Xuguang Lan"
+      ],
+      "published": "2026-04-13T16:21:44+00:00",
+      "updated": "2026-04-13T16:21:44+00:00",
+      "summary": "Simulation-based data generation has become a dominant paradigm for training robotic manipulation policies, yet existing platforms do not incorporate object affordance information into trajectory generation. As a result, tasks requiring precise interaction with specific functional regions--grasping a mug by its handle, pouring from a cup's rim, or hanging a mug on a hook--cannot be automatically generated with semantically correct trajectories. We introduce AffordSim, the first simulation framework that integrates open-vocabulary 3D affordance prediction into the manipulation data generation pipeline. AffordSim uses our VoxAfford model, an open-vocabulary 3D affordance detector that enhances MLLM output tokens with multi-scale geometric features, to predict affordance maps on object point clouds, guiding grasp pose estimation toward task-relevant functional regions. Built on NVIDIA Isaac Sim with cross-embodiment support (Franka FR3, Panda, UR5e, Kinova), VLM-powered task generation, and novel domain randomization using DA3-based 3D Gaussian reconstruction from real photographs, AffordSim enables automated, scalable generation of affordance-aware manipulation data. We establish a benchmark of 50 tasks across 7 categories (grasping, placing, stacking, pushing/pulling, pouring, mug hanging, long-horizon composite) and evaluate 4 imitation learning baselines (BC, Diffusion Policy, ACT, Pi 0.5). Our results reveal that while grasping is largely solved (53-93% success), affordance-demanding tasks such as pouring into narrow containers (1-43%) and mug hanging (0-47%) remain significantly more challenging for current imitation learning methods, highlighting the need for affordance-aware data generation. Zero-shot sim-to-real experiments on a real Franka FR3 validate the transferability of the generated data.",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2604.11674v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.11674v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.11674v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.11674v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-15",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2604.11481": {
+      "title": "Emergence of Complex Structures",
+      "authors": [
+        "Francisco-Shu Kitaura"
+      ],
+      "published": "2026-04-13T13:47:35+00:00",
+      "updated": "2026-04-13T13:47:35+00:00",
+      "summary": "Complex structures often emerge from initially homogeneous or weakly correlated states. We address the apparent tension between this ordering and entropy growth through a unified framework combining semi-microscopic phase-space dynamics, transport geometry, information theory, and coarse-grained effective modeling. The key point is that entropy depends on the level of description: a coarse-grained spatial field may become more ordered as structure forms, even while the full phase-space description becomes more complex through shell crossing, multistreaming, and the activation of velocity degrees of freedom. Using a Lagrangian--Eulerian transport map, we show how density amplification is governed by the Jacobian of the deformation and how anisotropic collapse arises from the eigenvalues of a hierarchy of deformation tensors. Long-range interaction or information flow is encoded in the displacement field, so that nonlocality enters directly through transport. We connect this geometric description to a maximum-entropy Gaussian baseline and show how nonlinear transport and nonlocal coupling generate scale coupling, higher-order correlations, and non-Gaussianity. We then formulate a Landau--Ginzburg description in which the growth of seed anisotropies is interpreted as the activation of lower effective free-energy branches, providing a coarse-grained realization of self-organization. Applied to generated cosmological fields, this framework indicates that the nonlocal tidal level becomes relevant already at moderate overdensity. Although cosmological structure formation is the main realization considered here, the framework is intended more broadly as a mesoscopic language for systems in which transport, anisotropy, nonlocality, and self-organization are central.",
+      "categories": [
+        "astro-ph.CO",
+        "math-ph",
+        "nlin.PS",
+        "physics.data-an",
+        "stat.AP"
+      ],
+      "primary_category": "astro-ph.CO",
+      "pdf_url": "https://arxiv.org/pdf/2604.11481v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "42 pages, 8 figures",
+      "entry_id": "http://arxiv.org/abs/2604.11481v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.11481v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.11481v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-15",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2604.11401": {
+      "title": "GS4City: Hierarchical Semantic Gaussian Splatting via City-Model Priors",
+      "authors": [
+        "Qilin Zhang",
+        "Jinyu Zhu",
+        "Olaf Wysocki",
+        "Benjamin Busam",
+        "Boris Jutzi"
+      ],
+      "published": "2026-04-13T12:42:28+00:00",
+      "updated": "2026-04-13T12:42:28+00:00",
+      "summary": "Recent semantic 3D Gaussian Splatting (3DGS) methods primarily rely on 2D foundation models, often yielding ambiguous boundaries and limited support for structured urban semantics. While city models such as CityGML encode hierarchically organized semantics together with building geometry, these labels cannot be directly mapped to Gaussian primitives. We present GS4City, a hierarchical semantic Gaussian Splatting method that incorporates city-model priors for urban scene understanding. GS4City derives reliable image-aligned masks from Level of Detail (LoD) 3 CityGML models via two-pass raycasting, explicitly using parent-child relations to validate and recover fine-grained facade elements. It then fuses these geometry-grounded masks with foundation-model predictions to establish scene-consistent instance correspondences, and learns a compact identity encoding for each Gaussian under joint 2D identity supervision and 3D spatial regularization. Experiments on the TUM2TWIN and Gold Coast datasets show that GS4City effectively incorporates structured building semantics into Gaussian scene representations, outperforming existing 2D-driven semantic 3DGS baselines, including LangSplat and Gaga, by up to 15.8 IoU points in coarse building segmentation and 14.2 mIoU points in fine-grained semantic segmentation. By bridging structured city models and photorealistic Gaussian scene representations, GS4City enables semantically queryable and structure-aware urban reconstruction. Code is available at https://github.com/Jinyzzz/GS4City.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.11401v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.11401v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.11401v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.11401v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-15",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2604.11138": {
+      "title": "ViserDex: Visual Sim-to-Real for Robust Dexterous In-hand Reorientation",
+      "authors": [
+        "Arjun Bhardwaj",
+        "Maximum Wilder-Smith",
+        "Mayank Mittal",
+        "Vaishakh Patil",
+        "Marco Hutter"
+      ],
+      "published": "2026-04-13T07:50:41+00:00",
+      "updated": "2026-04-13T07:50:41+00:00",
+      "summary": "In-hand object reorientation requires precise estimation of the object pose to handle complex task dynamics. While RGB sensing offers rich semantic cues for pose tracking, existing solutions rely on multi-camera setups or costly ray tracing. We present a sim-to-real framework for monocular RGB in-hand reorientation that integrates 3D Gaussian Splatting (3DGS) to bridge the visual sim-to-real gap. Our key insight is performing domain randomization in the Gaussian representation space: by applying physically consistent, pre-rendering augmentations to 3D Gaussians, we generate photorealistic, randomized visual data for object pose estimation. The manipulation policy is trained using curriculum-based reinforcement learning with teacher-student distillation, enabling efficient learning of complex behaviors. Importantly, both perception and control models can be trained independently on consumer-grade hardware, eliminating the need for large compute clusters. Experiments show that the pose estimator trained with 3DGS data outperforms those trained using conventional rendering data in challenging visual environments. We validate the system on a physical multi-fingered hand equipped with an RGB camera, demonstrating robust reorientation of five diverse objects even under challenging lighting conditions. Our results highlight Gaussian splatting as a practical path for RGB-only dexterous manipulation. For videos of the hardware deployments and additional supplementary materials, please refer to the project website: https://rffr.leggedrobotics.com/works/viserdex/",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2604.11138v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.11138v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.11138v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.11138v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-15",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2604.10982": {
+      "title": "Ψ-Map: Panoptic Surface Integrated Mapping Enables Real2Sim Transfer",
+      "authors": [
+        "Xuan Yu",
+        "Yuxuan Xie",
+        "Changjian Jiang",
+        "Shichao Zhai",
+        "Rong Xiong",
+        "Yu Zhang",
+        "Yue Wang"
+      ],
+      "published": "2026-04-13T04:41:00+00:00",
+      "updated": "2026-04-13T04:41:00+00:00",
+      "summary": "Open-vocabulary panoptic reconstruction is essential for advanced robotics perception and simulation. However, existing methods based on 3D Gaussian Splatting (3DGS) often struggle to simultaneously achieve geometric accuracy, coherent panoptic understanding, and real-time inference frequency in large-scale scenes. In this paper, we propose a comprehensive framework that integrates geometric reinforcement, end-to-end panoptic learning, and efficient rendering. First, to ensure physical realism in large-scale environments, we leverage LiDAR data to construct plane-constrained multimodal Gaussian Mixture Models (GMMs) and employ 2D Gaussian surfels as the map representation, enabling high-precision surface alignment and continuous geometric supervision. Building upon this, to overcome the error accumulation and cumbersome cross-frame association inherent in traditional multi-stage panoptic segmentation pipelines, we design a query-guided end-to-end learning architecture. By utilizing a local cross-attention mechanism within the view frustum, the system lifts 2D mask features directly into 3D space, achieving globally consistent panoptic understanding. Finally, addressing the computational bottlenecks caused by high-dimensional semantic features, we introduce Precise Tile Intersection and a Top-K Hard Selection strategy to optimize the rendering pipeline. Experimental results demonstrate that our system achieves superior geometric and panoptic reconstruction quality in large-scale scenes while maintaining an inference rate exceeding 40 FPS, meeting the real-time requirements of robotic control loops.",
+      "categories": [
+        "cs.RO"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2604.10982v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.10982v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.10982v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.10982v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-15",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2604.10951": {
+      "title": "Fast-SegSim: Real-Time Open-Vocabulary Segmentation for Robotics in Simulation",
+      "authors": [
+        "Xuan Yu",
+        "Yuxuan Xie",
+        "Shichao Zhai",
+        "Shuhao Ye",
+        "Rong Xiong",
+        "Yue Wang"
+      ],
+      "published": "2026-04-13T03:49:06+00:00",
+      "updated": "2026-04-13T03:49:06+00:00",
+      "summary": "Open-vocabulary panoptic reconstruction is crucial for advanced robotics and simulation. However, existing 3D reconstruction methods, such as NeRF or Gaussian Splatting variants, often struggle to achieve the real-time inference frequency required by robotic control loops. Existing methods incur prohibitive latency when processing the high-dimensional features required for robust open-vocabulary segmentation. We propose Fast-SegSim, a novel, simple, and end-to-end framework built upon 2D Gaussian Splatting, designed to realize real-time, high-fidelity, and 3D-consistent open-vocabulary segmentation reconstruction. Our core contribution is a highly optimized rendering pipeline that specifically addresses the computational bottleneck of high-channel segmentation feature accumulation. We introduce two key optimizations: Precise Tile Intersection to reduce rasterization redundancy, and a novel Top-K Hard Selection strategy. This strategy leverages the geometric sparsity inherent in the 2D Gaussian representation to greatly simplify feature accumulation and alleviate bandwidth limitations, achieving render rates exceeding 40 FPS. Fast-SegSim provides critical value in robotic applications: it serves both as a high-frequency sensor input for simulation platforms like Gazebo, and its 3D-consistent outputs provide essential multi-view 'ground truth' labels for fine-tuning downstream perception tasks. We demonstrate this utility by using the generated labels to fine-tune the perception module in object goal navigation, successfully doubling the navigation success rate. Our superior rendering speed and practical utility underscore Fast-SegSim's potential to bridge the sim-to-real gap.",
+      "categories": [
+        "cs.RO"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2604.10951v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.10951v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.10951v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.10951v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-15",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2604.10931": {
+      "title": "Reliable Online Resource Allocation for Multi-User Semantic Communications: A Constraint Bayesian Optimization Approach",
+      "authors": [
+        "Huawei Hou",
+        "Suzhi Bi",
+        "Xian Li",
+        "Haixia Zhang",
+        "Zhi Quan"
+      ],
+      "published": "2026-04-13T03:05:16+00:00",
+      "updated": "2026-04-13T03:05:16+00:00",
+      "summary": "Semantic communication has been increasingly integrated into edge computing systems for reconstruction tasks, owing to its advantages in source compression, robustness to channel noise, and task execution efficiency. However, the black-box nature of neural-network (NN)-based semantic codecs, together with the noisy transmission of semantic features, makes it difficult to allocate transmission resources and guarantee reconstruction quality for multiple users. In this paper, we propose a reliable online resource allocation framework for a semantic-driven multi-user edge computing system, where multiple users encode source information into semantic features and offload reconstruction to an edge server. We formulate a multi-user resource optimization problem whose objective jointly accounts for system-wide reconstruction performance and transmission latency, under constraints that guarantee each user's minimum reconstruction quality. To solve this problem, we develop a Bayesian optimization (BO)-based online algorithm that enables flexible control of the user-side semantic compression ratio (CR) and allocation of transmission rates. The edge server jointly determines each user's CR and transmission rate by exploiting Gaussian-process (GP) models that capture the relationship between reconstruction performance, signal-to-noise ratio (SNR), and CR, and by employing an acquisition function to select CRs that satisfy the performance quality constraints while maximizing the objective. Simulation results on high-resolution video-frame reconstruction datasets demonstrate that the proposed method selects near-optimal CRs via the GP surrogate and acquisition function, achieving a 98.03% constraint-satisfaction rate and reducing transmission latency by more than 45% compared with fixed-CR schemes.",
+      "categories": [
+        "eess.SP"
+      ],
+      "primary_category": "eess.SP",
+      "pdf_url": "https://arxiv.org/pdf/2604.10931v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "13 pages, 9 figures. The paper has been submitted for potential journal publications",
+      "entry_id": "http://arxiv.org/abs/2604.10931v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.10931v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.10931v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-15",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2604.10593": {
+      "title": "MonoEM-GS: Monocular Expectation-Maximization Gaussian Splatting SLAM",
+      "authors": [
+        "Evgenii Kruzhkov",
+        "Sven Behnke"
+      ],
+      "published": "2026-04-12T11:51:16+00:00",
+      "updated": "2026-04-12T11:51:16+00:00",
+      "summary": "Feed-forward geometric foundation models can infer dense point clouds and camera motion directly from RGB streams, providing priors for monocular SLAM. However, their predictions are often view-dependent and noisy: geometry can vary across viewpoints and under image transformations, and local metric properties may drift between frames. We present MonoEM-GS, a monocular mapping pipeline that integrates such geometric predictions into a global Gaussian Splatting representation while explicitly addressing these inconsistencies. MonoEM-GS couples Gaussian Splatting with an Expectation--Maximization formulation to stabilize geometry, and employs ICP-based alignment for monocular pose estimation. Beyond geometry, MonoEM-GS parameterizes Gaussians with multi-modal features, enabling in-place open-set segmentation and other downstream queries directly on the reconstructed map. We evaluate MonoEM-GS on 7-Scenes, TUM RGB-D and Replica, and compare against recent baselines.",
+      "categories": [
+        "cs.RO"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2604.10593v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.10593v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.10593v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.10593v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-15",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2604.10573": {
+      "title": "Learning 3D Representations for Spatial Intelligence from Unposed Multi-View Images",
+      "authors": [
+        "Bo Zhou",
+        "Qiuxia Lai",
+        "Zeren Sun",
+        "Xiangbo Shu",
+        "Yazhou Yao",
+        "Wenguan Wang"
+      ],
+      "published": "2026-04-12T10:36:18+00:00",
+      "updated": "2026-04-12T10:36:18+00:00",
+      "summary": "Robust 3D representation learning forms the perceptual foundation of spatial intelligence, enabling downstream tasks in scene understanding and embodied AI. However, learning such representations directly from unposed multi-view images remains challenging. Recent self-supervised methods attempt to unify geometry, appearance, and semantics in a feed-forward manner, but they often suffer from weak geometry induction, limited appearance detail, and inconsistencies between geometry and semantics. We introduce UniSplat, a feed-forward framework designed to address these limitations through three complementary components. First, we propose a dual-masking strategy that strengthens geometry induction in the encoder. By masking both encoder and decoder tokens, and targeting decoder masks toward geometry-rich regions, the model is forced to infer structural information from incomplete visual cues, yielding geometry-aware representations even under unposed inputs. Second, we develop a coarse-to-fine Gaussian splatting strategy that reduces appearance-semantics inconsistencies by progressively refining the radiance field. Finally, to enforce geometric-semantic consistency, we introduce a pose-conditioned recalibration mechanism that interrelates the outputs of multiple heads by re-projecting predicted 3D point and semantic maps into the image plane using estimated camera parameters, and aligning them with corresponding RGB and semantic predictions to ensure cross-task consistency, thereby resolving geometry-semantic mismatches. Together, these components yield unified 3D representations that are robust to unposed, sparse-view inputs and generalize across diverse tasks, laying a perceptual foundation for spatial intelligence.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.10573v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "CVPR 2026",
+      "entry_id": "http://arxiv.org/abs/2604.10573v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.10573v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.10573v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-15",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2604.10512": {
+      "title": "FreeScale: Scaling 3D Scenes via Certainty-Aware Free-View Generation",
+      "authors": [
+        "Chenhan Jiang",
+        "Yu Chen",
+        "Qingwen Zhang",
+        "Jifei Song",
+        "Songcen Xu",
+        "Dit-Yan Yeung",
+        "Jiankang Deng"
+      ],
+      "published": "2026-04-12T08:00:53+00:00",
+      "updated": "2026-04-12T08:00:53+00:00",
+      "summary": "The development of generalizable Novel View Synthesis (NVS) models is critically limited by the scarcity of large-scale training data featuring diverse and precise camera trajectories. While real-world captures are photorealistic, they are typically sparse and discrete. Conversely, synthetic data scales but suffers from a domain gap and often lacks realistic semantics. We introduce FreeScale, a novel framework that leverages the power of scene reconstruction to transform limited real-world image sequences into a scalable source of high-quality training data. Our key insight is that an imperfect reconstructed scene serves as a rich geometric proxy, but naively sampling from it amplifies artifacts. To this end, we propose a certainty-aware free-view sampling strategy identifying novel viewpoints that are both semantically meaningful and minimally affected by reconstruction errors. We demonstrate FreeScale's effectiveness by scaling up the training of feedforward NVS models, achieving a notable gain of 2.7 dB in PSNR on challenging out-of-distribution benchmarks. Furthermore, we show that the generated data can actively enhance per-scene 3D Gaussian Splatting optimization, leading to consistent improvements across multiple datasets. Our work provides a practical and powerful data generation engine to overcome a fundamental bottleneck in 3D vision. Project page: https://mvp-ai-lab.github.io/FreeScale.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.10512v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "CVPR2026",
+      "entry_id": "http://arxiv.org/abs/2604.10512v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.10512v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.10512v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-15",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2604.10367": {
+      "title": "Beyond Monologue: Interactive Talking-Listening Avatar Generation with Conversational Audio Context-Aware Kernels",
+      "authors": [
+        "Yuzhe Weng",
+        "Haotian Wang",
+        "Xinyi Yu",
+        "Xiaoyan Wu",
+        "Haoran Xu",
+        "Shan He",
+        "Jun Du"
+      ],
+      "published": "2026-04-11T22:34:21+00:00",
+      "updated": "2026-04-11T22:34:21+00:00",
+      "summary": "Audio-driven human video generation has achieved remarkable success in monologue scenarios, largely driven by advancements in powerful video generation foundation models. Moving beyond monologues, authentic human communication is inherently a full-duplex interactive process, requiring virtual agents not only to articulate their own speech but also to react naturally to incoming conversational audio. Most existing methods simply extend conventional audio-driven paradigms to listening scenarios. However, relying on strict frame-to-frame alignment renders the model's response to long-range conversational dynamics rigid, whereas directly introducing global attention catastrophically degrades lip synchronization. Recognizing the unique temporal Scale Discrepancy between talking and listening behaviors, we introduce a multi-head Gaussian kernel to explicitly inject this physical intuition into the model as a progressive temporal inductive bias. Building upon this, we construct a full-duplex interactive virtual agent capable of simultaneously processing dual-stream audio inputs for both talking and listening. Furthermore, we introduce a rigorously cleaned Talking-Listening dataset VoxHear featuring perfectly decoupled speech and background audio tracks. Extensive experiments demonstrate that our approach successfully fuses strong temporal alignment with deep contextual semantics, setting a new state-of-the-art for generating highly natural and responsive full-duplex interactive digital humans. The project page is available at https://warmcongee.github.io/beyond-monologue/ .",
+      "categories": [
+        "cs.AI",
+        "cs.SD"
+      ],
+      "primary_category": "cs.AI",
+      "pdf_url": "https://arxiv.org/pdf/2604.10367v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.10367v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.10367v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.10367v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-15",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2604.10250": {
+      "title": "Organizational Security Resource Estimation via Vulnerability Queueing",
+      "authors": [
+        "Abdullah Y. Etcibasi",
+        "Zachary Dobos",
+        "C. Emre Koksal"
+      ],
+      "published": "2026-04-11T15:29:08+00:00",
+      "updated": "2026-04-11T15:29:08+00:00",
+      "summary": "We provide an approach that closely estimates an organization's cyber resources directly from vulnerability timestamps, using a non-stationary queueing framework. Traditional attack-surface metrics operate on static snapshots, ignoring the core attack-defense dynamics within information systems, which exhibit bursty, heavy-tailed, and capacity-constrained behavior. Our approach to modeling such dynamics is based on a queueing abstraction of attack surfaces. We utilize a segmentation method to identify piecewise-stationary regimes via Gaussian mixture modeling (GMM) of queue length distributions. We fit segment-specific arrival, service, and resource parameters through the minimization of Kullback--Leibler divergence (KL) between the empirical and estimated distributions. Applied to both large-scale software supply chain data and multi-year private logistics enterprise cyber-ticket workflows, the model estimates organizational resources, measured in the time-varying active personnel and output rate per personnel, solely from bug report and fix timings for software supply chains, and discovery and patch timestamps in the enterprise setting. Our results provide 91--96\\% accuracy in resource estimation, making the dynamic queueing framework a compelling approach for understanding attack surface dynamics. Further, our framework exposes resource bottlenecks, establishing a foundation for predictive workforce planning, patch-race modeling, and proactive cyber-risk management.",
+      "categories": [
+        "cs.CR",
+        "cs.SE",
+        "eess.SP"
+      ],
+      "primary_category": "cs.CR",
+      "pdf_url": "https://arxiv.org/pdf/2604.10250v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.10250v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.10250v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.10250v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-15",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2604.10249": {
+      "title": "Gaussian Graphical Models for Functional Connectivity Analysis: A Statistical Review with Applications to Alzheimer's Disease",
+      "authors": [
+        "Panpan Zhang",
+        "Shiying Xiao",
+        "W. Hudson Robb",
+        "Dandan Liu",
+        "Angela L. Jefferson",
+        "Jun Yan"
+      ],
+      "published": "2026-04-11T15:25:27+00:00",
+      "updated": "2026-04-11T15:25:27+00:00",
+      "summary": "Functional connectivity analysis is an important tool for characterizing interactions among brain regions, particularly in studies of neurodegenerative disorders such as Alzheimer's disease (AD). Gaussian graphical models (GGMs) provide a promising statistical framework for estimating functional connectivity by capturing conditional dependence relationships among brain regions. Although a variety of regularized precision matrix estimators have been proposed to estimate sparse conditional dependency structures for GGMs, their comparative performance and practical implications for neuroimaging studies are not well understood. In this work, we present a comprehensive statistical review and empirical evaluation of widely used GGM estimation methods, including the graphical lasso (glasso), ridge-based glasso, graphical elastic net, adaptive glasso, smoothly clipped absolute deviation (SCAD), minimax concave penalty (MCP), constrained $\\ell_1$ minimization for inverse matrix estimation (CLIME), and tuning-insensitive graph estimation and regression (TIGER). Their performance is evaluated through extensive data-driven simulations designed to reflect realistic neuroimaging settings, along with an application to an AD cohort study to illustrate methodological differences and their impact on downstream network analysis. In addition, a user-friendly R package, spice, is provided to facilitate implementation and enhance the reproducibility of empirical studies.",
+      "categories": [
+        "stat.ME",
+        "stat.CO"
+      ],
+      "primary_category": "stat.ME",
+      "pdf_url": "https://arxiv.org/pdf/2604.10249v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.10249v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.10249v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.10249v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-15",
+        "venue": null,
+        "pub_type": "Review",
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
     "2604.09045": {
       "title": "Scene-Agnostic Object-Centric Representation Learning for 3D Gaussian Splatting",
       "authors": [
@@ -964,6 +1566,56 @@
         "publisher": null
       }
     },
+    "2604.09688": {
+      "title": "Immunizing 3D Gaussian Generative Models Against Unauthorized Fine-Tuning via Attribute-Space Traps",
+      "authors": [
+        "Jianwei Zhang",
+        "Sihan Cao",
+        "Chaoning Zhang",
+        "Ziming Hong",
+        "Jiaxin Huang",
+        "Pengcheng Zheng",
+        "Caiyan Qin",
+        "Wei Dong",
+        "Yang Yang",
+        "Tongliang Liu"
+      ],
+      "published": "2026-04-06T09:30:49+00:00",
+      "updated": "2026-04-06T09:30:49+00:00",
+      "summary": "Recent large-scale generative models enable high-quality 3D synthesis. However, the public accessibility of pre-trained weights introduces a critical vulnerability. Adversaries can fine-tune these models to steal specialized knowledge acquired during pre-training, leading to intellectual property infringement. Unlike defenses for 2D images and language models, 3D generators require specialized protection due to their explicit Gaussian representations, which expose fundamental structural parameters directly to gradient-based optimization. We propose GaussLock, the first approach designed to defend 3D generative models against fine-tuning attacks. GaussLock is a lightweight parameter-space immunization framework that integrates authorized distillation with attribute-aware trap losses targeting position, scale, rotation, opacity, and color. Specifically, these traps systematically collapse spatial distributions, distort geometric shapes, align rotational axes, and suppress primitive visibility to fundamentally destroy structural integrity. By jointly optimizing these dual objectives, the distillation process preserves fidelity on authorized tasks while the embedded traps actively disrupt unauthorized reconstructions. Experiments on large-scale Gaussian models demonstrate that GaussLock effectively neutralizes unauthorized fine-tuning attacks. It substantially degrades the quality of unauthorized reconstructions, evidenced by significantly higher LPIPS and lower PSNR, while effectively maintaining performance on authorized fine-tuning.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.09688v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.09688v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.09688v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.09688v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-15",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
     "2604.04514": {
       "title": "SuperLocalMemory V3.3: The Living Brain -- Biologically-Inspired Forgetting, Cognitive Quantization, and Multi-Channel Retrieval for Zero-LLM Agent Memory Systems",
       "authors": [
@@ -1303,6 +1955,51 @@
         "venue": "arXiv.org",
         "pub_type": "JournalArticle",
         "publisher": null
+      }
+    },
+    "2604.02736": {
+      "title": "THOM: Generating Physically Plausible Hand-Object Meshes From Text",
+      "authors": [
+        "Uyoung Jeong",
+        "Yihalem Yimolal Tiruneh",
+        "Hyung Jin Chang",
+        "Seungryul Baek",
+        "Kwang In Kim"
+      ],
+      "published": "2026-04-03T05:17:12+00:00",
+      "updated": "2026-04-13T01:15:15+00:00",
+      "summary": "Generating photorealistic 3D hand-object interactions (HOIs) from text is important for applications like robotic grasping and AR/VR content creation. In practice, however, achieving both visual fidelity and physical plausibility remains difficult, as mesh extraction from text-generated Gaussians is inherently ill-posed and the resulting meshes are often unreliable for physics-based optimization. We present THOM, a training-free framework that generates physically plausible 3D HOI meshes directly from text prompts, without requiring template object meshes. THOM follows a two-stage pipeline: it first generates hand and object Gaussians guided by text, and then refines their interaction using physics-based optimization. To enable reliable interaction modeling, we introduce a mesh extraction method with an explicit vertex-to-Gaussian mapping, which enables topology-aware regularization. We further improve physical plausibility through contact-aware optimization and vision-language model (VLM)-guided translation refinement. Extensive experiments show that THOM produces high-quality HOIs with strong text alignment, visual realism, and interaction plausibility.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.02736v3",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "accepted to CVPR Findings 2026",
+      "entry_id": "http://arxiv.org/abs/2604.02736v3",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.02736v3",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.02736v3",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-15",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
       }
     },
     "2604.01994": {
@@ -6135,27 +6832,27 @@
         "Vaishak Prasad"
       ],
       "published": "2026-03-06T08:07:11+00:00",
-      "updated": "2026-03-06T08:07:11+00:00",
+      "updated": "2026-04-10T18:03:54+00:00",
       "summary": "Most current compact-binary searches and parameter-estimation pipelines evaluate the Gaussian-noise likelihood approximately using frequency-domain inner products with great success in analyzing gravitational-wave signals. This is historically motivated by (i) the approximate stationarity of detector noise on sufficiently long timescales, allowing a circulant approximation in the domain that diagonalizes the noise covariance in the Fourier basis, and (ii) the efficiency of matched filtering via fast Fourier transforms. However, the advantage of frequency-domain analysis comes with its own limitations. In this article, we develop a self-contained, end-to-end, \\emph{fully time-domain} formulation of gravitational-wave inference and present an implementation that makes the likelihood evaluation practical at scale by exploiting structured linear algebra, software, and hardware acceleration. We validate the method using injections and demonstrate speedups for likelihood evaluation and on modern GPUs. We present \\emph{tdanalysis}, an accelerated implementation that handles gaps, sharp boundaries, and multiple disjoint segments, and supports GPUs. We demonstrate some of its applications in gravitational wave astronomy.",
       "categories": [
         "gr-qc",
         "astro-ph.IM"
       ],
       "primary_category": "gr-qc",
-      "pdf_url": "https://arxiv.org/pdf/2603.06010v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.06010v2",
       "journal_ref": null,
       "doi": null,
       "comment": "19 pages, 8 figures",
-      "entry_id": "http://arxiv.org/abs/2603.06010v1",
+      "entry_id": "http://arxiv.org/abs/2603.06010v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2603.06010v1",
+          "href": "https://arxiv.org/abs/2603.06010v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2603.06010v1",
+          "href": "https://arxiv.org/pdf/2603.06010v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -88711,6 +89408,40 @@
     }
   },
   "MVS": {
+    "2604.10246": {
+      "title": "A Comparison of Multi-View Stereo Methods for Photogrammetric 3D Reconstruction: From Traditional to Learning-Based Approaches",
+      "authors": [
+        "Yawen Li",
+        "George Vosselman",
+        "Francesco Nex"
+      ],
+      "published": "2026-04-11T15:02:08+00:00",
+      "updated": "2026-04-11T15:02:08+00:00",
+      "summary": "Photogrammetric 3D reconstruction has long relied on traditional Structure-from-Motion (SfM) and Multi-View Stereo (MVS) methods, which provide high accuracy but face challenges in speed and scalability. Recently, learning-based MVS methods have emerged, aiming for faster and more efficient reconstruction. This work presents a comparative evaluation between a representative traditional MVS pipeline (COLMAP) and state-of-the-art learning-based approaches, including geometry-guided methods (MVSNet, PatchmatchNet, MVSAnywhere, MVSFormer++) and end-to-end frameworks (Stereo4D, FoundationStereo, DUSt3R, MASt3R, Fast3R, VGGT). Two experiments were conducted on different aerial scenarios. The first experiment used the MARS-LVIG dataset, where ground-truth 3D reconstruction was provided by LiDAR point clouds. The second experiment used a public scene from the Pix4D official website, with ground truth generated by Pix4Dmapper. We evaluated accuracy, coverage, and runtime across all methods. Experimental results show that although COLMAP can provide reliable and geometrically consistent reconstruction results, it requires more computation time. In cases where traditional methods fail in image registration, learning-based approaches exhibit stronger feature-matching capability and greater robustness. Geometry-guided methods usually require careful dataset preparation and often depend on camera pose or depth priors generated by COLMAP. End-to-end methods such as DUSt3R and VGGT achieve competitive accuracy and reasonable coverage while offering substantially faster reconstruction. However, they exhibit relatively large residuals in 3D reconstruction, particularly in challenging scenarios.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.10246v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.10246v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.10246v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.10246v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2604.04925": {
       "title": "SimpleProc: Fully Procedural Synthetic Data from Simple Rules for Multi-View Stereo",
       "authors": [
@@ -105784,6 +106515,116 @@
     }
   },
   "Depth Estimation": {
+    "2604.11585": {
+      "title": "GeomPrompt: Geometric Prompt Learning for RGB-D Semantic Segmentation Under Missing and Degraded Depth",
+      "authors": [
+        "Krishna Jaganathan",
+        "Patricio Vela"
+      ],
+      "published": "2026-04-13T15:01:22+00:00",
+      "updated": "2026-04-13T15:01:22+00:00",
+      "summary": "Multimodal perception systems for robotics and embodied AI often assume reliable RGB-D sensing, but in practice, depth is frequently missing, noisy, or corrupted. We thus present GeomPrompt, a lightweight cross-modal adaptation module that synthesizes a task-driven geometric prompt from RGB alone for the fourth channel of a frozen RGB-D semantic segmentation model, without depth supervision. We further introduce GeomPrompt-Recovery, an adaptation module that compensates for degraded depth by predicting the fourth channel correction relevant for the frozen segmenter. Both modules are trained solely with downstream segmentation supervision, enabling recovery of the geometric prior useful for segmentation, rather than estimating depth signals. On SUN RGB-D, GeomPrompt improves over RGB-only inference by +6.1 mIoU on DFormer and +3.0 mIoU on GeminiFusion, while remaining competitive with strong monocular depth estimators. For degraded depth, GeomPrompt-Recovery consistently improves robustness, yielding gains up to +3.6 mIoU under severe depth corruptions. GeomPrompt is also substantially more efficient than monocular depth baselines, reaching 7.8 ms latency versus 38.3 ms and 71.9 ms. These results suggest that task-driven geometric prompting is an efficient mechanism for cross-modal compensation under missing and degraded depth inputs in RGB-D perception.",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.11585v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted to the CVPR 2026 URVIS Workshop. Project page: https://geomprompt.github.io",
+      "entry_id": "http://arxiv.org/abs/2604.11585v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.11585v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.11585v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2604.11097": {
+      "title": "CDPR: Cross-modal Diffusion with Polarization for Reliable Monocular Depth Estimation",
+      "authors": [
+        "Rongjia Yu",
+        "Tong Jia",
+        "Hao Wang",
+        "Xiaofang Li",
+        "Xiao Yang",
+        "Zinuo Zhang",
+        "Cuiwei Liu"
+      ],
+      "published": "2026-04-13T07:12:49+00:00",
+      "updated": "2026-04-13T07:12:49+00:00",
+      "summary": "Monocular depth estimation is a fundamental yet challenging task in computer vision, especially under complex conditions such as textureless surfaces, transparency, and specular reflections. Recent diffusion-based approaches have significantly advanced performance by reformulating depth prediction as a denoising process in the latent space. However, existing methods rely solely on RGB inputs, which often lack sufficient cues in challenging regions. In this work, we present CDPR - Cross-modal Diffusion with Polarization for Reliable Monocular Depth Estimation - a novel diffusion-based framework that integrates physically grounded polarization priors to enhance estimation robustness. Specifically, we encode both RGB and polarization (AoLP/DoLP) images into a shared latent space via a pre-trained Variational Autoencoder (VAE), and dynamically fuse multi-modal information through a learnable confidence-aware gating mechanism. This fusion module adaptively suppresses noisy signals in polarization inputs while preserving informative cues, particularly around reflective or transparent surfaces, and provides the integrated latent representation for subsequent monocular depth estimation. Beyond depth estimation, we further verify that our framework can be easily generalized to surface normal prediction with minimal modification, showcasing its scalability to general polarization-guided dense prediction tasks. Experiments on both synthetic and real-world datasets validate that CDPR significantly outperforms RGB-only baselines in challenging regions while maintaining competitive performance in standard scenes.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.11097v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "preprint version of IEEE TMM 2026 Regular Paper",
+      "entry_id": "http://arxiv.org/abs/2604.11097v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.11097v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.11097v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2604.09862": {
+      "title": "FF3R: Feedforward Feature 3D Reconstruction from Unconstrained views",
+      "authors": [
+        "Chaoyi Zhou",
+        "Run Wang",
+        "Feng Luo",
+        "Mert D. Pesé",
+        "Zhiwen Fan",
+        "Yiqi Zhong",
+        "Siyu Huang"
+      ],
+      "published": "2026-04-10T19:45:24+00:00",
+      "updated": "2026-04-10T19:45:24+00:00",
+      "summary": "Recent advances in vision foundation models have revolutionized geometry reconstruction and semantic understanding. Yet, most of the existing approaches treat these capabilities in isolation, leading to redundant pipelines and compounded errors. This paper introduces FF3R, a fully annotation-free feed-forward framework that unifies geometric and semantic reasoning from unconstrained multi-view image sequences. Unlike previous methods, FF3R does not require camera poses, depth maps, or semantic labels, relying solely on rendering supervision for RGB and feature maps, establishing a scalable paradigm for unified 3D reasoning. In addition, we address two critical challenges in feedforward feature reconstruction pipelines, namely global semantic inconsistency and local structural inconsistency, through two key innovations: (i) a Token-wise Fusion Module that enriches geometry tokens with semantic context via cross-attention, and (ii) a Semantic-Geometry Mutual Boosting mechanism combining geometry-guided feature warping for global consistency with semantic-aware voxelization for local coherence. Extensive experiments on ScanNet and DL3DV-10K demonstrate FF3R's superior performance in novel-view synthesis, open-vocabulary semantic segmentation, and depth estimation, with strong generalization to in-the-wild scenarios, paving the way for embodied intelligence systems that demand both spatial and semantic understanding.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.09862v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "CVPR 2026 Findings. Project Page: https://chaoyizh.github.io/ff3r_project/",
+      "entry_id": "http://arxiv.org/abs/2604.09862v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.09862v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.09862v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2604.09352": {
       "title": "LuMon: A Comprehensive Benchmark and Development Suite with Novel Datasets for Lunar Monocular Depth Estimation",
       "authors": [
