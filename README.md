@@ -1,4 +1,4 @@
-## Updated at 2026-04-15 20:23:43
+## Updated at 2026-04-16 20:25:39
 
 ## 3DGS Semantic
 
@@ -8,6 +8,9 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-04-15**|**[ClipGStream: Clip-Stream Gaussian Splatting for Any Length and Any Motion Multi-View Dynamic Scene Reconstruction](https://arxiv.org/abs/2604.13746)**|N/A|CVPR 2026, Project pages: https://liangjie1999.github.io/ClipGStreamWeb/|cs.CV|None|Jie Liang et al.|
+|**2026-04-15**|**[Comparison of window shapes and lengths in short-time feature extraction for classification of heart sound signals](https://arxiv.org/abs/2604.13567)**|International Journal of Electrical and Computer Engineering (IJECE)|None|cs.SD|None|Mahmoud Fakhry, Abeer FathAllah Brery|
+|**2026-04-15**|**[Classical Machine Learning Baselines for Deepfake Audio Detection on the Fake-or-Real Dataset](https://arxiv.org/abs/2604.13400)**|N/A|Accepted for Oral Presentation at The 35th IEEE Microelectronics Design and Test Symposium|eess.AS|None|Faheem Ahmad et al.|
 |**2026-04-14**|**[GGD-SLAM: Monocular 3DGS SLAM Powered by Generalizable Motion Model for Dynamic Environments](https://arxiv.org/abs/2604.12837)**|N/A|8 pages, Accepted by ICRA 2026|cs.RO|None|Yi Liu et al.|
 |**2026-04-14**|**[ArtifactWorld: Scaling 3D Gaussian Splatting Artifact Restoration via Video Generation Models](https://arxiv.org/abs/2604.12251)**|N/A|The second author is the corresponding author|cs.CV|None|Xinliang Wang et al.|
 |**2026-04-13**|**[TriFit: Trimodal Fusion with Protein Dynamics for Mutation Fitness Prediction](https://arxiv.org/abs/2604.12026)**|N/A|None|cs.LG|None|Seungik Cho|
@@ -377,6 +380,7 @@ Query: (abs:'Multi-View Stereo' OR abs:'Multi View Stereo' OR abs:'Multi-View De
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-04-14**|**[Neural 3D Reconstruction of Planetary Surfaces from Descent-Phase Wide-Angle Imagery](https://arxiv.org/abs/2604.13235)**|N/A|None|cs.CV|None|Melonie de Almeida et al.|
 |**2026-04-11**|**[A Comparison of Multi-View Stereo Methods for Photogrammetric 3D Reconstruction: From Traditional to Learning-Based Approaches](https://arxiv.org/abs/2604.10246)**|N/A|None|cs.CV|None|Yawen Li et al.|
 |**2026-04-06**|**[SimpleProc: Fully Procedural Synthetic Data from Simple Rules for Multi-View Stereo](https://arxiv.org/abs/2604.04925)**|N/A|None|cs.CV|None|Zeyu Ma et al.|
 |**2026-04-06**|**[ZeD-MAP: Bundle Adjustment Guided Zero-Shot Depth Maps for Real-Time Aerial Imaging](https://arxiv.org/abs/2604.04667)**|N/A|None|cs.CV|None|Selim Ahmet Iz et al.|
@@ -844,6 +848,8 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-04-15**|**[Reconstruction of a 3D wireframe from a single line drawing via generative depth estimation](https://arxiv.org/abs/2604.13549)**|N/A|None|cs.CV|None|Elton Cao, Hod Lipson|
+|**2026-04-14**|**[PAT-VCM: Plug-and-Play Auxiliary Tokens for Video Coding for Machines](https://arxiv.org/abs/2604.13294)**|N/A|15 pages, 3 figures, 13 tables|cs.CV|None|Wei Jiang, Wei Wang|
 |**2026-04-13**|**[GeomPrompt: Geometric Prompt Learning for RGB-D Semantic Segmentation Under Missing and Degraded Depth](https://arxiv.org/abs/2604.11585)**|N/A|Accepted to the CVPR 2026 URVIS Workshop. Project page: https://geomprompt.github.io|cs.CV|None|Krishna Jaganathan, Patricio Vela|
 |**2026-04-13**|**[CDPR: Cross-modal Diffusion with Polarization for Reliable Monocular Depth Estimation](https://arxiv.org/abs/2604.11097)**|N/A|preprint version of IEEE TMM 2026 Regular Paper|cs.CV|None|Rongjia Yu et al.|
 |**2026-04-10**|**[FF3R: Feedforward Feature 3D Reconstruction from Unconstrained views](https://arxiv.org/abs/2604.09862)**|N/A|CVPR 2026 Findings. Project Page: https://chaoyizh.github.io/ff3r_project/|cs.CV|None|Chaoyi Zhou et al.|

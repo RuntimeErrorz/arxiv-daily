@@ -1,5 +1,140 @@
 {
   "3DGS Semantic": {
+    "2604.13746": {
+      "title": "ClipGStream: Clip-Stream Gaussian Splatting for Any Length and Any Motion Multi-View Dynamic Scene Reconstruction",
+      "authors": [
+        "Jie Liang",
+        "Jiahao Wu",
+        "Chao Wang",
+        "Jiayu Yang",
+        "Xiaoyun Zheng",
+        "Kaiqiang Xiong",
+        "Zhanke Wang",
+        "Jinbo Yan",
+        "Feng Gao",
+        "Ronggang Wang"
+      ],
+      "published": "2026-04-15T11:30:23+00:00",
+      "updated": "2026-04-15T11:30:23+00:00",
+      "summary": "Dynamic 3D scene reconstruction is essential for immersive media such as VR, MR, and XR, yet remains challenging for long multi-view sequences with large-scale motion. Existing dynamic Gaussian approaches are either Frame-Stream, offering scalability but poor temporal stability, or Clip, achieving local consistency at the cost of high memory and limited sequence length. We propose ClipGStream, a hybrid reconstruction framework that performs stream optimization at the clip level rather than the frame level. The sequence is divided into short clips, where dynamic motion is modeled using clip-independent spatio-temporal fields and residual anchor compensation to capture local variations efficiently, while inter-clip inherited anchors and decoders maintain structural consistency across clips. This Clip-Stream design enables scalable, flicker-free reconstruction of long dynamic videos with high temporal coherence and reduced memory overhead. Extensive experiments demonstrate that ClipGStream achieves state-of-the-art reconstruction quality and efficiency. The project page is available at: https://liangjie1999.github.io/ClipGStreamWeb/",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.13746v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "CVPR 2026, Project pages: https://liangjie1999.github.io/ClipGStreamWeb/",
+      "entry_id": "http://arxiv.org/abs/2604.13746v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.13746v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.13746v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-16",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2604.13567": {
+      "title": "Comparison of window shapes and lengths in short-time feature extraction for classification of heart sound signals",
+      "authors": [
+        "Mahmoud Fakhry",
+        "Abeer FathAllah Brery"
+      ],
+      "published": "2026-04-15T07:28:12+00:00",
+      "updated": "2026-04-15T07:28:12+00:00",
+      "summary": "Heart sound signals, phonocardiography (PCG) signals, allow for the automatic diagnosis of potential cardiovascular pathology. Such classification task can be tackled using the bidirectional long short-term memory (biLSTM) network, trained on features extracted from labeled PCG signals. Regarding the non-stationarity of PCG signals, it is recommended to extract the features from multiple short-length segments of the signals using a sliding window of certain shape and length. However, some window contains unfavorable spectral side lobes, which distort the features. Accordingly, it is preferable to adapt the window shape and length in terms of classification performance. We propose an experimental evaluation for three window shapes, each with three window lengths. The biLSTM network is trained and tested on statistical features extracted, and the performance is reported in terms of the window shapes and lengths. Results show that the best performance is obtained when the Gaussian window is used for splitting the signals, and the triangular window competes with the Gaussian window for a length of 75 ms. Although the rectangular window is a commonly offered option, it is the worst choice for splitting the signals. Moreover, the classification performance obtained with a 75 ms Gaussian window outperforms that of a baseline method.",
+      "categories": [
+        "cs.SD",
+        "cs.AI"
+      ],
+      "primary_category": "cs.SD",
+      "pdf_url": "https://arxiv.org/pdf/2604.13567v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.13567v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.13567v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.13567v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-16",
+        "venue": "International Journal of Electrical and Computer Engineering (IJECE)",
+        "pub_type": null,
+        "publisher": null
+      }
+    },
+    "2604.13400": {
+      "title": "Classical Machine Learning Baselines for Deepfake Audio Detection on the Fake-or-Real Dataset",
+      "authors": [
+        "Faheem Ahmad",
+        "Ajan Ahmed",
+        "Masudul Imtiaz"
+      ],
+      "published": "2026-04-15T01:59:43+00:00",
+      "updated": "2026-04-15T01:59:43+00:00",
+      "summary": "Deep learning has enabled highly realistic synthetic speech, raising concerns about fraud, impersonation, and disinformation. Despite rapid progress in neural detectors, transparent baselines are needed to reveal which acoustic cues reliably separate real from synthetic speech. This paper presents an interpretable classical machine learning baseline for deepfake audio detection using the Fake-or-Real (FoR) dataset. We extract prosodic, voice-quality, and spectral features from two-second clips at 44.1 kHz (high-fidelity) and 16 kHz (telephone-quality) sampling rates. Statistical analysis (ANOVA, correlation heatmaps) identifies features that differ significantly between real and fake speech. We then train multiple classifiers -- Logistic Regression, LDA, QDA, Gaussian Naive Bayes, SVMs, and GMMs -- and evaluate performance using accuracy, ROC-AUC, EER, and DET curves. Pairwise McNemar's tests confirm statistically significant differences between models. The best model, an RBF SVM, achieves ~93% test accuracy and ~7% EER on both sampling rates, while linear models reach ~75% accuracy. Feature analysis reveals that pitch variability and spectral richness (spectral centroid, bandwidth) are key discriminative cues. These results provide a strong, interpretable baseline for future deepfake audio detectors.",
+      "categories": [
+        "eess.AS"
+      ],
+      "primary_category": "eess.AS",
+      "pdf_url": "https://arxiv.org/pdf/2604.13400v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted for Oral Presentation at The 35th IEEE Microelectronics Design and Test Symposium",
+      "entry_id": "http://arxiv.org/abs/2604.13400v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.13400v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.13400v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-16",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
     "2604.12837": {
       "title": "GGD-SLAM: Monocular 3DGS SLAM Powered by Generalizable Motion Model for Dynamic Environments",
       "authors": [
@@ -38,7 +173,15 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-16",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2604.12251": {
       "title": "ArtifactWorld: Scaling 3D Gaussian Splatting Artifact Restoration via Video Generation Models",
@@ -89580,6 +89723,42 @@
     }
   },
   "MVS": {
+    "2604.13235": {
+      "title": "Neural 3D Reconstruction of Planetary Surfaces from Descent-Phase Wide-Angle Imagery",
+      "authors": [
+        "Melonie de Almeida",
+        "George Brydon",
+        "Divya M. Persaud",
+        "John H. Williamson",
+        "Paul Henderson"
+      ],
+      "published": "2026-04-14T19:06:22+00:00",
+      "updated": "2026-04-14T19:06:22+00:00",
+      "summary": "Digital elevation modeling of planetary surfaces is essential for studying past and ongoing geological processes. Wide-angle imagery acquired during spacecraft descent promises to offer a low-cost option for high-resolution terrain reconstruction. However, accurate 3D reconstruction from such imagery is challenging due to strong radial distortion and limited parallax from vertically descending, predominantly nadir-facing cameras. Conventional multi-view stereo exhibits limited depth range and reduced fidelity under these conditions and also lacks domain-specific priors. We present the first study of modern neural reconstruction methods for planetary descent imaging. We also develop a novel approach that incorporates an explicit neural height field representation, which provides a strong prior since planetary surfaces are generally continuous, smooth, solid, and free from floating objects. This study demonstrates that neural approaches offer a strong and competitive alternative to traditional multi-view stereo (MVS) methods. Experiments on simulated descent sequences over high-fidelity lunar and Mars terrains demonstrate that the proposed approach achieves increased spatial coverage while maintaining satisfactory estimation accuracy.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.13235v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.13235v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.13235v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.13235v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2604.10246": {
       "title": "A Comparison of Multi-View Stereo Methods for Photogrammetric 3D Reconstruction: From Traditional to Learning-Based Approaches",
       "authors": [
@@ -106687,6 +106866,72 @@
     }
   },
   "Depth Estimation": {
+    "2604.13549": {
+      "title": "Reconstruction of a 3D wireframe from a single line drawing via generative depth estimation",
+      "authors": [
+        "Elton Cao",
+        "Hod Lipson"
+      ],
+      "published": "2026-04-15T06:52:04+00:00",
+      "updated": "2026-04-15T06:52:04+00:00",
+      "summary": "The conversion of 2D freehand sketches into 3D models remains a pivotal challenge in computer vision, bridging the gap between human creativity and digital fabrication. Traditional line drawing reconstruction relies on brittle symbolic logic, while modern approaches are constrained by rigid parametric modeling, limiting users to predefined CAD primitives. We propose a generative approach by framing reconstruction as a conditional dense depth estimation task. To achieve this, we implement a Latent Diffusion Model (LDM) with a ControlNet-style conditioning framework to resolve the inherent ambiguities of orthographic projections. To support an iterative \"sketch-reconstruct-sketch\" workflow, we introduce a graph-based BFS masking strategy to simulate partial depth cues. We train and evaluate our approach using a massive dataset of over one million image-depth pairs derived from the ABC Dataset. Our framework demonstrates robust performance across varying shape complexities, providing a scalable pipeline for converting sparse 2D line drawings into dense 3D representations, effectively allowing users to \"draw in 3D\" without the rigid constraints of traditional CAD.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.13549v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.13549v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.13549v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.13549v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2604.13294": {
+      "title": "PAT-VCM: Plug-and-Play Auxiliary Tokens for Video Coding for Machines",
+      "authors": [
+        "Wei Jiang",
+        "Wei Wang"
+      ],
+      "published": "2026-04-14T20:55:17+00:00",
+      "updated": "2026-04-14T20:55:17+00:00",
+      "summary": "Existing video coding for machines is often trained for a specific downstream task and model. As a result, the compressed representation becomes tightly coupled to the end task, making it difficult to scale across multiple tasks or adapt to model updates. We propose PAT-VCM, a plug-and-play auxiliary-token framework for video coding for machines. PAT-VCM keeps a shared baseline compressed stream and augments it with lightweight task-aware auxiliary tokens, allowing different downstream tasks to recover the information they need without retraining a separate codec for each task. The framework supports three forms of auxiliary information: visual residual tokens, prompt/control tokens, and semantic tokens. We evaluate PAT-VCM on segmentation, depth estimation, and semantic recognition. A shared detection-oriented auxiliary branch provides a reusable first refinement, task-specific visual branches improve segmentation and depth, prompt tokens provide further segmentation gains at negligible bitrate, and semantic tokens achieve strong recognition performance with extremely low overhead. These results suggest that a shared compressed representation, combined with lightweight task-aware auxiliary tokens, is a practical and scalable alternative to tightly task-coupled VCM design.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.13294v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "15 pages, 3 figures, 13 tables",
+      "entry_id": "http://arxiv.org/abs/2604.13294v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.13294v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.13294v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2604.11585": {
       "title": "GeomPrompt: Geometric Prompt Learning for RGB-D Semantic Segmentation Under Missing and Degraded Depth",
       "authors": [
