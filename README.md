@@ -1,4 +1,4 @@
-## Updated at 2026-04-17 08:32:28
+## Updated at 2026-04-17 20:22:20
 
 ## 3DGS Semantic
 
@@ -8,6 +8,12 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-04-16**|**[Gravitational-wave lensing beyond rays: a disordered-system approach](https://arxiv.org/abs/2604.15313)**|N/A|26 pages, plus technical appendices, 2 figures|astro-ph.CO|None|Ripalta Amoruso et al.|
+|**2026-04-16**|**[One-shot Compositional 3D Head Avatars with Deformable Hair](https://arxiv.org/abs/2604.14782)**|N/A|project page: https://yuansun-xjtu.github.io/CompHairHead.io|cs.CV|None|Yuan Sun et al.|
+|**2026-04-16**|**[NG-GS: NeRF-Guided 3D Gaussian Splatting Segmentation](https://arxiv.org/abs/2604.14706)**|N/A|Accepted to CVPR 2026 (Highlight)|cs.CV|None|Yi He et al.|
+|**2026-04-16**|**[Gating Enables Curvature: A Geometric Expressivity Gap in Attention](https://arxiv.org/abs/2604.14702)**|N/A|41 pages, 9 figures|cs.LG|None|Satwik Bathula, Anand A. Joshi|
+|**2026-04-16**|**[Uncertainty-aware Generative Learning Path Recommendation with Cognition-Adaptive Diffusion](https://arxiv.org/abs/2604.14613)**|N/A|20 pages, 4 figures|cs.IR|None|Xiangrui Xiong et al.|
+|**2026-04-15**|**[HY-World 2.0: A Multi-Modal World Model for Reconstructing, Generating, and Simulating 3D Worlds](https://arxiv.org/abs/2604.14268)**|N/A|Project Page: https://3d-models.hunyuan.tencent.com/world/ ; Code: https://github.com/Tencent-Hunyuan/HY-World-2.0|cs.CV|None|Team HY-World et al.|
 |**2026-04-15**|**[ClipGStream: Clip-Stream Gaussian Splatting for Any Length and Any Motion Multi-View Dynamic Scene Reconstruction](https://arxiv.org/abs/2604.13746)**|N/A|CVPR 2026, Project pages: https://liangjie1999.github.io/ClipGStreamWeb/|cs.CV|None|Jie Liang et al.|
 |**2026-04-15**|**[Comparison of window shapes and lengths in short-time feature extraction for classification of heart sound signals](https://arxiv.org/abs/2604.13567)**|International Journal of Electrical and Computer Engineering (IJECE)|None|cs.SD|None|Mahmoud Fakhry, Abeer FathAllah Brery|
 |**2026-04-15**|**[Classical Machine Learning Baselines for Deepfake Audio Detection on the Fake-or-Real Dataset](https://arxiv.org/abs/2604.13400)**|N/A|Accepted for Oral Presentation at The 35th IEEE Microelectronics Design and Test Symposium|eess.AS|None|Faheem Ahmad et al.|
@@ -35,7 +41,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2026-04-09**|**[BLaDA: Bridging Language to Functional Dexterous Actions within 3DGS Fields](https://arxiv.org/abs/2604.08410)**|N/A|Code will be publicly available at https://github.com/PopeyePxx/BLaDA|cs.CV|None|Fan Yang et al.|
 |**2026-04-09**|**[DiffVC: A Non-autoregressive Framework Based on Diffusion Model for Video Captioning](https://arxiv.org/abs/2604.08084)**|N/A|None|cs.CV|None|Junbo Wang et al.|
 |**2026-04-09**|**[DP-DeGauss: Dynamic Probabilistic Gaussian Decomposition for Egocentric 4D Scene Reconstruction](https://arxiv.org/abs/2604.07986)**|N/A|None|cs.CV|None|Tingxi Chen et al.|
-|**2026-04-09**|**[Stochastic Thermodynamics for Autoregressive Generative Models: A Non-Markovian Perspective](https://arxiv.org/abs/2604.07867)**|N/A|41 pages, 10 figures|cond-mat.stat-mech|None|Takahiro Sagawa|
+|**2026-04-09**|**[Stochastic Thermodynamics for Autoregressive Generative Models: A Non-Markovian Perspective](https://arxiv.org/abs/2604.07867)**|N/A|27 pages, 10 figures|cond-mat.stat-mech|None|Takahiro Sagawa|
 |**2026-04-09**|**[Sparse $ε$ insensitive zone bounded asymmetric elastic net support vector machines for pattern classification](https://arxiv.org/abs/2604.07748)**|N/A|None|stat.ML|None|Haiyan Du, Hu Yang|
 |**2026-04-09**|**[GEAR: GEometry-motion Alternating Refinement for Articulated Object Modeling with Gaussian Splatting](https://arxiv.org/abs/2604.07728)**|N/A|Accepted to CVPRF2026|cs.CV|None|Jialin Li et al.|
 |**2026-04-08**|**[Decompose, Look, and Reason: Reinforced Latent Reasoning for VLMs](https://arxiv.org/abs/2604.07518)**|N/A|None|cs.CL|None|Mengdan Zhu et al.|
@@ -58,6 +64,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2026-04-03**|**[Noise Steering for Controlled Text Generation: Improving Diversity and Reading-Level Fidelity in Arabic Educational Story Generation](https://arxiv.org/abs/2604.03380)**|N/A|Under Review|cs.CL|None|Haziq Mohammad Khalid et al.|
 |**2026-04-03**|**[DynFOA: Generating First-Order Ambisonics with Conditional Diffusion for Dynamic and Acoustically Complex 360-Degree Videos](https://arxiv.org/abs/2604.02781)**|arXiv.org|Accidental duplicate submission. This paper was intended to be a replacement (v2) for arXiv:2602.06846|cs.SD|None|Ziyu Luo et al.|
 |**2026-04-03**|**[THOM: Generating Physically Plausible Hand-Object Meshes From Text](https://arxiv.org/abs/2604.02736)**|N/A|accepted to CVPR Findings 2026|cs.CV|None|Uyoung Jeong et al.|
+|**2026-04-03**|**[MixAtlas: Uncertainty-aware Data Mixture Optimization for Multimodal LLM Midtraining](https://arxiv.org/abs/2604.14198)**|N/A|None|cs.LG|None|Bingbing Wen et al.|
 |**2026-04-02**|**[Resonance4D: Frequency-Domain Motion Supervision for Preset-Free Physical Parameter Learning in 4D Dynamic Physical Scene Simulation](https://arxiv.org/abs/2604.01994)**|N/A|None|cs.CV|None|Changshe Zhang et al.|
 |**2026-04-02**|**[A3R: Agentic Affordance Reasoning via Cross-Dimensional Evidence in 3D Gaussian Scenes](https://arxiv.org/abs/2604.01882)**|N/A|None|cs.CV|None|Di Li et al.|
 |**2026-04-02**|**[MATA-Former & SIICU: Semantic Aware Temporal Alignment for High-Fidelity ICU Risk Prediction](https://arxiv.org/abs/2604.01727)**|N/A|None|cs.LG|None|Zhichong Zheng et al.|
@@ -848,6 +855,7 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-04-16**|**[Integrating Object Detection, LiDAR-Enhanced Depth Estimation, and Segmentation Models for Railway Environments](https://arxiv.org/abs/2604.14781)**|N/A|Under submission for publication|cs.CV|None|Enrico Francesco Giannico et al.|
 |**2026-04-15**|**[Reconstruction of a 3D wireframe from a single line drawing via generative depth estimation](https://arxiv.org/abs/2604.13549)**|N/A|None|cs.CV|None|Elton Cao, Hod Lipson|
 |**2026-04-14**|**[PAT-VCM: Plug-and-Play Auxiliary Tokens for Video Coding for Machines](https://arxiv.org/abs/2604.13294)**|N/A|15 pages, 3 figures, 13 tables|cs.CV|None|Wei Jiang, Wei Wang|
 |**2026-04-13**|**[GeomPrompt: Geometric Prompt Learning for RGB-D Semantic Segmentation Under Missing and Degraded Depth](https://arxiv.org/abs/2604.11585)**|N/A|Accepted to the CVPR 2026 URVIS Workshop. Project page: https://geomprompt.github.io|cs.CV|None|Krishna Jaganathan, Patricio Vela|

@@ -1,5 +1,319 @@
 {
   "3DGS Semantic": {
+    "2604.15313": {
+      "title": "Gravitational-wave lensing beyond rays: a disordered-system approach",
+      "authors": [
+        "Ripalta Amoruso",
+        "Ginevra Braga",
+        "Alice Garoffolo",
+        "Francescopaolo Lopez",
+        "Nicola Bartolo",
+        "Sabino Matarrese"
+      ],
+      "published": "2026-04-16T17:59:59+00:00",
+      "updated": "2026-04-16T17:59:59+00:00",
+      "summary": "We develop a framework to describe gravitational wave propagation through a stochastic distribution of weak gravitational lenses beyond the geometric optics limit. We model the lens distribution as a static random background field and formulate the problem in the language of quenched disorder, treating the disorder averaged density matrix as the fundamental object from which observables are computed. Using the Schwinger Keldysh formalism, we construct a path-integral representation of the averaged density matrix and derive its explicit form perturbatively for a suitable class of couplings. The result naturally separates into a quadratic exponential term, which governs the suppression of phase sensitive contributions in the averaged description, and a purely oscillatory contribution, which modifies coherent propagation through a disorder-induced correction to the propagation kernel. This provides a unified description of interference, diffraction, and statistical fluctuations of the lens distribution within a single framework. We also identify the physical scales controlling the onset of coherence loss and illustrate the formalism in the case of Gaussian wave packets. More generally, the derivation applies to any system described by the same class of actions, making the framework relevant beyond gravitational wave lensing to wave propagation in disordered media.",
+      "categories": [
+        "astro-ph.CO",
+        "cond-mat.dis-nn",
+        "gr-qc"
+      ],
+      "primary_category": "astro-ph.CO",
+      "pdf_url": "https://arxiv.org/pdf/2604.15313v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "26 pages, plus technical appendices, 2 figures",
+      "entry_id": "http://arxiv.org/abs/2604.15313v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.15313v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.15313v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-17",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2604.14782": {
+      "title": "One-shot Compositional 3D Head Avatars with Deformable Hair",
+      "authors": [
+        "Yuan Sun",
+        "Xuan Wang",
+        "WeiLi Zhang",
+        "Wenxuan Zhang",
+        "Yu Guo",
+        "Fei Wang"
+      ],
+      "published": "2026-04-16T08:39:37+00:00",
+      "updated": "2026-04-16T08:39:37+00:00",
+      "summary": "We propose a compositional method for constructing a complete 3D head avatar from a single image. Prior one-shot holistic approaches frequently fail to produce realistic hair dynamics during animation, largely due to inadequate decoupling of hair from the facial region, resulting in entangled geometry and unnatural deformations. Our method explicitly decouples hair from the face, modeling these components using distinct deformation paradigms while integrating them into a unified rendering pipeline. Furthermore, by leveraging image-to-3D lifting techniques, we preserve fine-grained textures from the input image to the greatest extent possible, effectively mitigating the common issue of high-frequency information loss in generalized models. Specifically, given a frontal portrait image, we first perform hair removal to obtain a bald image. Both the original image and the bald image are then lifted to dense, detail-rich 3D Gaussian Splatting (3DGS) representations. For the bald 3DGS, we rig it to a FLAME mesh via non-rigid registration with a prior model, enabling natural deformation that follows the mesh triangles during animation. For the hair component, we employ semantic label supervision combined with a boundary-aware reassignment strategy to extract a clean and isolated set of hair Gaussians. To control hair deformation, we introduce a cage structure that supports Position-Based Dynamics (PBD) simulation, allowing realistic and physically plausible transformations of the hair Gaussian primitives under head motion, gravity, and inertial effects. Striking qualitative results, including dynamic animations under diverse head motions, gravity effects, and expressions, showcase substantially more realistic hair behavior alongside faithfully preserved facial details, outperforming state-of-the-art one-shot methods in perceptual realism.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.14782v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "project page: https://yuansun-xjtu.github.io/CompHairHead.io",
+      "entry_id": "http://arxiv.org/abs/2604.14782v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.14782v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.14782v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-17",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2604.14706": {
+      "title": "NG-GS: NeRF-Guided 3D Gaussian Splatting Segmentation",
+      "authors": [
+        "Yi He",
+        "Tao Wang",
+        "Yi Jin",
+        "Congyan Lang",
+        "Yidong Li",
+        "Haibin Ling"
+      ],
+      "published": "2026-04-16T07:14:07+00:00",
+      "updated": "2026-04-16T07:14:07+00:00",
+      "summary": "Recent advances in 3D Gaussian Splatting (3DGS) have enabled highly efficient and photorealistic novel view synthesis. However, segmenting objects accurately in 3DGS remains challenging due to the discrete nature of Gaussian representations, which often leads to aliasing and artifacts at object boundaries. In this paper, we introduce NG-GS, a novel framework for high-quality object segmentation in 3DGS that explicitly addresses boundary discretization. Our approach begins by automatically identifying ambiguous Gaussians at object boundaries using mask variance analysis. We then apply radial basis function (RBF) interpolation to construct a spatially continuous feature field, enhanced by multi-resolution hash encoding for efficient multi-scale representation. A joint optimization strategy aligns 3DGS with a lightweight NeRF module through alignment and spatial continuity losses, ensuring smooth and consistent segmentation boundaries. Extensive experiments on NVOS, LERF-OVS, and ScanNet benchmarks demonstrate that our method achieves state-of-the-art performance, with significant gains in boundary mIoU. Code is available at https://github.com/BJTU-KD3D/NG-GS.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.14706v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted to CVPR 2026 (Highlight)",
+      "entry_id": "http://arxiv.org/abs/2604.14706v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.14706v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.14706v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-17",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2604.14702": {
+      "title": "Gating Enables Curvature: A Geometric Expressivity Gap in Attention",
+      "authors": [
+        "Satwik Bathula",
+        "Anand A. Joshi"
+      ],
+      "published": "2026-04-16T07:09:11+00:00",
+      "updated": "2026-04-16T07:09:11+00:00",
+      "summary": "Multiplicative gating is widely used in neural architectures and has recently been applied to attention layers to improve performance and training stability in large language models. Despite the success of gated attention, the mathematical implications of gated attention mechanisms remain poorly understood. We study attention through the geometry of its representations by modeling outputs as mean parameters of Gaussian distributions and analyzing the induced Fisher--Rao geometry. We show that ungated attention operator is restricted to intrinsically flat statistical manifolds due to its affine structure, while multiplicative gating enables non-flat geometries, including positively curved manifolds that are unattainable in the ungated setting. These results establish a geometric expressivity gap between ungated and gated attention. Empirically, we show that gated models exhibit higher representation curvature and improved performance on tasks requiring nonlinear decision boundaries whereas they provide no consistent advantage on tasks with linear decision boundaries. Furthermore, we identify a structured regime in which curvature accumulates under composition, yielding a systematic depth amplification effect.",
+      "categories": [
+        "cs.LG",
+        "stat.ML"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2604.14702v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "41 pages, 9 figures",
+      "entry_id": "http://arxiv.org/abs/2604.14702v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.14702v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.14702v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-17",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2604.14613": {
+      "title": "Uncertainty-aware Generative Learning Path Recommendation with Cognition-Adaptive Diffusion",
+      "authors": [
+        "Xiangrui Xiong",
+        "Hang Liang",
+        "Baiyang Chen",
+        "Zifei Pan",
+        "Yanli Lee"
+      ],
+      "published": "2026-04-16T04:39:53+00:00",
+      "updated": "2026-04-16T04:39:53+00:00",
+      "summary": "Learning Path Recommendation (LPR) is critical for personalized education, yet current methods often fail to account for historical interaction uncertainty (e.g., lucky guesses or accidental slips) and lack adaptability to diverse learning goals. We propose U-GLAD (Uncertainty-aware Generative Learning Path Recommendation with Cognition-Adaptive Diffusion). To address representation bias, the framework models cognitive states as probability distributions, capturing the learner's underlying true state via a Gaussian LSTM. To ensure highly personalized recommendation, a goal-oriented concept encoder utilizes multi-head attention and objective-specific transformations to dynamically align concept semantics with individual learning goals, generating uniquely tailored embeddings. Unlike traditional discriminative ranking approaches, our model employs a generative diffusion model to predict the latent representation of the next optimal concept. Extensive evaluations on three public datasets demonstrate that U-GLAD significantly outperforms representative baselines. Further analyses confirm its superior capability in perceiving interaction uncertainty and providing stable, goal-driven recommendation paths.",
+      "categories": [
+        "cs.IR",
+        "cs.AI"
+      ],
+      "primary_category": "cs.IR",
+      "pdf_url": "https://arxiv.org/pdf/2604.14613v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "20 pages, 4 figures",
+      "entry_id": "http://arxiv.org/abs/2604.14613v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.14613v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.14613v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-17",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2604.14268": {
+      "title": "HY-World 2.0: A Multi-Modal World Model for Reconstructing, Generating, and Simulating 3D Worlds",
+      "authors": [
+        "Team HY-World",
+        "Chenjie Cao",
+        "Xuhui Zuo",
+        "Zhenwei Wang",
+        "Yisu Zhang",
+        "Junta Wu",
+        "Zhenyang Liu",
+        "Yuning Gong",
+        "Yang Liu",
+        "Bo Yuan",
+        "Chao Zhang",
+        "Coopers Li",
+        "Dongyuan Guo",
+        "Fan Yang",
+        "Haiyu Zhang",
+        "Hang Cao",
+        "Jianchen Zhu",
+        "Jiaxin Lin",
+        "Jie Xiao",
+        "Jihong Zhang",
+        "Junlin Yu",
+        "Lei Wang",
+        "Lifu Wang",
+        "Lilin Wang",
+        "Linus",
+        "Minghui Chen",
+        "Peng He",
+        "Penghao Zhao",
+        "Qi Chen",
+        "Rui Chen",
+        "Rui Shao",
+        "Sicong Liu",
+        "Wangchen Qin",
+        "Xiaochuan Niu",
+        "Xiang Yuan",
+        "Yi Sun",
+        "Yifei Tang",
+        "Yifu Sun",
+        "Yihang Lian",
+        "Yonghao Tan",
+        "Yuhong Liu",
+        "Yuyang Yin",
+        "Zhiyuan Min",
+        "Tengfei Wang",
+        "Chunchao Guo"
+      ],
+      "published": "2026-04-15T17:59:17+00:00",
+      "updated": "2026-04-15T17:59:17+00:00",
+      "summary": "We introduce HY-World 2.0, a multi-modal world model framework that advances our prior project HY-World 1.0. HY-World 2.0 accommodates diverse input modalities, including text prompts, single-view images, multi-view images, and videos, and produces 3D world representations. With text or single-view image inputs, the model performs world generation, synthesizing high-fidelity, navigable 3D Gaussian Splatting (3DGS) scenes. This is achieved through a four-stage method: a) Panorama Generation with HY-Pano 2.0, b) Trajectory Planning with WorldNav, c) World Expansion with WorldStereo 2.0, and d) World Composition with WorldMirror 2.0. Specifically, we introduce key innovations to enhance panorama fidelity, enable 3D scene understanding and planning, and upgrade WorldStereo, our keyframe-based view generation model with consistent memory. We also upgrade WorldMirror, a feed-forward model for universal 3D prediction, by refining model architecture and learning strategy, enabling world reconstruction from multi-view images or videos. Also, we introduce WorldLens, a high-performance 3DGS rendering platform featuring a flexible engine-agnostic architecture, automatic IBL lighting, efficient collision detection, and training-rendering co-design, enabling interactive exploration of 3D worlds with character support. Extensive experiments demonstrate that HY-World 2.0 achieves state-of-the-art performance on several benchmarks among open-source approaches, delivering results comparable to the closed-source model Marble. We release all model weights, code, and technical details to facilitate reproducibility and support further research on 3D world models.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.14268v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Project Page: https://3d-models.hunyuan.tencent.com/world/ ; Code: https://github.com/Tencent-Hunyuan/HY-World-2.0",
+      "entry_id": "http://arxiv.org/abs/2604.14268v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.14268v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.14268v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-17",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
     "2604.13746": {
       "title": "ClipGStream: Clip-Stream Gaussian Splatting for Any Length and Any Motion Multi-View Dynamic Scene Reconstruction",
       "authors": [
@@ -1252,27 +1566,27 @@
         "Takahiro Sagawa"
       ],
       "published": "2026-04-09T06:32:15+00:00",
-      "updated": "2026-04-09T06:32:15+00:00",
-      "summary": "Autoregressive generative models -- including Transformers, recurrent neural networks, classical Kalman filters, state space models, and Mamba -- all generate sequences by sampling each output from a deterministic summary of the past, producing genuinely non-Markovian observed processes. We develop a general theoretical framework based on stochastic thermodynamics for this class of architectures and introduce the entropy production, which can be efficiently estimated from sampled trajectories without exponential sampling cost despite the non-Markovian nature of the observed dynamics. As a proof-of-concept experiment for a large language model (LLM), we evaluate the token-level and sentence-level entropy production for a pre-trained Transformer-based model, GPT-2. We also demonstrate the framework in the linear Gaussian case, where the model reduces to the Kalman innovation representation and the entropy production admits an analytical expression. We further show that the entropy production decomposes exactly into non-negative per-step contributions in terms of retrospective inference, and each of those terms further splits into information-theoretically meaningful terms: a compression loss and a model mismatch. Our results establish a bridge between stochastic thermodynamics and modern generative models, and provide a starting point for quantifying irreversibility in a broad class of highly non-Markovian processes such as LLMs.",
+      "updated": "2026-04-16T12:34:35+00:00",
+      "summary": "Autoregressive generative models -- including Transformers, recurrent neural networks, classical Kalman filters, state space models, and Mamba -- all generate sequences by sampling each output from a deterministic summary of the past, producing genuinely non-Markovian observed processes. We develop a general theoretical framework based on stochastic thermodynamics for this class of architectures and introduce the entropy production, which can be efficiently estimated from sampled trajectories without exponential sampling cost, despite the non-Markovian nature of the observed dynamics. As a proof-of-concept experiment with a large language model (LLM), we evaluate the entropy production for a pre-trained Transformer-based model, GPT-2. We find that the token-level entropy production is dominated by a syntactic artifact, while the sentence-level entropy production may yield a more interpretable signal in comparisons between causally ordered and non-causal text sets. We also demonstrate the framework in the linear Gaussian case, where the model reduces to the Kalman innovation representation and the entropy production admits an analytical expression. We further show that the entropy production decomposes exactly into non-negative per-step contributions in terms of retrospective inference, and each of those terms further splits into information-theoretically meaningful terms: a compression loss and a model mismatch. Our results establish a bridge between stochastic thermodynamics and modern generative models, and provide a starting point for quantifying irreversibility in a broad class of highly non-Markovian processes such as LLMs.",
       "categories": [
         "cond-mat.stat-mech",
         "cond-mat.dis-nn"
       ],
       "primary_category": "cond-mat.stat-mech",
-      "pdf_url": "https://arxiv.org/pdf/2604.07867v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.07867v2",
       "journal_ref": null,
       "doi": null,
-      "comment": "41 pages, 10 figures",
-      "entry_id": "http://arxiv.org/abs/2604.07867v1",
+      "comment": "27 pages, 10 figures",
+      "entry_id": "http://arxiv.org/abs/2604.07867v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2604.07867v1",
+          "href": "https://arxiv.org/abs/2604.07867v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2604.07867v1",
+          "href": "https://arxiv.org/pdf/2604.07867v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -2311,6 +2625,55 @@
       "venue_info": {
         "venue_source": "Semantic Scholar",
         "queried_at": "2026-04-15",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2604.14198": {
+      "title": "MixAtlas: Uncertainty-aware Data Mixture Optimization for Multimodal LLM Midtraining",
+      "authors": [
+        "Bingbing Wen",
+        "Sirajul Salekin",
+        "Feiyang Kang",
+        "Bill Howe",
+        "Lucy Lu Wang",
+        "Javier Movellan",
+        "Manjot Bilkhu"
+      ],
+      "published": "2026-04-03T04:26:43+00:00",
+      "updated": "2026-04-03T04:26:43+00:00",
+      "summary": "Domain reweighting can improve sample efficiency and downstream generalization, but data-mixture optimization for multimodal midtraining remains largely unexplored. Current multimodal training recipes tune mixtures along a single dimension, typically data format or task type. We introduce MixAtlas, a method that produces benchmark-targeted data recipes that can be inspected, adapted, and transferred to new corpora. MixAtlas decomposes the training corpus along two axes: image concepts (10 visual-domain clusters discovered via CLIP embeddings) and task supervision (5 objective types including captioning, OCR, grounding, detection, and VQA). Using small proxy models (Qwen2-0.5B) paired with a Gaussian-process surrogate and GP-UCB acquisition, MixAtlas searches the resulting mixture space with the same proxy budget as regression-based baselines but finds better-performing mixtures. We evaluate on 10 benchmarks spanning visual understanding, document reasoning, and multimodal reasoning. On Qwen2-7B, optimized mixtures improve average performance by 8.5%-17.6% over the strongest baseline; on Qwen2.5-7B, gains are 1.0%-3.3%. Both settings reach baseline-equivalent training loss in up to 2 times fewer steps. Recipes discovered on 0.5B proxies transfer to 7B-scale training across Qwen model families.",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2604.14198v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.14198v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.14198v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.14198v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-17",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -106866,6 +107229,45 @@
     }
   },
   "Depth Estimation": {
+    "2604.14781": {
+      "title": "Integrating Object Detection, LiDAR-Enhanced Depth Estimation, and Segmentation Models for Railway Environments",
+      "authors": [
+        "Enrico Francesco Giannico",
+        "Federico Nesti",
+        "Gianluca D'Amico",
+        "Mauro Marinoni",
+        "Edoardo Carosio",
+        "Filippo Salotti",
+        "Salvatore Sabina",
+        "Giorgio Buttazzo"
+      ],
+      "published": "2026-04-16T08:39:37+00:00",
+      "updated": "2026-04-16T08:39:37+00:00",
+      "summary": "Obstacle detection in railway environments is crucial for ensuring safety. However, very few studies address the problem using a complete, modular, and flexible system that can both detect objects in the scene and estimate their distance from the vehicle. Most works focus solely on detection, others attempt to identify the track, and only a few estimate obstacle distances. Additionally, evaluating these systems is challenging due to the lack of ground truth data. In this paper, we propose a modular and flexible framework that identifies the rail track, detects potential obstacles, and estimates their distance by integrating three neural networks for object detection, track segmentation, and monocular depth estimation with LiDAR point clouds. To enable a reliable and quantitative evaluation, the proposed framework is assessed using a synthetic dataset (SynDRA), which provides accurate ground truth annotations, allowing for direct performance comparison with existing methods. The proposed system achieves a mean absolute error (MAE) as low as 0.63 meters by integrating monocular depth maps with LiDAR, enabling not only accurate distance estimates but also spatial perception of the scene.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.14781v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Under submission for publication",
+      "entry_id": "http://arxiv.org/abs/2604.14781v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.14781v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.14781v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2604.13549": {
       "title": "Reconstruction of a 3D wireframe from a single line drawing via generative depth estimation",
       "authors": [
