@@ -1,4 +1,4 @@
-## Updated at 2026-04-20 08:32:01
+## Updated at 2026-04-20 20:26:43
 
 ## 3DGS Semantic
 
@@ -8,6 +8,8 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-04-17**|**[Observation of Strong-to-Weak Spontaneous Symmetry Breaking in a Dephased Fermi Gas](https://arxiv.org/abs/2604.16137)**|N/A|None|cond-mat.quant-gas|None|Si Wang et al.|
+|**2026-04-17**|**[AEGIS: Anchor-Enforced Gradient Isolation for Knowledge-Preserving Vision-Language-Action Fine-Tuning](https://arxiv.org/abs/2604.16067)**|N/A|None|cs.LG|None|Guransh Singh|
 |**2026-04-16**|**[Gravitational-wave lensing beyond rays: a disordered-system approach](https://arxiv.org/abs/2604.15313)**|N/A|26 pages, plus technical appendices, 2 figures|astro-ph.CO|None|Ripalta Amoruso et al.|
 |**2026-04-16**|**[One-shot Compositional 3D Head Avatars with Deformable Hair](https://arxiv.org/abs/2604.14782)**|N/A|project page: https://yuansun-xjtu.github.io/CompHairHead.io|cs.CV|None|Yuan Sun et al.|
 |**2026-04-16**|**[NG-GS: NeRF-Guided 3D Gaussian Splatting Segmentation](https://arxiv.org/abs/2604.14706)**|N/A|Accepted to CVPR 2026 (Highlight)|cs.CV|None|Yi He et al.|

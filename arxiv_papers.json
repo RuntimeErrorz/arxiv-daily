@@ -1,5 +1,100 @@
 {
   "3DGS Semantic": {
+    "2604.16137": {
+      "title": "Observation of Strong-to-Weak Spontaneous Symmetry Breaking in a Dephased Fermi Gas",
+      "authors": [
+        "Si Wang",
+        "Thomas G. Kiely",
+        "Dorothee Tell",
+        "Johannes Obermeyer",
+        "Marnix Barendregt",
+        "Petar Bojović",
+        "Philipp M. Preiss",
+        "Abhijat Sarma",
+        "Titus Franz",
+        "Matthew P. A. Fisher",
+        "Cenke Xu",
+        "Immanuel Bloch"
+      ],
+      "published": "2026-04-17T15:09:07+00:00",
+      "updated": "2026-04-17T15:09:07+00:00",
+      "summary": "Symmetry-based classification of quantum phases of matter is one of the most foundational organizing principles in physics; however, an analogous framework for mixed, decohered quantum states has only begun to emerge. A central new concept is strong-to-weak spontaneous symmetry breaking (SW-SSB), a sharp transition in mixed quantum states that is invisible to any observable linear in the density matrix and that has since been predicted across a broad class of open and monitored quantum systems. It also provides a unifying language for phenomena as disparate as the decodability of topological quantum memories and the emergence of classical hydrodynamics from decohered quantum dynamics. Here we report the first experimental observation of SW-SSB, in dephased single-component fermionic matter imaged by a quantum gas microscope. A quantum-classical estimator built on a machine-learned Gaussian reference state gives direct access to the nonlinear Rényi-1 and Rényi-2 correlators that diagnose SW-SSB, and reveals long-range Rényi order in the dephased Fermi liquid. Adding a commensurate superlattice drives the underlying fermions through a metal-to-insulator transition that, after full dephasing, manifests as a sharp SW-SSB phase transition. Our results uncover the symmetry principle behind information-theoretic transitions in open quantum systems, and extend Landau's symmetry paradigm into the regime of real, decohering quantum devices.",
+      "categories": [
+        "cond-mat.quant-gas",
+        "quant-ph"
+      ],
+      "primary_category": "cond-mat.quant-gas",
+      "pdf_url": "https://arxiv.org/pdf/2604.16137v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.16137v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.16137v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.16137v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-20",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2604.16067": {
+      "title": "AEGIS: Anchor-Enforced Gradient Isolation for Knowledge-Preserving Vision-Language-Action Fine-Tuning",
+      "authors": [
+        "Guransh Singh"
+      ],
+      "published": "2026-04-17T13:49:57+00:00",
+      "updated": "2026-04-17T13:49:57+00:00",
+      "summary": "Adapting pre-trained vision-language models (VLMs) for robotic control requires injecting high-magnitude continuous gradients from a flow-matching action expert into a backbone trained exclusively with cross-entropy. This cross-modal gradient asymmetry - the spectral dimensionality mismatch between low-rank MSE regression gradients and the high-dimensional semantic manifold sculpted by CE pre-training, causes rapid, severe erosion of the VLM's visual-question-answering (VQA) capability. Industry-standard defences either sever the gradient pathway entirely via stop gradient, discarding the rich continuous supervision, or restrict parameter capacity through low-rank adapters (LoRA) that constrain the rank of updates but not their direction, and thus still overwrite the pre-trained manifold. We introduce AEGIS (Anchor-Enforced Gradient Isolation System): a buffer-free, layer-wise orthogonal gradient projection framework that enables direct continuous MSE learning while preserving the pre-trained VQA manifold - without any co-training data or replay buffer. AEGIS pre-computes a static Gaussian reference anchor from masked VQA forward passes across all transformer layers, then at each training step constructs a Wasserstein-2 transport penalty that generates an anchor restoration gradient. A sequential dual-backward decomposes the task and anchor gradients; for each transformer layer, AEGIS applies a single Gram-Schmidt orthogonal projection that bends the task gradient away from the destructive direction while preserving its constructive content. The projection sheds less than 1% of gradient energy on average, yet eliminates the cumulative activation drift that drives severe forgetting.",
+      "categories": [
+        "cs.LG",
+        "cs.CV"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2604.16067v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.16067v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.16067v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.16067v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-20",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
     "2604.15313": {
       "title": "Gravitational-wave lensing beyond rays: a disordered-system approach",
       "authors": [
