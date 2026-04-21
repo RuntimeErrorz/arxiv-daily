@@ -1,5 +1,434 @@
 {
   "3DGS Semantic": {
+    "2604.18424": {
+      "title": "Context-Aware Search and Retrieval Under Token Erasure",
+      "authors": [
+        "Sara Ghasvarianjahromi",
+        "Joshua Barr",
+        "Yauhen Yakimenka",
+        "Jörg Kliewer"
+      ],
+      "published": "2026-04-20T15:42:12+00:00",
+      "updated": "2026-04-20T15:42:12+00:00",
+      "summary": "This paper introduces and analyzes a search and retrieval model for RAG-like systems under {token} erasures. We provide an information-theoretic analysis of remote document retrieval when query representations are only partially preserved. The query is represented using term-frequency-based features, and semantically adaptive redundancy is assigned according to feature importance. Retrieval is performed using TF-IDF-weighted similarity. We characterize the retrieval error probability by showing that the vector of similarity margins converges to a multivariate Gaussian distribution, yielding an explicit approximation and computable upper bounds. Numerical results support the analysis, while a separate data-driven evaluation using embedding-based retrieval on real-world data shows that the same importance-aware redundancy principles extend to modern retrieval pipelines. Overall, the results show that assigning higher redundancy to semantically important query features improves retrieval reliability.",
+      "categories": [
+        "cs.IR",
+        "cs.IT"
+      ],
+      "primary_category": "cs.IR",
+      "pdf_url": "https://arxiv.org/pdf/2604.18424v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.18424v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.18424v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.18424v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2604.17906": {
+      "title": "Bayesian Active Learning with Gaussian Processes Guided by LLM Relevance Scoring for Dense Passage Retrieval",
+      "authors": [
+        "Junyoung Kim",
+        "Anton Korikov",
+        "Jiazhou Liang",
+        "Justin Cui",
+        "Yifan Simon Liu",
+        "Qianfeng Wen",
+        "Mark Zhao",
+        "Scott Sanner"
+      ],
+      "published": "2026-04-20T07:32:56+00:00",
+      "updated": "2026-04-20T07:32:56+00:00",
+      "summary": "While Large Language Models (LLMs) exhibit exceptional zero-shot relevance modeling, their high computational cost necessitates framing passage retrieval as a budget-constrained global optimization problem. Existing approaches passively rely on first-stage dense retrievers, which leads to two limitations: (1) failing to retrieve relevant passages in semantically distinct clusters, and (2) failing to propagate relevance signals to the broader corpus. To address these limitations, we propose Bayesian Active Learning with Gaussian Processes guided by LLM relevance scoring (BAGEL), a novel framework that propagates sparse LLM relevance signals across the embedding space to guide global exploration. BAGEL models the multimodal relevance distribution across the entire embedding space with a query-specific Gaussian Process (GP) based on LLM relevance scores. Subsequently, it iteratively selects passages for scoring by strategically balancing the exploitation of high-confidence regions with the exploration of uncertain areas. Extensive experiments across four benchmark datasets and two LLM backbones demonstrate that BAGEL effectively explores and captures complex relevance distributions and outperforms LLM reranking methods under the same LLM budget on all four datasets.",
+      "categories": [
+        "cs.IR",
+        "cs.AI"
+      ],
+      "primary_category": "cs.IR",
+      "pdf_url": "https://arxiv.org/pdf/2604.17906v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "ACL 2026 Findings",
+      "entry_id": "http://arxiv.org/abs/2604.17906v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.17906v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.17906v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2604.17802": {
+      "title": "Optimally Bridging Semantics and Data: Generative Semantic Communication via Schrödinger Bridge",
+      "authors": [
+        "Dahua Gao",
+        "Ruichao Liu",
+        "Minxi Yang",
+        "Shuai Ma",
+        "Youlong Wu",
+        "Guangming Shi"
+      ],
+      "published": "2026-04-20T04:49:58+00:00",
+      "updated": "2026-04-20T04:49:58+00:00",
+      "summary": "Generative Semantic Communication (GSC) is a promising solution for image transmission over narrow-band and high-noise channels. However, existing GSC methods rely on long, indirect transport trajectories from a Gaussian to an image distribution guided by semantics, causing severe hallucination and high computational cost. To address this, we propose a general framework named Schrödinger Bridge-based GSC (SBGSC). By leveraging the Schrödinger Bridge (SB) to construct optimal transport trajectories between arbitrary distributions, SBGSC breaks Gaussian limitations and enables direct generative decoding from semantics to images. Within this framework, we design Diffusion SB-based GSC (DSBGSC). DSBGSC reconstructs the nonlinear drift term of diffusion models using Schrödinger potentials, achieving direct optimal distribution transport to reduce hallucinations and computational overhead. To further accelerate generation, we propose a self-consistency-based objective guiding the model to learn a nonlinear velocity field pointing directly toward the image, bypassing Markovian noise prediction to significantly reduce sampling steps. Simulation results demonstrate that DSBGSC outperforms state-of-the-art GSC methods, improving FID by at least 38% and SSIM by 49.3%, while accelerating inference speed by over 8 times.",
+      "categories": [
+        "eess.IV",
+        "cs.CV"
+      ],
+      "primary_category": "eess.IV",
+      "pdf_url": "https://arxiv.org/pdf/2604.17802v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "23 pages, 10 figures, under review",
+      "entry_id": "http://arxiv.org/abs/2604.17802v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.17802v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.17802v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2604.17776": {
+      "title": "Trajectory-Based Optimization for Air Traffic Control in the Terminal Maneuvering Area",
+      "authors": [
+        "Yutian Pang",
+        "Daniel Delahaye",
+        "John-Paul Clarke"
+      ],
+      "published": "2026-04-20T03:53:30+00:00",
+      "updated": "2026-04-20T03:53:30+00:00",
+      "summary": "We present a trajectory-based optimization framework for arrival sequencing and scheduling in the terminal maneuvering area (TMA). Unlike node-link scheduling models that reduce trajectories to time-delay variables, the proposed method computes implementable per-aircraft speed profiles and path extensions that achieve required landing separation through terminal air traffic control actions. The framework combines an analytic TMA path model, consisting of a tangent leg, a radius-to-fix turn, and a final-approach segment, with a nonlinear program (NLP) that jointly optimizes path stretch and segment speeds under a weighted objective. Three landing-order policies are examined: First-Entry-First-Serve (FEFS), First-on-Final-First-Serve (FOFFS), and FOFFS with Constrained Position Shifting (CPS) up to $k$ positions. CPS is implemented through a two-phase approach coupling mixed-integer linear programming (MILP) with NLP to select an optimized landing order before trajectory optimization. The aircraft population follows a realistic weight-class fleet mix with pair-specific wake-turbulence separation, and each scenario is perturbed by a Gaussian wind sample projected onto each segment to convert commanded airspeeds into ground speeds. An online rolling-horizon formulation commits each aircraft trajectory irrevocably upon entry, enabling real-time decision-making. Monte Carlo experiments on the simplified A80 TMA show that: (i) FOFFS consistently outperforms FEFS in delay, path stretch, and fuel burn by exploiting geometric asymmetries among arrival streams; (ii) CPS further reduces separation violations and path stretch, though with diminishing returns and rapidly increasing solver cost; (iii) fuel estimates from BADA 3 and OpenAP show consistent qualitative trends; and (iv) per-entry optimization completes in near real-time, supporting practical deployment.",
+      "categories": [
+        "eess.SY",
+        "math.OC",
+        "math.PR"
+      ],
+      "primary_category": "eess.SY",
+      "pdf_url": "https://arxiv.org/pdf/2604.17776v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.17776v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.17776v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.17776v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2604.17465": {
+      "title": "Language models recognize dropout and Gaussian noise applied to their activations",
+      "authors": [
+        "Damiano Fornasiere",
+        "Mirko Bronzi",
+        "Spencer Kitts",
+        "Alessandro Palmas",
+        "Yoshua Bengio",
+        "Oliver Richardson"
+      ],
+      "published": "2026-04-19T14:30:13+00:00",
+      "updated": "2026-04-19T14:30:13+00:00",
+      "summary": "We provide evidence that language models can detect, localize and, to a certain degree, verbalize the difference between perturbations applied to their activations. More precisely, we either (a) \\emph{mask} activations, simulating \\emph{dropout}, or (b) add \\emph{Gaussian noise} to them, at a target sentence. We then ask a multiple-choice question such as ``\\emph{Which of the previous sentences was perturbed?}'' or ``\\emph{Which of the two perturbations was applied?}''.\n  We test models from the Llama, Olmo, and Qwen families, with sizes between 8B and 32B, all of which can easily detect and localize the perturbations, often with perfect accuracy. These models can also learn, when taught in context, to distinguish between dropout and Gaussian noise. Notably, \\qwenb's \\emph{zero-shot} accuracy in identifying which perturbation was applied improves as a function of the perturbation strength and, moreover, decreases if the in-context labels are flipped, suggesting a prior for the correct ones -- even modulo controls.\n  Because dropout has been used as a training-regularization technique, while Gaussian noise is sometimes added during inference, we discuss the possibility of a data-agnostic ``training awareness'' signal and the implications for AI safety.\n  The code and data are available at \\href{https://github.com/saifh-github/llm-dropout-noise-recognition}{link 1} and \\href{https://drive.google.com/file/d/1es-Sfw_AH9GficeXgeqpy87rocrZZ_PQ/view}{link 2}, respectively.",
+      "categories": [
+        "cs.AI"
+      ],
+      "primary_category": "cs.AI",
+      "pdf_url": "https://arxiv.org/pdf/2604.17465v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.17465v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.17465v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.17465v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2604.17451": {
+      "title": "SegTTA: Training-Free Test-Time Augmentation for Zero-Shot Medical Imaging Segmentation",
+      "authors": [
+        "Yihong Yao",
+        "Chunlei Li",
+        "Canxuan Gang",
+        "Wenzhi Hu",
+        "Zeyu Zhang",
+        "Hao Zhang",
+        "Xiaoyan Li"
+      ],
+      "published": "2026-04-19T14:05:18+00:00",
+      "updated": "2026-04-19T14:05:18+00:00",
+      "summary": "Increasingly advanced data augmentation techniques have greatly aided clinical medical research, increasing data diversity and improving model generalization capabilities. Although most current basic models exhibit strong generalization abilities, image quality varies due to differences in equipment and operators. To address these challenges, we present SegTTA, a framework that improves medical image segmentation without model retraining by combining four augmentations (Gamma correction, Contrast enhancement, Gaussian blur, Gaussian noise) with weighted voting across multiple MedSAM2 checkpoints. Experiments demonstrate consistent improvements across three diverse datasets: healthy uterus segmentation, uterine myoma detection, and multi class hepatic structure segmentation. Ablation studies reveal that large organs benefit from intensity augmentations while small lesions require noise augmentations. The voting threshold controls the coverage precision trade off, enabling task specific optimization for different clinical requirements. Ultimately, on a multiclass hepatic vessel dataset, compared to MedSAM2 baselines, our method achieves an increase of 1.6 in mIoU and 1.9 in aIoU, along with a reduction of approximately 2.0 in HD95. Code will be available at https://github.com/AIGeeksGroup/SegTTA.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.17451v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.17451v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.17451v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.17451v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2604.17319": {
+      "title": "E2E-GMNER: End-to-End Generative Grounded Multimodal Named Entity Recognition",
+      "authors": [
+        "Meng Zhang",
+        "Jinzhong Ning",
+        "Xiaolong Wu",
+        "Hongfei Lin",
+        "Yijia Zhang"
+      ],
+      "published": "2026-04-19T08:18:06+00:00",
+      "updated": "2026-04-19T08:18:06+00:00",
+      "summary": "Grounded Multimodal Named Entity Recognition (GMNER) aims to jointly identify named entity mentions in text, predict their semantic types, and ground each entity to a corresponding visual region in an associated image. Existing approaches predominantly adopt pipeline-based architectures that decouple textual entity recognition and visual grounding, leading to error accumulation and suboptimal joint optimization. In this paper, we propose E2E-GMNER, a fully end-to-end generative framework that unifies entity recognition, semantic typing, visual grounding, and implicit knowledge reasoning within a single multimodal large language model. We formulate GMNER as an instruction-tuned conditional generation task and incorporate chain-of-thought reasoning to enable the model to adaptively determine when visual evidence or background knowledge is informative, reducing reliance on noisy cues. To further address the instability of generative bounding box prediction, we introduce Gaussian Risk-Aware Box Perturbation (GRBP), which replaces hard box supervision with probabilistically perturbed soft targets to improve robustness against annotation noise and discretization errors. Extensive experiments on the Twitter-GMNER and Twitter-FMNERG benchmarks demonstrate that E2E-GMNER achieves highly competitive performance compared with state of the art methods, validating the effectiveness of unified end-to-end optimization and noise-aware grounding supervision. Code is available at:https://github.com/Finch-coder/E2E-GMNER",
+      "categories": [
+        "cs.CV",
+        "cs.CL"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.17319v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted to Findings of ACL 2026",
+      "entry_id": "http://arxiv.org/abs/2604.17319v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.17319v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.17319v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2604.17298": {
+      "title": "Frequency-guided Multi-level Reasoning for Scene Graph Generation in Video",
+      "authors": [
+        "Chenxing Li",
+        "Yiping Duan",
+        "Xiaoming Tao"
+      ],
+      "published": "2026-04-19T07:28:39+00:00",
+      "updated": "2026-04-19T07:28:39+00:00",
+      "summary": "Video Scene Graph Generation aims to obtain structured semantic representations of objects and their relationships in videos for high-level understanding. However, existing methods still have limitations in handling long-tail distributions. This paper proposes the Frequency-guided Relational Multi-level Reasoning (FReMuRe) model, which enhances the modeling ability of long-tail relationships from a mechanism perspective. We introduce relation-specific branches to deal gradient conflicts, yielding more balanced and tail-aware learning. And we design a frequency-aware dual-branch predicate embedding network to model high-frequency and low-frequency relationships separately and improve the recall rate of tail classes through gated fusion. Meanwhile, we propose two types of interchangeable relation classification heads: Bayesian Head for uncertainty estimation and new Gaussian Mixture Model Head to enhance intra-class diversity. Experimental results show that FReMuRe significantly improves the recall rate of long-tail relationships and overall reasoning robustness on the Action Genome dataset.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.17298v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "5pages,3figures, 2tables, icassp 2026",
+      "entry_id": "http://arxiv.org/abs/2604.17298v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.17298v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.17298v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2604.17155": {
+      "title": "Instant Colorization of Gaussian Splats",
+      "authors": [
+        "Daniel Lieber",
+        "Alexander Mock",
+        "Nils Wandel"
+      ],
+      "published": "2026-04-18T21:56:52+00:00",
+      "updated": "2026-04-18T21:56:52+00:00",
+      "summary": "Gaussian Splatting has recently become one of the most popular frameworks for photorealistic 3D scene reconstruction and rendering. While current rasterizers allow for efficient mappings of 3D Gaussian splats onto 2D camera views, this work focuses on mapping 2D image information (e.g. color, neural features or segmentation masks) efficiently back onto an existing scene of Gaussian splats. This 'opposite' direction enables applications ranging from scene relighting and stylization to 3D semantic segmentation, but also introduces challenges, such as view-dependent colorization and occlusion handling.\n  Our approach tackles these challenges using the normal equation to solve a visibility-weighted least squares problem for every Gaussian and can be implemented efficiently with existing differentiable rasterizers. We demonstrate the effectiveness of our approach on scene relighting, feature enrichment and 3D semantic segmentation tasks, achieving up to an order of magnitude speedup compared to gradient descent-based baselines.",
+      "categories": [
+        "cs.CV",
+        "cs.GR"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.17155v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.17155v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.17155v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.17155v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2604.16780": {
+      "title": "FairNVT: Improving Fairness via Noise Injection in Vision Transformers",
+      "authors": [
+        "Qiaoyue Tang",
+        "Sepidehsadat Hosseini",
+        "Mengyao Zhai",
+        "Thibaut Durand",
+        "Greg Mori"
+      ],
+      "published": "2026-04-18T02:04:29+00:00",
+      "updated": "2026-04-18T02:04:29+00:00",
+      "summary": "This paper presents FairNVT, a lightweight debiasing framework for pretrained transformer-based encoders that improves both representation and prediction level fairness while preserving task accuracy. Unlike many existing debiasing approaches that address these notions separately, we argue they are inherently connected: suppressing sensitive information at the representation level can facilitate fairer predictions. Our approach learns task-relevant and sensitive embeddings via lightweight adapters, applies calibrated Gaussian noise to the sensitive embedding, and fuses it with the task representation. Together with orthogonality constraints and fairness regularization, these components jointly reduce sensitive-attribute leakage in the learned embeddings and encourage fairer downstream predictions. The framework is compatible with a wide range of pretrained transformer encoders. Across three datasets spanning vision and language, FairNVT reduces sensitive-attribute attacker accuracy, improves demographic-parity and equalized-odds metrics, and maintains high task performance.",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.16780v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "ICLR 2026 Algorithmic Fairness Across Alignment Procedures and Agentic Systems (AFAA) Workshop",
+      "entry_id": "http://arxiv.org/abs/2604.16780v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.16780v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.16780v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-21",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2604.16689": {
+      "title": "The Query Channel: Information-Theoretic Limits of Masking-Based Explanations",
+      "authors": [
+        "Erciyes Karakaya",
+        "Ozgur Ercetin"
+      ],
+      "published": "2026-04-17T20:46:25+00:00",
+      "updated": "2026-04-17T20:46:25+00:00",
+      "summary": "Masking-based post-hoc explanation methods, such as KernelSHAP and LIME, estimate local feature importance by querying a black-box model under randomized perturbations. This paper formulates this procedure as communication over a query channel, where the latent explanation acts as a message and each masked evaluation is a channel use. Within this framework, the complexity of the explanation is captured by the entropy of the hypothesis class, while the query interface supplies information at a rate determined by an identification capacity per query. We derive a strong converse showing that, if the explanation rate exceeds this capacity, the probability of exact recovery necessarily converges to one in error for any sequence of explainers and decoders. We also prove an achievability result establishing that a sparse maximum-likelihood decoder attains reliable recovery when the rate lies below capacity. A Monte Carlo estimator of mutual information yields a non-asymptotic query benchmark that we use to compare optimal decoding with Lasso- and OLS-based procedures that mirror LIME and KernelSHAP. Experiments reveal a range of query budgets where information theory permits reliable explanations but standard convex surrogates still fail. Finally, we interpret super-pixel resolution and tokenization for neural language models as a source-coding choice that sets the entropy of the explanation and show how Gaussian noise and nonlinear curvature degrade the query channel, induce waterfall and error-floor behavior, and render high-resolution explanations unattainable.",
+      "categories": [
+        "cs.AI"
+      ],
+      "primary_category": "cs.AI",
+      "pdf_url": "https://arxiv.org/pdf/2604.16689v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.16689v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.16689v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.16689v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-21",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
     "2604.16137": {
       "title": "Observation of Strong-to-Weak Spontaneous Symmetry Breaking in a Dephased Fermi Gas",
       "authors": [
@@ -403,6 +832,48 @@
       "venue_info": {
         "venue_source": "Semantic Scholar",
         "queried_at": "2026-04-17",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2604.16519": {
+      "title": "Positive-Only Drifting Policy Optimization",
+      "authors": [
+        "Qi Zhang"
+      ],
+      "published": "2026-04-15T17:01:10+00:00",
+      "updated": "2026-04-15T17:01:10+00:00",
+      "summary": "In the field of online reinforcement learning (RL), traditional Gaussian policies and flow-based methods are often constrained by their unimodal expressiveness, complex gradient clipping, or stringent trust-region requirements. Moreover, they all rely on post-hoc penalization of negative samples to correct erroneous actions. This paper introduces Positive-Only Drifting Policy Optimization (PODPO), a likelihood-free and gradient-clipping-free generative approach for online RL. By leveraging the drifting model, PODPO performs policy updates via advantage-weighted local contrastive drifting. Relying solely on positive-advantage samples, it elegantly steers actions toward high-return regions while exploiting the inherent local smoothness of the generative model to enable proactive error prevention. In doing so, PODPO opens a promising new pathway for generative policy learning in online settings.",
+      "categories": [
+        "cs.LG",
+        "cs.RO"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2604.16519v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "12 pages, 6 figures",
+      "entry_id": "http://arxiv.org/abs/2604.16519v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.16519v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.16519v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-21",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -1005,6 +1476,51 @@
         "note": "已查询但未找到venue信息"
       }
     },
+    "2604.16482": {
+      "title": "A Survey of Spatial Memory Representations for Efficient Robot Navigation",
+      "authors": [
+        "Ma. Madecheen S. Pangaliman",
+        "Steven S. Sison",
+        "Erwin P. Quilloy",
+        "Rowel Atienza"
+      ],
+      "published": "2026-04-13T02:12:17+00:00",
+      "updated": "2026-04-13T02:12:17+00:00",
+      "summary": "As vision-based robots navigate larger environments, their spatial memory grows without bound, eventually exhausting computational resources, particularly on embedded platforms (8-16GB shared memory, $<$30W) where adding hardware is not an option. This survey examines the spatial memory efficiency problem across 88 references spanning 52 systems (1989-2025), from occupancy grids to neural implicit representations. We introduce the $α= M_{\\text{peak}} / M_{\\text{map}}$, the ratio of peak runtime memory (the total RAM or GPU memory consumed during operation) to saved map size (the persistent checkpoint written to disk), exposing the gap between published map sizes and actual deployment cost. Independent profiling on an NVIDIA A100 GPU reveals that $α$ spans two orders of magnitude within neural methods alone, ranging from 2.3 (Point-SLAM) to 215 (NICE-SLAM, whose 47,MB map requires 10GB at runtime), showing that memory architecture, not paradigm label, determines deployment feasibility. We propose a standardized evaluation protocol comprising memory growth rate, query latency, memory-completeness curves, and throughput degradation, none of which current benchmarks capture. Through a Pareto frontier analysis with explicit benchmark separation, we show that no single paradigm dominates within its evaluation regime: 3DGS methods achieve the best absolute accuracy at 90-254,MB map size on Replica, while scene graphs provide semantic abstraction at predictable cost. We provide the first independently measured $α$ reference values and an $α$-aware budgeting algorithm enabling practitioners to assess deployment feasibility on target hardware prior to implementation.",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.16482v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted at the Women in Computer Vision (WiCV) Workshop at CVPR 2026",
+      "entry_id": "http://arxiv.org/abs/2604.16482v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.16482v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.16482v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-21",
+        "venue": null,
+        "pub_type": "Review",
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
     "2604.11843": {
       "title": "UniMark: Unified Adaptive Multi-bit Watermarking for Autoregressive Image Generators",
       "authors": [
@@ -1427,7 +1943,7 @@
         "Kai-Wei Chang"
       ],
       "published": "2026-04-09T17:59:39+00:00",
-      "updated": "2026-04-09T17:59:39+00:00",
+      "updated": "2026-04-19T05:24:16+00:00",
       "summary": "Group Relative Policy Optimization (GRPO) has emerged as the de facto Reinforcement Learning (RL) objective driving recent advancements in Multimodal Large Language Models. However, extending this success to open-source multimodal generalist models remains heavily constrained by two primary challenges: the extreme variance in reward topologies across diverse visual tasks, and the inherent difficulty of balancing fine-grained perception with multi-step reasoning capabilities. To address these issues, we introduce Gaussian GRPO (G$^2$RPO), a novel RL training objective that replaces standard linear scaling with non-linear distributional matching. By mathematically forcing the advantage distribution of any given task to strictly converge to a standard normal distribution, $\\mathcal{N}(0,1)$, G$^2$RPO theoretically ensures inter-task gradient equity, mitigates vulnerabilities to heavy-tail outliers, and offers symmetric update for positive and negative rewards. Leveraging the enhanced training stability provided by G$^2$RPO, we introduce two task-level shaping mechanisms to seamlessly balance perception and reasoning. First, response length shaping dynamically elicits extended reasoning chains for complex queries while enforce direct outputs to bolster visual grounding. Second, entropy shaping tightly bounds the model's exploration zone, effectively preventing both entropy collapse and entropy explosion. Integrating these methodologies, we present OpenVLThinkerV2, a highly robust, general-purpose multimodal model. Extensive evaluations across 18 diverse benchmarks demonstrate its superior performance over strong open-source and leading proprietary frontier models.",
       "categories": [
         "cs.CV",
@@ -1435,20 +1951,20 @@
         "cs.CL"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2604.08539v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.08539v2",
       "journal_ref": null,
       "doi": null,
       "comment": "code at: https://github.com/uclanlp/openvlthinker",
-      "entry_id": "http://arxiv.org/abs/2604.08539v1",
+      "entry_id": "http://arxiv.org/abs/2604.08539v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2604.08539v1",
+          "href": "https://arxiv.org/abs/2604.08539v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2604.08539v1",
+          "href": "https://arxiv.org/pdf/2604.08539v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -107495,6 +108011,42 @@
         },
         {
           "href": "https://arxiv.org/pdf/2604.11097v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2604.16480": {
+      "title": "Positioning radiata pine branches requiring pruning by drone stereo vision",
+      "authors": [
+        "Yida Lin",
+        "Bing Xue",
+        "Mengjie Zhang",
+        "Sam Schofield",
+        "Richard Green"
+      ],
+      "published": "2026-04-12T10:10:19+00:00",
+      "updated": "2026-04-12T10:10:19+00:00",
+      "summary": "This paper presents a stereo-vision-based system mounted on a drone for detecting and localising radiata pine branches to support autonomous pruning. The proposed pipeline comprises two stages: branch segmentation and depth estimation. For segmentation, YOLOv8, YOLOv9, and Mask R-CNN variants are compared on a custom dataset of 71 stereo image pairs captured with a ZED Mini camera. For depth estimation, both a traditional method (SGBM with WLS filtering) and deep-learning-based methods (PSMNet, ACVNet, GWCNet, MobileStereoNet, RAFT-Stereo, and NeRF-Supervised Deep Stereo) are evaluated. A centroid-based triangulation algorithm with MAD outlier rejection is proposed to compute branch distance from the segmentation mask and disparity map. Qualitative evaluation at distances of 1-2 m indicates that the deep learning-based disparity maps produce more coherent depth estimates than SGBM, demonstrating the feasibility of low-cost stereo vision for automated branch positioning in forestry.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.16480v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.16480v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.16480v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.16480v1",
           "title": "pdf",
           "rel": "related",
           "content_type": null

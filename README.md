@@ -1,4 +1,4 @@
-## Updated at 2026-04-21 08:32:52
+## Updated at 2026-04-21 20:25:40
 
 ## 3DGS Semantic
 
@@ -8,6 +8,17 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-04-20**|**[Context-Aware Search and Retrieval Under Token Erasure](https://arxiv.org/abs/2604.18424)**|N/A|None|cs.IR|None|Sara Ghasvarianjahromi et al.|
+|**2026-04-20**|**[Bayesian Active Learning with Gaussian Processes Guided by LLM Relevance Scoring for Dense Passage Retrieval](https://arxiv.org/abs/2604.17906)**|N/A|ACL 2026 Findings|cs.IR|None|Junyoung Kim et al.|
+|**2026-04-20**|**[Optimally Bridging Semantics and Data: Generative Semantic Communication via Schrödinger Bridge](https://arxiv.org/abs/2604.17802)**|N/A|23 pages, 10 figures, under review|eess.IV|None|Dahua Gao et al.|
+|**2026-04-20**|**[Trajectory-Based Optimization for Air Traffic Control in the Terminal Maneuvering Area](https://arxiv.org/abs/2604.17776)**|N/A|None|eess.SY|None|Yutian Pang et al.|
+|**2026-04-19**|**[Language models recognize dropout and Gaussian noise applied to their activations](https://arxiv.org/abs/2604.17465)**|N/A|None|cs.AI|None|Damiano Fornasiere et al.|
+|**2026-04-19**|**[SegTTA: Training-Free Test-Time Augmentation for Zero-Shot Medical Imaging Segmentation](https://arxiv.org/abs/2604.17451)**|N/A|None|cs.CV|None|Yihong Yao et al.|
+|**2026-04-19**|**[E2E-GMNER: End-to-End Generative Grounded Multimodal Named Entity Recognition](https://arxiv.org/abs/2604.17319)**|N/A|Accepted to Findings of ACL 2026|cs.CV|None|Meng Zhang et al.|
+|**2026-04-19**|**[Frequency-guided Multi-level Reasoning for Scene Graph Generation in Video](https://arxiv.org/abs/2604.17298)**|N/A|5pages,3figures, 2tables, icassp 2026|cs.CV|None|Chenxing Li et al.|
+|**2026-04-18**|**[Instant Colorization of Gaussian Splats](https://arxiv.org/abs/2604.17155)**|N/A|None|cs.CV|None|Daniel Lieber et al.|
+|**2026-04-18**|**[FairNVT: Improving Fairness via Noise Injection in Vision Transformers](https://arxiv.org/abs/2604.16780)**|N/A|ICLR 2026 Algorithmic Fairness Across Alignment Procedures and Agentic Systems (AFAA) Workshop|cs.CV|None|Qiaoyue Tang et al.|
+|**2026-04-17**|**[The Query Channel: Information-Theoretic Limits of Masking-Based Explanations](https://arxiv.org/abs/2604.16689)**|N/A|None|cs.AI|None|Erciyes Karakaya, Ozgur Ercetin|
 |**2026-04-17**|**[Observation of Strong-to-Weak Spontaneous Symmetry Breaking in a Dephased Fermi Gas](https://arxiv.org/abs/2604.16137)**|N/A|None|cond-mat.quant-gas|None|Si Wang et al.|
 |**2026-04-17**|**[AEGIS: Anchor-Enforced Gradient Isolation for Knowledge-Preserving Vision-Language-Action Fine-Tuning](https://arxiv.org/abs/2604.16067)**|N/A|None|cs.LG|None|Guransh Singh|
 |**2026-04-16**|**[Gravitational-wave lensing beyond rays: a disordered-system approach](https://arxiv.org/abs/2604.15313)**|N/A|26 pages, plus technical appendices, 2 figures|astro-ph.CO|None|Ripalta Amoruso et al.|
@@ -16,6 +27,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2026-04-16**|**[Gating Enables Curvature: A Geometric Expressivity Gap in Attention](https://arxiv.org/abs/2604.14702)**|N/A|41 pages, 9 figures|cs.LG|None|Satwik Bathula, Anand A. Joshi|
 |**2026-04-16**|**[Uncertainty-aware Generative Learning Path Recommendation with Cognition-Adaptive Diffusion](https://arxiv.org/abs/2604.14613)**|N/A|20 pages, 4 figures|cs.IR|None|Xiangrui Xiong et al.|
 |**2026-04-15**|**[HY-World 2.0: A Multi-Modal World Model for Reconstructing, Generating, and Simulating 3D Worlds](https://arxiv.org/abs/2604.14268)**|N/A|Project Page: https://3d-models.hunyuan.tencent.com/world/ ; Code: https://github.com/Tencent-Hunyuan/HY-World-2.0|cs.CV|None|Team HY-World et al.|
+|**2026-04-15**|**[Positive-Only Drifting Policy Optimization](https://arxiv.org/abs/2604.16519)**|N/A|12 pages, 6 figures|cs.LG|None|Qi Zhang|
 |**2026-04-15**|**[ClipGStream: Clip-Stream Gaussian Splatting for Any Length and Any Motion Multi-View Dynamic Scene Reconstruction](https://arxiv.org/abs/2604.13746)**|N/A|CVPR 2026, Project pages: https://liangjie1999.github.io/ClipGStreamWeb/|cs.CV|None|Jie Liang et al.|
 |**2026-04-15**|**[Comparison of window shapes and lengths in short-time feature extraction for classification of heart sound signals](https://arxiv.org/abs/2604.13567)**|International Journal of Electrical and Computer Engineering (IJECE)|None|cs.SD|None|Mahmoud Fakhry, Abeer FathAllah Brery|
 |**2026-04-15**|**[Classical Machine Learning Baselines for Deepfake Audio Detection on the Fake-or-Real Dataset](https://arxiv.org/abs/2604.13400)**|N/A|Accepted for Oral Presentation at The 35th IEEE Microelectronics Design and Test Symposium|eess.AS|None|Faheem Ahmad et al.|
@@ -29,6 +41,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2026-04-13**|**[Ψ-Map: Panoptic Surface Integrated Mapping Enables Real2Sim Transfer](https://arxiv.org/abs/2604.10982)**|N/A|None|cs.RO|None|Xuan Yu et al.|
 |**2026-04-13**|**[Fast-SegSim: Real-Time Open-Vocabulary Segmentation for Robotics in Simulation](https://arxiv.org/abs/2604.10951)**|N/A|None|cs.RO|None|Xuan Yu et al.|
 |**2026-04-13**|**[Reliable Online Resource Allocation for Multi-User Semantic Communications: A Constraint Bayesian Optimization Approach](https://arxiv.org/abs/2604.10931)**|N/A|13 pages, 9 figures. The paper has been submitted for potential journal publications|eess.SP|None|Huawei Hou et al.|
+|**2026-04-13**|**[A Survey of Spatial Memory Representations for Efficient Robot Navigation](https://arxiv.org/abs/2604.16482)**|N/A|Accepted at the Women in Computer Vision (WiCV) Workshop at CVPR 2026|cs.CV|None|Ma. Madecheen S. Pangaliman et al.|
 |**2026-04-12**|**[UniMark: Unified Adaptive Multi-bit Watermarking for Autoregressive Image Generators](https://arxiv.org/abs/2604.11843)**|N/A|work in progress|cs.CV|None|Yigit Yilmaz et al.|
 |**2026-04-12**|**[MonoEM-GS: Monocular Expectation-Maximization Gaussian Splatting SLAM](https://arxiv.org/abs/2604.10593)**|N/A|None|cs.RO|None|Evgenii Kruzhkov, Sven Behnke|
 |**2026-04-12**|**[Learning 3D Representations for Spatial Intelligence from Unposed Multi-View Images](https://arxiv.org/abs/2604.10573)**|N/A|CVPR 2026|cs.CV|None|Bo Zhou et al.|
@@ -862,6 +875,7 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 |**2026-04-14**|**[PAT-VCM: Plug-and-Play Auxiliary Tokens for Video Coding for Machines](https://arxiv.org/abs/2604.13294)**|N/A|15 pages, 3 figures, 13 tables|cs.CV|None|Wei Jiang, Wei Wang|
 |**2026-04-13**|**[GeomPrompt: Geometric Prompt Learning for RGB-D Semantic Segmentation Under Missing and Degraded Depth](https://arxiv.org/abs/2604.11585)**|N/A|Accepted to the CVPR 2026 URVIS Workshop. Project page: https://geomprompt.github.io|cs.CV|None|Krishna Jaganathan, Patricio Vela|
 |**2026-04-13**|**[CDPR: Cross-modal Diffusion with Polarization for Reliable Monocular Depth Estimation](https://arxiv.org/abs/2604.11097)**|N/A|preprint version of IEEE TMM 2026 Regular Paper|cs.CV|None|Rongjia Yu et al.|
+|**2026-04-12**|**[Positioning radiata pine branches requiring pruning by drone stereo vision](https://arxiv.org/abs/2604.16480)**|N/A|None|cs.CV|None|Yida Lin et al.|
 |**2026-04-10**|**[FF3R: Feedforward Feature 3D Reconstruction from Unconstrained views](https://arxiv.org/abs/2604.09862)**|N/A|CVPR 2026 Findings. Project Page: https://chaoyizh.github.io/ff3r_project/|cs.CV|None|Chaoyi Zhou et al.|
 |**2026-04-10**|**[LuMon: A Comprehensive Benchmark and Development Suite with Novel Datasets for Lunar Monocular Depth Estimation](https://arxiv.org/abs/2604.09352)**|N/A|This paper will be published in CVPRW2026|cs.CV|None|Aytaç Sekmen et al.|
 |**2026-04-09**|**[Self-Improving 4D Perception via Self-Distillation](https://arxiv.org/abs/2604.08532)**|N/A|None|cs.CV|None|Nan Huang et al.|
