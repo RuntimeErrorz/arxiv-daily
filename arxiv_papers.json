@@ -1,5 +1,95 @@
 {
   "3DGS Semantic": {
+    "2604.19571": {
+      "title": "TransSplat: Unbalanced Semantic Transport for Language-Driven 3DGS Editing",
+      "authors": [
+        "Yanhui Chen",
+        "Jiahong Li",
+        "Jingchao Wang",
+        "Junyi Lin",
+        "Zixin Zeng",
+        "Yang Shi"
+      ],
+      "published": "2026-04-21T15:25:50+00:00",
+      "updated": "2026-04-21T15:25:50+00:00",
+      "summary": "Language-driven 3D Gaussian Splatting (3DGS) editing provides a more convenient approach for modifying complex scenes in VR/AR. Standard pipelines typically adopt a two-stage strategy: first editing multiple 2D views, and then optimizing the 3D representation to match these edited observations. Existing methods mainly improve view consistency through multi-view feature fusion, attention filtering, or iterative recalibration. However, they fail to explicitly address a more fundamental issue: the semantic correspondence between edited 2D evidence and 3D Gaussians. To tackle this problem, we propose TransSplat, which formulates language-driven 3DGS editing as a multi-view unbalanced semantic transport problem. Specifically, our method establishes correspondences between visible Gaussians and view-specific editing prototypes, thereby explicitly characterizing the semantic relationship between edited 2D evidence and 3D Gaussians. It further recovers a cross-view shared canonical 3D edit field to guide unified 3D appearance updates. In addition, we use transport residuals to suppress erroneous edits in non-target regions, mitigating edit leakage and improving local control precision. Qualitative and quantitative results show that, compared with existing 3D editing methods centered on enhancing view consistency, TransSplat achieves superior performance in local editing accuracy and structural consistency.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.19571v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.19571v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.19571v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.19571v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-22",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2604.19240": {
+      "title": "Industrial Surface Defect Detection via Diffusion Generation and Asymmetric Student-Teacher Network",
+      "authors": [
+        "Shuo Feng",
+        "Runlin Zhou",
+        "Yuyang Li",
+        "Guangcan Liu"
+      ],
+      "published": "2026-04-21T08:47:32+00:00",
+      "updated": "2026-04-21T08:47:32+00:00",
+      "summary": "Industrial surface defect detection often suffers from limited defect samples, severe long-tailed distributions, and difficulties in accurately localizing subtle defects under complex backgrounds. To address these challenges, this paper proposes an unsupervised defect detection method that integrates a Denoising Diffusion Probabilistic Model (DDPM) with an asymmetric teacher-student architecture. First, at the data level, the DDPM is trained solely on normal samples. By introducing constant-variance Gaussian perturbations and Perlin noise-based masks, high-fidelity and physically consistent defect samples along with pixel-level annotations are generated, effectively alleviating the data scarcity problem. Second, at the model level, an asymmetric dual-stream network is constructed. The teacher network provides stable representations of normal features, while the student network reconstructs normal patterns and amplifies discrepancies between normal and anomalous regions. Finally, a joint optimization strategy combining cosine similarity loss and pixel-wise segmentation supervision is adopted to achieve precise localization of subtle defects. Experimental results on the MVTecAD dataset show that the proposed method achieves 98.4\\% image-level AUROC and 98.3\\% pixel-level AUROC, significantly outperforming existing unsupervised and mainstream deep learning methods. The proposed approach does not require large amounts of real defect samples and enables accurate and robust industrial defect detection and localization.\n  \\keywords{Industrial defect detection \\and diffusion models \\and data generation \\and teacher-student architecture \\and pixel-level localization}",
+      "categories": [
+        "cs.AI"
+      ],
+      "primary_category": "cs.AI",
+      "pdf_url": "https://arxiv.org/pdf/2604.19240v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.19240v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.19240v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.19240v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-22",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
     "2604.18424": {
       "title": "Context-Aware Search and Retrieval Under Token Erasure",
       "authors": [
@@ -4113,27 +4203,27 @@
         "Caio Vicentino"
       ],
       "published": "2026-03-30T23:33:28+00:00",
-      "updated": "2026-03-30T23:33:28+00:00",
+      "updated": "2026-04-20T23:13:12+00:00",
       "summary": "We present PolarQuant, a post-training weight quantization method for large language models (LLMs) that exploits the distributional structure of neural network weights to achieve near-lossless compression. PolarQuant operates in three stages: (1) block-wise normalization to the unit hypersphere, (2) Walsh-Hadamard rotation to transform coordinates into approximately Gaussian random variables, and (3) quantization with centroids matched to the Gaussian distribution. Our ablation reveals that Hadamard rotation alone accounts for 98% of the quality improvement, reducing Qwen3.5-9B perplexity from 6.90 (absmax Q5) to 6.40 (Delta = +0.03 from FP16), making it practically lossless without any calibration data. Furthermore, PolarQuant functions as an effective preprocessing step for downstream INT4 quantizers: PolarQuant Q5 dequantized and re-quantized by torchao INT4 achieves perplexity 6.56 versus 6.68 for direct absmax INT4, while maintaining 43.1 tok/s throughput at 6.5 GB VRAM. Code and models are publicly available.",
       "categories": [
         "cs.CL",
         "cs.LG"
       ],
       "primary_category": "cs.CL",
-      "pdf_url": "https://arxiv.org/pdf/2603.29078v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.29078v2",
       "journal_ref": null,
       "doi": null,
-      "comment": "10 pages, 5 tables, 2 algorithms. Code: https://github.com/caiovicentino/eoq-quantization Models:https://huggingface.co/caiovicentino1",
-      "entry_id": "http://arxiv.org/abs/2603.29078v1",
+      "comment": "Found some errors, I need to fix",
+      "entry_id": "http://arxiv.org/abs/2603.29078v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2603.29078v1",
+          "href": "https://arxiv.org/abs/2603.29078v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2603.29078v1",
+          "href": "https://arxiv.org/pdf/2603.29078v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -107912,6 +108002,127 @@
     }
   },
   "Depth Estimation": {
+    "2604.19702": {
+      "title": "Face Anything: 4D Face Reconstruction from Any Image Sequence",
+      "authors": [
+        "Umut Kocasari",
+        "Simon Giebenhain",
+        "Richard Shaw",
+        "Matthias Nießner"
+      ],
+      "published": "2026-04-21T17:22:39+00:00",
+      "updated": "2026-04-21T17:22:39+00:00",
+      "summary": "Accurate reconstruction and tracking of dynamic human faces from image sequences is challenging because non-rigid deformations, expression changes, and viewpoint variations occur simultaneously, creating significant ambiguity in geometry and correspondence estimation. We present a unified method for high-fidelity 4D facial reconstruction based on canonical facial point prediction, a representation that assigns each pixel a normalized facial coordinate in a shared canonical space. This formulation transforms dense tracking and dynamic reconstruction into a canonical reconstruction problem, enabling temporally consistent geometry and reliable correspondences within a single feed-forward model. By jointly predicting depth and canonical coordinates, our method enables accurate depth estimation, temporally stable reconstruction, dense 3D geometry, and robust facial point tracking within a single architecture. We implement this formulation using a transformer-based model that jointly predicts depth and canonical facial coordinates, trained using multi-view geometry data that non-rigidly warps into the canonical space. Extensive experiments on image and video benchmarks demonstrate state-of-the-art performance across reconstruction and tracking tasks, achieving approximately 3$\\times$ lower correspondence error and faster inference than prior dynamic reconstruction methods, while improving depth accuracy by 16%. These results highlight canonical facial point prediction as an effective foundation for unified feed-forward 4D facial reconstruction.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.19702v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Project website: https://kocasariumut.github.io/FaceAnything/ , Video: https://www.youtube.com/watch?v=wSGHpAscp0Y",
+      "entry_id": "http://arxiv.org/abs/2604.19702v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.19702v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.19702v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2604.19054": {
+      "title": "Evaluation of Winning Solutions of 2025 Low Power Computer Vision Challenge",
+      "authors": [
+        "Zihao Ye",
+        "Yung Hsiang Lu",
+        "Xiao Hu",
+        "Shuai Zhang",
+        "Taotao Jing",
+        "Xin Li",
+        "Zhen Yao",
+        "Bo Lang",
+        "Zhihao Zheng",
+        "Seungmin Oh",
+        "Hankyul Kang",
+        "Seunghun Kang",
+        "Jongbin Ryu",
+        "Kexin Chen",
+        "Yuan Qi",
+        "George K Thiruvathukal",
+        "Mooi Choo Chuah"
+      ],
+      "published": "2026-04-21T04:00:55+00:00",
+      "updated": "2026-04-21T04:00:55+00:00",
+      "summary": "The IEEE Low-Power Computer Vision Challenge (LPCVC) aims to promote the development of efficient vision models for edge devices, balancing accuracy with constraints such as latency, memory capacity, and energy use. The 2025 challenge featured three tracks: (1) Image classification under various lighting conditions and styles, (2) Open-Vocabulary Segmentation with Text Prompt, and (3) Monocular Depth Estimation. This paper presents the design of LPCVC 2025, including its competition structure and evaluation framework, which integrates the Qualcomm AI Hub for consistent and reproducible benchmarking. The paper also introduces the top-performing solutions from each track and outlines key trends and observations. The paper concludes with suggestions for future computer vision competitions.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.19054v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "11 pages, 8 figures, 4 tables",
+      "entry_id": "http://arxiv.org/abs/2604.19054v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.19054v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.19054v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2604.18747": {
+      "title": "URoPE: Universal Relative Position Embedding across Geometric Spaces",
+      "authors": [
+        "Yichen Xie",
+        "Depu Meng",
+        "Chensheng Peng",
+        "Yihan Hu",
+        "Quentin Herau",
+        "Masayoshi Tomizuka",
+        "Wei Zhan"
+      ],
+      "published": "2026-04-20T18:52:03+00:00",
+      "updated": "2026-04-20T18:52:03+00:00",
+      "summary": "Relative position embedding has become a standard mechanism for encoding positional information in Transformers. However, existing formulations are typically limited to a fixed geometric space, namely 1D sequences or regular 2D/3D grids, which restricts their applicability to many computer vision tasks that require geometric reasoning across camera views or between 2D and 3D spaces. To address this limitation, we propose URoPE, a universal extension of Rotary Position Embedding (RoPE) to cross-view or cross-dimensional geometric spaces. For each key/value image patch, URoPE samples 3D points along the corresponding camera ray at predefined depth anchors and projects them into the query image plane. Standard 2D RoPE can then be applied using the projected pixel coordinates. URoPE is a parameter-free and intrinsics-aware relative position embedding that is invariant to the choice of global coordinate systems, while remaining fully compatible with existing RoPE-optimized attention kernels. We evaluate URoPE as a plug-in positional encoding for transformer architectures across a diverse set of tasks, including novel view synthesis, 3D object detection, object tracking, and depth estimation, covering 2D-2D, 2D-3D, and temporal scenarios. Experiments show that URoPE consistently improves the performance of transformer-based models across all tasks, demonstrating its effectiveness and generality for geometric reasoning. Our project website is: https://urope-pe.github.io/.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.18747v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.18747v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.18747v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.18747v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2604.14781": {
       "title": "Integrating Object Detection, LiDAR-Enhanced Depth Estimation, and Segmentation Models for Railway Environments",
       "authors": [

@@ -1,4 +1,4 @@
-## Updated at 2026-04-22 08:30:40
+## Updated at 2026-04-22 20:23:50
 
 ## 3DGS Semantic
 
@@ -8,6 +8,8 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-04-21**|**[TransSplat: Unbalanced Semantic Transport for Language-Driven 3DGS Editing](https://arxiv.org/abs/2604.19571)**|N/A|None|cs.CV|None|Yanhui Chen et al.|
+|**2026-04-21**|**[Industrial Surface Defect Detection via Diffusion Generation and Asymmetric Student-Teacher Network](https://arxiv.org/abs/2604.19240)**|N/A|None|cs.AI|None|Shuo Feng et al.|
 |**2026-04-20**|**[Context-Aware Search and Retrieval Under Token Erasure](https://arxiv.org/abs/2604.18424)**|N/A|None|cs.IR|None|Sara Ghasvarianjahromi et al.|
 |**2026-04-20**|**[Bayesian Active Learning with Gaussian Processes Guided by LLM Relevance Scoring for Dense Passage Retrieval](https://arxiv.org/abs/2604.17906)**|N/A|ACL 2026 Findings|cs.IR|None|Junyoung Kim et al.|
 |**2026-04-20**|**[Optimally Bridging Semantics and Data: Generative Semantic Communication via Schrödinger Bridge](https://arxiv.org/abs/2604.17802)**|N/A|23 pages, 10 figures, under review|eess.IV|None|Dahua Gao et al.|
@@ -96,7 +98,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2026-03-31**|**[Concept frustration: Aligning human concepts and machine representations](https://arxiv.org/abs/2603.29654)**|N/A|34 pages, 7 figures|cs.LG|None|Enrico Parisini et al.|
 |**2026-03-31**|**[Temporal Memory for Resource-Constrained Agents: Continual Learning via Stochastic Compress-Add-Smooth](https://arxiv.org/abs/2604.00067)**|N/A|33 pages, 22 figures|cs.LG|None|Michael Chertkov|
 |**2026-03-31**|**[TreeGaussian: Tree-Guided Cascaded Contrastive Learning for Hierarchical Consistent 3D Gaussian Scene Segmentation and Understanding](https://arxiv.org/abs/2604.03309)**|N/A|None|cs.CV|None|Jingbin You et al.|
-|**2026-03-30**|**[PolarQuant: Optimal Gaussian Weight Quantization via Hadamard Rotation for LLM Compression](https://arxiv.org/abs/2603.29078)**|N/A|10 pages, 5 tables, 2 algorithms. Code: https://github.com/caiovicentino/eoq-quantization Models:https://huggingface.co/caiovicentino1|cs.CL|None|Caio Vicentino|
+|**2026-03-30**|**[PolarQuant: Optimal Gaussian Weight Quantization via Hadamard Rotation for LLM Compression](https://arxiv.org/abs/2603.29078)**|N/A|Found some errors, I need to fix|cs.CL|None|Caio Vicentino|
 |**2026-03-30**|**[Secret Key Rate Analysis of RIS-Assisted THz MIMO CV-QKD Systems under Localized and Global Eavesdropping](https://arxiv.org/abs/2603.28252)**|N/A|13 pages, 6 figures|cs.IT|None|Sushil Kumar et al.|
 |**2026-03-30**|**[\textit{4DSurf}: High-Fidelity Dynamic Scene Surface Reconstruction](https://arxiv.org/abs/2603.28064)**|N/A|Accepted to CVPR 2026|cs.CV|None|Renjie Wu et al.|
 |**2026-03-30**|**[DipGuava: Disentangling Personalized Gaussian Features for 3D Head Avatars from Monocular Video](https://arxiv.org/abs/2603.28003)**|Proceedings of the AAAI Conference on Artificial Intelligence|AAAI 2026|cs.CV|None|Jeonghaeng Lee et al.|
@@ -870,6 +872,9 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-04-21**|**[Face Anything: 4D Face Reconstruction from Any Image Sequence](https://arxiv.org/abs/2604.19702)**|N/A|Project website: https://kocasariumut.github.io/FaceAnything/ , Video: https://www.youtube.com/watch?v=wSGHpAscp0Y|cs.CV|None|Umut Kocasari et al.|
+|**2026-04-21**|**[Evaluation of Winning Solutions of 2025 Low Power Computer Vision Challenge](https://arxiv.org/abs/2604.19054)**|N/A|11 pages, 8 figures, 4 tables|cs.CV|None|Zihao Ye et al.|
+|**2026-04-20**|**[URoPE: Universal Relative Position Embedding across Geometric Spaces](https://arxiv.org/abs/2604.18747)**|N/A|None|cs.CV|None|Yichen Xie et al.|
 |**2026-04-16**|**[Integrating Object Detection, LiDAR-Enhanced Depth Estimation, and Segmentation Models for Railway Environments](https://arxiv.org/abs/2604.14781)**|N/A|Under submission for publication|cs.CV|None|Enrico Francesco Giannico et al.|
 |**2026-04-15**|**[Reconstruction of a 3D wireframe from a single line drawing via generative depth estimation](https://arxiv.org/abs/2604.13549)**|N/A|None|cs.CV|None|Elton Cao, Hod Lipson|
 |**2026-04-14**|**[PAT-VCM: Plug-and-Play Auxiliary Tokens for Video Coding for Machines](https://arxiv.org/abs/2604.13294)**|N/A|15 pages, 3 figures, 13 tables|cs.CV|None|Wei Jiang, Wei Wang|
