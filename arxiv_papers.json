@@ -2003,6 +2003,53 @@
         "note": "已查询但未找到venue信息"
       }
     },
+    "2604.19798": {
+      "title": "Diagnosing Urban Street Vitality via a Visual-Semantic and Spatiotemporal Framework for Street-Level Economics",
+      "authors": [
+        "Xinxin Zhuo",
+        "Mengyuan Niu",
+        "Ruizhe Wang",
+        "Junyan Yang",
+        "Qiao Wang"
+      ],
+      "published": "2026-04-10T10:21:41+00:00",
+      "updated": "2026-04-10T10:21:41+00:00",
+      "summary": "Micro-scale street-level economic assessment is fundamental for precision spatial resource allocation. While Street View Imagery (SVI) advances urban sensing, existing approaches remain semantically superficial and overlook brand hierarchy heterogeneity and structural recession. To address this, we propose a visual-semantic and field-based spatiotemporal framework, operationalized via the Street Economic Vitality Index (SEVI).\n  Our approach integrates physical and semantic streetscape parsing through instance segmentation of signboards, glass interfaces, and storefront closures. A dual-stage VLM-LLM pipeline standardizes signage into global hierarchies to quantify a spatially smoothed brand premium index. To overcome static SVI limitations, we introduce a temporal lag design using Location-Based Services (LBS) data to capture realized demand. Combined with a category-weighted Gaussian spillover model, we construct a three-dimensional diagnostic system covering Commercial Activity, Spatial Utilization, and Physical Environment.\n  Experiments based on time-lagged geographically weighted regression across eight tidal periods in Nanjing reveal quasi-causal spatiotemporal heterogeneity. Street vibrancy arises from interactions between hierarchical brand clustering and mall-induced externalities. High-quality interfaces show peak attraction during midday and evening, while structural recession produces a lagged nighttime repulsion effect. The framework offers evidence-based support for precision spatial governance.",
+      "categories": [
+        "cs.CY",
+        "cs.CV",
+        "econ.EM"
+      ],
+      "primary_category": "cs.CY",
+      "pdf_url": "https://arxiv.org/pdf/2604.19798v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Submitted to ACM Transactions on Spatial Computing. This paper is currently under review",
+      "entry_id": "http://arxiv.org/abs/2604.19798v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.19798v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.19798v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-23",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
     "2604.09045": {
       "title": "Scene-Agnostic Object-Centric Representation Learning for 3D Gaussian Splatting",
       "authors": [
@@ -2688,6 +2735,51 @@
       "venue_info": {
         "venue_source": "Semantic Scholar",
         "queried_at": "2026-04-09",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2604.19793": {
+      "title": "SkillGraph: Graph Foundation Priors for LLM Agent Tool Sequence Recommendation",
+      "authors": [
+        "Hao Liu",
+        "Dongyu Li"
+      ],
+      "published": "2026-04-07T09:43:52+00:00",
+      "updated": "2026-04-07T09:43:52+00:00",
+      "summary": "LLM agents must select tools from large API libraries and order them correctly. Existing methods use semantic similarity for both retrieval and ordering, but ordering depends on inter-tool data dependencies that are absent from tool descriptions. As a result, semantic-only methods can produce negative Kendall-$τ$ in structured workflow domains. We introduce SkillGraph, a directed weighted execution-transition graph mined from 49,831 successful LLM agent trajectories, which encodes workflow-precedence regularities as a reusable graph foundation prior. Building on this graph foundation prior, we propose a two-stage decoupled framework: GS-Hybrid retrieval for candidate selection and a learned pairwise reranker for ordering. On ToolBench (9,965 test instances; ~16,000 tools), the method reaches Set-F1 = 0.271 and Kendall-$τ$ = 0.096; on API-Bank, Kendall-$τ$ improves from -0.433 to +0.613. Under identical Stage-1 inputs, the learned reranker also outperforms LLaMA-3.1-8B Stage-2 rerankers.",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.IR",
+        "cs.LG"
+      ],
+      "primary_category": "cs.AI",
+      "pdf_url": "https://arxiv.org/pdf/2604.19793v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.19793v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.19793v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.19793v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-23",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -91047,26 +91139,26 @@
         "Torsten Sattler"
       ],
       "published": "2026-03-21T08:37:36+00:00",
-      "updated": "2026-03-21T08:37:36+00:00",
+      "updated": "2026-04-22T15:48:16+00:00",
       "summary": "3D Gaussian Splatting (3DGS) has become the method of choice for photo-realistic 3D reconstruction of scenes, due to being able to efficiently and accurately recover the scene appearance and geometry from images. 3DGS represents the scene through a set of 3D Gaussians, parameterized by their position, spatial extent, and view-dependent color. Starting from an initial point cloud, 3DGS refines the Gaussians' parameters as to reconstruct a set of training images as accurately as possible. Typically, a sparse Structure-from-Motion point cloud is used as initialization. In order to obtain dense Gaussian clouds, 3DGS methods thus rely on a densification stage. In this paper, we systematically study the relation between densification and initialization. Proposing a new benchmark, we study combinations of different types of initializations (dense laser scans, dense (multi-view) stereo point clouds, dense monocular depth estimates, sparse SfM point clouds) and different densification schemes. We show that current densification approaches are not able to take full advantage of dense initialization as they are often unable to (significantly) improve over sparse SfM-based initialization. We will make our benchmark publicly available.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2603.20714v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.20714v2",
       "journal_ref": null,
       "doi": null,
-      "comment": "Sources will be made publicly available",
-      "entry_id": "http://arxiv.org/abs/2603.20714v1",
+      "comment": "Sources are available at https://github.com/deivse/ivd_splat . Changes in this version: fixed wrong graphs being used in Fig. 6 (b), Fig. 10 (a,c,d) due to compilation issue; results with EDGS* are now using splat scale increase when reducing init. size (previously reported results without scale increase, but conclusions remain unchanged)",
+      "entry_id": "http://arxiv.org/abs/2603.20714v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2603.20714v1",
+          "href": "https://arxiv.org/abs/2603.20714v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2603.20714v1",
+          "href": "https://arxiv.org/pdf/2603.20714v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -108008,6 +108100,63 @@
     }
   },
   "Depth Estimation": {
+    "2604.20329": {
+      "title": "Image Generators are Generalist Vision Learners",
+      "authors": [
+        "Valentin Gabeur",
+        "Shangbang Long",
+        "Songyou Peng",
+        "Paul Voigtlaender",
+        "Shuyang Sun",
+        "Yanan Bao",
+        "Karen Truong",
+        "Zhicheng Wang",
+        "Wenlei Zhou",
+        "Jonathan T. Barron",
+        "Kyle Genova",
+        "Nithish Kannen",
+        "Sherry Ben",
+        "Yandong Li",
+        "Mandy Guo",
+        "Suhas Yogin",
+        "Yiming Gu",
+        "Huizhong Chen",
+        "Oliver Wang",
+        "Saining Xie",
+        "Howard Zhou",
+        "Kaiming He",
+        "Thomas Funkhouser",
+        "Jean-Baptiste Alayrac",
+        "Radu Soricut"
+      ],
+      "published": "2026-04-22T08:23:48+00:00",
+      "updated": "2026-04-22T08:23:48+00:00",
+      "summary": "Recent works show that image and video generators exhibit zero-shot visual understanding behaviors, in a way reminiscent of how LLMs develop emergent capabilities of language understanding and reasoning from generative pretraining. While it has long been conjectured that the ability to create visual content implies an ability to understand it, there has been limited evidence that generative vision models have developed strong understanding capabilities. In this work, we demonstrate that image generation training serves a role similar to LLM pretraining, and lets models learn powerful and general visual representations that enable SOTA performance on various vision tasks. We introduce Vision Banana, a generalist model built by instruction-tuning Nano Banana Pro (NBP) on a mixture of its original training data alongside a small amount of vision task data. By parameterizing the output space of vision tasks as RGB images, we seamlessly reframe perception as image generation. Our generalist model, Vision Banana, achieves SOTA results on a variety of vision tasks involving both 2D and 3D understanding, beating or rivaling zero-shot domain-specialists, including Segment Anything Model 3 on segmentation tasks, and the Depth Anything series on metric depth estimation. We show that these results can be achieved with lightweight instruction-tuning without sacrificing the base model's image generation capabilities. The superior results suggest that image generation pretraining is a generalist vision learner. It also shows that image generation serves as a unified and universal interface for vision tasks, similar to text generation's role in language understanding and reasoning. We could be witnessing a major paradigm shift for computer vision, where generative vision pretraining takes a central role in building Foundational Vision Models for both generation and understanding.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.20329v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Project Page: http://vision-banana.github.io",
+      "entry_id": "http://arxiv.org/abs/2604.20329v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.20329v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.20329v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2604.19702": {
       "title": "Face Anything: 4D Face Reconstruction from Any Image Sequence",
       "authors": [
@@ -108047,7 +108196,7 @@
       "title": "Evaluation of Winning Solutions of 2025 Low Power Computer Vision Challenge",
       "authors": [
         "Zihao Ye",
-        "Yung Hsiang Lu",
+        "Yung-Hsiang Lu",
         "Xiao Hu",
         "Shuai Zhang",
         "Taotao Jing",
@@ -108065,26 +108214,26 @@
         "Mooi Choo Chuah"
       ],
       "published": "2026-04-21T04:00:55+00:00",
-      "updated": "2026-04-21T04:00:55+00:00",
+      "updated": "2026-04-22T01:26:04+00:00",
       "summary": "The IEEE Low-Power Computer Vision Challenge (LPCVC) aims to promote the development of efficient vision models for edge devices, balancing accuracy with constraints such as latency, memory capacity, and energy use. The 2025 challenge featured three tracks: (1) Image classification under various lighting conditions and styles, (2) Open-Vocabulary Segmentation with Text Prompt, and (3) Monocular Depth Estimation. This paper presents the design of LPCVC 2025, including its competition structure and evaluation framework, which integrates the Qualcomm AI Hub for consistent and reproducible benchmarking. The paper also introduces the top-performing solutions from each track and outlines key trends and observations. The paper concludes with suggestions for future computer vision competitions.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2604.19054v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.19054v2",
       "journal_ref": null,
       "doi": null,
       "comment": "11 pages, 8 figures, 4 tables",
-      "entry_id": "http://arxiv.org/abs/2604.19054v1",
+      "entry_id": "http://arxiv.org/abs/2604.19054v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2604.19054v1",
+          "href": "https://arxiv.org/abs/2604.19054v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2604.19054v1",
+          "href": "https://arxiv.org/pdf/2604.19054v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null

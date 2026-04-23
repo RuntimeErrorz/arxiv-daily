@@ -1,4 +1,4 @@
-## Updated at 2026-04-23 08:34:59
+## Updated at 2026-04-23 20:23:58
 
 ## 3DGS Semantic
 
@@ -51,6 +51,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2026-04-11**|**[Beyond Monologue: Interactive Talking-Listening Avatar Generation with Conversational Audio Context-Aware Kernels](https://arxiv.org/abs/2604.10367)**|N/A|None|cs.AI|None|Yuzhe Weng et al.|
 |**2026-04-11**|**[Organizational Security Resource Estimation via Vulnerability Queueing](https://arxiv.org/abs/2604.10250)**|N/A|None|cs.CR|None|Abdullah Y. Etcibasi et al.|
 |**2026-04-11**|**[Gaussian Graphical Models for Functional Connectivity Analysis: A Statistical Review with Applications to Alzheimer's Disease](https://arxiv.org/abs/2604.10249)**|N/A|None|stat.ME|None|Panpan Zhang et al.|
+|**2026-04-10**|**[Diagnosing Urban Street Vitality via a Visual-Semantic and Spatiotemporal Framework for Street-Level Economics](https://arxiv.org/abs/2604.19798)**|N/A|Submitted to ACM Transactions on Spatial Computing. This paper is currently under review|cs.CY|None|Xinxin Zhuo et al.|
 |**2026-04-10**|**[Scene-Agnostic Object-Centric Representation Learning for 3D Gaussian Splatting](https://arxiv.org/abs/2604.09045)**|N/A|None|cs.CV|None|Tsuheng Hsu et al.|
 |**2026-04-10**|**[Leave My Images Alone: Preventing Multi-Modal Large Language Models from Analyzing Images via Visual Prompt Injection](https://arxiv.org/abs/2604.09024)**|N/A|Appeared in ACL 2026 main conference|cs.CV|The 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026)|Zedian Shao et al.|
 |**2026-04-09**|**[OpenVLThinkerV2: A Generalist Multimodal Reasoning Model for Multi-domain Visual Tasks](https://arxiv.org/abs/2604.08539)**|N/A|code at: https://github.com/uclanlp/openvlthinker|cs.CV|None|Wenbo Hu et al.|
@@ -66,6 +67,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2026-04-08**|**[URMF: Uncertainty-aware Robust Multimodal Fusion for Multimodal Sarcasm Detection](https://arxiv.org/abs/2604.06728)**|N/A|None|cs.CV|None|Zhenyu Wang et al.|
 |**2026-04-08**|**[4D Vessel Reconstruction for Benchtop Thrombectomy Analysis](https://arxiv.org/abs/2604.06671)**|N/A|20 pages, 10 figures, 1 table, supplementary material (3 tables, 3 figures, and 11 videos). Project page: https://ethanuser.github.io/vessel4D/|eess.IV|None|Ethan Nguyen et al.|
 |**2026-04-07**|**[PhysHead: Simulation-Ready Gaussian Head Avatars](https://arxiv.org/abs/2604.06467)**|N/A|Project Page: see https://phys-head.github.io/; Youtube Video: see https://www.youtube.com/watch?v=k68fsSSwzc0; Accepted to CVPR 2026|cs.CV|None|Berna Kabadayi et al.|
+|**2026-04-07**|**[SkillGraph: Graph Foundation Priors for LLM Agent Tool Sequence Recommendation](https://arxiv.org/abs/2604.19793)**|N/A|None|cs.AI|None|Hao Liu, Dongyu Li|
 |**2026-04-07**|**[PanopticQuery: Unified Query-Time Reasoning for 4D Scenes](https://arxiv.org/abs/2604.05638)**|N/A|None|cs.CV|None|Ruilin Tang et al.|
 |**2026-04-07**|**[BPC-Net: Annotation-Free Skin Lesion Segmentation via Boundary Probability Calibration](https://arxiv.org/abs/2604.05594)**|N/A|None|cs.CV|None|Yujie Yao et al.|
 |**2026-04-07**|**[Indoor Asset Detection in Large Scale 360° Drone-Captured Imagery via 3D Gaussian Splatting](https://arxiv.org/abs/2604.05316)**|N/A|Accepted to CVPR 2026 3DMV Workshop|cs.CV|None|Monica Tang, Avideh Zakhor|
@@ -409,7 +411,7 @@ Query: (abs:'Multi-View Stereo' OR abs:'Multi View Stereo' OR abs:'Multi-View De
 |**2026-04-06**|**[SimpleProc: Fully Procedural Synthetic Data from Simple Rules for Multi-View Stereo](https://arxiv.org/abs/2604.04925)**|N/A|None|cs.CV|None|Zeyu Ma et al.|
 |**2026-04-06**|**[ZeD-MAP: Bundle Adjustment Guided Zero-Shot Depth Maps for Real-Time Aerial Imaging](https://arxiv.org/abs/2604.04667)**|N/A|None|cs.CV|None|Selim Ahmet Iz et al.|
 |**2026-03-25**|**[Accurate Point Measurement in 3DGS -- A New Alternative to Traditional Stereoscopic-View Based Measurements](https://arxiv.org/abs/2603.24716)**|N/A|Accepted to the 2026 ISPRS Congress|cs.CV|None|Deyan Deng, Rongjun Qin|
-|**2026-03-21**|**[The Role and Relationship of Initialization and Densification in 3D Gaussian Splatting](https://arxiv.org/abs/2603.20714)**|N/A|Sources will be made publicly available|cs.CV|None|Ivan Desiatov, Torsten Sattler|
+|**2026-03-21**|**[The Role and Relationship of Initialization and Densification in 3D Gaussian Splatting](https://arxiv.org/abs/2603.20714)**|N/A|Sources are available at https://github.com/deivse/ivd_splat . Changes in this version: fixed wrong graphs being used in Fig. 6 (b), Fig. 10 (a,c,d) due to compilation issue; results with EDGS* are now using splat scale increase when reducing init. size (previously reported results without scale increase, but conclusions remain unchanged)|cs.CV|None|Ivan Desiatov, Torsten Sattler|
 |**2026-03-04**|**[LiDAR Prompted Spatio-Temporal Multi-View Stereo for Autonomous Driving](https://arxiv.org/abs/2603.03765)**|N/A|None|cs.CV|None|Qihao Sun et al.|
 |**2026-02-24**|**[Olbedo: An Albedo and Shading Aerial Dataset for Large-Scale Outdoor Environments](https://arxiv.org/abs/2602.22025)**|N/A|CVPR 2026|cs.CV|None|Shuang Song et al.|
 |**2026-02-23**|**[One2Scene: Geometric Consistent Explorable 3D Scene Generation from a Single Image](https://arxiv.org/abs/2602.19766)**|N/A|ICLR 2026|cs.CV|None|Pengfei Wang et al.|
@@ -872,6 +874,7 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-04-22**|**[Image Generators are Generalist Vision Learners](https://arxiv.org/abs/2604.20329)**|N/A|Project Page: http://vision-banana.github.io|cs.CV|None|Valentin Gabeur et al.|
 |**2026-04-21**|**[Face Anything: 4D Face Reconstruction from Any Image Sequence](https://arxiv.org/abs/2604.19702)**|N/A|Project website: https://kocasariumut.github.io/FaceAnything/ , Video: https://www.youtube.com/watch?v=wSGHpAscp0Y|cs.CV|None|Umut Kocasari et al.|
 |**2026-04-21**|**[Evaluation of Winning Solutions of 2025 Low Power Computer Vision Challenge](https://arxiv.org/abs/2604.19054)**|N/A|11 pages, 8 figures, 4 tables|cs.CV|None|Zihao Ye et al.|
 |**2026-04-20**|**[URoPE: Universal Relative Position Embedding across Geometric Spaces](https://arxiv.org/abs/2604.18747)**|N/A|None|cs.CV|None|Yichen Xie et al.|
