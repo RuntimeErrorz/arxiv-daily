@@ -8384,8 +8384,8 @@
       ],
       "primary_category": "astro-ph.SR",
       "pdf_url": "https://arxiv.org/pdf/2603.05445v1",
-      "journal_ref": null,
-      "doi": null,
+      "journal_ref": "A&A 708, A317 (2026)",
+      "doi": "10.1051/0004-6361/202558095",
       "comment": "Accepted for publication in A&A",
       "entry_id": "http://arxiv.org/abs/2603.05445v1",
       "links": [
@@ -8398,6 +8398,12 @@
         {
           "href": "https://arxiv.org/pdf/2603.05445v1",
           "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        },
+        {
+          "href": "https://doi.org/10.1051/0004-6361/202558095",
+          "title": "doi",
           "rel": "related",
           "content_type": null
         }

@@ -1,4 +1,4 @@
-## Updated at 2026-04-22 20:23:50
+## Updated at 2026-04-23 08:34:59
 
 ## 3DGS Semantic
 
@@ -189,7 +189,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2026-03-06**|**[Whisper-CD: Accurate Long-Form Speech Recognition using Multi-Negative Contrastive Decoding](https://arxiv.org/abs/2603.06193)**|N/A|Submitted to Interspeech 2026|cs.SD|None|Hoseong Ahn et al.|
 |**2026-03-06**|**[Accelerated Time-domain Analysis for Gravitational Wave Astronomy](https://arxiv.org/abs/2603.06010)**|N/A|19 pages, 8 figures|gr-qc|None|Vaishak Prasad|
 |**2026-03-06**|**[Cog2Gen3D: Sculpturing 3D Semantic-Geometric Cognition for 3D Generation](https://arxiv.org/abs/2603.05845)**|N/A|None|cs.CV|None|Haonan Wang et al.|
-|**2026-03-05**|**[TILARA: Template-Independent Line-by-line Algorithm for Radial velocity Analysis. I. Description of the code and application on a Sun-like star](https://arxiv.org/abs/2603.05445)**|N/A|Accepted for publication in A&A|astro-ph.SR|None|C. San Nicolas Martinez et al.|
+|**2026-03-05**|**[TILARA: Template-Independent Line-by-line Algorithm for Radial velocity Analysis. I. Description of the code and application on a Sun-like star](https://arxiv.org/abs/2603.05445)**|N/A|Accepted for publication in A&A|astro-ph.SR|A&A 708, A317 (2026)|C. San Nicolas Martinez et al.|
 |**2026-03-05**|**[SAIL: Similarity-Aware Guidance and Inter-Caption Augmentation-based Learning for Weakly-Supervised Dense Video Captioning](https://arxiv.org/abs/2603.05437)**|N/A|Accepted to CVPR 2026|cs.CV|None|Ye-Chan Kim et al.|
 |**2026-03-05**|**[GaussTwin: Unified Simulation and Correction with Gaussian Splatting for Robotic Digital Twins](https://arxiv.org/abs/2603.05108)**|N/A|8 pages, 4 figures, 3 tables, ICRA 2026|cs.RO|None|Yichen Cai et al.|
 |**2026-03-05**|**[Locality-Attending Vision Transformer](https://arxiv.org/abs/2603.04892)**|N/A|Accepted to ICLR 2026|cs.CV|None|Sina Hajimiri et al.|
