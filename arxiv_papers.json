@@ -1,5 +1,183 @@
 {
   "3DGS Semantic": {
+    "2604.21790": {
+      "title": "Informative Priors on Primordial Non-Gaussianity Bias $b_φ$ From Galaxy Formation",
+      "authors": [
+        "Anne Moore",
+        "Lucia A. Perez",
+        "Elisabeth Krause"
+      ],
+      "published": "2026-04-23T15:46:53+00:00",
+      "updated": "2026-04-23T15:46:53+00:00",
+      "summary": "Constraining primordial non-Gaussianity via its scale-dependent imprint on galaxy clustering requires knowledge of the bias parameter $b_φ$, which is exactly degenerate with $f^{\\rm{loc}}_{\\rm{NL}}$ at leading order. To break this degeneracy, current analyses adopt the relation $\\left(b_φ = 2δ_c\\left(b_1 - 1\\right)\\right)$ based on the assumption of a universal mass function. This relation is known to break down for physically motivated galaxy selections, introducing systematic errors in the inferred $f^{\\rm{loc}}_{\\rm{NL}}$ that scale directly with the assumed $b_φ$ prior. We present a framework to construct physically motivated, observation-conditioned priors on $b_φ$ by marginalizing over galaxy formation uncertainties. We use the CAMELS-SAM simulation suite, augmented by separate Universe simulations, to measure galaxy formation observables, like the stellar mass function (SMF) and the stellar-to-halo mass relationship (SHMR), and $b_φ$ across a range of galaxy formation parameters. From these measurements, we construct a distribution of $b_φ$ conditioned on observations, and we select our galaxy sample to resemble the DESI Emission Line Galaxy (ELG) sample. Conditioning on the SMF or SHMR decreases $σ_{b_φ}$ from $0.69$ to $0.08$ and $0.02$ respectively -- reductions of $88\\%$ and $97\\%$ -- with consistent results when conditioning on the observed data directly. Despite substantial shifts in the galaxy formation posteriors driven by known SC-SAM discrepancies at high halo masses, the resulting $b_φ$ distributions remain mutually consistent across all observables. The SMF and SHMR are found to carry sufficient constraining power to reduce the galaxy formation uncertainty in $b_φ$ relevant for $f^{\\rm{loc}}_{\\rm{NL}}$ inference with next-generation spectroscopic surveys",
+      "categories": [
+        "astro-ph.CO"
+      ],
+      "primary_category": "astro-ph.CO",
+      "pdf_url": "https://arxiv.org/pdf/2604.21790v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "25 pages, 4 figures",
+      "entry_id": "http://arxiv.org/abs/2604.21790v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.21790v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.21790v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-24",
+        "venue": null,
+        "pub_type": "Review",
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2604.21649": {
+      "title": "GS-Quant: Granular Semantic and Generative Structural Quantization for Knowledge Graph Completion",
+      "authors": [
+        "Qizhuo Xie",
+        "Yunhui Liu",
+        "Yu Xing",
+        "Qianzi Hou",
+        "Xudong Jin",
+        "Tao Zheng",
+        "Tieke He"
+      ],
+      "published": "2026-04-23T13:13:37+00:00",
+      "updated": "2026-04-23T13:13:37+00:00",
+      "summary": "Large Language Models (LLMs) have shown immense potential in Knowledge Graph Completion (KGC), yet bridging the modality gap between continuous graph embeddings and discrete LLM tokens remains a critical challenge. While recent quantization-based approaches attempt to align these modalities, they typically treat quantization as flat numerical compression, resulting in semantically entangled codes that fail to mirror the hierarchical nature of human reasoning. In this paper, we propose GS-Quant, a novel framework that generates semantically coherent and structurally stratified discrete codes for KG entities. Unlike prior methods, GS-Quant is grounded in the insight that entity representations should follow a linguistic coarse-to-fine logic. We introduce a Granular Semantic Enhancement module that injects hierarchical knowledge into the codebook, ensuring that earlier codes capture global semantic categories while later codes refine specific attributes. Furthermore, a Generative Structural Reconstruction module imposes causal dependencies on the code sequence, transforming independent discrete units into structured semantic descriptors. By expanding the LLM vocabulary with these learned codes, we enable the model to reason over graph structures isomorphically to natural language generation. Experimental results demonstrate that GS-Quant significantly outperforms existing text-based and embedding-based baselines. Our code is publicly available at https://github.com/mikumifa/GS-Quant.",
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "primary_category": "cs.AI",
+      "pdf_url": "https://arxiv.org/pdf/2604.21649v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "ACL 2026",
+      "entry_id": "http://arxiv.org/abs/2604.21649v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.21649v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.21649v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-24",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2604.21395": {
+      "title": "Supervised Learning Has a Necessary Geometric Blind Spot: Theory, Consequences, and Minimal Repair",
+      "authors": [
+        "Vishal Rajput"
+      ],
+      "published": "2026-04-23T08:03:33+00:00",
+      "updated": "2026-04-23T08:03:33+00:00",
+      "summary": "We prove that empirical risk minimisation (ERM) imposes a necessary geometric constraint on learned representations: any encoder that minimises supervised loss must retain non-zero Jacobian sensitivity in directions that are label-correlated in training data but nuisance at test time. This is not a contingent failure of current methods; it is a mathematical consequence of the supervised objective itself. We call this the geometric blind spot of supervised learning (Theorem 1), and show it holds across proper scoring rules, architectures, and dataset sizes.\n  This single theorem unifies four lines of prior empirical work that were previously treated separately: non-robust predictive features, texture bias, corruption fragility, and the robustness-accuracy tradeoff. In this framing, adversarial vulnerability is one consequence of a broader structural fact about supervised learning geometry.\n  We introduce Trajectory Deviation Index (TDI), a diagnostic that measures the theorem's bounded quantity directly, and show why common alternatives miss the key failure mode. PGD adversarial training reaches Jacobian Frobenius 2.91 yet has the worst clean-input geometry (TDI 1.336), while PMH achieves TDI 0.904. TDI is the only metric that detects this dissociation because it measures isotropic path-length distortion -- the exact quantity Theorem 1 bounds.\n  Across seven vision tasks, BERT/SST-2, and ImageNet ViT-B/16 backbones used by CLIP, DINO, and SAM, the blind spot is measurable and repairable. It is present at foundation-model scale, worsens monotonically across language-model sizes (blind-spot ratio 0.860 to 0.765 to 0.742 from 66M to 340M), and is amplified by task-specific ERM fine-tuning (+54%), while PMH repairs it by 11x with one additional training term whose Gaussian form Proposition 5 proves is the unique perturbation law that uniformly penalises the encoder Jacobian.",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2604.21395v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "29 pages. Code: https://github.com/vishalstark512/PMH. Preprint, not peer-reviewed. Affiliation: KU Leuven, Belgium",
+      "entry_id": "http://arxiv.org/abs/2604.21395v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.21395v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.21395v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-24",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2604.21343": {
+      "title": "Latent Denoising Improves Visual Alignment in Large Multimodal Models",
+      "authors": [
+        "Dhruv Parikh",
+        "Jacob Fein-Ashley",
+        "Rajgopal Kannan",
+        "Viktor Prasanna"
+      ],
+      "published": "2026-04-23T06:58:08+00:00",
+      "updated": "2026-04-23T06:58:08+00:00",
+      "summary": "Large Multimodal Models (LMMs) such as LLaVA are typically trained with an autoregressive language modeling objective, providing only indirect supervision to visual tokens. This often yields weak internal visual representations and brittle behavior under distribution shift. Inspired by recent progress on latent denoising for learning high-quality visual tokenizers, we show that the same principle provides an effective form of visual supervision for improving internal visual feature alignment and multimodal understanding in LMMs. We propose a latent denoising framework that corrupts projected visual tokens using a saliency-aware mixture of masking and Gaussian noising. The LMM is trained to denoise these corrupted tokens by recovering clean teacher patch features from hidden states at a selected intermediate LLM layer using a decoder. To prevent representation collapse, our framework also preserves the teacher's intra-image similarity structure and applies intra-image contrastive patch distillation. During inference, corruption and auxiliary heads are disabled, introducing no additional inference-time overhead. Across a broad suite of standard multimodal benchmarks, our method consistently improves visual understanding and reasoning over strong baselines, and yields clear gains on compositional robustness benchmarks (e.g., NaturalBench). Moreover, under ImageNet-C-style non-adversarial common corruptions applied to benchmark images, our method maintains higher accuracy and exhibits reduced degradation at both moderate and severe corruption levels. Our code is available at https://github.com/dhruvashp/latent-denoising-for-lmms.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.21343v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Technical Report",
+      "entry_id": "http://arxiv.org/abs/2604.21343v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.21343v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.21343v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-24",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
     "2604.19571": {
       "title": "TransSplat: Unbalanced Semantic Transport for Language-Driven 3DGS Editing",
       "authors": [
@@ -108100,6 +108278,123 @@
     }
   },
   "Depth Estimation": {
+    "2604.21915": {
+      "title": "Vista4D: Video Reshooting with 4D Point Clouds",
+      "authors": [
+        "Kuan Heng Lin",
+        "Zhizheng Liu",
+        "Pablo Salamanca",
+        "Yash Kant",
+        "Ryan Burgert",
+        "Yuancheng Xu",
+        "Koichi Namekata",
+        "Yiwei Zhao",
+        "Bolei Zhou",
+        "Micah Goldblum",
+        "Paul Debevec",
+        "Ning Yu"
+      ],
+      "published": "2026-04-23T17:57:28+00:00",
+      "updated": "2026-04-23T17:57:28+00:00",
+      "summary": "We present Vista4D, a robust and flexible video reshooting framework that grounds the input video and target cameras in a 4D point cloud. Specifically, given an input video, our method re-synthesizes the scene with the same dynamics from a different camera trajectory and viewpoint. Existing video reshooting methods often struggle with depth estimation artifacts of real-world dynamic videos, while also failing to preserve content appearance and failing to maintain precise camera control for challenging new trajectories. We build a 4D-grounded point cloud representation with static pixel segmentation and 4D reconstruction to explicitly preserve seen content and provide rich camera signals, and we train with reconstructed multiview dynamic data for robustness against point cloud artifacts during real-world inference. Our results demonstrate improved 4D consistency, camera control, and visual quality compared to state-of-the-art baselines under a variety of videos and camera paths. Moreover, our method generalizes to real-world applications such as dynamic scene expansion and 4D scene recomposition. See our project page for results, code, and models: https://eyeline-labs.github.io/Vista4D",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.21915v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "24 pages, 20 figures, CVPR 2026, see project page at https://eyeline-labs.github.io/Vista4D",
+      "entry_id": "http://arxiv.org/abs/2604.21915v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.21915v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.21915v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2604.21801": {
+      "title": "SyMTRS: Benchmark Multi-Task Synthetic Dataset for Depth, Domain Adaptation and Super-Resolution in Aerial Imagery",
+      "authors": [
+        "Safouane El Ghazouali",
+        "Nicola Venturi",
+        "Michael Rueegsegger",
+        "Umberto Michelucci"
+      ],
+      "published": "2026-04-23T15:59:12+00:00",
+      "updated": "2026-04-23T15:59:12+00:00",
+      "summary": "Recent advances in deep learning for remote sensing rely heavily on large annotated datasets, yet acquiring high-quality ground truth for geometric, radiometric, and multi-domain tasks remains costly and often infeasible. In particular, the lack of accurate depth annotations, controlled illumination variations, and multi-scale paired imagery limits progress in monocular depth estimation, domain adaptation, and super-resolution for aerial scenes. We present SyMTRS, a large-scale synthetic dataset generated using a high-fidelity urban simulation pipeline. The dataset provides high-resolution RGB aerial imagery (2048 x 2048), pixel-perfect depth maps, night-time counterparts for domain adaptation, and aligned low-resolution variants for super-resolution at x2, x4, and x8 scales. Unlike existing remote sensing datasets that focus on a single task or modality, SyMTRS is designed as a unified multi-task benchmark enabling joint research in geometric understanding, cross-domain robustness, and resolution enhancement. We describe the dataset generation process, its statistical properties, and its positioning relative to existing benchmarks. SyMTRS aims to bridge critical gaps in remote sensing research by enabling controlled experiments with perfect geometric ground truth and consistent multi-domain supervision. The results obtained in this work can be reproduced from this Github repository: https://github.com/safouaneelg/SyMTRS.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.21801v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.21801v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.21801v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.21801v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2604.21713": {
+      "title": "Unlocking the Power of Critical Factors for 3D Visual Geometry Estimation",
+      "authors": [
+        "Guangkai Xu",
+        "Hua Geng",
+        "Huanyi Zheng",
+        "Songyi Yin",
+        "Yanlong Sun",
+        "Hao Chen",
+        "Chunhua Shen"
+      ],
+      "published": "2026-04-23T14:20:44+00:00",
+      "updated": "2026-04-23T14:20:44+00:00",
+      "summary": "Feed-forward visual geometry estimation has recently made rapid progress. However, an important gap remains: multi-frame models usually produce better cross-frame consistency, yet they often underperform strong per-frame methods on single-frame accuracy. This observation motivates our systematic investigation into the critical factors driving model performance through rigorous ablation studies, which reveals several key insights: 1) Scaling up data diversity and quality unlocks further performance gains even in state-of-the-art visual geometry estimation methods; 2) Commonly adopted confidence-aware loss and gradient-based loss mechanisms may unintentionally hinder performance; 3) Joint supervision through both per-sequence and per-frame alignment improves results, while local region alignment surprisingly degrades performance. Furthermore, we introduce two enhancements to integrate the advantages of optimization-based methods and high-resolution inputs: a consistency loss function that enforces alignment between depth maps, camera parameters, and point maps, and an efficient architectural design that leverages high-resolution information. We integrate these designs into CARVE, a resolution-enhanced model for feed-forward visual geometry estimation. Experiments on point cloud reconstruction, video depth estimation, and camera pose/intrinsic estimation show that CARVE achieves strong and robust performance across diverse benchmarks.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.21713v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted to CVPR 2026. GitHub Page: https://github.com/aim-uofa/CARVE",
+      "entry_id": "http://arxiv.org/abs/2604.21713v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.21713v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.21713v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2604.20329": {
       "title": "Image Generators are Generalist Vision Learners",
       "authors": [

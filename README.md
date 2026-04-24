@@ -1,4 +1,4 @@
-## Updated at 2026-04-24 08:34:55
+## Updated at 2026-04-24 20:23:44
 
 ## 3DGS Semantic
 
@@ -8,6 +8,10 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-04-23**|**[Informative Priors on Primordial Non-Gaussianity Bias $b_φ$ From Galaxy Formation](https://arxiv.org/abs/2604.21790)**|N/A|25 pages, 4 figures|astro-ph.CO|None|Anne Moore et al.|
+|**2026-04-23**|**[GS-Quant: Granular Semantic and Generative Structural Quantization for Knowledge Graph Completion](https://arxiv.org/abs/2604.21649)**|N/A|ACL 2026|cs.AI|None|Qizhuo Xie et al.|
+|**2026-04-23**|**[Supervised Learning Has a Necessary Geometric Blind Spot: Theory, Consequences, and Minimal Repair](https://arxiv.org/abs/2604.21395)**|N/A|29 pages. Code: https://github.com/vishalstark512/PMH. Preprint, not peer-reviewed. Affiliation: KU Leuven, Belgium|cs.LG|None|Vishal Rajput|
+|**2026-04-23**|**[Latent Denoising Improves Visual Alignment in Large Multimodal Models](https://arxiv.org/abs/2604.21343)**|N/A|Technical Report|cs.CV|None|Dhruv Parikh et al.|
 |**2026-04-21**|**[TransSplat: Unbalanced Semantic Transport for Language-Driven 3DGS Editing](https://arxiv.org/abs/2604.19571)**|N/A|None|cs.CV|None|Yanhui Chen et al.|
 |**2026-04-21**|**[Industrial Surface Defect Detection via Diffusion Generation and Asymmetric Student-Teacher Network](https://arxiv.org/abs/2604.19240)**|N/A|None|cs.AI|None|Shuo Feng et al.|
 |**2026-04-20**|**[Context-Aware Search and Retrieval Under Token Erasure](https://arxiv.org/abs/2604.18424)**|N/A|None|cs.IR|None|Sara Ghasvarianjahromi et al.|
@@ -874,6 +878,9 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-04-23**|**[Vista4D: Video Reshooting with 4D Point Clouds](https://arxiv.org/abs/2604.21915)**|N/A|24 pages, 20 figures, CVPR 2026, see project page at https://eyeline-labs.github.io/Vista4D|cs.CV|None|Kuan Heng Lin et al.|
+|**2026-04-23**|**[SyMTRS: Benchmark Multi-Task Synthetic Dataset for Depth, Domain Adaptation and Super-Resolution in Aerial Imagery](https://arxiv.org/abs/2604.21801)**|N/A|None|cs.CV|None|Safouane El Ghazouali et al.|
+|**2026-04-23**|**[Unlocking the Power of Critical Factors for 3D Visual Geometry Estimation](https://arxiv.org/abs/2604.21713)**|N/A|Accepted to CVPR 2026. GitHub Page: https://github.com/aim-uofa/CARVE|cs.CV|None|Guangkai Xu et al.|
 |**2026-04-22**|**[Image Generators are Generalist Vision Learners](https://arxiv.org/abs/2604.20329)**|N/A|Project Page: http://vision-banana.github.io|cs.CV|None|Valentin Gabeur et al.|
 |**2026-04-21**|**[Face Anything: 4D Face Reconstruction from Any Image Sequence](https://arxiv.org/abs/2604.19702)**|N/A|Project website: https://kocasariumut.github.io/FaceAnything/ , Video: https://www.youtube.com/watch?v=wSGHpAscp0Y|cs.CV|None|Umut Kocasari et al.|
 |**2026-04-21**|**[Evaluation of Winning Solutions of 2025 Low Power Computer Vision Challenge](https://arxiv.org/abs/2604.19054)**|N/A|11 pages, 8 figures, 4 tables|cs.CV|None|Zihao Ye et al.|
