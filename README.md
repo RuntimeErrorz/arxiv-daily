@@ -1,4 +1,4 @@
-## Updated at 2026-04-27 08:34:28
+## Updated at 2026-04-27 20:34:28
 
 ## 3DGS Semantic
 
@@ -8,6 +8,9 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-04-24**|**[NRGS: Neural Regularization for Robust 3D Semantic Gaussian Splatting](https://arxiv.org/abs/2604.22439)**|N/A|None|cs.CV|None|Zaiyan Yang et al.|
+|**2026-04-24**|**[Tail-Greedy Unbalanced Haar Wavelet Segmentation for Copy Number Alteration Data](https://arxiv.org/abs/2604.22364)**|N/A|17 pages, 9 figures|stat.AP|None|Maharani Ahsani Ummi et al.|
+|**2026-04-24**|**[GenMatter: Perceiving Physical Objects with Generative Matter Models](https://arxiv.org/abs/2604.22160)**|N/A|25 pages, 12 figures, CVPR 2026|cs.CV|None|Eric Li et al.|
 |**2026-04-23**|**[Informative Priors on Primordial Non-Gaussianity Bias $b_φ$ From Galaxy Formation](https://arxiv.org/abs/2604.21790)**|N/A|25 pages, 4 figures|astro-ph.CO|None|Anne Moore et al.|
 |**2026-04-23**|**[GS-Quant: Granular Semantic and Generative Structural Quantization for Knowledge Graph Completion](https://arxiv.org/abs/2604.21649)**|N/A|ACL 2026|cs.AI|None|Qizhuo Xie et al.|
 |**2026-04-23**|**[Supervised Learning Has a Necessary Geometric Blind Spot: Theory, Consequences, and Minimal Repair](https://arxiv.org/abs/2604.21395)**|N/A|29 pages. Code: https://github.com/vishalstark512/PMH. Preprint, not peer-reviewed. Affiliation: KU Leuven, Belgium|cs.LG|None|Vishal Rajput|
@@ -410,6 +413,7 @@ Query: (abs:'Multi-View Stereo' OR abs:'Multi View Stereo' OR abs:'Multi-View De
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-04-24**|**[PAGaS: Pixel-Aligned 1DoF Gaussian Splatting for Depth Refinement](https://arxiv.org/abs/2604.22129)**|N/A|None|cs.CV|None|David Recasens et al.|
 |**2026-04-14**|**[Neural 3D Reconstruction of Planetary Surfaces from Descent-Phase Wide-Angle Imagery](https://arxiv.org/abs/2604.13235)**|N/A|None|cs.CV|None|Melonie de Almeida et al.|
 |**2026-04-11**|**[A Comparison of Multi-View Stereo Methods for Photogrammetric 3D Reconstruction: From Traditional to Learning-Based Approaches](https://arxiv.org/abs/2604.10246)**|N/A|None|cs.CV|None|Yawen Li et al.|
 |**2026-04-06**|**[SimpleProc: Fully Procedural Synthetic Data from Simple Rules for Multi-View Stereo](https://arxiv.org/abs/2604.04925)**|N/A|None|cs.CV|None|Zeyu Ma et al.|
@@ -878,6 +882,7 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-04-24**|**[Depth-Aware Rover: A Study of Edge AI and Monocular Vision for Real-World Implementation](https://arxiv.org/abs/2604.22331)**|N/A|Accepted by IEEE|cs.CV|None|Lomash Relia et al.|
 |**2026-04-23**|**[Vista4D: Video Reshooting with 4D Point Clouds](https://arxiv.org/abs/2604.21915)**|N/A|24 pages, 20 figures, CVPR 2026, see project page at https://eyeline-labs.github.io/Vista4D|cs.CV|None|Kuan Heng Lin et al.|
 |**2026-04-23**|**[SyMTRS: Benchmark Multi-Task Synthetic Dataset for Depth, Domain Adaptation and Super-Resolution in Aerial Imagery](https://arxiv.org/abs/2604.21801)**|N/A|None|cs.CV|None|Safouane El Ghazouali et al.|
 |**2026-04-23**|**[Unlocking the Power of Critical Factors for 3D Visual Geometry Estimation](https://arxiv.org/abs/2604.21713)**|N/A|Accepted to CVPR 2026. GitHub Page: https://github.com/aim-uofa/CARVE|cs.CV|None|Guangkai Xu et al.|

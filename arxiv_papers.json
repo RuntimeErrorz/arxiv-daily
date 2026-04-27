@@ -1,5 +1,145 @@
 {
   "3DGS Semantic": {
+    "2604.22439": {
+      "title": "NRGS: Neural Regularization for Robust 3D Semantic Gaussian Splatting",
+      "authors": [
+        "Zaiyan Yang",
+        "Xinpeng Liu",
+        "Heng Guo",
+        "Jinglei Shi",
+        "Zhanyu Ma",
+        "Fumio Okura"
+      ],
+      "published": "2026-04-24T10:57:05+00:00",
+      "updated": "2026-04-24T10:57:05+00:00",
+      "summary": "We propose a neural regularization method that refines the noisy 3D semantic field produced by lifting multi-view inconsistent 2D features, in order to obtain an accurate and robust 3D semantic Gaussian Splatting. The 2D features extracted from vision foundation models suffer from multi-view inconsistency due to a lack of cross-view constraints. Lifting these inconsistent features directly into 3D Gaussians results in a noisy semantic field, which degrades the performance of downstream tasks. Previous methods either focus on obtaining consistent multi-view features in the preprocessing stage or aim to mitigate noise through improved optimization strategies, often at the cost of increased preprocessing time or expensive computational overhead. In contrast, we introduce a variance-aware conditional MLP that operates directly on the 3D Gaussians, leveraging their geometric and appearance attributes to correct semantic errors in 3D space. Experiments on different datasets show that our method enhances the accuracy of lifted semantics, providing an efficient and effective approach to robust 3D semantic Gaussian Splatting.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.22439v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.22439v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.22439v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.22439v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-27",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2604.22364": {
+      "title": "Tail-Greedy Unbalanced Haar Wavelet Segmentation for Copy Number Alteration Data",
+      "authors": [
+        "Maharani Ahsani Ummi",
+        "Stuart Barber",
+        "Henry M. Wood",
+        "Arief Gusnanto"
+      ],
+      "published": "2026-04-24T08:54:40+00:00",
+      "updated": "2026-04-24T08:54:40+00:00",
+      "summary": "Detecting copy number alterations (CNAs) from next-generation sequencing data remains challenging, particularly for short segments under noisy conditions. Existing segmentation methods often suffer from high false positive rates or fail to reliably detect short aberrations, especially in low-coverage data. In this study, we propose a modified tail-greedy unbalanced Haar (TGUHm) method that introduces a dual-thresholding strategy to improve segmentation accuracy. The proposed approach effectively suppresses spurious spikes while preserving sensitivity to both short and long CNA segments. Extensive simulation studies under Gaussian and heavy-tailed noise demonstrate that TGUHm consistently achieves higher true positive rates and lower false positive rates compared to state-of-the-art methods, including CBS, HaarSeg, and FDRSeg. In particular, the proposed method improves detection accuracy for short segments while maintaining competitive overall performance. Application to real cancer genomic data further confirms the practical utility of the method, revealing biologically meaningful CNAs associated with known cancer-related genes. These results suggest that TGUHm provides a robust and effective framework for CNA detection in challenging sequencing settings.",
+      "categories": [
+        "stat.AP",
+        "stat.CO"
+      ],
+      "primary_category": "stat.AP",
+      "pdf_url": "https://arxiv.org/pdf/2604.22364v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "17 pages, 9 figures",
+      "entry_id": "http://arxiv.org/abs/2604.22364v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.22364v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.22364v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-27",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2604.22160": {
+      "title": "GenMatter: Perceiving Physical Objects with Generative Matter Models",
+      "authors": [
+        "Eric Li",
+        "Arijit Dasgupta",
+        "Yoni Friedman",
+        "Mathieu Huot",
+        "Vikash Mansinghka",
+        "Thomas O'Connell",
+        "William T. Freeman",
+        "Joshua B. Tenenbaum"
+      ],
+      "published": "2026-04-24T02:18:18+00:00",
+      "updated": "2026-04-24T02:18:18+00:00",
+      "summary": "Human visual perception offers valuable insights for understanding computational principles of motion-based scene interpretation. Humans robustly detect and segment moving entities that constitute independently moveable chunks of matter, whether observing sparse moving dots, textured surfaces, or naturalistic scenes. In contrast, existing computer vision systems lack a unified approach that works across these diverse settings. Inspired by principles of human perception, we propose a generative model that hierarchically groups low-level motion cues and high-level appearance features into particles (small Gaussians representing local matter), and groups particles into clusters capturing coherently and independently moveable physical entities. We develop a hardware-accelerated inference algorithm based on parallelized block Gibbs sampling to recover stable particle motion and groupings. Our model operates on different kinds of inputs (random dots, stylized textures, or naturalistic RGB video), enabling it to work across settings where biological vision succeeds but existing computer vision approaches do not. We validate this unified framework across three domains: on 2D random dot kinematograms, our approach captures human object perception including graded uncertainty across ambiguous conditions; on a Gestalt-inspired dataset of camouflaged rotating objects, our approach recovers correct 3D structure from motion and thereby accurate 2D object segmentation; and on naturalistic RGB videos, our model tracks the moving 3D matter that makes up deforming objects, enabling robust object-level scene understanding. This work thus establishes a general framework for motion-based perception grounded in principles of human vision.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.22160v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "25 pages, 12 figures, CVPR 2026",
+      "entry_id": "http://arxiv.org/abs/2604.22160v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.22160v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.22160v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-27",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
     "2604.21790": {
       "title": "Informative Priors on Primordial Non-Gaussianity Bias $b_φ$ From Galaxy Formation",
       "authors": [
@@ -91135,6 +91275,45 @@
     }
   },
   "MVS": {
+    "2604.22129": {
+      "title": "PAGaS: Pixel-Aligned 1DoF Gaussian Splatting for Depth Refinement",
+      "authors": [
+        "David Recasens",
+        "Robert Maier",
+        "Aljaz Bozic",
+        "Stephane Grabli",
+        "Javier Civera",
+        "Tony Tung",
+        "Edmond Boyer"
+      ],
+      "published": "2026-04-24T00:29:17+00:00",
+      "updated": "2026-04-24T00:29:17+00:00",
+      "summary": "Gaussian Splatting (GS) has emerged as an efficient approach for high-quality novel view synthesis. While early GS variants struggled to accurately model the scene's geometry, recent advancements constraining the Gaussians' spread and shapes, such as 2D Gaussian Splatting, have significantly improved geometric fidelity. In this paper, we present Pixel-Aligned 1DoF Gaussian Splatting (PAGaS) that adapts the GS representation from novel view synthesis to the multi-view stereo depth task. Our key contribution is modeling a pixel's depth using one-degree-of-freedom (1DoF) Gaussians that remain tightly constrained during optimization. Unlike existing approaches, our Gaussians' positions and sizes are restricted by the back-projected pixel volumes, leaving depth as the sole degree of freedom to optimize. PAGaS produces highly detailed depths, as illustrated in Figure 1. We quantitatively validate these improvements on top of reference geometric and learning-based multi-view stereo baselines on challenging 3D reconstruction benchmarks. Code: davidrecasens.github.io/pagas",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.22129v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.22129v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.22129v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.22129v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2604.13235": {
       "title": "Neural 3D Reconstruction of Planetary Surfaces from Descent-Phase Wide-Angle Imagery",
       "authors": [
@@ -108278,6 +108457,41 @@
     }
   },
   "Depth Estimation": {
+    "2604.22331": {
+      "title": "Depth-Aware Rover: A Study of Edge AI and Monocular Vision for Real-World Implementation",
+      "authors": [
+        "Lomash Relia",
+        "Jai G Singla",
+        "Amitabh",
+        "Nitant Dube"
+      ],
+      "published": "2026-04-24T08:03:59+00:00",
+      "updated": "2026-04-24T08:03:59+00:00",
+      "summary": "This study analyses simulated and real-world implementations of depth-aware rover navigation, highlighting the transition from stereo vision to monocular depth estimation using edge AI. A Unity-based lunar terrain simulator with stereo cameras and OpenCV's StereoSGBM was used to generate disparity maps. A physical rover built on Raspberry Pi 4 employed UniDepthV2 for monocular metric depth estimation and YOLO12n for real-time object detection. While stereo vision yielded higher accuracy in simulation, the monocular approach proved more robust and cost-effective in real-world deployment, achieving 0.1 FPS for depth and 10 FPS for detection.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.22331v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted by IEEE",
+      "entry_id": "http://arxiv.org/abs/2604.22331v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.22331v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.22331v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2604.21915": {
       "title": "Vista4D: Video Reshooting with 4D Point Clouds",
       "authors": [
