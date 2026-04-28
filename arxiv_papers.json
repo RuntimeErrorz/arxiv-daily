@@ -1,5 +1,206 @@
 {
   "3DGS Semantic": {
+    "2604.24692": {
+      "title": "Diffusion-Guided Feature Selection via Nishimori Temperature: Noise-Based Spectral Embedding",
+      "authors": [
+        "Vasiliy S. Usatyuk",
+        "Denis A. Sapozhnikov",
+        "Sergey I. Egorov"
+      ],
+      "published": "2026-04-27T16:53:40+00:00",
+      "updated": "2026-04-27T16:53:40+00:00",
+      "summary": "We propose Noise-Based Spectral Embedding (NBSE), a physics-informed framework for selecting informative features from high-dimensional data without greedy search. NBSE constructs a sparse similarity graph on the samples and identifies the Nishimori temperature $β_N$ the critical inverse temperature at which the Bethe Hessian becomes singular. The corresponding smallest eigenvector captures the dominant mode of an intrinsically degree-corrected diffusion process, naturally reweighting nodes to prevent hub dominance. By transposing the data matrix and applying NBSE in feature space, we obtain a one-dimensional spectral embedding that reveals groups of redundant or semantically related dimensions; balanced binning then selects one representative per group. We prove that coloured Gaussian perturbations shift $β_N$ by at most $O(\\barσ^2)$, guaranteeing robustness to measurement noise. Experiments on ImageNet embeddings from MobileNetV2 and EfficientNet-B4 show that NBSE preserves classification accuracy even under aggressive compression: on EfficientNet-B4 the accuracy drop is below $1\\%$ when retaining only $30\\%$ of features, outperforming ANOVA $F$-test and random selection by up to $6.8\\%$.",
+      "categories": [
+        "cs.LG"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2604.24692v1",
+      "journal_ref": null,
+      "doi": "10.1109/DSPA69176.2026.11476758",
+      "comment": "8 pages, 3 figures, extended version (with noise shift proof) of DSPA2026 article",
+      "entry_id": "http://arxiv.org/abs/2604.24692v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.24692v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.24692v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        },
+        {
+          "href": "https://doi.org/10.1109/DSPA69176.2026.11476758",
+          "title": "doi",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2604.24622": {
+      "title": "CF-VLA: Efficient Coarse-to-Fine Action Generation for Vision-Language-Action Policies",
+      "authors": [
+        "Fan Du",
+        "Feng Yan",
+        "Jianxiong Wu",
+        "Xinrun Xu",
+        "Weiye Zhang",
+        "Weinong Wang",
+        "Yu Guo",
+        "Bin Qian",
+        "Zhihai He"
+      ],
+      "published": "2026-04-27T15:51:40+00:00",
+      "updated": "2026-04-27T15:51:40+00:00",
+      "summary": "Flow-based vision-language-action (VLA) policies offer strong expressivity for action generation, but suffer from a fundamental inefficiency: multi-step inference is required to recover action structure from uninformative Gaussian noise, leading to a poor efficiency-quality trade-off under real-time constraints. We address this issue by rethinking the role of the starting point in generative action modeling. Instead of shortening the sampling trajectory, we propose CF-VLA, a coarse-to-fine two-stage formulation that restructures action generation into a coarse initialization step that constructs an action-aware starting point, followed by a single-step local refinement that corrects residual errors. Concretely, the coarse stage learns a conditional posterior over endpoint velocity to transform Gaussian noise into a structured initialization, while the fine stage performs a fixed-time refinement from this initialization. To stabilize training, we introduce a stepwise strategy that first learns a controlled coarse predictor and then performs joint optimization. Experiments on CALVIN and LIBERO show that our method establishes a strong efficiency-performance frontier under low-NFE (Number of Function Evaluations) regimes: it consistently outperforms existing NFE=2 methods, matches or surpasses the NFE=10 $π_{0.5}$ baseline on several metrics, reduces action sampling latency by 75.4\\%, and achieves the best average real-robot success rate of 83.0\\%, outperforming MIP by 19.5 points and $π_{0.5}$ by 4.0 points. These results suggest that structured, coarse-to-fine generation enables both strong performance and efficient inference. Our code is available at https://github.com/EmbodiedAI-RoboTron/CF-VLA.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.24622v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.24622v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.24622v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.24622v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2604.24187": {
+      "title": "Multivariate Gaussian NeRF for Wide Field-of-View Ultrasound Reconstruction",
+      "authors": [
+        "Patris Valera",
+        "Magdalena Wysocki",
+        "Felix Duelmer",
+        "Mohammad Farid Azampour",
+        "Sebastian Herz",
+        "Stefan Wörz",
+        "Nassir Navab"
+      ],
+      "published": "2026-04-27T08:48:49+00:00",
+      "updated": "2026-04-27T08:48:49+00:00",
+      "summary": "Wide Field-of-View (WFoV) reconstruction enhances 3D ultrasound imaging by providing valuable anatomical context for segmentation models and visualization. Clinical ultrasound volumes are predominantly acquired using convex probes, which generate expanding, diverging acoustic beams to maximize anatomical coverage. Stitching these sweeps together traditionally introduces significant compounding artifacts and aliasing due to depth-dependent resolution changes. Here, we introduce Ultra-Wide-NeRF, a Multivariate 3D Gaussian (MVG) NeRF-based method for WFoV ultrasound reconstruction. By explicitly modeling the complex beam geometry using distance-dependent convex volumetric sampling and anisotropic 3D Gaussians, our method inherently mitigates these compounding artifacts and provides anti-aliasing. Beyond simply reconstructing a static 3D grid, our NeRF-based approach yields a continuous neural representation of the tissue, enabling the synthesis of high-fidelity novel views from arbitrary virtual trajectories. We validate Ultra-Wide-NeRF for intracardiac echocardiography on phantom and porcine datasets, demonstrating that our method expands the spatial context important in intraoperative navigation. Code will be open-sourced upon publication.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.24187v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.24187v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.24187v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.24187v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2604.23996": {
+      "title": "SMoES: Soft Modality-Guided Expert Specialization in MoE-VLMs",
+      "authors": [
+        "Zi-Hao Bo",
+        "Yaqian Li",
+        "Anzhou Hou",
+        "Rinyoichi Takezoe",
+        "Ertao Zhao",
+        "Tianxiang Pan",
+        "Jiale Yan",
+        "Mo Guang",
+        "Kaiwen Long"
+      ],
+      "published": "2026-04-27T03:23:19+00:00",
+      "updated": "2026-04-27T03:23:19+00:00",
+      "summary": "Mixture-of-Experts (MoE) has become a prevalent backbone for large vision-language models (VLMs), yet how modality-specific signals should guide expert routing remains under-explored. Existing routing strategies are either hand-crafted or modality-agnostic, relying on idealized priors that ignore the layer-dependent modality fusion patterns in MoE-VLMs and provide little guidance for expert specialization. We propose Soft Modality-guided Expert Specialization (SMoES), which consists of dynamic soft modality scores that capture layer-dependent fusion patterns, an expert binning mechanism aligned with expert-parallel deployment, and an inter-bin mutual information regularization that encourages coherent modality specialization. Our method leverages attention-based or Gaussian-statistics modality scores to optimize mutual information regularization. Experiments across four MoE-based VLMs and 16 benchmarks demonstrate improvement on both effectiveness and efficiency: 0.9% and 4.2% average gain on multimodal and language-only tasks, 56.1% reduction in EP communication overhead, and 12.3% throughput improvement under realistic deployment. These results validate that aligning routing with modality-aware expert specialization unlocks MoE-VLM capacity and efficiency.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.23996v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "CVPR 2026",
+      "entry_id": "http://arxiv.org/abs/2604.23996v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.23996v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.23996v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2604.23540": {
+      "title": "Oracle Noise: Faster Semantic Spherical Alignment for Interpretable Latent Optimization",
+      "authors": [
+        "Haosen Li",
+        "Wenshuo Chen",
+        "Lei Wang",
+        "Shaofeng Liang",
+        "Haozhe Jia",
+        "Yutao Yue"
+      ],
+      "published": "2026-04-26T05:32:26+00:00",
+      "updated": "2026-04-26T05:32:26+00:00",
+      "summary": "Text-to-image diffusion models have achieved remarkable generative capabilities, yet accurately aligning complex textual prompts with synthesized layouts remains an ongoing challenge. In these models, the initial Gaussian noise acts as a critical structural seed dictating the macroscopic layout. Recent online optimization and search methods attempt to refine this noise to enhance text-image alignment. However, relying on unconstrained Euclidean gradient ascent mathematically inflates the latent norm and destroys the standard Gaussian prior, causing severe visual artifacts like color over-saturation. Furthermore, these methods suffer from inefficient semantic routing and easily fall into the ``reward hacking'' trap of external proxy models. To address these intertwined bottlenecks, we propose Oracle Noise, a zero-shot framework reframing noise initialization as semantic-driven optimization strictly confined to a Riemannian hypersphere. Instead of relying on complex external parsers, we directly identify the most impactful structural words in the prompt to efficiently route optimization energy. By updating the noise strictly along a spherical path, we mathematically preserve the original Gaussian distribution. This geometric constraint eliminates norm inflation and unlocks aggressive step sizes for rapid convergence. Extensive experiments demonstrate that Oracle Noise significantly accelerates semantic alignment and achieves superior aesthetics without black-box models. It completely mitigates Euclidean-induced degradation, establishing state-of-the-art performance across human preference metrics (e.g., HPSv2, ImageReward), semantic alignment (CLIP Score), and sample diversity, all within a strict 2-second optimization budget.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.23540v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.23540v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.23540v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.23540v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
     "2604.22439": {
       "title": "NRGS: Neural Regularization for Robust 3D Semantic Gaussian Splatting",
       "authors": [
@@ -237,28 +438,28 @@
         "Vishal Rajput"
       ],
       "published": "2026-04-23T08:03:33+00:00",
-      "updated": "2026-04-23T08:03:33+00:00",
-      "summary": "We prove that empirical risk minimisation (ERM) imposes a necessary geometric constraint on learned representations: any encoder that minimises supervised loss must retain non-zero Jacobian sensitivity in directions that are label-correlated in training data but nuisance at test time. This is not a contingent failure of current methods; it is a mathematical consequence of the supervised objective itself. We call this the geometric blind spot of supervised learning (Theorem 1), and show it holds across proper scoring rules, architectures, and dataset sizes.\n  This single theorem unifies four lines of prior empirical work that were previously treated separately: non-robust predictive features, texture bias, corruption fragility, and the robustness-accuracy tradeoff. In this framing, adversarial vulnerability is one consequence of a broader structural fact about supervised learning geometry.\n  We introduce Trajectory Deviation Index (TDI), a diagnostic that measures the theorem's bounded quantity directly, and show why common alternatives miss the key failure mode. PGD adversarial training reaches Jacobian Frobenius 2.91 yet has the worst clean-input geometry (TDI 1.336), while PMH achieves TDI 0.904. TDI is the only metric that detects this dissociation because it measures isotropic path-length distortion -- the exact quantity Theorem 1 bounds.\n  Across seven vision tasks, BERT/SST-2, and ImageNet ViT-B/16 backbones used by CLIP, DINO, and SAM, the blind spot is measurable and repairable. It is present at foundation-model scale, worsens monotonically across language-model sizes (blind-spot ratio 0.860 to 0.765 to 0.742 from 66M to 340M), and is amplified by task-specific ERM fine-tuning (+54%), while PMH repairs it by 11x with one additional training term whose Gaussian form Proposition 5 proves is the unique perturbation law that uniformly penalises the encoder Jacobian.",
+      "updated": "2026-04-27T10:44:51+00:00",
+      "summary": "PGD adversarial training, the standard robustness method, can reduce Jacobian Frobenius norm yet worsen clean-input geometry (e.g., TDI 1.336 vs. ERM 1.093). We show this is not an implementation artifact but a theorem-level consequence of supervised learning.\n  We prove that any encoder minimizing supervised loss must retain non-zero sensitivity along directions correlated with training labels, including directions that are nuisance at test time. This holds across proper scoring rules, architectures, and dataset sizes. We call this the geometric blind spot of supervised learning.\n  This theorem unifies four empirical phenomena often treated separately: non-robust features, texture bias, corruption fragility, and the robustness-accuracy tradeoff. It also explains why suppressing sensitivity in one adversarial direction can redistribute sensitivity elsewhere.\n  We introduce Trajectory Deviation Index (TDI), a diagnostic of geometric isotropy. Unlike CKA, intrinsic dimension, or Jacobian Frobenius norm alone, TDI captures the failure mode above. In our experiments, PGD attains low Frobenius norm but high TDI, while PMH attains the lowest TDI with one additional training term and no architectural changes.\n  Across seven tasks, BERT/SST-2, and ImageNet ViT-B/16 (backbone family underlying CLIP/DINO/SAM), the blind spot is measurable and repairable. It appears at foundation-model scale, worsens with model scale and task-specific fine-tuning, and is substantially reduced by PMH. PMH also leads on non-Gaussian corruption types (blur/brightness/contrast) without corruption-specific training.",
       "categories": [
         "cs.LG",
         "cs.AI",
         "cs.CV"
       ],
       "primary_category": "cs.LG",
-      "pdf_url": "https://arxiv.org/pdf/2604.21395v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.21395v2",
       "journal_ref": null,
       "doi": null,
-      "comment": "29 pages. Code: https://github.com/vishalstark512/PMH. Preprint, not peer-reviewed. Affiliation: KU Leuven, Belgium",
-      "entry_id": "http://arxiv.org/abs/2604.21395v1",
+      "comment": "30 pages, 5 figures. Code: https://github.com/vishalstark512/PMH \"Revised version with corrected manuscript text.\"",
+      "entry_id": "http://arxiv.org/abs/2604.21395v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2604.21395v1",
+          "href": "https://arxiv.org/abs/2604.21395v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2604.21395v1",
+          "href": "https://arxiv.org/pdf/2604.21395v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -7856,6 +8057,53 @@
       "venue_info": {
         "venue_source": "Semantic Scholar",
         "queried_at": "2026-03-17",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2603.13502": {
+      "title": "Safety-aware Goal-oriented Semantic Sensing, Communication, and Control for Robotics",
+      "authors": [
+        "Wenchao Wu",
+        "Shutong Chen",
+        "Wenjie Liu",
+        "Zhibo Pang",
+        "Yansha Deng",
+        "Robert Schober"
+      ],
+      "published": "2026-03-13T18:28:28+00:00",
+      "updated": "2026-04-26T11:36:26+00:00",
+      "summary": "Wirelessly-connected robotic systems empower robots with real-time intelligence by leveraging remote computing resources for decision-making. However, the data exchange between robots and edge servers often overwhelms communication links, introducing latency that degrades task performance. To tackle this, goal-oriented semantic communication (GSC) has been introduced for wirelessly-connected robotic systems to extract and transmit only goal-relevant semantic representations. While this improves task effectiveness, it generally overlooks practical safety requirements. Meanwhile, existing robotics research often treats safety primarily as a control-level problem, without systematically considering safety across sensing, communication, and control in a closed-loop manner. To bridge this gap, we investigate how to enable safety-aware goal-oriented semantic (SA-GS) sensing, communication, and control co-design in wirelessly-connected robotic systems, aiming to maximize the robotic task effectiveness subject to practical safety requirements. We first introduce {an} architecture {for} wirelessly-connected robotic systems and representative use cases. We then summarize general safety requirements and effectiveness metrics across the use cases. Next, we systematically analyze the unique safety and effectiveness challenges in sensing, communication, and control. Based on these, we further present potential SA-GS research directions. Finally, an Unmanned Aerial Vehicle (UAV) target tracking case study validates that one of the presented SA-GS research directions, i.e., semantic-based C\\&C packet execution, could significantly improve safety rate and tracking success rate by more than 2 times and 4.5 times, respectively.",
+      "categories": [
+        "cs.RO",
+        "eess.SY"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2603.13502v2",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "7 pages. This paper has been submitted to the IEEE Wireless Communications Magazine",
+      "entry_id": "http://arxiv.org/abs/2603.13502v2",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2603.13502v2",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2603.13502v2",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-28",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -108457,6 +108705,85 @@
     }
   },
   "Depth Estimation": {
+    "2604.24328": {
+      "title": "Monocular Depth Estimation via Neural Network with Learnable Algebraic Group and Ring Structures",
+      "authors": [
+        "Qianlei Wang",
+        "Kexun Chen",
+        "Shaolin Zhang",
+        "Hongli Gao",
+        "Chaoning Zhang",
+        "Xiaolin Qin"
+      ],
+      "published": "2026-04-27T11:19:39+00:00",
+      "updated": "2026-04-27T11:19:39+00:00",
+      "summary": "Monocular depth estimation (MDE) has witnessed remarkable progress driven by Convolutional Neural Networks and transformer-based architectures. However, these approaches typically treat the problem as a generic image-to-image regression on Euclidean grids, thereby overlooking the intrinsic algebraic and geometric structures induced by perspective projection. To address this limitation, we propose LAGRNet, a novel framework that fundamentally grounds MDE in algebraic geometry by explicitly embedding learnable group, ring, and sheaf structures into the deep learning pipeline. Modeling feature maps as sections of a sheaf over an approximated image manifold, our method first establishes a Group-defined Feature Manifold (GFM) parameterized by a learned algebraic group action to enforce projective equivariance and robustness against view changes. To facilitate algebraically consistent cross-scale interactions, we subsequently introduce a Ring Convolution Layer (RCL) that formulates feature fusion as a graded ring homomorphism. Furthermore, to ensure global topological consistency, a Sheaf-based Module (SM) aggregates local depth cues via Čech nerve on the image topology. Extensive zero-shot evaluations across the KITTI, NYU-Depth V2, and ETH3D benchmarks demonstrate that LAGRNet significantly outperforms state-of-the-art methods in both accuracy and generalization capabilities.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.24328v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.24328v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.24328v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.24328v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2604.23432": {
+      "title": "Sphere-Depth: A Benchmark for Depth Estimation Methods with Varying Spherical Camera Orientations",
+      "authors": [
+        "Soulayma Gazzeh",
+        "Giuseppe Mazzola",
+        "Liliana Lo Presti",
+        "Marco La Cascia"
+      ],
+      "published": "2026-04-25T20:02:09+00:00",
+      "updated": "2026-04-25T20:02:09+00:00",
+      "summary": "Reliable depth estimation from spherical images is crucial for 360° vision in robotic navigation and immersive scene understanding. However, the onboard spherical camera can experience unintentional pose variations in real-world robotic platforms that, along with the geometric distortions inherent in equirectangular projections, significantly impact the effectiveness of depth estimation. To study this issue, a novel public benchmark, called Sphere-Depth, is introduced to systematically evaluate the robustness of monocular depth estimation models from equirectangular images in a reproducible way. Camera pose perturbations are simulated and used to assess the performance of a popular perspective-based model, Depth Anything, and of spherical-aware models such as Depth Anywhere, ACDNet, Bifuse++, and SliceNet. Furthermore, to ensure meaningful evaluation across models, a depth calibration-based error protocol is proposed to convert predicted relative depth values into metric depth values using supervised learned scaling factors for each model. Experiments show that even models explicitly designed to process spherical images exhibit substantial performance degradation when variations in the camera pose are observed with respect to the canonical pose. The full benchmark, evaluation protocol, and dataset splits are made publicly available at: https://github.com/sgazzeh/Sphere_depth",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.23432v1",
+      "journal_ref": "CAIP 2025, LNCS, vol 15621. Springer (2026)",
+      "doi": "10.1007/978-3-032-04968-1_31",
+      "comment": "Preprint",
+      "entry_id": "http://arxiv.org/abs/2604.23432v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.23432v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.23432v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        },
+        {
+          "href": "https://doi.org/10.1007/978-3-032-04968-1_31",
+          "title": "doi",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2604.22331": {
       "title": "Depth-Aware Rover: A Study of Edge AI and Monocular Vision for Real-World Implementation",
       "authors": [

@@ -1,4 +1,4 @@
-## Updated at 2026-04-27 20:34:28
+## Updated at 2026-04-28 20:38:35
 
 ## 3DGS Semantic
 
@@ -8,12 +8,17 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-04-27**|**[Diffusion-Guided Feature Selection via Nishimori Temperature: Noise-Based Spectral Embedding](https://arxiv.org/abs/2604.24692)**|N/A|8 pages, 3 figures, extended version (with noise shift proof) of DSPA2026 article|cs.LG|None|Vasiliy S. Usatyuk et al.|
+|**2026-04-27**|**[CF-VLA: Efficient Coarse-to-Fine Action Generation for Vision-Language-Action Policies](https://arxiv.org/abs/2604.24622)**|N/A|None|cs.CV|None|Fan Du et al.|
+|**2026-04-27**|**[Multivariate Gaussian NeRF for Wide Field-of-View Ultrasound Reconstruction](https://arxiv.org/abs/2604.24187)**|N/A|None|cs.CV|None|Patris Valera et al.|
+|**2026-04-27**|**[SMoES: Soft Modality-Guided Expert Specialization in MoE-VLMs](https://arxiv.org/abs/2604.23996)**|N/A|CVPR 2026|cs.CV|None|Zi-Hao Bo et al.|
+|**2026-04-26**|**[Oracle Noise: Faster Semantic Spherical Alignment for Interpretable Latent Optimization](https://arxiv.org/abs/2604.23540)**|N/A|None|cs.CV|None|Haosen Li et al.|
 |**2026-04-24**|**[NRGS: Neural Regularization for Robust 3D Semantic Gaussian Splatting](https://arxiv.org/abs/2604.22439)**|N/A|None|cs.CV|None|Zaiyan Yang et al.|
 |**2026-04-24**|**[Tail-Greedy Unbalanced Haar Wavelet Segmentation for Copy Number Alteration Data](https://arxiv.org/abs/2604.22364)**|N/A|17 pages, 9 figures|stat.AP|None|Maharani Ahsani Ummi et al.|
 |**2026-04-24**|**[GenMatter: Perceiving Physical Objects with Generative Matter Models](https://arxiv.org/abs/2604.22160)**|N/A|25 pages, 12 figures, CVPR 2026|cs.CV|None|Eric Li et al.|
 |**2026-04-23**|**[Informative Priors on Primordial Non-Gaussianity Bias $b_φ$ From Galaxy Formation](https://arxiv.org/abs/2604.21790)**|N/A|25 pages, 4 figures|astro-ph.CO|None|Anne Moore et al.|
 |**2026-04-23**|**[GS-Quant: Granular Semantic and Generative Structural Quantization for Knowledge Graph Completion](https://arxiv.org/abs/2604.21649)**|N/A|ACL 2026|cs.AI|None|Qizhuo Xie et al.|
-|**2026-04-23**|**[Supervised Learning Has a Necessary Geometric Blind Spot: Theory, Consequences, and Minimal Repair](https://arxiv.org/abs/2604.21395)**|N/A|29 pages. Code: https://github.com/vishalstark512/PMH. Preprint, not peer-reviewed. Affiliation: KU Leuven, Belgium|cs.LG|None|Vishal Rajput|
+|**2026-04-23**|**[Supervised Learning Has a Necessary Geometric Blind Spot: Theory, Consequences, and Minimal Repair](https://arxiv.org/abs/2604.21395)**|N/A|30 pages, 5 figures. Code: https://github.com/vishalstark512/PMH "Revised version with corrected manuscript text."|cs.LG|None|Vishal Rajput|
 |**2026-04-23**|**[Latent Denoising Improves Visual Alignment in Large Multimodal Models](https://arxiv.org/abs/2604.21343)**|N/A|Technical Report|cs.CV|None|Dhruv Parikh et al.|
 |**2026-04-21**|**[TransSplat: Unbalanced Semantic Transport for Language-Driven 3DGS Editing](https://arxiv.org/abs/2604.19571)**|N/A|None|cs.CV|None|Yanhui Chen et al.|
 |**2026-04-21**|**[Industrial Surface Defect Detection via Diffusion Generation and Asymmetric Student-Teacher Network](https://arxiv.org/abs/2604.19240)**|N/A|None|cs.AI|None|Shuo Feng et al.|
@@ -178,6 +183,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2026-03-14**|**[USIS-PGM: Photometric Gaussian Mixtures for Underwater Salient Instance Segmentation](https://arxiv.org/abs/2603.13961)**|N/A|None|cs.CV|None|Lin Hong et al.|
 |**2026-03-14**|**[Scene Generation at Absolute Scale: Utilizing Semantic and Geometric Guidance From Text for Accurate and Interpretable 3D Indoor Scene Generation](https://arxiv.org/abs/2603.13910)**|N/A|None|cs.CV|None|Stefan Ainetter et al.|
 |**2026-03-14**|**[Bodhi VLM: Privacy-Alignment Modeling for Hierarchical Visual Representations in Vision Backbones and VLM Encoders via Bottom-Up and Top-Down Feature Search](https://arxiv.org/abs/2603.13728)**|N/A|None|cs.CV|None|Bo Ma et al.|
+|**2026-03-13**|**[Safety-aware Goal-oriented Semantic Sensing, Communication, and Control for Robotics](https://arxiv.org/abs/2603.13502)**|N/A|7 pages. This paper has been submitted to the IEEE Wireless Communications Magazine|cs.RO|None|Wenchao Wu et al.|
 |**2026-03-13**|**[SLICE: Semantic Latent Injection via Compartmentalized Embedding for Image Watermarking](https://arxiv.org/abs/2603.12749)**|N/A|None|cs.CV|None|Zheng Gao et al.|
 |**2026-03-12**|**[Distance-aware Soft Prompt Learning for Multimodal Valence-Arousal Estimation](https://arxiv.org/abs/2603.13415)**|N/A|8pages|cs.CV|None|Byeongjin Jung et al.|
 |**2026-03-12**|**[Mango-GS: Enhancing Spatio-Temporal Consistency in Dynamic Scenes Reconstruction using Multi-Frame Node-Guided 4D Gaussian Splatting](https://arxiv.org/abs/2603.11543)**|N/A|None|cs.CV|None|Tingxuan Huang et al.|
@@ -882,6 +888,8 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-04-27**|**[Monocular Depth Estimation via Neural Network with Learnable Algebraic Group and Ring Structures](https://arxiv.org/abs/2604.24328)**|N/A|None|cs.CV|None|Qianlei Wang et al.|
+|**2026-04-25**|**[Sphere-Depth: A Benchmark for Depth Estimation Methods with Varying Spherical Camera Orientations](https://arxiv.org/abs/2604.23432)**|N/A|Preprint|cs.CV|CAIP 2025, LNCS, vol 15621. Springer (2026)|Soulayma Gazzeh et al.|
 |**2026-04-24**|**[Depth-Aware Rover: A Study of Edge AI and Monocular Vision for Real-World Implementation](https://arxiv.org/abs/2604.22331)**|N/A|Accepted by IEEE|cs.CV|None|Lomash Relia et al.|
 |**2026-04-23**|**[Vista4D: Video Reshooting with 4D Point Clouds](https://arxiv.org/abs/2604.21915)**|N/A|24 pages, 20 figures, CVPR 2026, see project page at https://eyeline-labs.github.io/Vista4D|cs.CV|None|Kuan Heng Lin et al.|
 |**2026-04-23**|**[SyMTRS: Benchmark Multi-Task Synthetic Dataset for Depth, Domain Adaptation and Super-Resolution in Aerial Imagery](https://arxiv.org/abs/2604.21801)**|N/A|None|cs.CV|None|Safouane El Ghazouali et al.|
