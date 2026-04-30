@@ -1,5 +1,177 @@
 {
   "3DGS Semantic": {
+    "2604.26588": {
+      "title": "Median-of-Means for Nash Equilibrium Seeking in Heavy-Tailed Games",
+      "authors": [
+        "Chao Sun",
+        "Bo Chen",
+        "Jianzheng Wang",
+        "Zheming Wang",
+        "Li Yu"
+      ],
+      "published": "2026-04-29T12:10:55+00:00",
+      "updated": "2026-04-29T12:10:55+00:00",
+      "summary": "This paper studies the Nash equilibrium seeking problem for stochastic games under heavy-tailed noise. The gradient noise is considered to have a finite $δ$-th moment ($1<δ\\le 2$), which generalizes the Gaussian noise and covers cases with infinite variance. In this work, we employ the classic method Median-of-Means (MoM) in robust estimation. MoM works by dividing samples into blocks, taking the average of each block, and then taking the median of these block averages, achieving a breakdown point of up to $1/2$. This makes the final estimate reliable even when some samples are very noisy or wrong, and thus is effective to handle the heavy-tailed noise. The method also naturally defends against malicious gradient attacks. Compared with gradient clipping, which is the most popular method to deal with the heavy-tailed noise, MoM requires no preset clipping threshold and is insensitive to the tail behavior of the noise. Under standard assumptions, we prove the almost sure convergence of the algorithm and derive its almost sure convergence rate. To address the systematic bias caused by asymmetric noise, we further design an online bias correction strategy. Simulation results show the effectiveness and efficiency of the proposed algorithms.",
+      "categories": [
+        "math.OC"
+      ],
+      "primary_category": "math.OC",
+      "pdf_url": "https://arxiv.org/pdf/2604.26588v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2604.26588v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.26588v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.26588v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2604.26492": {
+      "title": "Adaptive Transform Coding for Semantic Compression",
+      "authors": [
+        "Andriy Enttsel",
+        "Vincent Corlay"
+      ],
+      "published": "2026-04-29T09:56:37+00:00",
+      "updated": "2026-04-29T09:56:37+00:00",
+      "summary": "Visual data compression is shifting from human-centered reconstruction to machine-oriented representation coding. In this setting, an image is often mapped to a compact semantic embedding, which is then compressed and transmitted for downstream inference. We propose an adaptive transform-coding method for semantic-feature compression motivated by the conditional rate-distortion function of a Gaussian mixture model. The scheme uses mode-dependent transforms and quantizers selected according to the inferred source component, enabling more efficient coding of heterogeneous feature distributions. Evaluations on features from widely used vision backbones and foundation models show that the proposed method outperforms or is competitive with state-of-the-art neural compression methods while preserving flexibility and interpretability.",
+      "categories": [
+        "eess.IV",
+        "cs.CV",
+        "cs.IT",
+        "eess.SP"
+      ],
+      "primary_category": "eess.IV",
+      "pdf_url": "https://arxiv.org/pdf/2604.26492v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "7 pages, 4 figures",
+      "entry_id": "http://arxiv.org/abs/2604.26492v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.26492v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.26492v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-30",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2604.26352": {
+      "title": "UIGaze: How Closely Can VLMs Approximate Human Visual Attention on User Interfaces?",
+      "authors": [
+        "Min Song",
+        "Yoonseong Lee",
+        "Yeonhu Seo"
+      ],
+      "published": "2026-04-29T07:04:01+00:00",
+      "updated": "2026-04-29T07:04:01+00:00",
+      "summary": "Vision Language Models (VLMs) have demonstrated strong capabilities in understanding visual content, yet their ability to predict where humans look on user interfaces remains unexplored. We present UIGaze, a study investigating how closely VLMs can approximate human visual attention on user interfaces using real eye-tracking data. Using the UEyes dataset - comprising 1,980 UI screenshots across four categories (webpage, desktop, mobile, poster) with eye-tracking data from 62 participants - we evaluate nine state-of-the-art VLMs through a zero-shot coordinate prediction pipeline. Each model generates gaze point coordinates that are converted into saliency maps via Gaussian blurring and compared against ground truth using CC, SIM, and KL divergence. Our experiments (1,980 images x 9 models x 3 runs x 3 durations) reveal that VLMs achieve moderate alignment with human gaze patterns, with the degree of alignment varying significantly across UI types and improving with longer viewing durations - suggesting VLMs capture exploratory gaze patterns rather than initial fixations. All code, predictions, and evaluation results are publicly available.",
+      "categories": [
+        "cs.HC"
+      ],
+      "primary_category": "cs.HC",
+      "pdf_url": "https://arxiv.org/pdf/2604.26352v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "6 pages, 4 tables, 1 figure",
+      "entry_id": "http://arxiv.org/abs/2604.26352v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.26352v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.26352v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-30",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2604.26262": {
+      "title": "Semantic Foam: Unifying Spatial and Semantic Scene Decomposition",
+      "authors": [
+        "Amr Sharafeldin",
+        "Shrisudhan Govindarajan",
+        "Thomas Walker",
+        "Aryan Mikaeili",
+        "Daniel Rebain",
+        "Kwang Moo Yi",
+        "Andrea Tagliasacchi"
+      ],
+      "published": "2026-04-29T03:40:13+00:00",
+      "updated": "2026-04-29T03:40:13+00:00",
+      "summary": "Modern scene reconstruction methods, such as 3D Gaussian Splatting, enable photo-realistic novel view synthesis at real-time speeds. However, their adoption in interactive graphics applications remains limited due to the difficulty of interacting with these representations compared to traditional, human-authored 3D assets. While prior work has attempted to impose semantic decomposition on these models, significant challenges remain in segmentation quality and cross-view consistency.To address these limitations, we introduce Semantic Foam, which extends the recently proposed Radiant Foam representation to semantic decomposition tasks. Our approach leverages the inherent spatial structure of Radiant Foam's volumetric Voronoi mesh and augments it with an explicit semantic feature field defined at the cell level. This design enables direct spatial regularization, improving consistency across views and mitigating artifacts caused by occlusion and inconsistent supervision, which are common issues in point-based representations.Experimental results demonstrate that our method achieves superior object-level segmentation performance compared to state-of-the-art approaches such as Gaussian Grouping and SAGA.Project page: http://semanticfoam.github.io/",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.26262v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "15 pages, 10 figures, Accepted to CVPR 2026 (Highlight) , Project page: http://semanticfoam.github.io/",
+      "entry_id": "http://arxiv.org/abs/2604.26262v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.26262v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.26262v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-30",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
     "2604.25685": {
       "title": "Robustness Evaluation of a Foundation Segmentation Model Under Simulated Domain Shifts in Abdominal CT: Implications for Health Digital Twin Deployment",
       "authors": [
@@ -27,6 +199,52 @@
         },
         {
           "href": "https://arxiv.org/pdf/2604.25685v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-30",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2604.25975": {
+      "title": "Rethinking KV Cache Eviction via a Unified Information-Theoretic Objective",
+      "authors": [
+        "Jiaming Yang",
+        "Chenwei Tang",
+        "Liangli Zhen",
+        "Jiancheng Lv"
+      ],
+      "published": "2026-04-28T12:28:04+00:00",
+      "updated": "2026-04-28T12:28:04+00:00",
+      "summary": "Key-value (KV) caching is essential for large language model inference, yet its memory overhead poses a critical bottleneck for long-context generation. Existing eviction policies predominantly rely on empirical heuristics, lacking a rigorous theoretical foundation. This work rethinks KV cache eviction through the lens of the Information Bottleneck principle. Under a linear-Gaussian surrogate of attention, we derive a closed-form mutual information objective that characterizes the effective information capacity of a retained KV cache subset. This formulation reveals that a wide range of existing eviction strategies can be interpreted as different approximations of the same capacity-maximization principle. Guided by this insight, we introduce CapKV, a capacity-aware eviction method that directly targets information preservation via a log-determinant approximation using statistical leverage scores. This approach replaces heuristic selection with a theoretically grounded mechanism that preserves the maximum predictive signal. Extensive experiments across multiple models and long-context benchmarks show that CapKV consistently outperforms prior methods, achieving a better trade-off between memory efficiency and generational fidelity.",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.IT"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2604.25975v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "19 pages, 6 figures",
+      "entry_id": "http://arxiv.org/abs/2604.25975v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.25975v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.25975v1",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -108833,6 +109051,40 @@
     }
   },
   "Depth Estimation": {
+    "2604.26454": {
+      "title": "Last-Layer-Centric Feature Recombination: Unleashing 3D Geometric Knowledge in DINOv3 for Monocular Depth Estimation",
+      "authors": [
+        "Gongshu Wang",
+        "Zhirui Wang",
+        "Kan Yang"
+      ],
+      "published": "2026-04-29T09:11:36+00:00",
+      "updated": "2026-04-29T09:11:36+00:00",
+      "summary": "Monocular depth estimation (MDE) is a fundamental yet inherently ill-posed task. Recent vision foundation models (VFMs), particularly DINO-based transformers, have significantly improved accuracy and generalization for dense prediction. Prior works generally follow a unified paradigm: sampling a fixed set of intermediate transformer layers at uniform intervals to build multi-scale features. This common practice implicitly assumes that geometric information is uniformly distributed across layers, which may underutilize the structural 3D cues encoded in VFMs. In this study, we present a systematic layer-wise analysis of DINOv3, revealing that 3D information is distributed non-uniformly: deeper layers exhibit stronger depth predictability and better capture inter-sample geometric variation. Motivated by this, we introduce a Last-Layer-Centric Feature Recombination (LFR) module to enhance geometric expressiveness. LFR treats the final layer as a geometric anchor and adaptively selects complementary intermediate layers according to a minimal-similarity criterion. Selected features are fused with the last-layer representation via compact linear adapters.Extensive experiments show that LFR module consistently improves MDE accuracy and achieves state-of-the-art performance. Our analysis sheds light on how geometric knowledge is organized within VFMs and offers an efficient strategy for unlocking their potential in dense 3D tasks.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2604.26454v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "18page, 6 figure, 6 table",
+      "entry_id": "http://arxiv.org/abs/2604.26454v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.26454v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.26454v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2604.24328": {
       "title": "Monocular Depth Estimation via Neural Network with Learnable Algebraic Group and Ring Structures",
       "authors": [

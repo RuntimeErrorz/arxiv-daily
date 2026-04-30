@@ -1,4 +1,4 @@
-## Updated at 2026-04-30 08:38:37
+## Updated at 2026-04-30 20:34:36
 
 ## 3DGS Semantic
 
@@ -8,7 +8,12 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-04-29**|**[Median-of-Means for Nash Equilibrium Seeking in Heavy-Tailed Games](https://arxiv.org/abs/2604.26588)**|N/A|None|math.OC|None|Chao Sun et al.|
+|**2026-04-29**|**[Adaptive Transform Coding for Semantic Compression](https://arxiv.org/abs/2604.26492)**|N/A|7 pages, 4 figures|eess.IV|None|Andriy Enttsel, Vincent Corlay|
+|**2026-04-29**|**[UIGaze: How Closely Can VLMs Approximate Human Visual Attention on User Interfaces?](https://arxiv.org/abs/2604.26352)**|N/A|6 pages, 4 tables, 1 figure|cs.HC|None|Min Song et al.|
+|**2026-04-29**|**[Semantic Foam: Unifying Spatial and Semantic Scene Decomposition](https://arxiv.org/abs/2604.26262)**|N/A|15 pages, 10 figures, Accepted to CVPR 2026 (Highlight) , Project page: http://semanticfoam.github.io/|cs.CV|None|Amr Sharafeldin et al.|
 |**2026-04-28**|**[Robustness Evaluation of a Foundation Segmentation Model Under Simulated Domain Shifts in Abdominal CT: Implications for Health Digital Twin Deployment](https://arxiv.org/abs/2604.25685)**|N/A|8 Pages, 5 Tables, 2 Figures|eess.IV|None|Sanghati Basu|
+|**2026-04-28**|**[Rethinking KV Cache Eviction via a Unified Information-Theoretic Objective](https://arxiv.org/abs/2604.25975)**|N/A|19 pages, 6 figures|cs.LG|None|Jiaming Yang et al.|
 |**2026-04-28**|**[Generalizable 3D Gaussian Splatting enabled Semantic Coding for Real-Time Immersive Video Communications](https://arxiv.org/abs/2604.25330)**|N/A|Under review|eess.IV|None|Dingxi Yang et al.|
 |**2026-04-27**|**[Diffusion-Guided Feature Selection via Nishimori Temperature: Noise-Based Spectral Embedding](https://arxiv.org/abs/2604.24692)**|2026 28th International Conference on Digital Signal Processing and its Applications (DSPA)|8 pages, 3 figures, extended version (with noise shift proof) of DSPA2026 article|cs.LG|None|Vasiliy S. Usatyuk et al.|
 |**2026-04-27**|**[CF-VLA: Efficient Coarse-to-Fine Action Generation for Vision-Language-Action Policies](https://arxiv.org/abs/2604.24622)**|N/A|None|cs.CV|None|Fan Du et al.|
@@ -890,6 +895,7 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-04-29**|**[Last-Layer-Centric Feature Recombination: Unleashing 3D Geometric Knowledge in DINOv3 for Monocular Depth Estimation](https://arxiv.org/abs/2604.26454)**|N/A|18page, 6 figure, 6 table|cs.CV|None|Gongshu Wang et al.|
 |**2026-04-27**|**[Monocular Depth Estimation via Neural Network with Learnable Algebraic Group and Ring Structures](https://arxiv.org/abs/2604.24328)**|N/A|None|cs.CV|None|Qianlei Wang et al.|
 |**2026-04-25**|**[Sphere-Depth: A Benchmark for Depth Estimation Methods with Varying Spherical Camera Orientations](https://arxiv.org/abs/2604.23432)**|N/A|Preprint|cs.CV|CAIP 2025, LNCS, vol 15621. Springer (2026)|Soulayma Gazzeh et al.|
 |**2026-04-24**|**[Depth-Aware Rover: A Study of Edge AI and Monocular Vision for Real-World Implementation](https://arxiv.org/abs/2604.22331)**|N/A|Accepted by IEEE|cs.CV|None|Lomash Relia et al.|
