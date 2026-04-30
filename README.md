@@ -1,4 +1,4 @@
-## Updated at 2026-04-28 20:38:35
+## Updated at 2026-04-30 08:38:37
 
 ## 3DGS Semantic
 
@@ -8,7 +8,9 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
-|**2026-04-27**|**[Diffusion-Guided Feature Selection via Nishimori Temperature: Noise-Based Spectral Embedding](https://arxiv.org/abs/2604.24692)**|N/A|8 pages, 3 figures, extended version (with noise shift proof) of DSPA2026 article|cs.LG|None|Vasiliy S. Usatyuk et al.|
+|**2026-04-28**|**[Robustness Evaluation of a Foundation Segmentation Model Under Simulated Domain Shifts in Abdominal CT: Implications for Health Digital Twin Deployment](https://arxiv.org/abs/2604.25685)**|N/A|8 Pages, 5 Tables, 2 Figures|eess.IV|None|Sanghati Basu|
+|**2026-04-28**|**[Generalizable 3D Gaussian Splatting enabled Semantic Coding for Real-Time Immersive Video Communications](https://arxiv.org/abs/2604.25330)**|N/A|Under review|eess.IV|None|Dingxi Yang et al.|
+|**2026-04-27**|**[Diffusion-Guided Feature Selection via Nishimori Temperature: Noise-Based Spectral Embedding](https://arxiv.org/abs/2604.24692)**|2026 28th International Conference on Digital Signal Processing and its Applications (DSPA)|8 pages, 3 figures, extended version (with noise shift proof) of DSPA2026 article|cs.LG|None|Vasiliy S. Usatyuk et al.|
 |**2026-04-27**|**[CF-VLA: Efficient Coarse-to-Fine Action Generation for Vision-Language-Action Policies](https://arxiv.org/abs/2604.24622)**|N/A|None|cs.CV|None|Fan Du et al.|
 |**2026-04-27**|**[Multivariate Gaussian NeRF for Wide Field-of-View Ultrasound Reconstruction](https://arxiv.org/abs/2604.24187)**|N/A|None|cs.CV|None|Patris Valera et al.|
 |**2026-04-27**|**[SMoES: Soft Modality-Guided Expert Specialization in MoE-VLMs](https://arxiv.org/abs/2604.23996)**|N/A|CVPR 2026|cs.CV|None|Zi-Hao Bo et al.|
@@ -123,7 +125,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2026-03-28**|**[The Geometry of Harmful Intent: Training-Free Anomaly Detection via Angular Deviation in LLM Residual Streams](https://arxiv.org/abs/2603.27412)**|N/A|20 pages, 10 figures, 3 tables. Training-free harmful-prompt detector via angular deviation in LLM residual streams. Evaluated on six Qwen variants (base / instruct / abliterated). Achieves AUROC over 0.937 (harmful-vs-normative) and 1.000 (harmful-vs-benign-aggressive) with no harmful training data|cs.LG|None|Isaac Llorente-Saguer|
 |**2026-03-27**|**[Drive-Through 3D Vehicle Exterior Reconstruction via Dynamic-Scene SfM and Distortion-Aware Gaussian Splatting](https://arxiv.org/abs/2603.26638)**|N/A|8 pages, 7 figures, Submitted to IEEE IROS 2026 (under review)|cs.CV|None|Nitin Kulkarni et al.|
 |**2026-03-27**|**[Scene Grounding In the Wild](https://arxiv.org/abs/2603.26584)**|N/A|CVPR 2026. Project page at https://tau-vailab.github.io/SceneGround/|cs.CV|None|Tamir Cohen et al.|
-|**2026-03-27**|**[Sharp Capacity Scaling of Spectral Optimizers in Learning Associative Memory](https://arxiv.org/abs/2603.26554)**|N/A|77 pages, 8 figures|cs.LG|None|Juno Kim et al.|
+|**2026-03-27**|**[Sharp Capacity Scaling of Spectral Optimizers in Learning Associative Memory](https://arxiv.org/abs/2603.26554)**|N/A|84 pages, 9 figures|cs.LG|None|Juno Kim et al.|
 |**2026-03-27**|**[GS-BrainText: A Multi-Site Brain Imaging Report Dataset from Generation Scotland for Clinical Natural Language Processing Development and Validation](https://arxiv.org/abs/2603.26235)**|N/A|11 pages, 1 figure|cs.CL|None|Beatrice Alex et al.|
 |**2026-03-27**|**[Gaussian Shannon: High-Precision Diffusion Model Watermarking Based on Communication](https://arxiv.org/abs/2603.26167)**|N/A|Accepted by CVPR 2026 Findings|cs.CV|None|Yi Zhang et al.|
 |**2026-03-27**|**[Fluctuation effect on Nonlinear Transport and Nernst-Ettingshausen Response in Two-Dimensional Superconductors under electric and magnetic field](https://arxiv.org/abs/2603.26146)**|N/A|29 pages, 11 figures, submitted for publication|nlin.PS|None|Tran Ky Vi et al.|

@@ -1,5 +1,92 @@
 {
   "3DGS Semantic": {
+    "2604.25685": {
+      "title": "Robustness Evaluation of a Foundation Segmentation Model Under Simulated Domain Shifts in Abdominal CT: Implications for Health Digital Twin Deployment",
+      "authors": [
+        "Sanghati Basu"
+      ],
+      "published": "2026-04-28T14:16:20+00:00",
+      "updated": "2026-04-28T14:16:20+00:00",
+      "summary": "Foundation segmentation models such as the Segment Anything Model (SAM) have demonstrated strong generalization across natural images; however, their robustness under clinically realistic medical imaging domain shifts remains insufficiently quantified. We present a systematic slice-level robustness audit of SAM (ViT-B) for spleen segmentation in abdominal CT using 1,051 nonempty slices from 41 volumes in the Medical Segmentation Decathlon. A standardized ground-truth-derived bounding-box protocol was used to isolate encoder robustness from prompt uncertainty. Controlled perturbations simulating inter-scanner variability, including Gaussian noise, blur, contrast scaling, gamma correction, and resolution mismatch, were applied across ten conditions. The clean baseline achieved a mean Dice score of 0.9145 (95% CI: [0.909, 0.919]) with a failure rate of 0.67%. Across all perturbations, the absolute mean ΔDice remained below 0.01. Paired Wilcoxon signed-rank tests with Benjamini-Hochberg false discovery rate correction identified statistically significant but small-magnitude changes under selected conditions, while McNemar analysis showed no significant increase in failure probability. These findings indicate that SAM exhibits stable segmentation behavior under moderate CT domain shifts, supporting its role as a robust foundation baseline for medical image segmentation research. As health digital twins increasingly incorporate foundation segmentation models for anatomical modeling and organ-level monitoring, formal characterization of robustness under real-world imaging variability is a necessary step toward trustworthy deployment.",
+      "categories": [
+        "eess.IV",
+        "cs.CV"
+      ],
+      "primary_category": "eess.IV",
+      "pdf_url": "https://arxiv.org/pdf/2604.25685v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "8 Pages, 5 Tables, 2 Figures",
+      "entry_id": "http://arxiv.org/abs/2604.25685v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.25685v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.25685v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-30",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2604.25330": {
+      "title": "Generalizable 3D Gaussian Splatting enabled Semantic Coding for Real-Time Immersive Video Communications",
+      "authors": [
+        "Dingxi Yang",
+        "Wenqi Guo",
+        "Yue Liu",
+        "Jungong Han",
+        "Zhijin Qin"
+      ],
+      "published": "2026-04-28T07:46:50+00:00",
+      "updated": "2026-04-28T07:46:50+00:00",
+      "summary": "Real-time immersive video communications, particularly high-fidelity 3D telepresence, necessitates a synergistic balance between instantaneous dynamic scene reconstruction and high-efficiency data transmission. While recent advancements in feed-forward 3D Gaussian Splatting (3DGS) have enabled real-time rendering, performing multi-view video coding and 3D reconstruction in a decoupled manner leads to suboptimal compression efficiency and high computational complexity. To address this, we propose GS-SCNet, the first unified end-to-end framework that seamlessly integrates generalizable 3DGS reconstruction with a dedicated deep Semantic Coding pipeline. Our architecture is underpinned by two core technical contributions: (i) we introduce a Disparity-Guided Parallel Semantic Codec that exploits epipolar geometric priors to facilitate cross-view contextual interaction via disparity compensation and semantic fusion, thereby enabling real-time parallel processing of stereo streams while significantly enhancing rate-distortion performance, and (ii) we develop a Lightweight Gaussian Parameter Predictor which directly projects decoded semantic latents into 3DGS attributes, obviating the need for intermediate pixel-domain reconstruction. By coupling the codec with the task-specific predictor, our framework extracts geometric correlations only once, effectively eliminating the redundant computational bottleneck inherent in conventional decoupled paradigms. Extensive evaluations on both synthetic and real-world human datasets demonstrate that GS-SCNet achieves a superior trade-off across compression efficiency, rendering quality, and real-time performance. Notably, our framework exhibits strong cross-domain generalization and robustness against compression artifacts when applied to out-of-domain real-world data, significantly outperforming conventional decoupled transmission paradigms.",
+      "categories": [
+        "eess.IV"
+      ],
+      "primary_category": "eess.IV",
+      "pdf_url": "https://arxiv.org/pdf/2604.25330v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Under review",
+      "entry_id": "http://arxiv.org/abs/2604.25330v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2604.25330v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2604.25330v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-30",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
     "2604.24692": {
       "title": "Diffusion-Guided Feature Selection via Nishimori Temperature: Noise-Based Spectral Embedding",
       "authors": [
@@ -39,7 +126,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-30",
+        "venue": "2026 28th International Conference on Digital Signal Processing and its Applications (DSPA)",
+        "pub_type": "Conference",
+        "publisher": null
+      }
     },
     "2604.24622": {
       "title": "CF-VLA: Efficient Coarse-to-Fine Action Generation for Vision-Language-Action Policies",
@@ -52,36 +146,46 @@
         "Weinong Wang",
         "Yu Guo",
         "Bin Qian",
-        "Zhihai He"
+        "Zhihai He",
+        "Fei Wang",
+        "Heng Yang"
       ],
       "published": "2026-04-27T15:51:40+00:00",
-      "updated": "2026-04-27T15:51:40+00:00",
-      "summary": "Flow-based vision-language-action (VLA) policies offer strong expressivity for action generation, but suffer from a fundamental inefficiency: multi-step inference is required to recover action structure from uninformative Gaussian noise, leading to a poor efficiency-quality trade-off under real-time constraints. We address this issue by rethinking the role of the starting point in generative action modeling. Instead of shortening the sampling trajectory, we propose CF-VLA, a coarse-to-fine two-stage formulation that restructures action generation into a coarse initialization step that constructs an action-aware starting point, followed by a single-step local refinement that corrects residual errors. Concretely, the coarse stage learns a conditional posterior over endpoint velocity to transform Gaussian noise into a structured initialization, while the fine stage performs a fixed-time refinement from this initialization. To stabilize training, we introduce a stepwise strategy that first learns a controlled coarse predictor and then performs joint optimization. Experiments on CALVIN and LIBERO show that our method establishes a strong efficiency-performance frontier under low-NFE (Number of Function Evaluations) regimes: it consistently outperforms existing NFE=2 methods, matches or surpasses the NFE=10 $π_{0.5}$ baseline on several metrics, reduces action sampling latency by 75.4\\%, and achieves the best average real-robot success rate of 83.0\\%, outperforming MIP by 19.5 points and $π_{0.5}$ by 4.0 points. These results suggest that structured, coarse-to-fine generation enables both strong performance and efficient inference. Our code is available at https://github.com/EmbodiedAI-RoboTron/CF-VLA.",
+      "updated": "2026-04-28T15:05:04+00:00",
+      "summary": "Flow-based vision-language-action (VLA) policies offer strong expressivity for action generation, but suffer from a fundamental inefficiency: multi-step inference is required to recover action structure from uninformative Gaussian noise, leading to a poor efficiency-quality trade-off under real-time constraints. We address this issue by rethinking the role of the starting point in generative action modeling. Instead of shortening the sampling trajectory, we propose CF-VLA, a coarse-to-fine two-stage formulation that restructures action generation into a coarse initialization step that constructs an action-aware starting point, followed by a single-step local refinement that corrects residual errors. Concretely, the coarse stage learns a conditional posterior over endpoint velocity to transform Gaussian noise into a structured initialization, while the fine stage performs a fixed-time refinement from this initialization. To stabilize training, we introduce a stepwise strategy that first learns a controlled coarse predictor and then performs joint optimization. Experiments on CALVIN and LIBERO show that our method establishes a strong efficiency-performance frontier under low-NFE (Number of Function Evaluations) regimes: it consistently outperforms existing NFE=2 methods, matches or surpasses the NFE=10 $π_{0.5}$ baseline on several metrics, reduces action sampling latency by 75.4%, and achieves the best average real-robot success rate of 83.0%, outperforming MIP by 19.5 points and $π_{0.5}$ by 4.0 points. These results suggest that structured, coarse-to-fine generation enables both strong performance and efficient inference. Our code is available at https://github.com/EmbodiedAI-RoboTron/CF-VLA.",
       "categories": [
         "cs.CV",
         "cs.AI"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2604.24622v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.24622v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2604.24622v1",
+      "entry_id": "http://arxiv.org/abs/2604.24622v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2604.24622v1",
+          "href": "https://arxiv.org/abs/2604.24622v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2604.24622v1",
+          "href": "https://arxiv.org/pdf/2604.24622v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-30",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2604.24187": {
       "title": "Multivariate Gaussian NeRF for Wide Field-of-View Ultrasound Reconstruction",
@@ -120,7 +224,15 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-30",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2604.23996": {
       "title": "SMoES: Soft Modality-Guided Expert Specialization in MoE-VLMs",
@@ -161,7 +273,15 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-30",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2604.23540": {
       "title": "Oracle Noise: Faster Semantic Spherical Alignment for Interpretable Latent Optimization",
@@ -199,7 +319,15 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-04-30",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2604.22439": {
       "title": "NRGS: Neural Regularization for Robust 3D Semantic Gaussian Splatting",
@@ -5316,27 +5444,27 @@
         "Jason D. Lee"
       ],
       "published": "2026-03-27T16:13:18+00:00",
-      "updated": "2026-03-27T16:13:18+00:00",
-      "summary": "Spectral optimizers such as Muon have recently shown strong empirical performance in large-scale language model training, but the source and extent of their advantage remain poorly understood. We study this question through the linear associative memory problem, a tractable model for factual recall in transformer-based models. In particular, we go beyond orthogonal embeddings and consider Gaussian inputs and outputs, which allows the number of stored associations to greatly exceed the embedding dimension. Our main result sharply characterizes the recovery rates of one step of Muon and SGD on the logistic regression loss under a power law frequency distribution. We show that the storage capacity of Muon significantly exceeds that of SGD, and moreover Muon saturates at a larger critical batch size. We further analyze the multi-step dynamics under a thresholded gradient approximation and show that Muon achieves a substantially faster initial recovery rate than SGD, while both methods eventually converge to the information-theoretic limit at comparable speeds. Experiments on synthetic tasks validate the predicted scaling laws. Our analysis provides a quantitative understanding of the signal amplification of Muon and lays the groundwork for establishing scaling laws across more practical language modeling tasks and optimizers.",
+      "updated": "2026-04-28T07:36:37+00:00",
+      "summary": "Spectral optimizers such as Muon have recently shown strong empirical performance in large-scale language model training, but the source and extent of their advantage remain poorly understood. We study this question through the linear associative memory problem, a tractable model for factual recall in transformer-based models. In particular, we go beyond orthogonal embeddings and consider Gaussian inputs and outputs, which allows the number of stored associations to greatly exceed the embedding dimension. Our main result sharply characterizes the recovery rates of one step of Muon, SGD, and Newton's method on the logistic regression loss under a power law frequency distribution. We show that the storage capacity of Muon significantly exceeds that of SGD, and even matches Newton's method while only using first-order information. Moreover, Muon saturates at a larger critical batch size. We further analyze the multi-step dynamics under a thresholded gradient approximation and show that Muon achieves a substantially faster initial recovery rate than SGD, while both methods eventually converge to the information-theoretic limit at comparable speeds. Experiments on synthetic tasks validate the predicted scaling laws. Our analysis provides a quantitative understanding of the signal amplification of spectral preconditioners and lays the groundwork for establishing scaling laws across more practical language modeling tasks and optimizers.",
       "categories": [
         "cs.LG",
         "stat.ML"
       ],
       "primary_category": "cs.LG",
-      "pdf_url": "https://arxiv.org/pdf/2603.26554v1",
+      "pdf_url": "https://arxiv.org/pdf/2603.26554v2",
       "journal_ref": null,
       "doi": null,
-      "comment": "77 pages, 8 figures",
-      "entry_id": "http://arxiv.org/abs/2603.26554v1",
+      "comment": "84 pages, 9 figures",
+      "entry_id": "http://arxiv.org/abs/2603.26554v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2603.26554v1",
+          "href": "https://arxiv.org/abs/2603.26554v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2603.26554v1",
+          "href": "https://arxiv.org/pdf/2603.26554v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
