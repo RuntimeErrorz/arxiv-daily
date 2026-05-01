@@ -1,4 +1,4 @@
-## Updated at 2026-05-01 08:40:53
+## Updated at 2026-05-01 20:23:02
 
 ## 3DGS Semantic
 
@@ -8,6 +8,13 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-04-30**|**[Generalizable Sparse-View 3D Reconstruction from Unconstrained Images](https://arxiv.org/abs/2604.28193)**|N/A|Project Page: https://genwildsplat.github.io/|cs.CV|None|Vinayak Gupta et al.|
+|**2026-04-30**|**[Beyond Gaussian Bottlenecks: Topologically Aligned Encoding of Vision-Transformer Feature Spaces](https://arxiv.org/abs/2604.28122)**|N/A|16 pages, 10 figures|cs.CV|None|Andrew Bond et al.|
+|**2026-04-30**|**[FreeOcc: Training-Free Embodied Open-Vocabulary Occupancy Prediction](https://arxiv.org/abs/2604.28115)**|N/A|RSS 2026|cs.RO|None|Zeyu Jiang et al.|
+|**2026-04-30**|**[Noise2Map: End-to-End Diffusion Model for Semantic Segmentation and Change Detection](https://arxiv.org/abs/2604.27889)**|N/A|None|cs.CV|None|Ali Shibli et al.|
+|**2026-04-30**|**[ZipCCL: Efficient Lossless Data Compression of Communication Collectives for Accelerating LLM Training](https://arxiv.org/abs/2604.27844)**|N/A|None|cs.DC|None|Wenxiang Lin et al.|
+|**2026-04-30**|**[Taming Noise-Induced Prototype Degradation for Privacy-Preserving Personalized Federated Fine-Tuning](https://arxiv.org/abs/2604.27833)**|N/A|Accepted by CVPR 2026 (Highlight)|cs.CV|None|Yuhua Wang et al.|
+|**2026-04-30**|**[SandSim: Curve-Guided Gaussian Splatting for Reconstructing Sand Painting Processes](https://arxiv.org/abs/2604.27572)**|N/A|None|cs.GR|None|Yilin Wang et al.|
 |**2026-04-29**|**[Median-of-Means for Nash Equilibrium Seeking in Heavy-Tailed Games](https://arxiv.org/abs/2604.26588)**|N/A|None|math.OC|None|Chao Sun et al.|
 |**2026-04-29**|**[Adaptive Transform Coding for Semantic Compression](https://arxiv.org/abs/2604.26492)**|N/A|7 pages, 4 figures|eess.IV|None|Andriy Enttsel, Vincent Corlay|
 |**2026-04-29**|**[UIGaze: How Closely Can VLMs Approximate Human Visual Attention on User Interfaces?](https://arxiv.org/abs/2604.26352)**|N/A|6 pages, 4 tables, 1 figure|cs.HC|None|Min Song et al.|
@@ -895,6 +902,7 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-04-30**|**[Beyond Gaussian Bottlenecks: Topologically Aligned Encoding of Vision-Transformer Feature Spaces](https://arxiv.org/abs/2604.28122)**|N/A|16 pages, 10 figures|cs.CV|None|Andrew Bond et al.|
 |**2026-04-29**|**[Last-Layer-Centric Feature Recombination: Unleashing 3D Geometric Knowledge in DINOv3 for Monocular Depth Estimation](https://arxiv.org/abs/2604.26454)**|N/A|18page, 6 figure, 6 table|cs.CV|None|Gongshu Wang et al.|
 |**2026-04-27**|**[Monocular Depth Estimation via Neural Network with Learnable Algebraic Group and Ring Structures](https://arxiv.org/abs/2604.24328)**|N/A|None|cs.CV|None|Qianlei Wang et al.|
 |**2026-04-25**|**[Sphere-Depth: A Benchmark for Depth Estimation Methods with Varying Spherical Camera Orientations](https://arxiv.org/abs/2604.23432)**|N/A|Preprint|cs.CV|CAIP 2025, LNCS, vol 15621. Springer (2026)|Soulayma Gazzeh et al.|
