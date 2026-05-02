@@ -1,4 +1,4 @@
-## Updated at 2026-05-01 20:23:02
+## Updated at 2026-05-02 08:37:11
 
 ## 3DGS Semantic
 
@@ -11,7 +11,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2026-04-30**|**[Generalizable Sparse-View 3D Reconstruction from Unconstrained Images](https://arxiv.org/abs/2604.28193)**|N/A|Project Page: https://genwildsplat.github.io/|cs.CV|None|Vinayak Gupta et al.|
 |**2026-04-30**|**[Beyond Gaussian Bottlenecks: Topologically Aligned Encoding of Vision-Transformer Feature Spaces](https://arxiv.org/abs/2604.28122)**|N/A|16 pages, 10 figures|cs.CV|None|Andrew Bond et al.|
 |**2026-04-30**|**[FreeOcc: Training-Free Embodied Open-Vocabulary Occupancy Prediction](https://arxiv.org/abs/2604.28115)**|N/A|RSS 2026|cs.RO|None|Zeyu Jiang et al.|
-|**2026-04-30**|**[Noise2Map: End-to-End Diffusion Model for Semantic Segmentation and Change Detection](https://arxiv.org/abs/2604.27889)**|N/A|None|cs.CV|None|Ali Shibli et al.|
+|**2026-04-30**|**[Noise2Map: End-to-End Diffusion Model for Semantic Segmentation and Change Detection](https://arxiv.org/abs/2604.27889)**|IEEE Transactions on Geoscience and Remote Sensing|None|cs.CV|None|Ali Shibli et al.|
 |**2026-04-30**|**[ZipCCL: Efficient Lossless Data Compression of Communication Collectives for Accelerating LLM Training](https://arxiv.org/abs/2604.27844)**|N/A|None|cs.DC|None|Wenxiang Lin et al.|
 |**2026-04-30**|**[Taming Noise-Induced Prototype Degradation for Privacy-Preserving Personalized Federated Fine-Tuning](https://arxiv.org/abs/2604.27833)**|N/A|Accepted by CVPR 2026 (Highlight)|cs.CV|None|Yuhua Wang et al.|
 |**2026-04-30**|**[SandSim: Curve-Guided Gaussian Splatting for Reconstructing Sand Painting Processes](https://arxiv.org/abs/2604.27572)**|N/A|None|cs.GR|None|Yilin Wang et al.|
