@@ -1,5 +1,190 @@
 {
   "3DGS Semantic": {
+    "2605.00642": {
+      "title": "Learn where to Click from Yourself: On-Policy Self-Distillation for GUI Grounding",
+      "authors": [
+        "Yan Zhang",
+        "Daiqing Wu",
+        "Huawen Shen",
+        "Yu Zhou",
+        "Can Ma"
+      ],
+      "published": "2026-05-01T13:23:26+00:00",
+      "updated": "2026-05-01T13:23:26+00:00",
+      "summary": "Graphical User Interface (GUI) grounding maps natural language instructions to the visual coordinates of target elements and serves as a core capability for autonomous GUI agents. Recent reinforcement learning methods (e.g., GRPO) have achieved strong performance, but they rely on expensive multiple rollouts and suffer from sparse signals on hard samples. These limitations make on-policy self-distillation (OPSD), which provides dense token-level supervision from a single rollout, a promising alternative. However, its applicability to GUI grounding remains unexplored. In this paper, we present GUI-SD, the first OPSD framework tailored for GUI grounding. First, it constructs a visually enriched privileged context for the teacher using a target bounding box and a Gaussian soft mask, providing informative guidance without leaking exact coordinates. Second, it employs entropy-guided distillation, which adaptively weights tokens based on digit significance and teacher confidence, concentrating optimization on the most impactful and reliable positions. Extensive experiments on six representative GUI grounding benchmarks show that GUI-SD consistently outperforms GRPO-based methods and naive OPSD in both accuracy and training efficiency. Code and training data are available at https://zhangyan-ucas.github.io/GUI-SD/.",
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "primary_category": "cs.AI",
+      "pdf_url": "https://arxiv.org/pdf/2605.00642v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "under review",
+      "entry_id": "http://arxiv.org/abs/2605.00642v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.00642v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.00642v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-04",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2605.00594": {
+      "title": "On the Distribution of Unweighted Minimum Knapsack Instances with Large SOS Rank",
+      "authors": [
+        "Adam Kurpisz",
+        "Lucas Slot",
+        "Mikhail Zaytsev"
+      ],
+      "published": "2026-05-01T12:00:37+00:00",
+      "updated": "2026-05-01T12:00:37+00:00",
+      "summary": "We analyze the sum-of-squares rank of unweighted instances of the Minimum Knapsack (MK) problem, i.e., minimization of $\\sum_{i=1}^n x_i$ for 0/1 variables under the constraint $\\sum_{i=1}^n x_i \\geq q$, with $q \\in \\mathbb{R}$. Such instances have long served as a testbed for understanding the limitations of lift-and-project methods in Boolean optimization. For example, both the Lovász-Schrijver and Sherali-Adams hierarchies require (maximal) rank $n$ to solve them, already when $q=1/2$ is constant. The SOS hierarchy requires only \\emph{sublinear} rank $O(\\sqrt{n})$ to solve unweighted MK when $q=1/2$. On the other hand, when $q$ is allowed to vary with~$n$, the SOS rank of the problem may become linear. Interestingly, this is known to happen both when $q$ is large, and when $q$ is very small ($0<q \\leq 2^{-n}$). This raises the question of whether we should think of hard instances of unweighted MK as being typical for the SOS hierarchy, or as a consequence of very specific choices of the threshold parameter $q$.\n  In this paper, we address this question by showing new upper and lower bounds on the SOS rank of unweighted MK in the whole regime of the parameter $q$. For $n-q \\leq O(1)$, we show that the SOS rank is constant. In contrast, when $q \\leq O(1)$, a linear rank is needed if $q$ is exponentially close to an integer. As our main positive result, we show that linear rank is very rare for $q \\leq O(1)$. This can be expressed in the language of smoothed analysis: after perturbing $q$ by a Gaussian with mean $0$ and variance $σ^2$, the expected SOS rank of MK is $O(\\sqrt{n} \\log (n/σ))$.",
+      "categories": [
+        "math.OC",
+        "cs.CC",
+        "cs.DS"
+      ],
+      "primary_category": "math.OC",
+      "pdf_url": "https://arxiv.org/pdf/2605.00594v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.00594v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.00594v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.00594v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-04",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2605.00578": {
+      "title": "Federated Distillation for Whole Slide Image via Gaussian-Mixture Feature Alignment and Curriculum Integration",
+      "authors": [
+        "Luru Jing",
+        "Cong Cong",
+        "Yanyuan Chen",
+        "Yongzhi Cao"
+      ],
+      "published": "2026-05-01T11:25:54+00:00",
+      "updated": "2026-05-01T11:25:54+00:00",
+      "summary": "Federated learning (FL) offers a promising framework for collaborative digital pathology by enabling model training across institutions. However, real-world deployments face heterogeneity arising from diverse multiple instance learning (MIL) architectures and heterogeneous feature extractors across institutions. We propose FedHD, a novel FL framework that performs local Gaussian-mixture feature alignment tailored for WSI analysis. Instead of exchanging model parameters, each client independently distills semantically rich synthetic feature representations aligned with the distribution of real WSIs. To preserve diagnostic diversity, FedHD adopts a one-to-one distillation strategy, generating a synthetic counterpart for each real slide to avoid over-compression. During federation, a curriculum-based integration strategy progressively incorporates cross-site synthetic features into local training once performance plateaus. Furthermore, an optional interpretation module reconstructs pseudo-patches from synthetic embeddings, enhancing transparency. FedHD is architecture-agnostic, privacy-preserving, and supports personalized yet collaborative training across diverse institutions. Experiments on TCGA-IDH, CAMELYON16, and CAMELYON17 show that FedHD consistently outperforms state-of-the-art federated and distillation baselines.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.00578v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted by ICML 2026",
+      "entry_id": "http://arxiv.org/abs/2605.00578v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.00578v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.00578v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-04",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2605.00177": {
+      "title": "FieryGS: In-the-Wild Fire Synthesis with Physics-Integrated Gaussian Splatting",
+      "authors": [
+        "Qianfan Shen",
+        "Ningxiao Tao",
+        "Qiyu Dai",
+        "Tianle Chen",
+        "Minghan Qin",
+        "Yongjie Zhang",
+        "Mengyu Chu",
+        "Wenzheng Chen",
+        "Baoquan Chen"
+      ],
+      "published": "2026-04-30T19:53:37+00:00",
+      "updated": "2026-04-30T19:53:37+00:00",
+      "summary": "We consider the problem of synthesizing photorealistic, physically plausible combustion effects in in-the-wild 3D scenes. Traditional CFD and graphics pipelines can produce realistic fire effects but rely on handcrafted geometry, expert-tuned parameters, and labor-intensive workflows, limiting their scalability to the real world. Recent scene modeling advances like 3D Gaussian Splatting (3DGS) enable high-fidelity real-world scene reconstruction, yet lack physical grounding for combustion. To bridge this gap, we propose FieryGS, a physically-based framework that integrates physically-accurate and user-controllable combustion simulation and rendering within the 3DGS pipeline, enabling realistic fire synthesis for real scenes. Our approach tightly couples three key modules: (1) multimodal large-language-model-based physical material reasoning, (2) efficient volumetric combustion simulation, and (3) a unified renderer for fire and 3DGS. By unifying reconstruction, physical reasoning, simulation, and rendering, FieryGS removes manual tuning and automatically generates realistic, controllable fire dynamics consistent with scene geometry and materials. Our framework supports complex combustion phenomena -- including flame propagation, smoke dispersion, and surface carbonization -- with precise user control over fire intensity, airflow, ignition location and other combustion parameters. Evaluated on diverse indoor and outdoor scenes, FieryGS outperforms all comparative baselines in visual realism, physical fidelity, and controllability. Project page can be found at https://pku-vcl-geometry.github.io/FieryGS/.",
+      "categories": [
+        "cs.GR",
+        "cs.CV"
+      ],
+      "primary_category": "cs.GR",
+      "pdf_url": "https://arxiv.org/pdf/2605.00177v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "ICLR 2026",
+      "entry_id": "http://arxiv.org/abs/2605.00177v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.00177v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.00177v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-04",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
     "2604.28193": {
       "title": "Generalizable Sparse-View 3D Reconstruction from Unconstrained Images",
       "authors": [
@@ -347,32 +532,33 @@
       "title": "Median-of-Means for Nash Equilibrium Seeking in Heavy-Tailed Games",
       "authors": [
         "Chao Sun",
+        "Huiming Zhang",
         "Bo Chen",
         "Jianzheng Wang",
         "Zheming Wang",
         "Li Yu"
       ],
       "published": "2026-04-29T12:10:55+00:00",
-      "updated": "2026-04-29T12:10:55+00:00",
+      "updated": "2026-05-01T01:26:02+00:00",
       "summary": "This paper studies the Nash equilibrium seeking problem for stochastic games under heavy-tailed noise. The gradient noise is considered to have a finite $δ$-th moment ($1<δ\\le 2$), which generalizes the Gaussian noise and covers cases with infinite variance. In this work, we employ the classic method Median-of-Means (MoM) in robust estimation. MoM works by dividing samples into blocks, taking the average of each block, and then taking the median of these block averages, achieving a breakdown point of up to $1/2$. This makes the final estimate reliable even when some samples are very noisy or wrong, and thus is effective to handle the heavy-tailed noise. The method also naturally defends against malicious gradient attacks. Compared with gradient clipping, which is the most popular method to deal with the heavy-tailed noise, MoM requires no preset clipping threshold and is insensitive to the tail behavior of the noise. Under standard assumptions, we prove the almost sure convergence of the algorithm and derive its almost sure convergence rate. To address the systematic bias caused by asymmetric noise, we further design an online bias correction strategy. Simulation results show the effectiveness and efficiency of the proposed algorithms.",
       "categories": [
         "math.OC"
       ],
       "primary_category": "math.OC",
-      "pdf_url": "https://arxiv.org/pdf/2604.26588v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.26588v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2604.26588v1",
+      "entry_id": "http://arxiv.org/abs/2604.26588v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2604.26588v1",
+          "href": "https://arxiv.org/abs/2604.26588v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2604.26588v1",
+          "href": "https://arxiv.org/pdf/2604.26588v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -488,26 +674,26 @@
         "Andrea Tagliasacchi"
       ],
       "published": "2026-04-29T03:40:13+00:00",
-      "updated": "2026-04-29T03:40:13+00:00",
-      "summary": "Modern scene reconstruction methods, such as 3D Gaussian Splatting, enable photo-realistic novel view synthesis at real-time speeds. However, their adoption in interactive graphics applications remains limited due to the difficulty of interacting with these representations compared to traditional, human-authored 3D assets. While prior work has attempted to impose semantic decomposition on these models, significant challenges remain in segmentation quality and cross-view consistency.To address these limitations, we introduce Semantic Foam, which extends the recently proposed Radiant Foam representation to semantic decomposition tasks. Our approach leverages the inherent spatial structure of Radiant Foam's volumetric Voronoi mesh and augments it with an explicit semantic feature field defined at the cell level. This design enables direct spatial regularization, improving consistency across views and mitigating artifacts caused by occlusion and inconsistent supervision, which are common issues in point-based representations.Experimental results demonstrate that our method achieves superior object-level segmentation performance compared to state-of-the-art approaches such as Gaussian Grouping and SAGA.Project page: http://semanticfoam.github.io/",
+      "updated": "2026-05-01T06:13:18+00:00",
+      "summary": "Modern scene reconstruction methods, such as 3D Gaussian Splatting, deliver photo-realistic novel view synthesis at real-time speeds, yet their adoption in interactive graphics applications has been limited. A major bottleneck is the difficulty of interacting with these representations compared to traditional, human-authored 3D assets. While previous research has attempted to impose semantic decomposition on these models, significant challenges remain regarding segmentation quality and consistency. To address this, we introduce Semantic Foam, extending the recently proposed Radiant Foam representations to semantic decomposition tasks. Our approach integrates the natural spatial volumetric decomposition of Radiant Foam's Voronoi mesh with an explicit semantic feature field parameterized at the cell level. This explicit structure enables direct spatial regularization, which prevents artifacts caused by occlusion or inconsistent supervision across views - common pitfalls for other point-based representations. Experimental results show that our method achieves superior object-level segmentation performance compared to state-of-the-art methods like Gaussian Grouping and SAGA.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2604.26262v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.26262v2",
       "journal_ref": null,
       "doi": null,
       "comment": "15 pages, 10 figures, Accepted to CVPR 2026 (Highlight) , Project page: http://semanticfoam.github.io/",
-      "entry_id": "http://arxiv.org/abs/2604.26262v1",
+      "entry_id": "http://arxiv.org/abs/2604.26262v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2604.26262v1",
+          "href": "https://arxiv.org/abs/2604.26262v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2604.26262v1",
+          "href": "https://arxiv.org/pdf/2604.26262v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -1503,26 +1689,26 @@
         "Oliver Richardson"
       ],
       "published": "2026-04-19T14:30:13+00:00",
-      "updated": "2026-04-19T14:30:13+00:00",
-      "summary": "We provide evidence that language models can detect, localize and, to a certain degree, verbalize the difference between perturbations applied to their activations. More precisely, we either (a) \\emph{mask} activations, simulating \\emph{dropout}, or (b) add \\emph{Gaussian noise} to them, at a target sentence. We then ask a multiple-choice question such as ``\\emph{Which of the previous sentences was perturbed?}'' or ``\\emph{Which of the two perturbations was applied?}''.\n  We test models from the Llama, Olmo, and Qwen families, with sizes between 8B and 32B, all of which can easily detect and localize the perturbations, often with perfect accuracy. These models can also learn, when taught in context, to distinguish between dropout and Gaussian noise. Notably, \\qwenb's \\emph{zero-shot} accuracy in identifying which perturbation was applied improves as a function of the perturbation strength and, moreover, decreases if the in-context labels are flipped, suggesting a prior for the correct ones -- even modulo controls.\n  Because dropout has been used as a training-regularization technique, while Gaussian noise is sometimes added during inference, we discuss the possibility of a data-agnostic ``training awareness'' signal and the implications for AI safety.\n  The code and data are available at \\href{https://github.com/saifh-github/llm-dropout-noise-recognition}{link 1} and \\href{https://drive.google.com/file/d/1es-Sfw_AH9GficeXgeqpy87rocrZZ_PQ/view}{link 2}, respectively.",
+      "updated": "2026-04-30T22:17:02+00:00",
+      "summary": "We provide evidence that language models can detect, localize and, to a certain degree, verbalize the difference between perturbations applied to their activations. More precisely, we either (a) mask activations, simulating dropout, or (b) add Gaussian noise to them, at a target sentence. We then ask a multiple-choice question such as \"Which of the previous sentences was perturbed?\" or \"Which of the two perturbations was applied?\". We test models from the Llama, Olmo, and Qwen families, with sizes between 8B and 32B, all of which can easily detect and localize the perturbations, often with perfect accuracy. These models can also learn, when taught in context, to distinguish between dropout and Gaussian noise. Notably, Qwen3-32B's zero-shot accuracy in identifying which perturbation was applied improves as a function of the perturbation strength and, moreover, decreases if the in-context labels are flipped, suggesting a prior for the correct ones -- even modulo controls. Because dropout has been used as a training-regularization technique, while Gaussian noise is sometimes added during inference, we discuss the possibility of a data-agnostic \"training awareness\" signal and the implications for AI safety.",
       "categories": [
         "cs.AI"
       ],
       "primary_category": "cs.AI",
-      "pdf_url": "https://arxiv.org/pdf/2604.17465v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.17465v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2604.17465v1",
+      "entry_id": "http://arxiv.org/abs/2604.17465v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2604.17465v1",
+          "href": "https://arxiv.org/abs/2604.17465v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2604.17465v1",
+          "href": "https://arxiv.org/pdf/2604.17465v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -109402,6 +109588,42 @@
     }
   },
   "Depth Estimation": {
+    "2605.00271": {
+      "title": "REALM: An RGB and Event Aligned Latent Manifold for Cross-Modal Perception",
+      "authors": [
+        "Vincenzo Polizzi",
+        "David B. Lindell",
+        "Jonathan Kelly"
+      ],
+      "published": "2026-04-30T22:14:36+00:00",
+      "updated": "2026-04-30T22:14:36+00:00",
+      "summary": "Event cameras provide several unique advantages over standard frame-based sensors, including high temporal resolution, low latency, and robustness to extreme lighting. However, existing learning-based approaches for event processing are typically confined to narrow, task-specific silos and lack the ability to generalize across modalities. We address this gap with REALM, a cross-modal framework that learns an RGB and Event Aligned Latent Manifold by projecting event representations into the pretrained latent space of RGB foundation models. Instead of task-specific training, we leverage low-rank adaptation (LoRA) to bridge the modality gap, effectively unlocking the geometric and semantic priors of frozen RGB backbones for asynchronous event streams. We demonstrate that REALM effectively maps events into the ViT-based foundation latent space. Our method allows us to perform downstream tasks like depth estimation and semantic segmentation by simply transferring linear heads trained on the RGB teacher. Most significantly, REALM enables the direct, zero-shot application of complex, frozen image-trained decoders, such as MASt3R, to raw event data. We demonstrate state-of-the-art performance in wide-baseline feature matching, significantly outperforming specialized architectures. Code and models are available upon acceptance.",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.00271v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.00271v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.00271v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.00271v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2604.28122": {
       "title": "Beyond Gaussian Bottlenecks: Topologically Aligned Encoding of Vision-Transformer Feature Spaces",
       "authors": [

@@ -1,4 +1,4 @@
-## Updated at 2026-05-04 08:37:59
+## Updated at 2026-05-04 20:36:34
 
 ## 3DGS Semantic
 
@@ -8,6 +8,10 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-05-01**|**[Learn where to Click from Yourself: On-Policy Self-Distillation for GUI Grounding](https://arxiv.org/abs/2605.00642)**|N/A|under review|cs.AI|None|Yan Zhang et al.|
+|**2026-05-01**|**[On the Distribution of Unweighted Minimum Knapsack Instances with Large SOS Rank](https://arxiv.org/abs/2605.00594)**|N/A|None|math.OC|None|Adam Kurpisz et al.|
+|**2026-05-01**|**[Federated Distillation for Whole Slide Image via Gaussian-Mixture Feature Alignment and Curriculum Integration](https://arxiv.org/abs/2605.00578)**|N/A|Accepted by ICML 2026|cs.CV|None|Luru Jing et al.|
+|**2026-04-30**|**[FieryGS: In-the-Wild Fire Synthesis with Physics-Integrated Gaussian Splatting](https://arxiv.org/abs/2605.00177)**|N/A|ICLR 2026|cs.GR|None|Qianfan Shen et al.|
 |**2026-04-30**|**[Generalizable Sparse-View 3D Reconstruction from Unconstrained Images](https://arxiv.org/abs/2604.28193)**|N/A|Project Page: https://genwildsplat.github.io/|cs.CV|None|Vinayak Gupta et al.|
 |**2026-04-30**|**[Beyond Gaussian Bottlenecks: Topologically Aligned Encoding of Vision-Transformer Feature Spaces](https://arxiv.org/abs/2604.28122)**|N/A|16 pages, 10 figures|cs.CV|None|Andrew Bond et al.|
 |**2026-04-30**|**[FreeOcc: Training-Free Embodied Open-Vocabulary Occupancy Prediction](https://arxiv.org/abs/2604.28115)**|N/A|RSS 2026|cs.RO|None|Zeyu Jiang et al.|
@@ -902,6 +906,7 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-04-30**|**[REALM: An RGB and Event Aligned Latent Manifold for Cross-Modal Perception](https://arxiv.org/abs/2605.00271)**|N/A|None|cs.CV|None|Vincenzo Polizzi et al.|
 |**2026-04-30**|**[Beyond Gaussian Bottlenecks: Topologically Aligned Encoding of Vision-Transformer Feature Spaces](https://arxiv.org/abs/2604.28122)**|N/A|16 pages, 10 figures|cs.CV|None|Andrew Bond et al.|
 |**2026-04-29**|**[Last-Layer-Centric Feature Recombination: Unleashing 3D Geometric Knowledge in DINOv3 for Monocular Depth Estimation](https://arxiv.org/abs/2604.26454)**|N/A|18page, 6 figure, 6 table|cs.CV|None|Gongshu Wang et al.|
 |**2026-04-27**|**[Monocular Depth Estimation via Neural Network with Learnable Algebraic Group and Ring Structures](https://arxiv.org/abs/2604.24328)**|N/A|None|cs.CV|None|Qianlei Wang et al.|
