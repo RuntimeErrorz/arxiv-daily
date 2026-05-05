@@ -1,4 +1,4 @@
-## Updated at 2026-05-05 08:36:34
+## Updated at 2026-05-05 20:28:36
 
 ## 3DGS Semantic
 
@@ -8,6 +8,15 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-05-04**|**[HumanSplatHMR: Closing the Loop Between Human Mesh Recovery and Gaussian Splatting Avatar](https://arxiv.org/abs/2605.02784)**|N/A|None|cs.CV|None|Yeheng Zong et al.|
+|**2026-05-04**|**[AutoFocus: Uncertainty-Aware Active Visual Search for GUI Grounding](https://arxiv.org/abs/2605.02630)**|N/A|18 pages, 4 figures|cs.CV|None|Ruilin Yao et al.|
+|**2026-05-04**|**[Mixture Prototype Flow Matching for Open-Set Supervised Anomaly Detection](https://arxiv.org/abs/2605.02438)**|N/A|Accepted by ICML 2026|cs.CV|None|Fuyun Wang et al.|
+|**2026-05-04**|**[Change-Robust Online Spatial-Semantic Topological Mapping](https://arxiv.org/abs/2605.02227)**|N/A|None|cs.RO|None|Jiaming Wang et al.|
+|**2026-05-04**|**[Submodular Benchmark Selection](https://arxiv.org/abs/2605.02209)**|N/A|None|cs.AI|None|Alexander Smola|
+|**2026-05-04**|**[Projection-Free Transformers via Gaussian Kernel Attention](https://arxiv.org/abs/2605.02144)**|N/A|None|cs.LG|None|Debarshi Kundu et al.|
+|**2026-05-03**|**[From Spherical to Gaussian: A Comparative Analysis of Point Cloud Cropping Strategies in Large-Scale 3D Environments](https://arxiv.org/abs/2605.02098)**|N/A|None|cs.CV|None|Maximilian Kellner et al.|
+|**2026-05-03**|**[Multi-Scale Gaussian-Language Map for Zero-shot Embodied Navigation and Reasoning](https://arxiv.org/abs/2605.01736)**|N/A|Accepted by CVPR 2026|cs.CV|None|Sixian Zhang et al.|
+|**2026-05-02**|**[Recall to Predict: Grounding Motion Forecasting in Interpretable Motion Bank](https://arxiv.org/abs/2605.01393)**|N/A|Sumitted for PeerReview|cs.CV|None|Abhishek Vivekanandan et al.|
 |**2026-05-01**|**[Learn where to Click from Yourself: On-Policy Self-Distillation for GUI Grounding](https://arxiv.org/abs/2605.00642)**|N/A|under review|cs.AI|None|Yan Zhang et al.|
 |**2026-05-01**|**[On the Distribution of Unweighted Minimum Knapsack Instances with Large SOS Rank](https://arxiv.org/abs/2605.00594)**|N/A|None|math.OC|None|Adam Kurpisz et al.|
 |**2026-05-01**|**[Federated Distillation for Whole Slide Image via Gaussian-Mixture Feature Alignment and Curriculum Integration](https://arxiv.org/abs/2605.00578)**|N/A|Accepted by ICML 2026|cs.CV|None|Luru Jing et al.|
@@ -94,7 +103,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2026-04-09**|**[GEAR: GEometry-motion Alternating Refinement for Articulated Object Modeling with Gaussian Splatting](https://arxiv.org/abs/2604.07728)**|N/A|Accepted to CVPRF2026|cs.CV|None|Jialin Li et al.|
 |**2026-04-08**|**[Decompose, Look, and Reason: Reinforced Latent Reasoning for VLMs](https://arxiv.org/abs/2604.07518)**|N/A|None|cs.CL|None|Mengdan Zhu et al.|
 |**2026-04-08**|**[AGSC: Adaptive Granularity and Semantic Clustering for Uncertainty Quantification in Long-text Generation](https://arxiv.org/abs/2604.06812)**|N/A|Accepted to the Main Conference of ACL 2026|cs.CL|None|Guanran Luo et al.|
-|**2026-04-08**|**[URMF: Uncertainty-aware Robust Multimodal Fusion for Multimodal Sarcasm Detection](https://arxiv.org/abs/2604.06728)**|N/A|None|cs.CV|None|Zhenyu Wang et al.|
+|**2026-04-08**|**[URMF: Uncertainty-aware Robust Multimodal Fusion for Multimodal Sarcasm Detection](https://arxiv.org/abs/2604.06728)**|N/A|Accepted by ICIC 2026|cs.CV|None|Zhenyu Wang et al.|
 |**2026-04-08**|**[4D Vessel Reconstruction for Benchtop Thrombectomy Analysis](https://arxiv.org/abs/2604.06671)**|N/A|20 pages, 10 figures, 1 table, supplementary material (3 tables, 3 figures, and 11 videos). Project page: https://ethanuser.github.io/vessel4D/|eess.IV|None|Ethan Nguyen et al.|
 |**2026-04-07**|**[PhysHead: Simulation-Ready Gaussian Head Avatars](https://arxiv.org/abs/2604.06467)**|N/A|Project Page: see https://phys-head.github.io/; Youtube Video: see https://www.youtube.com/watch?v=k68fsSSwzc0; Accepted to CVPR 2026|cs.CV|None|Berna Kabadayi et al.|
 |**2026-04-07**|**[SkillGraph: Graph Foundation Priors for LLM Agent Tool Sequence Recommendation](https://arxiv.org/abs/2604.19793)**|N/A|None|cs.AI|None|Hao Liu, Dongyu Li|
@@ -110,7 +119,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2026-04-04**|**[M2StyleGS: Multi-Modality 3D Style Transfer with Gaussian Splatting](https://arxiv.org/abs/2604.03773)**|N/A|None|cs.CV|None|Xingyu Miao et al.|
 |**2026-04-04**|**[Imagine Before Concentration: Diffusion-Guided Registers Enhance Partially Relevant Video Retrieval](https://arxiv.org/abs/2604.03653)**|N/A|Accepted to CVPR 2026. 15 pages, 7 figures, 3 tables|cs.CV|None|Jun Li et al.|
 |**2026-04-04**|**[Perceptual Gaps: ASCII Art and Overlapping Audio as CAPTCHA](https://arxiv.org/abs/2604.03612)**|N/A|8 pages, 3 figures. Research paper proposing novel CAPTCHA methods using ASCII art and overlapping audio|cs.CR|None|Choon-Hou Rafael Chong|
-|**2026-04-03**|**[Noise Steering for Controlled Text Generation: Improving Diversity and Reading-Level Fidelity in Arabic Educational Story Generation](https://arxiv.org/abs/2604.03380)**|N/A|Under Review|cs.CL|None|Haziq Mohammad Khalid et al.|
+|**2026-04-03**|**[Noise Steering for Controlled Text Generation: Improving Diversity and Reading-Level Fidelity in Arabic Educational Story Generation](https://arxiv.org/abs/2604.03380)**|N/A|Accepted to BEA @ ACL 26'|cs.CL|None|Haziq Mohammad Khalid et al.|
 |**2026-04-03**|**[DynFOA: Generating First-Order Ambisonics with Conditional Diffusion for Dynamic and Acoustically Complex 360-Degree Videos](https://arxiv.org/abs/2604.02781)**|arXiv.org|Accidental duplicate submission. This paper was intended to be a replacement (v2) for arXiv:2602.06846|cs.SD|None|Ziyu Luo et al.|
 |**2026-04-03**|**[THOM: Generating Physically Plausible Hand-Object Meshes From Text](https://arxiv.org/abs/2604.02736)**|N/A|accepted to CVPR Findings 2026|cs.CV|None|Uyoung Jeong et al.|
 |**2026-04-03**|**[MixAtlas: Uncertainty-aware Data Mixture Optimization for Multimodal LLM Midtraining](https://arxiv.org/abs/2604.14198)**|N/A|None|cs.LG|None|Bingbing Wen et al.|
@@ -437,6 +446,7 @@ Query: (abs:'Multi-View Stereo' OR abs:'Multi View Stereo' OR abs:'Multi-View De
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-05-03**|**[DP-SfM: Dual-Pixel Structure-from-Motion without Scale Ambiguity](https://arxiv.org/abs/2605.01852)**|N/A|None|cs.CV|IEEE Transactions on Pattern Analysis and Machine Intelligence, 2026|Lilika Makabe et al.|
 |**2026-04-24**|**[PAGaS: Pixel-Aligned 1DoF Gaussian Splatting for Depth Refinement](https://arxiv.org/abs/2604.22129)**|N/A|None|cs.CV|None|David Recasens et al.|
 |**2026-04-14**|**[Neural 3D Reconstruction of Planetary Surfaces from Descent-Phase Wide-Angle Imagery](https://arxiv.org/abs/2604.13235)**|N/A|None|cs.CV|None|Melonie de Almeida et al.|
 |**2026-04-11**|**[A Comparison of Multi-View Stereo Methods for Photogrammetric 3D Reconstruction: From Traditional to Learning-Based Approaches](https://arxiv.org/abs/2604.10246)**|N/A|None|cs.CV|None|Yawen Li et al.|
@@ -906,6 +916,7 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-05-04**|**[AnchorD: Metric Grounding of Monocular Depth Using Factor Graphs](https://arxiv.org/abs/2605.02667)**|N/A|8 pages, 9 Figures, 3 Tables|cs.RO|None|Simon Dorer et al.|
 |**2026-04-30**|**[REALM: An RGB and Event Aligned Latent Manifold for Cross-Modal Perception](https://arxiv.org/abs/2605.00271)**|N/A|None|cs.CV|None|Vincenzo Polizzi et al.|
 |**2026-04-30**|**[Beyond Gaussian Bottlenecks: Topologically Aligned Encoding of Vision-Transformer Feature Spaces](https://arxiv.org/abs/2604.28122)**|N/A|16 pages, 10 figures|cs.CV|None|Andrew Bond et al.|
 |**2026-04-29**|**[Last-Layer-Centric Feature Recombination: Unleashing 3D Geometric Knowledge in DINOv3 for Monocular Depth Estimation](https://arxiv.org/abs/2604.26454)**|N/A|18page, 6 figure, 6 table|cs.CV|None|Gongshu Wang et al.|

@@ -1,5 +1,349 @@
 {
   "3DGS Semantic": {
+    "2605.02784": {
+      "title": "HumanSplatHMR: Closing the Loop Between Human Mesh Recovery and Gaussian Splatting Avatar",
+      "authors": [
+        "Yeheng Zong",
+        "Pou-Chun Kung",
+        "Yike Pan",
+        "Seth Isaacson",
+        "Yizhou Chen",
+        "Ram Vasudevan",
+        "Katherine A. Skinner"
+      ],
+      "published": "2026-05-04T16:26:11+00:00",
+      "updated": "2026-05-04T16:26:11+00:00",
+      "summary": "Accurately recovering human pose and appearance from video is an essential component of scene reconstruction, with applications to motion capture, motion prediction, virtual reality, and digital twinning. Despite significant interest in building realistic human avatars from video, this paper demonstrates that existing methods do not accurately recover the 3D geometry of humans. ViT-based approaches are not consistently reliable and can overfit to 2D views, while NeRF- and Gaussian Splatting-based avatars treat pose and appearance separately, limiting rendering generalization to new poses. To resolve these shortcomings, this paper proposes HumanSplatHMR, a joint optimization framework that refines 3D human poses while simultaneously learning a high-fidelity avatar for novel-view and novel-pose synthesis. Our key insight is to close the loop between geometric pose estimation and differentiable rendering. Unlike prior human avatar methods that rely on accurate human pose obtained through motion capture systems or offline refinement, which are impractical in in-the-wild scenarios, our approach uses only human mesh estimates from a state-of-the-art human pose estimator to better reflect real-world conditions. Therefore, instead of using the human pose only as a deformation prior, HumanSplatHMR backpropagates photometric, segmentation, and depth losses through a differentiable renderer to the pose parameters and global position. This coupling refines the global 3D pose over time, improving accuracy and alignment while producing better renderings from novel views. Experiments show consistent improvements over pose recovery baselines that omit image-level refinement and avatar baselines that decouple pose estimation from avatar reconstruction.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.02784v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.02784v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.02784v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.02784v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.02630": {
+      "title": "AutoFocus: Uncertainty-Aware Active Visual Search for GUI Grounding",
+      "authors": [
+        "Ruilin Yao",
+        "Shegnwu Xiong",
+        "Tianyu Zou",
+        "Shili Xiong",
+        "Yi Rong"
+      ],
+      "published": "2026-05-04T14:18:46+00:00",
+      "updated": "2026-05-04T14:18:46+00:00",
+      "summary": "Vision-Language Models (VLMs) have enabled autonomous GUI agents that translate natural language instructions into executable screen coordinates. However, grounding performance degrades in high-resolution interfaces, where dense layouts and small interactive elements expose a resolution gap between modern displays and model input constraints. Existing zoom-in strategies rely on fixed anchors, heuristic grids, or reinforcement learning, lacking a principled mechanism to adaptively determine where refinement is needed and how much spatial uncertainty should be explored. We propose AutoFocus, a training-free, uncertainty-aware active visual search framework for GUI grounding. Our key insight is that token-level perplexity in coordinate generation naturally reflects spatial uncertainty. Rather than committing to a single prediction, AutoFocus samples multiple coordinate hypotheses and converts their axial perplexities into an anisotropic gaussian spatial probability field, explicitly modeling directional uncertainty. Based on this field, we generate global and local region proposals and introduce Shape-Aware Zooming to balance tight localization with contextual preservation. A visual prompt-based aggregation step then selects the most consistent prediction via structured comparison. Extensive experiments on ScreenSpot-Pro and ScreenSpot-V2 demonstrate consistent improvements across both general-purpose and GUI-specialized VLMs.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.02630v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "18 pages, 4 figures",
+      "entry_id": "http://arxiv.org/abs/2605.02630v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.02630v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.02630v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.02438": {
+      "title": "Mixture Prototype Flow Matching for Open-Set Supervised Anomaly Detection",
+      "authors": [
+        "Fuyun Wang",
+        "Yuanzhi Wang",
+        "Xu Guo",
+        "Sujia Huang",
+        "Tong Zhang",
+        "Dan Wang",
+        "Hui Yan",
+        "Xin Liu",
+        "Zhen Cui"
+      ],
+      "published": "2026-05-04T10:36:43+00:00",
+      "updated": "2026-05-04T10:36:43+00:00",
+      "summary": "Open-set supervised anomaly detection (OSAD) aims to identify unseen anomalies using limited anomalous supervision. However, existing prototype-based methods typically model normal data via a unimodal Gaussian prior, failing to capture inherent multi-modality and resulting in blurred decision boundaries. To address this, we propose Mixture Prototype Flow Matching (MPFM), a framework that learns a continuous transformation from normal feature distributions to a structured Gaussian mixture prototype space. Departing from traditional flow-based approaches that rely on a single velocity vector, MPFM explicitly models the velocity field as a Gaussian mixture prior where each component corresponds to a distinct normal class. This design facilitates mode-aware and semantically coherent distribution transport. Furthermore, we introduce a Mutual Information Maximization Regularizer (MIMR) to prevent prototype collapse and maximize normal-anomaly separability. Extensive experiments demonstrate that MPFM achieves state-of-the-art performance across diverse benchmarks under both single- and multi-anomaly settings.",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.02438v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted by ICML 2026",
+      "entry_id": "http://arxiv.org/abs/2605.02438v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.02438v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.02438v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.02227": {
+      "title": "Change-Robust Online Spatial-Semantic Topological Mapping",
+      "authors": [
+        "Jiaming Wang",
+        "Jizhuo Chen",
+        "Diwen Liu",
+        "Atharva Ghotavadekar",
+        "Jiaxuan Da",
+        "Linh Kästner",
+        "Harold Soh"
+      ],
+      "published": "2026-05-04T05:00:12+00:00",
+      "updated": "2026-05-04T05:00:12+00:00",
+      "summary": "Autonomous robots require change-robust spatial-semantic reasoning: using spatial and semantic knowledge to decide where to go, how to get there, and where the robot is despite environmental change. Existing approaches typically attach semantics to SLAM-built metric maps, but these pipelines are brittle under appearance shifts and scene dynamics, where data association and relocalization degrade. We propose a Change-Robust Online Spatial-Semantic (CROSS) representation that replaces a globally consistent metric substrate with an online, pose-aware topological graph of RGB-D keyframes. The system explicitly reasons over perceptual ambiguity using sequential hypothesis testing in continuous SE(3). Our estimator maintains a bounded Gaussian-mixture belief over poses, enabling principled handling of loop closures and kidnapped-robot events. Experiments under severe appearance change, including real-robot object-goal navigation with lighting shifts and furniture rearrangement, demonstrate improved robustness over SLAM-based and topological baselines while remaining safe under perceptual aliasing.",
+      "categories": [
+        "cs.RO"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2605.02227v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.02227v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.02227v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.02227v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.02209": {
+      "title": "Submodular Benchmark Selection",
+      "authors": [
+        "Alexander Smola"
+      ],
+      "published": "2026-05-04T04:17:02+00:00",
+      "updated": "2026-05-04T04:17:02+00:00",
+      "summary": "Evaluating large language models across many benchmarks is expensive, yet many benchmarks are highly correlated. We formalize the selection of a small, informative subset as submodular maximization under a multivariate Gaussian model. Entropy (log-determinant covariance) and mutual information between selected and remaining benchmarks arise as natural objectives. Both are submodular; entropy selection coincides with pivoted Cholesky and has spectral residual bounds, while mutual information is non-monotone in general but empirically monotone for small subsets, so we optimize it greedily. Experiments on three matrices from ten public leaderboards show that mutual information selection outperforms entropy for imputation at small subsets.",
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "primary_category": "cs.AI",
+      "pdf_url": "https://arxiv.org/pdf/2605.02209v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.02209v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.02209v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.02209v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.02144": {
+      "title": "Projection-Free Transformers via Gaussian Kernel Attention",
+      "authors": [
+        "Debarshi Kundu",
+        "Archisman Ghosh",
+        "Swaroop Ghosh",
+        "Vasant Honavar"
+      ],
+      "published": "2026-05-04T01:57:59+00:00",
+      "updated": "2026-05-04T01:57:59+00:00",
+      "summary": "Self-attention in Transformers is typically implemented as $\\mathrm{softmax}(QK^\\top/\\sqrt{d})V$, where $Q=XW_Q$, $K=XW_K$, and $V=XW_V$ are learned linear projections of the input $X$. We ask whether these learned projections are necessary, or whether they can be replaced by a simpler similarity-based diffusion operator. We introduce \\textbf{Gaussian Kernel Attention} (GKA), a drop-in replacement for dot-product attention that computes token affinities directly using a Gaussian radial basis function (RBF) kernel applied to per-head token features. Each head learns only a bandwidth parameter $σ_h$, while a single output projection $W_O$ preserves compatibility with the standard Transformer interface. GKA can be interpreted as normalized kernel regression over tokens, linking modern Transformer architectures to classical non-local filtering and kernel smoothing methods. We evaluate GKA in both vision and language modeling settings. For autoregressive language modeling within the \\texttt{nanochat} framework, we implement causal masking and sliding-window constraints by masking and renormalizing the Gaussian kernel. At depth 20, a GKA model with $0.42\\times$ the parameters and $0.49\\times$ the total training FLOPs of a standard attention baseline trains stably, exhibits a near-zero train-validation gap, and demonstrates competitive behavior on standard benchmarks, albeit with higher bits-per-byte (BPB) at this compute scale. Overall, GKA provides a minimal, interpretable attention mechanism with an explicit locality scale, offering a dimension in the accuracy-efficiency trade-off for Transformer design.",
+      "categories": [
+        "cs.LG"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2605.02144v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.02144v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.02144v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.02144v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.02098": {
+      "title": "From Spherical to Gaussian: A Comparative Analysis of Point Cloud Cropping Strategies in Large-Scale 3D Environments",
+      "authors": [
+        "Maximilian Kellner",
+        "Dominik Merkle",
+        "Michael Brunklaus",
+        "Alexander Reiterer"
+      ],
+      "published": "2026-05-03T23:36:32+00:00",
+      "updated": "2026-05-03T23:36:32+00:00",
+      "summary": "Large-scale 3D point clouds can consist of billions of points. Even after downsampling, these point clouds are too large for modern 3D neural networks. In order to develop a semantic understanding of the scene, the point clouds are divided into smaller subclouds that can be processed. Typically, this division is done using spherical crops, resulting in a loss of surrounding geometric context. To address this issue, we propose alternative methods that produce subclouds with larger crop sizes while maintaining a similar number of points. Specifically, we compare exponential, Gaussian, and linear cropping methods with the spherical method. We evaluated two 3D deep learning model architectures using multiple indoor and outdoor environment datasets. Our results demonstrate that altering the cropping strategy can enhance model performance, especially for large-scale outdoor scenes, yielding new state-of-the-art results. Code is available at https://github.com/mvg-inatech/point_cloud_cropping",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.02098v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.02098v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.02098v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.02098v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.01736": {
+      "title": "Multi-Scale Gaussian-Language Map for Zero-shot Embodied Navigation and Reasoning",
+      "authors": [
+        "Sixian Zhang",
+        "Yiyao Wang",
+        "Xinhang Song",
+        "Keming Zhang",
+        "Zijian Xu",
+        "Shuqiang Jiang"
+      ],
+      "published": "2026-05-03T06:22:14+00:00",
+      "updated": "2026-05-03T06:22:14+00:00",
+      "summary": "Understanding the geometric and semantic structure of environments is essential for embodied navigation and reasoning. Existing semantic mapping methods trade off between explicit geometry and multi-scale semantics, and lack a native interface for large models, thus requiring additional training of feature projection for semantic alignment. To this end, we propose the multi-scale Gaussian-Language Map (GLMap), which introduces three key designs: (1) explicit geometry, (2) multi-scale semantics covering both instance and region concepts, and (3) a dual-modality interface where each semantic unit jointly stores a natural language description and a 3D Gaussian representation. The 3D Gaussians enable compact storage and fast rendering of task-relevant images via Gaussian splatting. To enable efficient incremental construction, we further propose a Gaussian Estimator that analytically derives Gaussian parameters from dense point clouds without gradient-based optimization. Experiments on ObjectNav, InstNav, and SQA tasks show that GLMap effectively enhances target navigation and contextual reasoning, while remaining compatible with large-model-based methods in a zero-shot manner. The code is available at https://github.com/sx-zhang/GLMap.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.01736v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted by CVPR 2026",
+      "entry_id": "http://arxiv.org/abs/2605.01736v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.01736v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.01736v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.01393": {
+      "title": "Recall to Predict: Grounding Motion Forecasting in Interpretable Motion Bank",
+      "authors": [
+        "Abhishek Vivekanandan",
+        "Ahmed Abouelazm",
+        "J. Marius Zöllner"
+      ],
+      "published": "2026-05-02T11:31:26+00:00",
+      "updated": "2026-05-02T11:31:26+00:00",
+      "summary": "Motion forecasting often requires trading interpretability for predictive accuracy. Standard anchor-based architectures rely on opaque latent queries that are highly prone to latent collapse, or naive trajectory sampling that limits multi-modal diversity. We propose an end-to-end differentiable framework that grounds predictions in a comprehensive \"motion bank\", a structured embedding space of physically realizable trajectories constructed via contrastive learning. Rather than regressing paths from a blank slate, our architecture dynamically retrieves explicit motion priors using a novel Anchor Retrieval Layer. This module adapts orthogonally initialized queries via a Dual-Level Gated Cross-Attention mechanism and executes discrete trajectory selection using a Straight-Through Gumbel-Softmax estimator to preserve continuous gradient flow. The retrieved semantically grounded anchors are then geometrically refined by a DETR-style decoder, optimized jointly with a Winner-Takes-All (WTA) kinematic Gaussian Mixture Model (GMM), a latent diversity penalty, and a soft-min weighted endpoint loss. By strictly conditioning the decoding phase on diverse, interpretable motion primitives, our approach eliminates the \"black box\" of standard latent queries while achieving competitive multi-modal accuracy on the Argoverse 2 and Waymo Open Motion datasets. Code is available at: https://github.com/abviv/recall2predict",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.01393v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Sumitted for PeerReview",
+      "entry_id": "http://arxiv.org/abs/2605.01393v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.01393v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.01393v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-05",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
     "2605.00642": {
       "title": "Learn where to Click from Yourself: On-Policy Self-Distillation for GUI Grounding",
       "authors": [
@@ -4014,28 +4358,28 @@
         "Guoying Zhang"
       ],
       "published": "2026-04-08T06:50:43+00:00",
-      "updated": "2026-04-08T06:50:43+00:00",
-      "summary": "Multimodal sarcasm detection (MSD) aims to identify sarcastic intent from semantic incongruity between text and image. Although recent methods have improved MSD through cross-modal interaction and incongruity reasoning, they often assume that all modalities are equally reliable. In real-world social media, however, textual content may be ambiguous and visual content may be weakly relevant or even irrelevant, causing deterministic fusion to introduce noisy evidence and weaken robust reasoning. To address this issue, we propose Uncertainty-aware Robust Multimodal Fusion (URMF), a unified framework that explicitly models modality reliability during interaction and fusion. URMF first employs multi-head cross-attention to inject visual evidence into textual representations, followed by multi-head self-attention in the fused semantic space to enhance incongruity-aware reasoning. It then performs unified unimodal aleatoric uncertainty modeling over text, image, and interaction-aware latent representations by parameterizing each modality as a learnable Gaussian posterior. The estimated uncertainty is further used to dynamically regulate modality contributions during fusion, suppressing unreliable modalities and yielding a more robust joint representation. In addition, we design a joint training objective integrating task supervision, modality prior regularization, cross-modal distribution alignment, and uncertainty-driven self-sampling contrastive learning. Experiments on public MSD benchmarks show that URMF consistently outperforms strong unimodal, multimodal, and MLLM-based baselines, demonstrating the effectiveness of uncertainty-aware fusion for improving both accuracy and robustness.",
+      "updated": "2026-05-03T15:50:50+00:00",
+      "summary": "Multimodal sarcasm detection (MSD) aims to identify sarcastic intent from semantic incongruity between text and image. Although recent methods have improved MSD through cross-modal interaction and incongruity reasoning, most still treat modalities as equally reliable. In real social media posts, however, text and images often differ in noise level and relevance, making deterministic fusion susceptible to noisy evidence and weakened incongruity cues. To address this issue, we propose Uncertainty-aware Robust Multimodal Fusion (URMF), a unified framework for robust MSD. URMF first injects visual evidence into textual representations through multi-head cross-attention, and then applies self-attention in the fused semantic space to enhance incongruity reasoning. It models textual, visual, and interaction-aware representations as learnable Gaussian posteriors to estimate modality-specific uncertainty. Based on the estimated uncertainty, URMF dynamically adjusts modality contributions during fusion to suppress unreliable evidence. We further optimize the model with a unified objective that combines information bottleneck regularization, modality prior regularization, cross-modal distribution alignment, and uncertainty-driven contrastive learning. Experiments on the public MSD and MMSD2 benchmarks show that URMF outperforms representative unimodal, multimodal, and MLLM-based baselines. The results demonstrate that explicit uncertainty modeling can improve both accuracy and robustness in multimodal sarcasm detection.",
       "categories": [
         "cs.CV",
         "cs.AI",
         "cs.MM"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2604.06728v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.06728v2",
       "journal_ref": null,
       "doi": null,
-      "comment": null,
-      "entry_id": "http://arxiv.org/abs/2604.06728v1",
+      "comment": "Accepted by ICIC 2026",
+      "entry_id": "http://arxiv.org/abs/2604.06728v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2604.06728v1",
+          "href": "https://arxiv.org/abs/2604.06728v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2604.06728v1",
+          "href": "https://arxiv.org/pdf/2604.06728v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -4774,26 +5118,26 @@
         "Imran Zualkernan"
       ],
       "published": "2026-04-03T18:19:18+00:00",
-      "updated": "2026-04-03T18:19:18+00:00",
-      "summary": "Generating diverse, pedagogically valid stories for Arabic early-grade reading assessments requires balancing tight constraints on vocabulary, reading level, and narrative structure against the need to avoid repetitive plots that undermine assessment validity. We investigate noise steering, injecting calibrated Gaussian perturbations into the internal representations of transformer models at inference time, as a training-free diversity method evaluated across five small Arabic-centric language models (7-9B parameters). We compare four injection strategies against high-temperature sampling baselines, measuring diversity, quality, constraint adherence, and reading grade level. Residual stream noise consistently improves narrative diversity with minimal quality or constraint cost and preserves early-grade reading level across all models. Attention entropy noise injection (AENI) stabilizes the otherwise unreliable attention-logit noise while recovering quality. High-temperature sampling inflates reading grade level and causes catastrophic collapse on several models. We find internal representation-level perturbation to be a more suitable diversity strategy than output-level stochasticity for constrained educational content generation.",
+      "updated": "2026-05-02T22:39:40+00:00",
+      "summary": "Generating diverse, pedagogically valid stories for Arabic early-grade reading assessments requires balancing tight constraints on vocabulary, reading level, and narrative structure against the need to avoid repetitive plots that undermine assessment validity. We investigate noise steering, injecting calibrated Gaussian perturbations into the internal representations of transformer models at inference time, as a training-free diversity method evaluated across five small Arabic-centric language models (7-9B parameters). We compare four injection strategies against high-temperature sampling baselines, measuring diversity, quality, constraint adherence, and reading grade level. Residual stream noise consistently improves narrative diversity with minimal quality or constraint cost and preserves early-grade reading level across all Arabic-centric models. Attention entropy noise injection (AENI) stabilizes the otherwise unreliable attention-logit noise while recovering quality. High-temperature sampling inflates reading grade level and causes catastrophic collapse on several models. We find internal representation-level perturbation to be a more suitable diversity strategy than output-level stochasticity for constrained educational content generation.",
       "categories": [
         "cs.CL"
       ],
       "primary_category": "cs.CL",
-      "pdf_url": "https://arxiv.org/pdf/2604.03380v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.03380v2",
       "journal_ref": null,
       "doi": null,
-      "comment": "Under Review",
-      "entry_id": "http://arxiv.org/abs/2604.03380v1",
+      "comment": "Accepted to BEA @ ACL 26'",
+      "entry_id": "http://arxiv.org/abs/2604.03380v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2604.03380v1",
+          "href": "https://arxiv.org/abs/2604.03380v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2604.03380v1",
+          "href": "https://arxiv.org/pdf/2604.03380v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -92406,6 +92750,42 @@
     }
   },
   "MVS": {
+    "2605.01852": {
+      "title": "DP-SfM: Dual-Pixel Structure-from-Motion without Scale Ambiguity",
+      "authors": [
+        "Lilika Makabe",
+        "Kohei Ashida",
+        "Hiroaki Santo",
+        "Fumio Okura",
+        "Yasuyuki Matsushita"
+      ],
+      "published": "2026-05-03T12:45:17+00:00",
+      "updated": "2026-05-03T12:45:17+00:00",
+      "summary": "Multi-view 3D reconstruction, namely, structure-from-motion followed by multi-view stereo, is a fundamental component of 3D computer vision. In general, multi-view 3D reconstruction suffers from an unknown scale ambiguity unless a reference object of known size is present in the scene. In this article, we show that multi-view images captured using a dual-pixel (DP) sensor can automatically resolve the scale ambiguity, without requiring a reference object or prior calibration. Specifically, the defocus blur observed in DP images provides sufficient information to determine the absolute scale when paired with depth maps (up to scale) recovered from multi-view 3D reconstruction. Based on this observation, we develop a simple yet effective linear method to estimate the absolute scale, followed by the intensity-based optimization stage that aligns the left and right DP images by shifting them back toward each other using cross-view blur kernels. Experiments demonstrate the effectiveness of the proposed approach across diverse scenes captured with different cameras and lenses. Code and data are available at https://github.com/lilika-makabe/dp-sfm-tpami.git",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.01852v1",
+      "journal_ref": "IEEE Transactions on Pattern Analysis and Machine Intelligence, 2026",
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.01852v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.01852v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.01852v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2604.22129": {
       "title": "PAGaS: Pixel-Aligned 1DoF Gaussian Splatting for Depth Refinement",
       "authors": [
@@ -109588,6 +109968,42 @@
     }
   },
   "Depth Estimation": {
+    "2605.02667": {
+      "title": "AnchorD: Metric Grounding of Monocular Depth Using Factor Graphs",
+      "authors": [
+        "Simon Dorer",
+        "Martin Büchner",
+        "Nick Heppert",
+        "Abhinav Valada"
+      ],
+      "published": "2026-05-04T14:48:52+00:00",
+      "updated": "2026-05-04T14:48:52+00:00",
+      "summary": "Dense and accurate depth estimation is essential for robotic manipulation, grasping, and navigation, yet currently available depth sensors are prone to errors on transparent, specular, and general non-Lambertian surfaces. To mitigate these errors, large-scale monocular depth estimation approaches provide strong structural priors, but their predictions can be potentially skewed or mis-scaled in metric units, limiting their direct use in robotics. Thus, in this work, we propose a training-free depth grounding framework that anchors monocular depth estimation priors from a depth foundation model in raw sensor depth through factor graph optimization. Our method performs a patch-wise affine alignment, locally grounding monocular predictions in metric real-world depth while preserving fine-grained geometric structure and discontinuities. To facilitate evaluation in challenging real-world conditions, we introduce a benchmark dataset with dense scene-wide ground truth depth in the presence of non-Lambertian objects. Ground truth is obtained via matte reflection spray and multi-camera fusion, overcoming the reliance on object-only CAD-based annotations used in prior datasets. Extensive evaluations across diverse sensors and domains demonstrate consistent improvements in depth performance without any (re-)training. We make our implementation publicly available at https://anchord.cs.uni-freiburg.de.",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2605.02667v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "8 pages, 9 Figures, 3 Tables",
+      "entry_id": "http://arxiv.org/abs/2605.02667v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.02667v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.02667v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2605.00271": {
       "title": "REALM: An RGB and Event Aligned Latent Manifold for Cross-Modal Perception",
       "authors": [
@@ -109596,7 +110012,7 @@
         "Jonathan Kelly"
       ],
       "published": "2026-04-30T22:14:36+00:00",
-      "updated": "2026-04-30T22:14:36+00:00",
+      "updated": "2026-05-04T01:22:03+00:00",
       "summary": "Event cameras provide several unique advantages over standard frame-based sensors, including high temporal resolution, low latency, and robustness to extreme lighting. However, existing learning-based approaches for event processing are typically confined to narrow, task-specific silos and lack the ability to generalize across modalities. We address this gap with REALM, a cross-modal framework that learns an RGB and Event Aligned Latent Manifold by projecting event representations into the pretrained latent space of RGB foundation models. Instead of task-specific training, we leverage low-rank adaptation (LoRA) to bridge the modality gap, effectively unlocking the geometric and semantic priors of frozen RGB backbones for asynchronous event streams. We demonstrate that REALM effectively maps events into the ViT-based foundation latent space. Our method allows us to perform downstream tasks like depth estimation and semantic segmentation by simply transferring linear heads trained on the RGB teacher. Most significantly, REALM enables the direct, zero-shot application of complex, frozen image-trained decoders, such as MASt3R, to raw event data. We demonstrate state-of-the-art performance in wide-baseline feature matching, significantly outperforming specialized architectures. Code and models are available upon acceptance.",
       "categories": [
         "cs.CV",
@@ -109604,20 +110020,20 @@
         "cs.RO"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2605.00271v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.00271v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2605.00271v1",
+      "entry_id": "http://arxiv.org/abs/2605.00271v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2605.00271v1",
+          "href": "https://arxiv.org/abs/2605.00271v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2605.00271v1",
+          "href": "https://arxiv.org/pdf/2605.00271v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
