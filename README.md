@@ -1,4 +1,4 @@
-## Updated at 2026-05-06 08:36:14
+## Updated at 2026-05-06 20:39:45
 
 ## 3DGS Semantic
 
@@ -8,6 +8,9 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-05-05**|**[Raising the Ceiling: Better Empirical Fixation Densities for Saliency Benchmarking](https://arxiv.org/abs/2605.03885)**|N/A|None|cs.CV|None|Susmit Agrawal et al.|
+|**2026-05-05**|**[Distribution-Free Pretraining of Classification Losses via Evolutionary Dynamics](https://arxiv.org/abs/2605.03722)**|N/A|6 pages|cs.LG|None|Meng Xiang, Yan Pei|
+|**2026-05-04**|**[Euclid preparation. Three-dimensional galaxy clustering in configuration space: Three-point correlation function estimation](https://arxiv.org/abs/2605.03012)**|N/A|20 pages, 9 Figures|astro-ph.CO|None|Euclid Collaboration et al.|
 |**2026-05-04**|**[HumanSplatHMR: Closing the Loop Between Human Mesh Recovery and Gaussian Splatting Avatar](https://arxiv.org/abs/2605.02784)**|N/A|None|cs.CV|None|Yeheng Zong et al.|
 |**2026-05-04**|**[AutoFocus: Uncertainty-Aware Active Visual Search for GUI Grounding](https://arxiv.org/abs/2605.02630)**|N/A|18 pages, 4 figures|cs.CV|None|Ruilin Yao et al.|
 |**2026-05-04**|**[Mixture Prototype Flow Matching for Open-Set Supervised Anomaly Detection](https://arxiv.org/abs/2605.02438)**|N/A|Accepted by ICML 2026|cs.CV|None|Fuyun Wang et al.|
