@@ -37,7 +37,15 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-06",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2605.02630": {
       "title": "AutoFocus: Uncertainty-Aware Active Visual Search for GUI Grounding",
@@ -74,7 +82,15 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-06",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2605.02438": {
       "title": "Mixture Prototype Flow Matching for Open-Set Supervised Anomaly Detection",
@@ -116,7 +132,15 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-06",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2605.02227": {
       "title": "Change-Robust Online Spatial-Semantic Topological Mapping",
@@ -155,7 +179,15 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-06",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2605.02209": {
       "title": "Submodular Benchmark Selection",
@@ -189,7 +221,15 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-06",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2605.02144": {
       "title": "Projection-Free Transformers via Gaussian Kernel Attention",
@@ -225,7 +265,15 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-06",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2605.02098": {
       "title": "From Spherical to Gaussian: A Comparative Analysis of Point Cloud Cropping Strategies in Large-Scale 3D Environments",
@@ -261,7 +309,15 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-06",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2605.01736": {
       "title": "Multi-Scale Gaussian-Language Map for Zero-shot Embodied Navigation and Reasoning",
@@ -299,7 +355,15 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-06",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2605.01393": {
       "title": "Recall to Predict: Grounding Motion Forecasting in Interpretable Motion Bank",
