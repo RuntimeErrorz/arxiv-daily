@@ -1,5 +1,258 @@
 {
   "3DGS Semantic": {
+    "2605.05103": {
+      "title": "Text Corpora as Concept Fields: Black-Box Hallucination and Novelty Measurement",
+      "authors": [
+        "Nicholas S. Kersting",
+        "Vittorio Castelli",
+        "Chieh Ting Yeh",
+        "Xinzhu Wang",
+        "Saad Taame"
+      ],
+      "published": "2026-05-06T16:38:49+00:00",
+      "updated": "2026-05-06T16:38:49+00:00",
+      "summary": "We introduce the **Concept Field** of a text corpus: a local drift field with pointwise uncertainty, estimated in sentence-embedding space from the deltas between consecutive sentences. Given a candidate sentence transition, we score its agreement with the field by $ζ$, the mean absolute z-distance between the observed delta and the field's local Gaussian estimate. The score is black-box (no model internals), corpus-attributable (every score traces to nearby corpus sentences), and admits a direct probabilistic reading. We support the computation with the introduction of a **Vector Sequence Database (VSDB)** that stores embeddings together with sequence-position and next-delta metadata. We evaluate this approach on two large-scale settings: hallucination-style groundedness detection over the U.S. Code of Federal Regulations, and novelty detection over Project Gutenberg. Using controlled LLM-generated rewrites, Concept Fields achieve strong selective classification performance under a grounded / ungrounded / unsure triage policy, which unlike retrieval-centric baselines have similar coverage-risk behavior across both domains, supporting a probability-based interpretation that transfers across domains. We also sketch how divergence and curl of the Concept Field, computed on dense clusters, surface qualitatively meaningful semantic patterns (logic sources, sinks, and implicit topics), which we offer as hypothesis-generating rather than as a quantitative result. Concept Fields provide a fast, lightweight, and interpretable signal for groundedness and novelty, complementary to LLM-as-judge and white-box detectors.",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.CY"
+      ],
+      "primary_category": "cs.CL",
+      "pdf_url": "https://arxiv.org/pdf/2605.05103v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "25 pages, 8 figures",
+      "entry_id": "http://arxiv.org/abs/2605.05103v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.05103v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.05103v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.05031": {
+      "title": "Computer-Aided Design Generation by Cascaded Discrete Diffusion Model",
+      "authors": [
+        "Honghu Pan",
+        "Xiaoling Luo",
+        "Yongyong Chen",
+        "Zhenyu He",
+        "Pengyang Wang"
+      ],
+      "published": "2026-05-06T15:26:11+00:00",
+      "updated": "2026-05-06T15:26:11+00:00",
+      "summary": "Recent deep learning approaches seek to automate CAD creation by representing a model as a sequence of discrete commands and parameters, and then generating them using autoregressive models or continuous diffusion operating in Euclidean embedding space. However, continuous diffusion perturbs representations in a continuous Euclidean domain that does not reflect the inherently discrete and heterogeneous nature of CAD tokens, often producing perturbed representations that map to semantically invalid symbols. To overcome this limitation, we propose a cascaded discrete diffusion framework for CAD generation, which consists of a command diffusion for generating CAD commands and a parameter diffusion conditioned on CAD commands. Unlike isotropic Gaussian perturbation, the forward process of our approach operates directly over categorical token distributions using delicate transition matrices. For commands, we adopt an absorbing-state transition matrix that progressively corrupts tokens to a designated symbol; for parameters, we introduce specific transition matrices tailored to heterogeneous attributes: a Gaussian kernel for coordinate continuity, a scale-invariant kernel for dimensional values, and a prior-preserving kernel for boolean attributes. The reverse process is achieved by two denoising networks: a Transformer-based encoder for command recovery, and a parameter network with extra local self-attention for command-level interaction and cross-attention for conditional injection. Experiments on the DeepCAD dataset show that the proposed approach surpasses existing autoregressive and continuous diffusion models on unconditional generation metrics, while qualitative results validate effective controllability in conditional generation tasks. Source codes will be released.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.05031v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.05031v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.05031v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.05031v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.05020": {
+      "title": "Graph-SND: Sparse Aggregation for Behavioral Diversity in Multi-Agent Reinforcement Learning",
+      "authors": [
+        "Shawn Ray"
+      ],
+      "published": "2026-05-06T15:18:42+00:00",
+      "updated": "2026-05-06T15:18:42+00:00",
+      "summary": "System Neural Diversity (SND) measures behavioral heterogeneity in multi-agent reinforcement learning by averaging pairwise distances over all $\\binom{n}{2}$ agent pairs, making each call quadratic in team size. We introduce Graph-SND, which replaces this complete-graph average with a weighted average over the edges of an arbitrary graph $G$. Three regimes follow: $G=K_n$ recovers SND exactly; a fixed sparse $G$ defines a localized diversity measure at $O(|E|)$ cost; and random edge samples yield an unbiased Horvitz-Thompson estimator and a normalized sample mean with $O(1/\\sqrt{m})$ concentration in the sampled edge count $m$. For fixed sparse graphs we prove forwarding-index distortion bounds for expanders and a spectral refinement under low-rank distance structure; for random $d$-regular graphs we prove an unconditional probabilistic $\\widetilde{\\mathcal{O}}(D_{\\max}/\\sqrt{n})$ bound. On VMAS we verify recovery, unbiasedness, concentration, and wall-clock scaling, with a PettingZoo TVD panel checking non-Gaussian transfer. In a 500-iteration $n=100$ PPO run, Bernoulli-$0.1$ Graph-SND tracks full SND while reducing per-call metric time by about $10\\times$, and frozen-policy GPU timing up to $n=500$ follows the predicted $\\binom{n}{2}/|E|$ speedup. Random $d$-regular expanders empirically achieve $\\mathrm{SND}_{G}^{\\mathrm{u}}/\\mathrm{SND} \\in [0.9987, 1.0013]$ at $Θ(n \\log n)$ edges. In DiCo diversity control at $n=50$, Bernoulli-$0.1$ Graph-SND preserves set-point tracking with paired reward differences indistinguishable from zero across nine matched cells while cutting per-call metric cost by ${\\sim}9.5\\times$. Together, these results show that the SND aggregation bottleneck can be removed without changing the metric's semantics, yielding a drop-in sparse alternative that scales beyond complete-graph SND and supports both passive measurement and closed-loop diversity control.",
+      "categories": [
+        "cs.LG",
+        "cs.MA"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2605.05020v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "22 pages, 12 figures, 7 tables",
+      "entry_id": "http://arxiv.org/abs/2605.05020v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.05020v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.05020v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.04730": {
+      "title": "ULF-Loc: Unbiased Landmark Feature for Robust Visual Localization with 3D Gaussian Splatting",
+      "authors": [
+        "Yingdong Gu",
+        "Shaocheng Yan",
+        "Zhenjun Zhao",
+        "Yuan Kou",
+        "Jianxin Luo",
+        "Pengcheng Shi",
+        "Jiayuan Li"
+      ],
+      "published": "2026-05-06T10:30:50+00:00",
+      "updated": "2026-05-06T10:30:50+00:00",
+      "summary": "Visual localization is a core technology for augmented reality and autonomous navigation. Recent methods combine the efficient rendering of 3D Gaussian Splatting (3DGS) with feature-based localization. These methods rely on direct matching between 2D query features and the 3D Gaussian feature field, but this often results in mismatches due to an inherent bias in the learned Gaussian feature. We theoretically analyze the feature learning process in 3DGS, revealing that the widely adopted $α$-blending optimization inherently introduces bias into 3D point features. This bias stems from the entanglement between individual Gaussians and their neighboring Gaussians, making the learned features unsuitable for precise matching tasks. Motivated by these findings, we propose ULF-Loc, an unbiased landmark feature framework that replaces biased feature optimization with geometry-weighted feature fusion. We further introduce keypoint-consensus landmark sampling to select reliable Gaussians and local geometric consistency verification to reject mismatches caused by rendering artifacts. On the Cambridge Landmarks dataset, ULF-Loc reduces the mean median translation error by 17\\% compared to the state-of-the-art, while achieving superior efficiency with only 1/10 the training time and 1/6 the GPU memory of STDLoc.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.04730v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "published to CVPR (highlight)",
+      "entry_id": "http://arxiv.org/abs/2605.04730v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.04730v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.04730v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-07",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2605.04524": {
+      "title": "High-Fidelity Single-Image Head Modeling with Industry-Grade Topology",
+      "authors": [
+        "Yunmu Wang",
+        "Zoubin Bi",
+        "Bowen Cai",
+        "Chenchu Rong",
+        "Jinlong Wang",
+        "Junchen Deng",
+        "Aocheng Huang",
+        "Jidong Jia",
+        "Huan Fu"
+      ],
+      "published": "2026-05-06T06:07:35+00:00",
+      "updated": "2026-05-06T06:07:35+00:00",
+      "summary": "We present a single-image head mesh reconstruction framework that addresses the longstanding challenge of simultaneously preserving facial identity and producing industry-grade topology. Our framework adopts a coarse-to-fine optimization pipeline that refines a rigged template across three stages -- rig, joint, and vertex -- achieving stable convergence and consistent topology. To mitigate the ill-posed nature of single-image 3D face reconstruction and ensure identity preservation, we employ a normal consistency objective jointly with landmark alignment. To further preserve local surface structure and enforce topological regularity, we introduce geometry-aware constraints based on Gaussian curvature and conformal consistency, along with auxiliary regularizations that correct fine artifacts such as lip seams and eyelid discontinuities. Our hierarchical optimization with geometry-aware regularization yields meshes with semantically meaningful edge flow and industry-grade topology. After geometry reconstruction, we extract UV-space texture and normal maps to preserve appearance details for visualization and downstream use. In a user study with 22 professional technical artists, our results were assessed as approaching industry-grade usability, and 95% of participants ranked our method as the top-performing approach, underscoring its effectiveness for real-world digital human production.",
+      "categories": [
+        "cs.CV",
+        "cs.GR"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.04524v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.04524v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.04524v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.04524v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-07",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2605.04506": {
+      "title": "Ilov3Splat: Instance-Level Open-Vocabulary 3D Scene Understanding in Gaussian Splatting",
+      "authors": [
+        "Binh Long Nguyen",
+        "Kien Nguyen",
+        "Sridha Sridharan",
+        "Clinton Fookes",
+        "Peyman Moghadam"
+      ],
+      "published": "2026-05-06T05:23:41+00:00",
+      "updated": "2026-05-06T05:23:41+00:00",
+      "summary": "We introduce Ilov3Splat, a novel framework for instance-level open-vocabulary 3D scene understanding built on 3D Gaussian Splatting (3D-GS). Most prior work depends on 2D rendering-based matching or point-level semantic association, which undermines cross-view consistency, lacks coherent instance-level reasoning, and limits precision in downstream 3D tasks. To address these limitations, our method jointly optimizes scene geometry and semantic representations by augmenting Gaussian splats with view-consistent feature fields. Specifically, we leverage multi-resolution hash embedding to efficiently encode language-aligned CLIP features, enabling dense and coherent language grounding in 3D space. We further train an instance feature field using contrastive loss over SAM masks, supporting fine-grained object distinction across views. At inference time, CLIP-encoded queries are matched against the learned features, followed by two-stage 3D clustering to retrieve relevant Gaussian groups. This enables our framework to identify arbitrary objects in 3D scenes based on natural language descriptions, without requiring category supervision or manual annotations. Experiments on standard benchmarks demonstrate that Ilov3Splat outperforms prior open-vocabulary 3D-GS methods in both object selection and instance segmentation, offering a flexible and accurate solution for language-driven 3D scene understanding. Project page: https://csiro-robotics.github.io/Ilov3Splat.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.04506v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "The International Conference on Pattern Recognition (ICPR) 2026",
+      "entry_id": "http://arxiv.org/abs/2605.04506v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.04506v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.04506v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-07",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
     "2605.03885": {
       "title": "Raising the Ceiling: Better Empirical Fixation Densities for Saliency Benchmarking",
       "authors": [
@@ -4290,6 +4543,51 @@
         "pub_type": null,
         "publisher": null,
         "note": "已查询但未找到venue信息"
+      }
+    },
+    "2605.04058": {
+      "title": "MP-ISMoE: Mixed-Precision Interactive Side Mixture-of-Experts for Efficient Transfer Learning",
+      "authors": [
+        "Yutong Zhang",
+        "Zimeng Wu",
+        "Shangcai Liao",
+        "Shujiang Wu",
+        "Jiaxin Chen"
+      ],
+      "published": "2026-04-10T08:00:28+00:00",
+      "updated": "2026-04-10T08:00:28+00:00",
+      "summary": "Parameter-efficient transfer learning (PETL) has emerged as a pivotal paradigm for adapting pre-trained foundation models to downstream tasks, significantly reducing trainable parameters yet suffering from substantial memory overhead caused by gradient backpropagation during fine-tuning. While memory-efficient transfer learning (METL) circumvents this challenge by bypassing backbone gradient computation via lightweight small side networks, its stringent memory constraint severely limits learning capacity of side networks, thereby significantly compromising performance. To address these limitations, we propose a novel Mixed-Precision Interactive Side Mixture-of-Experts framework (MP-ISMoE). Specifically, we first propose a Gaussian Noise Perturbed Iterative Quantization (GNP-IQ) scheme to quantize weights into lower-bits while effectively decreasing quantization errors. By leveraging memory conserved from GNP-IQ, we subsequently employ Interactive Side Mixture-of-Experts (ISMoE) to scaling up side networks without sacrificing overall memory efficiency. Different from conventional mixture-of-experts, ISMoE learns to select optimal experts by interacting with salient features from frozen backbones, thus suppressing knowledge forgetting and boosting performance. Extensive experiments across diverse vision-language and language-only tasks demonstrate that MP-ISMoE remarkably promotes accuracy compared to state-of-the-art METL approaches, while maintaining comparable parameter and memory efficiency.",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2605.04058v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "AAAI2026 Accepted",
+      "entry_id": "http://arxiv.org/abs/2605.04058v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.04058v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.04058v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-07",
+        "venue": "AAAI Conference on Artificial Intelligence",
+        "pub_type": "JournalArticle,Conference",
+        "publisher": null
       }
     },
     "2604.09045": {
@@ -110464,6 +110762,80 @@
     }
   },
   "Depth Estimation": {
+    "2605.05014": {
+      "title": "CARD: A Multi-Modal Automotive Dataset for Dense 3D Reconstruction in Challenging Road Topography",
+      "authors": [
+        "Gasser Elazab",
+        "Frank Neuhaus",
+        "Tilman Koß",
+        "Malte Splietker",
+        "Aditya Date",
+        "Michael Unterreiner",
+        "Maximilian Jansen",
+        "Olaf Hellwich"
+      ],
+      "published": "2026-05-06T15:13:18+00:00",
+      "updated": "2026-05-06T15:13:18+00:00",
+      "summary": "Autonomous driving must operate across diverse surfaces to enable safe mobility. However, most driving datasets are captured on well-paved flat roads. Moreover, recent driving datasets primarily provide sparse LiDAR ground truth for images, which is insufficient for assessing fine-grained geometry in depth estimation and completion. To address these gaps, we introduce CARD, a multi-modal driving dataset that delivers quasi-dense 3D ground truth across continuous sequences rich in speed bumps, potholes, irregular surfaces and off-road segments. Our sensor suite includes synchronized global-shutter stereo cameras, front and rear LiDARs, 6-DoF poses from LiDAR-inertial odometry, per-wheel motion traces, and full calibration. Notably, our multi-LiDAR fusion yields ~500K valid depth pixels per frame, about 6.5x more than KITTI Depth Completion and 10x more on average than other public driving datasets. The dataset spans ~110 km and 4.7 hours across Germany and Italy. In addition, CARD provides 2D bounding boxes targeting road-topography irregularities, enabling accurate benchmarking for both geometry and perception tasks. Furthermore, we establish a standardized evaluation protocol for road surface irregularities on CARD and benchmark state-of-the-art depth estimation models to provide strong baselines. The CARD dataset is hosted on https://huggingface.co/CARD-Data.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.05014v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted at CVPR 2026 (Highlight). Project page: https://card.content.cariad.digital",
+      "entry_id": "http://arxiv.org/abs/2605.05014v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.05014v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.05014v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2605.04566": {
+      "title": "Open-Source Image Editing Models Are Zero-Shot Vision Learners",
+      "authors": [
+        "Wei Liu",
+        "Jiaxin Lin",
+        "Rui Chen"
+      ],
+      "published": "2026-05-06T07:11:50+00:00",
+      "updated": "2026-05-06T07:11:50+00:00",
+      "summary": "Recent studies have shown that large generative models can solve vision tasks they were not explicitly trained for. However, existing evidence relies on closed-source models~(Veo~3, Nano Banana Pro) or requires task-specific instruction tuning, leaving open whether publicly available image-editing models possess zero-shot vision abilities out of the box.\n  We conduct a systematic evaluation of three open-source image-editing models -- Qwen-Image-Edit, FireRed-Image-Edit, and LongCat-Image-Edit -- on dense visual prediction tasks \\emph{without any fine-tuning}. We benchmark monocular depth estimation on NYUv2 and DIODE, surface normal estimation on NYUv2, and semantic segmentation on Cityscapes, covering both geometric and semantic scene understanding.\n  Results show that open-source image-editing models exhibit non-trivial zero-shot visual understanding. On NYUv2 surface normals, FireRed-Image-Edit achieves a mean angular error of $17.69^\\circ$, surpassing the fine-tuned Marigold ($20.86^\\circ$) and matching the instruction-tuned Vision Banana ($17.78^\\circ$) without any task-specific training. On NYUv2 depth estimation, LongCat-Image-Edit obtains $δ_1{=}0.822$ with affine alignment, and Qwen-Image-Edit leads on DIODE Indoor ($δ_1{=}0.868$). On Cityscapes semantic segmentation, Qwen-Image-Edit reaches 25.7 mIoU at the 19-class level and 49.5 mIoU at a coarser 7-category level. By comparing three independently trained editors, we test whether zero-shot vision ability is an emergent property of image-editing pretraining rather than a model-specific artifact. Code, evaluation scripts, and all results are publicly released to serve as a reproducible baseline for future work.",
+      "categories": [
+        "cs.CV",
+        "cs.CL"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.04566v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.04566v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.04566v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.04566v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2605.02667": {
       "title": "AnchorD: Metric Grounding of Monocular Depth Using Factor Graphs",
       "authors": [

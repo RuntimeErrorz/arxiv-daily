@@ -1,4 +1,4 @@
-## Updated at 2026-05-07 08:37:53
+## Updated at 2026-05-07 20:40:55
 
 ## 3DGS Semantic
 
@@ -8,6 +8,12 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-05-06**|**[Text Corpora as Concept Fields: Black-Box Hallucination and Novelty Measurement](https://arxiv.org/abs/2605.05103)**|N/A|25 pages, 8 figures|cs.CL|None|Nicholas S. Kersting et al.|
+|**2026-05-06**|**[Computer-Aided Design Generation by Cascaded Discrete Diffusion Model](https://arxiv.org/abs/2605.05031)**|N/A|None|cs.CV|None|Honghu Pan et al.|
+|**2026-05-06**|**[Graph-SND: Sparse Aggregation for Behavioral Diversity in Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2605.05020)**|N/A|22 pages, 12 figures, 7 tables|cs.LG|None|Shawn Ray|
+|**2026-05-06**|**[ULF-Loc: Unbiased Landmark Feature for Robust Visual Localization with 3D Gaussian Splatting](https://arxiv.org/abs/2605.04730)**|N/A|published to CVPR (highlight)|cs.CV|None|Yingdong Gu et al.|
+|**2026-05-06**|**[High-Fidelity Single-Image Head Modeling with Industry-Grade Topology](https://arxiv.org/abs/2605.04524)**|N/A|None|cs.CV|None|Yunmu Wang et al.|
+|**2026-05-06**|**[Ilov3Splat: Instance-Level Open-Vocabulary 3D Scene Understanding in Gaussian Splatting](https://arxiv.org/abs/2605.04506)**|N/A|The International Conference on Pattern Recognition (ICPR) 2026|cs.CV|None|Binh Long Nguyen et al.|
 |**2026-05-05**|**[Raising the Ceiling: Better Empirical Fixation Densities for Saliency Benchmarking](https://arxiv.org/abs/2605.03885)**|N/A|None|cs.CV|None|Susmit Agrawal et al.|
 |**2026-05-05**|**[Distribution-Free Pretraining of Classification Losses via Evolutionary Dynamics](https://arxiv.org/abs/2605.03722)**|N/A|6 pages|cs.LG|None|Meng Xiang, Yan Pei|
 |**2026-05-04**|**[Euclid preparation. Three-dimensional galaxy clustering in configuration space: Three-point correlation function estimation](https://arxiv.org/abs/2605.03012)**|N/A|20 pages, 9 Figures|astro-ph.CO|None|Euclid Collaboration et al.|
@@ -94,6 +100,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2026-04-11**|**[Organizational Security Resource Estimation via Vulnerability Queueing](https://arxiv.org/abs/2604.10250)**|N/A|None|cs.CR|None|Abdullah Y. Etcibasi et al.|
 |**2026-04-11**|**[Gaussian Graphical Models for Functional Connectivity Analysis: A Statistical Review with Applications to Alzheimer's Disease](https://arxiv.org/abs/2604.10249)**|N/A|None|stat.ME|None|Panpan Zhang et al.|
 |**2026-04-10**|**[Diagnosing Urban Street Vitality via a Visual-Semantic and Spatiotemporal Framework for Street-Level Economics](https://arxiv.org/abs/2604.19798)**|N/A|Submitted to ACM Transactions on Spatial Computing. This paper is currently under review|cs.CY|None|Xinxin Zhuo et al.|
+|**2026-04-10**|**[MP-ISMoE: Mixed-Precision Interactive Side Mixture-of-Experts for Efficient Transfer Learning](https://arxiv.org/abs/2605.04058)**|AAAI Conference on Artificial Intelligence|AAAI2026 Accepted|cs.LG|None|Yutong Zhang et al.|
 |**2026-04-10**|**[Scene-Agnostic Object-Centric Representation Learning for 3D Gaussian Splatting](https://arxiv.org/abs/2604.09045)**|N/A|None|cs.CV|None|Tsuheng Hsu et al.|
 |**2026-04-10**|**[Leave My Images Alone: Preventing Multi-Modal Large Language Models from Analyzing Images via Visual Prompt Injection](https://arxiv.org/abs/2604.09024)**|N/A|Appeared in ACL 2026 main conference|cs.CV|The 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026)|Zedian Shao et al.|
 |**2026-04-09**|**[OpenVLThinkerV2: A Generalist Multimodal Reasoning Model for Multi-domain Visual Tasks](https://arxiv.org/abs/2604.08539)**|N/A|code at: https://github.com/uclanlp/openvlthinker|cs.CV|None|Wenbo Hu et al.|
@@ -919,6 +926,8 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-05-06**|**[CARD: A Multi-Modal Automotive Dataset for Dense 3D Reconstruction in Challenging Road Topography](https://arxiv.org/abs/2605.05014)**|N/A|Accepted at CVPR 2026 (Highlight). Project page: https://card.content.cariad.digital|cs.CV|None|Gasser Elazab et al.|
+|**2026-05-06**|**[Open-Source Image Editing Models Are Zero-Shot Vision Learners](https://arxiv.org/abs/2605.04566)**|N/A|None|cs.CV|None|Wei Liu et al.|
 |**2026-05-04**|**[AnchorD: Metric Grounding of Monocular Depth Using Factor Graphs](https://arxiv.org/abs/2605.02667)**|N/A|8 pages, 9 Figures, 3 Tables|cs.RO|None|Simon Dorer et al.|
 |**2026-04-30**|**[REALM: An RGB and Event Aligned Latent Manifold for Cross-Modal Perception](https://arxiv.org/abs/2605.00271)**|N/A|None|cs.CV|None|Vincenzo Polizzi et al.|
 |**2026-04-30**|**[Beyond Gaussian Bottlenecks: Topologically Aligned Encoding of Vision-Transformer Feature Spaces](https://arxiv.org/abs/2604.28122)**|N/A|16 pages, 10 figures|cs.CV|None|Andrew Bond et al.|
