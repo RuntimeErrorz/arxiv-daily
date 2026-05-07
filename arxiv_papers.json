@@ -34,7 +34,15 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-07",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2605.03722": {
       "title": "Distribution-Free Pretraining of Classification Losses via Evolutionary Dynamics",
@@ -68,7 +76,15 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-07",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2605.03012": {
       "title": "Euclid preparation. Three-dimensional galaxy clustering in configuration space: Three-point correlation function estimation",
