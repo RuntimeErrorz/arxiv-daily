@@ -1,4 +1,4 @@
-## Updated at 2026-05-08 08:38:08
+## Updated at 2026-05-08 20:31:46
 
 ## 3DGS Semantic
 
@@ -8,6 +8,11 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-05-07**|**[Weight-Decay Turns Transformer Loss Landscapes Villani: Functional-Analytic Foundations for Optimization and Generalization](https://arxiv.org/abs/2605.06599)**|N/A|17 pages, 10 figures|cs.LG|None|Abhijit Das, Sayantan Dutta|
+|**2026-05-07**|**[Flow Matching with Arbitrary Auxiliary Paths](https://arxiv.org/abs/2605.06364)**|N/A|None|cs.LG|None|Xin Peng, Ang Gao|
+|**2026-05-07**|**[OpenGaFF: Open-Vocabulary Gaussian Feature Field with Codebook Attention](https://arxiv.org/abs/2605.06088)**|N/A|None|cs.CV|None|Kunyi Li et al.|
+|**2026-05-07**|**[On the Blessing of Pre-training in Weak-to-Strong Generalization](https://arxiv.org/abs/2605.05710)**|N/A|40 pages, 14 figures|cs.LG|None|Wei Yao et al.|
+|**2026-05-07**|**[Large Vision-Language Models Get Lost in Attention](https://arxiv.org/abs/2605.05668)**|N/A|25 pages, 10 figures. Accepted by ICML 2026|cs.AI|None|Gongli Xi et al.|
 |**2026-05-06**|**[Text Corpora as Concept Fields: Black-Box Hallucination and Novelty Measurement](https://arxiv.org/abs/2605.05103)**|N/A|25 pages, 8 figures|cs.CL|None|Nicholas S. Kersting et al.|
 |**2026-05-06**|**[Computer-Aided Design Generation by Cascaded Discrete Diffusion Model](https://arxiv.org/abs/2605.05031)**|N/A|None|cs.CV|None|Honghu Pan et al.|
 |**2026-05-06**|**[Graph-SND: Sparse Aggregation for Behavioral Diversity in Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2605.05020)**|N/A|22 pages, 12 figures, 7 tables|cs.LG|None|Shawn Ray|
@@ -67,6 +72,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2026-04-19**|**[E2E-GMNER: End-to-End Generative Grounded Multimodal Named Entity Recognition](https://arxiv.org/abs/2604.17319)**|N/A|Accepted to Findings of ACL 2026|cs.CV|None|Meng Zhang et al.|
 |**2026-04-19**|**[Frequency-guided Multi-level Reasoning for Scene Graph Generation in Video](https://arxiv.org/abs/2604.17298)**|N/A|5pages,3figures, 2tables, icassp 2026|cs.CV|None|Chenxing Li et al.|
 |**2026-04-18**|**[Instant Colorization of Gaussian Splats](https://arxiv.org/abs/2604.17155)**|N/A|None|cs.CV|None|Daniel Lieber et al.|
+|**2026-04-18**|**[Structural Instability of Feature Composition](https://arxiv.org/abs/2605.05223)**|N/A|None|cs.LG|None|Yunpeng Zhou|
 |**2026-04-18**|**[FairNVT: Improving Fairness via Noise Injection in Vision Transformers](https://arxiv.org/abs/2604.16780)**|N/A|ICLR 2026 Algorithmic Fairness Across Alignment Procedures and Agentic Systems (AFAA) Workshop|cs.CV|None|Qiaoyue Tang et al.|
 |**2026-04-17**|**[The Query Channel: Information-Theoretic Limits of Masking-Based Explanations](https://arxiv.org/abs/2604.16689)**|N/A|None|cs.AI|None|Erciyes Karakaya, Ozgur Ercetin|
 |**2026-04-17**|**[Observation of Strong-to-Weak Spontaneous Symmetry Breaking in a Dephased Fermi Gas](https://arxiv.org/abs/2604.16137)**|N/A|None|cond-mat.quant-gas|None|Si Wang et al.|
@@ -926,6 +932,7 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-05-07**|**[$\mathcal{B}^{3}$-Net: Controlled Posterior Bridge Learning for Multi-Task Dense Prediction](https://arxiv.org/abs/2605.05722)**|N/A|14 pages, 10 figures|cs.CV|None|Meihua Zhou, Li Yang|
 |**2026-05-06**|**[CARD: A Multi-Modal Automotive Dataset for Dense 3D Reconstruction in Challenging Road Topography](https://arxiv.org/abs/2605.05014)**|N/A|Accepted at CVPR 2026 (Highlight). Project page: https://card.content.cariad.digital|cs.CV|None|Gasser Elazab et al.|
 |**2026-05-06**|**[Open-Source Image Editing Models Are Zero-Shot Vision Learners](https://arxiv.org/abs/2605.04566)**|N/A|None|cs.CV|None|Wei Liu et al.|
 |**2026-05-04**|**[AnchorD: Metric Grounding of Monocular Depth Using Factor Graphs](https://arxiv.org/abs/2605.02667)**|N/A|8 pages, 9 Figures, 3 Tables|cs.RO|None|Simon Dorer et al.|

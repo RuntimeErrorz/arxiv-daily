@@ -1,5 +1,234 @@
 {
   "3DGS Semantic": {
+    "2605.06599": {
+      "title": "Weight-Decay Turns Transformer Loss Landscapes Villani: Functional-Analytic Foundations for Optimization and Generalization",
+      "authors": [
+        "Abhijit Das",
+        "Sayantan Dutta"
+      ],
+      "published": "2026-05-07T17:22:19+00:00",
+      "updated": "2026-05-07T17:22:19+00:00",
+      "summary": "Weight decay is widely used as a regularizer in large language models, yet its precise role in shaping Transformer loss landscapes remains theoretically underexplored. This paper provides the first rigorous functional-analytic characterization of the standard Transformer objective--cross-entropy loss with $L^2$ regularization--by proving it satisfies Villani's criteria for coercive energy functions. Specifically, we show that the regularized loss $\\mathcal{F}$ is infinitely differentiable, grows at least quadratically, has Gaussian-integrable tails, and satisfies the differential growth condition $-Δ\\mathcal{F} + \\tfrac{1}{s}\\|\\nabla\\mathcal{F}\\|^{2} \\to \\infty$ as $\\|θ\\| \\to \\infty$ for all $s>0$. From this structure, we derive explicit log-Sobolev and Poincaré constants $C_{\\mathrm{LS}} \\leq λ^{-1} + d/λ^{2}$, linking the regularization strength $λ$ and model dimension $d$ to finite-time convergence guarantees for noisy stochastic gradient descent and PAC-Bayesian generalization bounds that tighten with increasing $λ$. To validate our theory, we introduce a scalable Villani diagnostic $Ψ_s(θ) = -Δ\\mathcal{F} + s^{-1}\\|\\nabla \\mathcal{F}\\|^2$ and estimate it efficiently using Hutchinson trace probes in models with over 100M parameters. Experiments on GPT-Neo-125M across Penn Treebank and WikiText-103 confirm the predicted quadratic growth of $Ψ_s$, spectral inflation of the Hessian, and exponential convergence behavior consistent with our log-Sobolev analysis. These results demonstrate that weight decay not only improves generalization empirically but also establishes the mathematical conditions required for fast Langevin mixing and theoretically grounded curvature-aware optimization in deep learning.",
+      "categories": [
+        "cs.LG",
+        "eess.AS"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2605.06599v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "17 pages, 10 figures",
+      "entry_id": "http://arxiv.org/abs/2605.06599v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.06599v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.06599v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-08",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2605.06364": {
+      "title": "Flow Matching with Arbitrary Auxiliary Paths",
+      "authors": [
+        "Xin Peng",
+        "Ang Gao"
+      ],
+      "published": "2026-05-07T14:39:25+00:00",
+      "updated": "2026-05-07T14:39:25+00:00",
+      "summary": "We introduce a new generative modeling framework, \\textbf{Flow Matching with Arbitrary Auxiliary Paths (AuxPath-FM)}, which generalizes conditional flow matching by incorporating an auxiliary variable drawn from an arbitrary distribution into the probability path. Unlike prior methods that restrict auxiliary components to Gaussian noise, AuxPath-FM allows the variable $η$ to follow any distribution, producing trajectories of the form $X_t = a(t)X_1 + b(t)X_0 + c(t)η$. We theoretically demonstrate that this construction preserves the continuity equation and maintains a training objective consistent with the marginal formulation. This flexibility enables the design of diverse probability paths using various priors, including Gaussian, Uniform, Laplace, and discrete Rademacher distributions, each offering unique geometric properties for generative flows. Furthermore, our framework allows for specialized tasks such as label-guided generation by encoding structured semantic information into the auxiliary distribution. Overall, AuxPath-FM provides a principled and general foundation for probability path design, offering both theoretical generality and practical flexibility for diverse generative modeling tasks.",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2605.06364v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.06364v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.06364v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.06364v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-08",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2605.06088": {
+      "title": "OpenGaFF: Open-Vocabulary Gaussian Feature Field with Codebook Attention",
+      "authors": [
+        "Kunyi Li",
+        "Michael Niemeyer",
+        "Sen Wang",
+        "Stefano Gasperini",
+        "Nassir Navab",
+        "Federico Tombari"
+      ],
+      "published": "2026-05-07T12:10:07+00:00",
+      "updated": "2026-05-07T12:10:07+00:00",
+      "summary": "Understanding open-vocabulary 3D scenes with Gaussian-based representations remains challenging due to fragmented and spatially inconsistent semantic predictions across multi-view observations. In this paper, we present OpenGaFF, a novel framework for open-vocabulary 3D scene understanding built upon 3D Gaussian Splatting. At the core of our method is a Gaussian Feature Field that models semantics as a continuous function of Gaussian geometry and appearance. By explicitly conditioning semantic predictions on geometric structure, this formulation strengthens the coupling between geometry and semantics, leading to improved spatial coherence across similar structures in 3D space. To further enforce object-level semantic consistency, we introduce a structured codebook that serves as a set of shared semantic primitives. Furthermore, a codebook-guided attention mechanism is proposed to retrieve language features via similarity matching between query embeddings and learned codebook entries, enabling robust open-vocabulary reasoning while reducing intra-object feature variance. Extensive experiments on standard 2D and 3D open-vocabulary benchmarks demonstrate that our method consistently outperforms prior approaches, achieving improved segmentation quality, stronger 3D semantic consistency and a semantically interpretable codebook that provides insight into the learned representation.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.06088v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.06088v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.06088v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.06088v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-08",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2605.05710": {
+      "title": "On the Blessing of Pre-training in Weak-to-Strong Generalization",
+      "authors": [
+        "Wei Yao",
+        "Wang Zhaoyang",
+        "Gengze Xu",
+        "Chen Qian",
+        "Dongrui Liu",
+        "Ziqiao Wang",
+        "Yong Liu",
+        "Yunbei Xu"
+      ],
+      "published": "2026-05-07T05:55:10+00:00",
+      "updated": "2026-05-07T05:55:10+00:00",
+      "summary": "The paradigm of Weak-to-Strong Generalization (W2SG) suggests that a pre-trained strong model can surpass its weak supervisor, yet the decisive role of pre-training remains theoretically and empirically under-explored. In this work, we identify pre-training as the essential prerequisite for the emergence of W2SG. Theoretically, we formalize the W2SG problem within a high-dimensional single-index model framework using spiked Gaussian data, modeling pre-training as a spectral initialization step. Building upon prior impossibility results regarding the failure of learning under random initialization, we prove that W2SG is achievable when pre-training provides a geometric warm start that places the model within an \"effective region\" characterized by a perturbed strong-convexity geometry. Within this region, we derive a rigorous generalization bound that naturally captures the optimization dynamics: an initial performance improvement followed by a saturation bottleneck dictated by the weak supervisor's bias. Empirically, we first validate all our assumptions and theoretical insights through controlled synthetic simulations. Finally, through a massive-scale evaluation of hundreds of intermediate pre-training checkpoints from large language models, we demonstrate that W2SG is not an innate capability but emerges via a phase transition tightly coupled with the progression of pre-training.",
+      "categories": [
+        "cs.LG"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2605.05710v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "40 pages, 14 figures",
+      "entry_id": "http://arxiv.org/abs/2605.05710v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.05710v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.05710v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-08",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2605.05668": {
+      "title": "Large Vision-Language Models Get Lost in Attention",
+      "authors": [
+        "Gongli Xi",
+        "Ye Tian",
+        "Mengyu Yang",
+        "Huahui Yi",
+        "Liang Lin",
+        "Xiaoshuai Hao",
+        "Kun Wang",
+        "Wendong Wang"
+      ],
+      "published": "2026-05-07T04:45:52+00:00",
+      "updated": "2026-05-07T04:45:52+00:00",
+      "summary": "Despite the rapid evolution of training paradigms, the decoder backbone of large vision--language models (LVLMs) remains fundamentally rooted in the residual-connection Transformer architecture. Therefore, deciphering the distinct roles of internal modules is critical for understanding model mechanics and guiding architectural optimization. While prior statistical approaches have provided valuable attribution-based insights, they often lack a unified theoretical basis. To bridge this gap, we propose a unified framework grounded in information theory and geometry to quantify the geometric and entropic nature of residual updates. Applying this unified framework reveals a fundamental functional decoupling: Attention acts as a subspace-preserving operator focused on reconfiguration, whereas FFNs serve as subspace-expanding operators driving semantic innovation. Strikingly, further experiments demonstrate that replacing learned attention weights with predefined values (e.g., Gaussian noise) yields comparable or even superior performance across a majority of datasets relative to vanilla models. These results expose severe misallocation and redundancy in current mechanisms, suggesting that state-of-the-art LVLMs effectively ``get lost in attention'' rather than efficiently leveraging visual context.",
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "primary_category": "cs.AI",
+      "pdf_url": "https://arxiv.org/pdf/2605.05668v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "25 pages, 10 figures. Accepted by ICML 2026",
+      "entry_id": "http://arxiv.org/abs/2605.05668v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.05668v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.05668v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-08",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
     "2605.05103": {
       "title": "Text Corpora as Concept Fields: Black-Box Hallucination and Novelty Measurement",
       "authors": [
@@ -3015,6 +3244,48 @@
       "venue_info": {
         "venue_source": "Semantic Scholar",
         "queried_at": "2026-04-22",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2605.05223": {
+      "title": "Structural Instability of Feature Composition",
+      "authors": [
+        "Yunpeng Zhou"
+      ],
+      "published": "2026-04-18T05:53:31+00:00",
+      "updated": "2026-04-18T05:53:31+00:00",
+      "summary": "Sparse Autoencoders (SAEs) have emerged as a powerful paradigm for disentangling feature superposition in transformer-based architectures, enabling precise control via activation steering. However, the theoretical foundations of compositional steering -- the simultaneous activation of distinct semantic latents -- remain under-explored. The prevailing Linear Representation Hypothesis often abstracts away non-linear interference effects that arise in overcomplete dictionaries. We present a geometric framework for analyzing the instability of feature unions. Modeling the activation space as a high-dimensional sparse cone manifold, we derive an asymptotic compositional-collapse threshold under a spherical dictionary model, characterized by the Gaussian mean width (statistical dimension) of the signal cone. We further show that, in the high-bias regime, ReLU rectification converts microscopic correlation-induced variance fluctuations into a systematic drift that accumulates under composition, yielding interference growth consistent with a ratchet effect. We validate the predicted scaling trends on structured semantic features extracted from CLEVR, where hierarchical correlations accelerate the transition relative to random baselines. Together, our results highlight geometric constraints on the scalability of union-based steering and motivate composition mechanisms that explicitly manage interference beyond naive linear superposition.",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2605.05223v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.05223v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.05223v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.05223v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-08",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -110786,6 +111057,39 @@
     }
   },
   "Depth Estimation": {
+    "2605.05722": {
+      "title": "$\\mathcal{B}^{3}$-Net: Controlled Posterior Bridge Learning for Multi-Task Dense Prediction",
+      "authors": [
+        "Meihua Zhou",
+        "Li Yang"
+      ],
+      "published": "2026-05-07T06:11:12+00:00",
+      "updated": "2026-05-07T06:11:12+00:00",
+      "summary": "Multi-task dense prediction solves complementary pixel-level tasks in a unified model, such as semantic segmentation, depth estimation, surface normal estimation, and edge detection. Existing decoder-side interactions use attention, prompts, routing, diffusion, Mamba, or bridge features to exchange task evidence, but most of them organize this evidence implicitly. They usually fuse task features by similarity or affinity, without explicitly modeling that evidence reliability varies across tasks and spatial locations. As a result, unreliable evidence may contaminate the shared representation and intensify negative transfer. We propose $\\mathcal{B}^{3}$-Net, a controlled posterior bridge learning framework for multi-task dense prediction. Our method decomposes decoder-side interaction into reliability estimation, posterior bridge construction, and bounded redistribution. The Precision Field Estimator estimates patch-wise evidence precision from task-reference alignment and local variation. The Posterior Bridge Operator builds a precision-weighted posterior bridge through heteroscedastic evidence fusion, yielding a shared state more reliable than uniform or heuristic mixtures. The Contractive Dispatch Operator redistributes the bridge to each task branch through a bounded update, reducing uncontrolled feature injection. Experiments on NYUD-v2, PASCAL-Context, and Cityscapes show that $\\mathcal{B}^{3}$-Net achieves competitive or superior trade-offs over representative CNN-, Transformer-, diffusion-, Mamba-, and bridge-feature-based methods. Backbone-matched comparisons and extensive analyses further verify that the gains arise from controlled posterior bridge learning rather than backbone capacity or decoder scale.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.05722v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "14 pages, 10 figures",
+      "entry_id": "http://arxiv.org/abs/2605.05722v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.05722v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.05722v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2605.05014": {
       "title": "CARD: A Multi-Modal Automotive Dataset for Dense 3D Reconstruction in Challenging Road Topography",
       "authors": [
@@ -110799,26 +111103,26 @@
         "Olaf Hellwich"
       ],
       "published": "2026-05-06T15:13:18+00:00",
-      "updated": "2026-05-06T15:13:18+00:00",
+      "updated": "2026-05-07T10:59:26+00:00",
       "summary": "Autonomous driving must operate across diverse surfaces to enable safe mobility. However, most driving datasets are captured on well-paved flat roads. Moreover, recent driving datasets primarily provide sparse LiDAR ground truth for images, which is insufficient for assessing fine-grained geometry in depth estimation and completion. To address these gaps, we introduce CARD, a multi-modal driving dataset that delivers quasi-dense 3D ground truth across continuous sequences rich in speed bumps, potholes, irregular surfaces and off-road segments. Our sensor suite includes synchronized global-shutter stereo cameras, front and rear LiDARs, 6-DoF poses from LiDAR-inertial odometry, per-wheel motion traces, and full calibration. Notably, our multi-LiDAR fusion yields ~500K valid depth pixels per frame, about 6.5x more than KITTI Depth Completion and 10x more on average than other public driving datasets. The dataset spans ~110 km and 4.7 hours across Germany and Italy. In addition, CARD provides 2D bounding boxes targeting road-topography irregularities, enabling accurate benchmarking for both geometry and perception tasks. Furthermore, we establish a standardized evaluation protocol for road surface irregularities on CARD and benchmark state-of-the-art depth estimation models to provide strong baselines. The CARD dataset is hosted on https://huggingface.co/CARD-Data.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2605.05014v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.05014v2",
       "journal_ref": null,
       "doi": null,
       "comment": "Accepted at CVPR 2026 (Highlight). Project page: https://card.content.cariad.digital",
-      "entry_id": "http://arxiv.org/abs/2605.05014v1",
+      "entry_id": "http://arxiv.org/abs/2605.05014v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2605.05014v1",
+          "href": "https://arxiv.org/abs/2605.05014v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2605.05014v1",
+          "href": "https://arxiv.org/pdf/2605.05014v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
