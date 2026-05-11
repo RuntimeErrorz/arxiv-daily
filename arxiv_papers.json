@@ -1,5 +1,345 @@
 {
   "3DGS Semantic": {
+    "2605.07955": {
+      "title": "TimeLesSeg: Unified Contrast-Agnostic Cross-Sectional and Longitudinal MS Lesion Segmentation via a Stochastic Generative Model",
+      "authors": [
+        "Vicent Caselles-Ballester",
+        "Eloy Martínez-Heras",
+        "Giuseppe Pontillo",
+        "Zoe Mendelsohn",
+        "Elena M. Marrón",
+        "Juan Luis García Fernández",
+        "Laia Subirats",
+        "Jon Stutters",
+        "Jeremy Chataway",
+        "Frederik Barkhof",
+        "Sara Llufriu",
+        "Ferran Prados"
+      ],
+      "published": "2026-05-08T16:19:34+00:00",
+      "updated": "2026-05-08T16:19:34+00:00",
+      "summary": "Multiple sclerosis (MS) expresses substantial clinical and radiological heterogeneity, which poses significant challenges for automatic lesion segmentation. The current deep learning-based SOTA is highly susceptible to changes in both distribution, e.g., changes in scanner; as well as the structure of inputs, evident in the current divide between cross-sectional and longitudinal approaches. We introduce TimeLesSeg, a unified contrast-agnostic framework designed to segment MS lesions regardless of the presence of a temporal dimension in its inputs, with a single convolutional neural network. Our approach models pathological priors through lesion masks, which are processed together with the current scan. Cross-sectional processing is enabled by exposing the model to training cases where no prior information is available, which are modeled with an empty mask, allowing it to operate seamlessly in both scenarios. To overcome the scarcity and inconsistency of longitudinal datasets, we propose a novel generative pipeline in which patterns of lesion evolution are simulated by stochastically deforming each individual lesion with morphological operations, producing realistic prior timepoints. In parallel, we achieve contrast agnosticism through Gaussian mixture model-based domain randomization, enabling the network to experience a wide spectrum of intensity profiles. Results on three publicly available and two in-house datasets show that TimeLesSeg outperforms the contrast-agnostic state of the art on single-modality inputs across overlap- and distance-based metrics. In longitudinal processing, our method outperforms SAMSEG, and captures lesion load dynamics more accurately than both the former and LST-AI. All source code related to the development of TimeLesSeg is available at https://github.com/NeuroADaS-Lab/TimeLesSeg.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.07955v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.07955v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.07955v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.07955v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.07863": {
+      "title": "ADKO: Agentic Decentralized Knowledge Optimization",
+      "authors": [
+        "Lucas Nerone Rillo",
+        "Zhanhong Jiang",
+        "Nastaran Saadati",
+        "Aditya Balu",
+        "Baskar Ganapathysubramanian",
+        "Chinmay Hegde",
+        "Soumik Sarkar"
+      ],
+      "published": "2026-05-08T15:23:53+00:00",
+      "updated": "2026-05-08T15:23:53+00:00",
+      "summary": "We present Agentic Decentralized Knowledge Optimization (ADKO), a framework for collaborative black-box optimization across autonomous agents that achieves sample efficiency, privacy preservation, heterogeneous-objective handling, and communication efficiency. Each agent maintains a private Gaussian Process (GP) surrogate trained on local data and communicates only through knowledge tokens-compact, lossy summaries containing directional signals, advantage scores, and optional language-model (LM) insights-without sharing raw data or model parameters. ADKO unifies GP-Upper Confidence Bound (GP-UCB), parallel Bayesian optimization, decentralized learning, and LM-guided discovery. We provide the first formal analysis of dual information loss: token compression, quantified via mutual-information-based fidelity, and LM approximation error, decomposed into bias and stochastic noise. Our main result shows cumulative regret decomposes into GP error, LM bias, LM noise, and compression loss, with necessary and sufficient conditions for sublinear regret. We also propose fidelity-aware token pruning to preserve high-information tokens under memory budget. Experiments on neural architecture search and scientific discovery validate the theory and show consistent improvements over strong baselines.",
+      "categories": [
+        "cs.LG"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2605.07863v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "31 pages",
+      "entry_id": "http://arxiv.org/abs/2605.07863v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.07863v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.07863v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.07820": {
+      "title": "Scaling Categorical Flow Maps",
+      "authors": [
+        "Oscar Davis",
+        "Anastasiia Filippova",
+        "Pierre Ablin",
+        "Victor Turrisi",
+        "Amitis Shidani",
+        "Marco Cuturi",
+        "Louis Béthune"
+      ],
+      "published": "2026-05-08T14:50:57+00:00",
+      "updated": "2026-05-08T14:50:57+00:00",
+      "summary": "Continuous diffusion and flow matching models could represent a powerful alternative to autoregressive approaches for language modelling (LM), as they unlock a host of advantages currently reserved for continuous modalities, including accelerated sampling and tilting. Recently, several works have demonstrated the possibility of generating discrete data continuously by a simple flow matching process between a Gaussian and the one-hot encoded data distribution. They have further shown the feasibility of accelerated sampling via Categorical Flow Maps (CFMs), resulting in competitive sample quality in the few-step regime. However, this method had only been evaluated at relatively modest scales ($<1$B), leaving the question of its scalability completely open. In this article, we train a $1.7$B-parameter base flow model on $2.1$T tokens and self-distill it into a CFM that generates diverse, high-quality text in as few as $4$ inference steps while maintaining near-data-level token entropy. Furthermore, we introduce a likelihood bound for CFMs in the semi-discrete setting, and show that they can be used to score the model on standard LM benchmarks, achieving results in the same range as discrete diffusion methods. Finally, we uncover some of the challenges that arise from training these models at scale, and we provide prescriptive insights on loss weighting and time scheduling.",
+      "categories": [
+        "cs.LG"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2605.07820v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.07820v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.07820v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.07820v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.07390": {
+      "title": "ST-Gen4D: Embedding 4D Spatiotemporal Cognition into World Model for 4D Generation",
+      "authors": [
+        "Haonan Wang",
+        "Hanyu Zhou",
+        "Tao Gu",
+        "Luxin Yan"
+      ],
+      "published": "2026-05-08T07:44:56+00:00",
+      "updated": "2026-05-08T07:44:56+00:00",
+      "summary": "Generative models have achieved success in producing apparently coherent 2D videos, but remain challenging in the physical world due to lack of 4D spatiotemporal scale. Typically, existing 4D generative models directly embed macro scale constraints to enhance overall spatiotemporal consistency. However, these methods only ensure global appearance coherence and fail to reveal the local dynamics of the physical world. Our insight is that global appearance structure and local dynamic topology empower 4D spatiotemporal cognition, thereby enabling 4D generation with spatiotemporal regularities. In this work, we propose ST-Gen4D, a 4D generation framework with 4D spatiotemporal cognition-based world model. Our model is guided by four key designs: 1) Spatiotemporal representation. We encode various modalities into multiple representations as a feature basis. 2) Spatiotemporal cognition. We sculpture these representations into global appearance graph and local dynamic graph, and fuse them via semantic-bridged spatiotemporal fusion to obtain a 4D cognition graph. 3) Spatiotemporal reasoning. We utilize a world model to derive future state based on the 4D cognition. 4) Spatiotemporal generation. We leverage the derived cognition as condition to guide latent diffusion for 4D Gaussian generation. By deeply integrating 4D intrinsic cognition with generative priors, our model guarantees the structural rationality and topological consistency of 4D generation. Moreover, we propose ST-4D datasets by aggregating public 4D datasets and self-built subset. Extensive experiments demonstrate the superiority of our ST-Gen4D across 3D and 4D generation tasks.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.07390v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.07390v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.07390v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.07390v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.07351": {
+      "title": "Disambiguating 2D-3D Correspondences in Gaussian Splatting-based Feature Fields for Visual Localization",
+      "authors": [
+        "Miso Lee",
+        "Sangeek Hyun",
+        "Yerim Jeon",
+        "Jae-Pil Heo"
+      ],
+      "published": "2026-05-08T07:01:30+00:00",
+      "updated": "2026-05-08T07:01:30+00:00",
+      "summary": "While Gaussian Splatting-based Feature Fields (GSFFs) have shown promise for visual localization, this paper highlights that photometrically optimized GSFFs are inherently ill-suited for 2D-3D matching. The volumetric extent of each Gaussian induces many-to-one pixel-to-point mappings that destabilize PnP-based pose estimation, while photometric optimization gives rise to superfluous Gaussians devoid of multi-view consistency. To address these issues, we propose SplitGS-Loc, a localization-specialized GSFFs construction framework that disambiguates 2D-3D correspondences by exploiting Gaussian attributes. Our key design, Mixture-of-Gaussians-based splitting, decomposes each Gaussian into smaller Gaussians, replacing ambiguous many-to-one with precise one-to-one correspondences. In parallel, we exploit composition weights from GS rasterization to select Gaussians that significantly and consistently contribute across multiple views and aggregate discriminative features through strong pixel-Gaussian associations, enforcing multi-view consistency. The resulting compact yet discriminative feature fields enable stable PnP convergence, achieving state-of-the-art performance on localization benchmarks. Extensive experiments validate that SplitGS-Loc extends the utility of photometric GSFFs to accurate and efficient localization by exploiting Gaussian attributes, without per-scene training or iterative pose refinement.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.07351v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.07351v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.07351v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.07351v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.07221": {
+      "title": "DINO-MVR: Multi-View Readout of Frozen DINOv3 for Annotation-Efficient Medical Segmentation",
+      "authors": [
+        "Wei Jiang",
+        "Feng Liu",
+        "Nan Ye",
+        "Hongfu Sun"
+      ],
+      "published": "2026-05-08T04:13:01+00:00",
+      "updated": "2026-05-08T04:13:01+00:00",
+      "summary": "Adapting foundation models to medical segmentation typically requires either backbone fine-tuning or high-capacity task-specific decoders, both of which are difficult to fit reliably when annotations are scarce. We show that frozen DINOv3 features already contain useful structural and boundary cues for medical segmentation, and that the main bottleneck lies in how these features are read out. We propose DINO-MVR, a Multi-View Readout framework for annotation-efficient medical segmentation. DINO-MVR trains only lightweight MLP probes on features from the final three transformer blocks of a frozen DINOv3 backbone, without updating the backbone itself. At inference, each input is interpreted through complementary resolutions and test-time augmentations, whose probability maps are combined by entropy-weighted fusion and refined with simple spatial regularization. For volumetric inputs, Gaussian z-axis smoothing further improves inter-slice consistency. Under fixed evaluation protocols on endoscopy, dermoscopy, and MRI benchmarks, DINO-MVR achieves strong readout-only performance, including 0.895 Dice on Kvasir-SEG, 0.897 Dice on ISIC 2018, and 0.908 Dice on BraTS FLAIR whole-tumor segmentation. With only five annotated BraTS patients, it recovers 98.4% of the performance obtained by the 40-patient BraTS reference run. These results suggest that frozen self-supervised vision backbones can support accurate medical segmentation when paired with an effective multi-view readout.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.07221v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.07221v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.07221v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.07221v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.07193": {
+      "title": "Coupling Models for One-Step Discrete Generation",
+      "authors": [
+        "Fred Zhangzhi Peng",
+        "Avishek Joey Bose",
+        "Anru R. Zhang",
+        "Alexander Tong"
+      ],
+      "published": "2026-05-08T03:40:39+00:00",
+      "updated": "2026-05-08T03:40:39+00:00",
+      "summary": "Generative modeling over discrete structures underpins applications across deep learning, from biological sequence design and code generation to large language models, yet generation often remains sequential, relying on autoregressive decoding or iterative refinement. In this work, we introduce Coupling Models(Coupling Models), a one-step discrete generative model that learns a direct coupling between discrete sequences and Gaussian latents. Unlike recent distillation methods that compress a pretrained multi-step sampler into a few steps, Coupling Model trains a purpose-built decoder to invert this coupling and generate samples in a single step. The model also avoids complex continuous flows over the simplex and hand-specified data-to-noise couplings. Empirically,Coupling Model improves the strongest one-step baselines in each domain: it reduces LM1B text-generation perplexity by 33% at its lowest-perplexity operating point, Fly Brain enhancer-design FBD by 18%, and MNIST-Binary FID by 46%. These results suggest that effective one-step discrete generation depends strongly on how data and noise are coupled before decoding. Code is available at https://github.com/pengzhangzhi/Coupling-Models.",
+      "categories": [
+        "cs.LG"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2605.07193v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Code is available at https://github.com/pengzhangzhi/Coupling-Models",
+      "entry_id": "http://arxiv.org/abs/2605.07193v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.07193v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.07193v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.07148": {
+      "title": "Uncovering and Shaping the Latent Representation of 3D Scene Topology in Vision-Language Models",
+      "authors": [
+        "Haoming Wang",
+        "Wei Gao"
+      ],
+      "published": "2026-05-08T02:32:27+00:00",
+      "updated": "2026-05-08T02:32:27+00:00",
+      "summary": "Decades of cognitive science establish that humans navigate environments by forming cognitive maps, defined as allocentric and topology-preserving representations of 3D space. While modern Vision-Language Models (VLMs) demonstrate emergent spatial reasoning from 2D egocentric inputs, it remains unclear whether they construct an analogous 3D internal representation. In this paper, we demonstrate that current VLMs do possess a latent topological map of 3D scenes, but it is heavily overshadowed by non-geometric visual semantics, such as color and shape. By isolating this spatial subspace through cross-scene linear feature extraction, we extract a clean spatial subspace that causally controls the model's spatial outputs. We mathematically shape this latent representation and prove its correspondence to the Laplacian eigenmaps of the scene's 3D Gaussian-kernel graph, converging to the physical 3D space in the continuous limit. Motivated by this geometric identification, we further introduce a mathematically principled latent regularization method for VLMs, based on Dirichlet energy. Applying this single-term regularizer to a minimal 500-step supervised VLM fine-tuning (SFT) on simple synthetic data yields significant improvements on real-world spatial benchmarks, outperforming standard SFT and competitive baselines by up to 12.1\\% in spatial tasks involving scene topology understanding. Source code is available at https://github.com/pittisl/vlm-latent-shaping",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.07148v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.07148v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.07148v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.07148v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.06831": {
+      "title": "Why DDIM Hallucinates More than DDPM: A Theoretical Analysis of Reverse Dynamics",
+      "authors": [
+        "Muhammad H. Ashiq",
+        "Samanyu Arora",
+        "Abhinav N. Harish",
+        "Ishaan Kharbanda",
+        "Hung Yun Tseng",
+        "Grigorios G. Chrysos"
+      ],
+      "published": "2026-05-07T18:34:12+00:00",
+      "updated": "2026-05-07T18:34:12+00:00",
+      "summary": "We theoretically study the hallucination phenomena in two canonical diffusion samplers: the stochastic Denoising Diffusion Probabilistic Model (DDPM) and the deterministic Denoising Diffusion Implicit Model (DDIM). We analyze the reverse ODE (DDIM) and SDE (DDPM) for a Gaussian mixture target, proving that after a critical time $τ$, (a) DDIM can become stuck on the segment connecting the two nearest modes and (b) DDPM *stochasticity* helps it become unstuck from this region, thus avoiding hallucination. Our empirical validation verifies that DDPM has a significantly lower hallucination rate than DDIM when this region is entered. Building on our observations, we exhibit how using additional stochastic steps can help DDIM avoid hallucinations and offer new insights on how to design improved samplers.",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2605.06831v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.06831v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.06831v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.06831v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
     "2605.06599": {
       "title": "Weight-Decay Turns Transformer Loss Landscapes Villani: Functional-Analytic Foundations for Optimization and Generalization",
       "authors": [
@@ -111057,6 +111397,78 @@
     }
   },
   "Depth Estimation": {
+    "2605.07429": {
+      "title": "Towards Photorealistic and Efficient Bokeh Rendering via Diffusion Framework",
+      "authors": [
+        "Linxiao Shi",
+        "Siming Zheng",
+        "Zerong Wang",
+        "Hao Zhang",
+        "Jinwei Chen",
+        "Bo Li",
+        "Shifeng Chen",
+        "Peng-Tao Jiang"
+      ],
+      "published": "2026-05-08T08:31:10+00:00",
+      "updated": "2026-05-08T08:31:10+00:00",
+      "summary": "Existing mobile devices are constrained by compact optical designs, such as small apertures, which make it difficult to produce natural, optically realistic bokeh effects. Although recent learning-based methods have shown promising results, they still struggle with photos captured under high digital zoom levels, which often suffer from reduced resolution and loss of fine details. A naive solution is to enhance image quality before applying bokeh rendering, yet this two-stage pipeline reduces efficiency and introduces unnecessary error accumulation. To overcome these limitations, we propose MagicBokeh, a unified diffusion-based framework designed for high-quality and efficient bokeh rendering. Through an alternative training strategy and a focus-aware masked attention mechanism, our method jointly optimizes bokeh rendering and super-resolution, substantially improving both controllability and visual fidelity. Furthermore, we introduce degradation-aware depth module to enable more accurate depth estimation from low-quality inputs. Experimental results demonstrate that MagicBokeh efficiently produces photorealistic bokeh effects, particularly on real-world low-resolution images, paving the way for future advancements in bokeh rendering. Our code and models are available at https://github.com/vivoCameraResearch/MagicBokeh.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.07429v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.07429v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.07429v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.07429v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2605.07418": {
+      "title": "Learning Image-Adaptive Scale Fields for Metric Depth Recovery",
+      "authors": [
+        "Yuanyan Li",
+        "Matthias Althoff"
+      ],
+      "published": "2026-05-08T08:13:02+00:00",
+      "updated": "2026-05-08T08:13:02+00:00",
+      "summary": "Monocular depth estimation (MDE) typically produces depth estimations that are defined up to an unknown scale or shift. When only sparse metric anchors are available, recovering accurate metric depth becomes challenging yet necessary for practical applications. We address this problem by formulating metric depth recovery as image-adaptive scale field modeling. Instead of directly correcting the depth, we reformulate the correction as a low-dimensional linear combination of image-adaptive basis maps. These maps are derived from semantic and geometric cues encoded in the MDE estimations and intermediate representations. The weights of basis maps are efficiently determined from sparse metric anchors via a least-squares problem. This formulation yields improved metric depth accuracy, strong robustness under extreme anchor sparsity, and an interpretable decomposition of spatial scale variations. Extensive experiments across multiple datasets and representative MDE models demonstrate the effectiveness and general applicability of our approach.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.07418v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.07418v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.07418v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.07418v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2605.05722": {
       "title": "$\\mathcal{B}^{3}$-Net: Controlled Posterior Bridge Learning for Multi-Task Dense Prediction",
       "authors": [

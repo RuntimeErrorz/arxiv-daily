@@ -1,4 +1,4 @@
-## Updated at 2026-05-11 08:40:24
+## Updated at 2026-05-11 21:02:12
 
 ## 3DGS Semantic
 
@@ -8,6 +8,15 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-05-08**|**[TimeLesSeg: Unified Contrast-Agnostic Cross-Sectional and Longitudinal MS Lesion Segmentation via a Stochastic Generative Model](https://arxiv.org/abs/2605.07955)**|N/A|None|cs.CV|None|Vicent Caselles-Ballester et al.|
+|**2026-05-08**|**[ADKO: Agentic Decentralized Knowledge Optimization](https://arxiv.org/abs/2605.07863)**|N/A|31 pages|cs.LG|None|Lucas Nerone Rillo et al.|
+|**2026-05-08**|**[Scaling Categorical Flow Maps](https://arxiv.org/abs/2605.07820)**|N/A|None|cs.LG|None|Oscar Davis et al.|
+|**2026-05-08**|**[ST-Gen4D: Embedding 4D Spatiotemporal Cognition into World Model for 4D Generation](https://arxiv.org/abs/2605.07390)**|N/A|None|cs.CV|None|Haonan Wang et al.|
+|**2026-05-08**|**[Disambiguating 2D-3D Correspondences in Gaussian Splatting-based Feature Fields for Visual Localization](https://arxiv.org/abs/2605.07351)**|N/A|None|cs.CV|None|Miso Lee et al.|
+|**2026-05-08**|**[DINO-MVR: Multi-View Readout of Frozen DINOv3 for Annotation-Efficient Medical Segmentation](https://arxiv.org/abs/2605.07221)**|N/A|None|cs.CV|None|Wei Jiang et al.|
+|**2026-05-08**|**[Coupling Models for One-Step Discrete Generation](https://arxiv.org/abs/2605.07193)**|N/A|Code is available at https://github.com/pengzhangzhi/Coupling-Models|cs.LG|None|Fred Zhangzhi Peng et al.|
+|**2026-05-08**|**[Uncovering and Shaping the Latent Representation of 3D Scene Topology in Vision-Language Models](https://arxiv.org/abs/2605.07148)**|N/A|None|cs.CV|None|Haoming Wang, Wei Gao|
+|**2026-05-07**|**[Why DDIM Hallucinates More than DDPM: A Theoretical Analysis of Reverse Dynamics](https://arxiv.org/abs/2605.06831)**|N/A|None|cs.LG|None|Muhammad H. Ashiq et al.|
 |**2026-05-07**|**[Weight-Decay Turns Transformer Loss Landscapes Villani: Functional-Analytic Foundations for Optimization and Generalization](https://arxiv.org/abs/2605.06599)**|N/A|17 pages, 10 figures|cs.LG|None|Abhijit Das, Sayantan Dutta|
 |**2026-05-07**|**[Flow Matching with Arbitrary Auxiliary Paths](https://arxiv.org/abs/2605.06364)**|N/A|None|cs.LG|None|Xin Peng, Ang Gao|
 |**2026-05-07**|**[OpenGaFF: Open-Vocabulary Gaussian Feature Field with Codebook Attention](https://arxiv.org/abs/2605.06088)**|N/A|None|cs.CV|None|Kunyi Li et al.|
@@ -932,6 +941,8 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-05-08**|**[Towards Photorealistic and Efficient Bokeh Rendering via Diffusion Framework](https://arxiv.org/abs/2605.07429)**|N/A|None|cs.CV|None|Linxiao Shi et al.|
+|**2026-05-08**|**[Learning Image-Adaptive Scale Fields for Metric Depth Recovery](https://arxiv.org/abs/2605.07418)**|N/A|None|cs.CV|None|Yuanyan Li, Matthias Althoff|
 |**2026-05-07**|**[$\mathcal{B}^{3}$-Net: Controlled Posterior Bridge Learning for Multi-Task Dense Prediction](https://arxiv.org/abs/2605.05722)**|N/A|14 pages, 10 figures|cs.CV|None|Meihua Zhou, Li Yang|
 |**2026-05-06**|**[CARD: A Multi-Modal Automotive Dataset for Dense 3D Reconstruction in Challenging Road Topography](https://arxiv.org/abs/2605.05014)**|N/A|Accepted at CVPR 2026 (Highlight). Project page: https://card.content.cariad.digital|cs.CV|None|Gasser Elazab et al.|
 |**2026-05-06**|**[Open-Source Image Editing Models Are Zero-Shot Vision Learners](https://arxiv.org/abs/2605.04566)**|N/A|None|cs.CV|None|Wei Liu et al.|
