@@ -1,5 +1,465 @@
 {
   "3DGS Semantic": {
+    "2605.10901": {
+      "title": "Beyond Red-Teaming: Formal Guarantees of LLM Guardrail Classifiers",
+      "authors": [
+        "Nikita Kezins",
+        "Urbas Ekka",
+        "Pascal Berrang",
+        "Luca Arnaboldi"
+      ],
+      "published": "2026-05-11T17:41:38+00:00",
+      "updated": "2026-05-11T17:41:38+00:00",
+      "summary": "Guardrail Classifiers defend production language models against harmful behavior, but although results seem promising in testing, they provide no formal guarantees. Providing formal guarantees for such models is hard because \"harmful behavior\" has no natural specification in a discrete input space: and the standard epsilon-ball properties used in other domains do not carry semantic meaning. We close this gap by shifting verification from the discrete input space to the classifier's pre-activation space, where we define a harmful region as a convex shape enclosing the representations of known harmful prompts. Because the sigmoid classification head is monotonic, certifying the worst-case point is sufficient to certify the entire region, yielding a closed-form soundness proof without approximation in O(d) time. To formally evaluate these classifiers, we propose two constructions of such regions: SVD-aligned hyper-rectangles, which yield exact SAT/UNSAT certificates, and Gaussian Mixture Models, which yield probabilistic certificates over semantically coherent clusters. Applying this framework to three author-trained Guardrail Classifiers on the toxicity domain, every hyper-rectangle configuration returns SAT, exposing verifiable safety holes across all classifiers, despite seemingly high empirical metrics. Probabilistic GMM certificates also expose a divergent structural stability in how these models represent harm. While GPT-2 and Llama-3.1-8B maintain robust coverage of 90% and 80% across varying boundaries, BERT's safety guarantees prove uniquely volatile. This 'coverage collapse' to 55% at the optimal threshold reveals a sparsely populated safety margin in BERT, which only achieves full coverage by adopting an extremely conservative pessimistic threshold. These approaches combined, provide new insights on how effective Guardrail Classifiers really are, beyond traditional red-teaming.",
+      "categories": [
+        "cs.LG"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2605.10901v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.10901v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.10901v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.10901v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.10818": {
+      "title": "On periodic distributed representations using Fourier embeddings",
+      "authors": [
+        "Jakeb Chouinard"
+      ],
+      "published": "2026-05-11T16:35:32+00:00",
+      "updated": "2026-05-11T16:35:32+00:00",
+      "summary": "Periodic signals are critical for representing physical and perceptual phenomena. Scalar, real angular measures, e.g., radians and degrees, result in difficulty processing and distinguishing nearby angles, especially when their absolute difference exceeds pi. We can avoid this problem by using real-valued, periodic embeddings in high-dimensional space. These representations also allow us to control the nature of their dot product similarities, allowing us to construct a variety of different kernel shapes. In this work, we aim of highlight how these representations can be constructed and focus on the formalization of Dirichlet and periodic Gaussian kernels using the neurally-plausible representation scheme of Spatial Semantic Pointers.",
+      "categories": [
+        "cs.LG",
+        "q-bio.NC"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2605.10818v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.10818v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.10818v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.10818v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.10485": {
+      "title": "VEGA: Visual Encoder Grounding Alignment for Spatially-Aware Vision-Language-Action Models",
+      "authors": [
+        "Hao Wang",
+        "Xiaobao Wei",
+        "Jingyang He",
+        "Chengyu Bai",
+        "Chun-Kai Fan",
+        "Jiajun Cao",
+        "Jintao Chen",
+        "Ying Li",
+        "Shanyu Rong",
+        "Ming Lu",
+        "Xiaozhu Ju",
+        "Jian Tang",
+        "Shanghang Zhang"
+      ],
+      "published": "2026-05-11T12:44:26+00:00",
+      "updated": "2026-05-11T12:44:26+00:00",
+      "summary": "Precise spatial reasoning is fundamental to robotic manipulation, yet the visual backbones of current vision-language-action (VLA) models are predominantly pretrained on 2D image data without explicit 3D geometric supervision, resulting in representations that lack accurate spatial awareness. Existing implicit spatial grounding methods partially address this by aligning VLA features with those of 3D-aware foundation models, but they rely on empirical layer search and perform alignment on LLM-level visual tokens where spatial structure has already been entangled with linguistic semantics, limiting both generalizability and geometric interpretability. We propose VEGA (Visual Encoder Grounding Alignment), a simple yet effective framework that directly aligns the output of the VLA's visual encoder with spatially-aware features from DINOv2-FiT3D, a DINOv2 model fine-tuned with multi-view consistent 3D Gaussian Splatting supervision. By performing alignment at the visual encoder output level, VEGA grounds spatial awareness before any linguistic entanglement occurs, offering a more interpretable and principled alignment target. The alignment is implemented via a lightweight projector trained with a cosine similarity loss alongside the standard action prediction objective, and is discarded at inference time, introducing no additional computational overhead. Extensive experiments on simulation benchmark and real-world manipulation tasks demonstrate that VEGA consistently outperforms existing implicit spatial grounding baselines, establishing a new state-of-the-art among implicit spatial grounding methods for VLA models.",
+      "categories": [
+        "cs.RO"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2605.10485v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.10485v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.10485v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.10485v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.10307": {
+      "title": "PaMoSplat: Part-Aware Motion-Guided Gaussian Splatting for Dynamic Scene Reconstruction",
+      "authors": [
+        "Yinan Deng",
+        "Jianyu Dou",
+        "Jiahui Wang",
+        "Jingyu Zhao",
+        "Yi Yang",
+        "Yufeng Yue"
+      ],
+      "published": "2026-05-11T10:06:41+00:00",
+      "updated": "2026-05-11T10:06:41+00:00",
+      "summary": "Dynamic scene reconstruction represents a fundamental yet demanding challenge in computer vision and robotics. While recent progress in 3DGS-based methods has advanced dynamic scene modeling, obtaining high-fidelity rendering and accurate tracking in scenarios with substantial, intricate motions remains significantly challenging. To address these challenges, we propose PaMoSplat, a novel dynamic Gaussian splatting framework incorporating part awareness and motion priors. Our approach is grounded in two key observations: 1) Parts serve as primitives for scene deformation, and 2) Motion cues from optical flow can effectively guide part motion. Specifically, PaMoSplat initializes by lifting multi-view segmentation masks into 3D space via graph clustering, establishing coherent Gaussian parts. For subsequent timestamps, we leverage a differential evolutionary algorithm to estimate the rigid motion of these parts using multi-view optical flow cues, providing a robust warm-start for further optimization. Additionally, PaMoSplat introduces an adaptive iteration count mechanism, internal learnable rigidity, and flow-supervised rendering loss to accelerate and optimize the training process. Comprehensive evaluations across diverse scenes, including real-world environments, demonstrate that PaMoSplat delivers superior rendering quality, improved tracking precision, and faster convergence compared to existing methods. Furthermore, it enables multiple part-level downstream applications, such as 4D scene editing.",
+      "categories": [
+        "cs.CV",
+        "cs.GR",
+        "cs.RO"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.10307v1",
+      "journal_ref": null,
+      "doi": "10.1109/TCSVT.2026.3691475",
+      "comment": "Accepted by TCSVT. Project Url: https://pamosplat.github.io",
+      "entry_id": "http://arxiv.org/abs/2605.10307v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.10307v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.10307v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        },
+        {
+          "href": "https://doi.org/10.1109/TCSVT.2026.3691475",
+          "title": "doi",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.10055": {
+      "title": "Edge-Cloud Collaborative Pothole Detection via Onboard Event Screening and Federated Temporal Segmentation",
+      "authors": [
+        "Yingjie Wu",
+        "Kongyang Chen",
+        "Tiancai Liang"
+      ],
+      "published": "2026-05-11T06:33:32+00:00",
+      "updated": "2026-05-11T06:33:32+00:00",
+      "summary": "Road potholes threaten driving safety and increase infrastructure maintenance costs, while large-scale and timely pothole detection remains challenging in urban road networks. Vehicle-mounted vibration sensing offers a low-cost and scalable solution, however, continuous transmission of raw acceleration streams causes high communication overhead. Also, vibration patterns induced by potholes are often confused with those caused by manholes, speed bumps, and other local road structures. To address these challenges, this paper proposes an edge-cloud collaborative pothole detection framework based on onboard vibration event screening and federated temporal segmentation. At the vehicle side, a Gaussian Mixture Model (GMM)-based module adaptively models background vibration and screens candidate abnormal events from continuous acceleration streams. The onboard module acts as a lightweight high-recall filter and uploads only compact candidate event segments with their contextual information. At the server side, pothole detection is formulated as a point-wise temporal segmentation task. A 1D Attention U-Net is developed to distinguish potholes from vibration-similar road events by capturing multi-scale temporal features and preserving event boundary information. Furthermore, the model is trained under a federated learning framework to exploit distributed multi-vehicle data while accommodating non-IID vehicle data distributions. Experiments on multi-vehicle vibration sensing data show that the proposed framework reduces unnecessary data transmission from smooth road segments and improves fine-grained pothole detection under both centralized and federated settings.",
+      "categories": [
+        "cs.DC"
+      ],
+      "primary_category": "cs.DC",
+      "pdf_url": "https://arxiv.org/pdf/2605.10055v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.10055v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.10055v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.10055v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.09921": {
+      "title": "Rényi Rate-Distortion-Perception-Privacy Tradeoff under Indirect Observation",
+      "authors": [
+        "Jiahui Wei",
+        "Marios Kountouris"
+      ],
+      "published": "2026-05-11T03:15:43+00:00",
+      "updated": "2026-05-11T03:15:43+00:00",
+      "summary": "We introduce a Rényi Rate-Distortion-Perception-Privacy (R-RDPP) framework for indirect source coding. A latent source~$S$ is correlated with a private attribute~$U$, and the encoder observes only a noisy view~$X$ such that $(S,U) - X - Y$ holds at the decoder output~$Y$. The communication cost is measured by Sibson's $α$-mutual information $\\Ialp$, the privacy leakage by $\\Ibeta$, the semantic distortion between $S$ and $Y$, and the realism constraint at the semantic marginal $P_S$. We characterize the scalar Gaussian RDPP tradeoff, revealing that standard privacy metrics inherently penalize legitimate semantic recovery. To resolve this, we introduce a conditional privacy measure that quantifies only the residual leakage. In addition, we refine the achievability bounds for $α> 1$ via the Poisson functional representation. By deriving the exact geometric-mixture distribution of the Poisson index, we obtain exact closed-form expressions for integer-order Rényi entropies and sharper computable bounds in regimes where the resulting expression improves the logarithmic-moment approach.",
+      "categories": [
+        "cs.IT"
+      ],
+      "primary_category": "cs.IT",
+      "pdf_url": "https://arxiv.org/pdf/2605.09921v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "9 pages 2 figures",
+      "entry_id": "http://arxiv.org/abs/2605.09921v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.09921v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.09921v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.09890": {
+      "title": "Deep Learning under Fractional-Order Differential Privacy",
+      "authors": [
+        "Mohammad Partohaghighi",
+        "Roummel Marcia"
+      ],
+      "published": "2026-05-11T02:29:13+00:00",
+      "updated": "2026-05-11T02:29:13+00:00",
+      "summary": "Differentially private stochastic gradient descent (DP-SGD) is a standard approach to privacy-preserving learning based on per-example clipping, subsampling, Gaussian perturbation, and privacy accounting. Classical DP-SGD releases a noisy version of the current clipped subsampled gradient sum. We propose Fractional-Order Differentially Private Stochastic Gradient Descent (\\textbf{FO-DP-SGD}), a mechanism-level extension that replaces this current-only query, before Gaussian noise is added, with a fractional recursive query combining the current clipped sum with a finite-window, power-law-weighted aggregation of previously released private sum-level outputs. This injects fractional memory into the release mechanism while preserving the standard \\emph{sum-then-noise-then-divide} structure.\n  Under add/remove adjacency with Poisson subsampling, the current-step sensitivity analysis shows that the only newly data-dependent term is the scaled current clipped sum. Hence, conditioned on the private history, the effective \\(\\ell_2\\)-sensitivity is at most \\(βC\\), where \\(C\\) is the clipping threshold and \\(β\\in(0,1]\\) controls the current-step contribution. Thus, FO-DP-SGD admits standard per-step Rényi differential privacy accounting via a Poisson-subsampled Gaussian mechanism with effective noise-to-sensitivity ratio \\(σ/β\\), and composes to yield overall \\((\\varepsilon,δ)\\)-differential privacy guarantees.\n  FO-DP-SGD provides a framework for studying long-memory effects in private optimization. The fractional order, memory window, and mixing coefficient govern the trade-off among current-step sensitivity, signal retention, and private-history influence. Experiments on SVHN, CIFAR-10, and CIFAR-100 show improved test accuracy and privacy--utility performance over DP-SGD and private baselines including DP-Adam, DP-IS, SA-DP-SGD, ADP-AdamW, DP-SAT, and DP-Adam-AC.",
+      "categories": [
+        "cs.CR",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CR",
+      "pdf_url": "https://arxiv.org/pdf/2605.09890v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.09890v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.09890v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.09890v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.09859": {
+      "title": "Learning to Align Generative Appearance Priors for Fine-grained Image Retrieval",
+      "authors": [
+        "Shijie Wang",
+        "Yadan Luo",
+        "Zijian Wang",
+        "Xin Yu",
+        "Zi Huang"
+      ],
+      "published": "2026-05-11T01:35:26+00:00",
+      "updated": "2026-05-11T01:35:26+00:00",
+      "summary": "Fine-grained image retrieval (FGIR) typically relies on supervision from seen categories to learn discriminative embeddings for retrieving unseen categories. However, such supervision often biases retrieval models toward the semantics of seen categories rather than the underlying appearance characteristics that generalize across categories, thereby limiting retrieval performance on unseen categories. To tackle this, we propose GAPan, a Generative Appearance Prior alignment network that reformulates the learning objective from category prediction toward appearance modeling. Technically, GAPan treats retrieval features with an invertible density model based on normalizing flows. In the forward direction, the flow maps all instance features into a latent density space, where each seen category is modeled by a class-conditional Gaussian prior and optimized via exact likelihood estimation. This formulation preserves richer appearance details by leveraging the invertible property of the flows. In the reverse direction, samples from the high-density regions of these learned priors are mapped back to the feature space to produce appearance-aware anchors that reflect intra-category variation. These anchors supervise a prior-driven alignment objective that aligns retrieval embeddings with category-specific appearance distributions, thereby improving generalization to unseen categories. Evaluations demonstrate that our GAPan achieves state-of-the-art performance on both widely-used fine- and coarse-grained benchmarks.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.09859v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.09859v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.09859v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.09859v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.09662": {
+      "title": "BEA-GS: BEyond RAdiance Supervision in 3DGS for Precise Object Extraction",
+      "authors": [
+        "Alessio Mazzucchelli",
+        "Maria Naranjo-Almeida",
+        "Jorge Bustos-Sanchez",
+        "Mariella Dimiccoli",
+        "Francesc Moreno-Noguer",
+        "Jordi Sanchez-Riera",
+        "Adrian Penate-Sanchez"
+      ],
+      "published": "2026-05-10T17:22:33+00:00",
+      "updated": "2026-05-10T17:22:33+00:00",
+      "summary": "Most Gaussian Splatting techniques that provide a 3D semantic representation of the scene do not optimize the underlying 3D geometry, making object-level editing or asset extraction challenging. Recent methods, such as COBGS, Trace3D, ObjectGS, acknowledge this limitation and propose approaches that modify the scene's geometry to represent the underlying semantics. We advance this concept further by proposing a novel solution that provides near perfect boundaries in object extraction. We do so by introducing two new losses in the optimization that take care of: 1) a loss that modifies the geometry of visible Gaussians to respect semantic boundaries, and 2) a loss that adjusts the geometry of non-visible Gaussians that appear once the object is extracted. Our first loss propagates gradients directly through the rasterization, allowing for seamless integration within the optimization of the Gaussian parameters. The second loss also propagates gradients to Gaussian parameters but does so without passing through the rasterization, enabling modification of the scene's geometry even when little transmittance reaches a Gaussian (partial or non-visible). Exhaustive comparisons with 12 state of the art methods across 4 datasets, using six metrics, demonstrate that our approach produces overall the best boundary segmentation to date.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.09662v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "CVPR 2026 Highlight",
+      "entry_id": "http://arxiv.org/abs/2605.09662v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.09662v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.09662v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.09608": {
+      "title": "Geometry Conflict: Explaining and Controlling Forgetting in LLM Continual Post-Training",
+      "authors": [
+        "Yuanyi Wang",
+        "Yifan Yang",
+        "Su Lu",
+        "Yanggan Gu",
+        "Pengkai Wang",
+        "Wenjun Wang",
+        "Zhaoyi Yan",
+        "Congkai Xie",
+        "Jianmin Wu",
+        "Jialun Cao",
+        "Shing-Chi Cheung",
+        "Hongxia Yang"
+      ],
+      "published": "2026-05-10T15:40:44+00:00",
+      "updated": "2026-05-10T15:40:44+00:00",
+      "summary": "Continual post-training aims to extend large language models (LLMs) with new knowledge, skills, and behaviors, yet it remains unclear when sequential updates enable capability transfer and when they cause catastrophic forgetting. Existing methods mitigate forgetting through sequential fine-tuning, replay, regularization, or model merging, but offer limited criteria for determining when incorporating new updates is beneficial or harmful. In this work, we study LLM continual post-training through three questions: What drives forgetting? When do sequentially acquired capabilities transfer or interfere? How can compatibility be used to control update integration? We address these questions through task geometry: we represent each post-training task by its parameter update and study the covariance geometry induced by the update. Our central finding is that: forgetting can be considered as a state-relative update-integration failure, it arises when the covariance geometries induced by tasks misalign with the geometry of the evolving model state. Sequential updates transfer when they remain compatible with the model state shaped by previous updates, and interfere when state-relative geometry conflict becomes high. Motivated by this finding, we propose Geometry-Conflict Wasserstein Merging (GCWM), a data-free update-integration method that constructs a shared Wasserstein metric via Gaussian Wasserstein barycenters and uses geometry conflict to gate geometry-aware correction. Across Qwen3 0.6B--14B on domain-continual and capability-continual settings, GCWM consistently outperforms data-free baselines, improving retention and final performance without replay data. These results identify geometry conflict as both an explanatory signal for forgetting and a practical control signal for LLM continual post-training.",
+      "categories": [
+        "cs.LG",
+        "cs.IT"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2605.09608v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.09608v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.09608v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.09608v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.09098": {
+      "title": "Dynamic Meta-Metrics: Source-Sentence Conditioned Weighting for MT Evaluation",
+      "authors": [
+        "Luke Zhang",
+        "Justin Vasselli",
+        "Aditya Khan",
+        "York Hay Ng",
+        "En-Shiun Annie Lee"
+      ],
+      "published": "2026-05-09T18:12:10+00:00",
+      "updated": "2026-05-09T18:12:10+00:00",
+      "summary": "We propose Dynamic Meta-Metrics (DMM), a framework for machine translation evaluation that learns source-sentence conditioned combinations of existing metrics. Rather than relying on a single static ensemble or language-specific weighting, DMM adapts the metric combination based on properties of the source segment. We study hard conditioning, which fits an interpretable combiner per cluster, and an exploratory soft-conditioned extension whose weights vary continuously with source-cluster responsibilities. We evaluate DMM on the WMT Metrics Shared Task data across multiple language pairs using pairwise agreement measures at the system and segment levels. Across settings, MLP-based combinations outperform linear and Gaussian process-based ensembles, and introducing soft conditioning yields gains over linear models.",
+      "categories": [
+        "cs.CL"
+      ],
+      "primary_category": "cs.CL",
+      "pdf_url": "https://arxiv.org/pdf/2605.09098v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "5 pages, ACL SRW 2026",
+      "entry_id": "http://arxiv.org/abs/2605.09098v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.09098v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.09098v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.09073": {
+      "title": "Smoothing Out the Edges: Continuous-Time Estimation with Gaussian Process Motion Priors on Factor Graphs",
+      "authors": [
+        "Connor Holmes",
+        "Sven Lilge",
+        "Zi Cong Guo",
+        "Frank Dellaert",
+        "Timothy D. Barfoot"
+      ],
+      "published": "2026-05-09T17:30:22+00:00",
+      "updated": "2026-05-09T17:30:22+00:00",
+      "summary": "Continuous-time state estimation is gaining in popularity due to its abilities to provide smooth solutions, handle asynchronous sensors, and interpolate between data points. While there are two main paradigms, parametric (e.g., temporal basis functions, splines) and nonparametric (Gaussian processes), the latter has seen less adoption despite its technical advantages and relative ease of implementation. In this article, we seek to rectify this situation by providing a new simplified explanation of GP continuous-time estimation rooted in the language of factor graphs, which have become the de facto estimation paradigm in much of robotics. To simplify onboarding, we also provide three working examples implemented in the popular GTSAM estimation framework.",
+      "categories": [
+        "cs.RO"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2605.09073v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.09073v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.09073v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.09073v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
     "2605.07955": {
       "title": "TimeLesSeg: Unified Contrast-Agnostic Cross-Sectional and Longitudinal MS Lesion Segmentation via a Stochastic Generative Model",
       "authors": [
@@ -43,7 +503,15 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-12",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2605.07863": {
       "title": "ADKO: Agentic Decentralized Knowledge Optimization",
@@ -82,7 +550,15 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-12",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2605.07820": {
       "title": "Scaling Categorical Flow Maps",
@@ -96,32 +572,40 @@
         "Louis Béthune"
       ],
       "published": "2026-05-08T14:50:57+00:00",
-      "updated": "2026-05-08T14:50:57+00:00",
+      "updated": "2026-05-11T13:50:18+00:00",
       "summary": "Continuous diffusion and flow matching models could represent a powerful alternative to autoregressive approaches for language modelling (LM), as they unlock a host of advantages currently reserved for continuous modalities, including accelerated sampling and tilting. Recently, several works have demonstrated the possibility of generating discrete data continuously by a simple flow matching process between a Gaussian and the one-hot encoded data distribution. They have further shown the feasibility of accelerated sampling via Categorical Flow Maps (CFMs), resulting in competitive sample quality in the few-step regime. However, this method had only been evaluated at relatively modest scales ($<1$B), leaving the question of its scalability completely open. In this article, we train a $1.7$B-parameter base flow model on $2.1$T tokens and self-distill it into a CFM that generates diverse, high-quality text in as few as $4$ inference steps while maintaining near-data-level token entropy. Furthermore, we introduce a likelihood bound for CFMs in the semi-discrete setting, and show that they can be used to score the model on standard LM benchmarks, achieving results in the same range as discrete diffusion methods. Finally, we uncover some of the challenges that arise from training these models at scale, and we provide prescriptive insights on loss weighting and time scheduling.",
       "categories": [
         "cs.LG"
       ],
       "primary_category": "cs.LG",
-      "pdf_url": "https://arxiv.org/pdf/2605.07820v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.07820v2",
       "journal_ref": null,
       "doi": null,
-      "comment": null,
-      "entry_id": "http://arxiv.org/abs/2605.07820v1",
+      "comment": "Minor style changes",
+      "entry_id": "http://arxiv.org/abs/2605.07820v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2605.07820v1",
+          "href": "https://arxiv.org/abs/2605.07820v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2605.07820v1",
+          "href": "https://arxiv.org/pdf/2605.07820v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-12",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2605.07390": {
       "title": "ST-Gen4D: Embedding 4D Spatiotemporal Cognition into World Model for 4D Generation",
@@ -340,6 +824,40 @@
         "publisher": null,
         "note": "已查询但未找到venue信息"
       }
+    },
+    "2605.08265": {
+      "title": "CrackMorph-XAI-Net: A Topology-Preserving and Explainable Framework for Automated Crack Morphology",
+      "authors": [
+        "Sri Surya Pravallika Ajjarapu",
+        "S. M. Mallikarjunaiah"
+      ],
+      "published": "2026-05-08T01:45:57+00:00",
+      "updated": "2026-05-08T01:45:57+00:00",
+      "summary": "Automated crack inspection is increasingly recognized as a critical component of infrastructure monitoring; however, cracks continue to be reported primarily as binary segmentation masks by many current vision-based systems. While localization is facilitated by such masks, limited structural information is provided for robust engineering interpretation. For practical crack assessment, measurable morphological features -- including centerline geometry, branching behavior, junction locations, topology, and severity-related indicators -- are required. In this work, \\textit{CrackMorph-XAI-Net}, an explainable morphology-aware framework for image-based crack analysis, is presented. Crack image and region-mask data are converted into a sequence of interpretable structural outputs through four distinct stages: topology-preserving skeleton extraction, junction detection via Gaussian heatmap regression, morphology descriptor computation, and severity-oriented screening. To support rigorous stage-wise evaluation, the standard \\textit{CRACK500} benchmark is extended with aligned skeleton maps, junction heatmaps, and topology labels. Experimental validation demonstrates that a mean Dice coefficient of 0.991 is achieved by the learned skeleton extraction stage, with topology preserved in 98.5\\% of test images. Furthermore, a recall of 0.964 and an F1-score of 0.887 are obtained in the junction detection stage, highlighting the efficacy of heatmap regression for sparse structural targets. Strong agreement between predicted and reference morphology values is revealed by descriptor-level evaluation, with correlations exceeding 0.95 for length, width, orientation, junction count, and tortuosity.",
+      "categories": [
+        "math.GM"
+      ],
+      "primary_category": "math.GM",
+      "pdf_url": "https://arxiv.org/pdf/2605.08265v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.08265v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.08265v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.08265v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
     },
     "2605.06831": {
       "title": "Why DDIM Hallucinates More than DDPM: A Theoretical Analysis of Reverse Dynamics",
@@ -627,28 +1145,28 @@
         "Saad Taame"
       ],
       "published": "2026-05-06T16:38:49+00:00",
-      "updated": "2026-05-06T16:38:49+00:00",
-      "summary": "We introduce the **Concept Field** of a text corpus: a local drift field with pointwise uncertainty, estimated in sentence-embedding space from the deltas between consecutive sentences. Given a candidate sentence transition, we score its agreement with the field by $ζ$, the mean absolute z-distance between the observed delta and the field's local Gaussian estimate. The score is black-box (no model internals), corpus-attributable (every score traces to nearby corpus sentences), and admits a direct probabilistic reading. We support the computation with the introduction of a **Vector Sequence Database (VSDB)** that stores embeddings together with sequence-position and next-delta metadata. We evaluate this approach on two large-scale settings: hallucination-style groundedness detection over the U.S. Code of Federal Regulations, and novelty detection over Project Gutenberg. Using controlled LLM-generated rewrites, Concept Fields achieve strong selective classification performance under a grounded / ungrounded / unsure triage policy, which unlike retrieval-centric baselines have similar coverage-risk behavior across both domains, supporting a probability-based interpretation that transfers across domains. We also sketch how divergence and curl of the Concept Field, computed on dense clusters, surface qualitatively meaningful semantic patterns (logic sources, sinks, and implicit topics), which we offer as hypothesis-generating rather than as a quantitative result. Concept Fields provide a fast, lightweight, and interpretable signal for groundedness and novelty, complementary to LLM-as-judge and white-box detectors.",
+      "updated": "2026-05-09T17:34:20+00:00",
+      "summary": "We introduce the \\textbf{Concept Field} of a text corpus: a local drift field with pointwise uncertainty, estimated in sentence-embedding space from the deltas between consecutive sentences. Given a candidate sentence transition, we score its agreement with the field by $ζ$, the mean absolute z-distance between the observed delta and the field's local Gaussian estimate. The score is black-box (no model internals), corpus-attributable (every score traces to nearby corpus sentences), and admits a probabilistically motivated interpretation under a local Gaussian approximation. We support the computation with the introduction of a \\textbf{Vector Sequence Database (VSDB)} that stores embeddings together with sequence-position and next-delta metadata. We evaluate this approach on two large-scale settings: hallucination-style groundedness detection over the U.S. Code of Federal Regulations, and novelty detection over Project Gutenberg. On controlled LLM-generated rewrites, Concept Fields achieve strong selective classification performance under a grounded / ungrounded / unsure triage policy. Unlike retrieval-centric baselines, the resulting coverage-risk behavior is similar across both domains, supporting a degree of cross-domain stability for the standardized deviation score. We also sketch how divergence and curl of the Concept Field, computed on dense clusters, surface qualitatively meaningful semantic patterns (logic sources, sinks, and implicit topics), which we offer as hypothesis-generating rather than as a quantitative result. Concept Fields provide a fast, lightweight, and interpretable signal for groundedness and novelty, complementary to LLM-as-judge and white-box detectors.",
       "categories": [
         "cs.CL",
         "cs.AI",
         "cs.CY"
       ],
       "primary_category": "cs.CL",
-      "pdf_url": "https://arxiv.org/pdf/2605.05103v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.05103v2",
       "journal_ref": null,
       "doi": null,
       "comment": "25 pages, 8 figures",
-      "entry_id": "http://arxiv.org/abs/2605.05103v1",
+      "entry_id": "http://arxiv.org/abs/2605.05103v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2605.05103v1",
+          "href": "https://arxiv.org/abs/2605.05103v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2605.05103v1",
+          "href": "https://arxiv.org/pdf/2605.05103v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -1740,31 +2258,31 @@
         "Yan Zhang",
         "Daiqing Wu",
         "Huawen Shen",
-        "Yu Zhou",
-        "Can Ma"
+        "Can Ma",
+        "Yu Zhou"
       ],
       "published": "2026-05-01T13:23:26+00:00",
-      "updated": "2026-05-05T01:14:44+00:00",
+      "updated": "2026-05-10T03:40:15+00:00",
       "summary": "Graphical User Interface (GUI) grounding maps natural language instructions to the visual coordinates of target elements and serves as a core capability for autonomous GUI agents. Recent reinforcement learning methods (e.g., GRPO) have achieved strong performance, but they rely on expensive multiple rollouts and suffer from sparse signals on hard samples. These limitations make on-policy self-distillation (OPSD), which provides dense token-level supervision from a single rollout, a promising alternative. However, its applicability to GUI grounding remains unexplored. In this paper, we present GUI-SD, the first OPSD framework tailored for GUI grounding. First, it constructs a visually enriched privileged context for the teacher using a target bounding box and a Gaussian soft mask, providing informative guidance without leaking exact coordinates. Second, it employs entropy-guided distillation, which adaptively weights tokens based on digit significance and teacher confidence, concentrating optimization on the most impactful and reliable positions. Extensive experiments on six representative GUI grounding benchmarks show that GUI-SD consistently outperforms GRPO-based methods and naive OPSD in both accuracy and training efficiency. Code and training data are available at https://zhangyan-ucas.github.io/GUI-SD/.",
       "categories": [
         "cs.AI",
         "cs.CV"
       ],
       "primary_category": "cs.AI",
-      "pdf_url": "https://arxiv.org/pdf/2605.00642v2",
+      "pdf_url": "https://arxiv.org/pdf/2605.00642v3",
       "journal_ref": null,
       "doi": null,
       "comment": "under review",
-      "entry_id": "http://arxiv.org/abs/2605.00642v2",
+      "entry_id": "http://arxiv.org/abs/2605.00642v3",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2605.00642v2",
+          "href": "https://arxiv.org/abs/2605.00642v3",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2605.00642v2",
+          "href": "https://arxiv.org/pdf/2605.00642v3",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -111445,6 +111963,223 @@
     }
   },
   "Depth Estimation": {
+    "2605.10675": {
+      "title": "Neuromorphic Monocular Depth Estimation with Uncertainty Modeling",
+      "authors": [
+        "Viktor Bergkvist",
+        "Felix Rydell",
+        "Per-Erik Forssén",
+        "David Gustafsson",
+        "Johan Rideg"
+      ],
+      "published": "2026-05-11T14:55:35+00:00",
+      "updated": "2026-05-11T14:55:35+00:00",
+      "summary": "Event cameras offer distinct advantages over conventional frame-based sensors, including microsecond-level temporal resolution, high dynamic range, and low bandwidth. In this paper, we predict per-pixel depth distributions from monocular event streams using deep neural networks. We estimate uncertainty using Gaussian, log-normal, and evidential learning frameworks. We compare six event representations: spatio-temporal voxel grids with 1, 5, 10, and 20 temporal bins, the Compact Spatio-Temporal Representation (CSTR), and Time-Ordered Recent Event (TORE) volumes. Our U-Net-based models are trained on synthetic data and then fine-tuned on real sequences. We evaluate performance using absolute relative error, root mean squared error, and the area under the sparsification error. Quantitative results show that the representations perform similarly, while 10 bin log-normal and 5 bin evidential learning perform best across metrics. Our experiments demonstrate that uncertainty estimation can be successfully integrated into event-based monocular depth estimation, and be used to indicate pixels with reliable depth.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.10675v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.10675v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.10675v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.10675v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2605.10525": {
+      "title": "GemDepth: Geometry-Embedded Features for 3D-Consistent Video Depth",
+      "authors": [
+        "Yuecheng LiulJunda Cheng",
+        "Longliang Liu",
+        "Wenjing Liao",
+        "Hanrui Cheng",
+        "Yuzhou Wang",
+        "Xin Yang"
+      ],
+      "published": "2026-05-11T13:11:54+00:00",
+      "updated": "2026-05-11T13:11:54+00:00",
+      "summary": "Video depth estimation extends monocular prediction into the temporal domain to ensure coherence. However, existing methods often suffer from spatial blurring in fine-detail regions and temporal inconsistencies. We argue that current approaches, which primarily rely on temporal smoothing via Transformers, struggle to maintain strict 3D geometric consistency-particularly under rotations or drastic view changes. To address this, we propose GemDepth, a framework built on the insight that an explicit awareness of camera motion and global 3D structure is a prerequisite for 3D consistency. Distinctively, GemDepth introduces a Geometry-Embedding Module (GEM) that predicts inter-frame camera poses to generate implicit geometric embeddings. This injection of motion priors equips the network with intrinsic 3D perception and alignment capabilities. Guided by these geometric cues, our Alternating Spatio-Temporal Transformer (ASTT) captures latent point-level correspondences to simultaneously enhance spatial precision for sharp details and enforce rigorous temporal consistency. Furthermore, GemDepth employs a data-efficient training strategy, effectively bridging the gap between high efficiency and robust geometric consistency. As shown in Fig.2, comprehensive evaluations demonstrate that GemDepth achieves state-of-the-art performance across multiple datasets, particularly in complex dynamic scenarios. The code is publicly available at: https://github.com/Yuecheng919/GemDepth",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.10525v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.10525v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.10525v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.10525v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2605.10523": {
+      "title": "Improving Human Image Animation via Semantic Representation Alignment",
+      "authors": [
+        "Chang Liu",
+        "Mengting Chen",
+        "Yixuan Huang",
+        "Haoning Wu",
+        "Chen Ju",
+        "Shuai Xiao",
+        "Jinsong Lan",
+        "Yanfeng Wang"
+      ],
+      "published": "2026-05-11T13:10:07+00:00",
+      "updated": "2026-05-11T13:10:07+00:00",
+      "summary": "The field of image-to-video generation has made remarkable progress. However, challenges such as human limb twisting and facial distortion persist, especially when generating long videos or modeling intensive motions. Existing human image animation works address these issues by incorporating human-specific semantic representations, e.g., dense poses or ID embeddings, as additional conditions. However, conditioning on these representations could decrease the generation flexibility. Moreover, their reliance on RGB pixel supervision also lacks emphasis on learning necessary 3D geometric relationships and temporal coherence. In contrast, we introduce a novel approach named SemanticREPA that leverages these semantic representations as supervision signals through representation alignment. Specifically, we begin by training a structure alignment module that aligns the structure representations obtained from video latents with video depth estimation features. We then fix the pretrained module, and utilize it to provide additional supervision on the structure representations of the diffusion models, achieving structure rectification to generate coherent and stable human structures. Simultaneously, we develop an ID alignment module to align the ID representations of the generated videos to face recognition features. We further propose to use the predicted structure representations to refine identity restoration in relevant regions. With structure and ID alignment, our method demonstrates superior quality on extended character motions and enhanced character consistency.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.10523v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted by CVPR 2026 workshop",
+      "entry_id": "http://arxiv.org/abs/2605.10523v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.10523v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.10523v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2605.10251": {
+      "title": "Efficient Hybrid CNN-GNN Architecture for Monocular Depth Estimation",
+      "authors": [
+        "Ishan Narayan"
+      ],
+      "published": "2026-05-11T09:21:04+00:00",
+      "updated": "2026-05-11T09:21:04+00:00",
+      "summary": "We present GraphDepth, a monocular depth estimation architecture that synergistically integrates Graph Neural Networks (GNNs) within a convolutional encoder-decoder framework. Our approach embeds efficient GraphSAGE layers at multiple scales of a ResNet-101 U-Net backbone, enabling explicit modeling of long-range spatial relationships that lie beyond the receptive field of local convolutions. Key technical contributions include: (1) batch-parallelized graph construction with configurable k-NN and\n  grid-based adjacency for scalable training; (2) multi-scale GraphSAGE integration at bottleneck and decoder stages\n  (1/32, 1/16, 1/8 resolution) to propagate global context\n  throughout the feature hierarchy; (3) channel-attention gated skip connections that adaptively weight encoder\n  features before fusion; and (4) heteroscedastic uncertainty estimation via a dedicated aleatoric\n  uncertainty head, enabling confidence-aware loss weighting during\n  optimization. Unlike transformer-based hybrids, which suffer from quadratic complexity in sequence length, GraphDepth scales linearly with spatial resolution while achieving comparable global receptive fields through iterative message passing. Experiments on NYU Depth V2, WHU Aerial, ETH3D, and Mid-Air benchmarks demonstrate competitive accuracy within 4.6\\% of state-of-the-art transformers on indoor scenes with substantially lower computational cost (25 FPS vs 9 FPS, 3.8 GB vs 8.8 GB VRAM). GraphDepth achieves the best reported result on WHU Aerial (RMSE 8.24 m) and exhibits superior zero-shot cross-domain transfer to the Mid-Air synthetic aerial dataset, validating the generalization power of explicit relational reasoning for depth estimation.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.10251v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.10251v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.10251v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.10251v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2605.09963": {
+      "title": "Learning to Perceive \"Where\": Spatial Pretext Tasks for Robust Self-Supervised Learning",
+      "authors": [
+        "Yang Shen",
+        "Yusen Cai",
+        "Weronika Hryniewska-Guzik",
+        "Qing Lin",
+        "Mengmi Zhang"
+      ],
+      "published": "2026-05-11T04:15:34+00:00",
+      "updated": "2026-05-11T04:15:34+00:00",
+      "summary": "Existing self-supervised learning (SSL) methods primarily learn object-invariant representations but often neglect the spatial structure and relationships among object parts. To address this limitation, we introduce Spatial Prediction (SP), a spatially aware pretext regression task that predicts the relative position and scale between a pair of disentangled local views from the same image. By modeling part-to-part relationships in a continuous geometric space, SP encourages representations to capture fine-grained spatial dependencies beyond invariant categorical semantics, thereby learning the compositional structure of visual scenes. SP is implemented as a decoupled plug-in and can be seamlessly integrated into diverse SSL frameworks. Extensive experiments show consistent improvements across image recognition, fine-grained classification, semantic segmentation, and depth estimation, as well as substantial gains in out-of-distribution robustness for object recognition. To evaluate spatial reasoning, we introduce (1) a position and scale prediction task on image patch pairs and (2) a jigsaw understanding task requiring patch reordering and recognition after reconstruction. Strong performance on these tasks indicates improved spatial structure and geometric awareness. Overall, explicitly modeling spatial information provides an effective inductive bias for SSL, leading to more structured representations and better generalization. Code and models will be released.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.09963v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.09963v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.09963v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.09963v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2605.09719": {
+      "title": "Distilling 3D Spatial Reasoning into a Lightweight Vision-Language Model with CoT",
+      "authors": [
+        "Alaa Asfour",
+        "Christopher Indris",
+        "Leihan Chen",
+        "Tejas Vyas",
+        "Guanghui Wang"
+      ],
+      "published": "2026-05-10T19:38:29+00:00",
+      "updated": "2026-05-10T19:38:29+00:00",
+      "summary": "Large-scale 3D vision-language models (VLMs) like LLaVA-3D offer strong spatial reasoning but are difficult to deploy due to high computational costs. We propose a knowledge distillation framework that transfers spatial reasoning from a 7B teacher to a 2.29B student model. Our approach achieves 8.7x lower inference latency and a 3x reduction in model size while retaining 54-72% of the teacher's performance. The framework utilizes VGGT as the vision encoder and a multi-task distillation pipeline with uncertainty-aware loss weighting. To improve reasoning without chain-of-thought (CoT) data, we introduce \"Hidden CoT\": learnable latent tokens that serve as an internal scratchpad before answer generation. This is the first use of latent scratchpad reasoning in distilled 3D VLMs. The student model jointly performs spatial description, depth estimation, and object detection. Experiments on ScanNet and 3D-FRONT show strong spatial understanding, reaching 68-72% accuracy on proximity and contact tasks. Our framework enables efficient 3D scene QA on resource-constrained platforms.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.09719v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.09719v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.09719v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.09719v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2605.07429": {
       "title": "Towards Photorealistic and Efficient Bokeh Rendering via Diffusion Framework",
       "authors": [
@@ -111458,26 +112193,26 @@
         "Peng-Tao Jiang"
       ],
       "published": "2026-05-08T08:31:10+00:00",
-      "updated": "2026-05-08T08:31:10+00:00",
+      "updated": "2026-05-11T08:03:05+00:00",
       "summary": "Existing mobile devices are constrained by compact optical designs, such as small apertures, which make it difficult to produce natural, optically realistic bokeh effects. Although recent learning-based methods have shown promising results, they still struggle with photos captured under high digital zoom levels, which often suffer from reduced resolution and loss of fine details. A naive solution is to enhance image quality before applying bokeh rendering, yet this two-stage pipeline reduces efficiency and introduces unnecessary error accumulation. To overcome these limitations, we propose MagicBokeh, a unified diffusion-based framework designed for high-quality and efficient bokeh rendering. Through an alternative training strategy and a focus-aware masked attention mechanism, our method jointly optimizes bokeh rendering and super-resolution, substantially improving both controllability and visual fidelity. Furthermore, we introduce degradation-aware depth module to enable more accurate depth estimation from low-quality inputs. Experimental results demonstrate that MagicBokeh efficiently produces photorealistic bokeh effects, particularly on real-world low-resolution images, paving the way for future advancements in bokeh rendering. Our code and models are available at https://github.com/vivoCameraResearch/MagicBokeh.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2605.07429v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.07429v2",
       "journal_ref": null,
       "doi": null,
-      "comment": null,
-      "entry_id": "http://arxiv.org/abs/2605.07429v1",
+      "comment": "Accepted by CVPR 2026",
+      "entry_id": "http://arxiv.org/abs/2605.07429v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2605.07429v1",
+          "href": "https://arxiv.org/abs/2605.07429v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2605.07429v1",
+          "href": "https://arxiv.org/pdf/2605.07429v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null

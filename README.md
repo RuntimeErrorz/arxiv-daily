@@ -1,4 +1,4 @@
-## Updated at 2026-05-12 08:37:55
+## Updated at 2026-05-12 20:46:43
 
 ## 3DGS Semantic
 
@@ -8,14 +8,27 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-05-11**|**[Beyond Red-Teaming: Formal Guarantees of LLM Guardrail Classifiers](https://arxiv.org/abs/2605.10901)**|N/A|None|cs.LG|None|Nikita Kezins et al.|
+|**2026-05-11**|**[On periodic distributed representations using Fourier embeddings](https://arxiv.org/abs/2605.10818)**|N/A|None|cs.LG|None|Jakeb Chouinard|
+|**2026-05-11**|**[VEGA: Visual Encoder Grounding Alignment for Spatially-Aware Vision-Language-Action Models](https://arxiv.org/abs/2605.10485)**|N/A|None|cs.RO|None|Hao Wang et al.|
+|**2026-05-11**|**[PaMoSplat: Part-Aware Motion-Guided Gaussian Splatting for Dynamic Scene Reconstruction](https://arxiv.org/abs/2605.10307)**|N/A|Accepted by TCSVT. Project Url: https://pamosplat.github.io|cs.CV|None|Yinan Deng et al.|
+|**2026-05-11**|**[Edge-Cloud Collaborative Pothole Detection via Onboard Event Screening and Federated Temporal Segmentation](https://arxiv.org/abs/2605.10055)**|N/A|None|cs.DC|None|Yingjie Wu et al.|
+|**2026-05-11**|**[Rényi Rate-Distortion-Perception-Privacy Tradeoff under Indirect Observation](https://arxiv.org/abs/2605.09921)**|N/A|9 pages 2 figures|cs.IT|None|Jiahui Wei, Marios Kountouris|
+|**2026-05-11**|**[Deep Learning under Fractional-Order Differential Privacy](https://arxiv.org/abs/2605.09890)**|N/A|None|cs.CR|None|Mohammad Partohaghighi, Roummel Marcia|
+|**2026-05-11**|**[Learning to Align Generative Appearance Priors for Fine-grained Image Retrieval](https://arxiv.org/abs/2605.09859)**|N/A|None|cs.CV|None|Shijie Wang et al.|
+|**2026-05-10**|**[BEA-GS: BEyond RAdiance Supervision in 3DGS for Precise Object Extraction](https://arxiv.org/abs/2605.09662)**|N/A|CVPR 2026 Highlight|cs.CV|None|Alessio Mazzucchelli et al.|
+|**2026-05-10**|**[Geometry Conflict: Explaining and Controlling Forgetting in LLM Continual Post-Training](https://arxiv.org/abs/2605.09608)**|N/A|None|cs.LG|None|Yuanyi Wang et al.|
+|**2026-05-09**|**[Dynamic Meta-Metrics: Source-Sentence Conditioned Weighting for MT Evaluation](https://arxiv.org/abs/2605.09098)**|N/A|5 pages, ACL SRW 2026|cs.CL|None|Luke Zhang et al.|
+|**2026-05-09**|**[Smoothing Out the Edges: Continuous-Time Estimation with Gaussian Process Motion Priors on Factor Graphs](https://arxiv.org/abs/2605.09073)**|N/A|None|cs.RO|None|Connor Holmes et al.|
 |**2026-05-08**|**[TimeLesSeg: Unified Contrast-Agnostic Cross-Sectional and Longitudinal MS Lesion Segmentation via a Stochastic Generative Model](https://arxiv.org/abs/2605.07955)**|N/A|None|cs.CV|None|Vicent Caselles-Ballester et al.|
 |**2026-05-08**|**[ADKO: Agentic Decentralized Knowledge Optimization](https://arxiv.org/abs/2605.07863)**|N/A|31 pages|cs.LG|None|Lucas Nerone Rillo et al.|
-|**2026-05-08**|**[Scaling Categorical Flow Maps](https://arxiv.org/abs/2605.07820)**|N/A|None|cs.LG|None|Oscar Davis et al.|
+|**2026-05-08**|**[Scaling Categorical Flow Maps](https://arxiv.org/abs/2605.07820)**|N/A|Minor style changes|cs.LG|None|Oscar Davis et al.|
 |**2026-05-08**|**[ST-Gen4D: Embedding 4D Spatiotemporal Cognition into World Model for 4D Generation](https://arxiv.org/abs/2605.07390)**|N/A|None|cs.CV|None|Haonan Wang et al.|
 |**2026-05-08**|**[Disambiguating 2D-3D Correspondences in Gaussian Splatting-based Feature Fields for Visual Localization](https://arxiv.org/abs/2605.07351)**|N/A|None|cs.CV|None|Miso Lee et al.|
 |**2026-05-08**|**[DINO-MVR: Multi-View Readout of Frozen DINOv3 for Annotation-Efficient Medical Segmentation](https://arxiv.org/abs/2605.07221)**|N/A|None|cs.CV|None|Wei Jiang et al.|
 |**2026-05-08**|**[Coupling Models for One-Step Discrete Generation](https://arxiv.org/abs/2605.07193)**|N/A|Code is available at https://github.com/pengzhangzhi/Coupling-Models|cs.LG|None|Fred Zhangzhi Peng et al.|
 |**2026-05-08**|**[Uncovering and Shaping the Latent Representation of 3D Scene Topology in Vision-Language Models](https://arxiv.org/abs/2605.07148)**|N/A|None|cs.CV|None|Haoming Wang, Wei Gao|
+|**2026-05-08**|**[CrackMorph-XAI-Net: A Topology-Preserving and Explainable Framework for Automated Crack Morphology](https://arxiv.org/abs/2605.08265)**|N/A|None|math.GM|None|Sri Surya Pravallika Ajjarapu, S. M. Mallikarjunaiah|
 |**2026-05-07**|**[Why DDIM Hallucinates More than DDPM: A Theoretical Analysis of Reverse Dynamics](https://arxiv.org/abs/2605.06831)**|N/A|None|cs.LG|None|Muhammad H. Ashiq et al.|
 |**2026-05-07**|**[Weight-Decay Turns Transformer Loss Landscapes Villani: Functional-Analytic Foundations for Optimization and Generalization](https://arxiv.org/abs/2605.06599)**|N/A|17 pages, 10 figures|cs.LG|None|Abhijit Das, Sayantan Dutta|
 |**2026-05-07**|**[Flow Matching with Arbitrary Auxiliary Paths](https://arxiv.org/abs/2605.06364)**|N/A|None|cs.LG|None|Xin Peng, Ang Gao|
@@ -941,7 +954,13 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
-|**2026-05-08**|**[Towards Photorealistic and Efficient Bokeh Rendering via Diffusion Framework](https://arxiv.org/abs/2605.07429)**|N/A|None|cs.CV|None|Linxiao Shi et al.|
+|**2026-05-11**|**[Neuromorphic Monocular Depth Estimation with Uncertainty Modeling](https://arxiv.org/abs/2605.10675)**|N/A|None|cs.CV|None|Viktor Bergkvist et al.|
+|**2026-05-11**|**[GemDepth: Geometry-Embedded Features for 3D-Consistent Video Depth](https://arxiv.org/abs/2605.10525)**|N/A|None|cs.CV|None|Yuecheng LiulJunda Cheng et al.|
+|**2026-05-11**|**[Improving Human Image Animation via Semantic Representation Alignment](https://arxiv.org/abs/2605.10523)**|N/A|Accepted by CVPR 2026 workshop|cs.CV|None|Chang Liu et al.|
+|**2026-05-11**|**[Efficient Hybrid CNN-GNN Architecture for Monocular Depth Estimation](https://arxiv.org/abs/2605.10251)**|N/A|None|cs.CV|None|Ishan Narayan|
+|**2026-05-11**|**[Learning to Perceive "Where": Spatial Pretext Tasks for Robust Self-Supervised Learning](https://arxiv.org/abs/2605.09963)**|N/A|None|cs.CV|None|Yang Shen et al.|
+|**2026-05-10**|**[Distilling 3D Spatial Reasoning into a Lightweight Vision-Language Model with CoT](https://arxiv.org/abs/2605.09719)**|N/A|None|cs.CV|None|Alaa Asfour et al.|
+|**2026-05-08**|**[Towards Photorealistic and Efficient Bokeh Rendering via Diffusion Framework](https://arxiv.org/abs/2605.07429)**|N/A|Accepted by CVPR 2026|cs.CV|None|Linxiao Shi et al.|
 |**2026-05-08**|**[Learning Image-Adaptive Scale Fields for Metric Depth Recovery](https://arxiv.org/abs/2605.07418)**|N/A|None|cs.CV|None|Yuanyan Li, Matthias Althoff|
 |**2026-05-07**|**[$\mathcal{B}^{3}$-Net: Controlled Posterior Bridge Learning for Multi-Task Dense Prediction](https://arxiv.org/abs/2605.05722)**|N/A|14 pages, 10 figures|cs.CV|None|Meihua Zhou, Li Yang|
 |**2026-05-06**|**[CARD: A Multi-Modal Automotive Dataset for Dense 3D Reconstruction in Challenging Road Topography](https://arxiv.org/abs/2605.05014)**|N/A|Accepted at CVPR 2026 (Highlight). Project page: https://card.content.cariad.digital|cs.CV|None|Gasser Elazab et al.|
