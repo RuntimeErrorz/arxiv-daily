@@ -1,4 +1,4 @@
-## Updated at 2026-05-13 08:41:47
+## Updated at 2026-05-13 20:46:49
 
 ## 3DGS Semantic
 
@@ -8,6 +8,11 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-05-12**|**[DiffSegLung: Diffusion Radiomic Distillation for Unsupervised Lung Pathology Segmentation](https://arxiv.org/abs/2605.11758)**|N/A|None|eess.IV|None|Rezkellah Noureddine Khiati et al.|
+|**2026-05-12**|**[Taming Extreme Tokens: Covariance-Aware GRPO with Gaussian-Kernel Advantage Reweighting](https://arxiv.org/abs/2605.11538)**|N/A|ACL 2026|cs.CL|None|Cheng Wang et al.|
+|**2026-05-12**|**[PointGS: Semantic-Consistent Unsupervised 3D Point Cloud Segmentation with 3D Gaussian Splatting](https://arxiv.org/abs/2605.11520)**|N/A|Accepted by Computer Vision and Pattern Recognition (CVPR) 2026|cs.CV|None|Yixiao Song et al.|
+|**2026-05-11**|**[Forecast-aware Gaussian Splatting for Predictive 3D Representation in Language-Guided Pick-and-Place Manipulation](https://arxiv.org/abs/2605.11144)**|N/A|None|cs.RO|None|Kaixin Jia, Jiacheng Xu|
+|**2026-05-11**|**[Language Modeling with Hyperspherical Flows](https://arxiv.org/abs/2605.11125)**|N/A|None|cs.LG|None|Justin Deschenaux, Caglar Gulcehre|
 |**2026-05-11**|**[Beyond Red-Teaming: Formal Guarantees of LLM Guardrail Classifiers](https://arxiv.org/abs/2605.10901)**|N/A|None|cs.LG|None|Nikita Kezins et al.|
 |**2026-05-11**|**[On periodic distributed representations using Fourier embeddings](https://arxiv.org/abs/2605.10818)**|N/A|None|cs.LG|None|Jakeb Chouinard|
 |**2026-05-11**|**[VEGA: Visual Encoder Grounding Alignment for Spatially-Aware Vision-Language-Action Models](https://arxiv.org/abs/2605.10485)**|N/A|None|cs.RO|None|Hao Wang et al.|
@@ -954,8 +959,11 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-05-12**|**[Selection, Not Fusion: Radar-Modulated State Space Models for Radar-Camera Depth Estimation](https://arxiv.org/abs/2605.11840)**|N/A|16 pages, 3 figures, 9 tables|cs.CV|None|Zhangcheng Hou, Tomoaki Ohtsuki|
+|**2026-05-12**|**[Focusable Monocular Depth Estimation](https://arxiv.org/abs/2605.11756)**|N/A|None|cs.CV|None|Yuxin Du et al.|
+|**2026-05-12**|**[The Midas Touch for Metric Depth](https://arxiv.org/abs/2605.11578)**|N/A|None|cs.CV|None|Yu Ma et al.|
 |**2026-05-11**|**[Neuromorphic Monocular Depth Estimation with Uncertainty Modeling](https://arxiv.org/abs/2605.10675)**|N/A|None|cs.CV|None|Viktor Bergkvist et al.|
-|**2026-05-11**|**[GemDepth: Geometry-Embedded Features for 3D-Consistent Video Depth](https://arxiv.org/abs/2605.10525)**|N/A|None|cs.CV|None|Yuecheng LiulJunda Cheng et al.|
+|**2026-05-11**|**[GemDepth: Geometry-Embedded Features for 3D-Consistent Video Depth](https://arxiv.org/abs/2605.10525)**|N/A|None|cs.CV|None|Yuecheng Liu et al.|
 |**2026-05-11**|**[Improving Human Image Animation via Semantic Representation Alignment](https://arxiv.org/abs/2605.10523)**|N/A|Accepted by CVPR 2026 workshop|cs.CV|None|Chang Liu et al.|
 |**2026-05-11**|**[Efficient Hybrid CNN-GNN Architecture for Monocular Depth Estimation](https://arxiv.org/abs/2605.10251)**|N/A|None|cs.CV|None|Ishan Narayan|
 |**2026-05-11**|**[Learning to Perceive "Where": Spatial Pretext Tasks for Robust Self-Supervised Learning](https://arxiv.org/abs/2605.09963)**|N/A|None|cs.CV|None|Yang Shen et al.|

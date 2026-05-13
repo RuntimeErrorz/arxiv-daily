@@ -1,5 +1,184 @@
 {
   "3DGS Semantic": {
+    "2605.11758": {
+      "title": "DiffSegLung: Diffusion Radiomic Distillation for Unsupervised Lung Pathology Segmentation",
+      "authors": [
+        "Rezkellah Noureddine Khiati",
+        "Pierre-Yves Brillet",
+        "Catalin Fetita"
+      ],
+      "published": "2026-05-12T08:32:24+00:00",
+      "updated": "2026-05-12T08:32:24+00:00",
+      "summary": "Unsupervised segmentation of pulmonary pathologies in CT remains an open challenge due to the absence of annotated multi pathology cohorts and the failure of existing diffusion-based methods to exploit the quantitative Hounsfield Unit (HU) signal that physically distinguishes tissue classes. To address this, we propose DiffSegLung,a framework that introduces Diffusion Radiomic Distillation, in which handcrafted radiomic descriptors serve as a physics grounded teacher to shape the bottleneck of a 3D diffusion U-Net via a contrastive objective, transferring pathology discriminative structure into the learned representation without any annotations. At inference, the teacher is discarded and multitimestep bottleneck features are clustered by a Gaussian Mixture Model with HU-guided label assignment, followed by Sobel Diffusion Fusion for boundary refinement. Evaluated on 190 expert annotated axial slices drawn from four heterogeneous CT cohorts, Diff-SegLung improves segmentation across all four pathology classes over unsupervised baselines and improves generation fidelity over prior CT diffusion models.",
+      "categories": [
+        "eess.IV",
+        "cs.CV"
+      ],
+      "primary_category": "eess.IV",
+      "pdf_url": "https://arxiv.org/pdf/2605.11758v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.11758v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.11758v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.11758v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.11538": {
+      "title": "Taming Extreme Tokens: Covariance-Aware GRPO with Gaussian-Kernel Advantage Reweighting",
+      "authors": [
+        "Cheng Wang",
+        "Qin Liu",
+        "Wenxuan Zhou",
+        "Muhao Chen"
+      ],
+      "published": "2026-05-12T05:05:47+00:00",
+      "updated": "2026-05-12T05:05:47+00:00",
+      "summary": "Group Relative Policy Optimization (GRPO) has emerged as a promising approach for improving the reasoning capabilities of large language models. However, it struggles to effectively balance the tradeoff between exploration and exploitation during training, often resulting in suboptimal performance. Motivated by the theoretical insight that changes in entropy are governed by the covariance between token probabilities and their corresponding advantages, we propose a hyperparameter-free, covariance-weighted optimization method that dynamically down-weights extreme token-level updates via a Gaussian kernel. This approach automatically reduces the instability caused by exploration-exploitation trade-off while preserving informative learning signals. Extensive empirical evaluations show that our approach improves downstream performance across reasoning benchmarks compared with GRPO, and effectively stablizes entropy as training progresses.",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CL",
+      "pdf_url": "https://arxiv.org/pdf/2605.11538v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "ACL 2026",
+      "entry_id": "http://arxiv.org/abs/2605.11538v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.11538v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.11538v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.11520": {
+      "title": "PointGS: Semantic-Consistent Unsupervised 3D Point Cloud Segmentation with 3D Gaussian Splatting",
+      "authors": [
+        "Yixiao Song",
+        "Qingyong Li",
+        "Wen Wang",
+        "Zhicheng Yan"
+      ],
+      "published": "2026-05-12T04:44:50+00:00",
+      "updated": "2026-05-12T04:44:50+00:00",
+      "summary": "Unsupervised point cloud segmentation is critical for embodied artificial intelligence and autonomous driving, as it mitigates the prohibitive cost of dense point-level annotations required by fully supervised methods. While integrating 2D pre-trained models such as the Segment Anything Model (SAM) to supplement semantic information is a natural choice, this approach faces a fundamental mismatch between discrete 3D points and continuous 2D images. This mismatch leads to inevitable projection overlap and complex modality alignment, resulting in compromised semantic consistency across 2D-3D transfer. To address these limitations, this paper proposes PointGS, a simple yet effective pipeline for unsupervised 3D point cloud segmentation. PointGS leverages 3D Gaussian Splatting as a unified intermediate representation to bridge the discrete-continuous domain gap. Input sparse point clouds are first reconstructed into dense 3D Gaussian spaces via multi-view observations, filling spatial gaps and encoding occlusion relationships to eliminate projection-induced semantic conflation. Multi-view dense images are rendered from the Gaussian space, with 2D semantic masks extracted via SAM, and semantics are distilled to 3D Gaussian primitives through contrastive learning to ensure consistent semantic assignments across different views. The Gaussian space is aligned with the original point cloud via two-step registration, and point semantics are assigned through nearest-neighbor search on labeled Gaussians. Experiments demonstrate that PointGS outperforms state-of-the-art unsupervised methods, achieving +0.9% mIoU on ScanNet-V2 and +2.8% mIoU on S3DIS.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.11520v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted by Computer Vision and Pattern Recognition (CVPR) 2026",
+      "entry_id": "http://arxiv.org/abs/2605.11520v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.11520v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.11520v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.11144": {
+      "title": "Forecast-aware Gaussian Splatting for Predictive 3D Representation in Language-Guided Pick-and-Place Manipulation",
+      "authors": [
+        "Kaixin Jia",
+        "Jiacheng Xu"
+      ],
+      "published": "2026-05-11T18:48:26+00:00",
+      "updated": "2026-05-11T18:48:26+00:00",
+      "summary": "We introduce Forecast-aware Gaussian Splatting (Forecast-GS), a predictive 3D representation framework for language-conditioned robotic manipulation. While recent manipulation systems have made progress by grounding language instructions into robot affordances, value maps, or relational keypoint constraints, they usually reason over the current scene and do not explicitly model the task-completed state. This limitation is critical when success depends on satisfying spatial and semantic goals under partial observations, where the robot must evaluate whether a candidate action leads to a feasible task-consistent outcome.\n  We validate Forecast-GS on real-world pick-and-place manipulation tasks, including Cutter-to-Box, Apple-to-Bowl, and Sponge-to-Tray. For each task, we conduct 25 real-world trials under varied initial object configurations using the same robot platform and sensing setup. Forecast-GS with automatic candidate selection achieves success rates of 21/25, 23/25, and 16/25 on the three tasks, respectively, outperforming the ReKep baseline, which achieves 15/25, 19/25, and 10/25. A diagnostic human-assisted setting further improves success rates to 23/25, 24/25, and 19/25, suggesting that candidate generation is effective while automatic ranking remains imperfect. These results suggest that explicitly forecasting task-completed 3D states enables more reliable action evaluation, while the gap between automatic and human-assisted selection indicates that robust final-state ranking remains an important challenge for fully autonomous manipulation. Overall, Forecast-GS provides an interpretable bridge between language understanding, 3D perception, and robotic manipulation planning.",
+      "categories": [
+        "cs.RO"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2605.11144v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.11144v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.11144v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.11144v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.11125": {
+      "title": "Language Modeling with Hyperspherical Flows",
+      "authors": [
+        "Justin Deschenaux",
+        "Caglar Gulcehre"
+      ],
+      "published": "2026-05-11T18:32:32+00:00",
+      "updated": "2026-05-11T18:32:32+00:00",
+      "summary": "Discrete Diffusion Language Models progressed rapidly as an alternative to autoregressive (AR) models, motivated by their parallel generation abilities. However, for tractability, discrete diffusion models sample from a factorized distribution, which is less expressive than AR. Recent Flow Language Models (FLMs) apply continuous flows to language, transporting noise to data with a deterministic ODE that avoids factorized sampling. FLMs operate on one-hot vectors whose dimension scales with the vocabulary size, making FLMs costly to train. Moreover, since all distinct one-hot embeddings are equidistant in $\\ell_2$, adding Gaussian noise does not have a clear semantic interpretation (unlike images, where Gaussian noise progressively degrades structure). We introduce $\\mathbb{S}$-FLM, a latent FLM in the hypersphere. $\\mathbb{S}$-FLM generates sequences by rotating vectors in $\\mathbb{S}^{d-1}$ along a velocity field learned with cross-entropy, avoiding the overhead of materializing one-hot vectors. Previous FLMs match AR in Generative Perplexity (Gen.\\ PPL), but samples with high likelihood are not necessarily correct in verifiable domains such as math and code. $\\mathbb{S}$-FLM substantially improves continuous flow language models on large-vocabulary reasoning and closes the gap to masked diffusion under standard-temperature sampling ($T=1$), while a gap remains under optimized low-temperature ($T=0.1$) decoding.",
+      "categories": [
+        "cs.LG"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2605.11125v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.11125v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.11125v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.11125v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
     "2605.10901": {
       "title": "Beyond Red-Teaming: Formal Guarantees of LLM Guardrail Classifiers",
       "authors": [
@@ -42,27 +221,27 @@
         "Jakeb Chouinard"
       ],
       "published": "2026-05-11T16:35:32+00:00",
-      "updated": "2026-05-11T16:35:32+00:00",
+      "updated": "2026-05-12T17:19:23+00:00",
       "summary": "Periodic signals are critical for representing physical and perceptual phenomena. Scalar, real angular measures, e.g., radians and degrees, result in difficulty processing and distinguishing nearby angles, especially when their absolute difference exceeds pi. We can avoid this problem by using real-valued, periodic embeddings in high-dimensional space. These representations also allow us to control the nature of their dot product similarities, allowing us to construct a variety of different kernel shapes. In this work, we aim of highlight how these representations can be constructed and focus on the formalization of Dirichlet and periodic Gaussian kernels using the neurally-plausible representation scheme of Spatial Semantic Pointers.",
       "categories": [
         "cs.LG",
         "q-bio.NC"
       ],
       "primary_category": "cs.LG",
-      "pdf_url": "https://arxiv.org/pdf/2605.10818v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.10818v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2605.10818v1",
+      "entry_id": "http://arxiv.org/abs/2605.10818v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2605.10818v1",
+          "href": "https://arxiv.org/abs/2605.10818v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2605.10818v1",
+          "href": "https://arxiv.org/pdf/2605.10818v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -111963,6 +112142,120 @@
     }
   },
   "Depth Estimation": {
+    "2605.11840": {
+      "title": "Selection, Not Fusion: Radar-Modulated State Space Models for Radar-Camera Depth Estimation",
+      "authors": [
+        "Zhangcheng Hou",
+        "Tomoaki Ohtsuki"
+      ],
+      "published": "2026-05-12T09:25:54+00:00",
+      "updated": "2026-05-12T09:25:54+00:00",
+      "summary": "Radar-camera depth estimation must turn an ultra-sparse, all-weather, metric radar signal into a dense per-pixel depth map. Existing methods -- concatenation, confidence-aware gating, sparse supervision, graph-based extraction -- combine radar and image features outside the backbone's sequence operator, and even cross-modal Mamba variants leave the selection mechanism itself unimodal. We argue that the selection mechanism is the right place for radar to enter. We introduce Radar-Modulated Selection (RMS), a minimal and principled way to inject radar into Mamba's selective scan: radar modulates the scan from within, adding zero-initialised perturbations to the step size $Δ$ and readout $\\mathbf{C}$ while leaving the input projection $\\mathbf{B}$ and state dynamics $\\mathbf{A}$ image-only. The construction is exactly equivalent to a pretrained image-only Mamba at initialisation, ensuring radar only influences the model where it improves accuracy. Two further properties follow that out-of-scan fusion cannot offer: linear-cost cross-modal coupling at every recurrence step, and a natural fallback to the image-only backbone when radar is absent. We deploy RMS in a Multi-View Scan Pyramid (MVSP) that matches the fusion operator to radar's spatial reach at each scale. SemoDepth achieves state-of-the-art performance on nuScenes, reducing MAE by 34.0%, 29.9%, and 29.9% over the previous best at 0--50, 0--70, and 0--80m, while attaining the lowest single-frame latency (26.8ms). A further ablation shows that out-of-scan feature blending adds no accuracy on top of RMS, providing empirical validation that in-scan selection can replace out-of-scan fusion.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.11840v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "16 pages, 3 figures, 9 tables",
+      "entry_id": "http://arxiv.org/abs/2605.11840v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.11840v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.11840v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2605.11756": {
+      "title": "Focusable Monocular Depth Estimation",
+      "authors": [
+        "Yuxin Du",
+        "Tao Lin",
+        "Zile Zhong",
+        "Runting Li",
+        "Xiyao Chen",
+        "Jiting Liu",
+        "Chenglin Liu",
+        "Ying-Cong Chen",
+        "Yuqian Fu",
+        "Bo Zhao"
+      ],
+      "published": "2026-05-12T08:30:53+00:00",
+      "updated": "2026-05-12T08:30:53+00:00",
+      "summary": "Monocular depth foundation models generalize well across scenes, yet they are typically optimized with uniform pixel-wise objectives that do not distinguish user-specified or task-relevant target regions from the surrounding context. We therefore introduce Focusable Monocular Depth Estimation (FDE), a region-aware depth estimation task in which, given a specified target region, the model is required to prioritize foreground depth accuracy, preserve sharp boundary transitions, and maintain coherent global scene geometry. To prioritize task-critical region modeling, we propose FocusDepth, a prompt-conditioned monocular relative depth estimation framework that guides depth modeling to focus on target regions via box/text prompts. The core Multi-Scale Spatial-Aligned Fusion (MSSA) in FocusDepth spatially aligns multi-scale features from Segment Anything Model 3 to the Depth Anything family and injects them through scale-specific, gated conditional fusion. This enables dense prompt cue injection without disrupting geometric representations, thereby endowing the depth estimation model with focused perception capability. To study FDE, we establish FDE-Bench, a target-centric monocular relative depth benchmark built from image-target-depth triplets across five datasets, containing 252.9K/72.5K train/val triplets and 972 categories spanning real-world and embodied simulation environments. On FDE-Bench, FocusDepth consistently improves over globally fine-tuned DA2/DA3 baselines under both box and text prompts, with the largest gains appearing in target boundary and foreground regions while preserving global scene geometry. Ablations show that MSSA's spatial alignment is the key design factor, as disrupting prompt-geometry correspondence increases AbsRel by up to 13.8%.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.11756v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.11756v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.11756v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.11756v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
+    "2605.11578": {
+      "title": "The Midas Touch for Metric Depth",
+      "authors": [
+        "Yu Ma",
+        "Zizhan Guo",
+        "Zuyi Xiong",
+        "Haoran Zhang",
+        "Yi Feng",
+        "Hongbo Zhao",
+        "Hanli Wang",
+        "Rui Fan"
+      ],
+      "published": "2026-05-12T06:03:26+00:00",
+      "updated": "2026-05-12T06:03:26+00:00",
+      "summary": "Recent advances have markedly improved the cross-scene generalization of relative depth estimation, yet its practical applicability remains limited by the absence of metric scale, local inconsistencies, and low computational efficiency. To address these issues, we present \\emph{\\textbf{M}idas \\textbf{T}ouch for \\textbf{D}epth} (MTD), a mathematically interpretable approach that converts relative depth into metric depth using only extremely sparse 3D data. To eliminate local scale inconsistencies, it applies a segment-wise recovery strategy via sparse graph optimization, followed by a pixel-wise refinement strategy using a discontinuity-aware geodesic cost. MTD exhibits strong generalization and achieves substantial accuracy improvements over previous depth completion and depth estimation methods. Moreover, its lightweight, plug-and-play design facilitates deployment and integration on diverse downstream 3D tasks. Project page is available at https://mias.group/MTD.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.11578v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.11578v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.11578v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.11578v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2605.10675": {
       "title": "Neuromorphic Monocular Depth Estimation with Uncertainty Modeling",
       "authors": [
@@ -112002,7 +112295,8 @@
     "2605.10525": {
       "title": "GemDepth: Geometry-Embedded Features for 3D-Consistent Video Depth",
       "authors": [
-        "Yuecheng LiulJunda Cheng",
+        "Yuecheng Liu",
+        "Junda Cheng",
         "Longliang Liu",
         "Wenjing Liao",
         "Hanrui Cheng",
@@ -112010,26 +112304,26 @@
         "Xin Yang"
       ],
       "published": "2026-05-11T13:11:54+00:00",
-      "updated": "2026-05-11T13:11:54+00:00",
-      "summary": "Video depth estimation extends monocular prediction into the temporal domain to ensure coherence. However, existing methods often suffer from spatial blurring in fine-detail regions and temporal inconsistencies. We argue that current approaches, which primarily rely on temporal smoothing via Transformers, struggle to maintain strict 3D geometric consistency-particularly under rotations or drastic view changes. To address this, we propose GemDepth, a framework built on the insight that an explicit awareness of camera motion and global 3D structure is a prerequisite for 3D consistency. Distinctively, GemDepth introduces a Geometry-Embedding Module (GEM) that predicts inter-frame camera poses to generate implicit geometric embeddings. This injection of motion priors equips the network with intrinsic 3D perception and alignment capabilities. Guided by these geometric cues, our Alternating Spatio-Temporal Transformer (ASTT) captures latent point-level correspondences to simultaneously enhance spatial precision for sharp details and enforce rigorous temporal consistency. Furthermore, GemDepth employs a data-efficient training strategy, effectively bridging the gap between high efficiency and robust geometric consistency. As shown in Fig.2, comprehensive evaluations demonstrate that GemDepth achieves state-of-the-art performance across multiple datasets, particularly in complex dynamic scenarios. The code is publicly available at: https://github.com/Yuecheng919/GemDepth",
+      "updated": "2026-05-12T07:16:58+00:00",
+      "summary": "Video depth estimation extends monocular prediction into the temporal domain to ensure coherence. However, existing methods often suffer from spatial blurring in fine-detail regions and temporal inconsistencies. We argue that current approaches, which primarily rely on temporal smoothing via Transformers, struggle to maintain strict 3D geometric consistency-particularly under rotations or drastic view changes. To address this, we propose GemDepth, a framework built on the insight that an explicit awareness of camera motion and global 3D structure is a prerequisite for 3D consistency. Distinctively, GemDepth introduces a Geometry-Embedding Module (GEM) that predicts inter-frame camera poses to generate implicit geometric embeddings. This injection of motion priors equips the network with intrinsic 3D perception and alignment capabilities. Guided by these geometric cues, our Alternating Spatio-Temporal Transformer (ASTT) captures latent point-level correspondences to simultaneously enhance spatial precision for sharp details and enforce rigorous temporal consistency. Furthermore, GemDepth employs a data-efficient training strategy, effectively bridging the gap between high efficiency and robust geometric consistency. As shown in Fig.2, comprehensive evaluations demonstrate that GemDepth achieves state-of-the-art performance across multiple datasets, particularly in complex dynamic scenarios. The code is publicly available at: https://github.com/Yuecheng919/GemDepth.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2605.10525v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.10525v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2605.10525v1",
+      "entry_id": "http://arxiv.org/abs/2605.10525v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2605.10525v1",
+          "href": "https://arxiv.org/abs/2605.10525v2",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2605.10525v1",
+          "href": "https://arxiv.org/pdf/2605.10525v2",
           "title": "pdf",
           "rel": "related",
           "content_type": null
