@@ -1,4 +1,4 @@
-## Updated at 2026-05-14 08:43:50
+## Updated at 2026-05-14 20:40:22
 
 ## 3DGS Semantic
 
@@ -8,6 +8,17 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-05-13**|**[Unlocking Patch-Level Features for CLIP-Based Class-Incremental Learning](https://arxiv.org/abs/2605.13835)**|N/A|None|cs.CV|None|Hao Sun et al.|
+|**2026-05-13**|**[A Hierarchical Language Model with Predictable Scaling Laws and Provable Benefits of Reasoning](https://arxiv.org/abs/2605.13687)**|N/A|None|cs.LG|None|Jason Gaitonde et al.|
+|**2026-05-13**|**[Sparse Code Uplifting for Efficient 3D Language Gaussian Splatting](https://arxiv.org/abs/2605.13600)**|N/A|18 pages (9 pages main paper), 10 figures, preprint|cs.CV|None|Lovre Antonio Budimir et al.|
+|**2026-05-13**|**[Verifying Exact Samplers for Continuous Distributions with a Discrete Program Logic](https://arxiv.org/abs/2605.13526)**|N/A|None|cs.LO|None|Markus de Medeiros et al.|
+|**2026-05-13**|**[Z-Order Transformer for Feed-Forward Gaussian Splatting](https://arxiv.org/abs/2605.13465)**|N/A|Accept by CVPR 2026, Oral|cs.CV|None|Can Wang et al.|
+|**2026-05-13**|**[HarmoGS: Robust 3D Gaussian Splatting in the Wild via Conflict-Aware Gradient Harmonization](https://arxiv.org/abs/2605.13073)**|N/A|None|cs.CV|None|Yulei Kang et al.|
+|**2026-05-13**|**[OCH3R: Object-Centric Holistic 3D Reconstruction](https://arxiv.org/abs/2605.13018)**|N/A|None|cs.CV|None|Yi Du et al.|
+|**2026-05-13**|**[DP-Muon: Differentially Private Optimization via Matrix-Orthogonalized Momentum](https://arxiv.org/abs/2605.12994)**|N/A|26 pages|cs.LG|None|Jihwan Kim, Chenglin Fan|
+|**2026-05-13**|**[Certified Robustness under Heterogeneous Perturbations via Hybrid Randomized Smoothing](https://arxiv.org/abs/2605.12876)**|N/A|ICML 2026. Code: https://github.com/tdsai-lab/hybrid-randomized-smoothing|cs.LG|None|Blaise Delattre et al.|
+|**2026-05-12**|**[Revealing Interpretable Failure Modes of VLMs](https://arxiv.org/abs/2605.12674)**|N/A|None|cs.AI|None|Isha Chaudhary et al.|
+|**2026-05-12**|**[Population Risk Bounds for Kolmogorov-Arnold Networks Trained by DP-SGD with Correlated Noise](https://arxiv.org/abs/2605.12648)**|N/A|None|cs.LG|None|Puyu Wang et al.|
 |**2026-05-12**|**[DiffSegLung: Diffusion Radiomic Distillation for Unsupervised Lung Pathology Segmentation](https://arxiv.org/abs/2605.11758)**|N/A|None|eess.IV|None|Rezkellah Noureddine Khiati et al.|
 |**2026-05-12**|**[Taming Extreme Tokens: Covariance-Aware GRPO with Gaussian-Kernel Advantage Reweighting](https://arxiv.org/abs/2605.11538)**|N/A|ACL 2026|cs.CL|None|Cheng Wang et al.|
 |**2026-05-12**|**[PointGS: Semantic-Consistent Unsupervised 3D Point Cloud Segmentation with 3D Gaussian Splatting](https://arxiv.org/abs/2605.11520)**|N/A|Accepted by Computer Vision and Pattern Recognition (CVPR) 2026|cs.CV|None|Yixiao Song et al.|
@@ -959,6 +970,9 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-05-13**|**[CoGE: Sim-to-Real Online Geometric Estimation for Monocular Colonoscopy](https://arxiv.org/abs/2605.13038)**|N/A|Early Accepted by MICCAI 2026|cs.CV|None|Liangjing Shao et al.|
+|**2026-05-13**|**[OCH3R: Object-Centric Holistic 3D Reconstruction](https://arxiv.org/abs/2605.13018)**|N/A|None|cs.CV|None|Yi Du et al.|
+|**2026-05-12**|**[A Data Efficiency Study of Synthetic Fog for Object Detection Using the Clear2Fog Pipeline](https://arxiv.org/abs/2605.12608)**|N/A|Project code and experimental configs available at https://github.com/mmohamed28/Clear2Fog|cs.CV|None|Mohamed Ahmed Mohamed, Xiaowei Huang|
 |**2026-05-12**|**[Selection, Not Fusion: Radar-Modulated State Space Models for Radar-Camera Depth Estimation](https://arxiv.org/abs/2605.11840)**|N/A|16 pages, 3 figures, 9 tables|cs.CV|None|Zhangcheng Hou, Tomoaki Ohtsuki|
 |**2026-05-12**|**[Focusable Monocular Depth Estimation](https://arxiv.org/abs/2605.11756)**|N/A|None|cs.CV|None|Yuxin Du et al.|
 |**2026-05-12**|**[The Midas Touch for Metric Depth](https://arxiv.org/abs/2605.11578)**|N/A|None|cs.CV|None|Yu Ma et al.|
