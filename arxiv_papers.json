@@ -1,5 +1,195 @@
 {
   "3DGS Semantic": {
+    "2605.15193": {
+      "title": "Aligning Latent Geometry for Spherical Flow Matching in Image Generation",
+      "authors": [
+        "Tuna Han Salih Meral",
+        "Kaan Oktay",
+        "Hidir Yesiltepe",
+        "Adil Kaan Akan",
+        "Pinar Yanardag"
+      ],
+      "published": "2026-05-14T17:59:37+00:00",
+      "updated": "2026-05-14T17:59:37+00:00",
+      "summary": "Latent flow matching for image generation usually transports Gaussian noise to variational autoencoder latents along linear paths. Both endpoints, however, concentrate in thin spherical shells, and a Euclidean chord leaves those shells even when preprocessing aligns their radii. By decomposing each latent token into radial and angular components, we show through component-swap probes that decoded perceptual and semantic content is carried predominantly by direction, with radius contributing much less. We therefore project data latents onto a fixed token radius, use the radial projection of Gaussian noise as the spherical prior, finetune the decoder with the encoder frozen, and replace linear interpolation with spherical linear interpolation. The resulting geodesic paths stay on the sphere at every timestep, and their velocity targets are purely angular by construction. Under matched training, the method consistently improves class-conditional ImageNet-256 FID across different image tokenizers, leaves the diffusion architecture unchanged, and requires no auxiliary encoder or representation-alignment objective.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.15193v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.15193v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.15193v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.15193v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.15190": {
+      "title": "RAVEN: Real-time Autoregressive Video Extrapolation with Consistency-model GRPO",
+      "authors": [
+        "Yanzuo Lu",
+        "Ronglai Zuo",
+        "Jiankang Deng"
+      ],
+      "published": "2026-05-14T17:59:30+00:00",
+      "updated": "2026-05-14T17:59:30+00:00",
+      "summary": "Causal autoregressive video diffusion models support real-time streaming generation by extrapolating future chunks from previously generated content. Distilling such generators from high-fidelity bidirectional teachers yields competitive few-step models, yet a persistent gap between the history distributions encountered during training and those arising at inference constrains generation quality over long horizons. We introduce the Real-time Autoregressive Video Extrapolation Network (RAVEN), a training-time test framework that repacks each self rollout into an interleaved sequence of clean historical endpoints and noisy denoising states. This formulation aligns training attention with inference-time extrapolation and allows downstream chunk losses to supervise the history representations on which future predictions depend. We further propose Consistency-model Group Relative Policy Optimization (CM-GRPO), which reformulates a consistency sampling step as a conditional Gaussian transition and applies online Reinforcement Learning (RL) directly to this kernel, avoiding the Euler-Maruyama auxiliary process adopted in prior flow-model RL formulations. Experiments demonstrate that RAVEN surpasses recent causal video distillation baselines across quality, semantic, and dynamic degree evaluations, and that CM-GRPO provides further gains when combined with RAVEN.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.15190v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Project Page: https://yanzuo.lu/raven",
+      "entry_id": "http://arxiv.org/abs/2605.15190v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.15190v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.15190v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.14838": {
+      "title": "Multi-proposal Collaboration and Multi-task Training for Weakly-supervised Video Moment Retrieval",
+      "authors": [
+        "Bolin Zhang",
+        "Chao Yang",
+        "Bin Jiang",
+        "Takahiro Komamizu",
+        "Ichiro Ide"
+      ],
+      "published": "2026-05-14T13:43:32+00:00",
+      "updated": "2026-05-14T13:43:32+00:00",
+      "summary": "This study focuses on weakly-supervised Video Moment Retrieval (VMR), aiming to identify a moment semantically similar to the given query within an untrimmed video using only video-level correspondences, without relying on temporal annotations during training. Previous methods either aggregate predictions for all instances in the video, or indirectly address the task by proposing reconstructions for the query. However, these methods often produce low-quality temporal proposals, struggle with distinguishing misaligned moments in the same video, or lack stability due to a reliance on a single auxiliary task. To address these limitations, we present a novel weakly-supervised method called Multi-proposal Collaboration and Multi-task Training (MCMT). Initially, we generate multiple proposals and derive corresponding learnable Gaussian masks from them. These masks are then combined to create a high-quality positive sample mask, highlighting video clips most relevant to the query. Concurrently, we classify other clips in the same video as the easy negative sample and the entire video as the hard negative sample. During training, we introduce forward and inverse masked query reconstruction tasks to impose more substantial constraints on the network, promoting more robust and stable retrieval performance. Extensive experiments on two standard benchmarks affirm the effectiveness of the proposed method in VMR.",
+      "categories": [
+        "cs.CV",
+        "cs.MM"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.14838v1",
+      "journal_ref": "International Journal of Machine Learning and Cybernetics 16, 4509-4524 (2025)",
+      "doi": "10.1007/s13042-024-02520-w",
+      "comment": "26 pages, 4 figures. Preprint version of the article published in International Journal of Machine Learning and Cybernetics",
+      "entry_id": "http://arxiv.org/abs/2605.14838v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.14838v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.14838v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        },
+        {
+          "href": "https://doi.org/10.1007/s13042-024-02520-w",
+          "title": "doi",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.14601": {
+      "title": "Towards Accurate Single Panoramic 3D Detection: A Semantic Gaussian Centric Approach",
+      "authors": [
+        "Kanglin Ning",
+        "Yiran Zhao",
+        "Wenrui Li",
+        "Shaoru Sun",
+        "Xingtao Wang",
+        "Xiaopeng Fan"
+      ],
+      "published": "2026-05-14T09:14:24+00:00",
+      "updated": "2026-05-14T09:14:24+00:00",
+      "summary": "Three-dimensional object detection in panoramic imagery is crucial for comprehensive scene understanding, yet accurately mapping 2D features to 3D remains a significant challenge. Prevailing methods often project 2D features onto discrete 3D grids, which break geometric continuity and limit representation efficiency. To overcome this limitation, this paper proposes PanoGSDet, a monocular panoramic 3D detection framework built upon continuous semantic 3D Gaussian representations. The proposed framework comprises a panoramic depth estimation component and a semantic Gaussian component. The panoramic depth estimation component extracts the equirectangular semantic and depth features from the monocular panorama input. The semantic Gaussian component includes a semantic Gaussian lifting module that projects spherical features into 3D semantic Gaussians, a semantic Gaussian optimization module that refines these semantic Gaussians, and a Gaussian guided prediction head that generates 3D bounding boxes from optimized Gaussian representations. Extensive experiments on the Structured3D dataset demonstrate that our method significantly outperforms existing methods.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.14601v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Current has been accepted by ICME 2026",
+      "entry_id": "http://arxiv.org/abs/2605.14601v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.14601v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.14601v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.14301": {
+      "title": "Language-Induced Priors for Domain Adaptation",
+      "authors": [
+        "Qiyuan Chen",
+        "Jiayu Zhou",
+        "Raed Al Kontar"
+      ],
+      "published": "2026-05-14T03:07:48+00:00",
+      "updated": "2026-05-14T03:07:48+00:00",
+      "summary": "Domain adaptation faces a fundamental paradox in the cold-start regime. When target data is scarce, statistical methods fail to distinguish relevant source domains from irrelevant ones, which often leads to negative transfer. In this paper, we address this challenge by leveraging expert textual descriptions of the target domain, a resource that is often available but overlooked. We propose a probabilistic framework that translates these semantic descriptions into a choice model, namely a Language-Induced Prior (LIP), that learns the preferences from a pretrained Large Language Model (LLM). The LIP is then integrated into an Expectation-Maximization algorithm to identify source relevance. Methodologically, this framework is compatible with any parametric model where a likelihood is available. It allows the LIP to guide the selection of sources when target signals are weak, while gradually refining these choices as samples accumulate. Theoretically, we prove that the estimator roughly matches an oracle cold-start MSE under a correct prior, while remaining asymptotically consistent regardless of the quality of the LIP. Empirically, we validated the framework on a descriptive (Gaussian estimation), a predictive (C-MAPSS dataset), and a prescriptive task (MuJoCo hopper).",
+      "categories": [
+        "cs.LG",
+        "stat.ML"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2605.14301v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.14301v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.14301v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.14301v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ],
+      "llm_approved": true
+    },
     "2605.13835": {
       "title": "Unlocking Patch-Level Features for CLIP-Based Class-Incremental Learning",
       "authors": [
@@ -2537,27 +2727,27 @@
         "Zhen Cui"
       ],
       "published": "2026-05-04T10:36:43+00:00",
-      "updated": "2026-05-13T14:58:27+00:00",
+      "updated": "2026-05-14T13:44:29+00:00",
       "summary": "Open-set supervised anomaly detection (OSAD) aims to identify unseen anomalies using limited anomalous supervision. However, existing prototype-based methods typically model normal data via a unimodal Gaussian prior, failing to capture inherent multi-modality and resulting in blurred decision boundaries. To address this, we propose Mixture Prototype Flow Matching (MPFM), a framework that learns a continuous transformation from normal feature distributions to a structured Gaussian mixture prototype space. Departing from traditional flow-based approaches that rely on a single velocity vector, MPFM explicitly models the velocity field as a Gaussian mixture prior where each component corresponds to a distinct normal class. This design facilitates mode-aware and semantically coherent distribution transport. Furthermore, we introduce a Mutual Information Maximization Regularizer (MIMR) to prevent prototype collapse and maximize normal-anomaly separability. Extensive experiments demonstrate that MPFM achieves state-of-the-art performance across diverse benchmarks under both single- and multi-anomaly settings.",
       "categories": [
         "cs.CV",
         "cs.LG"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2605.02438v2",
+      "pdf_url": "https://arxiv.org/pdf/2605.02438v3",
       "journal_ref": null,
       "doi": null,
       "comment": "Accepted by ICML 2026",
-      "entry_id": "http://arxiv.org/abs/2605.02438v2",
+      "entry_id": "http://arxiv.org/abs/2605.02438v3",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2605.02438v2",
+          "href": "https://arxiv.org/abs/2605.02438v3",
           "title": null,
           "rel": "alternate",
           "content_type": null
         },
         {
-          "href": "https://arxiv.org/pdf/2605.02438v2",
+          "href": "https://arxiv.org/pdf/2605.02438v3",
           "title": "pdf",
           "rel": "related",
           "content_type": null
@@ -112550,6 +112740,43 @@
     }
   },
   "Depth Estimation": {
+    "2605.14601": {
+      "title": "Towards Accurate Single Panoramic 3D Detection: A Semantic Gaussian Centric Approach",
+      "authors": [
+        "Kanglin Ning",
+        "Yiran Zhao",
+        "Wenrui Li",
+        "Shaoru Sun",
+        "Xingtao Wang",
+        "Xiaopeng Fan"
+      ],
+      "published": "2026-05-14T09:14:24+00:00",
+      "updated": "2026-05-14T09:14:24+00:00",
+      "summary": "Three-dimensional object detection in panoramic imagery is crucial for comprehensive scene understanding, yet accurately mapping 2D features to 3D remains a significant challenge. Prevailing methods often project 2D features onto discrete 3D grids, which break geometric continuity and limit representation efficiency. To overcome this limitation, this paper proposes PanoGSDet, a monocular panoramic 3D detection framework built upon continuous semantic 3D Gaussian representations. The proposed framework comprises a panoramic depth estimation component and a semantic Gaussian component. The panoramic depth estimation component extracts the equirectangular semantic and depth features from the monocular panorama input. The semantic Gaussian component includes a semantic Gaussian lifting module that projects spherical features into 3D semantic Gaussians, a semantic Gaussian optimization module that refines these semantic Gaussians, and a Gaussian guided prediction head that generates 3D bounding boxes from optimized Gaussian representations. Extensive experiments on the Structured3D dataset demonstrate that our method significantly outperforms existing methods.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.14601v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Current has been accepted by ICME 2026",
+      "entry_id": "http://arxiv.org/abs/2605.14601v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.14601v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": null
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.14601v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": null
+        }
+      ]
+    },
     "2605.13038": {
       "title": "CoGE: Sim-to-Real Online Geometric Estimation for Monocular Colonoscopy",
       "authors": [

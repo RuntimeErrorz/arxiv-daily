@@ -1,4 +1,4 @@
-## Updated at 2026-05-15 08:40:45
+## Updated at 2026-05-15 20:39:50
 
 ## 3DGS Semantic
 
@@ -8,6 +8,11 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-05-14**|**[Aligning Latent Geometry for Spherical Flow Matching in Image Generation](https://arxiv.org/abs/2605.15193)**|N/A|None|cs.CV|None|Tuna Han Salih Meral et al.|
+|**2026-05-14**|**[RAVEN: Real-time Autoregressive Video Extrapolation with Consistency-model GRPO](https://arxiv.org/abs/2605.15190)**|N/A|Project Page: https://yanzuo.lu/raven|cs.CV|None|Yanzuo Lu et al.|
+|**2026-05-14**|**[Multi-proposal Collaboration and Multi-task Training for Weakly-supervised Video Moment Retrieval](https://arxiv.org/abs/2605.14838)**|N/A|26 pages, 4 figures. Preprint version of the article published in International Journal of Machine Learning and Cybernetics|cs.CV|International Journal of Machine Learning and Cybernetics 16, 4509-4524 (2025)|Bolin Zhang et al.|
+|**2026-05-14**|**[Towards Accurate Single Panoramic 3D Detection: A Semantic Gaussian Centric Approach](https://arxiv.org/abs/2605.14601)**|N/A|Current has been accepted by ICME 2026|cs.CV|None|Kanglin Ning et al.|
+|**2026-05-14**|**[Language-Induced Priors for Domain Adaptation](https://arxiv.org/abs/2605.14301)**|N/A|None|cs.LG|None|Qiyuan Chen et al.|
 |**2026-05-13**|**[Unlocking Patch-Level Features for CLIP-Based Class-Incremental Learning](https://arxiv.org/abs/2605.13835)**|N/A|None|cs.CV|None|Hao Sun et al.|
 |**2026-05-13**|**[A Hierarchical Language Model with Predictable Scaling Laws and Provable Benefits of Reasoning](https://arxiv.org/abs/2605.13687)**|N/A|None|cs.LG|None|Jason Gaitonde et al.|
 |**2026-05-13**|**[Sparse Code Uplifting for Efficient 3D Language Gaussian Splatting](https://arxiv.org/abs/2605.13600)**|N/A|18 pages (9 pages main paper), 10 figures, preprint|cs.CV|None|Lovre Antonio Budimir et al.|
@@ -970,6 +975,7 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-05-14**|**[Towards Accurate Single Panoramic 3D Detection: A Semantic Gaussian Centric Approach](https://arxiv.org/abs/2605.14601)**|N/A|Current has been accepted by ICME 2026|cs.CV|None|Kanglin Ning et al.|
 |**2026-05-13**|**[CoGE: Sim-to-Real Online Geometric Estimation for Monocular Colonoscopy](https://arxiv.org/abs/2605.13038)**|N/A|Early Accepted by MICCAI 2026|cs.CV|None|Liangjing Shao et al.|
 |**2026-05-13**|**[OCH3R: Object-Centric Holistic 3D Reconstruction](https://arxiv.org/abs/2605.13018)**|N/A|None|cs.CV|None|Yi Du et al.|
 |**2026-05-12**|**[A Data Efficiency Study of Synthetic Fog for Object Detection Using the Clear2Fog Pipeline](https://arxiv.org/abs/2605.12608)**|N/A|Project code and experimental configs available at https://github.com/mmohamed28/Clear2Fog|cs.CV|None|Mohamed Ahmed Mohamed, Xiaowei Huang|
