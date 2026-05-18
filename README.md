@@ -1,4 +1,4 @@
-## Updated at 2026-05-17 08:42:01
+## Updated at 2026-05-18 08:45:40
 
 ## 3DGS Semantic
 
@@ -10,7 +10,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |---|---|---|---|---|---|---|
 |**2026-05-14**|**[Aligning Latent Geometry for Spherical Flow Matching in Image Generation](https://arxiv.org/abs/2605.15193)**|N/A|None|cs.CV|None|Tuna Han Salih Meral et al.|
 |**2026-05-14**|**[RAVEN: Real-time Autoregressive Video Extrapolation with Consistency-model GRPO](https://arxiv.org/abs/2605.15190)**|N/A|Project Page: https://yanzuo.lu/raven|cs.CV|None|Yanzuo Lu et al.|
-|**2026-05-14**|**[Multi-proposal Collaboration and Multi-task Training for Weakly-supervised Video Moment Retrieval](https://arxiv.org/abs/2605.14838)**|N/A|26 pages, 4 figures. Preprint version of the article published in International Journal of Machine Learning and Cybernetics|cs.CV|International Journal of Machine Learning and Cybernetics 16, 4509-4524 (2025)|Bolin Zhang et al.|
+|**2026-05-14**|**[Multi-proposal Collaboration and Multi-task Training for Weakly-supervised Video Moment Retrieval](https://arxiv.org/abs/2605.14838)**|International Journal of Machine Learning and Cybernetics|26 pages, 4 figures. Preprint version of the article published in International Journal of Machine Learning and Cybernetics|cs.CV|International Journal of Machine Learning and Cybernetics 16, 4509-4524 (2025)|Bolin Zhang et al.|
 |**2026-05-14**|**[Towards Accurate Single Panoramic 3D Detection: A Semantic Gaussian Centric Approach](https://arxiv.org/abs/2605.14601)**|N/A|Current has been accepted by ICME 2026|cs.CV|None|Kanglin Ning et al.|
 |**2026-05-14**|**[Language-Induced Priors for Domain Adaptation](https://arxiv.org/abs/2605.14301)**|N/A|None|cs.LG|None|Qiyuan Chen et al.|
 |**2026-05-13**|**[Unlocking Patch-Level Features for CLIP-Based Class-Incremental Learning](https://arxiv.org/abs/2605.13835)**|N/A|None|cs.CV|None|Hao Sun et al.|
@@ -32,7 +32,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2026-05-11**|**[Beyond Red-Teaming: Formal Guarantees of LLM Guardrail Classifiers](https://arxiv.org/abs/2605.10901)**|N/A|None|cs.LG|None|Nikita Kezins et al.|
 |**2026-05-11**|**[On periodic distributed representations using Fourier embeddings](https://arxiv.org/abs/2605.10818)**|N/A|None|cs.LG|None|Jakeb Chouinard|
 |**2026-05-11**|**[VEGA: Visual Encoder Grounding Alignment for Spatially-Aware Vision-Language-Action Models](https://arxiv.org/abs/2605.10485)**|N/A|None|cs.RO|None|Hao Wang et al.|
-|**2026-05-11**|**[PaMoSplat: Part-Aware Motion-Guided Gaussian Splatting for Dynamic Scene Reconstruction](https://arxiv.org/abs/2605.10307)**|N/A|Accepted by TCSVT. Project Url: https://pamosplat.github.io|cs.CV|None|Yinan Deng et al.|
+|**2026-05-11**|**[PaMoSplat: Part-Aware Motion-Guided Gaussian Splatting for Dynamic Scene Reconstruction](https://arxiv.org/abs/2605.10307)**|IEEE transactions on circuits and systems for video technology (Print)|Accepted by TCSVT. Project Url: https://pamosplat.github.io|cs.CV|None|Yinan Deng et al.|
 |**2026-05-11**|**[Edge-Cloud Collaborative Pothole Detection via Onboard Event Screening and Federated Temporal Segmentation](https://arxiv.org/abs/2605.10055)**|N/A|None|cs.DC|None|Yingjie Wu et al.|
 |**2026-05-11**|**[Rényi Rate-Distortion-Perception-Privacy Tradeoff under Indirect Observation](https://arxiv.org/abs/2605.09921)**|N/A|9 pages 2 figures|cs.IT|None|Jiahui Wei, Marios Kountouris|
 |**2026-05-11**|**[Deep Learning under Fractional-Order Differential Privacy](https://arxiv.org/abs/2605.09890)**|N/A|None|cs.CR|None|Mohammad Partohaghighi, Roummel Marcia|

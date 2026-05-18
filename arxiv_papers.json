@@ -26,16 +26,24 @@
           "href": "https://arxiv.org/abs/2605.15193v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.15193v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-18",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2605.15190": {
       "title": "RAVEN: Real-time Autoregressive Video Extrapolation with Consistency-model GRPO",
@@ -61,16 +69,24 @@
           "href": "https://arxiv.org/abs/2605.15190v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.15190v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-18",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2605.14838": {
       "title": "Multi-proposal Collaboration and Multi-task Training for Weakly-supervised Video Moment Retrieval",
@@ -99,13 +115,13 @@
           "href": "https://arxiv.org/abs/2605.14838v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.14838v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         },
         {
           "href": "https://doi.org/10.1007/s13042-024-02520-w",
@@ -114,7 +130,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-18",
+        "venue": "International Journal of Machine Learning and Cybernetics",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2605.14601": {
       "title": "Towards Accurate Single Panoramic 3D Detection: A Semantic Gaussian Centric Approach",
@@ -143,16 +166,24 @@
           "href": "https://arxiv.org/abs/2605.14601v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.14601v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-18",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2605.14301": {
       "title": "Language-Induced Priors for Domain Adaptation",
@@ -179,16 +210,24 @@
           "href": "https://arxiv.org/abs/2605.14301v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.14301v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-18",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2605.13835": {
       "title": "Unlocking Patch-Level Features for CLIP-Based Class-Incremental Learning",
@@ -214,16 +253,24 @@
           "href": "https://arxiv.org/abs/2605.13835v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.13835v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-18",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2605.13687": {
       "title": "A Hierarchical Language Model with Predictable Scaling Laws and Provable Benefits of Reasoning",
@@ -253,16 +300,24 @@
           "href": "https://arxiv.org/abs/2605.13687v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.13687v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-18",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2605.13600": {
       "title": "Sparse Code Uplifting for Efficient 3D Language Gaussian Splatting",
@@ -290,16 +345,24 @@
           "href": "https://arxiv.org/abs/2605.13600v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.13600v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-18",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2605.13526": {
       "title": "Verifying Exact Samplers for Continuous Distributions with a Discrete Program Logic",
@@ -328,16 +391,24 @@
           "href": "https://arxiv.org/abs/2605.13526v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.13526v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-18",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2605.13465": {
       "title": "Z-Order Transformer for Feed-Forward Gaussian Splatting",
@@ -364,16 +435,24 @@
           "href": "https://arxiv.org/abs/2605.13465v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.13465v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-18",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2605.13073": {
       "title": "HarmoGS: Robust 3D Gaussian Splatting in the Wild via Conflict-Aware Gradient Harmonization",
@@ -401,16 +480,24 @@
           "href": "https://arxiv.org/abs/2605.13073v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.13073v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-18",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2605.13018": {
       "title": "OCH3R: Object-Centric Holistic 3D Reconstruction",
@@ -437,16 +524,24 @@
           "href": "https://arxiv.org/abs/2605.13018v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.13018v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-18",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2605.12994": {
       "title": "DP-Muon: Differentially Private Optimization via Matrix-Orthogonalized Momentum",
@@ -471,16 +566,24 @@
           "href": "https://arxiv.org/abs/2605.12994v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.12994v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-18",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2605.12876": {
       "title": "Certified Robustness under Heterogeneous Perturbations via Hybrid Randomized Smoothing",
@@ -508,16 +611,24 @@
           "href": "https://arxiv.org/abs/2605.12876v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.12876v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-18",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2605.12674": {
       "title": "Revealing Interpretable Failure Modes of VLMs",
@@ -547,16 +658,24 @@
           "href": "https://arxiv.org/abs/2605.12674v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.12674v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-18",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2605.12648": {
       "title": "Population Risk Bounds for Kolmogorov-Arnold Networks Trained by DP-SGD with Correlated Noise",
@@ -587,16 +706,24 @@
           "href": "https://arxiv.org/abs/2605.12648v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.12648v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-18",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2605.11758": {
       "title": "DiffSegLung: Diffusion Radiomic Distillation for Unsupervised Lung Pathology Segmentation",
@@ -623,16 +750,24 @@
           "href": "https://arxiv.org/abs/2605.11758v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.11758v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-18",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2605.11538": {
       "title": "Taming Extreme Tokens: Covariance-Aware GRPO with Gaussian-Kernel Advantage Reweighting",
@@ -661,16 +796,24 @@
           "href": "https://arxiv.org/abs/2605.11538v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.11538v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-18",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2605.11520": {
       "title": "PointGS: Semantic-Consistent Unsupervised 3D Point Cloud Segmentation with 3D Gaussian Splatting",
@@ -698,16 +841,24 @@
           "href": "https://arxiv.org/abs/2605.11520v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.11520v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-18",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2605.11144": {
       "title": "Forecast-aware Gaussian Splatting for Predictive 3D Representation in Language-Guided Pick-and-Place Manipulation",
@@ -732,16 +883,24 @@
           "href": "https://arxiv.org/abs/2605.11144v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.11144v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-18",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2605.11125": {
       "title": "Language Modeling with Hyperspherical Flows",
@@ -766,16 +925,24 @@
           "href": "https://arxiv.org/abs/2605.11125v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.11125v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-18",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2605.10901": {
       "title": "Beyond Red-Teaming: Formal Guarantees of LLM Guardrail Classifiers",
@@ -802,16 +969,24 @@
           "href": "https://arxiv.org/abs/2605.10901v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.10901v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-18",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2605.10818": {
       "title": "On periodic distributed representations using Fourier embeddings",
@@ -836,16 +1011,24 @@
           "href": "https://arxiv.org/abs/2605.10818v2",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.10818v2",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-18",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2605.10485": {
       "title": "VEGA: Visual Encoder Grounding Alignment for Spatially-Aware Vision-Language-Action Models",
@@ -881,16 +1064,24 @@
           "href": "https://arxiv.org/abs/2605.10485v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.10485v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-18",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2605.10307": {
       "title": "PaMoSplat: Part-Aware Motion-Guided Gaussian Splatting for Dynamic Scene Reconstruction",
@@ -921,13 +1112,13 @@
           "href": "https://arxiv.org/abs/2605.10307v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.10307v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         },
         {
           "href": "https://doi.org/10.1109/TCSVT.2026.3691475",
@@ -936,7 +1127,14 @@
           "content_type": null
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-18",
+        "venue": "IEEE transactions on circuits and systems for video technology (Print)",
+        "pub_type": "JournalArticle",
+        "publisher": null
+      }
     },
     "2605.10055": {
       "title": "Edge-Cloud Collaborative Pothole Detection via Onboard Event Screening and Federated Temporal Segmentation",
@@ -962,16 +1160,24 @@
           "href": "https://arxiv.org/abs/2605.10055v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.10055v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-18",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2605.09921": {
       "title": "Rényi Rate-Distortion-Perception-Privacy Tradeoff under Indirect Observation",
@@ -996,16 +1202,24 @@
           "href": "https://arxiv.org/abs/2605.09921v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.09921v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-18",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2605.09890": {
       "title": "Deep Learning under Fractional-Order Differential Privacy",
@@ -1031,16 +1245,24 @@
           "href": "https://arxiv.org/abs/2605.09890v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.09890v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-18",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2605.09859": {
       "title": "Learning to Align Generative Appearance Priors for Fine-grained Image Retrieval",
@@ -1068,16 +1290,24 @@
           "href": "https://arxiv.org/abs/2605.09859v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.09859v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-18",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2605.09662": {
       "title": "BEA-GS: BEyond RAdiance Supervision in 3DGS for Precise Object Extraction",
@@ -1107,16 +1337,24 @@
           "href": "https://arxiv.org/abs/2605.09662v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.09662v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-18",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2605.09608": {
       "title": "Geometry Conflict: Explaining and Controlling Forgetting in LLM Continual Post-Training",
@@ -1152,16 +1390,24 @@
           "href": "https://arxiv.org/abs/2605.09608v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.09608v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-18",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2605.09098": {
       "title": "Dynamic Meta-Metrics: Source-Sentence Conditioned Weighting for MT Evaluation",
@@ -1189,16 +1435,24 @@
           "href": "https://arxiv.org/abs/2605.09098v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.09098v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-18",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2605.09073": {
       "title": "Smoothing Out the Edges: Continuous-Time Estimation with Gaussian Process Motion Priors on Factor Graphs",
@@ -1226,16 +1480,24 @@
           "href": "https://arxiv.org/abs/2605.09073v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.09073v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-18",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2605.07955": {
       "title": "TimeLesSeg: Unified Contrast-Agnostic Cross-Sectional and Longitudinal MS Lesion Segmentation via a Stochastic Generative Model",
@@ -1271,13 +1533,13 @@
           "href": "https://arxiv.org/abs/2605.07955v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.07955v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -1318,13 +1580,13 @@
           "href": "https://arxiv.org/abs/2605.07863v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.07863v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -1365,13 +1627,13 @@
           "href": "https://arxiv.org/abs/2605.07820v2",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.07820v2",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -1409,13 +1671,13 @@
           "href": "https://arxiv.org/abs/2605.07390v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.07390v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -1453,13 +1715,13 @@
           "href": "https://arxiv.org/abs/2605.07351v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.07351v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -1497,13 +1759,13 @@
           "href": "https://arxiv.org/abs/2605.07221v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.07221v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -1541,13 +1803,13 @@
           "href": "https://arxiv.org/abs/2605.07193v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.07193v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -1583,13 +1845,13 @@
           "href": "https://arxiv.org/abs/2605.07148v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.07148v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -1625,16 +1887,24 @@
           "href": "https://arxiv.org/abs/2605.08265v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.08265v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-18",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2605.06831": {
       "title": "Why DDIM Hallucinates More than DDPM: A Theoretical Analysis of Reverse Dynamics",
@@ -1664,13 +1934,13 @@
           "href": "https://arxiv.org/abs/2605.06831v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.06831v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -1707,13 +1977,13 @@
           "href": "https://arxiv.org/abs/2605.06599v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.06599v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -1750,13 +2020,13 @@
           "href": "https://arxiv.org/abs/2605.06364v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.06364v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -1796,13 +2066,13 @@
           "href": "https://arxiv.org/abs/2605.06088v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.06088v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -1844,13 +2114,13 @@
           "href": "https://arxiv.org/abs/2605.05710v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.05710v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -1893,13 +2163,13 @@
           "href": "https://arxiv.org/abs/2605.05668v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.05668v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -1940,13 +2210,13 @@
           "href": "https://arxiv.org/abs/2605.05103v2",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.05103v2",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -1985,13 +2255,13 @@
           "href": "https://arxiv.org/abs/2605.05031v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.05031v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -2027,13 +2297,13 @@
           "href": "https://arxiv.org/abs/2605.05020v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.05020v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -2074,13 +2344,13 @@
           "href": "https://arxiv.org/abs/2605.04730v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.04730v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -2124,13 +2394,13 @@
           "href": "https://arxiv.org/abs/2605.04524v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.04524v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -2170,13 +2440,13 @@
           "href": "https://arxiv.org/abs/2605.04506v2",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.04506v2",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -2214,13 +2484,13 @@
           "href": "https://arxiv.org/abs/2605.03885v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.03885v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -2256,13 +2526,13 @@
           "href": "https://arxiv.org/abs/2605.03722v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.03722v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -2278,7 +2548,7 @@
     "2605.03012": {
       "title": "Euclid preparation. Three-dimensional galaxy clustering in configuration space: Three-point correlation function estimation",
       "authors": [
-        "Euclid Collaboration",
+        " Euclid Collaboration",
         "A. Veropalumbo",
         "M. Moresco",
         "F. Marulli",
@@ -2602,13 +2872,13 @@
           "href": "https://arxiv.org/abs/2605.03012v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.03012v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -2649,13 +2919,13 @@
           "href": "https://arxiv.org/abs/2605.02784v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.02784v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -2694,13 +2964,13 @@
           "href": "https://arxiv.org/abs/2605.02630v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.02630v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -2744,13 +3014,13 @@
           "href": "https://arxiv.org/abs/2605.02438v3",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.02438v3",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -2791,13 +3061,13 @@
           "href": "https://arxiv.org/abs/2605.02227v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.02227v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -2833,13 +3103,13 @@
           "href": "https://arxiv.org/abs/2605.02209v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.02209v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -2877,13 +3147,13 @@
           "href": "https://arxiv.org/abs/2605.02144v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.02144v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -2921,13 +3191,13 @@
           "href": "https://arxiv.org/abs/2605.02098v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.02098v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -2967,13 +3237,13 @@
           "href": "https://arxiv.org/abs/2605.01736v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.01736v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -3010,13 +3280,13 @@
           "href": "https://arxiv.org/abs/2605.01393v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.01393v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -3056,13 +3326,13 @@
           "href": "https://arxiv.org/abs/2605.00642v3",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.00642v3",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -3101,13 +3371,13 @@
           "href": "https://arxiv.org/abs/2605.00594v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.00594v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -3145,13 +3415,13 @@
           "href": "https://arxiv.org/abs/2605.00578v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.00578v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -3195,13 +3465,13 @@
           "href": "https://arxiv.org/abs/2605.00177v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.00177v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -3240,13 +3510,13 @@
           "href": "https://arxiv.org/abs/2604.28193v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.28193v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -3285,13 +3555,13 @@
           "href": "https://arxiv.org/abs/2604.28122v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.28122v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -3330,13 +3600,13 @@
           "href": "https://arxiv.org/abs/2604.28115v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.28115v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -3373,13 +3643,13 @@
           "href": "https://arxiv.org/abs/2604.27889v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.27889v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         },
         {
           "href": "https://doi.org/10.1109/TGRS.2026.3687393",
@@ -3442,13 +3712,13 @@
           "href": "https://arxiv.org/abs/2604.27844v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.27844v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -3492,13 +3762,13 @@
           "href": "https://arxiv.org/abs/2604.27833v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.27833v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -3538,13 +3808,13 @@
           "href": "https://arxiv.org/abs/2604.27572v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.27572v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -3584,13 +3854,13 @@
           "href": "https://arxiv.org/abs/2604.26588v2",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.26588v2",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -3629,13 +3899,13 @@
           "href": "https://arxiv.org/abs/2604.26492v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.26492v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -3672,13 +3942,13 @@
           "href": "https://arxiv.org/abs/2604.26352v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.26352v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -3719,13 +3989,13 @@
           "href": "https://arxiv.org/abs/2604.26262v2",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.26262v2",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -3761,13 +4031,13 @@
           "href": "https://arxiv.org/abs/2604.25685v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.25685v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -3807,13 +4077,13 @@
           "href": "https://arxiv.org/abs/2604.25975v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.25975v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -3852,13 +4122,13 @@
           "href": "https://arxiv.org/abs/2604.25330v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.25330v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -3895,13 +4165,13 @@
           "href": "https://arxiv.org/abs/2604.24692v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.24692v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         },
         {
           "href": "https://doi.org/10.1109/DSPA69176.2026.11476758",
@@ -3952,13 +4222,13 @@
           "href": "https://arxiv.org/abs/2604.24622v2",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.24622v2",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -3999,13 +4269,13 @@
           "href": "https://arxiv.org/abs/2604.24187v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.24187v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -4048,13 +4318,13 @@
           "href": "https://arxiv.org/abs/2604.23996v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.23996v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -4094,13 +4364,13 @@
           "href": "https://arxiv.org/abs/2604.23540v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.23540v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -4140,13 +4410,13 @@
           "href": "https://arxiv.org/abs/2604.22439v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.22439v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -4185,13 +4455,13 @@
           "href": "https://arxiv.org/abs/2604.22364v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.22364v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -4234,13 +4504,13 @@
           "href": "https://arxiv.org/abs/2604.22160v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.22160v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -4277,13 +4547,13 @@
           "href": "https://arxiv.org/abs/2604.21790v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.21790v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -4325,13 +4595,13 @@
           "href": "https://arxiv.org/abs/2604.21649v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.21649v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -4368,13 +4638,13 @@
           "href": "https://arxiv.org/abs/2604.21395v2",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.21395v2",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -4412,13 +4682,13 @@
           "href": "https://arxiv.org/abs/2604.21343v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.21343v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -4458,13 +4728,13 @@
           "href": "https://arxiv.org/abs/2604.19571v2",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.19571v2",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -4502,13 +4772,13 @@
           "href": "https://arxiv.org/abs/2604.19240v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.19240v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -4547,13 +4817,13 @@
           "href": "https://arxiv.org/abs/2604.18424v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.18424v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -4596,13 +4866,13 @@
           "href": "https://arxiv.org/abs/2604.17906v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.17906v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -4643,13 +4913,13 @@
           "href": "https://arxiv.org/abs/2604.17802v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.17802v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -4688,13 +4958,13 @@
           "href": "https://arxiv.org/abs/2604.17776v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.17776v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -4734,13 +5004,13 @@
           "href": "https://arxiv.org/abs/2604.17465v2",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.17465v2",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -4781,13 +5051,13 @@
           "href": "https://arxiv.org/abs/2604.17451v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.17451v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -4827,13 +5097,13 @@
           "href": "https://arxiv.org/abs/2604.17319v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.17319v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -4870,13 +5140,13 @@
           "href": "https://arxiv.org/abs/2604.17298v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.17298v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -4914,13 +5184,13 @@
           "href": "https://arxiv.org/abs/2604.17155v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.17155v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -4956,13 +5226,13 @@
           "href": "https://arxiv.org/abs/2605.05223v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.05223v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -5003,13 +5273,13 @@
           "href": "https://arxiv.org/abs/2604.16780v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.16780v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -5045,13 +5315,13 @@
           "href": "https://arxiv.org/abs/2604.16689v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.16689v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -5098,13 +5368,13 @@
           "href": "https://arxiv.org/abs/2604.16137v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.16137v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -5140,13 +5410,13 @@
           "href": "https://arxiv.org/abs/2604.16067v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.16067v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -5188,13 +5458,13 @@
           "href": "https://arxiv.org/abs/2604.15313v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.15313v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -5234,13 +5504,13 @@
           "href": "https://arxiv.org/abs/2604.14782v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.14782v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -5280,13 +5550,13 @@
           "href": "https://arxiv.org/abs/2604.14706v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.14706v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -5323,13 +5593,13 @@
           "href": "https://arxiv.org/abs/2604.14702v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.14702v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -5369,13 +5639,13 @@
           "href": "https://arxiv.org/abs/2604.14613v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.14613v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -5415,7 +5685,7 @@
         "Lei Wang",
         "Lifu Wang",
         "Lilin Wang",
-        "Linus",
+        " Linus",
         "Minghui Chen",
         "Peng He",
         "Penghao Zhao",
@@ -5454,13 +5724,13 @@
           "href": "https://arxiv.org/abs/2604.14268v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.14268v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -5496,13 +5766,13 @@
           "href": "https://arxiv.org/abs/2604.16519v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.16519v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -5546,13 +5816,13 @@
           "href": "https://arxiv.org/abs/2604.13746v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.13746v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -5589,13 +5859,13 @@
           "href": "https://arxiv.org/abs/2604.13567v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.13567v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -5631,13 +5901,13 @@
           "href": "https://arxiv.org/abs/2604.13400v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.13400v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -5679,13 +5949,13 @@
           "href": "https://arxiv.org/abs/2604.12837v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.12837v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -5722,13 +5992,13 @@
           "href": "https://arxiv.org/abs/2604.12251v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.12251v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -5765,13 +6035,13 @@
           "href": "https://arxiv.org/abs/2604.12026v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.12026v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -5863,13 +6133,13 @@
           "href": "https://arxiv.org/abs/2604.11481v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.11481v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -5908,13 +6178,13 @@
           "href": "https://arxiv.org/abs/2604.11401v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.11401v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -5954,13 +6224,13 @@
           "href": "https://arxiv.org/abs/2604.11138v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.11138v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -6001,13 +6271,13 @@
           "href": "https://arxiv.org/abs/2604.10982v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.10982v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -6047,13 +6317,13 @@
           "href": "https://arxiv.org/abs/2604.10951v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.10951v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -6092,13 +6362,13 @@
           "href": "https://arxiv.org/abs/2604.10931v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.10931v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -6137,13 +6407,13 @@
           "href": "https://arxiv.org/abs/2604.16482v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.16482v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -6182,13 +6452,13 @@
           "href": "https://arxiv.org/abs/2604.11843v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.11843v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -6224,13 +6494,13 @@
           "href": "https://arxiv.org/abs/2604.10593v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.10593v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -6270,13 +6540,13 @@
           "href": "https://arxiv.org/abs/2604.10573v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.10573v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -6317,13 +6587,13 @@
           "href": "https://arxiv.org/abs/2604.10512v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.10512v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -6365,13 +6635,13 @@
           "href": "https://arxiv.org/abs/2604.10367v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.10367v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -6410,13 +6680,13 @@
           "href": "https://arxiv.org/abs/2604.10250v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.10250v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -6457,13 +6727,13 @@
           "href": "https://arxiv.org/abs/2604.10249v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.10249v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -6504,13 +6774,13 @@
           "href": "https://arxiv.org/abs/2604.19798v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.19798v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -6550,13 +6820,13 @@
           "href": "https://arxiv.org/abs/2605.04058v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.04058v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -6593,13 +6863,13 @@
           "href": "https://arxiv.org/abs/2604.09045v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.09045v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -6640,13 +6910,13 @@
           "href": "https://arxiv.org/abs/2604.09024v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.09024v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -6688,13 +6958,13 @@
           "href": "https://arxiv.org/abs/2604.08539v2",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.08539v2",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -6735,13 +7005,13 @@
           "href": "https://arxiv.org/abs/2604.08509v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.08509v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -6786,13 +7056,13 @@
           "href": "https://arxiv.org/abs/2604.08410v2",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.08410v2",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -6833,13 +7103,13 @@
           "href": "https://arxiv.org/abs/2604.08084v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.08084v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -6879,13 +7149,13 @@
           "href": "https://arxiv.org/abs/2604.07986v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.07986v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -6921,13 +7191,13 @@
           "href": "https://arxiv.org/abs/2604.07867v2",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.07867v2",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -6964,13 +7234,13 @@
           "href": "https://arxiv.org/abs/2604.07748v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.07748v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -7010,13 +7280,13 @@
           "href": "https://arxiv.org/abs/2604.07728v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.07728v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -7053,13 +7323,13 @@
           "href": "https://arxiv.org/abs/2604.07518v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.07518v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -7100,13 +7370,13 @@
           "href": "https://arxiv.org/abs/2604.06812v2",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.06812v2",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -7148,13 +7418,13 @@
           "href": "https://arxiv.org/abs/2604.06728v2",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.06728v2",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -7195,13 +7465,13 @@
           "href": "https://arxiv.org/abs/2604.06671v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.06671v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -7240,13 +7510,13 @@
           "href": "https://arxiv.org/abs/2604.06467v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.06467v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -7285,13 +7555,13 @@
           "href": "https://arxiv.org/abs/2604.19793v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.19793v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -7331,13 +7601,13 @@
           "href": "https://arxiv.org/abs/2604.05638v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.05638v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -7422,13 +7692,13 @@
           "href": "https://arxiv.org/abs/2604.05316v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.05316v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -7468,13 +7738,13 @@
           "href": "https://arxiv.org/abs/2604.05070v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.05070v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -7560,13 +7830,13 @@
           "href": "https://arxiv.org/abs/2604.04642v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.04642v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -7609,13 +7879,13 @@
           "href": "https://arxiv.org/abs/2604.09688v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.09688v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -7652,13 +7922,13 @@
           "href": "https://arxiv.org/abs/2604.04514v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.04514v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         },
         {
           "href": "https://doi.org/10.5281/zenodo.19435120",
@@ -7726,13 +7996,13 @@
           "href": "https://arxiv.org/abs/2604.04331v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.04331v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -7773,13 +8043,13 @@
           "href": "https://arxiv.org/abs/2604.03773v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.03773v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -7822,13 +8092,13 @@
           "href": "https://arxiv.org/abs/2604.03653v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.03653v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -7863,13 +8133,13 @@
           "href": "https://arxiv.org/abs/2604.03612v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.03612v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -7906,13 +8176,13 @@
           "href": "https://arxiv.org/abs/2604.03380v2",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.03380v2",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -7951,13 +8221,13 @@
           "href": "https://arxiv.org/abs/2604.02781v2",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.02781v2",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -7995,13 +8265,13 @@
           "href": "https://arxiv.org/abs/2604.02736v3",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.02736v3",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -8044,13 +8314,13 @@
           "href": "https://arxiv.org/abs/2604.14198v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.14198v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -8090,13 +8360,13 @@
           "href": "https://arxiv.org/abs/2604.01994v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.01994v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -8137,13 +8407,13 @@
           "href": "https://arxiv.org/abs/2604.01882v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.01882v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -8183,13 +8453,13 @@
           "href": "https://arxiv.org/abs/2604.01727v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.01727v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -8231,13 +8501,13 @@
           "href": "https://arxiv.org/abs/2604.01678v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.01678v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -8273,13 +8543,13 @@
           "href": "https://arxiv.org/abs/2604.01447v2",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.01447v2",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -8319,13 +8589,13 @@
           "href": "https://arxiv.org/abs/2604.01388v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.01388v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -8368,13 +8638,13 @@
           "href": "https://arxiv.org/abs/2604.01204v2",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.01204v2",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -8417,13 +8687,13 @@
           "href": "https://arxiv.org/abs/2604.01086v2",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.01086v2",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -8459,13 +8729,13 @@
           "href": "https://arxiv.org/abs/2604.01267v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.01267v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -8510,13 +8780,13 @@
           "href": "https://arxiv.org/abs/2604.00969v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.00969v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -8533,8 +8803,8 @@
       "title": "mmAnomaly: Leveraging Visual Context for Robust Anomaly Detection in the Non-Visual World with mmWave Radar",
       "authors": [
         "Tarik Reza Toha",
-        "Shao-Jung",
-        "Lu",
+        " Shao-Jung",
+        " Lu",
         "Mahathir Monjur",
         "Shahriar Nirjon"
       ],
@@ -8556,13 +8826,13 @@
           "href": "https://arxiv.org/abs/2604.00382v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.00382v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -8602,13 +8872,13 @@
           "href": "https://arxiv.org/abs/2603.29837v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2603.29837v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -8645,13 +8915,13 @@
           "href": "https://arxiv.org/abs/2603.29756v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2603.29756v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -8692,13 +8962,13 @@
           "href": "https://arxiv.org/abs/2603.29654v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2603.29654v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -8736,13 +9006,13 @@
           "href": "https://arxiv.org/abs/2604.00067v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.00067v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -8788,13 +9058,13 @@
           "href": "https://arxiv.org/abs/2604.03309v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.03309v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -8830,13 +9100,13 @@
           "href": "https://arxiv.org/abs/2603.29078v2",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2603.29078v2",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -8875,13 +9145,13 @@
           "href": "https://arxiv.org/abs/2603.28252v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2603.28252v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -8919,13 +9189,13 @@
           "href": "https://arxiv.org/abs/2603.28064v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2603.28064v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -8964,13 +9234,13 @@
           "href": "https://arxiv.org/abs/2603.28003v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2603.28003v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         },
         {
           "href": "https://doi.org/10.1609/aaai.v40i7.37510",
@@ -9056,13 +9326,13 @@
           "href": "https://arxiv.org/abs/2603.27781v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2603.27781v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         },
         {
           "href": "https://doi.org/10.1145/3664647.3680739",
@@ -9105,13 +9375,13 @@
           "href": "https://arxiv.org/abs/2603.27546v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2603.27546v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -9150,13 +9420,13 @@
           "href": "https://arxiv.org/abs/2603.27516v2",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2603.27516v2",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -9193,13 +9463,13 @@
           "href": "https://arxiv.org/abs/2603.27412v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2603.27412v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -9241,13 +9511,13 @@
           "href": "https://arxiv.org/abs/2603.26638v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2603.26638v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -9286,13 +9556,13 @@
           "href": "https://arxiv.org/abs/2603.26584v2",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2603.26584v2",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -9332,13 +9602,13 @@
           "href": "https://arxiv.org/abs/2603.26554v2",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2603.26554v2",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -9378,13 +9648,13 @@
           "href": "https://arxiv.org/abs/2603.26235v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2603.26235v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -9422,13 +9692,13 @@
           "href": "https://arxiv.org/abs/2603.26167v2",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2603.26167v2",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ],
       "llm_approved": true,
@@ -95548,13 +95818,13 @@
           "href": "https://arxiv.org/abs/2605.01852v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.01852v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ]
     },
@@ -95587,13 +95857,13 @@
           "href": "https://arxiv.org/abs/2604.22129v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.22129v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ]
     },
@@ -95623,13 +95893,13 @@
           "href": "https://arxiv.org/abs/2604.13235v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.13235v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ]
     },
@@ -95657,13 +95927,13 @@
           "href": "https://arxiv.org/abs/2604.10246v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.10246v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ]
     },
@@ -95691,13 +95961,13 @@
           "href": "https://arxiv.org/abs/2604.04925v2",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.04925v2",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ]
     },
@@ -95729,13 +95999,13 @@
           "href": "https://arxiv.org/abs/2604.04667v2",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2604.04667v2",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ]
     },
@@ -95762,13 +96032,13 @@
           "href": "https://arxiv.org/abs/2603.24716v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2603.24716v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ]
     },
@@ -95795,13 +96065,13 @@
           "href": "https://arxiv.org/abs/2603.20714v2",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2603.20714v2",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ]
     },
@@ -95834,13 +96104,13 @@
           "href": "https://arxiv.org/abs/2603.03765v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2603.03765v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ]
     },
@@ -95872,13 +96142,13 @@
           "href": "https://arxiv.org/abs/2602.22025v2",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2602.22025v2",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ]
     },
@@ -112767,13 +113037,13 @@
           "href": "https://arxiv.org/abs/2605.14601v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.14601v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ]
     },
@@ -112802,13 +113072,13 @@
           "href": "https://arxiv.org/abs/2605.13038v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.13038v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ]
     },
@@ -112837,13 +113107,13 @@
           "href": "https://arxiv.org/abs/2605.13018v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.13018v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ]
     },
@@ -112870,13 +113140,13 @@
           "href": "https://arxiv.org/abs/2605.12608v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.12608v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ]
     },
@@ -112903,13 +113173,13 @@
           "href": "https://arxiv.org/abs/2605.11840v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.11840v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ]
     },
@@ -112945,13 +113215,13 @@
           "href": "https://arxiv.org/abs/2605.11756v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.11756v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ]
     },
@@ -112984,13 +113254,13 @@
           "href": "https://arxiv.org/abs/2605.11578v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.11578v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ]
     },
@@ -113020,13 +113290,13 @@
           "href": "https://arxiv.org/abs/2605.10675v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.10675v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ]
     },
@@ -113058,13 +113328,13 @@
           "href": "https://arxiv.org/abs/2605.10525v3",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.10525v3",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ]
     },
@@ -113097,13 +113367,13 @@
           "href": "https://arxiv.org/abs/2605.10523v1",
           "title": null,
           "rel": "alternate",
-          "content_type": null
+          "content_type": "text/html"
         },
         {
           "href": "https://arxiv.org/pdf/2605.10523v1",
           "title": "pdf",
           "rel": "related",
-          "content_type": null
+          "content_type": "application/pdf"
         }
       ]
     },
