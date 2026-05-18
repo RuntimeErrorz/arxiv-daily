@@ -1,5 +1,225 @@
 {
   "3DGS Semantic": {
+    "2605.16094": {
+      "title": "GeoGS-CE: Learning Delay--Beam Channel Priors with 3D Gaussians for High-Mobility Scenarios",
+      "authors": [
+        "Yumeng Zhang",
+        "Jiajia Guo",
+        "Chaozheng Wen",
+        "Chenghong Bian",
+        "Jun Zhang"
+      ],
+      "published": "2026-05-15T15:49:42+00:00",
+      "updated": "2026-05-15T15:49:42+00:00",
+      "summary": "Wideband channel estimation (CE) in high-mobility scenarios remains challenging because channel responses vary rapidly, while practical systems can allocate only sparse pilots to accommodate dense users. Fortunately, many high-mobility environments, such as high-speed railways, exhibit scheduled trajectories, predictable velocities, and a limited number of dominant propagation paths. These properties induce a delay--beam power spectrum that is more stable than the instantaneous complex channel frequency response (CFR), less sensitive to the random phase coherence, and rich in geometric information. To exploit such environmental properties, we propose GeoGS-CE, a two-stage channel estimation framework for sparse-pilot high-mobility scenarios. In the offline stage, GeoGS-CE jointly models: 1) a scene-level 3D Gaussian representation that captures the non-line-of-sight (NLoS) geometric scattering support, and 2) a leakage-aware differentiable wireless rendering process that maps the NLoS Gaussians, together with an explicit virtual line-of-sight (LoS) component, to the measured delay--beam power spectrum, while accounting for practical OFDM delay and array leakage effects. In the online stage, the delay--beam power spectrum is predicted for each user location and used as a strong covariance prior, enabling accurate full-band and full-array CFR reconstruction and tracking through a linear MMSE estimator. Simulations based on channels generated from a segment of the Guangshen high-speed railway show that the proposed geometric prior substantially improves CFR reconstruction over pilot-only and non-geometric baselines.",
+      "categories": [
+        "cs.IT",
+        "cs.AI"
+      ],
+      "primary_category": "cs.IT",
+      "pdf_url": "https://arxiv.org/pdf/2605.16094v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.16094v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.16094v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.16094v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.16065": {
+      "title": "Robust Prior-Guided Segmentation for Editable 3D Gaussian Splatting",
+      "authors": [
+        "Raushan Joshi",
+        "Jean-Yves Guillemaut"
+      ],
+      "published": "2026-05-15T15:29:30+00:00",
+      "updated": "2026-05-15T15:29:30+00:00",
+      "summary": "3D Gaussian Splatting (3D-GS) enables real-time 3D scene reconstruction but lacks robust segmentation for editing tasks such as object removal, extraction, and recoloring. Existing approaches that lift 2D segmentations to the 3D domain suffer from view inconsistencies and coarse masks. In this paper, we propose a novel framework that leverages the Segment Anything Model High Quality (SAM-HQ) to generate accurate 2D masks, addressing the limitations of the standard SAM in boundary fidelity and fine-structure preservation. To achieve robust 3D segmentation of any target object in a given scene, we introduce a prior-guided label reassignment method that assigns labels to 3D Gaussians by enforcing multiview consistency with learned priors. Our approach achieves state-of-the-art segmentation accuracy and enables interactive, real-time object editing while maintaining high visual fidelity. Qualitative results demonstrate superior boundary preservation and practical utility in Virtual Reality (VR) and robotics, advancing 3D scene editing.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.16065v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted at IEEE International Conference on Image Processing 2026, 6 pages",
+      "entry_id": "http://arxiv.org/abs/2605.16065v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.16065v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.16065v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.16022": {
+      "title": "EndoGSim: Physics-Aware 4D Dynamic Endoscopic Scene Simulations via MLLM-Guided Gaussian Splatting",
+      "authors": [
+        "Changjing Liu",
+        "Yiming Huang",
+        "Long Bai",
+        "Beilei Cui",
+        "Hongliang Ren"
+      ],
+      "published": "2026-05-15T14:56:54+00:00",
+      "updated": "2026-05-15T14:56:54+00:00",
+      "summary": "In robot-assisted minimally invasive surgery, high-fidelity dynamic endoscopic scene reconstruction and simulation are crucial to enhancing downstream tasks and advancing surgical outcomes. However, existing methods primarily focus on visual reconstruction, lacking physics-based descriptions of the scene required for realistic simulation. We propose a unified framework that achieves physics-aware reconstruction and physical simulation of endoscopic scenes through Multi-modal Large Language Models (MLLMs)-guided Gaussian Splatting. Our approach utilizes 4D Gaussian Splatting (4DGS) integrated with pre-trained segmentation and depth estimation to represent deformable tissues and tools. To achieve automatic inference of physical properties, we introduce an object-wise material field that initializes material parameters via MLLM and refines them through a differentiable Material Point Method (MPM) under joint supervision from rendered images and optical flow. Validated on both open-source and in-house datasets, our framework achieves superior simulation fidelity and physical accuracy compared to state-of-the-art methods, underscoring its potential to advance robot-assisted surgical applications.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.16022v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Early Accepted by MICCAI 2026",
+      "entry_id": "http://arxiv.org/abs/2605.16022v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.16022v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.16022v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.15648": {
+      "title": "Rethinking the Security of DP-SGD: A Corrected Analysis of Differentially Private Machine Learning",
+      "authors": [
+        "Wenhao Wang",
+        "Shujie Cui",
+        "Hui Cui",
+        "Xingliang Yuan"
+      ],
+      "published": "2026-05-15T06:04:00+00:00",
+      "updated": "2026-05-15T06:04:00+00:00",
+      "summary": "Differentially Private Stochastic Gradient Descent (DP-SGD) is widely used to protect training data in machine learning. Its privacy guarantee is commonly analyzed through a security game in which an adversary infers whether a target record is included in the training dataset from the mechanism output. The resulting privacy leakage is characterized by a privacy curve, which reports the false negative rate as a function of the false positive rate.\n  We identify a mismatch between this formal analysis and common DP-SGD implementations. Existing analyses often model DP-SGD and its variants as the Subsampled Gaussian Mechanism (SGM), where Gaussian noise is added to the sum of clipped gradients computed from a Poisson-sampled batch. In practice, however, many implementations apply an additional normalization step: the noisy gradient sum is divided either by the expected batch size or by the sampled batch size. These mechanisms are therefore better formalized as the Expected-Averaged SGM (EASGM) or the Batch-Averaged SGM (ASGM), respectively.\n  We re-analyze the privacy guarantees of DP-SGD under the EASGM and ASGM formulations. Our theoretical results show that these guarantees can be weaker than the standard SGM-based guarantee, implying that the true privacy leakage may exceed the reported guarantee in some regimes. We further audit four state-of-the-art DP-SGD implementations, including Meta's Opacus library, and observe empirical leakage beyond the SGM-based guarantees. Finally, we audit Opacus versions v0.9.0 to v1.5.4 and derive a corrected privacy guarantee for the latest implementation.",
+      "categories": [
+        "cs.CR"
+      ],
+      "primary_category": "cs.CR",
+      "pdf_url": "https://arxiv.org/pdf/2605.15648v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.15648v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.15648v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.15648v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.15575": {
+      "title": "Gaussian Relational Graph Transformer",
+      "authors": [
+        "Zezhong Ding",
+        "Jin Li",
+        "Xugang Wang",
+        "Xike Xie"
+      ],
+      "published": "2026-05-15T03:36:28+00:00",
+      "updated": "2026-05-15T03:36:28+00:00",
+      "summary": "Relational graph learning models relational databases as graphs and has demonstrated superior performance on a wide range of relational predictive tasks. However, existing methods struggle to capture long-range dependencies due to information decay in their message-passing mechanisms, and recent relational graph transformers remain limited in jointly modeling structural, semantic, and temporal information. In this paper, we propose GelGT, a Gaussian relational graph transformer that explicitly addresses these challenges. GelGT introduces a structure-semantic collaborative sampling strategy to preserve structural connectivity while filtering irrelevant semantic information, and incorporates a Gaussian graph attention mechanism with a learnable Gaussian bias on the sampled subgraphs to dynamically encode temporal dependencies. Extensive experiments on various real-world datasets demonstrate that GelGT achieves state-of-the-art downstream task performance, with up to a 13.8% improvement in predictive performance.",
+      "categories": [
+        "cs.LG",
+        "cs.DB"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2605.15575v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.15575v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.15575v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.15575v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.15398": {
+      "title": "3DEditSafe: Defending 3D Editing Pipelines from Unsafe Generation",
+      "authors": [
+        "Nicole Meng",
+        "Zheyuan Liu",
+        "Meng Jiang",
+        "Yingjie Lao"
+      ],
+      "published": "2026-05-14T20:30:50+00:00",
+      "updated": "2026-05-14T20:30:50+00:00",
+      "summary": "Recent advances in 3D generative editing, particularly pipelines based on 3D Gaussian Splatting (3DGS), have achieved high-fidelity, multi-view-consistent scene manipulation from text prompts. However, we find that these pipelines also introduce new safety risks when unsafe prompts produce edits that are propagated and optimized across views. In this work, we study unsafe generation in 3D editing pipelines and show that such behavior can lead to coherent, undesirable Not-Safe-For-Work (NSFW) content in the final 3D representation.\n  To address this, we propose 3DEditSafe, a safety-regularized 3D editing framework that constrains unsafe semantic propagation during optimization. 3DEditSafe combines generation-stage safety guidance with rendered-view 3D safety regularization, safe semantic projection, residue suppression, and mask-aware preservation to steer optimization away from unsafe editing directions. We evaluate our approach on EditSplat scenes using an object-compatible unsafe prompt benchmark and show that 2D safety guidance alone is not consistently sufficient to prevent unsafe 3D edits. 3DEditSafe reduces unsafe semantic alignment and view-level attack success rates, while revealing a safety-quality tradeoff in which stronger unsafe suppression can introduce artifacts or reduce unsafe-prompt fidelity. To our knowledge, this work is the first attempt to study and defend against unsafe generation in text-driven 3D editing pipelines, highlighting the need for safety mechanisms that operate directly on optimized 3D representations.",
+      "categories": [
+        "cs.GR",
+        "cs.CV"
+      ],
+      "primary_category": "cs.GR",
+      "pdf_url": "https://arxiv.org/pdf/2605.15398v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.15398v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.15398v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.15398v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ],
+      "llm_approved": true
+    },
     "2605.15193": {
       "title": "Aligning Latent Geometry for Spherical Flow Matching in Image Generation",
       "authors": [
@@ -375,26 +595,26 @@
         "Joseph Tassarotti"
       ],
       "published": "2026-05-13T13:39:31+00:00",
-      "updated": "2026-05-13T13:39:31+00:00",
+      "updated": "2026-05-14T23:23:14+00:00",
       "summary": "Most implementations of sampling algorithms for continuous distributions use floating-point numbers, which introduce round-off errors and approximations. These errors can be difficult to analyze, and can cause security issues when used in algorithms for differential privacy. An alternative is to use exact sampling algorithms based on computable reals, which can lazily generate the digits of a continuous sample to arbitrary precision. However, these algorithms are intricate, and implementing and using them involves a combination of semantically challenging language features, such as probabilistic choice, higher-order functions, and dynamically-allocated mutable state.\n  In this paper we present Continuous-Eris, a higher-order separation logic for verifying the correctness of exact sampling algorithms for computable distributions. To demonstrate Continuous-Eris, we verify the correctness of computable samplers for the uniform, Gaussian, and Laplace distributions, as well as a library for exact real arithmetic for working with generated samples. All of the results in this paper have been verified in the Rocq proof assistant.",
       "categories": [
         "cs.LO"
       ],
       "primary_category": "cs.LO",
-      "pdf_url": "https://arxiv.org/pdf/2605.13526v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.13526v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2605.13526v1",
+      "entry_id": "http://arxiv.org/abs/2605.13526v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2605.13526v1",
+          "href": "https://arxiv.org/abs/2605.13526v2",
           "title": null,
           "rel": "alternate",
           "content_type": "text/html"
         },
         {
-          "href": "https://arxiv.org/pdf/2605.13526v1",
+          "href": "https://arxiv.org/pdf/2605.13526v2",
           "title": "pdf",
           "rel": "related",
           "content_type": "application/pdf"
@@ -464,26 +684,26 @@
         "Wei-Shi Zheng"
       ],
       "published": "2026-05-13T06:47:09+00:00",
-      "updated": "2026-05-13T06:47:09+00:00",
+      "updated": "2026-05-15T06:02:12+00:00",
       "summary": "In-the-wild 3D Gaussian Splatting remains challenging due to transient distractors and illumination-induced cross-view appearance inconsistencies. Existing methods mainly rely on image-level masking to suppress unreliable supervision, but masking alone cannot fully eliminate residual occlusions or resolve illumination-induced inconsistencies, both of which can introduce conflicting cross-view gradients. These unresolved conflicts may destabilize Gaussian optimization and lead to visible reconstruction artifacts. We propose a conflict-aware 3DGS framework that addresses this problem from both image-space supervision and gradient-level optimization. Semantic Consistency-Guided Masking learns pixel-wise consistency scores to adaptively refine prior masks and suppress unreliable supervision before gradient formation. A dual-view Conflict-Aware Gradient Harmonization strategy further reconciles view-specific gradients by mutually rotating them into an orthogonal configuration, reducing negative directional interference across views. We also introduce conflict-aware densification and pruning to stabilize Gaussian growth and remove persistently conflicting primitives. Extensive experiments on standard in-the-wild benchmarks demonstrate that our method achieves state-of-the-art rendering quality under complex transient distractors and cross-view inconsistencies.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2605.13073v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.13073v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2605.13073v1",
+      "entry_id": "http://arxiv.org/abs/2605.13073v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2605.13073v1",
+          "href": "https://arxiv.org/abs/2605.13073v2",
           "title": null,
           "rel": "alternate",
           "content_type": "text/html"
         },
         {
-          "href": "https://arxiv.org/pdf/2605.13073v1",
+          "href": "https://arxiv.org/pdf/2605.13073v2",
           "title": "pdf",
           "rel": "related",
           "content_type": "application/pdf"
@@ -3428,6 +3648,50 @@
       "venue_info": {
         "venue_source": "Semantic Scholar",
         "queried_at": "2026-05-04",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2605.00934": {
+      "title": "Structured Analytic Coherent Point Drift for Non-Rigid Point Set Registration",
+      "authors": [
+        "Wei Feng",
+        "Haiyong Zheng"
+      ],
+      "published": "2026-05-01T03:13:01+00:00",
+      "updated": "2026-05-15T13:30:13+00:00",
+      "summary": "Coherent Point Drift (CPD) is a representative probabilistic framework for unsupervised non-rigid point set registration. Its standard non-rigid M-step, however, relies on a point-indexed Gaussian-kernel system whose size grows with the number of moving points, making deformation estimation computationally heavy for large point sets and difficult to control in complexity during registration. To address these limitations, we propose Analytic-CPD, a new unsupervised non-rigid registration framework that gives CPD a structured analytic reformulation. Analytic-CPD preserves the CPD posterior correspondence layer, but lifts the M-step from point-indexed kernel displacement estimation to structured analytic mapping estimation. By coupling the Gaussian-mixture posterior mechanism of CPD with Structured Analytic Mappings (SAM), the method obtains a deformation model whose coefficient dimension is governed by the ambient dimension and analytic order rather than by the number of moving points. More importantly, deformation estimation is organized over an interpretable hierarchy of analytic function spaces, so the analytic order can be increased progressively as posterior correspondences become more reliable. We implement this idea through an increasing-degree continuation strategy with decreasing stage lengths: low-order analytic maps first stabilize the posterior correspondence structure, while higher-order modes later refine nonlinear residual deformation. Experiments on controlled model-matched, smooth model-mismatch, and registered human-shape data demonstrate the effectiveness and favorable accuracy--efficiency performance of Analytic-CPD.",
+      "categories": [
+        "cs.LG",
+        "cs.CV",
+        "stat.ML"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2605.00934v2",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Revised version. Supplementary material incorporated as appendices; method, implementation, and experimental details expanded",
+      "entry_id": "http://arxiv.org/abs/2605.00934v2",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.00934v2",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.00934v2",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-05-18",
         "venue": null,
         "pub_type": null,
         "publisher": null,
@@ -113010,6 +113274,116 @@
     }
   },
   "Depth Estimation": {
+    "2605.16022": {
+      "title": "EndoGSim: Physics-Aware 4D Dynamic Endoscopic Scene Simulations via MLLM-Guided Gaussian Splatting",
+      "authors": [
+        "Changjing Liu",
+        "Yiming Huang",
+        "Long Bai",
+        "Beilei Cui",
+        "Hongliang Ren"
+      ],
+      "published": "2026-05-15T14:56:54+00:00",
+      "updated": "2026-05-15T14:56:54+00:00",
+      "summary": "In robot-assisted minimally invasive surgery, high-fidelity dynamic endoscopic scene reconstruction and simulation are crucial to enhancing downstream tasks and advancing surgical outcomes. However, existing methods primarily focus on visual reconstruction, lacking physics-based descriptions of the scene required for realistic simulation. We propose a unified framework that achieves physics-aware reconstruction and physical simulation of endoscopic scenes through Multi-modal Large Language Models (MLLMs)-guided Gaussian Splatting. Our approach utilizes 4D Gaussian Splatting (4DGS) integrated with pre-trained segmentation and depth estimation to represent deformable tissues and tools. To achieve automatic inference of physical properties, we introduce an object-wise material field that initializes material parameters via MLLM and refines them through a differentiable Material Point Method (MPM) under joint supervision from rendered images and optical flow. Validated on both open-source and in-house datasets, our framework achieves superior simulation fidelity and physical accuracy compared to state-of-the-art methods, underscoring its potential to advance robot-assisted surgical applications.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.16022v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Early Accepted by MICCAI 2026",
+      "entry_id": "http://arxiv.org/abs/2605.16022v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.16022v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.16022v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ]
+    },
+    "2605.15860": {
+      "title": "On RGB-TIR Stereo Calibration under Extreme Resolution Asymmetry",
+      "authors": [
+        "Michał Król",
+        "Michał Salamonowicz",
+        "Władysław Skarbek",
+        "Michał Tomaszewski"
+      ],
+      "published": "2026-05-15T11:21:49+00:00",
+      "updated": "2026-05-15T11:21:49+00:00",
+      "summary": "Accurate geometric calibration of RGB-thermal infrared (TIR) stereo camera systems is essential for multimodal building envelope analysis, yet remains challenging when low-cost thermal sensors with very low spatial resolution are employed. This paper presents a practical stereo calibration framework for an RGB camera (2028 x 1520 px) paired with a TIR camera operating at only 80 x 62 px - a pixel-count ratio of approximately 1:625. An active OLED screen dynamically switches modality-specific patterns (checkerboard for TIR, ChArUco for RGB) on a single physical surface, providing controlled and repeatable thermal contrast. A dedicated corner detection algorithm combining perspective rectification, Hessian saddle-point analysis, and Mean Shift localisation achieves reliable checkerboard detection at 80 x 62 px without per-frame parameter tuning. A baseline-constrained bundle adjustment enforces physically consistent rig geometry under the planar-calibration-object degeneracy, yielding a stereo baseline of 32.7 mm (nominal 30 mm) with an overall reprojection error of 0.382 px. The system is validated on a thermally active building mock-up using constant-depth and per-pixel depth estimation, demonstrating consistent TIR-to-RGB projection suitable for building energy performance assessment.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.15860v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "27 pages, 12 figures, 3 tables",
+      "entry_id": "http://arxiv.org/abs/2605.15860v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.15860v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.15860v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ]
+    },
+    "2605.15828": {
+      "title": "Not All Tasks Quantize Equally: Fisher-Guided Quantization for Visual Geometry Transformer",
+      "authors": [
+        "Yipu Zhang",
+        "Jintao Cheng",
+        "Weilun Feng",
+        "Jiehao Luo",
+        "Chuanguang Yang",
+        "Zhulin An",
+        "Yongjun Xu",
+        "Wei Zhang"
+      ],
+      "published": "2026-05-15T10:27:10+00:00",
+      "updated": "2026-05-15T10:27:10+00:00",
+      "summary": "Feed-forward 3D reconstruction models, represented by Visual Geometry Grounded Transformer (VGGT), jointly predict multiple visual geometry tasks such as depth estimation, camera pose prediction, and point cloud reconstruction in a single forward pass. They have been widely adopted in 3D vision applications, but their billion-scale parameters bring substantial memory and computation overhead, posing challenges for on-device deployment. Post-Training Quantization (PTQ) is an effective technique to reduce this overhead. Existing PTQ methods for feed-forward 3D models mainly focus on handling heavy-tailed activation distributions and constructing diverse calibration datasets. However, we observe that feed-forward 3D models predict multiple geometric attributes through a shared backbone, where different transformer blocks and hidden channels contribute distinctly to each task, resulting in substantially different sensitivities to quantization errors across tasks, blocks, and channels. Consequently, treating all tasks equally over-emphasizes insensitive tasks and causes significant accuracy loss on the sensitive ones. To address this issue, we propose Fisher-Guided Quantization (FGQ) for feed-forward 3D reconstruction models. Specifically, FGQ uses the diagonal Fisher information matrix to quantify the different sensitivities across tasks, blocks, and channels, and incorporates these sensitivities into the Learnable Affine Transformation during calibration to better preserve the channels and blocks most critical to each task. Extensive experiments across camera pose estimation, point map reconstruction, and depth estimation show that FGQ consistently outperforms state-of-the-art quantization baselines on VGGT, achieving up to 39% relative improvement under the 4-bit quantization.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.15828v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.15828v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.15828v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.15828v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ]
+    },
     "2605.14601": {
       "title": "Towards Accurate Single Panoramic 3D Detection: A Semantic Gaussian Centric Approach",
       "authors": [
