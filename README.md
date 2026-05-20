@@ -1,4 +1,4 @@
-## Updated at 2026-05-19 08:46:54
+## Updated at 2026-05-20 08:47:24
 
 ## 3DGS Semantic
 
@@ -8,9 +8,20 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-05-18**|**[WaveDriver: a Laser Guide Star AO System for HWO](https://arxiv.org/abs/2605.18723)**|N/A|accepted to JATIS on 05/18/26|astro-ph.IM|None|Benjamin L. Gerard et al.|
+|**2026-05-18**|**[Resolving Representation Ambiguity in Feedforward Novel View Synthesis Transformer via Semantic-Spatial Decoupling](https://arxiv.org/abs/2605.18599)**|N/A|24 pages, 11 figures, 4 tables. Project page: https://hangzay.github.io/ssd_lvsm/|cs.CV|None|Yihang Wu et al.|
+|**2026-05-18**|**[Historical Knowledge Graphs for Global Maritime Estimated Time of Arrival](https://arxiv.org/abs/2605.18408)**|N/A|None|cs.CV|None|Neofytos Dimitriou|
+|**2026-05-18**|**[GaussianZoom: Progressive Zoom-in Generative 3D Gaussian Splatting with Geometric and Semantic Guidance](https://arxiv.org/abs/2605.18252)**|N/A|10 pages, 7 figures|cs.CV|None|Jiale Shi et al.|
+|**2026-05-18**|**[Efficient Sparse-to-Dense Visual Localization via Compact Gaussian Scene Representation and Accelerated Dense Pose Estimation](https://arxiv.org/abs/2605.17777)**|N/A|IEEE/CAA JAS 2026|cs.CV|None|Zizhuo Li et al.|
+|**2026-05-17**|**[GEM: Gaussian Evolution Model for Occupancy Forecasting and Motion Planning](https://arxiv.org/abs/2605.17682)**|N/A|None|cs.CV|None|Cheng Chen et al.|
+|**2026-05-16**|**[Latent Heuristic Search: Continuous Optimization for Automated Algorithm Design](https://arxiv.org/abs/2605.17137)**|N/A|Accepted at LION 2026, The Learning and Intelligent Optimization Conference|cs.AI|None|Cheikh Ahmed et al.|
+|**2026-05-16**|**[Adversarial Fragility and Language Vulnerability in Clinical AI: A Systematic Audit of Diagnostic Collapse Under Imperceptible Perturbations and Cross-Lingual Drift in Low-Resource Healthcare Settings](https://arxiv.org/abs/2605.16993)**|N/A|23 pages, 9 figures, 3 tables. Code and data available at https://github.com/anthoniooladimeji11-coder/clinical-ai-safety-audit|cs.CY|None|Anthonio Oladimeji Gabriel, Ahmad Rufai Yusuf|
+|**2026-05-15**|**[Statistical Unlearning of Distributions: A Hypothesis Testing Approach](https://arxiv.org/abs/2605.16645)**|N/A|Comments welcome|math.ST|None|Aaradhya Pandey, Sanjeev Kulkarni|
+|**2026-05-15**|**[ArtMesh: Part-Aware Articulated Mesh Fields with Motion-Consistent Dynamics](https://arxiv.org/abs/2605.16582)**|N/A|None|cs.CV|None|Sylvia Yuan et al.|
 |**2026-05-15**|**[GeoGS-CE: Learning Delay--Beam Channel Priors with 3D Gaussians for High-Mobility Scenarios](https://arxiv.org/abs/2605.16094)**|N/A|None|cs.IT|None|Yumeng Zhang et al.|
 |**2026-05-15**|**[Robust Prior-Guided Segmentation for Editable 3D Gaussian Splatting](https://arxiv.org/abs/2605.16065)**|N/A|Accepted at IEEE International Conference on Image Processing 2026, 6 pages|cs.CV|None|Raushan Joshi, Jean-Yves Guillemaut|
 |**2026-05-15**|**[EndoGSim: Physics-Aware 4D Dynamic Endoscopic Scene Simulations via MLLM-Guided Gaussian Splatting](https://arxiv.org/abs/2605.16022)**|N/A|Early Accepted by MICCAI 2026|cs.CV|None|Changjing Liu et al.|
+|**2026-05-15**|**[REC-RL: Referring expression counting via Gaussian and range-based reward optimization](https://arxiv.org/abs/2605.16460)**|N/A|5 pages|cs.CV|None|Hui Liu et al.|
 |**2026-05-15**|**[Rethinking the Security of DP-SGD: A Corrected Analysis of Differentially Private Machine Learning](https://arxiv.org/abs/2605.15648)**|N/A|None|cs.CR|None|Wenhao Wang et al.|
 |**2026-05-15**|**[Gaussian Relational Graph Transformer](https://arxiv.org/abs/2605.15575)**|N/A|None|cs.LG|None|Zezhong Ding et al.|
 |**2026-05-14**|**[3DEditSafe: Defending 3D Editing Pipelines from Unsafe Generation](https://arxiv.org/abs/2605.15398)**|N/A|None|cs.GR|None|Nicole Meng et al.|
@@ -24,6 +35,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2026-05-13**|**[Sparse Code Uplifting for Efficient 3D Language Gaussian Splatting](https://arxiv.org/abs/2605.13600)**|N/A|18 pages (9 pages main paper), 10 figures, preprint|cs.CV|None|Lovre Antonio Budimir et al.|
 |**2026-05-13**|**[Verifying Exact Samplers for Continuous Distributions with a Discrete Program Logic](https://arxiv.org/abs/2605.13526)**|N/A|None|cs.LO|None|Markus de Medeiros et al.|
 |**2026-05-13**|**[Z-Order Transformer for Feed-Forward Gaussian Splatting](https://arxiv.org/abs/2605.13465)**|N/A|Accept by CVPR 2026, Oral|cs.CV|None|Can Wang et al.|
+|**2026-05-13**|**[Concepts Worth Having: Refining VLM-Guided Concept Bottleneck Models with Minimal Annotations](https://arxiv.org/abs/2605.16405)**|N/A|None|cs.CV|None|Nicola Debole et al.|
 |**2026-05-13**|**[HarmoGS: Robust 3D Gaussian Splatting in the Wild via Conflict-Aware Gradient Harmonization](https://arxiv.org/abs/2605.13073)**|N/A|None|cs.CV|None|Yulei Kang et al.|
 |**2026-05-13**|**[OCH3R: Object-Centric Holistic 3D Reconstruction](https://arxiv.org/abs/2605.13018)**|N/A|None|cs.CV|None|Yi Du et al.|
 |**2026-05-13**|**[DP-Muon: Differentially Private Optimization via Matrix-Orthogonalized Momentum](https://arxiv.org/abs/2605.12994)**|N/A|26 pages|cs.LG|None|Jihwan Kim, Chenglin Fan|
@@ -982,6 +994,9 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-05-18**|**[Towards Universal Physical Adversarial Attacks via a Joint Multi-Objective and Multi-Model Optimization Framework](https://arxiv.org/abs/2605.17772)**|N/A|Under review|cs.CV|None|Ziyang Liu et al.|
+|**2026-05-17**|**[Weighted Reverse Convolution for Feature Upsampling](https://arxiv.org/abs/2605.17472)**|N/A|18 pages, 7figures|cs.CV|None|Wentong Li et al.|
+|**2026-05-15**|**[SCARED-C: Corrected Camera Poses for Endoscopic Depth Estimation](https://arxiv.org/abs/2605.16628)**|N/A|None|cs.CV|None|John J. Han et al.|
 |**2026-05-15**|**[EndoGSim: Physics-Aware 4D Dynamic Endoscopic Scene Simulations via MLLM-Guided Gaussian Splatting](https://arxiv.org/abs/2605.16022)**|N/A|Early Accepted by MICCAI 2026|cs.CV|None|Changjing Liu et al.|
 |**2026-05-15**|**[On RGB-TIR Stereo Calibration under Extreme Resolution Asymmetry](https://arxiv.org/abs/2605.15860)**|N/A|27 pages, 12 figures, 3 tables|cs.CV|None|Michał Król et al.|
 |**2026-05-15**|**[Not All Tasks Quantize Equally: Fisher-Guided Quantization for Visual Geometry Transformer](https://arxiv.org/abs/2605.15828)**|N/A|None|cs.CV|None|Yipu Zhang et al.|

@@ -1,5 +1,372 @@
 {
   "3DGS Semantic": {
+    "2605.18723": {
+      "title": "WaveDriver: a Laser Guide Star AO System for HWO",
+      "authors": [
+        "Benjamin L. Gerard",
+        "Alex Geringer-Sameth",
+        "Aditya R. Sengupta",
+        "Alexx Perloff",
+        "Dominic F. Sanchez",
+        "Peter Waswa",
+        "Cesar Laguna",
+        "Rebecca Jensen-Clem",
+        "Lisa Poyneer",
+        "Megan Eckart"
+      ],
+      "published": "2026-05-18T17:50:41+00:00",
+      "updated": "2026-05-18T17:50:41+00:00",
+      "summary": "Habitable Worlds Observatory (HWO) presents a key challenge for technology development in the coming years, requiring a $>$ $100\\times$ more stable system than \\textit{JWST}. WaveDriver is a concept for a laser guide star spacecraft coupled to an adaptive optics (AO) system onboard HWO that would enable HWO to reach its picometer-level wavefront stability requirements while relaxing other HWO subsystem requirements. At LLNL and UCSC we are revisiting the concept initially proposed by Douglas et al.\\ (2019). We present key results key initial results from the first phase of our project, including (1) AO control developments, including with Linear Quadratic Gaussian control and machine learning, (2) AO wavefront sensor (WFS) trade study simulations, and (3) simulations of a photonic lantern natural guide star WFS. A key finding from our work is that WaveDriver could be needed to enable HWO's primary mirror segment stability and/or low order wavefront stability requirements.",
+      "categories": [
+        "astro-ph.IM"
+      ],
+      "primary_category": "astro-ph.IM",
+      "pdf_url": "https://arxiv.org/pdf/2605.18723v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "accepted to JATIS on 05/18/26",
+      "entry_id": "http://arxiv.org/abs/2605.18723v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.18723v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.18723v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.18599": {
+      "title": "Resolving Representation Ambiguity in Feedforward Novel View Synthesis Transformer via Semantic-Spatial Decoupling",
+      "authors": [
+        "Yihang Wu",
+        "Yihang Sun",
+        "Shaofeng Zhang",
+        "Zuxuan Wu",
+        "Junchi Yan",
+        "Xiaosong Jia",
+        "Yu-gang Jiang"
+      ],
+      "published": "2026-05-18T16:09:52+00:00",
+      "updated": "2026-05-18T16:09:52+00:00",
+      "summary": "Transformer-based models have advanced feedforward novel view synthesis (NVS). Current architectures such as GS-LRM and LVSM mix semantic information (e.g., RGB) and spatial information (e.g., Plücker rays) into a shared feature space. Since Plücker rays naturally carry lattice-like spatial structure, these designs can make the spatial bias interfere with appearance representation and degrade rendering fidelity. To this end, we propose to decouple the representation of feedforward NVS transformers into separate semantic and spatial tokens. The decoupled design keeps semantic and spatial information explicit in their branches while preserving cross-branch interaction through shared attention routing. Built on this design, we introduce optional categorized supervision and bidirectional modulation: the former provides branch-specific training signals, while the latter improves interaction between the two branches. Notably, the base decoupled design introduces virtually zero additional inference latency due to its architectural design. The proposed designs achieve consistent improvements, demonstrating effectiveness across decoder-only and encoder-decoder feedforward NVS models.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.18599v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "24 pages, 11 figures, 4 tables. Project page: https://hangzay.github.io/ssd_lvsm/",
+      "entry_id": "http://arxiv.org/abs/2605.18599v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.18599v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.18599v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.18408": {
+      "title": "Historical Knowledge Graphs for Global Maritime Estimated Time of Arrival",
+      "authors": [
+        "Neofytos Dimitriou"
+      ],
+      "published": "2026-05-18T13:47:57+00:00",
+      "updated": "2026-05-18T13:47:57+00:00",
+      "summary": "Accurate vessel estimated-time-of-arrival forecasts are critical for port operations and decarbonization, yet global-scale travel-time prediction remains difficult without costly contextual data. Herein, I present a methodology for constructing a historical maritime knowledge graph using only Automatic Identification System (AIS) data. First, segmented trajectories are extracted from noisy AIS data using a Gaussian-mixture-model-based preprocessing pipeline. The graph is then constructed by iteratively processing the trajectories and storing speed distributions stratified by vessel type, time of travel, and direction of travel; the resulting global graph comprises 5,433 geohash-3 nodes and 12,334 edges. The graph can be queried to retrieve travel-time predictions between any two location via a hierarchical, priority-based system that uses historical statistics with principled fallback. On a temporally held-out test set, median RMSE is 22.75 min (segment-level) and 30.90 min (trajectory-level), with 69.1% of trajectories within 20% of actual arrival time. On a second external test set, median RMSE is 27.36 min (segment-level) and 37.46 min (trajectory-level), with 62.1% of trajectories within 20%. These results corroborate the promise of our method, enabling global travel-time prediction and providing a strong foundation for just-in-time arrival planning and emissions reduction.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.18408v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.18408v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.18408v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.18408v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.18252": {
+      "title": "GaussianZoom: Progressive Zoom-in Generative 3D Gaussian Splatting with Geometric and Semantic Guidance",
+      "authors": [
+        "Jiale Shi",
+        "Jiarui Hu",
+        "Zesong Yang",
+        "Kaixuan Luan",
+        "Hujun Bao",
+        "Zhaopeng Cui"
+      ],
+      "published": "2026-05-18T11:52:36+00:00",
+      "updated": "2026-05-18T11:52:36+00:00",
+      "summary": "We introduce GaussianZoom, a generative zoom-in 3D reconstruction system with an iterative progressive framework that combines geometry-consistent scene modeling and multi-scale semantic reasoning to enable high-fidelity extreme zoom-in rendering from low-resolution inputs. To achieve this, we develop a novel multi-view consistent super-resolution module with depth-based feature warping and VLM-driven detail synthesis, ensuring accurate multi-view correspondence while enriching fine-scale appearance beyond the observed resolution. To support zooming across large magnification ranges, we further introduce a new expandable continuous Level-of-Detail hierarchy that dynamically modulates Gaussian visibility for smooth, alias-free cross-scale rendering. Experiments on Mip-NeRF360 and Tanks\\&Temples demonstrate that GaussianZoom achieves superior perceptual quality, multi-view consistency, and robustness under extreme magnification, establishing a strong baseline for generative zoom-in 3D scene reconstruction.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.18252v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "10 pages, 7 figures",
+      "entry_id": "http://arxiv.org/abs/2605.18252v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.18252v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.18252v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.17777": {
+      "title": "Efficient Sparse-to-Dense Visual Localization via Compact Gaussian Scene Representation and Accelerated Dense Pose Estimation",
+      "authors": [
+        "Zizhuo Li",
+        "Songchu Deng",
+        "Linfeng Tang",
+        "Jiayi Ma"
+      ],
+      "published": "2026-05-18T02:51:25+00:00",
+      "updated": "2026-05-18T02:51:25+00:00",
+      "summary": "This letter presents LiteLoc, a novel and efficient localizer built on 3D Gaussian Splatting (3DGS). The previous state-of-the-art (SoTA) sparse-to-dense localizer, STDLoc, has shown remarkable localization capability but suffers from severe storage redundancy and computational latency. By revisiting its design decisions, we derive two simple yet highly effective improvements that cumulatively make LiteLoc much more efficient in both memory and computation, while also being easier to train. One key observation is that the color field, inherited directly from Feature 3DGS, is functionally useless for localization. Yet, its reconstruction of high-frequency photometric details necessitates excessive Gaussian primitives, resulting in a tightly coupled color-feature representation with significant memory overhead and sub-optimal feature field optimization. To resolve this, we propose a color-free decoupled feature field that constructs a compact Gaussian scene representation by retaining only task-essential feature attributes, thereby eliminating approximately 94% of redundant storage with no loss of localization-relevant information. We further find that the primary computational bottleneck lies in the dense Perspective-n-Point (PnP) solver, where most matches contribute saturated geometric constraints with diminishing accuracy gains. Accordingly, we propose a condensing strategy that distills dense matches into a subset of 5% representative matches, enabling a nearly 19-fold speedup in robust estimation with negligible performance drop. Extensive experiments show that LiteLoc surpasses STDLoc in multiple scenes with considerable efficiency benefits, opening up exciting prospects for latency-sensitive visual localization.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.17777v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "IEEE/CAA JAS 2026",
+      "entry_id": "http://arxiv.org/abs/2605.17777v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.17777v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.17777v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.17682": {
+      "title": "GEM: Gaussian Evolution Model for Occupancy Forecasting and Motion Planning",
+      "authors": [
+        "Cheng Chen",
+        "Hao Huang",
+        "Saurabh Bagchi"
+      ],
+      "published": "2026-05-17T22:52:53+00:00",
+      "updated": "2026-05-17T22:52:53+00:00",
+      "summary": "Future 3D semantic occupancy forecasting and motion planning are central to autonomous driving, as they require models to reason about how surrounding scenes evolve and how the ego vehicle should act. Existing occupancy world models commonly discretize scenes into latent embeddings, volumetric features, or quantized tokens, and forecast future states through fixed-step autoregressive generation. This limits temporal flexibility, obscures scene evolution, accumulates errors over long horizons, and poorly matches the continuous-time dynamics of real driving scenes. We propose GEM, a Gaussian Evolution Model for non-autoregressive occupancy world modeling, where driving scenes are represented as explicit continuous 4D Gaussian primitives with learned dynamics. Instead of rolling out future occupancy states step by step, GEM directly queries the Gaussian world representation at arbitrary timestamps and splats the corresponding conditional 3D Gaussians into semantic occupancy volumes. This enables efficient forecasting over the full horizon while retaining a compact and interpretable scene representation. By decoupling spatial geometry, temporal support, and primitive motion, GEM makes the predicted world easier to inspect, as each primitive's evolution can be followed continuously over time. The same representation also supports motion planning by predicting future ego trajectories from the learned Gaussian world. Extensive experiments show that GEM achieves state-of-the-art future semantic occupancy forecasting and strong motion planning performance, while providing flexible temporal querying.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.17682v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.17682v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.17682v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.17682v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.17137": {
+      "title": "Latent Heuristic Search: Continuous Optimization for Automated Algorithm Design",
+      "authors": [
+        "Cheikh Ahmed",
+        "Mahdi Mostajabdaveh",
+        "Zirui Zhou"
+      ],
+      "published": "2026-05-16T20:03:01+00:00",
+      "updated": "2026-05-16T20:03:01+00:00",
+      "summary": "The integration of Large Language Models (LLMs) into evolutionary frameworks has established a new paradigm for automated heuristic discovery. Despite their promise, these methods typically search in the discrete space of program syntax, relying on stochastic sampling to navigate a highly non-convex optimization landscape. This work proposes a continuous heuristic discovery framework that shifts optimization to a learned latent manifold. We employ an encoder to map discrete programs into continuous embeddings and train a differentiable surrogate model to predict performance, enabling gradient-based search. To regularize the optimization trajectory, an invertible normalizing flow maps these embeddings to a structured Gaussian prior, where we perform gradient ascent. The resulting optimized latent vectors are projected through a learned mapper into soft prompts, which condition a frozen LLM to synthesize novel executable heuristics. We evaluate the proposed method on the Traveling Salesman Problem (TSP), the Capacitated Vehicle Routing Problem (CVRP), the Knapsack Problem (KSP), and Online Bin Packing (OBP). Empirical results demonstrate that continuous latent-space optimization achieves performance competitive with state-of-the-art discrete evolutionary baselines while offering a complementary methodological alternative for automated algorithm design. The implementation code is available at \\url{https://github.com/cheikh025/LHS}.",
+      "categories": [
+        "cs.AI"
+      ],
+      "primary_category": "cs.AI",
+      "pdf_url": "https://arxiv.org/pdf/2605.17137v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted at LION 2026, The Learning and Intelligent Optimization Conference",
+      "entry_id": "http://arxiv.org/abs/2605.17137v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.17137v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.17137v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.16993": {
+      "title": "Adversarial Fragility and Language Vulnerability in Clinical AI: A Systematic Audit of Diagnostic Collapse Under Imperceptible Perturbations and Cross-Lingual Drift in Low-Resource Healthcare Settings",
+      "authors": [
+        "Anthonio Oladimeji Gabriel",
+        "Ahmad Rufai Yusuf"
+      ],
+      "published": "2026-05-16T13:33:47+00:00",
+      "updated": "2026-05-16T13:33:47+00:00",
+      "summary": "Current clinical artificial intelligence (AI) systems are evaluated almost exclusively on clean, standardised, English-language inputs, conditions that do not reflect the realities of healthcare delivery in low-resource settings. This study presents the first systematic dual audit of two orthogonal safety vulnerabilities in clinical AI: adversarial image fragility and cross-lingual diagnostic drift. Using DenseNet121, the architecture underlying CheXNet, fine-tuned on the COVID-QU-Ex chest X-ray dataset (85,318 images; COVID-19, Non-COVID Pneumonia, Normal), we demonstrate that diagnostic accuracy collapses from 89.3% to 62.0% under a Fast Gradient Method (FGM) perturbation of epsilon=0.021, a magnitude imperceptible to the human eye. Standard defensive strategies including Gaussian smoothing and ensemble voting failed to restore clinical safety. In a parallel language fragility experiment, we tested Llama3.1:8b and NatLAS (N-ATLAS) on 20 COVID-19 clinical cases presented in Standard English, Nigerian Pidgin (Naija), and Yoruba-inflected English. Both models exhibited significant accuracy degradation: Llama3.1:8b dropped from 80.0% to 65.0% on Pidgin; NatLAS, an African-context model, collapsed from 85.0% to 55.0%, with diagnosis consistency falling to 50%. These findings establish a quantitative failure envelope for clinical AI under conditions representative of Primary Health Centre (PHC) deployment in Nigeria, and motivate urgent calls for adversarially hardened, linguistically inclusive clinical AI architectures.",
+      "categories": [
+        "cs.CY",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CY",
+      "pdf_url": "https://arxiv.org/pdf/2605.16993v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "23 pages, 9 figures, 3 tables. Code and data available at https://github.com/anthoniooladimeji11-coder/clinical-ai-safety-audit",
+      "entry_id": "http://arxiv.org/abs/2605.16993v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.16993v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.16993v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.16645": {
+      "title": "Statistical Unlearning of Distributions: A Hypothesis Testing Approach",
+      "authors": [
+        "Aaradhya Pandey",
+        "Sanjeev Kulkarni"
+      ],
+      "published": "2026-05-15T21:33:38+00:00",
+      "updated": "2026-05-15T21:33:38+00:00",
+      "summary": "Machine learning systems increasingly face requirements to forget not only individual data points, but entire domains of information, such as toxic language, copyrighted corpora, or demographic biases. This raises a fundamental dilemma of statistical-computational tradeoffs: removing all samples from an unwanted domain may be computationally prohibitive, while randomly removing a subset may not provide distribution-level statistical guarantees. We propose a statistical framework for distributional unlearning, in which domains are modeled as probability distributions, and the goal is to remove a carefully chosen subset of samples that reduces the effect of an unwanted distribution while preserving performance on a desired one. We formalize this using a hypothesis test of the edited data with the desired and unwanted domains, leading to an interpretable and robust criterion for selecting samples to remove. Within this statistical framework, we characterize the fundamental region of the allowable edited data distributions and the removal-preservation Pareto frontier for a broad class of distribution families. This includes parametric families such as shifted Gaussians of arbitrary dimension, a one-dimensional location family with log-concave noise, and the one-dimensional Poisson family. It also includes nonparametric families such as the Gaussian white noise model, a canonical model for nonparametric regression. We prove composition rules that describe how distributional unlearning behaves across multimodal unwanted domains, and introduce a central-limit behavior for the removal-preservation baselines when composing a large number of such families. Finally, we provide finite sample guarantees by providing Pareto frontiers for some selection algorithms, and observe an information-computation gap.",
+      "categories": [
+        "math.ST",
+        "cs.IT",
+        "cs.LG",
+        "stat.ML"
+      ],
+      "primary_category": "math.ST",
+      "pdf_url": "https://arxiv.org/pdf/2605.16645v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Comments welcome",
+      "entry_id": "http://arxiv.org/abs/2605.16645v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.16645v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.16645v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.16582": {
+      "title": "ArtMesh: Part-Aware Articulated Mesh Fields with Motion-Consistent Dynamics",
+      "authors": [
+        "Sylvia Yuan",
+        "Dan Wang",
+        "Ravi Ramamoorthi",
+        "Xinrui Cui"
+      ],
+      "published": "2026-05-15T19:37:55+00:00",
+      "updated": "2026-05-15T19:37:55+00:00",
+      "summary": "We present ArtMesh, a mesh-native method for reconstructing articulated objects explicitly as connected triangle meshes with per-part rigid motion from multi-view images in start and end states. Existing 3D Gaussian Splatting pipelines for articulated reconstruction inherit the unstructured point-based geometry of their splatting base, which provides no surface topology for reasoning about part boundaries or enforcing motion consistency along the object's connectivity. ArtMesh instead builds on a mesh-based differentiable rendering backbone, enabling part-aware dynamics to act directly on the structured topology. To make the topology compatible with articulation, we introduce part-aware restricted Delaunay remeshing, producing connected submeshes whose triangles do not cross semantic part boundaries. The dynamic mesh field then optimizes articulation using bidirectional Vertex-wise Motion Consistency on transported mesh vertices and Pixel-wise Motion Consistency on rendered RGB-D observations. We introduce Articulate-100, a new benchmark of 100 articulated objects spanning 16 PartNet-Mobility categories. On this benchmark, ArtMesh outperforms prior 3DGS-based pipelines in joint parameter estimation and part-level geometric reconstruction, with the largest gains on objects with many movable parts.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.16582v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.16582v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.16582v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.16582v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ],
+      "llm_approved": true
+    },
     "2605.16094": {
       "title": "GeoGS-CE: Learning Delay--Beam Channel Priors with 3D Gaussians for High-Mobility Scenarios",
       "authors": [
@@ -103,6 +470,45 @@
         },
         {
           "href": "https://arxiv.org/pdf/2605.16022v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.16460": {
+      "title": "REC-RL: Referring expression counting via Gaussian and range-based reward optimization",
+      "authors": [
+        "Hui Liu",
+        "Yunlai Teng",
+        "Kunlong Bai",
+        "Pengfei Qi",
+        "Haotian Yan",
+        "Liang Li",
+        "Junlan Feng"
+      ],
+      "published": "2026-05-15T07:37:45+00:00",
+      "updated": "2026-05-15T07:37:45+00:00",
+      "summary": "Referring expression counting (REC) is an intention-driven task that requires context-aware visual reasoning. While recent vision-language models incorporate language for visual understanding, most existing REC methods rely on rulebased reinforcement learning with rewards focused primarily on final accuracy, overlooking the quality of intermediate reasoning. We propose REC-RL, a reinforcement learning framework that introduces a think-range-answer paradigm to explicitly optimize the visual reasoning process. RECRL employs Group Relative Policy Optimization and two lightweight rewards: an accuracy reward that combines range-based interval supervision with Gaussian-based precision guidance, and a format reward that enforces structured outputs. By modeling intermediate focus prediction as internal decision-making, REC-RL avoids additional annotations and better aligns with human perception. Extensive experiments demonstrate consistent improvements over strong baselines and robust generalization across benchmarks.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.16460v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "5 pages",
+      "entry_id": "http://arxiv.org/abs/2605.16460v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.16460v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.16460v1",
           "title": "pdf",
           "rel": "related",
           "content_type": "application/pdf"
@@ -674,6 +1080,43 @@
         "note": "已查询但未找到venue信息"
       }
     },
+    "2605.16405": {
+      "title": "Concepts Worth Having: Refining VLM-Guided Concept Bottleneck Models with Minimal Annotations",
+      "authors": [
+        "Nicola Debole",
+        "Andrea Passerini",
+        "Stefano Teso",
+        "Andrea Pugnana",
+        "Emanuele Marconato"
+      ],
+      "published": "2026-05-13T10:07:11+00:00",
+      "updated": "2026-05-13T10:07:11+00:00",
+      "summary": "Concept-bottleneck models (CBMs) are neural classifiers that compute predictions from high-level concepts extracted from the input. CBMs ensure stakeholders can understand the concepts -- and the predictions they entail -- by learning these from concept-level annotations, which are however seldom available. Recent CBM architectures work around this issue by obtaining annotations from Vision-Language Models (VLMs). While greatly broadening applicability, doing so can yield lower quality concepts and therefore less interpretable models. We strike for a middle ground by introducing Vision-plus-Human-guided CBM (VH-CBM), a hybrid approach that exploits both VLMs and a small amount of dense annotations. VH-CBM employs a Gaussian Process in the VLM's embedding space, which captures useful global information about the target domain, to propagate the expert's supervision to any target data point. Our empirical evaluation shows how VH-CBM predicts more accurate concepts than VLM-guided CBMs even when annotating as little as 1% of the data, while sporting better concept calibration and supporting active learning.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.16405v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.16405v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.16405v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.16405v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ],
+      "llm_approved": true
+    },
     "2605.13073": {
       "title": "HarmoGS: Robust 3D Gaussian Splatting in the Wild via Conflict-Aware Gradient Harmonization",
       "authors": [
@@ -1129,26 +1572,26 @@
         "Caglar Gulcehre"
       ],
       "published": "2026-05-11T18:32:32+00:00",
-      "updated": "2026-05-11T18:32:32+00:00",
+      "updated": "2026-05-16T19:59:59+00:00",
       "summary": "Discrete Diffusion Language Models progressed rapidly as an alternative to autoregressive (AR) models, motivated by their parallel generation abilities. However, for tractability, discrete diffusion models sample from a factorized distribution, which is less expressive than AR. Recent Flow Language Models (FLMs) apply continuous flows to language, transporting noise to data with a deterministic ODE that avoids factorized sampling. FLMs operate on one-hot vectors whose dimension scales with the vocabulary size, making FLMs costly to train. Moreover, since all distinct one-hot embeddings are equidistant in $\\ell_2$, adding Gaussian noise does not have a clear semantic interpretation (unlike images, where Gaussian noise progressively degrades structure). We introduce $\\mathbb{S}$-FLM, a latent FLM in the hypersphere. $\\mathbb{S}$-FLM generates sequences by rotating vectors in $\\mathbb{S}^{d-1}$ along a velocity field learned with cross-entropy, avoiding the overhead of materializing one-hot vectors. Previous FLMs match AR in Generative Perplexity (Gen.\\ PPL), but samples with high likelihood are not necessarily correct in verifiable domains such as math and code. $\\mathbb{S}$-FLM substantially improves continuous flow language models on large-vocabulary reasoning and closes the gap to masked diffusion under standard-temperature sampling ($T=1$), while a gap remains under optimized low-temperature ($T=0.1$) decoding.",
       "categories": [
         "cs.LG"
       ],
       "primary_category": "cs.LG",
-      "pdf_url": "https://arxiv.org/pdf/2605.11125v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.11125v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2605.11125v1",
+      "entry_id": "http://arxiv.org/abs/2605.11125v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2605.11125v1",
+          "href": "https://arxiv.org/abs/2605.11125v2",
           "title": null,
           "rel": "alternate",
           "content_type": "text/html"
         },
         {
-          "href": "https://arxiv.org/pdf/2605.11125v1",
+          "href": "https://arxiv.org/pdf/2605.11125v2",
           "title": "pdf",
           "rel": "related",
           "content_type": "application/pdf"
@@ -2270,26 +2713,26 @@
         "Federico Tombari"
       ],
       "published": "2026-05-07T12:10:07+00:00",
-      "updated": "2026-05-07T12:10:07+00:00",
+      "updated": "2026-05-15T19:56:21+00:00",
       "summary": "Understanding open-vocabulary 3D scenes with Gaussian-based representations remains challenging due to fragmented and spatially inconsistent semantic predictions across multi-view observations. In this paper, we present OpenGaFF, a novel framework for open-vocabulary 3D scene understanding built upon 3D Gaussian Splatting. At the core of our method is a Gaussian Feature Field that models semantics as a continuous function of Gaussian geometry and appearance. By explicitly conditioning semantic predictions on geometric structure, this formulation strengthens the coupling between geometry and semantics, leading to improved spatial coherence across similar structures in 3D space. To further enforce object-level semantic consistency, we introduce a structured codebook that serves as a set of shared semantic primitives. Furthermore, a codebook-guided attention mechanism is proposed to retrieve language features via similarity matching between query embeddings and learned codebook entries, enabling robust open-vocabulary reasoning while reducing intra-object feature variance. Extensive experiments on standard 2D and 3D open-vocabulary benchmarks demonstrate that our method consistently outperforms prior approaches, achieving improved segmentation quality, stronger 3D semantic consistency and a semantically interpretable codebook that provides insight into the learned representation.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2605.06088v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.06088v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2605.06088v1",
+      "entry_id": "http://arxiv.org/abs/2605.06088v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2605.06088v1",
+          "href": "https://arxiv.org/abs/2605.06088v2",
           "title": null,
           "rel": "alternate",
           "content_type": "text/html"
         },
         {
-          "href": "https://arxiv.org/pdf/2605.06088v1",
+          "href": "https://arxiv.org/pdf/2605.06088v2",
           "title": "pdf",
           "rel": "related",
           "content_type": "application/pdf"
@@ -113274,6 +113717,116 @@
     }
   },
   "Depth Estimation": {
+    "2605.17772": {
+      "title": "Towards Universal Physical Adversarial Attacks via a Joint Multi-Objective and Multi-Model Optimization Framework",
+      "authors": [
+        "Ziyang Liu",
+        "Hongyuan Wang",
+        "Zijian Wang",
+        "Yinxi Lu",
+        "Yunzhao Zang",
+        "Zhiqiang Yan",
+        "Qianhao Ning"
+      ],
+      "published": "2026-05-18T02:44:54+00:00",
+      "updated": "2026-05-18T02:44:54+00:00",
+      "summary": "Physical adversarial attacks often overfit single surrogate models and optimization objectives. While ensemble attacks can mitigate this, existing methods struggle with severe gradient conflicts within restricted physical texture spaces, significantly degrading cross-model transferability. To bridge this gap, this paper proposes a Joint Multi-Objective and Multi-Model Optimization Framework (JMOF) that leverages quantitative similarity analysis to select the optimal surrogate model ensemble. Within JMOF, a dual-level mechanism jointly suppresses prediction outputs and flattens intermediate feature distributions, balancing attack efficiency with deep generalization. Additionally, an Orthogonal Gradient Alignment (OGA) strategy resolves cross-model gradient conflicts, transforming mutually repulsive gradients into synergistic optimization directions. Extensive simulated and real-world experiments demonstrate that JMOF outperforms state-of-the-art baselines against diverse black-box detectors. Crucially, JMOF exhibits substantial cross-vision-task generalization, generating attacks capable of simultaneously deceiving object detection and semantic segmentation or monocular depth estimation models. This research advances the generalization limits of physical adversarial attacks, providing a robust framework for evaluating visual AI vulnerabilities in real-world deployments.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.17772v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Under review",
+      "entry_id": "http://arxiv.org/abs/2605.17772v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.17772v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.17772v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ]
+    },
+    "2605.17472": {
+      "title": "Weighted Reverse Convolution for Feature Upsampling",
+      "authors": [
+        "Wentong Li",
+        "Zhiyuan Qi",
+        "Zichen Zhao",
+        "Kai Zhang",
+        "Lei Zhang"
+      ],
+      "published": "2026-05-17T14:20:53+00:00",
+      "updated": "2026-05-17T14:20:53+00:00",
+      "summary": "Pre-trained vision foundation models (VFMs) provide strong semantic representations, yet their patch-level features are inherently coarse, limiting their effectiveness on tasks requiring fine-grained localization, dense prediction, and point-wise correspondence. In this work, we revisit feature upsampling for VFMs from the perspective of \\textbf{\\textit{inverse problem}} and propose Weighted Reverse Convolution (WRC), a spatially adaptive inverse operator for densifying high-level visual descriptors. Specifically, we formulate feature upsampling as a weighted Tikhonov-regularized least-squares problem, where spatially varying weights modulate both data fidelity and prior strength at each spatial location. This allows WRC to adapt the reconstruction to spatially varying feature characteristics, thereby preserving critical structures while mitigating over-smoothing. Moreover, WRC retains an efficient, fully differentiable closed-form FFT solution, making it a practical drop-in upsampling operator. Integrated into a lightweight self-supervised densification framework, WRC consistently improves dense feature quality across various downstream benchmarks, including segmentation, depth estimation, video object segmentation, object discovery, and keypoint correspondence, while maintaining high computational efficiency.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.17472v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "18 pages, 7figures",
+      "entry_id": "http://arxiv.org/abs/2605.17472v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.17472v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.17472v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ]
+    },
+    "2605.16628": {
+      "title": "SCARED-C: Corrected Camera Poses for Endoscopic Depth Estimation",
+      "authors": [
+        "John J. Han",
+        "Adam Schmidt",
+        "Max Allan",
+        "Jie Ying Wu",
+        "Omid Mohareri"
+      ],
+      "published": "2026-05-15T20:48:51+00:00",
+      "updated": "2026-05-15T20:48:51+00:00",
+      "summary": "The SCARED dataset is a widely used benchmark for endoscopic depth estimation, offering ground-truth 3D reconstructions captured with a structured light sensor. However, the depth maps for non-keyframe images rely on robot kinematics that introduce substantial pose errors, limiting the reliably labeled portion of the dataset to 35 keyframes. We present SCARED-C, a corrected version of the SCARED dataset that expands the number of reliable RGB-D pairs from 35 to 17,135. Our pipeline applies COLMAP, a Structure-from-Motion system, to re-estimate camera poses for all frames, followed by a scale recovery step that aligns the resulting reconstructions to metric space using the ground-truth keyframe depth maps. We validate the corrected poses through (1) stereo disparity evaluation and (2) monocular depth estimation experiments. The corrected dataset and code are publicly released to the community.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.16628v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.16628v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.16628v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.16628v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ]
+    },
     "2605.16022": {
       "title": "EndoGSim: Physics-Aware 4D Dynamic Endoscopic Scene Simulations via MLLM-Guided Gaussian Splatting",
       "authors": [
