@@ -1,4 +1,4 @@
-## Updated at 2026-05-20 08:47:24
+## Updated at 2026-05-20 20:54:48
 
 ## 3DGS Semantic
 
@@ -8,6 +8,11 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-05-19**|**[OP2GS: Object-Aware 3D Gaussian Splatting with Dual-Opacity Primitives](https://arxiv.org/abs/2605.20044)**|N/A|Under review|cs.CV|None|Guiyu Liu et al.|
+|**2026-05-19**|**[Probabilistic Tiny Recursive Model](https://arxiv.org/abs/2605.19943)**|N/A|None|cs.AI|None|Amin Sghaier et al.|
+|**2026-05-19**|**[FlyMirage: A Fully Automated Generation Pipeline for Diverse and Scalable UAV Flight Data via Generative World Model](https://arxiv.org/abs/2605.19600)**|N/A|None|cs.RO|None|Jinhan Li et al.|
+|**2026-05-19**|**[Backdooring Masked Diffusion Language Models](https://arxiv.org/abs/2605.19262)**|N/A|None|cs.LG|None|Daniel Yiming Cao et al.|
+|**2026-05-18**|**[Embedding by Elicitation: Dynamic Representations for Bayesian Optimization of System Prompts](https://arxiv.org/abs/2605.19093)**|N/A|None|cs.AI|None|Zhiyuan Jerry Lin et al.|
 |**2026-05-18**|**[WaveDriver: a Laser Guide Star AO System for HWO](https://arxiv.org/abs/2605.18723)**|N/A|accepted to JATIS on 05/18/26|astro-ph.IM|None|Benjamin L. Gerard et al.|
 |**2026-05-18**|**[Resolving Representation Ambiguity in Feedforward Novel View Synthesis Transformer via Semantic-Spatial Decoupling](https://arxiv.org/abs/2605.18599)**|N/A|24 pages, 11 figures, 4 tables. Project page: https://hangzay.github.io/ssd_lvsm/|cs.CV|None|Yihang Wu et al.|
 |**2026-05-18**|**[Historical Knowledge Graphs for Global Maritime Estimated Time of Arrival](https://arxiv.org/abs/2605.18408)**|N/A|None|cs.CV|None|Neofytos Dimitriou|
@@ -94,7 +99,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2026-05-02**|**[Recall to Predict: Grounding Motion Forecasting in Interpretable Motion Bank](https://arxiv.org/abs/2605.01393)**|N/A|Sumitted for PeerReview|cs.CV|None|Abhishek Vivekanandan et al.|
 |**2026-05-01**|**[Learn where to Click from Yourself: On-Policy Self-Distillation for GUI Grounding](https://arxiv.org/abs/2605.00642)**|N/A|under review|cs.AI|None|Yan Zhang et al.|
 |**2026-05-01**|**[On the Distribution of Unweighted Minimum Knapsack Instances with Large SOS Rank](https://arxiv.org/abs/2605.00594)**|N/A|None|math.OC|None|Adam Kurpisz et al.|
-|**2026-05-01**|**[Federated Distillation for Whole Slide Image via Gaussian-Mixture Feature Alignment and Curriculum Integration](https://arxiv.org/abs/2605.00578)**|N/A|Accepted by ICML 2026|cs.CV|None|Luru Jing et al.|
+|**2026-05-01**|**[Federated Distillation for Whole Slide Image via Gaussian-Mixture Feature Alignment and Curriculum Integration](https://arxiv.org/abs/2605.00578)**|N/A|Accepted by ICML 2026, Camera-Ready version updated|cs.CV|None|Luru Jing et al.|
 |**2026-05-01**|**[Structured Analytic Coherent Point Drift for Non-Rigid Point Set Registration](https://arxiv.org/abs/2605.00934)**|N/A|Revised version. Supplementary material incorporated as appendices; method, implementation, and experimental details expanded|cs.LG|None|Wei Feng, Haiyong Zheng|
 |**2026-04-30**|**[FieryGS: In-the-Wild Fire Synthesis with Physics-Integrated Gaussian Splatting](https://arxiv.org/abs/2605.00177)**|N/A|ICLR 2026|cs.GR|None|Qianfan Shen et al.|
 |**2026-04-30**|**[Generalizable Sparse-View 3D Reconstruction from Unconstrained Images](https://arxiv.org/abs/2604.28193)**|N/A|Project Page: https://genwildsplat.github.io/|cs.CV|None|Vinayak Gupta et al.|
@@ -994,6 +999,8 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-05-19**|**[Depth2Pose: A Pose-Based Benchmark for Monocular Depth Estimation without Ground-Truth Depth](https://arxiv.org/abs/2605.19797)**|N/A|None|cs.CV|None|Viktor Kocur et al.|
+|**2026-05-19**|**[Smartphone-based Circular Plot Sampling for Forest Inventory](https://arxiv.org/abs/2605.19213)**|N/A|None|cs.CV|None|Su Sun et al.|
 |**2026-05-18**|**[Towards Universal Physical Adversarial Attacks via a Joint Multi-Objective and Multi-Model Optimization Framework](https://arxiv.org/abs/2605.17772)**|N/A|Under review|cs.CV|None|Ziyang Liu et al.|
 |**2026-05-17**|**[Weighted Reverse Convolution for Feature Upsampling](https://arxiv.org/abs/2605.17472)**|N/A|18 pages, 7figures|cs.CV|None|Wentong Li et al.|
 |**2026-05-15**|**[SCARED-C: Corrected Camera Poses for Endoscopic Depth Estimation](https://arxiv.org/abs/2605.16628)**|N/A|None|cs.CV|None|John J. Han et al.|
