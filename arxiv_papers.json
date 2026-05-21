@@ -1,5 +1,383 @@
 {
   "3DGS Semantic": {
+    "2605.21446": {
+      "title": "Lost in Fog: Sensor Perturbations Expose Reasoning Fragility in Driving VLAs",
+      "authors": [
+        "Abhinaw Priyadershi",
+        "Jelena Frtunikj"
+      ],
+      "published": "2026-05-20T17:34:02+00:00",
+      "updated": "2026-05-20T17:34:02+00:00",
+      "summary": "Interpretable autonomous driving planners depend not only on generating explanations, but also on those explanations remaining reliable under real-world sensor degradation. In this paper we present a controlled perturbation study of Vision-Language-Action (VLA) robustness in autonomous driving, evaluating Alpamayo R1 (10B parameters) across 1,996 scenarios under eight sensor perturbations (Gaussian noise at four intensities, two lighting extremes, and two fog levels; ${\\sim}18{,}000$ inference trials). We find that reasoning consistency is a high-fidelity indicator of trajectory reliability: when Chain-of-Causation (CoC) explanations change after perturbation, trajectory deviation spikes $5.3{\\times}$ (21.8m vs 4.1m), with $r\\!=\\!0.99$ across attack types and $r_{pb}\\!=\\!0.53$ per-sample (Cohen's $d\\!=\\!1.12$). A controlled ablation provides evidence that enabling CoC generation is associated with improved trajectory accuracy (11.8% on average across conditions; $p < 0.0001$) under matched inference settings. Over the tested noise range ($σ\\in \\{10, 30, 50, 70\\}$), degradation is approximately linear ($R^2\\!=\\!0.957$), while standard input preprocessing defenses provide only marginal relief. Together, these results establish CoC consistency as a quantitative proxy for planning safety and motivate reasoning-based runtime monitoring for safer VLA deployment.",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2605.21446v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.21446v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.21446v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.21446v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.21258": {
+      "title": "Learning Structural Latent Points for Efficient Visual Representations in Robotic Manipulation",
+      "authors": [
+        "Yicheng Jiang",
+        "Jiaxu Wang",
+        "Junhao He",
+        "Zesen Gan",
+        "Junhao Li",
+        "Qiang Zhang",
+        "Jingkai Sun",
+        "Jiahang Cao",
+        "Mingyuan Sun",
+        "Xiangyu Yue",
+        "Qiming Shao"
+      ],
+      "published": "2026-05-20T14:48:01+00:00",
+      "updated": "2026-05-20T14:48:01+00:00",
+      "summary": "Current 3D-aware pretraining methods for embodied perception and manipulation are largely built on differentiable rendering frameworks, producing either fully implicit neural fields or fully explicit geometric primitives. Implicit representations, while expressive, lack explicit structural cues, whereas explicit ones preserve geometry but suffer from resolution limits and weak generalization. To address these limitations, we propose a novel pretraining framework that learns a hybrid representation-structural latent points. Specifically, we insert a point-wise latent variational autoencoder into the latent space of a point-cloud autoencoder, jointly regularizing point-wise features and coordinates toward a Gaussian prior. The resulting compact latent preserves coarse structural tendencies, which do not encode precise geometry but capture richer rough shape and semantic information, effectively combining the expressiveness of implicit representations with the structural priors of explicit ones. In addition, informed by shared design choices in prior work, we develop a streamlined, efficient 3DGS-based rendering pipeline that is deliberately kept lightweight, improving efficiency while leaving greater representational capacity to the front-end latent module. Extensive evaluations on RLBench, ManiSkill2, and a real-robot platform demonstrate consistent gains in task success, sample efficiency, and robustness to viewpoint and scene variations over strong baselines. Ablation studies further confirm that each component of our framework is critical to overall performance.",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2605.21258v1",
+      "journal_ref": "International Conference on Robotics and Automation 2026",
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.21258v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.21258v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.21258v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.21112": {
+      "title": "RCGDet3D: Rethinking 4D Radar-Camera Fusion-based 3D Object Detection with Enhanced Radar Feature Encoding",
+      "authors": [
+        "Weiyi Xiong",
+        "Bing Zhu"
+      ],
+      "published": "2026-05-20T12:45:01+00:00",
+      "updated": "2026-05-20T12:45:01+00:00",
+      "summary": "4D automotive radar is indispensable for autonomous driving due to its low cost and robustness, yet its point cloud sparsity challenges 3D object detection. Existing 4D radar-camera fusion methods focus on complex fusion strategies, trading inference speed for marginal gains. This trade-off hinders real-time deployment due to heavy computation on dense feature maps. In contrast, feature extraction from sparse radar points is less time-consuming but remains under-explored. This work uncovers that simply enhancing radar feature extraction can achieve comparable or even higher performance than elaborate fusion modules, while maintaining real-time performance. Based on this finding, we propose RCGDet3D, which centers on radar feature encoding and simplifies multi-modal fusion. Its encoder inherits from the efficient Gaussian Splatting-based Point Gaussian Encoder (PGE) in RadarGaussianDet3D with two key improvements. First, the Ray-centric PGE (R-PGE) predicts Gaussian attributes in ray-aligned coordinate systems before unifying them to Bird's-Eye View (BEV) space, significantly improving geometric consistency and reducing learning difficulty by decoupling the coordinate transformation from representation learning. Second, a Semantic Injection (SI) module incorporates visual cues from images, producing more geometrically accurate and semantically enriched radar features. Experiments on View-of-Delft (VoD) and TJ4DRadSet show that RCGDet3D outperforms state-of-the-art methods in both accuracy and speed, setting a new benchmark for real-time deployment.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.21112v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.21112v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.21112v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.21112v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.21041": {
+      "title": "Conditioning Gaussian Processes on Almost Anything",
+      "authors": [
+        "Henry Moss",
+        "Lachlan Astfalck",
+        "Thomas Cowperthwaite",
+        "Colin Doumont",
+        "Sam Willis",
+        "Philipp Hennig",
+        "Christopher Nemeth",
+        "Andrew Zammit-Mangion"
+      ],
+      "published": "2026-05-20T11:23:42+00:00",
+      "updated": "2026-05-20T11:23:42+00:00",
+      "summary": "Gaussian processes (GPs) offer a principled probabilistic model over functions, but exact inference is restricted to the linear-Gaussian regime. We establish an explicit equivalence between GPs and a class of linear diffusion models, recasting predictive sampling as an ODE with closed-form Gaussian dynamics and a likelihood-dependent guidance term that admits a simple Monte Carlo approximation. In the linear-Gaussian setting, we recover standard GP conditioning exactly; beyond conjugacy, the same machinery handles any conditioning statement admitting point-wise likelihood evaluation -- including non-linear physics, and, for the first time, natural language via large language models. Whitening isolates the irreducible non-Gaussian dynamics, minimising Wasserstein-2 transport cost and eliminating numerical stiffness. The result is a general-purpose GP inference scheme requiring no bespoke derivations. Together, these results provide a general mechanism for incorporating the full richness of real-world knowledge as conditioning information, opening a new frontier for the probabilistic modelling of real-world problems.",
+      "categories": [
+        "stat.ML",
+        "cs.LG",
+        "stat.ME"
+      ],
+      "primary_category": "stat.ML",
+      "pdf_url": "https://arxiv.org/pdf/2605.21041v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.21041v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.21041v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.21041v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.21001": {
+      "title": "DAMA: Disentangled Body-Anchored Gaussians for Controllable Multi-Layered Avatars",
+      "authors": [
+        "Daniel Eskandar",
+        "Berna Kabadayi",
+        "Garvita Tiwari",
+        "Gerard Pons-Moll"
+      ],
+      "published": "2026-05-20T10:39:44+00:00",
+      "updated": "2026-05-20T10:39:44+00:00",
+      "summary": "Existing 3D clothed avatar reconstruction methods achieve high visual fidelity but ignore geometric structure and physical plausibility. They either model clothed humans as a single deformable surface or attempt garment disentanglement without enforcing geometric constraints, resulting in ambiguous garment boundaries and no control over stacking or layer ordering. To address these limitations, we introduce DAMA (Disentangled body-Anchored Gaussians for Controllable Multi-layered Avatars), a 3D avatar reconstruction method that produces physically plausible clothed avatars through a dedicated representation and reconstruction method. At the representation level, we bind Gaussians to SMPL-X faces using barycentric in-plane coordinates and a positive normal offset. Based on this parameterization, the reconstruction method lifts 2D segmentations to body-anchored Gaussians, refines layers using topology-guided correction, and jointly optimizes geometry and appearance. DAMA is the first Gaussian avatar reconstruction method from multi-view images to achieve physically plausible layering, clean garment separation, and explicit stacking control. On the full 4D-DRESS dataset (82 scans), it achieves state-of-the-art performance in geometry reconstruction, garment separation, penetration rate, and penetration depth. The representation further supports user-defined garment reordering and fast conversion of body-conforming garments to simulation-ready meshes. Project Page: https://danieleskandar.github.io/dama/",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.21001v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.21001v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.21001v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.21001v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.20941": {
+      "title": "PaintCopilot: Modeling Painting as Autonomous Artistic Continuation",
+      "authors": [
+        "Yunge Wen",
+        "Yuancheng Shen",
+        "Paul Pu Liang"
+      ],
+      "published": "2026-05-20T09:27:06+00:00",
+      "updated": "2026-05-20T09:27:06+00:00",
+      "summary": "We present PaintCopilot, a co-creative neural painting assistant that models painting as an open-ended autoregressive artistic behavior conditioned on evolving canvas states and prior brushstroke history, without requiring a target image. Unlike existing neural painting methods that frame painting as pixel reconstruction toward a predefined reference, PaintCopilot predicts future strokes directly from learned artistic dynamics, analogous to how large language models continue text sequences from prior context.\n  The framework proposes three complementary models: a ViT-based Target Predictor that infers artist intent from partial canvas observations, an autoregressive Next Stroke Predictor that generates temporally coherent brushstrokes via flow matching, and a VAE-based Region Sampler that synthesizes semantically localized stroke sequences on demand. Built on three differentiable brush representations (Hard Round, Brush Tip, and 2D Gaussian), the system supports four interactive workflows: Optimize History, Stroke Completion, Region Inpainting, and Dynamic Brush. Through case studies with professional artists, we demonstrate that PaintCopilot enables fluid co-creative painting workflows in which artists and AI continuously alternate control throughout the creative process.",
+      "categories": [
+        "cs.CV",
+        "cs.GR",
+        "cs.HC"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.20941v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.20941v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.20941v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.20941v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.20752": {
+      "title": "GaussianDream: A Feed-Forward 3D Gaussian World Model for Robotic Manipulation",
+      "authors": [
+        "Zijian Zhang",
+        "Yuqing Jiang",
+        "Qian Cheng",
+        "Si Liu",
+        "Ding Zhao",
+        "Ping Luo",
+        "Weitao Zhou",
+        "Haibao Yu"
+      ],
+      "published": "2026-05-20T05:51:30+00:00",
+      "updated": "2026-05-20T05:51:30+00:00",
+      "summary": "Vision-language-action (VLA) policies have advanced language-conditioned robotic manipulation by transferring semantic priors from pretrained vision-language models to action generation. Yet, standard action-imitation training often provides limited explicit supervision for 3D geometry, dense visual structure, and short-horizon environment evolution, which are critical for physically precise manipulation. We introduce \\textbf{GaussianDream}, a feed-forward 3D Gaussian world-model plug-in that turns robot trajectories into structured spatial-temporal supervision. The key idea is to couple current Gaussian reconstruction with horizon-conditioned future Gaussian prediction during training, forcing a compact spatio-temporal prefix to be decodable into renderable 3D Gaussian states. This enables dense RGB rendering, depth, and pseudo 3D scene-flow supervision without requiring test-time Gaussian decoding. At inference, GaussianDream discards all auxiliary decoding heads and retains only the learned prefix to condition action generation, avoiding rendering, video rollout, or additional planning during closed-loop control. Experiments on LIBERO, RoboCasa Human-50, and real-robot tasks demonstrate strong and highly competitive performance, achieving \\textbf{98.4\\%} average success on LIBERO, \\textbf{52.6\\%} on RoboCasa Human-50, and \\textbf{50.0\\%} in real-world evaluation.",
+      "categories": [
+        "cs.RO"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2605.20752v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "18 pages, 9 figures",
+      "entry_id": "http://arxiv.org/abs/2605.20752v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.20752v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.20752v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.20740": {
+      "title": "Distribution-Aware Reward: Reinforcement Learning over Predictive Distributions for LLM Regression",
+      "authors": [
+        "Jungsoo Park",
+        "Hyungjoo Chae",
+        "Ethan Mendes",
+        "Jay DeYoung",
+        "Varsha Kishore",
+        "Wei Xu",
+        "Alan Ritter"
+      ],
+      "published": "2026-05-20T05:43:40+00:00",
+      "updated": "2026-05-20T05:43:40+00:00",
+      "summary": "Large language models can predict real-valued quantities from heterogeneous inputs such as text, code, and molecular strings, but most training objectives score each decoded floating-point number independently, improving point estimates without ensuring calibrated predictive distributions. This limits applications requiring candidate ranking or uncertainty estimation. We introduce Distribution-Aware Reward, an on-policy reinforcement learning objective whose main contribution is to train language models to produce better predictive distributions for regression tasks, rather than only optimizing individual decoded outputs against scalar targets. Our method treats multiple decoded samples as an empirical predictive distribution, evaluates it with the Continuous Ranked Probability Score, and assigns leave-one-out credit based on each rollout's marginal contribution to distribution quality, rewarding predictions that are both accurate and appropriately dispersed. We evaluate our method on a controlled Gaussian-mixture task, code performance prediction, and molecular property prediction from SMILES strings. Across tasks, our method improves over supervised fine-tuning and pointwise reinforcement learning baselines, with strong rank-correlation gains, including a 6-point Spearman improvement on KBSS. On MoleculeNet, it uses only SMILES strings yet remains competitive with strong graph-based and 3D molecular models. Further analyses show that our method mitigates rollout diversity collapse and improves uncertainty diagnostics, suggesting that directly optimizing predictive distributions makes language model regression more robust and better calibrated.",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2605.20740v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "21 pages, 5 figures",
+      "entry_id": "http://arxiv.org/abs/2605.20740v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.20740v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.20740v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.20666": {
+      "title": "A Semantic and Occlusion-Aware GM-PHD Filter",
+      "authors": [
+        "Jovan Menezes",
+        "Mark Campbell"
+      ],
+      "published": "2026-05-20T03:32:47+00:00",
+      "updated": "2026-05-20T03:32:47+00:00",
+      "summary": "This paper proposes a new birth model including semantic information derived from deep learning to create an occlusion-aware Gaussian Mixture Probability Hypothesis Density (GM-PHD) filter. Unlike prior approaches that rely on simplistic or uniform assumptions, the proposed Semantic-Occlusion Aware (S-OA) birth model defines initialization terms by explicitly considering regions of occlusion and by leveraging semantic information about the environment. This enables the filter to accurately represent where new objects are more likely to appear, thereby improving tracking performance in complex and high-density driving scenarios. The method is evaluated through Monte Carlo simulations and experiments on the KITTI dataset. Performance is assessed by measuring the latency between first detection and track initiation, along with the mean absolute cardinality error and the Optimal Subpattern Assignment (OSPA) metric. Results demonstrate that the S-OA birth model reduces initialization delay in occlusion-heavy settings, matching or outperforming the strongest baseline in approximately 70% of cases. A sensitivity analysis of birth model weights is also provided. Overall, the findings underscore the benefits of integrating occlusion reasoning and semantic priors into Bayesian tracking frameworks for autonomous driving.",
+      "categories": [
+        "cs.RO"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2605.20666v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Accepted at ICRA 2026",
+      "entry_id": "http://arxiv.org/abs/2605.20666v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.20666v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.20666v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ],
+      "llm_approved": true
+    },
+    "2605.20450": {
+      "title": "SMA-DP: Spectral Memory-Aware Differential Privacy for Deep Learning",
+      "authors": [
+        "Mohammad Partohaghighi",
+        "Roummel Marcia"
+      ],
+      "published": "2026-05-19T20:02:19+00:00",
+      "updated": "2026-05-19T20:02:19+00:00",
+      "summary": "Differentially private stochastic gradient descent (DP-SGD) enables private deep learning through per-example clipping and calibrated Gaussian noise, but its high-variance updates can reduce utility on challenging datasets. We propose \\textbf{SMA-DP-SGD}, a \\textbf{Spectral Memory-Aware Differentially Private Stochastic Gradient Descent} method that augments DP-SGD with a fractional memory branch built only from previously privatized noisy releases. WeightWatcher-inspired power-law spectral exponents provide group-wise reliability signals, instantiated layer-wise in our experiments, to adapt the decay and effective memory depth. Private-history alignment, norm matching, and warm-up activation stabilize the memory contribution. Privacy remains transparent: conditioned on the private release history, the memory branch is fixed, and the only newly data-dependent term is the current clipped sum scaled by a fixed coefficient \\(β\\). Hence, SMA-DP-SGD preserves a clean conditional sensitivity structure and exactly recovers group-wise DP-SGD when \\(β=1\\). Experiments on CIFAR-100, CIFAR-10, and MNIST show competitive or superior accuracy over several DP optimization baselines, with the largest gains on CIFAR-100 and CIFAR-10. CIFAR-10 ablations show that \\(β\\) controls the privacy--utility trajectory, while spectral and memory diagnostics confirm a controlled short-to-moderate effective memory depth and a small memory-branch ratio. Runtime analysis shows that the mechanism incurs additional overhead, about \\(2.94\\times\\) DP-SGD in our CIFAR-10 implementation, revealing a practical trade-off between adaptive private memory and computational cost.",
+      "categories": [
+        "cs.LG",
+        "cs.CR"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2605.20450v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.20450v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.20450v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.20450v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ],
+      "llm_approved": true
+    },
     "2605.20044": {
       "title": "OP2GS: Object-Aware 3D Gaussian Splatting with Dual-Opacity Primitives",
       "authors": [
@@ -113956,6 +114334,43 @@
     }
   },
   "Depth Estimation": {
+    "2605.20461": {
+      "title": "Understanding Model Behavior in Monocular Polyp Sizing",
+      "authors": [
+        "Xinqi Xiong",
+        "Andrea Dunn Beltran",
+        "Junmyeong Choi",
+        "Sarah K. McGill",
+        "Marc Niethammer",
+        "Roni Sengupta"
+      ],
+      "published": "2026-05-19T20:14:14+00:00",
+      "updated": "2026-05-19T20:14:14+00:00",
+      "summary": "Accurate polyp size stratification guides surveillance decisions, with lesions larger than 5 mm typically requiring closer follow-up. However, monocular colonoscopy lacks a reliable metric reference. We present a diagnostic audit of binary polyp size classification (<=5 mm vs. >5 mm) across multiple public multi-center datasets, model families, and patient-stratified cross-validation. Across architectures and input modalities, including RGB appearance, relative depth, and photometry, model performance is moderately consistent, suggesting reliance on cues correlated with examination behavior rather than true metric scales. By providing ground-truth scale at varying granularities, we quantify the potential improvement from perfect scale information and show that current depth estimation and global calibration offer limited gains. We further demonstrate that segmentation errors under distribution shift eliminate most of this potential, with oracle scale under predicted masks recovering only baseline performance. These results highlight metric scale and mask robustness as two independent bottlenecks and provide reusable evaluation tools such as oracle scale ladders, shortcut partitions, and mask substitution for auditing future polyp sizing pipelines. Our code is publicly accessible at https://github.com/anaxqx/polyp-sizing-audit.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2605.20461v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2605.20461v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2605.20461v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2605.20461v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ]
+    },
     "2605.19797": {
       "title": "Depth2Pose: A Pose-Based Benchmark for Monocular Depth Estimation without Ground-Truth Depth",
       "authors": [
@@ -114078,26 +114493,26 @@
         "Lei Zhang"
       ],
       "published": "2026-05-17T14:20:53+00:00",
-      "updated": "2026-05-17T14:20:53+00:00",
+      "updated": "2026-05-20T04:42:46+00:00",
       "summary": "Pre-trained vision foundation models (VFMs) provide strong semantic representations, yet their patch-level features are inherently coarse, limiting their effectiveness on tasks requiring fine-grained localization, dense prediction, and point-wise correspondence. In this work, we revisit feature upsampling for VFMs from the perspective of \\textbf{\\textit{inverse problem}} and propose Weighted Reverse Convolution (WRC), a spatially adaptive inverse operator for densifying high-level visual descriptors. Specifically, we formulate feature upsampling as a weighted Tikhonov-regularized least-squares problem, where spatially varying weights modulate both data fidelity and prior strength at each spatial location. This allows WRC to adapt the reconstruction to spatially varying feature characteristics, thereby preserving critical structures while mitigating over-smoothing. Moreover, WRC retains an efficient, fully differentiable closed-form FFT solution, making it a practical drop-in upsampling operator. Integrated into a lightweight self-supervised densification framework, WRC consistently improves dense feature quality across various downstream benchmarks, including segmentation, depth estimation, video object segmentation, object discovery, and keypoint correspondence, while maintaining high computational efficiency.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2605.17472v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.17472v2",
       "journal_ref": null,
       "doi": null,
-      "comment": "18 pages, 7figures",
-      "entry_id": "http://arxiv.org/abs/2605.17472v1",
+      "comment": "18 pages, 7 figures, code:https://github.com/PolyU-VCLab/WRC",
+      "entry_id": "http://arxiv.org/abs/2605.17472v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2605.17472v1",
+          "href": "https://arxiv.org/abs/2605.17472v2",
           "title": null,
           "rel": "alternate",
           "content_type": "text/html"
         },
         {
-          "href": "https://arxiv.org/pdf/2605.17472v1",
+          "href": "https://arxiv.org/pdf/2605.17472v2",
           "title": "pdf",
           "rel": "related",
           "content_type": "application/pdf"

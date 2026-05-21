@@ -1,4 +1,4 @@
-## Updated at 2026-05-20 20:54:48
+## Updated at 2026-05-21 21:13:07
 
 ## 3DGS Semantic
 
@@ -8,6 +8,16 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-05-20**|**[Lost in Fog: Sensor Perturbations Expose Reasoning Fragility in Driving VLAs](https://arxiv.org/abs/2605.21446)**|N/A|None|cs.RO|None|Abhinaw Priyadershi, Jelena Frtunikj|
+|**2026-05-20**|**[Learning Structural Latent Points for Efficient Visual Representations in Robotic Manipulation](https://arxiv.org/abs/2605.21258)**|N/A|None|cs.RO|International Conference on Robotics and Automation 2026|Yicheng Jiang et al.|
+|**2026-05-20**|**[RCGDet3D: Rethinking 4D Radar-Camera Fusion-based 3D Object Detection with Enhanced Radar Feature Encoding](https://arxiv.org/abs/2605.21112)**|N/A|None|cs.CV|None|Weiyi Xiong, Bing Zhu|
+|**2026-05-20**|**[Conditioning Gaussian Processes on Almost Anything](https://arxiv.org/abs/2605.21041)**|N/A|None|stat.ML|None|Henry Moss et al.|
+|**2026-05-20**|**[DAMA: Disentangled Body-Anchored Gaussians for Controllable Multi-Layered Avatars](https://arxiv.org/abs/2605.21001)**|N/A|None|cs.CV|None|Daniel Eskandar et al.|
+|**2026-05-20**|**[PaintCopilot: Modeling Painting as Autonomous Artistic Continuation](https://arxiv.org/abs/2605.20941)**|N/A|None|cs.CV|None|Yunge Wen et al.|
+|**2026-05-20**|**[GaussianDream: A Feed-Forward 3D Gaussian World Model for Robotic Manipulation](https://arxiv.org/abs/2605.20752)**|N/A|18 pages, 9 figures|cs.RO|None|Zijian Zhang et al.|
+|**2026-05-20**|**[Distribution-Aware Reward: Reinforcement Learning over Predictive Distributions for LLM Regression](https://arxiv.org/abs/2605.20740)**|N/A|21 pages, 5 figures|cs.LG|None|Jungsoo Park et al.|
+|**2026-05-20**|**[A Semantic and Occlusion-Aware GM-PHD Filter](https://arxiv.org/abs/2605.20666)**|N/A|Accepted at ICRA 2026|cs.RO|None|Jovan Menezes, Mark Campbell|
+|**2026-05-19**|**[SMA-DP: Spectral Memory-Aware Differential Privacy for Deep Learning](https://arxiv.org/abs/2605.20450)**|N/A|None|cs.LG|None|Mohammad Partohaghighi, Roummel Marcia|
 |**2026-05-19**|**[OP2GS: Object-Aware 3D Gaussian Splatting with Dual-Opacity Primitives](https://arxiv.org/abs/2605.20044)**|N/A|Under review|cs.CV|None|Guiyu Liu et al.|
 |**2026-05-19**|**[Probabilistic Tiny Recursive Model](https://arxiv.org/abs/2605.19943)**|N/A|None|cs.AI|None|Amin Sghaier et al.|
 |**2026-05-19**|**[FlyMirage: A Fully Automated Generation Pipeline for Diverse and Scalable UAV Flight Data via Generative World Model](https://arxiv.org/abs/2605.19600)**|N/A|None|cs.RO|None|Jinhan Li et al.|
@@ -999,10 +1009,11 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-05-19**|**[Understanding Model Behavior in Monocular Polyp Sizing](https://arxiv.org/abs/2605.20461)**|N/A|None|cs.CV|None|Xinqi Xiong et al.|
 |**2026-05-19**|**[Depth2Pose: A Pose-Based Benchmark for Monocular Depth Estimation without Ground-Truth Depth](https://arxiv.org/abs/2605.19797)**|N/A|None|cs.CV|None|Viktor Kocur et al.|
 |**2026-05-19**|**[Smartphone-based Circular Plot Sampling for Forest Inventory](https://arxiv.org/abs/2605.19213)**|N/A|None|cs.CV|None|Su Sun et al.|
 |**2026-05-18**|**[Towards Universal Physical Adversarial Attacks via a Joint Multi-Objective and Multi-Model Optimization Framework](https://arxiv.org/abs/2605.17772)**|N/A|Under review|cs.CV|None|Ziyang Liu et al.|
-|**2026-05-17**|**[Weighted Reverse Convolution for Feature Upsampling](https://arxiv.org/abs/2605.17472)**|N/A|18 pages, 7figures|cs.CV|None|Wentong Li et al.|
+|**2026-05-17**|**[Weighted Reverse Convolution for Feature Upsampling](https://arxiv.org/abs/2605.17472)**|N/A|18 pages, 7 figures, code:https://github.com/PolyU-VCLab/WRC|cs.CV|None|Wentong Li et al.|
 |**2026-05-15**|**[SCARED-C: Corrected Camera Poses for Endoscopic Depth Estimation](https://arxiv.org/abs/2605.16628)**|N/A|None|cs.CV|None|John J. Han et al.|
 |**2026-05-15**|**[EndoGSim: Physics-Aware 4D Dynamic Endoscopic Scene Simulations via MLLM-Guided Gaussian Splatting](https://arxiv.org/abs/2605.16022)**|N/A|Early Accepted by MICCAI 2026|cs.CV|None|Changjing Liu et al.|
 |**2026-05-15**|**[On RGB-TIR Stereo Calibration under Extreme Resolution Asymmetry](https://arxiv.org/abs/2605.15860)**|N/A|27 pages, 12 figures, 3 tables|cs.CV|None|Michał Król et al.|
