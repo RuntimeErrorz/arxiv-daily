@@ -1,4 +1,4 @@
-## Updated at 2026-05-22 08:43:53
+## Updated at 2026-05-22 20:52:10
 
 ## 3DGS Semantic
 
@@ -8,6 +8,12 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-05-21**|**[GS-QA: A Benchmark for Geospatial Question Answering](https://arxiv.org/abs/2605.22811)**|N/A|None|cs.DB|None|Majid Saeedan et al.|
+|**2026-05-21**|**[SpaceDG: Benchmarking Spatial Intelligence under Visual Degradation](https://arxiv.org/abs/2605.22536)**|N/A|None|cs.CV|None|Xiaolong Zhou et al.|
+|**2026-05-21**|**[Robustness of breast lesion segmentation under MRI undersampling improves with k-space-aware deep learning](https://arxiv.org/abs/2605.22327)**|N/A|None|cs.CV|None|Lukas T. Rotkopf et al.|
+|**2026-05-21**|**[Flow-based Gaussian Splatting for Continuous-Scale Remote Sensing Image Super-Resolution](https://arxiv.org/abs/2605.22147)**|N/A|None|cs.CV|None|Jiangwei Mo et al.|
+|**2026-05-21**|**[Learning to Evolve: Multi-modal Interactive Fields for Robust Humanoid Navigation in Dynamic Environments](https://arxiv.org/abs/2605.21935)**|N/A|Accepted by Robotics: Science and Systems 2026|cs.RO|None|Peifeng Jiang et al.|
+|**2026-05-20**|**[EntmaxKV: Support-Aware Decoding for Entmax Attention](https://arxiv.org/abs/2605.21649)**|N/A|None|cs.LG|None|Gonçalo Duarte et al.|
 |**2026-05-20**|**[Lost in Fog: Sensor Perturbations Expose Reasoning Fragility in Driving VLAs](https://arxiv.org/abs/2605.21446)**|N/A|None|cs.RO|None|Abhinaw Priyadershi, Jelena Frtunikj|
 |**2026-05-20**|**[Learning Structural Latent Points for Efficient Visual Representations in Robotic Manipulation](https://arxiv.org/abs/2605.21258)**|N/A|None|cs.RO|International Conference on Robotics and Automation 2026|Yicheng Jiang et al.|
 |**2026-05-20**|**[RCGDet3D: Rethinking 4D Radar-Camera Fusion-based 3D Object Detection with Enhanced Radar Feature Encoding](https://arxiv.org/abs/2605.21112)**|N/A|None|cs.CV|None|Weiyi Xiong, Bing Zhu|
@@ -98,7 +104,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2026-05-05**|**[Raising the Ceiling: Better Empirical Fixation Densities for Saliency Benchmarking](https://arxiv.org/abs/2605.03885)**|N/A|None|cs.CV|None|Susmit Agrawal et al.|
 |**2026-05-05**|**[Distribution-Free Pretraining of Classification Losses via Evolutionary Dynamics](https://arxiv.org/abs/2605.03722)**|N/A|6 pages|cs.LG|None|Meng Xiang, Yan Pei|
 |**2026-05-04**|**[Euclid preparation. Three-dimensional galaxy clustering in configuration space: Three-point correlation function estimation](https://arxiv.org/abs/2605.03012)**|N/A|20 pages, 9 Figures|astro-ph.CO|None|Euclid Collaboration et al.|
-|**2026-05-04**|**[HumanSplatHMR: Closing the Loop Between Human Mesh Recovery and Gaussian Splatting Avatar](https://arxiv.org/abs/2605.02784)**|N/A|None|cs.CV|None|Yeheng Zong et al.|
+|**2026-05-04**|**[HumanSplatHMR: Closing the Loop Between Human Mesh Recovery and Gaussian Splatting Avatar](https://arxiv.org/abs/2605.02784)**|N/A|Project page: https://scottyehengz.github.io/HumanSplat/|cs.CV|None|Yeheng Zong et al.|
 |**2026-05-04**|**[AutoFocus: Uncertainty-Aware Active Visual Search for GUI Grounding](https://arxiv.org/abs/2605.02630)**|N/A|18 pages, 4 figures|cs.CV|None|Ruilin Yao et al.|
 |**2026-05-04**|**[Mixture Prototype Flow Matching for Open-Set Supervised Anomaly Detection](https://arxiv.org/abs/2605.02438)**|N/A|Accepted by ICML 2026|cs.CV|None|Fuyun Wang et al.|
 |**2026-05-04**|**[Change-Robust Online Spatial-Semantic Topological Mapping](https://arxiv.org/abs/2605.02227)**|N/A|None|cs.RO|None|Jiaming Wang et al.|
