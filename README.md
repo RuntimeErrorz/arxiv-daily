@@ -1,4 +1,4 @@
-## Updated at 2026-05-25 08:45:26
+## Updated at 2026-06-15 00:51:11
 
 ## 3DGS Semantic
 
@@ -8,7 +8,107 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-06-11**|**[Clipping Makes Distributed and Federated Asynchronous SGD Robust to Stragglers](https://arxiv.org/abs/2606.13287)**|N/A|None|cs.LG|None|Samuel Erickson, Mikael Johansson|
+|**2026-06-11**|**[Multi-Bitwidth Quantization for LLMs Using Additive Codebooks](https://arxiv.org/abs/2606.12876)**|N/A|37 pages, 12 figures|cs.LG|None|Liza Babaoglu et al.|
+|**2026-06-10**|**[Measuring Semantic Progress in Multi-turn Dialogue via Information Gain](https://arxiv.org/abs/2606.12332)**|N/A|Preprint. 26 pages|cs.CL|None|Paul He et al.|
+|**2026-06-10**|**[Scene-Adaptive Nonlinear Tone Curves for Pseudo Ground-Truth Generation in Low-Light 3D Gaussian Splatting](https://arxiv.org/abs/2606.11841)**|N/A|None|cs.CV|None|Mingzhe Lyu et al.|
+|**2026-06-10**|**[ICA Lens: Interpreting Language Models Without Training Another Dictionary](https://arxiv.org/abs/2606.11722)**|N/A|Ongoing Project|cs.LG|None|Sida Liu, Feijiang Han|
+|**2026-06-10**|**[Probabilistic Salary Prediction with Graph Attention Networks and a Mixture Density Network](https://arxiv.org/abs/2606.11663)**|N/A|5 pages, 3 figures|cs.SI|None|Zhipei Qin et al.|
+|**2026-06-10**|**[Wavelet-Based Extraction of Transient Noise in Gravitational-Wave Interferometers using a Saliency-Guided Learning Architecture](https://arxiv.org/abs/2606.11595)**|N/A|None|astro-ph.IM|None|Christopher Allene et al.|
+|**2026-06-09**|**[Algorithmic and Minimax Complexities in Kernel Bandits](https://arxiv.org/abs/2606.11171)**|N/A|None|cs.LG|None|Yunbei Xu|
+|**2026-06-09**|**[WorldOlympiad: Can Your World Model Survive a Triathlon?](https://arxiv.org/abs/2606.11129)**|N/A|Project Page: https://alibaba-damo-academy.github.io/WorldOlympiad/, Code: https://github.com/alibaba-damo-academy/WorldOlympiad|cs.CV|None|Yuke Zhao et al.|
+|**2026-06-09**|**[On the representation for stochastic graph delay propagation](https://arxiv.org/abs/2606.11086)**|N/A|24pages, 8figures|math.NA|None|Shibo Zeng et al.|
+|**2026-06-09**|**[Flow-DPPO: Divergence Proximal Policy Optimization for Flow Matching Models](https://arxiv.org/abs/2606.11025)**|N/A|None|cs.LG|None|Bowen Ping et al.|
+|**2026-06-09**|**[GaussTrace: Provenance Analysis of 3D Gaussian Splatting Models with Evidence-based LLM Reasoning](https://arxiv.org/abs/2606.10612)**|N/A|Accepted by ICML2026|cs.CV|None|Haoliang Han et al.|
+|**2026-06-09**|**[Improving Adversarial Transferability on Vision-Language Pre-training Models via Surrogate-Specific Bias Correction](https://arxiv.org/abs/2606.10571)**|N/A|17 pages, 7 figures, 10 tables|cs.CV|None|Lijia Yu et al.|
+|**2026-06-08**|**[PTL-Diffusion: Manifold-Aware Diffusion with Periodic Terminal Laws](https://arxiv.org/abs/2606.09816)**|N/A|None|cs.CV|None|Danqi Zhuang et al.|
+|**2026-06-08**|**[Data augmented bootstrap: Unifying confidence interval construction by approximate invariance](https://arxiv.org/abs/2606.09049)**|N/A|None|stat.ME|None|Kevin Han Huang|
+|**2026-06-07**|**[Continuous Language Diffusion as a Decoder-Interface Problem](https://arxiv.org/abs/2606.08810)**|N/A|None|cs.CL|None|Zhicheng Du, Lan Ma|
+|**2026-06-06**|**[SMI: Efficient Self-Supervised Learning via Mutual-Information-Inspired Dependency Optimization](https://arxiv.org/abs/2606.08332)**|N/A|None|cs.CV|None|Pritam Mishra et al.|
+|**2026-06-05**|**[UniSHARP: Universal Sharp Monocular View Synthesis](https://arxiv.org/abs/2606.07514)**|N/A|Project page: https://insta360-research-team.github.io/Unisharp-website/|cs.CV|None|Meixi Song et al.|
+|**2026-06-05**|**[QuadVerse: An Integrated Framework Aligning Visual-Physical Reality for Quadruped Simulation](https://arxiv.org/abs/2606.07118)**|N/A|None|cs.RO|None|Yuxiang Chen et al.|
+|**2026-06-05**|**[GP-Adapter: Gaussian Process CLIP-Adapter for Few-Shot Out-of-Distribution Detection](https://arxiv.org/abs/2606.07102)**|N/A|8 pages, 6 figures, Accepted at IJCNN 2026|cs.CV|None|Taisei Saito et al.|
+|**2026-06-05**|**[Diagnosing Visual Ignorance in Vision-Language Models](https://arxiv.org/abs/2606.06890)**|N/A|None|cs.CV|None|Runyu Zhou et al.|
+|**2026-06-04**|**[Lightfall: An API-first, LLM-addressable control platform for synchrotron beamlines](https://arxiv.org/abs/2606.06711)**|N/A|21 pages, 4 figures|physics.ins-det|None|Ronald J. Pandolfi et al.|
+|**2026-06-04**|**[Nonreversible Gauge Fields in Fokker--Planck Dynamics: Supersymmetric Hamiltonians and Learned Finite Forces](https://arxiv.org/abs/2606.06412)**|N/A|33 pages, 3 figures|cond-mat.dis-nn|None|Masayuki Ohzeki|
+|**2026-06-04**|**[Function-Space Priors for Bayesian Neural ODEs with Application to Vessel Trajectory Prediction](https://arxiv.org/abs/2606.06351)**|N/A|None|stat.ML|None|Jaeyeong Lee et al.|
+|**2026-06-04**|**[Adapting Diffusion Language Models for Lossless Pixel-Level Image Transmission](https://arxiv.org/abs/2606.06273)**|N/A|None|cs.IT|None|Tianqi Ren et al.|
+|**2026-06-04**|**[Sensitivity Limits and Operational Threshold Calibration for DINOv2-based Gravitational-Wave Glitch Characterization: A Strain-Domain Mock Data Challenge on LIGO O4a](https://arxiv.org/abs/2606.06237)**|N/A|7 pages, 6 tables, 3 figures. Companion paper to arXiv:2605.28572. Pipeline and MDC code: https://github.com/lucacirfeta/dante-gravi-signal-ml|astro-ph.IM|None|Luca Cirfeta|
+|**2026-06-04**|**[SC-MFJ: A Simple Haptic Quality Metric for Medical Image Segmentation](https://arxiv.org/abs/2606.06199)**|N/A|11 pages, 5 figures, 5 tables, http://www.wscg.eu/|cs.CV|None|Souraj Adhikary et al.|
+|**2026-06-04**|**[Knowledge Manifold: A Riemannian Geometric Framework for Semantic Mapping and Geodesic Analysis of Scientific Literature](https://arxiv.org/abs/2606.05907)**|N/A|None|cs.IR|None|Tomonaga Okabe, Kazuhiko Komatsu|
+|**2026-06-04**|**[Compositional Boundaries for Density Fusion](https://arxiv.org/abs/2606.05871)**|N/A|None|cs.IT|None|Ratan Bahadur Thapa et al.|
+|**2026-06-03**|**[LLM-Guided ANN Index Optimization for Human-Object Interaction Retrieval](https://arxiv.org/abs/2606.05489)**|N/A|13 pages, 5 figures, 8 tables|cs.CV|None|Shahrzad Esmat et al.|
+|**2026-06-03**|**[Representation Curriculum: Stagewise Training for Robust Ranking and Allocation](https://arxiv.org/abs/2606.09891)**|N/A|12 pages, 5 figures|cs.LG|None|Ehsan Ebrahimzadeh et al.|
+|**2026-06-03**|**[BPDA-GMM: Bayesian Probabilistic Data Association via Gaussian Mixture Models for Semantic SLAM](https://arxiv.org/abs/2606.04618)**|N/A|None|cs.RO|None|Thanh Nguyen Canh et al.|
+|**2026-06-02**|**[Representation Matters in Randomized Smoothing for Audio Classification](https://arxiv.org/abs/2606.04210)**|N/A|None|eess.AS|None|Jong-Ik Park et al.|
+|**2026-06-02**|**[MLP Splatting: Object-Centric Neural Fields](https://arxiv.org/abs/2606.03877)**|N/A|None|cs.CV|None|Shinjeong Kim et al.|
+|**2026-06-02**|**[A Quantitative Approximation Framework for Flow Distillation in Diffusion Models](https://arxiv.org/abs/2606.03820)**|N/A|None|stat.ML|None|Weiguo Gao et al.|
+|**2026-06-02**|**[Beyond False Stability: High-Noise Drift Gating for Test-Time Adversarial Defenses in Vision-Language Models](https://arxiv.org/abs/2606.03730)**|N/A|None|cs.CV|None|Hashmat Shadab Malik et al.|
+|**2026-06-02**|**[GN0: Toward a Unified Paradigm for Generation, Evaluation, and Policy Learning in Visual-Language Navigation](https://arxiv.org/abs/2606.03682)**|N/A|None|cs.RO|None|Xinhai Li et al.|
+|**2026-06-02**|**[UnsOcc: 3D Semantic Occupancy Prediction in Unstructured Scene via Rendering Fusion](https://arxiv.org/abs/2606.03581)**|N/A|8 pages|cs.CV|None|Ye Wu et al.|
+|**2026-06-02**|**[IDO: Incongruity-aware Distribution Optimization for Multimodal Fake News Detection](https://arxiv.org/abs/2606.03418)**|N/A|Accept by GlobalSouthML@ICML 2026|cs.CV|None|Hengyang Zhou et al.|
+|**2026-06-02**|**[Local Guidance, Global Impact: Gaussian-Reshaped Trust Region Unlocks Behavior Transitions](https://arxiv.org/abs/2606.03382)**|N/A|21 pages|cs.LG|None|Bingxu Liu et al.|
+|**2026-06-02**|**[Energy-selective quantum search with Ising Hamiltonian phase oracles](https://arxiv.org/abs/2606.03380)**|N/A|22 pages, 4 figures|quant-ph|None|A. S. Plyashechnik et al.|
+|**2026-06-01**|**[BEAST3D: Animal behavioral analysis and neural encoding from multi-view video via Gaussian splatting](https://arxiv.org/abs/2606.02937)**|arXiv.org|None|q-bio.NC|None|Yanchen Wang et al.|
+|**2026-06-01**|**[Identifiable Markov Switching Models with Instantaneous Effects and Exponential Families](https://arxiv.org/abs/2606.02231)**|N/A|International Conference on Machine Learning (ICML) 2026|stat.ML|None|Roel Hulsman et al.|
+|**2026-06-01**|**[Private and Stable Test-Time Adaptation with Differential Privacy](https://arxiv.org/abs/2606.01908)**|N/A|ICML 2026|cs.LG|None|Zefeng Li et al.|
+|**2026-05-31**|**[LEGS: Fine-Tuning Teleop-Free VLAs for Humanoid Loco-manipulation in an Embodied Gaussian Splatting World](https://arxiv.org/abs/2606.01458)**|N/A|https://legsvla.github.io/|cs.RO|None|Hojune Kim et al.|
+|**2026-05-31**|**[RFDT-Channel: RGB-LiDAR-Based RF Digital Twin Scene Construction for 28 GHz Indoor Ray-Tracing Channel Simulation](https://arxiv.org/abs/2606.01261)**|N/A|None|eess.IV|None|Chengyang Yao et al.|
+|**2026-05-31**|**[Beyond Sinusoids: A Morlet Wavelet Framework for Transformer Positional Encoding](https://arxiv.org/abs/2606.01258)**|N/A|16 pages, 4 figures, 4 tables|cs.LG|None|Athanasios Zeris|
+|**2026-05-31**|**[Non-Vacuous Certification of Transport MCMC via Oscillation-Controlled Normalizing Flows](https://arxiv.org/abs/2606.01078)**|N/A|36 pages, includes appendix|cs.LG|None|Jun Hu|
+|**2026-05-31**|**[Decoupled Residual Denoising Diffusion Models for Unified and Data Efficient Image-to-Image Translation](https://arxiv.org/abs/2606.01048)**|N/A|CVPR 2026|cs.CV|None|Ziyue Lin et al.|
+|**2026-05-31**|**[DSL-LLaDA: Scaling Continuous Denoising to 8B Masked Diffusion LMs](https://arxiv.org/abs/2606.01024)**|N/A|8 pages, 4 figures, 28 tables|cs.CL|None|Longxuan Yu et al.|
+|**2026-05-30**|**[CR-JEPA: Cross-Modal Joint-Embedding Predictive Learning for Remote Sensing Image Retrieval](https://arxiv.org/abs/2606.00706)**|N/A|24 pages|cs.CV|None|Md Aminur Hossain et al.|
+|**2026-05-30**|**[Information-Theoretic Lower Bounds for Bit-Constrained Stochastic Optimization via a Reduction to Compressed Gaussian Mean Estimation](https://arxiv.org/abs/2606.00703)**|N/A|None|cs.IT|None|Munsik Kim|
+|**2026-05-30**|**[Semi-Supervised Noise Adaptation: Transferring Knowledge from Noise Domain](https://arxiv.org/abs/2606.00558)**|N/A|Accepted by ICML 2026|cs.LG|None|Yuan Yao et al.|
+|**2026-05-30**|**[GeoSAM-3D: Geodesic Prompt Propagation for Open-Vocabulary 3D Scene Segmentation from Monocular Video](https://arxiv.org/abs/2606.00447)**|N/A|None|cs.CV|None|Arun Sharma|
+|**2026-05-29**|**[Continuous Reasoning for Vision-Language-Action](https://arxiv.org/abs/2606.00229)**|N/A|Project page: https://continuous-reasoning.airoa.io|cs.RO|None|Yueh-Hua Wu et al.|
+|**2026-05-29**|**[Learning Global Motion with Compact Gaussians for Feed-Forward 4D Reconstruction](https://arxiv.org/abs/2605.31595)**|N/A|Project Page: see https://cvlab-kaist.github.io/C4G|cs.CV|None|Mungyeom Kim et al.|
+|**2026-05-29**|**[Consolidating Rewarded Perturbations for LLM Post-Training](https://arxiv.org/abs/2605.31494)**|N/A|None|cs.CL|None|Zheyu Zhang et al.|
+|**2026-05-29**|**[LiftNav: Path Planning via Semantic Lifting in TSDF-Guided Gaussian Splatting](https://arxiv.org/abs/2605.31376)**|N/A|None|cs.RO|None|Hannah Schieber et al.|
+|**2026-05-29**|**[HQ-JEPA: Hybrid Quantum Joint-Embedding Predictive Architecture for Cross-Modal Remote Sensing Representation Learning](https://arxiv.org/abs/2605.31068)**|N/A|19 pages|cs.CV|None|Md Aminur Hossain et al.|
+|**2026-05-29**|**[Reachability and asymptotics of Gaussian Transformer dynamics](https://arxiv.org/abs/2606.07600)**|N/A|None|cs.LG|None|Albert Alcalde et al.|
+|**2026-05-28**|**[PhyGenHOI: Physically-Aware 4D Generation of Dynamic Human-Object Interactions](https://arxiv.org/abs/2605.30268)**|N/A|None|cs.CV|None|Omer Benishu et al.|
+|**2026-05-28**|**[IP-Adapter Is All You Need: Towards Fine-Tuning-Free Diffusion-Based Talking Face Generation](https://arxiv.org/abs/2605.30230)**|N/A|None|cs.CV|None|Hao Wu et al.|
+|**2026-05-28**|**[DGSG-Mind: Dynamic 3D Gaussian Scene Graphs for Long-Term Scene Understanding and Grounding](https://arxiv.org/abs/2605.29879)**|N/A|9 pages, 6 figures|cs.CV|None|Luzhou Ge et al.|
+|**2026-05-28**|**[BitC-3DGS: High-Capacity 3D Gaussian Splatting Watermarking via Bit Compression](https://arxiv.org/abs/2605.29583)**|N/A|None|cs.CV|None|Yuquan Bi et al.|
+|**2026-05-28**|**[Learning Representations from 3D Gaussian Splats](https://arxiv.org/abs/2605.29549)**|N/A|5 figures, 15 pages|cs.CV|None|Julia Farganus et al.|
+|**2026-05-28**|**[Time-Domain Deep Learning for Pairwise Identification of Strongly Lensed Gravitational-Wave Candidates](https://arxiv.org/abs/2605.29510)**|N/A|14 pages, 10 figures|astro-ph.HE|None|Fan Zhang et al.|
+|**2026-05-28**|**[Comparative evaluation of photogrammetric reconstruction methods and 3D Gaussian Splatting for road surface roughness analysis](https://arxiv.org/abs/2605.29452)**|International Conference on Remote Sensing, Mapping, and Image Processing (RSMIP 2026)|accepted by RSMIP 2026|cs.CV|None|Marouane Elmegdar, Teng Xiao|
+|**2026-05-28**|**[Low Rank for Rank: Uncertainty-Aware Task-Specific LLM Ranking under Sparse Pairwise Comparisons](https://arxiv.org/abs/2605.29395)**|N/A|None|stat.ME|None|Jiachun Li et al.|
+|**2026-05-28**|**[Scalable All-Optical Fibre-Mode Data Transmission with Profiles-Preserved Decoding](https://arxiv.org/abs/2605.29235)**|N/A|None|physics.optics|None|Rundong Fan et al.|
+|**2026-05-27**|**[Frontier LLM-based agents can overcome the ontology curation bottleneck for natural phenotypes](https://arxiv.org/abs/2605.28965)**|N/A|7 pages, 2 figures|cs.AI|None|James P. Balhoff, Hilmar Lapp|
+|**2026-05-27**|**[Deformable Gaussian Occupancy: Decoupling Rigid and Nonrigid Motion with Factorized Distillation](https://arxiv.org/abs/2605.28587)**|N/A|CVPR 2026|cs.CV|None|Yang Gao et al.|
+|**2026-05-27**|**[GS-FUSE: Granger-Supervised Gated Fusion and Multi-Granularity Alignment for Event-Driven Financial Forecasting](https://arxiv.org/abs/2605.28520)**|N/A|None|cs.AI|None|Yang Zhang et al.|
+|**2026-05-27**|**[POINav: Benchmarking and Enhancing Final-Meters Arrival in Real-World Vision-Language Navigation](https://arxiv.org/abs/2605.28237)**|N/A|25 pages, 9 figures|cs.RO|None|Ruiyan Gong et al.|
+|**2026-05-26**|**[Can Entry-Wise Clipping Give Spectral Control of Stochastic Gradients?](https://arxiv.org/abs/2605.27733)**|N/A|None|cs.LG|None|Zitao Song et al.|
+|**2026-05-26**|**[DSRDM: Digital Signal Recovery Diffusion Model for Semantic Communications](https://arxiv.org/abs/2605.27730)**|N/A|None|eess.SP|None|Zhigang Yan, Dong Li|
+|**2026-05-26**|**[Tensor Memory: Fixed-Size Recurrent State for Long-Horizon Transformers](https://arxiv.org/abs/2605.27686)**|N/A|None|cs.CV|None|Kabir Swain et al.|
+|**2026-05-26**|**[The Kalman Evolve: Closing the Gap in Kalman Filtering via Interpretable Algorithm Discovery](https://arxiv.org/abs/2605.26830)**|N/A|None|cs.LG|None|Vasileios Saketos, Ming Xiao|
+|**2026-05-26**|**[TrackRef3D: Multi-View Consistent Track-then-Label for Open-World Referring Segmentation in 3D Gaussian Splatting](https://arxiv.org/abs/2605.26576)**|N/A|None|cs.CV|None|Yuyang Tan et al.|
+|**2026-05-26**|**[SIKA-GP: Accelerating Gaussian Process Inference with Sparse Inducing Kernel Approximations for Bayesian Deep Learning](https://arxiv.org/abs/2605.26509)**|N/A|20 pages, 8 figures; accepted to International Conference on Machine Learning (ICML) 2026|cs.LG|None|Wenyuan Zhao et al.|
+|**2026-05-26**|**[Uncertainty-Aware Gaussian Map for Vision-Language Navigation](https://arxiv.org/abs/2605.26503)**|N/A|None|cs.CV|None|Jianzhe Gao et al.|
+|**2026-05-26**|**[3D Gaussian Map with Open-Set Semantic Grouping for Vision-Language Navigation](https://arxiv.org/abs/2605.26500)**|IEEE International Conference on Computer Vision|None|cs.CV|None|Jianzhe Gao et al.|
+|**2026-05-25**|**[Frequency-Guided Fusion For RGB-Thermal Semantic Segmentation](https://arxiv.org/abs/2605.26273)**|N/A|9 pages, 7 figures, To be Presented at Perception Beyond the Visible Spectrum workshop series (IEEE PBVS) at CVPR, 2026|cs.CV|None|İsmail Emre Canıtez, Özgür Erkent|
+|**2026-05-25**|**[Beyond Gaussian Statistics in Polymer Melts: Statistical Masking of Persistent Local Constraints](https://arxiv.org/abs/2605.25989)**|N/A|19 pages, 8 figures, 3 tables|cond-mat.soft|None|José A. Martins|
+|**2026-05-25**|**[R5DGS: Semantic-Aware 4D Gaussian Splatting with Rigid Body Constraints for Efficient Dynamic Scene Reconstruction](https://arxiv.org/abs/2605.25909)**|N/A|Code: https://github.com/be2rlab/r5dgs|cs.CV|None|Denis Gridusov et al.|
+|**2026-05-25**|**[Capability and Robustness Cannot Both Be Free: An Information-Theoretic Bound for Vision-Language-Action Models](https://arxiv.org/abs/2605.25889)**|N/A|None|cs.CR|None|Jianwei Tai|
+|**2026-05-25**|**[The Quantization Benefits of Residual-Free Transformers](https://arxiv.org/abs/2605.25880)**|N/A|Under review|cs.LG|None|Yiping Ji et al.|
+|**2026-05-25**|**[CMAP: Cross-Modal Adaptive Prompting for Multi-Domain Task-Incremental Learning](https://arxiv.org/abs/2605.25708)**|N/A|None|cs.CV|None|Sriram Mandalika|
+|**2026-05-24**|**[A Geometric Gaussian Mixture Representation of Plane Curves](https://arxiv.org/abs/2606.06505)**|N/A|None|cs.CG|None|Ali Darijani et al.|
+|**2026-05-24**|**[ParkingWorld: End-to-End Autonomous Parking Reinforcement Learning from Corrective Experience in 3DGS Simulation](https://arxiv.org/abs/2605.25029)**|N/A|9 pages(including 1 page of Appendix), 6 figures. Will be submitted to RA-L 2026|cs.RO|None|Zhengcheng Yu et al.|
+|**2026-05-23**|**[DexSIM: Real-time Dexterous Simulation with Unified Causal Video Diffusion](https://arxiv.org/abs/2605.24630)**|N/A|World Model @ ICLR 2026|cs.CV|None|Adam Lee|
+|**2026-05-23**|**[What Are We Actually Decoding? Source Attribution for Non-Invasive Brain-to-Language Retrieval](https://arxiv.org/abs/2605.24524)**|N/A|35 pages, 7 figures, 25 tables|cs.LG|None|Xinyu Zhang et al.|
+|**2026-05-22**|**[COSY: Compositional 3DGS Synthesis for Disentangled Human Head Editing](https://arxiv.org/abs/2605.24114)**|N/A|None|cs.CV|None|Florian Barthel et al.|
+|**2026-05-22**|**[LLMs as Noisy Channels: A Shannon Perspective on Model Capacity and Scaling Laws](https://arxiv.org/abs/2605.23901)**|N/A|Accepted by ICML 2026|cs.LG|None|Xu Ouyang et al.|
+|**2026-05-22**|**[GlowGS: Generative Semantic Feature Learning for 3D Gaussian Splatting in Nighttime Glow Scenes](https://arxiv.org/abs/2605.23602)**|N/A|Accepted by CVPR Findings 2026|cs.CV|None|Beibei Lin et al.|
+|**2026-05-22**|**[LangFlash: Feed-forward 3D Language Gaussian Splatting from Sparse Unposed Images](https://arxiv.org/abs/2605.23287)**|N/A|CVPRF 2026|cs.CV|None|Yilong Liu et al.|
+|**2026-05-22**|**[Understanding and Improving Noisy Embedding Techniques in Instruction Finetuning](https://arxiv.org/abs/2605.23171)**|N/A|arXiv admin note: substantial text overlap with arXiv:2312.01523|cs.LG|IEEE International Conference on Language Modeling (COLM), 2025|Abhay Yadav|
+|**2026-05-22**|**[What Does the Server See? Understanding Privacy Leakage from Large Language Models in Split Inference](https://arxiv.org/abs/2605.23158)**|N/A|Accepted to ACM CCS'26|cs.CR|None|Mingyuan Fan et al.|
+|**2026-05-22**|**[CoReVAD: A Contextual Reasoning Framework for Training-Free Video Anomaly Detection](https://arxiv.org/abs/2605.23116)**|N/A|Accepted to ICPR 2026|cs.CV|None|Hyeongmuk Lim, Youngbum Hur|
+|**2026-05-21**|**[Hidden-State Privacy Has an Empty Middle](https://arxiv.org/abs/2605.24042)**|N/A|74 pages, 61 figures|cs.LG|None|Alexander Okezue Bell|
 |**2026-05-21**|**[GS-QA: A Benchmark for Geospatial Question Answering](https://arxiv.org/abs/2605.22811)**|N/A|None|cs.DB|None|Majid Saeedan et al.|
+|**2026-05-21**|**[A Tutorial on Diffusion Theory: From Differential Equations to Diffusion Models](https://arxiv.org/abs/2605.22586)**|N/A|A detailed tutorial on Diffusion models and SDE|cs.LG|None|Jiayi Fu, Yuxia Wang|
 |**2026-05-21**|**[SpaceDG: Benchmarking Spatial Intelligence under Visual Degradation](https://arxiv.org/abs/2605.22536)**|N/A|None|cs.CV|None|Xiaolong Zhou et al.|
 |**2026-05-21**|**[Robustness of breast lesion segmentation under MRI undersampling improves with k-space-aware deep learning](https://arxiv.org/abs/2605.22327)**|N/A|None|cs.CV|None|Lukas T. Rotkopf et al.|
 |**2026-05-21**|**[Flow-based Gaussian Splatting for Continuous-Scale Remote Sensing Image Super-Resolution](https://arxiv.org/abs/2605.22147)**|N/A|None|cs.CV|None|Jiangwei Mo et al.|
@@ -20,7 +120,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2026-05-20**|**[Conditioning Gaussian Processes on Almost Anything](https://arxiv.org/abs/2605.21041)**|N/A|None|stat.ML|None|Henry Moss et al.|
 |**2026-05-20**|**[DAMA: Disentangled Body-Anchored Gaussians for Controllable Multi-Layered Avatars](https://arxiv.org/abs/2605.21001)**|N/A|None|cs.CV|None|Daniel Eskandar et al.|
 |**2026-05-20**|**[PaintCopilot: Modeling Painting as Autonomous Artistic Continuation](https://arxiv.org/abs/2605.20941)**|N/A|None|cs.CV|None|Yunge Wen et al.|
-|**2026-05-20**|**[GaussianDream: A Feed-Forward 3D Gaussian World Model for Robotic Manipulation](https://arxiv.org/abs/2605.20752)**|N/A|18 pages, 9 figures|cs.RO|None|Zijian Zhang et al.|
+|**2026-05-20**|**[GaussianDream: A Feed-Forward 3D Gaussian World Model for Robotic Manipulation](https://arxiv.org/abs/2605.20752)**|N/A|19 pages, 9 figures|cs.RO|None|Zijian Zhang et al.|
 |**2026-05-20**|**[Distribution-Aware Reward: Reinforcement Learning over Predictive Distributions for LLM Regression](https://arxiv.org/abs/2605.20740)**|N/A|21 pages, 5 figures|cs.LG|None|Jungsoo Park et al.|
 |**2026-05-20**|**[A Semantic and Occlusion-Aware GM-PHD Filter](https://arxiv.org/abs/2605.20666)**|N/A|Accepted at ICRA 2026|cs.RO|None|Jovan Menezes, Mark Campbell|
 |**2026-05-19**|**[SMA-DP: Spectral Memory-Aware Differential Privacy for Deep Learning](https://arxiv.org/abs/2605.20450)**|N/A|None|cs.LG|None|Mohammad Partohaghighi, Roummel Marcia|
@@ -89,7 +189,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2026-05-08**|**[Coupling Models for One-Step Discrete Generation](https://arxiv.org/abs/2605.07193)**|N/A|Code is available at https://github.com/pengzhangzhi/Coupling-Models|cs.LG|None|Fred Zhangzhi Peng et al.|
 |**2026-05-08**|**[Uncovering and Shaping the Latent Representation of 3D Scene Topology in Vision-Language Models](https://arxiv.org/abs/2605.07148)**|N/A|None|cs.CV|None|Haoming Wang, Wei Gao|
 |**2026-05-08**|**[CrackMorph-XAI-Net: A Topology-Preserving and Explainable Framework for Automated Crack Morphology](https://arxiv.org/abs/2605.08265)**|N/A|None|math.GM|None|Sri Surya Pravallika Ajjarapu, S. M. Mallikarjunaiah|
-|**2026-05-07**|**[Why DDIM Hallucinates More than DDPM: A Theoretical Analysis of Reverse Dynamics](https://arxiv.org/abs/2605.06831)**|N/A|None|cs.LG|None|Muhammad H. Ashiq et al.|
+|**2026-05-07**|**[Why DDIM Hallucinates More Than DDPM: A Theoretical Analysis of Reverse Dynamics](https://arxiv.org/abs/2605.06831)**|N/A|Accepted in ICML|cs.LG|None|Muhammad H. Ashiq et al.|
 |**2026-05-07**|**[Weight-Decay Turns Transformer Loss Landscapes Villani: Functional-Analytic Foundations for Optimization and Generalization](https://arxiv.org/abs/2605.06599)**|N/A|17 pages, 10 figures|cs.LG|None|Abhijit Das, Sayantan Dutta|
 |**2026-05-07**|**[Flow Matching with Arbitrary Auxiliary Paths](https://arxiv.org/abs/2605.06364)**|N/A|None|cs.LG|None|Xin Peng, Ang Gao|
 |**2026-05-07**|**[OpenGaFF: Open-Vocabulary Gaussian Feature Field with Codebook Attention](https://arxiv.org/abs/2605.06088)**|N/A|None|cs.CV|None|Kunyi Li et al.|
@@ -545,6 +645,9 @@ Query: (abs:'Multi-View Stereo' OR abs:'Multi View Stereo' OR abs:'Multi-View De
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-06-03**|**[VT-3DAD: Cross-Category 3D Anomaly Detection via Visual-Text Normal Space Alignment](https://arxiv.org/abs/2606.04369)**|N/A|None|cs.CV|None|Zi Wang et al.|
+|**2026-05-31**|**[ActMVS: Active Scene Reconstruction with Monocular Multi-View Stereo](https://arxiv.org/abs/2606.01367)**|N/A|ICRA 2026|cs.RO|None|Guo Pu et al.|
+|**2026-05-27**|**[CLEAR-NeRF: Collinearity and Local-region Enhanced Accurate 3D Reconstruction in Unbounded Scenes](https://arxiv.org/abs/2605.28125)**|N/A|None|cs.CV|None|Vladislav Polianskii et al.|
 |**2026-05-03**|**[DP-SfM: Dual-Pixel Structure-from-Motion without Scale Ambiguity](https://arxiv.org/abs/2605.01852)**|N/A|None|cs.CV|IEEE Transactions on Pattern Analysis and Machine Intelligence, 2026|Lilika Makabe et al.|
 |**2026-04-24**|**[PAGaS: Pixel-Aligned 1DoF Gaussian Splatting for Depth Refinement](https://arxiv.org/abs/2604.22129)**|N/A|None|cs.CV|None|David Recasens et al.|
 |**2026-04-14**|**[Neural 3D Reconstruction of Planetary Surfaces from Descent-Phase Wide-Angle Imagery](https://arxiv.org/abs/2604.13235)**|N/A|None|cs.CV|None|Melonie de Almeida et al.|
@@ -1015,6 +1118,16 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-06-11**|**[Modality Forcing for Scalable Spatial Generation](https://arxiv.org/abs/2606.13676)**|N/A|None|cs.CV|None|Bardienus Pieter Duisterhof et al.|
+|**2026-06-11**|**[World Tracing: Generative Pixel-Aligned Geometry Beyond the Visible](https://arxiv.org/abs/2606.13652)**|N/A|World Labs Technical Report; Page: https://haoz19.github.io/world-tracing-page/|cs.CV|None|Hao Zhang et al.|
+|**2026-06-11**|**[Comparing Commercial Depth Sensor Accuracy for Medical Applications](https://arxiv.org/abs/2606.13028)**|N/A|4 Pages|cs.RO|None|Pit Henrich et al.|
+|**2026-06-10**|**[DepthMaster: Unified Monocular Depth Estimation for Perspective and Panoramic Images](https://arxiv.org/abs/2606.12368)**|N/A|None|cs.CV|None|Pengfei Wang et al.|
+|**2026-06-10**|**[Cross-Modal Benchmarking for Robotic Perception in Natural Environments](https://arxiv.org/abs/2606.11563)**|N/A|Accepted to the IEEE ICRA Workshop on Open Challenges for Rigorous Robot Perception 2026|cs.CV|None|David Hall et al.|
+|**2026-06-09**|**[Leveraging Metric Depth for Relative Depth Prediction](https://arxiv.org/abs/2606.10628)**|N/A|None|cs.CV|None|Xiaoyang Bi et al.|
+|**2026-06-06**|**[Empowering Feed-Forward Reconstruction Models with Metric Scale via Satellite Images](https://arxiv.org/abs/2606.08205)**|N/A|None|cs.CV|None|Xianghui Ze et al.|
+|**2026-06-02**|**[PixVOD: Pixel-Distributed Direct Visual Odometry and Depth Estimation](https://arxiv.org/abs/2606.03989)**|N/A|None|cs.CV|None|Shinjeong Kim et al.|
+|**2026-06-02**|**[Towards Compact Autonomous Driving Perception with Balanced Learning and Multi-sensor Fusion](https://arxiv.org/abs/2606.02979)**|N/A|This work has been accepted for publication in IEEE Transactions on Intelligent Transportation Systems. https://ieeexplore.ieee.org/document/9712213|cs.CV|None|Oskar Natan, Jun Miura|
+|**2026-06-01**|**[The Road Ahead in Autonomous Driving: The KITScenes Multimodal Dataset](https://arxiv.org/abs/2606.02956)**|N/A|28 pages, 21 figures|cs.CV|None|Richard Schwarzkopf et al.|
 |**2026-05-19**|**[Understanding Model Behavior in Monocular Polyp Sizing](https://arxiv.org/abs/2605.20461)**|N/A|None|cs.CV|None|Xinqi Xiong et al.|
 |**2026-05-19**|**[Depth2Pose: A Pose-Based Benchmark for Monocular Depth Estimation without Ground-Truth Depth](https://arxiv.org/abs/2605.19797)**|N/A|None|cs.CV|None|Viktor Kocur et al.|
 |**2026-05-19**|**[Smartphone-based Circular Plot Sampling for Forest Inventory](https://arxiv.org/abs/2605.19213)**|N/A|None|cs.CV|None|Su Sun et al.|
