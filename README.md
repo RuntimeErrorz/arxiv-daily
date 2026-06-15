@@ -1,4 +1,4 @@
-## Updated at 2026-06-15 08:52:27
+## Updated at 2026-06-15 22:09:29
 
 ## 3DGS Semantic
 
@@ -8,6 +8,13 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-06-12**|**[MooMIns -- Monocular 3D Reconstruction and Object Pose Estimation from Multiple Instances](https://arxiv.org/abs/2606.14389)**|N/A|None|cs.CV|None|Robert Langendörfer et al.|
+|**2026-06-12**|**[A Robust Point Cloud Analysis Framework Inspired By Primary Visual Cortex](https://arxiv.org/abs/2606.14292)**|N/A|12 pages, 2 figures, 7 tables|cs.CV|None|Jisheng Dang et al.|
+|**2026-06-12**|**[When and How Severely: Scenario-Specific Safety Envelopes for Driving VLAs](https://arxiv.org/abs/2606.14238)**|N/A|None|cs.RO|None|Abhinaw Priyadershi, Jelena Frtunikj|
+|**2026-06-12**|**[Non-Parametric Machine Text Detection via Multi-View Gaussian Processes](https://arxiv.org/abs/2606.14060)**|N/A|None|cs.LG|None|Aleem Khan, Nicholas Andrews|
+|**2026-06-11**|**[AnyGoal: Vision-Language Guided Multi-Agent Exploration for Training-Free Lifelong Navigation](https://arxiv.org/abs/2606.13878)**|N/A|17 pages, 3 figures|cs.RO|None|MoniJesu James et al.|
+|**2026-06-11**|**[Hybrid Classical-Quantum Variational Autoencoder for Neural Topic Modeling](https://arxiv.org/abs/2606.13852)**|N/A|None|cs.CL|None|Ivan Kankeu|
+|**2026-06-11**|**[Uncertainty Estimation and Generalization Bounds for Modern Deep Learning](https://arxiv.org/abs/2606.13818)**|N/A|PhD Thesis, Autonomous University of Madrid|cs.LG|None|Luis A. Ortega|
 |**2026-06-11**|**[Clipping Makes Distributed and Federated Asynchronous SGD Robust to Stragglers](https://arxiv.org/abs/2606.13287)**|N/A|None|cs.LG|None|Samuel Erickson, Mikael Johansson|
 |**2026-06-11**|**[Multi-Bitwidth Quantization for LLMs Using Additive Codebooks](https://arxiv.org/abs/2606.12876)**|N/A|37 pages, 12 figures|cs.LG|None|Liza Babaoglu et al.|
 |**2026-06-10**|**[Measuring Semantic Progress in Multi-turn Dialogue via Information Gain](https://arxiv.org/abs/2606.12332)**|N/A|Preprint. 26 pages|cs.CL|None|Paul He et al.|
@@ -1118,6 +1125,9 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-06-12**|**[Scratched Lenses, Shifted Depth: Passive Camera-Side Optical Attacks](https://arxiv.org/abs/2606.14504)**|N/A|None|cs.CV|None|Qinlin He et al.|
+|**2026-06-12**|**[MooMIns -- Monocular 3D Reconstruction and Object Pose Estimation from Multiple Instances](https://arxiv.org/abs/2606.14389)**|N/A|None|cs.CV|None|Robert Langendörfer et al.|
+|**2026-06-12**|**[ViT-Up: Faithful Feature Upsampling for Vision Transformers](https://arxiv.org/abs/2606.14024)**|N/A|Code is available at: https://github.com/krispinwandel/vit-up|cs.CV|None|Krispin Wandel et al.|
 |**2026-06-11**|**[Modality Forcing for Scalable Spatial Generation](https://arxiv.org/abs/2606.13676)**|N/A|None|cs.CV|None|Bardienus Pieter Duisterhof et al.|
 |**2026-06-11**|**[World Tracing: Generative Pixel-Aligned Geometry Beyond the Visible](https://arxiv.org/abs/2606.13652)**|N/A|World Labs Technical Report; Page: https://haoz19.github.io/world-tracing-page/|cs.CV|None|Hao Zhang et al.|
 |**2026-06-11**|**[Comparing Commercial Depth Sensor Accuracy for Medical Applications](https://arxiv.org/abs/2606.13028)**|N/A|4 Pages|cs.RO|None|Pit Henrich et al.|

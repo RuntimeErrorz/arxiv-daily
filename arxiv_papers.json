@@ -1,5 +1,301 @@
 {
   "3DGS Semantic": {
+    "2606.14389": {
+      "title": "MooMIns -- Monocular 3D Reconstruction and Object Pose Estimation from Multiple Instances",
+      "authors": [
+        "Robert Langendörfer",
+        "Markus Hillemann",
+        "Markus Ulrich"
+      ],
+      "published": "2026-06-12T12:24:50+00:00",
+      "updated": "2026-06-12T12:24:50+00:00",
+      "summary": "Simultaneous 3D reconstruction and 6D object pose estimation from a single monocular image is an inherently ill-posed problem. In industrial settings, however, multiple instances of an object are often randomly arranged in bins, implicitly providing several views of the same object within a single image. We show that this implicit multi-view geometry can be exploited to simultaneously reconstruct the object in 3D and estimate the 6D pose of each visible object instance. We present MooMIns, a new Gaussian-splatting-based approach that inverts the original Gaussian splatting formulation: instead of rendering a single scene from multiple cameras, we render multiple object instances from a single camera. Our method is initialized with SAM3 instance segmentation masks and a modified Structure from Motion (SfM) pipeline. In contrast to learned monocular depth estimation, we perform true geometry-based reconstruction from image evidence, avoiding hallucinations caused by training data priors. We evaluate MooMIns on synthetic and real bin-picking scenarios, and demonstrate accurate reconstruction of previously unseen objects as well as reliable pose estimation of individual instance",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2606.14389v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2606.14389v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2606.14389v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2606.14389v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ],
+      "llm_approved": true
+    },
+    "2606.14292": {
+      "title": "A Robust Point Cloud Analysis Framework Inspired By Primary Visual Cortex",
+      "authors": [
+        "Jisheng Dang",
+        "Dengyue Pan",
+        "Delin Deng",
+        "Yifan Zhang",
+        "Bimei Wang",
+        "Hong Peng",
+        "Bin Hu",
+        "Qi Tian",
+        "Tat-Seng Chua"
+      ],
+      "published": "2026-06-12T09:17:52+00:00",
+      "updated": "2026-06-12T09:17:52+00:00",
+      "summary": "Despite significant advancements in point cloud analysis, reducing energy consumption and improving robustness remain understudied, largely due to the inherent limitations of Convolutional Neural Networks (CNNs). To address this issue, we draw inspiration from the primary visual cortex and propose a Dendritic-Connected Continuous-Coupled Neural Network (DC-CCNN), a novel Brain-Inspired Neural Network (BINN) architecture for point cloud analysis. By combining discrete and continuous encoding, our design replaces traditional Multilayer Perceptrons (MLPs) with more efficient and robust BINNs. Building upon this framework, we further propose an extended model, DC-CCNN++, to improve robustness under complex corruption conditions. Specifically, we introduce a Neuro-Inspired Robust Modulation-and-Readout Module (NRMR) to enhance feature stability and decision robustness through global-context gain modulation and dual-code evidence integration. We also design a Cortically Inspired Progressive Variability Training (CPVT) strategy, which progressively exposes the model to structured environmental variability while preserving stable clean-sample anchors during training. Experimental results show that DC-CCNN++ improves the performance of brain-inspired networks on point cloud analysis while maintaining performance comparable to state-of-the-art methods. Compared with the original DC-CCNN, it achieves stronger results on both classification and part segmentation, and exhibits enhanced robustness against sparsity, occlusion, Gaussian noise, salt-and-pepper noise, and spatial transformations. With its efficiency, robustness, and biologically grounded design, DC-CCNN++ provides a promising alternative to traditional deep learning methods for point cloud analysis. Code is available at https://anonymous.4open.science/r/DC-CCNNpp-44E3.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2606.14292v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "12 pages, 2 figures, 7 tables",
+      "entry_id": "http://arxiv.org/abs/2606.14292v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2606.14292v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2606.14292v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-06-15",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2606.14238": {
+      "title": "When and How Severely: Scenario-Specific Safety Envelopes for Driving VLAs",
+      "authors": [
+        "Abhinaw Priyadershi",
+        "Jelena Frtunikj"
+      ],
+      "published": "2026-06-12T08:20:06+00:00",
+      "updated": "2026-06-12T08:20:06+00:00",
+      "summary": "Safety certification of Vision-Language-Action (VLA) driving planners under ISO 21448 (SOTIF) rests on an Operational Design Domain (ODD) specification that answers two complementary questions: when does the planner start to fail, and how severely does it fail once it does? We evaluate Alpamayo R1, a 10B-parameter open-weight driving VLA, on 15,968 (clip, attack) pairs. We find a conservative-aggregate gap: an aggregate safe threshold of $σ\\leq 50$ under a 15% average displacement error (ADE) budget masks well-sampled scenarios that tolerate the top of the tested grid ($σ= 70$). A Gaussian Mixture Model (GMM) on the changed-explanation subset identifies six discrete severity bands (BIC-optimal $k{=}6$), so two perturbation conditions with the same mean error can differ materially in their share of high-severity (C4/C5) failures. Joining the two analyses on the same corpus surfaces a finding neither yields in isolation: the scenarios with the loosest noise thresholds are not those with the lowest high-severity rate: STOP_SIGNAL concentrates roughly $4\\times$ the C4/C5 share of LANE_KEEPING despite tolerating a larger $σ$. A deployable SOTIF ODD specification for driving VLAs therefore requires a two-dimensional safety envelope, not a single aggregate value per hazard.",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2606.14238v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2606.14238v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2606.14238v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2606.14238v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-06-15",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2606.14060": {
+      "title": "Non-Parametric Machine Text Detection via Multi-View Gaussian Processes",
+      "authors": [
+        "Aleem Khan",
+        "Nicholas Andrews"
+      ],
+      "published": "2026-06-12T03:11:25+00:00",
+      "updated": "2026-06-12T03:11:25+00:00",
+      "summary": "Adversarial conditions such as paraphrasing and targeted style transfer sharply degrade the accuracy of machine text detectors. A document, however, carries multiple complementary signals (e.g., stylistic features, likelihood and rank-order features, and structural features), and an attack that suppresses one may leave others intact. While a parametric classifier can learn to combine these features given sufficient supervision, classifiers are prone to making confidently incorrect predictions when the distribution shifts (e.g., novel attacks or unseen language models). To address this, we propose a multi-view, non-parametric detection framework that extracts complementary feature views from the same document and aggregates per-view evidence through a Gaussian process ensemble. By aggregating evidence across views, an adversary must simultaneously defeat multiple independent axes of detection, substantially raising the cost of evasion. The Gaussian process formulation additionally provides calibrated probabilities and principled abstention on out-of-distribution inputs, supporting reliable deployment in high-stakes settings. We evaluate on three benchmarks spanning diverse generators and attacks: the DetectRL and RAID benchmarks, and the PAN2025 shared task and demonstrate that our multi-view detector maintains strong performance under the considered attacks, outperforming existing approaches against held out attacks.",
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2606.14060v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2606.14060v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2606.14060v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2606.14060v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-06-15",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2606.13878": {
+      "title": "AnyGoal: Vision-Language Guided Multi-Agent Exploration for Training-Free Lifelong Navigation",
+      "authors": [
+        "MoniJesu James",
+        "Marcelino Julio Fernando",
+        "Miguel Altamirano Cabrera",
+        "Dzmitry Tsetserukou"
+      ],
+      "published": "2026-06-11T20:07:34+00:00",
+      "updated": "2026-06-11T20:07:34+00:00",
+      "summary": "End-to-end navigation policies trained on large simulation corpora degrade sharply when transferred to out-of-distribution scenes, categories, or goal modalities. Modular pipelines such as Modular GOAT are bottlenecked by closed-set object detection recall, while 3D snapshot-memory systems (e.g. 3D-Mem) accumulate dense, view-dependent representations that are heavy to maintain. We present AnyGoal, a training-free multi-robot architecture that places a Vision-Language Model (VLM) at the core of frontier-based exploration and coordinates agents through a shared 2D Gaussian Bayesian Value Map (BVM). The BVM maintains a per-pixel (mu, sigma^2) posterior over goal relevance, updated via precision-weighted fusion of VLM scores through a depth-cone mask, and is never reset between subtasks, yielding lifelong evidence accumulation. Frontiers are ranked by a convex blend of a VLM-as-judge softmax and a Bayesian UCB term on the BVM. A greedy allocator with spatial-separation penalty and commitment hysteresis distributes frontiers across agents without a centralized controller. On the full GOAT-Bench val unseen split (360 episodes, 2,669 subtasks), our dual-agent system achieves 52.4% Subtask SR at 12.7% SPL--state of the art under the strict physical regime (discrete 0.25 m steps, no teleportation, 42 deg HFOV) and a +27.5 pp improvement over Modular GOAT (24.9%). Single-agent AnyGoal achieves 41.9% Subtask SR, showing gains arise from the decision architecture. A four-way perception ablation shows that open-vocabulary detectors shift the dominant failure mode from exploration to goal verification.",
+      "categories": [
+        "cs.RO"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2606.13878v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "17 pages, 3 figures",
+      "entry_id": "http://arxiv.org/abs/2606.13878v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2606.13878v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2606.13878v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-06-15",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2606.13852": {
+      "title": "Hybrid Classical-Quantum Variational Autoencoder for Neural Topic Modeling",
+      "authors": [
+        "Ivan Kankeu"
+      ],
+      "published": "2026-06-11T19:31:46+00:00",
+      "updated": "2026-06-11T19:31:46+00:00",
+      "summary": "Neural topic models enable scalable semantic discovery, but their integration with quantum hardware remains largely unexplored. We present a proof-of-concept hybrid classical-quantum variational autoencoder (VAE) for topic modeling, embedding parameterized quantum circuits within the VAE inference network while retaining a classical topic-word decoder. To address the resource constraints of quantum hardware, we propose a modified Gaussian Softmax posterior that decouples latent space dimensionality from the number of topics to be extracted, enabling the model to operate with a low-resource 10-qubit quantum device. On the AgNews dataset, the hybrid VAE outperforms state-of-the-art neural topic models (NTMs), reaching a $C_v$ coherence score of 0.71 and an NPMI score of 0.20 while preserving high topic diversity. For comparison, we also construct a fully classical variant, which also outperforms state-of-the-art models on AgNews and exhibits clear class separation in the latent space. These results demonstrate that hybrid VAEs are computationally viable even on NISQ-era devices and represent a promising direction for quantum-enhanced topic modeling.",
+      "categories": [
+        "cs.CL"
+      ],
+      "primary_category": "cs.CL",
+      "pdf_url": "https://arxiv.org/pdf/2606.13852v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2606.13852v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2606.13852v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2606.13852v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-06-15",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
+    "2606.13818": {
+      "title": "Uncertainty Estimation and Generalization Bounds for Modern Deep Learning",
+      "authors": [
+        "Luis A. Ortega"
+      ],
+      "published": "2026-06-11T18:49:45+00:00",
+      "updated": "2026-06-11T18:49:45+00:00",
+      "summary": "This thesis investigates how Bayesian principles can deepen our understanding of modern deep learning systems. While neural networks achieve remarkable predictive performance, their ability to generalize and to quantify uncertainty remains only partly understood. This thesis approaches this challenge from both methodological and theoretical angles: unifying Bayesian inference, function-space modeling, and large-deviation theory under a common probabilistic perspective.\n  On the methodological side, the thesis introduces the Deep Variational Implicit Process (DVIP), a scalable Bayesian framework that extends implicit processes to deep architectures. Complementing this, two post-hoc methods -- the Variational Linearized Laplace Approximation (VaLLA) and the Fixed-Mean Gaussian Process (FMGP) -- are proposed to equip pretrained deterministic networks with calibrated uncertainty estimates.\n  The theoretical contributions focus on one of the central open questions in modern machine learning: why do large, over-parameterized neural networks generalize so well? To address this, the thesis develops a unified probabilistic framework that connects three key mechanisms -- diversity, smoothness, and stochasticity -- within the language of PAC-Bayesian and large-deviation theory.",
+      "categories": [
+        "cs.LG"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2606.13818v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "PhD Thesis, Autonomous University of Madrid",
+      "entry_id": "http://arxiv.org/abs/2606.13818v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2606.13818v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2606.13818v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ],
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-06-15",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
+    },
     "2606.13287": {
       "title": "Clipping Makes Distributed and Federated Asynchronous SGD Robust to Stragglers",
       "authors": [
@@ -1922,7 +2218,7 @@
         "Sara Magliacane"
       ],
       "published": "2026-06-01T13:25:58+00:00",
-      "updated": "2026-06-01T13:25:58+00:00",
+      "updated": "2026-06-12T14:48:22+00:00",
       "summary": "Temporal systems often exhibit non-stationary behaviour, such as seasonal climate variation or glucose fluctuations in patients with type-1 diabetes. One way to model non-stationarity is through discrete latent regimes, i.e., stationary segments of time. Such systems induce a Markov Switching Model (MSM), a class of Hidden Markov Models with autoregressive dependencies among latent regimes and observed variables. Identifying latent regimes is challenging in the presence of frequent regime switches and nonlinear and non-Gaussian dynamics, particularly when there are instantaneous effects between the variables, e.g., due to slow rates of measurements. In this work, we establish the identifiability of both latent regimes and regime-dependent causal structures under temporal regime dependencies, nonlinear lagged and instantaneous effects, and independent noise from the exponential family. Our identifiability theory subsumes non-temporal mixtures of causal models. Furthermore, we introduce FlowMSM, a regime detection framework that can be paired with any stationary causal discovery method to recover regime-dependent causal structures. Experiments on synthetic benchmarks and a financial economics dataset demonstrate the effectiveness of our approach to detect latent regimes and discover causal structures from non-stationary time series.",
       "categories": [
         "stat.ML",
@@ -1930,20 +2226,20 @@
         "stat.ME"
       ],
       "primary_category": "stat.ML",
-      "pdf_url": "https://arxiv.org/pdf/2606.02231v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.02231v2",
       "journal_ref": null,
       "doi": null,
       "comment": "International Conference on Machine Learning (ICML) 2026",
-      "entry_id": "http://arxiv.org/abs/2606.02231v1",
+      "entry_id": "http://arxiv.org/abs/2606.02231v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2606.02231v1",
+          "href": "https://arxiv.org/abs/2606.02231v2",
           "title": null,
           "rel": "alternate",
           "content_type": "text/html"
         },
         {
-          "href": "https://arxiv.org/pdf/2606.02231v1",
+          "href": "https://arxiv.org/pdf/2606.02231v2",
           "title": "pdf",
           "rel": "related",
           "content_type": "application/pdf"
@@ -119468,6 +119764,111 @@
     }
   },
   "Depth Estimation": {
+    "2606.14504": {
+      "title": "Scratched Lenses, Shifted Depth: Passive Camera-Side Optical Attacks",
+      "authors": [
+        "Qinlin He",
+        "Zeming Zhuang",
+        "Yongji Wu",
+        "Lan Zhang",
+        " Xiaoyong",
+        " Yuan"
+      ],
+      "published": "2026-06-12T14:34:53+00:00",
+      "updated": "2026-06-12T14:34:53+00:00",
+      "summary": "Physical adversarial attacks on vision systems are typically studied through scene manipulation, such as adversarial patches or projections, where the adversary controls what the camera observes. Camera-side attacks using stickers or auxiliary optics have also been explored, but they treat attacks as image-space perturbations from designed patterns. This misses how physical imperfections interact with scene-dependent lighting and optics. We identify a threat: passive lens-side damage that is persistent yet trigger-conditioned, producing optical artifacts that bias geometric inference under particular visual conditions.\n  We instantiate this threat through Scratch-induced Lens Adversarial Streak Hijacking SLASH, a physical-world attack caused by small scratches on a camera lens or protective cover. Scratches interact with bright light sources and specular reflections to create structured streak artifacts that distort depth cues. Since the perturbation is fixed in the optical path but triggered by the scene, it is both persistent and selective. We formulate the attack in optical space, model the scratch pattern as a trigger-conditioned optical channel, and optimize one fixed configuration across diverse viewing conditions. We evaluate SLASH on monocular depth estimation and monocular 3D object detection in digital and real-world settings. Under the fixed-scratch constraint, directional depth shifts reach up to 32% relative error for monocular depth estimation, with consistent effects on monocular 3D object detection. Physical experiments confirm transfer to real camera recordings, inducing depth shifts above the model's natural prediction baseline. These findings reveal an attack surface where benign-looking hardware imperfections act as latent, scene-triggered adversarial mechanisms, challenging assumptions about physical robustness and motivating defenses for secure vision systems.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2606.14504v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2606.14504v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2606.14504v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2606.14504v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ]
+    },
+    "2606.14389": {
+      "title": "MooMIns -- Monocular 3D Reconstruction and Object Pose Estimation from Multiple Instances",
+      "authors": [
+        "Robert Langendörfer",
+        "Markus Hillemann",
+        "Markus Ulrich"
+      ],
+      "published": "2026-06-12T12:24:50+00:00",
+      "updated": "2026-06-12T12:24:50+00:00",
+      "summary": "Simultaneous 3D reconstruction and 6D object pose estimation from a single monocular image is an inherently ill-posed problem. In industrial settings, however, multiple instances of an object are often randomly arranged in bins, implicitly providing several views of the same object within a single image. We show that this implicit multi-view geometry can be exploited to simultaneously reconstruct the object in 3D and estimate the 6D pose of each visible object instance. We present MooMIns, a new Gaussian-splatting-based approach that inverts the original Gaussian splatting formulation: instead of rendering a single scene from multiple cameras, we render multiple object instances from a single camera. Our method is initialized with SAM3 instance segmentation masks and a modified Structure from Motion (SfM) pipeline. In contrast to learned monocular depth estimation, we perform true geometry-based reconstruction from image evidence, avoiding hallucinations caused by training data priors. We evaluate MooMIns on synthetic and real bin-picking scenarios, and demonstrate accurate reconstruction of previously unseen objects as well as reliable pose estimation of individual instance",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2606.14389v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2606.14389v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2606.14389v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2606.14389v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ]
+    },
+    "2606.14024": {
+      "title": "ViT-Up: Faithful Feature Upsampling for Vision Transformers",
+      "authors": [
+        "Krispin Wandel",
+        "Jingchuan Wang",
+        "Hesheng Wang"
+      ],
+      "published": "2026-06-12T01:55:17+00:00",
+      "updated": "2026-06-12T01:55:17+00:00",
+      "summary": "Vision Transformers (ViTs) have become a dominant architecture for visual representation learning, providing exceptionally strong and broadly reusable backbone features. However, ViTs are commonly operated on relatively small patch-token grids due to the quadratic cost of global self-attention, which creates a persistent bottleneck for dense prediction tasks such as semantic segmentation and depth estimation. This has motivated the development of task-agnostic feature upsamplers. While recent state-of-the-art methods produce visually sharp dense representations, their reliance on shallow image encoders for guided upsampling can introduce feature leakage, fragmentation, and blur. We introduce ViT-Up, an implicit feature upsampling framework that replaces external image guidance with layer-wise query construction from intermediate ViT hidden states. This enables feature prediction at arbitrary continuous image coordinates while preserving alignment with the backbone feature space. Experiments demonstrate that ViT-Up consistently outperforms state-of-the-art image-guided upsamplers across dense prediction and semantic correspondence. On DINOv3-S+, ViT-Up improves over prior methods by up to +2.07 mIoU on Cityscapes and +4.17 PCK@0.10 on SPair-71k. With the larger DINOv3-B backbone, these gains increase to +3.36 mIoU and +8.09 PCK@0.10, demonstrating that ViT-Up scales favorably with backbone capacity.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2606.14024v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "Code is available at: https://github.com/krispinwandel/vit-up",
+      "entry_id": "http://arxiv.org/abs/2606.14024v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2606.14024v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2606.14024v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ]
+    },
     "2606.13676": {
       "title": "Modality Forcing for Scalable Spatial Generation",
       "authors": [
