@@ -1,5 +1,228 @@
 {
   "3DGS Semantic": {
+    "2606.16812": {
+      "title": "Data-Driven Micromechanical Characterization and Mapping of Shale Rocks Using High Speed Nanoindentation",
+      "authors": [
+        "Shaziya Ahmed Banu",
+        "Xukai Zhang",
+        "Samah A. Mahgoub",
+        "Christopher C. Walker",
+        "George M. Pharr",
+        "Arash Noshadravan",
+        "Sara Abedi"
+      ],
+      "published": "2026-06-15T14:55:53+00:00",
+      "updated": "2026-06-15T14:55:53+00:00",
+      "summary": "This study investigates the potential of high-speed nanoindentation in collaboration with data analytics and phase volume fractions to achieve micromechanical characterization of heterogeneous rocks. While micromechanical characterization can be performed using mechanical testing alone, integrating chemical analysis-such as elemental mapping techniques-provides essential phase identification. This enables more accurate interpretation of phase-specific mechanical properties. However, incorporating chemical analysis increases the complexity of the process. Hence, this study proposes data-driven micromechanical characterization and mapping of heterogeneous rocks based primarily on mechanical data and limited dependence on chemical analysis. In this study, Mancos shale rock is analyzed using high-speed nanoindentation to determine the mechanical properties at the microscale. Subsequently, a suite of unsupervised statistical learning techniques, such as Uniform Manifold Approximation and Projection (UMAP) with k-means Clustering, Gaussian Mixture Model (GMM), Dirichlet Process Mixture Model (DPMM), and Density-Based Spatial Clustering of Applications with Noise (DBSCAN), are applied to the nanoindentation data. Additionally, an automated image processing and segmentation technique was developed and tested. The results from each technique have been systematically compared against the conventional chemo-mechanical approach using two metrics: weighted error and spatial error. Based on the results, UMAP with k-means clustering is the most appropriate technique, while DBSCAN, DPMM, and image segmentation techniques are more suitable as secondary approaches. This study demonstrates the capability of high-speed nanoindentation combined with machine learning techniques for micromechanical characterization with reduced analytical complexity and improved workflow efficiency.",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "primary_category": "cond-mat.mtrl-sci",
+      "pdf_url": "https://arxiv.org/pdf/2606.16812v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2606.16812v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2606.16812v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2606.16812v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ],
+      "llm_approved": true
+    },
+    "2606.16780": {
+      "title": "DIFF-IPPO: Diffusion-Based Informative Path Planning with Open-Vocabulary Belief Maps",
+      "authors": [
+        "Sausar Karaf",
+        "Oleg Sautenkov",
+        "Mikhail Martynov",
+        "Dzmitry Tsetserukou"
+      ],
+      "published": "2026-06-15T14:26:02+00:00",
+      "updated": "2026-06-15T14:26:02+00:00",
+      "summary": "Exploration and object search require robots to perceive their environment, identify regions of interest, and plan trajectories that improve target-detection likelihood or maximize information gain. Many IPP methods, especially in continuous environmental monitoring, rely on Gaussian-process belief models, while object-search settings often produce complex, multimodal belief maps from semantic or open-vocabulary perception. Global trajectory generation directly conditioned on such non-Gaussian belief maps remains comparatively underexplored. Although diffusion-based planners offer strong capabilities for modeling such distributions, their use in informative path planning remains limited. In this work, we propose DIFF-IPPO, a pipeline that integrates an open-vocabulary belief map generator with a diffusion-based planner for global trajectory generation over belief maps. The method generates trajectories that concentrate sensor coverage over high-belief regions, achieving normalized detection scores between 81.49% and 86.55% across different dataset scenarios. We validate the system in a simulated search-and-rescue scenario where the planner searches candidate building regions to locate a burning building. In this setting, a team of five drones using batched belief-map-conditioned trajectory generation achieves first detections in 3.5 minutes.",
+      "categories": [
+        "cs.RO"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2606.16780v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2606.16780v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2606.16780v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2606.16780v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ],
+      "llm_approved": true
+    },
+    "2606.16766": {
+      "title": "Restriction estimates for surfaces with negative curvature in $\\mathbb R^3$",
+      "authors": [
+        "Shaoming Guo",
+        "Diankun Liu",
+        "Yakun Xi"
+      ],
+      "published": "2026-06-15T14:15:54+00:00",
+      "updated": "2026-06-15T14:15:54+00:00",
+      "summary": "In $\\mathbb R^3$, we prove that $L^q\\to L^p$ restriction estimates associated with smooth surfaces with negative Gaussian curvature hold for all $p>\\frac{22}{7}$ and $q'<\\frac{p}{2}$. Building on Demeter--Wu's work for the model hyperbolic paraboloid, we introduce a geometric propagation principle for good lines, which controls the degenerate directions arising from straight-line segments on the surface. This overcomes a key difficulty in the general case, where such directions may vary with the geometry rather than being fixed by the coordinate axes.",
+      "categories": [
+        "math.CA",
+        "math.AP"
+      ],
+      "primary_category": "math.CA",
+      "pdf_url": "https://arxiv.org/pdf/2606.16766v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "42 pages",
+      "entry_id": "http://arxiv.org/abs/2606.16766v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2606.16766v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2606.16766v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ],
+      "llm_approved": true
+    },
+    "2606.16278": {
+      "title": "RealityBridge: Bridging Editable 3D Gaussian Splatting Driving Simulations and Real-World Videos",
+      "authors": [
+        "Zhenhua Wu",
+        "Yun Pang",
+        "Mingkun Chang",
+        "Yuwei Ning",
+        "Liangzhi Wang",
+        "Yi Xiao",
+        "Guanbin Li"
+      ],
+      "published": "2026-06-15T06:33:13+00:00",
+      "updated": "2026-06-15T06:33:13+00:00",
+      "summary": "Long-tail hazardous scenarios are essential for safety-oriented autonomous driving, yet they are difficult to collect and reproduce at scale. Editable 3D Gaussian Splatting (3DGS) simulation offers a promising alternative by reconstructing real driving scenes and supporting controllable scene editing. However, edited 3DGS-rendered videos still suffer from a significant Sim-to-Real gap, including rendering artifacts, degraded foreground assets, inconsistent illumination, and temporal flickering. Existing restoration and video generation methods are insufficient for this task, as they often fail to jointly repair 3DGS-specific artifacts, improve visual realism, and ensure temporal consistency. To fill this gap, we propose RealityBridge, a structure-preserving and asset-aware Sim-to-Real framework for edited 3DGS driving videos. RealityBridge uses multimodal controls, including rendered videos, foreground masks, edge maps, and semantic masks, together with a lightweight GateNet for adaptive condition allocation across backbone layers. We further construct targeted training data and introduce autoregressive long-video training with reward-guided post-training to improve restoration quality, temporal stability, and hallucination suppression. Extensive experiments on internal and public driving datasets show that RealityBridge outperforms existing methods in artifact removal, illumination harmonization, and long-sequence temporal consistency.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2606.16278v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2606.16278v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2606.16278v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2606.16278v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ],
+      "llm_approved": true
+    },
+    "2606.15937": {
+      "title": "GOOSE-M2F: Adapting Mask2Former for High-Fidelity, Long-Tailed Fine-Grained Semantic Segmentation in Unstructured Outdoor Terrain",
+      "authors": [
+        "Jyothiraditya Lingam",
+        "Nikhileswara Rao Sulake",
+        "Sai Manikanta Eswar Machara"
+      ],
+      "published": "2026-06-14T17:41:03+00:00",
+      "updated": "2026-06-14T17:41:03+00:00",
+      "summary": "We present GOOSE-M2F, a task-specific adaptation of Mask2Former for the GOOSE 2D Fine-Grained Semantic Segmentation (FGSS) Challenge at ICRA~2026. The GOOSE benchmark spans 64 fine-grained classes across unstructured outdoor terrain with a severely long-tailed distribution, where rare classes occupy fewer than 50 pixels per image. We extend the Swin-Large Mask2Former baseline with three targeted contributions: (1)200 Object Queries to eliminate representational saturation; (2)a Feature Refinement Module (FRM) combining ASPP-lite and CBAM dual-attention; and (3)an Auxiliary Supervision Head that delivers direct per-pixel gradients for rare classes. A multi-stage training strategy pairs Distribution-Balanced loss, Rare-Class Copy-Paste augmentation, dynamic IoU-aware re-weighting, and EMA. At inference, a dense sliding-window engine with 2D Gaussian kernel blending and 4-scale TTA adds +10.57\\%. GOOSE-M2F achieves 70.08\\% Official Composite mIoU (63.55\\% fine, 76.61\\% coarse), placing 3rd on the GOOSE 2D FGSS leaderboard. Code and trained models are publicly available at: \\href{https://github.com/Aditya-Lingam-9000/GOOSE-M2F}{Github GOOSE-M2F Code} and \\href{https://huggingface.co/XYZ9843/GOOSE-M2F}{Hugging Face GOOSE-M2F}.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2606.15937v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "This solution has got 3rd position at GOOSE 2D Fine-Grained Semantic Segmentation (FGSS) Challenge at ICRA~2026",
+      "entry_id": "http://arxiv.org/abs/2606.15937v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2606.15937v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2606.15937v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ],
+      "llm_approved": true
+    },
+    "2606.15479": {
+      "title": "Bayesian 3D Steerable CNNs: Enabling Equivariance and Uncertainty Quantification Simultaneously",
+      "authors": [
+        "Abhishek Keripale",
+        "Ponkrshnan Thiagarajan",
+        "Susanta Ghosh"
+      ],
+      "published": "2026-06-13T21:28:04+00:00",
+      "updated": "2026-06-13T21:28:04+00:00",
+      "summary": "Steerable convolutional neural networks (Steerable-CNNs) guarantee SE(3)-equivariance by parameterizing kernels as linear combinations of steerable basis functions, but their deterministic nature precludes uncertainty quantification - limiting their use in settings where confidence estimates are essential. We propose a Bayesian Steerable-CNN that places posterior distributions over the basis coefficients, yielding stochastic kernels while preserving equivariance exactly. The loss function of the model is obtained via variational inference and minimized by Bayes-by-Backpropagation. The framework admits a decomposition of predictive uncertainty into epistemic and aleatoric components. Empirically, the model attains competitive classification accuracy alongside an expected calibration error of 0.0263 and outperforms its deterministic counterpart by up to 6.17% under distributional shift induced by additive Gaussian noise. Furthermore, we leverage the model's uncertainty estimates to enhance its performance significantly, achieving a notable gain - approximately 4% higher accuracy across 84% of the test dataset. A statistically significant negative correlation between epistemic uncertainty and prediction error confirms that the learned posterior variance is semantically meaningful. The framework unifies Bayesian uncertainty quantification with the inductive bias of equivariant CNNs.",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "math.PR"
+      ],
+      "primary_category": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2606.15479v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2606.15479v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2606.15479v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2606.15479v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ],
+      "llm_approved": true
+    },
     "2606.14389": {
       "title": "MooMIns -- Monocular 3D Reconstruction and Object Pose Estimation from Multiple Instances",
       "authors": [
@@ -99,27 +322,27 @@
         "Jelena Frtunikj"
       ],
       "published": "2026-06-12T08:20:06+00:00",
-      "updated": "2026-06-12T08:20:06+00:00",
+      "updated": "2026-06-15T09:17:08+00:00",
       "summary": "Safety certification of Vision-Language-Action (VLA) driving planners under ISO 21448 (SOTIF) rests on an Operational Design Domain (ODD) specification that answers two complementary questions: when does the planner start to fail, and how severely does it fail once it does? We evaluate Alpamayo R1, a 10B-parameter open-weight driving VLA, on 15,968 (clip, attack) pairs. We find a conservative-aggregate gap: an aggregate safe threshold of $σ\\leq 50$ under a 15% average displacement error (ADE) budget masks well-sampled scenarios that tolerate the top of the tested grid ($σ= 70$). A Gaussian Mixture Model (GMM) on the changed-explanation subset identifies six discrete severity bands (BIC-optimal $k{=}6$), so two perturbation conditions with the same mean error can differ materially in their share of high-severity (C4/C5) failures. Joining the two analyses on the same corpus surfaces a finding neither yields in isolation: the scenarios with the loosest noise thresholds are not those with the lowest high-severity rate: STOP_SIGNAL concentrates roughly $4\\times$ the C4/C5 share of LANE_KEEPING despite tolerating a larger $σ$. A deployable SOTIF ODD specification for driving VLAs therefore requires a two-dimensional safety envelope, not a single aggregate value per hazard.",
       "categories": [
         "cs.RO",
         "cs.AI"
       ],
       "primary_category": "cs.RO",
-      "pdf_url": "https://arxiv.org/pdf/2606.14238v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.14238v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2606.14238v1",
+      "entry_id": "http://arxiv.org/abs/2606.14238v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2606.14238v1",
+          "href": "https://arxiv.org/abs/2606.14238v2",
           "title": null,
           "rel": "alternate",
           "content_type": "text/html"
         },
         {
-          "href": "https://arxiv.org/pdf/2606.14238v1",
+          "href": "https://arxiv.org/pdf/2606.14238v2",
           "title": "pdf",
           "rel": "related",
           "content_type": "application/pdf"
@@ -1026,6 +1249,41 @@
         "publisher": null,
         "note": "已查询但未找到venue信息"
       }
+    },
+    "2606.14753": {
+      "title": "Beyond Self-Attention: Sub-Quadratic Vision Transformers for Fast Image Captioning",
+      "authors": [
+        "Chiradeep Ghosh",
+        "Dakshina Ranjan Kisku"
+      ],
+      "published": "2026-06-07T16:57:24+00:00",
+      "updated": "2026-06-07T16:57:24+00:00",
+      "summary": "Image captioning is a challenging and significant task that aims to generate coherent and semantically meaningful textual descriptions for given images. To accomplish this task, it requires a deep understanding of visual content along with the ability to express that understanding in natural language. Despite remarkable progress with transformer-based architectures, existing approaches often suffer from limitations, such as a lack of rich local feature representations and the high computational cost of quadratic self-attention. The proposed model focuses on improving computational efficiency by restructuring the vision transformer architecture. In designing this approach, the standard self-attention mechanism in Vision Transformers is replaced with a probabilistic transformer approach based on a Gaussian Mixture Model (GMM), a soft-clustering technique. Instead of computing pairwise attention among all image patches, the model groups similar patches into a fixed number of clusters using an Expectation-Maximization (EM) algorithm. This clustering-based mechanism reduces the computational complexity from quadratic O(n^2) to linear O(nK), where K << n. The autoregressive GPT-based decoder is used for caption generation. The model is evaluated on the Flickr 30K dataset, demonstrating competitive and significant improvement over existing works.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2606.14753v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "8 pages, 8 figures",
+      "entry_id": "http://arxiv.org/abs/2606.14753v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2606.14753v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2606.14753v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ],
+      "llm_approved": true
     },
     "2606.08332": {
       "title": "SMI: Efficient Self-Supervised Learning via Mutual-Information-Inspired Dependency Optimization",
@@ -2168,6 +2426,39 @@
         "note": "已查询但未找到venue信息"
       }
     },
+    "2606.14730": {
+      "title": "Hierarchical GRU with Input-Conditioned Slot Queries for Ball Action Anticipation",
+      "authors": [
+        "Parthsarthi Rawat"
+      ],
+      "published": "2026-06-02T03:39:12+00:00",
+      "updated": "2026-06-02T03:39:12+00:00",
+      "summary": "We present a hierarchical model for ball action anticipation in football broadcast video. Given a 30-second observation window, the system predicts actions occurring in the subsequent 5-second window across 10 classes. A shared local Transformer encodes clip-level features within each 5-second sub-window; a GRU then aggregates temporal context across all sub-windows; finally, a Transformer decoder with K input-conditioned event slots decodes the anticipation target via three decoupled heads (objectness, class, temporal offset). We introduce frequency-reweighted Hungarian matching that systematically favours rare action classes, and Gaussian soft targets for temporal bin supervision. On the SoccerNet Ball Action Anticipation benchmark, our method achieves 17.91% mAP on the test server.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2606.14730v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "CVPR 2026 SoccerNet Ball Action Anticipation Challenge, Validated Rank 4",
+      "entry_id": "http://arxiv.org/abs/2606.14730v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2606.14730v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2606.14730v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ],
+      "llm_approved": true
+    },
     "2606.02937": {
       "title": "BEAST3D: Animal behavioral analysis and neural encoding from multi-view video via Gaussian splatting",
       "authors": [
@@ -2685,26 +2976,26 @@
         "Yu Zhang"
       ],
       "published": "2026-05-30T06:16:35+00:00",
-      "updated": "2026-05-30T06:16:35+00:00",
+      "updated": "2026-06-15T11:45:28+00:00",
       "summary": "Transfer learning aims to facilitate the learning of a target domain by transferring knowledge from a source domain. The source domain typically contains semantically meaningful samples (*e.g.*, images) to facilitate effective knowledge transfer. However, a recent study observes that the noise domain constructed from simple distributions (*e.g.*, Gaussian distributions) can serve as a surrogate source domain in the semi-supervised setting, where only a small proportion of target samples are labeled while most remain unlabeled. Based on this surprising observation, we formulate a novel problem termed *Semi-Supervised Noise Adaptation* (SSNA), which aims to leverage a synthetic noise domain to improve the generalization of the target domain. To address this problem, we first establish a generalization bound characterizing the effect of the noise domain on generalization, based on which we propose a Noise Adaptation Framework (NAF). Extensive experiments demonstrate that NAF effectively leverages the noise domain to tighten the generalization bound of the target domain, leading to improved performance. The codes are available at https://github.com/AIResearch-Group/SSNA.",
       "categories": [
         "cs.LG"
       ],
       "primary_category": "cs.LG",
-      "pdf_url": "https://arxiv.org/pdf/2606.00558v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.00558v2",
       "journal_ref": null,
       "doi": null,
       "comment": "Accepted by ICML 2026",
-      "entry_id": "http://arxiv.org/abs/2606.00558v1",
+      "entry_id": "http://arxiv.org/abs/2606.00558v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2606.00558v1",
+          "href": "https://arxiv.org/abs/2606.00558v2",
           "title": null,
           "rel": "alternate",
           "content_type": "text/html"
         },
         {
-          "href": "https://arxiv.org/pdf/2606.00558v1",
+          "href": "https://arxiv.org/pdf/2606.00558v2",
           "title": "pdf",
           "rel": "related",
           "content_type": "application/pdf"
@@ -102443,6 +102734,40 @@
     }
   },
   "MVS": {
+    "2606.16638": {
+      "title": "MVM-IOD: An Industrial Object-Centric Benchmark Dataset for the Evaluation of 3D Reconstruction Methods",
+      "authors": [
+        "Robert Langendörfer",
+        "Markus Hillemann",
+        "Markus Ulrich"
+      ],
+      "published": "2026-06-15T12:26:47+00:00",
+      "updated": "2026-06-15T12:26:47+00:00",
+      "summary": "3D object reconstruction, and camera pose estimation in industrial applications are challenging tasks, as errors are costly while the computation time is often limited. The complexity of typical industrial objects further complicates these tasks. Most of the existing datasets in this context do not depict realistic industrial scenarios. Therefore, we introduce the Machine Vision Metrology Industrial Object Dataset (MVM-IOD). Images of typical industrial objects are captured systematically, by moving a camera, mounted at the end effector of an industrial robot arm, on a hemisphere around the objects. MVM-IOD contains reference camera poses and reference 3D point clouds, the acquired RGB images of 9 objects and 2 background choices resulting in 18 scenes, which allows evaluation of all image based methods that compute a 3D reconstruction, camera poses, or novel views of a scene. Based on MVM-IOD, we extensively evaluate current SOTA 3D reconstruction and camera pose estimation methods, such as Structure from Motion, Multi-View Stereo, recent feed forward methods (Visual Geometry Grounded Transformer, π3), and 2D Gaussian Splatting and report our findings as a baseline for future research. The experiments show that capture setups like ours generate out-of distribution images for feed forward methods, leading to suboptimal point clouds and camera poses. However, these out-of-distribution images can be shifted closer to the training distribution by applying simple preprocessing steps. Consequently, in certain industrial applications, feed forward methods should be used with caution.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2606.16638v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2606.16638v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2606.16638v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2606.16638v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ]
+    },
     "2606.04369": {
       "title": "VT-3DAD: Cross-Category 3D Anomaly Detection via Visual-Text Normal Space Alignment",
       "authors": [
@@ -119772,6 +120097,110 @@
     }
   },
   "Depth Estimation": {
+    "2606.16673": {
+      "title": "MMDiff: Extending Diffusion Transformers for Multi-Modal Generation",
+      "authors": [
+        "Yagmur Akarken",
+        "Orest Kupyn",
+        "Christian Rupprecht"
+      ],
+      "published": "2026-06-15T13:08:06+00:00",
+      "updated": "2026-06-15T13:08:06+00:00",
+      "summary": "Diffusion transformers have demonstrated remarkable generative capabilities, yet the rich perceptual representations computed across their denoising trajectory are discarded once the content is rendered. We present MMDiff, a framework that transforms a frozen diffusion transformer into a multi-modal generative system that jointly produces images alongside any combination of dense perceptual modalities using lightweight decoder heads. Our central finding is that perceptual information is temporally distributed along the denoising trajectory, and that multi-timestep feature fusion with spatially varying aggregation weights is essential, improving semantic segmentation results by up to 28.7% mIoU over single-timestep extraction. We further adopt concept-driven attention extraction for interpretable spatial guidance, and show that frozen diffusion features are competitive with and complementary to state-of-the-art encoders such as DINOv3. By training only lightweight decoder heads on a frozen backbone, we achieve strong performance in semantic segmentation, salient object detection, and depth estimation, and demonstrate that this framework enables effective synthetic data generation at scale.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2606.16673v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2606.16673v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2606.16673v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2606.16673v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ]
+    },
+    "2606.16414": {
+      "title": "Instance-Aware Knowledge Distillation for Semi-Supervised Learning of an On-Board Multi-Task Dense Prediction Model for Collision Avoidance System",
+      "authors": [
+        "Gyutae Hwang",
+        "Sang Jun Lee"
+      ],
+      "published": "2026-06-15T08:51:06+00:00",
+      "updated": "2026-06-15T08:51:06+00:00",
+      "summary": "Collision avoidance systems have evolved toward camera-based deep learning approaches for driving scene understanding. However, deployment in edge environments such as country clubs is constrained by limited computational resources and unreliable communication infrastructure. Moreover, constructing large-scale datasets for the target domain involves substantial annotation cost. To address these limitations, we propose an instance-aware knowledge distillation framework for semi-supervised learning. Specifically, we generate pseudo labels that mitigate teacher bias by leveraging domain priors from the teacher and instance-centric knowledge from foundation models. The trained lightweight student is deployed in the proposed collision avoidance system and performs multiple dense prediction tasks in real-time. The system detects frontal obstacles and encodes their spatial information into controller area network messages for automated guided vehicle operation. To achieve this, we construct a large-scale country club dataset and perform field validation of the proposed system. Experimental results demonstrate that the student outperforms the large teacher in instance segmentation while mitigating performance degradation in monocular depth estimation. Compared with the teacher, the student reduces FLOPs by 22.68$\\times$ and parameters by 14.33$\\times$, achieving 6.46 FPS on a low-cost edge device.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2606.16414v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "13 pages, 7 figures",
+      "entry_id": "http://arxiv.org/abs/2606.16414v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2606.16414v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2606.16414v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ]
+    },
+    "2606.15681": {
+      "title": "3D Consistency Optimization for Self-Supervised Monocular Video Depth Estimation",
+      "authors": [
+        "Yuanye Liu",
+        "Ke Zhang",
+        "Junzhe Jiang",
+        "Li Zhang",
+        "Vishal Patel",
+        "Xiahai Zhuang"
+      ],
+      "published": "2026-06-14T08:56:45+00:00",
+      "updated": "2026-06-14T08:56:45+00:00",
+      "summary": "Reliable monocular video depth estimation is crucial for downstream 3D reasoning and embodied AI in endoscopic navigation. However, existing self-supervised approaches typically treat video frames independently or rely on weak temporal regularization. These methods, lacking a holistic perception of the underlying 3D scene, inevitably suffer from geometrically inconsistent predictions and severe cross-frame drift. To address these limitations, we introduce a new paradigm that recasts sequential video depth estimation as an unconstrained multi-view 3D reconstruction problem, enabling full exploitation of the powerful geometric priors embedded in recent 3D foundation models. The core of our approach is a 3D consistency optimization framework driven by three constraints: image-level photometric rendering, explicit world-coordinate geometric alignment, and multi-scale temporal gradient consistency. Such unified optimization elegantly anchors isolated frames to a globally coherent 3D structure. Our method has been validated in both the self-supervised training scenarios and challenging zero-shot clinical environments. Results show that the proposed approach achieves state-of-the-art spatial accuracy, outperforming the frame-based, video-based depth estimators and the multi-view 3D reconstruction baselines.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2606.15681v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2606.15681v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2606.15681v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2606.15681v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ]
+    },
     "2606.14504": {
       "title": "Scratched Lenses, Shifted Depth: Passive Camera-Side Optical Attacks",
       "authors": [

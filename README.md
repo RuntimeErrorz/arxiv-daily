@@ -1,4 +1,4 @@
-## Updated at 2026-06-16 10:17:04
+## Updated at 2026-06-16 21:48:38
 
 ## 3DGS Semantic
 
@@ -8,6 +8,12 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-06-15**|**[Data-Driven Micromechanical Characterization and Mapping of Shale Rocks Using High Speed Nanoindentation](https://arxiv.org/abs/2606.16812)**|N/A|None|cond-mat.mtrl-sci|None|Shaziya Ahmed Banu et al.|
+|**2026-06-15**|**[DIFF-IPPO: Diffusion-Based Informative Path Planning with Open-Vocabulary Belief Maps](https://arxiv.org/abs/2606.16780)**|N/A|None|cs.RO|None|Sausar Karaf et al.|
+|**2026-06-15**|**[Restriction estimates for surfaces with negative curvature in $\mathbb R^3$](https://arxiv.org/abs/2606.16766)**|N/A|42 pages|math.CA|None|Shaoming Guo et al.|
+|**2026-06-15**|**[RealityBridge: Bridging Editable 3D Gaussian Splatting Driving Simulations and Real-World Videos](https://arxiv.org/abs/2606.16278)**|N/A|None|cs.CV|None|Zhenhua Wu et al.|
+|**2026-06-14**|**[GOOSE-M2F: Adapting Mask2Former for High-Fidelity, Long-Tailed Fine-Grained Semantic Segmentation in Unstructured Outdoor Terrain](https://arxiv.org/abs/2606.15937)**|N/A|This solution has got 3rd position at GOOSE 2D Fine-Grained Semantic Segmentation (FGSS) Challenge at ICRA~2026|cs.CV|None|Jyothiraditya Lingam et al.|
+|**2026-06-13**|**[Bayesian 3D Steerable CNNs: Enabling Equivariance and Uncertainty Quantification Simultaneously](https://arxiv.org/abs/2606.15479)**|N/A|None|cs.LG|None|Abhishek Keripale et al.|
 |**2026-06-12**|**[MooMIns -- Monocular 3D Reconstruction and Object Pose Estimation from Multiple Instances](https://arxiv.org/abs/2606.14389)**|N/A|None|cs.CV|None|Robert Langendörfer et al.|
 |**2026-06-12**|**[A Robust Point Cloud Analysis Framework Inspired By Primary Visual Cortex](https://arxiv.org/abs/2606.14292)**|N/A|12 pages, 2 figures, 7 tables|cs.CV|None|Jisheng Dang et al.|
 |**2026-06-12**|**[When and How Severely: Scenario-Specific Safety Envelopes for Driving VLAs](https://arxiv.org/abs/2606.14238)**|N/A|None|cs.RO|None|Abhinaw Priyadershi, Jelena Frtunikj|
@@ -31,6 +37,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2026-06-08**|**[PTL-Diffusion: Manifold-Aware Diffusion with Periodic Terminal Laws](https://arxiv.org/abs/2606.09816)**|N/A|None|cs.CV|None|Danqi Zhuang et al.|
 |**2026-06-08**|**[Data augmented bootstrap: Unifying confidence interval construction by approximate invariance](https://arxiv.org/abs/2606.09049)**|N/A|None|stat.ME|None|Kevin Han Huang|
 |**2026-06-07**|**[Continuous Language Diffusion as a Decoder-Interface Problem](https://arxiv.org/abs/2606.08810)**|N/A|None|cs.CL|None|Zhicheng Du, Lan Ma|
+|**2026-06-07**|**[Beyond Self-Attention: Sub-Quadratic Vision Transformers for Fast Image Captioning](https://arxiv.org/abs/2606.14753)**|N/A|8 pages, 8 figures|cs.CV|None|Chiradeep Ghosh, Dakshina Ranjan Kisku|
 |**2026-06-06**|**[SMI: Efficient Self-Supervised Learning via Mutual-Information-Inspired Dependency Optimization](https://arxiv.org/abs/2606.08332)**|N/A|None|cs.CV|None|Pritam Mishra et al.|
 |**2026-06-05**|**[UniSHARP: Universal Sharp Monocular View Synthesis](https://arxiv.org/abs/2606.07514)**|N/A|Project page: https://insta360-research-team.github.io/Unisharp-website/|cs.CV|None|Meixi Song et al.|
 |**2026-06-05**|**[QuadVerse: An Integrated Framework Aligning Visual-Physical Reality for Quadruped Simulation](https://arxiv.org/abs/2606.07118)**|N/A|None|cs.RO|None|Yuxiang Chen et al.|
@@ -56,6 +63,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2026-06-02**|**[IDO: Incongruity-aware Distribution Optimization for Multimodal Fake News Detection](https://arxiv.org/abs/2606.03418)**|N/A|Accept by GlobalSouthML@ICML 2026|cs.CV|None|Hengyang Zhou et al.|
 |**2026-06-02**|**[Local Guidance, Global Impact: Gaussian-Reshaped Trust Region Unlocks Behavior Transitions](https://arxiv.org/abs/2606.03382)**|N/A|21 pages|cs.LG|None|Bingxu Liu et al.|
 |**2026-06-02**|**[Energy-selective quantum search with Ising Hamiltonian phase oracles](https://arxiv.org/abs/2606.03380)**|N/A|22 pages, 4 figures|quant-ph|None|A. S. Plyashechnik et al.|
+|**2026-06-02**|**[Hierarchical GRU with Input-Conditioned Slot Queries for Ball Action Anticipation](https://arxiv.org/abs/2606.14730)**|N/A|CVPR 2026 SoccerNet Ball Action Anticipation Challenge, Validated Rank 4|cs.CV|None|Parthsarthi Rawat|
 |**2026-06-01**|**[BEAST3D: Animal behavioral analysis and neural encoding from multi-view video via Gaussian splatting](https://arxiv.org/abs/2606.02937)**|arXiv.org|None|q-bio.NC|None|Yanchen Wang et al.|
 |**2026-06-01**|**[Identifiable Markov Switching Models with Instantaneous Effects and Exponential Families](https://arxiv.org/abs/2606.02231)**|N/A|International Conference on Machine Learning (ICML) 2026|stat.ML|None|Roel Hulsman et al.|
 |**2026-06-01**|**[Private and Stable Test-Time Adaptation with Differential Privacy](https://arxiv.org/abs/2606.01908)**|N/A|ICML 2026|cs.LG|None|Zefeng Li et al.|
@@ -652,6 +660,7 @@ Query: (abs:'Multi-View Stereo' OR abs:'Multi View Stereo' OR abs:'Multi-View De
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-06-15**|**[MVM-IOD: An Industrial Object-Centric Benchmark Dataset for the Evaluation of 3D Reconstruction Methods](https://arxiv.org/abs/2606.16638)**|N/A|None|cs.CV|None|Robert Langendörfer et al.|
 |**2026-06-03**|**[VT-3DAD: Cross-Category 3D Anomaly Detection via Visual-Text Normal Space Alignment](https://arxiv.org/abs/2606.04369)**|N/A|None|cs.CV|None|Zi Wang et al.|
 |**2026-05-31**|**[ActMVS: Active Scene Reconstruction with Monocular Multi-View Stereo](https://arxiv.org/abs/2606.01367)**|N/A|ICRA 2026|cs.RO|None|Guo Pu et al.|
 |**2026-05-27**|**[CLEAR-NeRF: Collinearity and Local-region Enhanced Accurate 3D Reconstruction in Unbounded Scenes](https://arxiv.org/abs/2605.28125)**|N/A|None|cs.CV|None|Vladislav Polianskii et al.|
@@ -1125,6 +1134,9 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-06-15**|**[MMDiff: Extending Diffusion Transformers for Multi-Modal Generation](https://arxiv.org/abs/2606.16673)**|N/A|None|cs.CV|None|Yagmur Akarken et al.|
+|**2026-06-15**|**[Instance-Aware Knowledge Distillation for Semi-Supervised Learning of an On-Board Multi-Task Dense Prediction Model for Collision Avoidance System](https://arxiv.org/abs/2606.16414)**|N/A|13 pages, 7 figures|cs.CV|None|Gyutae Hwang, Sang Jun Lee|
+|**2026-06-14**|**[3D Consistency Optimization for Self-Supervised Monocular Video Depth Estimation](https://arxiv.org/abs/2606.15681)**|N/A|None|cs.CV|None|Yuanye Liu et al.|
 |**2026-06-12**|**[Scratched Lenses, Shifted Depth: Passive Camera-Side Optical Attacks](https://arxiv.org/abs/2606.14504)**|N/A|None|cs.CV|None|Qinlin He et al.|
 |**2026-06-12**|**[MooMIns -- Monocular 3D Reconstruction and Object Pose Estimation from Multiple Instances](https://arxiv.org/abs/2606.14389)**|N/A|None|cs.CV|None|Robert Langendörfer et al.|
 |**2026-06-12**|**[ViT-Up: Faithful Feature Upsampling for Vision Transformers](https://arxiv.org/abs/2606.14024)**|N/A|Code is available at: https://github.com/krispinwandel/vit-up|cs.CV|None|Krispin Wandel et al.|
