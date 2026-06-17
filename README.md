@@ -1,4 +1,4 @@
-## Updated at 2026-06-17 08:51:57
+## Updated at 2026-06-17 21:17:58
 
 ## 3DGS Semantic
 
@@ -8,6 +8,11 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-06-16**|**[Test-Time Training for Robust Text-Guided Open-Vocabulary Object Counting](https://arxiv.org/abs/2606.17601)**|N/A|None|cs.CV|None|Hao-Yuan Ma et al.|
+|**2026-06-16**|**[GASE: Gaussian Splatting-Based Automated System for Reconstructing Embodied-Simulation Environments](https://arxiv.org/abs/2606.17520)**|N/A|None|cs.RO|None|Jiawei Zhang et al.|
+|**2026-06-16**|**[Edit3DGS: Unified Framework for Dynamic Head Editing via 2D Instruction-Guided Diffusion and 3D Gaussian Splatting](https://arxiv.org/abs/2606.17432)**|N/A|SOICT 2025|cs.GR|None|Duy-Dat Tran, Trung-Nghia Le|
+|**2026-06-15**|**[Complex Layout Classification in the Wild: A Low-Resource Approach with Layout-Preserving Augmentations](https://arxiv.org/abs/2606.17355)**|N/A|None|cs.CV|None|Sharva Gogawale et al.|
+|**2026-06-15**|**[Transductive Zero-Shot Audio Classification with Audio-Language Models](https://arxiv.org/abs/2606.17160)**|N/A|None|cs.SD|None|Jingwen Zhou, Mingzhe Wang|
 |**2026-06-15**|**[Data-Driven Micromechanical Characterization and Mapping of Shale Rocks Using High Speed Nanoindentation](https://arxiv.org/abs/2606.16812)**|N/A|None|cond-mat.mtrl-sci|None|Shaziya Ahmed Banu et al.|
 |**2026-06-15**|**[DIFF-IPPO: Diffusion-Based Informative Path Planning with Open-Vocabulary Belief Maps](https://arxiv.org/abs/2606.16780)**|N/A|None|cs.RO|None|Sausar Karaf et al.|
 |**2026-06-15**|**[Restriction estimates for surfaces with negative curvature in $\mathbb R^3$](https://arxiv.org/abs/2606.16766)**|N/A|42 pages|math.CA|None|Shaoming Guo et al.|
@@ -35,7 +40,7 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 |**2026-06-09**|**[GaussTrace: Provenance Analysis of 3D Gaussian Splatting Models with Evidence-based LLM Reasoning](https://arxiv.org/abs/2606.10612)**|N/A|Accepted by ICML2026|cs.CV|None|Haoliang Han et al.|
 |**2026-06-09**|**[Improving Adversarial Transferability on Vision-Language Pre-training Models via Surrogate-Specific Bias Correction](https://arxiv.org/abs/2606.10571)**|N/A|17 pages, 7 figures, 10 tables|cs.CV|None|Lijia Yu et al.|
 |**2026-06-08**|**[PTL-Diffusion: Manifold-Aware Diffusion with Periodic Terminal Laws](https://arxiv.org/abs/2606.09816)**|N/A|None|cs.CV|None|Danqi Zhuang et al.|
-|**2026-06-08**|**[Data augmented bootstrap: Unifying confidence interval construction by approximate invariance](https://arxiv.org/abs/2606.09049)**|N/A|None|stat.ME|None|Kevin Han Huang|
+|**2026-06-08**|**[Data augmented bootstrap: Unifying confidence interval construction by approximate invariance](https://arxiv.org/abs/2606.09049)**|N/A|Added comparison with arXiv:2604.15229|stat.ME|None|Kevin Han Huang|
 |**2026-06-07**|**[Continuous Language Diffusion as a Decoder-Interface Problem](https://arxiv.org/abs/2606.08810)**|N/A|None|cs.CL|None|Zhicheng Du, Lan Ma|
 |**2026-06-07**|**[Beyond Self-Attention: Sub-Quadratic Vision Transformers for Fast Image Captioning](https://arxiv.org/abs/2606.14753)**|N/A|8 pages, 8 figures|cs.CV|None|Chiradeep Ghosh, Dakshina Ranjan Kisku|
 |**2026-06-06**|**[SMI: Efficient Self-Supervised Learning via Mutual-Information-Inspired Dependency Optimization](https://arxiv.org/abs/2606.08332)**|N/A|None|cs.CV|None|Pritam Mishra et al.|
@@ -1134,6 +1139,7 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-06-15**|**[Geometry-Consistent Endoscopic Representations for Image-Guided Navigation via Structured Foundation Model Adaptation](https://arxiv.org/abs/2606.17340)**|N/A|None|cs.CV|None|Hongchao Shu et al.|
 |**2026-06-15**|**[MMDiff: Extending Diffusion Transformers for Multi-Modal Generation](https://arxiv.org/abs/2606.16673)**|N/A|None|cs.CV|None|Yagmur Akarken et al.|
 |**2026-06-15**|**[Instance-Aware Knowledge Distillation for Semi-Supervised Learning of an On-Board Multi-Task Dense Prediction Model for Collision Avoidance System](https://arxiv.org/abs/2606.16414)**|N/A|13 pages, 7 figures|cs.CV|None|Gyutae Hwang, Sang Jun Lee|
 |**2026-06-14**|**[3D Consistency Optimization for Self-Supervised Monocular Video Depth Estimation](https://arxiv.org/abs/2606.15681)**|N/A|None|cs.CV|None|Yuanye Liu et al.|

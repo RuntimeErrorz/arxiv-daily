@@ -1,5 +1,194 @@
 {
   "3DGS Semantic": {
+    "2606.17601": {
+      "title": "Test-Time Training for Robust Text-Guided Open-Vocabulary Object Counting",
+      "authors": [
+        "Hao-Yuan Ma",
+        "Yuda Zou",
+        "Li Zhang",
+        "Yongchao Xu"
+      ],
+      "published": "2026-06-16T07:08:02+00:00",
+      "updated": "2026-06-16T07:08:02+00:00",
+      "summary": "Text-guided Open-vocabulary Object Counting (TOOC) enables counting arbitrary object categories specified by text prompts, offering substantially greater flexibility than conventional closed-set counting. However, existing TOOC methods are developed and evaluated primarily on ideal images, while real-world scenes often suffer from adverse conditions such as rain, fog, darkness, and sensor noise, which severely degrade visual quality and impair vision-language alignment. To bridge this gap, we introduce Robust-TOOC, the first benchmark for evaluating TOOC under diverse corruption conditions, which covers six representative degradation types: rain, fog, darkness, Gaussian noise, salt-and-pepper noise, and mixed corruption. To improve robustness while preserving the original counting architecture, we propose Dual-TTT, a dual-architecture test-time training framework for TOOC. Specifically, during test-time training, Dual-TTT updates only the Text-guided Lightweight Denoising module (TL-Denoiser), while keeping the original counting network frozen. Inspired by diffusion models, the TL-Denoiser is optimized to remove corruption-aware noise from image representations under degraded conditions. Since only the TL-Denoiser is trained at test time, Dual-TTT is annotation-free and can be seamlessly integrated into existing TOOC models without modifying their original architecture. Extensive experiments on multiple recent TOOC baselines demonstrate the effectiveness of our method.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2606.17601v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2606.17601v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2606.17601v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2606.17601v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ],
+      "llm_approved": true
+    },
+    "2606.17520": {
+      "title": "GASE: Gaussian Splatting-Based Automated System for Reconstructing Embodied-Simulation Environments",
+      "authors": [
+        "Jiawei Zhang",
+        "Yiming Yan",
+        "Chao Liang",
+        "Nuo Xu",
+        "Seson Sun",
+        "Qichen Zhang",
+        "Yuhao Xu",
+        "Yantai Yang",
+        "Yingqiao Wang",
+        "Qin Jin",
+        "Zhipeng Zhang"
+      ],
+      "published": "2026-06-16T05:00:42+00:00",
+      "updated": "2026-06-16T05:00:42+00:00",
+      "summary": "Training embodied agents in the real world requires skilled operators and expensive hardware. Simulation environments offer a compelling alternative by enabling large-scale, cost-effective data augmentation. Consequently, rapidly constructing high-fidelity simulation scenes with a minimal sim-to-real gap has become a critical objective in robot learning. While reconstruction-based methods provide superior visual quality, current workflows are hindered by inefficient data acquisition and subpar foreground object extraction. We thus propose GASE, a highly automated system for simulation scene construction. GASE leverages multi-view video streams from panoramic camera arrays to enable rapid environment scanning. To ensure high-quality asset generation, our pipeline introduces a camera-pose-based strategy that robustly extracts objects across frames in the 2D domain, followed by high-fidelity scene inpainting. Foreground objects and the static background are then reconstructed independently and seamlessly imported into physics simulators for policy training. Extensive experiments demonstrate that GASE outperforms existing 3D Gaussian-based methods in segmentation accuracy by over 10\\% while achieving state-of-the-art inpainting quality. Furthermore, real-robot deployments across manipulation and navigation tasks maintains a performance gap of less than 10\\% compared to policies trained purely on real-world data. These results confirm that GASE provides an efficient and highly effective solution for bridging the sim-to-real gap. Code will be released.",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2606.17520v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2606.17520v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2606.17520v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2606.17520v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ],
+      "llm_approved": true
+    },
+    "2606.17432": {
+      "title": "Edit3DGS: Unified Framework for Dynamic Head Editing via 2D Instruction-Guided Diffusion and 3D Gaussian Splatting",
+      "authors": [
+        "Duy-Dat Tran",
+        "Trung-Nghia Le"
+      ],
+      "published": "2026-06-16T02:26:20+00:00",
+      "updated": "2026-06-16T02:26:20+00:00",
+      "summary": "We present Edit3DGS, a unified framework for dynamic 3D head editing that integrates 2D instruction-guided diffusion with 3D Gaussian splatting. Unlike prior approaches that separately address frame-based edits or static 3D reconstruction, our method couples semantic controllability in the image domain with photorealistic, temporally consistent 3D representations. Given an input video, editable facial regions are masked and modified using a text-conditioned diffusion model to support fine-grained operations such as expression transformation, attribute modification, and appearance refinement. The edited frames are then aggregated through 3D Gaussian splatting to produce a coherent, high-fidelity avatar that preserves both identity and motion dynamics. To enforce consistency, Edit3DGS incorporates multi-view batch editing and lightweight inpainting strategies that recover lost expressions across timesteps. Experimental results demonstrate that our framework enables controllable, artifact-free head editing with smooth temporal transitions, offering practical applications in virtual avatars, immersive communication, film production, and interactive media.",
+      "categories": [
+        "cs.GR",
+        "cs.CV"
+      ],
+      "primary_category": "cs.GR",
+      "pdf_url": "https://arxiv.org/pdf/2606.17432v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "SOICT 2025",
+      "entry_id": "http://arxiv.org/abs/2606.17432v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2606.17432v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2606.17432v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ],
+      "llm_approved": true
+    },
+    "2606.17355": {
+      "title": "Complex Layout Classification in the Wild: A Low-Resource Approach with Layout-Preserving Augmentations",
+      "authors": [
+        "Sharva Gogawale",
+        "Iddo Hakim",
+        "Gal Grudka",
+        "Mohammad Suliman",
+        "Omer Ventura",
+        "Daria Vasyutinsky-Shapira",
+        "Berat Kurar-Barakat",
+        "Nachum Dershowitz"
+      ],
+      "published": "2026-06-15T23:06:09+00:00",
+      "updated": "2026-06-15T23:06:09+00:00",
+      "summary": "Many digitized corpora suffer from low resources because annotations may be scarce, page scans are noisy and of poor resolution, or layouts are structurally complex in ways that negatively affect the quality of automatic transcription. Developing robust classification models for low-resource languages is inhibited by the lack of large-scale annotated data and by the frequent semantic complexity of page layouts. To this end, we have curated a complex-layout dataset, manually classified into eight distinct layout types based on their separator regions. To overcome data scarcity, we propose a novel training strategy in the form of a CNN-based classifier that employs strong, domain-aware augmentations to improve generalization. We utilize narrow anisotropic Gaussian masking to suppress incidental textual details while preserving essential separations, compelling the model to learn global geometric arrangements. Additionally, we implement reflection-induced label transformations to enrich the training distribution while maintaining label consistency across asymmetric categories. The results demonstrate that layout-specific augmentations can substantially improve page-level layout classification under severe annotation scarcity.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2606.17355v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2606.17355v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2606.17355v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2606.17355v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ],
+      "llm_approved": true
+    },
+    "2606.17160": {
+      "title": "Transductive Zero-Shot Audio Classification with Audio-Language Models",
+      "authors": [
+        "Jingwen Zhou",
+        "Mingzhe Wang"
+      ],
+      "published": "2026-06-15T18:01:08+00:00",
+      "updated": "2026-06-15T18:01:08+00:00",
+      "summary": "Contrastive language-audio pretraining (CLAP) enables zero-shot audio classification, but standard inference classifies each clip in isolation and ignores the structure of the unlabeled test set. We present the first systematic study of TransCLIP-style transductive inference for CLAP: a text-anchored spherical Gaussian-mixture EM that refines zero-shot posteriors using the audio-embedding statistics of the test batch, with no labels, no gradients, and negligible compute (about 15 ms on one CPU core for 2,000 clips). Across ESC-50, UrbanSound8K, and VocalSound, this consistently improves top-1 accuracy by +4.6 to +9.2 points over the zero-shot baseline (e.g., 89.1 -> 94.8% on ESC-50, 73.8 -> 81.8% on UrbanSound8K). We further show that the gain (i) is governed by a simple operating boundary -- roughly 2.5 test samples per class per batch are required, with diminishing returns beyond ~5; (ii) is complementary to entropy-guided prompt weighting, with the combination reaching 96.2% on ESC-50; and (iii) attenuates but remains positive under long-tailed batches (+4.9 -> +3.1 points at a 20:1 imbalance), which we report as an explicit limitation. We also document a negative result: on TUT Urban Acoustic Scenes 2018, where zero-shot CLAP is near chance, transduction has no signal to amplify.",
+      "categories": [
+        "cs.SD"
+      ],
+      "primary_category": "cs.SD",
+      "pdf_url": "https://arxiv.org/pdf/2606.17160v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2606.17160v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2606.17160v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2606.17160v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ],
+      "llm_approved": true
+    },
     "2606.16812": {
       "title": "Data-Driven Micromechanical Characterization and Mapping of Shale Rocks Using High Speed Nanoindentation",
       "authors": [
@@ -37,7 +226,15 @@
           "content_type": "application/pdf"
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-06-17",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2606.16780": {
       "title": "DIFF-IPPO: Diffusion-Based Informative Path Planning with Open-Vocabulary Belief Maps",
@@ -73,7 +270,15 @@
           "content_type": "application/pdf"
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-06-17",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2606.16766": {
       "title": "Restriction estimates for surfaces with negative curvature in $\\mathbb R^3$",
@@ -109,7 +314,15 @@
           "content_type": "application/pdf"
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-06-17",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2606.16278": {
       "title": "RealityBridge: Bridging Editable 3D Gaussian Splatting Driving Simulations and Real-World Videos",
@@ -149,7 +362,15 @@
           "content_type": "application/pdf"
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-06-17",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2606.15937": {
       "title": "GOOSE-M2F: Adapting Mask2Former for High-Fidelity, Long-Tailed Fine-Grained Semantic Segmentation in Unstructured Outdoor Terrain",
@@ -159,32 +380,40 @@
         "Sai Manikanta Eswar Machara"
       ],
       "published": "2026-06-14T17:41:03+00:00",
-      "updated": "2026-06-14T17:41:03+00:00",
-      "summary": "We present GOOSE-M2F, a task-specific adaptation of Mask2Former for the GOOSE 2D Fine-Grained Semantic Segmentation (FGSS) Challenge at ICRA~2026. The GOOSE benchmark spans 64 fine-grained classes across unstructured outdoor terrain with a severely long-tailed distribution, where rare classes occupy fewer than 50 pixels per image. We extend the Swin-Large Mask2Former baseline with three targeted contributions: (1)200 Object Queries to eliminate representational saturation; (2)a Feature Refinement Module (FRM) combining ASPP-lite and CBAM dual-attention; and (3)an Auxiliary Supervision Head that delivers direct per-pixel gradients for rare classes. A multi-stage training strategy pairs Distribution-Balanced loss, Rare-Class Copy-Paste augmentation, dynamic IoU-aware re-weighting, and EMA. At inference, a dense sliding-window engine with 2D Gaussian kernel blending and 4-scale TTA adds +10.57\\%. GOOSE-M2F achieves 70.08\\% Official Composite mIoU (63.55\\% fine, 76.61\\% coarse), placing 3rd on the GOOSE 2D FGSS leaderboard. Code and trained models are publicly available at: \\href{https://github.com/Aditya-Lingam-9000/GOOSE-M2F}{Github GOOSE-M2F Code} and \\href{https://huggingface.co/XYZ9843/GOOSE-M2F}{Hugging Face GOOSE-M2F}.",
+      "updated": "2026-06-16T07:06:48+00:00",
+      "summary": "We present GOOSE-M2F, a task-specific adaptation of Mask2Former for the GOOSE 2D Fine-Grained Semantic Segmentation (FGSS) Challenge at ICRA 2026. The GOOSE benchmark spans 64 fine-grained classes across unstructured outdoor terrain with a severely long-tailed distribution, where rare classes occupy fewer than 50 pixels per image. We extend the Swin-Large Mask2Former baseline with three targeted contributions: (1) 200 object queries to eliminate representational saturation; (2) a Feature Refinement Module (FRM) combining ASPP-lite and CBAM dual-attention; and (3) an Auxiliary Supervision Head that delivers direct per-pixel gradients for rare classes. A multi-stage training strategy pairs Distribution-Balanced loss, Rare-Class Copy-Paste augmentation, dynamic IoU-aware re-weighting, and EMA. At inference, a dense sliding-window engine with 2D Gaussian kernel blending and 4-scale TTA adds +10.57%. GOOSE-M2F achieves 70.08% Official Composite mIoU (63.55% fine, 76.61% coarse), placing 3rd on the GOOSE 2D FGSS leaderboard. Code and trained models are publicly available at GitHub: https://github.com/Aditya-Lingam-9000/GOOSE-M2F and Hugging Face: https://huggingface.co/XYZ9843/GOOSE-M2F.",
       "categories": [
         "cs.CV"
       ],
       "primary_category": "cs.CV",
-      "pdf_url": "https://arxiv.org/pdf/2606.15937v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.15937v2",
       "journal_ref": null,
       "doi": null,
       "comment": "This solution has got 3rd position at GOOSE 2D Fine-Grained Semantic Segmentation (FGSS) Challenge at ICRA~2026",
-      "entry_id": "http://arxiv.org/abs/2606.15937v1",
+      "entry_id": "http://arxiv.org/abs/2606.15937v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2606.15937v1",
+          "href": "https://arxiv.org/abs/2606.15937v2",
           "title": null,
           "rel": "alternate",
           "content_type": "text/html"
         },
         {
-          "href": "https://arxiv.org/pdf/2606.15937v1",
+          "href": "https://arxiv.org/pdf/2606.15937v2",
           "title": "pdf",
           "rel": "related",
           "content_type": "application/pdf"
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-06-17",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2606.15479": {
       "title": "Bayesian 3D Steerable CNNs: Enabling Equivariance and Uncertainty Quantification Simultaneously",
@@ -221,7 +450,15 @@
           "content_type": "application/pdf"
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-06-17",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2606.14389": {
       "title": "MooMIns -- Monocular 3D Reconstruction and Object Pose Estimation from Multiple Instances",
@@ -1169,7 +1406,7 @@
         "Kevin Han Huang"
       ],
       "published": "2026-06-08T05:39:02+00:00",
-      "updated": "2026-06-08T05:39:02+00:00",
+      "updated": "2026-06-16T11:54:58+00:00",
       "summary": "We propose the data augmented bootstrap (DAB), a framework for constructing confidence intervals from approximately invariant transformations of the data. As special cases, DAB recovers popular methods that rely on exact group symmetries, such as conformal prediction, wild bootstrap for Maximum Mean Discrepancy U-statistics and the recently proposed SymmPI. Meanwhile, DAB also recovers the classical bootstrap method, which exploits the dataset's approximate invariance under uniform sampling of data indices as the dataset size grows. For all DAB methods, we establish theoretical coverage results that interpolate between finite-sample and asymptotic guarantees according to the strength of the invariance, and without assuming a group structure. The approximate invariance is measured in the Kolmogorov distance and, for statistics that satisfy Gaussian universality, reduces to conditional mean and variance matching. This allows us to incorporate data augmentation (DA), a widely used machine learning heuristic based on approximate invariances, into known statistical methods. We empirically test the performance of incorporating DA into bootstrap, wild bootstrap and conformal prediction for simulated settings as well as for image, language and scientific data.",
       "categories": [
         "stat.ME",
@@ -1178,20 +1415,20 @@
         "stat.ML"
       ],
       "primary_category": "stat.ME",
-      "pdf_url": "https://arxiv.org/pdf/2606.09049v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.09049v2",
       "journal_ref": null,
       "doi": null,
-      "comment": null,
-      "entry_id": "http://arxiv.org/abs/2606.09049v1",
+      "comment": "Added comparison with arXiv:2604.15229",
+      "entry_id": "http://arxiv.org/abs/2606.09049v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2606.09049v1",
+          "href": "https://arxiv.org/abs/2606.09049v2",
           "title": null,
           "rel": "alternate",
           "content_type": "text/html"
         },
         {
-          "href": "https://arxiv.org/pdf/2606.09049v1",
+          "href": "https://arxiv.org/pdf/2606.09049v2",
           "title": "pdf",
           "rel": "related",
           "content_type": "application/pdf"
@@ -1214,27 +1451,27 @@
         "Lan Ma"
       ],
       "published": "2026-06-07T20:00:33+00:00",
-      "updated": "2026-06-07T20:00:33+00:00",
-      "summary": "Gaussian-corrupted sentence embeddings have no direct linguistic interpretation, yet continuous diffusion language models can generate fluent text from them. We study this puzzle through Embedded Language Flows (ELF) and identify a decoder-basin mechanism: denoising succeeds when trajectories reach regions where the native decoder can read stable tokens. We introduce a diagnostic protocol for denoisability, semantic recoverability, order sensitivity, decoder compatibility, and trajectory reliability. It exposes failures hidden by scalar metrics: low mean-squared error can discard linguistic content, low perplexity can reflect low-entropy collapse, and clean latent reconstruction can coexist with a narrow decoder basin. A decoder-margin bound explains why token recovery depends on margin and local decoder sensitivity, not latent error alone. Auditing public ELF checkpoints reveals an interface phase diagram: early predictions are weakly readable, mid-trajectory disagreement marks a competition region, and late predictions enter a high-margin final-token basin. Once inside, token realization is surprisingly simple on generated ELF states: frozen T5 token-embedding lookup recovers $93$--$96\\%$ of native decoder decisions, and a single linear readout reaches $97.9\\%$ agreement at 32k samples, leaving about a 1.1 perplexity gap in a structured residual tail. A conservative margin gate exits $17$--$27\\%$ earlier in denoising steps under an explicit diagnostic monitor. Boundary checks on LangFlow, BitstreamDiffusion, and the Continuous Latent Diffusion Language Model (Cola-DLM) show that the same interface questions remain meaningful when the state object and decoder change. Continuous and latent diffusion language models should therefore be evaluated as representation-decoder systems.",
+      "updated": "2026-06-15T19:27:43+00:00",
+      "summary": "Gaussian-corrupted sentence embeddings have no direct linguistic interpretation, yet continuous diffusion language models can generate fluent text from them. We study this puzzle through Embedded Language Flows (ELF) and identify a decoder-basin mechanism: our evidence suggests that denoising becomes reliable when trajectories reach regions where the native decoder can read stable tokens. We introduce a diagnostic protocol for denoisability, semantic recoverability, order sensitivity, decoder compatibility, and trajectory reliability. It exposes failures hidden by scalar metrics: low mean-squared error can discard linguistic content, low perplexity can reflect low-entropy collapse, and clean latent reconstruction can coexist with a narrow decoder basin. A decoder-margin bound explains why token recovery depends on margin and local decoder sensitivity, not latent error alone. Auditing public ELF checkpoints reveals an interface phase diagram: early predictions are weakly readable, mid-trajectory disagreement marks a competition region, and late predictions enter a high-margin decoder basin. Once inside, token realization is surprisingly simple on generated ELF states: frozen T5 (Text-to-Text Transfer Transformer) token-embedding lookup recovers $93$--$96\\%$ of native decoder decisions, and a single linear readout reaches $97.9\\%$ agreement at 32k samples, leaving an $\\approx1.1$--$1.2$ perplexity gap in a structured residual tail. Under conservative held-out gates, a margin rule exits roughly $17$--$28\\%$ earlier in denoising steps under an explicit diagnostic monitor. Boundary checks on LangFlow, BitstreamDiffusion, and the Continuous Latent Diffusion Language Model (Cola-DLM) show that the same interface questions remain meaningful when the state object and decoder change. Continuous and latent diffusion language models should therefore be evaluated as representation-decoder systems.",
       "categories": [
         "cs.CL",
         "cs.LG"
       ],
       "primary_category": "cs.CL",
-      "pdf_url": "https://arxiv.org/pdf/2606.08810v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.08810v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2606.08810v1",
+      "entry_id": "http://arxiv.org/abs/2606.08810v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2606.08810v1",
+          "href": "https://arxiv.org/abs/2606.08810v2",
           "title": null,
           "rel": "alternate",
           "content_type": "text/html"
         },
         {
-          "href": "https://arxiv.org/pdf/2606.08810v1",
+          "href": "https://arxiv.org/pdf/2606.08810v2",
           "title": "pdf",
           "rel": "related",
           "content_type": "application/pdf"
@@ -1283,7 +1520,15 @@
           "content_type": "application/pdf"
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-06-17",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2606.08332": {
       "title": "SMI: Efficient Self-Supervised Learning via Mutual-Information-Inspired Dependency Optimization",
@@ -2457,7 +2702,15 @@
           "content_type": "application/pdf"
         }
       ],
-      "llm_approved": true
+      "llm_approved": true,
+      "venue_info": {
+        "venue_source": "Semantic Scholar",
+        "queried_at": "2026-06-17",
+        "venue": null,
+        "pub_type": null,
+        "publisher": null,
+        "note": "已查询但未找到venue信息"
+      }
     },
     "2606.02937": {
       "title": "BEAST3D: Animal behavioral analysis and neural encoding from multi-view video via Gaussian splatting",
@@ -120097,6 +120350,46 @@
     }
   },
   "Depth Estimation": {
+    "2606.17340": {
+      "title": "Geometry-Consistent Endoscopic Representations for Image-Guided Navigation via Structured Foundation Model Adaptation",
+      "authors": [
+        "Hongchao Shu",
+        "Roger D. Soberanis-Mukul",
+        "Hao Ding",
+        "Morgan Ringel",
+        "Mali Shen",
+        "Saif Iftekar Sayed",
+        "Hedyeh Rafii-Tari",
+        "Mathias Unberath"
+      ],
+      "published": "2026-06-15T22:41:28+00:00",
+      "updated": "2026-06-15T22:41:28+00:00",
+      "summary": "Accurate vision-based navigation in monocular endoscopy is difficult due to limited depth cues, weak tissue texture, non-rigid deformation, and substantial appearance variation across domains, all of which complicate pose estimation, depth prediction, and image-to-anatomy alignment. Although recent vision foundation models have shown promise, their learned representations often remain insufficiently geometry-consistent, hindering stable feature correspondence and limiting their reliability for downstream navigation tasks. We propose a unified framework for learning geometry-consistent and domain-robust image representations for monocular endoscopy. The framework combines a synthetic data pipeline that provides accurate geometric supervision with Hierarchy-Aware Geometry-Semantic Adaptation, a structured alternative to standard LoRA that inserts low-rank adapters selectively across the transformer hierarchy and couples them with layer-wise training objectives to encourage geometric correspondence in intermediate features and semantic consistency in deeper features. Experiments on public and proprietary datasets show improved geometric and semantic representation quality, leading to better performance on downstream navigation tasks including pose estimation and monocular depth estimation. The learned representations show favorable synthetic-to-real transfer on clinical bronchoscopy and provide a useful initialization for adaptation to sinus endoscopy and colonoscopy under limited supervision. The framework also shows favorable scaling with model size and training data. These results support hierarchy-aware, geometry-guided adaptation as a practical approach for endoscopic representation learning.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2606.17340v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2606.17340v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2606.17340v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2606.17340v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ]
+    },
     "2606.16673": {
       "title": "MMDiff: Extending Diffusion Transformers for Multi-Modal Generation",
       "authors": [
