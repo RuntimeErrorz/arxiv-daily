@@ -1,4 +1,4 @@
-## Updated at 2026-06-18 08:51:51
+## Updated at 2026-06-18 21:11:35
 
 ## 3DGS Semantic
 
@@ -8,6 +8,9 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-06-17**|**[IllustrisTNG50 angular momentum maps: tracing the morpho-kinematic evolution of galaxies](https://arxiv.org/abs/2606.19099)**|N/A|20 pages, 15 figures, submitted to a&a, comments are welcome, modified abstract to fit Arxiv requirements|astro-ph.GA|None|Juan Manuel Pacheco-Arias et al.|
+|**2026-06-17**|**[Visual-OPSD: Cross-Modal On-Policy Self-Distillation for Efficient Unified Multimodal Reasoning](https://arxiv.org/abs/2606.18974)**|N/A|None|cs.CV|None|Pengyu Li et al.|
+|**2026-06-17**|**[Intrinsic 4D Gaussian Segmentation from Scene Cues](https://arxiv.org/abs/2606.18623)**|N/A|15 pages, 4 figures, 7 tables. Includes supplementary material. Preprint|cs.CV|None|Hasan Yazar et al.|
 |**2026-06-16**|**[Test-Time Training for Robust Text-Guided Open-Vocabulary Object Counting](https://arxiv.org/abs/2606.17601)**|N/A|None|cs.CV|None|Hao-Yuan Ma et al.|
 |**2026-06-16**|**[GASE: Gaussian Splatting-Based Automated System for Reconstructing Embodied-Simulation Environments](https://arxiv.org/abs/2606.17520)**|N/A|None|cs.RO|None|Jiawei Zhang et al.|
 |**2026-06-16**|**[Edit3DGS: Unified Framework for Dynamic Head Editing via 2D Instruction-Guided Diffusion and 3D Gaussian Splatting](https://arxiv.org/abs/2606.17432)**|N/A|SOICT 2025|cs.GR|None|Duy-Dat Tran, Trung-Nghia Le|
@@ -1139,6 +1142,8 @@ Query: abs:'Depth Estimation' AND cat:'cs.CV'
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-06-17**|**[Seeing Through Occlusion: Deterministic Arm Kinematic Correction for Robot Teleoperation](https://arxiv.org/abs/2606.19240)**|N/A|None|cs.RO|None|Thomas M. Kwok et al.|
+|**2026-06-16**|**[SP-TransientBench: A Real-Captured Single Photon Perception Benchmark](https://arxiv.org/abs/2606.18952)**|N/A|None|cs.CV|None|Hongzhou Dong et al.|
 |**2026-06-15**|**[Geometry-Consistent Endoscopic Representations for Image-Guided Navigation via Structured Foundation Model Adaptation](https://arxiv.org/abs/2606.17340)**|N/A|None|cs.CV|None|Hongchao Shu et al.|
 |**2026-06-15**|**[MMDiff: Extending Diffusion Transformers for Multi-Modal Generation](https://arxiv.org/abs/2606.16673)**|N/A|None|cs.CV|None|Yagmur Akarken et al.|
 |**2026-06-15**|**[Instance-Aware Knowledge Distillation for Semi-Supervised Learning of an On-Board Multi-Task Dense Prediction Model for Collision Avoidance System](https://arxiv.org/abs/2606.16414)**|N/A|13 pages, 7 figures|cs.CV|None|Gyutae Hwang, Sang Jun Lee|

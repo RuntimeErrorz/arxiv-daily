@@ -1,5 +1,120 @@
 {
   "3DGS Semantic": {
+    "2606.19099": {
+      "title": "IllustrisTNG50 angular momentum maps: tracing the morpho-kinematic evolution of galaxies",
+      "authors": [
+        "Juan Manuel Pacheco-Arias",
+        "Benoît Epinat",
+        "Philippe Amram",
+        "Wilfried Mercier",
+        "Katarina Kraljic"
+      ],
+      "published": "2026-06-17T14:11:29+00:00",
+      "updated": "2026-06-17T14:11:29+00:00",
+      "summary": "Following the first observational study of the two-dimensional spatial distribution of stellar specific angular momentum (sAM) in late-type galaxies, we quantify the morpho-kinematic diversity of galaxy simulations using the newly proposed j-types classification. We analyse the stellar sAM surface density (sAMSD) of $\\sim$8000 TNG50 stellar discs spanning $0 \\leq z \\leq 3.5$ and $9.5 \\leq \\log(M_\\star/\\mathrm{M}_\\odot) \\leq 11.2$, selected from the TNG50 MW/M31 parent sample. We characterize their j-substructures using four morpho-kinematic metrics derived from comparisons with the Freeman sAMSD distribution and the Fourier decomposition of the galaxies in the sAMSD space. A Gaussian mixture model with four fully covariant components assigns each galaxy a probability of belonging to one of four j-types. We find that TNG50 discs exhibit a morpho-kinematic diversity consistent with observations, redistributing stellar angular momentum through four dominant j-substructures that evolve with redshift as follows: j-irregulars ($\\bar{z}=0.91$), j-spirals ($\\bar{z}=0.76$), j-rings ($\\bar{z}=0.62$), and j-bars ($\\bar{z}=0.39$). The gas fraction and stellar rotational support ($V/σ$) drive this evolution: gas-rich galaxies preferentially host j-irregulars and j-spirals, whereas gas-poor systems favour j-rings and j-bars. At fixed gas fraction, higher $V/σ$ favours j-spirals and j-rings, respectively. We conclude that there is a canonical pathway for the redistribution of angular momentum within galactic discs undergoing secular evolution in TNG50, accessible only through their morpho-kinematic description. The sAMSD analysis links variations in stellar dynamics to their consequences for mass redistribution, enabling the reconstruction of comprehensive galactic evolutionary histories.",
+      "categories": [
+        "astro-ph.GA",
+        "astro-ph.CO"
+      ],
+      "primary_category": "astro-ph.GA",
+      "pdf_url": "https://arxiv.org/pdf/2606.19099v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "20 pages, 15 figures, submitted to a&a, comments are welcome, modified abstract to fit Arxiv requirements",
+      "entry_id": "http://arxiv.org/abs/2606.19099v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2606.19099v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2606.19099v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ],
+      "llm_approved": true
+    },
+    "2606.18974": {
+      "title": "Visual-OPSD: Cross-Modal On-Policy Self-Distillation for Efficient Unified Multimodal Reasoning",
+      "authors": [
+        "Pengyu Li",
+        "Zhitao Gao",
+        "Lingling Zhang",
+        "Muye Huang",
+        "Yuanming Li",
+        "Fangzhi Xu",
+        "Jun Liu"
+      ],
+      "published": "2026-06-17T11:59:15+00:00",
+      "updated": "2026-06-17T11:59:15+00:00",
+      "summary": "Unified multimodal models (UMMs) interleave generated ''visual thoughts'' (VTs) with text reasoning to improve spatial tasks. This incurs roughly an order-of-magnitude inference cost from multi-step diffusion. We find this cost yields limited direct benefit. On ThinkMorph, removing or noising VTs barely changes accuracy across nine benchmarks. Once rendered, attention concentrates on the VT regardless of content. Yet a KL diagnostic shows that conditioning on a privileged VT trace shifts the model's completion distribution. This suggests the generation pathway encodes useful reasoning beyond the rendered pixels. Motivated by this gap, we propose Visual On-Policy Self-Distillation(Visual-OPSD). Teacher and student share identical weights but differ in context: the teacher sees privileged VTs while the student sees only the question. Token-level JSD distillation on on-policy student trajectories transfers the teacher's reasoning to a text-only student. Across nine benchmarks, Visual-OPSD improves over its generative teacher by $+3.40$pp with $14.3\\times$ speedup (10.0s vs. 142.8s per sample) and outperforms same-scale VLMs by $+63.83$pp on VSP. A Gaussian-noise control ($+0.40$pp vs. $+10.28$pp for real VTs) and $58.4\\%$ closure of the KL gap confirm that gains come from the semantic content of the generation pathway.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2606.18974v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2606.18974v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2606.18974v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2606.18974v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ],
+      "llm_approved": true
+    },
+    "2606.18623": {
+      "title": "Intrinsic 4D Gaussian Segmentation from Scene Cues",
+      "authors": [
+        "Hasan Yazar",
+        "Mohamed Rayan Barhdadi",
+        "Erchin Serpedin",
+        "Mehmet Tuncel",
+        "Hasan Kurban"
+      ],
+      "published": "2026-06-17T02:40:35+00:00",
+      "updated": "2026-06-17T02:40:35+00:00",
+      "summary": "Dynamic 4D Gaussian Splatting reconstructs deforming scenes with high fidelity and is increasingly adopted as a representation for dynamic 3D scenes. Putting such a scene to use, for editing, manipulation or motion analysis, first requires segmenting it: grouping the Gaussian primitives into coherent objects. Current pipelines obtain this grouping by importing 2D masks from foundation models such as SAM and lifting or distilling them into the Gaussian representation. In dynamic scenes these masks must be generated across many frames and views, which is costly, and the resulting segmentation can depend strongly on the quality and consistency of those external masks. We ask how much object-level structure can instead be recovered from the Gaussians themselves, and propose Intrinsic-GS, a training-free, mask-free method that builds a sparse affinity graph over Gaussian primitives from appearance, orientation, scale, deformation-trajectory and non-learned rendered-boundary cues. The graph is partitioned with Leiden community detection, requiring no foundation model and no learned feature field. On the standard 4D Gaussian segmentation benchmarks, Neu3D and HyperNeRF, Intrinsic-GS recovers substantial object structure without mask supervision, reaching 0.746 mIoU on Neu3D and 0.575 on HyperNeRF; on Neu3D, a geometry-only variant reaches 0.902 mIoU, matching SAM-supervised TRASE. On HyperNeRF, Intrinsic-GS runs 12.5x faster than the mask-generation and feature-rendering stages used by mask-supervised pipelines. These results suggest that much of the segmentation signal is already encoded in the Gaussians themselves, offering a fast, mask-free direction for 3D and 4D Gaussian segmentation that may also point toward more generalizable, robust segmentation in settings where external masks are unreliable or expensive.",
+      "categories": [
+        "cs.CV",
+        "eess.IV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2606.18623v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "15 pages, 4 figures, 7 tables. Includes supplementary material. Preprint",
+      "entry_id": "http://arxiv.org/abs/2606.18623v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2606.18623v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2606.18623v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ],
+      "llm_approved": true
+    },
     "2606.17601": {
       "title": "Test-Time Training for Robust Text-Guided Open-Vocabulary Object Counting",
       "authors": [
@@ -120350,6 +120465,89 @@
     }
   },
   "Depth Estimation": {
+    "2606.19240": {
+      "title": "Seeing Through Occlusion: Deterministic Arm Kinematic Correction for Robot Teleoperation",
+      "authors": [
+        "Thomas M. Kwok",
+        "Nicholas Koenig",
+        "Yue Hu"
+      ],
+      "published": "2026-06-17T16:20:10+00:00",
+      "updated": "2026-06-17T16:20:10+00:00",
+      "summary": "Markerless, single-RGB-D-camera motion capture provides a low-cost and non-invasive alternative to conventional marker-based systems for robot teleoperation; however, depth estimation often degrades in the presence of self-occlusion, particularly during upper-limb motion. This paper presents an Arm Kinematic Correction (AKC) method that improves depth estimation by enforcing geometric constraints based on constant arm lengths. The proposed approach reconstructs occluded joint depths by leveraging wrist positions and predefined arm lengths via a deterministic formulation based on the Pythagorean theorem, thereby avoiding the need for complex probabilistic modeling or parameter tuning. Experimental validation against a Vicon reference system demonstrates reliable performance for both static and dynamic joint motions, evaluated using root-mean-square error (RMSE) and Pearson correlation. Furthermore, motion-mapping teleoperation is successfully demonstrated in both simulated and physical robot environments. The results show that AKC enhances robustness and preserves anatomical consistency under long-duration, severe self-occlusion, even when paired with less reliable temporal filters, highlighting its practicality for real-time applications such as robot teleoperation and human-robot interaction.",
+      "categories": [
+        "cs.RO",
+        "cs.CV",
+        "cs.HC",
+        "eess.SY"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2606.19240v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2606.19240v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2606.19240v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2606.19240v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ]
+    },
+    "2606.18952": {
+      "title": "SP-TransientBench: A Real-Captured Single Photon Perception Benchmark",
+      "authors": [
+        "Hongzhou Dong",
+        "Zili Zhang",
+        "Ziting Wen",
+        "Yiheng Qiang",
+        "Runrong Deng",
+        "Wenle Dong",
+        "Ziwen Jiang",
+        "Xinyang Li",
+        "Rui Lu",
+        "Shuoyao Sun",
+        "Wenyu Wang",
+        "Ziyi Xia",
+        "Haitao Zheng",
+        "Guodong Shi",
+        "Xiaoqiang Ren"
+      ],
+      "published": "2026-06-16T17:48:15+00:00",
+      "updated": "2026-06-16T17:48:15+00:00",
+      "summary": "Single-photon LiDAR (SPL) based on single-photon avalanche diode (SPAD) sensing enables time-resolved photon measurements with extreme sensitivity, offering unique potential for active 3D perception in photon-starved scenarios.However, real-world single photon perception remains fundamentally challenging due to unique measurement noise and complex multi-return transient phenomena, which jointly complicate geometric reconstruction and semantic scene understanding. Despite growing interest in SPAD-based sensing, existing studies are largely limited to simulated data or small-scale controlled captures. As a result, systematic evaluation of real-world single photon perception across depth estimation, multi-view reconstruction, and 3D semantic understanding remains underexplored. To bridge this gap, we introduce SP-TransientBench (STB), a real-captured multi-task benchmark for single photon perception. SP-TransientBenc comprises 10 diverse scenes and 10,297 views captured using a solid-state single-photon LiDAR at $256\\times192$ resolution. Each view provides full time-of-flight histograms with multi-return behavior,standardized metadata, and calibrated camera poses for multi-view evaluation. We further provide 13-class 3D semantic annotations for selected scenes. By providing dedicated data splits and evaluation protocols for each task, STB enables consistent and reproducible benchmarking of real-world single photon perception across multiple 3D vision problems. The dataset and code will be released upon acceptance.",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2606.18952v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2606.18952v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2606.18952v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2606.18952v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ]
+    },
     "2606.17340": {
       "title": "Geometry-Consistent Endoscopic Representations for Image-Guided Navigation via Structured Foundation Model Adaptation",
       "authors": [
