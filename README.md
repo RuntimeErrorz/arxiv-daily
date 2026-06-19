@@ -1,4 +1,4 @@
-## Updated at 2026-06-19 08:56:28
+## Updated at 2026-06-19 21:13:54
 
 ## 3DGS Semantic
 
@@ -8,6 +8,11 @@ Prompt: 该论文的研究重点必须是扩展3D高斯溅射（3D Gaussian Spla
 
 |Date|Title|Venue|Comments|Category|Journal|Authors|
 |---|---|---|---|---|---|---|
+|**2026-06-18**|**[See-and-Reach: Precise Vision-Language Navigation for UAVs within the Field of View](https://arxiv.org/abs/2606.20045)**|N/A|12 pages, 7 figures|cs.CV|None|Fanfu Xue et al.|
+|**2026-06-18**|**[Co-policy: Responsive Human-Robot Co-Creation for Musical Performances](https://arxiv.org/abs/2606.19914)**|N/A|None|cs.RO|None|Xuetao Li et al.|
+|**2026-06-18**|**[MMD-SLAM: Structure-Enhanced Multi-Meta Gaussian Distribution-Guided Visual SLAM](https://arxiv.org/abs/2606.19874)**|N/A|ICRA 2026|cs.RO|None|Fan Zhu et al.|
+|**2026-06-18**|**[QueryGaussian: Scalable and Training-Free Open-Vocabulary 3D Instance Retrieval](https://arxiv.org/abs/2606.19733)**|N/A|8 pages, 4 figures, 6 tables. Accepted to the 2026 IEEE International Conference on Systems, Man, and Cybernetics (SMC 2026)|cs.CV|None|Xiuyuan Zhu et al.|
+|**2026-06-17**|**[Building Drift: Documenting On-Site Construction Adaptations Across Material Lifecycles](https://arxiv.org/abs/2606.19609)**|N/A|In submission|cs.HC|None|Ritik Batra et al.|
 |**2026-06-17**|**[IllustrisTNG50 angular momentum maps: tracing the morpho-kinematic evolution of galaxies](https://arxiv.org/abs/2606.19099)**|N/A|20 pages, 15 figures, submitted to a&a, comments are welcome, modified abstract to fit Arxiv requirements|astro-ph.GA|None|Juan Manuel Pacheco-Arias et al.|
 |**2026-06-17**|**[Visual-OPSD: Cross-Modal On-Policy Self-Distillation for Efficient Unified Multimodal Reasoning](https://arxiv.org/abs/2606.18974)**|N/A|None|cs.CV|None|Pengyu Li et al.|
 |**2026-06-17**|**[Intrinsic 4D Gaussian Segmentation from Scene Cues](https://arxiv.org/abs/2606.18623)**|N/A|15 pages, 4 figures, 7 tables. Includes supplementary material. Preprint|cs.CV|None|Hasan Yazar et al.|

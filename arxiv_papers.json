@@ -1,5 +1,208 @@
 {
   "3DGS Semantic": {
+    "2606.20045": {
+      "title": "See-and-Reach: Precise Vision-Language Navigation for UAVs within the Field of View",
+      "authors": [
+        "Fanfu Xue",
+        "En Yu",
+        "Yantian Shen",
+        "Zhikun Hu",
+        "Hongjun Wang",
+        "Yang Yang",
+        "Xindi Wang",
+        "Jiande Sun"
+      ],
+      "published": "2026-06-18T10:21:42+00:00",
+      "updated": "2026-06-18T10:21:42+00:00",
+      "summary": "UAV Vision-Language Navigation (UAV-VLN) is typically formulated as a holistic search-and-reach problem, where long-range target discovery and final target approach are optimized and evaluated jointly. This formulation makes it difficult to assess a critical capability of aerial embodied agents, namely whether a UAV can accurately ground a visible target and translate vision-language evidence into precise 3D motion once the target enters its field of view. To address this limitation, we introduce UAV-VLN-FOV, a target-visible navigation task that isolates the see-and-reach stage and enables a more diagnostic evaluation of terminal reaching ability. We further propose 3DG-VLN, a vision-language waypoint prediction framework guided by dynamic 3D direction cues to enhance fine-grained visual grounding and spatial direction alignment for precise target reaching. Specifically, 3DG-VLN adaptively processes high-resolution front-view and downward-view observations to preserve fine-grained visual and geometric details for target grounding. It also updates the target-relative direction online during closed-loop navigation, allowing the agent to maintain spatial alignment with the target and reduce accumulated direction drift. To support this task, we construct a dedicated high-resolution benchmark which contains 2,717 trajectories with target-oriented high-level instructions, high-resolution front-view and downward-view egocentric observations, and continuous 3D waypoint annotations. Experiments show that 3DG-VLN outperforms competitive UAV-VLN baselines, achieving a 13.82\\% improvement in success rate. Real-world trials further demonstrate the potential of 3DG-VLN for practical see-and-reach navigation. The source code and benchmark are available at https://github.com/xuefanfu/3DG-VLN.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2606.20045v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "12 pages, 7 figures",
+      "entry_id": "http://arxiv.org/abs/2606.20045v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2606.20045v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2606.20045v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ],
+      "llm_approved": true
+    },
+    "2606.19914": {
+      "title": "Co-policy: Responsive Human-Robot Co-Creation for Musical Performances",
+      "authors": [
+        "Xuetao Li",
+        "Wenke Huang",
+        "Mang Ye",
+        "Zijian Liu",
+        "Jinhua Xie",
+        "Jifeng Xuan",
+        "Miao Li"
+      ],
+      "published": "2026-06-18T08:08:16+00:00",
+      "updated": "2026-06-18T08:08:16+00:00",
+      "summary": "Art has long stood as a pivotal expression of human creativity. Embodied artificial intelligence offers a route for generative models to participate in that creativity through physical action rather than disembodied digital content. In robotic music co-creation, it is challenging to connect semantic musical understanding with real-time and physically executable performance. We present Co-policy, a framework for human-robot musical co-creation that separates semantic intent grounding, constrained musical variation, and visuomotor execution. To ground musical semantics, Co-policy uses pre-inference semantic anchors and a fine-tuned Qwen-vl planner (F-Qwen) to transform speech, live musical seeds, and visual observations into structured co-creation plans. To support low-latency execution, Co-policy introduces a Gaussian-Mixture Visuomotor Policy (GMP), implemented as a conditional mixture-density policy that maps target notes and visual context to multimodal robot actions in a single forward pass. Unlike robotic playback systems that merely reproduce user-specified notes, Co-policy generates complementary musical responses under both musical and physical constraints. Real-robot chime experiments, ablations, and expert evaluation show improved intent alignment, execution accuracy, and response frequency over diffusion-policy and ablated baselines, supporting physically grounded action generation as a key requirement for embodied human-AI co-creation.",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2606.19914v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": null,
+      "entry_id": "http://arxiv.org/abs/2606.19914v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2606.19914v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2606.19914v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ],
+      "llm_approved": true
+    },
+    "2606.19874": {
+      "title": "MMD-SLAM: Structure-Enhanced Multi-Meta Gaussian Distribution-Guided Visual SLAM",
+      "authors": [
+        "Fan Zhu",
+        "Ziyu Chen",
+        "Peichen Liu",
+        "Yifan Zhao",
+        "Zhisong Xu",
+        "Hui Zhu",
+        "Hongxing Zhou",
+        "Sixun Liu",
+        "Chunmao Jiang"
+      ],
+      "published": "2026-06-18T07:33:08+00:00",
+      "updated": "2026-06-18T07:33:08+00:00",
+      "summary": "3D Gaussian Splatting (3DGS) has significantly boosted novel view synthesis and high-fidelity scene reconstruction, expanding the potential of 3DGS-based Visual Simultaneous Localization and Mapping (SLAM) methods. However, most existing systems fail to fully exploit the underlying structural information, which limits rendering quality and often leads to inconsistent maps. To address these limitations, we propose MMD-SLAM, a structure-enhanced Visual SLAM framework that leverages the Atlanta World (AW) assumption to guide a Multi-Meta Gaussian representation for photorealistic mapping. First, we introduce a point-line fusion strategy for pose optimization, where 3D line segments are incorporated to improve tracking robustness and provide additional constraints for mapping. Second, we design a Multi-Meta Gaussian representation with dominant directions, explicitly encoding structural priors from the AW hypothesis. Finally, we propose a Gaussian evolution strategy that adapts to scene geometry and incorporates structural cues into global optimization. Extensive experiments demonstrate that these innovations enable MMD-SLAM to achieve state-of-the-art performance in both tracking accuracy and mapping quality. e.g., our method achieves a 48.56% reduction in ATE RMSE on ScanNet and a 5.71% improvement in PSNR on Replica, compared with MonoGS.",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "primary_category": "cs.RO",
+      "pdf_url": "https://arxiv.org/pdf/2606.19874v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "ICRA 2026",
+      "entry_id": "http://arxiv.org/abs/2606.19874v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2606.19874v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2606.19874v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ],
+      "llm_approved": true
+    },
+    "2606.19733": {
+      "title": "QueryGaussian: Scalable and Training-Free Open-Vocabulary 3D Instance Retrieval",
+      "authors": [
+        "Xiuyuan Zhu",
+        "Ke Lu",
+        "Zijie Yang",
+        "Chao Yue",
+        "Jian Xue",
+        "Dongming Zhang"
+      ],
+      "published": "2026-06-18T02:57:35+00:00",
+      "updated": "2026-06-18T02:57:35+00:00",
+      "summary": "Efficiently retrieving specific 3D instances from large-scale scenes via natural language prompts remains a formidable challenge in multimedia analysis. Existing approaches predominantly follow a \"scene-level embedding\" paradigm, which requires distilling high-dimensional semantic features into every 3D primitive. This strategy suffers from a fundamental architectural bottleneck: memory and computational costs scale linearly with scene complexity, inevitably triggering out-of-memory (OOM) failures in city-scale environments. To address this barrier, we propose QueryGaussian, a training-free framework for expeditious and scalable open-vocabulary 3D instance retrieval. Unlike holistic semantic distillation, QueryGaussian employs an instance-level query mechanism that decouples semantic understanding from geometric representation. Specifically, we leverage pre-trained 2D vision models to interpret user prompts and lift segmentation masks into 3D via a concurrent maximum-weight association strategy, ensuring semantic-visual consistency. To mitigate projection ambiguity, we introduce a temporal fusion module with multi-stage adaptive density clustering. Experimental results demonstrate that QueryGaussian not only matches the accuracy of state-of-the-art methods but also delivers a decisive efficiency leap, reducing GPU memory usage by over 70% and accelerating inference by 180x. Crucially, QueryGaussian enables expeditious instance retrieval on city-scale scenes containing tens of millions of Gaussians using consumer-grade hardware.",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CV",
+      "pdf_url": "https://arxiv.org/pdf/2606.19733v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "8 pages, 4 figures, 6 tables. Accepted to the 2026 IEEE International Conference on Systems, Man, and Cybernetics (SMC 2026)",
+      "entry_id": "http://arxiv.org/abs/2606.19733v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2606.19733v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2606.19733v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ],
+      "llm_approved": true
+    },
+    "2606.19609": {
+      "title": "Building Drift: Documenting On-Site Construction Adaptations Across Material Lifecycles",
+      "authors": [
+        "Ritik Batra",
+        "Martin Tamke",
+        "Tom Svilans",
+        "Jan Hüls",
+        "Amritansh Kwatra",
+        "Steven J. Jackson",
+        "Thijs Roumen",
+        "Mette Ramsgaard Thomsen"
+      ],
+      "published": "2026-06-17T21:23:16+00:00",
+      "updated": "2026-06-17T21:23:16+00:00",
+      "summary": "In a circular economy for construction, reclaimed materials carry prior lives of use and go on to have post-lives in future buildings. Yet working with such materials introduces unpredictability that requires on-site improvisation, making their reuse challenging to document and scale across building lifetimes. Without documentation, the on-site adaptations that make construction with reclaimed materials possible leave collaborators, evaluators, and inheritors without the information they need to continue, assess, and reuse materials. We call the collective deviation of the physical state from the digital model through these adaptations \"building drift.\" Through a case study, ReShelter, a reclaimed timber pavilion constructed in the forest, we develop a taxonomy for building drift that characterizes the collective deviation across building lifetimes: Tending the Site, Foraging for Fit, Interpreting the Material, Marking Measurements, and Coordinating Across Communities.\n  To put our taxonomy for building drift into practice, we present Pentimento, a documentation tool that leverages video documentation and 3D Gaussian Splatting to spatially, temporally, and semantically represent on-site adaptations in relation to the designed model. Pentimento enables each stakeholder to navigate material histories in ways that reduce barriers to material reuse. Together, these contributions open pathways towards computational tools that support the on-site improvisation essential to construction with reclaimed materials, enabling more sustainable cycles of recovery, repair, and reuse.",
+      "categories": [
+        "cs.HC",
+        "cs.GR"
+      ],
+      "primary_category": "cs.HC",
+      "pdf_url": "https://arxiv.org/pdf/2606.19609v1",
+      "journal_ref": null,
+      "doi": null,
+      "comment": "In submission",
+      "entry_id": "http://arxiv.org/abs/2606.19609v1",
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2606.19609v1",
+          "title": null,
+          "rel": "alternate",
+          "content_type": "text/html"
+        },
+        {
+          "href": "https://arxiv.org/pdf/2606.19609v1",
+          "title": "pdf",
+          "rel": "related",
+          "content_type": "application/pdf"
+        }
+      ],
+      "llm_approved": true
+    },
     "2606.19099": {
       "title": "IllustrisTNG50 angular momentum maps: tracing the morpho-kinematic evolution of galaxies",
       "authors": [
@@ -360,26 +563,26 @@
         "Dzmitry Tsetserukou"
       ],
       "published": "2026-06-15T14:26:02+00:00",
-      "updated": "2026-06-15T14:26:02+00:00",
+      "updated": "2026-06-18T10:52:53+00:00",
       "summary": "Exploration and object search require robots to perceive their environment, identify regions of interest, and plan trajectories that improve target-detection likelihood or maximize information gain. Many IPP methods, especially in continuous environmental monitoring, rely on Gaussian-process belief models, while object-search settings often produce complex, multimodal belief maps from semantic or open-vocabulary perception. Global trajectory generation directly conditioned on such non-Gaussian belief maps remains comparatively underexplored. Although diffusion-based planners offer strong capabilities for modeling such distributions, their use in informative path planning remains limited. In this work, we propose DIFF-IPPO, a pipeline that integrates an open-vocabulary belief map generator with a diffusion-based planner for global trajectory generation over belief maps. The method generates trajectories that concentrate sensor coverage over high-belief regions, achieving normalized detection scores between 81.49% and 86.55% across different dataset scenarios. We validate the system in a simulated search-and-rescue scenario where the planner searches candidate building regions to locate a burning building. In this setting, a team of five drones using batched belief-map-conditioned trajectory generation achieves first detections in 3.5 minutes.",
       "categories": [
         "cs.RO"
       ],
       "primary_category": "cs.RO",
-      "pdf_url": "https://arxiv.org/pdf/2606.16780v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.16780v2",
       "journal_ref": null,
       "doi": null,
       "comment": null,
-      "entry_id": "http://arxiv.org/abs/2606.16780v1",
+      "entry_id": "http://arxiv.org/abs/2606.16780v2",
       "links": [
         {
-          "href": "https://arxiv.org/abs/2606.16780v1",
+          "href": "https://arxiv.org/abs/2606.16780v2",
           "title": null,
           "rel": "alternate",
           "content_type": "text/html"
         },
         {
-          "href": "https://arxiv.org/pdf/2606.16780v1",
+          "href": "https://arxiv.org/pdf/2606.16780v2",
           "title": "pdf",
           "rel": "related",
           "content_type": "application/pdf"
